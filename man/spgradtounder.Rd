@@ -33,13 +33,13 @@ L. Ratio of Graduate to Undergraduate students.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/80/vshow}{GSS Data Explorer page for \code{spgradtounder}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab 0-.210 graduate student per undergraduate student \tab .211 or over \tab no answer \tab Total \cr
-   2012 \tab 1746 \tab 78 \tab 149 \tab 1 \tab 1974 \cr
-   2014 \tab 2181 \tab 126 \tab 230 \tab 1 \tab 2538 \cr
-   2016 \tab 2521 \tab 108 \tab 238 \tab - \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab 2348 \cr
-   Total \tab 8796 \tab 312 \tab 617 \tab 2 \tab 9727 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab 0-.210 graduate student per undergraduate student \tab .211 or over \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1746 \tab 78 \tab 149 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab 2181 \tab 126 \tab 230 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 2521 \tab 108 \tab 238 \tab - \tab - \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 8796 \tab 312 \tab 617 \tab 2 \tab 0 \tab 9727 \cr
 }
 }
 

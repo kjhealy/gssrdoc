@@ -40,10 +40,10 @@ C. Third distinct subject mentioned
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2659/vshow}{GSS Data Explorer page for \code{freemns3}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab want:doing what i want \tab autonomy:self-realization \tab choices:making decision \tab rights:religion and speech \tab movement:movement and travel \tab negative:slave surbordinate discrimination \tab citizen:political participation \tab security:economic independence \tab other \tab Total \cr
-   2000 \tab 2623 \tab 28 \tab 9 \tab 21 \tab 53 \tab 14 \tab 18 \tab 16 \tab 17 \tab 18 \tab 2817 \cr
-   Total \tab 2623 \tab 28 \tab 9 \tab 21 \tab 53 \tab 14 \tab 18 \tab 16 \tab 17 \tab 18 \tab 2817 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab want:doing what i want \tab autonomy:self-realization \tab choices:making decision \tab rights:religion and speech \tab movement:movement and travel \tab negative:slave surbordinate discrimination \tab citizen:political participation \tab security:economic independence \tab other \tab not available in this year \tab Total \cr
+   2000 \tab 2623 \tab 28 \tab 9 \tab 21 \tab 53 \tab 14 \tab 18 \tab 16 \tab 17 \tab 18 \tab - \tab 2817 \cr
+   Total \tab 2623 \tab 28 \tab 9 \tab 21 \tab 53 \tab 14 \tab 18 \tab 16 \tab 17 \tab 18 \tab 0 \tab 2817 \cr
 }
 }
 

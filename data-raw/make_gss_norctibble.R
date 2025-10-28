@@ -26,10 +26,10 @@ fetch_page <- function(page_num) {
     req_perform()
 }
 
-## Politely get 111 pages
+## Politely get pages
 resps <- map(1:111, \(page) {
   if (page > 1) {
-    Sys.sleep(5)
+    Sys.sleep(1)
   }
   fetch_page(page)
 })
@@ -73,6 +73,15 @@ gss_vars_df <- map(resps, extract_var_data) |>
   ungroup() |>
   select(-yr_len) |>
   distinct()
+
+## Missing / inconsistent names?
+
+# vars in gss_all not in NORC web gss_vars_df
+dplyr::setdiff(colnames(gss_all), tolower(gss_vars_df$var_name_lc))
+
+# vars in NORC web not in gss_all
+dplyr::setdiff(tolower(gss_vars_df$var_name_lc), colnames(gss_all))
+
 
 #gss_vars_df |>
 #  mutate(yr_len = lengths(years)) |>

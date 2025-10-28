@@ -34,10 +34,10 @@ Question I have easy access to natural environments, such as public parks, garde
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7186/vshow}{GSS Data Explorer page for \code{nataccess}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 885 \tab 214 \tab 30 \tab 16 \tab 4 \tab 24 \tab 2348 \cr
-   Total \tab 1175 \tab 885 \tab 214 \tab 30 \tab 16 \tab 4 \tab 24 \tab 2348 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 885 \tab 214 \tab 30 \tab 16 \tab 4 \tab 24 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 885 \tab 214 \tab 30 \tab 16 \tab 4 \tab 24 \tab 0 \tab 2348 \cr
 }
 }
 

@@ -33,10 +33,10 @@ Question Some people argue that more restrictions on handguns would decrease vio
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3058/vshow}{GSS Data Explorer page for \code{hguncrim}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab more restriction would decrease crime \tab more restriction would increase crime \tab unsure \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 1499 \tab 589 \tab 251 \tab 455 \tab 10 \tab 8 \tab 2812 \cr
-   Total \tab 1499 \tab 589 \tab 251 \tab 455 \tab 10 \tab 8 \tab 2812 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab more restriction would decrease crime \tab more restriction would increase crime \tab unsure \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1499 \tab 589 \tab 251 \tab 455 \tab 10 \tab 8 \tab - \tab 2812 \cr
+   Total \tab 1499 \tab 589 \tab 251 \tab 455 \tab 10 \tab 8 \tab 0 \tab 2812 \cr
 }
 }
 

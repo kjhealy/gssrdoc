@@ -36,17 +36,17 @@ A. Would you say that the balance has been strongly in favor of the benefits, or
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3326/vshow}{GSS Data Explorer page for \code{balpos}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab strongly in favor \tab slightly in favor \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2006 \tab 3225 \tab 871 \tab 390 \tab 23 \tab 1 \tab - \tab 4510 \cr
-   2008 \tab 1003 \tab 618 \tab 382 \tab 15 \tab 5 \tab - \tab 2023 \cr
-   2010 \tab 1575 \tab 302 \tab 144 \tab 16 \tab 7 \tab - \tab 2044 \cr
-   2012 \tab 1255 \tab 505 \tab 187 \tab 16 \tab 11 \tab - \tab 1974 \cr
-   2014 \tab 1703 \tab 520 \tab 303 \tab 11 \tab 1 \tab - \tab 2538 \cr
-   2016 \tab 1852 \tab 621 \tab 369 \tab 17 \tab 8 \tab - \tab 2867 \cr
-   2018 \tab 1478 \tab 531 \tab 320 \tab 10 \tab 9 \tab - \tab 2348 \cr
-   2021 \tab 2932 \tab 824 \tab 249 \tab 3 \tab 22 \tab 2 \tab 4032 \cr
-   Total \tab 15023 \tab 4792 \tab 2344 \tab 111 \tab 64 \tab 2 \tab 22336 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strongly in favor \tab slightly in favor \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2006 \tab 3225 \tab 871 \tab 390 \tab 23 \tab 1 \tab - \tab - \tab 4510 \cr
+   2008 \tab 1003 \tab 618 \tab 382 \tab 15 \tab 5 \tab - \tab - \tab 2023 \cr
+   2010 \tab 1575 \tab 302 \tab 144 \tab 16 \tab 7 \tab - \tab - \tab 2044 \cr
+   2012 \tab 1255 \tab 505 \tab 187 \tab 16 \tab 11 \tab - \tab - \tab 1974 \cr
+   2014 \tab 1703 \tab 520 \tab 303 \tab 11 \tab 1 \tab - \tab - \tab 2538 \cr
+   2016 \tab 1852 \tab 621 \tab 369 \tab 17 \tab 8 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1478 \tab 531 \tab 320 \tab 10 \tab 9 \tab - \tab - \tab 2348 \cr
+   2021 \tab 2932 \tab 824 \tab 249 \tab 3 \tab 22 \tab 2 \tab - \tab 4032 \cr
+   Total \tab 15023 \tab 4792 \tab 2344 \tab 111 \tab 64 \tab 2 \tab 0 \tab 22336 \cr
 }
 }
 

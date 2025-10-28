@@ -32,10 +32,10 @@ A. By what age should this normally occur?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2905/vshow}{GSS Data Explorer page for \code{supfam1}}.
 
-Counts by year:\tabular{llllllllllllllllllllllllll}{
-   year \tab iap \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 30 \tab 31 \tab 32 \tab 35 \tab 37 \tab 40 \tab 55 \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1483 \tab 7 \tab 3 \tab 58 \tab 12 \tab 62 \tab 116 \tab 100 \tab 65 \tab 92 \tab 373 \tab 61 \tab 37 \tab 55 \tab 9 \tab 138 \tab 1 \tab 7 \tab 14 \tab 2 \tab 1 \tab 1 \tab 65 \tab 3 \tab 2765 \cr
-   Total \tab 1483 \tab 7 \tab 3 \tab 58 \tab 12 \tab 62 \tab 116 \tab 100 \tab 65 \tab 92 \tab 373 \tab 61 \tab 37 \tab 55 \tab 9 \tab 138 \tab 1 \tab 7 \tab 14 \tab 2 \tab 1 \tab 1 \tab 65 \tab 3 \tab 2765 \cr
+Counts by year:\tabular{lllllllllllllllllllllllllll}{
+   year \tab iap \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 30 \tab 31 \tab 32 \tab 35 \tab 37 \tab 40 \tab 55 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1483 \tab 7 \tab 3 \tab 58 \tab 12 \tab 62 \tab 116 \tab 100 \tab 65 \tab 92 \tab 373 \tab 61 \tab 37 \tab 55 \tab 9 \tab 138 \tab 1 \tab 7 \tab 14 \tab 2 \tab 1 \tab 1 \tab 65 \tab 3 \tab - \tab 2765 \cr
+   Total \tab 1483 \tab 7 \tab 3 \tab 58 \tab 12 \tab 62 \tab 116 \tab 100 \tab 65 \tab 92 \tab 373 \tab 61 \tab 37 \tab 55 \tab 9 \tab 138 \tab 1 \tab 7 \tab 14 \tab 2 \tab 1 \tab 1 \tab 65 \tab 3 \tab 0 \tab 2765 \cr
 }
 }
 

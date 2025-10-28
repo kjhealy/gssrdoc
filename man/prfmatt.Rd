@@ -33,10 +33,10 @@ Question Did you attend this performance alone, with one other person, or with t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6214/vshow}{GSS Data Explorer page for \code{prfmatt}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab alone \tab with one other person \tab with two or more other people \tab no answer \tab Total \cr
-   2016 \tab 2433 \tab 19 \tab 190 \tab 217 \tab 8 \tab 2867 \cr
-   Total \tab 2433 \tab 19 \tab 190 \tab 217 \tab 8 \tab 2867 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab alone \tab with one other person \tab with two or more other people \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2433 \tab 19 \tab 190 \tab 217 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 2433 \tab 19 \tab 190 \tab 217 \tab 8 \tab 0 \tab 2867 \cr
 }
 }
 

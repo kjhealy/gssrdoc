@@ -36,17 +36,17 @@ B. Would you say that the balance has been strongly in favor of the harmful resu
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3327/vshow}{GSS Data Explorer page for \code{balneg}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab strongly in favor \tab slightly in favor \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 4380 \tab 39 \tab 87 \tab 3 \tab 1 \tab 4510 \cr
-   2008 \tab 1869 \tab 40 \tab 105 \tab 3 \tab 6 \tab 2023 \cr
-   2010 \tab 1982 \tab 15 \tab 40 \tab - \tab 7 \tab 2044 \cr
-   2012 \tab 1877 \tab 26 \tab 60 \tab 1 \tab 10 \tab 1974 \cr
-   2014 \tab 2415 \tab 28 \tab 92 \tab 2 \tab 1 \tab 2538 \cr
-   2016 \tab 2747 \tab 28 \tab 83 \tab 1 \tab 8 \tab 2867 \cr
-   2018 \tab 2222 \tab 25 \tab 89 \tab 3 \tab 9 \tab 2348 \cr
-   2021 \tab 3947 \tab 21 \tab 42 \tab - \tab 22 \tab 4032 \cr
-   Total \tab 21439 \tab 222 \tab 598 \tab 13 \tab 64 \tab 22336 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab strongly in favor \tab slightly in favor \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 4380 \tab 39 \tab 87 \tab 3 \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 1869 \tab 40 \tab 105 \tab 3 \tab 6 \tab - \tab 2023 \cr
+   2010 \tab 1982 \tab 15 \tab 40 \tab - \tab 7 \tab - \tab 2044 \cr
+   2012 \tab 1877 \tab 26 \tab 60 \tab 1 \tab 10 \tab - \tab 1974 \cr
+   2014 \tab 2415 \tab 28 \tab 92 \tab 2 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 2747 \tab 28 \tab 83 \tab 1 \tab 8 \tab - \tab 2867 \cr
+   2018 \tab 2222 \tab 25 \tab 89 \tab 3 \tab 9 \tab - \tab 2348 \cr
+   2021 \tab 3947 \tab 21 \tab 42 \tab - \tab 22 \tab - \tab 4032 \cr
+   Total \tab 21439 \tab 222 \tab 598 \tab 13 \tab 64 \tab 0 \tab 22336 \cr
 }
 }
 

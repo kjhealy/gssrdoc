@@ -36,10 +36,10 @@ D. ...that practicing a religion helps people to meet the right kind of people?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4715/vshow}{GSS Data Explorer page for \code{rightpeo}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 658 \tab 220 \tab 573 \tab 391 \tab 130 \tab 28 \tab 17 \tab 6 \tab 2023 \cr
-   Total \tab 658 \tab 220 \tab 573 \tab 391 \tab 130 \tab 28 \tab 17 \tab 6 \tab 2023 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 658 \tab 220 \tab 573 \tab 391 \tab 130 \tab 28 \tab 17 \tab 6 \tab - \tab 2023 \cr
+   Total \tab 658 \tab 220 \tab 573 \tab 391 \tab 130 \tab 28 \tab 17 \tab 6 \tab 0 \tab 2023 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Even though they are no longer drafted for military service, young men 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/816/vshow}{GSS Data Explorer page for \code{copunish}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 956 \tab 446 \tab 50 \tab 21 \tab 1473 \cr
-   Total \tab 0 \tab 956 \tab 446 \tab 50 \tab 21 \tab 1473 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 956 \tab 446 \tab 50 \tab 21 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 956 \tab 446 \tab 50 \tab 21 \tab 0 \tab 1473 \cr
 }
 }
 

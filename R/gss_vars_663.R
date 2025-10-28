@@ -24,10 +24,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |male |female |skipped on web |Total |
-#'  |:-----|:----|:----|:------|:--------------|:-----|
-#'  |2022  |2844 |316  |382    |2              |3544  |
-#'  |Total |2844 |316  |382    |2              |3544  |
+#'  |year  |not available in this year |male |female |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:----|:------|:----|:--------------|:-----|
+#'  |2022  |-                          |316  |382    |2844 |2              |3544  |
+#'  |Total |0                          |316  |382    |2844 |2              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -65,10 +65,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |skipped on web |Total |
-#'  |:-----|:----|:---|:----|:--------------|:-----|
-#'  |2022  |2308 |18  |1171 |47             |3544  |
-#'  |Total |2308 |18  |1171 |47             |3544  |
+#'  |year  |not available in this year |yes |no   |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:----|:----|:--------------|:-----|
+#'  |2022  |-                          |18  |1171 |2308 |47             |3544  |
+#'  |Total |0                          |18  |1171 |2308 |47             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -106,10 +106,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |not at all |2   |3  |4  |5   |6   |very |Total |
-#'  |:-----|:----|:----------|:---|:--|:--|:---|:---|:----|:-----|
-#'  |2022  |2504 |205        |113 |45 |59 |138 |132 |348  |3544  |
-#'  |Total |2504 |205        |113 |45 |59 |138 |132 |348  |3544  |
+#'  |year  |not available in this year |not at all |2   |3  |4  |5   |6   |very |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:----------|:---|:--|:--|:---|:---|:----|:----|:--------------|:-----|
+#'  |2022  |-                          |205        |113 |45 |59 |138 |132 |348  |2318 |186            |3544  |
+#'  |Total |0                          |205        |113 |45 |59 |138 |132 |348  |2318 |186            |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -147,10 +147,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |not at all |2   |3  |4  |5   |6   |very |Total |
-#'  |:-----|:----|:----------|:---|:--|:--|:---|:---|:----|:-----|
-#'  |2022  |2581 |192        |114 |70 |52 |109 |142 |284  |3544  |
-#'  |Total |2581 |192        |114 |70 |52 |109 |142 |284  |3544  |
+#'  |year  |not available in this year |not at all |2   |3  |4  |5   |6   |very |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:----------|:---|:--|:--|:---|:---|:----|:----|:--------------|:-----|
+#'  |2022  |-                          |192        |114 |70 |52 |109 |142 |283  |2318 |264            |3544  |
+#'  |Total |0                          |192        |114 |70 |52 |109 |142 |283  |2318 |264            |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -197,10 +197,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |protestant |catholic |jewish |none |other |buddhism |hinduism |muslim/islam |orthodox-christian |christian |native american |no answer |skipped on web |Total |
-#'  |:-----|:---|:----------|:--------|:------|:----|:-----|:--------|:--------|:------------|:------------------|:---------|:---------------|:---------|:--------------|:-----|
-#'  |2022  |-   |362        |242      |41     |384  |146   |10       |7        |12           |5                  |21        |1               |2308      |5              |3544  |
-#'  |Total |0   |362        |242      |41     |384  |146   |10       |7        |12           |5                  |21        |1               |2308      |5              |3544  |
+#'  |year  |not available in this year |protestant |catholic |jewish |none |other |buddhism |hinduism |muslim/islam |orthodox-christian |christian |native american |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:----------|:--------|:------|:----|:-----|:--------|:--------|:------------|:------------------|:---------|:---------------|:----|:--------------|:-----|
+#'  |2022  |-                          |361        |242      |41     |384  |146   |10       |7        |12           |5                  |21        |1               |2309 |5              |3544  |
+#'  |Total |0                          |361        |242      |41     |384  |146   |10       |7        |12           |5                  |21        |1               |2309 |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -261,10 +261,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |american baptist association |american baptist churches in the u.s.a. |southern baptist convention |other baptist churches |baptist, don't know which |african methodist episcopal church |african methodist episcopal zion church |united methodist church |other methodist churches |methodist, don't know which |american lutheran church |lutheran church in america |lutheran church - missouri synod |other lutheran churches |evangelical lutheran |lutheran, don't know which |presbyterian church in the u.s. |united presbyterian church in the u.s.a. |other presbyterian churches |presbyterian, merged |presbyterian, don't know which |episcopal church |other, specify |no denomination or non-denominational church |no answer |skipped on web |Total |
-#'  |:-----|:---|:----------------------------|:---------------------------------------|:---------------------------|:----------------------|:-------------------------|:----------------------------------|:---------------------------------------|:-----------------------|:------------------------|:---------------------------|:------------------------|:--------------------------|:--------------------------------|:-----------------------|:--------------------|:--------------------------|:-------------------------------|:----------------------------------------|:---------------------------|:--------------------|:------------------------------|:----------------|:--------------|:--------------------------------------------|:---------|:--------------|:-----|
-#'  |2022  |852 |8                            |1                                       |30                          |24                     |22                        |1                                  |1                                       |41                      |2                        |4                           |4                        |1                          |14                               |3                       |11                   |8                          |5                               |4                                        |2                           |6                    |5                              |14               |52             |116                                          |2308      |5              |3544  |
-#'  |Total |852 |8                            |1                                       |30                          |24                     |22                        |1                                  |1                                       |41                      |2                        |4                           |4                        |1                          |14                               |3                       |11                   |8                          |5                               |4                                        |2                           |6                    |5                              |14               |52             |116                                          |2308      |5              |3544  |
+#'  |year  |not available in this year |american baptist association |american baptist churches in the u.s.a. |southern baptist convention |other baptist churches |baptist, don't know which |african methodist episcopal church |african methodist episcopal zion church |united methodist church |other methodist churches |methodist, don't know which |american lutheran church |lutheran church in america |lutheran church - missouri synod |other lutheran churches |evangelical lutheran |lutheran, don't know which |presbyterian church in the u.s. |united presbyterian church in the u.s.a. |other presbyterian churches |presbyterian, merged |presbyterian, don't know which |episcopal church |other, specify |no denomination or non-denominational church |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:----------------------------|:---------------------------------------|:---------------------------|:----------------------|:-------------------------|:----------------------------------|:---------------------------------------|:-----------------------|:------------------------|:---------------------------|:------------------------|:--------------------------|:--------------------------------|:-----------------------|:--------------------|:--------------------------|:-------------------------------|:----------------------------------------|:---------------------------|:--------------------|:------------------------------|:----------------|:--------------|:--------------------------------------------|:----|:--------------|:-----|
+#'  |2022  |-                          |8                            |1                                       |30                          |24                     |22                        |1                                  |1                                       |41                      |2                        |4                           |4                        |1                          |13                               |3                       |11                   |8                          |5                               |4                                        |2                           |6                    |5                              |14               |52             |95                                           |3182 |5              |3544  |
+#'  |Total |0                          |8                            |1                                       |30                          |24                     |22                        |1                                  |1                                       |41                      |2                        |4                           |4                        |1                          |13                               |3                       |11                   |8                          |5                               |4                                        |2                           |6                    |5                              |14               |52             |95                                           |3182 |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -303,10 +303,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |orthodox |conservative |reform |none of these |other |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------|:------------|:------|:-------------|:-----|:---------|:--------------|:-----|
-#'  |2022  |1190 |5        |7            |15     |9             |5     |2308      |5              |3544  |
-#'  |Total |1190 |5        |7            |15     |9             |5     |2308      |5              |3544  |
+#'  |year  |not available in this year |orthodox |conservative |reform |none of these |other |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:--------|:------------|:------|:-------------|:-----|:----|:--------------|:-----|
+#'  |2022  |-                          |5        |7            |15     |9             |5     |3498 |5              |3544  |
+#'  |Total |0                          |5        |7            |15     |9             |5     |3498 |5              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -341,10 +341,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |completed |Total |
-#'  |:-----|:----|:---------|:-----|
-#'  |2022  |2309 |1235      |3544  |
-#'  |Total |2309 |1235      |3544  |
+#'  |year  |not available in this year |completed |iap  |not available in this release |Total |
+#'  |:-----|:--------------------------|:---------|:----|:-----------------------------|:-----|
+#'  |2022  |-                          |1235      |2309 |-                             |3544  |
+#'  |Total |0                          |1235      |2309 |0                             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -380,10 +380,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |skipped on web |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:--------------|:-----|
-#'  |2022  |2339 |672 |484 |42         |5         |2              |3544  |
-#'  |Total |2339 |672 |484 |42         |5         |2              |3544  |
+#'  |year  |not available in this year |yes  |no  |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:----|:---|:----------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |672  |484 |42         |2339 |5         |2              |3544  |
+#'  |2024  |-                          |564  |505 |29         |2200 |1         |10             |3309  |
+#'  |Total |0                          |1236 |989 |71         |4539 |6         |12             |6853  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -419,10 +420,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |skipped on web |Total |
-#'  |:-----|:----|:---|:----|:----------|:--------------|:-----|
-#'  |2022  |2339 |87  |1093 |24         |1              |3544  |
-#'  |Total |2339 |87  |1093 |24         |1              |3544  |
+#'  |year  |not available in this year |yes |no   |don't know |iap  |skipped on web |no answer |Total |
+#'  |:-----|:--------------------------|:---|:----|:----------|:----|:--------------|:---------|:-----|
+#'  |2022  |-                          |87  |1093 |24         |2339 |1              |-         |3544  |
+#'  |2024  |-                          |67  |1014 |18         |2200 |7              |3         |3309  |
+#'  |Total |0                          |154 |2107 |42         |4539 |8              |3         |6853  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

@@ -36,10 +36,10 @@ A. What about "undocumented aliens," that is, those who have immigrated to this 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1617/vshow}{GSS Data Explorer page for \code{undocwrk}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes, entitled \tab no, not entitled \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 192 \tab 1210 \tab 63 \tab 9 \tab 2992 \cr
-   Total \tab 1518 \tab 192 \tab 1210 \tab 63 \tab 9 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, entitled \tab no, not entitled \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 192 \tab 1210 \tab 63 \tab 9 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 192 \tab 1210 \tab 63 \tab 9 \tab 0 \tab 2992 \cr
 }
 }
 

@@ -32,14 +32,14 @@ Question In your job are you eligible for any type of performance-based pay, suc
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2855/vshow}{GSS Data Explorer page for \code{extrapay}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2002 \tab 969 \tab 597 \tab 1164 \tab 19 \tab 16 \tab - \tab 2765 \cr
-   2006 \tab 2778 \tab 644 \tab 1046 \tab 25 \tab 17 \tab - \tab 4510 \cr
-   2014 \tab 1765 \tab 261 \tab 502 \tab 7 \tab 3 \tab - \tab 2538 \cr
-   2018 \tab 900 \tab 500 \tab 898 \tab 18 \tab 32 \tab - \tab 2348 \cr
-   2022 \tab 2569 \tab 322 \tab 599 \tab 37 \tab 7 \tab 10 \tab 3544 \cr
-   Total \tab 8981 \tab 2324 \tab 4209 \tab 106 \tab 75 \tab 10 \tab 15705 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2002 \tab 969 \tab 597 \tab 1164 \tab 19 \tab 16 \tab - \tab - \tab 2765 \cr
+   2006 \tab 2778 \tab 644 \tab 1046 \tab 25 \tab 17 \tab - \tab - \tab 4510 \cr
+   2014 \tab 1765 \tab 261 \tab 502 \tab 7 \tab 3 \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 500 \tab 898 \tab 18 \tab 32 \tab - \tab - \tab 2348 \cr
+   2022 \tab 2569 \tab 322 \tab 599 \tab 37 \tab 7 \tab 10 \tab - \tab 3544 \cr
+   Total \tab 8981 \tab 2324 \tab 4209 \tab 106 \tab 75 \tab 10 \tab 0 \tab 15705 \cr
 }
 }
 

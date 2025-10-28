@@ -33,10 +33,10 @@ E8. Is eighth child alive?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1526/vshow}{GSS Data Explorer page for \code{kdalive8}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1994 \tab 2975 \tab 15 \tab 1 \tab 1 \tab 2992 \cr
-   Total \tab 2975 \tab 15 \tab 1 \tab 1 \tab 2992 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2975 \tab 15 \tab 1 \tab 1 \tab - \tab 2992 \cr
+   Total \tab 2975 \tab 15 \tab 1 \tab 1 \tab 0 \tab 2992 \cr
 }
 }
 

@@ -32,15 +32,15 @@ Question A. In the past 12 months, have you had back pain every day for a week o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2831/vshow}{GSS Data Explorer page for \code{backpain}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2002 \tab 969 \tab 506 \tab 1270 \tab 5 \tab 15 \tab - \tab 2765 \cr
-   2006 \tab 2776 \tab 475 \tab 1248 \tab 1 \tab 10 \tab - \tab 4510 \cr
-   2010 \tab 857 \tab 297 \tab 863 \tab 1 \tab 26 \tab - \tab 2044 \cr
-   2014 \tab 1288 \tab 285 \tab 960 \tab - \tab 5 \tab - \tab 2538 \cr
-   2018 \tab 900 \tab 378 \tab 1036 \tab - \tab 34 \tab - \tab 2348 \cr
-   2022 \tab 1558 \tab 542 \tab 1401 \tab 3 \tab 17 \tab 23 \tab 3544 \cr
-   Total \tab 8348 \tab 2483 \tab 6778 \tab 10 \tab 107 \tab 23 \tab 17749 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2002 \tab 969 \tab 506 \tab 1270 \tab 5 \tab 15 \tab - \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 475 \tab 1248 \tab 1 \tab 10 \tab - \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 297 \tab 863 \tab 1 \tab 26 \tab - \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 285 \tab 960 \tab - \tab 5 \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 378 \tab 1036 \tab - \tab 34 \tab - \tab - \tab 2348 \cr
+   2022 \tab 1558 \tab 542 \tab 1401 \tab 3 \tab 17 \tab 23 \tab - \tab 3544 \cr
+   Total \tab 8348 \tab 2483 \tab 6778 \tab 10 \tab 107 \tab 23 \tab 0 \tab 17749 \cr
 }
 }
 

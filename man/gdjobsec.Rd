@@ -34,10 +34,10 @@ Question L. At work, job security is good.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3009/vshow}{GSS Data Explorer page for \code{gdjobsec}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 945 \tab 971 \tab 597 \tab 165 \tab 76 \tab 15 \tab 43 \tab 2812 \cr
-   Total \tab 945 \tab 971 \tab 597 \tab 165 \tab 76 \tab 15 \tab 43 \tab 2812 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 945 \tab 971 \tab 597 \tab 165 \tab 76 \tab 15 \tab 43 \tab - \tab 2812 \cr
+   Total \tab 945 \tab 971 \tab 597 \tab 165 \tab 76 \tab 15 \tab 43 \tab 0 \tab 2812 \cr
 }
 }
 

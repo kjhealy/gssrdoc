@@ -33,10 +33,10 @@ C. From a friend.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1278/vshow}{GSS Data Explorer page for \code{fndjob3}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1991 \tab 605 \tab 250 \tab 555 \tab 107 \tab 1517 \cr
-   Total \tab 605 \tab 250 \tab 555 \tab 107 \tab 1517 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 605 \tab 250 \tab 555 \tab 107 \tab - \tab 1517 \cr
+   Total \tab 605 \tab 250 \tab 555 \tab 107 \tab 0 \tab 1517 \cr
 }
 }
 

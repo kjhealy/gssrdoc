@@ -30,10 +30,10 @@ Question NUMBER OF SIBLING SELECTED FOR FOLLOW-UP QUESTIONS:
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1581/vshow}{GSS Data Explorer page for \code{sbpicked}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab Total \cr
-   1994 \tab 330 \tab 1136 \tab 637 \tab 377 \tab 213 \tab 105 \tab 100 \tab 41 \tab 33 \tab 20 \tab 2992 \cr
-   Total \tab 330 \tab 1136 \tab 637 \tab 377 \tab 213 \tab 105 \tab 100 \tab 41 \tab 33 \tab 20 \tab 2992 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab not available in this year \tab Total \cr
+   1994 \tab 330 \tab 1136 \tab 637 \tab 377 \tab 213 \tab 105 \tab 100 \tab 41 \tab 33 \tab 20 \tab - \tab 2992 \cr
+   Total \tab 330 \tab 1136 \tab 637 \tab 377 \tab 213 \tab 105 \tab 100 \tab 41 \tab 33 \tab 20 \tab 0 \tab 2992 \cr
 }
 }
 

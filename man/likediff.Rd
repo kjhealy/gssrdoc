@@ -34,13 +34,13 @@ Question A. People picture life after death in many different ways. We'd like to
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/311/vshow}{GSS Data Explorer page for \code{likediff}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab better than earth \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab life lacking \tab don't know \tab no answer \tab Total \cr
-   1986 \tab 246 \tab 503 \tab 125 \tab 111 \tab 224 \tab 68 \tab 32 \tab 114 \tab 21 \tab 26 \tab 1470 \cr
-   1987 \tab 369 \tab 584 \tab 148 \tab 132 \tab 226 \tab 77 \tab 64 \tab 132 \tab 26 \tab 61 \tab 1819 \cr
-   1988 \tab 282 \tab 492 \tab 116 \tab 100 \tab 224 \tab 69 \tab 35 \tab 100 \tab 16 \tab 47 \tab 1481 \cr
-   1989 \tab 749 \tab 310 \tab 86 \tab 77 \tab 137 \tab 45 \tab 27 \tab 60 \tab 10 \tab 36 \tab 1537 \cr
-   Total \tab 1646 \tab 1889 \tab 475 \tab 420 \tab 811 \tab 259 \tab 158 \tab 406 \tab 73 \tab 170 \tab 6307 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab better than earth \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab life lacking \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 246 \tab 503 \tab 125 \tab 111 \tab 224 \tab 68 \tab 32 \tab 114 \tab 21 \tab 26 \tab - \tab 1470 \cr
+   1987 \tab 369 \tab 584 \tab 148 \tab 132 \tab 226 \tab 77 \tab 64 \tab 132 \tab 26 \tab 61 \tab - \tab 1819 \cr
+   1988 \tab 282 \tab 492 \tab 116 \tab 100 \tab 224 \tab 69 \tab 35 \tab 100 \tab 16 \tab 47 \tab - \tab 1481 \cr
+   1989 \tab 749 \tab 310 \tab 86 \tab 77 \tab 137 \tab 45 \tab 27 \tab 60 \tab 10 \tab 36 \tab - \tab 1537 \cr
+   Total \tab 1646 \tab 1889 \tab 475 \tab 420 \tab 811 \tab 259 \tab 158 \tab 406 \tab 73 \tab 170 \tab 0 \tab 6307 \cr
 }
 }
 

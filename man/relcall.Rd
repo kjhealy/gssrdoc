@@ -37,10 +37,10 @@ C. And how often do you have any other contact with your relative besides visiti
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4161/vshow}{GSS Data Explorer page for \code{relcall}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab Total \cr
-   1986 \tab 172 \tab 134 \tab 189 \tab 271 \tab 339 \tab 191 \tab 166 \tab 8 \tab 1470 \cr
-   Total \tab 172 \tab 134 \tab 189 \tab 271 \tab 339 \tab 191 \tab 166 \tab 8 \tab 1470 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 172 \tab 134 \tab 189 \tab 271 \tab 339 \tab 191 \tab 166 \tab 8 \tab - \tab 1470 \cr
+   Total \tab 172 \tab 134 \tab 189 \tab 271 \tab 339 \tab 191 \tab 166 \tab 8 \tab 0 \tab 1470 \cr
 }
 }
 

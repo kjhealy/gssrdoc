@@ -37,12 +37,12 @@ D. A doctor, nurse, or other medical professional?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2520/vshow}{GSS Data Explorer page for \code{hlthdoc}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab Total \cr
-   2000 \tab 2412 \tab 58 \tab 206 \tab 122 \tab 19 \tab - \tab 2817 \cr
-   2002 \tab 2104 \tab 136 \tab 297 \tab 133 \tab 6 \tab 89 \tab 2765 \cr
-   2004 \tab 2209 \tab 97 \tab 218 \tab 139 \tab 6 \tab 143 \tab 2812 \cr
-   Total \tab 6725 \tab 291 \tab 721 \tab 394 \tab 31 \tab 232 \tab 8394 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab not available in this year \tab Total \cr
+   2000 \tab 2412 \tab 58 \tab 206 \tab 122 \tab 19 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2104 \tab 136 \tab 297 \tab 133 \tab 6 \tab 89 \tab - \tab 2765 \cr
+   2004 \tab 2209 \tab 97 \tab 218 \tab 139 \tab 6 \tab 143 \tab - \tab 2812 \cr
+   Total \tab 6725 \tab 291 \tab 721 \tab 394 \tab 31 \tab 232 \tab 0 \tab 8394 \cr
 }
 }
 

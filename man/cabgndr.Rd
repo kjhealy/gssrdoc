@@ -35,10 +35,10 @@ Question People may have different opinions about whether women or men are best 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7783/vshow}{GSS Data Explorer page for \code{cabgndr}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab women are much better suited \tab women are somewhat better suited \tab women and men are equally suited \tab men are somewhat better suited \tab men are much better suited \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2386 \tab 30 \tab 51 \tab 888 \tab 58 \tab 23 \tab 93 \tab 11 \tab 4 \tab 3544 \cr
-   Total \tab 2386 \tab 30 \tab 51 \tab 888 \tab 58 \tab 23 \tab 93 \tab 11 \tab 4 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab women are much better suited \tab women are somewhat better suited \tab women and men are equally suited \tab men are somewhat better suited \tab men are much better suited \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 30 \tab 51 \tab 888 \tab 58 \tab 23 \tab 93 \tab 2386 \tab 11 \tab 4 \tab 3544 \cr
+   Total \tab 0 \tab 30 \tab 51 \tab 888 \tab 58 \tab 23 \tab 93 \tab 2386 \tab 11 \tab 4 \tab 3544 \cr
 }
 }
 

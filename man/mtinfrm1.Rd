@@ -35,10 +35,10 @@ Question Q. Do any of the other informal groups meet in this area?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3293/vshow}{GSS Data Explorer page for \code{mtinfrm1}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2412 \tab 282 \tab 83 \tab 16 \tab 19 \tab 2812 \cr
-   Total \tab 2412 \tab 282 \tab 83 \tab 16 \tab 19 \tab 2812 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2412 \tab 282 \tab 83 \tab 16 \tab 19 \tab - \tab 2812 \cr
+   Total \tab 2412 \tab 282 \tab 83 \tab 16 \tab 19 \tab 0 \tab 2812 \cr
 }
 }
 

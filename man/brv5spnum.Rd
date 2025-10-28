@@ -32,24 +32,24 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7903/vshow}{GSS Data Explorer page for \code{brv5spnum}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab 0 \tab 1 \tab skipped on web \tab Total \cr
-   2022 \tab 3476 \tab 8 \tab 44 \tab 16 \tab 3544 \cr
-   Total \tab 3476 \tab 8 \tab 44 \tab 16 \tab 3544 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab not available in this year \tab 0 \tab 1 \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 8 \tab 42 \tab 3478 \tab 16 \tab 3544 \cr
+   Total \tab 0 \tab 8 \tab 42 \tab 3478 \tab 16 \tab 3544 \cr
 }
 }
 
 \seealso{
 Other GSS Next: 
+\code{\link{blkdsrv}},
+\code{\link{blktry}},
+\code{\link{brv5}},
 \code{\link{brv5child}},
-\code{\link{brv5dadnum}},
-\code{\link{brv5filnum}},
 \code{\link{brv5grand}},
-\code{\link{brv5momnum}},
 \code{\link{brv5oth}},
 \code{\link{brv5par}},
-\code{\link{brv5partnum}},
-\code{\link{brv5sib}}
+\code{\link{brv5sib}},
+\code{\link{brv5sp}}
 }
 \concept{GSS Next}
 \keyword{variable}

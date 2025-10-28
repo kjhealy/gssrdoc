@@ -37,10 +37,10 @@ Question G. To which of the following should America give priority in order to m
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4807/vshow}{GSS Data Explorer page for \code{futenrgy}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab coal, oil and natural gas \tab nuclear power \tab solar, wind or water power \tab fuels made from crops \tab fuels made from waste \tab none of them \tab can't choose \tab don't know \tab no answer \tab Total \cr
-   2010 \tab 614 \tab 170 \tab 144 \tab 650 \tab 57 \tab 162 \tab 25 \tab 204 \tab 12 \tab 6 \tab 2044 \cr
-   Total \tab 614 \tab 170 \tab 144 \tab 650 \tab 57 \tab 162 \tab 25 \tab 204 \tab 12 \tab 6 \tab 2044 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab coal, oil and natural gas \tab nuclear power \tab solar, wind or water power \tab fuels made from crops \tab fuels made from waste \tab none of them \tab can't choose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 614 \tab 170 \tab 144 \tab 650 \tab 57 \tab 162 \tab 25 \tab 204 \tab 12 \tab 6 \tab - \tab 2044 \cr
+   Total \tab 614 \tab 170 \tab 144 \tab 650 \tab 57 \tab 162 \tab 25 \tab 204 \tab 12 \tab 6 \tab 0 \tab 2044 \cr
 }
 }
 

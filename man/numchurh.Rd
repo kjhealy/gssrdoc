@@ -31,10 +31,10 @@ Question O. How many church-affiliated groups do you belong to?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3141/vshow}{GSS Data Explorer page for \code{numchurh}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 6 \tab no answer \tab Total \cr
-   2004 \tab 2352 \tab 395 \tab 32 \tab 15 \tab 4 \tab 1 \tab 13 \tab 2812 \cr
-   Total \tab 2352 \tab 395 \tab 32 \tab 15 \tab 4 \tab 1 \tab 13 \tab 2812 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 6 \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2352 \tab 395 \tab 32 \tab 15 \tab 4 \tab 1 \tab 13 \tab - \tab 2812 \cr
+   Total \tab 2352 \tab 395 \tab 32 \tab 15 \tab 4 \tab 1 \tab 13 \tab 0 \tab 2812 \cr
 }
 }
 

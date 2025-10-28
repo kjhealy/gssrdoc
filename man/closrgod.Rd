@@ -36,10 +36,10 @@ Question I desire to be closer to God or in union with Him.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3092/vshow}{GSS Data Explorer page for \code{closrgod}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never or almost never \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 1472 \tab 235 \tab 444 \tab 189 \tab 161 \tab 139 \tab 144 \tab 11 \tab 17 \tab 2812 \cr
-   Total \tab 1472 \tab 235 \tab 444 \tab 189 \tab 161 \tab 139 \tab 144 \tab 11 \tab 17 \tab 2812 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never or almost never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1472 \tab 235 \tab 444 \tab 189 \tab 161 \tab 139 \tab 144 \tab 11 \tab 17 \tab - \tab 2812 \cr
+   Total \tab 1472 \tab 235 \tab 444 \tab 189 \tab 161 \tab 139 \tab 144 \tab 11 \tab 17 \tab 0 \tab 2812 \cr
 }
 }
 

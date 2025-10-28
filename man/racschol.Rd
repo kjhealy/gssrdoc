@@ -32,16 +32,16 @@ Question Was the high school you attended all black, integrated - but mostly bla
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/394/vshow}{GSS Data Explorer page for \code{racschol}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab same schools \tab separate schools \tab don't know \tab no answer \tab iap \tab Total \cr
-   1972 \tab 1381 \tab 193 \tab 32 \tab 7 \tab - \tab 1613 \cr
-   1976 \tab 1250 \tab 207 \tab 39 \tab 3 \tab - \tab 1499 \cr
-   1977 \tab 1298 \tab 197 \tab 25 \tab 10 \tab - \tab 1530 \cr
-   1980 \tab 1273 \tab 160 \tab 29 \tab 6 \tab - \tab 1468 \cr
-   1982 \tab 1670 \tab 141 \tab 43 \tab 6 \tab - \tab 1860 \cr
-   1984 \tab 1327 \tab 110 \tab 26 \tab 10 \tab - \tab 1473 \cr
-   1985 \tab 686 \tab 52 \tab 8 \tab 5 \tab 783 \tab 1534 \cr
-   Total \tab 8885 \tab 1060 \tab 202 \tab 47 \tab 783 \tab 10977 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab same schools \tab separate schools \tab don't know \tab no answer \tab iap \tab not available in this year \tab Total \cr
+   1972 \tab 1381 \tab 193 \tab 32 \tab 7 \tab - \tab - \tab 1613 \cr
+   1976 \tab 1250 \tab 207 \tab 39 \tab 3 \tab - \tab - \tab 1499 \cr
+   1977 \tab 1298 \tab 197 \tab 25 \tab 10 \tab - \tab - \tab 1530 \cr
+   1980 \tab 1273 \tab 160 \tab 29 \tab 6 \tab - \tab - \tab 1468 \cr
+   1982 \tab 1670 \tab 141 \tab 43 \tab 6 \tab - \tab - \tab 1860 \cr
+   1984 \tab 1327 \tab 110 \tab 26 \tab 10 \tab - \tab - \tab 1473 \cr
+   1985 \tab 686 \tab 52 \tab 8 \tab 5 \tab 783 \tab - \tab 1534 \cr
+   Total \tab 8885 \tab 1060 \tab 202 \tab 47 \tab 783 \tab 0 \tab 10977 \cr
 }
 }
 

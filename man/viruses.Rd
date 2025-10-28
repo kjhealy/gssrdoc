@@ -36,16 +36,16 @@ F. Antibiotics kill viruses as well as bacteria. (Is that true or false?)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3339/vshow}{GSS Data Explorer page for \code{viruses}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2006 \tab 2646 \tab 672 \tab 1021 \tab 170 \tab 1 \tab - \tab 4510 \cr
-   2008 \tab 518 \tab 584 \tab 799 \tab 113 \tab 9 \tab - \tab 2023 \cr
-   2010 \tab 1103 \tab 435 \tab 451 \tab 53 \tab 2 \tab - \tab 2044 \cr
-   2012 \tab 972 \tab 422 \tab 498 \tab 76 \tab 6 \tab - \tab 1974 \cr
-   2014 \tab 1299 \tab 529 \tab 641 \tab 68 \tab 1 \tab - \tab 2538 \cr
-   2016 \tab 1477 \tab 585 \tab 712 \tab 86 \tab 7 \tab - \tab 2867 \cr
-   2018 \tab 1173 \tab 512 \tab 597 \tab 62 \tab 4 \tab - \tab 2348 \cr
-   Total \tab 9188 \tab 3739 \tab 4719 \tab 628 \tab 30 \tab 0 \tab 18304 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 672 \tab 1021 \tab 170 \tab 1 \tab - \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 584 \tab 799 \tab 113 \tab 9 \tab - \tab - \tab 2023 \cr
+   2010 \tab 1103 \tab 435 \tab 451 \tab 53 \tab 2 \tab - \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 422 \tab 498 \tab 76 \tab 6 \tab - \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 529 \tab 641 \tab 68 \tab 1 \tab - \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 585 \tab 712 \tab 86 \tab 7 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 512 \tab 597 \tab 62 \tab 4 \tab - \tab - \tab 2348 \cr
+   Total \tab 9188 \tab 3739 \tab 4719 \tab 628 \tab 30 \tab 0 \tab 0 \tab 18304 \cr
 }
 }
 

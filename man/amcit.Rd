@@ -36,12 +36,13 @@ B. To have American citizenship
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4828/vshow}{GSS Data Explorer page for \code{amcit}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 1007 \tab 232 \tab 68 \tab 32 \tab 10 \tab 18 \tab 2904 \cr
-   2004 \tab 1596 \tab 999 \tab 159 \tab 37 \tab 11 \tab 9 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 903 \tab 272 \tab 56 \tab 28 \tab 12 \tab 3 \tab 2538 \cr
-   Total \tab 4397 \tab 2909 \tab 663 \tab 161 \tab 71 \tab 31 \tab 22 \tab 8254 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 1007 \tab 232 \tab 68 \tab 32 \tab 10 \tab 18 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 999 \tab 159 \tab 37 \tab 11 \tab 9 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 903 \tab 272 \tab 56 \tab 28 \tab 12 \tab 3 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1661 \tab 1028 \tab 416 \tab 95 \tab 60 \tab 31 \tab 3 \tab - \tab 15 \tab 3309 \cr
+   Total \tab 6058 \tab 3937 \tab 1079 \tab 256 \tab 131 \tab 62 \tab 25 \tab 0 \tab 15 \tab 11563 \cr
 }
 }
 

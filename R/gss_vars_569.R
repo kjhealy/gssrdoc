@@ -25,13 +25,13 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |1994  |1518 |995               |360             |65                  |30                    |13         |11        |2992  |
-#'  |1996  |1444 |1019              |317             |67                  |28                    |25         |4         |2904  |
-#'  |1998  |1445 |865               |362             |88                  |38                    |25         |9         |2832  |
-#'  |2000  |1398 |884               |370             |86                  |40                    |32         |7         |2817  |
-#'  |Total |5805 |3763              |1409            |306                 |136                   |95         |31        |11545 |
+#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1994  |1518 |995               |360             |65                  |30                    |13         |11        |-                          |2992  |
+#'  |1996  |1444 |1019              |317             |67                  |28                    |25         |4         |-                          |2904  |
+#'  |1998  |1445 |865               |362             |88                  |38                    |25         |9         |-                          |2832  |
+#'  |2000  |1398 |884               |370             |86                  |40                    |32         |7         |-                          |2817  |
+#'  |Total |5805 |3763              |1409            |306                 |136                   |95         |31        |0                          |11545 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -71,13 +71,13 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |1994  |1518 |421               |274             |362                 |364                   |41         |12        |2992  |
-#'  |1996  |1444 |416               |273             |390                 |327                   |50         |4         |2904  |
-#'  |1998  |1445 |358               |258             |349                 |367                   |46         |9         |2832  |
-#'  |2000  |1398 |394               |228             |362                 |384                   |42         |9         |2817  |
-#'  |Total |5805 |1589              |1033            |1463                |1442                  |179        |34        |11545 |
+#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1994  |1518 |421               |274             |362                 |364                   |41         |12        |-                          |2992  |
+#'  |1996  |1444 |416               |273             |390                 |327                   |50         |4         |-                          |2904  |
+#'  |1998  |1445 |358               |258             |349                 |367                   |46         |9         |-                          |2832  |
+#'  |2000  |1398 |394               |228             |362                 |384                   |42         |9         |-                          |2817  |
+#'  |Total |5805 |1589              |1033            |1463                |1442                  |179        |34        |0                          |11545 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -117,10 +117,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |1398 |846               |371             |90                  |49                    |53         |10        |2817  |
-#'  |Total |1398 |846               |371             |90                  |49                    |53         |10        |2817  |
+#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |846               |371             |90                  |49                    |53         |10        |-                          |2817  |
+#'  |Total |1398 |846               |371             |90                  |49                    |53         |10        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -159,10 +159,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |1398 |738               |406             |139                 |83                    |46         |7         |2817  |
-#'  |Total |1398 |738               |406             |139                 |83                    |46         |7         |2817  |
+#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |738               |406             |139                 |83                    |46         |7         |-                          |2817  |
+#'  |Total |1398 |738               |406             |139                 |83                    |46         |7         |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -201,10 +201,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |1398 |1053              |247             |32                  |32                    |45         |10        |2817  |
-#'  |Total |1398 |1053              |247             |32                  |32                    |45         |10        |2817  |
+#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |1053              |247             |32                  |32                    |45         |10        |-                          |2817  |
+#'  |Total |1398 |1053              |247             |32                  |32                    |45         |10        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -243,10 +243,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |favor indiv right |favor govt right |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:----------------|:----------|:---------|:-----|
-#'  |1994  |1518 |229               |1156             |79         |10        |2992  |
-#'  |Total |1518 |229               |1156             |79         |10        |2992  |
+#'  |year  |iap  |favor indiv right |favor govt right |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1994  |1518 |229               |1156             |79         |10        |-                          |2992  |
+#'  |Total |1518 |229               |1156             |79         |10        |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -285,11 +285,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |1996  |1444 |491               |573             |180                 |68                    |146        |2         |2904  |
-#'  |1998  |1445 |400               |624             |145                 |65                    |142        |11        |2832  |
-#'  |Total |2889 |891               |1197            |325                 |133                   |288        |13        |5736  |
+#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |491               |573             |180                 |68                    |146        |2         |-                          |2904  |
+#'  |1998  |1445 |400               |624             |145                 |65                    |142        |11        |-                          |2832  |
+#'  |Total |2889 |891               |1197            |325                 |133                   |288        |13        |0                          |5736  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -328,11 +328,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |1996  |1444 |842               |425             |97                  |44                    |50         |2         |2904  |
-#'  |1998  |1445 |736               |479             |72                  |30                    |59         |11        |2832  |
-#'  |Total |2889 |1578              |904             |169                 |74                    |109        |13        |5736  |
+#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |842               |425             |97                  |44                    |50         |2         |-                          |2904  |
+#'  |1998  |1445 |736               |479             |72                  |30                    |59         |11        |-                          |2832  |
+#'  |Total |2889 |1578              |904             |169                 |74                    |109        |13        |0                          |5736  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -371,11 +371,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |1996  |1444 |838               |373             |115                 |71                    |60         |3         |2904  |
-#'  |1998  |1445 |694               |427             |114                 |68                    |73         |11        |2832  |
-#'  |Total |2889 |1532              |800             |229                 |139                   |133        |14        |5736  |
+#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |838               |373             |115                 |71                    |60         |3         |-                          |2904  |
+#'  |1998  |1445 |694               |427             |114                 |68                    |73         |11        |-                          |2832  |
+#'  |Total |2889 |1532              |800             |229                 |139                   |133        |14        |0                          |5736  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -415,11 +415,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |1996  |1444 |382               |397             |351                 |241                   |87         |2         |2904  |
-#'  |1998  |1445 |320               |453             |318                 |197                   |87         |12        |2832  |
-#'  |Total |2889 |702               |850             |669                 |438                   |174        |14        |5736  |
+#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |382               |397             |351                 |241                   |87         |2         |-                          |2904  |
+#'  |1998  |1445 |320               |453             |318                 |197                   |87         |12        |-                          |2832  |
+#'  |Total |2889 |702               |850             |669                 |438                   |174        |14        |0                          |5736  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security

@@ -24,10 +24,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2012  |1457 |15             |147   |260      |24                |67         |4         |1974  |
-#'  |Total |1457 |15             |147   |260      |24                |67         |4         |1974  |
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1457 |15             |147   |260      |24                |67         |4         |-                          |1974  |
+#'  |Total |1457 |15             |147   |260      |24                |67         |4         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -68,10 +68,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2012  |1457 |15             |83    |286      |23                |106        |4         |1974  |
-#'  |Total |1457 |15             |83    |286      |23                |106        |4         |1974  |
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1457 |15             |83    |286      |23                |106        |4         |-                          |1974  |
+#'  |Total |1457 |15             |83    |286      |23                |106        |4         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -112,10 +112,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2012  |1457 |10             |71    |336      |65                |32         |3         |1974  |
-#'  |Total |1457 |10             |71    |336      |65                |32         |3         |1974  |
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1457 |10             |71    |336      |65                |32         |3         |-                          |1974  |
+#'  |Total |1457 |10             |71    |336      |65                |32         |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -155,10 +155,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |happy |not care |unhappy |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:--------|:-------|:----------|:---------|:-----|
-#'  |2012  |1489 |410   |68       |2       |2          |3         |1974  |
-#'  |Total |1489 |410   |68       |2       |2          |3         |1974  |
+#'  |year  |iap  |happy |not care |unhappy |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:--------|:-------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1489 |410   |68       |2       |2          |3         |-                          |1974  |
+#'  |Total |1489 |410   |68       |2       |2          |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -199,10 +199,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |happy |not care |unhappy |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:--------|:-------|:----------|:---------|:-----|
-#'  |2012  |1489 |419   |61       |1       |1          |3         |1974  |
-#'  |Total |1489 |419   |61       |1       |1          |3         |1974  |
+#'  |year  |iap  |happy |not care |unhappy |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:--------|:-------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1489 |419   |61       |1       |1          |3         |-                          |1974  |
+#'  |Total |1489 |419   |61       |1       |1          |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -242,10 +242,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |can't choose |no answer |Total |
-#'  |:-----|:----|:---|:---|:------------|:---------|:-----|
-#'  |2012  |1489 |126 |355 |1            |3         |1974  |
-#'  |Total |1489 |126 |355 |1            |3         |1974  |
+#'  |year  |iap  |yes |no  |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:------------|:---------|:--------------------------|:-----|
+#'  |2012  |1489 |126 |355 |1            |3         |-                          |1974  |
+#'  |Total |1489 |126 |355 |1            |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -287,10 +287,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |excellent |good |fair |poor |very poor |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:----|:----|:----|:---------|:----------|:---------|:-----|
-#'  |2012  |1489 |54        |142  |158  |79   |36        |13         |3         |1974  |
-#'  |Total |1489 |54        |142  |158  |79   |36        |13         |3         |1974  |
+#'  |year  |iap  |excellent |good |fair |poor |very poor |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:----|:----|:----|:---------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1489 |54        |142  |158  |79   |36        |13         |3         |-                          |1974  |
+#'  |Total |1489 |54        |142  |158  |79   |36        |13         |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -331,10 +331,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2012  |1489 |15             |86    |279      |51                |50         |4         |1974  |
-#'  |Total |1489 |15             |86    |279      |51                |50         |4         |1974  |
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1489 |15             |86    |279      |51                |50         |4         |-                          |1974  |
+#'  |Total |1489 |15             |86    |279      |51                |50         |4         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -375,10 +375,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2012  |1489 |30             |152   |227      |24                |49         |3         |1974  |
-#'  |Total |1489 |30             |152   |227      |24                |49         |3         |1974  |
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1489 |30             |152   |227      |24                |49         |3         |-                          |1974  |
+#'  |Total |1489 |30             |152   |227      |24                |49         |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -419,10 +419,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2012  |1489 |59             |319   |49       |5                 |49         |4         |1974  |
-#'  |Total |1489 |59             |319   |49       |5                 |49         |4         |1974  |
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1489 |59             |319   |49       |5                 |49         |4         |-                          |1974  |
+#'  |Total |1489 |59             |319   |49       |5                 |49         |4         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes

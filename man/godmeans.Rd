@@ -38,13 +38,13 @@ C. To me, life is meaningful only because God exists.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4659/vshow}{GSS Data Explorer page for \code{godmeans}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 298 \tab 305 \tab 312 \tab 190 \tab 133 \tab 58 \tab 63 \tab 1517 \cr
-   1998 \tab 1548 \tab 242 \tab 282 \tab 285 \tab 240 \tab 120 \tab 50 \tab 65 \tab 2832 \cr
-   2008 \tab 658 \tab 268 \tab 352 \tab 278 \tab 298 \tab 151 \tab 13 \tab 5 \tab 2023 \cr
-   2018 \tab 1173 \tab 253 \tab 264 \tab 226 \tab 240 \tab 174 \tab 7 \tab 11 \tab 2348 \cr
-   Total \tab 3537 \tab 1061 \tab 1203 \tab 1101 \tab 968 \tab 578 \tab 128 \tab 144 \tab 8720 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 298 \tab 305 \tab 312 \tab 190 \tab 133 \tab 58 \tab 63 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 242 \tab 282 \tab 285 \tab 240 \tab 120 \tab 50 \tab 65 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 268 \tab 352 \tab 278 \tab 298 \tab 151 \tab 13 \tab 5 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 253 \tab 264 \tab 226 \tab 240 \tab 174 \tab 7 \tab 11 \tab - \tab 2348 \cr
+   Total \tab 3537 \tab 1061 \tab 1203 \tab 1101 \tab 968 \tab 578 \tab 128 \tab 144 \tab 0 \tab 8720 \cr
 }
 }
 

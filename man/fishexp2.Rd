@@ -34,10 +34,10 @@ Question Why did you choose that answer?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3486/vshow}{GSS Data Explorer page for \code{fishexp2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab because i already know what affects the behavior of fish \tab because that is what is allowed to change in this experiment \tab because that is what stays the same in this experiment \tab because that is what the scientist decided to include in this experiment \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 709 \tab 131 \tab 489 \tab 151 \tab 278 \tab 236 \tab 29 \tab 2023 \cr
-   Total \tab 709 \tab 131 \tab 489 \tab 151 \tab 278 \tab 236 \tab 29 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab because i already know what affects the behavior of fish \tab because that is what is allowed to change in this experiment \tab because that is what stays the same in this experiment \tab because that is what the scientist decided to include in this experiment \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 709 \tab 131 \tab 489 \tab 151 \tab 278 \tab 236 \tab 29 \tab - \tab 2023 \cr
+   Total \tab 709 \tab 131 \tab 489 \tab 151 \tab 278 \tab 236 \tab 29 \tab 0 \tab 2023 \cr
 }
 }
 

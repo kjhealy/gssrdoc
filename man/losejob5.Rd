@@ -33,11 +33,11 @@ Question In the last five years, have you been denied a job or been fired from a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3921/vshow}{GSS Data Explorer page for \code{losejob5}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab not employed in last 5 years \tab no answer \tab Total \cr
-   2008 \tab 1980 \tab 5 \tab 5 \tab 1 \tab 32 \tab 2023 \cr
-   2012 \tab 1921 \tab 5 \tab 1 \tab 1 \tab 46 \tab 1974 \cr
-   Total \tab 3901 \tab 10 \tab 6 \tab 2 \tab 78 \tab 3997 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab not employed in last 5 years \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1980 \tab 5 \tab 5 \tab 1 \tab 32 \tab - \tab 2023 \cr
+   2012 \tab 1921 \tab 5 \tab 1 \tab 1 \tab 46 \tab - \tab 1974 \cr
+   Total \tab 3901 \tab 10 \tab 6 \tab 2 \tab 78 \tab 0 \tab 3997 \cr
 }
 }
 

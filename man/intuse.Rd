@@ -32,10 +32,10 @@ Question Do you use the internet or web-enabled applications, known as APPS, for
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6266/vshow}{GSS Data Explorer page for \code{intuse}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 911 \tab 1376 \tab 570 \tab 2 \tab 8 \tab 2867 \cr
-   Total \tab 911 \tab 1376 \tab 570 \tab 2 \tab 8 \tab 2867 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 911 \tab 1376 \tab 570 \tab 2 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 911 \tab 1376 \tab 570 \tab 2 \tab 8 \tab 0 \tab 2867 \cr
 }
 }
 

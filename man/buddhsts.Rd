@@ -35,10 +35,10 @@ Question What is your personal attitude towards members of the following religio
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7289/vshow}{GSS Data Explorer page for \code{buddhsts}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very positive \tab somewhat positive \tab neither positive nor negative \tab somewhat negative \tab very negative \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1173 \tab 199 \tab 299 \tab 496 \tab 51 \tab 58 \tab 56 \tab 16 \tab 2348 \cr
-   Total \tab 1173 \tab 199 \tab 299 \tab 496 \tab 51 \tab 58 \tab 56 \tab 16 \tab 2348 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very positive \tab somewhat positive \tab neither positive nor negative \tab somewhat negative \tab very negative \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1173 \tab 199 \tab 299 \tab 496 \tab 51 \tab 58 \tab 56 \tab 16 \tab - \tab 2348 \cr
+   Total \tab 1173 \tab 199 \tab 299 \tab 496 \tab 51 \tab 58 \tab 56 \tab 16 \tab 0 \tab 2348 \cr
 }
 }
 

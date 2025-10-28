@@ -43,11 +43,11 @@ Question (Besides the regular, weekly worship service,) What type of religious e
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5323/vshow}{GSS Data Explorer page for \code{othrel3}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab choir, choral, concert, play \tab governing board, etc \tab preaching, taught sunday school \tab prayer group, breakfast, meeting \tab worship service \tab other, religious \tab Total \cr
-   1996 \tab 2898 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab 2904 \cr
-   1998 \tab 2829 \tab - \tab - \tab - \tab - \tab - \tab 3 \tab 2832 \cr
-   Total \tab 5727 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 3 \tab 5736 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab choir, choral, concert, play \tab governing board, etc \tab preaching, taught sunday school \tab prayer group, breakfast, meeting \tab worship service \tab other, religious \tab not available in this year \tab Total \cr
+   1996 \tab 2898 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab 2904 \cr
+   1998 \tab 2829 \tab - \tab - \tab - \tab - \tab - \tab 3 \tab - \tab 2832 \cr
+   Total \tab 5727 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 3 \tab 0 \tab 5736 \cr
 }
 }
 

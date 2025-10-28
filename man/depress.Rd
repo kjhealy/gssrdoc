@@ -33,12 +33,12 @@ D. Depression?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2845/vshow}{GSS Data Explorer page for \code{depress}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab skipped on web \tab Total \cr
-   2014 \tab 1288 \tab 193 \tab 1051 \tab 6 \tab - \tab - \tab 2538 \cr
-   2018 \tab 900 \tab 271 \tab 1143 \tab 33 \tab 1 \tab - \tab 2348 \cr
-   2022 \tab 1557 \tab 505 \tab 1457 \tab 8 \tab 4 \tab 13 \tab 3544 \cr
-   Total \tab 3745 \tab 969 \tab 3651 \tab 47 \tab 5 \tab 13 \tab 8430 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab skipped on web \tab not available in this year \tab Total \cr
+   2014 \tab 1288 \tab 193 \tab 1051 \tab 6 \tab - \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 271 \tab 1143 \tab 33 \tab 1 \tab - \tab - \tab 2348 \cr
+   2022 \tab 1557 \tab 505 \tab 1457 \tab 8 \tab 4 \tab 13 \tab - \tab 3544 \cr
+   Total \tab 3745 \tab 969 \tab 3651 \tab 47 \tab 5 \tab 13 \tab 0 \tab 8430 \cr
 }
 }
 

@@ -33,24 +33,24 @@ Question During the last year, did anyone take something directly from you by us
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/678/vshow}{GSS Data Explorer page for \code{robbry}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1973 \tab - \tab 24 \tab 1476 \tab 4 \tab 1504 \cr
-   1974 \tab - \tab 53 \tab 1420 \tab 11 \tab 1484 \cr
-   1976 \tab - \tab 24 \tab 1467 \tab 8 \tab 1499 \cr
-   1977 \tab - \tab 29 \tab 1496 \tab 5 \tab 1530 \cr
-   1980 \tab - \tab 30 \tab 1436 \tab 2 \tab 1468 \cr
-   1982 \tab - \tab 52 \tab 1804 \tab 4 \tab 1860 \cr
-   1984 \tab - \tab 23 \tab 1448 \tab 2 \tab 1473 \cr
-   1985 \tab - \tab 31 \tab 1500 \tab 3 \tab 1534 \cr
-   1987 \tab - \tab 44 \tab 1769 \tab 6 \tab 1819 \cr
-   1988 \tab 504 \tab 15 \tab 961 \tab 1 \tab 1481 \cr
-   1989 \tab 504 \tab 13 \tab 1013 \tab 7 \tab 1537 \cr
-   1990 \tab 455 \tab 13 \tab 901 \tab 3 \tab 1372 \cr
-   1991 \tab 524 \tab 17 \tab 970 \tab 6 \tab 1517 \cr
-   1993 \tab 531 \tab 28 \tab 1045 \tab 2 \tab 1606 \cr
-   1994 \tab 1767 \tab 31 \tab 1192 \tab 2 \tab 2992 \cr
-   Total \tab 4285 \tab 427 \tab 19898 \tab 66 \tab 24676 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1973 \tab - \tab 24 \tab 1476 \tab 4 \tab - \tab 1504 \cr
+   1974 \tab - \tab 53 \tab 1420 \tab 11 \tab - \tab 1484 \cr
+   1976 \tab - \tab 24 \tab 1467 \tab 8 \tab - \tab 1499 \cr
+   1977 \tab - \tab 29 \tab 1496 \tab 5 \tab - \tab 1530 \cr
+   1980 \tab - \tab 30 \tab 1436 \tab 2 \tab - \tab 1468 \cr
+   1982 \tab - \tab 52 \tab 1804 \tab 4 \tab - \tab 1860 \cr
+   1984 \tab - \tab 23 \tab 1448 \tab 2 \tab - \tab 1473 \cr
+   1985 \tab - \tab 31 \tab 1500 \tab 3 \tab - \tab 1534 \cr
+   1987 \tab - \tab 44 \tab 1769 \tab 6 \tab - \tab 1819 \cr
+   1988 \tab 504 \tab 15 \tab 961 \tab 1 \tab - \tab 1481 \cr
+   1989 \tab 504 \tab 13 \tab 1013 \tab 7 \tab - \tab 1537 \cr
+   1990 \tab 455 \tab 13 \tab 901 \tab 3 \tab - \tab 1372 \cr
+   1991 \tab 524 \tab 17 \tab 970 \tab 6 \tab - \tab 1517 \cr
+   1993 \tab 531 \tab 28 \tab 1045 \tab 2 \tab - \tab 1606 \cr
+   1994 \tab 1767 \tab 31 \tab 1192 \tab 2 \tab - \tab 2992 \cr
+   Total \tab 4285 \tab 427 \tab 19898 \tab 66 \tab 0 \tab 24676 \cr
 }
 }
 

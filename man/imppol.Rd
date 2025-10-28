@@ -33,10 +33,10 @@ G. Politics and public life.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/771/vshow}{GSS Data Explorer page for \code{imppol}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab unimportant \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab Total \cr
-   1982 \tab - \tab 242 \tab 176 \tab 235 \tab 372 \tab 382 \tab 230 \tab 199 \tab 3 \tab 21 \tab 1860 \cr
-   Total \tab 0 \tab 242 \tab 176 \tab 235 \tab 372 \tab 382 \tab 230 \tab 199 \tab 3 \tab 21 \tab 1860 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab unimportant \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab - \tab 242 \tab 176 \tab 235 \tab 372 \tab 382 \tab 230 \tab 199 \tab 3 \tab 21 \tab - \tab 1860 \cr
+   Total \tab 0 \tab 242 \tab 176 \tab 235 \tab 372 \tab 382 \tab 230 \tab 199 \tab 3 \tab 21 \tab 0 \tab 1860 \cr
 }
 }
 

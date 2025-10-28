@@ -34,10 +34,10 @@ B. Local mass transportation.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4072/vshow}{GSS Data Explorer page for \code{ownmass}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab own it \tab control prices \tab leave alone \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 60 \tab 291 \tab 261 \tab 49 \tab 16 \tab 1534 \cr
-   Total \tab 857 \tab 60 \tab 291 \tab 261 \tab 49 \tab 16 \tab 1534 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab own it \tab control prices \tab leave alone \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 60 \tab 291 \tab 261 \tab 49 \tab 16 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 60 \tab 291 \tab 261 \tab 49 \tab 16 \tab 0 \tab 1534 \cr
 }
 }
 

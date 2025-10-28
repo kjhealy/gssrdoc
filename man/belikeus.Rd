@@ -37,12 +37,13 @@ C. The world would be a better place if people from other countries were more li
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4836/vshow}{GSS Data Explorer page for \code{belikeus}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 193 \tab 330 \tab 439 \tab 281 \tab 56 \tab 52 \tab 16 \tab 2904 \cr
-   2004 \tab 1596 \tab 190 \tab 296 \tab 419 \tab 224 \tab 68 \tab 18 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 86 \tab 283 \tab 417 \tab 340 \tab 86 \tab 58 \tab 4 \tab 2538 \cr
-   Total \tab 4397 \tab 469 \tab 909 \tab 1275 \tab 845 \tab 210 \tab 128 \tab 21 \tab 8254 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 193 \tab 330 \tab 439 \tab 281 \tab 56 \tab 52 \tab 16 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 190 \tab 296 \tab 419 \tab 224 \tab 68 \tab 18 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 86 \tab 283 \tab 417 \tab 340 \tab 86 \tab 58 \tab 4 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1661 \tab 111 \tab 234 \tab 613 \tab 432 \tab 165 \tab 71 \tab 4 \tab - \tab 18 \tab 3309 \cr
+   Total \tab 6058 \tab 580 \tab 1143 \tab 1888 \tab 1277 \tab 375 \tab 199 \tab 25 \tab 0 \tab 18 \tab 11563 \cr
 }
 }
 

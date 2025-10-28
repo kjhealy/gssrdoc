@@ -33,10 +33,10 @@ Question C. Fundamentalism/Liberalism of Father's Religion
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1067/vshow}{GSS Data Explorer page for \code{pafund}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab fundamentalist \tab moderate \tab liberal \tab no answer \tab Total \cr
-   1988 \tab 202 \tab 351 \tab 504 \tab 381 \tab 43 \tab 1481 \cr
-   Total \tab 202 \tab 351 \tab 504 \tab 381 \tab 43 \tab 1481 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab fundamentalist \tab moderate \tab liberal \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 202 \tab 351 \tab 504 \tab 381 \tab 43 \tab - \tab 1481 \cr
+   Total \tab 202 \tab 351 \tab 504 \tab 381 \tab 43 \tab 0 \tab 1481 \cr
 }
 }
 

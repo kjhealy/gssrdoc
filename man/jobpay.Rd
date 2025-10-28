@@ -34,10 +34,10 @@ B. High Income
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/556/vshow}{GSS Data Explorer page for \code{jobpay}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab unimportant \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab Total \cr
-   1982 \tab 923 \tab 16 \tab 14 \tab 16 \tab 65 \tab 201 \tab 193 \tab 412 \tab 6 \tab 14 \tab 1860 \cr
-   Total \tab 923 \tab 16 \tab 14 \tab 16 \tab 65 \tab 201 \tab 193 \tab 412 \tab 6 \tab 14 \tab 1860 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab unimportant \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab 923 \tab 16 \tab 14 \tab 16 \tab 65 \tab 201 \tab 193 \tab 412 \tab 6 \tab 14 \tab - \tab 1860 \cr
+   Total \tab 923 \tab 16 \tab 14 \tab 16 \tab 65 \tab 201 \tab 193 \tab 412 \tab 6 \tab 14 \tab 0 \tab 1860 \cr
 }
 }
 

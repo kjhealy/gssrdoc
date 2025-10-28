@@ -34,10 +34,10 @@ Question Example of Erosion.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3478/vshow}{GSS Data Explorer page for \code{erosion}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab the wind in the desert blows sand against a rock \tab a glacier picks up boulders as it moves \tab a flood washes over a riverbank, and the water carries small soil particles downstream \tab an icy winter causes the pavement in a road to crack \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 518 \tab 147 \tab 245 \tab 99 \tab 830 \tab 162 \tab 22 \tab 2023 \cr
-   Total \tab 518 \tab 147 \tab 245 \tab 99 \tab 830 \tab 162 \tab 22 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab the wind in the desert blows sand against a rock \tab a glacier picks up boulders as it moves \tab a flood washes over a riverbank, and the water carries small soil particles downstream \tab an icy winter causes the pavement in a road to crack \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 518 \tab 147 \tab 245 \tab 99 \tab 830 \tab 162 \tab 22 \tab - \tab 2023 \cr
+   Total \tab 518 \tab 147 \tab 245 \tab 99 \tab 830 \tab 162 \tab 22 \tab 0 \tab 2023 \cr
 }
 }
 

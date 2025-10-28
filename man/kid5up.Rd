@@ -32,11 +32,11 @@ Question Do you have any children older than 5?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1146/vshow}{GSS Data Explorer page for \code{kid5up}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 870 \tab 553 \tab 22 \tab 2832 \cr
-   2000 \tab - \tab 1721 \tab 1093 \tab 3 \tab 2817 \cr
-   Total \tab 1387 \tab 2591 \tab 1646 \tab 25 \tab 5649 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 870 \tab 553 \tab 22 \tab - \tab 2832 \cr
+   2000 \tab - \tab 1721 \tab 1093 \tab 3 \tab - \tab 2817 \cr
+   Total \tab 1387 \tab 2591 \tab 1646 \tab 25 \tab 0 \tab 5649 \cr
 }
 }
 

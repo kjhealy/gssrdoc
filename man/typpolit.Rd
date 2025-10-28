@@ -32,10 +32,10 @@ Question D. Do you belong to more than one political club?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3113/vshow}{GSS Data Explorer page for \code{typpolit}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2744 \tab 8 \tab 53 \tab 1 \tab 6 \tab 2812 \cr
-   Total \tab 2744 \tab 8 \tab 53 \tab 1 \tab 6 \tab 2812 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2744 \tab 8 \tab 53 \tab 1 \tab 6 \tab - \tab 2812 \cr
+   Total \tab 2744 \tab 8 \tab 53 \tab 1 \tab 6 \tab 0 \tab 2812 \cr
 }
 }
 

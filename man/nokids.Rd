@@ -36,10 +36,10 @@ A. A family with no children
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4375/vshow}{GSS Data Explorer page for \code{nokids}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very desirable \tab desirable \tab neither \tab undesirable \tab very undesirable \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 53 \tab 167 \tab 473 \tab 366 \tab 162 \tab 114 \tab 79 \tab 1481 \cr
-   Total \tab 67 \tab 53 \tab 167 \tab 473 \tab 366 \tab 162 \tab 114 \tab 79 \tab 1481 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very desirable \tab desirable \tab neither \tab undesirable \tab very undesirable \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 53 \tab 167 \tab 473 \tab 366 \tab 162 \tab 114 \tab 79 \tab - \tab 1481 \cr
+   Total \tab 67 \tab 53 \tab 167 \tab 473 \tab 366 \tab 162 \tab 114 \tab 79 \tab 0 \tab 1481 \cr
 }
 }
 
@@ -48,7 +48,6 @@ Other ISSP Family & Gender Roles:
 \code{\link{fourkids}},
 \code{\link{kidtrble}},
 \code{\link{mardiv}},
-\code{\link{marhomo}},
 \code{\link{numkids}},
 \code{\link{onekid}},
 \code{\link{threkids}},

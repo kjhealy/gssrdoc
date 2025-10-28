@@ -36,10 +36,10 @@ A. My job gives me a chance to improve my skills
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4611/vshow}{GSS Data Explorer page for \code{rimpskls}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 3492 \tab 348 \tab 488 \tab 96 \tab 67 \tab 16 \tab 1 \tab 2 \tab 4510 \cr
-   Total \tab 3492 \tab 348 \tab 488 \tab 96 \tab 67 \tab 16 \tab 1 \tab 2 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3492 \tab 348 \tab 488 \tab 96 \tab 67 \tab 16 \tab 1 \tab 2 \tab - \tab 4510 \cr
+   Total \tab 3492 \tab 348 \tab 488 \tab 96 \tab 67 \tab 16 \tab 1 \tab 2 \tab 0 \tab 4510 \cr
 }
 }
 

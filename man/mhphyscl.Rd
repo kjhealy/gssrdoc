@@ -35,10 +35,10 @@ J. A physical illness
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3751/vshow}{GSS Data Explorer page for \code{mhphyscl}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 345 \tab 718 \tab 232 \tab 98 \tab 26 \tab 6 \tab 4510 \cr
-   Total \tab 3085 \tab 345 \tab 718 \tab 232 \tab 98 \tab 26 \tab 6 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 345 \tab 718 \tab 232 \tab 98 \tab 26 \tab 6 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 345 \tab 718 \tab 232 \tab 98 \tab 26 \tab 6 \tab 0 \tab 4510 \cr
 }
 }
 

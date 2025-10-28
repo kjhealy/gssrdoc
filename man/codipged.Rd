@@ -34,12 +34,12 @@ Question Was that a diploma awarded by (RESPONDENT'S PARTNER)''s high school at 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6162/vshow}{GSS Data Explorer page for \code{codipged}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab high school diploma \tab ged \tab other \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1846 \tab 111 \tab 17 \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2360 \tab 146 \tab 26 \tab 2 \tab 1 \tab 3 \tab 2538 \cr
-   2016 \tab 2644 \tab 196 \tab 23 \tab 3 \tab 1 \tab - \tab 2867 \cr
-   Total \tab 6850 \tab 453 \tab 66 \tab 5 \tab 2 \tab 3 \tab 7379 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab high school diploma \tab ged \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1846 \tab 111 \tab 17 \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2360 \tab 146 \tab 26 \tab 2 \tab 1 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 2644 \tab 196 \tab 23 \tab 3 \tab 1 \tab - \tab - \tab 2867 \cr
+   Total \tab 6850 \tab 453 \tab 66 \tab 5 \tab 2 \tab 3 \tab 0 \tab 7379 \cr
 }
 }
 

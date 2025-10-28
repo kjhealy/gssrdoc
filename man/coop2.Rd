@@ -34,10 +34,10 @@ Question In general, what was the respondent's attitude toward the interview?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/694/vshow}{GSS Data Explorer page for \code{coop2}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab friendly and eager \tab cooperative \tab indifferent \tab hostile \tab no answer \tab iap \tab Total \cr
-   1972 \tab 953 \tab 600 \tab 43 \tab 4 \tab 13 \tab - \tab 1613 \cr
-   Total \tab 953 \tab 600 \tab 43 \tab 4 \tab 13 \tab 0 \tab 1613 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab friendly and eager \tab cooperative \tab indifferent \tab hostile \tab no answer \tab iap \tab not available in this year \tab Total \cr
+   1972 \tab 953 \tab 600 \tab 43 \tab 4 \tab 13 \tab - \tab - \tab 1613 \cr
+   Total \tab 953 \tab 600 \tab 43 \tab 4 \tab 13 \tab 0 \tab 0 \tab 1613 \cr
 }
 }
 

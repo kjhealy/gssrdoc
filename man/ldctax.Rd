@@ -37,11 +37,11 @@ B. People in wealthy countries should make an additional tax contribution to hel
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4325/vshow}{GSS Data Explorer page for \code{ldctax}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2000 \tab 1545 \tab 139 \tab 287 \tab 307 \tab 295 \tab 140 \tab 55 \tab 49 \tab - \tab 2817 \cr
-   2021 \tab 2029 \tab 150 \tab 335 \tab 548 \tab 438 \tab 251 \tab 109 \tab 154 \tab 18 \tab 4032 \cr
-   Total \tab 3574 \tab 289 \tab 622 \tab 855 \tab 733 \tab 391 \tab 164 \tab 203 \tab 18 \tab 6849 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2000 \tab 1545 \tab 139 \tab 287 \tab 307 \tab 295 \tab 140 \tab 55 \tab 49 \tab - \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 150 \tab 335 \tab 548 \tab 438 \tab 251 \tab 109 \tab 154 \tab 18 \tab - \tab 4032 \cr
+   Total \tab 3574 \tab 289 \tab 622 \tab 855 \tab 733 \tab 391 \tab 164 \tab 203 \tab 18 \tab 0 \tab 6849 \cr
 }
 }
 

@@ -52,10 +52,10 @@ CODE EXACT GRADE.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1486/vshow}{GSS Data Explorer page for \code{spmaeduc}}.
 
-Counts by year:\tabular{llllllllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 2 \tab 20 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2247 \tab 6 \tab 15 \tab 6 \tab 255 \tab 8 \tab 33 \tab 5 \tab 45 \tab 2 \tab 9 \tab 1 \tab 2 \tab 5 \tab 4 \tab 7 \tab 10 \tab 4 \tab 60 \tab 17 \tab 222 \tab 29 \tab 2992 \cr
-   Total \tab 2247 \tab 6 \tab 15 \tab 6 \tab 255 \tab 8 \tab 33 \tab 5 \tab 45 \tab 2 \tab 9 \tab 1 \tab 2 \tab 5 \tab 4 \tab 7 \tab 10 \tab 4 \tab 60 \tab 17 \tab 222 \tab 29 \tab 2992 \cr
+Counts by year:\tabular{lllllllllllllllllllllllll}{
+   year \tab iap \tab no formal schooling \tab 2nd grade \tab 3rd grade \tab 4th grade \tab 5th grade \tab 6th grade \tab 7th grade \tab 8th grade \tab 9th grade \tab 10th grade \tab 11th grade \tab 12th grade \tab 1 year of college \tab 2 years of college \tab 3 years of college \tab 4 years of college \tab 5 years of college \tab 6 years of college \tab 8 or more years of college \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2247 \tab 6 \tab 1 \tab 5 \tab 4 \tab 7 \tab 10 \tab 4 \tab 60 \tab 17 \tab 15 \tab 6 \tab 255 \tab 8 \tab 33 \tab 5 \tab 45 \tab 2 \tab 9 \tab 2 \tab 222 \tab 29 \tab - \tab 2992 \cr
+   Total \tab 2247 \tab 6 \tab 1 \tab 5 \tab 4 \tab 7 \tab 10 \tab 4 \tab 60 \tab 17 \tab 15 \tab 6 \tab 255 \tab 8 \tab 33 \tab 5 \tab 45 \tab 2 \tab 9 \tab 2 \tab 222 \tab 29 \tab 0 \tab 2992 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question (In your opinion, which parent should do the following? Who should...) 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7770/vshow}{GSS Data Explorer page for \code{prntply}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab the mother mostly \tab the mother somewhat more than the father \tab the mother and father equally \tab the father somewhat more than the mother \tab the father mostly \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2383 \tab 10 \tab 18 \tab 1038 \tab 15 \tab 8 \tab 61 \tab 4 \tab 7 \tab 3544 \cr
-   Total \tab 2383 \tab 10 \tab 18 \tab 1038 \tab 15 \tab 8 \tab 61 \tab 4 \tab 7 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab the mother mostly \tab the mother somewhat more than the father \tab the mother and father equally \tab the father somewhat more than the mother \tab the father mostly \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 10 \tab 18 \tab 1038 \tab 15 \tab 8 \tab 61 \tab 2383 \tab 4 \tab 7 \tab 3544 \cr
+   Total \tab 0 \tab 10 \tab 18 \tab 1038 \tab 15 \tab 8 \tab 61 \tab 2383 \tab 4 \tab 7 \tab 3544 \cr
 }
 }
 

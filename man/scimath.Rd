@@ -34,10 +34,10 @@ Question The quality of science and mathematics education in American schools is
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3468/vshow}{GSS Data Explorer page for \code{scimath}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 518 \tab 325 \tab 751 \tab 312 \tab 22 \tab 92 \tab 3 \tab 2023 \cr
-   Total \tab 518 \tab 325 \tab 751 \tab 312 \tab 22 \tab 92 \tab 3 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 518 \tab 325 \tab 751 \tab 312 \tab 22 \tab 92 \tab 3 \tab - \tab 2023 \cr
+   Total \tab 518 \tab 325 \tab 751 \tab 312 \tab 22 \tab 92 \tab 3 \tab 0 \tab 2023 \cr
 }
 }
 

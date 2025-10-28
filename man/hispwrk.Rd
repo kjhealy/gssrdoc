@@ -33,10 +33,10 @@ D. Do you know any of these Hispanics from the place where you work?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2353/vshow}{GSS Data Explorer page for \code{hispwrk}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2142 \tab 420 \tab 206 \tab 1 \tab 48 \tab 2817 \cr
-   Total \tab 2142 \tab 420 \tab 206 \tab 1 \tab 48 \tab 2817 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2142 \tab 420 \tab 206 \tab 1 \tab 48 \tab - \tab 2817 \cr
+   Total \tab 2142 \tab 420 \tab 206 \tab 1 \tab 48 \tab 0 \tab 2817 \cr
 }
 }
 

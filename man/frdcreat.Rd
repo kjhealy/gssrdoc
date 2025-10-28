@@ -38,10 +38,10 @@ A. Creative.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1431/vshow}{GSS Data Explorer page for \code{frdcreat}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab extremely important \tab very important \tab fairly important \tab not too important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 61 \tab 308 \tab 593 \tab 472 \tab 135 \tab 24 \tab 13 \tab 1606 \cr
-   Total \tab 0 \tab 61 \tab 308 \tab 593 \tab 472 \tab 135 \tab 24 \tab 13 \tab 1606 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab extremely important \tab very important \tab fairly important \tab not too important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 61 \tab 308 \tab 593 \tab 472 \tab 135 \tab 24 \tab 13 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 61 \tab 308 \tab 593 \tab 472 \tab 135 \tab 24 \tab 13 \tab 0 \tab 1606 \cr
 }
 }
 

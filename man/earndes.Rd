@@ -36,10 +36,10 @@ Question Would you say that you earn:
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4323/vshow}{GSS Data Explorer page for \code{earndes}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab much less than i deserve \tab less than i deserve \tab what i deserve \tab more than i deserve \tab much more than i deserve \tab never worked \tab can't choose \tab no answer \tab Total \cr
-   2000 \tab 1545 \tab 188 \tab 471 \tab 407 \tab 34 \tab 4 \tab 17 \tab 68 \tab 83 \tab 2817 \cr
-   Total \tab 1545 \tab 188 \tab 471 \tab 407 \tab 34 \tab 4 \tab 17 \tab 68 \tab 83 \tab 2817 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab much less than i deserve \tab less than i deserve \tab what i deserve \tab more than i deserve \tab much more than i deserve \tab never worked \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1545 \tab 188 \tab 471 \tab 407 \tab 34 \tab 4 \tab 17 \tab 68 \tab 83 \tab - \tab 2817 \cr
+   Total \tab 1545 \tab 188 \tab 471 \tab 407 \tab 34 \tab 4 \tab 17 \tab 68 \tab 83 \tab 0 \tab 2817 \cr
 }
 }
 

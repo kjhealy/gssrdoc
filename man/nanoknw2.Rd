@@ -35,12 +35,12 @@ B. The properties of nanoscale materials often differ fundamentally and unexpect
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3447/vshow}{GSS Data Explorer page for \code{nanoknw2}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab true \tab false \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 3688 \tab 336 \tab 81 \tab 403 \tab 2 \tab 4510 \cr
-   2008 \tab 1312 \tab 309 \tab 89 \tab 308 \tab 5 \tab 2023 \cr
-   2010 \tab 1796 \tab 77 \tab 32 \tab 130 \tab 9 \tab 2044 \cr
-   Total \tab 6796 \tab 722 \tab 202 \tab 841 \tab 16 \tab 8577 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab true \tab false \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3688 \tab 336 \tab 81 \tab 403 \tab 2 \tab - \tab 4510 \cr
+   2008 \tab 1312 \tab 309 \tab 89 \tab 308 \tab 5 \tab - \tab 2023 \cr
+   2010 \tab 1796 \tab 77 \tab 32 \tab 130 \tab 9 \tab - \tab 2044 \cr
+   Total \tab 6796 \tab 722 \tab 202 \tab 841 \tab 16 \tab 0 \tab 8577 \cr
 }
 }
 

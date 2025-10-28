@@ -36,10 +36,10 @@ A. I worry about the economic burden that a terminal illness might cause my fami
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2246/vshow}{GSS Data Explorer page for \code{termecon}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 305 \tab 536 \tab 147 \tab 285 \tab 91 \tab 18 \tab 5 \tab 2832 \cr
-   Total \tab 1445 \tab 305 \tab 536 \tab 147 \tab 285 \tab 91 \tab 18 \tab 5 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 305 \tab 536 \tab 147 \tab 285 \tab 91 \tab 18 \tab 5 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 305 \tab 536 \tab 147 \tab 285 \tab 91 \tab 18 \tab 5 \tab 0 \tab 2832 \cr
 }
 }
 

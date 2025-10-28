@@ -33,11 +33,11 @@ Question Over the past 12 months, have you had any training to improve your job 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4617/vshow}{GSS Data Explorer page for \code{jbtrain}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 3492 \tab 610 \tab 405 \tab 1 \tab 2 \tab 4510 \cr
-   2016 \tab 1927 \tab 555 \tab 379 \tab - \tab 6 \tab 2867 \cr
-   Total \tab 5419 \tab 1165 \tab 784 \tab 1 \tab 8 \tab 7377 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3492 \tab 610 \tab 405 \tab 1 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 555 \tab 379 \tab - \tab 6 \tab - \tab 2867 \cr
+   Total \tab 5419 \tab 1165 \tab 784 \tab 1 \tab 8 \tab 0 \tab 7377 \cr
 }
 }
 

@@ -36,11 +36,11 @@ C. Classified ads in an industry or professional publication?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2612/vshow}{GSS Data Explorer page for \code{jobpub}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab no answer \tab Total \cr
-   2002 \tab 2220 \tab 345 \tab 86 \tab 50 \tab 58 \tab 6 \tab 2765 \cr
-   2004 \tab 2453 \tab 233 \tab 47 \tab 39 \tab 35 \tab 5 \tab 2812 \cr
-   Total \tab 4673 \tab 578 \tab 133 \tab 89 \tab 93 \tab 11 \tab 5577 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 2220 \tab 345 \tab 86 \tab 50 \tab 58 \tab 6 \tab - \tab 2765 \cr
+   2004 \tab 2453 \tab 233 \tab 47 \tab 39 \tab 35 \tab 5 \tab - \tab 2812 \cr
+   Total \tab 4673 \tab 578 \tab 133 \tab 89 \tab 93 \tab 11 \tab 0 \tab 5577 \cr
 }
 }
 

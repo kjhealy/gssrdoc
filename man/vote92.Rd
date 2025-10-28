@@ -35,13 +35,13 @@ Do you remember for sure whether or not you voted in that election?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/160/vshow}{GSS Data Explorer page for \code{vote92}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab voted \tab did not vote \tab not eligible \tab refused \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 1109 \tab 446 \tab 36 \tab 6 \tab 5 \tab 4 \tab 1606 \cr
-   1994 \tab - \tab 2053 \tab 818 \tab 81 \tab 14 \tab 23 \tab 3 \tab 2992 \cr
-   1996 \tab - \tab 1907 \tab 763 \tab 184 \tab 10 \tab 38 \tab 2 \tab 2904 \cr
-   1998 \tab - \tab 1767 \tab 655 \tab 284 \tab 13 \tab 82 \tab 31 \tab 2832 \cr
-   Total \tab 0 \tab 6836 \tab 2682 \tab 585 \tab 43 \tab 148 \tab 40 \tab 10334 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab voted \tab did not vote \tab not eligible \tab refused \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 1109 \tab 446 \tab 36 \tab 6 \tab 5 \tab 4 \tab - \tab 1606 \cr
+   1994 \tab - \tab 2053 \tab 818 \tab 81 \tab 14 \tab 23 \tab 3 \tab - \tab 2992 \cr
+   1996 \tab - \tab 1907 \tab 763 \tab 184 \tab 10 \tab 38 \tab 2 \tab - \tab 2904 \cr
+   1998 \tab - \tab 1767 \tab 655 \tab 284 \tab 13 \tab 82 \tab 31 \tab - \tab 2832 \cr
+   Total \tab 0 \tab 6836 \tab 2682 \tab 585 \tab 43 \tab 148 \tab 40 \tab 0 \tab 10334 \cr
 }
 }
 

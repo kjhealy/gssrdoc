@@ -23,10 +23,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
-#'  |2004  |2779 |17  |2  |1          |13        |2812  |
-#'  |Total |2779 |17  |2  |1          |13        |2812  |
+#'  |year  |iap  |yes |no |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2779 |17  |2  |1          |13        |-                          |2812  |
+#'  |Total |2779 |17  |2  |1          |13        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -63,10 +63,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no answer |Total |
-#'  |:-----|:----|:---|:---------|:-----|
-#'  |2004  |2794 |4   |14        |2812  |
-#'  |Total |2794 |4   |14        |2812  |
+#'  |year  |iap  |yes |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---------|:--------------------------|:-----|
+#'  |2004  |2794 |4   |14        |-                          |2812  |
+#'  |Total |2794 |4   |14        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -103,10 +103,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no answer |Total |
-#'  |:-----|:----|:---|:---------|:-----|
-#'  |2004  |2798 |1   |13        |2812  |
-#'  |Total |2798 |1   |13        |2812  |
+#'  |year  |iap  |yes |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---------|:--------------------------|:-----|
+#'  |2004  |2798 |1   |13        |-                          |2812  |
+#'  |Total |2798 |1   |13        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -143,10 +143,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no answer |Total |
-#'  |:-----|:----|:---|:---------|:-----|
-#'  |2004  |2798 |1   |13        |2812  |
-#'  |Total |2798 |1   |13        |2812  |
+#'  |year  |iap  |yes |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---------|:--------------------------|:-----|
+#'  |2004  |2798 |1   |13        |-                          |2812  |
+#'  |Total |2798 |1   |13        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -183,10 +183,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
-#'  |2004  |2706 |45  |38 |8          |15        |2812  |
-#'  |Total |2706 |45  |38 |8          |15        |2812  |
+#'  |year  |iap  |yes |no |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2706 |45  |38 |8          |15        |-                          |2812  |
+#'  |Total |2706 |45  |38 |8          |15        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -223,10 +223,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
-#'  |2004  |2794 |5   |3  |1          |9         |2812  |
-#'  |Total |2794 |5   |3  |1          |9         |2812  |
+#'  |year  |iap  |yes |no |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2794 |5   |3  |1          |9         |-                          |2812  |
+#'  |Total |2794 |5   |3  |1          |9         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -263,10 +263,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
-#'  |2004  |2800 |1   |1  |1          |9         |2812  |
-#'  |Total |2800 |1   |1  |1          |9         |2812  |
+#'  |year  |iap  |yes |no |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2800 |1   |1  |1          |9         |-                          |2812  |
+#'  |Total |2800 |1   |1  |1          |9         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -303,10 +303,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |2004  |2801 |1   |1  |9         |2812  |
-#'  |Total |2801 |1   |1  |9         |2812  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |2004  |2801 |1   |1  |9         |-                          |2812  |
+#'  |Total |2801 |1   |1  |9         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -343,10 +343,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |2004  |2801 |1   |1  |9         |2812  |
-#'  |Total |2801 |1   |1  |9         |2812  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |2004  |2801 |1   |1  |9         |-                          |2812  |
+#'  |Total |2801 |1   |1  |9         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -383,10 +383,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
-#'  |2004  |2412 |282 |83 |16         |19        |2812  |
-#'  |Total |2412 |282 |83 |16         |19        |2812  |
+#'  |year  |iap  |yes |no |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2412 |282 |83 |16         |19        |-                          |2812  |
+#'  |Total |2412 |282 |83 |16         |19        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks

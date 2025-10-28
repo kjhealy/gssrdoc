@@ -34,16 +34,16 @@ B. Did she work as long as a year after you were born and before you started fir
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/90/vshow}{GSS Data Explorer page for \code{mawkborn}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1987 \tab 793 \tab 476 \tab 501 \tab 35 \tab 14 \tab 1819 \cr
-   1988 \tab 637 \tab 374 \tab 430 \tab 36 \tab 4 \tab 1481 \cr
-   1989 \tab 689 \tab 339 \tab 478 \tab 26 \tab 5 \tab 1537 \cr
-   1990 \tab 571 \tab 370 \tab 396 \tab 27 \tab 8 \tab 1372 \cr
-   1991 \tab 644 \tab 369 \tab 464 \tab 31 \tab 9 \tab 1517 \cr
-   1993 \tab 652 \tab 418 \tab 486 \tab 32 \tab 18 \tab 1606 \cr
-   1994 \tab 2586 \tab 182 \tab 200 \tab 17 \tab 7 \tab 2992 \cr
-   Total \tab 6572 \tab 2528 \tab 2955 \tab 204 \tab 65 \tab 12324 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 793 \tab 476 \tab 501 \tab 35 \tab 14 \tab - \tab 1819 \cr
+   1988 \tab 637 \tab 374 \tab 430 \tab 36 \tab 4 \tab - \tab 1481 \cr
+   1989 \tab 689 \tab 339 \tab 478 \tab 26 \tab 5 \tab - \tab 1537 \cr
+   1990 \tab 571 \tab 370 \tab 396 \tab 27 \tab 8 \tab - \tab 1372 \cr
+   1991 \tab 644 \tab 369 \tab 464 \tab 31 \tab 9 \tab - \tab 1517 \cr
+   1993 \tab 652 \tab 418 \tab 486 \tab 32 \tab 18 \tab - \tab 1606 \cr
+   1994 \tab 2586 \tab 182 \tab 200 \tab 17 \tab 7 \tab - \tab 2992 \cr
+   Total \tab 6572 \tab 2528 \tab 2955 \tab 204 \tab 65 \tab 0 \tab 12324 \cr
 }
 }
 

@@ -38,13 +38,13 @@ E. Courts and the legal system
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4643/vshow}{GSS Data Explorer page for \code{concourt}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab complete confidence \tab a great deal of confidence \tab some confidence \tab very little confidence \tab no confidence at all \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 75 \tab 254 \tab 608 \tab 277 \tab 81 \tab 27 \tab 37 \tab 1517 \cr
-   1998 \tab 1548 \tab 38 \tab 209 \tab 572 \tab 294 \tab 104 \tab 30 \tab 37 \tab 2832 \cr
-   2008 \tab 658 \tab 60 \tab 239 \tab 733 \tab 227 \tab 87 \tab 15 \tab 4 \tab 2023 \cr
-   2018 \tab 1173 \tab 49 \tab 194 \tab 575 \tab 260 \tab 80 \tab 10 \tab 7 \tab 2348 \cr
-   Total \tab 3537 \tab 222 \tab 896 \tab 2488 \tab 1058 \tab 352 \tab 82 \tab 85 \tab 8720 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab complete confidence \tab a great deal of confidence \tab some confidence \tab very little confidence \tab no confidence at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 75 \tab 254 \tab 608 \tab 277 \tab 81 \tab 27 \tab 37 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 38 \tab 209 \tab 572 \tab 294 \tab 104 \tab 30 \tab 37 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 60 \tab 239 \tab 733 \tab 227 \tab 87 \tab 15 \tab 4 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 49 \tab 194 \tab 575 \tab 260 \tab 80 \tab 10 \tab 7 \tab - \tab 2348 \cr
+   Total \tab 3537 \tab 222 \tab 896 \tab 2488 \tab 1058 \tab 352 \tab 82 \tab 85 \tab 0 \tab 8720 \cr
 }
 }
 

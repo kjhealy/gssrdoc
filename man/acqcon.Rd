@@ -36,10 +36,10 @@ W. How many are you pretty certain are strongly conservative?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3594/vshow}{GSS Data Explorer page for \code{acqcon}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3821 \tab 62 \tab 42 \tab 163 \tab 90 \tab 198 \tab 120 \tab 14 \tab 4510 \cr
-   Total \tab 3821 \tab 62 \tab 42 \tab 163 \tab 90 \tab 198 \tab 120 \tab 14 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3821 \tab 62 \tab 42 \tab 163 \tab 90 \tab 198 \tab 120 \tab 14 \tab - \tab 4510 \cr
+   Total \tab 3821 \tab 62 \tab 42 \tab 163 \tab 90 \tab 198 \tab 120 \tab 14 \tab 0 \tab 4510 \cr
 }
 }
 

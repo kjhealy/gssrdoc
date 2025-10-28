@@ -34,10 +34,10 @@ Question A. How concerned are you personally about women''s rights?  Are you ver
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/596/vshow}{GSS Data Explorer page for \code{fecare}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very concerned \tab somewhat concerned \tab not very concerned \tab not concerned at all \tab don't know \tab no answer \tab Total \cr
-   1983 \tab 804 \tab 171 \tab 377 \tab 162 \tab 69 \tab 11 \tab 5 \tab 1599 \cr
-   Total \tab 804 \tab 171 \tab 377 \tab 162 \tab 69 \tab 11 \tab 5 \tab 1599 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very concerned \tab somewhat concerned \tab not very concerned \tab not concerned at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab 804 \tab 171 \tab 377 \tab 162 \tab 69 \tab 11 \tab 5 \tab - \tab 1599 \cr
+   Total \tab 804 \tab 171 \tab 377 \tab 162 \tab 69 \tab 11 \tab 5 \tab 0 \tab 1599 \cr
 }
 }
 

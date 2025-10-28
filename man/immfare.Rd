@@ -32,10 +32,10 @@ Question Under current law, immigrants who come from other countries to the Unit
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1616/vshow}{GSS Data Explorer page for \code{immfare}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab eligible \tab not eligible \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 466 \tab 935 \tab 66 \tab 7 \tab 2992 \cr
-   Total \tab 1518 \tab 466 \tab 935 \tab 66 \tab 7 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab eligible \tab not eligible \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 466 \tab 935 \tab 66 \tab 7 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 466 \tab 935 \tab 66 \tab 7 \tab 0 \tab 2992 \cr
 }
 }
 

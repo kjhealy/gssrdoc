@@ -32,11 +32,11 @@ Question E. Read a book by an author whose work you first discovered on the Web?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2483/vshow}{GSS Data Explorer page for \code{litread}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2554 \tab 44 \tab 104 \tab 115 \tab - \tab 2817 \cr
-   2002 \tab 2555 \tab 53 \tab 110 \tab 46 \tab 1 \tab 2765 \cr
-   Total \tab 5109 \tab 97 \tab 214 \tab 161 \tab 1 \tab 5582 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2554 \tab 44 \tab 104 \tab 115 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2555 \tab 53 \tab 110 \tab 46 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 5109 \tab 97 \tab 214 \tab 161 \tab 1 \tab 0 \tab 5582 \cr
 }
 }
 

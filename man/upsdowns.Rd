@@ -37,12 +37,13 @@ A. Part of the normal ups and downs of life
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1994/vshow}{GSS Data Explorer page for \code{upsdowns}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 425 \tab 462 \tab 305 \tab 211 \tab 17 \tab 24 \tab 2904 \cr
-   2006 \tab 3073 \tab 444 \tab 479 \tab 285 \tab 180 \tab 34 \tab 15 \tab 4510 \cr
-   2018 \tab 1175 \tab 294 \tab 420 \tab 253 \tab 163 \tab 14 \tab 29 \tab 2348 \cr
-   Total \tab 5708 \tab 1163 \tab 1361 \tab 843 \tab 554 \tab 65 \tab 68 \tab 9762 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 425 \tab 462 \tab 305 \tab 211 \tab 17 \tab 24 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 444 \tab 479 \tab 285 \tab 180 \tab 34 \tab 15 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 294 \tab 420 \tab 253 \tab 163 \tab 14 \tab 29 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1691 \tab 357 \tab 643 \tab 372 \tab 196 \tab 21 \tab 10 \tab - \tab 19 \tab 3309 \cr
+   Total \tab 7399 \tab 1520 \tab 2004 \tab 1215 \tab 750 \tab 86 \tab 78 \tab 0 \tab 19 \tab 13071 \cr
 }
 }
 

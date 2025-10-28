@@ -32,10 +32,10 @@ Question B. Have you seen an X-rated movie either in a movie theater or on a VCR
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/642/vshow}{GSS Data Explorer page for \code{xmovie1}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2486 \tab 113 \tab 390 \tab 1 \tab 2 \tab 2992 \cr
-   Total \tab 2486 \tab 113 \tab 390 \tab 1 \tab 2 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2486 \tab 113 \tab 390 \tab 1 \tab 2 \tab - \tab 2992 \cr
+   Total \tab 2486 \tab 113 \tab 390 \tab 1 \tab 2 \tab 0 \tab 2992 \cr
 }
 }
 

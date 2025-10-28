@@ -33,10 +33,10 @@ B5. Sex of fifth child.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1496/vshow}{GSS Data Explorer page for \code{kdsex5}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab male \tab female \tab no answer \tab Total \cr
-   1994 \tab 2871 \tab 57 \tab 62 \tab 2 \tab 2992 \cr
-   Total \tab 2871 \tab 57 \tab 62 \tab 2 \tab 2992 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab male \tab female \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2871 \tab 57 \tab 62 \tab 2 \tab - \tab 2992 \cr
+   Total \tab 2871 \tab 57 \tab 62 \tab 2 \tab 0 \tab 2992 \cr
 }
 }
 

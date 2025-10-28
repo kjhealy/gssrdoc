@@ -33,10 +33,10 @@ C. Call the software company to get help?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2494/vshow}{GSS Data Explorer page for \code{callcomp}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2075 \tab 303 \tab 351 \tab 88 \tab 2817 \cr
-   Total \tab 2075 \tab 303 \tab 351 \tab 88 \tab 2817 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 303 \tab 351 \tab 88 \tab - \tab 2817 \cr
+   Total \tab 2075 \tab 303 \tab 351 \tab 88 \tab 0 \tab 2817 \cr
 }
 }
 

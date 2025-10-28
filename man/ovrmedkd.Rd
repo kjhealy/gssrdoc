@@ -35,10 +35,10 @@ A. Doctors today are over-medicating children with common behavior problems.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2961/vshow}{GSS Data Explorer page for \code{ovrmedkd}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 579 \tab 529 \tab 146 \tab 37 \tab 90 \tab 12 \tab 2765 \cr
-   Total \tab 1372 \tab 579 \tab 529 \tab 146 \tab 37 \tab 90 \tab 12 \tab 2765 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1372 \tab 579 \tab 529 \tab 146 \tab 37 \tab 90 \tab 12 \tab - \tab 2765 \cr
+   Total \tab 1372 \tab 579 \tab 529 \tab 146 \tab 37 \tab 90 \tab 12 \tab 0 \tab 2765 \cr
 }
 }
 

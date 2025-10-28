@@ -33,10 +33,10 @@ Question Here in (CURRENT STATE), do you think that laws should be changed to ma
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7176/vshow}{GSS Data Explorer page for \code{abstate2}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab make it easier \tab make it harder \tab stay the same as now \tab don't know \tab no answer \tab Total \cr
-   2018 \tab - \tab 403 \tab 610 \tab 1046 \tab 235 \tab 54 \tab 2348 \cr
-   Total \tab 0 \tab 403 \tab 610 \tab 1046 \tab 235 \tab 54 \tab 2348 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab make it easier \tab make it harder \tab stay the same as now \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab - \tab 403 \tab 610 \tab 1046 \tab 235 \tab 54 \tab - \tab 2348 \cr
+   Total \tab 0 \tab 403 \tab 610 \tab 1046 \tab 235 \tab 54 \tab 0 \tab 2348 \cr
 }
 }
 

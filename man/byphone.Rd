@@ -41,12 +41,12 @@ B. Talking with them on the telephone?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2545/vshow}{GSS Data Explorer page for \code{byphone}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab 0 \tab 1 - 2 \tab 3 - 5 \tab 6 - 10 \tab 11 - 15 \tab 16-25 \tab 26-50 \tab 50+ \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1884 \tab 38 \tab 95 \tab 236 \tab 227 \tab 102 \tab 116 \tab 63 \tab 33 \tab 1 \tab 22 \tab 2817 \cr
-   2002 \tab 74 \tab 69 \tab 262 \tab 608 \tab 634 \tab 336 \tab 380 \tab 275 \tab 113 \tab - \tab 14 \tab 2765 \cr
-   2004 \tab 1873 \tab 21 \tab 137 \tab 188 \tab 227 \tab 109 \tab 133 \tab 83 \tab 29 \tab - \tab 12 \tab 2812 \cr
-   Total \tab 3831 \tab 128 \tab 494 \tab 1032 \tab 1088 \tab 547 \tab 629 \tab 421 \tab 175 \tab 1 \tab 48 \tab 8394 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 0 \tab 1 - 2 \tab 3 - 5 \tab 6 - 10 \tab 11 - 15 \tab 16-25 \tab 26-50 \tab 50+ \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1884 \tab 38 \tab 95 \tab 236 \tab 227 \tab 102 \tab 116 \tab 63 \tab 33 \tab 1 \tab 22 \tab - \tab 2817 \cr
+   2002 \tab 74 \tab 69 \tab 262 \tab 608 \tab 634 \tab 336 \tab 380 \tab 275 \tab 113 \tab - \tab 14 \tab - \tab 2765 \cr
+   2004 \tab 1873 \tab 21 \tab 137 \tab 188 \tab 227 \tab 109 \tab 133 \tab 83 \tab 29 \tab - \tab 12 \tab - \tab 2812 \cr
+   Total \tab 3831 \tab 128 \tab 494 \tab 1032 \tab 1088 \tab 547 \tab 629 \tab 421 \tab 175 \tab 1 \tab 48 \tab 0 \tab 8394 \cr
 }
 }
 

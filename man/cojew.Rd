@@ -35,15 +35,15 @@ Question Does (s/he) consider (her/himself) Orthodox, Conservative, Reform or no
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6172/vshow}{GSS Data Explorer page for \code{cojew}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab conservative \tab reform \tab no answer \tab none of these \tab skipped on web \tab 5 \tab don't know \tab Total \cr
-   2012 \tab 1972 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2535 \tab - \tab - \tab 3 \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2863 \tab - \tab - \tab - \tab 4 \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 2346 \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 4020 \tab - \tab 5 \tab - \tab 6 \tab 1 \tab - \tab - \tab 4032 \cr
-   2022 \tab 3536 \tab - \tab 3 \tab - \tab 2 \tab - \tab 1 \tab 2 \tab 3544 \cr
-   Total \tab 17272 \tab 2 \tab 9 \tab 3 \tab 13 \tab 1 \tab 1 \tab 2 \tab 17303 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab conservative \tab reform \tab no answer \tab none of these \tab skipped on web \tab other \tab don't know \tab not available in this year \tab Total \cr
+   2012 \tab 1972 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2535 \tab - \tab - \tab 3 \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2863 \tab - \tab - \tab - \tab 4 \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2346 \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 4020 \tab - \tab 5 \tab - \tab 6 \tab 1 \tab - \tab - \tab - \tab 4032 \cr
+   2022 \tab 3536 \tab - \tab 3 \tab - \tab 2 \tab - \tab 1 \tab 2 \tab - \tab 3544 \cr
+   Total \tab 17272 \tab 2 \tab 9 \tab 3 \tab 13 \tab 1 \tab 1 \tab 2 \tab 0 \tab 17303 \cr
 }
 }
 

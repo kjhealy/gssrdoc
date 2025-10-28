@@ -35,10 +35,10 @@ A. Attend a public meeting organized to protest against the government
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4090/vshow}{GSS Data Explorer page for \code{rprtst1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definietly would \tab probably would \tab probably would not \tab definitely would not \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1572 \tab 410 \tab 391 \tab 274 \tab 204 \tab 43 \tab 10 \tab 2904 \cr
-   Total \tab 1572 \tab 410 \tab 391 \tab 274 \tab 204 \tab 43 \tab 10 \tab 2904 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definietly would \tab probably would \tab probably would not \tab definitely would not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1572 \tab 410 \tab 391 \tab 274 \tab 204 \tab 43 \tab 10 \tab - \tab 2904 \cr
+   Total \tab 1572 \tab 410 \tab 391 \tab 274 \tab 204 \tab 43 \tab 10 \tab 0 \tab 2904 \cr
 }
 }
 

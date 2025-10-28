@@ -33,10 +33,10 @@ C. Joined an organization concerned with race relations?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/422/vshow}{GSS Data Explorer page for \code{racjoin}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1983 \tab 804 \tab 28 \tab 759 \tab 8 \tab 1599 \cr
-   Total \tab 804 \tab 28 \tab 759 \tab 8 \tab 1599 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab 804 \tab 28 \tab 759 \tab 8 \tab - \tab 1599 \cr
+   Total \tab 804 \tab 28 \tab 759 \tab 8 \tab 0 \tab 1599 \cr
 }
 }
 

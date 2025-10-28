@@ -36,10 +36,10 @@ F. Time to relax?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4491/vshow}{GSS Data Explorer page for \code{timerelx}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab not available in this year \tab spend much more \tab spend a bit more \tab spend same \tab spend a bit less \tab spend much less \tab can't choose \tab no answer \tab iap \tab Total \cr
-   1989 \tab - \tab 328 \tab 513 \tab 489 \tab 48 \tab 30 \tab 17 \tab 112 \tab - \tab 1537 \cr
-   Total \tab 0 \tab 328 \tab 513 \tab 489 \tab 48 \tab 30 \tab 17 \tab 112 \tab 0 \tab 1537 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab not available in this year \tab spend much more \tab spend a bit more \tab spend same \tab spend a bit less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
+   1989 \tab - \tab 328 \tab 513 \tab 489 \tab 48 \tab 30 \tab 17 \tab 112 \tab 1537 \cr
+   Total \tab 0 \tab 328 \tab 513 \tab 489 \tab 48 \tab 30 \tab 17 \tab 112 \tab 1537 \cr
 }
 }
 

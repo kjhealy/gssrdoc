@@ -22,10 +22,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |interviewed |self-administered |Total |
-#'  |:-----|:---|:-----------|:-----------------|:-----|
-#'  |2008  |233 |531         |1259              |2023  |
-#'  |Total |233 |531         |1259              |2023  |
+#'  |year  |iap |interviewed |self-administered |not available in this year |Total |
+#'  |:-----|:---|:-----------|:-----------------|:--------------------------|:-----|
+#'  |2008  |233 |531         |1259              |-                          |2023  |
+#'  |Total |233 |531         |1259              |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -61,10 +61,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |approve |disapprove |don't know |no answer |Total |
-#'  |:-----|:---|:-------|:----------|:----------|:---------|:-----|
-#'  |2012  |675 |633     |541        |91         |34        |1974  |
-#'  |Total |675 |633     |541        |91         |34        |1974  |
+#'  |year  |iap |approve |disapprove |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |675 |633     |541        |91         |34        |-                          |1974  |
+#'  |Total |675 |633     |541        |91         |34        |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -100,10 +100,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no  |no answer |Total |
-#'  |:-----|:---|:---|:---|:---------|:-----|
-#'  |2012  |675 |517 |777 |5         |1974  |
-#'  |Total |675 |517 |777 |5         |1974  |
+#'  |year  |iap |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:---------|:--------------------------|:-----|
+#'  |2012  |675 |517 |777 |5         |-                          |1974  |
+#'  |Total |675 |517 |777 |5         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -139,10 +139,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2012  |1192 |96  |681 |5         |1974  |
-#'  |Total |1192 |96  |681 |5         |1974  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2012  |1192 |96  |681 |5         |-                          |1974  |
+#'  |Total |1192 |96  |681 |5         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -181,10 +181,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |none |a little |some |quite a bit |a great deal |don't know |no answer |Total |
-#'  |:-----|:----|:----|:--------|:----|:-----------|:------------|:----------|:---------|:-----|
-#'  |2012  |1328 |95   |206      |189  |69          |52           |32         |3         |1974  |
-#'  |Total |1328 |95   |206      |189  |69          |52           |32         |3         |1974  |
+#'  |year  |iap  |none |a little |some |quite a bit |a great deal |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:--------|:----|:-----------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1328 |95   |206      |189  |69          |52           |32         |3         |-                          |1974  |
+#'  |Total |1328 |95   |206      |189  |69          |52           |32         |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -223,10 +223,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |none |a little |some |quite a bit |a great deal |don't know |no answer |Total |
-#'  |:-----|:----|:----|:--------|:----|:-----------|:------------|:----------|:---------|:-----|
-#'  |2012  |1328 |162  |224      |170  |40          |23           |23         |4         |1974  |
-#'  |Total |1328 |162  |224      |170  |40          |23           |23         |4         |1974  |
+#'  |year  |iap  |none |a little |some |quite a bit |a great deal |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:--------|:----|:-----------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1328 |162  |224      |170  |40          |23           |23         |4         |-                          |1974  |
+#'  |Total |1328 |162  |224      |170  |40          |23           |23         |4         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -265,10 +265,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |none |a little |some |quite a bit |a great deal |don't know |no answer |Total |
-#'  |:-----|:----|:----|:--------|:----|:-----------|:------------|:----------|:---------|:-----|
-#'  |2012  |1328 |29   |117      |284  |152         |41           |19         |4         |1974  |
-#'  |Total |1328 |29   |117      |284  |152         |41           |19         |4         |1974  |
+#'  |year  |iap  |none |a little |some |quite a bit |a great deal |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:--------|:----|:-----------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1328 |29   |117      |284  |152         |41           |19         |4         |-                          |1974  |
+#'  |Total |1328 |29   |117      |284  |152         |41           |19         |4         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -307,10 +307,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |none |a little |some |quite a bit |a great deal |don't know |no answer |Total |
-#'  |:-----|:----|:----|:--------|:----|:-----------|:------------|:----------|:---------|:-----|
-#'  |2012  |1328 |49   |142      |256  |143         |46           |8          |2         |1974  |
-#'  |Total |1328 |49   |142      |256  |143         |46           |8          |2         |1974  |
+#'  |year  |iap  |none |a little |some |quite a bit |a great deal |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:--------|:----|:-----------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1328 |49   |142      |256  |143         |46           |8          |2         |-                          |1974  |
+#'  |Total |1328 |49   |142      |256  |143         |46           |8          |2         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -349,10 +349,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |never |rarely |sometimes |very often |extremely often |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:------|:---------|:----------|:---------------|:----------|:---------|:-----|
-#'  |2012  |1328 |59    |215    |288       |49         |5               |28         |2         |1974  |
-#'  |Total |1328 |59    |215    |288       |49         |5               |28         |2         |1974  |
+#'  |year  |iap  |never |rarely |sometimes |very often |extremely often |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:------|:---------|:----------|:---------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1328 |59    |215    |288       |49         |5               |28         |2         |-                          |1974  |
+#'  |Total |1328 |59    |215    |288       |49         |5               |28         |2         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -392,10 +392,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |none |a few |some |most |all |don't know |no answer |Total |
-#'  |:-----|:----|:----|:-----|:----|:----|:---|:----------|:---------|:-----|
-#'  |2012  |1328 |62   |247   |241  |59   |5   |31         |1         |1974  |
-#'  |Total |1328 |62   |247   |241  |59   |5   |31         |1         |1974  |
+#'  |year  |iap  |none |a few |some |most |all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:-----|:----|:----|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1328 |62   |247   |241  |59   |5   |31         |1         |-                          |1974  |
+#'  |Total |1328 |62   |247   |241  |59   |5   |31         |1         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't

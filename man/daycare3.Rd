@@ -35,10 +35,10 @@ C. A babysitter?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4359/vshow}{GSS Data Explorer page for \code{daycare3}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very suitable \tab somewhat suitable \tab not very suitable \tab not at all suitable \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 372 \tab 616 \tab 203 \tab 89 \tab 72 \tab 62 \tab 1481 \cr
-   Total \tab 67 \tab 372 \tab 616 \tab 203 \tab 89 \tab 72 \tab 62 \tab 1481 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very suitable \tab somewhat suitable \tab not very suitable \tab not at all suitable \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 372 \tab 616 \tab 203 \tab 89 \tab 72 \tab 62 \tab - \tab 1481 \cr
+   Total \tab 67 \tab 372 \tab 616 \tab 203 \tab 89 \tab 72 \tab 62 \tab 0 \tab 1481 \cr
 }
 }
 

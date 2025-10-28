@@ -34,11 +34,11 @@ IF YES F. Over the past 12 months, have you had any training to improve your job
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4625/vshow}{GSS Data Explorer page for \code{skltrain}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 4008 \tab 60 \tab 432 \tab 5 \tab 5 \tab 4510 \cr
-   2016 \tab 2533 \tab 51 \tab 259 \tab 1 \tab 23 \tab 2867 \cr
-   Total \tab 6541 \tab 111 \tab 691 \tab 6 \tab 28 \tab 7377 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 4008 \tab 60 \tab 432 \tab 5 \tab 5 \tab - \tab 4510 \cr
+   2016 \tab 2533 \tab 51 \tab 259 \tab 1 \tab 23 \tab - \tab 2867 \cr
+   Total \tab 6541 \tab 111 \tab 691 \tab 6 \tab 28 \tab 0 \tab 7377 \cr
 }
 }
 

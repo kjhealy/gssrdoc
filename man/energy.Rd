@@ -36,10 +36,10 @@ Question How much of the time during the past 4 weeks did you have a lot of ener
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2685/vshow}{GSS Data Explorer page for \code{energy}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab all of the time \tab most of the time \tab a good bit of the time \tab some of the time \tab a little bit of the time \tab non of the time \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 146 \tab 486 \tab 319 \tab 259 \tab 134 \tab 65 \tab 10 \tab 2817 \cr
-   Total \tab 1398 \tab 146 \tab 486 \tab 319 \tab 259 \tab 134 \tab 65 \tab 10 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab all of the time \tab most of the time \tab a good bit of the time \tab some of the time \tab a little bit of the time \tab non of the time \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 146 \tab 486 \tab 319 \tab 259 \tab 134 \tab 65 \tab 10 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 146 \tab 486 \tab 319 \tab 259 \tab 134 \tab 65 \tab 10 \tab 0 \tab 2817 \cr
 }
 }
 

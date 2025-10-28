@@ -32,11 +32,11 @@ Question Are you in favor of the death penalty for persons convicted of murder?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/267/vshow}{GSS Data Explorer page for \code{cappun2}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab yes,favor \tab no,dont favor \tab don't know \tab iap \tab no answer \tab Total \cr
-   1972 \tab 852 \tab 632 \tab 124 \tab 1 \tab 4 \tab 1613 \cr
-   1973 \tab 898 \tab 519 \tab 75 \tab - \tab 12 \tab 1504 \cr
-   Total \tab 1750 \tab 1151 \tab 199 \tab 1 \tab 16 \tab 3117 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab yes,favor \tab no,dont favor \tab don't know \tab iap \tab no answer \tab not available in this year \tab Total \cr
+   1972 \tab 852 \tab 632 \tab 124 \tab 1 \tab 4 \tab - \tab 1613 \cr
+   1973 \tab 898 \tab 519 \tab 75 \tab - \tab 12 \tab - \tab 1504 \cr
+   Total \tab 1750 \tab 1151 \tab 199 \tab 1 \tab 16 \tab 0 \tab 3117 \cr
 }
 }
 

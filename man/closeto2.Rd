@@ -32,10 +32,10 @@ Question On a scale from 1 to 10, with 1 being not at all close and 10 being ver
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7111/vshow}{GSS Data Explorer page for \code{closeto2}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab 1 - not at all close \tab 10 - very close \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1982 \tab 52 \tab 79 \tab 24 \tab 26 \tab 25 \tab 39 \tab 22 \tab 37 \tab 30 \tab 26 \tab 3 \tab 3 \tab 2348 \cr
-   Total \tab 1982 \tab 52 \tab 79 \tab 24 \tab 26 \tab 25 \tab 39 \tab 22 \tab 37 \tab 30 \tab 26 \tab 3 \tab 3 \tab 2348 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 1 - not at all close \tab 10 - very close \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1982 \tab 52 \tab 79 \tab 24 \tab 26 \tab 25 \tab 39 \tab 22 \tab 37 \tab 30 \tab 26 \tab 3 \tab 3 \tab - \tab 2348 \cr
+   Total \tab 1982 \tab 52 \tab 79 \tab 24 \tab 26 \tab 25 \tab 39 \tab 22 \tab 37 \tab 30 \tab 26 \tab 3 \tab 3 \tab 0 \tab 2348 \cr
 }
 }
 

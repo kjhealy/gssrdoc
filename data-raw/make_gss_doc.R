@@ -13,7 +13,7 @@ library(forcats)
 library(socviz)
 library(here)
 
-## http://larmarange.github.io/labelled/
+## https://larmarange.github.io/labelled/
 library(labelled)
 
 
@@ -42,7 +42,7 @@ length(unique(norc_vnames))
 ## Mismatches can exist for various reasons; mostly for yearly versions and
 ## generated variables.
 
-## Fileversion and two uscitzn vars
+## Fileversion
 setdiff(gss_vnames, norc_vnames)
 
 ## More on the NORC side; that's ok
@@ -82,13 +82,21 @@ exclude_from_xtab <- unique(c(
   names(select(gss_all_labelled, starts_with("spocc"))),
   names(select(gss_all_labelled, starts_with("paocc"))),
   names(select(gss_all_labelled, contains("isc681"))),
-  names(select(gss_all_labelled, contains("isco0")))
+  names(select(gss_all_labelled, contains("isco0"))),
+  names(select(gss_all_labelled, contains("papres"))),
+  names(select(gss_all_labelled, starts_with("mapres"))),
+  names(select(gss_all_labelled, starts_with("copres"))),
+  names(select(gss_all_labelled, starts_with("kdpres"))),
+  names(select(gss_all_labelled, starts_with("sppres"))),
+  names(select(gss_all_labelled, starts_with("prestg")))
 ))
 
 # Variables with very knarly structure, and weight vars
 # No need for xtabs there either
 exclude_from_xtab <- sort(unique(c(
   exclude_from_xtab,
+  "vigversn",
+  "hivtest1_0622",
   "marcohrt",
   "spother",
   "spoth16",

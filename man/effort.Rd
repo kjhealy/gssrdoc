@@ -36,10 +36,10 @@ E. That everything was an effort.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2118/vshow}{GSS Data Explorer page for \code{effort}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab all of the time \tab most of the time \tab some of the time \tab little of time \tab none of the time \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 65 \tab 121 \tab 324 \tab 433 \tab 479 \tab 6 \tab 17 \tab 2832 \cr
-   Total \tab 1387 \tab 65 \tab 121 \tab 324 \tab 433 \tab 479 \tab 6 \tab 17 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab all of the time \tab most of the time \tab some of the time \tab little of time \tab none of the time \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 65 \tab 121 \tab 324 \tab 433 \tab 479 \tab 6 \tab 17 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 65 \tab 121 \tab 324 \tab 433 \tab 479 \tab 6 \tab 17 \tab 0 \tab 2832 \cr
 }
 }
 

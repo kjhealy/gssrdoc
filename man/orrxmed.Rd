@@ -31,11 +31,11 @@ I. Take prescription medication.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2029/vshow}{GSS Data Explorer page for \code{orrxmed}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2082 \tab 2 \tab 1 \tab 34 \tab 55 \tab 104 \tab 110 \tab 150 \tab 159 \tab 72 \tab 20 \tab 3 \tab 112 \tab 2904 \cr
-   2006 \tab 3489 \tab 8 \tab - \tab 57 \tab 108 \tab 132 \tab 163 \tab 173 \tab 187 \tab 123 \tab 31 \tab - \tab 39 \tab 4510 \cr
-   Total \tab 5571 \tab 10 \tab 1 \tab 91 \tab 163 \tab 236 \tab 273 \tab 323 \tab 346 \tab 195 \tab 51 \tab 3 \tab 151 \tab 7414 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2082 \tab 2 \tab 1 \tab 34 \tab 55 \tab 104 \tab 110 \tab 150 \tab 159 \tab 72 \tab 20 \tab 3 \tab 112 \tab - \tab 2904 \cr
+   2006 \tab 3489 \tab 8 \tab - \tab 57 \tab 108 \tab 132 \tab 163 \tab 173 \tab 187 \tab 123 \tab 31 \tab - \tab 39 \tab - \tab 4510 \cr
+   Total \tab 5571 \tab 10 \tab 1 \tab 91 \tab 163 \tab 236 \tab 273 \tab 323 \tab 346 \tab 195 \tab 51 \tab 3 \tab 151 \tab 0 \tab 7414 \cr
 }
 }
 

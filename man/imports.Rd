@@ -38,13 +38,14 @@ A. America should limit the import of foreign products in order to protect its n
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4850/vshow}{GSS Data Explorer page for \code{imports}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   1996 \tab 1537 \tab 291 \tab 589 \tab 219 \tab 142 \tab 40 \tab 62 \tab 24 \tab - \tab 2904 \cr
-   2004 \tab 1596 \tab 271 \tab 453 \tab 253 \tab 180 \tab 23 \tab 35 \tab 1 \tab - \tab 2812 \cr
-   2014 \tab 1264 \tab 231 \tab 490 \tab 258 \tab 209 \tab 32 \tab 50 \tab 4 \tab - \tab 2538 \cr
-   2021 \tab 2003 \tab 195 \tab 617 \tab 607 \tab 326 \tab 55 \tab 66 \tab 149 \tab 14 \tab 4032 \cr
-   Total \tab 6400 \tab 988 \tab 2149 \tab 1337 \tab 857 \tab 150 \tab 213 \tab 178 \tab 14 \tab 12286 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1996 \tab 1537 \tab 291 \tab 589 \tab 219 \tab 142 \tab 40 \tab 62 \tab 24 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 271 \tab 453 \tab 253 \tab 180 \tab 23 \tab 35 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 231 \tab 490 \tab 258 \tab 209 \tab 32 \tab 50 \tab 4 \tab - \tab - \tab 2538 \cr
+   2021 \tab 2003 \tab 195 \tab 617 \tab 607 \tab 326 \tab 55 \tab 66 \tab 149 \tab 14 \tab - \tab 4032 \cr
+   2024 \tab 1661 \tab 234 \tab 577 \tab 420 \tab 238 \tab 46 \tab 114 \tab 4 \tab 15 \tab - \tab 3309 \cr
+   Total \tab 8061 \tab 1222 \tab 2726 \tab 1757 \tab 1095 \tab 196 \tab 327 \tab 182 \tab 29 \tab 0 \tab 15595 \cr
 }
 }
 

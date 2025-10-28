@@ -37,10 +37,10 @@ C. And how often do you have any other contact with your mother besides visiting
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4130/vshow}{GSS Data Explorer page for \code{macall}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab Total \cr
-   1986 \tab 678 \tab 117 \tab 187 \tab 222 \tab 168 \tab 37 \tab 54 \tab 7 \tab 1470 \cr
-   Total \tab 678 \tab 117 \tab 187 \tab 222 \tab 168 \tab 37 \tab 54 \tab 7 \tab 1470 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 678 \tab 117 \tab 187 \tab 222 \tab 168 \tab 37 \tab 54 \tab 7 \tab - \tab 1470 \cr
+   Total \tab 678 \tab 117 \tab 187 \tab 222 \tab 168 \tab 37 \tab 54 \tab 7 \tab 0 \tab 1470 \cr
 }
 }
 

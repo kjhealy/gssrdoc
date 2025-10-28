@@ -37,10 +37,10 @@ C. And how often do you have any other contact with your sister besides visiting
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4138/vshow}{GSS Data Explorer page for \code{siscall}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab Total \cr
-   1986 \tab 439 \tab 98 \tab 136 \tab 194 \tab 253 \tab 181 \tab 156 \tab 13 \tab 1470 \cr
-   Total \tab 439 \tab 98 \tab 136 \tab 194 \tab 253 \tab 181 \tab 156 \tab 13 \tab 1470 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 439 \tab 98 \tab 136 \tab 194 \tab 253 \tab 181 \tab 156 \tab 13 \tab - \tab 1470 \cr
+   Total \tab 439 \tab 98 \tab 136 \tab 194 \tab 253 \tab 181 \tab 156 \tab 13 \tab 0 \tab 1470 \cr
 }
 }
 

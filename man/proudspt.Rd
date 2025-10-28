@@ -36,12 +36,13 @@ F. Its achievements in sports
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4845/vshow}{GSS Data Explorer page for \code{proudspt}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 476 \tab 641 \tab 103 \tab 44 \tab 75 \tab 28 \tab 2904 \cr
-   2004 \tab 1596 \tab 511 \tab 520 \tab 88 \tab 23 \tab 72 \tab 2 \tab 2812 \cr
-   2014 \tab 1264 \tab 434 \tab 598 \tab 79 \tab 34 \tab 126 \tab 3 \tab 2538 \cr
-   Total \tab 4397 \tab 1421 \tab 1759 \tab 270 \tab 101 \tab 273 \tab 33 \tab 8254 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 476 \tab 641 \tab 103 \tab 44 \tab 75 \tab 28 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 511 \tab 520 \tab 88 \tab 23 \tab 72 \tab 2 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 434 \tab 598 \tab 79 \tab 34 \tab 126 \tab 3 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1661 \tab 538 \tab 615 \tab 151 \tab 89 \tab 222 \tab 8 \tab - \tab 25 \tab 3309 \cr
+   Total \tab 6058 \tab 1959 \tab 2374 \tab 421 \tab 190 \tab 495 \tab 41 \tab 0 \tab 25 \tab 11563 \cr
 }
 }
 

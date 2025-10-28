@@ -37,10 +37,10 @@ C. And how often do you have any other contact with your daughter besides visiti
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4146/vshow}{GSS Data Explorer page for \code{daucall}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab Total \cr
-   1986 \tab 1047 \tab 109 \tab 95 \tab 100 \tab 58 \tab 18 \tab 37 \tab 6 \tab 1470 \cr
-   Total \tab 1047 \tab 109 \tab 95 \tab 100 \tab 58 \tab 18 \tab 37 \tab 6 \tab 1470 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 1047 \tab 109 \tab 95 \tab 100 \tab 58 \tab 18 \tab 37 \tab 6 \tab - \tab 1470 \cr
+   Total \tab 1047 \tab 109 \tab 95 \tab 100 \tab 58 \tab 18 \tab 37 \tab 6 \tab 0 \tab 1470 \cr
 }
 }
 

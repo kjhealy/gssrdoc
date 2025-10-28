@@ -34,10 +34,10 @@ Question How important is the crime issue to you--would you say it is one of the
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/278/vshow}{GSS Data Explorer page for \code{crimimp}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not important \tab don't know \tab no answer \tab Total \cr
-   1984 \tab 989 \tab 160 \tab 283 \tab 31 \tab 1 \tab 4 \tab 5 \tab 1473 \cr
-   Total \tab 989 \tab 160 \tab 283 \tab 31 \tab 1 \tab 4 \tab 5 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab 989 \tab 160 \tab 283 \tab 31 \tab 1 \tab 4 \tab 5 \tab - \tab 1473 \cr
+   Total \tab 989 \tab 160 \tab 283 \tab 31 \tab 1 \tab 4 \tab 5 \tab 0 \tab 1473 \cr
 }
 }
 

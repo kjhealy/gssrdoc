@@ -35,10 +35,10 @@ A. In the United States traditional divisions between owners and workers still r
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/233/vshow}{GSS Data Explorer page for \code{usclass1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 230 \tab 750 \tab 323 \tab 92 \tab 51 \tab 27 \tab 1473 \cr
-   Total \tab 0 \tab 230 \tab 750 \tab 323 \tab 92 \tab 51 \tab 27 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 230 \tab 750 \tab 323 \tab 92 \tab 51 \tab 27 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 230 \tab 750 \tab 323 \tab 92 \tab 51 \tab 27 \tab 0 \tab 1473 \cr
 }
 }
 

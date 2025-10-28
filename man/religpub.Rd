@@ -36,10 +36,10 @@ C. It would be better for America if more people with strong religious beliefs h
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4647/vshow}{GSS Data Explorer page for \code{religpub}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 184 \tab 310 \tab 428 \tab 284 \tab 72 \tab 56 \tab 25 \tab 1517 \cr
-   Total \tab 158 \tab 184 \tab 310 \tab 428 \tab 284 \tab 72 \tab 56 \tab 25 \tab 1517 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 184 \tab 310 \tab 428 \tab 284 \tab 72 \tab 56 \tab 25 \tab - \tab 1517 \cr
+   Total \tab 158 \tab 184 \tab 310 \tab 428 \tab 284 \tab 72 \tab 56 \tab 25 \tab 0 \tab 1517 \cr
 }
 }
 

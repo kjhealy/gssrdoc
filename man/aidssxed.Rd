@@ -33,10 +33,10 @@ B. Require the teaching of safe sex practices, such as the use of condoms, in se
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5046/vshow}{GSS Data Explorer page for \code{aidssxed}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab support \tab oppose \tab don't know \tab no answer \tab Total \cr
-   1988 \tab 718 \tab 641 \tab 91 \tab 22 \tab 9 \tab 1481 \cr
-   Total \tab 718 \tab 641 \tab 91 \tab 22 \tab 9 \tab 1481 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab support \tab oppose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 718 \tab 641 \tab 91 \tab 22 \tab 9 \tab - \tab 1481 \cr
+   Total \tab 718 \tab 641 \tab 91 \tab 22 \tab 9 \tab 0 \tab 1481 \cr
 }
 }
 

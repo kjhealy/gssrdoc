@@ -35,16 +35,16 @@ B. How many times would you guess this has happened to you?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/660/vshow}{GSS Data Explorer page for \code{hitnum}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab once \tab 2-3 times \tab 4+ times \tab don't know \tab no answer \tab Total \cr
-   1973 \tab 1091 \tab 84 \tab 114 \tab 184 \tab 28 \tab 3 \tab 1504 \cr
-   1975 \tab 1017 \tab 95 \tab 147 \tab 184 \tab 43 \tab 4 \tab 1490 \cr
-   1976 \tab 1075 \tab 99 \tab 140 \tab 166 \tab 16 \tab 3 \tab 1499 \cr
-   1978 \tab 995 \tab 122 \tab 163 \tab 217 \tab 29 \tab 6 \tab 1532 \cr
-   1980 \tab 977 \tab 119 \tab 154 \tab 186 \tab 30 \tab 2 \tab 1468 \cr
-   1983 \tab 869 \tab 124 \tab 287 \tab 286 \tab 24 \tab 9 \tab 1599 \cr
-   1984 \tab 886 \tab 126 \tab 210 \tab 230 \tab 19 \tab 2 \tab 1473 \cr
-   Total \tab 6910 \tab 769 \tab 1215 \tab 1453 \tab 189 \tab 29 \tab 10565 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab once \tab 2-3 times \tab 4+ times \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1973 \tab 1091 \tab 84 \tab 114 \tab 184 \tab 28 \tab 3 \tab - \tab 1504 \cr
+   1975 \tab 1017 \tab 95 \tab 147 \tab 184 \tab 43 \tab 4 \tab - \tab 1490 \cr
+   1976 \tab 1075 \tab 99 \tab 140 \tab 166 \tab 16 \tab 3 \tab - \tab 1499 \cr
+   1978 \tab 995 \tab 122 \tab 163 \tab 217 \tab 29 \tab 6 \tab - \tab 1532 \cr
+   1980 \tab 977 \tab 119 \tab 154 \tab 186 \tab 30 \tab 2 \tab - \tab 1468 \cr
+   1983 \tab 869 \tab 124 \tab 287 \tab 286 \tab 24 \tab 9 \tab - \tab 1599 \cr
+   1984 \tab 886 \tab 126 \tab 210 \tab 230 \tab 19 \tab 2 \tab - \tab 1473 \cr
+   Total \tab 6910 \tab 769 \tab 1215 \tab 1453 \tab 189 \tab 29 \tab 0 \tab 10565 \cr
 }
 }
 

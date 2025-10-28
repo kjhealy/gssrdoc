@@ -46,10 +46,10 @@ Question (If present) Second relationship with fifth person.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7109/vshow}{GSS Data Explorer page for \code{mhp5r2}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab member of religious community \tab other \tab no answer \tab Total \cr
-   2018 \tab 2245 \tab 1 \tab 1 \tab 101 \tab 2348 \cr
-   Total \tab 2245 \tab 1 \tab 1 \tab 101 \tab 2348 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab member of religious community \tab other \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 2245 \tab 1 \tab 1 \tab 101 \tab - \tab 2348 \cr
+   Total \tab 2245 \tab 1 \tab 1 \tab 101 \tab 0 \tab 2348 \cr
 }
 }
 

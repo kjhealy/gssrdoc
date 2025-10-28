@@ -33,10 +33,10 @@ H. Air defense missile gunner in the United States ...
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/796/vshow}{GSS Data Explorer page for \code{gunner}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab should \tab should not \tab don't know \tab no answer \tab Total \cr
-   1982 \tab - \tab 1000 \tab 778 \tab 69 \tab 13 \tab 1860 \cr
-   Total \tab 0 \tab 1000 \tab 778 \tab 69 \tab 13 \tab 1860 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab should \tab should not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab - \tab 1000 \tab 778 \tab 69 \tab 13 \tab - \tab 1860 \cr
+   Total \tab 0 \tab 1000 \tab 778 \tab 69 \tab 13 \tab 0 \tab 1860 \cr
 }
 }
 

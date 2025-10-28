@@ -33,10 +33,10 @@ Question SPHEDOCC10 Coding Tag
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6004/vshow}{GSS Data Explorer page for \code{sphedocctag}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab found \tab not found, assigned \tab not found, not assigned \tab Total \cr
-   1994 \tab - \tab 2938 \tab 51 \tab 3 \tab 2992 \cr
-   Total \tab 0 \tab 2938 \tab 51 \tab 3 \tab 2992 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab found \tab not found, assigned \tab not found, not assigned \tab not available in this year \tab Total \cr
+   1994 \tab - \tab 2938 \tab 51 \tab 3 \tab - \tab 2992 \cr
+   Total \tab 0 \tab 2938 \tab 51 \tab 3 \tab 0 \tab 2992 \cr
 }
 }
 

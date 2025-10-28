@@ -33,10 +33,10 @@ E. I was at or near the top of a seniority list.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1296/vshow}{GSS Data Explorer page for \code{thisjob5}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1991 \tab 1243 \tab 33 \tab 206 \tab 35 \tab 1517 \cr
-   Total \tab 1243 \tab 33 \tab 206 \tab 35 \tab 1517 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 1243 \tab 33 \tab 206 \tab 35 \tab - \tab 1517 \cr
+   Total \tab 1243 \tab 33 \tab 206 \tab 35 \tab 0 \tab 1517 \cr
 }
 }
 

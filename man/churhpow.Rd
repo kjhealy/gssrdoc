@@ -37,13 +37,13 @@ Question Do you think that churches and religious organizations in this country 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4649/vshow}{GSS Data Explorer page for \code{churhpow}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab far too much power \tab too much power \tab about the right amount of power \tab too little power \tab far too little power \tab can't choose \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 88 \tab 185 \tab 698 \tab 178 \tab 36 \tab 141 \tab 33 \tab 1517 \cr
-   1998 \tab 1548 \tab 68 \tab 186 \tab 596 \tab 182 \tab 50 \tab 157 \tab 45 \tab 2832 \cr
-   2008 \tab 658 \tab 88 \tab 336 \tab 649 \tab 201 \tab 23 \tab 58 \tab 10 \tab 2023 \cr
-   2018 \tab 1173 \tab 83 \tab 320 \tab 481 \tab 216 \tab 16 \tab 46 \tab 13 \tab 2348 \cr
-   Total \tab 3537 \tab 327 \tab 1027 \tab 2424 \tab 777 \tab 125 \tab 402 \tab 101 \tab 8720 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab far too much power \tab too much power \tab about the right amount of power \tab too little power \tab far too little power \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 88 \tab 185 \tab 698 \tab 178 \tab 36 \tab 141 \tab 33 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 68 \tab 186 \tab 596 \tab 182 \tab 50 \tab 157 \tab 45 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 88 \tab 336 \tab 649 \tab 201 \tab 23 \tab 58 \tab 10 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 83 \tab 320 \tab 481 \tab 216 \tab 16 \tab 46 \tab 13 \tab - \tab 2348 \cr
+   Total \tab 3537 \tab 327 \tab 1027 \tab 2424 \tab 777 \tab 125 \tab 402 \tab 101 \tab 0 \tab 8720 \cr
 }
 }
 

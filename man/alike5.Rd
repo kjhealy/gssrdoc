@@ -34,10 +34,10 @@ E. In what way are a table and a chair alike?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1471/vshow}{GSS Data Explorer page for \code{alike5}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab completely wrong \tab partially right \tab completely right \tab don't know \tab no answer \tab Total \cr
-   1994 \tab - \tab 1446 \tab 264 \tab 1187 \tab 71 \tab 24 \tab 2992 \cr
-   Total \tab 0 \tab 1446 \tab 264 \tab 1187 \tab 71 \tab 24 \tab 2992 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab completely wrong \tab partially right \tab completely right \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab - \tab 1446 \tab 264 \tab 1187 \tab 71 \tab 24 \tab - \tab 2992 \cr
+   Total \tab 0 \tab 1446 \tab 264 \tab 1187 \tab 71 \tab 24 \tab 0 \tab 2992 \cr
 }
 }
 

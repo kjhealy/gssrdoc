@@ -37,12 +37,12 @@ C. Time with your family?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4488/vshow}{GSS Data Explorer page for \code{timefam}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab spend much more \tab spend a bit more \tab spend same \tab spend a bit less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 84 \tab 467 \tab 588 \tab 311 \tab 26 \tab 10 \tab 15 \tab 36 \tab 1537 \cr
-   1998 \tab 1609 \tab 490 \tab 447 \tab 213 \tab 7 \tab 12 \tab 21 \tab 33 \tab 2832 \cr
-   2006 \tab 2992 \tab 839 \tab 406 \tab 236 \tab 13 \tab 6 \tab 16 \tab 2 \tab 4510 \cr
-   Total \tab 4685 \tab 1796 \tab 1441 \tab 760 \tab 46 \tab 28 \tab 52 \tab 71 \tab 8879 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab spend much more \tab spend a bit more \tab spend same \tab spend a bit less \tab spend much less \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 84 \tab 467 \tab 588 \tab 311 \tab 26 \tab 10 \tab 15 \tab 36 \tab - \tab 1537 \cr
+   1998 \tab 1609 \tab 490 \tab 447 \tab 213 \tab 7 \tab 12 \tab 21 \tab 33 \tab - \tab 2832 \cr
+   2006 \tab 2992 \tab 839 \tab 406 \tab 236 \tab 13 \tab 6 \tab 16 \tab 2 \tab - \tab 4510 \cr
+   Total \tab 4685 \tab 1796 \tab 1441 \tab 760 \tab 46 \tab 28 \tab 52 \tab 71 \tab 0 \tab 8879 \cr
 }
 }
 

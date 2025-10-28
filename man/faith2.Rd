@@ -34,11 +34,11 @@ B. Birth of a child
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1100/vshow}{GSS Data Explorer page for \code{faith2}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
-   1988 \tab - \tab 686 \tab 415 \tab 312 \tab 46 \tab 22 \tab 1481 \cr
-   1998 \tab 1387 \tab 596 \tab 384 \tab 387 \tab 63 \tab 15 \tab 2832 \cr
-   Total \tab 1387 \tab 1282 \tab 799 \tab 699 \tab 109 \tab 37 \tab 4313 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 686 \tab 415 \tab 312 \tab 46 \tab 22 \tab - \tab 1481 \cr
+   1998 \tab 1387 \tab 596 \tab 384 \tab 387 \tab 63 \tab 15 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 1282 \tab 799 \tab 699 \tab 109 \tab 37 \tab 0 \tab 4313 \cr
 }
 }
 

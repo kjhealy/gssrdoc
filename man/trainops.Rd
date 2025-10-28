@@ -35,11 +35,11 @@ O. I have the training opportunities I need to perform my job safely and compete
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2810/vshow}{GSS Data Explorer page for \code{trainops}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 969 \tab 1125 \tab 504 \tab 78 \tab 58 \tab 15 \tab 16 \tab 2765 \cr
-   2006 \tab 2776 \tab 1011 \tab 537 \tab 89 \tab 50 \tab 25 \tab 22 \tab 4510 \cr
-   Total \tab 3745 \tab 2136 \tab 1041 \tab 167 \tab 108 \tab 40 \tab 38 \tab 7275 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 969 \tab 1125 \tab 504 \tab 78 \tab 58 \tab 15 \tab 16 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 1011 \tab 537 \tab 89 \tab 50 \tab 25 \tab 22 \tab - \tab 4510 \cr
+   Total \tab 3745 \tab 2136 \tab 1041 \tab 167 \tab 108 \tab 40 \tab 38 \tab 0 \tab 7275 \cr
 }
 }
 

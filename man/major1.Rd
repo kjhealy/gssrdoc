@@ -16,87 +16,45 @@ Question What was your major or field of study when you received your (RESPONDEN
 \section{Values}{
 
 \itemize{
-\item \verb{[1]} accounting/bookkeeping
-\item \verb{[2]} advertising
-\item \verb{[3]} agriculture/horticulture
-\item \verb{[4]} allied health
-\item \verb{[5]} anthropology
-\item \verb{[6]} architecture
-\item \verb{[7]} art
-\item \verb{[8]} biology
-\item \verb{[9]} business administration
-\item \verb{[11]} chemistry
-\item \verb{[12]} communications/speech
-\item \verb{[13]} comm. disorders
-\item \verb{[14]} computer science
-\item \verb{[15]} dentistry
-\item \verb{[16]} education
-\item \verb{[17]} economics
-\item \verb{[18]} engineering
-\item \verb{[19]} english
-\item \verb{[20]} finance
-\item \verb{[21]} foreign language
-\item \verb{[22]} forestry
-\item \verb{[23]} geography
-\item \verb{[24]} geology
-\item \verb{[25]} history
-\item \verb{[26]} home economics
-\item \verb{[27]} industry & technology
-\item \verb{[28]} journalism
-\item \verb{[29]} law
-\item \verb{[30]} law enforcement
-\item \verb{[31]} library science
-\item \verb{[32]} marketing
-\item \verb{[33]} mathematics
-\item \verb{[34]} medicine
-\item \verb{[35]} music
-\item \verb{[36]} nursing
-\item \verb{[37]} optometry
-\item \verb{[38]} pharmacy
-\item \verb{[39]} philosophy
-\item \verb{[40]} physical education
-\item \verb{[41]} physics
-\item \verb{[42]} psychology
-\item \verb{[43]} political science/international relations
-\item \verb{[44]} sociology
-\item \verb{[45]} special education
-\item \verb{[46]} theater arts
-\item \verb{[47]} theology
-\item \verb{[48]} veterinary medicine
-\item \verb{[49]} liberal arts
-\item \verb{[50]} other
-\item \verb{[51]} general sciences
-\item \verb{[52]} social work
-\item \verb{[53]} general studies
-\item \verb{[54]} other vocational
-\item \verb{[55]} health
-\item \verb{[56]} industrial relations
-\item \verb{[57]} child/human/family development
-\item \verb{[58]} food science/nutrition/culinary arts
-\item \verb{[59]} environmental science/ecology
-\item \verb{[60]} social sciences
-\item \verb{[61]} human services/human resources
-\item \verb{[62]} visual arts/graphic design/design and drafting
-\item \verb{[63]} fine arts
-\item \verb{[64]} humanities
-\item \verb{[65]} ethnic studies
-\item \verb{[66]} educational administration
-\item \verb{[67]} television/film
-\item \verb{[68]} aviation/aeronatics
-\item \verb{[69]} statistics/biostatistics
-\item \verb{[70]} criminology/criminal justice
-\item \verb{[71]} administrative science/public administration
-\item \verb{[72]} electronics
-\item \verb{[73]} urban and regional planning
-\item \verb{[74]} mechanics/machine trade
-\item \verb{[75]} dance
-\item \verb{[76]} gerontology
-\item \verb{[77]} public relations
-\item \verb{[78]} textiles/cloth
-\item \verb{[79]} parks and recreation
-\item \verb{[80]} information technology
-\item \verb{[81]} fashion
-\item \verb{[82]} counseling
+\item \verb{[1]} agriculture
+\item \verb{[2]} environment and natural resources
+\item \verb{[3]} architecture
+\item \verb{[4]} area, ethnic, and civilization studies
+\item \verb{[5]} communications
+\item \verb{[6]} communication technologies
+\item \verb{[7]} computer and information sciences
+\item \verb{[8]} cosmetology services and culinary arts
+\item \verb{[9]} education administration and teaching
+\item \verb{[10]} engineering
+\item \verb{[11]} engineering technologies
+\item \verb{[12]} linguistics and foreign languages
+\item \verb{[13]} family and consumer sciences
+\item \verb{[14]} law and legal studies
+\item \verb{[15]} english language, literature, and composition
+\item \verb{[16]} liberal arts and humanities
+\item \verb{[17]} library science
+\item \verb{[18]} biology and life sciences
+\item \verb{[19]} mathematics and statistics
+\item \verb{[20]} military technologies
+\item \verb{[21]} interdisciplinary and multi-disciplinary studies (general)
+\item \verb{[22]} physical fitness, parks, recreation, and leisure
+\item \verb{[23]} philosophy and religious studies
+\item \verb{[24]} theology and religious vocations
+\item \verb{[25]} physical sciences
+\item \verb{[26]} nuclear, industrial radiology, and biological technologies
+\item \verb{[27]} psychology
+\item \verb{[28]} criminal justice and fire protection
+\item \verb{[29]} public affairs, policy, and social work
+\item \verb{[30]} social sciences
+\item \verb{[31]} construction services
+\item \verb{[32]} electrical and mechanic repairs and technologies
+\item \verb{[33]} precision production and industrial arts
+\item \verb{[34]} transportation sciences and technologies
+\item \verb{[35]} fine arts
+\item \verb{[36]} medical and health sciences and services
+\item \verb{[37]} business
+\item \verb{[38]} history
+\item \verb{[39]} other
 \item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
@@ -112,15 +70,15 @@ Question What was your major or field of study when you received your (RESPONDEN
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/63/vshow}{GSS Data Explorer page for \code{major1}}.
 
-Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
-   year \tab iap \tab accounting/bookkeeping \tab advertising \tab agriculture/horticulture \tab anthropology \tab architecture \tab art \tab biology \tab business administration \tab chemistry \tab communications/speech \tab comm. disorders \tab computer science \tab dentistry \tab education \tab economics \tab engineering \tab english \tab finance \tab foreign language \tab forestry \tab geology \tab history \tab industry & technology \tab journalism \tab law \tab law enforcement \tab library science \tab marketing \tab mathematics \tab medicine \tab music \tab nursing \tab pharmacy \tab philosophy \tab physical education \tab physics \tab psychology \tab political science/international relations \tab sociology \tab special education \tab theater arts \tab theology \tab veterinary medicine \tab liberal arts \tab other \tab general sciences \tab social work \tab general studies \tab other vocational \tab health \tab industrial relations \tab child/human/family development \tab food science/nutrition/culinary arts \tab environmental science/ecology \tab social sciences \tab human services/human resources \tab visual arts/graphic design/design and drafting \tab fine arts \tab ethnic studies \tab educational administration \tab aviation/aeronatics \tab criminology/criminal justice \tab administrative science/public administration \tab electronics \tab urban and regional planning \tab dance \tab gerontology \tab public relations \tab textiles/cloth \tab parks and recreation \tab don't know \tab allied health \tab geography \tab humanities \tab television/film \tab mechanics/machine trade \tab information technology \tab no answer \tab home economics \tab statistics/biostatistics \tab fashion \tab counseling \tab optometry \tab skipped on web \tab not available in this year \tab Total \cr
-   2012 \tab 1263 \tab 28 \tab 3 \tab 8 \tab 3 \tab 2 \tab 6 \tab 16 \tab 90 \tab 5 \tab 20 \tab 4 \tab 25 \tab 2 \tab 73 \tab 11 \tab 47 \tab 23 \tab 7 \tab 4 \tab 1 \tab 1 \tab 10 \tab 3 \tab 5 \tab 13 \tab 3 \tab 4 \tab 11 \tab 5 \tab 9 \tab 4 \tab 36 \tab 2 \tab 2 \tab 9 \tab 3 \tab 32 \tab 16 \tab 9 \tab 5 \tab 6 \tab 6 \tab 1 \tab 8 \tab 8 \tab 10 \tab 7 \tab 2 \tab 5 \tab 23 \tab 1 \tab 11 \tab 3 \tab 5 \tab 4 \tab 3 \tab 3 \tab 4 \tab 3 \tab 3 \tab 2 \tab 13 \tab 2 \tab 6 \tab 1 \tab 1 \tab 1 \tab 3 \tab 3 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 1597 \tab 32 \tab 2 \tab 2 \tab 5 \tab 3 \tab 7 \tab 22 \tab 142 \tab 8 \tab 18 \tab 6 \tab 24 \tab 4 \tab 91 \tab 19 \tab 49 \tab 26 \tab 15 \tab 8 \tab - \tab 3 \tab 19 \tab 4 \tab 6 \tab 18 \tab 5 \tab 5 \tab 15 \tab 10 \tab 25 \tab 2 \tab 39 \tab 5 \tab - \tab 6 \tab 6 \tab 32 \tab 22 \tab 15 \tab 3 \tab 2 \tab 6 \tab 5 \tab 16 \tab 10 \tab 13 \tab 17 \tab 5 \tab 11 \tab 31 \tab - \tab 3 \tab 6 \tab 5 \tab 2 \tab 7 \tab 8 \tab 5 \tab 1 \tab 4 \tab 1 \tab 17 \tab 11 \tab 6 \tab 1 \tab - \tab - \tab 1 \tab 4 \tab 2 \tab 3 \tab 2 \tab 2 \tab 2 \tab 2 \tab 1 \tab 5 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 1795 \tab 30 \tab - \tab 7 \tab 1 \tab 5 \tab 11 \tab 33 \tab 172 \tab 10 \tab 26 \tab 2 \tab 33 \tab 3 \tab 97 \tab 13 \tab 47 \tab 27 \tab 14 \tab 6 \tab 3 \tab 4 \tab 14 \tab 6 \tab 6 \tab 23 \tab 4 \tab 2 \tab 13 \tab 12 \tab 12 \tab 10 \tab 60 \tab 4 \tab 2 \tab 16 \tab 7 \tab 34 \tab 19 \tab 10 \tab 5 \tab 3 \tab 13 \tab 3 \tab 12 \tab 21 \tab 15 \tab 24 \tab 7 \tab 6 \tab 31 \tab - \tab 7 \tab 9 \tab 6 \tab 7 \tab 7 \tab 9 \tab 5 \tab - \tab 8 \tab 1 \tab 17 \tab 3 \tab 5 \tab 3 \tab 1 \tab 1 \tab 2 \tab - \tab 1 \tab - \tab 1 \tab 2 \tab - \tab 6 \tab 1 \tab 8 \tab 5 \tab 3 \tab 2 \tab 3 \tab 11 \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 1435 \tab 29 \tab - \tab 5 \tab 1 \tab 3 \tab 10 \tab 26 \tab 138 \tab 4 \tab 18 \tab 2 \tab 17 \tab 5 \tab 79 \tab 19 \tab 54 \tab 24 \tab 16 \tab 5 \tab - \tab 2 \tab 19 \tab - \tab 4 \tab 14 \tab 2 \tab 3 \tab 12 \tab 5 \tab 11 \tab 2 \tab 51 \tab 4 \tab 2 \tab 6 \tab 4 \tab 29 \tab 14 \tab 12 \tab 2 \tab 1 \tab 8 \tab 4 \tab 10 \tab 27 \tab 14 \tab 7 \tab 7 \tab 5 \tab 42 \tab 3 \tab 7 \tab 9 \tab 8 \tab 5 \tab 5 \tab 10 \tab 6 \tab - \tab 9 \tab 3 \tab 13 \tab 5 \tab 9 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 4 \tab 1 \tab 1 \tab 4 \tab 11 \tab 3 \tab 2 \tab 2 \tab 1 \tab 9 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab 70 \tab 1 \tab 12 \tab 6 \tab 16 \tab 24 \tab 64 \tab 309 \tab 17 \tab 47 \tab - \tab 67 \tab 6 \tab 186 \tab 23 \tab 103 \tab 44 \tab 20 \tab 19 \tab 1 \tab 6 \tab 31 \tab 1 \tab 16 \tab 45 \tab 4 \tab 11 \tab 20 \tab 17 \tab 85 \tab 13 \tab 93 \tab 13 \tab 6 \tab 3 \tab 5 \tab 63 \tab 41 \tab 26 \tab 11 \tab 10 \tab 23 \tab 6 \tab 21 \tab 40 \tab 27 \tab 28 \tab 18 \tab 3 \tab 31 \tab - \tab 13 \tab 5 \tab 21 \tab 14 \tab 16 \tab 3 \tab 35 \tab - \tab 26 \tab 3 \tab 58 \tab 25 \tab 23 \tab 5 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab 28 \tab 12 \tab 11 \tab 3 \tab 5 \tab 10 \tab 28 \tab 12 \tab 4 \tab 4 \tab 6 \tab 16 \tab 4 \tab 30 \tab 1856 \tab 4032 \cr
-   2022 \tab 2013 \tab 41 \tab 2 \tab 7 \tab 2 \tab 8 \tab 21 \tab 47 \tab 221 \tab 13 \tab 32 \tab 4 \tab 48 \tab 5 \tab 129 \tab 13 \tab 80 \tab 41 \tab 22 \tab 6 \tab - \tab 2 \tab 17 \tab 6 \tab 12 \tab 32 \tab 1 \tab 4 \tab 12 \tab 21 \tab 23 \tab 7 \tab 90 \tab 6 \tab 4 \tab 9 \tab 7 \tab 60 \tab 34 \tab 19 \tab 8 \tab 4 \tab 13 \tab 5 \tab 17 \tab 18 \tab 27 \tab 2 \tab 14 \tab 6 \tab 50 \tab 1 \tab 14 \tab 13 \tab 14 \tab 10 \tab 17 \tab 12 \tab 9 \tab 1 \tab 8 \tab 6 \tab 32 \tab 7 \tab 13 \tab 1 \tab - \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab - \tab 3 \tab 1 \tab 5 \tab 8 \tab 10 \tab 14 \tab 3 \tab - \tab 2 \tab 27 \tab 1 \tab 20 \tab - \tab 3544 \cr
-   Total \tab 8103 \tab 230 \tab 8 \tab 41 \tab 18 \tab 37 \tab 79 \tab 208 \tab 1072 \tab 57 \tab 161 \tab 18 \tab 214 \tab 25 \tab 655 \tab 98 \tab 380 \tab 185 \tab 94 \tab 48 \tab 5 \tab 18 \tab 110 \tab 20 \tab 49 \tab 145 \tab 19 \tab 29 \tab 83 \tab 70 \tab 165 \tab 38 \tab 369 \tab 34 \tab 16 \tab 49 \tab 32 \tab 250 \tab 146 \tab 91 \tab 34 \tab 26 \tab 69 \tab 24 \tab 84 \tab 124 \tab 106 \tab 85 \tab 53 \tab 36 \tab 208 \tab 5 \tab 55 \tab 45 \tab 59 \tab 42 \tab 55 \tab 45 \tab 64 \tab 5 \tab 58 \tab 16 \tab 150 \tab 53 \tab 62 \tab 13 \tab 4 \tab 5 \tab 10 \tab 9 \tab 6 \tab 34 \tab 15 \tab 22 \tab 7 \tab 19 \tab 24 \tab 62 \tab 35 \tab 12 \tab 8 \tab 12 \tab 63 \tab 5 \tab 50 \tab 1856 \tab 17303 \cr
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab not available in this year \tab agriculture \tab environment and natural resources \tab architecture \tab area, ethnic, and civilization studies \tab communications \tab computer and information sciences \tab cosmetology services and culinary arts \tab education administration and teaching \tab engineering \tab engineering technologies \tab linguistics and foreign languages \tab law and legal studies \tab english language, literature, and composition \tab liberal arts and humanities \tab library science \tab biology and life sciences \tab mathematics and statistics \tab interdisciplinary and multi-disciplinary studies (general) \tab physical fitness, parks, recreation, and leisure \tab philosophy and religious studies \tab theology and religious vocations \tab physical sciences \tab psychology \tab criminal justice and fire protection \tab public affairs, policy, and social work \tab social sciences \tab electrical and mechanic repairs and technologies \tab precision production and industrial arts \tab fine arts \tab medical and health sciences and services \tab business \tab history \tab other \tab don't know \tab iap \tab no answer \tab family and consumer sciences \tab skipped on web \tab nuclear, industrial radiology, and biological technologies \tab construction services \tab transportation sciences and technologies \tab Total \cr
+   2012 \tab - \tab 9 \tab 6 \tab 2 \tab 3 \tab 31 \tab 25 \tab 3 \tab 90 \tab 49 \tab 3 \tab 4 \tab 13 \tab 23 \tab 8 \tab 4 \tab 16 \tab 5 \tab 2 \tab 1 \tab 2 \tab 6 \tab 19 \tab 32 \tab 16 \tab 12 \tab 56 \tab 6 \tab 1 \tab 27 \tab 76 \tab 136 \tab 10 \tab 13 \tab 2 \tab 1263 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab - \tab 7 \tab 5 \tab 3 \tab 1 \tab 27 \tab 29 \tab 6 \tab 104 \tab 50 \tab 4 \tab 8 \tab 18 \tab 26 \tab 18 \tab 5 \tab 22 \tab 10 \tab 5 \tab 2 \tab - \tab 6 \tab 30 \tab 32 \tab 22 \tab 35 \tab 69 \tab 7 \tab - \tab 30 \tab 112 \tab 204 \tab 19 \tab 21 \tab 3 \tab 1597 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab - \tab 10 \tab 9 \tab 5 \tab - \tab 34 \tab 41 \tab 9 \tab 126 \tab 48 \tab 6 \tab 6 \tab 23 \tab 27 \tab 12 \tab 2 \tab 33 \tab 14 \tab 7 \tab 1 \tab 2 \tab 13 \tab 36 \tab 45 \tab 21 \tab 34 \tab 63 \tab 6 \tab - \tab 48 \tab 113 \tab 229 \tab 14 \tab 27 \tab - \tab 1795 \tab 5 \tab 3 \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab - \tab 9 \tab 8 \tab 3 \tab - \tab 23 \tab 28 \tab 9 \tab 96 \tab 57 \tab - \tab 5 \tab 14 \tab 24 \tab 11 \tab 3 \tab 26 \tab 7 \tab 7 \tab - \tab 2 \tab 8 \tab 24 \tab 38 \tab 15 \tab 17 \tab 65 \tab 13 \tab 3 \tab 32 \tab 115 \tab 195 \tab 19 \tab 32 \tab - \tab 1435 \tab 3 \tab 2 \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab 18 \tab 22 \tab 16 \tab - \tab 65 \tab 95 \tab 5 \tab 226 \tab 106 \tab 1 \tab 19 \tab 45 \tab 44 \tab 24 \tab 11 \tab 64 \tab 21 \tab 18 \tab - \tab 6 \tab 23 \tab 55 \tab 79 \tab 62 \tab 69 \tab 140 \tab 33 \tab - \tab 98 \tab 244 \tab 419 \tab 31 \tab 43 \tab 28 \tab 1856 \tab 12 \tab 4 \tab 30 \tab - \tab - \tab - \tab 4032 \cr
+   2022 \tab - \tab 12 \tab 14 \tab 8 \tab 1 \tab 48 \tab 58 \tab 13 \tab 154 \tab 86 \tab 6 \tab 6 \tab 32 \tab 41 \tab 18 \tab 4 \tab 47 \tab 21 \tab 14 \tab 2 \tab 4 \tab 13 \tab 49 \tab 87 \tab 33 \tab 26 \tab 97 \tab 21 \tab 1 \tab 61 \tab 179 \tab 296 \tab 17 \tab 24 \tab 1 \tab 2013 \tab 14 \tab 3 \tab 20 \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 0 \tab 65 \tab 64 \tab 37 \tab 5 \tab 228 \tab 276 \tab 45 \tab 796 \tab 396 \tab 20 \tab 48 \tab 145 \tab 185 \tab 91 \tab 29 \tab 208 \tab 78 \tab 53 \tab 6 \tab 16 \tab 69 \tab 213 \tab 313 \tab 169 \tab 193 \tab 490 \tab 86 \tab 5 \tab 296 \tab 839 \tab 1479 \tab 110 \tab 160 \tab 34 \tab 9959 \tab 35 \tab 12 \tab 50 \tab 0 \tab 0 \tab 0 \tab 17303 \cr
 }
 }
 

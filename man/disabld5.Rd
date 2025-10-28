@@ -32,10 +32,10 @@ Question Do you have any emotional or mental disability?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3716/vshow}{GSS Data Explorer page for \code{disabld5}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 1714 \tab 156 \tab 2621 \tab 4 \tab 15 \tab 4510 \cr
-   Total \tab 1714 \tab 156 \tab 2621 \tab 4 \tab 15 \tab 4510 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 1714 \tab 156 \tab 2621 \tab 4 \tab 15 \tab - \tab 4510 \cr
+   Total \tab 1714 \tab 156 \tab 2621 \tab 4 \tab 15 \tab 0 \tab 4510 \cr
 }
 }
 

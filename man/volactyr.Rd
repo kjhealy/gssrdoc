@@ -32,10 +32,10 @@ Question Since (CURRENT MONTH) 1st of last year, have you done any volunteer act
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3970/vshow}{GSS Data Explorer page for \code{volactyr}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2012 \tab 675 \tab 517 \tab 777 \tab 5 \tab 1974 \cr
-   Total \tab 675 \tab 517 \tab 777 \tab 5 \tab 1974 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 675 \tab 517 \tab 777 \tab 5 \tab - \tab 1974 \cr
+   Total \tab 675 \tab 517 \tab 777 \tab 5 \tab 0 \tab 1974 \cr
 }
 }
 

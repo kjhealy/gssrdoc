@@ -54,20 +54,20 @@ N. Relationship of fourteenth person to head of household?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5452/vshow}{GSS Data Explorer page for \code{relhh14}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab niece or nephew \tab no answer \tab grandchild, great-grandchild \tab not available in this release \tab Total \cr
-   2000 \tab 2817 \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 4509 \tab 1 \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 2023 \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 2042 \tab - \tab 2 \tab - \tab - \tab 2044 \cr
-   2012 \tab 1973 \tab - \tab - \tab 1 \tab - \tab 1974 \cr
-   2014 \tab 2538 \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2866 \tab - \tab - \tab 1 \tab - \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   Total \tab 26693 \tab 1 \tab 2 \tab 2 \tab 4032 \tab 30730 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab niece or nephew \tab no answer \tab grandchild, great-grandchild \tab child of non-relative \tab not available in this year \tab Total \cr
+   2000 \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 4509 \tab 1 \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 2042 \tab - \tab 2 \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1973 \tab - \tab - \tab 1 \tab - \tab - \tab 1974 \cr
+   2014 \tab 2538 \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2866 \tab - \tab - \tab 1 \tab - \tab - \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 4030 \tab - \tab - \tab 2 \tab - \tab - \tab 4032 \cr
+   Total \tab 30723 \tab 1 \tab 2 \tab 4 \tab 0 \tab 0 \tab 30730 \cr
 }
 }
 

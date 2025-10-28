@@ -33,10 +33,10 @@ K. Participate in any sports activity such as softball, basketball, swimming, go
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1415/vshow}{GSS Data Explorer page for \code{dosports}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 901 \tab 693 \tab 1 \tab 11 \tab 1606 \cr
-   Total \tab 0 \tab 901 \tab 693 \tab 1 \tab 11 \tab 1606 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 901 \tab 693 \tab 1 \tab 11 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 901 \tab 693 \tab 1 \tab 11 \tab 0 \tab 1606 \cr
 }
 }
 

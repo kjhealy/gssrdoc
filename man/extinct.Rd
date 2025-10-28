@@ -36,11 +36,11 @@ A. By 2020, polar bears may become extinct.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3438/vshow}{GSS Data Explorer page for \code{extinct}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a great deal \tab some \tab a little \tab not at all \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 839 \tab 558 \tab 224 \tab 187 \tab 54 \tab 2 \tab 4510 \cr
-   2010 \tab 1338 \tab 332 \tab 209 \tab 85 \tab 60 \tab 9 \tab 11 \tab 2044 \cr
-   Total \tab 3984 \tab 1171 \tab 767 \tab 309 \tab 247 \tab 63 \tab 13 \tab 6554 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal \tab some \tab a little \tab not at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 839 \tab 558 \tab 224 \tab 187 \tab 54 \tab 2 \tab - \tab 4510 \cr
+   2010 \tab 1338 \tab 332 \tab 209 \tab 85 \tab 60 \tab 9 \tab 11 \tab - \tab 2044 \cr
+   Total \tab 3984 \tab 1171 \tab 767 \tab 309 \tab 247 \tab 63 \tab 13 \tab 0 \tab 6554 \cr
 }
 }
 

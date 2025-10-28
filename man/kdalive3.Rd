@@ -33,10 +33,10 @@ E3. Is third child alive?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1521/vshow}{GSS Data Explorer page for \code{kdalive3}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1994 \tab 2500 \tab 446 \tab 28 \tab 18 \tab 2992 \cr
-   Total \tab 2500 \tab 446 \tab 28 \tab 18 \tab 2992 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2500 \tab 446 \tab 28 \tab 18 \tab - \tab 2992 \cr
+   Total \tab 2500 \tab 446 \tab 28 \tab 18 \tab 0 \tab 2992 \cr
 }
 }
 

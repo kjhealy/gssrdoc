@@ -35,10 +35,10 @@ F. People at the top of society and people at the bottom?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4311/vshow}{GSS Data Explorer page for \code{consoc}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very strong conflicts \tab strong conflicts \tab not very strong conflicts \tab there are no conflicts \tab can't choose \tab no answer \tab Total \cr
-   2000 \tab 1545 \tab 324 \tab 461 \tab 274 \tab 32 \tab 67 \tab 114 \tab 2817 \cr
-   Total \tab 1545 \tab 324 \tab 461 \tab 274 \tab 32 \tab 67 \tab 114 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very strong conflicts \tab strong conflicts \tab not very strong conflicts \tab there are no conflicts \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1545 \tab 324 \tab 461 \tab 274 \tab 32 \tab 67 \tab 114 \tab - \tab 2817 \cr
+   Total \tab 1545 \tab 324 \tab 461 \tab 274 \tab 32 \tab 67 \tab 114 \tab 0 \tab 2817 \cr
 }
 }
 

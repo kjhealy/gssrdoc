@@ -34,10 +34,10 @@ Question Please tell me what you know about Attention Deficit/Hyperactivity Diso
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2968/vshow}{GSS Data Explorer page for \code{adhdknow}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab never heard of it \tab not sure/dont know \tab no answer \tab other \tab don't know \tab Total \cr
-   2002 \tab 1372 \tab 147 \tab 267 \tab 59 \tab 906 \tab 14 \tab 2765 \cr
-   Total \tab 1372 \tab 147 \tab 267 \tab 59 \tab 906 \tab 14 \tab 2765 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab never heard of it \tab not sure/dont know \tab no answer \tab other \tab don't know \tab not available in this year \tab Total \cr
+   2002 \tab 1372 \tab 147 \tab 267 \tab 59 \tab 906 \tab 14 \tab - \tab 2765 \cr
+   Total \tab 1372 \tab 147 \tab 267 \tab 59 \tab 906 \tab 14 \tab 0 \tab 2765 \cr
 }
 }
 

@@ -37,12 +37,12 @@ D. Management and workers?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4309/vshow}{GSS Data Explorer page for \code{conunion}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very strong conflicts \tab strong conflicts \tab not very strong conflicts \tab there are no conflicts \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   1987 \tab 255 \tab 167 \tab 655 \tab 561 \tab 53 \tab 74 \tab 54 \tab - \tab 1819 \cr
-   2000 \tab 1545 \tab 142 \tab 463 \tab 463 \tab 31 \tab 59 \tab 114 \tab - \tab 2817 \cr
-   2021 \tab 2029 \tab 140 \tab 721 \tab 780 \tab 46 \tab 142 \tab 159 \tab 15 \tab 4032 \cr
-   Total \tab 3829 \tab 449 \tab 1839 \tab 1804 \tab 130 \tab 275 \tab 327 \tab 15 \tab 8668 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very strong conflicts \tab strong conflicts \tab not very strong conflicts \tab there are no conflicts \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 167 \tab 655 \tab 561 \tab 53 \tab 74 \tab 54 \tab - \tab - \tab 1819 \cr
+   2000 \tab 1545 \tab 142 \tab 463 \tab 463 \tab 31 \tab 59 \tab 114 \tab - \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 140 \tab 721 \tab 780 \tab 46 \tab 142 \tab 159 \tab 15 \tab - \tab 4032 \cr
+   Total \tab 3829 \tab 449 \tab 1839 \tab 1804 \tab 130 \tab 275 \tab 327 \tab 15 \tab 0 \tab 8668 \cr
 }
 }
 

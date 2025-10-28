@@ -32,11 +32,11 @@ Question B1. Generally speaking, would you say that most people can be trusted, 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4800/vshow}{GSS Data Explorer page for \code{trust5}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab you can't be too careful \tab 2 \tab 3 \tab 4 \tab most people can be trusted \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2010 \tab 614 \tab 388 \tab 187 \tab 380 \tab 286 \tab 162 \tab 23 \tab 4 \tab - \tab 2044 \cr
-   2021 \tab 2003 \tab 355 \tab 286 \tab 644 \tab 373 \tab 170 \tab 41 \tab 154 \tab 6 \tab 4032 \cr
-   Total \tab 2617 \tab 743 \tab 473 \tab 1024 \tab 659 \tab 332 \tab 64 \tab 158 \tab 6 \tab 6076 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab you can't be too careful \tab 2 \tab 3 \tab 4 \tab most people can be trusted \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2010 \tab 614 \tab 388 \tab 187 \tab 380 \tab 286 \tab 162 \tab 23 \tab 4 \tab - \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 355 \tab 286 \tab 644 \tab 373 \tab 170 \tab 41 \tab 154 \tab 6 \tab - \tab 4032 \cr
+   Total \tab 2617 \tab 743 \tab 473 \tab 1024 \tab 659 \tab 332 \tab 64 \tab 158 \tab 6 \tab 0 \tab 6076 \cr
 }
 }
 

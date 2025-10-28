@@ -33,10 +33,10 @@ Question Do you think your race or ethnic background makes your promotion opport
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1305/vshow}{GSS Data Explorer page for \code{racpromo}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab better \tab worse \tab no effect \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 605 \tab 204 \tab 92 \tab 584 \tab 17 \tab 15 \tab 1517 \cr
-   Total \tab 605 \tab 204 \tab 92 \tab 584 \tab 17 \tab 15 \tab 1517 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab better \tab worse \tab no effect \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 605 \tab 204 \tab 92 \tab 584 \tab 17 \tab 15 \tab - \tab 1517 \cr
+   Total \tab 605 \tab 204 \tab 92 \tab 584 \tab 17 \tab 15 \tab 0 \tab 1517 \cr
 }
 }
 

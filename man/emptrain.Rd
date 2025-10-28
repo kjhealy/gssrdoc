@@ -33,13 +33,13 @@ Question B. In the last 12 months have you received any formal training from you
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3559/vshow}{GSS Data Explorer page for \code{emptrain}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2006 \tab 2778 \tab 832 \tab 864 \tab 19 \tab 17 \tab - \tab 4510 \cr
-   2014 \tab 1765 \tab 381 \tab 389 \tab 1 \tab 2 \tab - \tab 2538 \cr
-   2018 \tab 900 \tab 739 \tab 677 \tab 2 \tab 30 \tab - \tab 2348 \cr
-   2022 \tab 2570 \tab 453 \tab 486 \tab 23 \tab 6 \tab 6 \tab 3544 \cr
-   Total \tab 8013 \tab 2405 \tab 2416 \tab 45 \tab 55 \tab 6 \tab 12940 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2006 \tab 2778 \tab 832 \tab 864 \tab 19 \tab 17 \tab - \tab - \tab 4510 \cr
+   2014 \tab 1765 \tab 381 \tab 389 \tab 1 \tab 2 \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 739 \tab 677 \tab 2 \tab 30 \tab - \tab - \tab 2348 \cr
+   2022 \tab 2570 \tab 453 \tab 486 \tab 23 \tab 6 \tab 6 \tab - \tab 3544 \cr
+   Total \tab 8013 \tab 2405 \tab 2416 \tab 45 \tab 55 \tab 6 \tab 0 \tab 12940 \cr
 }
 }
 

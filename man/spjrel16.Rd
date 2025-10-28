@@ -43,10 +43,10 @@ Question Religion in which spouse was raised.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3824/vshow}{GSS Data Explorer page for \code{spjrel16}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab protestant \tab catholic \tab jewish \tab Total \cr
-   2008 \tab 1997 \tab 8 \tab 3 \tab 15 \tab 2023 \cr
-   Total \tab 1997 \tab 8 \tab 3 \tab 15 \tab 2023 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab not available in this year \tab Total \cr
+   2008 \tab 1997 \tab 8 \tab 3 \tab 15 \tab - \tab 2023 \cr
+   Total \tab 1997 \tab 8 \tab 3 \tab 15 \tab 0 \tab 2023 \cr
 }
 }
 

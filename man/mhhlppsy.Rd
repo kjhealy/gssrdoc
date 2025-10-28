@@ -33,10 +33,10 @@ E. Go to a psychiatrist for help.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3786/vshow}{GSS Data Explorer page for \code{mhhlppsy}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab not at all important \tab very important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 139 \tab 564 \tab 67 \tab 52 \tab 52 \tab 115 \tab 61 \tab 86 \tab 146 \tab 122 \tab 12 \tab 9 \tab 4510 \cr
-   Total \tab 3085 \tab 139 \tab 564 \tab 67 \tab 52 \tab 52 \tab 115 \tab 61 \tab 86 \tab 146 \tab 122 \tab 12 \tab 9 \tab 4510 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab not at all important \tab very important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 139 \tab 564 \tab 67 \tab 52 \tab 52 \tab 115 \tab 61 \tab 86 \tab 146 \tab 122 \tab 12 \tab 9 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 139 \tab 564 \tab 67 \tab 52 \tab 52 \tab 115 \tab 61 \tab 86 \tab 146 \tab 122 \tab 12 \tab 9 \tab 0 \tab 4510 \cr
 }
 }
 

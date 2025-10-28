@@ -35,11 +35,11 @@ D. Sending or receiving e-mail?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2562/vshow}{GSS Data Explorer page for \code{emminh}}.
 
-Counts by year:\tabular{lllllllllllllllllllll}{
-   year \tab iap \tab 1 \tab 10 \tab 15 \tab 2 \tab 20 \tab 3 \tab 30 \tab 40 \tab 45 \tab 5 \tab 50 \tab don't know \tab no answer \tab 12 \tab 14 \tab 25 \tab 35 \tab 8 \tab Total \cr
-   2000 \tab 2704 \tab 3 \tab 9 \tab 12 \tab 1 \tab 10 \tab 1 \tab 35 \tab 1 \tab 4 \tab 5 \tab 3 \tab 2 \tab 27 \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2413 \tab 9 \tab 41 \tab 46 \tab 1 \tab 31 \tab 2 \tab 124 \tab 4 \tab 7 \tab 30 \tab 4 \tab 3 \tab 44 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2765 \cr
-   Total \tab 5117 \tab 12 \tab 50 \tab 58 \tab 2 \tab 41 \tab 3 \tab 159 \tab 5 \tab 11 \tab 35 \tab 7 \tab 5 \tab 71 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 5582 \cr
+Counts by year:\tabular{llllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 15 \tab 2 \tab 20 \tab 3 \tab 30 \tab 40 \tab 45 \tab 5 \tab 50 \tab don't know \tab no answer \tab 12 \tab 14 \tab 25 \tab 35 \tab 8 \tab not available in this year \tab Total \cr
+   2000 \tab 2704 \tab 3 \tab 9 \tab 12 \tab 1 \tab 10 \tab 1 \tab 35 \tab 1 \tab 4 \tab 5 \tab 3 \tab 2 \tab 27 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2413 \tab 9 \tab 41 \tab 46 \tab 1 \tab 31 \tab 2 \tab 124 \tab 4 \tab 7 \tab 30 \tab 4 \tab 3 \tab 44 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 5117 \tab 12 \tab 50 \tab 58 \tab 2 \tab 41 \tab 3 \tab 159 \tab 5 \tab 11 \tab 35 \tab 7 \tab 5 \tab 71 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 0 \tab 5582 \cr
 }
 }
 

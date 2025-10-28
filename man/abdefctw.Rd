@@ -37,12 +37,12 @@ A. If there is a strong chance of serious defect in the baby.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4635/vshow}{GSS Data Explorer page for \code{abdefctw}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab always wrong \tab almost always wrong \tab wrong only sometimes \tab not wrong at all \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 279 \tab 131 \tab 163 \tab 662 \tab 90 \tab 34 \tab 1517 \cr
-   1998 \tab 1548 \tab 275 \tab 111 \tab 159 \tab 621 \tab 95 \tab 23 \tab 2832 \cr
-   2008 \tab 658 \tab 300 \tab 109 \tab 204 \tab 701 \tab 41 \tab 10 \tab 2023 \cr
-   Total \tab 2364 \tab 854 \tab 351 \tab 526 \tab 1984 \tab 226 \tab 67 \tab 6372 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always wrong \tab almost always wrong \tab wrong only sometimes \tab not wrong at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 279 \tab 131 \tab 163 \tab 662 \tab 90 \tab 34 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 275 \tab 111 \tab 159 \tab 621 \tab 95 \tab 23 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 300 \tab 109 \tab 204 \tab 701 \tab 41 \tab 10 \tab - \tab 2023 \cr
+   Total \tab 2364 \tab 854 \tab 351 \tab 526 \tab 1984 \tab 226 \tab 67 \tab 0 \tab 6372 \cr
 }
 }
 

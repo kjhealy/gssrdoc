@@ -36,13 +36,13 @@ Question How much of your past work experience and/or job skills can you make us
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4582/vshow}{GSS Data Explorer page for \code{useskill}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab almost none \tab a little \tab a lot \tab almost all \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1967 \tab 89 \tab 160 \tab 195 \tab 361 \tab 30 \tab 30 \tab 2832 \cr
-   2006 \tab 3492 \tab 101 \tab 230 \tab 279 \tab 401 \tab 5 \tab 2 \tab 4510 \cr
-   2016 \tab 1927 \tab 89 \tab 181 \tab 242 \tab 418 \tab 3 \tab 7 \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   Total \tab 9734 \tab 279 \tab 571 \tab 716 \tab 1180 \tab 38 \tab 39 \tab 12557 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab almost none \tab a little \tab a lot \tab almost all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1967 \tab 89 \tab 160 \tab 195 \tab 361 \tab 30 \tab 30 \tab - \tab 2832 \cr
+   2006 \tab 3492 \tab 101 \tab 230 \tab 279 \tab 401 \tab 5 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 89 \tab 181 \tab 242 \tab 418 \tab 3 \tab 7 \tab - \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 9734 \tab 279 \tab 571 \tab 716 \tab 1180 \tab 38 \tab 39 \tab 0 \tab 12557 \cr
 }
 }
 

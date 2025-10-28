@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |complete freedom |a great deal of freedom |a moderate degree of freedom |not much freedom |no freedom at all |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:-----------------------|:----------------------------|:----------------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1398 |145              |833                     |364                          |49               |4                 |9          |15        |2817  |
-#'  |Total |1398 |145              |833                     |364                          |49               |4                 |9          |15        |2817  |
+#'  |year  |iap  |complete freedom |a great deal of freedom |a moderate degree of freedom |not much freedom |no freedom at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:-----------------------|:----------------------------|:----------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |145              |833                     |364                          |49               |4                 |9          |15        |-                          |2817  |
+#'  |Total |1398 |145              |833                     |364                          |49               |4                 |9          |15        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -67,10 +67,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |complete freedom |a great deal of freedom |a moderate degree of freedom |not much freedom |no freedom at all |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:-----------------------|:----------------------------|:----------------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1398 |238              |769                     |333                          |53               |5                 |7          |14        |2817  |
-#'  |Total |1398 |238              |769                     |333                          |53               |5                 |7          |14        |2817  |
+#'  |year  |iap  |complete freedom |a great deal of freedom |a moderate degree of freedom |not much freedom |no freedom at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:-----------------------|:----------------------------|:----------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |238              |769                     |333                          |53               |5                 |7          |14        |-                          |2817  |
+#'  |Total |1398 |238              |769                     |333                          |53               |5                 |7          |14        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -107,10 +107,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |more freedom |about the same amount of freedom |less freedom |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:--------------------------------|:------------|:----------|:---------|:-----|
-#'  |2000  |1398 |585          |536                              |262          |18         |18        |2817  |
-#'  |Total |1398 |585          |536                              |262          |18         |18        |2817  |
+#'  |year  |iap  |more freedom |about the same amount of freedom |less freedom |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:--------------------------------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |585          |536                              |262          |18         |18        |-                          |2817  |
+#'  |Total |1398 |585          |536                              |262          |18         |18        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -147,10 +147,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |more freedom |about the same amount of freedom |less freedom |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:--------------------------------|:------------|:----------|:---------|:-----|
-#'  |2000  |1398 |549          |657                              |190          |10         |13        |2817  |
-#'  |Total |1398 |549          |657                              |190          |10         |13        |2817  |
+#'  |year  |iap  |more freedom |about the same amount of freedom |less freedom |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:--------------------------------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |549          |657                              |190          |10         |13        |-                          |2817  |
+#'  |Total |1398 |549          |657                              |190          |10         |13        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -188,10 +188,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very satisfied |fairly satisfied |not very satisfied |not at all satisfied |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:----------------|:------------------|:--------------------|:----------|:---------|:-----|
-#'  |2000  |1398 |235            |854              |201                |79                   |36         |14        |2817  |
-#'  |Total |1398 |235            |854              |201                |79                   |36         |14        |2817  |
+#'  |year  |iap  |very satisfied |fairly satisfied |not very satisfied |not at all satisfied |don't know |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:--------------|:----------------|:------------------|:--------------------|:----------|:---------|:--------------------------|:--------------|:-----|
+#'  |2000  |1398 |235            |854              |201                |79                   |36         |14        |-                          |-              |2817  |
+#'  |2024  |17   |196            |1156             |1235               |576                  |82         |16        |-                          |31             |3309  |
+#'  |Total |1415 |431            |2010             |1436               |655                  |118        |30        |0                          |31             |6126  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -233,10 +234,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |one of the most important |extremely important |very important |moderately important |somewhat important |not too important |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------|:-------------------|:--------------|:--------------------|:------------------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1398 |372                       |317                 |388            |207                  |59                 |39                |16         |21        |2817  |
-#'  |Total |1398 |372                       |317                 |388            |207                  |59                 |39                |16         |21        |2817  |
+#'  |year  |iap  |one of the most important |extremely important |very important |moderately important |somewhat important |not too important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------|:-------------------|:--------------|:--------------------|:------------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |372                       |317                 |388            |207                  |59                 |39                |16         |21        |-                          |2817  |
+#'  |Total |1398 |372                       |317                 |388            |207                  |59                 |39                |16         |21        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -277,10 +278,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |one of the most important |extremely important |very important |moderately important |somewhat important |not too important |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------|:-------------------|:--------------|:--------------------|:------------------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1398 |412                       |356                 |447            |113                  |33                 |22                |13         |23        |2817  |
-#'  |Total |1398 |412                       |356                 |447            |113                  |33                 |22                |13         |23        |2817  |
+#'  |year  |iap  |one of the most important |extremely important |very important |moderately important |somewhat important |not too important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------|:-------------------|:--------------|:--------------------|:------------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |412                       |356                 |447            |113                  |33                 |22                |13         |23        |-                          |2817  |
+#'  |Total |1398 |412                       |356                 |447            |113                  |33                 |22                |13         |23        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -321,10 +322,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |one of the most important |extremely important |very important |moderately important |somewhat important |not too important |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------|:-------------------|:--------------|:--------------------|:------------------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1398 |507                       |298                 |370            |120                  |50                 |28                |22         |24        |2817  |
-#'  |Total |1398 |507                       |298                 |370            |120                  |50                 |28                |22         |24        |2817  |
+#'  |year  |iap  |one of the most important |extremely important |very important |moderately important |somewhat important |not too important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------|:-------------------|:--------------|:--------------------|:------------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |507                       |298                 |370            |120                  |50                 |28                |22         |24        |-                          |2817  |
+#'  |Total |1398 |507                       |298                 |370            |120                  |50                 |28                |22         |24        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -365,10 +366,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |one of the most important |extremely important |very important |moderately important |somewhat important |not too important |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------|:-------------------|:--------------|:--------------------|:------------------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1398 |501                       |371                 |357            |91                   |30                 |34                |13         |22        |2817  |
-#'  |Total |1398 |501                       |371                 |357            |91                   |30                 |34                |13         |22        |2817  |
+#'  |year  |iap  |one of the most important |extremely important |very important |moderately important |somewhat important |not too important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------|:-------------------|:--------------|:--------------------|:------------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |501                       |371                 |357            |91                   |30                 |34                |13         |22        |-                          |2817  |
+#'  |Total |1398 |501                       |371                 |357            |91                   |30                 |34                |13         |22        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -412,10 +413,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |one of the most important |extremely important |very important |moderately important |somewhat important |not too important |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------|:-------------------|:--------------|:--------------------|:------------------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1398 |620                       |375                 |304            |62                   |13                 |12                |10         |23        |2817  |
-#'  |Total |1398 |620                       |375                 |304            |62                   |13                 |12                |10         |23        |2817  |
+#'  |year  |iap  |one of the most important |extremely important |very important |moderately important |somewhat important |not too important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------|:-------------------|:--------------|:--------------------|:------------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |620                       |375                 |304            |62                   |13                 |12                |10         |23        |-                          |2817  |
+#'  |Total |1398 |620                       |375                 |304            |62                   |13                 |12                |10         |23        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom

@@ -34,10 +34,10 @@ Question Suppose you wanted the local government to bring about some improvement
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4240/vshow}{GSS Data Explorer page for \code{localgvt}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1616 \tab 101 \tab 364 \tab 409 \tab 186 \tab 78 \tab 11 \tab 2765 \cr
-   Total \tab 1616 \tab 101 \tab 364 \tab 409 \tab 186 \tab 78 \tab 11 \tab 2765 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1616 \tab 101 \tab 364 \tab 409 \tab 186 \tab 78 \tab 11 \tab - \tab 2765 \cr
+   Total \tab 1616 \tab 101 \tab 364 \tab 409 \tab 186 \tab 78 \tab 11 \tab 0 \tab 2765 \cr
 }
 }
 

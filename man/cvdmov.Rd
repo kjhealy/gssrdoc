@@ -36,24 +36,24 @@ NOTE: This variable originates on the NEA follow-on, and should not be analyzed 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7881/vshow}{GSS Data Explorer page for \code{cvdmov}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab Total \cr
-   2022 \tab 2704 \tab 176 \tab 182 \tab 170 \tab 312 \tab 3544 \cr
-   Total \tab 2704 \tab 176 \tab 182 \tab 170 \tab 312 \tab 3544 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab not available in this year \tab more often \tab at the same rate \tab less often \tab r not attending these activities \tab don't know \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 176 \tab 182 \tab 170 \tab 312 \tab 2 \tab 2701 \tab 1 \tab 3544 \cr
+   Total \tab 0 \tab 176 \tab 182 \tab 170 \tab 312 \tab 2 \tab 2701 \tab 1 \tab 3544 \cr
 }
 }
 
 \seealso{
 Other NEA: 
-\code{\link{cvdarmus}},
 \code{\link{cvdart}},
 \code{\link{cvdcreat}},
 \code{\link{cvdlvmus}},
 \code{\link{cvdrdg}},
-\code{\link{cvdstmus}},
-\code{\link{cvdstpo}},
-\code{\link{cvdtour}},
-\code{\link{yrpod}}
+\code{\link{yrarmus}},
+\code{\link{yrarpo}},
+\code{\link{yrclass}},
+\code{\link{yrpod}},
+\code{\link{yrstpo}}
 }
 \concept{NEA}
 \keyword{variable}

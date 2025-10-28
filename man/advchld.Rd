@@ -33,11 +33,11 @@ B. Son or daughter?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2500/vshow}{GSS Data Explorer page for \code{advchld}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2145 \tab 151 \tab 420 \tab 101 \tab - \tab 2817 \cr
-   2002 \tab 2142 \tab 190 \tab 385 \tab 47 \tab 1 \tab 2765 \cr
-   Total \tab 4287 \tab 341 \tab 805 \tab 148 \tab 1 \tab 5582 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2145 \tab 151 \tab 420 \tab 101 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2142 \tab 190 \tab 385 \tab 47 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 4287 \tab 341 \tab 805 \tab 148 \tab 1 \tab 0 \tab 5582 \cr
 }
 }
 

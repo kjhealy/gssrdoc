@@ -38,13 +38,13 @@ A. I feel a selfless caring for others.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2888/vshow}{GSS Data Explorer page for \code{selfless}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never or almost never \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1393 \tab 128 \tab 177 \tab 266 \tab 328 \tab 288 \tab 136 \tab 42 \tab 7 \tab 2765 \cr
-   2004 \tab 1472 \tab 191 \tab 392 \tab 353 \tab 229 \tab 101 \tab 43 \tab 15 \tab 16 \tab 2812 \cr
-   2012 \tab 666 \tab 158 \tab 237 \tab 266 \tab 261 \tab 175 \tab 169 \tab 30 \tab 12 \tab 1974 \cr
-   2014 \tab 1264 \tab 219 \tab 237 \tab 250 \tab 217 \tab 180 \tab 150 \tab 12 \tab 9 \tab 2538 \cr
-   Total \tab 4795 \tab 696 \tab 1043 \tab 1135 \tab 1035 \tab 744 \tab 498 \tab 99 \tab 44 \tab 10089 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never or almost never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1393 \tab 128 \tab 177 \tab 266 \tab 328 \tab 288 \tab 136 \tab 42 \tab 7 \tab - \tab 2765 \cr
+   2004 \tab 1472 \tab 191 \tab 392 \tab 353 \tab 229 \tab 101 \tab 43 \tab 15 \tab 16 \tab - \tab 2812 \cr
+   2012 \tab 666 \tab 158 \tab 237 \tab 266 \tab 261 \tab 175 \tab 169 \tab 30 \tab 12 \tab - \tab 1974 \cr
+   2014 \tab 1264 \tab 219 \tab 237 \tab 250 \tab 217 \tab 180 \tab 150 \tab 12 \tab 9 \tab - \tab 2538 \cr
+   Total \tab 4795 \tab 696 \tab 1043 \tab 1135 \tab 1035 \tab 744 \tab 498 \tab 99 \tab 44 \tab 0 \tab 10089 \cr
 }
 }
 

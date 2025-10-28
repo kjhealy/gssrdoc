@@ -35,10 +35,10 @@ D. Provide financial help for education if (NAME) can't afford it.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3791/vshow}{GSS Data Explorer page for \code{mhgvtedc}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 369 \tab 748 \tab 209 \tab 62 \tab 28 \tab 9 \tab 4510 \cr
-   Total \tab 3085 \tab 369 \tab 748 \tab 209 \tab 62 \tab 28 \tab 9 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 369 \tab 748 \tab 209 \tab 62 \tab 28 \tab 9 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 369 \tab 748 \tab 209 \tab 62 \tab 28 \tab 9 \tab 0 \tab 4510 \cr
 }
 }
 

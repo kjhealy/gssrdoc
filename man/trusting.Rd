@@ -34,10 +34,10 @@ Question Do you think of yourself as a trusting person?  Are you...
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2166/vshow}{GSS Data Explorer page for \code{trusting}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very trusting \tab somewht trusting \tab somwht dstrustng \tab very distrusting \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 737 \tab 540 \tab 85 \tab 21 \tab 3 \tab 1 \tab 2832 \cr
-   Total \tab 1445 \tab 737 \tab 540 \tab 85 \tab 21 \tab 3 \tab 1 \tab 2832 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very trusting \tab somewht trusting \tab somwht dstrustng \tab very distrusting \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 737 \tab 540 \tab 85 \tab 21 \tab 3 \tab 1 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 737 \tab 540 \tab 85 \tab 21 \tab 3 \tab 1 \tab 0 \tab 2832 \cr
 }
 }
 

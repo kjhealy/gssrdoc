@@ -37,12 +37,13 @@ D. To have NAME start working closely with you on a job?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2006/vshow}{GSS Data Explorer page for \code{vigwork}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 146 \tab 420 \tab 380 \tab 410 \tab 66 \tab 22 \tab 2904 \cr
-   2006 \tab 3073 \tab 184 \tab 473 \tab 428 \tab 287 \tab 50 \tab 15 \tab 4510 \cr
-   2018 \tab 1175 \tab 115 \tab 374 \tab 371 \tab 255 \tab 27 \tab 31 \tab 2348 \cr
-   Total \tab 5708 \tab 445 \tab 1267 \tab 1179 \tab 952 \tab 143 \tab 68 \tab 9762 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 146 \tab 420 \tab 380 \tab 410 \tab 66 \tab 22 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 184 \tab 473 \tab 428 \tab 287 \tab 50 \tab 15 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 115 \tab 374 \tab 371 \tab 255 \tab 27 \tab 31 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1691 \tab 175 \tab 556 \tab 524 \tab 284 \tab 37 \tab 14 \tab - \tab 28 \tab 3309 \cr
+   Total \tab 7399 \tab 620 \tab 1823 \tab 1703 \tab 1236 \tab 180 \tab 82 \tab 0 \tab 28 \tab 13071 \cr
 }
 }
 

@@ -34,15 +34,15 @@ Question C. How often are there not enough people or staff to get all the work d
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2795/vshow}{GSS Data Explorer page for \code{toofewwk}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2002 \tab 969 \tab 466 \tab 584 \tab 507 \tab 208 \tab 16 \tab 15 \tab - \tab 2765 \cr
-   2006 \tab 2776 \tab 492 \tab 558 \tab 444 \tab 213 \tab 15 \tab 12 \tab - \tab 4510 \cr
-   2010 \tab 857 \tab 264 \tab 402 \tab 339 \tab 151 \tab 7 \tab 24 \tab - \tab 2044 \cr
-   2014 \tab 1288 \tab 280 \tab 470 \tab 335 \tab 157 \tab 1 \tab 7 \tab - \tab 2538 \cr
-   2018 \tab 900 \tab 358 \tab 505 \tab 366 \tab 179 \tab 9 \tab 31 \tab - \tab 2348 \cr
-   2022 \tab 1549 \tab 545 \tab 721 \tab 473 \tab 201 \tab 15 \tab 14 \tab 26 \tab 3544 \cr
-   Total \tab 8339 \tab 2405 \tab 3240 \tab 2464 \tab 1109 \tab 63 \tab 103 \tab 26 \tab 17749 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2002 \tab 969 \tab 466 \tab 584 \tab 507 \tab 208 \tab 16 \tab 15 \tab - \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 492 \tab 558 \tab 444 \tab 213 \tab 15 \tab 12 \tab - \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 264 \tab 402 \tab 339 \tab 151 \tab 7 \tab 24 \tab - \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 280 \tab 470 \tab 335 \tab 157 \tab 1 \tab 7 \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 358 \tab 505 \tab 366 \tab 179 \tab 9 \tab 31 \tab - \tab - \tab 2348 \cr
+   2022 \tab 1549 \tab 545 \tab 721 \tab 473 \tab 201 \tab 15 \tab 14 \tab 26 \tab - \tab 3544 \cr
+   Total \tab 8339 \tab 2405 \tab 3240 \tab 2464 \tab 1109 \tab 63 \tab 103 \tab 26 \tab 0 \tab 17749 \cr
 }
 }
 

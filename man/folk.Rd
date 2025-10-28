@@ -36,10 +36,10 @@ G. Folk music
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1393/vshow}{GSS Data Explorer page for \code{folk}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab like very much \tab like it \tab mixed feelings \tab dislike it \tab dislike very much \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 130 \tab 553 \tab 472 \tab 274 \tab 87 \tab 78 \tab 12 \tab 1606 \cr
-   Total \tab 0 \tab 130 \tab 553 \tab 472 \tab 274 \tab 87 \tab 78 \tab 12 \tab 1606 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab like very much \tab like it \tab mixed feelings \tab dislike it \tab dislike very much \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 130 \tab 553 \tab 472 \tab 274 \tab 87 \tab 78 \tab 12 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 130 \tab 553 \tab 472 \tab 274 \tab 87 \tab 78 \tab 12 \tab 0 \tab 1606 \cr
 }
 }
 

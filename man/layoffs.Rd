@@ -47,10 +47,10 @@ Question From time to time companies must lay-off some of their employees. If so
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1884/vshow}{GSS Data Explorer page for \code{layoffs}}.
 
-Counts by year:\tabular{llllllllllllllllllll}{
-   year \tab iap \tab those who have worked longest \tab those who have the greatest needs \tab those who are the best workers \tab difficulty in finding a new job \tab union members \tab older employees \tab younger employees \tab men \tab minorities-non-whites \tab other -please specify \tab owners,bosses \tab essential employees \tab newest employees \tab most loyal employees \tab production. hands-on employees \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 685 \tab 98 \tab 529 \tab 3 \tab 4 \tab 11 \tab 3 \tab 5 \tab 7 \tab 22 \tab 9 \tab 4 \tab 2 \tab 3 \tab 4 \tab 48 \tab 7 \tab 2904 \cr
-   Total \tab 1460 \tab 685 \tab 98 \tab 529 \tab 3 \tab 4 \tab 11 \tab 3 \tab 5 \tab 7 \tab 22 \tab 9 \tab 4 \tab 2 \tab 3 \tab 4 \tab 48 \tab 7 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab those who have worked longest \tab those who have the greatest needs \tab those who are the best workers \tab difficulty in finding a new job \tab union members \tab older employees \tab younger employees \tab men \tab minorities-non-whites \tab other -please specify \tab owners,bosses \tab essential employees \tab newest employees \tab most loyal employees \tab production. hands-on employees \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1460 \tab 685 \tab 98 \tab 529 \tab 3 \tab 4 \tab 11 \tab 3 \tab 5 \tab 7 \tab 22 \tab 9 \tab 4 \tab 2 \tab 3 \tab 4 \tab 48 \tab 7 \tab - \tab 2904 \cr
+   Total \tab 1460 \tab 685 \tab 98 \tab 529 \tab 3 \tab 4 \tab 11 \tab 3 \tab 5 \tab 7 \tab 22 \tab 9 \tab 4 \tab 2 \tab 3 \tab 4 \tab 48 \tab 7 \tab 0 \tab 2904 \cr
 }
 }
 

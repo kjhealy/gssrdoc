@@ -36,10 +36,10 @@ B. Men ought to do a larger share of childcare than they do now.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4428/vshow}{GSS Data Explorer page for \code{mekdcare}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2002 \tab 1594 \tab 294 \tab 534 \tab 251 \tab 74 \tab 17 \tab 1 \tab 2765 \cr
-   Total \tab 1594 \tab 294 \tab 534 \tab 251 \tab 74 \tab 17 \tab 1 \tab 2765 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1594 \tab 294 \tab 534 \tab 251 \tab 74 \tab 17 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 1594 \tab 294 \tab 534 \tab 251 \tab 74 \tab 17 \tab 1 \tab 0 \tab 2765 \cr
 }
 }
 

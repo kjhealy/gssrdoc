@@ -35,11 +35,11 @@ K. Liberator
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/332/vshow}{GSS Data Explorer page for \code{liberatr}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab extremely likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
-   1983 \tab - \tab 658 \tab 440 \tab 223 \tab 194 \tab 65 \tab 19 \tab 1599 \cr
-   1984 \tab 989 \tab 210 \tab 144 \tab 59 \tab 47 \tab 13 \tab 11 \tab 1473 \cr
-   Total \tab 989 \tab 868 \tab 584 \tab 282 \tab 241 \tab 78 \tab 30 \tab 3072 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab - \tab 658 \tab 440 \tab 223 \tab 194 \tab 65 \tab 19 \tab - \tab 1599 \cr
+   1984 \tab 989 \tab 210 \tab 144 \tab 59 \tab 47 \tab 13 \tab 11 \tab - \tab 1473 \cr
+   Total \tab 989 \tab 868 \tab 584 \tab 282 \tab 241 \tab 78 \tab 30 \tab 0 \tab 3072 \cr
 }
 }
 

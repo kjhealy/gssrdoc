@@ -37,10 +37,10 @@ B. I would trust my doctor.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2252/vshow}{GSS Data Explorer page for \code{trustdoc}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab completely \tab a great deal \tab somewhat \tab only a little \tab not at all \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 381 \tab 400 \tab 441 \tab 94 \tab 49 \tab 18 \tab 4 \tab 2832 \cr
-   Total \tab 1445 \tab 381 \tab 400 \tab 441 \tab 94 \tab 49 \tab 18 \tab 4 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab completely \tab a great deal \tab somewhat \tab only a little \tab not at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 381 \tab 400 \tab 441 \tab 94 \tab 49 \tab 18 \tab 4 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 381 \tab 400 \tab 441 \tab 94 \tab 49 \tab 18 \tab 4 \tab 0 \tab 2832 \cr
 }
 }
 

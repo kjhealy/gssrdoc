@@ -34,10 +34,10 @@ A. Your paid job?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2567/vshow}{GSS Data Explorer page for \code{jobminw}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 15 \tab 20 \tab 3 \tab 30 \tab 40 \tab 45 \tab 50 \tab 8 \tab no answer \tab Total \cr
-   2000 \tab 2486 \tab 261 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 12 \tab 1 \tab 1 \tab 1 \tab 1 \tab 46 \tab 2817 \cr
-   Total \tab 2486 \tab 261 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 12 \tab 1 \tab 1 \tab 1 \tab 1 \tab 46 \tab 2817 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 15 \tab 20 \tab 3 \tab 30 \tab 40 \tab 45 \tab 50 \tab 8 \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2486 \tab 261 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 12 \tab 1 \tab 1 \tab 1 \tab 1 \tab 46 \tab - \tab 2817 \cr
+   Total \tab 2486 \tab 261 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 12 \tab 1 \tab 1 \tab 1 \tab 1 \tab 46 \tab 0 \tab 2817 \cr
 }
 }
 

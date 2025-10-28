@@ -34,11 +34,11 @@ C. The next set asks if people in each group tend to be violence prone or if the
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1192/vshow}{GSS Data Explorer page for \code{violblks}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab violence-prone \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab not violence-prone \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 114 \tab 224 \tab 339 \tab 395 \tab 117 \tab 68 \tab 25 \tab 64 \tab 26 \tab 1372 \cr
-   2000 \tab 1419 \tab 84 \tab 186 \tab 354 \tab 497 \tab 119 \tab 61 \tab 24 \tab 58 \tab 15 \tab 2817 \cr
-   Total \tab 1419 \tab 198 \tab 410 \tab 693 \tab 892 \tab 236 \tab 129 \tab 49 \tab 122 \tab 41 \tab 4189 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab violence-prone \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab not violence-prone \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 114 \tab 224 \tab 339 \tab 395 \tab 117 \tab 68 \tab 25 \tab 64 \tab 26 \tab - \tab 1372 \cr
+   2000 \tab 1419 \tab 84 \tab 186 \tab 354 \tab 497 \tab 119 \tab 61 \tab 24 \tab 58 \tab 15 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 198 \tab 410 \tab 693 \tab 892 \tab 236 \tab 129 \tab 49 \tab 122 \tab 41 \tab 0 \tab 4189 \cr
 }
 }
 

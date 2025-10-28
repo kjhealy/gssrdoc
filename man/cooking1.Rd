@@ -39,12 +39,12 @@ F. Prepares the meals?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4434/vshow}{GSS Data Explorer page for \code{cooking1}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab always me \tab usually me \tab about equal or both together \tab usually my spouse/partner \tab always my spouse/partner \tab is done by a third person \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2002 \tab 2058 \tab 155 \tab 152 \tab 207 \tab 157 \tab 9 \tab 3 \tab 2 \tab 22 \tab - \tab 2765 \cr
-   2012 \tab 1274 \tab 160 \tab 133 \tab 192 \tab 123 \tab 75 \tab 13 \tab 1 \tab 3 \tab - \tab 1974 \cr
-   2022 \tab 3024 \tab 86 \tab 110 \tab 152 \tab 115 \tab 46 \tab 3 \tab 5 \tab 1 \tab 2 \tab 3544 \cr
-   Total \tab 6356 \tab 401 \tab 395 \tab 551 \tab 395 \tab 130 \tab 19 \tab 8 \tab 26 \tab 2 \tab 8283 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab always me \tab usually me \tab about equal or both together \tab usually my spouse/partner \tab always my spouse/partner \tab is done by a third person \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2002 \tab 2058 \tab 155 \tab 152 \tab 207 \tab 157 \tab 9 \tab 3 \tab 2 \tab 22 \tab - \tab - \tab 2765 \cr
+   2012 \tab 1274 \tab 160 \tab 133 \tab 192 \tab 123 \tab 75 \tab 13 \tab 1 \tab 3 \tab - \tab - \tab 1974 \cr
+   2022 \tab 3024 \tab 86 \tab 110 \tab 152 \tab 115 \tab 46 \tab 3 \tab 5 \tab 1 \tab 2 \tab - \tab 3544 \cr
+   Total \tab 6356 \tab 401 \tab 395 \tab 551 \tab 395 \tab 130 \tab 19 \tab 8 \tab 26 \tab 2 \tab 0 \tab 8283 \cr
 }
 }
 

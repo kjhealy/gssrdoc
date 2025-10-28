@@ -32,10 +32,10 @@ Question Respondent's First Occupation, Prestige, and Industry
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1464/vshow}{GSS Data Explorer page for \code{wrkslfst}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab self employed \tab someone else \tab no answer \tab Total \cr
-   1994 \tab 1587 \tab 63 \tab 1317 \tab 25 \tab 2992 \cr
-   Total \tab 1587 \tab 63 \tab 1317 \tab 25 \tab 2992 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab self employed \tab someone else \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1587 \tab 63 \tab 1317 \tab 25 \tab - \tab 2992 \cr
+   Total \tab 1587 \tab 63 \tab 1317 \tab 25 \tab 0 \tab 2992 \cr
 }
 }
 

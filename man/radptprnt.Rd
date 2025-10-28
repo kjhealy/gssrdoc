@@ -32,10 +32,10 @@ Question Are you the adoptive parent of at least one individual under the age of
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8018/vshow}{GSS Data Explorer page for \code{radptprnt}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab skipped on web \tab Total \cr
-   2022 \tab 3174 \tab 38 \tab 327 \tab 5 \tab 3544 \cr
-   Total \tab 3174 \tab 38 \tab 327 \tab 5 \tab 3544 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab not available in this year \tab yes \tab no \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 38 \tab 327 \tab 3174 \tab 5 \tab 3544 \cr
+   Total \tab 0 \tab 38 \tab 327 \tab 3174 \tab 5 \tab 3544 \cr
 }
 }
 

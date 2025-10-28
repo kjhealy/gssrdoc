@@ -35,10 +35,10 @@ Question To what extent, if at all, do you worry about the possibility of losing
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6350/vshow}{GSS Data Explorer page for \code{worecsup}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab i worry a great deal \tab i worry to some extent \tab i worry a little \tab i don't worry at all \tab no answer \tab Total \cr
-   2016 \tab 2326 \tab 104 \tab 88 \tab 122 \tab 203 \tab 24 \tab 2867 \cr
-   Total \tab 2326 \tab 104 \tab 88 \tab 122 \tab 203 \tab 24 \tab 2867 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab i worry a great deal \tab i worry to some extent \tab i worry a little \tab i don't worry at all \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2326 \tab 104 \tab 88 \tab 122 \tab 203 \tab 24 \tab - \tab 2867 \cr
+   Total \tab 2326 \tab 104 \tab 88 \tab 122 \tab 203 \tab 24 \tab 0 \tab 2867 \cr
 }
 }
 

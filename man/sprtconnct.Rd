@@ -37,10 +37,10 @@ Question How often R felt connected to world around them
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7534/vshow}{GSS Data Explorer page for \code{sprtconnct}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab at least once a day \tab almost every day \tab once or twice a week \tab once or twice a month \tab a few times per year \tab once a year or less \tab never \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 411 \tab 324 \tab 828 \tab 514 \tab 503 \tab 654 \tab 279 \tab 421 \tab 8 \tab 7 \tab 83 \tab 4032 \cr
-   Total \tab 411 \tab 324 \tab 828 \tab 514 \tab 503 \tab 654 \tab 279 \tab 421 \tab 8 \tab 7 \tab 83 \tab 4032 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab at least once a day \tab almost every day \tab once or twice a week \tab once or twice a month \tab a few times per year \tab once a year or less \tab never \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 411 \tab 324 \tab 828 \tab 514 \tab 503 \tab 654 \tab 279 \tab 421 \tab 8 \tab 7 \tab 83 \tab - \tab 4032 \cr
+   Total \tab 411 \tab 324 \tab 828 \tab 514 \tab 503 \tab 654 \tab 279 \tab 421 \tab 8 \tab 7 \tab 83 \tab 0 \tab 4032 \cr
 }
 }
 

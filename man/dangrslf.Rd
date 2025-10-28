@@ -35,12 +35,13 @@ D. Be admitted to a hospital for treatment if s/he is dangerous to him/herself.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2034/vshow}{GSS Data Explorer page for \code{dangrslf}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 1227 \tab 158 \tab 38 \tab 21 \tab 2904 \cr
-   2006 \tab 3073 \tab 1224 \tab 165 \tab 31 \tab 17 \tab 4510 \cr
-   2018 \tab 1175 \tab 1075 \tab 54 \tab 15 \tab 29 \tab 2348 \cr
-   Total \tab 5708 \tab 3526 \tab 377 \tab 84 \tab 67 \tab 9762 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 1227 \tab 158 \tab 38 \tab 21 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 1224 \tab 165 \tab 31 \tab 17 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 1075 \tab 54 \tab 15 \tab 29 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1693 \tab 1382 \tab 172 \tab 24 \tab 10 \tab - \tab 28 \tab 3309 \cr
+   Total \tab 7401 \tab 4908 \tab 549 \tab 108 \tab 77 \tab 0 \tab 28 \tab 13071 \cr
 }
 }
 

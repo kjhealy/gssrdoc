@@ -32,10 +32,10 @@ Question Were you granted stock options in the company where you work in 2021? A
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7848/vshow}{GSS Data Explorer page for \code{stockoptyr}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab skipped on web \tab Total \cr
-   2022 \tab 3513 \tab 15 \tab 15 \tab 1 \tab 3544 \cr
-   Total \tab 3513 \tab 15 \tab 15 \tab 1 \tab 3544 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab not available in this year \tab yes \tab no \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 15 \tab 15 \tab 3513 \tab 1 \tab 3544 \cr
+   Total \tab 0 \tab 15 \tab 15 \tab 3513 \tab 1 \tab 3544 \cr
 }
 }
 

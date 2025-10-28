@@ -36,11 +36,11 @@ Question In the last five years, how often have you or a member of your immediat
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4125/vshow}{GSS Data Explorer page for \code{bribe}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab never \tab seldom \tab occasionally \tab quite often \tab very often \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 2992 \tab 1330 \tab 100 \tab 61 \tab 17 \tab 5 \tab 3 \tab 2 \tab 4510 \cr
-   2016 \tab 1477 \tab 1174 \tab 105 \tab 65 \tab 17 \tab 12 \tab 4 \tab 13 \tab 2867 \cr
-   Total \tab 4469 \tab 2504 \tab 205 \tab 126 \tab 34 \tab 17 \tab 7 \tab 15 \tab 7377 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab seldom \tab occasionally \tab quite often \tab very often \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2992 \tab 1330 \tab 100 \tab 61 \tab 17 \tab 5 \tab 3 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 1174 \tab 105 \tab 65 \tab 17 \tab 12 \tab 4 \tab 13 \tab - \tab 2867 \cr
+   Total \tab 4469 \tab 2504 \tab 205 \tab 126 \tab 34 \tab 17 \tab 7 \tab 15 \tab 0 \tab 7377 \cr
 }
 }
 

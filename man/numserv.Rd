@@ -31,10 +31,10 @@ Question B. How many service clubs do you belong to?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3128/vshow}{GSS Data Explorer page for \code{numserv}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab seven or more \tab no answer \tab Total \cr
-   2004 \tab 2666 \tab 108 \tab 16 \tab 13 \tab 2 \tab 1 \tab 6 \tab 2812 \cr
-   Total \tab 2666 \tab 108 \tab 16 \tab 13 \tab 2 \tab 1 \tab 6 \tab 2812 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab seven or more \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2666 \tab 108 \tab 16 \tab 13 \tab 2 \tab 1 \tab 6 \tab - \tab 2812 \cr
+   Total \tab 2666 \tab 108 \tab 16 \tab 13 \tab 2 \tab 1 \tab 6 \tab 0 \tab 2812 \cr
 }
 }
 

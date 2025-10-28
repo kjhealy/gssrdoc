@@ -32,10 +32,10 @@ Question Is (BROTHER'S NAME/SISTER'S NAME) currently working at a paid job?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1584/vshow}{GSS Data Explorer page for \code{sbwork1}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 330 \tab 1721 \tab 791 \tab 101 \tab 49 \tab 2992 \cr
-   Total \tab 330 \tab 1721 \tab 791 \tab 101 \tab 49 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 330 \tab 1721 \tab 791 \tab 101 \tab 49 \tab - \tab 2992 \cr
+   Total \tab 330 \tab 1721 \tab 791 \tab 101 \tab 49 \tab 0 \tab 2992 \cr
 }
 }
 

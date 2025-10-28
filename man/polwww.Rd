@@ -34,10 +34,10 @@ G. The Internet or World Wide Web?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2531/vshow}{GSS Data Explorer page for \code{polwww}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab not at all \tab 1 or 2 times \tab 3 or more times \tab no answer \tab Total \cr
-   2000 \tab 2558 \tab 150 \tab 46 \tab 49 \tab 14 \tab 2817 \cr
-   Total \tab 2558 \tab 150 \tab 46 \tab 49 \tab 14 \tab 2817 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3 or more times \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2558 \tab 150 \tab 46 \tab 49 \tab 14 \tab - \tab 2817 \cr
+   Total \tab 2558 \tab 150 \tab 46 \tab 49 \tab 14 \tab 0 \tab 2817 \cr
 }
 }
 

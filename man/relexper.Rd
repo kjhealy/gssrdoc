@@ -32,15 +32,15 @@ Question Has there ever been a turning point in your life when you made a new an
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4664/vshow}{GSS Data Explorer page for \code{relexper}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 615 \tab 698 \tab 3 \tab 43 \tab 1517 \cr
-   1998 \tab 1548 \tab 562 \tab 656 \tab 5 \tab 61 \tab 2832 \cr
-   2004 \tab 1472 \tab 488 \tab 840 \tab 4 \tab 8 \tab 2812 \cr
-   2006 \tab 1518 \tab 1312 \tab 1664 \tab 10 \tab 6 \tab 4510 \cr
-   2008 \tab - \tab 860 \tab 1141 \tab 16 \tab 6 \tab 2023 \cr
-   2010 \tab - \tab 847 \tab 1184 \tab 4 \tab 9 \tab 2044 \cr
-   Total \tab 4696 \tab 4684 \tab 6183 \tab 42 \tab 133 \tab 15738 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 615 \tab 698 \tab 3 \tab 43 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 562 \tab 656 \tab 5 \tab 61 \tab - \tab 2832 \cr
+   2004 \tab 1472 \tab 488 \tab 840 \tab 4 \tab 8 \tab - \tab 2812 \cr
+   2006 \tab 1518 \tab 1312 \tab 1664 \tab 10 \tab 6 \tab - \tab 4510 \cr
+   2008 \tab - \tab 860 \tab 1141 \tab 16 \tab 6 \tab - \tab 2023 \cr
+   2010 \tab - \tab 847 \tab 1184 \tab 4 \tab 9 \tab - \tab 2044 \cr
+   Total \tab 4696 \tab 4684 \tab 6183 \tab 42 \tab 133 \tab 0 \tab 15738 \cr
 }
 }
 

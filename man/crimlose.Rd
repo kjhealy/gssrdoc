@@ -33,10 +33,10 @@ B. That people convicted of serious crimes lose their citizen rights
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4967/vshow}{GSS Data Explorer page for \code{crimlose}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
-   2014 \tab 1274 \tab 99 \tab 71 \tab 77 \tab 163 \tab 161 \tab 170 \tab 390 \tab 129 \tab 4 \tab 2538 \cr
-   Total \tab 1274 \tab 99 \tab 71 \tab 77 \tab 163 \tab 161 \tab 170 \tab 390 \tab 129 \tab 4 \tab 2538 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab 1274 \tab 99 \tab 71 \tab 77 \tab 163 \tab 161 \tab 170 \tab 390 \tab 129 \tab 4 \tab - \tab 2538 \cr
+   Total \tab 1274 \tab 99 \tab 71 \tab 77 \tab 163 \tab 161 \tab 170 \tab 390 \tab 129 \tab 4 \tab 0 \tab 2538 \cr
 }
 }
 

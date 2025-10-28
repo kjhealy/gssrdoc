@@ -40,11 +40,11 @@ Question Think about the person you have known next best, who has committed suic
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5031/vshow}{GSS Data Explorer page for \code{suiwho2}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab other relative \tab friend \tab neighbor \tab co-worker \tab acquaintance \tab no answer \tab patient \tab Total \cr
-   1990 \tab 1347 \tab 2 \tab 7 \tab 4 \tab 2 \tab 8 \tab 2 \tab - \tab 1372 \cr
-   1991 \tab 1477 \tab - \tab 15 \tab 1 \tab 4 \tab 15 \tab 3 \tab 2 \tab 1517 \cr
-   Total \tab 2824 \tab 2 \tab 22 \tab 5 \tab 6 \tab 23 \tab 5 \tab 2 \tab 2889 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab other relative \tab friend \tab neighbor \tab co-worker \tab acquaintance \tab no answer \tab patient \tab not available in this year \tab Total \cr
+   1990 \tab 1347 \tab 2 \tab 7 \tab 4 \tab 2 \tab 8 \tab 2 \tab - \tab - \tab 1372 \cr
+   1991 \tab 1477 \tab - \tab 15 \tab 1 \tab 4 \tab 15 \tab 3 \tab 2 \tab - \tab 1517 \cr
+   Total \tab 2824 \tab 2 \tab 22 \tab 5 \tab 6 \tab 23 \tab 5 \tab 2 \tab 0 \tab 2889 \cr
 }
 }
 

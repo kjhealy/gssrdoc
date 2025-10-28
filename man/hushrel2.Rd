@@ -32,10 +32,10 @@ Question B. Did this leader say or do anything to try to keep you from telling o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3958/vshow}{GSS Data Explorer page for \code{hushrel2}}.
 
-Counts by year:\tabular{llll}{
-   year \tab iap \tab yes \tab Total \cr
-   2008 \tab 2022 \tab 1 \tab 2023 \cr
-   Total \tab 2022 \tab 1 \tab 2023 \cr
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab yes \tab not available in this year \tab Total \cr
+   2008 \tab 2022 \tab 1 \tab - \tab 2023 \cr
+   Total \tab 2022 \tab 1 \tab 0 \tab 2023 \cr
 }
 }
 

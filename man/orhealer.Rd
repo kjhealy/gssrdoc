@@ -31,11 +31,11 @@ F. Go to a spiritual or a natural healer for help.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2026/vshow}{GSS Data Explorer page for \code{orhealer}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2577 \tab 4 \tab 3 \tab 15 \tab 22 \tab 29 \tab 35 \tab 49 \tab 51 \tab 30 \tab 25 \tab 1 \tab 63 \tab 2904 \cr
-   2006 \tab 3942 \tab 8 \tab 3 \tab 20 \tab 30 \tab 47 \tab 71 \tab 129 \tab 105 \tab 83 \tab 41 \tab - \tab 31 \tab 4510 \cr
-   Total \tab 6519 \tab 12 \tab 6 \tab 35 \tab 52 \tab 76 \tab 106 \tab 178 \tab 156 \tab 113 \tab 66 \tab 1 \tab 94 \tab 7414 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2577 \tab 4 \tab 3 \tab 15 \tab 22 \tab 29 \tab 35 \tab 49 \tab 51 \tab 30 \tab 25 \tab 1 \tab 63 \tab - \tab 2904 \cr
+   2006 \tab 3942 \tab 8 \tab 3 \tab 20 \tab 30 \tab 47 \tab 71 \tab 129 \tab 105 \tab 83 \tab 41 \tab - \tab 31 \tab - \tab 4510 \cr
+   Total \tab 6519 \tab 12 \tab 6 \tab 35 \tab 52 \tab 76 \tab 106 \tab 178 \tab 156 \tab 113 \tab 66 \tab 1 \tab 94 \tab 0 \tab 7414 \cr
 }
 }
 

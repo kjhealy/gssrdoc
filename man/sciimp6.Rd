@@ -35,10 +35,10 @@ F. The results of the research are consistent with common sense. (Would you say 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3403/vshow}{GSS Data Explorer page for \code{sciimp6}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab pretty important \tab not too important \tab not important at all \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 732 \tab 638 \tab 272 \tab 152 \tab 64 \tab 6 \tab 4510 \cr
-   Total \tab 2646 \tab 732 \tab 638 \tab 272 \tab 152 \tab 64 \tab 6 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab pretty important \tab not too important \tab not important at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 732 \tab 638 \tab 272 \tab 152 \tab 64 \tab 6 \tab - \tab 4510 \cr
+   Total \tab 2646 \tab 732 \tab 638 \tab 272 \tab 152 \tab 64 \tab 6 \tab 0 \tab 4510 \cr
 }
 }
 

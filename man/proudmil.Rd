@@ -35,12 +35,12 @@ H. America''s armed forces
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4847/vshow}{GSS Data Explorer page for \code{proudmil}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 631 \tab 539 \tab 87 \tab 31 \tab 54 \tab 25 \tab 2904 \cr
-   2004 \tab 1596 \tab 898 \tab 214 \tab 53 \tab 19 \tab 31 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 815 \tab 328 \tab 64 \tab 20 \tab 44 \tab 3 \tab 2538 \cr
-   Total \tab 4397 \tab 2344 \tab 1081 \tab 204 \tab 70 \tab 129 \tab 29 \tab 8254 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1537 \tab 631 \tab 539 \tab 87 \tab 31 \tab 54 \tab 25 \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 898 \tab 214 \tab 53 \tab 19 \tab 31 \tab 1 \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 815 \tab 328 \tab 64 \tab 20 \tab 44 \tab 3 \tab - \tab 2538 \cr
+   Total \tab 4397 \tab 2344 \tab 1081 \tab 204 \tab 70 \tab 129 \tab 29 \tab 0 \tab 8254 \cr
 }
 }
 

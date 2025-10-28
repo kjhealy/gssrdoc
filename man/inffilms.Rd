@@ -36,10 +36,10 @@ A. Movies.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5117/vshow}{GSS Data Explorer page for \code{inffilms}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very positive \tab positive \tab neutral \tab negative \tab very negative \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 93 \tab 317 \tab 354 \tab 416 \tab 142 \tab 42 \tab 8 \tab 1372 \cr
-   Total \tab 0 \tab 93 \tab 317 \tab 354 \tab 416 \tab 142 \tab 42 \tab 8 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very positive \tab positive \tab neutral \tab negative \tab very negative \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 93 \tab 317 \tab 354 \tab 416 \tab 142 \tab 42 \tab 8 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 93 \tab 317 \tab 354 \tab 416 \tab 142 \tab 42 \tab 8 \tab 0 \tab 1372 \cr
 }
 }
 

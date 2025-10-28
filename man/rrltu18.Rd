@@ -32,10 +32,10 @@ Question Are you related in some other way to at least one individual under the 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8029/vshow}{GSS Data Explorer page for \code{rrltu18}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 3205 \tab 75 \tab 256 \tab 2 \tab 6 \tab 3544 \cr
-   Total \tab 3205 \tab 75 \tab 256 \tab 2 \tab 6 \tab 3544 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab not available in this year \tab yes \tab no \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 75 \tab 256 \tab 3205 \tab 2 \tab 6 \tab 3544 \cr
+   Total \tab 0 \tab 75 \tab 256 \tab 3205 \tab 2 \tab 6 \tab 3544 \cr
 }
 }
 

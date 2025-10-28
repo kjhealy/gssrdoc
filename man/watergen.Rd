@@ -37,15 +37,15 @@ Question A. In general, do you think that pollution of America's rivers, lakes, 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4762/vshow}{GSS Data Explorer page for \code{watergen}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab don't know \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 537 \tab 484 \tab 413 \tab 54 \tab 9 \tab 32 \tab 28 \tab 1606 \cr
-   1994 \tab 1606 \tab 422 \tab 421 \tab 400 \tab 63 \tab 6 \tab 29 \tab 45 \tab 2992 \cr
-   2000 \tab 1541 \tab 423 \tab 412 \tab 288 \tab 44 \tab 14 \tab 44 \tab 51 \tab 2817 \cr
-   2010 \tab 614 \tab 426 \tab 549 \tab 353 \tab 51 \tab 10 \tab 35 \tab 6 \tab 2044 \cr
-   2016 \tab 1956 \tab 382 \tab 328 \tab 159 \tab 22 \tab 6 \tab 12 \tab 2 \tab 2867 \cr
-   2018 \tab 1563 \tab 346 \tab 262 \tab 141 \tab 23 \tab 5 \tab 5 \tab 3 \tab 2348 \cr
-   Total \tab 7329 \tab 2536 \tab 2456 \tab 1754 \tab 257 \tab 50 \tab 157 \tab 135 \tab 14674 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 537 \tab 484 \tab 413 \tab 54 \tab 9 \tab 32 \tab 28 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 422 \tab 421 \tab 400 \tab 63 \tab 6 \tab 29 \tab 45 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 423 \tab 412 \tab 288 \tab 44 \tab 14 \tab 44 \tab 51 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 426 \tab 549 \tab 353 \tab 51 \tab 10 \tab 35 \tab 6 \tab - \tab 2044 \cr
+   2016 \tab 1956 \tab 382 \tab 328 \tab 159 \tab 22 \tab 6 \tab 12 \tab 2 \tab - \tab 2867 \cr
+   2018 \tab 1563 \tab 346 \tab 262 \tab 141 \tab 23 \tab 5 \tab 5 \tab 3 \tab - \tab 2348 \cr
+   Total \tab 7329 \tab 2536 \tab 2456 \tab 1754 \tab 257 \tab 50 \tab 157 \tab 135 \tab 0 \tab 14674 \cr
 }
 }
 

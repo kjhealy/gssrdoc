@@ -34,10 +34,10 @@ Question When you think about yourself, how important is your ethnic group membe
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2725/vshow}{GSS Data Explorer page for \code{ethimp}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab moderately important \tab slightly important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   2002 \tab - \tab 903 \tab 697 \tab 471 \tab 667 \tab 20 \tab 7 \tab 2765 \cr
-   Total \tab 0 \tab 903 \tab 697 \tab 471 \tab 667 \tab 20 \tab 7 \tab 2765 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab moderately important \tab slightly important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab - \tab 903 \tab 697 \tab 471 \tab 667 \tab 20 \tab 7 \tab - \tab 2765 \cr
+   Total \tab 0 \tab 903 \tab 697 \tab 471 \tab 667 \tab 20 \tab 7 \tab 0 \tab 2765 \cr
 }
 }
 

@@ -35,11 +35,11 @@ F. Donated money or raised funds for a social or political activity
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4925/vshow}{GSS Data Explorer page for \code{polfunds}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab have done it in the past yr \tab have done it in the more distant past \tab have not done it but might do it \tab have not done it and would never do it \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 451 \tab 284 \tab 438 \tab 293 \tab 1 \tab 5 \tab 2812 \cr
-   2014 \tab 1274 \tab 297 \tab 256 \tab 343 \tab 348 \tab 18 \tab 2 \tab 2538 \cr
-   Total \tab 2614 \tab 748 \tab 540 \tab 781 \tab 641 \tab 19 \tab 7 \tab 5350 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab have done it in the past yr \tab have done it in the more distant past \tab have not done it but might do it \tab have not done it and would never do it \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 451 \tab 284 \tab 438 \tab 293 \tab 1 \tab 5 \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 297 \tab 256 \tab 343 \tab 348 \tab 18 \tab 2 \tab - \tab 2538 \cr
+   Total \tab 2614 \tab 748 \tab 540 \tab 781 \tab 641 \tab 19 \tab 7 \tab 0 \tab 5350 \cr
 }
 }
 

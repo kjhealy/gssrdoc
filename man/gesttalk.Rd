@@ -34,10 +34,10 @@ Question How often do you see people in public who make strange gestures or talk
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3569/vshow}{GSS Data Explorer page for \code{gesttalk}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab often \tab sometimes \tab almost never \tab never \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3073 \tab 268 \tab 540 \tab 438 \tab 165 \tab 13 \tab 13 \tab 4510 \cr
-   Total \tab 3073 \tab 268 \tab 540 \tab 438 \tab 165 \tab 13 \tab 13 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab often \tab sometimes \tab almost never \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3073 \tab 268 \tab 540 \tab 438 \tab 165 \tab 13 \tab 13 \tab - \tab 4510 \cr
+   Total \tab 3073 \tab 268 \tab 540 \tab 438 \tab 165 \tab 13 \tab 13 \tab 0 \tab 4510 \cr
 }
 }
 

@@ -37,10 +37,10 @@ E. Monitoring at work (e.g., searches of briefcases and desks)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5247/vshow}{GSS Data Explorer page for \code{chkonjob}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 188 \tab 498 \tab 238 \tab 348 \tab 64 \tab 37 \tab 14 \tab 2832 \cr
-   Total \tab 1445 \tab 188 \tab 498 \tab 238 \tab 348 \tab 64 \tab 37 \tab 14 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 188 \tab 498 \tab 238 \tab 348 \tab 64 \tab 37 \tab 14 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 188 \tab 498 \tab 238 \tab 348 \tab 64 \tab 37 \tab 14 \tab 0 \tab 2832 \cr
 }
 }
 

@@ -33,10 +33,10 @@ Question Have you ever switched your plan or the medical care provider within yo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2188/vshow}{GSS Data Explorer page for \code{swithlth}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab cant switch \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1639 \tab 240 \tab 898 \tab 34 \tab 14 \tab 7 \tab 2832 \cr
-   Total \tab 1639 \tab 240 \tab 898 \tab 34 \tab 14 \tab 7 \tab 2832 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab cant switch \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1639 \tab 240 \tab 898 \tab 34 \tab 14 \tab 7 \tab - \tab 2832 \cr
+   Total \tab 1639 \tab 240 \tab 898 \tab 34 \tab 14 \tab 7 \tab 0 \tab 2832 \cr
 }
 }
 

@@ -36,11 +36,11 @@ A. ...because you were having trouble in your personal life.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2235/vshow}{GSS Data Explorer page for \code{prozslf1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1635 \tab 59 \tab 117 \tab 95 \tab 191 \tab 634 \tab 91 \tab 10 \tab 2832 \cr
-   2006 \tab 3238 \tab 67 \tab 141 \tab 196 \tab 234 \tab 549 \tab 68 \tab 17 \tab 4510 \cr
-   Total \tab 4873 \tab 126 \tab 258 \tab 291 \tab 425 \tab 1183 \tab 159 \tab 27 \tab 7342 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1635 \tab 59 \tab 117 \tab 95 \tab 191 \tab 634 \tab 91 \tab 10 \tab - \tab 2832 \cr
+   2006 \tab 3238 \tab 67 \tab 141 \tab 196 \tab 234 \tab 549 \tab 68 \tab 17 \tab - \tab 4510 \cr
+   Total \tab 4873 \tab 126 \tab 258 \tab 291 \tab 425 \tab 1183 \tab 159 \tab 27 \tab 0 \tab 7342 \cr
 }
 }
 

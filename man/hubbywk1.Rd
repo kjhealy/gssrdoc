@@ -38,13 +38,13 @@ A. A man''s job is to earn money; a woman''s job is to look after the home and f
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4402/vshow}{GSS Data Explorer page for \code{hubbywk1}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   1994 \tab 1545 \tab 76 \tab 227 \tab 271 \tab 544 \tab 296 \tab 8 \tab 25 \tab - \tab 2992 \cr
-   2002 \tab 1594 \tab 101 \tab 172 \tab 276 \tab - \tab 608 \tab 13 \tab 1 \tab - \tab 2765 \cr
-   2012 \tab 672 \tab 63 \tab 225 \tab 223 \tab 538 \tab 228 \tab 18 \tab 7 \tab - \tab 1974 \cr
-   2022 \tab 2379 \tab 40 \tab 129 \tab 255 \tab 356 \tab 356 \tab 18 \tab 4 \tab 7 \tab 3544 \cr
-   Total \tab 6190 \tab 280 \tab 753 \tab 1025 \tab 1438 \tab 1488 \tab 57 \tab 37 \tab 7 \tab 11275 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1994 \tab 1545 \tab 76 \tab 227 \tab 271 \tab 544 \tab 296 \tab 8 \tab 25 \tab - \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 101 \tab 172 \tab 276 \tab - \tab 608 \tab 13 \tab 1 \tab - \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 63 \tab 225 \tab 223 \tab 538 \tab 228 \tab 18 \tab 7 \tab - \tab - \tab 1974 \cr
+   2022 \tab 2379 \tab 40 \tab 129 \tab 255 \tab 356 \tab 356 \tab 18 \tab 4 \tab 7 \tab - \tab 3544 \cr
+   Total \tab 6190 \tab 280 \tab 753 \tab 1025 \tab 1438 \tab 1488 \tab 57 \tab 37 \tab 7 \tab 0 \tab 11275 \cr
 }
 }
 

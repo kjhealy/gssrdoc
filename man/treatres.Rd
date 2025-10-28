@@ -34,11 +34,11 @@ Question M. At work, people are treated with respect.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3010/vshow}{GSS Data Explorer page for \code{treatres}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 945 \tab 717 \tab 929 \tab 139 \tab 20 \tab 22 \tab 40 \tab 2812 \cr
-   2012 \tab 795 \tab 415 \tab 607 \tab 91 \tab 21 \tab 14 \tab 31 \tab 1974 \cr
-   Total \tab 1740 \tab 1132 \tab 1536 \tab 230 \tab 41 \tab 36 \tab 71 \tab 4786 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 945 \tab 717 \tab 929 \tab 139 \tab 20 \tab 22 \tab 40 \tab - \tab 2812 \cr
+   2012 \tab 795 \tab 415 \tab 607 \tab 91 \tab 21 \tab 14 \tab 31 \tab - \tab 1974 \cr
+   Total \tab 1740 \tab 1132 \tab 1536 \tab 230 \tab 41 \tab 36 \tab 71 \tab 0 \tab 4786 \cr
 }
 }
 

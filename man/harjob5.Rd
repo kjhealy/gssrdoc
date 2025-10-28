@@ -33,11 +33,11 @@ Question In the last five years, have you been harassed verbally or in writing o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3925/vshow}{GSS Data Explorer page for \code{harjob5}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab not employed in last 5 years \tab no answer \tab Total \cr
-   2008 \tab 1971 \tab 14 \tab 4 \tab 1 \tab 33 \tab 2023 \cr
-   2012 \tab 1910 \tab 13 \tab 6 \tab - \tab 45 \tab 1974 \cr
-   Total \tab 3881 \tab 27 \tab 10 \tab 1 \tab 78 \tab 3997 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab not employed in last 5 years \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1971 \tab 14 \tab 4 \tab 1 \tab 33 \tab - \tab 2023 \cr
+   2012 \tab 1910 \tab 13 \tab 6 \tab - \tab 45 \tab - \tab 1974 \cr
+   Total \tab 3881 \tab 27 \tab 10 \tab 1 \tab 78 \tab 0 \tab 3997 \cr
 }
 }
 

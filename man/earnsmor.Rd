@@ -35,11 +35,11 @@ Question Who earns more money?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4400/vshow}{GSS Data Explorer page for \code{earnsmor}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab husband, much more \tab husband, bit more \tab same for both \tab wife, bit more \tab wife, much more \tab no answer \tab Total \cr
-   1988 \tab 1114 \tab 207 \tab 71 \tab 33 \tab 27 \tab 16 \tab 13 \tab 1481 \cr
-   1994 \tab 2570 \tab 214 \tab 76 \tab 59 \tab 38 \tab 17 \tab 18 \tab 2992 \cr
-   Total \tab 3684 \tab 421 \tab 147 \tab 92 \tab 65 \tab 33 \tab 31 \tab 4473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab husband, much more \tab husband, bit more \tab same for both \tab wife, bit more \tab wife, much more \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 1114 \tab 207 \tab 71 \tab 33 \tab 27 \tab 16 \tab 13 \tab - \tab 1481 \cr
+   1994 \tab 2570 \tab 214 \tab 76 \tab 59 \tab 38 \tab 17 \tab 18 \tab - \tab 2992 \cr
+   Total \tab 3684 \tab 421 \tab 147 \tab 92 \tab 65 \tab 33 \tab 31 \tab 0 \tab 4473 \cr
 }
 }
 

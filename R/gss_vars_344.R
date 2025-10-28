@@ -26,10 +26,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
-#'  |2004  |1472 |181              |260       |275       |207       |194             |195                   |9          |19        |2812  |
-#'  |Total |1472 |181              |260       |275       |207       |194             |195                   |9          |19        |2812  |
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |1472 |181              |260       |275       |207       |194             |195                   |9          |19        |-                          |2812  |
+#'  |Total |1472 |181              |260       |275       |207       |194             |195                   |9          |19        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -69,10 +69,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
-#'  |2004  |1472 |252              |387       |238       |135       |146             |160                   |6          |16        |2812  |
-#'  |Total |1472 |252              |387       |238       |135       |146             |160                   |6          |16        |2812  |
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |1472 |252              |387       |238       |135       |146             |160                   |6          |16        |-                          |2812  |
+#'  |Total |1472 |252              |387       |238       |135       |146             |160                   |6          |16        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -112,10 +112,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
-#'  |2004  |1472 |254              |422       |244       |118       |143             |136                   |7          |16        |2812  |
-#'  |Total |1472 |254              |422       |244       |118       |143             |136                   |7          |16        |2812  |
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |1472 |254              |422       |244       |118       |143             |136                   |7          |16        |-                          |2812  |
+#'  |Total |1472 |254              |422       |244       |118       |143             |136                   |7          |16        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -155,10 +155,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
-#'  |2004  |1472 |298              |319       |163       |191       |170             |180                   |4          |15        |2812  |
-#'  |Total |1472 |298              |319       |163       |191       |170             |180                   |4          |15        |2812  |
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |1472 |298              |319       |163       |191       |170             |180                   |4          |15        |-                          |2812  |
+#'  |Total |1472 |298              |319       |163       |191       |170             |180                   |4          |15        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -198,10 +198,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
-#'  |2004  |1472 |225              |336       |181       |181       |179             |216                   |6          |16        |2812  |
-#'  |Total |1472 |225              |336       |181       |181       |179             |216                   |6          |16        |2812  |
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |1472 |225              |336       |181       |181       |179             |216                   |6          |16        |-                          |2812  |
+#'  |Total |1472 |225              |336       |181       |181       |179             |216                   |6          |16        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -241,10 +241,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
-#'  |2004  |1472 |274              |386       |185       |130       |147             |195                   |6          |17        |2812  |
-#'  |Total |1472 |274              |386       |185       |130       |147             |195                   |6          |17        |2812  |
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |1472 |274              |386       |185       |130       |147             |195                   |6          |17        |-                          |2812  |
+#'  |Total |1472 |274              |386       |185       |130       |147             |195                   |6          |17        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -284,10 +284,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
-#'  |2004  |1472 |195              |297       |268       |220       |155             |173                   |14         |18        |2812  |
-#'  |Total |1472 |195              |297       |268       |220       |155             |173                   |14         |18        |2812  |
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |1472 |195              |297       |268       |220       |155             |173                   |14         |18        |-                          |2812  |
+#'  |Total |1472 |195              |297       |268       |220       |155             |173                   |14         |18        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -327,10 +327,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
-#'  |2004  |1472 |423              |554       |204       |87        |27              |28                    |2          |15        |2812  |
-#'  |Total |1472 |423              |554       |204       |87        |27              |28                    |2          |15        |2812  |
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |1472 |423              |554       |204       |87        |27              |28                    |2          |15        |-                          |2812  |
+#'  |Total |1472 |423              |554       |204       |87        |27              |28                    |2          |15        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -370,10 +370,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:-----|
-#'  |2004  |1472 |235              |444       |189       |161       |139             |144                   |11         |17        |2812  |
-#'  |Total |1472 |235              |444       |189       |161       |139             |144                   |11         |17        |2812  |
+#'  |year  |iap  |many times a day |every day |most days |some days |once in a while |never or almost never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:---------|:---------|:---------|:---------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |1472 |235              |444       |189       |161       |139             |144                   |11         |17        |-                          |2812  |
+#'  |Total |1472 |235              |444       |189       |161       |139             |144                   |11         |17        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -411,10 +411,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |not at all close |somewhat close |very close |as close as possible |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:--------------|:----------|:--------------------|:----------|:---------|:-----|
-#'  |2004  |1472 |143              |478            |473        |223                  |6          |17        |2812  |
-#'  |Total |1472 |143              |478            |473        |223                  |6          |17        |2812  |
+#'  |year  |iap  |not at all close |somewhat close |very close |as close as possible |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:--------------|:----------|:--------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |1472 |143              |478            |473        |223                  |6          |17        |-                          |2812  |
+#'  |Total |1472 |143              |478            |473        |223                  |6          |17        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion

@@ -34,10 +34,10 @@ Question What is your current gender?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7293/vshow}{GSS Data Explorer page for \code{sexnow}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab female \tab male \tab transgender \tab a gender not listed here \tab no answer \tab Total \cr
-   2018 \tab 939 \tab 758 \tab 640 \tab 2 \tab 1 \tab 8 \tab 2348 \cr
-   Total \tab 939 \tab 758 \tab 640 \tab 2 \tab 1 \tab 8 \tab 2348 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab female \tab male \tab transgender \tab a gender not listed here \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 939 \tab 758 \tab 640 \tab 2 \tab 1 \tab 8 \tab - \tab 2348 \cr
+   Total \tab 939 \tab 758 \tab 640 \tab 2 \tab 1 \tab 8 \tab 0 \tab 2348 \cr
 }
 }
 

@@ -37,10 +37,10 @@ Question E. Which of these best describes what you are?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5329/vshow}{GSS Data Explorer page for \code{relidbst}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab pentecostal \tab fundamentalist \tab evangelical \tab mainline \tab liberal \tab none \tab other (specify) \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2488 \tab 9 \tab 10 \tab 7 \tab 9 \tab 6 \tab 2 \tab 1 \tab 11 \tab 274 \tab 2817 \cr
-   Total \tab 2488 \tab 9 \tab 10 \tab 7 \tab 9 \tab 6 \tab 2 \tab 1 \tab 11 \tab 274 \tab 2817 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab pentecostal \tab fundamentalist \tab evangelical \tab mainline \tab liberal \tab none \tab other (specify) \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2488 \tab 9 \tab 10 \tab 7 \tab 9 \tab 6 \tab 2 \tab 1 \tab 11 \tab 274 \tab - \tab 2817 \cr
+   Total \tab 2488 \tab 9 \tab 10 \tab 7 \tab 9 \tab 6 \tab 2 \tab 1 \tab 11 \tab 274 \tab 0 \tab 2817 \cr
 }
 }
 

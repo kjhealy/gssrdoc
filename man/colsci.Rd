@@ -35,16 +35,16 @@ Question Have you ever taken any college-level science courses?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3349/vshow}{GSS Data Explorer page for \code{colsci}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 824 \tab 1035 \tab 4 \tab 1 \tab 4510 \cr
-   2008 \tab 518 \tab 568 \tab 929 \tab 4 \tab 4 \tab 2023 \cr
-   2010 \tab 1328 \tab 334 \tab 379 \tab - \tab 3 \tab 2044 \cr
-   2012 \tab 972 \tab 414 \tab 578 \tab 6 \tab 4 \tab 1974 \cr
-   2014 \tab 1299 \tab 500 \tab 736 \tab 2 \tab 1 \tab 2538 \cr
-   2016 \tab 1477 \tab 572 \tab 811 \tab 1 \tab 6 \tab 2867 \cr
-   2018 \tab 1173 \tab 513 \tab 652 \tab 6 \tab 4 \tab 2348 \cr
-   Total \tab 9413 \tab 3725 \tab 5120 \tab 23 \tab 23 \tab 18304 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 824 \tab 1035 \tab 4 \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 568 \tab 929 \tab 4 \tab 4 \tab - \tab 2023 \cr
+   2010 \tab 1328 \tab 334 \tab 379 \tab - \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 414 \tab 578 \tab 6 \tab 4 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 500 \tab 736 \tab 2 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 572 \tab 811 \tab 1 \tab 6 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 513 \tab 652 \tab 6 \tab 4 \tab - \tab 2348 \cr
+   Total \tab 9413 \tab 3725 \tab 5120 \tab 23 \tab 23 \tab 0 \tab 18304 \cr
 }
 }
 

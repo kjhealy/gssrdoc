@@ -34,10 +34,10 @@ Question C. Would you call yourself a strong Jew or not a very strong Jew?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/299/vshow}{GSS Data Explorer page for \code{relitena}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab not very strong \tab no answer \tab Total \cr
-   2012 \tab 1954 \tab 12 \tab 8 \tab 1974 \cr
-   Total \tab 1954 \tab 12 \tab 8 \tab 1974 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab not very strong \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1954 \tab 12 \tab 8 \tab - \tab 1974 \cr
+   Total \tab 1954 \tab 12 \tab 8 \tab 0 \tab 1974 \cr
 }
 }
 

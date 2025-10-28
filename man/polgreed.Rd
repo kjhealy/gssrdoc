@@ -37,12 +37,12 @@ B. Most politicians are in politics only for what they can get out of it persona
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4946/vshow}{GSS Data Explorer page for \code{polgreed}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 195 \tab 508 \tab 346 \tab 390 \tab 23 \tab 4 \tab 6 \tab 2812 \cr
-   2010 \tab 614 \tab 204 \tab 512 \tab 314 \tab 324 \tab 18 \tab 52 \tab 6 \tab 2044 \cr
-   2014 \tab 1274 \tab 205 \tab 513 \tab 294 \tab 204 \tab 12 \tab 34 \tab 2 \tab 2538 \cr
-   Total \tab 3228 \tab 604 \tab 1533 \tab 954 \tab 918 \tab 53 \tab 90 \tab 14 \tab 7394 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 195 \tab 508 \tab 346 \tab 390 \tab 23 \tab 4 \tab 6 \tab - \tab 2812 \cr
+   2010 \tab 614 \tab 204 \tab 512 \tab 314 \tab 324 \tab 18 \tab 52 \tab 6 \tab - \tab 2044 \cr
+   2014 \tab 1274 \tab 205 \tab 513 \tab 294 \tab 204 \tab 12 \tab 34 \tab 2 \tab - \tab 2538 \cr
+   Total \tab 3228 \tab 604 \tab 1533 \tab 954 \tab 918 \tab 53 \tab 90 \tab 14 \tab 0 \tab 7394 \cr
 }
 }
 

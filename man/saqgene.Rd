@@ -33,10 +33,10 @@ Question C. R did Gene Module
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5558/vshow}{GSS Data Explorer page for \code{saqgene}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab r did gene saq \tab administered by interviewer \tab r did not do gene \tab Total \cr
-   2004 \tab - \tab 1657 \tab 723 \tab 432 \tab 2812 \cr
-   Total \tab 0 \tab 1657 \tab 723 \tab 432 \tab 2812 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab r did gene saq \tab administered by interviewer \tab r did not do gene \tab not available in this year \tab Total \cr
+   2004 \tab - \tab 1657 \tab 723 \tab 432 \tab - \tab 2812 \cr
+   Total \tab 0 \tab 1657 \tab 723 \tab 432 \tab 0 \tab 2812 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question How many government administrators can be trusted to do what is best fo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3977/vshow}{GSS Data Explorer page for \code{polefy17}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab none \tab a few \tab some \tab most \tab all \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1328 \tab 62 \tab 247 \tab 241 \tab 59 \tab 5 \tab 31 \tab 1 \tab 1974 \cr
-   Total \tab 1328 \tab 62 \tab 247 \tab 241 \tab 59 \tab 5 \tab 31 \tab 1 \tab 1974 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab none \tab a few \tab some \tab most \tab all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1328 \tab 62 \tab 247 \tab 241 \tab 59 \tab 5 \tab 31 \tab 1 \tab - \tab 1974 \cr
+   Total \tab 1328 \tab 62 \tab 247 \tab 241 \tab 59 \tab 5 \tab 31 \tab 1 \tab 0 \tab 1974 \cr
 }
 }
 

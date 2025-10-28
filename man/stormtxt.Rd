@@ -33,10 +33,10 @@ Question Lightning and thunder happen at the same time, but you see the lightnin
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3474/vshow}{GSS Data Explorer page for \code{stormtxt}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab complete \tab partial \tab unsatisfactory/incorrect \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 518 \tab 656 \tab 61 \tab 299 \tab 466 \tab 23 \tab 2023 \cr
-   Total \tab 518 \tab 656 \tab 61 \tab 299 \tab 466 \tab 23 \tab 2023 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab complete \tab partial \tab unsatisfactory/incorrect \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 518 \tab 656 \tab 61 \tab 299 \tab 466 \tab 23 \tab - \tab 2023 \cr
+   Total \tab 518 \tab 656 \tab 61 \tab 299 \tab 466 \tab 23 \tab 0 \tab 2023 \cr
 }
 }
 

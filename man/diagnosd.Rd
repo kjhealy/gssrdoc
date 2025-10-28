@@ -33,10 +33,11 @@ Question Have you ever been diagnosed with a mental health problem?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7147/vshow}{GSS Data Explorer page for \code{diagnosd}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 197 \tab 936 \tab 5 \tab 35 \tab 2348 \cr
-   Total \tab 1175 \tab 197 \tab 936 \tab 5 \tab 35 \tab 2348 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2018 \tab 1175 \tab 197 \tab 936 \tab 5 \tab 35 \tab - \tab - \tab 2348 \cr
+   2024 \tab 49 \tab 739 \tab 2462 \tab 7 \tab 15 \tab - \tab 37 \tab 3309 \cr
+   Total \tab 1224 \tab 936 \tab 3398 \tab 12 \tab 50 \tab 0 \tab 37 \tab 5657 \cr
 }
 }
 

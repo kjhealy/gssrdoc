@@ -34,11 +34,12 @@ E. That people be given more opportunities to participate in public decision-mak
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4937/vshow}{GSS Data Explorer page for \code{polopts}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 15 \tab 9 \tab 23 \tab 89 \tab 243 \tab 254 \tab 822 \tab 12 \tab 5 \tab 2812 \cr
-   2014 \tab 1274 \tab 13 \tab 10 \tab 18 \tab 92 \tab 196 \tab 258 \tab 639 \tab 36 \tab 2 \tab 2538 \cr
-   Total \tab 2614 \tab 28 \tab 19 \tab 41 \tab 181 \tab 439 \tab 512 \tab 1461 \tab 48 \tab 7 \tab 5350 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2004 \tab 1340 \tab 15 \tab 9 \tab 23 \tab 89 \tab 243 \tab 254 \tab 822 \tab 12 \tab 5 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 13 \tab 10 \tab 18 \tab 92 \tab 196 \tab 258 \tab 639 \tab 36 \tab 2 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1663 \tab 9 \tab 9 \tab 26 \tab 99 \tab 227 \tab 321 \tab 855 \tab 75 \tab 4 \tab - \tab 21 \tab 3309 \cr
+   Total \tab 4277 \tab 37 \tab 28 \tab 67 \tab 280 \tab 666 \tab 833 \tab 2316 \tab 123 \tab 11 \tab 0 \tab 21 \tab 8659 \cr
 }
 }
 

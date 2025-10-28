@@ -32,10 +32,10 @@ Question Does the place where you work have an affirmative action program or mak
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1250/vshow}{GSS Data Explorer page for \code{affact}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1990 \tab 495 \tab 387 \tab 360 \tab 108 \tab 22 \tab 1372 \cr
-   Total \tab 495 \tab 387 \tab 360 \tab 108 \tab 22 \tab 1372 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 495 \tab 387 \tab 360 \tab 108 \tab 22 \tab - \tab 1372 \cr
+   Total \tab 495 \tab 387 \tab 360 \tab 108 \tab 22 \tab 0 \tab 1372 \cr
 }
 }
 

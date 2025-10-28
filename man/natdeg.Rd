@@ -80,10 +80,10 @@ Question In which country did you obtain your highest degree?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3902/vshow}{GSS Data Explorer page for \code{natdeg}}.
 
-Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllll}{
-   year \tab iap \tab usa \tab trinidad \tab jamaica \tab pakistan \tab turkey \tab west indies \tab colombia \tab kazakhstan \tab cuba \tab india \tab germany \tab ecuador \tab mexico \tab el salvador \tab canada \tab guatemala \tab philippines \tab israel \tab dominican republic \tab scotland \tab haiti \tab honduras \tab puerto rico \tab austraila \tab china \tab poland \tab lithuania \tab brazil \tab morocco \tab spain \tab bulgeria \tab ussr \tab japan \tab korea \tab bermuda \tab france \tab south africa \tab england \tab britain \tab no answer \tab Total \cr
-   2008 \tab 603 \tab 1239 \tab 3 \tab 2 \tab 2 \tab 1 \tab 3 \tab 6 \tab 2 \tab 4 \tab 7 \tab 2 \tab 1 \tab 39 \tab 7 \tab 3 \tab 5 \tab 3 \tab 1 \tab 1 \tab 1 \tab 3 \tab 2 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 60 \tab 2023 \cr
-   Total \tab 603 \tab 1239 \tab 3 \tab 2 \tab 2 \tab 1 \tab 3 \tab 6 \tab 2 \tab 4 \tab 7 \tab 2 \tab 1 \tab 39 \tab 7 \tab 3 \tab 5 \tab 3 \tab 1 \tab 1 \tab 1 \tab 3 \tab 2 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 60 \tab 2023 \cr
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab usa \tab trinidad \tab jamaica \tab pakistan \tab turkey \tab west indies \tab colombia \tab kazakhstan \tab cuba \tab india \tab germany \tab ecuador \tab mexico \tab el salvador \tab canada \tab guatemala \tab philippines \tab israel \tab dominican republic \tab scotland \tab haiti \tab honduras \tab puerto rico \tab austraila \tab china \tab poland \tab lithuania \tab brazil \tab morocco \tab spain \tab bulgeria \tab ussr \tab japan \tab korea \tab bermuda \tab france \tab south africa \tab england \tab britain \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 603 \tab 1239 \tab 3 \tab 2 \tab 2 \tab 1 \tab 3 \tab 6 \tab 2 \tab 4 \tab 7 \tab 2 \tab 1 \tab 39 \tab 7 \tab 3 \tab 5 \tab 3 \tab 1 \tab 1 \tab 1 \tab 3 \tab 2 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 60 \tab - \tab 2023 \cr
+   Total \tab 603 \tab 1239 \tab 3 \tab 2 \tab 2 \tab 1 \tab 3 \tab 6 \tab 2 \tab 4 \tab 7 \tab 2 \tab 1 \tab 39 \tab 7 \tab 3 \tab 5 \tab 3 \tab 1 \tab 1 \tab 1 \tab 3 \tab 2 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 60 \tab 0 \tab 2023 \cr
 }
 }
 

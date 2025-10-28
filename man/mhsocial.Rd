@@ -35,10 +35,10 @@ B. To spend time socializing with (NAME)?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3753/vshow}{GSS Data Explorer page for \code{mhsocial}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 370 \tab 704 \tab 260 \tab 64 \tab 21 \tab 6 \tab 4510 \cr
-   Total \tab 3085 \tab 370 \tab 704 \tab 260 \tab 64 \tab 21 \tab 6 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 370 \tab 704 \tab 260 \tab 64 \tab 21 \tab 6 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 370 \tab 704 \tab 260 \tab 64 \tab 21 \tab 6 \tab 0 \tab 4510 \cr
 }
 }
 

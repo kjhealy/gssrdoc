@@ -33,13 +33,13 @@ A. Would you approve of ending a patient's life if a board of doctors appointed 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/648/vshow}{GSS Data Explorer page for \code{letdie2}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1977 \tab 907 \tab 66 \tab 488 \tab 53 \tab 16 \tab 1530 \cr
-   1978 \tab 884 \tab 58 \tab 533 \tab 42 \tab 15 \tab 1532 \cr
-   1982 \tab 1026 \tab 46 \tab 707 \tab 59 \tab 22 \tab 1860 \cr
-   1983 \tab 1005 \tab 36 \tab 496 \tab 53 \tab 9 \tab 1599 \cr
-   Total \tab 3822 \tab 206 \tab 2224 \tab 207 \tab 62 \tab 6521 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1977 \tab 907 \tab 66 \tab 488 \tab 53 \tab 16 \tab - \tab 1530 \cr
+   1978 \tab 884 \tab 58 \tab 533 \tab 42 \tab 15 \tab - \tab 1532 \cr
+   1982 \tab 1026 \tab 46 \tab 707 \tab 59 \tab 22 \tab - \tab 1860 \cr
+   1983 \tab 1005 \tab 36 \tab 496 \tab 53 \tab 9 \tab - \tab 1599 \cr
+   Total \tab 3822 \tab 206 \tab 2224 \tab 207 \tab 62 \tab 0 \tab 6521 \cr
 }
 }
 

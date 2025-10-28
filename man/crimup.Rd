@@ -32,10 +32,10 @@ Question Suppose research proves that more legal restrictions on handguns would 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3059/vshow}{GSS Data Explorer page for \code{crimup}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab would change mind and oppose more restrictions \tab would still support more restrictions \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 1973 \tab 292 \tab 496 \tab 48 \tab 3 \tab 2812 \cr
-   Total \tab 1973 \tab 292 \tab 496 \tab 48 \tab 3 \tab 2812 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab would change mind and oppose more restrictions \tab would still support more restrictions \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1973 \tab 292 \tab 496 \tab 48 \tab 3 \tab - \tab 2812 \cr
+   Total \tab 1973 \tab 292 \tab 496 \tab 48 \tab 3 \tab 0 \tab 2812 \cr
 }
 }
 

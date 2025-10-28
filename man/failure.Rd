@@ -36,10 +36,10 @@ D. Getting mental health treatment for a child would make a parent feel like a f
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2960/vshow}{GSS Data Explorer page for \code{failure}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 65 \tab 396 \tab 465 \tab 418 \tab 37 \tab 12 \tab 2765 \cr
-   Total \tab 1372 \tab 65 \tab 396 \tab 465 \tab 418 \tab 37 \tab 12 \tab 2765 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1372 \tab 65 \tab 396 \tab 465 \tab 418 \tab 37 \tab 12 \tab - \tab 2765 \cr
+   Total \tab 1372 \tab 65 \tab 396 \tab 465 \tab 418 \tab 37 \tab 12 \tab 0 \tab 2765 \cr
 }
 }
 

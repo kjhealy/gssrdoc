@@ -33,10 +33,10 @@ Question B. Should divorce in this country be easier to obtain, more difficult t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/628/vshow}{GSS Data Explorer page for \code{divlawy}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab easier \tab more difficult \tab stay same \tab don't know \tab no answer \tab Total \cr
-   1978 \tab 761 \tab 175 \tab 252 \tab 310 \tab 33 \tab 1 \tab 1532 \cr
-   Total \tab 761 \tab 175 \tab 252 \tab 310 \tab 33 \tab 1 \tab 1532 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab easier \tab more difficult \tab stay same \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1978 \tab 761 \tab 175 \tab 252 \tab 310 \tab 33 \tab 1 \tab - \tab 1532 \cr
+   Total \tab 761 \tab 175 \tab 252 \tab 310 \tab 33 \tab 1 \tab 0 \tab 1532 \cr
 }
 }
 

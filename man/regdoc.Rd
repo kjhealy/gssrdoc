@@ -32,10 +32,10 @@ Question This section is about physicians telling patients about how health insu
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2738/vshow}{GSS Data Explorer page for \code{regdoc}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2002 \tab - \tab 2294 \tab 460 \tab 7 \tab 4 \tab 2765 \cr
-   Total \tab 0 \tab 2294 \tab 460 \tab 7 \tab 4 \tab 2765 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab - \tab 2294 \tab 460 \tab 7 \tab 4 \tab - \tab 2765 \cr
+   Total \tab 0 \tab 2294 \tab 460 \tab 7 \tab 4 \tab 0 \tab 2765 \cr
 }
 }
 

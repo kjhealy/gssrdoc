@@ -36,11 +36,11 @@ D. Detain the man overnight for questioning.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3997/vshow}{GSS Data Explorer page for \code{crimhold}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 205 \tab 181 \tab 101 \tab 140 \tab 35 \tab 15 \tab 1534 \cr
-   1990 \tab 155 \tab 283 \tab 351 \tab 248 \tab 222 \tab 48 \tab 65 \tab 1372 \cr
-   Total \tab 1012 \tab 488 \tab 532 \tab 349 \tab 362 \tab 83 \tab 80 \tab 2906 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 205 \tab 181 \tab 101 \tab 140 \tab 35 \tab 15 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 283 \tab 351 \tab 248 \tab 222 \tab 48 \tab 65 \tab - \tab 1372 \cr
+   Total \tab 1012 \tab 488 \tab 532 \tab 349 \tab 362 \tab 83 \tab 80 \tab 0 \tab 2906 \cr
 }
 }
 

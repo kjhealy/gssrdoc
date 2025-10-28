@@ -36,12 +36,12 @@ C2. Second Person is Sibling
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/886/vshow}{GSS Data Explorer page for \code{sibling2}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab Total \cr
-   1985 \tab 364 \tab 113 \tab 1054 \tab 3 \tab 1534 \cr
-   1987 \tab 385 \tab 121 \tab 1288 \tab 25 \tab 1819 \cr
-   2004 \tab 1977 \tab 76 \tab 712 \tab 47 \tab 2812 \cr
-   Total \tab 2726 \tab 310 \tab 3054 \tab 75 \tab 6165 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 364 \tab 113 \tab 1054 \tab 3 \tab - \tab 1534 \cr
+   1987 \tab 385 \tab 121 \tab 1288 \tab 25 \tab - \tab 1819 \cr
+   2004 \tab 1977 \tab 76 \tab 712 \tab 47 \tab - \tab 2812 \cr
+   Total \tab 2726 \tab 310 \tab 3054 \tab 75 \tab 0 \tab 6165 \cr
 }
 }
 

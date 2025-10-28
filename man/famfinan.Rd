@@ -36,10 +36,10 @@ Question Now I''d like to ask you about how you and your (husband/wife) organize
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1880/vshow}{GSS Data Explorer page for \code{famfinan}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab wife manages all the money \tab husband manages all the money \tab wife has a housekeeping allowance \tab all the money is pooled \tab some of the money is pooled \tab keep finances completely separate \tab no answer \tab Total \cr
-   1996 \tab 2196 \tab 200 \tab 61 \tab 59 \tab 260 \tab 91 \tab 32 \tab 5 \tab 2904 \cr
-   Total \tab 2196 \tab 200 \tab 61 \tab 59 \tab 260 \tab 91 \tab 32 \tab 5 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab wife manages all the money \tab husband manages all the money \tab wife has a housekeeping allowance \tab all the money is pooled \tab some of the money is pooled \tab keep finances completely separate \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2196 \tab 200 \tab 61 \tab 59 \tab 260 \tab 91 \tab 32 \tab 5 \tab - \tab 2904 \cr
+   Total \tab 2196 \tab 200 \tab 61 \tab 59 \tab 260 \tab 91 \tab 32 \tab 5 \tab 0 \tab 2904 \cr
 }
 }
 

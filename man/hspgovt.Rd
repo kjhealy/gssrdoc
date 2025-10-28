@@ -35,10 +35,10 @@ Question C. Hispanic-Americans?  Would you answer much more attention from gover
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1634/vshow}{GSS Data Explorer page for \code{hspgovt}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab much more \tab more \tab about right \tab less \tab much less \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 120 \tab 300 \tab 529 \tab 355 \tab 57 \tab 104 \tab 9 \tab 2992 \cr
-   Total \tab 1518 \tab 120 \tab 300 \tab 529 \tab 355 \tab 57 \tab 104 \tab 9 \tab 2992 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much more \tab more \tab about right \tab less \tab much less \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 120 \tab 300 \tab 529 \tab 355 \tab 57 \tab 104 \tab 9 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 120 \tab 300 \tab 529 \tab 355 \tab 57 \tab 104 \tab 9 \tab 0 \tab 2992 \cr
 }
 }
 

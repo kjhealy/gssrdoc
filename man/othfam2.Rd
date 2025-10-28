@@ -36,12 +36,12 @@ E2. Second Person is Other Family Member
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/896/vshow}{GSS Data Explorer page for \code{othfam2}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab Total \cr
-   1985 \tab 364 \tab 103 \tab 1064 \tab 3 \tab 1534 \cr
-   1987 \tab 385 \tab 132 \tab 1278 \tab 24 \tab 1819 \cr
-   2004 \tab 1977 \tab 69 \tab 719 \tab 47 \tab 2812 \cr
-   Total \tab 2726 \tab 304 \tab 3061 \tab 74 \tab 6165 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 364 \tab 103 \tab 1064 \tab 3 \tab - \tab 1534 \cr
+   1987 \tab 385 \tab 132 \tab 1278 \tab 24 \tab - \tab 1819 \cr
+   2004 \tab 1977 \tab 69 \tab 719 \tab 47 \tab - \tab 2812 \cr
+   Total \tab 2726 \tab 304 \tab 3061 \tab 74 \tab 0 \tab 6165 \cr
 }
 }
 

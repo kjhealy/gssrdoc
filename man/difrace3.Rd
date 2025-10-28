@@ -43,10 +43,10 @@ Question A. WHY DO YOU THINK YOUR RACIAL CLASSIFICATION OF THE RESPONDENT IN "A"
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5282/vshow}{GSS Data Explorer page for \code{difrace3}}.
 
-Counts by year:\tabular{llll}{
-   year \tab iap \tab other hispanic complications \tab Total \cr
-   1996 \tab 2903 \tab 1 \tab 2904 \cr
-   Total \tab 2903 \tab 1 \tab 2904 \cr
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab other hispanic complications \tab not available in this year \tab Total \cr
+   1996 \tab 2903 \tab 1 \tab - \tab 2904 \cr
+   Total \tab 2903 \tab 1 \tab 0 \tab 2904 \cr
 }
 }
 

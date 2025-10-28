@@ -34,10 +34,10 @@ Question F. People at work get in my personal space in an attempt to intimidate 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3003/vshow}{GSS Data Explorer page for \code{perspace}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 945 \tab 38 \tab 169 \tab 307 \tab 1292 \tab 20 \tab 41 \tab 2812 \cr
-   Total \tab 945 \tab 38 \tab 169 \tab 307 \tab 1292 \tab 20 \tab 41 \tab 2812 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 945 \tab 38 \tab 169 \tab 307 \tab 1292 \tab 20 \tab 41 \tab - \tab 2812 \cr
+   Total \tab 945 \tab 38 \tab 169 \tab 307 \tab 1292 \tab 20 \tab 41 \tab 0 \tab 2812 \cr
 }
 }
 

@@ -32,10 +32,10 @@ A. By what age should this normally occur?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2903/vshow}{GSS Data Explorer page for \code{ftwork1}}.
 
-Counts by year:\tabular{lllllllllllllllllllllllll}{
-   year \tab iap \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 30 \tab 35 \tab 50 \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1453 \tab 1 \tab 1 \tab 1 \tab 36 \tab 19 \tab 292 \tab 57 \tab 96 \tab 162 \tab 203 \tab 125 \tab 88 \tab 166 \tab 12 \tab 10 \tab 5 \tab 1 \tab 8 \tab 1 \tab 1 \tab 26 \tab 1 \tab 2765 \cr
-   Total \tab 1453 \tab 1 \tab 1 \tab 1 \tab 36 \tab 19 \tab 292 \tab 57 \tab 96 \tab 162 \tab 203 \tab 125 \tab 88 \tab 166 \tab 12 \tab 10 \tab 5 \tab 1 \tab 8 \tab 1 \tab 1 \tab 26 \tab 1 \tab 2765 \cr
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 30 \tab 35 \tab 50 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1453 \tab 1 \tab 1 \tab 1 \tab 36 \tab 19 \tab 292 \tab 57 \tab 96 \tab 162 \tab 203 \tab 125 \tab 88 \tab 166 \tab 12 \tab 10 \tab 5 \tab 1 \tab 8 \tab 1 \tab 1 \tab 26 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 1453 \tab 1 \tab 1 \tab 1 \tab 36 \tab 19 \tab 292 \tab 57 \tab 96 \tab 162 \tab 203 \tab 125 \tab 88 \tab 166 \tab 12 \tab 10 \tab 5 \tab 1 \tab 8 \tab 1 \tab 1 \tab 26 \tab 1 \tab 0 \tab 2765 \cr
 }
 }
 

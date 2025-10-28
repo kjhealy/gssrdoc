@@ -32,10 +32,10 @@ Question Which do you think should be the bigger priority for the U.S. criminal 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7576/vshow}{GSS Data Explorer page for \code{strvbiasy}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab strengthening law and order through more police and greater enforcement of the laws \tab reducing bias against minorities in the criminal justice system by reforming court and police practices \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2658 \tab 398 \tab 770 \tab 8 \tab 168 \tab 30 \tab 4032 \cr
-   Total \tab 2658 \tab 398 \tab 770 \tab 8 \tab 168 \tab 30 \tab 4032 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab strengthening law and order through more police and greater enforcement of the laws \tab reducing bias against minorities in the criminal justice system by reforming court and police practices \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2658 \tab 398 \tab 770 \tab 8 \tab 168 \tab 30 \tab - \tab 4032 \cr
+   Total \tab 2658 \tab 398 \tab 770 \tab 8 \tab 168 \tab 30 \tab 0 \tab 4032 \cr
 }
 }
 

@@ -36,12 +36,13 @@ G. To feel American
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4833/vshow}{GSS Data Explorer page for \code{amfeel}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 821 \tab 331 \tab 130 \tab 46 \tab 22 \tab 17 \tab 2904 \cr
-   2004 \tab 1596 \tab 812 \tab 284 \tab 81 \tab 14 \tab 24 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 721 \tab 329 \tab 125 \tab 56 \tab 40 \tab 3 \tab 2538 \cr
-   Total \tab 4397 \tab 2354 \tab 944 \tab 336 \tab 116 \tab 86 \tab 21 \tab 8254 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 821 \tab 331 \tab 130 \tab 46 \tab 22 \tab 17 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 812 \tab 284 \tab 81 \tab 14 \tab 24 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 721 \tab 329 \tab 125 \tab 56 \tab 40 \tab 3 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1661 \tab 705 \tab 466 \tab 237 \tab 127 \tab 84 \tab 3 \tab - \tab 26 \tab 3309 \cr
+   Total \tab 6058 \tab 3059 \tab 1410 \tab 573 \tab 243 \tab 170 \tab 24 \tab 0 \tab 26 \tab 11563 \cr
 }
 }
 

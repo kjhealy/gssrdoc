@@ -31,10 +31,10 @@ Question FLAG INDICATING WHETHER OR NOT THE RESPONDENT PARTICIPATED IN THE NEA F
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7891/vshow}{GSS Data Explorer page for \code{neastatus}}.
 
-Counts by year:\tabular{llll}{
-   year \tab iap \tab completed \tab Total \cr
-   2022 \tab 2701 \tab 843 \tab 3544 \cr
-   Total \tab 2701 \tab 843 \tab 3544 \cr
+Counts by year:\tabular{lllll}{
+   year \tab not available in this year \tab completed \tab iap \tab Total \cr
+   2022 \tab - \tab 843 \tab 2701 \tab 3544 \cr
+   Total \tab 0 \tab 843 \tab 2701 \tab 3544 \cr
 }
 }
 

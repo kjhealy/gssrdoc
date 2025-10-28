@@ -35,10 +35,10 @@ Question How long ago did this event happen? (ALLOW OPEN-ENDED RESPONSE; IF A RA
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1740/vshow}{GSS Data Explorer page for \code{whnangry}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab today \tab yesterday \tab up to a week ago \tab up to a month ago \tab months ago \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1779 \tab 79 \tab 108 \tab 500 \tab 350 \tab 78 \tab 1 \tab 9 \tab 2904 \cr
-   Total \tab 1779 \tab 79 \tab 108 \tab 500 \tab 350 \tab 78 \tab 1 \tab 9 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab today \tab yesterday \tab up to a week ago \tab up to a month ago \tab months ago \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1779 \tab 79 \tab 108 \tab 500 \tab 350 \tab 78 \tab 1 \tab 9 \tab - \tab 2904 \cr
+   Total \tab 1779 \tab 79 \tab 108 \tab 500 \tab 350 \tab 78 \tab 1 \tab 9 \tab 0 \tab 2904 \cr
 }
 }
 

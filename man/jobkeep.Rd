@@ -33,10 +33,10 @@ SHUFFLE THE PINK CARDS BEFORE HANDING TO RESPONDENT.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/555/vshow}{GSS Data Explorer page for \code{jobkeep}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab unimportant \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab Total \cr
-   1982 \tab 923 \tab 22 \tab 9 \tab 17 \tab 37 \tab 79 \tab 137 \tab 617 \tab 6 \tab 13 \tab 1860 \cr
-   Total \tab 923 \tab 22 \tab 9 \tab 17 \tab 37 \tab 79 \tab 137 \tab 617 \tab 6 \tab 13 \tab 1860 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab unimportant \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab 923 \tab 22 \tab 9 \tab 17 \tab 37 \tab 79 \tab 137 \tab 617 \tab 6 \tab 13 \tab - \tab 1860 \cr
+   Total \tab 923 \tab 22 \tab 9 \tab 17 \tab 37 \tab 79 \tab 137 \tab 617 \tab 6 \tab 13 \tab 0 \tab 1860 \cr
 }
 }
 

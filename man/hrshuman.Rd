@@ -31,10 +31,10 @@ D. Human services
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1918/vshow}{GSS Data Explorer page for \code{hrshuman}}.
 
-Counts by year:\tabular{llllllllllllllllllllllll}{
-   year \tab iap \tab 1 \tab 10 \tab 12 \tab 13 \tab 16 \tab 2 \tab 20 \tab 24 \tab 3 \tab 30 \tab 32 \tab 4 \tab 40 \tab 42 \tab 5 \tab 50 \tab 56 \tab 6 \tab 7 \tab 8 \tab 80 \tab Total \cr
-   1996 \tab 2840 \tab 9 \tab 1 \tab 2 \tab 1 \tab 1 \tab 9 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 11 \tab 1 \tab 1 \tab 5 \tab 1 \tab 1 \tab 5 \tab 1 \tab 7 \tab 1 \tab 2904 \cr
-   Total \tab 2840 \tab 9 \tab 1 \tab 2 \tab 1 \tab 1 \tab 9 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 11 \tab 1 \tab 1 \tab 5 \tab 1 \tab 1 \tab 5 \tab 1 \tab 7 \tab 1 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 12 \tab 13 \tab 16 \tab 2 \tab 20 \tab 24 \tab 3 \tab 30 \tab 32 \tab 4 \tab 40 \tab 42 \tab 5 \tab 50 \tab 56 \tab 6 \tab 7 \tab 8 \tab 80 \tab not available in this year \tab Total \cr
+   1996 \tab 2840 \tab 9 \tab 1 \tab 2 \tab 1 \tab 1 \tab 9 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 11 \tab 1 \tab 1 \tab 5 \tab 1 \tab 1 \tab 5 \tab 1 \tab 7 \tab 1 \tab - \tab 2904 \cr
+   Total \tab 2840 \tab 9 \tab 1 \tab 2 \tab 1 \tab 1 \tab 9 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 11 \tab 1 \tab 1 \tab 5 \tab 1 \tab 1 \tab 5 \tab 1 \tab 7 \tab 1 \tab 0 \tab 2904 \cr
 }
 }
 

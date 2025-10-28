@@ -37,12 +37,13 @@ C. A mental illness
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1996/vshow}{GSS Data Explorer page for \code{mentlill}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 285 \tab 460 \tab 395 \tab 216 \tab 64 \tab 24 \tab 2904 \cr
-   2006 \tab 3073 \tab 355 \tab 504 \tab 372 \tab 147 \tab 44 \tab 15 \tab 4510 \cr
-   2018 \tab 1175 \tab 278 \tab 414 \tab 289 \tab 140 \tab 24 \tab 28 \tab 2348 \cr
-   Total \tab 5708 \tab 918 \tab 1378 \tab 1056 \tab 503 \tab 132 \tab 67 \tab 9762 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 285 \tab 460 \tab 395 \tab 216 \tab 64 \tab 24 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 355 \tab 504 \tab 372 \tab 147 \tab 44 \tab 15 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 278 \tab 414 \tab 289 \tab 140 \tab 24 \tab 28 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1691 \tab 385 \tab 650 \tab 351 \tab 157 \tab 39 \tab 11 \tab - \tab 25 \tab 3309 \cr
+   Total \tab 7399 \tab 1303 \tab 2028 \tab 1407 \tab 660 \tab 171 \tab 78 \tab 0 \tab 25 \tab 13071 \cr
 }
 }
 

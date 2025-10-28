@@ -32,10 +32,10 @@ Question A. Suppose workers will be exposed to some cancer-causing materials on 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1260/vshow}{GSS Data Explorer page for \code{genecanx}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab should \tab should not \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 761 \tab 45 \tab 667 \tab 34 \tab 10 \tab 1517 \cr
-   Total \tab 761 \tab 45 \tab 667 \tab 34 \tab 10 \tab 1517 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab should \tab should not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 761 \tab 45 \tab 667 \tab 34 \tab 10 \tab - \tab 1517 \cr
+   Total \tab 761 \tab 45 \tab 667 \tab 34 \tab 10 \tab 0 \tab 1517 \cr
 }
 }
 

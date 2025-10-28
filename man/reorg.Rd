@@ -33,10 +33,10 @@ C. There was a major reorganization?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1269/vshow}{GSS Data Explorer page for \code{reorg}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1991 \tab - \tab 301 \tab 1149 \tab 1 \tab 66 \tab 1517 \cr
-   Total \tab 0 \tab 301 \tab 1149 \tab 1 \tab 66 \tab 1517 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab - \tab 301 \tab 1149 \tab 1 \tab 66 \tab - \tab 1517 \cr
+   Total \tab 0 \tab 301 \tab 1149 \tab 1 \tab 66 \tab 0 \tab 1517 \cr
 }
 }
 

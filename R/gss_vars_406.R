@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |almost all the same race as you |mostly the same race as you |about evenly divided |mostly a different race than you |almost all a different race than you |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------------|:---------------------------|:--------------------|:--------------------------------|:------------------------------------|:----------|:---------|:-----|
-#'  |2006  |3821 |267                             |218                         |140                  |16                               |11                                   |24         |13        |4510  |
-#'  |Total |3821 |267                             |218                         |140                  |16                               |11                                   |24         |13        |4510  |
+#'  |year  |iap  |almost all the same race as you |mostly the same race as you |about evenly divided |mostly a different race than you |almost all a different race than you |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------------|:---------------------------|:--------------------|:--------------------------------|:------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3821 |267                             |218                         |140                  |16                               |11                                   |24         |13        |-                          |4510  |
+#'  |Total |3821 |267                             |218                         |140                  |16                               |11                                   |24         |13        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -68,10 +68,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly favor |favor |neither favor nor oppose |oppose |strongly oppose |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:------------------------|:------|:---------------|:----------|:---------|:-----|
-#'  |2006  |3139 |826            |236   |109                      |91     |71              |26         |12        |4510  |
-#'  |Total |3139 |826            |236   |109                      |91     |71              |26         |12        |4510  |
+#'  |year  |iap  |strongly favor |favor |neither favor nor oppose |oppose |strongly oppose |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:------------------------|:------|:---------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3139 |826            |236   |109                      |91     |71              |26         |12        |-                          |4510  |
+#'  |Total |3139 |826            |236   |109                      |91     |71              |26         |12        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
@@ -108,10 +108,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |tougher |less tough |about as tough |don't know |no answer |Total |
-#'  |:-----|:----|:-------|:----------|:--------------|:----------|:---------|:-----|
-#'  |2006  |3139 |734     |104        |490            |31         |12        |4510  |
-#'  |Total |3139 |734     |104        |490            |31         |12        |4510  |
+#'  |year  |iap  |tougher |less tough |about as tough |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------|:----------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3139 |734     |104        |490            |31         |12        |-                          |4510  |
+#'  |Total |3139 |734     |104        |490            |31         |12        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
@@ -147,10 +147,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |sold to the general public |sales be limited to the military and police |don't know |no answer |Total |
-#'  |:-----|:----|:--------------------------|:-------------------------------------------|:----------|:---------|:-----|
-#'  |2006  |3139 |198                        |1125                                        |36         |12        |4510  |
-#'  |Total |3139 |198                        |1125                                        |36         |12        |4510  |
+#'  |year  |iap  |sold to the general public |sales be limited to the military and police |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------------------|:-------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3139 |198                        |1125                                        |36         |12        |-                          |4510  |
+#'  |Total |3139 |198                        |1125                                        |36         |12        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
@@ -186,10 +186,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |should be stricter |should be less strict |don't know |no answer |Total |
-#'  |:-----|:----|:------------------|:---------------------|:----------|:---------|:-----|
-#'  |2006  |3139 |1026               |226                   |103        |16        |4510  |
-#'  |Total |3139 |1026               |226                   |103        |16        |4510  |
+#'  |year  |iap  |should be stricter |should be less strict |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3139 |1026               |226                   |103        |16        |-                          |4510  |
+#'  |Total |3139 |1026               |226                   |103        |16        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
@@ -225,10 +225,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |restricted to the police and military |available to civilians like other hunting rifles |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------------------|:------------------------------------------------|:----------|:---------|:-----|
-#'  |2006  |3139 |1151                                  |187                                              |21         |12        |4510  |
-#'  |Total |3139 |1151                                  |187                                              |21         |12        |4510  |
+#'  |year  |iap  |restricted to the police and military |available to civilians like other hunting rifles |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------------------|:------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3139 |1151                                  |187                                              |21         |12        |-                          |4510  |
+#'  |Total |3139 |1151                                  |187                                              |21         |12        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
@@ -265,10 +265,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |1 person |2 persons |3 persons |don't know |Total |
-#'  |:-----|:----|:--------|:---------|:---------|:----------|:-----|
-#'  |2006  |4368 |125      |14        |2         |1          |4510  |
-#'  |Total |4368 |125      |14        |2         |1          |4510  |
+#'  |year  |iap  |1 person |2 persons |3 persons |don't know |not available in this year |Total |
+#'  |:-----|:----|:--------|:---------|:---------|:----------|:--------------------------|:-----|
+#'  |2006  |4368 |125      |14        |2         |1          |-                          |4510  |
+#'  |Total |4368 |125      |14        |2         |1          |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
@@ -304,10 +304,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |favor |oppose |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:------|:----------|:---------|:-----|
-#'  |2006  |3139 |1222  |121    |15         |13        |4510  |
-#'  |Total |3139 |1222  |121    |15         |13        |4510  |
+#'  |year  |iap  |favor |oppose |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3139 |1222  |121    |15         |13        |-                          |4510  |
+#'  |Total |3139 |1222  |121    |15         |13        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gun Control
@@ -346,10 +346,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |spend much more |spend more |spend the same as now |spend less |spend much less |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:----------|:---------------------|:----------|:---------------|:----------|:---------|:-----|
-#'  |2006  |2992 |212             |511        |577                   |158        |38              |19         |3         |4510  |
-#'  |Total |2992 |212             |511        |577                   |158        |38              |19         |3         |4510  |
+#'  |year  |iap  |spend much more |spend more |spend the same as now |spend less |spend much less |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:----------|:---------------------|:----------|:---------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |212             |511        |577                   |158        |38              |19         |3         |-                          |4510  |
+#'  |Total |2992 |212             |511        |577                   |158        |38              |19         |3         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I
@@ -386,10 +386,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |should |should not be |don't know |no answer |Total |
-#'  |:-----|:----|:------|:-------------|:----------|:---------|:-----|
-#'  |2006  |2992 |1368   |131           |18         |1         |4510  |
-#'  |Total |2992 |1368   |131           |18         |1         |4510  |
+#'  |year  |iap  |should |should not be |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |1368   |131           |18         |1         |-                          |4510  |
+#'  |Total |2992 |1368   |131           |18         |1         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I

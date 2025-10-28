@@ -39,10 +39,10 @@ I'm going to show you a seven-point scale on which the political views that peop
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/179/vshow}{GSS Data Explorer page for \code{polviewy}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab havent thght abt it \tab extremely liberal \tab liberal \tab slightly liberal \tab moderate \tab slghtly conservative \tab conservative \tab extrmly conservative \tab don't know \tab no answer \tab Total \cr
-   1978 \tab 761 \tab 124 \tab 12 \tab 66 \tab 109 \tab 239 \tab 116 \tab 74 \tab 11 \tab 17 \tab 3 \tab 1532 \cr
-   Total \tab 761 \tab 124 \tab 12 \tab 66 \tab 109 \tab 239 \tab 116 \tab 74 \tab 11 \tab 17 \tab 3 \tab 1532 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab havent thght abt it \tab extremely liberal \tab liberal \tab slightly liberal \tab moderate \tab slghtly conservative \tab conservative \tab extrmly conservative \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1978 \tab 761 \tab 124 \tab 12 \tab 66 \tab 109 \tab 239 \tab 116 \tab 74 \tab 11 \tab 17 \tab 3 \tab - \tab 1532 \cr
+   Total \tab 761 \tab 124 \tab 12 \tab 66 \tab 109 \tab 239 \tab 116 \tab 74 \tab 11 \tab 17 \tab 3 \tab 0 \tab 1532 \cr
 }
 }
 

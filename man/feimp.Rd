@@ -35,11 +35,11 @@ Question A. How important is the women''s rights issue to you--would you say it 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/593/vshow}{GSS Data Explorer page for \code{feimp}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not imp at all \tab don't know \tab no answer \tab Total \cr
-   1983 \tab 795 \tab 77 \tab 389 \tab 231 \tab 93 \tab 9 \tab 5 \tab 1599 \cr
-   1996 \tab 1444 \tab 164 \tab 760 \tab 366 \tab 144 \tab 24 \tab 2 \tab 2904 \cr
-   Total \tab 2239 \tab 241 \tab 1149 \tab 597 \tab 237 \tab 33 \tab 7 \tab 4503 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not imp at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab 795 \tab 77 \tab 389 \tab 231 \tab 93 \tab 9 \tab 5 \tab - \tab 1599 \cr
+   1996 \tab 1444 \tab 164 \tab 760 \tab 366 \tab 144 \tab 24 \tab 2 \tab - \tab 2904 \cr
+   Total \tab 2239 \tab 241 \tab 1149 \tab 597 \tab 237 \tab 33 \tab 7 \tab 0 \tab 4503 \cr
 }
 }
 

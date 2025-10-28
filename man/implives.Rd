@@ -35,10 +35,10 @@ B. How a person lives is more important than whether or not he or she is Catholi
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1159/vshow}{GSS Data Explorer page for \code{implives}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2135 \tab 238 \tab 326 \tab 62 \tab 10 \tab 22 \tab 24 \tab 2817 \cr
-   Total \tab 2135 \tab 238 \tab 326 \tab 62 \tab 10 \tab 22 \tab 24 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2135 \tab 238 \tab 326 \tab 62 \tab 10 \tab 22 \tab 24 \tab - \tab 2817 \cr
+   Total \tab 2135 \tab 238 \tab 326 \tab 62 \tab 10 \tab 22 \tab 24 \tab 0 \tab 2817 \cr
 }
 }
 

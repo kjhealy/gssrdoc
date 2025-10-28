@@ -30,10 +30,10 @@ Question f.  Other?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6356/vshow}{GSS Data Explorer page for \code{racethot}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1888 \tab 905 \tab 8 \tab 19 \tab 9 \tab 5 \tab 1 \tab 11 \tab 1 \tab 5 \tab 15 \tab 2867 \cr
-   Total \tab 1888 \tab 905 \tab 8 \tab 19 \tab 9 \tab 5 \tab 1 \tab 11 \tab 1 \tab 5 \tab 15 \tab 2867 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1888 \tab 905 \tab 8 \tab 19 \tab 9 \tab 5 \tab 1 \tab 11 \tab 1 \tab 5 \tab 15 \tab - \tab 2867 \cr
+   Total \tab 1888 \tab 905 \tab 8 \tab 19 \tab 9 \tab 5 \tab 1 \tab 11 \tab 1 \tab 5 \tab 15 \tab 0 \tab 2867 \cr
 }
 }
 

@@ -34,11 +34,11 @@ Question B. FOR THE RACIAL CLASSIFICATION YOU JUST ASSIGNED IN "A" INDICATE HOW 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5274/vshow}{GSS Data Explorer page for \code{racedbtf}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab no doubt \tab some doubt, pretty sure \tab a lot of doubt, pretty unsure \tab completely unsure \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 1334 \tab 58 \tab 1 \tab 10 \tab 57 \tab 2904 \cr
-   2000 \tab - \tab 2543 \tab 127 \tab 8 \tab 9 \tab 130 \tab 2817 \cr
-   Total \tab 1444 \tab 3877 \tab 185 \tab 9 \tab 19 \tab 187 \tab 5721 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab no doubt \tab some doubt, pretty sure \tab a lot of doubt, pretty unsure \tab completely unsure \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 1334 \tab 58 \tab 1 \tab 10 \tab 57 \tab - \tab 2904 \cr
+   2000 \tab - \tab 2543 \tab 127 \tab 8 \tab 9 \tab 130 \tab - \tab 2817 \cr
+   Total \tab 1444 \tab 3877 \tab 185 \tab 9 \tab 19 \tab 187 \tab 0 \tab 5721 \cr
 }
 }
 

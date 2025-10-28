@@ -35,10 +35,10 @@ H. Foreign business contacts
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5215/vshow}{GSS Data Explorer page for \code{askfrbiz}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 846 \tab 371 \tab 90 \tab 49 \tab 53 \tab 10 \tab 2817 \cr
-   Total \tab 1398 \tab 846 \tab 371 \tab 90 \tab 49 \tab 53 \tab 10 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 846 \tab 371 \tab 90 \tab 49 \tab 53 \tab 10 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 846 \tab 371 \tab 90 \tab 49 \tab 53 \tab 10 \tab 0 \tab 2817 \cr
 }
 }
 

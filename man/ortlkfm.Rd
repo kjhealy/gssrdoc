@@ -31,11 +31,11 @@ A. Talk things over with family and friends.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2021/vshow}{GSS Data Explorer page for \code{ortlkfm}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1527 \tab 701 \tab 1 \tab 186 \tab 123 \tab 102 \tab 62 \tab 41 \tab 14 \tab 9 \tab 4 \tab 2 \tab 132 \tab 2904 \cr
-   2006 \tab 3147 \tab 802 \tab 1 \tab 145 \tab 111 \tab 79 \tab 76 \tab 51 \tab 37 \tab 12 \tab 7 \tab - \tab 42 \tab 4510 \cr
-   Total \tab 4674 \tab 1503 \tab 2 \tab 331 \tab 234 \tab 181 \tab 138 \tab 92 \tab 51 \tab 21 \tab 11 \tab 2 \tab 174 \tab 7414 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1527 \tab 701 \tab 1 \tab 186 \tab 123 \tab 102 \tab 62 \tab 41 \tab 14 \tab 9 \tab 4 \tab 2 \tab 132 \tab - \tab 2904 \cr
+   2006 \tab 3147 \tab 802 \tab 1 \tab 145 \tab 111 \tab 79 \tab 76 \tab 51 \tab 37 \tab 12 \tab 7 \tab - \tab 42 \tab - \tab 4510 \cr
+   Total \tab 4674 \tab 1503 \tab 2 \tab 331 \tab 234 \tab 181 \tab 138 \tab 92 \tab 51 \tab 21 \tab 11 \tab 2 \tab 174 \tab 0 \tab 7414 \cr
 }
 }
 

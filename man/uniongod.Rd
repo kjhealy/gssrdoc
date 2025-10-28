@@ -37,10 +37,10 @@ D. I desire to be closer to or in union with God.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2111/vshow}{GSS Data Explorer page for \code{uniongod}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never/almst nevr \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 230 \tab 387 \tab 227 \tab 204 \tab 182 \tab 158 \tab 22 \tab 35 \tab 2832 \cr
-   Total \tab 1387 \tab 230 \tab 387 \tab 227 \tab 204 \tab 182 \tab 158 \tab 22 \tab 35 \tab 2832 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never/almst nevr \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 230 \tab 387 \tab 227 \tab 204 \tab 182 \tab 158 \tab 22 \tab 35 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 230 \tab 387 \tab 227 \tab 204 \tab 182 \tab 158 \tab 22 \tab 35 \tab 0 \tab 2832 \cr
 }
 }
 

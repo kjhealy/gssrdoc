@@ -33,10 +33,10 @@ I. Go hunting or fishing.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1413/vshow}{GSS Data Explorer page for \code{huntfish}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 560 \tab 1031 \tab 1 \tab 14 \tab 1606 \cr
-   Total \tab 0 \tab 560 \tab 1031 \tab 1 \tab 14 \tab 1606 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 560 \tab 1031 \tab 1 \tab 14 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 560 \tab 1031 \tab 1 \tab 14 \tab 0 \tab 1606 \cr
 }
 }
 

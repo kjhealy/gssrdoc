@@ -35,10 +35,10 @@ Question D. In total, did the total number of days add up to...
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2152/vshow}{GSS Data Explorer page for \code{formldys}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a month or less \tab 1-3 months \tab 3-6 months \tab 6 months-1 yr \tab over a year \tab no answer \tab Total \cr
-   1998 \tab 2377 \tab 163 \tab 74 \tab 58 \tab 47 \tab 74 \tab 39 \tab 2832 \cr
-   Total \tab 2377 \tab 163 \tab 74 \tab 58 \tab 47 \tab 74 \tab 39 \tab 2832 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a month or less \tab 1-3 months \tab 3-6 months \tab 6 months-1 yr \tab over a year \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2377 \tab 163 \tab 74 \tab 58 \tab 47 \tab 74 \tab 39 \tab - \tab 2832 \cr
+   Total \tab 2377 \tab 163 \tab 74 \tab 58 \tab 47 \tab 74 \tab 39 \tab 0 \tab 2832 \cr
 }
 }
 

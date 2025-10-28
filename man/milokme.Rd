@@ -34,10 +34,10 @@ Question A. For most young men, do you think military service is definitely a go
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/818/vshow}{GSS Data Explorer page for \code{milokme}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely good \tab probably good \tab prob not good \tab def not good \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 471 \tab 796 \tab 132 \tab 23 \tab 29 \tab 22 \tab 1473 \cr
-   Total \tab 0 \tab 471 \tab 796 \tab 132 \tab 23 \tab 29 \tab 22 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely good \tab probably good \tab prob not good \tab def not good \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 471 \tab 796 \tab 132 \tab 23 \tab 29 \tab 22 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 471 \tab 796 \tab 132 \tab 23 \tab 29 \tab 22 \tab 0 \tab 1473 \cr
 }
 }
 

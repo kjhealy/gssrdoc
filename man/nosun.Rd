@@ -34,11 +34,11 @@ B. The sun never shines at the South Pole. (Is that true or false?)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3433/vshow}{GSS Data Explorer page for \code{nosun}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab true \tab false \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 153 \tab 1217 \tab 493 \tab 1 \tab 4510 \cr
-   2010 \tab 1338 \tab 79 \tab 484 \tab 132 \tab 11 \tab 2044 \cr
-   Total \tab 3984 \tab 232 \tab 1701 \tab 625 \tab 12 \tab 6554 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab true \tab false \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 153 \tab 1217 \tab 493 \tab 1 \tab - \tab 4510 \cr
+   2010 \tab 1338 \tab 79 \tab 484 \tab 132 \tab 11 \tab - \tab 2044 \cr
+   Total \tab 3984 \tab 232 \tab 1701 \tab 625 \tab 12 \tab 0 \tab 6554 \cr
 }
 }
 

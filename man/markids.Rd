@@ -36,11 +36,11 @@ D. The main purpose of marriage these days is to have children.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4367/vshow}{GSS Data Explorer page for \code{markids}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 36 \tab 127 \tab 230 \tab 727 \tab 238 \tab 32 \tab 24 \tab 1481 \cr
-   1994 \tab 1545 \tab 22 \tab 160 \tab 246 \tab 766 \tab 209 \tab 22 \tab 22 \tab 2992 \cr
-   Total \tab 1612 \tab 58 \tab 287 \tab 476 \tab 1493 \tab 447 \tab 54 \tab 46 \tab 4473 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 36 \tab 127 \tab 230 \tab 727 \tab 238 \tab 32 \tab 24 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 22 \tab 160 \tab 246 \tab 766 \tab 209 \tab 22 \tab 22 \tab - \tab 2992 \cr
+   Total \tab 1612 \tab 58 \tab 287 \tab 476 \tab 1493 \tab 447 \tab 54 \tab 46 \tab 0 \tab 4473 \cr
 }
 }
 

@@ -33,10 +33,10 @@ A. What about people in Congress?  Should they have the same racial or ethnic ba
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1627/vshow}{GSS Data Explorer page for \code{congeth}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab consider ethnic background \tab ability, not background \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 131 \tab 1279 \tab 53 \tab 11 \tab 2992 \cr
-   Total \tab 1518 \tab 131 \tab 1279 \tab 53 \tab 11 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab consider ethnic background \tab ability, not background \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 131 \tab 1279 \tab 53 \tab 11 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 131 \tab 1279 \tab 53 \tab 11 \tab 0 \tab 2992 \cr
 }
 }
 

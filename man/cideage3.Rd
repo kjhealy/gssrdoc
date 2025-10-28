@@ -35,11 +35,11 @@ B. How old was that person?  Was (he/she) ... (READ LIST)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5003/vshow}{GSS Data Explorer page for \code{cideage3}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab 10 years or under \tab 11-20 \tab 21-40 \tab 41 year or older \tab no answer \tab Total \cr
-   1989 \tab 1512 \tab 1 \tab 6 \tab 14 \tab 1 \tab 3 \tab 1537 \cr
-   1990 \tab 1352 \tab - \tab 3 \tab 9 \tab 6 \tab 2 \tab 1372 \cr
-   Total \tab 2864 \tab 1 \tab 9 \tab 23 \tab 7 \tab 5 \tab 2909 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 10 years or under \tab 11-20 \tab 21-40 \tab 41 year or older \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 1512 \tab 1 \tab 6 \tab 14 \tab 1 \tab 3 \tab - \tab 1537 \cr
+   1990 \tab 1352 \tab - \tab 3 \tab 9 \tab 6 \tab 2 \tab - \tab 1372 \cr
+   Total \tab 2864 \tab 1 \tab 9 \tab 23 \tab 7 \tab 5 \tab 0 \tab 2909 \cr
 }
 }
 

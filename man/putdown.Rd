@@ -34,11 +34,11 @@ Question D. People at work treat me in a manner that puts me down or address me 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3001/vshow}{GSS Data Explorer page for \code{putdown}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 945 \tab 53 \tab 228 \tab 410 \tab 1114 \tab 21 \tab 41 \tab 2812 \cr
-   2012 \tab 795 \tab 38 \tab 134 \tab 315 \tab 645 \tab 14 \tab 33 \tab 1974 \cr
-   Total \tab 1740 \tab 91 \tab 362 \tab 725 \tab 1759 \tab 35 \tab 74 \tab 4786 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 945 \tab 53 \tab 228 \tab 410 \tab 1114 \tab 21 \tab 41 \tab - \tab 2812 \cr
+   2012 \tab 795 \tab 38 \tab 134 \tab 315 \tab 645 \tab 14 \tab 33 \tab - \tab 1974 \cr
+   Total \tab 1740 \tab 91 \tab 362 \tab 725 \tab 1759 \tab 35 \tab 74 \tab 0 \tab 4786 \cr
 }
 }
 

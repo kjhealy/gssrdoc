@@ -33,10 +33,10 @@ C. Given money in addition to regular dues
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1017/vshow}{GSS Data Explorer page for \code{givegrp}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1987 \tab 606 \tab 767 \tab 410 \tab 1 \tab 35 \tab 1819 \cr
-   Total \tab 606 \tab 767 \tab 410 \tab 1 \tab 35 \tab 1819 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 606 \tab 767 \tab 410 \tab 1 \tab 35 \tab - \tab 1819 \cr
+   Total \tab 606 \tab 767 \tab 410 \tab 1 \tab 35 \tab 0 \tab 1819 \cr
 }
 }
 

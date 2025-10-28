@@ -34,13 +34,13 @@ Question Suppose a test shows the baby has a serious genetic defect. Would you (
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5089/vshow}{GSS Data Explorer page for \code{geneabrt}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab have abortion \tab no abortion \tab refused \tab don't know \tab no answer \tab Total \cr
-   1990 \tab 455 \tab 377 \tab 347 \tab 20 \tab 165 \tab 8 \tab 1372 \cr
-   1996 \tab 1936 \tab 404 \tab 434 \tab - \tab 49 \tab 81 \tab 2904 \cr
-   2004 \tab 2 \tab 808 \tab 1643 \tab - \tab 312 \tab 47 \tab 2812 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   Total \tab 4741 \tab 1589 \tab 2424 \tab 20 \tab 526 \tab 136 \tab 9436 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab have abortion \tab no abortion \tab refused \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 455 \tab 377 \tab 347 \tab 20 \tab 165 \tab 8 \tab - \tab 1372 \cr
+   1996 \tab 1936 \tab 404 \tab 434 \tab - \tab 49 \tab 81 \tab - \tab 2904 \cr
+   2004 \tab 2 \tab 808 \tab 1643 \tab - \tab 312 \tab 47 \tab - \tab 2812 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 4741 \tab 1589 \tab 2424 \tab 20 \tab 526 \tab 136 \tab 0 \tab 9436 \cr
 }
 }
 

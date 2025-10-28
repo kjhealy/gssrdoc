@@ -39,12 +39,12 @@ D. And which one of these three is least important of all?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/494/vshow}{GSS Data Explorer page for \code{amicably}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab 1 most desirable \tab 3 most desirable \tab not mentioned \tab 3 least desirable \tab 1 least desirable \tab no answer \tab Total \cr
-   1980 \tab 976 \tab 7 \tab 52 \tab 356 \tab 63 \tab 9 \tab 5 \tab 1468 \cr
-   1984 \tab - \tab 39 \tab 151 \tab 1020 \tab 194 \tab 34 \tab 35 \tab 1473 \cr
-   1986 \tab 740 \tab 2 \tab 77 \tab 522 \tab 88 \tab 27 \tab 14 \tab 1470 \cr
-   Total \tab 1716 \tab 48 \tab 280 \tab 1898 \tab 345 \tab 70 \tab 54 \tab 4411 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 1 most desirable \tab 3 most desirable \tab not mentioned \tab 3 least desirable \tab 1 least desirable \tab no answer \tab not available in this year \tab Total \cr
+   1980 \tab 976 \tab 7 \tab 52 \tab 356 \tab 63 \tab 9 \tab 5 \tab - \tab 1468 \cr
+   1984 \tab - \tab 39 \tab 151 \tab 1020 \tab 194 \tab 34 \tab 35 \tab - \tab 1473 \cr
+   1986 \tab 740 \tab 2 \tab 77 \tab 522 \tab 88 \tab 27 \tab 14 \tab - \tab 1470 \cr
+   Total \tab 1716 \tab 48 \tab 280 \tab 1898 \tab 345 \tab 70 \tab 54 \tab 0 \tab 4411 \cr
 }
 }
 

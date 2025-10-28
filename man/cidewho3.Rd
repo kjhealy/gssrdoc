@@ -40,11 +40,11 @@ Question Think about the person you knew next best who was a victim of homicide.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5001/vshow}{GSS Data Explorer page for \code{cidewho3}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab other relative \tab friend \tab co-worker \tab acquaintance \tab patient \tab no answer \tab neighbor \tab Total \cr
-   1989 \tab 1512 \tab 1 \tab 9 \tab 1 \tab 10 \tab 1 \tab 3 \tab - \tab 1537 \cr
-   1990 \tab 1352 \tab 2 \tab 6 \tab 2 \tab 6 \tab - \tab 2 \tab 2 \tab 1372 \cr
-   Total \tab 2864 \tab 3 \tab 15 \tab 3 \tab 16 \tab 1 \tab 5 \tab 2 \tab 2909 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab other relative \tab friend \tab co-worker \tab acquaintance \tab patient \tab no answer \tab neighbor \tab not available in this year \tab Total \cr
+   1989 \tab 1512 \tab 1 \tab 9 \tab 1 \tab 10 \tab 1 \tab 3 \tab - \tab - \tab 1537 \cr
+   1990 \tab 1352 \tab 2 \tab 6 \tab 2 \tab 6 \tab - \tab 2 \tab 2 \tab - \tab 1372 \cr
+   Total \tab 2864 \tab 3 \tab 15 \tab 3 \tab 16 \tab 1 \tab 5 \tab 2 \tab 0 \tab 2909 \cr
 }
 }
 

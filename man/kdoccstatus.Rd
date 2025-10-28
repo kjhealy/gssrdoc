@@ -38,10 +38,10 @@ Question KDOCC10 Coding Status
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6012/vshow}{GSS Data Explorer page for \code{kdoccstatus}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab found, iap \tab found, no answer \tab found, coded \tab not found, iap \tab not found, coded \tab not found, no code assigned \tab Total \cr
-   1994 \tab - \tab 2338 \tab 39 \tab 561 \tab 48 \tab 3 \tab 3 \tab 2992 \cr
-   Total \tab 0 \tab 2338 \tab 39 \tab 561 \tab 48 \tab 3 \tab 3 \tab 2992 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab found, iap \tab found, no answer \tab found, coded \tab not found, iap \tab not found, coded \tab not found, no code assigned \tab not available in this year \tab Total \cr
+   1994 \tab - \tab 2338 \tab 39 \tab 561 \tab 48 \tab 3 \tab 3 \tab - \tab 2992 \cr
+   Total \tab 0 \tab 2338 \tab 39 \tab 561 \tab 48 \tab 3 \tab 3 \tab 0 \tab 2992 \cr
 }
 }
 

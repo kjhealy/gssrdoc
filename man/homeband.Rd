@@ -38,10 +38,10 @@ Question Is your home connected to the World Wide Web by a telephone line, a DSL
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2656/vshow}{GSS Data Explorer page for \code{homeband}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab telephone line \tab dsl \tab cable \tab satellite \tab wireless \tab cellphone \tab other \tab not at all \tab don't know \tab Total \cr
-   2004 \tab 992 \tab 785 \tab 385 \tab 400 \tab 5 \tab 2 \tab 2 \tab 4 \tab 213 \tab 24 \tab 2812 \cr
-   Total \tab 992 \tab 785 \tab 385 \tab 400 \tab 5 \tab 2 \tab 2 \tab 4 \tab 213 \tab 24 \tab 2812 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab telephone line \tab dsl \tab cable \tab satellite \tab wireless \tab cellphone \tab other \tab not at all \tab don't know \tab not available in this year \tab Total \cr
+   2004 \tab 992 \tab 785 \tab 385 \tab 400 \tab 5 \tab 2 \tab 2 \tab 4 \tab 213 \tab 24 \tab - \tab 2812 \cr
+   Total \tab 992 \tab 785 \tab 385 \tab 400 \tab 5 \tab 2 \tab 2 \tab 4 \tab 213 \tab 24 \tab 0 \tab 2812 \cr
 }
 }
 

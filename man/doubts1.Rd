@@ -34,11 +34,11 @@ A. Evil in the world
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1095/vshow}{GSS Data Explorer page for \code{doubts1}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
-   1988 \tab - \tab 158 \tab 536 \tab 738 \tab 31 \tab 18 \tab 1481 \cr
-   1998 \tab 1387 \tab 171 \tab 476 \tab 750 \tab 37 \tab 11 \tab 2832 \cr
-   Total \tab 1387 \tab 329 \tab 1012 \tab 1488 \tab 68 \tab 29 \tab 4313 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 158 \tab 536 \tab 738 \tab 31 \tab 18 \tab - \tab 1481 \cr
+   1998 \tab 1387 \tab 171 \tab 476 \tab 750 \tab 37 \tab 11 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 329 \tab 1012 \tab 1488 \tab 68 \tab 29 \tab 0 \tab 4313 \cr
 }
 }
 

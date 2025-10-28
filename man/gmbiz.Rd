@@ -33,10 +33,10 @@ C. Business leaders
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3389/vshow}{GSS Data Explorer page for \code{gmbiz}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very well \tab 2 \tab 3 \tab 4 \tab not at all \tab don't know \tab Total \cr
-   2006 \tab 3574 \tab 37 \tab 71 \tab 225 \tab 285 \tab 266 \tab 52 \tab 4510 \cr
-   Total \tab 3574 \tab 37 \tab 71 \tab 225 \tab 285 \tab 266 \tab 52 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very well \tab 2 \tab 3 \tab 4 \tab not at all \tab don't know \tab not available in this year \tab Total \cr
+   2006 \tab 3574 \tab 37 \tab 71 \tab 225 \tab 285 \tab 266 \tab 52 \tab - \tab 4510 \cr
+   Total \tab 3574 \tab 37 \tab 71 \tab 225 \tab 285 \tab 266 \tab 52 \tab 0 \tab 4510 \cr
 }
 }
 

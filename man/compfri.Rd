@@ -33,11 +33,11 @@ Question D. Friend's house?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2582/vshow}{GSS Data Explorer page for \code{compfri}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2665 \tab 71 \tab 48 \tab 33 \tab 2817 \cr
-   2002 \tab 2537 \tab 150 \tab 75 \tab 3 \tab 2765 \cr
-   Total \tab 5202 \tab 221 \tab 123 \tab 36 \tab 5582 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2665 \tab 71 \tab 48 \tab 33 \tab - \tab 2817 \cr
+   2002 \tab 2537 \tab 150 \tab 75 \tab 3 \tab - \tab 2765 \cr
+   Total \tab 5202 \tab 221 \tab 123 \tab 36 \tab 0 \tab 5582 \cr
 }
 }
 

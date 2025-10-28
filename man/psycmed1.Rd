@@ -36,11 +36,11 @@ A. Psychiatric medicine is harmful to the body.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2168/vshow}{GSS Data Explorer page for \code{psycmed1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 72 \tab 253 \tab 329 \tab 431 \tab 127 \tab 174 \tab 1 \tab 2832 \cr
-   2006 \tab 3073 \tab 94 \tab 297 \tab 454 \tab 380 \tab 111 \tab 86 \tab 15 \tab 4510 \cr
-   Total \tab 4518 \tab 166 \tab 550 \tab 783 \tab 811 \tab 238 \tab 260 \tab 16 \tab 7342 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 72 \tab 253 \tab 329 \tab 431 \tab 127 \tab 174 \tab 1 \tab - \tab 2832 \cr
+   2006 \tab 3073 \tab 94 \tab 297 \tab 454 \tab 380 \tab 111 \tab 86 \tab 15 \tab - \tab 4510 \cr
+   Total \tab 4518 \tab 166 \tab 550 \tab 783 \tab 811 \tab 238 \tab 260 \tab 16 \tab 0 \tab 7342 \cr
 }
 }
 

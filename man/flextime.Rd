@@ -33,10 +33,10 @@ A. Allow workers more flexible working hours, to handle family responsibilities.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1676/vshow}{GSS Data Explorer page for \code{flextime}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes, should offer this option \tab no, should not offer this option \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 1274 \tab 142 \tab 41 \tab 3 \tab 2904 \cr
-   Total \tab 1444 \tab 1274 \tab 142 \tab 41 \tab 3 \tab 2904 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, should offer this option \tab no, should not offer this option \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 1274 \tab 142 \tab 41 \tab 3 \tab - \tab 2904 \cr
+   Total \tab 1444 \tab 1274 \tab 142 \tab 41 \tab 3 \tab 0 \tab 2904 \cr
 }
 }
 

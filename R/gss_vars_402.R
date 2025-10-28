@@ -26,10 +26,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0   |1  |2 - 5 |6 - 10 |more than 10 |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:-----|:------|:------------|:----------|:---------|:-----|
-#'  |2006  |3987 |110 |24 |91    |35     |91           |164        |8         |4510  |
-#'  |Total |3987 |110 |24 |91    |35     |91           |164        |8         |4510  |
+#'  |year  |iap  |0   |1  |2 - 5 |6 - 10 |more than 10 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:-----|:------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3987 |110 |24 |91    |35     |91           |164        |8         |-                          |4510  |
+#'  |Total |3987 |110 |24 |91    |35     |91           |164        |8         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -69,10 +69,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0   |1  |2 - 5 |6 - 10 |more than 10 |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:-----|:------|:------------|:----------|:---------|:-----|
-#'  |2006  |3987 |101 |16 |82    |46     |110          |160        |8         |4510  |
-#'  |Total |3987 |101 |16 |82    |46     |110          |160        |8         |4510  |
+#'  |year  |iap  |0   |1  |2 - 5 |6 - 10 |more than 10 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:-----|:------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3987 |101 |16 |82    |46     |110          |160        |8         |-                          |4510  |
+#'  |Total |3987 |101 |16 |82    |46     |110          |160        |8         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -112,10 +112,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0   |1  |2 - 5 |6 - 10 |more than 10 |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:-----|:------|:------------|:----------|:---------|:-----|
-#'  |2006  |3987 |211 |46 |92    |21     |36           |108        |9         |4510  |
-#'  |Total |3987 |211 |46 |92    |21     |36           |108        |9         |4510  |
+#'  |year  |iap  |0   |1  |2 - 5 |6 - 10 |more than 10 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:-----|:------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3987 |211 |46 |92    |21     |36           |108        |9         |-                          |4510  |
+#'  |Total |3987 |211 |46 |92    |21     |36           |108        |9         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -155,10 +155,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |almost all |most |about half |a few |none |don't know |no answer |Total |
-#'  |:-----|:----|:----------|:----|:----------|:-----|:----|:----------|:---------|:-----|
-#'  |2006  |3139 |71         |166  |498        |329   |75   |211        |21        |4510  |
-#'  |Total |3139 |71         |166  |498        |329   |75   |211        |21        |4510  |
+#'  |year  |iap  |almost all |most |about half |a few |none |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:----|:----------|:-----|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3139 |71         |166  |498        |329   |75   |211        |21        |-                          |4510  |
+#'  |Total |3139 |71         |166  |498        |329   |75   |211        |21        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -198,10 +198,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |almost all |most |about half |a few |none |don't know |no answer |Total |
-#'  |:-----|:----|:----------|:----|:----------|:-----|:----|:----------|:---------|:-----|
-#'  |2006  |3139 |106        |165  |555        |292   |29   |204        |20        |4510  |
-#'  |Total |3139 |106        |165  |555        |292   |29   |204        |20        |4510  |
+#'  |year  |iap  |almost all |most |about half |a few |none |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:----|:----------|:-----|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3139 |106        |165  |555        |292   |29   |204        |20        |-                          |4510  |
+#'  |Total |3139 |106        |165  |555        |292   |29   |204        |20        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -241,10 +241,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |almost all |most |about half |a few |none |don't know |no answer |Total |
-#'  |:-----|:----|:----------|:----|:----------|:-----|:----|:----------|:---------|:-----|
-#'  |2006  |3139 |90         |242  |429        |383   |36   |171        |20        |4510  |
-#'  |Total |3139 |90         |242  |429        |383   |36   |171        |20        |4510  |
+#'  |year  |iap  |almost all |most |about half |a few |none |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:----|:----------|:-----|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3139 |90         |242  |429        |383   |36   |171        |20        |-                          |4510  |
+#'  |Total |3139 |90         |242  |429        |383   |36   |171        |20        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -283,10 +283,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |almost all the same race as you |mostly the same race as you |about evenly divided |mostly a different race than you |almost all a different race than you |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------------|:---------------------------|:--------------------|:--------------------------------|:------------------------------------|:----------|:---------|:-----|
-#'  |2006  |3139 |447                             |530                         |270                  |57                               |18                                   |29         |20        |4510  |
-#'  |Total |3139 |447                             |530                         |270                  |57                               |18                                   |29         |20        |4510  |
+#'  |year  |iap  |almost all the same race as you |mostly the same race as you |about evenly divided |mostly a different race than you |almost all a different race than you |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------------|:---------------------------|:--------------------|:--------------------------------|:------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3139 |447                             |530                         |270                  |57                               |18                                   |29         |20        |-                          |4510  |
+#'  |Total |3139 |447                             |530                         |270                  |57                               |18                                   |29         |20        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -326,10 +326,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0   |1   |2 - 5 |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:-----|:----------|:---------|:-----|
-#'  |2006  |3821 |439 |162 |53    |20         |15        |4510  |
-#'  |Total |3821 |439 |162 |53    |20         |15        |4510  |
+#'  |year  |iap  |0   |1   |2 - 5 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3821 |439 |162 |53    |20         |15        |-                          |4510  |
+#'  |Total |3821 |439 |162 |53    |20         |15        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -369,10 +369,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0   |1   |2 - 5 |6 - 10 |more than 10 |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:-----|:------|:------------|:----------|:---------|:-----|
-#'  |2006  |3821 |384 |193 |72    |4      |1            |20         |15        |4510  |
-#'  |Total |3821 |384 |193 |72    |4      |1            |20         |15        |4510  |
+#'  |year  |iap  |0   |1   |2 - 5 |6 - 10 |more than 10 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:-----|:------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3821 |384 |193 |72    |4      |1            |20         |15        |-                          |4510  |
+#'  |Total |3821 |384 |193 |72    |4      |1            |20         |15        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known
@@ -412,10 +412,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0   |1   |2 - 5 |more than 10 |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:-----|:------------|:----------|:---------|:-----|
-#'  |2006  |3821 |468 |148 |41    |1            |16         |15        |4510  |
-#'  |Total |3821 |468 |148 |41    |1            |16         |15        |4510  |
+#'  |year  |iap  |0   |1   |2 - 5 |more than 10 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:-----|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3821 |468 |148 |41    |1            |16         |15        |-                          |4510  |
+#'  |Total |3821 |468 |148 |41    |1            |16         |15        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Number Known

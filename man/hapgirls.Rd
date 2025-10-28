@@ -33,10 +33,10 @@ Question Think about girls growing up today: Do you think their chances for a ha
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1654/vshow}{GSS Data Explorer page for \code{hapgirls}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab better \tab about the same \tab worse \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 284 \tab 624 \tab 515 \tab 34 \tab 3 \tab 2904 \cr
-   Total \tab 1444 \tab 284 \tab 624 \tab 515 \tab 34 \tab 3 \tab 2904 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab better \tab about the same \tab worse \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 284 \tab 624 \tab 515 \tab 34 \tab 3 \tab - \tab 2904 \cr
+   Total \tab 1444 \tab 284 \tab 624 \tab 515 \tab 34 \tab 3 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Did you receive any of these performance-based payments in the year 200
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3553/vshow}{GSS Data Explorer page for \code{extr2005}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2006 \tab 3849 \tab 485 \tab 157 \tab 19 \tab 4510 \cr
-   Total \tab 3849 \tab 485 \tab 157 \tab 19 \tab 4510 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3849 \tab 485 \tab 157 \tab 19 \tab - \tab 4510 \cr
+   Total \tab 3849 \tab 485 \tab 157 \tab 19 \tab 0 \tab 4510 \cr
 }
 }
 

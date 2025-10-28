@@ -32,10 +32,10 @@ Question Were any of these adults close friends or family members of yours at th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3967/vshow}{GSS Data Explorer page for \code{clsclsex}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   2008 \tab 1861 \tab 74 \tab 88 \tab 2023 \cr
-   Total \tab 1861 \tab 74 \tab 88 \tab 2023 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab not available in this year \tab Total \cr
+   2008 \tab 1861 \tab 74 \tab 88 \tab - \tab 2023 \cr
+   Total \tab 1861 \tab 74 \tab 88 \tab 0 \tab 2023 \cr
 }
 }
 

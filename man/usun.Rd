@@ -33,23 +33,23 @@ Question Do you think our government should continue to belong to the United Nat
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5487/vshow}{GSS Data Explorer page for \code{usun}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab stay in \tab pull out \tab don't know \tab no answer \tab Total \cr
-   1973 \tab - \tab 1188 \tab 224 \tab 84 \tab 8 \tab 1504 \cr
-   1975 \tab - \tab 1120 \tab 270 \tab 98 \tab 2 \tab 1490 \cr
-   1976 \tab - \tab 1088 \tab 286 \tab 123 \tab 2 \tab 1499 \cr
-   1978 \tab - \tab 1216 \tab 197 \tab 116 \tab 3 \tab 1532 \cr
-   1982 \tab - \tab 1408 \tab 317 \tab 131 \tab 4 \tab 1860 \cr
-   1983 \tab - \tab 1278 \tab 220 \tab 98 \tab 3 \tab 1599 \cr
-   1985 \tab - \tab 1201 \tab 260 \tab 68 \tab 5 \tab 1534 \cr
-   1986 \tab - \tab 1124 \tab 239 \tab 84 \tab 23 \tab 1470 \cr
-   1988 \tab 493 \tab 771 \tab 155 \tab 60 \tab 2 \tab 1481 \cr
-   1989 \tab 531 \tab 829 \tab 121 \tab 56 \tab - \tab 1537 \cr
-   1990 \tab 444 \tab 772 \tab 100 \tab 54 \tab 2 \tab 1372 \cr
-   1991 \tab 493 \tab 897 \tab 95 \tab 31 \tab 1 \tab 1517 \cr
-   1993 \tab 526 \tab 920 \tab 106 \tab 53 \tab 1 \tab 1606 \cr
-   1994 \tab 2485 \tab 415 \tab 65 \tab 25 \tab 2 \tab 2992 \cr
-   Total \tab 4972 \tab 14227 \tab 2655 \tab 1081 \tab 58 \tab 22993 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab stay in \tab pull out \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1973 \tab - \tab 1188 \tab 224 \tab 84 \tab 8 \tab - \tab 1504 \cr
+   1975 \tab - \tab 1120 \tab 270 \tab 98 \tab 2 \tab - \tab 1490 \cr
+   1976 \tab - \tab 1088 \tab 286 \tab 123 \tab 2 \tab - \tab 1499 \cr
+   1978 \tab - \tab 1216 \tab 197 \tab 116 \tab 3 \tab - \tab 1532 \cr
+   1982 \tab - \tab 1408 \tab 317 \tab 131 \tab 4 \tab - \tab 1860 \cr
+   1983 \tab - \tab 1278 \tab 220 \tab 98 \tab 3 \tab - \tab 1599 \cr
+   1985 \tab - \tab 1201 \tab 260 \tab 68 \tab 5 \tab - \tab 1534 \cr
+   1986 \tab - \tab 1124 \tab 239 \tab 84 \tab 23 \tab - \tab 1470 \cr
+   1988 \tab 493 \tab 771 \tab 155 \tab 60 \tab 2 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 829 \tab 121 \tab 56 \tab - \tab - \tab 1537 \cr
+   1990 \tab 444 \tab 772 \tab 100 \tab 54 \tab 2 \tab - \tab 1372 \cr
+   1991 \tab 493 \tab 897 \tab 95 \tab 31 \tab 1 \tab - \tab 1517 \cr
+   1993 \tab 526 \tab 920 \tab 106 \tab 53 \tab 1 \tab - \tab 1606 \cr
+   1994 \tab 2485 \tab 415 \tab 65 \tab 25 \tab 2 \tab - \tab 2992 \cr
+   Total \tab 4972 \tab 14227 \tab 2655 \tab 1081 \tab 58 \tab 0 \tab 22993 \cr
 }
 }
 

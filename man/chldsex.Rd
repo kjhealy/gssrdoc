@@ -33,10 +33,10 @@ Question A. When you rated the importance of various qualities for children, wer
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/518/vshow}{GSS Data Explorer page for \code{chldsex}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab mostly boys \tab mostly girls \tab both equally \tab don't know \tab no answer \tab Total \cr
-   1980 \tab - \tab 263 \tab 49 \tab 1138 \tab 12 \tab 6 \tab 1468 \cr
-   Total \tab 0 \tab 263 \tab 49 \tab 1138 \tab 12 \tab 6 \tab 1468 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab mostly boys \tab mostly girls \tab both equally \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1980 \tab - \tab 263 \tab 49 \tab 1138 \tab 12 \tab 6 \tab - \tab 1468 \cr
+   Total \tab 0 \tab 263 \tab 49 \tab 1138 \tab 12 \tab 6 \tab 0 \tab 1468 \cr
 }
 }
 

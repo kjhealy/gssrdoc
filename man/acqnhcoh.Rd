@@ -36,10 +36,10 @@ O. How many women that you are acquainted with in your neighborhood are you pret
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3631/vshow}{GSS Data Explorer page for \code{acqnhcoh}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 4002 \tab 259 \tab 52 \tab 66 \tab 2 \tab 10 \tab 113 \tab 6 \tab 4510 \cr
-   Total \tab 4002 \tab 259 \tab 52 \tab 66 \tab 2 \tab 10 \tab 113 \tab 6 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 4002 \tab 259 \tab 52 \tab 66 \tab 2 \tab 10 \tab 113 \tab 6 \tab - \tab 4510 \cr
+   Total \tab 4002 \tab 259 \tab 52 \tab 66 \tab 2 \tab 10 \tab 113 \tab 6 \tab 0 \tab 4510 \cr
 }
 }
 

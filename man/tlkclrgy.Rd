@@ -35,12 +35,13 @@ B. Talk to a minister, priest, rabbi or other religious leader
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2012/vshow}{GSS Data Explorer page for \code{tlkclrgy}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 1174 \tab 169 \tab 70 \tab 31 \tab 2904 \cr
-   2006 \tab 3073 \tab 1207 \tab 175 \tab 40 \tab 15 \tab 4510 \cr
-   2018 \tab 1175 \tab 970 \tab 144 \tab 29 \tab 30 \tab 2348 \cr
-   Total \tab 5708 \tab 3351 \tab 488 \tab 139 \tab 76 \tab 9762 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 1174 \tab 169 \tab 70 \tab 31 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 1207 \tab 175 \tab 40 \tab 15 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 970 \tab 144 \tab 29 \tab 30 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1693 \tab 1257 \tab 280 \tab 40 \tab 12 \tab - \tab 27 \tab 3309 \cr
+   Total \tab 7401 \tab 4608 \tab 768 \tab 179 \tab 88 \tab 0 \tab 27 \tab 13071 \cr
 }
 }
 

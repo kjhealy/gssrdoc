@@ -35,10 +35,10 @@ G. Other (SPECIFY).
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1298/vshow}{GSS Data Explorer page for \code{thisjob7}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab relative \tab friend \tab personnel \tab other \tab no answer \tab Total \cr
-   1991 \tab 1243 \tab 5 \tab 191 \tab 1 \tab 24 \tab 53 \tab 1517 \cr
-   Total \tab 1243 \tab 5 \tab 191 \tab 1 \tab 24 \tab 53 \tab 1517 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab relative \tab friend \tab personnel \tab other \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 1243 \tab 5 \tab 191 \tab 1 \tab 24 \tab 53 \tab - \tab 1517 \cr
+   Total \tab 1243 \tab 5 \tab 191 \tab 1 \tab 24 \tab 53 \tab 0 \tab 1517 \cr
 }
 }
 

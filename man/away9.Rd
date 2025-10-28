@@ -45,7 +45,7 @@ Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at col
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5384/vshow}{GSS Data Explorer page for \code{away9}}.
 
 Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no answer \tab not available in this release \tab Total \cr
+   year \tab iap \tab yes \tab no answer \tab not available in this year \tab Total \cr
    1975 \tab 1489 \tab 1 \tab - \tab - \tab 1490 \cr
    1976 \tab 1499 \tab - \tab - \tab - \tab 1499 \cr
    1977 \tab 1530 \tab - \tab - \tab - \tab 1530 \cr
@@ -76,8 +76,8 @@ Counts by year:\tabular{llllll}{
    2016 \tab 2867 \tab - \tab - \tab - \tab 2867 \cr
    2018 \tab 2348 \tab - \tab - \tab - \tab 2348 \cr
    2021 \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
-   Total \tab 60205 \tab 6 \tab 2 \tab 7576 \tab 67789 \cr
+   2022 \tab 3543 \tab 1 \tab - \tab - \tab 3544 \cr
+   Total \tab 63748 \tab 7 \tab 2 \tab 4032 \tab 67789 \cr
 }
 }
 

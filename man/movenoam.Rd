@@ -36,10 +36,10 @@ E. Move outside North America
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4825/vshow}{GSS Data Explorer page for \code{movenoam}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very willing \tab fairly willing \tab neither willing nor unwilling \tab fairly unwilling \tab very unwilling \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 78 \tab 116 \tab 140 \tab 176 \tab 767 \tab 64 \tab 26 \tab 2904 \cr
-   Total \tab 1537 \tab 78 \tab 116 \tab 140 \tab 176 \tab 767 \tab 64 \tab 26 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very willing \tab fairly willing \tab neither willing nor unwilling \tab fairly unwilling \tab very unwilling \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1537 \tab 78 \tab 116 \tab 140 \tab 176 \tab 767 \tab 64 \tab 26 \tab - \tab 2904 \cr
+   Total \tab 1537 \tab 78 \tab 116 \tab 140 \tab 176 \tab 767 \tab 64 \tab 26 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -34,10 +34,10 @@ Question J. Engineers earn less than other people with equally demanding jobs. D
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3535/vshow}{GSS Data Explorer page for \code{engearn}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1489 \tab 5 \tab 33 \tab 333 \tab 39 \tab 70 \tab 5 \tab 1974 \cr
-   Total \tab 1489 \tab 5 \tab 33 \tab 333 \tab 39 \tab 70 \tab 5 \tab 1974 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1489 \tab 5 \tab 33 \tab 333 \tab 39 \tab 70 \tab 5 \tab - \tab 1974 \cr
+   Total \tab 1489 \tab 5 \tab 33 \tab 333 \tab 39 \tab 70 \tab 5 \tab 0 \tab 1974 \cr
 }
 }
 

@@ -38,13 +38,13 @@ H. My job is useful to society
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4548/vshow}{GSS Data Explorer page for \code{rhlpsoc}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 219 \tab 371 \tab 207 \tab 56 \tab 9 \tab 11 \tab 25 \tab 1537 \cr
-   1998 \tab 1967 \tab 232 \tab 348 \tab 164 \tab 62 \tab 14 \tab 10 \tab 35 \tab 2832 \cr
-   2006 \tab 3492 \tab 386 \tab 439 \tab 118 \tab 57 \tab 13 \tab 3 \tab 2 \tab 4510 \cr
-   2016 \tab 1927 \tab 382 \tab 366 \tab 124 \tab 47 \tab 12 \tab 2 \tab 7 \tab 2867 \cr
-   Total \tab 8025 \tab 1219 \tab 1524 \tab 613 \tab 222 \tab 48 \tab 26 \tab 69 \tab 11746 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 219 \tab 371 \tab 207 \tab 56 \tab 9 \tab 11 \tab 25 \tab - \tab 1537 \cr
+   1998 \tab 1967 \tab 232 \tab 348 \tab 164 \tab 62 \tab 14 \tab 10 \tab 35 \tab - \tab 2832 \cr
+   2006 \tab 3492 \tab 386 \tab 439 \tab 118 \tab 57 \tab 13 \tab 3 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 382 \tab 366 \tab 124 \tab 47 \tab 12 \tab 2 \tab 7 \tab - \tab 2867 \cr
+   Total \tab 8025 \tab 1219 \tab 1524 \tab 613 \tab 222 \tab 48 \tab 26 \tab 69 \tab 0 \tab 11746 \cr
 }
 }
 

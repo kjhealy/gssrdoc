@@ -38,10 +38,10 @@ C. Cares for sick family members.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4420/vshow}{GSS Data Explorer page for \code{caresick}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab always the woman \tab usually the woman \tab about equal or both together \tab usually the man \tab always the man \tab is done by a third person \tab not married \tab can't choose \tab no answer \tab Total \cr
-   1994 \tab 1545 \tab 123 \tab 267 \tab 381 \tab 10 \tab 7 \tab 4 \tab 602 \tab 20 \tab 33 \tab 2992 \cr
-   Total \tab 1545 \tab 123 \tab 267 \tab 381 \tab 10 \tab 7 \tab 4 \tab 602 \tab 20 \tab 33 \tab 2992 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab always the woman \tab usually the woman \tab about equal or both together \tab usually the man \tab always the man \tab is done by a third person \tab not married \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1545 \tab 123 \tab 267 \tab 381 \tab 10 \tab 7 \tab 4 \tab 602 \tab 20 \tab 33 \tab - \tab 2992 \cr
+   Total \tab 1545 \tab 123 \tab 267 \tab 381 \tab 10 \tab 7 \tab 4 \tab 602 \tab 20 \tab 33 \tab 0 \tab 2992 \cr
 }
 }
 

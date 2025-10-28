@@ -26,12 +26,12 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |mentioned |not mentioned |no answer |Total |
-#'  |:-----|:----|:---------|:-------------|:---------|:-----|
-#'  |1985  |136  |146       |1249          |3         |1534  |
-#'  |1987  |98   |214       |1487          |20        |1819  |
-#'  |2004  |1696 |131       |934           |51        |2812  |
-#'  |Total |1930 |491       |3670          |74        |6165  |
+#'  |year  |iap  |mentioned |not mentioned |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:-------------|:---------|:--------------------------|:-----|
+#'  |1985  |136  |146       |1249          |3         |-                          |1534  |
+#'  |1987  |98   |214       |1487          |20        |-                          |1819  |
+#'  |2004  |1696 |131       |934           |51        |-                          |2812  |
+#'  |Total |1930 |491       |3670          |74        |0                          |6165  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -71,12 +71,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |mentioned |not mentioned |no answer |Total |
-#'  |:-----|:----|:---------|:-------------|:---------|:-----|
-#'  |1985  |364  |157       |1010          |3         |1534  |
-#'  |1987  |385  |241       |1168          |25        |1819  |
-#'  |2004  |1977 |137       |651           |47        |2812  |
-#'  |Total |2726 |535       |2829          |75        |6165  |
+#'  |year  |iap  |mentioned |not mentioned |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:-------------|:---------|:--------------------------|:-----|
+#'  |1985  |364  |157       |1010          |3         |-                          |1534  |
+#'  |1987  |385  |241       |1168          |25        |-                          |1819  |
+#'  |2004  |1977 |137       |651           |47        |-                          |2812  |
+#'  |Total |2726 |535       |2829          |75        |0                          |6165  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -116,12 +116,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |mentioned |not mentioned |no answer |don't know |Total |
-#'  |:-----|:----|:---------|:-------------|:---------|:----------|:-----|
-#'  |1985  |599  |105       |826           |4         |-          |1534  |
-#'  |1987  |735  |143       |916           |25        |-          |1819  |
-#'  |2004  |2240 |66        |458           |47        |1          |2812  |
-#'  |Total |3574 |314       |2200          |76        |1          |6165  |
+#'  |year  |iap  |mentioned |not mentioned |no answer |don't know |not available in this year |Total |
+#'  |:-----|:----|:---------|:-------------|:---------|:----------|:--------------------------|:-----|
+#'  |1985  |599  |105       |826           |4         |-          |-                          |1534  |
+#'  |1987  |735  |143       |916           |25        |-          |-                          |1819  |
+#'  |2004  |2240 |66        |458           |47        |1          |-                          |2812  |
+#'  |Total |3574 |314       |2200          |76        |1          |0                          |6165  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -161,11 +161,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |mentioned |not mentioned |no answer |Total |
-#'  |:-----|:----|:---------|:-------------|:---------|:-----|
-#'  |1985  |920  |69        |542           |3         |1534  |
-#'  |2004  |2472 |28        |266           |46        |2812  |
-#'  |Total |3392 |97        |808           |49        |4346  |
+#'  |year  |iap  |mentioned |not mentioned |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:-------------|:---------|:--------------------------|:-----|
+#'  |1985  |920  |69        |542           |3         |-                          |1534  |
+#'  |2004  |2472 |28        |266           |46        |-                          |2812  |
+#'  |Total |3392 |97        |808           |49        |0                          |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -205,11 +205,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |mentioned |not mentioned |no answer |Total |
-#'  |:-----|:----|:---------|:-------------|:---------|:-----|
-#'  |1985  |1153 |38        |340           |3         |1534  |
-#'  |2004  |2600 |11        |155           |46        |2812  |
-#'  |Total |3753 |49        |495           |49        |4346  |
+#'  |year  |iap  |mentioned |not mentioned |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:-------------|:---------|:--------------------------|:-----|
+#'  |1985  |1153 |38        |340           |3         |-                          |1534  |
+#'  |2004  |2600 |11        |155           |46        |-                          |2812  |
+#'  |Total |3753 |49        |495           |49        |0                          |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -249,12 +249,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |mentioned |not mentioned |no answer |Total |
-#'  |:-----|:----|:---------|:-------------|:---------|:-----|
-#'  |1985  |136  |98        |1297          |3         |1534  |
-#'  |1987  |98   |114       |1587          |20        |1819  |
-#'  |2004  |1696 |70        |995           |51        |2812  |
-#'  |Total |1930 |282       |3879          |74        |6165  |
+#'  |year  |iap  |mentioned |not mentioned |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:-------------|:---------|:--------------------------|:-----|
+#'  |1985  |136  |98        |1297          |3         |-                          |1534  |
+#'  |1987  |98   |114       |1587          |20        |-                          |1819  |
+#'  |2004  |1696 |70        |995           |51        |-                          |2812  |
+#'  |Total |1930 |282       |3879          |74        |0                          |6165  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -295,12 +295,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |mentioned |not mentioned |no answer |Total |
-#'  |:-----|:----|:---------|:-------------|:---------|:-----|
-#'  |1985  |364  |113       |1054          |3         |1534  |
-#'  |1987  |385  |121       |1288          |25        |1819  |
-#'  |2004  |1977 |76        |712           |47        |2812  |
-#'  |Total |2726 |310       |3054          |75        |6165  |
+#'  |year  |iap  |mentioned |not mentioned |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:-------------|:---------|:--------------------------|:-----|
+#'  |1985  |364  |113       |1054          |3         |-                          |1534  |
+#'  |1987  |385  |121       |1288          |25        |-                          |1819  |
+#'  |2004  |1977 |76        |712           |47        |-                          |2812  |
+#'  |Total |2726 |310       |3054          |75        |0                          |6165  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -341,12 +341,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |mentioned |not mentioned |no answer |don't know |Total |
-#'  |:-----|:----|:---------|:-------------|:---------|:----------|:-----|
-#'  |1985  |599  |99        |833           |3         |-          |1534  |
-#'  |1987  |735  |102       |957           |25        |-          |1819  |
-#'  |2004  |2240 |57        |467           |47        |1          |2812  |
-#'  |Total |3574 |258       |2257          |75        |1          |6165  |
+#'  |year  |iap  |mentioned |not mentioned |no answer |don't know |not available in this year |Total |
+#'  |:-----|:----|:---------|:-------------|:---------|:----------|:--------------------------|:-----|
+#'  |1985  |599  |99        |833           |3         |-          |-                          |1534  |
+#'  |1987  |735  |102       |957           |25        |-          |-                          |1819  |
+#'  |2004  |2240 |57        |467           |47        |1          |-                          |2812  |
+#'  |Total |3574 |258       |2257          |75        |1          |0                          |6165  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -387,11 +387,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |mentioned |not mentioned |no answer |Total |
-#'  |:-----|:----|:---------|:-------------|:---------|:-----|
-#'  |1985  |920  |71        |540           |3         |1534  |
-#'  |2004  |2472 |38        |256           |46        |2812  |
-#'  |Total |3392 |109       |796           |49        |4346  |
+#'  |year  |iap  |mentioned |not mentioned |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:-------------|:---------|:--------------------------|:-----|
+#'  |1985  |920  |71        |540           |3         |-                          |1534  |
+#'  |2004  |2472 |38        |256           |46        |-                          |2812  |
+#'  |Total |3392 |109       |796           |49        |0                          |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -432,11 +432,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |mentioned |not mentioned |no answer |Total |
-#'  |:-----|:----|:---------|:-------------|:---------|:-----|
-#'  |1985  |1153 |41        |337           |3         |1534  |
-#'  |2004  |2600 |19        |147           |46        |2812  |
-#'  |Total |3753 |60        |484           |49        |4346  |
+#'  |year  |iap  |mentioned |not mentioned |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:-------------|:---------|:--------------------------|:-----|
+#'  |1985  |1153 |41        |337           |3         |-                          |1534  |
+#'  |2004  |2600 |19        |147           |46        |-                          |2812  |
+#'  |Total |3753 |60        |484           |49        |0                          |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks

@@ -52,11 +52,11 @@ Question A. CODE WITHOUT ASKING FOR ALL RESPONDENTS EVEN IF UNCERTAIN.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5273/vshow}{GSS Data Explorer page for \code{racesee}}.
 
-Counts by year:\tabular{llllllllllllllllllllllllll}{
-   year \tab iap \tab white \tab black \tab other \tab no answer \tab hispanic \tab black and white \tab spanish \tab filipino \tab american indian \tab asian \tab yellow \tab mexican \tab brown \tab latino \tab middle eastern \tab puerto rican \tab indian \tab alaska native \tab pacific islander \tab cuban \tab japanese \tab oriental \tab trinidad \tab Total \cr
-   1996 \tab 1444 \tab 1185 \tab 203 \tab 66 \tab 6 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   2000 \tab - \tab 2238 \tab 432 \tab 13 \tab - \tab 36 \tab 3 \tab 8 \tab 8 \tab 13 \tab 42 \tab 1 \tab 5 \tab 1 \tab 2 \tab 1 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2817 \cr
-   Total \tab 1444 \tab 3423 \tab 635 \tab 79 \tab 6 \tab 36 \tab 3 \tab 8 \tab 8 \tab 13 \tab 42 \tab 1 \tab 5 \tab 1 \tab 2 \tab 1 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 5721 \cr
+Counts by year:\tabular{lllllllllllllllllllllllllll}{
+   year \tab iap \tab white \tab black \tab other \tab no answer \tab hispanic \tab black and white \tab spanish \tab filipino \tab american indian \tab asian \tab yellow \tab mexican \tab brown \tab latino \tab middle eastern \tab puerto rican \tab indian \tab alaska native \tab pacific islander \tab cuban \tab japanese \tab oriental \tab trinidad \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 1185 \tab 203 \tab 66 \tab 6 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
+   2000 \tab - \tab 2238 \tab 432 \tab 13 \tab - \tab 36 \tab 3 \tab 8 \tab 8 \tab 13 \tab 42 \tab 1 \tab 5 \tab 1 \tab 2 \tab 1 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab 2817 \cr
+   Total \tab 1444 \tab 3423 \tab 635 \tab 79 \tab 6 \tab 36 \tab 3 \tab 8 \tab 8 \tab 13 \tab 42 \tab 1 \tab 5 \tab 1 \tab 2 \tab 1 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 0 \tab 5721 \cr
 }
 }
 

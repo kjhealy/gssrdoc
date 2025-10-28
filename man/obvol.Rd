@@ -35,10 +35,10 @@ B. How about volunteering some time to community services?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/835/vshow}{GSS Data Explorer page for \code{obvol}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very important \tab somewhat important \tab not obligation \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 451 \tab 808 \tab 182 \tab 11 \tab 21 \tab 1473 \cr
-   Total \tab 0 \tab 451 \tab 808 \tab 182 \tab 11 \tab 21 \tab 1473 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab somewhat important \tab not obligation \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 451 \tab 808 \tab 182 \tab 11 \tab 21 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 451 \tab 808 \tab 182 \tab 11 \tab 21 \tab 0 \tab 1473 \cr
 }
 }
 

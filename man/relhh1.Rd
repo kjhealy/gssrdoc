@@ -55,7 +55,7 @@ A. Relationship of first person to head of household?
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5439/vshow}{GSS Data Explorer page for \code{relhh1}}.
 
 Counts by year:\tabular{lllll}{
-   year \tab iap \tab head of household \tab not available in this release \tab Total \cr
+   year \tab iap \tab head of household \tab not available in this year \tab Total \cr
    2000 \tab - \tab 2817 \tab - \tab 2817 \cr
    2002 \tab - \tab 2765 \tab - \tab 2765 \cr
    2004 \tab - \tab 2812 \tab - \tab 2812 \cr
@@ -66,8 +66,8 @@ Counts by year:\tabular{lllll}{
    2014 \tab - \tab 2538 \tab - \tab 2538 \cr
    2016 \tab - \tab 2867 \tab - \tab 2867 \cr
    2018 \tab - \tab 2348 \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab 4032 \tab 4032 \cr
-   Total \tab 0 \tab 26698 \tab 4032 \tab 30730 \cr
+   2021 \tab 211 \tab 3821 \tab - \tab 4032 \cr
+   Total \tab 211 \tab 30519 \tab 0 \tab 30730 \cr
 }
 }
 

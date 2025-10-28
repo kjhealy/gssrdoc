@@ -36,11 +36,11 @@ F. Read a book about the polar regions?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3429/vshow}{GSS Data Explorer page for \code{polaryr6}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 202 \tab 408 \tab 561 \tab 674 \tab 17 \tab 2 \tab 4510 \cr
-   2010 \tab 1338 \tab 64 \tab 179 \tab 201 \tab 252 \tab 2 \tab 8 \tab 2044 \cr
-   Total \tab 3984 \tab 266 \tab 587 \tab 762 \tab 926 \tab 19 \tab 10 \tab 6554 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 202 \tab 408 \tab 561 \tab 674 \tab 17 \tab 2 \tab - \tab 4510 \cr
+   2010 \tab 1338 \tab 64 \tab 179 \tab 201 \tab 252 \tab 2 \tab 8 \tab - \tab 2044 \cr
+   Total \tab 3984 \tab 266 \tab 587 \tab 762 \tab 926 \tab 19 \tab 10 \tab 0 \tab 6554 \cr
 }
 }
 

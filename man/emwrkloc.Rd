@@ -34,11 +34,11 @@ E. People at your workplace?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2599/vshow}{GSS Data Explorer page for \code{emwrkloc}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2423 \tab 152 \tab 182 \tab 60 \tab - \tab 2817 \cr
-   2002 \tab 2167 \tab 260 \tab 296 \tab 41 \tab 1 \tab 2765 \cr
-   Total \tab 4590 \tab 412 \tab 478 \tab 101 \tab 1 \tab 5582 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2423 \tab 152 \tab 182 \tab 60 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2167 \tab 260 \tab 296 \tab 41 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 4590 \tab 412 \tab 478 \tab 101 \tab 1 \tab 0 \tab 5582 \cr
 }
 }
 

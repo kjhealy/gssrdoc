@@ -36,10 +36,10 @@ M. I worry that I will be denied the treatment or services I need.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2212/vshow}{GSS Data Explorer page for \code{doc13}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab uncertain \tab disagree \tab strong disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 59 \tab 261 \tab 185 \tab 734 \tab 118 \tab 24 \tab 6 \tab 2832 \cr
-   Total \tab 1445 \tab 59 \tab 261 \tab 185 \tab 734 \tab 118 \tab 24 \tab 6 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab uncertain \tab disagree \tab strong disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 59 \tab 261 \tab 185 \tab 734 \tab 118 \tab 24 \tab 6 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 59 \tab 261 \tab 185 \tab 734 \tab 118 \tab 24 \tab 6 \tab 0 \tab 2832 \cr
 }
 }
 

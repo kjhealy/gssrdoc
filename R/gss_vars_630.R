@@ -1,45 +1,3 @@
-#'  Neighborhood affected by air pollution over the last 12 months
-#' 
-#'  airpollu
-#' 
-#' Question To what degree was your neighborhood affected by air polution over the last twelve months?
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` not at all
-#'   * `[2]` to a small extent
-#'   * `[3]` to some extent
-#'   * `[4]` to a great extent
-#'   * `[5]` to a very great extent
-#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A/B     |2021  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `airpollu`](https://gssdataexplorer.norc.org/variables/7501/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |not at all |to a small extent |to some extent |to a great extent |to a very great extent |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:----------|:-----------------|:--------------|:-----------------|:----------------------|:------------|:---------|:--------------|:-----|
-#'  |2021  |2003 |661        |563               |348            |96                |49                     |105          |200       |7              |4032  |
-#'  |Total |2003 |661        |563               |348            |96                |49                     |105          |200       |7              |4032  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name airpollu
-NULL
-
-
 #'  Neighborhood affected by water pollution over the last 12 months
 #' 
 #'  wtrpollu
@@ -67,10 +25,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |not at all |to a small extent |to some extent |to a great extent |to a very great extent |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:----------|:-----------------|:--------------|:-----------------|:----------------------|:------------|:---------|:--------------|:-----|
-#'  |2021  |2003 |854        |449               |285            |88                |23                     |110          |201       |19             |4032  |
-#'  |Total |2003 |854        |449               |285            |88                |23                     |110          |201       |19             |4032  |
+#'  |year  |iap  |not at all |to a small extent |to some extent |to a great extent |to a very great extent |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:----------|:-----------------|:--------------|:-----------------|:----------------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2021  |2003 |854        |449               |285            |88                |23                     |110          |201       |19             |-                          |4032  |
+#'  |Total |2003 |854        |449               |285            |88                |23                     |110          |201       |19             |0                          |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -109,10 +67,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |not at all |to a small extent |to some extent |to a great extent |to a very great extent |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:----------|:-----------------|:--------------|:-----------------|:----------------------|:------------|:---------|:--------------|:-----|
-#'  |2021  |2003 |301        |554               |591            |212               |98                     |64           |201       |8              |4032  |
-#'  |Total |2003 |301        |554               |591            |212               |98                     |64           |201       |8              |4032  |
+#'  |year  |iap  |not at all |to a small extent |to some extent |to a great extent |to a very great extent |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:----------|:-----------------|:--------------|:-----------------|:----------------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2021  |2003 |301        |554               |591            |212               |98                     |64           |201       |8              |-                          |4032  |
+#'  |Total |2003 |301        |554               |591            |212               |98                     |64           |201       |8              |0                          |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -151,10 +109,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------|:-----|
-#'  |2021  |2029 |20        |51             |96               |282                |1269                 |148          |120       |17             |4032  |
-#'  |Total |2029 |20        |51             |96               |282                |1269                 |148          |120       |17             |4032  |
+#'  |year  |iap  |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2021  |2029 |20        |51             |96               |282                |1269                 |148          |120       |17             |-                          |4032  |
+#'  |Total |2029 |20        |51             |96               |282                |1269                 |148          |120       |17             |0                          |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -193,10 +151,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
-#'  |2021  |2029 |384            |680   |425                        |224      |77                |61           |135       |17             |4032  |
-#'  |Total |2029 |384            |680   |425                        |224      |77                |61           |135       |17             |4032  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2021  |2029 |384            |680   |425                        |224      |77                |61           |135       |17             |-                          |4032  |
+#'  |Total |2029 |384            |680   |425                        |224      |77                |61           |135       |17             |0                          |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -236,10 +194,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |private companies |government |trade unions |high-income individuals themselves |low-income individuals themselves |income differences do not need to be reduced |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:-----------------|:----------|:------------|:----------------------------------|:---------------------------------|:--------------------------------------------|:------------|:---------|:--------------|:-----|
-#'  |2021  |2029 |515               |539        |87           |97                                 |122                               |175                                          |311          |143       |14             |4032  |
-#'  |Total |2029 |515               |539        |87           |97                                 |122                               |175                                          |311          |143       |14             |4032  |
+#'  |year  |iap  |private companies |government |trade unions |high-income individuals themselves |low-income individuals themselves |income differences do not need to be reduced |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:----------|:------------|:----------------------------------|:---------------------------------|:--------------------------------------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2021  |2029 |515               |539        |87           |97                                 |122                               |175                                          |311          |143       |14             |-                          |4032  |
+#'  |Total |2029 |515               |539        |87           |97                                 |122                               |175                                          |311          |143       |14             |0                          |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -278,10 +236,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
-#'  |2021  |2029 |593            |692   |338                        |103      |23                |94           |145       |15             |4032  |
-#'  |Total |2029 |593            |692   |338                        |103      |23                |94           |145       |15             |4032  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2021  |2029 |593            |692   |338                        |103      |23                |94           |145       |15             |-                          |4032  |
+#'  |Total |2029 |593            |692   |338                        |103      |23                |94           |145       |15             |0                          |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -320,10 +278,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:---------|:--------------|:-----|
-#'  |2021  |2029 |13              |46               |490                                 |648                |515               |135          |145       |11             |4032  |
-#'  |Total |2029 |13              |46               |490                                 |648                |515               |135          |145       |11             |4032  |
+#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2021  |2029 |13              |46               |490                                 |648                |515               |135          |145       |11             |-                          |4032  |
+#'  |Total |2029 |13              |46               |490                                 |648                |515               |135          |145       |11             |0                          |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -359,10 +317,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0 - not angry at all |1  |10 - extremely angry |2   |3   |4   |5   |6   |7   |8   |9  |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------------|:--|:--------------------|:---|:---|:---|:---|:---|:---|:---|:--|:------------|:---------|:--------------|:-----|
-#'  |2021  |2029 |266                  |76 |132                  |109 |124 |125 |356 |168 |229 |143 |50 |68           |147       |10             |4032  |
-#'  |Total |2029 |266                  |76 |132                  |109 |124 |125 |356 |168 |229 |143 |50 |68           |147       |10             |4032  |
+#'  |year  |iap  |0 - not angry at all |1  |10 - extremely angry |2   |3   |4   |5   |6   |7   |8   |9  |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:--------------------|:--|:--------------------|:---|:---|:---|:---|:---|:---|:---|:--|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2021  |2029 |266                  |76 |132                  |109 |124 |125 |356 |168 |229 |143 |50 |68           |147       |10             |-                          |4032  |
+#'  |Total |2029 |266                  |76 |132                  |109 |124 |125 |356 |168 |229 |143 |50 |68           |147       |10             |0                          |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -401,10 +359,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
-#'  |2021  |2029 |280            |770   |498                        |145      |49                |91           |156       |14             |4032  |
-#'  |Total |2029 |280            |770   |498                        |145      |49                |91           |156       |14             |4032  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2021  |2029 |280            |770   |498                        |145      |49                |91           |156       |14             |-                          |4032  |
+#'  |Total |2029 |280            |770   |498                        |145      |49                |91           |156       |14             |0                          |4032  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -413,6 +371,47 @@ NULL
 #' @keywords variable
 #' @md
 #' @name migrpoor
+NULL
+
+
+#'  Conflict between natives and immigrants
+#' 
+#'  conimm
+#' 
+#' Question People born in America and people from other countries who have come to live in America?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` very strong conflicts
+#'   * `[2]` strong conflicts
+#'   * `[3]` not very strong conflicts
+#'   * `[4]` there are no conflicts
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2021  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `conimm`](https://gssdataexplorer.norc.org/variables/7511/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |very strong conflicts |strong conflicts |not very strong conflicts |there are no conflicts |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:---------------------|:----------------|:-------------------------|:----------------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2021  |2029 |244                   |854              |558                       |44                     |126          |160       |17             |-                          |4032  |
+#'  |Total |2029 |244                   |854              |558                       |44                     |126          |160       |17             |0                          |4032  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name conimm
 NULL
 
 

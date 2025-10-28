@@ -36,10 +36,10 @@ E. The course of our lives is decided by God.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4661/vshow}{GSS Data Explorer page for \code{predeter}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 229 \tab 258 \tab 272 \tab 273 \tab 202 \tab 65 \tab 60 \tab 1517 \cr
-   Total \tab 158 \tab 229 \tab 258 \tab 272 \tab 273 \tab 202 \tab 65 \tab 60 \tab 1517 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 229 \tab 258 \tab 272 \tab 273 \tab 202 \tab 65 \tab 60 \tab - \tab 1517 \cr
+   Total \tab 158 \tab 229 \tab 258 \tab 272 \tab 273 \tab 202 \tab 65 \tab 60 \tab 0 \tab 1517 \cr
 }
 }
 

@@ -39,14 +39,14 @@ Question E. In 1984, you remember that Mondale ran for President on the Democrat
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/155/vshow}{GSS Data Explorer page for \code{pres84}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab mondale \tab reagan \tab other \tab refused \tab no pres. vote \tab don't know \tab no answer \tab Total \cr
-   1985 \tab 475 \tab 399 \tab 618 \tab 4 \tab 19 \tab 10 \tab 7 \tab 2 \tab 1534 \cr
-   1986 \tab 487 \tab 372 \tab 585 \tab 8 \tab 7 \tab 3 \tab 8 \tab - \tab 1470 \cr
-   1987 \tab 642 \tab 550 \tab 566 \tab 7 \tab 5 \tab - \tab 22 \tab 27 \tab 1819 \cr
-   1988 \tab 572 \tab 310 \tab 546 \tab 11 \tab 7 \tab 5 \tab 23 \tab 7 \tab 1481 \cr
-   1989 \tab 555 \tab 330 \tab 596 \tab 7 \tab - \tab 3 \tab 21 \tab 25 \tab 1537 \cr
-   Total \tab 2731 \tab 1961 \tab 2911 \tab 37 \tab 38 \tab 21 \tab 81 \tab 61 \tab 7841 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab mondale \tab reagan \tab other \tab refused \tab no pres. vote \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 475 \tab 399 \tab 618 \tab 4 \tab 19 \tab 10 \tab 7 \tab 2 \tab - \tab 1534 \cr
+   1986 \tab 487 \tab 372 \tab 585 \tab 8 \tab 7 \tab 3 \tab 8 \tab - \tab - \tab 1470 \cr
+   1987 \tab 642 \tab 550 \tab 566 \tab 7 \tab 5 \tab - \tab 22 \tab 27 \tab - \tab 1819 \cr
+   1988 \tab 572 \tab 310 \tab 546 \tab 11 \tab 7 \tab 5 \tab 23 \tab 7 \tab - \tab 1481 \cr
+   1989 \tab 555 \tab 330 \tab 596 \tab 7 \tab - \tab 3 \tab 21 \tab 25 \tab - \tab 1537 \cr
+   Total \tab 2731 \tab 1961 \tab 2911 \tab 37 \tab 38 \tab 21 \tab 81 \tab 61 \tab 0 \tab 7841 \cr
 }
 }
 

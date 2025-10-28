@@ -34,10 +34,10 @@ E. A house or condominium
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1861/vshow}{GSS Data Explorer page for \code{buyhome}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strong preference no contact \tab 2 \tab dont care \tab 4 \tab strong preference contact \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2196 \tab 91 \tab 29 \tab 260 \tab 111 \tab 206 \tab 9 \tab 2 \tab 2904 \cr
-   Total \tab 2196 \tab 91 \tab 29 \tab 260 \tab 111 \tab 206 \tab 9 \tab 2 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strong preference no contact \tab 2 \tab dont care \tab 4 \tab strong preference contact \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2196 \tab 91 \tab 29 \tab 260 \tab 111 \tab 206 \tab 9 \tab 2 \tab - \tab 2904 \cr
+   Total \tab 2196 \tab 91 \tab 29 \tab 260 \tab 111 \tab 206 \tab 9 \tab 2 \tab 0 \tab 2904 \cr
 }
 }
 

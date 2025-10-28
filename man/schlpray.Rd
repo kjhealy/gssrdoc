@@ -34,10 +34,10 @@ Question In your opinion, should there be daily prayers in all public schools?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4680/vshow}{GSS Data Explorer page for \code{schlpray}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably \tab no, definitely \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 466 \tab 300 \tab 201 \tab 236 \tab 135 \tab 21 \tab 1517 \cr
-   Total \tab 158 \tab 466 \tab 300 \tab 201 \tab 236 \tab 135 \tab 21 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably \tab no, definitely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 466 \tab 300 \tab 201 \tab 236 \tab 135 \tab 21 \tab - \tab 1517 \cr
+   Total \tab 158 \tab 466 \tab 300 \tab 201 \tab 236 \tab 135 \tab 21 \tab 0 \tab 1517 \cr
 }
 }
 

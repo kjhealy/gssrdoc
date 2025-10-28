@@ -35,10 +35,10 @@ D. A neighbor or friend?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4360/vshow}{GSS Data Explorer page for \code{daycare4}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very suitable \tab somewhat suitable \tab not very suitable \tab not at all suitable \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 367 \tab 607 \tab 220 \tab 84 \tab 81 \tab 55 \tab 1481 \cr
-   Total \tab 67 \tab 367 \tab 607 \tab 220 \tab 84 \tab 81 \tab 55 \tab 1481 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very suitable \tab somewhat suitable \tab not very suitable \tab not at all suitable \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 367 \tab 607 \tab 220 \tab 84 \tab 81 \tab 55 \tab - \tab 1481 \cr
+   Total \tab 67 \tab 367 \tab 607 \tab 220 \tab 84 \tab 81 \tab 55 \tab 0 \tab 1481 \cr
 }
 }
 

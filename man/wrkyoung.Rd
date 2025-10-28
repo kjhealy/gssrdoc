@@ -36,10 +36,10 @@ D. Working with young people
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1164/vshow}{GSS Data Explorer page for \code{wrkyoung}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1831 \tab 306 \tab 275 \tab 189 \tab 56 \tab 13 \tab 72 \tab 75 \tab 2817 \cr
-   Total \tab 1831 \tab 306 \tab 275 \tab 189 \tab 56 \tab 13 \tab 72 \tab 75 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1831 \tab 306 \tab 275 \tab 189 \tab 56 \tab 13 \tab 72 \tab 75 \tab - \tab 2817 \cr
+   Total \tab 1831 \tab 306 \tab 275 \tab 189 \tab 56 \tab 13 \tab 72 \tab 75 \tab 0 \tab 2817 \cr
 }
 }
 

@@ -55,7 +55,7 @@ I. Relationship of ninth person to head of household?
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5447/vshow}{GSS Data Explorer page for \code{relhh9}}.
 
 Counts by year:\tabular{llllllllllllllllll}{
-   year \tab iap \tab child, not specified \tab grandchild, great-grandchild \tab son-in-law, daughter-in-law \tab niece or nephew \tab cousin \tab natural/biological child \tab adopted child \tab stepchild \tab no answer \tab friend \tab child of non-relative \tab roommate, housemate \tab brother, sister (full, half, or step sibling) \tab other non-relative (employee, boarder) \tab not available in this release \tab Total \cr
+   year \tab iap \tab child, not specified \tab grandchild, great-grandchild \tab son-in-law, daughter-in-law \tab niece or nephew \tab cousin \tab natural/biological child \tab adopted child \tab stepchild \tab no answer \tab friend \tab child of non-relative \tab roommate, housemate \tab brother, sister (full, half, or step sibling) \tab other non-relative (employee, boarder) \tab not available in this year \tab Total \cr
    2000 \tab 2804 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
    2002 \tab 2761 \tab - \tab - \tab - \tab - \tab 1 \tab 2 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
    2004 \tab 2808 \tab - \tab 1 \tab - \tab - \tab - \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
@@ -66,8 +66,8 @@ Counts by year:\tabular{llllllllllllllllll}{
    2014 \tab 2531 \tab 4 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 2538 \cr
    2016 \tab 2858 \tab 4 \tab - \tab - \tab - \tab - \tab 4 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
    2018 \tab 2342 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   Total \tab 26636 \tab 15 \tab 9 \tab 3 \tab 6 \tab 2 \tab 14 \tab 3 \tab 1 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4032 \tab 30730 \cr
+   2021 \tab 4025 \tab - \tab 2 \tab - \tab - \tab - \tab 3 \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab 4032 \cr
+   Total \tab 30661 \tab 15 \tab 11 \tab 3 \tab 6 \tab 2 \tab 17 \tab 3 \tab 1 \tab 4 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 0 \tab 30730 \cr
 }
 }
 

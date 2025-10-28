@@ -35,10 +35,10 @@ Question B. Do you think that blacks get more attention from government than the
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1633/vshow}{GSS Data Explorer page for \code{blkgovt}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab much more \tab more \tab about right \tab less \tab much less \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 230 \tab 404 \tab 415 \tab 298 \tab 73 \tab 45 \tab 9 \tab 2992 \cr
-   Total \tab 1518 \tab 230 \tab 404 \tab 415 \tab 298 \tab 73 \tab 45 \tab 9 \tab 2992 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much more \tab more \tab about right \tab less \tab much less \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 230 \tab 404 \tab 415 \tab 298 \tab 73 \tab 45 \tab 9 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 230 \tab 404 \tab 415 \tab 298 \tab 73 \tab 45 \tab 9 \tab 0 \tab 2992 \cr
 }
 }
 

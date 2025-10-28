@@ -32,10 +32,10 @@ Question What is the sex of your (spouse/civil union partner/domestic partner)?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3912/vshow}{GSS Data Explorer page for \code{sexunion}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1946 \tab 25 \tab 19 \tab 1 \tab 32 \tab 2023 \cr
-   Total \tab 1946 \tab 25 \tab 19 \tab 1 \tab 32 \tab 2023 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1946 \tab 25 \tab 19 \tab 1 \tab 32 \tab - \tab 2023 \cr
+   Total \tab 1946 \tab 25 \tab 19 \tab 1 \tab 32 \tab 0 \tab 2023 \cr
 }
 }
 

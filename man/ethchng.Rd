@@ -35,10 +35,10 @@ Question When you think about these changes in the racial and ethnic make-up of 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2322/vshow}{GSS Data Explorer page for \code{ethchng}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very good thing \tab good thing \tab neither good nor bad \tab bad thing \tab very bad thing \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 42 \tab 301 \tab 730 \tab 195 \tab 52 \tab 61 \tab 17 \tab 2817 \cr
-   Total \tab 1419 \tab 42 \tab 301 \tab 730 \tab 195 \tab 52 \tab 61 \tab 17 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very good thing \tab good thing \tab neither good nor bad \tab bad thing \tab very bad thing \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 42 \tab 301 \tab 730 \tab 195 \tab 52 \tab 61 \tab 17 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 42 \tab 301 \tab 730 \tab 195 \tab 52 \tab 61 \tab 17 \tab 0 \tab 2817 \cr
 }
 }
 

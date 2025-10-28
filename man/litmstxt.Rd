@@ -33,10 +33,10 @@ Question A solution of hydrochloric acid (HCl) in water will turn blue litmus pa
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3475/vshow}{GSS Data Explorer page for \code{litmstxt}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab complete \tab partial \tab unsatisfactory/incorrect \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 518 \tab 292 \tab 191 \tab 147 \tab 849 \tab 26 \tab 2023 \cr
-   Total \tab 518 \tab 292 \tab 191 \tab 147 \tab 849 \tab 26 \tab 2023 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab complete \tab partial \tab unsatisfactory/incorrect \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 518 \tab 292 \tab 191 \tab 147 \tab 849 \tab 26 \tab - \tab 2023 \cr
+   Total \tab 518 \tab 292 \tab 191 \tab 147 \tab 849 \tab 26 \tab 0 \tab 2023 \cr
 }
 }
 

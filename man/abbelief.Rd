@@ -38,10 +38,10 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7947/vshow}{GSS Data Explorer page for \code{abbelief}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab Total \cr
-   2022 \tab 2313 \tab 493 \tab 76 \tab 299 \tab 84 \tab 54 \tab 225 \tab 3544 \cr
-   Total \tab 2313 \tab 493 \tab 76 \tab 299 \tab 84 \tab 54 \tab 225 \tab 3544 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab strongly pro-choice \tab slightly pro-choice \tab both pro-choice and pro-life \tab neither pro-choice nor pro-life \tab slightly pro-life \tab strongly pro-life \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 493 \tab 76 \tab 299 \tab 84 \tab 54 \tab 225 \tab 2309 \tab 4 \tab 3544 \cr
+   Total \tab 0 \tab 493 \tab 76 \tab 299 \tab 84 \tab 54 \tab 225 \tab 2309 \tab 4 \tab 3544 \cr
 }
 }
 
@@ -49,9 +49,9 @@ Counts by year:\tabular{lllllllll}{
 Other GSS Next: 
 \code{\link{abgender}},
 \code{\link{brv16bronum}},
-\code{\link{brv16chinum}},
 \code{\link{brv16cuznum}},
 \code{\link{brv16frndnum}},
+\code{\link{brv16gpanum}},
 \code{\link{brv16othnum}},
 \code{\link{brv16silnum}},
 \code{\link{brv16sisnum}},

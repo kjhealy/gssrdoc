@@ -36,10 +36,10 @@ D. For the most part, unions just stand in the way of economic progress in this 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1266/vshow}{GSS Data Explorer page for \code{unprog}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1991 \tab - \tab 87 \tab 402 \tab 747 \tab 104 \tab 170 \tab 7 \tab 1517 \cr
-   Total \tab 0 \tab 87 \tab 402 \tab 747 \tab 104 \tab 170 \tab 7 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab - \tab 87 \tab 402 \tab 747 \tab 104 \tab 170 \tab 7 \tab - \tab 1517 \cr
+   Total \tab 0 \tab 87 \tab 402 \tab 747 \tab 104 \tab 170 \tab 7 \tab 0 \tab 1517 \cr
 }
 }
 

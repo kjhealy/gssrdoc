@@ -32,10 +32,10 @@ G. Recreation - adults
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1966/vshow}{GSS Data Explorer page for \code{valrec}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab 0 \tab 100 \tab 20 \tab 200 \tab 25 \tab 300 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2853 \tab 23 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 19 \tab 2904 \cr
-   Total \tab 2853 \tab 23 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 19 \tab 2904 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 0 \tab 100 \tab 20 \tab 200 \tab 25 \tab 300 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2853 \tab 23 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 19 \tab - \tab 2904 \cr
+   Total \tab 2853 \tab 23 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 19 \tab 0 \tab 2904 \cr
 }
 }
 

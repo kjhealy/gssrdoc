@@ -27,13 +27,13 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |1988  |67   |581            |626   |126                        |36       |19                |10           |16        |1481  |
-#'  |1994  |1545 |484            |645   |188                        |52       |6                 |21           |51        |2992  |
-#'  |2002  |1594 |611            |374   |130                        |26       |11                |18           |1         |2765  |
-#'  |2012  |672  |550            |558   |120                        |40       |3                 |26           |5         |1974  |
-#'  |Total |3878 |2226           |2203  |564                        |154      |39                |75           |73        |9212  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |1988  |67   |581            |626   |126                        |36       |19                |10           |16        |-                          |1481  |
+#'  |1994  |1545 |484            |645   |188                        |52       |6                 |21           |51        |-                          |2992  |
+#'  |2002  |1594 |611            |374   |130                        |26       |11                |18           |1         |-                          |2765  |
+#'  |2012  |672  |550            |558   |120                        |40       |3                 |26           |5         |-                          |1974  |
+#'  |Total |3878 |2226           |2203  |564                        |154      |39                |75           |73        |0                          |9212  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -75,13 +75,13 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
-#'  |1988  |67   |25             |130   |186                        |656      |370               |25           |22        |-              |1481  |
-#'  |1994  |1545 |14             |105   |216                        |749      |288               |18           |57        |-              |2992  |
-#'  |2012  |672  |28             |165   |145                        |666      |258               |34           |6         |-              |1974  |
-#'  |2022  |2380 |67             |172   |325                        |357      |173               |58           |4         |8              |3544  |
-#'  |Total |4664 |134            |572   |872                        |2428     |1089              |135          |89        |8              |9991  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |1988  |67   |25             |130   |186                        |656      |370               |25           |22        |-              |-                          |1481  |
+#'  |1994  |1545 |14             |105   |216                        |749      |288               |18           |57        |-              |-                          |2992  |
+#'  |2012  |672  |28             |165   |145                        |666      |258               |34           |6         |-              |-                          |1974  |
+#'  |2022  |2380 |67             |172   |325                        |357      |173               |58           |4         |8              |-                          |3544  |
+#'  |Total |4664 |134            |572   |872                        |2428     |1089              |135          |89        |8              |0                          |9991  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -121,10 +121,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |1988  |67  |196            |427   |324                        |305      |102               |44           |16        |1481  |
-#'  |Total |67  |196            |427   |324                        |305      |102               |44           |16        |1481  |
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |1988  |67  |196            |427   |324                        |305      |102               |44           |16        |-                          |1481  |
+#'  |Total |67  |196            |427   |324                        |305      |102               |44           |16        |0                          |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -164,10 +164,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |1988  |67  |16             |41    |143                        |670      |506               |22           |16        |1481  |
-#'  |Total |67  |16             |41    |143                        |670      |506               |22           |16        |1481  |
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |1988  |67  |16             |41    |143                        |670      |506               |22           |16        |-                          |1481  |
+#'  |Total |67  |16             |41    |143                        |670      |506               |22           |16        |0                          |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -207,12 +207,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |1988  |67   |115            |251   |373                        |415      |192               |51           |17        |1481  |
-#'  |1994  |1545 |48             |214   |373                        |536      |182               |40           |54        |2992  |
-#'  |2002  |1594 |76             |127   |255                        |428      |252               |32           |1         |2765  |
-#'  |Total |3206 |239            |592   |1001                       |1379     |626               |123          |72        |7238  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |1988  |67   |115            |251   |373                        |415      |192               |51           |17        |-                          |1481  |
+#'  |1994  |1545 |48             |214   |373                        |536      |182               |40           |54        |-                          |2992  |
+#'  |2002  |1594 |76             |127   |255                        |428      |252               |32           |1         |-                          |2765  |
+#'  |Total |3206 |239            |592   |1001                       |1379     |626               |123          |72        |0                          |7238  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -251,10 +251,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very easy |fairly easy |neither easy nor difficult |fairly difficult |very difficult |can't choose |no answer |Total |
-#'  |:-----|:---|:---------|:-----------|:--------------------------|:----------------|:--------------|:------------|:---------|:-----|
-#'  |1988  |67  |572       |443         |197                        |75               |52             |45           |30        |1481  |
-#'  |Total |67  |572       |443         |197                        |75               |52             |45           |30        |1481  |
+#'  |year  |iap |very easy |fairly easy |neither easy nor difficult |fairly difficult |very difficult |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------|:-----------|:--------------------------|:----------------|:--------------|:------------|:---------|:--------------------------|:-----|
+#'  |1988  |67  |572       |443         |197                        |75               |52             |45           |30        |-                          |1481  |
+#'  |Total |67  |572       |443         |197                        |75               |52             |45           |30        |0                          |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -293,10 +293,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very easy |fairly easy |neither easy nor difficult |fairly difficult |very difficult |can't choose |no answer |Total |
-#'  |:-----|:---|:---------|:-----------|:--------------------------|:----------------|:--------------|:------------|:---------|:-----|
-#'  |1988  |67  |234       |289         |420                        |237              |125            |79           |30        |1481  |
-#'  |Total |67  |234       |289         |420                        |237              |125            |79           |30        |1481  |
+#'  |year  |iap |very easy |fairly easy |neither easy nor difficult |fairly difficult |very difficult |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------|:-----------|:--------------------------|:----------------|:--------------|:------------|:---------|:--------------------------|:-----|
+#'  |1988  |67  |234       |289         |420                        |237              |125            |79           |30        |-                          |1481  |
+#'  |Total |67  |234       |289         |420                        |237              |125            |79           |30        |0                          |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -335,10 +335,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very easy |fairly easy |neither easy nor difficult |fairly difficult |very difficult |can't choose |no answer |Total |
-#'  |:-----|:---|:---------|:-----------|:--------------------------|:----------------|:--------------|:------------|:---------|:-----|
-#'  |1988  |67  |59        |134         |425                        |368              |325            |76           |27        |1481  |
-#'  |Total |67  |59        |134         |425                        |368              |325            |76           |27        |1481  |
+#'  |year  |iap |very easy |fairly easy |neither easy nor difficult |fairly difficult |very difficult |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------|:-----------|:--------------------------|:----------------|:--------------|:------------|:---------|:--------------------------|:-----|
+#'  |1988  |67  |59        |134         |425                        |368              |325            |76           |27        |-                          |1481  |
+#'  |Total |67  |59        |134         |425                        |368              |325            |76           |27        |0                          |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -376,10 +376,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |much better to div |better to divorce |worse to divorce |much worse to div |can't choose |no answer |Total |
-#'  |:-----|:---|:------------------|:-----------------|:----------------|:-----------------|:------------|:---------|:-----|
-#'  |1988  |67  |238                |536               |194              |105               |315          |26        |1481  |
-#'  |Total |67  |238                |536               |194              |105               |315          |26        |1481  |
+#'  |year  |iap |much better to div |better to divorce |worse to divorce |much worse to div |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------------|:-----------------|:----------------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |1988  |67  |238                |536               |194              |105               |315          |26        |-                          |1481  |
+#'  |Total |67  |238                |536               |194              |105               |315          |26        |0                          |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles
@@ -417,10 +417,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |much better to div |better to divorce |worse to divorce |much worse to div |can't choose |no answer |Total |
-#'  |:-----|:---|:------------------|:-----------------|:----------------|:-----------------|:------------|:---------|:-----|
-#'  |1988  |67  |232                |558               |185              |83                |326          |30        |1481  |
-#'  |Total |67  |232                |558               |185              |83                |326          |30        |1481  |
+#'  |year  |iap |much better to div |better to divorce |worse to divorce |much worse to div |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------------|:-----------------|:----------------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |1988  |67  |232                |558               |185              |83                |326          |30        |-                          |1481  |
+#'  |Total |67  |232                |558               |185              |83                |326          |30        |0                          |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Family & Gender Roles

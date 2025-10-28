@@ -33,10 +33,10 @@ Question On average, do you think the jobs that have been created in the United 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3885/vshow}{GSS Data Explorer page for \code{newjobs}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab better \tab about the same \tab worse \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1887 \tab 44 \tab 56 \tab 31 \tab 4 \tab 1 \tab 2023 \cr
-   Total \tab 1887 \tab 44 \tab 56 \tab 31 \tab 4 \tab 1 \tab 2023 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab better \tab about the same \tab worse \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1887 \tab 44 \tab 56 \tab 31 \tab 4 \tab 1 \tab - \tab 2023 \cr
+   Total \tab 1887 \tab 44 \tab 56 \tab 31 \tab 4 \tab 1 \tab 0 \tab 2023 \cr
 }
 }
 

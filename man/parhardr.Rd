@@ -35,10 +35,10 @@ A. The job of parent is more difficult today than it used to be.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5093/vshow}{GSS Data Explorer page for \code{parhardr}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 640 \tab 563 \tab 109 \tab 25 \tab 18 \tab 17 \tab 1372 \cr
-   Total \tab 0 \tab 640 \tab 563 \tab 109 \tab 25 \tab 18 \tab 17 \tab 1372 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 640 \tab 563 \tab 109 \tab 25 \tab 18 \tab 17 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 640 \tab 563 \tab 109 \tab 25 \tab 18 \tab 17 \tab 0 \tab 1372 \cr
 }
 }
 

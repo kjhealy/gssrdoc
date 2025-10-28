@@ -37,7 +37,8 @@ Counts by year:\tabular{llllllll}{
    year \tab iap \tab should be legal \tab should not be legal \tab don't know \tab no answer \tab skipped on web \tab Total \cr
    2021 \tab 2719 \tab 959 \tab 336 \tab 8 \tab 1 \tab 9 \tab 4032 \cr
    2022 \tab 2954 \tab 449 \tab 137 \tab - \tab 1 \tab 3 \tab 3544 \cr
-   Total \tab 5673 \tab 1408 \tab 473 \tab 8 \tab 2 \tab 12 \tab 7576 \cr
+   2024 \tab 2663 \tab 451 \tab 190 \tab 2 \tab - \tab 3 \tab 3309 \cr
+   Total \tab 8336 \tab 1859 \tab 663 \tab 10 \tab 2 \tab 15 \tab 10885 \cr
 }
 }
 

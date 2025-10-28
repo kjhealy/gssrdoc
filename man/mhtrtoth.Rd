@@ -32,10 +32,10 @@ Question Leaving yourself aside, have you personally ever known someone who has 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3565/vshow}{GSS Data Explorer page for \code{mhtrtoth}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3073 \tab 902 \tab 511 \tab 11 \tab 13 \tab 4510 \cr
-   Total \tab 3073 \tab 902 \tab 511 \tab 11 \tab 13 \tab 4510 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3073 \tab 902 \tab 511 \tab 11 \tab 13 \tab - \tab 4510 \cr
+   Total \tab 3073 \tab 902 \tab 511 \tab 11 \tab 13 \tab 0 \tab 4510 \cr
 }
 }
 

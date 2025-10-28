@@ -36,10 +36,10 @@ F. Protecting the environment?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4113/vshow}{GSS Data Explorer page for \code{helpenv}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very successful \tab quite successful \tab neither successful nor unsuccessful \tab quite unsuccessful \tab very unsuccessful \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 2992 \tab 75 \tab 430 \tab 422 \tab 371 \tab 195 \tab 23 \tab 2 \tab 4510 \cr
-   Total \tab 2992 \tab 75 \tab 430 \tab 422 \tab 371 \tab 195 \tab 23 \tab 2 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very successful \tab quite successful \tab neither successful nor unsuccessful \tab quite unsuccessful \tab very unsuccessful \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2992 \tab 75 \tab 430 \tab 422 \tab 371 \tab 195 \tab 23 \tab 2 \tab - \tab 4510 \cr
+   Total \tab 2992 \tab 75 \tab 430 \tab 422 \tab 371 \tab 195 \tab 23 \tab 2 \tab 0 \tab 4510 \cr
 }
 }
 

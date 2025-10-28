@@ -34,10 +34,10 @@ C. In what way are an eye and an ear alike?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1469/vshow}{GSS Data Explorer page for \code{alike3}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab completely wrong \tab partially right \tab completely right \tab don't know \tab no answer \tab Total \cr
-   1994 \tab - \tab 466 \tab 998 \tab 1422 \tab 83 \tab 23 \tab 2992 \cr
-   Total \tab 0 \tab 466 \tab 998 \tab 1422 \tab 83 \tab 23 \tab 2992 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab completely wrong \tab partially right \tab completely right \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab - \tab 466 \tab 998 \tab 1422 \tab 83 \tab 23 \tab - \tab 2992 \cr
+   Total \tab 0 \tab 466 \tab 998 \tab 1422 \tab 83 \tab 23 \tab 0 \tab 2992 \cr
 }
 }
 

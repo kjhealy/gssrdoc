@@ -32,10 +32,10 @@ Question Some other reason not shown.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6262/vshow}{GSS Data Explorer page for \code{artothr}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab a reason \tab not a reason \tab don't know \tab Total \cr
-   2016 \tab 2710 \tab 45 \tab 111 \tab 1 \tab 2867 \cr
-   Total \tab 2710 \tab 45 \tab 111 \tab 1 \tab 2867 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab a reason \tab not a reason \tab don't know \tab not available in this year \tab Total \cr
+   2016 \tab 2710 \tab 45 \tab 111 \tab 1 \tab - \tab 2867 \cr
+   Total \tab 2710 \tab 45 \tab 111 \tab 1 \tab 0 \tab 2867 \cr
 }
 }
 

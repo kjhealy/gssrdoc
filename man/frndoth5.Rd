@@ -31,10 +31,10 @@ Question What specific denomination is that, if any?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1122/vshow}{GSS Data Explorer page for \code{frndoth5}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab 103 \tab 147 \tab 20 \tab 31 \tab 33 \tab 35 \tab 40 \tab 56 \tab 64 \tab 69 \tab 80 \tab 97 \tab no answer \tab Total \cr
-   1998 \tab 2735 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 83 \tab 2832 \cr
-   Total \tab 2735 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 83 \tab 2832 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab 103 \tab 147 \tab 20 \tab 31 \tab 33 \tab 35 \tab 40 \tab 56 \tab 64 \tab 69 \tab 80 \tab 97 \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2735 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 83 \tab - \tab 2832 \cr
+   Total \tab 2735 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 83 \tab 0 \tab 2832 \cr
 }
 }
 

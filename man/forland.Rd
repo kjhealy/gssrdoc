@@ -37,12 +37,13 @@ E. Foreigners should not be allowed to buy land in America
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4854/vshow}{GSS Data Explorer page for \code{forland}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 147 \tab 278 \tab 350 \tab 401 \tab 124 \tab 45 \tab 22 \tab 2904 \cr
-   2004 \tab 1596 \tab 139 \tab 216 \tab 277 \tab 446 \tab 110 \tab 27 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 103 \tab 186 \tab 251 \tab 535 \tab 144 \tab 51 \tab 4 \tab 2538 \cr
-   Total \tab 4397 \tab 389 \tab 680 \tab 878 \tab 1382 \tab 378 \tab 123 \tab 27 \tab 8254 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 147 \tab 278 \tab 350 \tab 401 \tab 124 \tab 45 \tab 22 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 139 \tab 216 \tab 277 \tab 446 \tab 110 \tab 27 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 103 \tab 186 \tab 251 \tab 535 \tab 144 \tab 51 \tab 4 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1662 \tab 220 \tab 355 \tab 356 \tab 452 \tab 145 \tab 98 \tab 5 \tab - \tab 16 \tab 3309 \cr
+   Total \tab 6059 \tab 609 \tab 1035 \tab 1234 \tab 1834 \tab 523 \tab 221 \tab 32 \tab 0 \tab 16 \tab 11563 \cr
 }
 }
 

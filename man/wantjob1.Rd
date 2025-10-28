@@ -36,12 +36,12 @@ Question Suppose you could decide on your work situation at present. Which of th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4577/vshow}{GSS Data Explorer page for \code{wantjob1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a full time job \tab a part-time job \tab a job with less than 10 hours a week \tab no paid job at all \tab no answer \tab don't know \tab Total \cr
-   1998 \tab 1609 \tab 672 \tab 325 \tab 69 \tab 120 \tab 37 \tab - \tab 2832 \cr
-   2006 \tab 2992 \tab 963 \tab 346 \tab 53 \tab 139 \tab 4 \tab 13 \tab 4510 \cr
-   2016 \tab 1390 \tab 921 \tab 318 \tab 67 \tab 152 \tab 10 \tab 9 \tab 2867 \cr
-   Total \tab 5991 \tab 2556 \tab 989 \tab 189 \tab 411 \tab 51 \tab 22 \tab 10209 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a full time job \tab a part-time job \tab a job with less than 10 hours a week \tab no paid job at all \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1998 \tab 1609 \tab 672 \tab 325 \tab 69 \tab 120 \tab 37 \tab - \tab - \tab 2832 \cr
+   2006 \tab 2992 \tab 963 \tab 346 \tab 53 \tab 139 \tab 4 \tab 13 \tab - \tab 4510 \cr
+   2016 \tab 1390 \tab 921 \tab 318 \tab 67 \tab 152 \tab 10 \tab 9 \tab - \tab 2867 \cr
+   Total \tab 5991 \tab 2556 \tab 989 \tab 189 \tab 411 \tab 51 \tab 22 \tab 0 \tab 10209 \cr
 }
 }
 

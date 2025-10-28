@@ -36,10 +36,10 @@ B. People should be allowed to accumulate as much wealth as they can even if som
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1378/vshow}{GSS Data Explorer page for \code{richpoor}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 182 \tab 725 \tab 178 \tab 382 \tab 91 \tab 38 \tab 10 \tab 1606 \cr
-   Total \tab 0 \tab 182 \tab 725 \tab 178 \tab 382 \tab 91 \tab 38 \tab 10 \tab 1606 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 182 \tab 725 \tab 178 \tab 382 \tab 91 \tab 38 \tab 10 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 182 \tab 725 \tab 178 \tab 382 \tab 91 \tab 38 \tab 10 \tab 0 \tab 1606 \cr
 }
 }
 

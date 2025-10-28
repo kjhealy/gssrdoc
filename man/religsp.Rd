@@ -38,12 +38,12 @@ Question What is your husband's/wife's religious preference? Is it Protestant, C
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4671/vshow}{GSS Data Explorer page for \code{religsp}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab protestant \tab catholic \tab jewish \tab orthodox greek, russian, etc \tab moslem \tab other -specify \tab no religion \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 799 \tab 413 \tab 207 \tab 16 \tab 1 \tab 1 \tab 9 \tab 47 \tab 12 \tab 12 \tab 1517 \cr
-   1998 \tab 2221 \tab 331 \tab 137 \tab 17 \tab 6 \tab 3 \tab 9 \tab 59 \tab 21 \tab 28 \tab 2832 \cr
-   2008 \tab 1378 \tab 382 \tab 153 \tab 14 \tab 6 \tab 2 \tab 9 \tab 68 \tab 9 \tab 2 \tab 2023 \cr
-   Total \tab 4398 \tab 1126 \tab 497 \tab 47 \tab 13 \tab 6 \tab 27 \tab 174 \tab 42 \tab 42 \tab 6372 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab orthodox greek, russian, etc \tab moslem \tab other -specify \tab no religion \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 799 \tab 413 \tab 207 \tab 16 \tab 1 \tab 1 \tab 9 \tab 47 \tab 12 \tab 12 \tab - \tab 1517 \cr
+   1998 \tab 2221 \tab 331 \tab 137 \tab 17 \tab 6 \tab 3 \tab 9 \tab 59 \tab 21 \tab 28 \tab - \tab 2832 \cr
+   2008 \tab 1378 \tab 382 \tab 153 \tab 14 \tab 6 \tab 2 \tab 9 \tab 68 \tab 9 \tab 2 \tab - \tab 2023 \cr
+   Total \tab 4398 \tab 1126 \tab 497 \tab 47 \tab 13 \tab 6 \tab 27 \tab 174 \tab 42 \tab 42 \tab 0 \tab 6372 \cr
 }
 }
 

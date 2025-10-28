@@ -33,10 +33,10 @@ B.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1658/vshow}{GSS Data Explorer page for \code{sharesep}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab man woman do things together \tab man woman do things separate \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 1101 \tab 326 \tab 9 \tab 24 \tab 2904 \cr
-   Total \tab 1444 \tab 1101 \tab 326 \tab 9 \tab 24 \tab 2904 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab man woman do things together \tab man woman do things separate \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 1101 \tab 326 \tab 9 \tab 24 \tab - \tab 2904 \cr
+   Total \tab 1444 \tab 1101 \tab 326 \tab 9 \tab 24 \tab 0 \tab 2904 \cr
 }
 }
 

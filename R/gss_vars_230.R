@@ -28,10 +28,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:----------|:---------|:-----|
-#'  |2016  |1409 |70                |196      |271     |683   |227            |2          |9         |2867  |
-#'  |Total |1409 |70                |196      |271     |683   |227            |2          |9         |2867  |
+#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1409 |70                |196      |271     |683   |227            |2          |9         |-                          |2867  |
+#'  |Total |1409 |70                |196      |271     |683   |227            |2          |9         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -72,10 +72,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:----------|:---------|:-----|
-#'  |2016  |1409 |128               |576      |313     |351   |80             |1          |9         |2867  |
-#'  |Total |1409 |128               |576      |313     |351   |80             |1          |9         |2867  |
+#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1409 |128               |576      |313     |351   |80             |1          |9         |-                          |2867  |
+#'  |Total |1409 |128               |576      |313     |351   |80             |1          |9         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -116,10 +116,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:----------|:---------|:-----|
-#'  |2016  |1409 |43                |144      |281     |724   |256            |1          |9         |2867  |
-#'  |Total |1409 |43                |144      |281     |724   |256            |1          |9         |2867  |
+#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1409 |43                |144      |281     |724   |256            |1          |9         |-                          |2867  |
+#'  |Total |1409 |43                |144      |281     |724   |256            |1          |9         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -160,10 +160,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |no answer |Total |
-#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:---------|:-----|
-#'  |2016  |1409 |189               |710      |299     |196   |55             |9         |2867  |
-#'  |Total |1409 |189               |710      |299     |196   |55             |9         |2867  |
+#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:---------|:--------------------------|:-----|
+#'  |2016  |1409 |189               |710      |299     |196   |55             |9         |-                          |2867  |
+#'  |Total |1409 |189               |710      |299     |196   |55             |9         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -204,10 +204,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:----------|:---------|:-----|
-#'  |2016  |1409 |190               |699      |270     |225   |61             |3          |10        |2867  |
-#'  |Total |1409 |190               |699      |270     |225   |61             |3          |10        |2867  |
+#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1409 |190               |699      |270     |225   |61             |3          |10        |-                          |2867  |
+#'  |Total |1409 |190               |699      |270     |225   |61             |3          |10        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -248,10 +248,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |no answer |Total |
-#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:---------|:-----|
-#'  |2016  |1409 |39                |90       |196     |843   |280            |10        |2867  |
-#'  |Total |1409 |39                |90       |196     |843   |280            |10        |2867  |
+#'  |year  |iap  |strongly disagree |disagree |neutral |agree |strongly agree |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:--------|:-------|:-----|:--------------|:---------|:--------------------------|:-----|
+#'  |2016  |1409 |39                |90       |196     |843   |280            |10        |-                          |2867  |
+#'  |Total |1409 |39                |90       |196     |843   |280            |10        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -295,10 +295,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:-----|
-#'  |2016  |1409 |19               |23           |27             |28             |154           |299           |543         |346             |7          |12        |2867  |
-#'  |Total |1409 |19               |23           |27             |28             |154           |299           |543         |346             |7          |12        |2867  |
+#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1409 |19               |23           |27             |28             |154           |299           |543         |346             |7          |12        |-                          |2867  |
+#'  |Total |1409 |19               |23           |27             |28             |154           |299           |543         |346             |7          |12        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -342,10 +342,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:-----|
-#'  |2016  |1409 |53               |53           |68             |67             |229           |291           |403         |274             |7          |13        |2867  |
-#'  |Total |1409 |53               |53           |68             |67             |229           |291           |403         |274             |7          |13        |2867  |
+#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1409 |53               |53           |68             |67             |229           |291           |403         |274             |7          |13        |-                          |2867  |
+#'  |Total |1409 |53               |53           |68             |67             |229           |291           |403         |274             |7          |13        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -389,10 +389,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:-----|
-#'  |2016  |1409 |20               |36           |38             |52             |191           |347           |472         |286             |4          |12        |2867  |
-#'  |Total |1409 |20               |36           |38             |52             |191           |347           |472         |286             |4          |12        |2867  |
+#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1409 |20               |36           |38             |52             |191           |347           |472         |286             |4          |12        |-                          |2867  |
+#'  |Total |1409 |20               |36           |38             |52             |191           |347           |472         |286             |4          |12        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -436,10 +436,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:-----|
-#'  |2016  |1409 |51               |48           |57             |83             |215           |337           |426         |225             |5          |11        |2867  |
-#'  |Total |1409 |51               |48           |57             |83             |215           |337           |426         |225             |5          |11        |2867  |
+#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1409 |51               |48           |57             |83             |215           |337           |426         |225             |5          |11        |-                          |2867  |
+#'  |Total |1409 |51               |48           |57             |83             |215           |337           |426         |225             |5          |11        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism

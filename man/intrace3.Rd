@@ -48,18 +48,18 @@ C. Third mention.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5514/vshow}{GSS Data Explorer page for \code{intrace3}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab white \tab black or african-american \tab american indian or alaska native \tab hispanic \tab no answer \tab some other race \tab don't know \tab asian indian \tab not available in this release \tab Total \cr
-   2004 \tab 2789 \tab 1 \tab 2 \tab 1 \tab 1 \tab 18 \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 4485 \tab 1 \tab 1 \tab 2 \tab 3 \tab 18 \tab - \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 2043 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 1973 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2535 \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab 2538 \cr
-   2016 \tab 2851 \tab - \tab - \tab 1 \tab - \tab 14 \tab - \tab 1 \tab - \tab - \tab 2867 \cr
-   2018 \tab 2296 \tab 1 \tab - \tab 3 \tab - \tab 43 \tab 2 \tab 2 \tab 1 \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   Total \tab 20995 \tab 3 \tab 4 \tab 8 \tab 4 \tab 93 \tab 4 \tab 4 \tab 1 \tab 4032 \tab 25148 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab white \tab black or african-american \tab american indian or alaska native \tab hispanic \tab no answer \tab some other race \tab don't know \tab asian indian \tab not available in this release \tab not available in this year \tab Total \cr
+   2004 \tab 2789 \tab 1 \tab 2 \tab 1 \tab 1 \tab 18 \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 4485 \tab 1 \tab 1 \tab 2 \tab 3 \tab 18 \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 2043 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1973 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2535 \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2851 \tab - \tab - \tab 1 \tab - \tab 14 \tab - \tab 1 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2296 \tab 1 \tab - \tab 3 \tab - \tab 43 \tab 2 \tab 2 \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab 4032 \cr
+   Total \tab 20995 \tab 3 \tab 4 \tab 8 \tab 4 \tab 93 \tab 4 \tab 4 \tab 1 \tab 4032 \tab 0 \tab 25148 \cr
 }
 }
 

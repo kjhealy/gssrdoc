@@ -35,10 +35,10 @@ Question C. Firefighting. (Is firefighting...?)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3539/vshow}{GSS Data Explorer page for \code{fireftng}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab haven't heard of it (volunteered) \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1469 \tab 88 \tab 193 \tab 143 \tab 62 \tab 1 \tab 15 \tab 3 \tab 1974 \cr
-   Total \tab 1469 \tab 88 \tab 193 \tab 143 \tab 62 \tab 1 \tab 15 \tab 3 \tab 1974 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab haven't heard of it (volunteered) \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1469 \tab 88 \tab 193 \tab 143 \tab 62 \tab 1 \tab 15 \tab 3 \tab - \tab 1974 \cr
+   Total \tab 1469 \tab 88 \tab 193 \tab 143 \tab 62 \tab 1 \tab 15 \tab 3 \tab 0 \tab 1974 \cr
 }
 }
 

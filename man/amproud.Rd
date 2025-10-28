@@ -34,10 +34,10 @@ Question How proud are you to be an American . . . extremely proud, very proud, 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1598/vshow}{GSS Data Explorer page for \code{amproud}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab extremely proud \tab very proud \tab somewhat proud \tab not very proud \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 683 \tab 564 \tab 185 \tab 20 \tab 7 \tab 15 \tab 2992 \cr
-   Total \tab 1518 \tab 683 \tab 564 \tab 185 \tab 20 \tab 7 \tab 15 \tab 2992 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely proud \tab very proud \tab somewhat proud \tab not very proud \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 683 \tab 564 \tab 185 \tab 20 \tab 7 \tab 15 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 683 \tab 564 \tab 185 \tab 20 \tab 7 \tab 15 \tab 0 \tab 2992 \cr
 }
 }
 

@@ -35,10 +35,10 @@ IF R REPORTS NUMBER OF KNOWN SUICIDE VICTIMS=0, ASK: Just to be sure, thinking a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6182/vshow}{GSS Data Explorer page for \code{suinum1}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab one person \tab no people \tab don't know \tab Total \cr
-   2016 \tab 2858 \tab 3 \tab 3 \tab 3 \tab 2867 \cr
-   Total \tab 2858 \tab 3 \tab 3 \tab 3 \tab 2867 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab one person \tab no people \tab don't know \tab not available in this year \tab Total \cr
+   2016 \tab 2858 \tab 3 \tab 3 \tab 3 \tab - \tab 2867 \cr
+   Total \tab 2858 \tab 3 \tab 3 \tab 3 \tab 0 \tab 2867 \cr
 }
 }
 

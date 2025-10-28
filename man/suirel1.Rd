@@ -52,10 +52,10 @@ Question Thinking about the person you knew best that died by suicide, please te
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6183/vshow}{GSS Data Explorer page for \code{suirel1}}.
 
-Counts by year:\tabular{lllllllllllllllllllllllll}{
-   year \tab iap \tab husband or wife \tab partner or lover \tab son or daughter \tab mother or father \tab brother or sister \tab step-brother or step-sister \tab step-parent \tab step-son or step-daughter \tab cousin \tab other relative \tab friend \tab neighbor \tab co-worker \tab patient \tab acquaintance \tab ex-spouse or ex-partner \tab classmate \tab relative of a friend \tab student \tab friend of a friend \tab other \tab no answer \tab Total \cr
-   2016 \tab 2093 \tab 2 \tab 7 \tab 5 \tab 15 \tab 16 \tab 5 \tab 4 \tab 3 \tab 60 \tab 123 \tab 301 \tab 28 \tab 40 \tab 5 \tab 97 \tab 9 \tab 8 \tab 8 \tab 4 \tab 3 \tab 8 \tab 23 \tab 2867 \cr
-   Total \tab 2093 \tab 2 \tab 7 \tab 5 \tab 15 \tab 16 \tab 5 \tab 4 \tab 3 \tab 60 \tab 123 \tab 301 \tab 28 \tab 40 \tab 5 \tab 97 \tab 9 \tab 8 \tab 8 \tab 4 \tab 3 \tab 8 \tab 23 \tab 2867 \cr
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab husband or wife \tab partner or lover \tab son or daughter \tab mother or father \tab brother or sister \tab step-brother or step-sister \tab step-parent \tab step-son or step-daughter \tab cousin \tab other relative \tab friend \tab neighbor \tab co-worker \tab patient \tab acquaintance \tab ex-spouse or ex-partner \tab classmate \tab relative of a friend \tab student \tab friend of a friend \tab other \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2093 \tab 2 \tab 7 \tab 5 \tab 15 \tab 16 \tab 5 \tab 4 \tab 3 \tab 60 \tab 123 \tab 301 \tab 28 \tab 40 \tab 5 \tab 97 \tab 9 \tab 8 \tab 8 \tab 4 \tab 3 \tab 8 \tab 23 \tab - \tab 2867 \cr
+   Total \tab 2093 \tab 2 \tab 7 \tab 5 \tab 15 \tab 16 \tab 5 \tab 4 \tab 3 \tab 60 \tab 123 \tab 301 \tab 28 \tab 40 \tab 5 \tab 97 \tab 9 \tab 8 \tab 8 \tab 4 \tab 3 \tab 8 \tab 23 \tab 0 \tab 2867 \cr
 }
 }
 

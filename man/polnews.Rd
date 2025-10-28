@@ -38,10 +38,11 @@ Question How often do you use the media, including television, newspapers, radio
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4966/vshow}{GSS Data Explorer page for \code{polnews}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab several times a day \tab once a day \tab 5-6 days a week \tab 3-4 days a week \tab 1-2 days a week \tab less than 1 day a week \tab never \tab can't choose \tab no answer \tab Total \cr
-   2014 \tab 1274 \tab 344 \tab 371 \tab 90 \tab 91 \tab 101 \tab 145 \tab 111 \tab 10 \tab 1 \tab 2538 \cr
-   Total \tab 1274 \tab 344 \tab 371 \tab 90 \tab 91 \tab 101 \tab 145 \tab 111 \tab 10 \tab 1 \tab 2538 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab several times a day \tab once a day \tab 5-6 days a week \tab 3-4 days a week \tab 1-2 days a week \tab less than 1 day a week \tab never \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2014 \tab 1274 \tab 344 \tab 371 \tab 90 \tab 91 \tab 101 \tab 145 \tab 111 \tab 10 \tab 1 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1667 \tab 595 \tab 345 \tab 97 \tab 121 \tab 150 \tab 149 \tab 103 \tab 64 \tab 1 \tab - \tab 17 \tab 3309 \cr
+   Total \tab 2941 \tab 939 \tab 716 \tab 187 \tab 212 \tab 251 \tab 294 \tab 214 \tab 74 \tab 2 \tab 0 \tab 17 \tab 5847 \cr
 }
 }
 

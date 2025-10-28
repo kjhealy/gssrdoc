@@ -50,10 +50,10 @@ A. First Choice
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4169/vshow}{GSS Data Explorer page for \code{chores1}}.
 
-Counts by year:\tabular{llllllllllllllllllll}{
-   year \tab iap \tab spouse \tab mother \tab father \tab daughter \tab son \tab sister \tab brother \tab other relative \tab closest friend \tab other friend \tab neighbor \tab coworker \tab social service \tab paid help \tab other \tab no one \tab no answer \tab Total \cr
-   1986 \tab 42 \tab 701 \tab 35 \tab 51 \tab 61 \tab 152 \tab 25 \tab 69 \tab 49 \tab 123 \tab 17 \tab 68 \tab 8 \tab 3 \tab 25 \tab 4 \tab 18 \tab 19 \tab 1470 \cr
-   Total \tab 42 \tab 701 \tab 35 \tab 51 \tab 61 \tab 152 \tab 25 \tab 69 \tab 49 \tab 123 \tab 17 \tab 68 \tab 8 \tab 3 \tab 25 \tab 4 \tab 18 \tab 19 \tab 1470 \cr
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab spouse \tab mother \tab father \tab daughter \tab son \tab sister \tab brother \tab other relative \tab closest friend \tab other friend \tab neighbor \tab coworker \tab social service \tab paid help \tab other \tab no one \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 42 \tab 701 \tab 35 \tab 51 \tab 61 \tab 152 \tab 25 \tab 69 \tab 49 \tab 123 \tab 17 \tab 68 \tab 8 \tab 3 \tab 25 \tab 4 \tab 18 \tab 19 \tab - \tab 1470 \cr
+   Total \tab 42 \tab 701 \tab 35 \tab 51 \tab 61 \tab 152 \tab 25 \tab 69 \tab 49 \tab 123 \tab 17 \tab 68 \tab 8 \tab 3 \tab 25 \tab 4 \tab 18 \tab 19 \tab 0 \tab 1470 \cr
 }
 }
 

@@ -35,10 +35,10 @@ A. There is nothing inherently wrong with prostitution, so long as the health ri
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1871/vshow}{GSS Data Explorer page for \code{sellsex}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab agree strongly \tab agree somewhat \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 366 \tab 291 \tab 270 \tab 478 \tab 35 \tab 4 \tab 2904 \cr
-   Total \tab 1460 \tab 366 \tab 291 \tab 270 \tab 478 \tab 35 \tab 4 \tab 2904 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree somewhat \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1460 \tab 366 \tab 291 \tab 270 \tab 478 \tab 35 \tab 4 \tab - \tab 2904 \cr
+   Total \tab 1460 \tab 366 \tab 291 \tab 270 \tab 478 \tab 35 \tab 4 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -36,10 +36,10 @@ F. The sex of the employee
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4501/vshow}{GSS Data Explorer page for \code{sexemp}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab no answer \tab Total \cr
-   1989 \tab 84 \tab 1 \tab 17 \tab 1067 \tab 53 \tab 315 \tab 1537 \cr
-   Total \tab 84 \tab 1 \tab 17 \tab 1067 \tab 53 \tab 315 \tab 1537 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 84 \tab 1 \tab 17 \tab 1067 \tab 53 \tab 315 \tab - \tab 1537 \cr
+   Total \tab 84 \tab 1 \tab 17 \tab 1067 \tab 53 \tab 315 \tab 0 \tab 1537 \cr
 }
 }
 

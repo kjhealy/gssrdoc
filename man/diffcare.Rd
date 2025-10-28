@@ -32,10 +32,10 @@ Question Have you, or anyone in your household, ever had difficulty getting a te
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2746/vshow}{GSS Data Explorer page for \code{diffcare}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 375 \tab 416 \tab 1961 \tab 7 \tab 6 \tab 2765 \cr
-   Total \tab 375 \tab 416 \tab 1961 \tab 7 \tab 6 \tab 2765 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 375 \tab 416 \tab 1961 \tab 7 \tab 6 \tab - \tab 2765 \cr
+   Total \tab 375 \tab 416 \tab 1961 \tab 7 \tab 6 \tab 0 \tab 2765 \cr
 }
 }
 

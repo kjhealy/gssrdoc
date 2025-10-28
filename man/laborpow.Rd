@@ -36,12 +36,12 @@ Question Do you think that labor unions in this country have too much power or t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4068/vshow}{GSS Data Explorer page for \code{laborpow}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab far too much power \tab too much power \tab about the right amount of power \tab too little power \tab far too little power \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 157 \tab 241 \tab 176 \tab 42 \tab 7 \tab 43 \tab 11 \tab 1534 \cr
-   1990 \tab 155 \tab 170 \tab 345 \tab 413 \tab 117 \tab 24 \tab 126 \tab 22 \tab 1372 \cr
-   1996 \tab 1572 \tab 187 \tab 327 \tab 455 \tab 152 \tab 30 \tab 154 \tab 27 \tab 2904 \cr
-   Total \tab 2584 \tab 514 \tab 913 \tab 1044 \tab 311 \tab 61 \tab 323 \tab 60 \tab 5810 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab far too much power \tab too much power \tab about the right amount of power \tab too little power \tab far too little power \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 157 \tab 241 \tab 176 \tab 42 \tab 7 \tab 43 \tab 11 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 170 \tab 345 \tab 413 \tab 117 \tab 24 \tab 126 \tab 22 \tab - \tab 1372 \cr
+   1996 \tab 1572 \tab 187 \tab 327 \tab 455 \tab 152 \tab 30 \tab 154 \tab 27 \tab - \tab 2904 \cr
+   Total \tab 2584 \tab 514 \tab 913 \tab 1044 \tab 311 \tab 61 \tab 323 \tab 60 \tab 0 \tab 5810 \cr
 }
 }
 

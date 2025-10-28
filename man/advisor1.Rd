@@ -36,12 +36,12 @@ J1. First Person is Advisor
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/920/vshow}{GSS Data Explorer page for \code{advisor1}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab Total \cr
-   1985 \tab 136 \tab 257 \tab 1138 \tab 3 \tab 1534 \cr
-   1987 \tab 98 \tab 631 \tab 1070 \tab 20 \tab 1819 \cr
-   2004 \tab 1696 \tab 192 \tab 873 \tab 51 \tab 2812 \cr
-   Total \tab 1930 \tab 1080 \tab 3081 \tab 74 \tab 6165 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 136 \tab 257 \tab 1138 \tab 3 \tab - \tab 1534 \cr
+   1987 \tab 98 \tab 631 \tab 1070 \tab 20 \tab - \tab 1819 \cr
+   2004 \tab 1696 \tab 192 \tab 873 \tab 51 \tab - \tab 2812 \cr
+   Total \tab 1930 \tab 1080 \tab 3081 \tab 74 \tab 0 \tab 6165 \cr
 }
 }
 

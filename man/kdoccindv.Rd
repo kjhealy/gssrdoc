@@ -32,10 +32,10 @@ Question Child's OCC/IND verbatim recovered
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6011/vshow}{GSS Data Explorer page for \code{kdoccindv}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab no verbatims for kd \tab verbatims for kd \tab Total \cr
-   1994 \tab 54 \tab 2343 \tab 595 \tab 2992 \cr
-   Total \tab 54 \tab 2343 \tab 595 \tab 2992 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab no verbatims for kd \tab verbatims for kd \tab not available in this year \tab Total \cr
+   1994 \tab 54 \tab 2343 \tab 595 \tab - \tab 2992 \cr
+   Total \tab 54 \tab 2343 \tab 595 \tab 0 \tab 2992 \cr
 }
 }
 

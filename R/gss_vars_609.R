@@ -137,17 +137,17 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap   |could have been interviewed in english |would have been excluded as language problem |don't know |no answer |Total |
-#'  |:-----|:-----|:--------------------------------------|:--------------------------------------------|:----------|:---------|:-----|
-#'  |2006  |4233  |41                                     |236                                          |-          |-         |4510  |
-#'  |2008  |1943  |6                                      |73                                           |1          |-         |2023  |
-#'  |2012  |1890  |6                                      |73                                           |1          |4         |1974  |
-#'  |2014  |2423  |20                                     |77                                           |5          |13        |2538  |
-#'  |2016  |2768  |4                                      |84                                           |3          |8         |2867  |
-#'  |2018  |2262  |13                                     |70                                           |1          |2         |2348  |
-#'  |2021  |4029  |-                                      |3                                            |-          |-         |4032  |
-#'  |2022  |3462  |14                                     |63                                           |5          |-         |3544  |
-#'  |Total |23010 |104                                    |679                                          |16         |27        |23836 |
+#'  |year  |iap   |could have been interviewed in english |would have been excluded as language problem |don't know |no answer |not available in this year |Total |
+#'  |:-----|:-----|:--------------------------------------|:--------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |4233  |41                                     |236                                          |-          |-         |-                          |4510  |
+#'  |2008  |1943  |6                                      |73                                           |1          |-         |-                          |2023  |
+#'  |2012  |1890  |6                                      |73                                           |1          |4         |-                          |1974  |
+#'  |2014  |2423  |20                                     |77                                           |5          |13        |-                          |2538  |
+#'  |2016  |2768  |4                                      |84                                           |3          |8         |-                          |2867  |
+#'  |2018  |2262  |13                                     |70                                           |1          |2         |-                          |2348  |
+#'  |2021  |4029  |-                                      |3                                            |-          |-         |-                          |4032  |
+#'  |2022  |3462  |14                                     |63                                           |5          |-         |-                          |3544  |
+#'  |Total |23010 |104                                    |679                                          |16         |27        |0                          |23836 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -221,7 +221,8 @@ NULL
 #'  |2018  |2258    |90      |-         |2348  |
 #'  |2021  |3976    |56      |-         |4032  |
 #'  |2022  |3431    |113     |-         |3544  |
-#'  |Total |71409   |975     |6         |72390 |
+#'  |2024  |3215    |94      |-         |3309  |
+#'  |Total |74624   |1069    |6         |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -257,11 +258,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |living in the u.s. |not living in u.s. |no answer |don't know |Total |
-#'  |:-----|:---|:------------------|:------------------|:---------|:----------|:-----|
-#'  |2008  |-   |1998               |24                 |1         |-          |2023  |
-#'  |2010  |-   |2002               |40                 |-         |2          |2044  |
-#'  |Total |0   |4000               |64                 |1         |2          |4067  |
+#'  |year  |iap |living in the u.s. |not living in u.s. |no answer |don't know |not available in this year |Total |
+#'  |:-----|:---|:------------------|:------------------|:---------|:----------|:--------------------------|:-----|
+#'  |2008  |-   |1998               |24                 |1         |-          |-                          |2023  |
+#'  |2010  |-   |2002               |40                 |-         |2          |-                          |2044  |
+#'  |Total |0   |4000               |64                 |1         |2          |0                          |4067  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -298,11 +299,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |living in the u.s. |not living in u.s. |don't know |no answer |Total |
-#'  |:-----|:---|:------------------|:------------------|:----------|:---------|:-----|
-#'  |2010  |-   |2023               |20                 |1          |-         |2044  |
-#'  |2012  |2   |1931               |40                 |-          |1         |1974  |
-#'  |Total |2   |3954               |60                 |1          |1         |4018  |
+#'  |year  |iap |living in the u.s. |not living in u.s. |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------------|:------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2010  |-   |2023               |20                 |1          |-         |-                          |2044  |
+#'  |2012  |2   |1931               |40                 |-          |1         |-                          |1974  |
+#'  |Total |2   |3954               |60                 |1          |1         |0                          |4018  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -338,11 +339,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |living in the u.s. |not living in u.s. |no answer |Total |
-#'  |:-----|:---|:------------------|:------------------|:---------|:-----|
-#'  |2012  |2   |1951               |20                 |1         |1974  |
-#'  |2014  |-   |2483               |54                 |1         |2538  |
-#'  |Total |2   |4434               |74                 |2         |4512  |
+#'  |year  |iap |living in the u.s. |not living in u.s. |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------------|:------------------|:---------|:--------------------------|:-----|
+#'  |2012  |2   |1951               |20                 |1         |-                          |1974  |
+#'  |2014  |-   |2483               |54                 |1         |-                          |2538  |
+#'  |Total |2   |4434               |74                 |2         |0                          |4512  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -378,10 +379,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |living in the u.s. |not living in u.s. |no answer |Total |
-#'  |:-----|:---|:------------------|:------------------|:---------|:-----|
-#'  |2014  |-   |2498               |39                 |1         |2538  |
-#'  |Total |0   |2498               |39                 |1         |2538  |
+#'  |year  |iap |living in the u.s. |not living in u.s. |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------------|:------------------|:---------|:--------------------------|:-----|
+#'  |2014  |-   |2498               |39                 |1         |-                          |2538  |
+#'  |Total |0   |2498               |39                 |1         |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -419,11 +420,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |living in household |living in institution |homeless (volunteered) |other |no answer |Total |
-#'  |:-----|:---|:-------------------|:---------------------|:----------------------|:-----|:---------|:-----|
-#'  |2008  |-   |1994                |21                    |6                      |1     |1         |2023  |
-#'  |2010  |-   |1991                |43                    |2                      |7     |1         |2044  |
-#'  |Total |0   |3985                |64                    |8                      |8     |2         |4067  |
+#'  |year  |iap |living in household |living in institution |homeless (volunteered) |other |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------------|:---------------------|:----------------------|:-----|:---------|:--------------------------|:-----|
+#'  |2008  |-   |1994                |21                    |6                      |1     |1         |-                          |2023  |
+#'  |2010  |-   |1991                |43                    |2                      |7     |1         |-                          |2044  |
+#'  |Total |0   |3985                |64                    |8                      |8     |2         |0                          |4067  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights

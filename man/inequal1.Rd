@@ -37,11 +37,11 @@ A. People would not want to take extra responsibility at work unless they were p
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4256/vshow}{GSS Data Explorer page for \code{inequal1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1987 \tab 255 \tab 297 \tab 788 \tab 170 \tab 234 \tab 30 \tab 17 \tab 28 \tab 1819 \cr
-   1996 \tab 1460 \tab 526 \tab 592 \tab 74 \tab 174 \tab 56 \tab 14 \tab 8 \tab 2904 \cr
-   Total \tab 1715 \tab 823 \tab 1380 \tab 244 \tab 408 \tab 86 \tab 31 \tab 36 \tab 4723 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 297 \tab 788 \tab 170 \tab 234 \tab 30 \tab 17 \tab 28 \tab - \tab 1819 \cr
+   1996 \tab 1460 \tab 526 \tab 592 \tab 74 \tab 174 \tab 56 \tab 14 \tab 8 \tab - \tab 2904 \cr
+   Total \tab 1715 \tab 823 \tab 1380 \tab 244 \tab 408 \tab 86 \tab 31 \tab 36 \tab 0 \tab 4723 \cr
 }
 }
 

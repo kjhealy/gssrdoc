@@ -32,10 +32,10 @@ Question Please tell me whether you agree or disagree with the following stateme
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3057/vshow}{GSS Data Explorer page for \code{hgunlaw}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 1472 \tab 924 \tab 384 \tab 27 \tab 5 \tab 2812 \cr
-   Total \tab 1472 \tab 924 \tab 384 \tab 27 \tab 5 \tab 2812 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1472 \tab 924 \tab 384 \tab 27 \tab 5 \tab - \tab 2812 \cr
+   Total \tab 1472 \tab 924 \tab 384 \tab 27 \tab 5 \tab 0 \tab 2812 \cr
 }
 }
 

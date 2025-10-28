@@ -46,10 +46,10 @@ Question What are the groups you both belong to? Circle all that apply.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5529/vshow}{GSS Data Explorer page for \code{bthgrp3c}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab church-affiliated groups \tab no answer \tab Total \cr
-   2004 \tab 2769 \tab 2 \tab 41 \tab 2812 \cr
-   Total \tab 2769 \tab 2 \tab 41 \tab 2812 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab church-affiliated groups \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2769 \tab 2 \tab 41 \tab - \tab 2812 \cr
+   Total \tab 2769 \tab 2 \tab 41 \tab 0 \tab 2812 \cr
 }
 }
 

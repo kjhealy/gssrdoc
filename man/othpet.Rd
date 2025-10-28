@@ -32,10 +32,10 @@ Question Current pet - Some other kind of pet
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7206/vshow}{GSS Data Explorer page for \code{othpet}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab does not have \tab has \tab no answer \tab Total \cr
-   2018 \tab 1649 \tab 652 \tab 21 \tab 26 \tab 2348 \cr
-   Total \tab 1649 \tab 652 \tab 21 \tab 26 \tab 2348 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab does not have \tab has \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1649 \tab 652 \tab 21 \tab 26 \tab - \tab 2348 \cr
+   Total \tab 1649 \tab 652 \tab 21 \tab 26 \tab 0 \tab 2348 \cr
 }
 }
 

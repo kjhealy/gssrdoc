@@ -35,10 +35,10 @@ Question How often do you read a traditional newspaper (i.e. one that is printed
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3710/vshow}{GSS Data Explorer page for \code{newsprnt}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab every day \tab a few times a week \tab once a week \tab less than once a week \tab never \tab no answer \tab Total \cr
-   2006 \tab 3728 \tab 264 \tab 185 \tab 120 \tab 122 \tab 90 \tab 1 \tab 4510 \cr
-   Total \tab 3728 \tab 264 \tab 185 \tab 120 \tab 122 \tab 90 \tab 1 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab every day \tab a few times a week \tab once a week \tab less than once a week \tab never \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3728 \tab 264 \tab 185 \tab 120 \tab 122 \tab 90 \tab 1 \tab - \tab 4510 \cr
+   Total \tab 3728 \tab 264 \tab 185 \tab 120 \tab 122 \tab 90 \tab 1 \tab 0 \tab 4510 \cr
 }
 }
 

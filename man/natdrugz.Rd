@@ -34,10 +34,10 @@ F. Reducing drug addiction
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/215/vshow}{GSS Data Explorer page for \code{natdrugz}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab Total \cr
-   1984 \tab 989 \tab 305 \tab 135 \tab 21 \tab 19 \tab 4 \tab 1473 \cr
-   Total \tab 989 \tab 305 \tab 135 \tab 21 \tab 19 \tab 4 \tab 1473 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab 989 \tab 305 \tab 135 \tab 21 \tab 19 \tab 4 \tab - \tab 1473 \cr
+   Total \tab 989 \tab 305 \tab 135 \tab 21 \tab 19 \tab 4 \tab 0 \tab 1473 \cr
 }
 }
 

@@ -34,10 +34,10 @@ Question Thinking of your current immigration status right now, is that in Box A
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3027/vshow}{GSS Data Explorer page for \code{immstats}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab box a \tab box b \tab box c \tab other \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2539 \tab 92 \tab 152 \tab 1 \tab 7 \tab 13 \tab 8 \tab 2812 \cr
-   Total \tab 2539 \tab 92 \tab 152 \tab 1 \tab 7 \tab 13 \tab 8 \tab 2812 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab box a \tab box b \tab box c \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2539 \tab 92 \tab 152 \tab 1 \tab 7 \tab 13 \tab 8 \tab - \tab 2812 \cr
+   Total \tab 2539 \tab 92 \tab 152 \tab 1 \tab 7 \tab 13 \tab 8 \tab 0 \tab 2812 \cr
 }
 }
 

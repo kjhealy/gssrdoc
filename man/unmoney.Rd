@@ -35,10 +35,10 @@ B. Not enough money
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4517/vshow}{GSS Data Explorer page for \code{unmoney}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab worst \tab 2nd worst \tab 3rd worst \tab not chosen \tab don't know \tab no answer \tab Total \cr
-   1989 \tab 84 \tab 681 \tab 210 \tab 126 \tab 128 \tab 56 \tab 252 \tab 1537 \cr
-   Total \tab 84 \tab 681 \tab 210 \tab 126 \tab 128 \tab 56 \tab 252 \tab 1537 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab worst \tab 2nd worst \tab 3rd worst \tab not chosen \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 84 \tab 681 \tab 210 \tab 126 \tab 128 \tab 56 \tab 252 \tab - \tab 1537 \cr
+   Total \tab 84 \tab 681 \tab 210 \tab 126 \tab 128 \tab 56 \tab 252 \tab 0 \tab 1537 \cr
 }
 }
 

@@ -36,10 +36,10 @@ G. Science and technology.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4021/vshow}{GSS Data Explorer page for \code{hssci}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 249 \tab 251 \tab 135 \tab 19 \tab 11 \tab 12 \tab 1534 \cr
-   Total \tab 857 \tab 249 \tab 251 \tab 135 \tab 19 \tab 11 \tab 12 \tab 1534 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 249 \tab 251 \tab 135 \tab 19 \tab 11 \tab 12 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 249 \tab 251 \tab 135 \tab 19 \tab 11 \tab 12 \tab 0 \tab 1534 \cr
 }
 }
 

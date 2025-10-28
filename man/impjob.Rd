@@ -36,10 +36,10 @@ G. Having a fulfilling job.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1444/vshow}{GSS Data Explorer page for \code{impjob}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab one of most important \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 337 \tab 892 \tab 257 \tab 67 \tab 32 \tab 7 \tab 14 \tab 1606 \cr
-   Total \tab 0 \tab 337 \tab 892 \tab 257 \tab 67 \tab 32 \tab 7 \tab 14 \tab 1606 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab one of most important \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 337 \tab 892 \tab 257 \tab 67 \tab 32 \tab 7 \tab 14 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 337 \tab 892 \tab 257 \tab 67 \tab 32 \tab 7 \tab 14 \tab 0 \tab 1606 \cr
 }
 }
 

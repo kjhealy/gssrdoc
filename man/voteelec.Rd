@@ -33,11 +33,11 @@ A. Always to vote in elections
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4907/vshow}{GSS Data Explorer page for \code{voteelec}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 41 \tab 22 \tab 35 \tab 79 \tab 144 \tab 161 \tab 975 \tab 12 \tab 3 \tab 2812 \cr
-   2014 \tab 1274 \tab 53 \tab 21 \tab 40 \tab 77 \tab 119 \tab 155 \tab 772 \tab 23 \tab 4 \tab 2538 \cr
-   Total \tab 2614 \tab 94 \tab 43 \tab 75 \tab 156 \tab 263 \tab 316 \tab 1747 \tab 35 \tab 7 \tab 5350 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 41 \tab 22 \tab 35 \tab 79 \tab 144 \tab 161 \tab 975 \tab 12 \tab 3 \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 53 \tab 21 \tab 40 \tab 77 \tab 119 \tab 155 \tab 772 \tab 23 \tab 4 \tab - \tab 2538 \cr
+   Total \tab 2614 \tab 94 \tab 43 \tab 75 \tab 156 \tab 263 \tab 316 \tab 1747 \tab 35 \tab 7 \tab 0 \tab 5350 \cr
 }
 }
 

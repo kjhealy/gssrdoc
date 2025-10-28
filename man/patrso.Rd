@@ -34,10 +34,10 @@ F. Do people in these groups tend to be patriotic or do they tend to be unpatrio
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1213/vshow}{GSS Data Explorer page for \code{patrso}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab patriotic \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab unpatriotic \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 258 \tab 301 \tab 235 \tab 348 \tab 50 \tab 16 \tab 9 \tab 121 \tab 34 \tab 1372 \cr
-   Total \tab 0 \tab 258 \tab 301 \tab 235 \tab 348 \tab 50 \tab 16 \tab 9 \tab 121 \tab 34 \tab 1372 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab patriotic \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab unpatriotic \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 258 \tab 301 \tab 235 \tab 348 \tab 50 \tab 16 \tab 9 \tab 121 \tab 34 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 258 \tab 301 \tab 235 \tab 348 \tab 50 \tab 16 \tab 9 \tab 121 \tab 34 \tab 0 \tab 1372 \cr
 }
 }
 

@@ -31,10 +31,10 @@ Question I. How many hobby or garden clubs do you belong to?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3135/vshow}{GSS Data Explorer page for \code{numhobby}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab 1 \tab 2 \tab 3 \tab no answer \tab Total \cr
-   2004 \tab 2648 \tab 138 \tab 13 \tab 6 \tab 7 \tab 2812 \cr
-   Total \tab 2648 \tab 138 \tab 13 \tab 6 \tab 7 \tab 2812 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2648 \tab 138 \tab 13 \tab 6 \tab 7 \tab - \tab 2812 \cr
+   Total \tab 2648 \tab 138 \tab 13 \tab 6 \tab 7 \tab 0 \tab 2812 \cr
 }
 }
 

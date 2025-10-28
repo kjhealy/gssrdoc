@@ -35,10 +35,10 @@ Question And about you yourself?  Would you say right now that you have complete
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2664/vshow}{GSS Data Explorer page for \code{rhowfree}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab complete freedom \tab a great deal of freedom \tab a moderate degree of freedom \tab not much freedom \tab no freedom at all \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 238 \tab 769 \tab 333 \tab 53 \tab 5 \tab 7 \tab 14 \tab 2817 \cr
-   Total \tab 1398 \tab 238 \tab 769 \tab 333 \tab 53 \tab 5 \tab 7 \tab 14 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab complete freedom \tab a great deal of freedom \tab a moderate degree of freedom \tab not much freedom \tab no freedom at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 238 \tab 769 \tab 333 \tab 53 \tab 5 \tab 7 \tab 14 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 238 \tab 769 \tab 333 \tab 53 \tab 5 \tab 7 \tab 14 \tab 0 \tab 2817 \cr
 }
 }
 

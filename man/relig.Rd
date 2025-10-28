@@ -79,9 +79,10 @@ Counts by year:\tabular{llllllllllllllllll}{
    2014 \tab 1126 \tab 606 \tab 40 \tab 522 \tab 21 \tab 14 \tab 6 \tab 27 \tab 16 \tab 3 \tab 10 \tab 9 \tab 132 \tab 2 \tab 4 \tab - \tab 2538 \cr
    2016 \tab 1380 \tab 649 \tab 51 \tab 620 \tab 29 \tab 18 \tab 3 \tab 22 \tab 13 \tab 4 \tab 19 \tab 7 \tab 41 \tab 4 \tab 7 \tab - \tab 2867 \cr
    2018 \tab 1139 \tab 493 \tab 39 \tab 542 \tab 32 \tab 16 \tab 5 \tab 19 \tab 8 \tab 1 \tab 16 \tab 6 \tab 30 \tab 1 \tab 1 \tab - \tab 2348 \cr
-   2021 \tab 1590 \tab 824 \tab 75 \tab 1121 \tab 55 \tab 44 \tab 5 \tab 47 \tab 30 \tab 2 \tab 25 \tab 37 \tab 124 \tab 3 \tab 18 \tab 32 \tab 4032 \cr
+   2021 \tab 1589 \tab 824 \tab 76 \tab 1121 \tab 55 \tab 44 \tab 5 \tab 47 \tab 30 \tab 2 \tab 25 \tab 37 \tab 124 \tab 3 \tab 18 \tab 32 \tab 4032 \cr
    2022 \tab 1418 \tab 744 \tab 61 \tab 977 \tab 89 \tab 32 \tab 20 \tab 27 \tab 28 \tab 3 \tab 23 \tab 21 \tab 85 \tab 2 \tab 5 \tab 9 \tab 3544 \cr
-   Total \tab 40125 \tab 17242 \tab 1421 \tab 9895 \tab 1224 \tab 337 \tab 59 \tab 272 \tab 158 \tab 44 \tab 201 \tab 176 \tab 1000 \tab 36 \tab 159 \tab 41 \tab 72390 \cr
+   2024 \tab 1406 \tab 649 \tab 46 \tab 876 \tab 77 \tab 4 \tab 26 \tab 27 \tab 31 \tab 4 \tab 41 \tab 31 \tab 70 \tab 3 \tab 8 \tab 10 \tab 3309 \cr
+   Total \tab 41530 \tab 17891 \tab 1468 \tab 10771 \tab 1301 \tab 341 \tab 85 \tab 299 \tab 189 \tab 48 \tab 242 \tab 207 \tab 1070 \tab 39 \tab 167 \tab 51 \tab 75699 \cr
 }
 }
 

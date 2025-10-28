@@ -32,11 +32,12 @@ Question Would you approve if the citizen was attacking the police officer with 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7449/vshow}{GSS Data Explorer page for \code{polattaky}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab skipped on web \tab don't know \tab Total \cr
-   2021 \tab 2673 \tab 1031 \tab 323 \tab 5 \tab - \tab 4032 \cr
-   2022 \tab 2364 \tab 925 \tab 238 \tab 2 \tab 15 \tab 3544 \cr
-   Total \tab 5037 \tab 1956 \tab 561 \tab 7 \tab 15 \tab 7576 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab skipped on web \tab don't know \tab no answer \tab Total \cr
+   2021 \tab 2673 \tab 1031 \tab 323 \tab 5 \tab - \tab - \tab 4032 \cr
+   2022 \tab 2364 \tab 925 \tab 238 \tab 2 \tab 15 \tab - \tab 3544 \cr
+   2024 \tab 2227 \tab 854 \tab 210 \tab 11 \tab 5 \tab 2 \tab 3309 \cr
+   Total \tab 7264 \tab 2810 \tab 771 \tab 18 \tab 20 \tab 2 \tab 10885 \cr
 }
 }
 

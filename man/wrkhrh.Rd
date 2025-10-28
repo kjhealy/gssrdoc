@@ -32,10 +32,10 @@ C. Paid work or other income-producing activity?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2561/vshow}{GSS Data Explorer page for \code{wrkhrh}}.
 
-Counts by year:\tabular{llllllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 14 \tab 15 \tab 2 \tab 20 \tab 25 \tab 3 \tab 32 \tab 4 \tab 40 \tab 5 \tab 6 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2418 \tab 230 \tab 11 \tab 11 \tab 1 \tab 1 \tab 6 \tab 15 \tab 4 \tab 1 \tab 10 \tab 1 \tab 6 \tab 4 \tab 10 \tab 3 \tab 4 \tab 1 \tab 3 \tab 77 \tab 2817 \cr
-   Total \tab 2418 \tab 230 \tab 11 \tab 11 \tab 1 \tab 1 \tab 6 \tab 15 \tab 4 \tab 1 \tab 10 \tab 1 \tab 6 \tab 4 \tab 10 \tab 3 \tab 4 \tab 1 \tab 3 \tab 77 \tab 2817 \cr
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 14 \tab 15 \tab 2 \tab 20 \tab 25 \tab 3 \tab 32 \tab 4 \tab 40 \tab 5 \tab 6 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2418 \tab 230 \tab 11 \tab 11 \tab 1 \tab 1 \tab 6 \tab 15 \tab 4 \tab 1 \tab 10 \tab 1 \tab 6 \tab 4 \tab 10 \tab 3 \tab 4 \tab 1 \tab 3 \tab 77 \tab - \tab 2817 \cr
+   Total \tab 2418 \tab 230 \tab 11 \tab 11 \tab 1 \tab 1 \tab 6 \tab 15 \tab 4 \tab 1 \tab 10 \tab 1 \tab 6 \tab 4 \tab 10 \tab 3 \tab 4 \tab 1 \tab 3 \tab 77 \tab 0 \tab 2817 \cr
 }
 }
 

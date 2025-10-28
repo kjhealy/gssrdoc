@@ -32,13 +32,14 @@ Question IF YES: Do any of those persons supervise anyone else?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6179/vshow}{GSS Data Explorer page for \code{wksups1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab 6 \tab Total \cr
-   2016 \tab 2118 \tab 224 \tab 518 \tab 7 \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 1753 \tab 201 \tab 390 \tab 4 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 3170 \tab 272 \tab 567 \tab 15 \tab 1 \tab 7 \tab - \tab 4032 \cr
-   2022 \tab 2748 \tab 243 \tab 532 \tab - \tab 6 \tab 4 \tab 11 \tab 3544 \cr
-   Total \tab 9789 \tab 940 \tab 2007 \tab 26 \tab 7 \tab 11 \tab 11 \tab 12791 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2016 \tab 2118 \tab 224 \tab 518 \tab 7 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1753 \tab 201 \tab 390 \tab 4 \tab - \tab - \tab 2348 \cr
+   2021 \tab 3170 \tab 272 \tab 567 \tab 15 \tab 1 \tab 7 \tab 4032 \cr
+   2022 \tab 2748 \tab 243 \tab 532 \tab 11 \tab 6 \tab 4 \tab 3544 \cr
+   2024 \tab 2681 \tab 222 \tab 374 \tab 9 \tab 13 \tab 10 \tab 3309 \cr
+   Total \tab 12470 \tab 1162 \tab 2381 \tab 46 \tab 20 \tab 21 \tab 16100 \cr
 }
 }
 

@@ -35,10 +35,10 @@ D. These medications often have unacceptable side effects.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2977/vshow}{GSS Data Explorer page for \code{medunacc}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 413 \tab 646 \tab 186 \tab 44 \tab 92 \tab 12 \tab 2765 \cr
-   Total \tab 1372 \tab 413 \tab 646 \tab 186 \tab 44 \tab 92 \tab 12 \tab 2765 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1372 \tab 413 \tab 646 \tab 186 \tab 44 \tab 92 \tab 12 \tab - \tab 2765 \cr
+   Total \tab 1372 \tab 413 \tab 646 \tab 186 \tab 44 \tab 92 \tab 12 \tab 0 \tab 2765 \cr
 }
 }
 

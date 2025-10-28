@@ -37,10 +37,10 @@ Question Who would you turn to first toï¿½. Help you around your home if you 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7245/vshow}{GSS Data Explorer page for \code{hlpsick}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab close family member \tab more distant family member \tab close friend \tab neighbor \tab someone i work with \tab someone else \tab no one \tab don't know \tab Total \cr
-   2018 \tab 1175 \tab 910 \tab 10 \tab 170 \tab 22 \tab 5 \tab 26 \tab 29 \tab 1 \tab 2348 \cr
-   Total \tab 1175 \tab 910 \tab 10 \tab 170 \tab 22 \tab 5 \tab 26 \tab 29 \tab 1 \tab 2348 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab close family member \tab more distant family member \tab close friend \tab neighbor \tab someone i work with \tab someone else \tab no one \tab don't know \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 910 \tab 10 \tab 170 \tab 22 \tab 5 \tab 26 \tab 29 \tab 1 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 910 \tab 10 \tab 170 \tab 22 \tab 5 \tab 26 \tab 29 \tab 1 \tab 0 \tab 2348 \cr
 }
 }
 

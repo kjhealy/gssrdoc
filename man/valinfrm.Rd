@@ -32,10 +32,10 @@ N. Informal-alone-not-for-pay
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1973/vshow}{GSS Data Explorer page for \code{valinfrm}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab 0 \tab 10 \tab 100 \tab 1000 \tab 250 \tab 50 \tab 75 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2867 \tab 14 \tab 2 \tab 2 \tab 1 \tab 1 \tab 4 \tab 1 \tab 3 \tab 9 \tab 2904 \cr
-   Total \tab 2867 \tab 14 \tab 2 \tab 2 \tab 1 \tab 1 \tab 4 \tab 1 \tab 3 \tab 9 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 100 \tab 1000 \tab 250 \tab 50 \tab 75 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2867 \tab 14 \tab 2 \tab 2 \tab 1 \tab 1 \tab 4 \tab 1 \tab 3 \tab 9 \tab - \tab 2904 \cr
+   Total \tab 2867 \tab 14 \tab 2 \tab 2 \tab 1 \tab 1 \tab 4 \tab 1 \tab 3 \tab 9 \tab 0 \tab 2904 \cr
 }
 }
 

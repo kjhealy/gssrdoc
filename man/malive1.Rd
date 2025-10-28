@@ -32,10 +32,10 @@ Question Is your mother alive?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1454/vshow}{GSS Data Explorer page for \code{malive1}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1474 \tab 949 \tab 556 \tab 6 \tab 7 \tab 2992 \cr
-   Total \tab 1474 \tab 949 \tab 556 \tab 6 \tab 7 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1474 \tab 949 \tab 556 \tab 6 \tab 7 \tab - \tab 2992 \cr
+   Total \tab 1474 \tab 949 \tab 556 \tab 6 \tab 7 \tab 0 \tab 2992 \cr
 }
 }
 

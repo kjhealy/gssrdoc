@@ -35,10 +35,10 @@ A. A public day care center?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4357/vshow}{GSS Data Explorer page for \code{daycare1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very suitable \tab somewhat suitable \tab not very suitable \tab not at all suitable \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 267 \tab 548 \tab 278 \tab 165 \tab 99 \tab 57 \tab 1481 \cr
-   Total \tab 67 \tab 267 \tab 548 \tab 278 \tab 165 \tab 99 \tab 57 \tab 1481 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very suitable \tab somewhat suitable \tab not very suitable \tab not at all suitable \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 267 \tab 548 \tab 278 \tab 165 \tab 99 \tab 57 \tab - \tab 1481 \cr
+   Total \tab 67 \tab 267 \tab 548 \tab 278 \tab 165 \tab 99 \tab 57 \tab 0 \tab 1481 \cr
 }
 }
 

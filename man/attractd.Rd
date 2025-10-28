@@ -39,10 +39,10 @@ Question At about what age were you first sexually attracted to someone of the s
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3908/vshow}{GSS Data Explorer page for \code{attractd}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab under age 14 \tab age 14-18 \tab age 18-25 \tab age 26-35 \tab age 36-45 \tab age 46-55 \tab i have never told anyone i have never been sexually attracted to someone of the same sex \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1879 \tab 30 \tab 23 \tab 13 \tab 3 \tab 1 \tab 4 \tab 20 \tab 4 \tab 46 \tab 2023 \cr
-   Total \tab 1879 \tab 30 \tab 23 \tab 13 \tab 3 \tab 1 \tab 4 \tab 20 \tab 4 \tab 46 \tab 2023 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab under age 14 \tab age 14-18 \tab age 18-25 \tab age 26-35 \tab age 36-45 \tab age 46-55 \tab i have never told anyone i have never been sexually attracted to someone of the same sex \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1879 \tab 30 \tab 23 \tab 13 \tab 3 \tab 1 \tab 4 \tab 20 \tab 4 \tab 46 \tab - \tab 2023 \cr
+   Total \tab 1879 \tab 30 \tab 23 \tab 13 \tab 3 \tab 1 \tab 4 \tab 20 \tab 4 \tab 46 \tab 0 \tab 2023 \cr
 }
 }
 

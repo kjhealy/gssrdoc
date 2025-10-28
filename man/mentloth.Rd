@@ -35,12 +35,13 @@ E. Go to a therapist, or counselor, like a psychologist, social worker, or other
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2015/vshow}{GSS Data Explorer page for \code{mentloth}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 1169 \tab 204 \tab 42 \tab 29 \tab 2904 \cr
-   2006 \tab 3073 \tab 1222 \tab 162 \tab 37 \tab 16 \tab 4510 \cr
-   2018 \tab 1175 \tab 1060 \tab 68 \tab 16 \tab 29 \tab 2348 \cr
-   Total \tab 5708 \tab 3451 \tab 434 \tab 95 \tab 74 \tab 9762 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 1169 \tab 204 \tab 42 \tab 29 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 1222 \tab 162 \tab 37 \tab 16 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 1060 \tab 68 \tab 16 \tab 29 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1693 \tab 1445 \tab 109 \tab 29 \tab 11 \tab - \tab 22 \tab 3309 \cr
+   Total \tab 7401 \tab 4896 \tab 543 \tab 124 \tab 85 \tab 0 \tab 22 \tab 13071 \cr
 }
 }
 

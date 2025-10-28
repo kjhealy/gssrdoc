@@ -36,10 +36,10 @@ C. How many do you think attend religious services regularly? Would you say…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3664/vshow}{GSS Data Explorer page for \code{acqattnd}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab almost all \tab most \tab about half \tab a few \tab none \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3139 \tab 90 \tab 242 \tab 429 \tab 383 \tab 36 \tab 171 \tab 20 \tab 4510 \cr
-   Total \tab 3139 \tab 90 \tab 242 \tab 429 \tab 383 \tab 36 \tab 171 \tab 20 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab almost all \tab most \tab about half \tab a few \tab none \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3139 \tab 90 \tab 242 \tab 429 \tab 383 \tab 36 \tab 171 \tab 20 \tab - \tab 4510 \cr
+   Total \tab 3139 \tab 90 \tab 242 \tab 429 \tab 383 \tab 36 \tab 171 \tab 20 \tab 0 \tab 4510 \cr
 }
 }
 

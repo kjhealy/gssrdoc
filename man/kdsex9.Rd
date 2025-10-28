@@ -33,10 +33,10 @@ B9. Sex of ninth child.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1500/vshow}{GSS Data Explorer page for \code{kdsex9}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab male \tab female \tab Total \cr
-   1994 \tab 2983 \tab 7 \tab 2 \tab 2992 \cr
-   Total \tab 2983 \tab 7 \tab 2 \tab 2992 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab male \tab female \tab not available in this year \tab Total \cr
+   1994 \tab 2983 \tab 7 \tab 2 \tab - \tab 2992 \cr
+   Total \tab 2983 \tab 7 \tab 2 \tab 0 \tab 2992 \cr
 }
 }
 

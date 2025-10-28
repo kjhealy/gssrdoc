@@ -33,10 +33,10 @@ A. Would you, personally, be offended by an exhibit of such artworks or would yo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2127/vshow}{GSS Data Explorer page for \code{irreloff}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab offended \tab not offended \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 2040 \tab 316 \tab 444 \tab 10 \tab 22 \tab 2832 \cr
-   Total \tab 2040 \tab 316 \tab 444 \tab 10 \tab 22 \tab 2832 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab offended \tab not offended \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2040 \tab 316 \tab 444 \tab 10 \tab 22 \tab - \tab 2832 \cr
+   Total \tab 2040 \tab 316 \tab 444 \tab 10 \tab 22 \tab 0 \tab 2832 \cr
 }
 }
 

@@ -42,10 +42,10 @@ Please select one source.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6349/vshow}{GSS Data Explorer page for \code{econsup1}}.
 
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab current spouse/partner \tab other family members \tab pension (private or government) \tab unemployment benefits \tab social assistance/welfare \tab occasional work \tab student loans/stipends \tab savings \tab investments or rental income \tab other \tab no answer \tab Total \cr
-   2016 \tab 2326 \tab 85 \tab 35 \tab 178 \tab 7 \tab 73 \tab 4 \tab 5 \tab 25 \tab 18 \tab 85 \tab 26 \tab 2867 \cr
-   Total \tab 2326 \tab 85 \tab 35 \tab 178 \tab 7 \tab 73 \tab 4 \tab 5 \tab 25 \tab 18 \tab 85 \tab 26 \tab 2867 \cr
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab current spouse/partner \tab other family members \tab pension (private or government) \tab unemployment benefits \tab social assistance/welfare \tab occasional work \tab student loans/stipends \tab savings \tab investments or rental income \tab other \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2326 \tab 85 \tab 35 \tab 178 \tab 7 \tab 73 \tab 4 \tab 5 \tab 25 \tab 18 \tab 85 \tab 26 \tab - \tab 2867 \cr
+   Total \tab 2326 \tab 85 \tab 35 \tab 178 \tab 7 \tab 73 \tab 4 \tab 5 \tab 25 \tab 18 \tab 85 \tab 26 \tab 0 \tab 2867 \cr
 }
 }
 

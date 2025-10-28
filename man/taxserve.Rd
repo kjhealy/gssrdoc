@@ -34,11 +34,11 @@ Question C. IF STRONGLY FAVOR OR PROBABLY FAVOR EITHER A OR B: and suppose that 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/780/vshow}{GSS Data Explorer page for \code{taxserve}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly favor \tab probably favor \tab probably oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
-   1982 \tab 484 \tab 262 \tab 517 \tab 299 \tab 216 \tab 38 \tab 44 \tab 1860 \cr
-   1984 \tab 400 \tab 193 \tab 460 \tab 250 \tab 106 \tab 21 \tab 43 \tab 1473 \cr
-   Total \tab 884 \tab 455 \tab 977 \tab 549 \tab 322 \tab 59 \tab 87 \tab 3333 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly favor \tab probably favor \tab probably oppose \tab strongly oppose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab 484 \tab 262 \tab 517 \tab 299 \tab 216 \tab 38 \tab 44 \tab - \tab 1860 \cr
+   1984 \tab 400 \tab 193 \tab 460 \tab 250 \tab 106 \tab 21 \tab 43 \tab - \tab 1473 \cr
+   Total \tab 884 \tab 455 \tab 977 \tab 549 \tab 322 \tab 59 \tab 87 \tab 0 \tab 3333 \cr
 }
 }
 

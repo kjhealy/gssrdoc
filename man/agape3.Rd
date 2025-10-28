@@ -36,10 +36,10 @@ C. I am usually willing to sacrifice my own wishes to let the one I love achieve
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3055/vshow}{GSS Data Explorer page for \code{agape3}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree somewhat \tab neither agree nor disagree \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 1472 \tab 488 \tab 588 \tab 160 \tab 68 \tab 26 \tab 4 \tab 6 \tab 2812 \cr
-   Total \tab 1472 \tab 488 \tab 588 \tab 160 \tab 68 \tab 26 \tab 4 \tab 6 \tab 2812 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree somewhat \tab neither agree nor disagree \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1472 \tab 488 \tab 588 \tab 160 \tab 68 \tab 26 \tab 4 \tab 6 \tab - \tab 2812 \cr
+   Total \tab 1472 \tab 488 \tab 588 \tab 160 \tab 68 \tab 26 \tab 4 \tab 6 \tab 0 \tab 2812 \cr
 }
 }
 

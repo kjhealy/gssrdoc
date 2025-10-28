@@ -36,11 +36,11 @@ It is the responsibility of the government to reduce the differences in income b
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4005/vshow}{GSS Data Explorer page for \code{eqincome}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab 5 \tab no answer \tab don't know \tab Total \cr
-   1985 \tab 857 \tab 84 \tab 113 \tab 136 \tab 204 \tab 129 \tab 11 \tab - \tab 1534 \cr
-   1990 \tab 155 \tab 114 \tab 286 \tab 327 \tab 349 \tab 125 \tab 14 \tab 2 \tab 1372 \cr
-   Total \tab 1012 \tab 198 \tab 399 \tab 463 \tab 553 \tab 254 \tab 25 \tab 2 \tab 2906 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab 5 \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 84 \tab 113 \tab 136 \tab 204 \tab 129 \tab 11 \tab - \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 114 \tab 286 \tab 327 \tab 349 \tab 125 \tab 14 \tab 2 \tab - \tab 1372 \cr
+   Total \tab 1012 \tab 198 \tab 399 \tab 463 \tab 553 \tab 254 \tab 25 \tab 2 \tab 0 \tab 2906 \cr
 }
 }
 

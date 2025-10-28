@@ -36,10 +36,10 @@ G. The government should provide everyone with a guaranteed basic income.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4301/vshow}{GSS Data Explorer page for \code{govminc}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1987 \tab 255 \tab 107 \tab 268 \tab 316 \tab 562 \tab 230 \tab 54 \tab 27 \tab 1819 \cr
-   Total \tab 255 \tab 107 \tab 268 \tab 316 \tab 562 \tab 230 \tab 54 \tab 27 \tab 1819 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 107 \tab 268 \tab 316 \tab 562 \tab 230 \tab 54 \tab 27 \tab - \tab 1819 \cr
+   Total \tab 255 \tab 107 \tab 268 \tab 316 \tab 562 \tab 230 \tab 54 \tab 27 \tab 0 \tab 1819 \cr
 }
 }
 

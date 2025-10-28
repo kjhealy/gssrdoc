@@ -37,12 +37,13 @@ F. God's will
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1993/vshow}{GSS Data Explorer page for \code{godswill}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 67 \tab 134 \tab 334 \tab 827 \tab 66 \tab 16 \tab 2904 \cr
-   2006 \tab 3073 \tab 55 \tab 126 \tab 332 \tab 868 \tab 42 \tab 14 \tab 4510 \cr
-   2018 \tab 1175 \tab 47 \tab 107 \tab 303 \tab 664 \tab 20 \tab 32 \tab 2348 \cr
-   Total \tab 5708 \tab 169 \tab 367 \tab 969 \tab 2359 \tab 128 \tab 62 \tab 9762 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 67 \tab 134 \tab 334 \tab 827 \tab 66 \tab 16 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 55 \tab 126 \tab 332 \tab 868 \tab 42 \tab 14 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 47 \tab 107 \tab 303 \tab 664 \tab 20 \tab 32 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1691 \tab 74 \tab 171 \tab 370 \tab 927 \tab 39 \tab 13 \tab - \tab 24 \tab 3309 \cr
+   Total \tab 7399 \tab 243 \tab 538 \tab 1339 \tab 3286 \tab 167 \tab 75 \tab 0 \tab 24 \tab 13071 \cr
 }
 }
 

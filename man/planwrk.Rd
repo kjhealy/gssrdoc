@@ -33,10 +33,10 @@ Question And which of the following statements about your work is most true?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4557/vshow}{GSS Data Explorer page for \code{planwrk}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab not available in this year \tab plans most \tab plans part \tab cant plan \tab no answer \tab iap \tab Total \cr
-   1989 \tab - \tab 384 \tab 312 \tab 176 \tab 665 \tab - \tab 1537 \cr
-   Total \tab 0 \tab 384 \tab 312 \tab 176 \tab 665 \tab 0 \tab 1537 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab not available in this year \tab plans most \tab plans part \tab cant plan \tab no answer \tab Total \cr
+   1989 \tab - \tab 384 \tab 312 \tab 176 \tab 665 \tab 1537 \cr
+   Total \tab 0 \tab 384 \tab 312 \tab 176 \tab 665 \tab 1537 \cr
 }
 }
 

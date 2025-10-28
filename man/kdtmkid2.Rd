@@ -34,10 +34,10 @@ B. Second listed child?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2648/vshow}{GSS Data Explorer page for \code{kdtmkid2}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab too much \tab about the right amount \tab too little \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2591 \tab 11 \tab 95 \tab 86 \tab 6 \tab 28 \tab 2817 \cr
-   Total \tab 2591 \tab 11 \tab 95 \tab 86 \tab 6 \tab 28 \tab 2817 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too much \tab about the right amount \tab too little \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2591 \tab 11 \tab 95 \tab 86 \tab 6 \tab 28 \tab - \tab 2817 \cr
+   Total \tab 2591 \tab 11 \tab 95 \tab 86 \tab 6 \tab 28 \tab 0 \tab 2817 \cr
 }
 }
 

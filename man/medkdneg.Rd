@@ -35,10 +35,10 @@ B. Giving medications to children with behavior problems will have long-term neg
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2962/vshow}{GSS Data Explorer page for \code{medkdneg}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 344 \tab 515 \tab 326 \tab 89 \tab 106 \tab 13 \tab 2765 \cr
-   Total \tab 1372 \tab 344 \tab 515 \tab 326 \tab 89 \tab 106 \tab 13 \tab 2765 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1372 \tab 344 \tab 515 \tab 326 \tab 89 \tab 106 \tab 13 \tab - \tab 2765 \cr
+   Total \tab 1372 \tab 344 \tab 515 \tab 326 \tab 89 \tab 106 \tab 13 \tab 0 \tab 2765 \cr
 }
 }
 

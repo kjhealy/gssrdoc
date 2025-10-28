@@ -34,10 +34,11 @@ Question Which of these statements about immigrants comes closest to your view:
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4902/vshow}{GSS Data Explorer page for \code{immassim}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab immigrants should retain their culture of origin and not adopt american culture \tab immigrants should retain their culture of origin and also adopt american culture \tab immigrants should give up their culture of origin and adopt american culture \tab can't choose \tab no answer \tab Total \cr
-   2014 \tab 1264 \tab 36 \tab 1084 \tab 65 \tab 85 \tab 4 \tab 2538 \cr
-   Total \tab 1264 \tab 36 \tab 1084 \tab 65 \tab 85 \tab 4 \tab 2538 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab immigrants should retain their culture of origin and not adopt american culture \tab immigrants should retain their culture of origin and also adopt american culture \tab immigrants should give up their culture of origin and adopt american culture \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2014 \tab 1264 \tab 36 \tab 1084 \tab 65 \tab 85 \tab 4 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1663 \tab 77 \tab 1275 \tab 87 \tab 188 \tab 3 \tab - \tab 16 \tab 3309 \cr
+   Total \tab 2927 \tab 113 \tab 2359 \tab 152 \tab 273 \tab 7 \tab 0 \tab 16 \tab 5847 \cr
 }
 }
 

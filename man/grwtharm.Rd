@@ -37,14 +37,14 @@ F. Economic growth always harms the environment.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4734/vshow}{GSS Data Explorer page for \code{grwtharm}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   1993 \tab 49 \tab 34 \tab 272 \tab 378 \tab 682 \tab 83 \tab 45 \tab 63 \tab - \tab 1606 \cr
-   1994 \tab 1606 \tab 34 \tab 228 \tab 340 \tab 623 \tab 70 \tab 53 \tab 38 \tab - \tab 2992 \cr
-   2000 \tab 1541 \tab 31 \tab 191 \tab 370 \tab 500 \tab 56 \tab 45 \tab 83 \tab - \tab 2817 \cr
-   2010 \tab 614 \tab 26 \tab 210 \tab 295 \tab 755 \tab 75 \tab 62 \tab 7 \tab - \tab 2044 \cr
-   2021 \tab 2003 \tab 30 \tab 160 \tab 619 \tab 817 \tab 145 \tab 74 \tab 172 \tab 12 \tab 4032 \cr
-   Total \tab 5813 \tab 155 \tab 1061 \tab 2002 \tab 3377 \tab 429 \tab 279 \tab 363 \tab 12 \tab 13491 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 34 \tab 272 \tab 378 \tab 682 \tab 83 \tab 45 \tab 63 \tab - \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 34 \tab 228 \tab 340 \tab 623 \tab 70 \tab 53 \tab 38 \tab - \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 31 \tab 191 \tab 370 \tab 500 \tab 56 \tab 45 \tab 83 \tab - \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 26 \tab 210 \tab 295 \tab 755 \tab 75 \tab 62 \tab 7 \tab - \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 30 \tab 160 \tab 619 \tab 817 \tab 145 \tab 74 \tab 172 \tab 12 \tab - \tab 4032 \cr
+   Total \tab 5813 \tab 155 \tab 1061 \tab 2002 \tab 3377 \tab 429 \tab 279 \tab 363 \tab 12 \tab 0 \tab 13491 \cr
 }
 }
 

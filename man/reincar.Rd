@@ -35,10 +35,10 @@ A. ...in Reincarnation " being reborn in this world again and again?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4705/vshow}{GSS Data Explorer page for \code{reincar}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably not \tab no, definitely not \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 658 \tab 178 \tab 248 \tab 374 \tab 488 \tab 71 \tab 6 \tab 2023 \cr
-   Total \tab 658 \tab 178 \tab 248 \tab 374 \tab 488 \tab 71 \tab 6 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably not \tab no, definitely not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 658 \tab 178 \tab 248 \tab 374 \tab 488 \tab 71 \tab 6 \tab - \tab 2023 \cr
+   Total \tab 658 \tab 178 \tab 248 \tab 374 \tab 488 \tab 71 \tab 6 \tab 0 \tab 2023 \cr
 }
 }
 

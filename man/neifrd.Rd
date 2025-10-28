@@ -32,10 +32,10 @@ Question Thinking now of people who live near you - in your neighborhood or dist
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4203/vshow}{GSS Data Explorer page for \code{neifrd}}.
 
-Counts by year:\tabular{llllllllllllllllllllllll}{
-   year \tab iap \tab no close friends living near r \tab 1 \tab 10 \tab 12 \tab 15 \tab 16 \tab 19 \tab 2 \tab 20 \tab 25 \tab 3 \tab 30 \tab 4 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1616 \tab 356 \tab 122 \tab 42 \tab 7 \tab 11 \tab 2 \tab 1 \tab 200 \tab 19 \tab 3 \tab 110 \tab 1 \tab 96 \tab 86 \tab 4 \tab 52 \tab 11 \tab 9 \tab 10 \tab 1 \tab 6 \tab 2765 \cr
-   Total \tab 1616 \tab 356 \tab 122 \tab 42 \tab 7 \tab 11 \tab 2 \tab 1 \tab 200 \tab 19 \tab 3 \tab 110 \tab 1 \tab 96 \tab 86 \tab 4 \tab 52 \tab 11 \tab 9 \tab 10 \tab 1 \tab 6 \tab 2765 \cr
+Counts by year:\tabular{lllllllllllllllllllllllll}{
+   year \tab iap \tab no close friends living near r \tab 1 \tab 10 \tab 12 \tab 15 \tab 16 \tab 19 \tab 2 \tab 20 \tab 25 \tab 3 \tab 30 \tab 4 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1616 \tab 356 \tab 122 \tab 42 \tab 7 \tab 11 \tab 2 \tab 1 \tab 200 \tab 19 \tab 3 \tab 110 \tab 1 \tab 96 \tab 86 \tab 4 \tab 52 \tab 11 \tab 9 \tab 10 \tab 1 \tab 6 \tab - \tab 2765 \cr
+   Total \tab 1616 \tab 356 \tab 122 \tab 42 \tab 7 \tab 11 \tab 2 \tab 1 \tab 200 \tab 19 \tab 3 \tab 110 \tab 1 \tab 96 \tab 86 \tab 4 \tab 52 \tab 11 \tab 9 \tab 10 \tab 1 \tab 6 \tab 0 \tab 2765 \cr
 }
 }
 

@@ -33,10 +33,10 @@ Question Compared to 10 years ago do Hispanics and Asians make up a larger share
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1612/vshow}{GSS Data Explorer page for \code{hspasn10}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab larger share \tab same share \tab smaller share \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 728 \tab 408 \tab 172 \tab 157 \tab 9 \tab 2992 \cr
-   Total \tab 1518 \tab 728 \tab 408 \tab 172 \tab 157 \tab 9 \tab 2992 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab larger share \tab same share \tab smaller share \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 728 \tab 408 \tab 172 \tab 157 \tab 9 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 728 \tab 408 \tab 172 \tab 157 \tab 9 \tab 0 \tab 2992 \cr
 }
 }
 

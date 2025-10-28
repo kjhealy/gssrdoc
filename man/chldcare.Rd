@@ -36,11 +36,11 @@ B. Families should receive financial benefits for child care when both parents w
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4413/vshow}{GSS Data Explorer page for \code{chldcare}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1994 \tab 1545 \tab 204 \tab 407 \tab 261 \tab 389 \tab 71 \tab 35 \tab 80 \tab 2992 \cr
-   2002 \tab 1594 \tab 333 \tab 312 \tab 206 \tab 216 \tab 74 \tab 29 \tab 1 \tab 2765 \cr
-   Total \tab 3139 \tab 537 \tab 719 \tab 467 \tab 605 \tab 145 \tab 64 \tab 81 \tab 5757 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1545 \tab 204 \tab 407 \tab 261 \tab 389 \tab 71 \tab 35 \tab 80 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 333 \tab 312 \tab 206 \tab 216 \tab 74 \tab 29 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 3139 \tab 537 \tab 719 \tab 467 \tab 605 \tab 145 \tab 64 \tab 81 \tab 0 \tab 5757 \cr
 }
 }
 

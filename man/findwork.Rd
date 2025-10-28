@@ -35,10 +35,10 @@ Question If you lost your job for any reason, and were looking actively for anot
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4558/vshow}{GSS Data Explorer page for \code{findwork}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very easy \tab fairly easy \tab neither easy nor difficult \tab fairly difficult \tab very difficult \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 182 \tab 321 \tab 138 \tab 133 \tab 76 \tab 24 \tab 24 \tab 1537 \cr
-   Total \tab 639 \tab 182 \tab 321 \tab 138 \tab 133 \tab 76 \tab 24 \tab 24 \tab 1537 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very easy \tab fairly easy \tab neither easy nor difficult \tab fairly difficult \tab very difficult \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 182 \tab 321 \tab 138 \tab 133 \tab 76 \tab 24 \tab 24 \tab - \tab 1537 \cr
+   Total \tab 639 \tab 182 \tab 321 \tab 138 \tab 133 \tab 76 \tab 24 \tab 24 \tab 0 \tab 1537 \cr
 }
 }
 

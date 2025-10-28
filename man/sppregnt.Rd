@@ -37,10 +37,10 @@ A. Prenatal care for pregnant mothers who can't afford it…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5122/vshow}{GSS Data Explorer page for \code{sppregnt}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
-   1990 \tab 155 \tab 126 \tab 400 \tab 510 \tab 84 \tab 25 \tab 53 \tab 19 \tab 1372 \cr
-   Total \tab 155 \tab 126 \tab 400 \tab 510 \tab 84 \tab 25 \tab 53 \tab 19 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 155 \tab 126 \tab 400 \tab 510 \tab 84 \tab 25 \tab 53 \tab 19 \tab - \tab 1372 \cr
+   Total \tab 155 \tab 126 \tab 400 \tab 510 \tab 84 \tab 25 \tab 53 \tab 19 \tab 0 \tab 1372 \cr
 }
 }
 

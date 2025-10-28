@@ -38,15 +38,15 @@ A. Differences in income in America are too large.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4295/vshow}{GSS Data Explorer page for \code{incgap}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   1987 \tab 255 \tab 244 \tab 636 \tab 324 \tab 240 \tab 46 \tab 50 \tab 24 \tab - \tab 1819 \cr
-   1996 \tab 1460 \tab 464 \tab 467 \tab 178 \tab 169 \tab 117 \tab 41 \tab 8 \tab - \tab 2904 \cr
-   2000 \tab 1545 \tab 297 \tab 489 \tab 255 \tab 109 \tab 38 \tab 37 \tab 47 \tab - \tab 2817 \cr
-   2008 \tab 982 \tab 259 \tab 395 \tab 204 \tab 135 \tab 33 \tab 10 \tab 5 \tab - \tab 2023 \cr
-   2018 \tab 1175 \tab 349 \tab 379 \tab 266 \tab 118 \tab 31 \tab 29 \tab 1 \tab - \tab 2348 \cr
-   2021 \tab 2029 \tab 793 \tab 545 \tab 301 \tab 130 \tab 53 \tab 41 \tab 134 \tab 6 \tab 4032 \cr
-   Total \tab 7446 \tab 2406 \tab 2911 \tab 1528 \tab 901 \tab 318 \tab 208 \tab 219 \tab 6 \tab 15943 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 244 \tab 636 \tab 324 \tab 240 \tab 46 \tab 50 \tab 24 \tab - \tab - \tab 1819 \cr
+   1996 \tab 1460 \tab 464 \tab 467 \tab 178 \tab 169 \tab 117 \tab 41 \tab 8 \tab - \tab - \tab 2904 \cr
+   2000 \tab 1545 \tab 297 \tab 489 \tab 255 \tab 109 \tab 38 \tab 37 \tab 47 \tab - \tab - \tab 2817 \cr
+   2008 \tab 982 \tab 259 \tab 395 \tab 204 \tab 135 \tab 33 \tab 10 \tab 5 \tab - \tab - \tab 2023 \cr
+   2018 \tab 1175 \tab 349 \tab 379 \tab 266 \tab 118 \tab 31 \tab 29 \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab 2029 \tab 793 \tab 545 \tab 301 \tab 130 \tab 53 \tab 41 \tab 134 \tab 6 \tab - \tab 4032 \cr
+   Total \tab 7446 \tab 2406 \tab 2911 \tab 1528 \tab 901 \tab 318 \tab 208 \tab 219 \tab 6 \tab 0 \tab 15943 \cr
 }
 }
 

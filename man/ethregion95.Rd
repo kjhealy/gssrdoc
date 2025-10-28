@@ -32,10 +32,10 @@ Question From what country or countries did your ancestors come?  Jamaica
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7734/vshow}{GSS Data Explorer page for \code{ethregion95}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 15 \tab 3302 \tab 681 \tab 1 \tab 33 \tab 4032 \cr
-   Total \tab 15 \tab 3302 \tab 681 \tab 1 \tab 33 \tab 4032 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab no \tab yes \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 15 \tab 3297 \tab 5 \tab 681 \tab 1 \tab 33 \tab - \tab 4032 \cr
+   Total \tab 15 \tab 3297 \tab 5 \tab 681 \tab 1 \tab 33 \tab 0 \tab 4032 \cr
 }
 }
 

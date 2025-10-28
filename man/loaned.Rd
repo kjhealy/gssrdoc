@@ -32,10 +32,10 @@ Question Have you loaned $100 or more to another person at any time during the p
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1855/vshow}{GSS Data Explorer page for \code{loaned}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   1996 \tab 2196 \tab 284 \tab 424 \tab 2904 \cr
-   Total \tab 2196 \tab 284 \tab 424 \tab 2904 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab not available in this year \tab Total \cr
+   1996 \tab 2196 \tab 284 \tab 424 \tab - \tab 2904 \cr
+   Total \tab 2196 \tab 284 \tab 424 \tab 0 \tab 2904 \cr
 }
 }
 

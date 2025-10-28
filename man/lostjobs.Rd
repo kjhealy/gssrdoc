@@ -33,10 +33,10 @@ Question On average, do you think the jobs in the United States that have been t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3886/vshow}{GSS Data Explorer page for \code{lostjobs}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab better \tab about the same \tab worse \tab don't know \tab Total \cr
-   2008 \tab 1747 \tab 40 \tab 48 \tab 177 \tab 11 \tab 2023 \cr
-   Total \tab 1747 \tab 40 \tab 48 \tab 177 \tab 11 \tab 2023 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab better \tab about the same \tab worse \tab don't know \tab not available in this year \tab Total \cr
+   2008 \tab 1747 \tab 40 \tab 48 \tab 177 \tab 11 \tab - \tab 2023 \cr
+   Total \tab 1747 \tab 40 \tab 48 \tab 177 \tab 11 \tab 0 \tab 2023 \cr
 }
 }
 

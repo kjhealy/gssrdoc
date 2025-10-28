@@ -32,10 +32,10 @@ Question Are you, alone or with others, currently trying to start a new business
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3814/vshow}{GSS Data Explorer page for \code{startbiz}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2008 \tab - \tab 201 \tab 1819 \tab 3 \tab 2023 \cr
-   Total \tab 0 \tab 201 \tab 1819 \tab 3 \tab 2023 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab - \tab 201 \tab 1819 \tab 3 \tab - \tab 2023 \cr
+   Total \tab 0 \tab 201 \tab 1819 \tab 3 \tab 0 \tab 2023 \cr
 }
 }
 

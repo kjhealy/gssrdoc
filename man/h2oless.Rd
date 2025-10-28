@@ -34,10 +34,10 @@ Question K2. And how often do you choose to save or re-use water for environment
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4814/vshow}{GSS Data Explorer page for \code{h2oless}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab always \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
-   2010 \tab 614 \tab 94 \tab 308 \tab 386 \tab 631 \tab 3 \tab 8 \tab 2044 \cr
-   Total \tab 614 \tab 94 \tab 308 \tab 386 \tab 631 \tab 3 \tab 8 \tab 2044 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 614 \tab 94 \tab 308 \tab 386 \tab 631 \tab 3 \tab 8 \tab - \tab 2044 \cr
+   Total \tab 614 \tab 94 \tab 308 \tab 386 \tab 631 \tab 3 \tab 8 \tab 0 \tab 2044 \cr
 }
 }
 

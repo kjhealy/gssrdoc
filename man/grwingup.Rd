@@ -35,10 +35,11 @@ Question In your opinion, how likely is it that (John/Mary) is experiencing part
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2952/vshow}{GSS Data Explorer page for \code{grwingup}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 504 \tab 536 \tab 234 \tab 81 \tab 25 \tab 13 \tab 2765 \cr
-   Total \tab 1372 \tab 504 \tab 536 \tab 234 \tab 81 \tab 25 \tab 13 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not likely at all \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2002 \tab 1372 \tab 504 \tab 536 \tab 234 \tab 81 \tab 25 \tab 13 \tab - \tab - \tab 2765 \cr
+   2024 \tab 1662 \tab 554 \tab 785 \tab 221 \tab 42 \tab 17 \tab 6 \tab - \tab 22 \tab 3309 \cr
+   Total \tab 3034 \tab 1058 \tab 1321 \tab 455 \tab 123 \tab 42 \tab 19 \tab 0 \tab 22 \tab 6074 \cr
 }
 }
 

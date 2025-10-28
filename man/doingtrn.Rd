@@ -32,10 +32,10 @@ Question A. Did the on-the-job training include informal learning by doing?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2154/vshow}{GSS Data Explorer page for \code{doingtrn}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1998 \tab 1883 \tab 861 \tab 54 \tab 34 \tab 2832 \cr
-   Total \tab 1883 \tab 861 \tab 54 \tab 34 \tab 2832 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1883 \tab 861 \tab 54 \tab 34 \tab - \tab 2832 \cr
+   Total \tab 1883 \tab 861 \tab 54 \tab 34 \tab 0 \tab 2832 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Do you receive any of the earnings from your main job in the form of co
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1349/vshow}{GSS Data Explorer page for \code{othpay}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1991 \tab 605 \tab 377 \tab 523 \tab 12 \tab 1517 \cr
-   Total \tab 605 \tab 377 \tab 523 \tab 12 \tab 1517 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 605 \tab 377 \tab 523 \tab 12 \tab - \tab 1517 \cr
+   Total \tab 605 \tab 377 \tab 523 \tab 12 \tab 0 \tab 1517 \cr
 }
 }
 

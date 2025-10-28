@@ -31,21 +31,21 @@ Question A. Number of traumatic events (deaths, divorces, unemployment, and hosp
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/753/vshow}{GSS Data Explorer page for \code{trauma1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab no answer \tab Total \cr
-   1978 \tab - \tab 908 \tab 482 \tab 78 \tab 7 \tab 1 \tab 56 \tab 1532 \cr
-   1980 \tab - \tab 862 \tab 453 \tab 90 \tab 2 \tab 1 \tab 60 \tab 1468 \cr
-   1983 \tab - \tab 917 \tab 529 \tab 117 \tab 3 \tab - \tab 33 \tab 1599 \cr
-   1984 \tab - \tab 831 \tab 465 \tab 104 \tab 5 \tab - \tab 68 \tab 1473 \cr
-   1986 \tab - \tab 855 \tab 445 \tab 101 \tab 9 \tab - \tab 60 \tab 1470 \cr
-   1987 \tab - \tab 1008 \tab 547 \tab 104 \tab 9 \tab 1 \tab 150 \tab 1819 \cr
-   1988 \tab 484 \tab 548 \tab 323 \tab 77 \tab 3 \tab - \tab 46 \tab 1481 \cr
-   1989 \tab 502 \tab 611 \tab 277 \tab 57 \tab 8 \tab - \tab 82 \tab 1537 \cr
-   1990 \tab 473 \tab 542 \tab 258 \tab 40 \tab 8 \tab - \tab 51 \tab 1372 \cr
-   1991 \tab 500 \tab 587 \tab 302 \tab 52 \tab 2 \tab - \tab 74 \tab 1517 \cr
-   1993 \tab 549 \tab 636 \tab 291 \tab 80 \tab 6 \tab - \tab 44 \tab 1606 \cr
-   1994 \tab 2481 \tab 305 \tab 137 \tab 38 \tab 4 \tab 1 \tab 26 \tab 2992 \cr
-   Total \tab 4989 \tab 8610 \tab 4509 \tab 938 \tab 66 \tab 4 \tab 750 \tab 19866 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab no answer \tab not available in this year \tab Total \cr
+   1978 \tab - \tab 908 \tab 482 \tab 78 \tab 7 \tab 1 \tab 56 \tab - \tab 1532 \cr
+   1980 \tab - \tab 862 \tab 453 \tab 90 \tab 2 \tab 1 \tab 60 \tab - \tab 1468 \cr
+   1983 \tab - \tab 917 \tab 529 \tab 117 \tab 3 \tab - \tab 33 \tab - \tab 1599 \cr
+   1984 \tab - \tab 831 \tab 465 \tab 104 \tab 5 \tab - \tab 68 \tab - \tab 1473 \cr
+   1986 \tab - \tab 855 \tab 445 \tab 101 \tab 9 \tab - \tab 60 \tab - \tab 1470 \cr
+   1987 \tab - \tab 1008 \tab 547 \tab 104 \tab 9 \tab 1 \tab 150 \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 548 \tab 323 \tab 77 \tab 3 \tab - \tab 46 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 611 \tab 277 \tab 57 \tab 8 \tab - \tab 82 \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 542 \tab 258 \tab 40 \tab 8 \tab - \tab 51 \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 587 \tab 302 \tab 52 \tab 2 \tab - \tab 74 \tab - \tab 1517 \cr
+   1993 \tab 549 \tab 636 \tab 291 \tab 80 \tab 6 \tab - \tab 44 \tab - \tab 1606 \cr
+   1994 \tab 2481 \tab 305 \tab 137 \tab 38 \tab 4 \tab 1 \tab 26 \tab - \tab 2992 \cr
+   Total \tab 4989 \tab 8610 \tab 4509 \tab 938 \tab 66 \tab 4 \tab 750 \tab 0 \tab 19866 \cr
 }
 }
 

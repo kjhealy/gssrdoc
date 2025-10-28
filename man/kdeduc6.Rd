@@ -31,10 +31,10 @@ F6. Highest school grade sixth child completed.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1533/vshow}{GSS Data Explorer page for \code{kdeduc6}}.
 
-Counts by year:\tabular{lllllllllllllllll}{
-   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 15 \tab 16 \tab 17 \tab 19 \tab 5 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2940 \tab 1 \tab 1 \tab 6 \tab 19 \tab 1 \tab 1 \tab 6 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 4 \tab 6 \tab 2992 \cr
-   Total \tab 2940 \tab 1 \tab 1 \tab 6 \tab 19 \tab 1 \tab 1 \tab 6 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 4 \tab 6 \tab 2992 \cr
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 15 \tab 16 \tab 17 \tab 19 \tab 5 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2940 \tab 1 \tab 1 \tab 6 \tab 19 \tab 1 \tab 1 \tab 6 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 4 \tab 6 \tab - \tab 2992 \cr
+   Total \tab 2940 \tab 1 \tab 1 \tab 6 \tab 19 \tab 1 \tab 1 \tab 6 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 4 \tab 6 \tab 0 \tab 2992 \cr
 }
 }
 

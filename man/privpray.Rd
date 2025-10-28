@@ -38,10 +38,10 @@ Question How often do you pray privately in places other than at church or synag
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2090/vshow}{GSS Data Explorer page for \code{privpray}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab mre thn once/day \tab once a day \tab a few times/week \tab once a week \tab few times/month \tab once a month \tab less once/mnth \tab never \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 343 \tab 373 \tab 195 \tab 69 \tab 78 \tab 33 \tab 129 \tab 186 \tab 14 \tab 25 \tab 2832 \cr
-   Total \tab 1387 \tab 343 \tab 373 \tab 195 \tab 69 \tab 78 \tab 33 \tab 129 \tab 186 \tab 14 \tab 25 \tab 2832 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab mre thn once/day \tab once a day \tab a few times/week \tab once a week \tab few times/month \tab once a month \tab less once/mnth \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 343 \tab 373 \tab 195 \tab 69 \tab 78 \tab 33 \tab 129 \tab 186 \tab 14 \tab 25 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 343 \tab 373 \tab 195 \tab 69 \tab 78 \tab 33 \tab 129 \tab 186 \tab 14 \tab 25 \tab 0 \tab 2832 \cr
 }
 }
 

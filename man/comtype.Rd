@@ -35,12 +35,12 @@ Question Would you describe the place where you live as…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4777/vshow}{GSS Data Explorer page for \code{comtype}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab big city \tab suburbs, outskirts \tab small town \tab country village \tab farm, cntry home \tab don't know \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 266 \tab 406 \tab 590 \tab 66 \tab 192 \tab 1 \tab 36 \tab 1606 \cr
-   1994 \tab 1606 \tab 268 \tab 328 \tab 552 \tab 61 \tab 145 \tab 1 \tab 31 \tab 2992 \cr
-   2000 \tab 1541 \tab 238 \tab 292 \tab 499 \tab 51 \tab 127 \tab - \tab 69 \tab 2817 \cr
-   Total \tab 3196 \tab 772 \tab 1026 \tab 1641 \tab 178 \tab 464 \tab 2 \tab 136 \tab 7415 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab big city \tab suburbs, outskirts \tab small town \tab country village \tab farm, cntry home \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 266 \tab 406 \tab 590 \tab 66 \tab 192 \tab 1 \tab 36 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 268 \tab 328 \tab 552 \tab 61 \tab 145 \tab 1 \tab 31 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 238 \tab 292 \tab 499 \tab 51 \tab 127 \tab - \tab 69 \tab - \tab 2817 \cr
+   Total \tab 3196 \tab 772 \tab 1026 \tab 1641 \tab 178 \tab 464 \tab 2 \tab 136 \tab 0 \tab 7415 \cr
 }
 }
 

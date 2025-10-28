@@ -35,10 +35,10 @@ Question And do you think that pollution of America's rivers, lakes and streams 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7492/vshow}{GSS Data Explorer page for \code{watergen1}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2003 \tab 591 \tab 691 \tab 442 \tab 51 \tab 5 \tab 52 \tab 185 \tab 12 \tab 4032 \cr
-   Total \tab 2003 \tab 591 \tab 691 \tab 442 \tab 51 \tab 5 \tab 52 \tab 185 \tab 12 \tab 4032 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2003 \tab 591 \tab 691 \tab 442 \tab 51 \tab 5 \tab 52 \tab 185 \tab 12 \tab - \tab 4032 \cr
+   Total \tab 2003 \tab 591 \tab 691 \tab 442 \tab 51 \tab 5 \tab 52 \tab 185 \tab 12 \tab 0 \tab 4032 \cr
 }
 }
 

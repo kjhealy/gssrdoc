@@ -34,11 +34,11 @@ Question Which of the following statements come closest to your own views:
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4695/vshow}{GSS Data Explorer page for \code{reltruth}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab little truth any \tab basic truth many \tab truth in one \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1548 \tab 42 \tab 894 \tab 126 \tab 178 \tab 44 \tab 2832 \cr
-   2008 \tab 658 \tab 60 \tab 1103 \tab 166 \tab 27 \tab 9 \tab 2023 \cr
-   Total \tab 2206 \tab 102 \tab 1997 \tab 292 \tab 205 \tab 53 \tab 4855 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab little truth any \tab basic truth many \tab truth in one \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1548 \tab 42 \tab 894 \tab 126 \tab 178 \tab 44 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 60 \tab 1103 \tab 166 \tab 27 \tab 9 \tab - \tab 2023 \cr
+   Total \tab 2206 \tab 102 \tab 1997 \tab 292 \tab 205 \tab 53 \tab 0 \tab 4855 \cr
 }
 }
 

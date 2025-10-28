@@ -34,10 +34,10 @@ Question Traits are transferred from generation to generation through the…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3479/vshow}{GSS Data Explorer page for \code{genes}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab sperm only \tab egg only \tab sperm and egg \tab testes \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 518 \tab 95 \tab 31 \tab 1178 \tab 30 \tab 153 \tab 18 \tab 2023 \cr
-   Total \tab 518 \tab 95 \tab 31 \tab 1178 \tab 30 \tab 153 \tab 18 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab sperm only \tab egg only \tab sperm and egg \tab testes \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 518 \tab 95 \tab 31 \tab 1178 \tab 30 \tab 153 \tab 18 \tab - \tab 2023 \cr
+   Total \tab 518 \tab 95 \tab 31 \tab 1178 \tab 30 \tab 153 \tab 18 \tab 0 \tab 2023 \cr
 }
 }
 

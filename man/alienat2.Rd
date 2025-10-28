@@ -33,10 +33,10 @@ B. The rich get richer and the poor get poorer.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/429/vshow}{GSS Data Explorer page for \code{alienat2}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab feel \tab not feel \tab don't know \tab no answer \tab Total \cr
-   1978 \tab - \tab 1120 \tab 355 \tab 43 \tab 14 \tab 1532 \cr
-   Total \tab 0 \tab 1120 \tab 355 \tab 43 \tab 14 \tab 1532 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab feel \tab not feel \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1978 \tab - \tab 1120 \tab 355 \tab 43 \tab 14 \tab - \tab 1532 \cr
+   Total \tab 0 \tab 1120 \tab 355 \tab 43 \tab 14 \tab 0 \tab 1532 \cr
 }
 }
 

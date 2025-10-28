@@ -33,10 +33,10 @@ Question A. What do you think the chances are these days that a white person won
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1622/vshow}{GSS Data Explorer page for \code{colaff}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not likely \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2235 \tab 195 \tab 311 \tab 207 \tab 38 \tab 6 \tab 2992 \cr
-   Total \tab 2235 \tab 195 \tab 311 \tab 207 \tab 38 \tab 6 \tab 2992 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not likely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2235 \tab 195 \tab 311 \tab 207 \tab 38 \tab 6 \tab - \tab 2992 \cr
+   Total \tab 2235 \tab 195 \tab 311 \tab 207 \tab 38 \tab 6 \tab 0 \tab 2992 \cr
 }
 }
 

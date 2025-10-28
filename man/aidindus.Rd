@@ -38,14 +38,14 @@ E. Provide industry with the help it needs to grow.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4080/vshow}{GSS Data Explorer page for \code{aidindus}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 107 \tab 289 \tab 159 \tab 72 \tab 39 \tab 11 \tab 1534 \cr
-   1990 \tab 155 \tab 205 \tab 572 \tab 272 \tab 54 \tab 74 \tab 40 \tab 1372 \cr
-   1996 \tab 1572 \tab 206 \tab 580 \tab 306 \tab 104 \tab 76 \tab 60 \tab 2904 \cr
-   2006 \tab 2992 \tab 421 \tab 674 \tab 318 \tab 71 \tab 34 \tab - \tab 4510 \cr
-   2016 \tab 1477 \tab 371 \tab 611 \tab 283 \tab 81 \tab 32 \tab 12 \tab 2867 \cr
-   Total \tab 7053 \tab 1310 \tab 2726 \tab 1338 \tab 382 \tab 255 \tab 123 \tab 13187 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 107 \tab 289 \tab 159 \tab 72 \tab 39 \tab 11 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 205 \tab 572 \tab 272 \tab 54 \tab 74 \tab 40 \tab - \tab 1372 \cr
+   1996 \tab 1572 \tab 206 \tab 580 \tab 306 \tab 104 \tab 76 \tab 60 \tab - \tab 2904 \cr
+   2006 \tab 2992 \tab 421 \tab 674 \tab 318 \tab 71 \tab 34 \tab - \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 371 \tab 611 \tab 283 \tab 81 \tab 32 \tab 12 \tab - \tab 2867 \cr
+   Total \tab 7053 \tab 1310 \tab 2726 \tab 1338 \tab 382 \tab 255 \tab 123 \tab 0 \tab 13187 \cr
 }
 }
 

@@ -34,10 +34,10 @@ Question Scientists should be allowed to do research that causes pain and injury
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3469/vshow}{GSS Data Explorer page for \code{anscitst}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 518 \tab 96 \tab 474 \tab 542 \tab 321 \tab 61 \tab 11 \tab 2023 \cr
-   Total \tab 518 \tab 96 \tab 474 \tab 542 \tab 321 \tab 61 \tab 11 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 518 \tab 96 \tab 474 \tab 542 \tab 321 \tab 61 \tab 11 \tab - \tab 2023 \cr
+   Total \tab 518 \tab 96 \tab 474 \tab 542 \tab 321 \tab 61 \tab 11 \tab 0 \tab 2023 \cr
 }
 }
 

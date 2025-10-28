@@ -22,10 +22,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes  |no |don't know |no answer |Total |
-#'  |:-----|:---|:----|:--|:----------|:---------|:-----|
-#'  |2014  |707 |1663 |95 |39         |34        |2538  |
-#'  |Total |707 |1663 |95 |39         |34        |2538  |
+#'  |year  |iap |yes  |no |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:----|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2014  |707 |1663 |95 |39         |34        |-                          |2538  |
+#'  |Total |707 |1663 |95 |39         |34        |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
@@ -62,10 +62,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |true |false |don't know |no answer |Total |
-#'  |:-----|:---|:----|:-----|:----------|:---------|:-----|
-#'  |2014  |707 |162  |1500  |135        |34        |2538  |
-#'  |Total |707 |162  |1500  |135        |34        |2538  |
+#'  |year  |iap |true |false |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:----|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2014  |707 |162  |1500  |135        |34        |-                          |2538  |
+#'  |Total |707 |162  |1500  |135        |34        |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
@@ -102,10 +102,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |true |false |don't know |no answer |Total |
-#'  |:-----|:---|:----|:-----|:----------|:---------|:-----|
-#'  |2014  |707 |481  |1210  |102        |38        |2538  |
-#'  |Total |707 |481  |1210  |102        |38        |2538  |
+#'  |year  |iap |true |false |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:----|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2014  |707 |481  |1210  |102        |38        |-                          |2538  |
+#'  |Total |707 |481  |1210  |102        |38        |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
@@ -154,7 +154,8 @@ NULL
 #'  |2018  |942  |31                          |51       |1291                     |6          |27        |-              |2348  |
 #'  |2021  |1682 |76                          |96       |2088                     |53         |2         |35             |4032  |
 #'  |2022  |1900 |53                          |82       |1409                     |62         |7         |31             |3544  |
-#'  |Total |6482 |338                         |451      |13709                    |151        |173       |66             |21370 |
+#'  |2024  |-    |67                          |122      |3052                     |41         |11        |16             |3309  |
+#'  |Total |6482 |405                         |573      |16761                    |192        |184       |82             |24679 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family High Risk Behaviors
@@ -192,10 +193,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |female |male |intersex |no answer |Total |
-#'  |:-----|:---|:------|:----|:--------|:---------|:-----|
-#'  |2018  |939 |759    |637  |1        |12        |2348  |
-#'  |Total |939 |759    |637  |1        |12        |2348  |
+#'  |year  |iap |female |male |intersex |no answer |not available in this year |Total |
+#'  |:-----|:---|:------|:----|:--------|:---------|:--------------------------|:-----|
+#'  |2018  |939 |759    |637  |1        |12        |-                          |2348  |
+#'  |Total |939 |759    |637  |1        |12        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -233,10 +234,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |female |male |transgender |a gender not listed here |no answer |Total |
-#'  |:-----|:---|:------|:----|:-----------|:------------------------|:---------|:-----|
-#'  |2018  |939 |758    |640  |2           |1                        |8         |2348  |
-#'  |Total |939 |758    |640  |2           |1                        |8         |2348  |
+#'  |year  |iap |female |male |transgender |a gender not listed here |no answer |not available in this year |Total |
+#'  |:-----|:---|:------|:----|:-----------|:------------------------|:---------|:--------------------------|:-----|
+#'  |2018  |939 |758    |640  |2           |1                        |8         |-                          |2348  |
+#'  |Total |939 |758    |640  |2           |1                        |8         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -271,10 +272,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |0   |1   |10 |11 |16 |2   |3  |4  |5  |6  |7  |8  |9  |only child |don't know |no answer |Total |
-#'  |:-----|:---|:---|:---|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:----------|:----------|:---------|:-----|
-#'  |1990  |444 |231 |244 |5  |2  |1  |148 |86 |58 |36 |18 |18 |11 |6  |45         |1          |18        |1372  |
-#'  |Total |444 |231 |244 |5  |2  |1  |148 |86 |58 |36 |18 |18 |11 |6  |45         |1          |18        |1372  |
+#'  |year  |iap |0   |1   |10 |11 |16 |2   |3  |4  |5  |6  |7  |8  |9  |only child |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:--|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |444 |231 |244 |5  |2  |1  |148 |86 |58 |36 |18 |18 |11 |6  |45         |1          |18        |-                          |1372  |
+#'  |Total |444 |231 |244 |5  |2  |1  |148 |86 |58 |36 |18 |18 |11 |6  |45         |1          |18        |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Birth Order
@@ -313,11 +314,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a great deal |not very much |nothing at all |refused |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:-------------|:--------------|:-------|:----------|:---------|:-----|
-#'  |1990  |455  |117          |541           |237            |2       |16         |4         |1372  |
-#'  |1996  |2408 |67           |313           |86             |-       |11         |19        |2904  |
-#'  |Total |2863 |184          |854           |323            |2       |27         |23        |4276  |
+#'  |year  |iap  |a great deal |not very much |nothing at all |refused |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:-------------|:--------------|:-------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |455  |117          |541           |237            |2       |16         |4         |-                          |1372  |
+#'  |1996  |2408 |67           |313           |86             |-       |11         |19        |-                          |2904  |
+#'  |Total |2863 |184          |854           |323            |2       |27         |23        |0                          |4276  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes
@@ -356,12 +357,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a great deal |something but not very much |nothing at all |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:---------------------------|:--------------|:----------|:---------|:-----|
-#'  |1996  |2431 |70           |276                         |82             |10         |35        |2904  |
-#'  |2004  |2    |508          |1896                        |397            |9          |-         |2812  |
-#'  |2018  |1168 |142          |694                         |314            |4          |26        |2348  |
-#'  |Total |3601 |720          |2866                        |793            |23         |61        |8064  |
+#'  |year  |iap  |a great deal |something but not very much |nothing at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:---------------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |2431 |70           |276                         |82             |10         |35        |-                          |2904  |
+#'  |2004  |2    |508          |1896                        |397            |9          |-         |-                          |2812  |
+#'  |2018  |1168 |142          |694                         |314            |4          |26        |-                          |2348  |
+#'  |Total |3601 |720          |2866                        |793            |23         |61        |0                          |8064  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes
@@ -399,11 +400,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |good ) harm |harm ) good |it depends |refused |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:-----------|:----------|:-------|:----------|:---------|:-----|
-#'  |1990  |455  |434         |190         |99         |6       |183        |5         |1372  |
-#'  |1996  |2408 |242         |112         |-          |-       |119        |23        |2904  |
-#'  |Total |2863 |676         |302         |99         |6       |302        |28        |4276  |
+#'  |year  |iap  |good ) harm |harm ) good |it depends |refused |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:-----------|:----------|:-------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |455  |434         |190         |99         |6       |183        |5         |-                          |1372  |
+#'  |1996  |2408 |242         |112         |-          |-       |119        |23        |-                          |2904  |
+#'  |Total |2863 |676         |302         |99         |6       |302        |28        |0                          |4276  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes

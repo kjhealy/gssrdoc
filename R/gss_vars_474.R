@@ -26,11 +26,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very strong conflicts |strong conflicts |not very strong conflicts |there are no conflicts |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:---------------------|:----------------|:-------------------------|:----------------------|:------------|:---------|:--------------|:-----|
-#'  |2000  |1545 |118                   |359              |551                       |79                     |51           |114       |-              |2817  |
-#'  |2021  |2029 |138                   |537              |925                       |116                    |111          |159       |17             |4032  |
-#'  |Total |3574 |256                   |896              |1476                      |195                    |162          |273       |17             |6849  |
+#'  |year  |iap  |very strong conflicts |strong conflicts |not very strong conflicts |there are no conflicts |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:---------------------|:----------------|:-------------------------|:----------------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2000  |1545 |118                   |359              |551                       |79                     |51           |114       |-              |-                          |2817  |
+#'  |2021  |2029 |138                   |537              |925                       |116                    |111          |159       |17             |-                          |4032  |
+#'  |Total |3574 |256                   |896              |1476                      |195                    |162          |273       |17             |0                          |6849  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -72,11 +72,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |much higher than dad |higher |about equal |lower |much lower than dad |r never had job |no dad-never had job |no answer |Total |
-#'  |:-----|:----|:--------------------|:------|:-----------|:-----|:-------------------|:---------------|:--------------------|:---------|:-----|
-#'  |1987  |255  |311                  |404    |335         |208   |109                 |43              |84                   |70        |1819  |
-#'  |2000  |1545 |215                  |302    |282         |183   |100                 |12              |48                   |130       |2817  |
-#'  |Total |1800 |526                  |706    |617         |391   |209                 |55              |132                  |200       |4636  |
+#'  |year  |iap  |much higher than dad |higher |about equal |lower |much lower than dad |r never had job |no dad-never had job |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------------|:------|:-----------|:-----|:-------------------|:---------------|:--------------------|:---------|:--------------------------|:-----|
+#'  |1987  |255  |311                  |404    |335         |208   |109                 |43              |84                   |70        |-                          |1819  |
+#'  |2000  |1545 |215                  |302    |282         |183   |100                 |12              |48                   |130       |-                          |2817  |
+#'  |Total |1800 |526                  |706    |617         |391   |209                 |55              |132                  |200       |0                          |4636  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -121,10 +121,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |prof or tech |higher admin |clerical |sales |service |skilled worker |semi-skilled worker |unskilled worker |farm |Total |
-#'  |:-----|:---|:------------|:------------|:--------|:-----|:-------|:--------------|:-------------------|:----------------|:----|:-----|
-#'  |1987  |443 |154          |53           |50       |119   |77      |282            |204                 |175              |262  |1819  |
-#'  |Total |443 |154          |53           |50       |119   |77      |282            |204                 |175              |262  |1819  |
+#'  |year  |iap |prof or tech |higher admin |clerical |sales |service |skilled worker |semi-skilled worker |unskilled worker |farm |not available in this year |Total |
+#'  |:-----|:---|:------------|:------------|:--------|:-----|:-------|:--------------|:-------------------|:----------------|:----|:--------------------------|:-----|
+#'  |1987  |443 |154          |53           |50       |119   |77      |282            |204                 |175              |262  |-                          |1819  |
+#'  |Total |443 |154          |53           |50       |119   |77      |282            |204                 |175              |262  |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -162,10 +162,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |self-employed |someone else |no dad-never had job |no answer |Total |
-#'  |:-----|:---|:-------------|:------------|:--------------------|:---------|:-----|
-#'  |1987  |255 |372           |920          |84                   |188       |1819  |
-#'  |Total |255 |372           |920          |84                   |188       |1819  |
+#'  |year  |iap |self-employed |someone else |no dad-never had job |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------|:------------|:--------------------|:---------|:--------------------------|:-----|
+#'  |1987  |255 |372           |920          |84                   |188       |-                          |1819  |
+#'  |Total |255 |372           |920          |84                   |188       |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -209,10 +209,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |prof or tech |higher admin |clerical |sales |service |skilled worker |semi-skilled worker |unskilled worker |farm |never had job |no answer |Total |
-#'  |:-----|:---|:------------|:------------|:--------|:-----|:-------|:--------------|:-------------------|:----------------|:----|:-------------|:---------|:-----|
-#'  |1987  |255 |229          |9            |309      |94    |134     |116            |120                 |319              |73   |55            |106       |1819  |
-#'  |Total |255 |229          |9            |309      |94    |134     |116            |120                 |319              |73   |55            |106       |1819  |
+#'  |year  |iap |prof or tech |higher admin |clerical |sales |service |skilled worker |semi-skilled worker |unskilled worker |farm |never had job |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------|:------------|:--------|:-----|:-------|:--------------|:-------------------|:----------------|:----|:-------------|:---------|:--------------------------|:-----|
+#'  |1987  |255 |229          |9            |309      |94    |134     |116            |120                 |319              |73   |55            |106       |-                          |1819  |
+#'  |Total |255 |229          |9            |309      |94    |134     |116            |120                 |319              |73   |55            |106       |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -251,10 +251,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |self-employed |someone else |never had job |no answer |Total |
-#'  |:-----|:---|:-------------|:------------|:-------------|:---------|:-----|
-#'  |1987  |255 |57            |1252         |55            |200       |1819  |
-#'  |Total |255 |57            |1252         |55            |200       |1819  |
+#'  |year  |iap |self-employed |someone else |never had job |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------|:------------|:-------------|:---------|:--------------------------|:-----|
+#'  |1987  |255 |57            |1252         |55            |200       |-                          |1819  |
+#'  |Total |255 |57            |1252         |55            |200       |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -299,10 +299,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |prof or tech |higher admin |clerical |sales |service |skilled worker |semi-skilled worker |unskilled worker |farm |never had job |no answer |Total |
-#'  |:-----|:---|:------------|:------------|:--------|:-----|:-------|:--------------|:-------------------|:----------------|:----|:-------------|:---------|:-----|
-#'  |1987  |255 |281          |39           |255      |136   |152     |222            |120                 |173              |34   |46            |106       |1819  |
-#'  |Total |255 |281          |39           |255      |136   |152     |222            |120                 |173              |34   |46            |106       |1819  |
+#'  |year  |iap |prof or tech |higher admin |clerical |sales |service |skilled worker |semi-skilled worker |unskilled worker |farm |never had job |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------|:------------|:--------|:-----|:-------|:--------------|:-------------------|:----------------|:----|:-------------|:---------|:--------------------------|:-----|
+#'  |1987  |255 |281          |39           |255      |136   |152     |222            |120                 |173              |34   |46            |106       |-                          |1819  |
+#'  |Total |255 |281          |39           |255      |136   |152     |222            |120                 |173              |34   |46            |106       |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -341,10 +341,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |self-employed |someone else |never had job |no answer |Total |
-#'  |:-----|:---|:-------------|:------------|:-------------|:---------|:-----|
-#'  |1987  |255 |143           |1176         |46            |199       |1819  |
-#'  |Total |255 |143           |1176         |46            |199       |1819  |
+#'  |year  |iap |self-employed |someone else |never had job |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------|:------------|:-------------|:---------|:--------------------------|:-----|
+#'  |1987  |255 |143           |1176         |46            |199       |-                          |1819  |
+#'  |Total |255 |143           |1176         |46            |199       |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -384,10 +384,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2000  |1545 |136            |636   |278                        |117      |26                |24           |55        |2817  |
-#'  |Total |1545 |136            |636   |278                        |117      |26                |24           |55        |2817  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2000  |1545 |136            |636   |278                        |117      |26                |24           |55        |-                          |2817  |
+#'  |Total |1545 |136            |636   |278                        |117      |26                |24           |55        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -427,10 +427,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2000  |1545 |187            |696   |208                        |90       |17                |21           |53        |2817  |
-#'  |Total |1545 |187            |696   |208                        |90       |17                |21           |53        |2817  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2000  |1545 |187            |696   |208                        |90       |17                |21           |53        |-                          |2817  |
+#'  |Total |1545 |187            |696   |208                        |90       |17                |21           |53        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality

@@ -34,10 +34,10 @@ Question Which of the following describes your present job situation?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4581/vshow}{GSS Data Explorer page for \code{wktenure}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab no writtn cntrct \tab fixed less 1 yr \tab fixed more 1 yr \tab job no tme limit \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1967 \tab 335 \tab 37 \tab 53 \tab 368 \tab 43 \tab 29 \tab 2832 \cr
-   Total \tab 1967 \tab 335 \tab 37 \tab 53 \tab 368 \tab 43 \tab 29 \tab 2832 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab no writtn cntrct \tab fixed less 1 yr \tab fixed more 1 yr \tab job no tme limit \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1967 \tab 335 \tab 37 \tab 53 \tab 368 \tab 43 \tab 29 \tab - \tab 2832 \cr
+   Total \tab 1967 \tab 335 \tab 37 \tab 53 \tab 368 \tab 43 \tab 29 \tab 0 \tab 2832 \cr
 }
 }
 

@@ -33,10 +33,10 @@ P. Someone else at work
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1756/vshow}{GSS Data Explorer page for \code{madat16}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1996 \tab 1779 \tab 32 \tab 1086 \tab 7 \tab 2904 \cr
-   Total \tab 1779 \tab 32 \tab 1086 \tab 7 \tab 2904 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1779 \tab 32 \tab 1086 \tab 7 \tab - \tab 2904 \cr
+   Total \tab 1779 \tab 32 \tab 1086 \tab 7 \tab 0 \tab 2904 \cr
 }
 }
 

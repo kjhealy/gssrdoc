@@ -33,10 +33,10 @@ Question For the following pair of questions, please circle the letter of the on
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3046/vshow}{GSS Data Explorer page for \code{geneexps}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab genes play major role in determining personality \tab it is experience that determine personality \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 432 \tab 588 \tab 1723 \tab 51 \tab 18 \tab 2812 \cr
-   Total \tab 432 \tab 588 \tab 1723 \tab 51 \tab 18 \tab 2812 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab genes play major role in determining personality \tab it is experience that determine personality \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 432 \tab 588 \tab 1723 \tab 51 \tab 18 \tab - \tab 2812 \cr
+   Total \tab 432 \tab 588 \tab 1723 \tab 51 \tab 18 \tab 0 \tab 2812 \cr
 }
 }
 

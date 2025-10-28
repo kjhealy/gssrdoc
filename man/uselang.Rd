@@ -36,10 +36,10 @@ Question F. How often do you use that language in your everyday life? (READ CATE
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2288/vshow}{GSS Data Explorer page for \code{uselang}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab never \tab less than once a week \tab once a week \tab several times a week \tab once a day \tab several times a day \tab no answer \tab Total \cr
-   2000 \tab 2450 \tab 79 \tab 73 \tab 28 \tab 34 \tab 19 \tab 126 \tab 8 \tab 2817 \cr
-   Total \tab 2450 \tab 79 \tab 73 \tab 28 \tab 34 \tab 19 \tab 126 \tab 8 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab less than once a week \tab once a week \tab several times a week \tab once a day \tab several times a day \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2450 \tab 79 \tab 73 \tab 28 \tab 34 \tab 19 \tab 126 \tab 8 \tab - \tab 2817 \cr
+   Total \tab 2450 \tab 79 \tab 73 \tab 28 \tab 34 \tab 19 \tab 126 \tab 8 \tab 0 \tab 2817 \cr
 }
 }
 

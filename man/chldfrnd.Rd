@@ -35,10 +35,11 @@ Question C. How willing would you be to have your children make friends with (Jo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2935/vshow}{GSS Data Explorer page for \code{chldfrnd}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 496 \tab 627 \tab 173 \tab 54 \tab 29 \tab 14 \tab 2765 \cr
-   Total \tab 1372 \tab 496 \tab 627 \tab 173 \tab 54 \tab 29 \tab 14 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2002 \tab 1372 \tab 496 \tab 627 \tab 173 \tab 54 \tab 29 \tab 14 \tab - \tab - \tab 2765 \cr
+   2024 \tab 1661 \tab 428 \tab 822 \tab 228 \tab 96 \tab 38 \tab 10 \tab - \tab 26 \tab 3309 \cr
+   Total \tab 3033 \tab 924 \tab 1449 \tab 401 \tab 150 \tab 67 \tab 24 \tab 0 \tab 26 \tab 6074 \cr
 }
 }
 

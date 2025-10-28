@@ -39,10 +39,10 @@ Question About how many books were there around your family's house when you wer
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4342/vshow}{GSS Data Explorer page for \code{books16}}.
 
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab none \tab 1 or 2 \tab around 10 \tab around 20 \tab around 50 \tab around 100 \tab around 200 \tab around 500 \tab 1,000 or more \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1545 \tab 37 \tab 81 \tab 205 \tab 226 \tab 229 \tab 186 \tab 139 \tab 63 \tab 33 \tab 1 \tab 72 \tab 2817 \cr
-   Total \tab 1545 \tab 37 \tab 81 \tab 205 \tab 226 \tab 229 \tab 186 \tab 139 \tab 63 \tab 33 \tab 1 \tab 72 \tab 2817 \cr
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab none \tab 1 or 2 \tab around 10 \tab around 20 \tab around 50 \tab around 100 \tab around 200 \tab around 500 \tab 1,000 or more \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1545 \tab 37 \tab 81 \tab 205 \tab 226 \tab 229 \tab 186 \tab 139 \tab 63 \tab 33 \tab 1 \tab 72 \tab - \tab 2817 \cr
+   Total \tab 1545 \tab 37 \tab 81 \tab 205 \tab 226 \tab 229 \tab 186 \tab 139 \tab 63 \tab 33 \tab 1 \tab 72 \tab 0 \tab 2817 \cr
 }
 }
 

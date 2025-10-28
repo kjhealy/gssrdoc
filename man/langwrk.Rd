@@ -36,10 +36,10 @@ Question B. How often do you hear languages other than English spoken in the pla
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2293/vshow}{GSS Data Explorer page for \code{langwrk}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab never \tab once a day \tab several times a day \tab less than once a week \tab once a week \tab several times a week \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1882 \tab 310 \tab 106 \tab 206 \tab 95 \tab 82 \tab 117 \tab 8 \tab 11 \tab 2817 \cr
-   Total \tab 1882 \tab 310 \tab 106 \tab 206 \tab 95 \tab 82 \tab 117 \tab 8 \tab 11 \tab 2817 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab never \tab once a day \tab several times a day \tab less than once a week \tab once a week \tab several times a week \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1882 \tab 310 \tab 106 \tab 206 \tab 95 \tab 82 \tab 117 \tab 8 \tab 11 \tab - \tab 2817 \cr
+   Total \tab 1882 \tab 310 \tab 106 \tab 206 \tab 95 \tab 82 \tab 117 \tab 8 \tab 11 \tab 0 \tab 2817 \cr
 }
 }
 

@@ -36,10 +36,10 @@ C. Restless or fidgety.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2116/vshow}{GSS Data Explorer page for \code{fidgety}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab all of the time \tab most of the time \tab some of the time \tab little of time \tab none of the time \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 52 \tab 132 \tab 412 \tab 431 \tab 397 \tab 5 \tab 16 \tab 2832 \cr
-   Total \tab 1387 \tab 52 \tab 132 \tab 412 \tab 431 \tab 397 \tab 5 \tab 16 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab all of the time \tab most of the time \tab some of the time \tab little of time \tab none of the time \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 52 \tab 132 \tab 412 \tab 431 \tab 397 \tab 5 \tab 16 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 52 \tab 132 \tab 412 \tab 431 \tab 397 \tab 5 \tab 16 \tab 0 \tab 2832 \cr
 }
 }
 

@@ -36,11 +36,11 @@ B. Free trade leads to better products becoming available in America.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4884/vshow}{GSS Data Explorer page for \code{freetrde}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1596 \tab 134 \tab 525 \tab 297 \tab 188 \tab 23 \tab 48 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 105 \tab 582 \tab 305 \tab 146 \tab 37 \tab 95 \tab 4 \tab 2538 \cr
-   Total \tab 2860 \tab 239 \tab 1107 \tab 602 \tab 334 \tab 60 \tab 143 \tab 5 \tab 5350 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1596 \tab 134 \tab 525 \tab 297 \tab 188 \tab 23 \tab 48 \tab 1 \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 105 \tab 582 \tab 305 \tab 146 \tab 37 \tab 95 \tab 4 \tab - \tab 2538 \cr
+   Total \tab 2860 \tab 239 \tab 1107 \tab 602 \tab 334 \tab 60 \tab 143 \tab 5 \tab 0 \tab 5350 \cr
 }
 }
 

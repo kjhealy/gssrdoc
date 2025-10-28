@@ -36,10 +36,10 @@ M. A person''s political beliefs?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4253/vshow}{GSS Data Explorer page for \code{oppol}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1987 \tab 255 \tab 31 \tab 135 \tab 388 \tab 550 \tab 382 \tab 49 \tab 29 \tab 1819 \cr
-   Total \tab 255 \tab 31 \tab 135 \tab 388 \tab 550 \tab 382 \tab 49 \tab 29 \tab 1819 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 31 \tab 135 \tab 388 \tab 550 \tab 382 \tab 49 \tab 29 \tab - \tab 1819 \cr
+   Total \tab 255 \tab 31 \tab 135 \tab 388 \tab 550 \tab 382 \tab 49 \tab 29 \tab 0 \tab 1819 \cr
 }
 }
 

@@ -35,10 +35,10 @@ B. The Devil
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4652/vshow}{GSS Data Explorer page for \code{devil}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably not \tab no, definitely not \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 550 \tab 242 \tab 204 \tab 216 \tab 65 \tab 82 \tab 1517 \cr
-   Total \tab 158 \tab 550 \tab 242 \tab 204 \tab 216 \tab 65 \tab 82 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably not \tab no, definitely not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 550 \tab 242 \tab 204 \tab 216 \tab 65 \tab 82 \tab - \tab 1517 \cr
+   Total \tab 158 \tab 550 \tab 242 \tab 204 \tab 216 \tab 65 \tab 82 \tab 0 \tab 1517 \cr
 }
 }
 

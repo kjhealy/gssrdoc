@@ -36,11 +36,11 @@ A. In the past year, that is, between (INSERT CURRENT MONTH) 2001/2003 and  (INS
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2610/vshow}{GSS Data Explorer page for \code{jobinfo}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab no \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 842 \tab 223 \tab 146 \tab 170 \tab 6 \tab 6 \tab 2765 \cr
-   2004 \tab 1828 \tab 624 \tab 78 \tab 92 \tab 184 \tab 1 \tab 5 \tab 2812 \cr
-   Total \tab 3200 \tab 1466 \tab 301 \tab 238 \tab 354 \tab 7 \tab 11 \tab 5577 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab no \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1372 \tab 842 \tab 223 \tab 146 \tab 170 \tab 6 \tab 6 \tab - \tab 2765 \cr
+   2004 \tab 1828 \tab 624 \tab 78 \tab 92 \tab 184 \tab 1 \tab 5 \tab - \tab 2812 \cr
+   Total \tab 3200 \tab 1466 \tab 301 \tab 238 \tab 354 \tab 7 \tab 11 \tab 0 \tab 5577 \cr
 }
 }
 

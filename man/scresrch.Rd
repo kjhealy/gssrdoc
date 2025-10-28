@@ -35,11 +35,11 @@ Question Recently, there has been controversy over whether the government should
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3376/vshow}{GSS Data Explorer page for \code{scresrch}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should fund such research \tab probably should fund such research \tab probably should not fund such research \tab definitely should not fund such research \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3582 \tab 260 \tab 375 \tab 128 \tab 92 \tab 64 \tab 9 \tab 4510 \cr
-   2010 \tab 1569 \tab 139 \tab 200 \tab 61 \tab 43 \tab 25 \tab 7 \tab 2044 \cr
-   Total \tab 5151 \tab 399 \tab 575 \tab 189 \tab 135 \tab 89 \tab 16 \tab 6554 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should fund such research \tab probably should fund such research \tab probably should not fund such research \tab definitely should not fund such research \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3582 \tab 260 \tab 375 \tab 128 \tab 92 \tab 64 \tab 9 \tab - \tab 4510 \cr
+   2010 \tab 1569 \tab 139 \tab 200 \tab 61 \tab 43 \tab 25 \tab 7 \tab - \tab 2044 \cr
+   Total \tab 5151 \tab 399 \tab 575 \tab 189 \tab 135 \tab 89 \tab 16 \tab 0 \tab 6554 \cr
 }
 }
 

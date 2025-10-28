@@ -1,3 +1,129 @@
+#'  Man vs woman head of university
+#' 
+#'  univgndr
+#' 
+#' Question (Please consider the following positions and select the options that come closest to your own opinion.) Head of a university
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` women are much better suited
+#'   * `[2]` women are somewhat better suited
+#'   * `[3]` women and men are equally suited
+#'   * `[4]` men are somewhat better suited
+#'   * `[5]` men are much better suited
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `univgndr`](https://gssdataexplorer.norc.org/variables/7784/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |women are much better suited |women are somewhat better suited |women and men are equally suited |men are somewhat better suited |men are much better suited |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:----------------------------|:--------------------------------|:--------------------------------|:------------------------------|:--------------------------|:----------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |36                           |32                               |936                              |39                             |18                         |84         |2386 |5         |8              |3544  |
+#'  |Total |0                          |36                           |32                               |936                              |39                             |18                         |84         |2386 |5         |8              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name univgndr
+NULL
+
+
+#'  Man vs woman senior executive
+#' 
+#'  execgndr
+#' 
+#' Question Please consider the following positions and select the options that come closest to your own opinion.) Senior executive of a large company
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` women are much better suited
+#'   * `[2]` women are somewhat better suited
+#'   * `[3]` women and men are equally suited
+#'   * `[4]` men are somewhat better suited
+#'   * `[5]` men are much better suited
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `execgndr`](https://gssdataexplorer.norc.org/variables/7785/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |women are much better suited |women are somewhat better suited |women and men are equally suited |men are somewhat better suited |men are much better suited |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:----------------------------|:--------------------------------|:--------------------------------|:------------------------------|:--------------------------|:----------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |27                           |25                               |922                              |73                             |20                         |80         |2386 |6         |5              |3544  |
+#'  |Total |0                          |27                           |25                               |922                              |73                             |20                         |80         |2386 |6         |5              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name execgndr
+NULL
+
+
+#'  Financial situation compared to last year
+#' 
+#'  yrfnce
+#' 
+#' Question Compared to 12 months ago, how do you think the financial situation of your household has changed? Would you say the current situation is...
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` much better
+#'   * `[2]` somewhat better
+#'   * `[3]` about the same
+#'   * `[4]` somewhat worse
+#'   * `[5]` much worse
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A       |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `yrfnce`](https://gssdataexplorer.norc.org/variables/7787/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |much better |somewhat better |about the same |somewhat worse |much worse |can't choose |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:-----------|:---------------|:--------------|:--------------|:----------|:------------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |73          |211             |456            |280            |91         |34           |2386 |8         |5              |3544  |
+#'  |Total |0                          |73          |211             |456            |280            |91         |34           |2386 |8         |5              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name yrfnce
+NULL
+
+
 #'  Number of children
 #' 
 #'  nmbrkids
@@ -20,10 +146,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |1   |10 |11 |14 |2   |3   |31 |4  |5  |6  |7  |8  |don't know |no answer |skipped on web |Total |
-#'  |:-----|:----|:---|:--|:--|:--|:---|:---|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------|:-----|
-#'  |2022  |2386 |556 |2  |1  |1  |291 |160 |1  |70 |37 |13 |9  |3  |1          |4         |9              |3544  |
-#'  |Total |2386 |556 |2  |1  |1  |291 |160 |1  |70 |37 |13 |9  |3  |1          |4         |9              |3544  |
+#'  |year  |not available in this year |0   |1   |10 |11 |14 |2   |3   |31 |4  |5  |6  |7  |8  |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:---|:--|:--|:--|:---|:---|:--|:--|:--|:--|:--|:--|:----------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |396 |160 |2  |1  |1  |291 |160 |1  |70 |37 |13 |9  |3  |1          |2386 |4         |9              |3544  |
+#'  |Total |0                          |396 |160 |2  |1  |1  |291 |160 |1  |70 |37 |13 |9  |3  |1          |2386 |4         |9              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -62,10 +188,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |NA   |1  |2   |3   |4   |5  |Total |
-#'  |:-----|:----|:--|:---|:---|:---|:--|:-----|
-#'  |2022  |2397 |60 |225 |544 |227 |91 |3544  |
-#'  |Total |2397 |60 |225 |544 |227 |91 |3544  |
+#'  |year  |not available in this year |complete confidence |a great deal of confidence |some confidence |very little confidence |no confidence at all |can't choose |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:-------------------|:--------------------------|:---------------|:----------------------|:--------------------|:------------|:----|:--------------|:-----|
+#'  |2022  |-                          |60                  |225                        |544             |227                    |91                   |15           |2378 |4              |3544  |
+#'  |Total |0                          |60                  |225                        |544             |227                    |91                   |15           |2378 |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -104,10 +230,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very fair |somewhat fair |neither fair nor unfair |somewhat unfair |very unfair |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:---------|:-------------|:-----------------------|:---------------|:-----------|:------------|:---------|:--------------|:-----|
-#'  |2022  |2378 |68        |161           |226                     |223             |439         |38           |3         |8              |3544  |
-#'  |Total |2378 |68        |161           |226                     |223             |439         |38           |3         |8              |3544  |
+#'  |year  |not available in this year |very fair |somewhat fair |neither fair nor unfair |somewhat unfair |very unfair |can't choose |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:---------|:-------------|:-----------------------|:---------------|:-----------|:------------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |68        |161           |226                     |223             |439         |38           |2378 |3         |8              |3544  |
+#'  |Total |0                          |68        |161           |226                     |223             |439         |38           |2378 |3         |8              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -146,10 +272,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
-#'  |2022  |2378 |100            |273   |365                        |280      |83                |58           |1         |6              |3544  |
-#'  |Total |2378 |100            |273   |365                        |280      |83                |58           |1         |6              |3544  |
+#'  |year  |not available in this year |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |100            |273   |365                        |280      |83                |58           |2378 |1         |6              |3544  |
+#'  |Total |0                          |100            |273   |365                        |280      |83                |58           |2378 |1         |6              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -188,10 +314,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
-#'  |2022  |2378 |35             |169   |197                        |417      |278               |61           |2         |7              |3544  |
-#'  |Total |2378 |35             |169   |197                        |417      |278               |61           |2         |7              |3544  |
+#'  |year  |not available in this year |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |35             |169   |197                        |417      |278               |61           |2378 |2         |7              |3544  |
+#'  |Total |0                          |35             |169   |197                        |417      |278               |61           |2378 |2         |7              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -230,10 +356,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
-#'  |2022  |2378 |257            |415   |246                        |166      |36                |40           |2         |4              |3544  |
-#'  |Total |2378 |257            |415   |246                        |166      |36                |40           |2         |4              |3544  |
+#'  |year  |not available in this year |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |257            |415   |246                        |166      |36                |40           |2378 |2         |4              |3544  |
+#'  |Total |0                          |257            |415   |246                        |166      |36                |40           |2378 |2         |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -272,10 +398,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very willing |fairly willing |neither willing nor unwilling |fairly unwilling |very unwilling |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:------------|:--------------|:-----------------------------|:----------------|:--------------|:------------|:---------|:--------------|:-----|
-#'  |2022  |2379 |154          |345            |230                           |151              |229            |50           |2         |4              |3544  |
-#'  |Total |2379 |154          |345            |230                           |151              |229            |50           |2         |4              |3544  |
+#'  |year  |not available in this year |very willing |fairly willing |neither willing nor unwilling |fairly unwilling |very unwilling |can't choose |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:------------|:--------------|:-----------------------------|:----------------|:--------------|:------------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |154          |345            |230                           |151              |229            |50           |2379 |2         |4              |3544  |
+#'  |Total |0                          |154          |345            |230                           |151              |229            |50           |2379 |2         |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -284,132 +410,6 @@ NULL
 #' @keywords variable
 #' @md
 #' @name hlthtax
-NULL
-
-
-#'  Access to public funded health care if not citizen
-#' 
-#'  hlthctzn
-#' 
-#' Question How much do you agree or disagree with the following statements? People should have access to publicly funded health care even if they... Do not hold citizenship of the United States.
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` strongly agree
-#'   * `[2]` agree
-#'   * `[3]` neither agree nor disagree
-#'   * `[4]` disagree
-#'   * `[5]` strongly disagree
-#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |C       |2022  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `hlthctzn`](https://gssdataexplorer.norc.org/variables/7795/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2022  |2379 |169            |331   |184                        |231      |205               |44           |1         |3544  |
-#'  |Total |2379 |169            |331   |184                        |231      |205               |44           |1         |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name hlthctzn
-NULL
-
-
-#'  Access to public funded health care if damage own health
-#' 
-#'  hlthdmg
-#' 
-#' Question (People should have access to publicly funded health care even if they...) Behave in ways that damage their health.
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` strongly agree
-#'   * `[2]` agree
-#'   * `[3]` neither agree nor disagree
-#'   * `[4]` disagree
-#'   * `[5]` strongly disagree
-#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |C       |2022  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `hlthdmg`](https://gssdataexplorer.norc.org/variables/7796/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
-#'  |2022  |2379 |130            |386   |263                        |232      |87                |57           |5         |5              |3544  |
-#'  |Total |2379 |130            |386   |263                        |232      |87                |57           |5         |5              |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name hlthdmg
-NULL
-
-
-#'  Rich vs poor access to healthcare
-#' 
-#'  hlthacc1
-#' 
-#' Question In the United States, do you think it is easier or harder to get access to health care... for rich people than for poor people
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` much easier
-#'   * `[2]` somewhat easier
-#'   * `[3]` about the same
-#'   * `[4]` somewhat harder
-#'   * `[5]` much harder
-#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |C       |2022  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `hlthacc1`](https://gssdataexplorer.norc.org/variables/7797/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |NA   |1   |2   |3   |4  |5  |Total |
-#'  |:-----|:----|:---|:---|:---|:--|:--|:-----|
-#'  |2022  |2430 |693 |211 |143 |41 |26 |3544  |
-#'  |Total |2430 |693 |211 |143 |41 |26 |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name hlthacc1
 NULL
 
 

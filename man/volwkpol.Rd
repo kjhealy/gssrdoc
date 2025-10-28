@@ -35,10 +35,10 @@ A. Political activities (helping political parties, political movements, electio
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4691/vshow}{GSS Data Explorer page for \code{volwkpol}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab no \tab yes 1-2 times \tab yes 3-5 times \tab yes 6/more times \tab no answer \tab Total \cr
-   1998 \tab 1548 \tab 1102 \tab 81 \tab 22 \tab 20 \tab 59 \tab 2832 \cr
-   Total \tab 1548 \tab 1102 \tab 81 \tab 22 \tab 20 \tab 59 \tab 2832 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab no \tab yes 1-2 times \tab yes 3-5 times \tab yes 6/more times \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1548 \tab 1102 \tab 81 \tab 22 \tab 20 \tab 59 \tab - \tab 2832 \cr
+   Total \tab 1548 \tab 1102 \tab 81 \tab 22 \tab 20 \tab 59 \tab 0 \tab 2832 \cr
 }
 }
 

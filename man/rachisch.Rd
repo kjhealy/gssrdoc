@@ -34,10 +34,10 @@ Question Was the high school you attended all black, integrated--but mostly blac
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/405/vshow}{GSS Data Explorer page for \code{rachisch}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab didnt go to hs \tab all black \tab mostly black \tab mostly white \tab no answer \tab Total \cr
-   1982 \tab 1350 \tab 33 \tab 235 \tab 120 \tab 112 \tab 10 \tab 1860 \cr
-   Total \tab 1350 \tab 33 \tab 235 \tab 120 \tab 112 \tab 10 \tab 1860 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab didnt go to hs \tab all black \tab mostly black \tab mostly white \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab 1350 \tab 33 \tab 235 \tab 120 \tab 112 \tab 10 \tab - \tab 1860 \cr
+   Total \tab 1350 \tab 33 \tab 235 \tab 120 \tab 112 \tab 10 \tab 0 \tab 1860 \cr
 }
 }
 

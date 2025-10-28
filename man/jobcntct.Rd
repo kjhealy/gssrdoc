@@ -36,11 +36,11 @@ E. Business or work contacts outside your workplace"that is outside where you we
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2614/vshow}{GSS Data Explorer page for \code{jobcntct}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 2220 \tab 216 \tab 186 \tab 85 \tab 51 \tab 1 \tab 6 \tab 2765 \cr
-   2004 \tab 2453 \tab 163 \tab 101 \tab 48 \tab 39 \tab 1 \tab 7 \tab 2812 \cr
-   Total \tab 4673 \tab 379 \tab 287 \tab 133 \tab 90 \tab 2 \tab 13 \tab 5577 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 2220 \tab 216 \tab 186 \tab 85 \tab 51 \tab 1 \tab 6 \tab - \tab 2765 \cr
+   2004 \tab 2453 \tab 163 \tab 101 \tab 48 \tab 39 \tab 1 \tab 7 \tab - \tab 2812 \cr
+   Total \tab 4673 \tab 379 \tab 287 \tab 133 \tab 90 \tab 2 \tab 13 \tab 0 \tab 5577 \cr
 }
 }
 

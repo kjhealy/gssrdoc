@@ -33,10 +33,10 @@ E9. Is ninth sibling alive?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1580/vshow}{GSS Data Explorer page for \code{sbalive9}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2795 \tab 135 \tab 42 \tab 3 \tab 17 \tab 2992 \cr
-   Total \tab 2795 \tab 135 \tab 42 \tab 3 \tab 17 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2795 \tab 135 \tab 42 \tab 3 \tab 17 \tab - \tab 2992 \cr
+   Total \tab 2795 \tab 135 \tab 42 \tab 3 \tab 17 \tab 0 \tab 2992 \cr
 }
 }
 

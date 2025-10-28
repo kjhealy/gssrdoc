@@ -34,13 +34,13 @@ Question Was that a diploma awarded by (RESPONDENT''S SPOUSE)''s high school at 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/66/vshow}{GSS Data Explorer page for \code{spdipged}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab high school diploma \tab ged \tab other \tab don't know \tab Total \cr
-   2012 \tab 1193 \tab 735 \tab 44 \tab 1 \tab 1 \tab 1974 \cr
-   2014 \tab 1514 \tab 955 \tab 65 \tab 2 \tab 2 \tab 2538 \cr
-   2016 \tab 1776 \tab 985 \tab 96 \tab 7 \tab 3 \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab 2348 \cr
-   Total \tab 6831 \tab 2675 \tab 205 \tab 10 \tab 6 \tab 9727 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab high school diploma \tab ged \tab other \tab don't know \tab not available in this year \tab Total \cr
+   2012 \tab 1193 \tab 735 \tab 44 \tab 1 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab 1514 \tab 955 \tab 65 \tab 2 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 1776 \tab 985 \tab 96 \tab 7 \tab 3 \tab - \tab 2867 \cr
+   2018 \tab - \tab - \tab - \tab - \tab - \tab 2348 \tab 2348 \cr
+   Total \tab 4483 \tab 2675 \tab 205 \tab 10 \tab 6 \tab 2348 \tab 9727 \cr
 }
 }
 

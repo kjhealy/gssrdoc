@@ -32,10 +32,10 @@ Question Sibling's OCC/IND verbatim recovered
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6020/vshow}{GSS Data Explorer page for \code{sboccindv}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab no verbatims for sb \tab verbatims for sb \tab Total \cr
-   1994 \tab 54 \tab 555 \tab 2383 \tab 2992 \cr
-   Total \tab 54 \tab 555 \tab 2383 \tab 2992 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab no verbatims for sb \tab verbatims for sb \tab not available in this year \tab Total \cr
+   1994 \tab 54 \tab 555 \tab 2383 \tab - \tab 2992 \cr
+   Total \tab 54 \tab 555 \tab 2383 \tab 0 \tab 2992 \cr
 }
 }
 

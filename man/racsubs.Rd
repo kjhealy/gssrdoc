@@ -32,10 +32,10 @@ Question Some religious and business groups have set up programs to encourage (N
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/719/vshow}{GSS Data Explorer page for \code{racsubs}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab favor \tab oppose \tab don't know \tab no answer \tab Total \cr
-   1977 \tab - \tab 585 \tab 832 \tab 106 \tab 7 \tab 1530 \cr
-   Total \tab 0 \tab 585 \tab 832 \tab 106 \tab 7 \tab 1530 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab favor \tab oppose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1977 \tab - \tab 585 \tab 832 \tab 106 \tab 7 \tab - \tab 1530 \cr
+   Total \tab 0 \tab 585 \tab 832 \tab 106 \tab 7 \tab 0 \tab 1530 \cr
 }
 }
 

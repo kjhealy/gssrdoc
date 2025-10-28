@@ -35,10 +35,10 @@ C. Legal immigrants should have equal access to public education as American cit
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4900/vshow}{GSS Data Explorer page for \code{immeduc}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab 5 \tab don't know \tab no answer \tab Total \cr
-   2014 \tab 1264 \tab 288 \tab 761 \tab 97 \tab 78 \tab 26 \tab 20 \tab 4 \tab 2538 \cr
-   Total \tab 1264 \tab 288 \tab 761 \tab 97 \tab 78 \tab 26 \tab 20 \tab 4 \tab 2538 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab 5 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab 1264 \tab 288 \tab 761 \tab 97 \tab 78 \tab 26 \tab 20 \tab 4 \tab - \tab 2538 \cr
+   Total \tab 1264 \tab 288 \tab 761 \tab 97 \tab 78 \tab 26 \tab 20 \tab 4 \tab 0 \tab 2538 \cr
 }
 }
 

@@ -35,10 +35,10 @@ A. I want you to think about the person with a mental health problem with whom y
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3803/vshow}{GSS Data Explorer page for \code{mhclsoth}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab extremely close \tab very close \tab not very close \tab not at all close \tab no answer \tab Total \cr
-   2006 \tab 3535 \tab 323 \tab 381 \tab 204 \tab 61 \tab 6 \tab 4510 \cr
-   Total \tab 3535 \tab 323 \tab 381 \tab 204 \tab 61 \tab 6 \tab 4510 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab extremely close \tab very close \tab not very close \tab not at all close \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3535 \tab 323 \tab 381 \tab 204 \tab 61 \tab 6 \tab - \tab 4510 \cr
+   Total \tab 3535 \tab 323 \tab 381 \tab 204 \tab 61 \tab 6 \tab 0 \tab 4510 \cr
 }
 }
 

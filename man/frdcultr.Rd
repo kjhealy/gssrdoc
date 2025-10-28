@@ -38,10 +38,10 @@ B. Cultured.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1432/vshow}{GSS Data Explorer page for \code{frdcultr}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab extremely important \tab very important \tab fairly important \tab not too important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 52 \tab 275 \tab 596 \tab 494 \tab 148 \tab 26 \tab 15 \tab 1606 \cr
-   Total \tab 0 \tab 52 \tab 275 \tab 596 \tab 494 \tab 148 \tab 26 \tab 15 \tab 1606 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab extremely important \tab very important \tab fairly important \tab not too important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 52 \tab 275 \tab 596 \tab 494 \tab 148 \tab 26 \tab 15 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 52 \tab 275 \tab 596 \tab 494 \tab 148 \tab 26 \tab 15 \tab 0 \tab 1606 \cr
 }
 }
 

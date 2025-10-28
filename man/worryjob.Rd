@@ -36,12 +36,12 @@ Question To what extent, if at all, do you worry about the possibility of losing
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4592/vshow}{GSS Data Explorer page for \code{worryjob}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab i worry a great deal \tab i worry to some extent \tab i worry a little \tab i don't worry at all \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1967 \tab 30 \tab 105 \tab 232 \tab 464 \tab 1 \tab 33 \tab 2832 \cr
-   2006 \tab 3492 \tab 48 \tab 141 \tab 264 \tab 563 \tab - \tab 2 \tab 4510 \cr
-   2016 \tab 1927 \tab 53 \tab 98 \tab 256 \tab 525 \tab 3 \tab 5 \tab 2867 \cr
-   Total \tab 7386 \tab 131 \tab 344 \tab 752 \tab 1552 \tab 4 \tab 40 \tab 10209 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab i worry a great deal \tab i worry to some extent \tab i worry a little \tab i don't worry at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1967 \tab 30 \tab 105 \tab 232 \tab 464 \tab 1 \tab 33 \tab - \tab 2832 \cr
+   2006 \tab 3492 \tab 48 \tab 141 \tab 264 \tab 563 \tab - \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 53 \tab 98 \tab 256 \tab 525 \tab 3 \tab 5 \tab - \tab 2867 \cr
+   Total \tab 7386 \tab 131 \tab 344 \tab 752 \tab 1552 \tab 4 \tab 40 \tab 0 \tab 10209 \cr
 }
 }
 

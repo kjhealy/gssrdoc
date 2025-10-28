@@ -37,10 +37,10 @@ E. A government employee was convicted of stealing truck parts and tires from a 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5231/vshow}{GSS Data Explorer page for \code{taketrck}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab reprimand \tab dismiss military \tab one year prison \tab 5-9 years prison \tab 10-20 yrs prison \tab life in prison \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 96 \tab 447 \tab 366 \tab 303 \tab 87 \tab 20 \tab 50 \tab 18 \tab 2832 \cr
-   Total \tab 1445 \tab 96 \tab 447 \tab 366 \tab 303 \tab 87 \tab 20 \tab 50 \tab 18 \tab 2832 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab reprimand \tab dismiss military \tab one year prison \tab 5-9 years prison \tab 10-20 yrs prison \tab life in prison \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 96 \tab 447 \tab 366 \tab 303 \tab 87 \tab 20 \tab 50 \tab 18 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 96 \tab 447 \tab 366 \tab 303 \tab 87 \tab 20 \tab 50 \tab 18 \tab 0 \tab 2832 \cr
 }
 }
 

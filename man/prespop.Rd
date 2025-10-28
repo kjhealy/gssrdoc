@@ -32,10 +32,10 @@ Question Do you approve or disapprove of the way Barack Obama is handling his jo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3969/vshow}{GSS Data Explorer page for \code{prespop}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab approve \tab disapprove \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 675 \tab 633 \tab 541 \tab 91 \tab 34 \tab 1974 \cr
-   Total \tab 675 \tab 633 \tab 541 \tab 91 \tab 34 \tab 1974 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab approve \tab disapprove \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 675 \tab 633 \tab 541 \tab 91 \tab 34 \tab - \tab 1974 \cr
+   Total \tab 675 \tab 633 \tab 541 \tab 91 \tab 34 \tab 0 \tab 1974 \cr
 }
 }
 

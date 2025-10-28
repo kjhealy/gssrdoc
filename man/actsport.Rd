@@ -33,10 +33,10 @@ F. Sports groups
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1001/vshow}{GSS Data Explorer page for \code{actsport}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1987 \tab 1473 \tab 203 \tab 107 \tab 36 \tab 1819 \cr
-   Total \tab 1473 \tab 203 \tab 107 \tab 36 \tab 1819 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 1473 \tab 203 \tab 107 \tab 36 \tab - \tab 1819 \cr
+   Total \tab 1473 \tab 203 \tab 107 \tab 36 \tab 0 \tab 1819 \cr
 }
 }
 

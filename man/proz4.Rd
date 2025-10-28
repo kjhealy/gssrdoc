@@ -36,11 +36,11 @@ D. Taking Prozac helps people deal with day-to-day stresses.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2229/vshow}{GSS Data Explorer page for \code{proz4}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1635 \tab 64 \tab 676 \tab 174 \tab 48 \tab 12 \tab 212 \tab 11 \tab 2832 \cr
-   2006 \tab 3238 \tab 105 \tab 706 \tab 257 \tab 45 \tab 16 \tab 127 \tab 16 \tab 4510 \cr
-   Total \tab 4873 \tab 169 \tab 1382 \tab 431 \tab 93 \tab 28 \tab 339 \tab 27 \tab 7342 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1635 \tab 64 \tab 676 \tab 174 \tab 48 \tab 12 \tab 212 \tab 11 \tab - \tab 2832 \cr
+   2006 \tab 3238 \tab 105 \tab 706 \tab 257 \tab 45 \tab 16 \tab 127 \tab 16 \tab - \tab 4510 \cr
+   Total \tab 4873 \tab 169 \tab 1382 \tab 431 \tab 93 \tab 28 \tab 339 \tab 27 \tab 0 \tab 7342 \cr
 }
 }
 

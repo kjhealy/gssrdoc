@@ -35,10 +35,10 @@ Question Within the next five years, how likely is it that an accident at a nucl
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4790/vshow}{GSS Data Explorer page for \code{nukeacc}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab likely \tab unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1541 \tab 184 \tab 415 \tab 330 \tab 140 \tab 148 \tab 59 \tab 2817 \cr
-   Total \tab 1541 \tab 184 \tab 415 \tab 330 \tab 140 \tab 148 \tab 59 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab likely \tab unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1541 \tab 184 \tab 415 \tab 330 \tab 140 \tab 148 \tab 59 \tab - \tab 2817 \cr
+   Total \tab 1541 \tab 184 \tab 415 \tab 330 \tab 140 \tab 148 \tab 59 \tab 0 \tab 2817 \cr
 }
 }
 

@@ -34,10 +34,10 @@ Question How difficult was it to get the treatment that you sought: very difficu
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2191/vshow}{GSS Data Explorer page for \code{mntldif}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab very difficult \tab somewhat diffclt \tab not difficult \tab no answer \tab Total \cr
-   1998 \tab 2696 \tab 7 \tab 21 \tab 101 \tab 7 \tab 2832 \cr
-   Total \tab 2696 \tab 7 \tab 21 \tab 101 \tab 7 \tab 2832 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very difficult \tab somewhat diffclt \tab not difficult \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2696 \tab 7 \tab 21 \tab 101 \tab 7 \tab - \tab 2832 \cr
+   Total \tab 2696 \tab 7 \tab 21 \tab 101 \tab 7 \tab 0 \tab 2832 \cr
 }
 }
 

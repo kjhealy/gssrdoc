@@ -32,10 +32,10 @@ Question Did your company grant you any  stock options  in 2005?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3552/vshow}{GSS Data Explorer page for \code{ops2005}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 4389 \tab 67 \tab 49 \tab 3 \tab 2 \tab 4510 \cr
-   Total \tab 4389 \tab 67 \tab 49 \tab 3 \tab 2 \tab 4510 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 4389 \tab 67 \tab 49 \tab 3 \tab 2 \tab - \tab 4510 \cr
+   Total \tab 4389 \tab 67 \tab 49 \tab 3 \tab 2 \tab 0 \tab 4510 \cr
 }
 }
 

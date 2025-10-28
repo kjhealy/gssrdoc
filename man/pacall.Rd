@@ -37,10 +37,10 @@ C. And how often do you have any other contact with your father besides visiting
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4134/vshow}{GSS Data Explorer page for \code{pacall}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab Total \cr
-   1986 \tab 837 \tab 49 \tab 92 \tab 180 \tab 133 \tab 59 \tab 101 \tab 19 \tab 1470 \cr
-   Total \tab 837 \tab 49 \tab 92 \tab 180 \tab 133 \tab 59 \tab 101 \tab 19 \tab 1470 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 837 \tab 49 \tab 92 \tab 180 \tab 133 \tab 59 \tab 101 \tab 19 \tab - \tab 1470 \cr
+   Total \tab 837 \tab 49 \tab 92 \tab 180 \tab 133 \tab 59 \tab 101 \tab 19 \tab 0 \tab 1470 \cr
 }
 }
 

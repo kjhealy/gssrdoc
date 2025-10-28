@@ -34,10 +34,10 @@ C. Third listed child?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2649/vshow}{GSS Data Explorer page for \code{kdtmkid3}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab too much \tab about the right amount \tab too little \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2748 \tab 7 \tab 32 \tab 17 \tab 1 \tab 12 \tab 2817 \cr
-   Total \tab 2748 \tab 7 \tab 32 \tab 17 \tab 1 \tab 12 \tab 2817 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too much \tab about the right amount \tab too little \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2748 \tab 7 \tab 32 \tab 17 \tab 1 \tab 12 \tab - \tab 2817 \cr
+   Total \tab 2748 \tab 7 \tab 32 \tab 17 \tab 1 \tab 12 \tab 0 \tab 2817 \cr
 }
 }
 

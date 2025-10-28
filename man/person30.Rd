@@ -36,12 +36,12 @@ R. Personal home pages?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2411/vshow}{GSS Data Explorer page for \code{person30}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2075 \tab 458 \tab 127 \tab 30 \tab 53 \tab 74 \tab - \tab 2817 \cr
-   2002 \tab 1681 \tab 742 \tab 148 \tab 38 \tab 60 \tab 94 \tab 2 \tab 2765 \cr
-   2004 \tab 2122 \tab 525 \tab 78 \tab 27 \tab 45 \tab 12 \tab 3 \tab 2812 \cr
-   Total \tab 5878 \tab 1725 \tab 353 \tab 95 \tab 158 \tab 180 \tab 5 \tab 8394 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 458 \tab 127 \tab 30 \tab 53 \tab 74 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 742 \tab 148 \tab 38 \tab 60 \tab 94 \tab 2 \tab - \tab 2765 \cr
+   2004 \tab 2122 \tab 525 \tab 78 \tab 27 \tab 45 \tab 12 \tab 3 \tab - \tab 2812 \cr
+   Total \tab 5878 \tab 1725 \tab 353 \tab 95 \tab 158 \tab 180 \tab 5 \tab 0 \tab 8394 \cr
 }
 }
 

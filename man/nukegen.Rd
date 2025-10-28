@@ -37,14 +37,14 @@ Question A. In general, do you think that nuclear power stations are…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4756/vshow}{GSS Data Explorer page for \code{nukegen}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab don't know \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 287 \tab 334 \tab 540 \tab 206 \tab 36 \tab 65 \tab 89 \tab 1606 \cr
-   1994 \tab 1606 \tab 263 \tab 300 \tab 489 \tab 174 \tab 25 \tab 65 \tab 70 \tab 2992 \cr
-   2010 \tab 614 \tab 277 \tab 336 \tab 442 \tab 210 \tab 66 \tab 95 \tab 4 \tab 2044 \cr
-   2016 \tab 1956 \tab 246 \tab 234 \tab 298 \tab 102 \tab 15 \tab 14 \tab 2 \tab 2867 \cr
-   2018 \tab 1563 \tab 218 \tab 213 \tab 257 \tab 64 \tab 20 \tab 12 \tab 1 \tab 2348 \cr
-   Total \tab 5788 \tab 1291 \tab 1417 \tab 2026 \tab 756 \tab 162 \tab 251 \tab 166 \tab 11857 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 287 \tab 334 \tab 540 \tab 206 \tab 36 \tab 65 \tab 89 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 263 \tab 300 \tab 489 \tab 174 \tab 25 \tab 65 \tab 70 \tab - \tab 2992 \cr
+   2010 \tab 614 \tab 277 \tab 336 \tab 442 \tab 210 \tab 66 \tab 95 \tab 4 \tab - \tab 2044 \cr
+   2016 \tab 1956 \tab 246 \tab 234 \tab 298 \tab 102 \tab 15 \tab 14 \tab 2 \tab - \tab 2867 \cr
+   2018 \tab 1563 \tab 218 \tab 213 \tab 257 \tab 64 \tab 20 \tab 12 \tab 1 \tab - \tab 2348 \cr
+   Total \tab 5788 \tab 1291 \tab 1417 \tab 2026 \tab 756 \tab 162 \tab 251 \tab 166 \tab 0 \tab 11857 \cr
 }
 }
 

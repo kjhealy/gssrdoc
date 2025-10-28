@@ -34,11 +34,11 @@ Question How likely is it that you two will get married? Would you say that it i
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1652/vshow}{GSS Data Explorer page for \code{willwed1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2554 \tab 109 \tab 95 \tab 43 \tab 52 \tab 4 \tab 47 \tab 2904 \cr
-   1998 \tab 2531 \tab 83 \tab 88 \tab 47 \tab 46 \tab 5 \tab 32 \tab 2832 \cr
-   Total \tab 5085 \tab 192 \tab 183 \tab 90 \tab 98 \tab 9 \tab 79 \tab 5736 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2554 \tab 109 \tab 95 \tab 43 \tab 52 \tab 4 \tab 47 \tab - \tab 2904 \cr
+   1998 \tab 2531 \tab 83 \tab 88 \tab 47 \tab 46 \tab 5 \tab 32 \tab - \tab 2832 \cr
+   Total \tab 5085 \tab 192 \tab 183 \tab 90 \tab 98 \tab 9 \tab 79 \tab 0 \tab 5736 \cr
 }
 }
 

@@ -36,10 +36,10 @@ C. Programs on network television.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5119/vshow}{GSS Data Explorer page for \code{infnettv}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very positive \tab positive \tab neutral \tab negative \tab very negative \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 34 \tab 296 \tab 474 \tab 414 \tab 104 \tab 43 \tab 7 \tab 1372 \cr
-   Total \tab 0 \tab 34 \tab 296 \tab 474 \tab 414 \tab 104 \tab 43 \tab 7 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very positive \tab positive \tab neutral \tab negative \tab very negative \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 34 \tab 296 \tab 474 \tab 414 \tab 104 \tab 43 \tab 7 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 34 \tab 296 \tab 474 \tab 414 \tab 104 \tab 43 \tab 7 \tab 0 \tab 1372 \cr
 }
 }
 

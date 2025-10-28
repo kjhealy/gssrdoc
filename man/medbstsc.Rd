@@ -35,11 +35,11 @@ A. Medical researchers
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3373/vshow}{GSS Data Explorer page for \code{medbstsc}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab what is best for the country \tab 2 \tab 3 \tab 4 \tab own narrow interests \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3582 \tab 304 \tab 240 \tab 188 \tab 82 \tab 69 \tab 42 \tab 3 \tab 4510 \cr
-   2010 \tab 1569 \tab 136 \tab 135 \tab 113 \tab 43 \tab 22 \tab 21 \tab 5 \tab 2044 \cr
-   Total \tab 5151 \tab 440 \tab 375 \tab 301 \tab 125 \tab 91 \tab 63 \tab 8 \tab 6554 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab what is best for the country \tab 2 \tab 3 \tab 4 \tab own narrow interests \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3582 \tab 304 \tab 240 \tab 188 \tab 82 \tab 69 \tab 42 \tab 3 \tab - \tab 4510 \cr
+   2010 \tab 1569 \tab 136 \tab 135 \tab 113 \tab 43 \tab 22 \tab 21 \tab 5 \tab - \tab 2044 \cr
+   Total \tab 5151 \tab 440 \tab 375 \tab 301 \tab 125 \tab 91 \tab 63 \tab 8 \tab 0 \tab 6554 \cr
 }
 }
 

@@ -39,11 +39,11 @@ B. A trade union, business, or professional association
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4929/vshow}{GSS Data Explorer page for \code{grpwork}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab belong and actively participate \tab belong but dont participate \tab used to belong \tab never belonged \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 173 \tab 137 \tab 280 \tab 877 \tab 1 \tab 4 \tab 2812 \cr
-   2014 \tab 1274 \tab 115 \tab 129 \tab 224 \tab 775 \tab 18 \tab 3 \tab 2538 \cr
-   Total \tab 2614 \tab 288 \tab 266 \tab 504 \tab 1652 \tab 19 \tab 7 \tab 5350 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab belong and actively participate \tab belong but dont participate \tab used to belong \tab never belonged \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 173 \tab 137 \tab 280 \tab 877 \tab 1 \tab 4 \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 115 \tab 129 \tab 224 \tab 775 \tab 18 \tab 3 \tab - \tab 2538 \cr
+   Total \tab 2614 \tab 288 \tab 266 \tab 504 \tab 1652 \tab 19 \tab 7 \tab 0 \tab 5350 \cr
 }
 }
 

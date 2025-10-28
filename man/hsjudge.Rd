@@ -36,10 +36,10 @@ E. Ability to make one''s own judgments.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4019/vshow}{GSS Data Explorer page for \code{hsjudge}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 319 \tab 237 \tab 74 \tab 18 \tab 3 \tab 12 \tab 14 \tab 1534 \cr
-   Total \tab 857 \tab 319 \tab 237 \tab 74 \tab 18 \tab 3 \tab 12 \tab 14 \tab 1534 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 319 \tab 237 \tab 74 \tab 18 \tab 3 \tab 12 \tab 14 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 319 \tab 237 \tab 74 \tab 18 \tab 3 \tab 12 \tab 14 \tab 0 \tab 1534 \cr
 }
 }
 

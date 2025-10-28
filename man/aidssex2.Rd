@@ -33,13 +33,13 @@ B. (Is/Was) that person male or female?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5015/vshow}{GSS Data Explorer page for \code{aidssex2}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab male \tab female \tab no answer \tab Total \cr
-   1989 \tab 1486 \tab 41 \tab 6 \tab 4 \tab 1537 \cr
-   1990 \tab 1324 \tab 46 \tab - \tab 2 \tab 1372 \cr
-   1991 \tab 1422 \tab 81 \tab 10 \tab 4 \tab 1517 \cr
-   1993 \tab 1407 \tab 175 \tab 17 \tab 7 \tab 1606 \cr
-   Total \tab 5639 \tab 343 \tab 33 \tab 17 \tab 6032 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab male \tab female \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 1486 \tab 41 \tab 6 \tab 4 \tab - \tab 1537 \cr
+   1990 \tab 1324 \tab 46 \tab - \tab 2 \tab - \tab 1372 \cr
+   1991 \tab 1422 \tab 81 \tab 10 \tab 4 \tab - \tab 1517 \cr
+   1993 \tab 1407 \tab 175 \tab 17 \tab 7 \tab - \tab 1606 \cr
+   Total \tab 5639 \tab 343 \tab 33 \tab 17 \tab 0 \tab 6032 \cr
 }
 }
 

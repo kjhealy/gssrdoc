@@ -34,10 +34,10 @@ Question People at work have spread rumors or gossip about me.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3016/vshow}{GSS Data Explorer page for \code{rumorwk}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 795 \tab 31 \tab 103 \tab 208 \tab 777 \tab 29 \tab 31 \tab 1974 \cr
-   Total \tab 795 \tab 31 \tab 103 \tab 208 \tab 777 \tab 29 \tab 31 \tab 1974 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 795 \tab 31 \tab 103 \tab 208 \tab 777 \tab 29 \tab 31 \tab - \tab 1974 \cr
+   Total \tab 795 \tab 31 \tab 103 \tab 208 \tab 777 \tab 29 \tab 31 \tab 0 \tab 1974 \cr
 }
 }
 

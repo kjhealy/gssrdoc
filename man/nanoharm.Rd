@@ -34,13 +34,13 @@ Question C. (IF NANOWILL=3) Would you say that the balance will be strongly in f
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3450/vshow}{GSS Data Explorer page for \code{nanoharm}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab strongly in favor \tab slightly in favor \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1875 \tab 31 \tab 114 \tab 3 \tab - \tab 2023 \cr
-   2010 \tab 1992 \tab 10 \tab 30 \tab 1 \tab 11 \tab 2044 \cr
-   2016 \tab 2697 \tab 65 \tab 92 \tab 2 \tab 11 \tab 2867 \cr
-   2018 \tab 2175 \tab 58 \tab 101 \tab 3 \tab 11 \tab 2348 \cr
-   Total \tab 8739 \tab 164 \tab 337 \tab 9 \tab 33 \tab 9282 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab strongly in favor \tab slightly in favor \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1875 \tab 31 \tab 114 \tab 3 \tab - \tab - \tab 2023 \cr
+   2010 \tab 1992 \tab 10 \tab 30 \tab 1 \tab 11 \tab - \tab 2044 \cr
+   2016 \tab 2697 \tab 65 \tab 92 \tab 2 \tab 11 \tab - \tab 2867 \cr
+   2018 \tab 2175 \tab 58 \tab 101 \tab 3 \tab 11 \tab - \tab 2348 \cr
+   Total \tab 8739 \tab 164 \tab 337 \tab 9 \tab 33 \tab 0 \tab 9282 \cr
 }
 }
 

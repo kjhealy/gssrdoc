@@ -36,10 +36,10 @@ A. The government should increase opportunities for women in business and indust
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4012/vshow}{GSS Data Explorer page for \code{fehlpbus}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly in favor \tab in favor \tab neither \tab against \tab strongly against \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 111 \tab 199 \tab 228 \tab 104 \tab 20 \tab 15 \tab 1534 \cr
-   Total \tab 857 \tab 111 \tab 199 \tab 228 \tab 104 \tab 20 \tab 15 \tab 1534 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly in favor \tab in favor \tab neither \tab against \tab strongly against \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 111 \tab 199 \tab 228 \tab 104 \tab 20 \tab 15 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 111 \tab 199 \tab 228 \tab 104 \tab 20 \tab 15 \tab 0 \tab 1534 \cr
 }
 }
 

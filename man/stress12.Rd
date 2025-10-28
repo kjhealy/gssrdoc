@@ -32,12 +32,12 @@ Question In the past 12 months, have you participated in any of these stress man
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2841/vshow}{GSS Data Explorer page for \code{stress12}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab skipped on web \tab Total \cr
-   2014 \tab 1288 \tab 81 \tab 397 \tab 772 \tab - \tab - \tab 2538 \cr
-   2018 \tab 900 \tab 81 \tab 429 \tab 938 \tab - \tab - \tab 2348 \cr
-   2022 \tab 2575 \tab 183 \tab 694 \tab 1 \tab 68 \tab 23 \tab 3544 \cr
-   Total \tab 4763 \tab 345 \tab 1520 \tab 1711 \tab 68 \tab 23 \tab 8430 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab skipped on web \tab not available in this year \tab Total \cr
+   2014 \tab 1288 \tab 81 \tab 397 \tab 772 \tab - \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 81 \tab 429 \tab 938 \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 2575 \tab 183 \tab 694 \tab 1 \tab 68 \tab 23 \tab - \tab 3544 \cr
+   Total \tab 4763 \tab 345 \tab 1520 \tab 1711 \tab 68 \tab 23 \tab 0 \tab 8430 \cr
 }
 }
 

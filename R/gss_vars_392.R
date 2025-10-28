@@ -23,12 +23,12 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes  |no   |don't know |no answer |skipped on web |Total |
-#'  |:-----|:----|:----|:----|:----------|:---------|:--------------|:-----|
-#'  |2014  |1765 |276  |491  |4          |2         |-              |2538  |
-#'  |2018  |900  |525  |868  |24         |31        |-              |2348  |
-#'  |2022  |2570 |316  |591  |52         |6         |9              |3544  |
-#'  |Total |5235 |1117 |1950 |80         |39        |9              |8430  |
+#'  |year  |iap  |yes  |no   |don't know |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:----|:----|:----------|:---------|:--------------|:--------------------------|:-----|
+#'  |2014  |1765 |276  |491  |4          |2         |-              |-                          |2538  |
+#'  |2018  |900  |525  |868  |24         |31        |-              |-                          |2348  |
+#'  |2022  |2570 |316  |591  |52         |6         |9              |-                          |3544  |
+#'  |Total |5235 |1117 |1950 |80         |39        |9              |0                          |8430  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
@@ -64,10 +64,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2014  |1765 |123 |530 |115        |5         |2538  |
-#'  |Total |1765 |123 |530 |115        |5         |2538  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2014  |1765 |123 |530 |115        |5         |-                          |2538  |
+#'  |Total |1765 |123 |530 |115        |5         |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism
@@ -106,10 +106,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |i would be less likely to buy from an employee-owned company |i would be neither more nor less likely to buy from an employee-owned company |i would be more likely to buy from an employee-owned company |don't know |no answer |Total |
-#'  |:-----|:---|:------------------------------------------------------------|:-----------------------------------------------------------------------------|:------------------------------------------------------------|:----------|:---------|:-----|
-#'  |2018  |900 |121                                                          |753                                                                           |517                                                          |26         |31        |2348  |
-#'  |Total |900 |121                                                          |753                                                                           |517                                                          |26         |31        |2348  |
+#'  |year  |iap |i would be less likely to buy from an employee-owned company |i would be neither more nor less likely to buy from an employee-owned company |i would be more likely to buy from an employee-owned company |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------------------------------------------------------|:-----------------------------------------------------------------------------|:------------------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |900 |121                                                          |753                                                                           |517                                                          |26         |31        |-                          |2348  |
+#'  |Total |900 |121                                                          |753                                                                           |517                                                          |26         |31        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -148,10 +148,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |i would definitely take the job without the esop (employee stock ownership plan) or cash profit sharing |i would probably take the job without the esop (employee stock ownership plan) or cash profit sharing |i would be neutral |i would probably take the job with the esop (employee stock ownership plan) or cash profit sharing |i would definitely take the job with the esop (employee stock ownership plan) or cash profit sharing |don't know |no answer |Total |
-#'  |:-----|:---|:-------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:------------------|:--------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:----------|:---------|:-----|
-#'  |2018  |900 |97                                                                                                      |45                                                                                                    |384                |437                                                                                                |422                                                                                                  |28         |35        |2348  |
-#'  |Total |900 |97                                                                                                      |45                                                                                                    |384                |437                                                                                                |422                                                                                                  |28         |35        |2348  |
+#'  |year  |iap |i would definitely take the job without the esop (employee stock ownership plan) or cash profit sharing |i would probably take the job without the esop (employee stock ownership plan) or cash profit sharing |i would be neutral |i would probably take the job with the esop (employee stock ownership plan) or cash profit sharing |i would definitely take the job with the esop (employee stock ownership plan) or cash profit sharing |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:------------------|:--------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |900 |97                                                                                                      |45                                                                                                    |384                |437                                                                                                |422                                                                                                  |28         |35        |-                          |2348  |
+#'  |Total |900 |97                                                                                                      |45                                                                                                    |384                |437                                                                                                |422                                                                                                  |28         |35        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -188,10 +188,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |a company in which the government owns the stock and appoints the management to run the company's operations |a company whose stock is owned by the employees who appoint the management to run the company's operations |a company whose stock is owned by outside investors who appoint the management to run the company's operations |don't know |no answer |Total |
-#'  |:-----|:---|:------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|:----------|:---------|:-----|
-#'  |2018  |900 |123                                                                                                          |981                                                                                                        |250                                                                                                            |56         |38        |2348  |
-#'  |Total |900 |123                                                                                                          |981                                                                                                        |250                                                                                                            |56         |38        |2348  |
+#'  |year  |iap |a company in which the government owns the stock and appoints the management to run the company's operations |a company whose stock is owned by the employees who appoint the management to run the company's operations |a company whose stock is owned by outside investors who appoint the management to run the company's operations |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |900 |123                                                                                                          |981                                                                                                        |250                                                                                                            |56         |38        |-                          |2348  |
+#'  |Total |900 |123                                                                                                          |981                                                                                                        |250                                                                                                            |56         |38        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -233,10 +233,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:-----|
-#'  |2006  |3435 |646         |306             |50              |19                |42         |12        |4510  |
-#'  |Total |3435 |646         |306             |50              |19                |42         |12        |4510  |
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3435 |646         |306             |50              |19                |42         |12        |-                          |4510  |
+#'  |Total |3435 |646         |306             |50              |19                |42         |12        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
@@ -272,10 +272,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2006  |3073 |902 |511 |11         |13        |4510  |
-#'  |Total |3073 |902 |511 |11         |13        |4510  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3073 |902 |511 |11         |13        |-                          |4510  |
+#'  |Total |3073 |902 |511 |11         |13        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
@@ -313,10 +313,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a great deal |quite a bit |a little |not at all |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:-----------|:--------|:----------|:----------|:---------|:-----|
-#'  |2006  |3595 |240          |179         |281      |200        |1          |14        |4510  |
-#'  |Total |3595 |240          |179         |281      |200        |1          |14        |4510  |
+#'  |year  |iap  |a great deal |quite a bit |a little |not at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:-----------|:--------|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3595 |240          |179         |281      |200        |1          |14        |-                          |4510  |
+#'  |Total |3595 |240          |179         |281      |200        |1          |14        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
@@ -354,10 +354,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |became stronger |became worse |was unchanged |ended as a result of the problem |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:------------|:-------------|:--------------------------------|:----------|:---------|:-----|
-#'  |2006  |3595 |237             |125          |457           |77                               |6          |13        |4510  |
-#'  |Total |3595 |237             |125          |457           |77                               |6          |13        |4510  |
+#'  |year  |iap  |became stronger |became worse |was unchanged |ended as a result of the problem |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:------------|:-------------|:--------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3595 |237             |125          |457           |77                               |6          |13        |-                          |4510  |
+#'  |Total |3595 |237             |125          |457           |77                               |6          |13        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III
@@ -395,10 +395,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |often |sometimes |almost never |never |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:---------|:------------|:-----|:----------|:---------|:-----|
-#'  |2006  |3073 |329   |468       |460          |148   |20         |12        |4510  |
-#'  |Total |3073 |329   |468       |460          |148   |20         |12        |4510  |
+#'  |year  |iap  |often |sometimes |almost never |never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:---------|:------------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3073 |329   |468       |460          |148   |20         |12        |-                          |4510  |
+#'  |Total |3073 |329   |468       |460          |148   |20         |12        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health III

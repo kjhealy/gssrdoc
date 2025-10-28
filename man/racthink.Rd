@@ -34,10 +34,10 @@ Question How often would you say that you and your friends think about race rela
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/419/vshow}{GSS Data Explorer page for \code{racthink}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very often \tab fairly often \tab occasionally \tab almost never \tab don't know \tab no answer \tab Total \cr
-   1983 \tab 804 \tab 56 \tab 109 \tab 346 \tab 274 \tab 4 \tab 6 \tab 1599 \cr
-   Total \tab 804 \tab 56 \tab 109 \tab 346 \tab 274 \tab 4 \tab 6 \tab 1599 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very often \tab fairly often \tab occasionally \tab almost never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab 804 \tab 56 \tab 109 \tab 346 \tab 274 \tab 4 \tab 6 \tab - \tab 1599 \cr
+   Total \tab 804 \tab 56 \tab 109 \tab 346 \tab 274 \tab 4 \tab 6 \tab 0 \tab 1599 \cr
 }
 }
 

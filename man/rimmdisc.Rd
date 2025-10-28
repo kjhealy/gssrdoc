@@ -34,10 +34,10 @@ Question B. What about immigrants?  Is it very likely, somewhat likely, somewhat
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1648/vshow}{GSS Data Explorer page for \code{rimmdisc}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 126 \tab 309 \tab 427 \tab 480 \tab 110 \tab 22 \tab 2992 \cr
-   Total \tab 1518 \tab 126 \tab 309 \tab 427 \tab 480 \tab 110 \tab 22 \tab 2992 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 126 \tab 309 \tab 427 \tab 480 \tab 110 \tab 22 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 126 \tab 309 \tab 427 \tab 480 \tab 110 \tab 22 \tab 0 \tab 2992 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question B. If you were asked to use one of five names for your social class, wh
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/569/vshow}{GSS Data Explorer page for \code{classy}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab lower class \tab working class \tab middle class \tab upper middle class \tab upper class \tab no answer \tab Total \cr
-   1973 \tab 753 \tab 32 \tab 308 \tab 308 \tab 79 \tab 18 \tab 6 \tab 1504 \cr
-   Total \tab 753 \tab 32 \tab 308 \tab 308 \tab 79 \tab 18 \tab 6 \tab 1504 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab lower class \tab working class \tab middle class \tab upper middle class \tab upper class \tab no answer \tab not available in this year \tab Total \cr
+   1973 \tab 753 \tab 32 \tab 308 \tab 308 \tab 79 \tab 18 \tab 6 \tab - \tab 1504 \cr
+   Total \tab 753 \tab 32 \tab 308 \tab 308 \tab 79 \tab 18 \tab 6 \tab 0 \tab 1504 \cr
 }
 }
 

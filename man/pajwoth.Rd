@@ -33,11 +33,11 @@ Question Was you father Jewish in any way when you were growing up?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3827/vshow}{GSS Data Explorer page for \code{pajwoth}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab half/part \tab no \tab yes \tab Total \cr
-   2008 \tab 2018 \tab 1 \tab 4 \tab - \tab 2023 \cr
-   2012 \tab 1969 \tab - \tab 4 \tab 1 \tab 1974 \cr
-   Total \tab 3987 \tab 1 \tab 8 \tab 1 \tab 3997 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab half/part \tab no \tab yes \tab not available in this year \tab Total \cr
+   2008 \tab 2018 \tab 1 \tab 4 \tab - \tab - \tab 2023 \cr
+   2012 \tab 1969 \tab - \tab 4 \tab 1 \tab - \tab 1974 \cr
+   Total \tab 3987 \tab 1 \tab 8 \tab 1 \tab 0 \tab 3997 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question The success of the United States is part of God’s plan.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7544/vshow}{GSS Data Explorer page for \code{godusa}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 424 \tab 326 \tab 607 \tab 1238 \tab 493 \tab 889 \tab 12 \tab 6 \tab 37 \tab 4032 \cr
-   Total \tab 424 \tab 326 \tab 607 \tab 1238 \tab 493 \tab 889 \tab 12 \tab 6 \tab 37 \tab 4032 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 424 \tab 326 \tab 607 \tab 1238 \tab 493 \tab 889 \tab 12 \tab 6 \tab 37 \tab - \tab 4032 \cr
+   Total \tab 424 \tab 326 \tab 607 \tab 1238 \tab 493 \tab 889 \tab 12 \tab 6 \tab 37 \tab 0 \tab 4032 \cr
 }
 }
 

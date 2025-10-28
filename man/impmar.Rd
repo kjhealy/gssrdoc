@@ -36,10 +36,10 @@ B. Being married.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1439/vshow}{GSS Data Explorer page for \code{impmar}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab one of most important \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 305 \tab 501 \tab 350 \tab 282 \tab 149 \tab 6 \tab 13 \tab 1606 \cr
-   Total \tab 0 \tab 305 \tab 501 \tab 350 \tab 282 \tab 149 \tab 6 \tab 13 \tab 1606 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab one of most important \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 305 \tab 501 \tab 350 \tab 282 \tab 149 \tab 6 \tab 13 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 305 \tab 501 \tab 350 \tab 282 \tab 149 \tab 6 \tab 13 \tab 0 \tab 1606 \cr
 }
 }
 

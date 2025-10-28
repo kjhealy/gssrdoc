@@ -33,12 +33,12 @@ H. Go to a classical music or opera performance, not including school performanc
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1412/vshow}{GSS Data Explorer page for \code{gomusic}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 254 \tab 1338 \tab 1 \tab 13 \tab 1606 \cr
-   1998 \tab 1387 \tab 243 \tab 1192 \tab - \tab 10 \tab 2832 \cr
-   2002 \tab - \tab 483 \tab 2255 \tab 15 \tab 12 \tab 2765 \cr
-   Total \tab 1387 \tab 980 \tab 4785 \tab 16 \tab 35 \tab 7203 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 254 \tab 1338 \tab 1 \tab 13 \tab - \tab 1606 \cr
+   1998 \tab 1387 \tab 243 \tab 1192 \tab - \tab 10 \tab - \tab 2832 \cr
+   2002 \tab - \tab 483 \tab 2255 \tab 15 \tab 12 \tab - \tab 2765 \cr
+   Total \tab 1387 \tab 980 \tab 4785 \tab 16 \tab 35 \tab 0 \tab 7203 \cr
 }
 }
 

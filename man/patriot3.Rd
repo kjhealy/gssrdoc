@@ -36,10 +36,10 @@ C. Are needed for America to remain united.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4905/vshow}{GSS Data Explorer page for \code{patriot3}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
-   2014 \tab 1264 \tab 347 \tab 619 \tab 157 \tab 100 \tab 10 \tab 36 \tab 5 \tab 2538 \cr
-   Total \tab 1264 \tab 347 \tab 619 \tab 157 \tab 100 \tab 10 \tab 36 \tab 5 \tab 2538 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab 1264 \tab 347 \tab 619 \tab 157 \tab 100 \tab 10 \tab 36 \tab 5 \tab - \tab 2538 \cr
+   Total \tab 1264 \tab 347 \tab 619 \tab 157 \tab 100 \tab 10 \tab 36 \tab 5 \tab 0 \tab 2538 \cr
 }
 }
 

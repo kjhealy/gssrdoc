@@ -33,12 +33,12 @@ B. Should such a person be allowed to teach in a college or university, or not?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/250/vshow}{GSS Data Explorer page for \code{colsoc}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab allowed \tab not allowed \tab don't know \tab no answer \tab iap \tab Total \cr
-   1972 \tab 899 \tab 595 \tab 114 \tab 5 \tab - \tab 1613 \cr
-   1973 \tab 863 \tab 558 \tab 78 \tab 5 \tab - \tab 1504 \cr
-   1974 \tab 847 \tab 552 \tab 81 \tab 4 \tab - \tab 1484 \cr
-   Total \tab 2609 \tab 1705 \tab 273 \tab 14 \tab 0 \tab 4601 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab allowed \tab not allowed \tab don't know \tab no answer \tab iap \tab not available in this year \tab Total \cr
+   1972 \tab 899 \tab 595 \tab 114 \tab 5 \tab - \tab - \tab 1613 \cr
+   1973 \tab 863 \tab 558 \tab 78 \tab 5 \tab - \tab - \tab 1504 \cr
+   1974 \tab 847 \tab 552 \tab 81 \tab 4 \tab - \tab - \tab 1484 \cr
+   Total \tab 2609 \tab 1705 \tab 273 \tab 14 \tab 0 \tab 0 \tab 4601 \cr
 }
 }
 

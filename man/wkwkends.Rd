@@ -38,10 +38,10 @@ And how often...
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6331/vshow}{GSS Data Explorer page for \code{wkwkends}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab always \tab often \tab sometimes \tab hardly ever \tab never \tab no answer \tab Total \cr
-   2016 \tab 1927 \tab 198 \tab 177 \tab 234 \tab 146 \tab 180 \tab 5 \tab 2867 \cr
-   Total \tab 1927 \tab 198 \tab 177 \tab 234 \tab 146 \tab 180 \tab 5 \tab 2867 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab hardly ever \tab never \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1927 \tab 198 \tab 177 \tab 234 \tab 146 \tab 180 \tab 5 \tab - \tab 2867 \cr
+   Total \tab 1927 \tab 198 \tab 177 \tab 234 \tab 146 \tab 180 \tab 5 \tab 0 \tab 2867 \cr
 }
 }
 

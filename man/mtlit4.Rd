@@ -33,10 +33,10 @@ Question M. Does the literary, art, discussion, or study group meet in this area
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3275/vshow}{GSS Data Explorer page for \code{mtlit4}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no answer \tab Total \cr
-   2004 \tab 2802 \tab 1 \tab 9 \tab 2812 \cr
-   Total \tab 2802 \tab 1 \tab 9 \tab 2812 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2802 \tab 1 \tab 9 \tab - \tab 2812 \cr
+   Total \tab 2802 \tab 1 \tab 9 \tab 0 \tab 2812 \cr
 }
 }
 

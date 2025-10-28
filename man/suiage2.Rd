@@ -35,11 +35,11 @@ B. How old was that person?  Was (he/she)…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5033/vshow}{GSS Data Explorer page for \code{suiage2}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab 11-20 \tab 21-40 \tab 41 year or older \tab don't know \tab no answer \tab Total \cr
-   1990 \tab 1347 \tab 6 \tab 11 \tab 5 \tab 1 \tab 2 \tab 1372 \cr
-   1991 \tab 1477 \tab 7 \tab 16 \tab 14 \tab - \tab 3 \tab 1517 \cr
-   Total \tab 2824 \tab 13 \tab 27 \tab 19 \tab 1 \tab 5 \tab 2889 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 11-20 \tab 21-40 \tab 41 year or older \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 1347 \tab 6 \tab 11 \tab 5 \tab 1 \tab 2 \tab - \tab 1372 \cr
+   1991 \tab 1477 \tab 7 \tab 16 \tab 14 \tab - \tab 3 \tab - \tab 1517 \cr
+   Total \tab 2824 \tab 13 \tab 27 \tab 19 \tab 1 \tab 5 \tab 0 \tab 2889 \cr
 }
 }
 

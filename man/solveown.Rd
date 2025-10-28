@@ -37,10 +37,10 @@ Question When you have a problem, do you prefer to solve it on your own or do yo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2978/vshow}{GSS Data Explorer page for \code{solveown}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab on own \tab get advice \tab both(on own and get advice) depending on problem \tab religious \tab research the problem \tab talk to a doctor other professional \tab talk with older people \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 593 \tab 729 \tab 35 \tab 7 \tab 3 \tab 4 \tab 1 \tab 14 \tab 7 \tab 2765 \cr
-   Total \tab 1372 \tab 593 \tab 729 \tab 35 \tab 7 \tab 3 \tab 4 \tab 1 \tab 14 \tab 7 \tab 2765 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab on own \tab get advice \tab both(on own and get advice) depending on problem \tab religious \tab research the problem \tab talk to a doctor other professional \tab talk with older people \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1372 \tab 593 \tab 729 \tab 35 \tab 7 \tab 3 \tab 4 \tab 1 \tab 14 \tab 7 \tab - \tab 2765 \cr
+   Total \tab 1372 \tab 593 \tab 729 \tab 35 \tab 7 \tab 3 \tab 4 \tab 1 \tab 14 \tab 7 \tab 0 \tab 2765 \cr
 }
 }
 

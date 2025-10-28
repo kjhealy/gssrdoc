@@ -36,10 +36,10 @@ C. Programs shown on public television.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1421/vshow}{GSS Data Explorer page for \code{tvpbs}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab daily \tab sevrl days in week \tab sevrl days in month \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 298 \tab 477 \tab 351 \tab 307 \tab 158 \tab 7 \tab 8 \tab 1606 \cr
-   Total \tab 0 \tab 298 \tab 477 \tab 351 \tab 307 \tab 158 \tab 7 \tab 8 \tab 1606 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab daily \tab sevrl days in week \tab sevrl days in month \tab rarely \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 298 \tab 477 \tab 351 \tab 307 \tab 158 \tab 7 \tab 8 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 298 \tab 477 \tab 351 \tab 307 \tab 158 \tab 7 \tab 8 \tab 0 \tab 1606 \cr
 }
 }
 

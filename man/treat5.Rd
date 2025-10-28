@@ -35,10 +35,10 @@ E. Accomplishing less than you would like with your work or other regular daily 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2692/vshow}{GSS Data Explorer page for \code{treat5}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely go \tab probably go \tab probably not go \tab definitely not go \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 290 \tab 326 \tab 317 \tab 238 \tab 9 \tab 239 \tab 2817 \cr
-   Total \tab 1398 \tab 290 \tab 326 \tab 317 \tab 238 \tab 9 \tab 239 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely go \tab probably go \tab probably not go \tab definitely not go \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 290 \tab 326 \tab 317 \tab 238 \tab 9 \tab 239 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 290 \tab 326 \tab 317 \tab 238 \tab 9 \tab 239 \tab 0 \tab 2817 \cr
 }
 }
 

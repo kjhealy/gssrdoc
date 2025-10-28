@@ -24,10 +24,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |almost always |often |sometimes |never |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:-----|:---------|:-----|:----------|:---------|:-----|
-#'  |2018  |1649 |228           |166   |156       |120   |2          |27        |2348  |
-#'  |Total |1649 |228           |166   |156       |120   |2          |27        |2348  |
+#'  |year  |iap  |almost always |often |sometimes |never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:-----|:---------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1649 |228           |166   |156       |120   |2          |27        |-                          |2348  |
+#'  |Total |1649 |228           |166   |156       |120   |2          |27        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -65,10 +65,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |almost always |often |sometimes |never |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:-----|:---------|:-----|:----------|:---------|:-----|
-#'  |2018  |1649 |522           |80    |38        |31    |1          |27        |2348  |
-#'  |Total |1649 |522           |80    |38        |31    |1          |27        |2348  |
+#'  |year  |iap  |almost always |often |sometimes |never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:-----|:---------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1649 |522           |80    |38        |31    |1          |27        |-                          |2348  |
+#'  |Total |1649 |522           |80    |38        |31    |1          |27        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -104,10 +104,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did not have |had |no answer |Total |
-#'  |:-----|:----|:------------|:---|:---------|:-----|
-#'  |2018  |2144 |36           |145 |23        |2348  |
-#'  |Total |2144 |36           |145 |23        |2348  |
+#'  |year  |iap  |did not have |had |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:---|:---------|:--------------------------|:-----|
+#'  |2018  |2144 |36           |145 |23        |-                          |2348  |
+#'  |Total |2144 |36           |145 |23        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -143,10 +143,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did not have |had |no answer |Total |
-#'  |:-----|:----|:------------|:---|:---------|:-----|
-#'  |2018  |2144 |131          |50  |23        |2348  |
-#'  |Total |2144 |131          |50  |23        |2348  |
+#'  |year  |iap  |did not have |had |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:---|:---------|:--------------------------|:-----|
+#'  |2018  |2144 |131          |50  |23        |-                          |2348  |
+#'  |Total |2144 |131          |50  |23        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -182,10 +182,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did not have |had |no answer |Total |
-#'  |:-----|:----|:------------|:---|:---------|:-----|
-#'  |2018  |2144 |175          |6   |23        |2348  |
-#'  |Total |2144 |175          |6   |23        |2348  |
+#'  |year  |iap  |did not have |had |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:---|:---------|:--------------------------|:-----|
+#'  |2018  |2144 |175          |6   |23        |-                          |2348  |
+#'  |Total |2144 |175          |6   |23        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -221,10 +221,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did not have |had |no answer |Total |
-#'  |:-----|:----|:------------|:---|:---------|:-----|
-#'  |2018  |2144 |176          |5   |23        |2348  |
-#'  |Total |2144 |176          |5   |23        |2348  |
+#'  |year  |iap  |did not have |had |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:---|:---------|:--------------------------|:-----|
+#'  |2018  |2144 |176          |5   |23        |-                          |2348  |
+#'  |Total |2144 |176          |5   |23        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -260,10 +260,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did not have |had |no answer |Total |
-#'  |:-----|:----|:------------|:---|:---------|:-----|
-#'  |2018  |2144 |173          |8   |23        |2348  |
-#'  |Total |2144 |173          |8   |23        |2348  |
+#'  |year  |iap  |did not have |had |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:---|:---------|:--------------------------|:-----|
+#'  |2018  |2144 |173          |8   |23        |-                          |2348  |
+#'  |Total |2144 |173          |8   |23        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -299,10 +299,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did not have |had |no answer |Total |
-#'  |:-----|:----|:------------|:---|:---------|:-----|
-#'  |2018  |2144 |174          |7   |23        |2348  |
-#'  |Total |2144 |174          |7   |23        |2348  |
+#'  |year  |iap  |did not have |had |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:---|:---------|:--------------------------|:-----|
+#'  |2018  |2144 |174          |7   |23        |-                          |2348  |
+#'  |Total |2144 |174          |7   |23        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -338,10 +338,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did not have |had |no answer |Total |
-#'  |:-----|:----|:------------|:---|:---------|:-----|
-#'  |2018  |2144 |180          |1   |23        |2348  |
-#'  |Total |2144 |180          |1   |23        |2348  |
+#'  |year  |iap  |did not have |had |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:---|:---------|:--------------------------|:-----|
+#'  |2018  |2144 |180          |1   |23        |-                          |2348  |
+#'  |Total |2144 |180          |1   |23        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -377,10 +377,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did not have |no answer |Total |
-#'  |:-----|:----|:------------|:---------|:-----|
-#'  |2018  |2144 |181          |23        |2348  |
-#'  |Total |2144 |181          |23        |2348  |
+#'  |year  |iap  |did not have |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:---------|:--------------------------|:-----|
+#'  |2018  |2144 |181          |23        |-                          |2348  |
+#'  |Total |2144 |181          |23        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

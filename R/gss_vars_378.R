@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2006  |2646 |535         |768             |308               |225           |26         |2         |4510  |
-#'  |Total |2646 |535         |768             |308               |225           |26         |2         |4510  |
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |535         |768             |308               |225           |26         |2         |-                          |4510  |
+#'  |Total |2646 |535         |768             |308               |225           |26         |2         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -68,10 +68,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2006  |2646 |477         |805             |325               |231           |24         |2         |4510  |
-#'  |Total |2646 |477         |805             |325               |231           |24         |2         |4510  |
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |477         |805             |325               |231           |24         |2         |-                          |4510  |
+#'  |Total |2646 |477         |805             |325               |231           |24         |2         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -111,10 +111,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2006  |2646 |495         |690             |351               |292           |34         |2         |4510  |
-#'  |Total |2646 |495         |690             |351               |292           |34         |2         |4510  |
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |495         |690             |351               |292           |34         |2         |-                          |4510  |
+#'  |Total |2646 |495         |690             |351               |292           |34         |2         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -153,10 +153,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2006  |2646 |596         |696             |295               |253           |22         |2         |4510  |
-#'  |Total |2646 |596         |696             |295               |253           |22         |2         |4510  |
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |596         |696             |295               |253           |22         |2         |-                          |4510  |
+#'  |Total |2646 |596         |696             |295               |253           |22         |2         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -196,10 +196,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2006  |2646 |481         |645             |361               |351           |24         |2         |4510  |
-#'  |Total |2646 |481         |645             |361               |351           |24         |2         |4510  |
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |481         |645             |361               |351           |24         |2         |-                          |4510  |
+#'  |Total |2646 |481         |645             |361               |351           |24         |2         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -240,11 +240,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2006  |2646 |642         |727             |287               |187           |19         |2         |4510  |
-#'  |2010  |1338 |244         |290             |88                |70            |5          |9         |2044  |
-#'  |Total |3984 |886         |1017            |375               |257           |24         |11        |6554  |
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |642         |727             |287               |187           |19         |2         |-                          |4510  |
+#'  |2010  |1338 |244         |290             |88                |70            |5          |9         |-                          |2044  |
+#'  |Total |3984 |886         |1017            |375               |257           |24         |11        |0                          |6554  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -284,11 +284,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2006  |2646 |476         |633             |375               |361           |17         |2         |4510  |
-#'  |2010  |1338 |166         |267             |129               |133           |4          |7         |2044  |
-#'  |Total |3984 |642         |900             |504               |494           |21         |9         |6554  |
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |476         |633             |375               |361           |17         |2         |-                          |4510  |
+#'  |2010  |1338 |166         |267             |129               |133           |4          |7         |-                          |2044  |
+#'  |Total |3984 |642         |900             |504               |494           |21         |9         |0                          |6554  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -328,11 +328,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2006  |2646 |430         |707             |366               |342           |17         |2         |4510  |
-#'  |2010  |1338 |162         |287             |120               |126           |4          |7         |2044  |
-#'  |Total |3984 |592         |994             |486               |468           |21         |9         |6554  |
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |430         |707             |366               |342           |17         |2         |-                          |4510  |
+#'  |2010  |1338 |162         |287             |120               |126           |4          |7         |-                          |2044  |
+#'  |Total |3984 |592         |994             |486               |468           |21         |9         |0                          |6554  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -372,11 +372,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2006  |2646 |309         |561             |496               |478           |18         |2         |4510  |
-#'  |2010  |1338 |135         |235             |162               |164           |3          |7         |2044  |
-#'  |Total |3984 |444         |796             |658               |642           |21         |9         |6554  |
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |309         |561             |496               |478           |18         |2         |-                          |4510  |
+#'  |2010  |1338 |135         |235             |162               |164           |3          |7         |-                          |2044  |
+#'  |Total |3984 |444         |796             |658               |642           |21         |9         |0                          |6554  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -416,11 +416,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2006  |2646 |424         |653             |403               |365           |17         |2         |4510  |
-#'  |2010  |1338 |177         |283             |124               |111           |3          |8         |2044  |
-#'  |Total |3984 |601         |936             |527               |476           |20         |10        |6554  |
+#'  |year  |iap  |very likely |somewhat likely |somewhat unlikely |very unlikely |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |424         |653             |403               |365           |17         |2         |-                          |4510  |
+#'  |2010  |1338 |177         |283             |124               |111           |3          |8         |-                          |2044  |
+#'  |Total |3984 |601         |936             |527               |476           |20         |10        |0                          |6554  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes

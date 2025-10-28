@@ -35,10 +35,10 @@ A. What about you? How often are you asked to help influence important decisions
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4119/vshow}{GSS Data Explorer page for \code{youinflu}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab never \tab seldom \tab occasionally \tab often \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 2992 \tab 544 \tab 445 \tab 396 \tab 127 \tab 5 \tab 1 \tab 4510 \cr
-   Total \tab 2992 \tab 544 \tab 445 \tab 396 \tab 127 \tab 5 \tab 1 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab seldom \tab occasionally \tab often \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2992 \tab 544 \tab 445 \tab 396 \tab 127 \tab 5 \tab 1 \tab - \tab 4510 \cr
+   Total \tab 2992 \tab 544 \tab 445 \tab 396 \tab 127 \tab 5 \tab 1 \tab 0 \tab 4510 \cr
 }
 }
 

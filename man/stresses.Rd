@@ -37,12 +37,13 @@ D. Stressful circumstances in his/her life
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1991/vshow}{GSS Data Explorer page for \code{stresses}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 523 \tab 706 \tab 102 \tab 57 \tab 40 \tab 16 \tab 2904 \cr
-   2006 \tab 3073 \tab 540 \tab 732 \tab 84 \tab 36 \tab 31 \tab 14 \tab 4510 \cr
-   2018 \tab 1175 \tab 387 \tab 580 \tab 102 \tab 59 \tab 16 \tab 29 \tab 2348 \cr
-   Total \tab 5708 \tab 1450 \tab 2018 \tab 288 \tab 152 \tab 87 \tab 59 \tab 9762 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 523 \tab 706 \tab 102 \tab 57 \tab 40 \tab 16 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 540 \tab 732 \tab 84 \tab 36 \tab 31 \tab 14 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 387 \tab 580 \tab 102 \tab 59 \tab 16 \tab 29 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1691 \tab 499 \tab 843 \tab 154 \tab 69 \tab 23 \tab 10 \tab - \tab 20 \tab 3309 \cr
+   Total \tab 7399 \tab 1949 \tab 2861 \tab 442 \tab 221 \tab 110 \tab 69 \tab 0 \tab 20 \tab 13071 \cr
 }
 }
 

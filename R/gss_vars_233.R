@@ -22,10 +22,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2016  |1390 |481 |988 |8         |2867  |
-#'  |Total |1390 |481 |988 |8         |2867  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2016  |1390 |481 |988 |8         |-                          |2867  |
+#'  |Total |1390 |481 |988 |8         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -61,10 +61,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2016  |2433 |279 |146 |1          |8         |2867  |
-#'  |Total |2433 |279 |146 |1          |8         |2867  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |2433 |279 |146 |1          |8         |-                          |2867  |
+#'  |Total |2433 |279 |146 |1          |8         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -100,10 +100,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2016  |2433 |74  |351 |9         |2867  |
-#'  |Total |2433 |74  |351 |9         |2867  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2016  |2433 |74  |351 |9         |-                          |2867  |
+#'  |Total |2433 |74  |351 |9         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -139,10 +139,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2016  |2433 |158 |267 |9         |2867  |
-#'  |Total |2433 |158 |267 |9         |2867  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2016  |2433 |158 |267 |9         |-                          |2867  |
+#'  |Total |2433 |158 |267 |9         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -179,10 +179,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |alone |with one other person |with two or more other people |no answer |Total |
-#'  |:-----|:----|:-----|:---------------------|:-----------------------------|:---------|:-----|
-#'  |2016  |2433 |19    |190                   |217                           |8         |2867  |
-#'  |Total |2433 |19    |190                   |217                           |8         |2867  |
+#'  |year  |iap  |alone |with one other person |with two or more other people |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:---------------------|:-----------------------------|:---------|:--------------------------|:-----|
+#'  |2016  |2433 |19    |190                   |217                           |8         |-                          |2867  |
+#'  |Total |2433 |19    |190                   |217                           |8         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -218,10 +218,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2016  |2452 |219 |188 |8         |2867  |
-#'  |Total |2452 |219 |188 |8         |2867  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2016  |2452 |219 |188 |8         |-                          |2867  |
+#'  |Total |2452 |219 |188 |8         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -257,10 +257,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2016  |2452 |105 |302 |8         |2867  |
-#'  |Total |2452 |105 |302 |8         |2867  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2016  |2452 |105 |302 |8         |-                          |2867  |
+#'  |Total |2452 |105 |302 |8         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -296,10 +296,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2016  |2452 |184 |223 |8         |2867  |
-#'  |Total |2452 |184 |223 |8         |2867  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2016  |2452 |184 |223 |8         |-                          |2867  |
+#'  |Total |2452 |184 |223 |8         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -335,10 +335,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2016  |2452 |125 |282 |8         |2867  |
-#'  |Total |2452 |125 |282 |8         |2867  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2016  |2452 |125 |282 |8         |-                          |2867  |
+#'  |Total |2452 |125 |282 |8         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture
@@ -374,10 +374,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2016  |2452 |51  |356 |8         |2867  |
-#'  |Total |2452 |51  |356 |8         |2867  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2016  |2452 |51  |356 |8         |-                          |2867  |
+#'  |Total |2452 |51  |356 |8         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture

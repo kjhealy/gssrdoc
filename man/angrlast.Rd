@@ -36,10 +36,10 @@ Question Emotions eventually fade away. How long did your anger or irritation la
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1765/vshow}{GSS Data Explorer page for \code{angrlast}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab seconds \tab minutes \tab hours \tab all that day \tab several days, or \tab felt continuously \tab no answer \tab Total \cr
-   1996 \tab 1779 \tab 42 \tab 300 \tab 297 \tab 135 \tab 186 \tab 157 \tab 8 \tab 2904 \cr
-   Total \tab 1779 \tab 42 \tab 300 \tab 297 \tab 135 \tab 186 \tab 157 \tab 8 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab seconds \tab minutes \tab hours \tab all that day \tab several days, or \tab felt continuously \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1779 \tab 42 \tab 300 \tab 297 \tab 135 \tab 186 \tab 157 \tab 8 \tab - \tab 2904 \cr
+   Total \tab 1779 \tab 42 \tab 300 \tab 297 \tab 135 \tab 186 \tab 157 \tab 8 \tab 0 \tab 2904 \cr
 }
 }
 

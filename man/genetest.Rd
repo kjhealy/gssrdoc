@@ -34,11 +34,11 @@ Question A. How much would you say you have heard or read about genetic screenin
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5083/vshow}{GSS Data Explorer page for \code{genetest}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a great deal \tab not very much \tab nothing at all \tab refused \tab don't know \tab no answer \tab Total \cr
-   1990 \tab 455 \tab 117 \tab 541 \tab 237 \tab 2 \tab 16 \tab 4 \tab 1372 \cr
-   1996 \tab 2408 \tab 67 \tab 313 \tab 86 \tab - \tab 11 \tab 19 \tab 2904 \cr
-   Total \tab 2863 \tab 184 \tab 854 \tab 323 \tab 2 \tab 27 \tab 23 \tab 4276 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal \tab not very much \tab nothing at all \tab refused \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 455 \tab 117 \tab 541 \tab 237 \tab 2 \tab 16 \tab 4 \tab - \tab 1372 \cr
+   1996 \tab 2408 \tab 67 \tab 313 \tab 86 \tab - \tab 11 \tab 19 \tab - \tab 2904 \cr
+   Total \tab 2863 \tab 184 \tab 854 \tab 323 \tab 2 \tab 27 \tab 23 \tab 0 \tab 4276 \cr
 }
 }
 

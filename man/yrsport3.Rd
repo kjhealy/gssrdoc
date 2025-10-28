@@ -31,10 +31,10 @@ Question F. How many years have you been a member of
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3170/vshow}{GSS Data Explorer page for \code{yrsport3}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab 1 \tab 16 \tab 2 \tab 20 \tab 3 \tab 30 \tab 4 \tab 40 \tab 5 \tab 6 \tab 7 \tab no answer \tab Total \cr
-   2004 \tab 2784 \tab 4 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 9 \tab 2812 \cr
-   Total \tab 2784 \tab 4 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 9 \tab 2812 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 1 \tab 16 \tab 2 \tab 20 \tab 3 \tab 30 \tab 4 \tab 40 \tab 5 \tab 6 \tab 7 \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2784 \tab 4 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 9 \tab - \tab 2812 \cr
+   Total \tab 2784 \tab 4 \tab 1 \tab 3 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 9 \tab 0 \tab 2812 \cr
 }
 }
 

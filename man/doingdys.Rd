@@ -35,10 +35,10 @@ Question C. How long have you spent on learning by doing?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2156/vshow}{GSS Data Explorer page for \code{doingdys}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab a month or less \tab month to three \tab 3 months to 6 \tab 6 months to year \tab over a year \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 2098 \tab 270 \tab 86 \tab 81 \tab 59 \tab 186 \tab 1 \tab 51 \tab 2832 \cr
-   Total \tab 2098 \tab 270 \tab 86 \tab 81 \tab 59 \tab 186 \tab 1 \tab 51 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab a month or less \tab month to three \tab 3 months to 6 \tab 6 months to year \tab over a year \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2098 \tab 270 \tab 86 \tab 81 \tab 59 \tab 186 \tab 1 \tab 51 \tab - \tab 2832 \cr
+   Total \tab 2098 \tab 270 \tab 86 \tab 81 \tab 59 \tab 186 \tab 1 \tab 51 \tab 0 \tab 2832 \cr
 }
 }
 

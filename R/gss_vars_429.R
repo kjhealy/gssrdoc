@@ -22,10 +22,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
-#'  |2008  |1928 |54  |16 |1          |24        |2023  |
-#'  |Total |1928 |54  |16 |1          |24        |2023  |
+#'  |year  |iap  |yes |no |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |1928 |54  |16 |1          |24        |-                          |2023  |
+#'  |Total |1928 |54  |16 |1          |24        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -64,10 +64,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |only individual employees are covered |employees and their spouses are covered but domestic partners are not covered |employees and their spouses are covered and domestic partners are covered |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------------------|:-----------------------------------------------------------------------------|:-------------------------------------------------------------------------|:----------|:---------|:-----|
-#'  |2008  |1945 |14                                    |27                                                                            |8                                                                         |3          |26        |2023  |
-#'  |Total |1945 |14                                    |27                                                                            |8                                                                         |3          |26        |2023  |
+#'  |year  |iap  |only individual employees are covered |employees and their spouses are covered but domestic partners are not covered |employees and their spouses are covered and domestic partners are covered |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------------------|:-----------------------------------------------------------------------------|:-------------------------------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |1945 |14                                    |27                                                                            |8                                                                         |3          |26        |-                          |2023  |
+#'  |Total |1945 |14                                    |27                                                                            |8                                                                         |3          |26        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -105,10 +105,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
-#'  |2008  |1879 |90  |29 |1          |24        |2023  |
-#'  |Total |1879 |90  |29 |1          |24        |2023  |
+#'  |year  |iap  |yes |no |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |1879 |90  |29 |1          |24        |-                          |2023  |
+#'  |Total |1879 |90  |29 |1          |24        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -149,10 +149,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |my employer |employer of my spouse/partner |employer of someone else in my family |medicaid |medicare |individual plan from private insurer not related to current or past employment |other |no answer |Total |
-#'  |:-----|:----|:-----------|:-----------------------------|:-------------------------------------|:--------|:--------|:------------------------------------------------------------------------------|:-----|:---------|:-----|
-#'  |2008  |1907 |46          |10                            |2                                     |7        |16       |7                                                                              |4     |24        |2023  |
-#'  |Total |1907 |46          |10                            |2                                     |7        |16       |7                                                                              |4     |24        |2023  |
+#'  |year  |iap  |my employer |employer of my spouse/partner |employer of someone else in my family |medicaid |medicare |individual plan from private insurer not related to current or past employment |other |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:-----------------------------|:-------------------------------------|:--------|:--------|:------------------------------------------------------------------------------|:-----|:---------|:--------------------------|:-----|
+#'  |2008  |1907 |46          |10                            |2                                     |7        |16       |7                                                                              |4     |24        |-                          |2023  |
+#'  |Total |1907 |46          |10                            |2                                     |7        |16       |7                                                                              |4     |24        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -191,10 +191,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |not applicable |no answer |Total |
-#'  |:-----|:----|:---|:--|:--------------|:---------|:-----|
-#'  |2008  |1888 |26  |27 |39             |43        |2023  |
-#'  |Total |1888 |26  |27 |39             |43        |2023  |
+#'  |year  |iap  |yes |no |not applicable |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--------------|:---------|:--------------------------|:-----|
+#'  |2008  |1888 |26  |27 |39             |43        |-                          |2023  |
+#'  |Total |1888 |26  |27 |39             |43        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -233,10 +233,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |not applicable |no answer |Total |
-#'  |:-----|:----|:---|:--|:--------------|:---------|:-----|
-#'  |2008  |1888 |18  |20 |54             |43        |2023  |
-#'  |Total |1888 |18  |20 |54             |43        |2023  |
+#'  |year  |iap  |yes |no |not applicable |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--------------|:---------|:--------------------------|:-----|
+#'  |2008  |1888 |18  |20 |54             |43        |-                          |2023  |
+#'  |Total |1888 |18  |20 |54             |43        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -277,10 +277,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |not applicable |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:--------------|:----------|:---------|:-----|
-#'  |2008  |1888 |7   |22 |62             |1          |43        |2023  |
-#'  |Total |1888 |7   |22 |62             |1          |43        |2023  |
+#'  |year  |iap  |yes |no |not applicable |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |1888 |7   |22 |62             |1          |43        |-                          |2023  |
+#'  |Total |1888 |7   |22 |62             |1          |43        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -318,10 +318,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no   |don't know |no answer |Total |
-#'  |:-----|:---|:---|:----|:----------|:---------|:-----|
-#'  |2008  |233 |410 |1349 |5          |26        |2023  |
-#'  |Total |233 |410 |1349 |5          |26        |2023  |
+#'  |year  |iap |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |233 |410 |1349 |5          |26        |-                          |2023  |
+#'  |Total |233 |410 |1349 |5          |26        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -359,10 +359,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no   |don't know |no answer |Total |
-#'  |:-----|:---|:---|:----|:----------|:---------|:-----|
-#'  |2008  |233 |43  |1715 |3          |29        |2023  |
-#'  |Total |233 |43  |1715 |3          |29        |2023  |
+#'  |year  |iap |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |233 |43  |1715 |3          |29        |-                          |2023  |
+#'  |Total |233 |43  |1715 |3          |29        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -399,10 +399,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |Total |
-#'  |:-----|:----|:---|:--|:-----|
-#'  |2008  |1980 |24  |19 |2023  |
-#'  |Total |1980 |24  |19 |2023  |
+#'  |year  |iap  |yes |no |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--------------------------|:-----|
+#'  |2008  |1980 |24  |19 |-                          |2023  |
+#'  |Total |1980 |24  |19 |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex

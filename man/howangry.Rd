@@ -32,10 +32,10 @@ Question How intense would you say your anger or irritation was, if 0 means the 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1764/vshow}{GSS Data Explorer page for \code{howangry}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab weakest \tab 1 \tab most intense \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1779 \tab 11 \tab 15 \tab 153 \tab 51 \tab 94 \tab 101 \tab 167 \tab 145 \tab 170 \tab 151 \tab 57 \tab 1 \tab 9 \tab 2904 \cr
-   Total \tab 1779 \tab 11 \tab 15 \tab 153 \tab 51 \tab 94 \tab 101 \tab 167 \tab 145 \tab 170 \tab 151 \tab 57 \tab 1 \tab 9 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab weakest \tab 1 \tab most intense \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1779 \tab 11 \tab 15 \tab 153 \tab 51 \tab 94 \tab 101 \tab 167 \tab 145 \tab 170 \tab 151 \tab 57 \tab 1 \tab 9 \tab - \tab 2904 \cr
+   Total \tab 1779 \tab 11 \tab 15 \tab 153 \tab 51 \tab 94 \tab 101 \tab 167 \tab 145 \tab 170 \tab 151 \tab 57 \tab 1 \tab 9 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -61,8 +61,9 @@
 #'  |2016  |736                   |1349        |144                      |292        |146      |97         |101  |2         |-              |2867  |
 #'  |2018  |589                   |1048        |141                      |272        |118      |95         |84   |1         |-              |2348  |
 #'  |2021  |698                   |2019        |220                      |486        |255      |247        |100  |1         |6              |4032  |
-#'  |2022  |677                   |1562        |197                      |449        |237      |-          |422  |-         |-              |3544  |
-#'  |Total |25037                 |28798       |2328                     |5102       |2154     |3716       |4561 |688       |6              |72390 |
+#'  |2022  |696                   |1561        |197                      |449        |237      |326        |78   |-         |-              |3544  |
+#'  |2024  |814                   |1492        |187                      |402        |197      |46         |170  |-         |1              |3309  |
+#'  |Total |25870                 |30289       |2515                     |5504       |2351     |4088       |4387 |688       |7              |75699 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -137,9 +138,9 @@ NULL
 #'  |2014  |129                   |529         |89                       |238        |169      |4          |1376  |4         |-              |2538  |
 #'  |2016  |113                   |578         |89                       |261        |163      |6          |1654  |3         |-              |2867  |
 #'  |2018  |112                   |443         |79                       |221        |138      |2          |1348  |5         |-              |2348  |
-#'  |2021  |151                   |769         |146                      |517        |388      |19         |2026  |-         |16             |4032  |
-#'  |2022  |130                   |616         |105                      |337        |273      |-          |2080  |2         |1              |3544  |
-#'  |Total |6874                  |18448       |1980                     |5837       |3361     |177        |35531 |165       |17             |72390 |
+#'  |2021  |151                   |769         |146                      |517        |388      |19         |2029  |-         |13             |4032  |
+#'  |2022  |110                   |618         |106                      |339        |273      |21         |2074  |2         |1              |3544  |
+#'  |Total |6854                  |18450       |1981                     |5839       |3361     |198        |35528 |165       |14             |72390 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -161,87 +162,45 @@ NULL
 #' 
 #' @section Values: 
 #'
-#'   * `[1]` accounting/bookkeeping
-#'   * `[2]` advertising
-#'   * `[3]` agriculture/horticulture
-#'   * `[4]` allied health
-#'   * `[5]` anthropology
-#'   * `[6]` architecture
-#'   * `[7]` art
-#'   * `[8]` biology
-#'   * `[9]` business administration
-#'   * `[11]` chemistry
-#'   * `[12]` communications/speech
-#'   * `[13]` comm. disorders
-#'   * `[14]` computer science
-#'   * `[15]` dentistry
-#'   * `[16]` education
-#'   * `[17]` economics
-#'   * `[18]` engineering
-#'   * `[19]` english
-#'   * `[20]` finance
-#'   * `[21]` foreign language
-#'   * `[22]` forestry
-#'   * `[23]` geography
-#'   * `[24]` geology
-#'   * `[25]` history
-#'   * `[26]` home economics
-#'   * `[27]` industry & technology
-#'   * `[28]` journalism
-#'   * `[29]` law
-#'   * `[30]` law enforcement
-#'   * `[31]` library science
-#'   * `[32]` marketing
-#'   * `[33]` mathematics
-#'   * `[34]` medicine
-#'   * `[35]` music
-#'   * `[36]` nursing
-#'   * `[37]` optometry
-#'   * `[38]` pharmacy
-#'   * `[39]` philosophy
-#'   * `[40]` physical education
-#'   * `[41]` physics
-#'   * `[42]` psychology
-#'   * `[43]` political science/international relations
-#'   * `[44]` sociology
-#'   * `[45]` special education
-#'   * `[46]` theater arts
-#'   * `[47]` theology
-#'   * `[48]` veterinary medicine
-#'   * `[49]` liberal arts
-#'   * `[50]` other
-#'   * `[51]` general sciences
-#'   * `[52]` social work
-#'   * `[53]` general studies
-#'   * `[54]` other vocational
-#'   * `[55]` health
-#'   * `[56]` industrial relations
-#'   * `[57]` child/human/family development
-#'   * `[58]` food science/nutrition/culinary arts
-#'   * `[59]` environmental science/ecology
-#'   * `[60]` social sciences
-#'   * `[61]` human services/human resources
-#'   * `[62]` visual arts/graphic design/design and drafting
-#'   * `[63]` fine arts
-#'   * `[64]` humanities
-#'   * `[65]` ethnic studies
-#'   * `[66]` educational administration
-#'   * `[67]` television/film
-#'   * `[68]` aviation/aeronatics
-#'   * `[69]` statistics/biostatistics
-#'   * `[70]` criminology/criminal justice
-#'   * `[71]` administrative science/public administration
-#'   * `[72]` electronics
-#'   * `[73]` urban and regional planning
-#'   * `[74]` mechanics/machine trade
-#'   * `[75]` dance
-#'   * `[76]` gerontology
-#'   * `[77]` public relations
-#'   * `[78]` textiles/cloth
-#'   * `[79]` parks and recreation
-#'   * `[80]` information technology
-#'   * `[81]` fashion
-#'   * `[82]` counseling
+#'   * `[1]` agriculture
+#'   * `[2]` environment and natural resources
+#'   * `[3]` architecture
+#'   * `[4]` area, ethnic, and civilization studies
+#'   * `[5]` communications
+#'   * `[6]` communication technologies
+#'   * `[7]` computer and information sciences
+#'   * `[8]` cosmetology services and culinary arts
+#'   * `[9]` education administration and teaching
+#'   * `[10]` engineering
+#'   * `[11]` engineering technologies
+#'   * `[12]` linguistics and foreign languages
+#'   * `[13]` family and consumer sciences
+#'   * `[14]` law and legal studies
+#'   * `[15]` english language, literature, and composition
+#'   * `[16]` liberal arts and humanities
+#'   * `[17]` library science
+#'   * `[18]` biology and life sciences
+#'   * `[19]` mathematics and statistics
+#'   * `[20]` military technologies
+#'   * `[21]` interdisciplinary and multi-disciplinary studies (general)
+#'   * `[22]` physical fitness, parks, recreation, and leisure
+#'   * `[23]` philosophy and religious studies
+#'   * `[24]` theology and religious vocations
+#'   * `[25]` physical sciences
+#'   * `[26]` nuclear, industrial radiology, and biological technologies
+#'   * `[27]` psychology
+#'   * `[28]` criminal justice and fire protection
+#'   * `[29]` public affairs, policy, and social work
+#'   * `[30]` social sciences
+#'   * `[31]` construction services
+#'   * `[32]` electrical and mechanic repairs and technologies
+#'   * `[33]` precision production and industrial arts
+#'   * `[34]` transportation sciences and technologies
+#'   * `[35]` fine arts
+#'   * `[36]` medical and health sciences and services
+#'   * `[37]` business
+#'   * `[38]` history
+#'   * `[39]` other
 #'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
@@ -255,15 +214,15 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |accounting/bookkeeping |advertising |agriculture/horticulture |anthropology |architecture |art |biology |business administration |chemistry |communications/speech |comm. disorders |computer science |dentistry |education |economics |engineering |english |finance |foreign language |forestry |geology |history |industry & technology |journalism |law |law enforcement |library science |marketing |mathematics |medicine |music |nursing |pharmacy |philosophy |physical education |physics |psychology |political science/international relations |sociology |special education |theater arts |theology |veterinary medicine |liberal arts |other |general sciences |social work |general studies |other vocational |health |industrial relations |child/human/family development |food science/nutrition/culinary arts |environmental science/ecology |social sciences |human services/human resources |visual arts/graphic design/design and drafting |fine arts |ethnic studies |educational administration |aviation/aeronatics |criminology/criminal justice |administrative science/public administration |electronics |urban and regional planning |dance |gerontology |public relations |textiles/cloth |parks and recreation |don't know |allied health |geography |humanities |television/film |mechanics/machine trade |information technology |no answer |home economics |statistics/biostatistics |fashion |counseling |optometry |skipped on web |not available in this year |Total |
-#'  |:-----|:----|:----------------------|:-----------|:------------------------|:------------|:------------|:---|:-------|:-----------------------|:---------|:---------------------|:---------------|:----------------|:---------|:---------|:---------|:-----------|:-------|:-------|:----------------|:--------|:-------|:-------|:---------------------|:----------|:---|:---------------|:---------------|:---------|:-----------|:--------|:-----|:-------|:--------|:----------|:------------------|:-------|:----------|:-----------------------------------------|:---------|:-----------------|:------------|:--------|:-------------------|:------------|:-----|:----------------|:-----------|:---------------|:----------------|:------|:--------------------|:------------------------------|:------------------------------------|:-----------------------------|:---------------|:------------------------------|:----------------------------------------------|:---------|:--------------|:--------------------------|:-------------------|:----------------------------|:--------------------------------------------|:-----------|:---------------------------|:-----|:-----------|:----------------|:--------------|:--------------------|:----------|:-------------|:---------|:----------|:---------------|:-----------------------|:----------------------|:---------|:--------------|:------------------------|:-------|:----------|:---------|:--------------|:--------------------------|:-----|
-#'  |2012  |1263 |28                     |3           |8                        |3            |2            |6   |16      |90                      |5         |20                    |4               |25               |2         |73        |11        |47          |23      |7       |4                |1        |1       |10      |3                     |5          |13  |3               |4               |11        |5           |9        |4     |36      |2        |2          |9                  |3       |32         |16                                        |9         |5                 |6            |6        |1                   |8            |8     |10               |7           |2               |5                |23     |1                    |11                             |3                                    |5                             |4               |3                              |3                                              |4         |3              |3                          |2                   |13                           |2                                            |6           |1                           |1     |1           |3                |3              |1                    |2          |-             |-         |-          |-               |-                       |-                      |-         |-              |-                        |-       |-          |-         |-              |-                          |1974  |
-#'  |2014  |1597 |32                     |2           |2                        |5            |3            |7   |22      |142                     |8         |18                    |6               |24               |4         |91        |19        |49          |26      |15      |8                |-        |3       |19      |4                     |6          |18  |5               |5               |15        |10          |25       |2     |39      |5        |-          |6                  |6       |32         |22                                        |15        |3                 |2            |6        |5                   |16           |10    |13               |17          |5               |11               |31     |-                    |3                              |6                                    |5                             |2               |7                              |8                                              |5         |1              |4                          |1                   |17                           |11                                           |6           |1                           |-     |-           |1                |4              |2                    |3          |2             |2         |2          |2               |1                       |5                      |1         |-              |-                        |-       |-          |-         |-              |-                          |2538  |
-#'  |2016  |1795 |30                     |-           |7                        |1            |5            |11  |33      |172                     |10        |26                    |2               |33               |3         |97        |13        |47          |27      |14      |6                |3        |4       |14      |6                     |6          |23  |4               |2               |13        |12          |12       |10    |60      |4        |2          |16                 |7       |34         |19                                        |10        |5                 |3            |13       |3                   |12           |21    |15               |24          |7               |6                |31     |-                    |7                              |9                                    |6                             |7               |7                              |9                                              |5         |-              |8                          |1                   |17                           |3                                            |5           |3                           |1     |1           |2                |-              |1                    |-          |1             |2         |-          |6               |1                       |8                      |5         |3              |2                        |3       |11         |-         |-              |-                          |2867  |
-#'  |2018  |1435 |29                     |-           |5                        |1            |3            |10  |26      |138                     |4         |18                    |2               |17               |5         |79        |19        |54          |24      |16      |5                |-        |2       |19      |-                     |4          |14  |2               |3               |12        |5           |11       |2     |51      |4        |2          |6                  |4       |29         |14                                        |12        |2                 |1            |8        |4                   |10           |27    |14               |7           |7               |5                |42     |3                    |7                              |9                                    |8                             |5               |5                              |10                                             |6         |-              |9                          |3                   |13                           |5                                            |9           |2                           |1     |1           |1                |-              |-                    |-          |-             |4         |1          |1               |4                       |11                     |3         |2              |2                        |1       |9          |-         |-              |-                          |2348  |
-#'  |2021  |-    |70                     |1           |12                       |6            |16           |24  |64      |309                     |17        |47                    |-               |67               |6         |186       |23        |103         |44      |20      |19               |1        |6       |31      |1                     |16         |45  |4               |11              |20        |17          |85       |13    |93      |13       |6          |3                  |5       |63         |41                                        |26        |11                |10           |23       |6                   |21           |40    |27               |28          |18              |3                |31     |-                    |13                             |5                                    |21                            |14              |16                             |3                                              |35        |-              |26                         |3                   |58                           |25                                           |23          |5                           |1     |1           |1                |1              |-                    |28         |12            |11        |3          |5               |10                      |28                     |12        |4              |4                        |6       |16         |4         |30             |1856                       |4032  |
-#'  |2022  |2013 |41                     |2           |7                        |2            |8            |21  |47      |221                     |13        |32                    |4               |48               |5         |129       |13        |80          |41      |22      |6                |-        |2       |17      |6                     |12         |32  |1               |4               |12        |21          |23       |7     |90      |6        |4          |9                  |7       |60         |34                                        |19        |8                 |4            |13       |5                   |17           |18    |27               |2           |14              |6                |50     |1                    |14                             |13                                   |14                            |10              |17                             |12                                             |9         |1              |8                          |6                   |32                           |7                                            |13          |1                           |-     |1           |2                |1              |2                    |1          |-             |3         |1          |5               |8                       |10                     |14        |3              |-                        |2       |27         |1         |20             |-                          |3544  |
-#'  |Total |8103 |230                    |8           |41                       |18           |37           |79  |208     |1072                    |57        |161                   |18              |214              |25        |655       |98        |380         |185     |94      |48               |5        |18      |110     |20                    |49         |145 |19              |29              |83        |70          |165      |38    |369     |34       |16         |49                 |32      |250        |146                                       |91        |34                |26           |69       |24                  |84           |124   |106              |85          |53              |36               |208    |5                    |55                             |45                                   |59                            |42              |55                             |45                                             |64        |5              |58                         |16                  |150                          |53                                           |62          |13                          |4     |5           |10               |9              |6                    |34         |15            |22        |7          |19              |24                      |62                     |35        |12             |8                        |12      |63         |5         |50             |1856                       |17303 |
+#'  |year  |not available in this year |agriculture |environment and natural resources |architecture |area, ethnic, and civilization studies |communications |computer and information sciences |cosmetology services and culinary arts |education administration and teaching |engineering |engineering technologies |linguistics and foreign languages |law and legal studies |english language, literature, and composition |liberal arts and humanities |library science |biology and life sciences |mathematics and statistics |interdisciplinary and multi-disciplinary studies (general) |physical fitness, parks, recreation, and leisure |philosophy and religious studies |theology and religious vocations |physical sciences |psychology |criminal justice and fire protection |public affairs, policy, and social work |social sciences |electrical and mechanic repairs and technologies |precision production and industrial arts |fine arts |medical and health sciences and services |business |history |other |don't know |iap  |no answer |family and consumer sciences |skipped on web |nuclear, industrial radiology, and biological technologies |construction services |transportation sciences and technologies |Total |
+#'  |:-----|:--------------------------|:-----------|:---------------------------------|:------------|:--------------------------------------|:--------------|:---------------------------------|:--------------------------------------|:-------------------------------------|:-----------|:------------------------|:---------------------------------|:---------------------|:---------------------------------------------|:---------------------------|:---------------|:-------------------------|:--------------------------|:----------------------------------------------------------|:------------------------------------------------|:--------------------------------|:--------------------------------|:-----------------|:----------|:------------------------------------|:---------------------------------------|:---------------|:------------------------------------------------|:----------------------------------------|:---------|:----------------------------------------|:--------|:-------|:-----|:----------|:----|:---------|:----------------------------|:--------------|:----------------------------------------------------------|:---------------------|:----------------------------------------|:-----|
+#'  |2012  |-                          |9           |6                                 |2            |3                                      |31             |25                                |3                                      |90                                    |49          |3                        |4                                 |13                    |23                                            |8                           |4               |16                        |5                          |2                                                          |1                                                |2                                |6                                |19                |32         |16                                   |12                                      |56              |6                                                |1                                        |27        |76                                       |136      |10      |13    |2          |1263 |-         |-                            |-              |-                                                          |-                     |-                                        |1974  |
+#'  |2014  |-                          |7           |5                                 |3            |1                                      |27             |29                                |6                                      |104                                   |50          |4                        |8                                 |18                    |26                                            |18                          |5               |22                        |10                         |5                                                          |2                                                |-                                |6                                |30                |32         |22                                   |35                                      |69              |7                                                |-                                        |30        |112                                      |204      |19      |21    |3          |1597 |1         |-                            |-              |-                                                          |-                     |-                                        |2538  |
+#'  |2016  |-                          |10          |9                                 |5            |-                                      |34             |41                                |9                                      |126                                   |48          |6                        |6                                 |23                    |27                                            |12                          |2               |33                        |14                         |7                                                          |1                                                |2                                |13                               |36                |45         |21                                   |34                                      |63              |6                                                |-                                        |48        |113                                      |229      |14      |27    |-          |1795 |5         |3                            |-              |-                                                          |-                     |-                                        |2867  |
+#'  |2018  |-                          |9           |8                                 |3            |-                                      |23             |28                                |9                                      |96                                    |57          |-                        |5                                 |14                    |24                                            |11                          |3               |26                        |7                          |7                                                          |-                                                |2                                |8                                |24                |38         |15                                   |17                                      |65              |13                                               |3                                        |32        |115                                      |195      |19      |32    |-          |1435 |3         |2                            |-              |-                                                          |-                     |-                                        |2348  |
+#'  |2021  |-                          |18          |22                                |16           |-                                      |65             |95                                |5                                      |226                                   |106         |1                        |19                                |45                    |44                                            |24                          |11              |64                        |21                         |18                                                         |-                                                |6                                |23                               |55                |79         |62                                   |69                                      |140             |33                                               |-                                        |98        |244                                      |419      |31      |43    |28         |1856 |12        |4                            |30             |-                                                          |-                     |-                                        |4032  |
+#'  |2022  |-                          |12          |14                                |8            |1                                      |48             |58                                |13                                     |154                                   |86          |6                        |6                                 |32                    |41                                            |18                          |4               |47                        |21                         |14                                                         |2                                                |4                                |13                               |49                |87         |33                                   |26                                      |97              |21                                               |1                                        |61        |179                                      |296      |17      |24    |1          |2013 |14        |3                            |20             |-                                                          |-                     |-                                        |3544  |
+#'  |Total |0                          |65          |64                                |37           |5                                      |228            |276                               |45                                     |796                                   |396         |20                       |48                                |145                   |185                                           |91                          |29              |208                       |78                         |53                                                         |6                                                |16                               |69                               |213               |313        |169                                  |193                                     |490             |86                                               |5                                        |296       |839                                      |1479     |110     |160   |34         |9959 |35        |12                           |50             |0                                                          |0                     |0                                        |17303 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -285,87 +244,45 @@ NULL
 #' 
 #' @section Values: 
 #'
-#'   * `[1]` accounting/bookkeeping
-#'   * `[2]` advertising
-#'   * `[3]` agriculture/horticulture
-#'   * `[4]` allied health
-#'   * `[5]` anthropology
-#'   * `[6]` architecture
-#'   * `[7]` art
-#'   * `[8]` biology
-#'   * `[9]` business administration
-#'   * `[11]` chemistry
-#'   * `[12]` communications/speech
-#'   * `[13]` comm. disorders
-#'   * `[14]` computer science
-#'   * `[15]` dentistry
-#'   * `[16]` education
-#'   * `[17]` economics
-#'   * `[18]` engineering
-#'   * `[19]` english
-#'   * `[20]` finance
-#'   * `[21]` foreign language
-#'   * `[22]` forestry
-#'   * `[23]` geography
-#'   * `[24]` geology
-#'   * `[25]` history
-#'   * `[26]` home economics
-#'   * `[27]` industry & technology
-#'   * `[28]` journalism
-#'   * `[29]` law
-#'   * `[30]` law enforcement
-#'   * `[31]` library science
-#'   * `[32]` marketing
-#'   * `[33]` mathematics
-#'   * `[34]` medicine
-#'   * `[35]` music
-#'   * `[36]` nursing
-#'   * `[37]` optometry
-#'   * `[38]` pharmacy
-#'   * `[39]` philosophy
-#'   * `[40]` physical education
-#'   * `[41]` physics
-#'   * `[42]` psychology
-#'   * `[43]` political science/international relations
-#'   * `[44]` sociology
-#'   * `[45]` special education
-#'   * `[46]` theater arts
-#'   * `[47]` theology
-#'   * `[48]` veterinary medicine
-#'   * `[49]` liberal arts
-#'   * `[50]` other
-#'   * `[51]` general sciences
-#'   * `[52]` social work
-#'   * `[53]` general studies
-#'   * `[54]` other vocational
-#'   * `[55]` health
-#'   * `[56]` industrial relations
-#'   * `[57]` child/human/family development
-#'   * `[58]` food science/nutrition/culinary arts
-#'   * `[59]` environmental science/ecology
-#'   * `[60]` social sciences
-#'   * `[61]` human services/human resources
-#'   * `[62]` visual arts/graphic design/design and drafting
-#'   * `[63]` fine arts
-#'   * `[64]` humanities
-#'   * `[65]` ethnic studies
-#'   * `[66]` educational administration
-#'   * `[67]` television/film
-#'   * `[68]` aviation/aeronatics
-#'   * `[69]` statistics/biostatistics
-#'   * `[70]` criminology/criminal justice
-#'   * `[71]` administrative science/public administration
-#'   * `[72]` electronics
-#'   * `[73]` urban and regional planning
-#'   * `[74]` mechanics/machine trade
-#'   * `[75]` dance
-#'   * `[76]` gerontology
-#'   * `[77]` public relations
-#'   * `[78]` textiles/cloth
-#'   * `[79]` parks and recreation
-#'   * `[80]` information technology
-#'   * `[81]` fashion
-#'   * `[82]` counseling
+#'   * `[1]` agriculture
+#'   * `[2]` environment and natural resources
+#'   * `[3]` architecture
+#'   * `[4]` area, ethnic, and civilization studies
+#'   * `[5]` communications
+#'   * `[6]` communication technologies
+#'   * `[7]` computer and information sciences
+#'   * `[8]` cosmetology services and culinary arts
+#'   * `[9]` education administration and teaching
+#'   * `[10]` engineering
+#'   * `[11]` engineering technologies
+#'   * `[12]` linguistics and foreign languages
+#'   * `[13]` family and consumer sciences
+#'   * `[14]` law and legal studies
+#'   * `[15]` english language, literature, and composition
+#'   * `[16]` liberal arts and humanities
+#'   * `[17]` library science
+#'   * `[18]` biology and life sciences
+#'   * `[19]` mathematics and statistics
+#'   * `[20]` military technologies
+#'   * `[21]` interdisciplinary and multi-disciplinary studies (general)
+#'   * `[22]` physical fitness, parks, recreation, and leisure
+#'   * `[23]` philosophy and religious studies
+#'   * `[24]` theology and religious vocations
+#'   * `[25]` physical sciences
+#'   * `[26]` nuclear, industrial radiology, and biological technologies
+#'   * `[27]` psychology
+#'   * `[28]` criminal justice and fire protection
+#'   * `[29]` public affairs, policy, and social work
+#'   * `[30]` social sciences
+#'   * `[31]` construction services
+#'   * `[32]` electrical and mechanic repairs and technologies
+#'   * `[33]` precision production and industrial arts
+#'   * `[34]` transportation sciences and technologies
+#'   * `[35]` fine arts
+#'   * `[36]` medical and health sciences and services
+#'   * `[37]` business
+#'   * `[38]` history
+#'   * `[39]` other
 #'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
@@ -379,14 +296,14 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap   |accounting/bookkeeping |art |biology |business administration |chemistry |computer science |dentistry |education |economics |english |finance |foreign language |geology |history |industry & technology |law |marketing |mathematics |medicine |music |nursing |pharmacy |philosophy |psychology |political science/international relations |sociology |special education |theater arts |theology |other |social work |child/human/family development |environmental science/ecology |social sciences |human services/human resources |visual arts/graphic design/design and drafting |television/film |aviation/aeronatics |statistics/biostatistics |urban and regional planning |textiles/cloth |parks and recreation |don't know |no answer |anthropology |communications/speech |comm. disorders |engineering |forestry |journalism |law enforcement |library science |physical education |physics |general studies |other vocational |health |fine arts |educational administration |criminology/criminal justice |information technology |agriculture/horticulture |geography |optometry |liberal arts |general sciences |food science/nutrition/culinary arts |humanities |ethnic studies |administrative science/public administration |mechanics/machine trade |dance |public relations |counseling |gerontology |not available in this year |advertising |architecture |home economics |skipped on web |Total |
-#'  |:-----|:-----|:----------------------|:---|:-------|:-----------------------|:---------|:----------------|:---------|:---------|:---------|:-------|:-------|:----------------|:-------|:-------|:---------------------|:---|:---------|:-----------|:--------|:-----|:-------|:--------|:----------|:----------|:-----------------------------------------|:---------|:-----------------|:------------|:--------|:-----|:-----------|:------------------------------|:-----------------------------|:---------------|:------------------------------|:----------------------------------------------|:---------------|:-------------------|:------------------------|:---------------------------|:--------------|:--------------------|:----------|:---------|:------------|:---------------------|:---------------|:-----------|:--------|:----------|:---------------|:---------------|:------------------|:-------|:---------------|:----------------|:------|:---------|:--------------------------|:----------------------------|:----------------------|:------------------------|:---------|:---------|:------------|:----------------|:------------------------------------|:----------|:--------------|:--------------------------------------------|:-----------------------|:-----|:----------------|:----------|:-----------|:--------------------------|:-----------|:------------|:--------------|:--------------|:-----|
-#'  |2012  |1852  |2                      |2   |2       |15                      |3         |5                |1         |9         |6         |6       |4       |3                |1       |3       |1                     |2   |4         |3           |2        |1     |5       |1        |1          |6          |4                                         |4         |1                 |2            |1        |5     |1           |1                              |1                             |2               |1                              |1                                              |1               |1                   |1                        |2                           |1              |1                    |2          |1         |-            |-                     |-               |-           |-        |-          |-               |-               |-                  |-       |-               |-                |-      |-         |-                          |-                            |-                      |-                        |-         |-         |-            |-                |-                                    |-          |-              |-                                            |-                       |-     |-                |-          |-           |-                          |-           |-            |-              |-              |1974  |
-#'  |2014  |2345  |6                      |6   |2       |27                      |2         |3                |-         |16        |3         |4       |5       |5                |1       |6       |-                     |3   |4         |2           |2        |5     |2       |-        |1          |10         |5                                         |2         |2                 |2            |2        |5     |2           |4                              |3                             |1               |3                              |1                                              |-               |-                   |1                        |-                           |-              |-                    |1          |1         |2            |5                     |1               |4           |1        |1          |1               |3               |2                  |1       |1               |1                |13     |2         |2                          |1                            |2                      |-                        |-         |-         |-            |-                |-                                    |-          |-              |-                                            |-                       |-     |-                |-          |-           |-                          |-           |-            |-              |-              |2538  |
-#'  |2016  |2643  |6                      |5   |7       |29                      |3         |7                |1         |19        |10        |5       |2       |1                |-       |4       |-                     |1   |5         |8           |5        |1     |4       |-        |-          |9          |3                                         |5         |4                 |3            |3        |4     |3           |3                              |2                             |2               |4                              |2                                              |-               |-                   |1                        |-                           |-              |-                    |-          |-         |1            |2                     |-               |5           |-        |3          |-               |1               |1                  |1       |-               |2                |11     |-         |1                          |5                            |2                      |1                        |2         |1         |2            |2                |1                                    |2          |1              |1                                            |1                       |1     |1                |2          |-           |-                          |-           |-            |-              |-              |2867  |
-#'  |2018  |2201  |9                      |1   |4       |9                       |4         |10               |1         |15        |4         |7       |4       |3                |-       |8       |-                     |2   |6         |11          |-        |2     |1       |-        |-          |-          |1                                         |1         |-                 |-            |2        |7     |-           |1                              |1                             |-               |3                              |-                                              |-               |-                   |-                        |1                           |-              |-                    |-          |-         |-            |2                     |1               |-           |-        |2          |-               |1               |1                  |-       |-               |1                |5      |2         |-                          |4                            |1                      |1                        |1         |-         |2            |2                |-                                    |-          |1              |-                                            |1                       |-     |-                |-          |1           |-                          |-           |-            |-              |-              |2348  |
-#'  |2022  |2941  |20                     |15  |14      |58                      |9         |8                |1         |37        |16        |25      |14      |15               |2       |14      |6                     |6   |10        |9           |5        |4     |9       |2        |2          |20         |11                                        |7         |8                 |1            |8        |9     |3           |9                              |2                             |2               |13                             |11                                             |3               |2                   |3                        |-                           |-              |-                    |15         |30        |5            |14                    |-               |7           |1        |1          |-               |1               |8                  |1       |1               |3                |20     |-         |-                          |13                           |4                      |3                        |-         |-         |6            |8                |3                                    |-          |5              |6                                            |-                       |-     |2                |8          |1           |-                          |2           |1            |1              |20             |3544  |
-#'  |Total |11982 |43                     |29  |29      |138                     |21        |33               |4         |96        |39        |47      |29      |27               |4       |35      |7                     |14  |29        |33          |14       |13    |21      |3        |4          |45         |24                                        |19        |15                |8            |16       |30    |9           |18                             |9                             |7               |24                             |15                                             |4               |3                   |6                        |3                           |1              |1                    |18         |32        |8            |23                    |2               |16          |2        |7          |1               |6               |12                 |3       |2               |7                |49     |4         |3                          |23                           |9                      |5                        |3         |1         |10           |12               |4                                    |2          |7              |7                                            |2                       |1     |3                |10         |2           |0                          |2           |1            |1              |20             |13271 |
+#'  |year  |not available in this year |environment and natural resources |computer and information sciences |education administration and teaching |engineering |engineering technologies |linguistics and foreign languages |law and legal studies |english language, literature, and composition |biology and life sciences |mathematics and statistics |physical fitness, parks, recreation, and leisure |philosophy and religious studies |theology and religious vocations |physical sciences |psychology |public affairs, policy, and social work |social sciences |fine arts |medical and health sciences and services |business |history |other |don't know |iap   |no answer |communications |library science |interdisciplinary and multi-disciplinary studies (general) |criminal justice and fire protection |agriculture |area, ethnic, and civilization studies |cosmetology services and culinary arts |liberal arts and humanities |electrical and mechanic repairs and technologies |architecture |family and consumer sciences |skipped on web |military technologies |nuclear, industrial radiology, and biological technologies |construction services |transportation sciences and technologies |Total |
+#'  |:-----|:--------------------------|:---------------------------------|:---------------------------------|:-------------------------------------|:-----------|:------------------------|:---------------------------------|:---------------------|:---------------------------------------------|:-------------------------|:--------------------------|:------------------------------------------------|:--------------------------------|:--------------------------------|:-----------------|:----------|:---------------------------------------|:---------------|:---------|:----------------------------------------|:--------|:-------|:-----|:----------|:-----|:---------|:--------------|:---------------|:----------------------------------------------------------|:------------------------------------|:-----------|:--------------------------------------|:--------------------------------------|:---------------------------|:------------------------------------------------|:------------|:----------------------------|:--------------|:---------------------|:----------------------------------------------------------|:---------------------|:----------------------------------------|:-----|
+#'  |2012  |-                          |1                                 |5                                 |10                                    |1           |1                        |3                                 |2                     |6                                             |2                         |4                          |1                                                |1                                |1                                |4                 |6          |2                                       |19              |8         |9                                        |25       |3       |5     |2          |1852  |1         |-              |-               |-                                                          |-                                    |-           |-                                      |-                                      |-                           |-                                                |-            |-                            |-              |-                     |-                                                          |-                     |-                                        |1974  |
+#'  |2014  |-                          |4                                 |5                                 |22                                    |4           |-                        |5                                 |3                     |4                                             |2                         |3                          |-                                                |1                                |2                                |4                 |10         |5                                       |17              |16        |18                                       |42       |6       |6     |1          |2345  |1         |6              |3               |1                                                          |2                                    |-           |-                                      |-                                      |-                           |-                                                |-            |-                            |-              |-                     |-                                                          |-                     |-                                        |2538  |
+#'  |2016  |-                          |2                                 |9                                 |25                                    |5           |-                        |1                                 |1                     |5                                             |7                         |9                          |-                                                |-                                |3                                |6                 |11         |8                                       |26              |12        |22                                       |42       |4       |6     |-          |2643  |-         |6              |1               |-                                                          |5                                    |1           |1                                      |1                                      |4                           |1                                                |-            |-                            |-              |-                     |-                                                          |-                     |-                                        |2867  |
+#'  |2018  |-                          |1                                 |11                                |16                                    |-           |-                        |3                                 |2                     |7                                             |4                         |11                         |-                                                |-                                |2                                |6                 |-          |3                                       |10              |5         |8                                        |28       |8       |8     |-          |2201  |-         |4              |1               |-                                                          |4                                    |1           |1                                      |-                                      |2                           |1                                                |-            |-                            |-              |-                     |-                                                          |-                     |-                                        |2348  |
+#'  |2022  |-                          |3                                 |12                                |53                                    |9           |6                        |15                                |6                     |25                                            |14                        |12                         |-                                                |2                                |8                                |20                |28         |22                                      |51              |34        |37                                       |102      |14      |12    |15         |2941  |30        |19             |1               |1                                                          |13                                   |3           |5                                      |3                                      |6                           |-                                                |1            |1                            |20             |-                     |-                                                          |-                     |-                                        |3544  |
+#'  |Total |0                          |11                                |42                                |126                                   |19          |7                        |27                                |14                    |47                                            |29                        |39                         |1                                                |4                                |16                               |40                |55         |40                                      |123             |75        |94                                       |239      |35      |37    |18         |11982 |32        |35             |6               |2                                                          |24                                   |5           |7                                      |4                                      |12                          |2                                                |1            |1                            |20             |0                     |0                                                          |0                     |0                                        |13271 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -411,7 +328,6 @@ NULL
 #'   * `[1]` high school diploma
 #'   * `[2]` ged
 #'   * `[3]` other
-#'   * `[5]` high school diploma after post high school class
 #'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
@@ -425,15 +341,16 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |high school diploma |ged  |other |high school diploma after post high school class |no answer |don't know |skipped on web |7  |Total |
-#'  |:-----|:----|:-------------------|:----|:-----|:------------------------------------------------|:---------|:----------|:--------------|:--|:-----|
-#'  |2012  |288  |1543                |133  |2     |6                                                |2         |-          |-              |-  |1974  |
-#'  |2014  |330  |1990                |196  |15    |-                                                |6         |1          |-              |-  |2538  |
-#'  |2016  |328  |2237                |245  |41    |-                                                |15        |1          |-              |-  |2867  |
-#'  |2018  |262  |1891                |183  |3     |3                                                |6         |-          |-              |-  |2348  |
-#'  |2021  |269  |3396                |306  |13    |9                                                |24        |8          |7              |-  |4032  |
-#'  |2022  |359  |2858                |276  |29    |3                                                |13        |1          |3              |2  |3544  |
-#'  |Total |1836 |13915               |1339 |103   |21                                               |66        |11         |10             |2  |17303 |
+#'  |year  |not available in this year |high school diploma |ged  |other |iap  |no answer |don't know |skipped on web |Total |
+#'  |:-----|:--------------------------|:-------------------|:----|:-----|:----|:---------|:----------|:--------------|:-----|
+#'  |2012  |-                          |1543                |133  |8     |288  |2         |-          |-              |1974  |
+#'  |2014  |-                          |1990                |196  |15    |330  |6         |1          |-              |2538  |
+#'  |2016  |-                          |2237                |245  |41    |328  |15        |1          |-              |2867  |
+#'  |2018  |-                          |1891                |183  |6     |262  |6         |-          |-              |2348  |
+#'  |2021  |-                          |3396                |306  |22    |269  |24        |8          |7              |4032  |
+#'  |2022  |-                          |2858                |276  |32    |359  |13        |3          |3              |3544  |
+#'  |2024  |-                          |2721                |231  |24    |309  |20        |3          |1              |3309  |
+#'  |Total |0                          |16636               |1570 |148   |2145 |86        |16         |11             |20612 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -471,13 +388,13 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |high school diploma |ged |other |don't know |Total |
-#'  |:-----|:----|:-------------------|:---|:-----|:----------|:-----|
-#'  |2012  |1193 |735                 |44  |1     |1          |1974  |
-#'  |2014  |1514 |955                 |65  |2     |2          |2538  |
-#'  |2016  |1776 |985                 |96  |7     |3          |2867  |
-#'  |2018  |2348 |-                   |-   |-     |-          |2348  |
-#'  |Total |6831 |2675                |205 |10    |6          |9727  |
+#'  |year  |iap  |high school diploma |ged |other |don't know |not available in this year |Total |
+#'  |:-----|:----|:-------------------|:---|:-----|:----------|:--------------------------|:-----|
+#'  |2012  |1193 |735                 |44  |1     |1          |-                          |1974  |
+#'  |2014  |1514 |955                 |65  |2     |2          |-                          |2538  |
+#'  |2016  |1776 |985                 |96  |7     |3          |-                          |2867  |
+#'  |2018  |-    |-                   |-   |-     |-          |2348                       |2348  |
+#'  |Total |4483 |2675                |205 |10    |6          |2348                       |9727  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -515,12 +432,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |high school diploma |ged |other |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------|:---|:-----|:----------|:---------|:-----|
-#'  |2012  |1846 |111                 |17  |-     |-          |-         |1974  |
-#'  |2014  |2360 |146                 |26  |2     |1          |3         |2538  |
-#'  |2016  |2644 |196                 |23  |3     |1          |-         |2867  |
-#'  |Total |6850 |453                 |66  |5     |2          |3         |7379  |
+#'  |year  |iap  |high school diploma |ged |other |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------|:---|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1846 |111                 |17  |-     |-          |-         |-                          |1974  |
+#'  |2014  |2360 |146                 |26  |2     |1          |3         |-                          |2538  |
+#'  |2016  |2644 |196                 |23  |3     |1          |-         |-                          |2867  |
+#'  |Total |6850 |453                 |66  |5     |2          |3         |0                          |7379  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -564,12 +481,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |public, 4-year or above |private not-for-profit, 4-year or above |public, 2-year |private for-profit, 4-year or above |private for-profit, 2-year |skipped on web |Total |
-#'  |:-----|:----|:-----------------------|:---------------------------------------|:--------------|:-----------------------------------|:--------------------------|:--------------|:-----|
-#'  |2012  |1939 |23                      |11                                      |1              |-                                   |-                          |-              |1974  |
-#'  |2014  |2506 |11                      |13                                      |4              |3                                   |1                          |-              |2538  |
-#'  |2016  |2806 |29                      |21                                      |8              |2                                   |-                          |1              |2867  |
-#'  |Total |7251 |63                      |45                                      |13             |5                                   |1                          |1              |7379  |
+#'  |year  |iap  |public, 4-year or above |private not-for-profit, 4-year or above |public, 2-year |private for-profit, 4-year or above |private for-profit, 2-year |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:-----------------------|:---------------------------------------|:--------------|:-----------------------------------|:--------------------------|:--------------|:--------------------------|:-----|
+#'  |2012  |1939 |23                      |11                                      |1              |-                                   |-                          |-              |-                          |1974  |
+#'  |2014  |2506 |11                      |13                                      |4              |3                                   |1                          |-              |-                          |2538  |
+#'  |2016  |2806 |29                      |21                                      |8              |2                                   |-                          |1              |-                          |2867  |
+#'  |Total |7251 |63                      |45                                      |13             |5                                   |1                          |1              |0                          |7379  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -643,13 +560,13 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |1938 |1947 |1948 |1949 |1950 |1951 |1952 |1955 |1956 |1957 |1958 |1959 |1960 |1961 |1962 |1963 |1964 |1965 |1966 |1967 |1968 |1969 |1970 |1971 |1972 |1973 |1974 |1975 |1976 |1977 |1978 |1979 |1980 |1981 |1982 |1983 |1984 |1985 |1986 |1987 |1988 |1989 |1990 |1991 |1992 |1993 |1994 |1995 |1996 |1997 |1998 |1999 |2000 |2001 |2002 |2003 |2004 |2005 |2006 |2007 |2008 |2009 |2010 |2011 |2012 |don't know |no answer |1940 |1946 |1953 |1954 |2013 |2014 |1943 |2015 |2016 |Total |
-#'  |:-----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----------|:---------|:----|:----|:----|:----|:----|:----|:----|:----|:----|:-----|
-#'  |2012  |1263 |1    |1    |2    |1    |3    |2    |3    |4    |3    |3    |5    |1    |7    |4    |3    |1    |7    |5    |5    |4    |4    |4    |5    |6    |8    |12   |4    |7    |10   |6    |18   |10   |12   |13   |12   |7    |10   |14   |11   |11   |10   |21   |16   |12   |8    |17   |13   |13   |15   |12   |15   |15   |23   |19   |22   |17   |27   |23   |16   |24   |25   |21   |25   |29   |13   |10         |1         |-    |-    |-    |-    |-    |-    |-    |-    |-    |1974  |
-#'  |2014  |1597 |-    |-    |-    |-    |-    |2    |4    |3    |2    |5    |3    |2    |3    |4    |5    |3    |5    |4    |8    |6    |8    |6    |8    |9    |12   |12   |11   |14   |13   |11   |15   |13   |13   |16   |21   |18   |15   |22   |16   |15   |13   |14   |16   |11   |13   |15   |9    |19   |16   |14   |18   |16   |28   |18   |18   |25   |28   |18   |25   |37   |26   |17   |29   |37   |38   |14         |10        |1    |1    |2    |1    |32   |35   |-    |-    |-    |2538  |
-#'  |2016  |1787 |-    |-    |-    |-    |-    |3    |-    |3    |2    |1    |3    |2    |6    |9    |4    |2    |3    |7    |5    |3    |8    |11   |6    |12   |14   |11   |14   |12   |13   |15   |13   |17   |19   |19   |16   |17   |16   |20   |25   |14   |12   |11   |13   |29   |18   |14   |12   |22   |14   |20   |21   |17   |20   |29   |21   |16   |22   |27   |23   |34   |37   |29   |29   |32   |43   |8          |13        |-    |-    |-    |3    |31   |40   |1    |41   |33   |2867  |
-#'  |2018  |2348 |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-          |-         |-    |-    |-    |-    |-    |-    |-    |-    |-    |2348  |
-#'  |Total |6995 |1    |1    |2    |1    |3    |7    |7    |10   |7    |9    |11   |5    |16   |17   |12   |6    |15   |16   |18   |13   |20   |21   |19   |27   |34   |35   |29   |33   |36   |32   |46   |40   |44   |48   |49   |42   |41   |56   |52   |40   |35   |46   |45   |52   |39   |46   |34   |54   |45   |46   |54   |48   |71   |66   |61   |58   |77   |68   |64   |95   |88   |67   |83   |98   |94   |32         |24        |1    |1    |2    |4    |63   |75   |1    |41   |33   |9727  |
+#'  |year  |iap  |1938 |1947 |1948 |1949 |1950 |1951 |1952 |1955 |1956 |1957 |1958 |1959 |1960 |1961 |1962 |1963 |1964 |1965 |1966 |1967 |1968 |1969 |1970 |1971 |1972 |1973 |1974 |1975 |1976 |1977 |1978 |1979 |1980 |1981 |1982 |1983 |1984 |1985 |1986 |1987 |1988 |1989 |1990 |1991 |1992 |1993 |1994 |1995 |1996 |1997 |1998 |1999 |2000 |2001 |2002 |2003 |2004 |2005 |2006 |2007 |2008 |2009 |2010 |2011 |2012 |don't know |no answer |1940 |1946 |1953 |1954 |2013 |2014 |1943 |2015 |2016 |not available in this year |Total |
+#'  |:-----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----------|:---------|:----|:----|:----|:----|:----|:----|:----|:----|:----|:--------------------------|:-----|
+#'  |2012  |1263 |1    |1    |2    |1    |3    |2    |3    |4    |3    |3    |5    |1    |7    |4    |3    |1    |7    |5    |5    |4    |4    |4    |5    |6    |8    |12   |4    |7    |10   |6    |18   |10   |12   |13   |12   |7    |10   |14   |11   |11   |10   |21   |16   |12   |8    |17   |13   |13   |15   |12   |15   |15   |23   |19   |22   |17   |27   |23   |16   |24   |25   |21   |25   |29   |13   |10         |1         |-    |-    |-    |-    |-    |-    |-    |-    |-    |-                          |1974  |
+#'  |2014  |1597 |-    |-    |-    |-    |-    |2    |4    |3    |2    |5    |3    |2    |3    |4    |5    |3    |5    |4    |8    |6    |8    |6    |8    |9    |12   |12   |11   |14   |13   |11   |15   |13   |13   |16   |21   |18   |15   |22   |16   |15   |13   |14   |16   |11   |13   |15   |9    |19   |16   |14   |18   |16   |28   |18   |18   |25   |28   |18   |25   |37   |26   |17   |29   |37   |38   |14         |10        |1    |1    |2    |1    |32   |35   |-    |-    |-    |-                          |2538  |
+#'  |2016  |1787 |-    |-    |-    |-    |-    |3    |-    |3    |2    |1    |3    |2    |6    |9    |4    |2    |3    |7    |5    |3    |8    |11   |6    |12   |14   |11   |14   |12   |13   |15   |13   |17   |19   |19   |16   |17   |16   |20   |25   |14   |12   |11   |13   |29   |18   |14   |12   |22   |14   |20   |21   |17   |20   |29   |21   |16   |22   |27   |23   |34   |37   |29   |29   |32   |43   |8          |13        |-    |-    |-    |3    |31   |40   |1    |41   |33   |-                          |2867  |
+#'  |2018  |2348 |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-    |-          |-         |-    |-    |-    |-    |-    |-    |-    |-    |-    |-                          |2348  |
+#'  |Total |6995 |1    |1    |2    |1    |3    |7    |7    |10   |7    |9    |11   |5    |16   |17   |12   |6    |15   |16   |18   |13   |20   |21   |19   |27   |34   |35   |29   |33   |36   |32   |46   |40   |44   |48   |49   |42   |41   |56   |52   |40   |35   |46   |45   |52   |39   |46   |34   |54   |45   |46   |54   |48   |71   |66   |61   |58   |77   |68   |64   |95   |88   |67   |83   |98   |94   |32         |24        |1    |1    |2    |4    |63   |75   |1    |41   |33   |0                          |9727  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core

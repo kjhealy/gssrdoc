@@ -33,10 +33,10 @@ B. Would you say much worse or somewhat worse?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1646/vshow}{GSS Data Explorer page for \code{futrdown}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab much worse \tab somewhat worse \tab no answer \tab Total \cr
-   1994 \tab 2741 \tab 54 \tab 180 \tab 17 \tab 2992 \cr
-   Total \tab 2741 \tab 54 \tab 180 \tab 17 \tab 2992 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab much worse \tab somewhat worse \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2741 \tab 54 \tab 180 \tab 17 \tab - \tab 2992 \cr
+   Total \tab 2741 \tab 54 \tab 180 \tab 17 \tab 0 \tab 2992 \cr
 }
 }
 

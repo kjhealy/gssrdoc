@@ -32,11 +32,11 @@ Question If a close family member or friend decided to have an abortion, which o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7180/vshow}{GSS Data Explorer page for \code{abhelp4}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2018 \tab - \tab 1992 \tab 278 \tab 23 \tab 55 \tab - \tab 2348 \cr
-   2022 \tab 2309 \tab 1132 \tab 102 \tab - \tab - \tab 1 \tab 3544 \cr
-   Total \tab 2309 \tab 3124 \tab 380 \tab 23 \tab 55 \tab 1 \tab 5892 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2018 \tab - \tab 1992 \tab 278 \tab 23 \tab 55 \tab - \tab - \tab 2348 \cr
+   2022 \tab 2309 \tab 1132 \tab 102 \tab - \tab - \tab 1 \tab - \tab 3544 \cr
+   Total \tab 2309 \tab 3124 \tab 380 \tab 23 \tab 55 \tab 1 \tab 0 \tab 5892 \cr
 }
 }
 

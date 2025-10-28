@@ -35,10 +35,10 @@ Question Do you think that the introduction of new technologies in the United St
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4576/vshow}{GSS Data Explorer page for \code{techwork}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab much more \tab little more \tab neither mre/less \tab a little less \tab much less \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1609 \tab 349 \tab 411 \tab 224 \tab 87 \tab 45 \tab 84 \tab 23 \tab 2832 \cr
-   Total \tab 1609 \tab 349 \tab 411 \tab 224 \tab 87 \tab 45 \tab 84 \tab 23 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much more \tab little more \tab neither mre/less \tab a little less \tab much less \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1609 \tab 349 \tab 411 \tab 224 \tab 87 \tab 45 \tab 84 \tab 23 \tab - \tab 2832 \cr
+   Total \tab 1609 \tab 349 \tab 411 \tab 224 \tab 87 \tab 45 \tab 84 \tab 23 \tab 0 \tab 2832 \cr
 }
 }
 

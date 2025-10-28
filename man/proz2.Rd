@@ -36,10 +36,10 @@ B. If symptoms are no longer present, people should discontinue Prozac.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2227/vshow}{GSS Data Explorer page for \code{proz2}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1635 \tab 126 \tab 428 \tab 163 \tab 225 \tab 52 \tab 192 \tab 11 \tab 2832 \cr
-   Total \tab 1635 \tab 126 \tab 428 \tab 163 \tab 225 \tab 52 \tab 192 \tab 11 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1635 \tab 126 \tab 428 \tab 163 \tab 225 \tab 52 \tab 192 \tab 11 \tab - \tab 2832 \cr
+   Total \tab 1635 \tab 126 \tab 428 \tab 163 \tab 225 \tab 52 \tab 192 \tab 11 \tab 0 \tab 2832 \cr
 }
 }
 

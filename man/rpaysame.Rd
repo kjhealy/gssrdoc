@@ -37,10 +37,10 @@ C. The standard rate for the job
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4535/vshow}{GSS Data Explorer page for \code{rpaysame}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab most impt \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 34 \tab 44 \tab 60 \tab 560 \tab 25 \tab 175 \tab 1537 \cr
-   Total \tab 639 \tab 34 \tab 44 \tab 60 \tab 560 \tab 25 \tab 175 \tab 1537 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab most impt \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 34 \tab 44 \tab 60 \tab 560 \tab 25 \tab 175 \tab - \tab 1537 \cr
+   Total \tab 639 \tab 34 \tab 44 \tab 60 \tab 560 \tab 25 \tab 175 \tab 0 \tab 1537 \cr
 }
 }
 

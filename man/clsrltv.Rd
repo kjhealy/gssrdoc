@@ -34,10 +34,10 @@ Question People may have different perceptions about who they consider to be clo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7777/vshow}{GSS Data Explorer page for \code{clsrltv}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab Total \cr
-   2022 \tab 2587 \tab 97 \tab 369 \tab 282 \tab 209 \tab 3544 \cr
-   Total \tab 2587 \tab 97 \tab 369 \tab 282 \tab 209 \tab 3544 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab children and partner only \tab children, partner, parents and siblings \tab children, partner, parents, siblings, cousins, aunts/uncles, nephews/nieces \tab children, partner, parents, siblings, cousins, aunts/uncles, nephews/nieces, but others as well \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 97 \tab 369 \tab 282 \tab 209 \tab 182 \tab 2386 \tab 10 \tab 9 \tab 3544 \cr
+   Total \tab 0 \tab 97 \tab 369 \tab 282 \tab 209 \tab 182 \tab 2386 \tab 10 \tab 9 \tab 3544 \cr
 }
 }
 

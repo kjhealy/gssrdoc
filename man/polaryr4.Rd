@@ -36,11 +36,11 @@ D. Go to a museum to see an exhibit about the polar regions?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3427/vshow}{GSS Data Explorer page for \code{polaryr4}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 309 \tab 561 \tab 496 \tab 478 \tab 18 \tab 2 \tab 4510 \cr
-   2010 \tab 1338 \tab 135 \tab 235 \tab 162 \tab 164 \tab 3 \tab 7 \tab 2044 \cr
-   Total \tab 3984 \tab 444 \tab 796 \tab 658 \tab 642 \tab 21 \tab 9 \tab 6554 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 309 \tab 561 \tab 496 \tab 478 \tab 18 \tab 2 \tab - \tab 4510 \cr
+   2010 \tab 1338 \tab 135 \tab 235 \tab 162 \tab 164 \tab 3 \tab 7 \tab - \tab 2044 \cr
+   Total \tab 3984 \tab 444 \tab 796 \tab 658 \tab 642 \tab 21 \tab 9 \tab 0 \tab 6554 \cr
 }
 }
 

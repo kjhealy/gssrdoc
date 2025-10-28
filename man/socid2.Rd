@@ -41,10 +41,10 @@ B. Second Most Important
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4879/vshow}{GSS Data Explorer page for \code{socid2}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab current occupation \tab race ethnic background \tab gender \tab age group \tab religion \tab political party \tab nationality \tab family or marital status \tab social class \tab region \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 1596 \tab 236 \tab 74 \tab 102 \tab 118 \tab 158 \tab 14 \tab 63 \tab 236 \tab 75 \tab 120 \tab 13 \tab 7 \tab 2812 \cr
-   Total \tab 1596 \tab 236 \tab 74 \tab 102 \tab 118 \tab 158 \tab 14 \tab 63 \tab 236 \tab 75 \tab 120 \tab 13 \tab 7 \tab 2812 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab current occupation \tab race ethnic background \tab gender \tab age group \tab religion \tab political party \tab nationality \tab family or marital status \tab social class \tab region \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1596 \tab 236 \tab 74 \tab 102 \tab 118 \tab 158 \tab 14 \tab 63 \tab 236 \tab 75 \tab 120 \tab 13 \tab 7 \tab - \tab 2812 \cr
+   Total \tab 1596 \tab 236 \tab 74 \tab 102 \tab 118 \tab 158 \tab 14 \tab 63 \tab 236 \tab 75 \tab 120 \tab 13 \tab 7 \tab 0 \tab 2812 \cr
 }
 }
 

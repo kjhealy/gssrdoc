@@ -35,10 +35,10 @@ F. People like (NAME) are just as intelligent as anyone else.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3767/vshow}{GSS Data Explorer page for \code{mhintl}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 422 \tab 850 \tab 95 \tab 13 \tab 37 \tab 8 \tab 4510 \cr
-   Total \tab 3085 \tab 422 \tab 850 \tab 95 \tab 13 \tab 37 \tab 8 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 422 \tab 850 \tab 95 \tab 13 \tab 37 \tab 8 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 422 \tab 850 \tab 95 \tab 13 \tab 37 \tab 8 \tab 0 \tab 4510 \cr
 }
 }
 

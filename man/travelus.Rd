@@ -34,10 +34,10 @@ Question Thinking about the most recent time you traveled to the United States f
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3026/vshow}{GSS Data Explorer page for \code{travelus}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab box a \tab box b \tab other \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2539 \tab 21 \tab 225 \tab 7 \tab 12 \tab 8 \tab 2812 \cr
-   Total \tab 2539 \tab 21 \tab 225 \tab 7 \tab 12 \tab 8 \tab 2812 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab box a \tab box b \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2539 \tab 21 \tab 225 \tab 7 \tab 12 \tab 8 \tab - \tab 2812 \cr
+   Total \tab 2539 \tab 21 \tab 225 \tab 7 \tab 12 \tab 8 \tab 0 \tab 2812 \cr
 }
 }
 

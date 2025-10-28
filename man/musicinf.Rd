@@ -32,11 +32,11 @@ Question B. Used the Web to get information about a band, individual performer, 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2457/vshow}{GSS Data Explorer page for \code{musicinf}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2498 \tab 175 \tab 30 \tab 114 \tab 2817 \cr
-   2002 \tab 2492 \tab 200 \tab 27 \tab 46 \tab 2765 \cr
-   Total \tab 4990 \tab 375 \tab 57 \tab 160 \tab 5582 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2498 \tab 175 \tab 30 \tab 114 \tab - \tab 2817 \cr
+   2002 \tab 2492 \tab 200 \tab 27 \tab 46 \tab - \tab 2765 \cr
+   Total \tab 4990 \tab 375 \tab 57 \tab 160 \tab 0 \tab 5582 \cr
 }
 }
 

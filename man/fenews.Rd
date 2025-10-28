@@ -34,10 +34,10 @@ Question When reading, watching, or listening to the news, how often do you pay 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1699/vshow}{GSS Data Explorer page for \code{fenews}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very often \tab fairly often \tab not too often \tab never \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 325 \tab 601 \tab 461 \tab 66 \tab 3 \tab 4 \tab 2904 \cr
-   Total \tab 1444 \tab 325 \tab 601 \tab 461 \tab 66 \tab 3 \tab 4 \tab 2904 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very often \tab fairly often \tab not too often \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 325 \tab 601 \tab 461 \tab 66 \tab 3 \tab 4 \tab - \tab 2904 \cr
+   Total \tab 1444 \tab 325 \tab 601 \tab 461 \tab 66 \tab 3 \tab 4 \tab 0 \tab 2904 \cr
 }
 }
 

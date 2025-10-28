@@ -37,10 +37,10 @@ background information before giving a SECRET or TOP SECRET clearance, the gover
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5218/vshow}{GSS Data Explorer page for \code{secprvcy}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab favor indiv right \tab favor govt right \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 229 \tab 1156 \tab 79 \tab 10 \tab 2992 \cr
-   Total \tab 1518 \tab 229 \tab 1156 \tab 79 \tab 10 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab favor indiv right \tab favor govt right \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 229 \tab 1156 \tab 79 \tab 10 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 229 \tab 1156 \tab 79 \tab 10 \tab 0 \tab 2992 \cr
 }
 }
 

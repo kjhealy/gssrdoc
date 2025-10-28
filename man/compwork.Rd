@@ -33,11 +33,11 @@ Question Do you use a computer at work"that is, at a workplace away from your ho
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2566/vshow}{GSS Data Explorer page for \code{compwork}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2294 \tab 291 \tab 192 \tab 40 \tab - \tab 2817 \cr
-   2002 \tab 855 \tab 1177 \tab 716 \tab 16 \tab 1 \tab 2765 \cr
-   Total \tab 3149 \tab 1468 \tab 908 \tab 56 \tab 1 \tab 5582 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2294 \tab 291 \tab 192 \tab 40 \tab - \tab - \tab 2817 \cr
+   2002 \tab 855 \tab 1177 \tab 716 \tab 16 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 3149 \tab 1468 \tab 908 \tab 56 \tab 1 \tab 0 \tab 5582 \cr
 }
 }
 

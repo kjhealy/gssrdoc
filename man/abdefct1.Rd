@@ -35,10 +35,10 @@ A. If there is a strong chance of serious defect in the baby.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4633/vshow}{GSS Data Explorer page for \code{abdefct1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should allow it \tab probably should allow it \tab probably should not allow it \tab definitely should not allow it \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 810 \tab 232 \tab 74 \tab 146 \tab 63 \tab 34 \tab 1517 \cr
-   Total \tab 158 \tab 810 \tab 232 \tab 74 \tab 146 \tab 63 \tab 34 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should allow it \tab probably should allow it \tab probably should not allow it \tab definitely should not allow it \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 810 \tab 232 \tab 74 \tab 146 \tab 63 \tab 34 \tab - \tab 1517 \cr
+   Total \tab 158 \tab 810 \tab 232 \tab 74 \tab 146 \tab 63 \tab 34 \tab 0 \tab 1517 \cr
 }
 }
 

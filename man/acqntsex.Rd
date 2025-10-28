@@ -34,29 +34,29 @@ B. Neighbor, Co-worker, or long-term acquaintance
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5052/vshow}{GSS Data Explorer page for \code{acqntsex}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
-   1988 \tab 1243 \tab 57 \tab 113 \tab 68 \tab - \tab 1481 \cr
-   1989 \tab 1303 \tab 52 \tab 108 \tab 74 \tab - \tab 1537 \cr
-   1990 \tab 1155 \tab 43 \tab 103 \tab 71 \tab - \tab 1372 \cr
-   1991 \tab 1293 \tab 50 \tab 107 \tab 67 \tab - \tab 1517 \cr
-   1993 \tab 1359 \tab 53 \tab 107 \tab 87 \tab - \tab 1606 \cr
-   1994 \tab 2489 \tab 105 \tab 229 \tab 169 \tab - \tab 2992 \cr
-   1996 \tab 2401 \tab 131 \tab 253 \tab 119 \tab - \tab 2904 \cr
-   1998 \tab 2383 \tab 102 \tab 193 \tab 154 \tab - \tab 2832 \cr
-   2000 \tab 2335 \tab 115 \tab 190 \tab 177 \tab - \tab 2817 \cr
-   2002 \tab 2317 \tab 101 \tab 301 \tab 46 \tab - \tab 2765 \cr
-   2004 \tab 2429 \tab 98 \tab 249 \tab 36 \tab - \tab 2812 \cr
-   2006 \tab 4087 \tab 103 \tab 304 \tab 16 \tab - \tab 4510 \cr
-   2008 \tab 1688 \tab 119 \tab 193 \tab 23 \tab - \tab 2023 \cr
-   2010 \tab 1705 \tab 122 \tab 187 \tab 30 \tab - \tab 2044 \cr
-   2012 \tab 1669 \tab 118 \tab 153 \tab 34 \tab - \tab 1974 \cr
-   2014 \tab 2144 \tab 134 \tab 208 \tab 52 \tab - \tab 2538 \cr
-   2016 \tab 2530 \tab 113 \tab 204 \tab 20 \tab - \tab 2867 \cr
-   2018 \tab 2130 \tab 69 \tab 127 \tab 20 \tab 2 \tab 2348 \cr
-   2021 \tab 3748 \tab 121 \tab 131 \tab 20 \tab 12 \tab 4032 \cr
-   2022 \tab 3307 \tab 78 \tab 99 \tab 41 \tab 19 \tab 3544 \cr
-   Total \tab 43715 \tab 1884 \tab 3559 \tab 1324 \tab 33 \tab 50515 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1988 \tab 1243 \tab 57 \tab 113 \tab 68 \tab - \tab - \tab 1481 \cr
+   1989 \tab 1303 \tab 52 \tab 108 \tab 74 \tab - \tab - \tab 1537 \cr
+   1990 \tab 1155 \tab 43 \tab 103 \tab 71 \tab - \tab - \tab 1372 \cr
+   1991 \tab 1293 \tab 50 \tab 107 \tab 67 \tab - \tab - \tab 1517 \cr
+   1993 \tab 1359 \tab 53 \tab 107 \tab 87 \tab - \tab - \tab 1606 \cr
+   1994 \tab 2489 \tab 105 \tab 229 \tab 169 \tab - \tab - \tab 2992 \cr
+   1996 \tab 2401 \tab 131 \tab 253 \tab 119 \tab - \tab - \tab 2904 \cr
+   1998 \tab 2383 \tab 102 \tab 193 \tab 154 \tab - \tab - \tab 2832 \cr
+   2000 \tab 2335 \tab 115 \tab 190 \tab 177 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2317 \tab 101 \tab 301 \tab 46 \tab - \tab - \tab 2765 \cr
+   2004 \tab 2429 \tab 98 \tab 249 \tab 36 \tab - \tab - \tab 2812 \cr
+   2006 \tab 4087 \tab 103 \tab 304 \tab 16 \tab - \tab - \tab 4510 \cr
+   2008 \tab 1688 \tab 119 \tab 193 \tab 23 \tab - \tab - \tab 2023 \cr
+   2010 \tab 1705 \tab 122 \tab 187 \tab 30 \tab - \tab - \tab 2044 \cr
+   2012 \tab 1669 \tab 118 \tab 153 \tab 34 \tab - \tab - \tab 1974 \cr
+   2014 \tab 2144 \tab 134 \tab 208 \tab 52 \tab - \tab - \tab 2538 \cr
+   2016 \tab 2530 \tab 113 \tab 204 \tab 20 \tab - \tab - \tab 2867 \cr
+   2018 \tab 2130 \tab 69 \tab 127 \tab 20 \tab 2 \tab - \tab 2348 \cr
+   2021 \tab 3748 \tab 121 \tab 131 \tab 20 \tab 12 \tab - \tab 4032 \cr
+   2022 \tab 3345 \tab 78 \tab 95 \tab 17 \tab 9 \tab - \tab 3544 \cr
+   Total \tab 43753 \tab 1884 \tab 3555 \tab 1300 \tab 23 \tab 0 \tab 50515 \cr
 }
 }
 

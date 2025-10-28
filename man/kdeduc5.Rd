@@ -31,10 +31,10 @@ F5. Highest school grade fifth child completed.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1532/vshow}{GSS Data Explorer page for \code{kdeduc5}}.
 
-Counts by year:\tabular{lllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 6 \tab 7 \tab 8 \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2902 \tab 1 \tab 3 \tab 4 \tab 33 \tab 5 \tab 7 \tab 3 \tab 15 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 9 \tab 2992 \cr
-   Total \tab 2902 \tab 1 \tab 3 \tab 4 \tab 33 \tab 5 \tab 7 \tab 3 \tab 15 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 9 \tab 2992 \cr
+Counts by year:\tabular{llllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 6 \tab 7 \tab 8 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2902 \tab 1 \tab 3 \tab 4 \tab 33 \tab 5 \tab 7 \tab 3 \tab 15 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 9 \tab - \tab 2992 \cr
+   Total \tab 2902 \tab 1 \tab 3 \tab 4 \tab 33 \tab 5 \tab 7 \tab 3 \tab 15 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 9 \tab 0 \tab 2992 \cr
 }
 }
 

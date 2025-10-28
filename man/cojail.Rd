@@ -33,10 +33,10 @@ A. If a young man refuses to register for the draft, would you approve or disapp
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/817/vshow}{GSS Data Explorer page for \code{cojail}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab approve \tab disapprove \tab don't know \tab no answer \tab Total \cr
-   1984 \tab 496 \tab 405 \tab 511 \tab 38 \tab 23 \tab 1473 \cr
-   Total \tab 496 \tab 405 \tab 511 \tab 38 \tab 23 \tab 1473 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab approve \tab disapprove \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab 496 \tab 405 \tab 511 \tab 38 \tab 23 \tab - \tab 1473 \cr
+   Total \tab 496 \tab 405 \tab 511 \tab 38 \tab 23 \tab 0 \tab 1473 \cr
 }
 }
 

@@ -37,11 +37,11 @@ B. You should take care of yourself and your family first, before helping other 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4230/vshow}{GSS Data Explorer page for \code{firstyou}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2002 \tab 1616 \tab 494 \tab 455 \tab 146 \tab 41 \tab 3 \tab 1 \tab 9 \tab 2765 \cr
-   2018 \tab 1175 \tab 464 \tab 501 \tab 131 \tab 58 \tab 10 \tab 6 \tab 3 \tab 2348 \cr
-   Total \tab 2791 \tab 958 \tab 956 \tab 277 \tab 99 \tab 13 \tab 7 \tab 12 \tab 5113 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1616 \tab 494 \tab 455 \tab 146 \tab 41 \tab 3 \tab 1 \tab 9 \tab - \tab 2765 \cr
+   2018 \tab 1175 \tab 464 \tab 501 \tab 131 \tab 58 \tab 10 \tab 6 \tab 3 \tab - \tab 2348 \cr
+   Total \tab 2791 \tab 958 \tab 956 \tab 277 \tab 99 \tab 13 \tab 7 \tab 12 \tab 0 \tab 5113 \cr
 }
 }
 

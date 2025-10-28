@@ -32,10 +32,10 @@ Question How important is being an AMERICAN to you, where 0 is not at all import
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1787/vshow}{GSS Data Explorer page for \code{amimp}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab not at all \tab 1 \tab most \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2199 \tab 11 \tab 5 \tab 315 \tab 7 \tab 8 \tab 13 \tab 67 \tab 31 \tab 67 \tab 98 \tab 68 \tab 5 \tab 10 \tab 2904 \cr
-   Total \tab 2199 \tab 11 \tab 5 \tab 315 \tab 7 \tab 8 \tab 13 \tab 67 \tab 31 \tab 67 \tab 98 \tab 68 \tab 5 \tab 10 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab not at all \tab 1 \tab most \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2199 \tab 11 \tab 5 \tab 315 \tab 7 \tab 8 \tab 13 \tab 67 \tab 31 \tab 67 \tab 98 \tab 68 \tab 5 \tab 10 \tab - \tab 2904 \cr
+   Total \tab 2199 \tab 11 \tab 5 \tab 315 \tab 7 \tab 8 \tab 13 \tab 67 \tab 31 \tab 67 \tab 98 \tab 68 \tab 5 \tab 10 \tab 0 \tab 2904 \cr
 }
 }
 

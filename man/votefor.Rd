@@ -33,10 +33,10 @@ Made a decision to vote for a political candidate?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2622/vshow}{GSS Data Explorer page for \code{votefor}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 2411 \tab 84 \tab 224 \tab 1 \tab 45 \tab 2765 \cr
-   Total \tab 2411 \tab 84 \tab 224 \tab 1 \tab 45 \tab 2765 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 2411 \tab 84 \tab 224 \tab 1 \tab 45 \tab - \tab 2765 \cr
+   Total \tab 2411 \tab 84 \tab 224 \tab 1 \tab 45 \tab 0 \tab 2765 \cr
 }
 }
 

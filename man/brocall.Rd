@@ -37,10 +37,10 @@ C. And how often do you have any other contact with your brother  besides visiti
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4142/vshow}{GSS Data Explorer page for \code{brocall}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab don't know \tab no answer \tab Total \cr
-   1986 \tab 462 \tab 42 \tab 77 \tab 175 \tab 254 \tab 227 \tab 222 \tab 1 \tab 10 \tab 1470 \cr
-   Total \tab 462 \tab 42 \tab 77 \tab 175 \tab 254 \tab 227 \tab 222 \tab 1 \tab 10 \tab 1470 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 462 \tab 42 \tab 77 \tab 175 \tab 254 \tab 227 \tab 222 \tab 1 \tab 10 \tab - \tab 1470 \cr
+   Total \tab 462 \tab 42 \tab 77 \tab 175 \tab 254 \tab 227 \tab 222 \tab 1 \tab 10 \tab 0 \tab 1470 \cr
 }
 }
 

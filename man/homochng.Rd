@@ -32,10 +32,10 @@ Question Do you think being homosexual is something people choose to be, or do y
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/635/vshow}{GSS Data Explorer page for \code{homochng}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab something people choose to be \tab something they cannot change \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2034 \tab 393 \tab 424 \tab 129 \tab 12 \tab 2992 \cr
-   Total \tab 2034 \tab 393 \tab 424 \tab 129 \tab 12 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab something people choose to be \tab something they cannot change \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2034 \tab 393 \tab 424 \tab 129 \tab 12 \tab - \tab 2992 \cr
+   Total \tab 2034 \tab 393 \tab 424 \tab 129 \tab 12 \tab 0 \tab 2992 \cr
 }
 }
 

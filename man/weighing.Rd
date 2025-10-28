@@ -35,10 +35,10 @@ Question As part of a laboratory experiment, five students measured the weight o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3483/vshow}{GSS Data Explorer page for \code{weighing}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab ask the teacher to weigh the leaf \tab report the first measurement \tab average all of the weights that were recorded \tab average the highest and lowest weights recorded \tab discard the lowest five weights \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 518 \tab 89 \tab 79 \tab 984 \tab 144 \tab 33 \tab 152 \tab 24 \tab 2023 \cr
-   Total \tab 518 \tab 89 \tab 79 \tab 984 \tab 144 \tab 33 \tab 152 \tab 24 \tab 2023 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab ask the teacher to weigh the leaf \tab report the first measurement \tab average all of the weights that were recorded \tab average the highest and lowest weights recorded \tab discard the lowest five weights \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 518 \tab 89 \tab 79 \tab 984 \tab 144 \tab 33 \tab 152 \tab 24 \tab - \tab 2023 \cr
+   Total \tab 518 \tab 89 \tab 79 \tab 984 \tab 144 \tab 33 \tab 152 \tab 24 \tab 0 \tab 2023 \cr
 }
 }
 

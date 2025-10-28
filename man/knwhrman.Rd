@@ -34,10 +34,10 @@ Question Do you know a woman or a man who isï¿½A human resources manager
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7233/vshow}{GSS Data Explorer page for \code{knwhrman}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab family or relative \tab close friend \tab someone else i know \tab no one \tab don't know \tab Total \cr
-   2018 \tab 1175 \tab 135 \tab 190 \tab 298 \tab 545 \tab 5 \tab 2348 \cr
-   Total \tab 1175 \tab 135 \tab 190 \tab 298 \tab 545 \tab 5 \tab 2348 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab family or relative \tab close friend \tab someone else i know \tab no one \tab don't know \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 135 \tab 190 \tab 298 \tab 545 \tab 5 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 135 \tab 190 \tab 298 \tab 545 \tab 5 \tab 0 \tab 2348 \cr
 }
 }
 

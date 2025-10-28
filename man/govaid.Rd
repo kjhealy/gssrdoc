@@ -32,17 +32,17 @@ Question Did you ever--because of sickness, unemployment, or any other reason--r
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/582/vshow}{GSS Data Explorer page for \code{govaid}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1973 \tab - \tab 502 \tab 1001 \tab 1 \tab - \tab 1504 \cr
-   1974 \tab - \tab 481 \tab 999 \tab 2 \tab 2 \tab 1484 \cr
-   1975 \tab - \tab 511 \tab 978 \tab - \tab 1 \tab 1490 \cr
-   1976 \tab - \tab 518 \tab 980 \tab - \tab 1 \tab 1499 \cr
-   1977 \tab - \tab 582 \tab 947 \tab 1 \tab - \tab 1530 \cr
-   1978 \tab - \tab 570 \tab 959 \tab 3 \tab - \tab 1532 \cr
-   1980 \tab - \tab 547 \tab 916 \tab 5 \tab - \tab 1468 \cr
-   1983 \tab - \tab 614 \tab 980 \tab 3 \tab 2 \tab 1599 \cr
-   Total \tab 0 \tab 4325 \tab 7760 \tab 15 \tab 6 \tab 12106 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1973 \tab - \tab 502 \tab 1001 \tab 1 \tab - \tab - \tab 1504 \cr
+   1974 \tab - \tab 481 \tab 999 \tab 2 \tab 2 \tab - \tab 1484 \cr
+   1975 \tab - \tab 511 \tab 978 \tab - \tab 1 \tab - \tab 1490 \cr
+   1976 \tab - \tab 518 \tab 980 \tab - \tab 1 \tab - \tab 1499 \cr
+   1977 \tab - \tab 582 \tab 947 \tab 1 \tab - \tab - \tab 1530 \cr
+   1978 \tab - \tab 570 \tab 959 \tab 3 \tab - \tab - \tab 1532 \cr
+   1980 \tab - \tab 547 \tab 916 \tab 5 \tab - \tab - \tab 1468 \cr
+   1983 \tab - \tab 614 \tab 980 \tab 3 \tab 2 \tab - \tab 1599 \cr
+   Total \tab 0 \tab 4325 \tab 7760 \tab 15 \tab 6 \tab 0 \tab 12106 \cr
 }
 }
 

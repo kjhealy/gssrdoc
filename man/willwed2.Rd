@@ -33,11 +33,11 @@ Question If the right person came along, would you like to be married?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1653/vshow}{GSS Data Explorer page for \code{willwed2}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2430 \tab 216 \tab 183 \tab 27 \tab 48 \tab 2904 \cr
-   1998 \tab 2381 \tab 193 \tab 181 \tab 39 \tab 38 \tab 2832 \cr
-   Total \tab 4811 \tab 409 \tab 364 \tab 66 \tab 86 \tab 5736 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2430 \tab 216 \tab 183 \tab 27 \tab 48 \tab - \tab 2904 \cr
+   1998 \tab 2381 \tab 193 \tab 181 \tab 39 \tab 38 \tab - \tab 2832 \cr
+   Total \tab 4811 \tab 409 \tab 364 \tab 66 \tab 86 \tab 0 \tab 5736 \cr
 }
 }
 

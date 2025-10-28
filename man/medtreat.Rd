@@ -35,10 +35,10 @@ Question E. Medical treatment. (Is medical treatment...?)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3541/vshow}{GSS Data Explorer page for \code{medtreat}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1469 \tab 382 \tab 93 \tab 14 \tab 3 \tab 9 \tab 4 \tab 1974 \cr
-   Total \tab 1469 \tab 382 \tab 93 \tab 14 \tab 3 \tab 9 \tab 4 \tab 1974 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1469 \tab 382 \tab 93 \tab 14 \tab 3 \tab 9 \tab 4 \tab - \tab 1974 \cr
+   Total \tab 1469 \tab 382 \tab 93 \tab 14 \tab 3 \tab 9 \tab 4 \tab 0 \tab 1974 \cr
 }
 }
 

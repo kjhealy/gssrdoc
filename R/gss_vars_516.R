@@ -26,11 +26,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely accept |probably accept |probably not accept |definitely not accept |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2008  |658  |539               |641             |109                 |46                    |26         |4         |2023  |
-#'  |2018  |1173 |517               |513             |72                  |39                    |23         |11        |2348  |
-#'  |Total |1831 |1056              |1154            |181                 |85                    |49         |15        |4371  |
+#'  |year  |iap  |definitely accept |probably accept |probably not accept |definitely not accept |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |658  |539               |641             |109                 |46                    |26         |4         |-                          |2023  |
+#'  |2018  |1173 |517               |513             |72                  |39                    |23         |11        |-                          |2348  |
+#'  |Total |1831 |1056              |1154            |181                 |85                    |49         |15        |0                          |4371  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -71,10 +71,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |definitely accept |probably accept |probably not accept |definitely not accept |don't know |no answer |Total |
-#'  |:-----|:---|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2008  |658 |466               |640             |168                 |39                    |40         |12        |2023  |
-#'  |Total |658 |466               |640             |168                 |39                    |40         |12        |2023  |
+#'  |year  |iap |definitely accept |probably accept |probably not accept |definitely not accept |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |658 |466               |640             |168                 |39                    |40         |12        |-                          |2023  |
+#'  |Total |658 |466               |640             |168                 |39                    |40         |12        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -116,11 +116,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely |probably |probably not |definitely not |don't know |no answer |Total |
-#'  |:-----|:----|:----------|:--------|:------------|:--------------|:----------|:---------|:-----|
-#'  |2008  |658  |367        |422      |266          |279            |21         |10        |2023  |
-#'  |2018  |1173 |260        |391      |291          |204            |19         |10        |2348  |
-#'  |Total |1831 |627        |813      |557          |483            |40         |20        |4371  |
+#'  |year  |iap  |definitely |probably |probably not |definitely not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:--------|:------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |658  |367        |422      |266          |279            |21         |10        |-                          |2023  |
+#'  |2018  |1173 |260        |391      |291          |204            |19         |10        |-                          |2348  |
+#'  |Total |1831 |627        |813      |557          |483            |40         |20        |0                          |4371  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -160,10 +160,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |definitely |probably |probably not |definitely not |don't know |no answer |Total |
-#'  |:-----|:---|:----------|:--------|:------------|:--------------|:----------|:---------|:-----|
-#'  |2008  |658 |538        |538      |143          |117            |21         |8         |2023  |
-#'  |Total |658 |538        |538      |143          |117            |21         |8         |2023  |
+#'  |year  |iap |definitely |probably |probably not |definitely not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:----------|:--------|:------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |658 |538        |538      |143          |117            |21         |8         |-                          |2023  |
+#'  |Total |658 |538        |538      |143          |117            |21         |8         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -202,10 +202,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely |probably |probably not |definitely not |don't know |no answer |Total |
-#'  |:-----|:----|:----------|:--------|:------------|:--------------|:----------|:---------|:-----|
-#'  |2018  |1173 |286        |445      |258          |155            |21         |10        |2348  |
-#'  |Total |1173 |286        |445      |258          |155            |21         |10        |2348  |
+#'  |year  |iap  |definitely |probably |probably not |definitely not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:--------|:------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1173 |286        |445      |258          |155            |21         |10        |-                          |2348  |
+#'  |Total |1173 |286        |445      |258          |155            |21         |10        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -244,10 +244,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes, definitely |yes, probably |no, probably not |no, definitely not |don't know |no answer |Total |
-#'  |:-----|:---|:---------------|:-------------|:----------------|:------------------|:----------|:---------|:-----|
-#'  |2008  |658 |178             |248           |374              |488                |71         |6         |2023  |
-#'  |Total |658 |178             |248           |374              |488                |71         |6         |2023  |
+#'  |year  |iap |yes, definitely |yes, probably |no, probably not |no, definitely not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------------|:-------------|:----------------|:------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |658 |178             |248           |374              |488                |71         |6         |-                          |2023  |
+#'  |Total |658 |178             |248           |374              |488                |71         |6         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -286,10 +286,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes, definitely |yes, probably |no, probably not |no, definitely not |don't know |no answer |Total |
-#'  |:-----|:---|:---------------|:-------------|:----------------|:------------------|:----------|:---------|:-----|
-#'  |2008  |658 |61              |194           |312              |346                |434        |18        |2023  |
-#'  |Total |658 |61              |194           |312              |346                |434        |18        |2023  |
+#'  |year  |iap |yes, definitely |yes, probably |no, probably not |no, definitely not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------------|:-------------|:----------------|:------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |658 |61              |194           |312              |346                |434        |18        |-                          |2023  |
+#'  |Total |658 |61              |194           |312              |346                |434        |18        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -329,11 +329,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes, definitely |yes, probably |no, probably not |no, definitely not |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:-------------|:----------------|:------------------|:----------|:---------|:-----|
-#'  |2008  |658  |115             |206           |403              |567                |63         |11        |2023  |
-#'  |2018  |1173 |164             |237           |347              |368                |46         |13        |2348  |
-#'  |Total |1831 |279             |443           |750              |935                |109        |24        |4371  |
+#'  |year  |iap  |yes, definitely |yes, probably |no, probably not |no, definitely not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:-------------|:----------------|:------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |658  |115             |206           |403              |567                |63         |11        |-                          |2023  |
+#'  |2018  |1173 |164             |237           |347              |368                |46         |13        |-                          |2348  |
+#'  |Total |1831 |279             |443           |750              |935                |109        |24        |0                          |4371  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -373,11 +373,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2008  |658  |339            |543   |155                        |194      |118               |9          |7         |2023  |
-#'  |2018  |1173 |299            |443   |144                        |158      |114               |8          |9         |2348  |
-#'  |Total |1831 |638            |986   |299                        |352      |232               |17         |16        |4371  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |658  |339            |543   |155                        |194      |118               |9          |7         |-                          |2023  |
+#'  |2018  |1173 |299            |443   |144                        |158      |114               |8          |9         |-                          |2348  |
+#'  |Total |1831 |638            |986   |299                        |352      |232               |17         |16        |0                          |4371  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -415,10 +415,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |i don't belong to or follow any religion |treats men and women equally |treats men better than women |treats women better than men |can't choose |no answer |Total |
-#'  |:-----|:----|:----------------------------------------|:----------------------------|:----------------------------|:----------------------------|:------------|:---------|:-----|
-#'  |2018  |1173 |167                                      |773                          |161                          |15                           |48           |11        |2348  |
-#'  |Total |1173 |167                                      |773                          |161                          |15                           |48           |11        |2348  |
+#'  |year  |iap  |i don't belong to or follow any religion |treats men and women equally |treats men better than women |treats women better than men |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------------------------------|:----------------------------|:----------------------------|:----------------------------|:------------|:---------|:--------------------------|:-----|
+#'  |2018  |1173 |167                                      |773                          |161                          |15                           |48           |11        |-                          |2348  |
+#'  |Total |1173 |167                                      |773                          |161                          |15                           |48           |11        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

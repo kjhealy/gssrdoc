@@ -36,11 +36,11 @@ D. Immigrants make America more open to new ideas and cultures
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4862/vshow}{GSS Data Explorer page for \code{immideas}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 152 \tab 636 \tab 278 \tab 169 \tab 34 \tab 44 \tab 54 \tab 2904 \cr
-   2014 \tab 1264 \tab 140 \tab 673 \tab 267 \tab 136 \tab 21 \tab 34 \tab 3 \tab 2538 \cr
-   Total \tab 2801 \tab 292 \tab 1309 \tab 545 \tab 305 \tab 55 \tab 78 \tab 57 \tab 5442 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1537 \tab 152 \tab 636 \tab 278 \tab 169 \tab 34 \tab 44 \tab 54 \tab - \tab 2904 \cr
+   2014 \tab 1264 \tab 140 \tab 673 \tab 267 \tab 136 \tab 21 \tab 34 \tab 3 \tab - \tab 2538 \cr
+   Total \tab 2801 \tab 292 \tab 1309 \tab 545 \tab 305 \tab 55 \tab 78 \tab 57 \tab 0 \tab 5442 \cr
 }
 }
 

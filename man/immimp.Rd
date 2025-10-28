@@ -36,10 +36,10 @@ A. Immigrants improve American society by bringing in new ideas and cultures
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4890/vshow}{GSS Data Explorer page for \code{immimp}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1596 \tab 119 \tab 563 \tab 294 \tab 176 \tab 40 \tab 23 \tab 1 \tab 2812 \cr
-   Total \tab 1596 \tab 119 \tab 563 \tab 294 \tab 176 \tab 40 \tab 23 \tab 1 \tab 2812 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1596 \tab 119 \tab 563 \tab 294 \tab 176 \tab 40 \tab 23 \tab 1 \tab - \tab 2812 \cr
+   Total \tab 1596 \tab 119 \tab 563 \tab 294 \tab 176 \tab 40 \tab 23 \tab 1 \tab 0 \tab 2812 \cr
 }
 }
 

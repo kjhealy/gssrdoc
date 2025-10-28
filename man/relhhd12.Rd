@@ -50,25 +50,25 @@ Question What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?  SEE CODES BELO
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5427/vshow}{GSS Data Explorer page for \code{relhhd12}}.
 
-Counts by year:\tabular{llllllllllllllllll}{
-   year \tab iap \tab grandchild, great-grandchild \tab son-in-law, daughter-in-law \tab parent-in-law \tab niece or nephew \tab other non-relative (employee, boarder) \tab child, natural or adopted, stepchild \tab parent \tab no answer \tab roommate, housemate \tab sibling-in-law \tab other relative (great-aunt, grandniece, etc.) \tab friend \tab child of non-relative \tab cousin \tab not available in this release \tab Total \cr
-   1993 \tab 1605 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2987 \tab - \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2896 \tab 1 \tab - \tab 1 \tab - \tab 1 \tab 3 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab 2817 \tab 1 \tab 2 \tab 2 \tab - \tab 1 \tab 7 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2813 \tab 1 \tab 1 \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2764 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 4498 \tab 1 \tab 1 \tab - \tab 1 \tab - \tab 2 \tab 3 \tab - \tab - \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 2019 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab 2023 \cr
-   2010 \tab 2035 \tab 1 \tab - \tab 2 \tab - \tab - \tab 1 \tab 1 \tab 2 \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 1971 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2535 \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 2538 \cr
-   2016 \tab 2862 \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab 1 \tab - \tab 2867 \cr
-   2018 \tab 2343 \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 40501 \tab 7 \tab 7 \tab 9 \tab 4 \tab 4 \tab 17 \tab 5 \tab 4 \tab 5 \tab 2 \tab 2 \tab 6 \tab 2 \tab 1 \tab 4032 \tab 44608 \cr
+Counts by year:\tabular{llllllllllllllllllll}{
+   year \tab iap \tab grandchild, great-grandchild \tab son-in-law, daughter-in-law \tab parent-in-law \tab niece or nephew \tab other non-relative (employee, boarder) \tab child, natural or adopted, stepchild \tab parent \tab no answer \tab roommate, housemate \tab sibling-in-law \tab other relative (great-aunt, grandniece, etc.) \tab friend \tab child of non-relative \tab cousin \tab grandparent, great-grandparent \tab brother, sister (full, half, or step sibling) \tab not available in this year \tab Total \cr
+   1993 \tab 1605 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab 2987 \tab - \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
+   1996 \tab 2896 \tab 1 \tab - \tab 1 \tab - \tab 1 \tab 3 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
+   1998 \tab 2817 \tab 1 \tab 2 \tab 2 \tab - \tab 1 \tab 7 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
+   2000 \tab 2813 \tab 1 \tab 1 \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2764 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 4498 \tab 1 \tab 1 \tab - \tab 1 \tab - \tab 2 \tab 3 \tab - \tab - \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 2019 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 2035 \tab 1 \tab - \tab 2 \tab - \tab - \tab 1 \tab 1 \tab 2 \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1971 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2535 \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2862 \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2343 \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 4010 \tab 3 \tab 2 \tab - \tab - \tab 3 \tab 8 \tab - \tab - \tab 1 \tab - \tab 1 \tab 1 \tab - \tab - \tab 1 \tab 2 \tab - \tab 4032 \cr
+   2022 \tab 3541 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 44508 \tab 10 \tab 9 \tab 9 \tab 4 \tab 7 \tab 26 \tab 5 \tab 4 \tab 7 \tab 2 \tab 3 \tab 7 \tab 3 \tab 1 \tab 1 \tab 2 \tab 0 \tab 44608 \cr
 }
 }
 

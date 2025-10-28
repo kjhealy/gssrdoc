@@ -32,11 +32,11 @@ Question C. Girlfriend or boyfriend?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2486/vshow}{GSS Data Explorer page for \code{wwwgfbf}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2657 \tab 19 \tab 50 \tab 91 \tab 2817 \cr
-   2002 \tab 2647 \tab 30 \tab 41 \tab 47 \tab 2765 \cr
-   Total \tab 5304 \tab 49 \tab 91 \tab 138 \tab 5582 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2657 \tab 19 \tab 50 \tab 91 \tab - \tab 2817 \cr
+   2002 \tab 2647 \tab 30 \tab 41 \tab 47 \tab - \tab 2765 \cr
+   Total \tab 5304 \tab 49 \tab 91 \tab 138 \tab 0 \tab 5582 \cr
 }
 }
 

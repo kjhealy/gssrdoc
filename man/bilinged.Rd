@@ -34,10 +34,10 @@ Question How do you feel about bilingual education? Are you strongly in favor of
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1607/vshow}{GSS Data Explorer page for \code{bilinged}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly favor \tab somewhat favor \tab somewhat opposed \tab strongly opposed \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 388 \tab 560 \tab 240 \tab 212 \tab 67 \tab 7 \tab 2992 \cr
-   Total \tab 1518 \tab 388 \tab 560 \tab 240 \tab 212 \tab 67 \tab 7 \tab 2992 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly favor \tab somewhat favor \tab somewhat opposed \tab strongly opposed \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 388 \tab 560 \tab 240 \tab 212 \tab 67 \tab 7 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 388 \tab 560 \tab 240 \tab 212 \tab 67 \tab 7 \tab 0 \tab 2992 \cr
 }
 }
 

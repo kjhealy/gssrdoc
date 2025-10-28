@@ -32,10 +32,10 @@ Question A. Please think about the (products made/services provided) at your wor
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2147/vshow}{GSS Data Explorer page for \code{samework}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1998 \tab 1455 \tab 576 \tab 765 \tab 36 \tab 2832 \cr
-   Total \tab 1455 \tab 576 \tab 765 \tab 36 \tab 2832 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1455 \tab 576 \tab 765 \tab 36 \tab - \tab 2832 \cr
+   Total \tab 1455 \tab 576 \tab 765 \tab 36 \tab 0 \tab 2832 \cr
 }
 }
 

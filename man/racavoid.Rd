@@ -32,10 +32,10 @@ Question If you were driving through the neighborhoods in a city, would you go o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/725/vshow}{GSS Data Explorer page for \code{racavoid}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1977 \tab 176 \tab 519 \tab 807 \tab 26 \tab 2 \tab 1530 \cr
-   Total \tab 176 \tab 519 \tab 807 \tab 26 \tab 2 \tab 1530 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1977 \tab 176 \tab 519 \tab 807 \tab 26 \tab 2 \tab - \tab 1530 \cr
+   Total \tab 176 \tab 519 \tab 807 \tab 26 \tab 2 \tab 0 \tab 1530 \cr
 }
 }
 

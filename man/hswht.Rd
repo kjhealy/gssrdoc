@@ -38,10 +38,10 @@ A. Was the high school/last school you attended all white, mostly white, about h
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2376/vshow}{GSS Data Explorer page for \code{hswht}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab all white \tab mostly white \tab about half white and half other races \tab mostly other races \tab all other races \tab not all white \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 286 \tab 444 \tab 159 \tab 45 \tab 55 \tab 358 \tab 51 \tab 2817 \cr
-   Total \tab 1419 \tab 286 \tab 444 \tab 159 \tab 45 \tab 55 \tab 358 \tab 51 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab all white \tab mostly white \tab about half white and half other races \tab mostly other races \tab all other races \tab not all white \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 286 \tab 444 \tab 159 \tab 45 \tab 55 \tab 358 \tab 51 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 286 \tab 444 \tab 159 \tab 45 \tab 55 \tab 358 \tab 51 \tab 0 \tab 2817 \cr
 }
 }
 

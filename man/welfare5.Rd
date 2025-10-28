@@ -36,10 +36,10 @@ E. Helps to prevent hunger and starvation.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5502/vshow}{GSS Data Explorer page for \code{welfare5}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1986 \tab - \tab 228 \tab 1070 \tab 136 \tab 26 \tab 7 \tab 3 \tab 1470 \cr
-   Total \tab 0 \tab 228 \tab 1070 \tab 136 \tab 26 \tab 7 \tab 3 \tab 1470 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab - \tab 228 \tab 1070 \tab 136 \tab 26 \tab 7 \tab 3 \tab - \tab 1470 \cr
+   Total \tab 0 \tab 228 \tab 1070 \tab 136 \tab 26 \tab 7 \tab 3 \tab 0 \tab 1470 \cr
 }
 }
 

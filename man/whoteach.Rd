@@ -35,10 +35,10 @@ Question Some people say that when the experience of a racial or ethnic minority
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1631/vshow}{GSS Data Explorer page for \code{whoteach}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 93 \tab 267 \tab 415 \tab 532 \tab 89 \tab 68 \tab 10 \tab 2992 \cr
-   Total \tab 1518 \tab 93 \tab 267 \tab 415 \tab 532 \tab 89 \tab 68 \tab 10 \tab 2992 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 93 \tab 267 \tab 415 \tab 532 \tab 89 \tab 68 \tab 10 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 93 \tab 267 \tab 415 \tab 532 \tab 89 \tab 68 \tab 10 \tab 0 \tab 2992 \cr
 }
 }
 

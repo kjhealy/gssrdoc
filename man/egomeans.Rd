@@ -38,13 +38,13 @@ F. Life is only meaningful if you provide the meaning yourself.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4662/vshow}{GSS Data Explorer page for \code{egomeans}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 280 \tab 476 \tab 186 \tab 192 \tab 108 \tab 49 \tab 68 \tab 1517 \cr
-   1998 \tab 1548 \tab 126 \tab 417 \tab 219 \tab 251 \tab 152 \tab 50 \tab 69 \tab 2832 \cr
-   2008 \tab 658 \tab 192 \tab 464 \tab 190 \tab 336 \tab 158 \tab 21 \tab 4 \tab 2023 \cr
-   2018 \tab 1173 \tab 177 \tab 381 \tab 158 \tab 297 \tab 141 \tab 14 \tab 7 \tab 2348 \cr
-   Total \tab 3537 \tab 775 \tab 1738 \tab 753 \tab 1076 \tab 559 \tab 134 \tab 148 \tab 8720 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 280 \tab 476 \tab 186 \tab 192 \tab 108 \tab 49 \tab 68 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 126 \tab 417 \tab 219 \tab 251 \tab 152 \tab 50 \tab 69 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 192 \tab 464 \tab 190 \tab 336 \tab 158 \tab 21 \tab 4 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 177 \tab 381 \tab 158 \tab 297 \tab 141 \tab 14 \tab 7 \tab - \tab 2348 \cr
+   Total \tab 3537 \tab 775 \tab 1738 \tab 753 \tab 1076 \tab 559 \tab 134 \tab 148 \tab 0 \tab 8720 \cr
 }
 }
 

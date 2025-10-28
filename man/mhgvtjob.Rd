@@ -35,10 +35,10 @@ A. First, provide a job for (NAME) if (NAME) wants one.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3788/vshow}{GSS Data Explorer page for \code{mhgvtjob}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 208 \tab 503 \tab 442 \tab 244 \tab 18 \tab 10 \tab 4510 \cr
-   Total \tab 3085 \tab 208 \tab 503 \tab 442 \tab 244 \tab 18 \tab 10 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 208 \tab 503 \tab 442 \tab 244 \tab 18 \tab 10 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 208 \tab 503 \tab 442 \tab 244 \tab 18 \tab 10 \tab 0 \tab 4510 \cr
 }
 }
 

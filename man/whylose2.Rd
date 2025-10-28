@@ -41,10 +41,10 @@ Question B. (Reason 2)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3881/vshow}{GSS Data Explorer page for \code{whylose2}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab company's sales were declining \tab other \tab company sold \tab job done \tab company in financial problem \tab end of contract \tab seasonal work \tab Total \cr
-   2008 \tab 2003 \tab 4 \tab 2 \tab 5 \tab 2 \tab 3 \tab 3 \tab 1 \tab 2023 \cr
-   Total \tab 2003 \tab 4 \tab 2 \tab 5 \tab 2 \tab 3 \tab 3 \tab 1 \tab 2023 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab company's sales were declining \tab other \tab company sold \tab job done \tab company in financial problem \tab end of contract \tab seasonal work \tab not available in this year \tab Total \cr
+   2008 \tab 2003 \tab 4 \tab 2 \tab 5 \tab 2 \tab 3 \tab 3 \tab 1 \tab - \tab 2023 \cr
+   Total \tab 2003 \tab 4 \tab 2 \tab 5 \tab 2 \tab 3 \tab 3 \tab 1 \tab 0 \tab 2023 \cr
 }
 }
 

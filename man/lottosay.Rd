@@ -35,10 +35,10 @@ B. I have a lot to say over what happens on my job.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1309/vshow}{GSS Data Explorer page for \code{lottosay}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very true \tab true \tab somewhat true \tab not true at all \tab can't choose \tab no answer \tab Total \cr
-   1991 \tab 605 \tab 301 \tab 249 \tab 216 \tab 130 \tab 5 \tab 11 \tab 1517 \cr
-   Total \tab 605 \tab 301 \tab 249 \tab 216 \tab 130 \tab 5 \tab 11 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab true \tab somewhat true \tab not true at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 605 \tab 301 \tab 249 \tab 216 \tab 130 \tab 5 \tab 11 \tab - \tab 1517 \cr
+   Total \tab 605 \tab 301 \tab 249 \tab 216 \tab 130 \tab 5 \tab 11 \tab 0 \tab 1517 \cr
 }
 }
 

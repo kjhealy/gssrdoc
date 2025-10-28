@@ -32,10 +32,10 @@ Question Are you the sibling of another individual 18 or older in your house?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8030/vshow}{GSS Data Explorer page for \code{rsblng18}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 3243 \tab 64 \tab 231 \tab 1 \tab 5 \tab 3544 \cr
-   Total \tab 3243 \tab 64 \tab 231 \tab 1 \tab 5 \tab 3544 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab not available in this year \tab yes \tab no \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 64 \tab 231 \tab 3243 \tab 1 \tab 5 \tab 3544 \cr
+   Total \tab 0 \tab 64 \tab 231 \tab 3243 \tab 1 \tab 5 \tab 3544 \cr
 }
 }
 

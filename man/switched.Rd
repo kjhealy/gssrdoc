@@ -35,10 +35,10 @@ No..............(GO TO MARELIG)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1049/vshow}{GSS Data Explorer page for \code{switched}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1988 \tab - \tab 525 \tab 945 \tab 11 \tab 1481 \cr
-   Total \tab 0 \tab 525 \tab 945 \tab 11 \tab 1481 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 525 \tab 945 \tab 11 \tab - \tab 1481 \cr
+   Total \tab 0 \tab 525 \tab 945 \tab 11 \tab 0 \tab 1481 \cr
 }
 }
 

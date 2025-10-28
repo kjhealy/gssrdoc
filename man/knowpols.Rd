@@ -34,10 +34,10 @@ Question Do you think that the treatment people get from public officials in Ame
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4122/vshow}{GSS Data Explorer page for \code{knowpols}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely does \tab probably does \tab probably does not \tab definitely does not \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 2992 \tab 695 \tab 645 \tab 125 \tab 28 \tab 24 \tab 1 \tab 4510 \cr
-   Total \tab 2992 \tab 695 \tab 645 \tab 125 \tab 28 \tab 24 \tab 1 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely does \tab probably does \tab probably does not \tab definitely does not \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2992 \tab 695 \tab 645 \tab 125 \tab 28 \tab 24 \tab 1 \tab - \tab 4510 \cr
+   Total \tab 2992 \tab 695 \tab 645 \tab 125 \tab 28 \tab 24 \tab 1 \tab 0 \tab 4510 \cr
 }
 }
 

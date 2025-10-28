@@ -33,12 +33,12 @@ Question Please check one box to show which statement is closest to your views.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4735/vshow}{GSS Data Explorer page for \code{naturgod}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab nature created by god \tab nature sacred in itself \tab nature import, but not sacred \tab don't know \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 554 \tab 304 \tab 493 \tab 130 \tab 76 \tab 1606 \cr
-   1994 \tab 1606 \tab 460 \tab 285 \tab 464 \tab 129 \tab 48 \tab 2992 \cr
-   2000 \tab 1541 \tab 472 \tab 277 \tab 326 \tab 136 \tab 65 \tab 2817 \cr
-   Total \tab 3196 \tab 1486 \tab 866 \tab 1283 \tab 395 \tab 189 \tab 7415 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab nature created by god \tab nature sacred in itself \tab nature import, but not sacred \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 554 \tab 304 \tab 493 \tab 130 \tab 76 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 460 \tab 285 \tab 464 \tab 129 \tab 48 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 472 \tab 277 \tab 326 \tab 136 \tab 65 \tab - \tab 2817 \cr
+   Total \tab 3196 \tab 1486 \tab 866 \tab 1283 \tab 395 \tab 189 \tab 0 \tab 7415 \cr
 }
 }
 

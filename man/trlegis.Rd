@@ -32,10 +32,10 @@ Question How much do you trust the U.S. Congress?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7485/vshow}{GSS Data Explorer page for \code{trlegis}}.
 
-Counts by year:\tabular{lllllllllllllllll}{
-   year \tab iap \tab 0 - no trust \tab 1 \tab 10 - complete trust \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2003 \tab 339 \tab 195 \tab 25 \tab 197 \tab 255 \tab 222 \tab 332 \tab 108 \tab 88 \tab 46 \tab 11 \tab 49 \tab 156 \tab 6 \tab 4032 \cr
-   Total \tab 2003 \tab 339 \tab 195 \tab 25 \tab 197 \tab 255 \tab 222 \tab 332 \tab 108 \tab 88 \tab 46 \tab 11 \tab 49 \tab 156 \tab 6 \tab 4032 \cr
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab 0 - no trust \tab 1 \tab 10 - complete trust \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2003 \tab 339 \tab 195 \tab 25 \tab 197 \tab 255 \tab 222 \tab 332 \tab 108 \tab 88 \tab 46 \tab 11 \tab 49 \tab 156 \tab 6 \tab - \tab 4032 \cr
+   Total \tab 2003 \tab 339 \tab 195 \tab 25 \tab 197 \tab 255 \tab 222 \tab 332 \tab 108 \tab 88 \tab 46 \tab 11 \tab 49 \tab 156 \tab 6 \tab 0 \tab 4032 \cr
 }
 }
 

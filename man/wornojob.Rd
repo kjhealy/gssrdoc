@@ -35,10 +35,10 @@ Would you say...
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6342/vshow}{GSS Data Explorer page for \code{wornojob}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab i worry a great deal \tab i worry to some extent \tab i worry a little \tab i don't worry at all \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2533 \tab 49 \tab 36 \tab 71 \tab 153 \tab 1 \tab 24 \tab 2867 \cr
-   Total \tab 2533 \tab 49 \tab 36 \tab 71 \tab 153 \tab 1 \tab 24 \tab 2867 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab i worry a great deal \tab i worry to some extent \tab i worry a little \tab i don't worry at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2533 \tab 49 \tab 36 \tab 71 \tab 153 \tab 1 \tab 24 \tab - \tab 2867 \cr
+   Total \tab 2533 \tab 49 \tab 36 \tab 71 \tab 153 \tab 1 \tab 24 \tab 0 \tab 2867 \cr
 }
 }
 

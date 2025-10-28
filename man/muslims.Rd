@@ -35,10 +35,10 @@ Question What is your personal attitude towards members of the following religio
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7287/vshow}{GSS Data Explorer page for \code{muslims}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very positive \tab somewhat positive \tab neither positive nor negative \tab somewhat negative \tab very negative \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1173 \tab 145 \tab 300 \tab 473 \tab 134 \tab 72 \tab 35 \tab 16 \tab 2348 \cr
-   Total \tab 1173 \tab 145 \tab 300 \tab 473 \tab 134 \tab 72 \tab 35 \tab 16 \tab 2348 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very positive \tab somewhat positive \tab neither positive nor negative \tab somewhat negative \tab very negative \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1173 \tab 145 \tab 300 \tab 473 \tab 134 \tab 72 \tab 35 \tab 16 \tab - \tab 2348 \cr
+   Total \tab 1173 \tab 145 \tab 300 \tab 473 \tab 134 \tab 72 \tab 35 \tab 16 \tab 0 \tab 2348 \cr
 }
 }
 

@@ -32,10 +32,11 @@ Question Calculated variable: The respondent answered yes to any of RBIOPRNT, RA
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8017/vshow}{GSS Data Explorer page for \code{prnt}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab skipped on web \tab Total \cr
-   2022 \tab 3016 \tab 432 \tab 94 \tab 2 \tab 3544 \cr
-   Total \tab 3016 \tab 432 \tab 94 \tab 2 \tab 3544 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab not available in this year \tab yes \tab no \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 432 \tab 94 \tab 3016 \tab 2 \tab 3544 \cr
+   2024 \tab - \tab 402 \tab - \tab 2907 \tab - \tab 3309 \cr
+   Total \tab 0 \tab 834 \tab 94 \tab 5923 \tab 2 \tab 6853 \cr
 }
 }
 

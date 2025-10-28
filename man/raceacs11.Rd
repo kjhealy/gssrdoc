@@ -34,7 +34,7 @@ As of 2024, RACEACS11 has been recoded into RACEACS14 as "Other Pacific Islander
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7460/vshow}{GSS Data Explorer page for \code{raceacs11}}.
 
 Counts by year:\tabular{llllllll}{
-   year \tab iap \tab no \tab yes \tab don't know \tab no answer \tab refused \tab Total \cr
+   year \tab not available in this year \tab no \tab yes \tab don't know \tab no answer \tab refused \tab Total \cr
    2021 \tab - \tab 4010 \tab 7 \tab 6 \tab 9 \tab - \tab 4032 \cr
    2022 \tab - \tab 3499 \tab 4 \tab 8 \tab 18 \tab 15 \tab 3544 \cr
    Total \tab 0 \tab 7509 \tab 11 \tab 14 \tab 27 \tab 15 \tab 7576 \cr
@@ -44,13 +44,14 @@ Counts by year:\tabular{llllllll}{
 \seealso{
 Other Core: 
 \code{\link{raceacs10}},
-\code{\link{raceacs2}},
+\code{\link{raceacs12}},
 \code{\link{raceacs4}},
 \code{\link{raceacs6}},
 \code{\link{raceacs8}}
 
 Other Race: 
 \code{\link{raceacs10}},
+\code{\link{raceacs12}},
 \code{\link{raceacs3}},
 \code{\link{raceacs5}},
 \code{\link{raceacs7}},

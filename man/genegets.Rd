@@ -33,10 +33,10 @@ Question C. Suppose a genetic screening test for certain forms of heart disease 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1262/vshow}{GSS Data Explorer page for \code{genegets}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab employer should \tab worker should \tab both - voluntary \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 524 \tab 83 \tab 715 \tab 157 \tab 31 \tab 7 \tab 1517 \cr
-   Total \tab 524 \tab 83 \tab 715 \tab 157 \tab 31 \tab 7 \tab 1517 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab employer should \tab worker should \tab both - voluntary \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 524 \tab 83 \tab 715 \tab 157 \tab 31 \tab 7 \tab - \tab 1517 \cr
+   Total \tab 524 \tab 83 \tab 715 \tab 157 \tab 31 \tab 7 \tab 0 \tab 1517 \cr
 }
 }
 

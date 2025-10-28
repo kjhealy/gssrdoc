@@ -35,10 +35,10 @@ Question Please consider a family with a father and a mother raising a child who
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7768/vshow}{GSS Data Explorer page for \code{prntfnce}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab the mother mostly \tab the mother somewhat more than the father \tab the mother and father equally \tab the father somewhat more than the mother \tab the father mostly \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2383 \tab 6 \tab 5 \tab 612 \tab 213 \tab 157 \tab 159 \tab 4 \tab 5 \tab 3544 \cr
-   Total \tab 2383 \tab 6 \tab 5 \tab 612 \tab 213 \tab 157 \tab 159 \tab 4 \tab 5 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab the mother mostly \tab the mother somewhat more than the father \tab the mother and father equally \tab the father somewhat more than the mother \tab the father mostly \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 6 \tab 5 \tab 612 \tab 213 \tab 157 \tab 159 \tab 2383 \tab 4 \tab 5 \tab 3544 \cr
+   Total \tab 0 \tab 6 \tab 5 \tab 612 \tab 213 \tab 157 \tab 159 \tab 2383 \tab 4 \tab 5 \tab 3544 \cr
 }
 }
 

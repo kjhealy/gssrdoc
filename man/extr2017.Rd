@@ -33,10 +33,10 @@ IF ASKED: Performance-based pay means individual or group bonuses, commissions, 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7223/vshow}{GSS Data Explorer page for \code{extr2017}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   2018 \tab 1848 \tab 360 \tab 140 \tab 2348 \cr
-   Total \tab 1848 \tab 360 \tab 140 \tab 2348 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab not available in this year \tab Total \cr
+   2018 \tab 1848 \tab 360 \tab 140 \tab - \tab 2348 \cr
+   Total \tab 1848 \tab 360 \tab 140 \tab 0 \tab 2348 \cr
 }
 }
 

@@ -33,10 +33,10 @@ Should the newspaper be allowed to publish the papers? Or should the government 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3980/vshow}{GSS Data Explorer page for \code{pubecon}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab allow publication \tab stop publication \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 359 \tab 227 \tab 70 \tab 21 \tab 1534 \cr
-   Total \tab 857 \tab 359 \tab 227 \tab 70 \tab 21 \tab 1534 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab allow publication \tab stop publication \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 359 \tab 227 \tab 70 \tab 21 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 359 \tab 227 \tab 70 \tab 21 \tab 0 \tab 1534 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Does your company or the institution for which you work have more than 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4566/vshow}{GSS Data Explorer page for \code{numsites}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab not available in this year \tab yes \tab no \tab no answer \tab iap \tab Total \cr
-   1989 \tab - \tab 518 \tab 267 \tab 752 \tab - \tab 1537 \cr
-   Total \tab 0 \tab 518 \tab 267 \tab 752 \tab 0 \tab 1537 \cr
+Counts by year:\tabular{llllll}{
+   year \tab not available in this year \tab yes \tab no \tab no answer \tab Total \cr
+   1989 \tab - \tab 518 \tab 267 \tab 752 \tab 1537 \cr
+   Total \tab 0 \tab 518 \tab 267 \tab 752 \tab 1537 \cr
 }
 }
 

@@ -36,10 +36,10 @@ Question How many sisters age 18 or older do you have? (We mean sisters who are 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4135/vshow}{GSS Data Explorer page for \code{sisnum}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab none \tab one \tab two \tab three \tab four \tab five + \tab don't know \tab no answer \tab Total \cr
-   1986 \tab - \tab 413 \tab 438 \tab 305 \tab 148 \tab 74 \tab 85 \tab 2 \tab 5 \tab 1470 \cr
-   Total \tab 0 \tab 413 \tab 438 \tab 305 \tab 148 \tab 74 \tab 85 \tab 2 \tab 5 \tab 1470 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab none \tab one \tab two \tab three \tab four \tab five + \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab - \tab 413 \tab 438 \tab 305 \tab 148 \tab 74 \tab 85 \tab 2 \tab 5 \tab - \tab 1470 \cr
+   Total \tab 0 \tab 413 \tab 438 \tab 305 \tab 148 \tab 74 \tab 85 \tab 2 \tab 5 \tab 0 \tab 1470 \cr
 }
 }
 

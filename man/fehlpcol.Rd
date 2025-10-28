@@ -36,10 +36,10 @@ B. The government should increase opportunities for women to go to college.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4013/vshow}{GSS Data Explorer page for \code{fehlpcol}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly in favor \tab in favor \tab neither \tab against \tab strongly against \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 86 \tab 189 \tab 254 \tab 110 \tab 15 \tab 23 \tab 1534 \cr
-   Total \tab 857 \tab 86 \tab 189 \tab 254 \tab 110 \tab 15 \tab 23 \tab 1534 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly in favor \tab in favor \tab neither \tab against \tab strongly against \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 86 \tab 189 \tab 254 \tab 110 \tab 15 \tab 23 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 86 \tab 189 \tab 254 \tab 110 \tab 15 \tab 23 \tab 0 \tab 1534 \cr
 }
 }
 

@@ -39,10 +39,10 @@ Question At about what age were you when you first told someone that you had sex
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3907/vshow}{GSS Data Explorer page for \code{toldsmsx}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab under age 14 \tab age 14-18 \tab age 18-25 \tab age 26-35 \tab age 36-45 \tab age 46-55 \tab i have never told anyone \tab Total \cr
-   2008 \tab 1951 \tab 7 \tab 14 \tab 26 \tab 12 \tab 2 \tab 3 \tab 8 \tab 2023 \cr
-   Total \tab 1951 \tab 7 \tab 14 \tab 26 \tab 12 \tab 2 \tab 3 \tab 8 \tab 2023 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab under age 14 \tab age 14-18 \tab age 18-25 \tab age 26-35 \tab age 36-45 \tab age 46-55 \tab i have never told anyone \tab not available in this year \tab Total \cr
+   2008 \tab 1951 \tab 7 \tab 14 \tab 26 \tab 12 \tab 2 \tab 3 \tab 8 \tab - \tab 2023 \cr
+   Total \tab 1951 \tab 7 \tab 14 \tab 26 \tab 12 \tab 2 \tab 3 \tab 8 \tab 0 \tab 2023 \cr
 }
 }
 

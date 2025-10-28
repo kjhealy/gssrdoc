@@ -34,11 +34,11 @@ A. DOES YOUR SPOUSE CONSIDER HIMSELF/HERSELF SELF AS JEWISH
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/351/vshow}{GSS Data Explorer page for \code{spothjew}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab no \tab no answer \tab yes \tab Total \cr
-   2008 \tab 2008 \tab 3 \tab 12 \tab - \tab 2023 \cr
-   2012 \tab 1971 \tab 2 \tab - \tab 1 \tab 1974 \cr
-   Total \tab 3979 \tab 5 \tab 12 \tab 1 \tab 3997 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab no \tab no answer \tab yes \tab not available in this year \tab Total \cr
+   2008 \tab 2008 \tab 3 \tab 12 \tab - \tab - \tab 2023 \cr
+   2012 \tab 1971 \tab 2 \tab - \tab 1 \tab - \tab 1974 \cr
+   Total \tab 3979 \tab 5 \tab 12 \tab 1 \tab 0 \tab 3997 \cr
 }
 }
 

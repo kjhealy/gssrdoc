@@ -45,10 +45,10 @@ Question A. WHY DO YOU THINK YOUR RACIAL CLASSIFICATION OF THE RESPONDENT IN "A"
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5280/vshow}{GSS Data Explorer page for \code{difrace1}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab r not serious \tab hispanic chosen over white \tab hispanic chosen over black \tab physically doesn't match race \tab racially mixed \tab r rejects racial categories \tab r rejects 'black' label \tab is married to member of another race \tab white or black chosen over hispanic \tab Total \cr
-   1996 \tab 2865 \tab 1 \tab 15 \tab 3 \tab 4 \tab 5 \tab 7 \tab 1 \tab 2 \tab 1 \tab 2904 \cr
-   Total \tab 2865 \tab 1 \tab 15 \tab 3 \tab 4 \tab 5 \tab 7 \tab 1 \tab 2 \tab 1 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab r not serious \tab hispanic chosen over white \tab hispanic chosen over black \tab physically doesn't match race \tab racially mixed \tab r rejects racial categories \tab r rejects 'black' label \tab is married to member of another race \tab white or black chosen over hispanic \tab not available in this year \tab Total \cr
+   1996 \tab 2865 \tab 1 \tab 15 \tab 3 \tab 4 \tab 5 \tab 7 \tab 1 \tab 2 \tab 1 \tab - \tab 2904 \cr
+   Total \tab 2865 \tab 1 \tab 15 \tab 3 \tab 4 \tab 5 \tab 7 \tab 1 \tab 2 \tab 1 \tab 0 \tab 2904 \cr
 }
 }
 

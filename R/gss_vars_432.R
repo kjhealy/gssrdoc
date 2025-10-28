@@ -22,10 +22,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |Total |
-#'  |:-----|:----|:---|:-----|
-#'  |2008  |2022 |1   |2023  |
-#'  |Total |2022 |1   |2023  |
+#'  |year  |iap  |yes |not available in this year |Total |
+#'  |:-----|:----|:---|:--------------------------|:-----|
+#'  |2008  |2022 |1   |-                          |2023  |
+#'  |Total |2022 |1   |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -62,10 +62,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |Total |
-#'  |:-----|:----|:-----|
-#'  |2008  |2023 |2023  |
-#'  |Total |2023 |2023  |
+#'  |year  |iap  |not available in this year |Total |
+#'  |:-----|:----|:--------------------------|:-----|
+#'  |2008  |2023 |-                          |2023  |
+#'  |Total |2023 |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -102,10 +102,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |Total |
-#'  |:-----|:----|:---|:--|:-----|
-#'  |2008  |2001 |15  |7  |2023  |
-#'  |Total |2001 |15  |7  |2023  |
+#'  |year  |iap  |yes |no |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--------------------------|:-----|
+#'  |2008  |2001 |15  |7  |-                          |2023  |
+#'  |Total |2001 |15  |7  |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -142,10 +142,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |Total |
-#'  |:-----|:----|:---|:--|:-----|
-#'  |2008  |2017 |4   |2  |2023  |
-#'  |Total |2017 |4   |2  |2023  |
+#'  |year  |iap  |yes |no |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--------------------------|:-----|
+#'  |2008  |2017 |4   |2  |-                          |2023  |
+#'  |Total |2017 |4   |2  |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -182,10 +182,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |Total |
-#'  |:-----|:----|:---|:--|:-----|
-#'  |2008  |2021 |1   |1  |2023  |
-#'  |Total |2021 |1   |1  |2023  |
+#'  |year  |iap  |yes |no |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--------------------------|:-----|
+#'  |2008  |2021 |1   |1  |-                          |2023  |
+#'  |Total |2021 |1   |1  |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -222,10 +222,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |Total |
-#'  |:-----|:----|:---|:--|:-----|
-#'  |2008  |2008 |2   |13 |2023  |
-#'  |Total |2008 |2   |13 |2023  |
+#'  |year  |iap  |yes |no |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--------------------------|:-----|
+#'  |2008  |2008 |2   |13 |-                          |2023  |
+#'  |Total |2008 |2   |13 |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -262,10 +262,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no |Total |
-#'  |:-----|:----|:--|:-----|
-#'  |2008  |2019 |4  |2023  |
-#'  |Total |2019 |4  |2023  |
+#'  |year  |iap  |no |not available in this year |Total |
+#'  |:-----|:----|:--|:--------------------------|:-----|
+#'  |2008  |2019 |4  |-                          |2023  |
+#'  |Total |2019 |4  |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -302,10 +302,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no |Total |
-#'  |:-----|:----|:--|:-----|
-#'  |2008  |2022 |1  |2023  |
-#'  |Total |2022 |1  |2023  |
+#'  |year  |iap  |no |not available in this year |Total |
+#'  |:-----|:----|:--|:--------------------------|:-----|
+#'  |2008  |2022 |1  |-                          |2023  |
+#'  |Total |2022 |1  |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -342,10 +342,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no   |don't know |no answer |Total |
-#'  |:-----|:---|:---|:----|:----------|:---------|:-----|
-#'  |2008  |233 |162 |1600 |3          |25        |2023  |
-#'  |Total |233 |162 |1600 |3          |25        |2023  |
+#'  |year  |iap |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |233 |162 |1600 |3          |25        |-                          |2023  |
+#'  |Total |233 |162 |1600 |3          |25        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex
@@ -382,10 +382,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |Total |
-#'  |:-----|:----|:---|:--|:-----|
-#'  |2008  |1861 |74  |88 |2023  |
-#'  |Total |1861 |74  |88 |2023  |
+#'  |year  |iap  |yes |no |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--------------------------|:-----|
+#'  |2008  |1861 |74  |88 |-                          |2023  |
+#'  |Total |1861 |74  |88 |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Clergy/Sex

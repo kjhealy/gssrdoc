@@ -32,10 +32,10 @@ Question C. Have you ever considered working in an engineering-related career?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3524/vshow}{GSS Data Explorer page for \code{engresp}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab can't choose \tab no answer \tab Total \cr
-   2012 \tab 1489 \tab 126 \tab 355 \tab 1 \tab 3 \tab 1974 \cr
-   Total \tab 1489 \tab 126 \tab 355 \tab 1 \tab 3 \tab 1974 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1489 \tab 126 \tab 355 \tab 1 \tab 3 \tab - \tab 1974 \cr
+   Total \tab 1489 \tab 126 \tab 355 \tab 1 \tab 3 \tab 0 \tab 1974 \cr
 }
 }
 

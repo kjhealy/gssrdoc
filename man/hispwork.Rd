@@ -37,10 +37,10 @@ Question How many of the people who work where you work are Hispanic?  Are all H
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2329/vshow}{GSS Data Explorer page for \code{hispwork}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab all hispanic \tab almost all hispanic \tab most hispanic \tab about half hispanic \tab most not hispanic \tab almost non hispanic \tab none hispanic \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1880 \tab 8 \tab 21 \tab 24 \tab 75 \tab 180 \tab 269 \tab 330 \tab 14 \tab 16 \tab 2817 \cr
-   Total \tab 1880 \tab 8 \tab 21 \tab 24 \tab 75 \tab 180 \tab 269 \tab 330 \tab 14 \tab 16 \tab 2817 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab all hispanic \tab almost all hispanic \tab most hispanic \tab about half hispanic \tab most not hispanic \tab almost non hispanic \tab none hispanic \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1880 \tab 8 \tab 21 \tab 24 \tab 75 \tab 180 \tab 269 \tab 330 \tab 14 \tab 16 \tab - \tab 2817 \cr
+   Total \tab 1880 \tab 8 \tab 21 \tab 24 \tab 75 \tab 180 \tab 269 \tab 330 \tab 14 \tab 16 \tab 0 \tab 2817 \cr
 }
 }
 

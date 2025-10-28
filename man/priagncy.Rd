@@ -36,12 +36,12 @@ B. Registered at a private employment agency?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4600/vshow}{GSS Data Explorer page for \code{priagncy}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab no \tab yes, once or twice \tab yes, more than twice \tab no answer \tab don't know \tab Total \cr
-   1998 \tab 2460 \tab 284 \tab 15 \tab 3 \tab 70 \tab - \tab 2832 \cr
-   2006 \tab 4008 \tab 468 \tab 23 \tab 7 \tab 4 \tab - \tab 4510 \cr
-   2016 \tab 2533 \tab 277 \tab 20 \tab 12 \tab 23 \tab 2 \tab 2867 \cr
-   Total \tab 9001 \tab 1029 \tab 58 \tab 22 \tab 97 \tab 2 \tab 10209 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab no \tab yes, once or twice \tab yes, more than twice \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1998 \tab 2460 \tab 284 \tab 15 \tab 3 \tab 70 \tab - \tab - \tab 2832 \cr
+   2006 \tab 4008 \tab 468 \tab 23 \tab 7 \tab 4 \tab - \tab - \tab 4510 \cr
+   2016 \tab 2533 \tab 277 \tab 20 \tab 12 \tab 23 \tab 2 \tab - \tab 2867 \cr
+   Total \tab 9001 \tab 1029 \tab 58 \tab 22 \tab 97 \tab 2 \tab 0 \tab 10209 \cr
 }
 }
 

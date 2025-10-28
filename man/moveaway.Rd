@@ -38,10 +38,10 @@ To move to a different country.            
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6348/vshow}{GSS Data Explorer page for \code{moveaway}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2533 \tab 12 \tab 40 \tab 20 \tab 99 \tab 138 \tab 2 \tab 23 \tab 2867 \cr
-   Total \tab 2533 \tab 12 \tab 40 \tab 20 \tab 99 \tab 138 \tab 2 \tab 23 \tab 2867 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2533 \tab 12 \tab 40 \tab 20 \tab 99 \tab 138 \tab 2 \tab 23 \tab - \tab 2867 \cr
+   Total \tab 2533 \tab 12 \tab 40 \tab 20 \tab 99 \tab 138 \tab 2 \tab 23 \tab 0 \tab 2867 \cr
 }
 }
 

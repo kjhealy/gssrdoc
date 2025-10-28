@@ -33,10 +33,10 @@ Question N. Does the professional or academic society meet in this area?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3278/vshow}{GSS Data Explorer page for \code{mtprof3}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2004 \tab 2774 \tab 19 \tab 8 \tab 11 \tab 2812 \cr
-   Total \tab 2774 \tab 19 \tab 8 \tab 11 \tab 2812 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2774 \tab 19 \tab 8 \tab 11 \tab - \tab 2812 \cr
+   Total \tab 2774 \tab 19 \tab 8 \tab 11 \tab 0 \tab 2812 \cr
 }
 }
 

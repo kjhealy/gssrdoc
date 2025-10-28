@@ -32,11 +32,11 @@ Question Did you have a (bar/bat) mitzvah when you were a child?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3828/vshow}{GSS Data Explorer page for \code{bmitzvah}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   2008 \tab 1983 \tab 23 \tab 17 \tab 2023 \cr
-   2012 \tab 1946 \tab 14 \tab 14 \tab 1974 \cr
-   Total \tab 3929 \tab 37 \tab 31 \tab 3997 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab not available in this year \tab Total \cr
+   2008 \tab 1983 \tab 23 \tab 17 \tab - \tab 2023 \cr
+   2012 \tab 1946 \tab 14 \tab 14 \tab - \tab 1974 \cr
+   Total \tab 3929 \tab 37 \tab 31 \tab 0 \tab 3997 \cr
 }
 }
 

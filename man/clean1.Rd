@@ -37,10 +37,10 @@ E. Does the household cleaning?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4433/vshow}{GSS Data Explorer page for \code{clean1}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab always me \tab usually me \tab about equal or both together \tab usually my spouse/partner \tab always my spouse/partner \tab is done by a third person \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 2058 \tab 128 \tab 151 \tab 243 \tab 121 \tab 7 \tab 30 \tab 5 \tab 22 \tab 2765 \cr
-   Total \tab 2058 \tab 128 \tab 151 \tab 243 \tab 121 \tab 7 \tab 30 \tab 5 \tab 22 \tab 2765 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab always me \tab usually me \tab about equal or both together \tab usually my spouse/partner \tab always my spouse/partner \tab is done by a third person \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 2058 \tab 128 \tab 151 \tab 243 \tab 121 \tab 7 \tab 30 \tab 5 \tab 22 \tab - \tab 2765 \cr
+   Total \tab 2058 \tab 128 \tab 151 \tab 243 \tab 121 \tab 7 \tab 30 \tab 5 \tab 22 \tab 0 \tab 2765 \cr
 }
 }
 

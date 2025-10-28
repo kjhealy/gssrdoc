@@ -34,10 +34,10 @@ Question How much information do you have about the law enforcement issue? Do yo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/282/vshow}{GSS Data Explorer page for \code{lawinfo}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab all info r needs \tab most of the info \tab some info \tab very little info \tab don't know \tab no answer \tab Total \cr
-   1984 \tab 484 \tab 53 \tab 218 \tab 524 \tab 187 \tab 6 \tab 1 \tab 1473 \cr
-   Total \tab 484 \tab 53 \tab 218 \tab 524 \tab 187 \tab 6 \tab 1 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab all info r needs \tab most of the info \tab some info \tab very little info \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab 484 \tab 53 \tab 218 \tab 524 \tab 187 \tab 6 \tab 1 \tab - \tab 1473 \cr
+   Total \tab 484 \tab 53 \tab 218 \tab 524 \tab 187 \tab 6 \tab 1 \tab 0 \tab 1473 \cr
 }
 }
 

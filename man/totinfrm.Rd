@@ -31,10 +31,10 @@ N. Informal-alone-not-for-pay
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1958/vshow}{GSS Data Explorer page for \code{totinfrm}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab 0 \tab 100 \tab 1000 \tab 1300 \tab 150 \tab 200 \tab 25 \tab 300 \tab 5 \tab 50 \tab 75 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2867 \tab 3 \tab 6 \tab 4 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 4 \tab 6 \tab 2904 \cr
-   Total \tab 2867 \tab 3 \tab 6 \tab 4 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 4 \tab 6 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab 0 \tab 100 \tab 1000 \tab 1300 \tab 150 \tab 200 \tab 25 \tab 300 \tab 5 \tab 50 \tab 75 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2867 \tab 3 \tab 6 \tab 4 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 4 \tab 6 \tab - \tab 2904 \cr
+   Total \tab 2867 \tab 3 \tab 6 \tab 4 \tab 1 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 4 \tab 6 \tab 0 \tab 2904 \cr
 }
 }
 

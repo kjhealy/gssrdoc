@@ -35,12 +35,12 @@ B. Antibiotics kill bacteria, but not viruses.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4742/vshow}{GSS Data Explorer page for \code{scitest2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 374 \tab 615 \tab 206 \tab 114 \tab 165 \tab 83 \tab 1606 \cr
-   1994 \tab 1606 \tab 360 \tab 526 \tab 188 \tab 127 \tab 144 \tab 41 \tab 2992 \cr
-   2000 \tab 1541 \tab 383 \tab 511 \tab 141 \tab 52 \tab 123 \tab 66 \tab 2817 \cr
-   Total \tab 3196 \tab 1117 \tab 1652 \tab 535 \tab 293 \tab 432 \tab 190 \tab 7415 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 374 \tab 615 \tab 206 \tab 114 \tab 165 \tab 83 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 360 \tab 526 \tab 188 \tab 127 \tab 144 \tab 41 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 383 \tab 511 \tab 141 \tab 52 \tab 123 \tab 66 \tab - \tab 2817 \cr
+   Total \tab 3196 \tab 1117 \tab 1652 \tab 535 \tab 293 \tab 432 \tab 190 \tab 0 \tab 7415 \cr
 }
 }
 

@@ -37,10 +37,10 @@ Question Who would you turn to first toï¿½. Help you with a household or a ga
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7244/vshow}{GSS Data Explorer page for \code{hlphome}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab close family member \tab more distant family member \tab close friend \tab neighbor \tab someone i work with \tab someone else \tab no one \tab don't know \tab Total \cr
-   2018 \tab 1175 \tab 679 \tab 8 \tab 277 \tab 79 \tab 23 \tab 68 \tab 34 \tab 5 \tab 2348 \cr
-   Total \tab 1175 \tab 679 \tab 8 \tab 277 \tab 79 \tab 23 \tab 68 \tab 34 \tab 5 \tab 2348 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab close family member \tab more distant family member \tab close friend \tab neighbor \tab someone i work with \tab someone else \tab no one \tab don't know \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 679 \tab 8 \tab 277 \tab 79 \tab 23 \tab 68 \tab 34 \tab 5 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 679 \tab 8 \tab 277 \tab 79 \tab 23 \tab 68 \tab 34 \tab 5 \tab 0 \tab 2348 \cr
 }
 }
 

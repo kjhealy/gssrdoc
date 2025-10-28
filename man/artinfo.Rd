@@ -32,11 +32,11 @@ Question E. Visit the Web to get information about an artist or sculptor or a sc
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2477/vshow}{GSS Data Explorer page for \code{artinfo}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2604 \tab 53 \tab 45 \tab 115 \tab 2817 \cr
-   2002 \tab 2628 \tab 59 \tab 31 \tab 47 \tab 2765 \cr
-   Total \tab 5232 \tab 112 \tab 76 \tab 162 \tab 5582 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2604 \tab 53 \tab 45 \tab 115 \tab - \tab 2817 \cr
+   2002 \tab 2628 \tab 59 \tab 31 \tab 47 \tab - \tab 2765 \cr
+   Total \tab 5232 \tab 112 \tab 76 \tab 162 \tab 0 \tab 5582 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Does (s/he) do any work at all, even if it's only a part-time job? Incl
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1539/vshow}{GSS Data Explorer page for \code{kdwork2}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2809 \tab 36 \tab 127 \tab 13 \tab 7 \tab 2992 \cr
-   Total \tab 2809 \tab 36 \tab 127 \tab 13 \tab 7 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2809 \tab 36 \tab 127 \tab 13 \tab 7 \tab - \tab 2992 \cr
+   Total \tab 2809 \tab 36 \tab 127 \tab 13 \tab 7 \tab 0 \tab 2992 \cr
 }
 }
 

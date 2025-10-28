@@ -36,10 +36,10 @@ Question Experience a connection to all of life
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3083/vshow}{GSS Data Explorer page for \code{alloflfe}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never or almost never \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 1472 \tab 173 \tab 368 \tab 285 \tab 182 \tab 161 \tab 103 \tab 49 \tab 19 \tab 2812 \cr
-   Total \tab 1472 \tab 173 \tab 368 \tab 285 \tab 182 \tab 161 \tab 103 \tab 49 \tab 19 \tab 2812 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never or almost never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1472 \tab 173 \tab 368 \tab 285 \tab 182 \tab 161 \tab 103 \tab 49 \tab 19 \tab - \tab 2812 \cr
+   Total \tab 1472 \tab 173 \tab 368 \tab 285 \tab 182 \tab 161 \tab 103 \tab 49 \tab 19 \tab 0 \tab 2812 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question What about the number of immigrants from Latin America (that is, Spanis
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2304/vshow}{GSS Data Explorer page for \code{letinhsp}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab increased a lot \tab increased a little \tab left the same as it is now \tab decreased a little \tab decreased a lot \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 41 \tab 77 \tab 615 \tab 279 \tab 303 \tab 78 \tab 5 \tab 2817 \cr
-   Total \tab 1419 \tab 41 \tab 77 \tab 615 \tab 279 \tab 303 \tab 78 \tab 5 \tab 2817 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab increased a lot \tab increased a little \tab left the same as it is now \tab decreased a little \tab decreased a lot \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2000 \tab 1419 \tab 41 \tab 77 \tab 615 \tab 279 \tab 303 \tab 78 \tab 5 \tab - \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 41 \tab 77 \tab 615 \tab 279 \tab 303 \tab 78 \tab 5 \tab 0 \tab 0 \tab 2817 \cr
 }
 }
 

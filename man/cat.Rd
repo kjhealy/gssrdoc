@@ -32,10 +32,10 @@ Question Current pet - Cat
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7198/vshow}{GSS Data Explorer page for \code{cat}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab does not have \tab has \tab no answer \tab Total \cr
-   2018 \tab 1649 \tab 402 \tab 271 \tab 26 \tab 2348 \cr
-   Total \tab 1649 \tab 402 \tab 271 \tab 26 \tab 2348 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab does not have \tab has \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1649 \tab 402 \tab 271 \tab 26 \tab - \tab 2348 \cr
+   Total \tab 1649 \tab 402 \tab 271 \tab 26 \tab 0 \tab 2348 \cr
 }
 }
 

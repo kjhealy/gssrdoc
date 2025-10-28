@@ -34,11 +34,11 @@ Question When you hold a strong opinion about politics, how often do you try to 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4948/vshow}{GSS Data Explorer page for \code{chngeoth}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 180 \tab 427 \tab 471 \tab 386 \tab 3 \tab 5 \tab 2812 \cr
-   2014 \tab 1274 \tab 70 \tab 339 \tab 386 \tab 441 \tab 24 \tab 4 \tab 2538 \cr
-   Total \tab 2614 \tab 250 \tab 766 \tab 857 \tab 827 \tab 27 \tab 9 \tab 5350 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 180 \tab 427 \tab 471 \tab 386 \tab 3 \tab 5 \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 70 \tab 339 \tab 386 \tab 441 \tab 24 \tab 4 \tab - \tab 2538 \cr
+   Total \tab 2614 \tab 250 \tab 766 \tab 857 \tab 827 \tab 27 \tab 9 \tab 0 \tab 5350 \cr
 }
 }
 

@@ -35,16 +35,16 @@ Question Did you take a high school biology course?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3352/vshow}{GSS Data Explorer page for \code{hsbio}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2690 \tab 1434 \tab 345 \tab 9 \tab 32 \tab 4510 \cr
-   2008 \tab 597 \tab 1113 \tab 300 \tab 11 \tab 2 \tab 2023 \cr
-   2010 \tab 1370 \tab 496 \tab 107 \tab 7 \tab 64 \tab 2044 \cr
-   2012 \tab 1068 \tab 726 \tab 160 \tab 17 \tab 3 \tab 1974 \cr
-   2014 \tab 1348 \tab 910 \tab 260 \tab 18 \tab 2 \tab 2538 \cr
-   2016 \tab 1532 \tab 1050 \tab 262 \tab 15 \tab 8 \tab 2867 \cr
-   2018 \tab 1222 \tab 885 \tab 222 \tab 15 \tab 4 \tab 2348 \cr
-   Total \tab 9827 \tab 6614 \tab 1656 \tab 92 \tab 115 \tab 18304 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2690 \tab 1434 \tab 345 \tab 9 \tab 32 \tab - \tab 4510 \cr
+   2008 \tab 597 \tab 1113 \tab 300 \tab 11 \tab 2 \tab - \tab 2023 \cr
+   2010 \tab 1370 \tab 496 \tab 107 \tab 7 \tab 64 \tab - \tab 2044 \cr
+   2012 \tab 1068 \tab 726 \tab 160 \tab 17 \tab 3 \tab - \tab 1974 \cr
+   2014 \tab 1348 \tab 910 \tab 260 \tab 18 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 1532 \tab 1050 \tab 262 \tab 15 \tab 8 \tab - \tab 2867 \cr
+   2018 \tab 1222 \tab 885 \tab 222 \tab 15 \tab 4 \tab - \tab 2348 \cr
+   Total \tab 9827 \tab 6614 \tab 1656 \tab 92 \tab 115 \tab 0 \tab 18304 \cr
 }
 }
 

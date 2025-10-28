@@ -38,14 +38,14 @@ B. Keep prices under control.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4077/vshow}{GSS Data Explorer page for \code{pricecon}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 194 \tab 293 \tab 106 \tab 53 \tab 18 \tab 13 \tab 1534 \cr
-   1990 \tab 155 \tab 288 \tab 577 \tab 190 \tab 80 \tab 38 \tab 44 \tab 1372 \cr
-   1996 \tab 1572 \tab 306 \tab 552 \tab 242 \tab 144 \tab 34 \tab 54 \tab 2904 \cr
-   2006 \tab 2992 \tab 664 \tab 495 \tab 221 \tab 125 \tab 12 \tab 1 \tab 4510 \cr
-   2016 \tab 1477 \tab 440 \tab 544 \tab 247 \tab 125 \tab 24 \tab 10 \tab 2867 \cr
-   Total \tab 7053 \tab 1892 \tab 2461 \tab 1006 \tab 527 \tab 126 \tab 122 \tab 13187 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 194 \tab 293 \tab 106 \tab 53 \tab 18 \tab 13 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 288 \tab 577 \tab 190 \tab 80 \tab 38 \tab 44 \tab - \tab 1372 \cr
+   1996 \tab 1572 \tab 306 \tab 552 \tab 242 \tab 144 \tab 34 \tab 54 \tab - \tab 2904 \cr
+   2006 \tab 2992 \tab 664 \tab 495 \tab 221 \tab 125 \tab 12 \tab 1 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 440 \tab 544 \tab 247 \tab 125 \tab 24 \tab 10 \tab - \tab 2867 \cr
+   Total \tab 7053 \tab 1892 \tab 2461 \tab 1006 \tab 527 \tab 126 \tab 122 \tab 0 \tab 13187 \cr
 }
 }
 

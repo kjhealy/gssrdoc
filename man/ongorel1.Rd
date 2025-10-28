@@ -32,10 +32,10 @@ Question A. Did you become involved in an ongoing relationship with this leader?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3954/vshow}{GSS Data Explorer page for \code{ongorel1}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   2008 \tab 2001 \tab 2 \tab 20 \tab 2023 \cr
-   Total \tab 2001 \tab 2 \tab 20 \tab 2023 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab not available in this year \tab Total \cr
+   2008 \tab 2001 \tab 2 \tab 20 \tab - \tab 2023 \cr
+   Total \tab 2001 \tab 2 \tab 20 \tab 0 \tab 2023 \cr
 }
 }
 

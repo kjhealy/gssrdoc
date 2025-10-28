@@ -35,11 +35,11 @@ C. Do nothing
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2867/vshow}{GSS Data Explorer page for \code{donothng}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab not at all likely \tab not very likely \tab somewhat likely \tab very likely \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 969 \tab 640 \tab 363 \tab 310 \tab 412 \tab 41 \tab 30 \tab 2765 \cr
-   2006 \tab 2778 \tab 677 \tab 331 \tab 290 \tab 323 \tab 80 \tab 31 \tab 4510 \cr
-   Total \tab 3747 \tab 1317 \tab 694 \tab 600 \tab 735 \tab 121 \tab 61 \tab 7275 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not at all likely \tab not very likely \tab somewhat likely \tab very likely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 969 \tab 640 \tab 363 \tab 310 \tab 412 \tab 41 \tab 30 \tab - \tab 2765 \cr
+   2006 \tab 2778 \tab 677 \tab 331 \tab 290 \tab 323 \tab 80 \tab 31 \tab - \tab 4510 \cr
+   Total \tab 3747 \tab 1317 \tab 694 \tab 600 \tab 735 \tab 121 \tab 61 \tab 0 \tab 7275 \cr
 }
 }
 

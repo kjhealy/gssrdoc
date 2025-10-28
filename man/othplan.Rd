@@ -32,10 +32,10 @@ Question Other name for insurance or HMO policy?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3905/vshow}{GSS Data Explorer page for \code{othplan}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes, another name \tab no other name \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1371 \tab 129 \tab 441 \tab 76 \tab 6 \tab 2023 \cr
-   Total \tab 1371 \tab 129 \tab 441 \tab 76 \tab 6 \tab 2023 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, another name \tab no other name \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1371 \tab 129 \tab 441 \tab 76 \tab 6 \tab - \tab 2023 \cr
+   Total \tab 1371 \tab 129 \tab 441 \tab 76 \tab 6 \tab 0 \tab 2023 \cr
 }
 }
 

@@ -36,10 +36,10 @@ Question And how often do you have any other contact with this son or daughter b
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4191/vshow}{GSS Data Explorer page for \code{kidcall}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 2397 \tab 101 \tab 97 \tab 88 \tab 33 \tab 26 \tab 14 \tab 1 \tab 8 \tab 2765 \cr
-   Total \tab 2397 \tab 101 \tab 97 \tab 88 \tab 33 \tab 26 \tab 14 \tab 1 \tab 8 \tab 2765 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 2397 \tab 101 \tab 97 \tab 88 \tab 33 \tab 26 \tab 14 \tab 1 \tab 8 \tab - \tab 2765 \cr
+   Total \tab 2397 \tab 101 \tab 97 \tab 88 \tab 33 \tab 26 \tab 14 \tab 1 \tab 8 \tab 0 \tab 2765 \cr
 }
 }
 

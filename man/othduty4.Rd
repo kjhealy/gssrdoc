@@ -33,10 +33,10 @@ D. Devise new ways of doing tasks.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1328/vshow}{GSS Data Explorer page for \code{othduty4}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1991 \tab 605 \tab 383 \tab 490 \tab 39 \tab 1517 \cr
-   Total \tab 605 \tab 383 \tab 490 \tab 39 \tab 1517 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 605 \tab 383 \tab 490 \tab 39 \tab - \tab 1517 \cr
+   Total \tab 605 \tab 383 \tab 490 \tab 39 \tab 0 \tab 1517 \cr
 }
 }
 

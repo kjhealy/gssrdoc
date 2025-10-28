@@ -36,11 +36,11 @@ F5. Fifth Person is Co-Worker
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/904/vshow}{GSS Data Explorer page for \code{cowork5}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab Total \cr
-   1985 \tab 1153 \tab 84 \tab 294 \tab 3 \tab 1534 \cr
-   2004 \tab 2600 \tab 28 \tab 138 \tab 46 \tab 2812 \cr
-   Total \tab 3753 \tab 112 \tab 432 \tab 49 \tab 4346 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 1153 \tab 84 \tab 294 \tab 3 \tab - \tab 1534 \cr
+   2004 \tab 2600 \tab 28 \tab 138 \tab 46 \tab - \tab 2812 \cr
+   Total \tab 3753 \tab 112 \tab 432 \tab 49 \tab 0 \tab 4346 \cr
 }
 }
 

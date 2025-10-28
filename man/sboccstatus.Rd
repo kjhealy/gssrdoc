@@ -38,10 +38,10 @@ Question SBOCC10 Coding Status
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6021/vshow}{GSS Data Explorer page for \code{sboccstatus}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab found, iap \tab found, no answer \tab found, coded \tab not found, iap \tab not found, no answer \tab not found, coded \tab not found, no code assigned \tab Total \cr
-   1994 \tab - \tab 527 \tab 131 \tab 2280 \tab 17 \tab 1 \tab 26 \tab 10 \tab 2992 \cr
-   Total \tab 0 \tab 527 \tab 131 \tab 2280 \tab 17 \tab 1 \tab 26 \tab 10 \tab 2992 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab found, iap \tab found, no answer \tab found, coded \tab not found, iap \tab not found, no answer \tab not found, coded \tab not found, no code assigned \tab not available in this year \tab Total \cr
+   1994 \tab - \tab 527 \tab 131 \tab 2280 \tab 17 \tab 1 \tab 26 \tab 10 \tab - \tab 2992 \cr
+   Total \tab 0 \tab 527 \tab 131 \tab 2280 \tab 17 \tab 1 \tab 26 \tab 10 \tab 0 \tab 2992 \cr
 }
 }
 

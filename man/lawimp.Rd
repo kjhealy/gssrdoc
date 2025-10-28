@@ -34,10 +34,10 @@ Question How important is the law enforcement issue to you--would you say it is 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/281/vshow}{GSS Data Explorer page for \code{lawimp}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not important \tab don't know \tab no answer \tab Total \cr
-   1984 \tab 484 \tab 349 \tab 568 \tab 59 \tab 6 \tab 5 \tab 2 \tab 1473 \cr
-   Total \tab 484 \tab 349 \tab 568 \tab 59 \tab 6 \tab 5 \tab 2 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab 484 \tab 349 \tab 568 \tab 59 \tab 6 \tab 5 \tab 2 \tab - \tab 1473 \cr
+   Total \tab 484 \tab 349 \tab 568 \tab 59 \tab 6 \tab 5 \tab 2 \tab 0 \tab 1473 \cr
 }
 }
 

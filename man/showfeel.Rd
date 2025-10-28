@@ -36,10 +36,10 @@ F. I'm not afraid to let people know my feelings.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1730/vshow}{GSS Data Explorer page for \code{showfeel}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree or disagree-it depends \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2149 \tab 144 \tab 357 \tab 90 \tab 122 \tab 31 \tab 1 \tab 10 \tab 2904 \cr
-   Total \tab 2149 \tab 144 \tab 357 \tab 90 \tab 122 \tab 31 \tab 1 \tab 10 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree or disagree-it depends \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2149 \tab 144 \tab 357 \tab 90 \tab 122 \tab 31 \tab 1 \tab 10 \tab - \tab 2904 \cr
+   Total \tab 2149 \tab 144 \tab 357 \tab 90 \tab 122 \tab 31 \tab 1 \tab 10 \tab 0 \tab 2904 \cr
 }
 }
 

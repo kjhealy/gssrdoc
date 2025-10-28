@@ -35,10 +35,10 @@ Question A body organ that is much in need and that people may contribute are ki
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1868/vshow}{GSS Data Explorer page for \code{sellorgn}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab definitely not \tab probably not \tab perhaps \tab probably \tab definitely \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 444 \tab 189 \tab 251 \tab 234 \tab 263 \tab 57 \tab 6 \tab 2904 \cr
-   Total \tab 1460 \tab 444 \tab 189 \tab 251 \tab 234 \tab 263 \tab 57 \tab 6 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab definitely not \tab probably not \tab perhaps \tab probably \tab definitely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1460 \tab 444 \tab 189 \tab 251 \tab 234 \tab 263 \tab 57 \tab 6 \tab - \tab 2904 \cr
+   Total \tab 1460 \tab 444 \tab 189 \tab 251 \tab 234 \tab 263 \tab 57 \tab 6 \tab 0 \tab 2904 \cr
 }
 }
 

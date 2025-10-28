@@ -33,10 +33,10 @@ Question Which do you think is the most important reason why people get ahead: t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3711/vshow}{GSS Data Explorer page for \code{getaheay}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab hard work most important \tab hard work, luck equally important \tab luck or help from other people most important \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3728 \tab 465 \tab 158 \tab 152 \tab 6 \tab 1 \tab 4510 \cr
-   Total \tab 3728 \tab 465 \tab 158 \tab 152 \tab 6 \tab 1 \tab 4510 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab hard work most important \tab hard work, luck equally important \tab luck or help from other people most important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3728 \tab 465 \tab 158 \tab 152 \tab 6 \tab 1 \tab - \tab 4510 \cr
+   Total \tab 3728 \tab 465 \tab 158 \tab 152 \tab 6 \tab 1 \tab 0 \tab 4510 \cr
 }
 }
 

@@ -33,10 +33,10 @@ F. Contacted government officials on behalf of the organization
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1020/vshow}{GSS Data Explorer page for \code{lobbygrp}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1987 \tab 606 \tab 220 \tab 953 \tab 40 \tab 1819 \cr
-   Total \tab 606 \tab 220 \tab 953 \tab 40 \tab 1819 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 606 \tab 220 \tab 953 \tab 40 \tab - \tab 1819 \cr
+   Total \tab 606 \tab 220 \tab 953 \tab 40 \tab 0 \tab 1819 \cr
 }
 }
 

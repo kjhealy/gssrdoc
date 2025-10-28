@@ -37,10 +37,10 @@ D. What if the petty officer had sold these materials to an agent of a friendly 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5230/vshow}{GSS Data Explorer page for \code{spyfrend}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab reprimand \tab dismiss/military \tab one year prison \tab 5-9 years prison \tab 10-20 yrs prison \tab life in prison \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 44 \tab 163 \tab 123 \tab 263 \tab 397 \tab 316 \tab 65 \tab 16 \tab 2832 \cr
-   Total \tab 1445 \tab 44 \tab 163 \tab 123 \tab 263 \tab 397 \tab 316 \tab 65 \tab 16 \tab 2832 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab reprimand \tab dismiss/military \tab one year prison \tab 5-9 years prison \tab 10-20 yrs prison \tab life in prison \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 44 \tab 163 \tab 123 \tab 263 \tab 397 \tab 316 \tab 65 \tab 16 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 44 \tab 163 \tab 123 \tab 263 \tab 397 \tab 316 \tab 65 \tab 16 \tab 0 \tab 2832 \cr
 }
 }
 

@@ -34,10 +34,10 @@ Question Ocean water for vegetables.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3477/vshow}{GSS Data Explorer page for \code{salth2o}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab yes, because there is plenty of ocean water \tab yes, because ocean water has many natural fertilizers \tab no, because ocean water is too salty for plants grown on land \tab no, because ocean water is much more polluted than rainwater \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 518 \tab 23 \tab 36 \tab 1262 \tab 100 \tab 64 \tab 20 \tab 2023 \cr
-   Total \tab 518 \tab 23 \tab 36 \tab 1262 \tab 100 \tab 64 \tab 20 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab yes, because there is plenty of ocean water \tab yes, because ocean water has many natural fertilizers \tab no, because ocean water is too salty for plants grown on land \tab no, because ocean water is much more polluted than rainwater \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 518 \tab 23 \tab 36 \tab 1262 \tab 100 \tab 64 \tab 20 \tab - \tab 2023 \cr
+   Total \tab 518 \tab 23 \tab 36 \tab 1262 \tab 100 \tab 64 \tab 20 \tab 0 \tab 2023 \cr
 }
 }
 

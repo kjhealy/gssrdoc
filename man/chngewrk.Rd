@@ -39,10 +39,10 @@ Would you say...
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6334/vshow}{GSS Data Explorer page for \code{chngewrk}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2016 \tab 1927 \tab 121 \tab 253 \tab 175 \tab 270 \tab 113 \tab 2 \tab 6 \tab 2867 \cr
-   Total \tab 1927 \tab 121 \tab 253 \tab 175 \tab 270 \tab 113 \tab 2 \tab 6 \tab 2867 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1927 \tab 121 \tab 253 \tab 175 \tab 270 \tab 113 \tab 2 \tab 6 \tab - \tab 2867 \cr
+   Total \tab 1927 \tab 121 \tab 253 \tab 175 \tab 270 \tab 113 \tab 2 \tab 6 \tab 0 \tab 2867 \cr
 }
 }
 

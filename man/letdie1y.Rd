@@ -37,7 +37,8 @@ Counts by year:\tabular{llllllll}{
    2008 \tab 1342 \tab 453 \tab 211 \tab 16 \tab 1 \tab - \tab 2023 \cr
    2021 \tab 2658 \tab 986 \tab 370 \tab 2 \tab 4 \tab 12 \tab 4032 \cr
    2022 \tab 2373 \tab 829 \tab 305 \tab 28 \tab 6 \tab 3 \tab 3544 \cr
-   Total \tab 6373 \tab 2268 \tab 886 \tab 46 \tab 11 \tab 15 \tab 9599 \cr
+   2024 \tab 2235 \tab 722 \tab 304 \tab 32 \tab 5 \tab 11 \tab 3309 \cr
+   Total \tab 8608 \tab 2990 \tab 1190 \tab 78 \tab 16 \tab 26 \tab 12908 \cr
 }
 }
 

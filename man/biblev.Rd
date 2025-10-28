@@ -42,7 +42,8 @@ Counts by year:\tabular{llllllllll}{
    year \tab iap \tab word of god \tab inspired word \tab ancient book \tab other (phone mode only: volunteered) \tab don't know \tab no answer \tab skipped on web \tab Total \cr
    2021 \tab 2007 \tab 424 \tab 816 \tab 574 \tab 186 \tab 3 \tab 3 \tab 19 \tab 4032 \cr
    2022 \tab 2698 \tab 163 \tab 349 \tab 223 \tab 105 \tab - \tab - \tab 6 \tab 3544 \cr
-   Total \tab 4705 \tab 587 \tab 1165 \tab 797 \tab 291 \tab 3 \tab 3 \tab 25 \tab 7576 \cr
+   2024 \tab 2445 \tab 190 \tab 320 \tab 241 \tab 100 \tab 1 \tab - \tab 12 \tab 3309 \cr
+   Total \tab 7150 \tab 777 \tab 1485 \tab 1038 \tab 391 \tab 4 \tab 3 \tab 37 \tab 10885 \cr
 }
 }
 

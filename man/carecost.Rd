@@ -34,11 +34,11 @@ Question Who do you think should primarily cover the costs of childcare for chil
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4470/vshow}{GSS Data Explorer page for \code{carecost}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab the family \tab the government/public funds \tab the employers \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2012 \tab 672 \tab 846 \tab 167 \tab 73 \tab 208 \tab 8 \tab - \tab 1974 \cr
-   2022 \tab 2384 \tab 520 \tab 281 \tab 145 \tab 200 \tab 5 \tab 9 \tab 3544 \cr
-   Total \tab 3056 \tab 1366 \tab 448 \tab 218 \tab 408 \tab 13 \tab 9 \tab 5518 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab the family \tab the government/public funds \tab the employers \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2012 \tab 672 \tab 846 \tab 167 \tab 73 \tab 208 \tab 8 \tab - \tab - \tab 1974 \cr
+   2022 \tab 2384 \tab 520 \tab 281 \tab 145 \tab 200 \tab 5 \tab 9 \tab - \tab 3544 \cr
+   Total \tab 3056 \tab 1366 \tab 448 \tab 218 \tab 408 \tab 13 \tab 9 \tab 0 \tab 5518 \cr
 }
 }
 

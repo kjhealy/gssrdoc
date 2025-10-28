@@ -33,11 +33,11 @@ Question Were you raised as a Jew?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/344/vshow}{GSS Data Explorer page for \code{othjew16}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab half/part \tab no \tab no answer \tab Total \cr
-   2008 \tab 1837 \tab 1 \tab 173 \tab 12 \tab 2023 \cr
-   2012 \tab 1710 \tab 1 \tab 259 \tab 4 \tab 1974 \cr
-   Total \tab 3547 \tab 2 \tab 432 \tab 16 \tab 3997 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab half/part \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1837 \tab 1 \tab 173 \tab 12 \tab - \tab 2023 \cr
+   2012 \tab 1710 \tab 1 \tab 259 \tab 4 \tab - \tab 1974 \cr
+   Total \tab 3547 \tab 2 \tab 432 \tab 16 \tab 0 \tab 3997 \cr
 }
 }
 

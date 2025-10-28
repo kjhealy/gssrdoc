@@ -36,10 +36,10 @@ B. How many years in total?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2158/vshow}{GSS Data Explorer page for \code{wojobyrs}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab less one year \tab one to 3 years \tab 3 to 5 years \tab five - ten years \tab ten years/over \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 2309 \tab 243 \tab 122 \tab 35 \tab 46 \tab 39 \tab 1 \tab 37 \tab 2832 \cr
-   Total \tab 2309 \tab 243 \tab 122 \tab 35 \tab 46 \tab 39 \tab 1 \tab 37 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab less one year \tab one to 3 years \tab 3 to 5 years \tab five - ten years \tab ten years/over \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2309 \tab 243 \tab 122 \tab 35 \tab 46 \tab 39 \tab 1 \tab 37 \tab - \tab 2832 \cr
+   Total \tab 2309 \tab 243 \tab 122 \tab 35 \tab 46 \tab 39 \tab 1 \tab 37 \tab 0 \tab 2832 \cr
 }
 }
 

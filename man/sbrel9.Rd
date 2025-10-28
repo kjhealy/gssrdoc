@@ -35,10 +35,10 @@ D9. Relation to R. of ninth sibling
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1571/vshow}{GSS Data Explorer page for \code{sbrel9}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab full \tab adopted \tab step \tab half \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2795 \tab 138 \tab 1 \tab 11 \tab 27 \tab 1 \tab 19 \tab 2992 \cr
-   Total \tab 2795 \tab 138 \tab 1 \tab 11 \tab 27 \tab 1 \tab 19 \tab 2992 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab full \tab adopted \tab step \tab half \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2795 \tab 138 \tab 1 \tab 11 \tab 27 \tab 1 \tab 19 \tab - \tab 2992 \cr
+   Total \tab 2795 \tab 138 \tab 1 \tab 11 \tab 27 \tab 1 \tab 19 \tab 0 \tab 2992 \cr
 }
 }
 

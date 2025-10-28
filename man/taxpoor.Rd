@@ -40,13 +40,13 @@ C. Lastly, for those with low incomes, are taxes . . .
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4304/vshow}{GSS Data Explorer page for \code{taxpoor}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab much too high \tab too high \tab about right \tab too low \tab much too low \tab can't choose \tab no answer \tab Total \cr
-   1987 \tab 255 \tab 477 \tab 575 \tab 352 \tab 43 \tab 15 \tab 75 \tab 27 \tab 1819 \cr
-   1996 \tab 1572 \tab 292 \tab 493 \tab 368 \tab 46 \tab 7 \tab 89 \tab 37 \tab 2904 \cr
-   2006 \tab 2992 \tab 378 \tab 529 \tab 472 \tab 60 \tab 22 \tab 56 \tab 1 \tab 4510 \cr
-   2016 \tab 1477 \tab 313 \tab 501 \tab 424 \tab 81 \tab 30 \tab 27 \tab 14 \tab 2867 \cr
-   Total \tab 6296 \tab 1460 \tab 2098 \tab 1616 \tab 230 \tab 74 \tab 247 \tab 79 \tab 12100 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much too high \tab too high \tab about right \tab too low \tab much too low \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 477 \tab 575 \tab 352 \tab 43 \tab 15 \tab 75 \tab 27 \tab - \tab 1819 \cr
+   1996 \tab 1572 \tab 292 \tab 493 \tab 368 \tab 46 \tab 7 \tab 89 \tab 37 \tab - \tab 2904 \cr
+   2006 \tab 2992 \tab 378 \tab 529 \tab 472 \tab 60 \tab 22 \tab 56 \tab 1 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 313 \tab 501 \tab 424 \tab 81 \tab 30 \tab 27 \tab 14 \tab - \tab 2867 \cr
+   Total \tab 6296 \tab 1460 \tab 2098 \tab 1616 \tab 230 \tab 74 \tab 247 \tab 79 \tab 0 \tab 12100 \cr
 }
 }
 

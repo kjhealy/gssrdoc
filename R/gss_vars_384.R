@@ -24,10 +24,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |sperm only |egg only |sperm and egg |testes |don't know |no answer |Total |
-#'  |:-----|:---|:----------|:--------|:-------------|:------|:----------|:---------|:-----|
-#'  |2008  |518 |95         |31       |1178          |30     |153        |18        |2023  |
-#'  |Total |518 |95         |31       |1178          |30     |153        |18        |2023  |
+#'  |year  |iap |sperm only |egg only |sperm and egg |testes |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:----------|:--------|:-------------|:------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |518 |95         |31       |1178          |30     |153        |18        |-                          |2023  |
+#'  |Total |518 |95         |31       |1178          |30     |153        |18        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -66,10 +66,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |they take in water and break it down into hydrogen and oxygen |using their gills, they take in oxygen that is dissolved in water |they get their oxygen from the food they eat |they come to the surface every few minutes to breathe air into their lungs |don't know |no answer |Total |
-#'  |:-----|:---|:-------------------------------------------------------------|:-----------------------------------------------------------------|:--------------------------------------------|:--------------------------------------------------------------------------|:----------|:---------|:-----|
-#'  |2008  |518 |137                                                           |1124                                                              |29                                           |87                                                                         |107        |21        |2023  |
-#'  |Total |518 |137                                                           |1124                                                              |29                                           |87                                                                         |107        |21        |2023  |
+#'  |year  |iap |they take in water and break it down into hydrogen and oxygen |using their gills, they take in oxygen that is dissolved in water |they get their oxygen from the food they eat |they come to the surface every few minutes to breathe air into their lungs |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------------------------------------------------------|:-----------------------------------------------------------------|:--------------------------------------------|:--------------------------------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |518 |137                                                           |1124                                                              |29                                           |87                                                                         |107        |21        |-                          |2023  |
+#'  |Total |518 |137                                                           |1124                                                              |29                                           |87                                                                         |107        |21        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -109,10 +109,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |a slower pulse rate |a greater gravitational force on the body |a lower percent of oxygen in the blood |a faster heartbeat |a slower circulation of blood |don't know |no answer |Total |
-#'  |:-----|:---|:-------------------|:-----------------------------------------|:--------------------------------------|:------------------|:-----------------------------|:----------|:---------|:-----|
-#'  |2008  |518 |24                  |181                                       |1016                                   |67                 |58                            |137        |22        |2023  |
-#'  |Total |518 |24                  |181                                       |1016                                   |67                 |58                            |137        |22        |2023  |
+#'  |year  |iap |a slower pulse rate |a greater gravitational force on the body |a lower percent of oxygen in the blood |a faster heartbeat |a slower circulation of blood |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------------|:-----------------------------------------|:--------------------------------------|:------------------|:-----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |518 |24                  |181                                       |1016                                   |67                 |58                            |137        |22        |-                          |2023  |
+#'  |Total |518 |24                  |181                                       |1016                                   |67                 |58                            |137        |22        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -152,10 +152,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |2 a.m. to 4 a.m. |8 a.m. to 10 a.m. |12 p.m. to 2 p.m. |2 p.m. to 4 p.m. |8 p.m. to 10 p.m. |don't know |no answer |Total |
-#'  |:-----|:---|:----------------|:-----------------|:-----------------|:----------------|:-----------------|:----------|:---------|:-----|
-#'  |2008  |709 |999              |52                |54                |46               |30                |111        |22        |2023  |
-#'  |Total |709 |999              |52                |54                |46               |30                |111        |22        |2023  |
+#'  |year  |iap |2 a.m. to 4 a.m. |8 a.m. to 10 a.m. |12 p.m. to 2 p.m. |2 p.m. to 4 p.m. |8 p.m. to 10 p.m. |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:----------------|:-----------------|:-----------------|:----------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |709 |999              |52                |54                |46               |30                |111        |22        |-                          |2023  |
+#'  |Total |709 |999              |52                |54                |46               |30                |111        |22        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -195,10 +195,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |ask the teacher to weigh the leaf |report the first measurement |average all of the weights that were recorded |average the highest and lowest weights recorded |discard the lowest five weights |don't know |no answer |Total |
-#'  |:-----|:---|:---------------------------------|:----------------------------|:---------------------------------------------|:-----------------------------------------------|:-------------------------------|:----------|:---------|:-----|
-#'  |2008  |518 |89                                |79                           |984                                           |144                                             |33                              |152        |24        |2023  |
-#'  |Total |518 |89                                |79                           |984                                           |144                                             |33                              |152        |24        |2023  |
+#'  |year  |iap |ask the teacher to weigh the leaf |report the first measurement |average all of the weights that were recorded |average the highest and lowest weights recorded |discard the lowest five weights |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------------------------------|:----------------------------|:---------------------------------------------|:-----------------------------------------------|:-------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |518 |89                                |79                           |984                                           |144                                             |33                              |152        |24        |-                          |2023  |
+#'  |Total |518 |89                                |79                           |984                                           |144                                             |33                              |152        |24        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -238,10 +238,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |sunlight. sand and water |dark cupboard. sand, soil, and water |dark cupboard. soil and water |sunlight. sand and soil |sunlight. soil and water |don't know |no answer |Total |
-#'  |:-----|:---|:------------------------|:------------------------------------|:-----------------------------|:-----------------------|:------------------------|:----------|:---------|:-----|
-#'  |2008  |709 |105                      |170                                  |43                            |144                     |692                      |136        |24        |2023  |
-#'  |Total |709 |105                      |170                                  |43                            |144                     |692                      |136        |24        |2023  |
+#'  |year  |iap |sunlight. sand and water |dark cupboard. sand, soil, and water |dark cupboard. soil and water |sunlight. sand and soil |sunlight. soil and water |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------------------|:------------------------------------|:-----------------------------|:-----------------------|:------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |709 |105                      |170                                  |43                            |144                     |692                      |136        |24        |-                          |2023  |
+#'  |Total |709 |105                      |170                                  |43                            |144                     |692                      |136        |24        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -280,10 +280,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |if the number of fish in the fish bowl affects the behavior of the fish |if the temperature of the fish bowl affects the behavior of the fish |if the temperature and the amount of light affect the behavior of the fish |if the number of fish, the temperature, and the amount of light affect the behavior of the fish |don't know |no answer |Total |
-#'  |:-----|:---|:-----------------------------------------------------------------------|:--------------------------------------------------------------------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|:----------|:---------|:-----|
-#'  |2008  |709 |520                                                                     |85                                                                   |71                                                                         |455                                                                                             |155        |28        |2023  |
-#'  |Total |709 |520                                                                     |85                                                                   |71                                                                         |455                                                                                             |155        |28        |2023  |
+#'  |year  |iap |if the number of fish in the fish bowl affects the behavior of the fish |if the temperature of the fish bowl affects the behavior of the fish |if the temperature and the amount of light affect the behavior of the fish |if the number of fish, the temperature, and the amount of light affect the behavior of the fish |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----------------------------------------------------------------------|:--------------------------------------------------------------------|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |709 |520                                                                     |85                                                                   |71                                                                         |455                                                                                             |155        |28        |-                          |2023  |
+#'  |Total |709 |520                                                                     |85                                                                   |71                                                                         |455                                                                                             |155        |28        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -322,10 +322,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |because i already know what affects the behavior of fish |because that is what is allowed to change in this experiment |because that is what stays the same in this experiment |because that is what the scientist decided to include in this experiment |don't know |no answer |Total |
-#'  |:-----|:---|:--------------------------------------------------------|:------------------------------------------------------------|:------------------------------------------------------|:------------------------------------------------------------------------|:----------|:---------|:-----|
-#'  |2008  |709 |131                                                      |489                                                          |151                                                    |278                                                                      |236        |29        |2023  |
-#'  |Total |709 |131                                                      |489                                                          |151                                                    |278                                                                      |236        |29        |2023  |
+#'  |year  |iap |because i already know what affects the behavior of fish |because that is what is allowed to change in this experiment |because that is what stays the same in this experiment |because that is what the scientist decided to include in this experiment |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------------------------------------------------|:------------------------------------------------------------|:------------------------------------------------------|:------------------------------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |709 |131                                                      |489                                                          |151                                                    |278                                                                      |236        |29        |-                          |2023  |
+#'  |Total |709 |131                                                      |489                                                          |151                                                    |278                                                                      |236        |29        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -365,10 +365,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly favor |favor |neither favor nor oppose |oppose |strongly oppose |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:------------------------|:------|:---------------|:----------|:---------|:-----|
-#'  |2010  |1569 |260            |138   |48                       |13     |10              |2          |4         |2044  |
-#'  |Total |1569 |260            |138   |48                       |13     |10              |2          |4         |2044  |
+#'  |year  |iap  |strongly favor |favor |neither favor nor oppose |oppose |strongly oppose |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:------------------------|:------|:---------------|:----------|:---------|:--------------------------|:-----|
+#'  |2010  |1569 |260            |138   |48                       |13     |10              |2          |4         |-                          |2044  |
+#'  |Total |1569 |260            |138   |48                       |13     |10              |2          |4         |0                          |2044  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -405,10 +405,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very well |2  |3   |4   |not at all |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:--|:---|:---|:----------|:----------|:---------|:-----|
-#'  |2010  |1578 |21        |46 |145 |158 |66         |23         |7         |2044  |
-#'  |Total |1578 |21        |46 |145 |158 |66         |23         |7         |2044  |
+#'  |year  |iap  |very well |2  |3   |4   |not at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:--|:---|:---|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |2010  |1578 |21        |46 |145 |158 |66         |23         |7         |-                          |2044  |
+#'  |Total |1578 |21        |46 |145 |158 |66         |23         |7         |0                          |2044  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes

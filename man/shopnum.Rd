@@ -30,10 +30,10 @@ Question When you most recently looked for a church or synagogue, how many diffe
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1157/vshow}{GSS Data Explorer page for \code{shopnum}}.
 
-Counts by year:\tabular{lllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 15 \tab 2 \tab 20 \tab 22 \tab 3 \tab 4 \tab 5 \tab 6 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 2258 \tab 2 \tab 66 \tab 6 \tab 2 \tab 171 \tab 2 \tab 1 \tab 152 \tab 69 \tab 48 \tab 18 \tab 1 \tab 5 \tab 31 \tab 2832 \cr
-   Total \tab 2258 \tab 2 \tab 66 \tab 6 \tab 2 \tab 171 \tab 2 \tab 1 \tab 152 \tab 69 \tab 48 \tab 18 \tab 1 \tab 5 \tab 31 \tab 2832 \cr
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 15 \tab 2 \tab 20 \tab 22 \tab 3 \tab 4 \tab 5 \tab 6 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2258 \tab 2 \tab 66 \tab 6 \tab 2 \tab 171 \tab 2 \tab 1 \tab 152 \tab 69 \tab 48 \tab 18 \tab 1 \tab 5 \tab 31 \tab - \tab 2832 \cr
+   Total \tab 2258 \tab 2 \tab 66 \tab 6 \tab 2 \tab 171 \tab 2 \tab 1 \tab 152 \tab 69 \tab 48 \tab 18 \tab 1 \tab 5 \tab 31 \tab 0 \tab 2832 \cr
 }
 }
 

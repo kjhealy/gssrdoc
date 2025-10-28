@@ -33,10 +33,10 @@ K. Waited for feelings to pass
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1777/vshow}{GSS Data Explorer page for \code{chnang11}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab did \tab didnt \tab no answer \tab Total \cr
-   1996 \tab 1779 \tab 326 \tab 788 \tab 11 \tab 2904 \cr
-   Total \tab 1779 \tab 326 \tab 788 \tab 11 \tab 2904 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab did \tab didnt \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1779 \tab 326 \tab 788 \tab 11 \tab - \tab 2904 \cr
+   Total \tab 1779 \tab 326 \tab 788 \tab 11 \tab 0 \tab 2904 \cr
 }
 }
 

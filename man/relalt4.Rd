@@ -34,10 +34,10 @@ D. Positively affected your relations with other people
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3080/vshow}{GSS Data Explorer page for \code{relalt4}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab not at all \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab a great deal \tab 8 \tab refused \tab Total \cr
-   2004 \tab 2163 \tab 42 \tab 15 \tab 18 \tab 62 \tab 103 \tab 122 \tab 274 \tab 1 \tab 12 \tab 2812 \cr
-   Total \tab 2163 \tab 42 \tab 15 \tab 18 \tab 62 \tab 103 \tab 122 \tab 274 \tab 1 \tab 12 \tab 2812 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab not at all \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab a great deal \tab 8 \tab refused \tab not available in this year \tab Total \cr
+   2004 \tab 2163 \tab 42 \tab 15 \tab 18 \tab 62 \tab 103 \tab 122 \tab 274 \tab 1 \tab 12 \tab - \tab 2812 \cr
+   Total \tab 2163 \tab 42 \tab 15 \tab 18 \tab 62 \tab 103 \tab 122 \tab 274 \tab 1 \tab 12 \tab 0 \tab 2812 \cr
 }
 }
 

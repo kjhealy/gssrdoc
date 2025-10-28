@@ -33,13 +33,13 @@ B. Total Fall Enrollment
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/70/vshow}{GSS Data Explorer page for \code{eftotlt}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab 0-467 students enrolled \tab 468 or more students \tab no answer \tab Total \cr
-   2012 \tab 1347 \tab 14 \tab 610 \tab 3 \tab 1974 \cr
-   2014 \tab 1750 \tab 8 \tab 776 \tab 4 \tab 2538 \cr
-   2016 \tab 1937 \tab 11 \tab 912 \tab 7 \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab 2348 \cr
-   Total \tab 7382 \tab 33 \tab 2298 \tab 14 \tab 9727 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab 0-467 students enrolled \tab 468 or more students \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1347 \tab 14 \tab 610 \tab 3 \tab - \tab 1974 \cr
+   2014 \tab 1750 \tab 8 \tab 776 \tab 4 \tab - \tab 2538 \cr
+   2016 \tab 1937 \tab 11 \tab 912 \tab 7 \tab - \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 7382 \tab 33 \tab 2298 \tab 14 \tab 0 \tab 9727 \cr
 }
 }
 

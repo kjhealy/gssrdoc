@@ -37,12 +37,12 @@ Question We trust too much in science and not enough in religious faith.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4687/vshow}{GSS Data Explorer page for \code{trustsci}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1548 \tab 106 \tab 270 \tab 329 \tab 347 \tab 155 \tab 42 \tab 35 \tab 2832 \cr
-   2008 \tab 658 \tab 100 \tab 321 \tab 343 \tab 406 \tab 162 \tab 26 \tab 7 \tab 2023 \cr
-   2018 \tab 1173 \tab 127 \tab 295 \tab 357 \tab 221 \tab 145 \tab 18 \tab 12 \tab 2348 \cr
-   Total \tab 3379 \tab 333 \tab 886 \tab 1029 \tab 974 \tab 462 \tab 86 \tab 54 \tab 7203 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1548 \tab 106 \tab 270 \tab 329 \tab 347 \tab 155 \tab 42 \tab 35 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 100 \tab 321 \tab 343 \tab 406 \tab 162 \tab 26 \tab 7 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 127 \tab 295 \tab 357 \tab 221 \tab 145 \tab 18 \tab 12 \tab - \tab 2348 \cr
+   Total \tab 3379 \tab 333 \tab 886 \tab 1029 \tab 974 \tab 462 \tab 86 \tab 54 \tab 0 \tab 7203 \cr
 }
 }
 

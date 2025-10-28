@@ -33,10 +33,10 @@ Question Over the past five years, have you been discriminated against with rega
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6325/vshow}{GSS Data Explorer page for \code{discwk5}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab did not work or did not seek work \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1390 \tab 269 \tab 1094 \tab 93 \tab 14 \tab 7 \tab 2867 \cr
-   Total \tab 1390 \tab 269 \tab 1094 \tab 93 \tab 14 \tab 7 \tab 2867 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab did not work or did not seek work \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1390 \tab 269 \tab 1094 \tab 93 \tab 14 \tab 7 \tab - \tab 2867 \cr
+   Total \tab 1390 \tab 269 \tab 1094 \tab 93 \tab 14 \tab 7 \tab 0 \tab 2867 \cr
 }
 }
 

@@ -36,10 +36,10 @@ C. Sometimes doctors take unnecessary risks in treating their patients.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2202/vshow}{GSS Data Explorer page for \code{doc3}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab uncertain \tab disagree \tab strong disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 52 \tab 409 \tab 336 \tab 480 \tab 55 \tab 49 \tab 6 \tab 2832 \cr
-   Total \tab 1445 \tab 52 \tab 409 \tab 336 \tab 480 \tab 55 \tab 49 \tab 6 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab uncertain \tab disagree \tab strong disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 52 \tab 409 \tab 336 \tab 480 \tab 55 \tab 49 \tab 6 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 52 \tab 409 \tab 336 \tab 480 \tab 55 \tab 49 \tab 6 \tab 0 \tab 2832 \cr
 }
 }
 

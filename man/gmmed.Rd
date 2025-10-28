@@ -33,10 +33,10 @@ A. Medical researchers
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3387/vshow}{GSS Data Explorer page for \code{gmmed}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very well \tab 2 \tab 3 \tab 4 \tab not at all \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3574 \tab 296 \tab 284 \tab 178 \tab 70 \tab 53 \tab 54 \tab 1 \tab 4510 \cr
-   Total \tab 3574 \tab 296 \tab 284 \tab 178 \tab 70 \tab 53 \tab 54 \tab 1 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very well \tab 2 \tab 3 \tab 4 \tab not at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3574 \tab 296 \tab 284 \tab 178 \tab 70 \tab 53 \tab 54 \tab 1 \tab - \tab 4510 \cr
+   Total \tab 3574 \tab 296 \tab 284 \tab 178 \tab 70 \tab 53 \tab 54 \tab 1 \tab 0 \tab 4510 \cr
 }
 }
 

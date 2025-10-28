@@ -50,10 +50,10 @@ PROBE: Anything else?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2920/vshow}{GSS Data Explorer page for \code{chldhlp}}.
 
-Counts by year:\tabular{lllllllllllllllllllllll}{
-   year \tab iap \tab nothing \tab medical general \tab doctor \tab specialist \tab mental health general \tab psychiatrist \tab social worker \tab counselor therapist \tab psychologist \tab family friends general \tab negative blaming parenting \tab positive parenting \tab assistance from school general \tab involve teacher \tab involve school counselor \tab religion \tab social extracurricular activity \tab other help miscellaneous \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 150 \tab 115 \tab 332 \tab 35 \tab 165 \tab 29 \tab 5 \tab 27 \tab 21 \tab 56 \tab 99 \tab 103 \tab 32 \tab 24 \tab 19 \tab 11 \tab 23 \tab 79 \tab 67 \tab 1 \tab 2765 \cr
-   Total \tab 1372 \tab 150 \tab 115 \tab 332 \tab 35 \tab 165 \tab 29 \tab 5 \tab 27 \tab 21 \tab 56 \tab 99 \tab 103 \tab 32 \tab 24 \tab 19 \tab 11 \tab 23 \tab 79 \tab 67 \tab 1 \tab 2765 \cr
+Counts by year:\tabular{llllllllllllllllllllllll}{
+   year \tab iap \tab nothing \tab medical general \tab doctor \tab specialist \tab mental health general \tab psychiatrist \tab social worker \tab counselor therapist \tab psychologist \tab family friends general \tab negative blaming parenting \tab positive parenting \tab assistance from school general \tab involve teacher \tab involve school counselor \tab religion \tab social extracurricular activity \tab other help miscellaneous \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1372 \tab 150 \tab 115 \tab 332 \tab 35 \tab 165 \tab 29 \tab 5 \tab 27 \tab 21 \tab 56 \tab 99 \tab 103 \tab 32 \tab 24 \tab 19 \tab 11 \tab 23 \tab 79 \tab 67 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 1372 \tab 150 \tab 115 \tab 332 \tab 35 \tab 165 \tab 29 \tab 5 \tab 27 \tab 21 \tab 56 \tab 99 \tab 103 \tab 32 \tab 24 \tab 19 \tab 11 \tab 23 \tab 79 \tab 67 \tab 1 \tab 0 \tab 2765 \cr
 }
 }
 

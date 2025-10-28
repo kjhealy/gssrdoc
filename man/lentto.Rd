@@ -38,13 +38,13 @@ B. Lent quite a bit of money to another person
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4221/vshow}{GSS Data Explorer page for \code{lentto}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab more than once a week \tab once a week \tab once a month \tab at least two or three times in the past year \tab once in the past year \tab not at all in the past year \tab no answer \tab don't know \tab Total \cr
-   2002 \tab 1616 \tab 11 \tab 23 \tab 61 \tab 201 \tab 235 \tab 610 \tab 8 \tab - \tab 2765 \cr
-   2004 \tab 1472 \tab 22 \tab 19 \tab 116 \tab 307 \tab 269 \tab 602 \tab 3 \tab 2 \tab 2812 \cr
-   2012 \tab 666 \tab 11 \tab 17 \tab 56 \tab 208 \tab 258 \tab 747 \tab 7 \tab 4 \tab 1974 \cr
-   2014 \tab 1264 \tab 21 \tab 15 \tab 75 \tab 220 \tab 237 \tab 701 \tab 5 \tab - \tab 2538 \cr
-   Total \tab 5018 \tab 65 \tab 74 \tab 308 \tab 936 \tab 999 \tab 2660 \tab 23 \tab 6 \tab 10089 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab more than once a week \tab once a week \tab once a month \tab at least two or three times in the past year \tab once in the past year \tab not at all in the past year \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2002 \tab 1616 \tab 11 \tab 23 \tab 61 \tab 201 \tab 235 \tab 610 \tab 8 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1472 \tab 22 \tab 19 \tab 116 \tab 307 \tab 269 \tab 602 \tab 3 \tab 2 \tab - \tab 2812 \cr
+   2012 \tab 666 \tab 11 \tab 17 \tab 56 \tab 208 \tab 258 \tab 747 \tab 7 \tab 4 \tab - \tab 1974 \cr
+   2014 \tab 1264 \tab 21 \tab 15 \tab 75 \tab 220 \tab 237 \tab 701 \tab 5 \tab - \tab - \tab 2538 \cr
+   Total \tab 5018 \tab 65 \tab 74 \tab 308 \tab 936 \tab 999 \tab 2660 \tab 23 \tab 6 \tab 0 \tab 10089 \cr
 }
 }
 

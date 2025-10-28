@@ -32,11 +32,11 @@ Question Do you supervise others at work as a part of your job?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6028/vshow}{GSS Data Explorer page for \code{suprvsjb}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2010 \tab 857 \tab 419 \tab 744 \tab 1 \tab 23 \tab 2044 \cr
-   2014 \tab 1288 \tab 455 \tab 790 \tab - \tab 5 \tab 2538 \cr
-   Total \tab 2145 \tab 874 \tab 1534 \tab 1 \tab 28 \tab 4582 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 857 \tab 419 \tab 744 \tab 1 \tab 23 \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 455 \tab 790 \tab - \tab 5 \tab - \tab 2538 \cr
+   Total \tab 2145 \tab 874 \tab 1534 \tab 1 \tab 28 \tab 0 \tab 4582 \cr
 }
 }
 

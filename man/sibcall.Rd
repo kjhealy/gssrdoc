@@ -36,10 +36,10 @@ Question And how often do you have any other contact with this brother or sister
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4187/vshow}{GSS Data Explorer page for \code{sibcall}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab no answer \tab Total \cr
-   2002 \tab 1832 \tab 110 \tab 181 \tab 226 \tab 184 \tab 136 \tab 88 \tab 8 \tab 2765 \cr
-   Total \tab 1832 \tab 110 \tab 181 \tab 226 \tab 184 \tab 136 \tab 88 \tab 8 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1832 \tab 110 \tab 181 \tab 226 \tab 184 \tab 136 \tab 88 \tab 8 \tab - \tab 2765 \cr
+   Total \tab 1832 \tab 110 \tab 181 \tab 226 \tab 184 \tab 136 \tab 88 \tab 8 \tab 0 \tab 2765 \cr
 }
 }
 

@@ -28,10 +28,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |mre thn once/day |once a day |a few times/week |once a week |few times/month |once a month |less once/mnth |never |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:----------|:----------------|:-----------|:---------------|:------------|:--------------|:-----|:----------|:---------|:-----|
-#'  |1998  |1387 |343              |373        |195              |69          |78              |33           |129            |186   |14         |25        |2832  |
-#'  |Total |1387 |343              |373        |195              |69          |78              |33           |129            |186   |14         |25        |2832  |
+#'  |year  |iap  |mre thn once/day |once a day |a few times/week |once a week |few times/month |once a month |less once/mnth |never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:----------|:----------------|:-----------|:---------------|:------------|:--------------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |343              |373        |195              |69          |78              |33           |129            |186   |14         |25        |-                          |2832  |
+#'  |Total |1387 |343              |373        |195              |69          |78              |33           |129            |186   |14         |25        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -73,10 +73,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |mre thn once/day |once a day |a few times/week |once a week |few times/month |once a month |less once/mnth |never |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:----------|:----------------|:-----------|:---------------|:------------|:--------------|:-----|:----------|:---------|:-----|
-#'  |1998  |1387 |123              |188        |130              |68          |60              |46           |95             |660   |47         |28        |2832  |
-#'  |Total |1387 |123              |188        |130              |68          |60              |46           |95             |660   |47         |28        |2832  |
+#'  |year  |iap  |mre thn once/day |once a day |a few times/week |once a week |few times/month |once a month |less once/mnth |never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:----------|:----------------|:-----------|:---------------|:------------|:--------------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |123              |188        |130              |68          |60              |46           |95             |660   |47         |28        |-                          |2832  |
+#'  |Total |1387 |123              |188        |130              |68          |60              |46           |95             |660   |47         |28        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -114,10 +114,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a great deal |some |a little |none |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:----|:--------|:----|:----------|:---------|:-----|
-#'  |1998  |1797 |372          |261  |110      |63   |65         |164       |2832  |
-#'  |Total |1797 |372          |261  |110      |63   |65         |164       |2832  |
+#'  |year  |iap  |a great deal |some |a little |none |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:----|:--------|:----|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1797 |372          |261  |110      |63   |65         |164       |-                          |2832  |
+#'  |Total |1797 |372          |261  |110      |63   |65         |164       |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -156,10 +156,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a great deal |some |a little |none |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:----|:--------|:----|:----------|:---------|:-----|
-#'  |1998  |1797 |435          |240  |82       |48   |64         |166       |2832  |
-#'  |Total |1797 |435          |240  |82       |48   |64         |166       |2832  |
+#'  |year  |iap  |a great deal |some |a little |none |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:----|:--------|:----|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1797 |435          |240  |82       |48   |64         |166       |-                          |2832  |
+#'  |Total |1797 |435          |240  |82       |48   |64         |166       |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -198,10 +198,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very often |fairly often |once in a while |never |don't know |no answer |Total |
-#'  |:-----|:----|:----------|:------------|:---------------|:-----|:----------|:---------|:-----|
-#'  |1998  |1797 |23         |57           |253             |542   |4          |156       |2832  |
-#'  |Total |1797 |23         |57           |253             |542   |4          |156       |2832  |
+#'  |year  |iap  |very often |fairly often |once in a while |never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:------------|:---------------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1797 |23         |57           |253             |542   |4          |156       |-                          |2832  |
+#'  |Total |1797 |23         |57           |253             |542   |4          |156       |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -239,10 +239,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very often |fairly often |once in a while |never |don't know |no answer |Total |
-#'  |:-----|:----|:----------|:------------|:---------------|:-----|:----------|:---------|:-----|
-#'  |1998  |1797 |23         |27           |164             |649   |8          |164       |2832  |
-#'  |Total |1797 |23         |27           |164             |649   |8          |164       |2832  |
+#'  |year  |iap  |very often |fairly often |once in a while |never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:------------|:---------------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1797 |23         |27           |164             |649   |8          |164       |-                          |2832  |
+#'  |Total |1797 |23         |27           |164             |649   |8          |164       |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -281,10 +281,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a great deal |quite a bit |somewhat |not at all |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:-----------|:--------|:----------|:----------|:---------|:-----|
-#'  |1998  |1387 |274          |293         |489      |332        |38         |19        |2832  |
-#'  |Total |1387 |274          |293         |489      |332        |38         |19        |2832  |
+#'  |year  |iap  |a great deal |quite a bit |somewhat |not at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:-----------|:--------|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |274          |293         |489      |332        |38         |19        |-                          |2832  |
+#'  |Total |1387 |274          |293         |489      |332        |38         |19        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -323,10 +323,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a great deal |quite a bit |somewhat |not at all |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:-----------|:--------|:----------|:----------|:---------|:-----|
-#'  |1998  |1387 |312          |316         |502      |267        |29         |19        |2832  |
-#'  |Total |1387 |312          |316         |502      |267        |29         |19        |2832  |
+#'  |year  |iap  |a great deal |quite a bit |somewhat |not at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:-----------|:--------|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |312          |316         |502      |267        |29         |19        |-                          |2832  |
+#'  |Total |1387 |312          |316         |502      |267        |29         |19        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -365,10 +365,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a great deal |quite a bit |somewhat |not at all |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:-----------|:--------|:----------|:----------|:---------|:-----|
-#'  |1998  |1387 |616          |291         |324      |185        |8          |21        |2832  |
-#'  |Total |1387 |616          |291         |324      |185        |8          |21        |2832  |
+#'  |year  |iap  |a great deal |quite a bit |somewhat |not at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:-----------|:--------|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |616          |291         |324      |185        |8          |21        |-                          |2832  |
+#'  |Total |1387 |616          |291         |324      |185        |8          |21        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -407,10 +407,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a great deal |quite a bit |somewhat |not at all |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:-----------|:--------|:----------|:----------|:---------|:-----|
-#'  |1998  |1387 |28           |53          |245      |1081       |18         |20        |2832  |
-#'  |Total |1387 |28           |53          |245      |1081       |18         |20        |2832  |
+#'  |year  |iap  |a great deal |quite a bit |somewhat |not at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:-----------|:--------|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |28           |53          |245      |1081       |18         |20        |-                          |2832  |
+#'  |Total |1387 |28           |53          |245      |1081       |18         |20        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture

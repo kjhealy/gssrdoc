@@ -35,10 +35,10 @@ B. I work together with God as partners.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2097/vshow}{GSS Data Explorer page for \code{cope2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a great deal \tab quite a bit \tab somewhat \tab not at all \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 312 \tab 316 \tab 502 \tab 267 \tab 29 \tab 19 \tab 2832 \cr
-   Total \tab 1387 \tab 312 \tab 316 \tab 502 \tab 267 \tab 29 \tab 19 \tab 2832 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal \tab quite a bit \tab somewhat \tab not at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 312 \tab 316 \tab 502 \tab 267 \tab 29 \tab 19 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 312 \tab 316 \tab 502 \tab 267 \tab 29 \tab 19 \tab 0 \tab 2832 \cr
 }
 }
 

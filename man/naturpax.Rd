@@ -36,11 +36,11 @@ B. Nature would be at peace and in harmony if only human beings would leave it a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4730/vshow}{GSS Data Explorer page for \code{naturpax}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 106 \tab 625 \tab 317 \tab 390 \tab 40 \tab 23 \tab 56 \tab 1606 \cr
-   1994 \tab 1606 \tab 118 \tab 554 \tab 283 \tab 331 \tab 49 \tab 24 \tab 27 \tab 2992 \cr
-   Total \tab 1655 \tab 224 \tab 1179 \tab 600 \tab 721 \tab 89 \tab 47 \tab 83 \tab 4598 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 106 \tab 625 \tab 317 \tab 390 \tab 40 \tab 23 \tab 56 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 118 \tab 554 \tab 283 \tab 331 \tab 49 \tab 24 \tab 27 \tab - \tab 2992 \cr
+   Total \tab 1655 \tab 224 \tab 1179 \tab 600 \tab 721 \tab 89 \tab 47 \tab 83 \tab 0 \tab 4598 \cr
 }
 }
 

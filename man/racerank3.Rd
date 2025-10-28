@@ -46,10 +46,11 @@ Question After your primary and secondary racial identity, which of these races 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7753/vshow}{GSS Data Explorer page for \code{racerank3}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab white \tab black or african-american \tab american indian or alaska native \tab asian indian \tab other pacific islander \tab some other race \tab hispanic \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 3494 \tab 9 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 1 \tab 9 \tab 20 \tab 2 \tab 3544 \cr
-   Total \tab 3494 \tab 9 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 1 \tab 9 \tab 20 \tab 2 \tab 3544 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab not available in this year \tab white \tab black or african-american \tab american indian or alaska native \tab asian indian \tab other pacific islander \tab some other race \tab hispanic \tab don't know \tab iap \tab no answer \tab skipped on web \tab chinese \tab other asian \tab native hawaiian \tab Total \cr
+   2022 \tab - \tab 9 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 1 \tab 9 \tab 3494 \tab 20 \tab 2 \tab - \tab - \tab - \tab 3544 \cr
+   2024 \tab - \tab 12 \tab 1 \tab 4 \tab 1 \tab - \tab - \tab - \tab 9 \tab 3249 \tab 26 \tab 4 \tab 1 \tab 1 \tab 1 \tab 3309 \cr
+   Total \tab 0 \tab 21 \tab 2 \tab 8 \tab 2 \tab 2 \tab 1 \tab 1 \tab 18 \tab 6743 \tab 46 \tab 6 \tab 1 \tab 1 \tab 1 \tab 6853 \cr
 }
 }
 

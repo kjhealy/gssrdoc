@@ -32,10 +32,10 @@ Question A. Do you and first name both belong to one or more of the same groups 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3298/vshow}{GSS Data Explorer page for \code{grpboth1}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2653 \tab 86 \tab 20 \tab 1 \tab 52 \tab 2812 \cr
-   Total \tab 2653 \tab 86 \tab 20 \tab 1 \tab 52 \tab 2812 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2653 \tab 86 \tab 20 \tab 1 \tab 52 \tab - \tab 2812 \cr
+   Total \tab 2653 \tab 86 \tab 20 \tab 1 \tab 52 \tab 0 \tab 2812 \cr
 }
 }
 

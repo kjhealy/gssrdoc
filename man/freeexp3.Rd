@@ -41,10 +41,10 @@ C. Third distinct experience mentioned
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2662/vshow}{GSS Data Explorer page for \code{freeexp3}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab moving:driving travel \tab leisure:recreation enjoyable activity \tab social:engagement with family or institutions \tab negative:no obigation, divorced, being alone \tab inner:spiritual and religious freedom \tab choices:variant of making choices \tab citizen:political participation \tab security:economic security and independence \tab other \tab Total \cr
-   2000 \tab 2710 \tab 13 \tab 15 \tab 15 \tab 8 \tab 13 \tab 3 \tab 17 \tab 19 \tab 4 \tab 2817 \cr
-   Total \tab 2710 \tab 13 \tab 15 \tab 15 \tab 8 \tab 13 \tab 3 \tab 17 \tab 19 \tab 4 \tab 2817 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab moving:driving travel \tab leisure:recreation enjoyable activity \tab social:engagement with family or institutions \tab negative:no obigation, divorced, being alone \tab inner:spiritual and religious freedom \tab choices:variant of making choices \tab citizen:political participation \tab security:economic security and independence \tab other \tab not available in this year \tab Total \cr
+   2000 \tab 2710 \tab 13 \tab 15 \tab 15 \tab 8 \tab 13 \tab 3 \tab 17 \tab 19 \tab 4 \tab - \tab 2817 \cr
+   Total \tab 2710 \tab 13 \tab 15 \tab 15 \tab 8 \tab 13 \tab 3 \tab 17 \tab 19 \tab 4 \tab 0 \tab 2817 \cr
 }
 }
 

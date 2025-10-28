@@ -35,11 +35,11 @@ B. Spouse's financial assets and liabilities
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5224/vshow}{GSS Data Explorer page for \code{chkspfin}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 542 \tab 436 \tab 259 \tab 170 \tab 50 \tab 3 \tab 2904 \cr
-   1998 \tab 1445 \tab 434 \tab 433 \tab 287 \tab 166 \tab 55 \tab 12 \tab 2832 \cr
-   Total \tab 2889 \tab 976 \tab 869 \tab 546 \tab 336 \tab 105 \tab 15 \tab 5736 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 542 \tab 436 \tab 259 \tab 170 \tab 50 \tab 3 \tab - \tab 2904 \cr
+   1998 \tab 1445 \tab 434 \tab 433 \tab 287 \tab 166 \tab 55 \tab 12 \tab - \tab 2832 \cr
+   Total \tab 2889 \tab 976 \tab 869 \tab 546 \tab 336 \tab 105 \tab 15 \tab 0 \tab 5736 \cr
 }
 }
 

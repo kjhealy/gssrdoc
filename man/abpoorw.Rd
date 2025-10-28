@@ -37,13 +37,13 @@ B. If the family has a very low income and cannot afford any more children.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4636/vshow}{GSS Data Explorer page for \code{abpoorw}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab always wrong \tab almost always wrong \tab wrong only sometimes \tab not wrong at all \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 479 \tab 195 \tab 142 \tab 408 \tab 89 \tab 46 \tab 1517 \cr
-   1998 \tab 1548 \tab 549 \tab 138 \tab 112 \tab 359 \tab 94 \tab 32 \tab 2832 \cr
-   2008 \tab 658 \tab 652 \tab 135 \tab 144 \tab 400 \tab 25 \tab 9 \tab 2023 \cr
-   2018 \tab 1173 \tab 511 \tab 93 \tab 134 \tab 372 \tab 48 \tab 17 \tab 2348 \cr
-   Total \tab 3537 \tab 2191 \tab 561 \tab 532 \tab 1539 \tab 256 \tab 104 \tab 8720 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always wrong \tab almost always wrong \tab wrong only sometimes \tab not wrong at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 479 \tab 195 \tab 142 \tab 408 \tab 89 \tab 46 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 549 \tab 138 \tab 112 \tab 359 \tab 94 \tab 32 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 652 \tab 135 \tab 144 \tab 400 \tab 25 \tab 9 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 511 \tab 93 \tab 134 \tab 372 \tab 48 \tab 17 \tab - \tab 2348 \cr
+   Total \tab 3537 \tab 2191 \tab 561 \tab 532 \tab 1539 \tab 256 \tab 104 \tab 0 \tab 8720 \cr
 }
 }
 

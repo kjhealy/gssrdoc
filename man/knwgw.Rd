@@ -36,10 +36,10 @@ D. Global warming
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3417/vshow}{GSS Data Explorer page for \code{knwgw}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very informed \tab somewhat informed \tab neither informed nor uninformed \tab somewhat uninformed \tab very uninformed \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 178 \tab 923 \tab 332 \tab 233 \tab 170 \tab 25 \tab 3 \tab 4510 \cr
-   Total \tab 2646 \tab 178 \tab 923 \tab 332 \tab 233 \tab 170 \tab 25 \tab 3 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very informed \tab somewhat informed \tab neither informed nor uninformed \tab somewhat uninformed \tab very uninformed \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 178 \tab 923 \tab 332 \tab 233 \tab 170 \tab 25 \tab 3 \tab - \tab 4510 \cr
+   Total \tab 2646 \tab 178 \tab 923 \tab 332 \tab 233 \tab 170 \tab 25 \tab 3 \tab 0 \tab 4510 \cr
 }
 }
 

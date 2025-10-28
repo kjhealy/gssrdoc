@@ -30,13 +30,13 @@ Question B. Number or relatives unemployed during previous four years.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/742/vshow}{GSS Data Explorer page for \code{unrel4}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab Total \cr
-   1978 \tab - \tab 1031 \tab 407 \tab 73 \tab 18 \tab 3 \tab - \tab 1532 \cr
-   1980 \tab - \tab 1029 \tab 371 \tab 53 \tab 12 \tab 3 \tab - \tab 1468 \cr
-   1983 \tab - \tab 1008 \tab 461 \tab 99 \tab 23 \tab 6 \tab 2 \tab 1599 \cr
-   1984 \tab - \tab 923 \tab 444 \tab 85 \tab 18 \tab 3 \tab - \tab 1473 \cr
-   Total \tab 0 \tab 3991 \tab 1683 \tab 310 \tab 71 \tab 15 \tab 2 \tab 6072 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab not available in this year \tab Total \cr
+   1978 \tab - \tab 1031 \tab 407 \tab 73 \tab 18 \tab 3 \tab - \tab - \tab 1532 \cr
+   1980 \tab - \tab 1029 \tab 371 \tab 53 \tab 12 \tab 3 \tab - \tab - \tab 1468 \cr
+   1983 \tab - \tab 1008 \tab 461 \tab 99 \tab 23 \tab 6 \tab 2 \tab - \tab 1599 \cr
+   1984 \tab - \tab 923 \tab 444 \tab 85 \tab 18 \tab 3 \tab - \tab - \tab 1473 \cr
+   Total \tab 0 \tab 3991 \tab 1683 \tab 310 \tab 71 \tab 15 \tab 2 \tab 0 \tab 6072 \cr
 }
 }
 

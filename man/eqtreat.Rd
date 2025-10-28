@@ -33,10 +33,10 @@ C. That government authorities treat everybody equally regardless of their posit
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4935/vshow}{GSS Data Explorer page for \code{eqtreat}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 10 \tab 11 \tab 12 \tab 37 \tab 74 \tab 124 \tab 1195 \tab 4 \tab 5 \tab 2812 \cr
-   Total \tab 1340 \tab 10 \tab 11 \tab 12 \tab 37 \tab 74 \tab 124 \tab 1195 \tab 4 \tab 5 \tab 2812 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 10 \tab 11 \tab 12 \tab 37 \tab 74 \tab 124 \tab 1195 \tab 4 \tab 5 \tab - \tab 2812 \cr
+   Total \tab 1340 \tab 10 \tab 11 \tab 12 \tab 37 \tab 74 \tab 124 \tab 1195 \tab 4 \tab 5 \tab 0 \tab 2812 \cr
 }
 }
 

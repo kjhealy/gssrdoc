@@ -39,14 +39,14 @@ Question B. In 1972, you remember that McGovern ran for President on the Democra
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/146/vshow}{GSS Data Explorer page for \code{pres72}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab mcgovern \tab nixon \tab other \tab refused \tab don't know \tab no answer \tab wouldnt vote \tab Total \cr
-   1973 \tab 459 \tab 404 \tab 593 \tab 18 \tab 20 \tab 3 \tab 7 \tab - \tab 1504 \cr
-   1974 \tab 470 \tab 379 \tab 560 \tab 38 \tab 16 \tab 12 \tab 9 \tab - \tab 1484 \cr
-   1975 \tab 526 \tab 328 \tab 567 \tab 28 \tab - \tab 11 \tab 17 \tab 13 \tab 1490 \cr
-   1976 \tab 549 \tab 344 \tab 544 \tab 32 \tab - \tab 20 \tab 7 \tab 3 \tab 1499 \cr
-   1977 \tab 610 \tab 329 \tab 540 \tab 14 \tab - \tab 19 \tab 12 \tab 6 \tab 1530 \cr
-   Total \tab 2614 \tab 1784 \tab 2804 \tab 130 \tab 36 \tab 65 \tab 52 \tab 22 \tab 7507 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab mcgovern \tab nixon \tab other \tab refused \tab don't know \tab no answer \tab wouldnt vote \tab not available in this year \tab Total \cr
+   1973 \tab 459 \tab 404 \tab 593 \tab 18 \tab 20 \tab 3 \tab 7 \tab - \tab - \tab 1504 \cr
+   1974 \tab 470 \tab 379 \tab 560 \tab 38 \tab 16 \tab 12 \tab 9 \tab - \tab - \tab 1484 \cr
+   1975 \tab 526 \tab 328 \tab 567 \tab 28 \tab - \tab 11 \tab 17 \tab 13 \tab - \tab 1490 \cr
+   1976 \tab 549 \tab 344 \tab 544 \tab 32 \tab - \tab 20 \tab 7 \tab 3 \tab - \tab 1499 \cr
+   1977 \tab 610 \tab 329 \tab 540 \tab 14 \tab - \tab 19 \tab 12 \tab 6 \tab - \tab 1530 \cr
+   Total \tab 2614 \tab 1784 \tab 2804 \tab 130 \tab 36 \tab 65 \tab 52 \tab 22 \tab 0 \tab 7507 \cr
 }
 }
 

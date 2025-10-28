@@ -36,7 +36,7 @@ Question Interview done in-person or over the phone
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5566/vshow}{GSS Data Explorer page for \code{mode}}.
 
 Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab in-person \tab by phone \tab don't know \tab no answer \tab web \tab combination in-person/phone \tab Total \cr
+   year \tab iap \tab in-person \tab by phone \tab don't know \tab no answer \tab web \tab multimode \tab Total \cr
    2004 \tab - \tab 2219 \tab 593 \tab - \tab - \tab - \tab - \tab 2812 \cr
    2006 \tab - \tab 4209 \tab 301 \tab - \tab - \tab - \tab - \tab 4510 \cr
    2008 \tab - \tab 1778 \tab 245 \tab - \tab - \tab - \tab - \tab 2023 \cr
@@ -47,7 +47,8 @@ Counts by year:\tabular{lllllllll}{
    2018 \tab - \tab 2094 \tab 245 \tab - \tab 9 \tab - \tab - \tab 2348 \cr
    2021 \tab - \tab - \tab 471 \tab - \tab - \tab 3561 \tab - \tab 4032 \cr
    2022 \tab - \tab 1573 \tab 206 \tab - \tab - \tab 1636 \tab 129 \tab 3544 \cr
-   Total \tab 0 \tab 20273 \tab 3058 \tab 1 \tab 34 \tab 5197 \tab 129 \tab 28692 \cr
+   2024 \tab - \tab 1174 \tab 254 \tab - \tab - \tab 1762 \tab 119 \tab 3309 \cr
+   Total \tab 0 \tab 21447 \tab 3312 \tab 1 \tab 34 \tab 6959 \tab 248 \tab 32001 \cr
 }
 }
 

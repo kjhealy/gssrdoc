@@ -40,7 +40,8 @@ Counts by year:\tabular{llllllllllll}{
    year \tab iap \tab much better \tab somewhat better \tab about the same \tab somewhat worse \tab much worse \tab no children (phone mode only; volunteered) \tab don't know \tab no answer \tab skipped on web \tab Total \cr
    2021 \tab 2719 \tab 261 \tab 364 \tab 331 \tab 222 \tab 75 \tab 10 \tab 6 \tab 1 \tab 43 \tab 4032 \cr
    2022 \tab 2954 \tab 111 \tab 158 \tab 135 \tab 110 \tab 51 \tab - \tab - \tab - \tab 25 \tab 3544 \cr
-   Total \tab 5673 \tab 372 \tab 522 \tab 466 \tab 332 \tab 126 \tab 10 \tab 6 \tab 1 \tab 68 \tab 7576 \cr
+   2024 \tab 2663 \tab 102 \tab 174 \tab 136 \tab 146 \tab 68 \tab 1 \tab 1 \tab - \tab 18 \tab 3309 \cr
+   Total \tab 8336 \tab 474 \tab 696 \tab 602 \tab 478 \tab 194 \tab 11 \tab 7 \tab 1 \tab 86 \tab 10885 \cr
 }
 }
 

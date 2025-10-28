@@ -36,11 +36,11 @@ B. Speak to your supervisor or manager
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2866/vshow}{GSS Data Explorer page for \code{talksup}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab i do not have a supervisor or manager \tab not at all likely \tab not very likely \tab somewhat likely \tab very likely \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 969 \tab 110 \tab 503 \tab 391 \tab 375 \tab 348 \tab 38 \tab 31 \tab 2765 \cr
-   2006 \tab 2778 \tab 120 \tab 403 \tab 311 \tab 406 \tab 401 \tab 60 \tab 31 \tab 4510 \cr
-   Total \tab 3747 \tab 230 \tab 906 \tab 702 \tab 781 \tab 749 \tab 98 \tab 62 \tab 7275 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab i do not have a supervisor or manager \tab not at all likely \tab not very likely \tab somewhat likely \tab very likely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 969 \tab 110 \tab 503 \tab 391 \tab 375 \tab 348 \tab 38 \tab 31 \tab - \tab 2765 \cr
+   2006 \tab 2778 \tab 120 \tab 403 \tab 311 \tab 406 \tab 401 \tab 60 \tab 31 \tab - \tab 4510 \cr
+   Total \tab 3747 \tab 230 \tab 906 \tab 702 \tab 781 \tab 749 \tab 98 \tab 62 \tab 0 \tab 7275 \cr
 }
 }
 

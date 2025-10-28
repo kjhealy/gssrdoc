@@ -42,10 +42,10 @@ Question We are also interested in how people get information about science and 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3504/vshow}{GSS Data Explorer page for \code{scifromy}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab print newspapers \tab online newspapers \tab print magazines \tab online magazines \tab other places on the internet \tab books/other printed material \tab tv \tab radio \tab family \tab friends/colleagues \tab other \tab don't know \tab no answer \tab Total \cr
-   2010 \tab 1386 \tab 47 \tab 50 \tab 51 \tab 16 \tab 123 \tab 58 \tab 239 \tab 15 \tab 19 \tab 19 \tab 11 \tab 7 \tab 3 \tab 2044 \cr
-   Total \tab 1386 \tab 47 \tab 50 \tab 51 \tab 16 \tab 123 \tab 58 \tab 239 \tab 15 \tab 19 \tab 19 \tab 11 \tab 7 \tab 3 \tab 2044 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab print newspapers \tab online newspapers \tab print magazines \tab online magazines \tab other places on the internet \tab books/other printed material \tab tv \tab radio \tab family \tab friends/colleagues \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 1386 \tab 47 \tab 50 \tab 51 \tab 16 \tab 123 \tab 58 \tab 239 \tab 15 \tab 19 \tab 19 \tab 11 \tab 7 \tab 3 \tab - \tab 2044 \cr
+   Total \tab 1386 \tab 47 \tab 50 \tab 51 \tab 16 \tab 123 \tab 58 \tab 239 \tab 15 \tab 19 \tab 19 \tab 11 \tab 7 \tab 3 \tab 0 \tab 2044 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question F1. How much do you feel you know about the causes of these sorts of en
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4805/vshow}{GSS Data Explorer page for \code{knwcause}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab know nothing at all \tab 2 \tab 3 \tab 4 \tab know a great deal \tab don't know \tab no answer \tab Total \cr
-   2010 \tab 614 \tab 168 \tab 229 \tab 599 \tab 284 \tab 100 \tab 43 \tab 7 \tab 2044 \cr
-   Total \tab 614 \tab 168 \tab 229 \tab 599 \tab 284 \tab 100 \tab 43 \tab 7 \tab 2044 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab know nothing at all \tab 2 \tab 3 \tab 4 \tab know a great deal \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 614 \tab 168 \tab 229 \tab 599 \tab 284 \tab 100 \tab 43 \tab 7 \tab - \tab 2044 \cr
+   Total \tab 614 \tab 168 \tab 229 \tab 599 \tab 284 \tab 100 \tab 43 \tab 7 \tab 0 \tab 2044 \cr
 }
 }
 

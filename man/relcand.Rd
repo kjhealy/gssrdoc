@@ -35,10 +35,10 @@ B. Would you accept a person from a different religion or with a very different 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4702/vshow}{GSS Data Explorer page for \code{relcand}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely accept \tab probably accept \tab probably not accept \tab definitely not accept \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 658 \tab 466 \tab 640 \tab 168 \tab 39 \tab 40 \tab 12 \tab 2023 \cr
-   Total \tab 658 \tab 466 \tab 640 \tab 168 \tab 39 \tab 40 \tab 12 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely accept \tab probably accept \tab probably not accept \tab definitely not accept \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 658 \tab 466 \tab 640 \tab 168 \tab 39 \tab 40 \tab 12 \tab - \tab 2023 \cr
+   Total \tab 658 \tab 466 \tab 640 \tab 168 \tab 39 \tab 40 \tab 12 \tab 0 \tab 2023 \cr
 }
 }
 

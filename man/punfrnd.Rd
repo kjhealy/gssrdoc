@@ -37,10 +37,10 @@ D. Stealing and selling these same materials to a friendly foreign government.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5235/vshow}{GSS Data Explorer page for \code{punfrnd}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab reprimand \tab dismissal from the military/fired by the government \tab one year in prison \tab 5-9 years in prison \tab 10-20 years in prison \tab life in prison \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 20 \tab 161 \tab 92 \tab 286 \tab 391 \tab 409 \tab 49 \tab 11 \tab 2817 \cr
-   Total \tab 1398 \tab 20 \tab 161 \tab 92 \tab 286 \tab 391 \tab 409 \tab 49 \tab 11 \tab 2817 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab reprimand \tab dismissal from the military/fired by the government \tab one year in prison \tab 5-9 years in prison \tab 10-20 years in prison \tab life in prison \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 20 \tab 161 \tab 92 \tab 286 \tab 391 \tab 409 \tab 49 \tab 11 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 20 \tab 161 \tab 92 \tab 286 \tab 391 \tab 409 \tab 49 \tab 11 \tab 0 \tab 2817 \cr
 }
 }
 

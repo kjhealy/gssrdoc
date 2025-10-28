@@ -33,10 +33,10 @@ A. The Bible
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1085/vshow}{GSS Data Explorer page for \code{decbible}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very important \tab 2 \tab 3 \tab 4 \tab not very important \tab don't know \tab no answer \tab Total \cr
-   1988 \tab - \tab 505 \tab 204 \tab 320 \tab 181 \tab 260 \tab 6 \tab 5 \tab 1481 \cr
-   Total \tab 0 \tab 505 \tab 204 \tab 320 \tab 181 \tab 260 \tab 6 \tab 5 \tab 1481 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab 2 \tab 3 \tab 4 \tab not very important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 505 \tab 204 \tab 320 \tab 181 \tab 260 \tab 6 \tab 5 \tab - \tab 1481 \cr
+   Total \tab 0 \tab 505 \tab 204 \tab 320 \tab 181 \tab 260 \tab 6 \tab 5 \tab 0 \tab 1481 \cr
 }
 }
 

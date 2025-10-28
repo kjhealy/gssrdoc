@@ -35,10 +35,10 @@ E. How much distress did this person's mental health problem cause you?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3807/vshow}{GSS Data Explorer page for \code{mhdisoth}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a great deal \tab quite a bit \tab a little \tab not at all \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3535 \tab 148 \tab 204 \tab 340 \tab 275 \tab 1 \tab 7 \tab 4510 \cr
-   Total \tab 3535 \tab 148 \tab 204 \tab 340 \tab 275 \tab 1 \tab 7 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal \tab quite a bit \tab a little \tab not at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3535 \tab 148 \tab 204 \tab 340 \tab 275 \tab 1 \tab 7 \tab - \tab 4510 \cr
+   Total \tab 3535 \tab 148 \tab 204 \tab 340 \tab 275 \tab 1 \tab 7 \tab 0 \tab 4510 \cr
 }
 }
 

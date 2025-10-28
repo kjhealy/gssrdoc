@@ -35,10 +35,10 @@ Question Are the people that you trust…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3699/vshow}{GSS Data Explorer page for \code{trtmyrac}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab almost all the same race as you \tab mostly the same race as you \tab about evenly divided \tab mostly a different race than you \tab almost all a different race than you \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3821 \tab 267 \tab 218 \tab 140 \tab 16 \tab 11 \tab 24 \tab 13 \tab 4510 \cr
-   Total \tab 3821 \tab 267 \tab 218 \tab 140 \tab 16 \tab 11 \tab 24 \tab 13 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab almost all the same race as you \tab mostly the same race as you \tab about evenly divided \tab mostly a different race than you \tab almost all a different race than you \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3821 \tab 267 \tab 218 \tab 140 \tab 16 \tab 11 \tab 24 \tab 13 \tab - \tab 4510 \cr
+   Total \tab 3821 \tab 267 \tab 218 \tab 140 \tab 16 \tab 11 \tab 24 \tab 13 \tab 0 \tab 4510 \cr
 }
 }
 

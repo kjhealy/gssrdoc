@@ -34,11 +34,11 @@ Question
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/327/vshow}{GSS Data Explorer page for \code{creator}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab extremely likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
-   1983 \tab - \tab 1268 \tab 210 \tab 37 \tab 40 \tab 26 \tab 18 \tab 1599 \cr
-   1984 \tab 989 \tab 382 \tab 69 \tab 10 \tab 10 \tab 2 \tab 11 \tab 1473 \cr
-   Total \tab 989 \tab 1650 \tab 279 \tab 47 \tab 50 \tab 28 \tab 29 \tab 3072 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab - \tab 1268 \tab 210 \tab 37 \tab 40 \tab 26 \tab 18 \tab - \tab 1599 \cr
+   1984 \tab 989 \tab 382 \tab 69 \tab 10 \tab 10 \tab 2 \tab 11 \tab - \tab 1473 \cr
+   Total \tab 989 \tab 1650 \tab 279 \tab 47 \tab 50 \tab 28 \tab 29 \tab 0 \tab 3072 \cr
 }
 }
 

@@ -43,10 +43,10 @@ Question Thinking of all the adult relatives, which one do you have the most con
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4158/vshow}{GSS Data Explorer page for \code{relmost}}.
 
-Counts by year:\tabular{lllllllllllllllll}{
-   year \tab iap \tab grmother \tab grfather \tab grdaughter \tab grandson \tab aunt \tab uncle \tab mother-in-law \tab father-in-law \tab sister-in-law \tab brother-in-law \tab female relative \tab male relative \tab none \tab no answer \tab Total \cr
-   1986 \tab - \tab 110 \tab 19 \tab 68 \tab 44 \tab 149 \tab 54 \tab 213 \tab 47 \tab 198 \tab 137 \tab 191 \tab 100 \tab 134 \tab 6 \tab 1470 \cr
-   Total \tab 0 \tab 110 \tab 19 \tab 68 \tab 44 \tab 149 \tab 54 \tab 213 \tab 47 \tab 198 \tab 137 \tab 191 \tab 100 \tab 134 \tab 6 \tab 1470 \cr
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab grmother \tab grfather \tab grdaughter \tab grandson \tab aunt \tab uncle \tab mother-in-law \tab father-in-law \tab sister-in-law \tab brother-in-law \tab female relative \tab male relative \tab none \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab - \tab 110 \tab 19 \tab 68 \tab 44 \tab 149 \tab 54 \tab 213 \tab 47 \tab 198 \tab 137 \tab 191 \tab 100 \tab 134 \tab 6 \tab - \tab 1470 \cr
+   Total \tab 0 \tab 110 \tab 19 \tab 68 \tab 44 \tab 149 \tab 54 \tab 213 \tab 47 \tab 198 \tab 137 \tab 191 \tab 100 \tab 134 \tab 6 \tab 0 \tab 1470 \cr
 }
 }
 

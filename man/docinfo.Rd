@@ -33,10 +33,10 @@ Question Do you think the doctor provided enough information about financial inc
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2753/vshow}{GSS Data Explorer page for \code{docinfo}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab maybe \tab don't know \tab no answer \tab Total \cr
-   2002 \tab - \tab 711 \tab 1853 \tab 161 \tab 35 \tab 5 \tab 2765 \cr
-   Total \tab 0 \tab 711 \tab 1853 \tab 161 \tab 35 \tab 5 \tab 2765 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab maybe \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab - \tab 711 \tab 1853 \tab 161 \tab 35 \tab 5 \tab - \tab 2765 \cr
+   Total \tab 0 \tab 711 \tab 1853 \tab 161 \tab 35 \tab 5 \tab 0 \tab 2765 \cr
 }
 }
 

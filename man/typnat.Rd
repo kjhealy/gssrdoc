@@ -32,10 +32,10 @@ Question K. Do you belong to more than one nationality club?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3120/vshow}{GSS Data Explorer page for \code{typnat}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2004 \tab 2768 \tab 2 \tab 36 \tab 6 \tab 2812 \cr
-   Total \tab 2768 \tab 2 \tab 36 \tab 6 \tab 2812 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2768 \tab 2 \tab 36 \tab 6 \tab - \tab 2812 \cr
+   Total \tab 2768 \tab 2 \tab 36 \tab 6 \tab 0 \tab 2812 \cr
 }
 }
 

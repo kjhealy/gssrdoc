@@ -35,10 +35,10 @@ C. The government must see to it that everyone has a job and that prices are sta
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/227/vshow}{GSS Data Explorer page for \code{equal3}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 204 \tab 426 \tab 487 \tab 307 \tab 32 \tab 17 \tab 1473 \cr
-   Total \tab 0 \tab 204 \tab 426 \tab 487 \tab 307 \tab 32 \tab 17 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 204 \tab 426 \tab 487 \tab 307 \tab 32 \tab 17 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 204 \tab 426 \tab 487 \tab 307 \tab 32 \tab 17 \tab 0 \tab 1473 \cr
 }
 }
 

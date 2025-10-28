@@ -32,11 +32,11 @@ Question (Do you/Does someone in your household) belong to a synagogue, temple, 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3829/vshow}{GSS Data Explorer page for \code{synmem}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   2008 \tab 1968 \tab 24 \tab 31 \tab 2023 \cr
-   2012 \tab 1928 \tab 15 \tab 31 \tab 1974 \cr
-   Total \tab 3896 \tab 39 \tab 62 \tab 3997 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab not available in this year \tab Total \cr
+   2008 \tab 1968 \tab 24 \tab 31 \tab - \tab 2023 \cr
+   2012 \tab 1928 \tab 15 \tab 31 \tab - \tab 1974 \cr
+   Total \tab 3896 \tab 39 \tab 62 \tab 0 \tab 3997 \cr
 }
 }
 

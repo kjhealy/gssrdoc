@@ -37,13 +37,13 @@ A. A working mother can establish just as warm and secure a relationship with he
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4343/vshow}{GSS Data Explorer page for \code{mawrkwrm}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 394 \tab 513 \tab 121 \tab 253 \tab 102 \tab 11 \tab 20 \tab 1481 \cr
-   1994 \tab 1545 \tab 418 \tab 592 \tab 72 \tab 273 \tab 70 \tab 9 \tab 13 \tab 2992 \cr
-   2002 \tab 1594 \tab 468 \tab 383 \tab 124 \tab - \tab 184 \tab 11 \tab 1 \tab 2765 \cr
-   2012 \tab 672 \tab 491 \tab 523 \tab 51 \tab 171 \tab 47 \tab 14 \tab 5 \tab 1974 \cr
-   Total \tab 3878 \tab 1771 \tab 2011 \tab 368 \tab 697 \tab 403 \tab 45 \tab 39 \tab 9212 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 394 \tab 513 \tab 121 \tab 253 \tab 102 \tab 11 \tab 20 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 418 \tab 592 \tab 72 \tab 273 \tab 70 \tab 9 \tab 13 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 468 \tab 383 \tab 124 \tab - \tab 184 \tab 11 \tab 1 \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 491 \tab 523 \tab 51 \tab 171 \tab 47 \tab 14 \tab 5 \tab - \tab 1974 \cr
+   Total \tab 3878 \tab 1771 \tab 2011 \tab 368 \tab 697 \tab 403 \tab 45 \tab 39 \tab 0 \tab 9212 \cr
 }
 }
 

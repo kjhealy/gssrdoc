@@ -38,13 +38,13 @@ A. Helped someone outside of your household with housework or shopping
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4220/vshow}{GSS Data Explorer page for \code{helphwrk}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab more than once a week \tab once a week \tab once a month \tab at least two or three times in the past year \tab once in the past year \tab not at all in the past year \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1616 \tab 135 \tab 98 \tab 196 \tab 340 \tab 121 \tab 250 \tab 1 \tab 8 \tab 2765 \cr
-   2004 \tab 1472 \tab 125 \tab 137 \tab 291 \tab 407 \tab 106 \tab 268 \tab 2 \tab 4 \tab 2812 \cr
-   2012 \tab 666 \tab 58 \tab 80 \tab 175 \tab 394 \tab 120 \tab 473 \tab 1 \tab 7 \tab 1974 \cr
-   2014 \tab 1264 \tab 53 \tab 97 \tab 225 \tab 377 \tab 137 \tab 379 \tab 2 \tab 4 \tab 2538 \cr
-   Total \tab 5018 \tab 371 \tab 412 \tab 887 \tab 1518 \tab 484 \tab 1370 \tab 6 \tab 23 \tab 10089 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab more than once a week \tab once a week \tab once a month \tab at least two or three times in the past year \tab once in the past year \tab not at all in the past year \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1616 \tab 135 \tab 98 \tab 196 \tab 340 \tab 121 \tab 250 \tab 1 \tab 8 \tab - \tab 2765 \cr
+   2004 \tab 1472 \tab 125 \tab 137 \tab 291 \tab 407 \tab 106 \tab 268 \tab 2 \tab 4 \tab - \tab 2812 \cr
+   2012 \tab 666 \tab 58 \tab 80 \tab 175 \tab 394 \tab 120 \tab 473 \tab 1 \tab 7 \tab - \tab 1974 \cr
+   2014 \tab 1264 \tab 53 \tab 97 \tab 225 \tab 377 \tab 137 \tab 379 \tab 2 \tab 4 \tab - \tab 2538 \cr
+   Total \tab 5018 \tab 371 \tab 412 \tab 887 \tab 1518 \tab 484 \tab 1370 \tab 6 \tab 23 \tab 0 \tab 10089 \cr
 }
 }
 

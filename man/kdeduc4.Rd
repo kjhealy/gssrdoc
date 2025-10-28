@@ -31,10 +31,10 @@ F4. Highest school grade fourth child completed.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1531/vshow}{GSS Data Explorer page for \code{kdeduc4}}.
 
-Counts by year:\tabular{lllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 20 \tab 4 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2818 \tab 1 \tab 3 \tab 5 \tab 73 \tab 9 \tab 21 \tab 6 \tab 29 \tab 1 \tab 2 \tab 3 \tab 1 \tab 1 \tab 3 \tab 4 \tab 12 \tab 2992 \cr
-   Total \tab 2818 \tab 1 \tab 3 \tab 5 \tab 73 \tab 9 \tab 21 \tab 6 \tab 29 \tab 1 \tab 2 \tab 3 \tab 1 \tab 1 \tab 3 \tab 4 \tab 12 \tab 2992 \cr
+Counts by year:\tabular{llllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 20 \tab 4 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2818 \tab 1 \tab 3 \tab 5 \tab 73 \tab 9 \tab 21 \tab 6 \tab 29 \tab 1 \tab 2 \tab 3 \tab 1 \tab 1 \tab 3 \tab 4 \tab 12 \tab - \tab 2992 \cr
+   Total \tab 2818 \tab 1 \tab 3 \tab 5 \tab 73 \tab 9 \tab 21 \tab 6 \tab 29 \tab 1 \tab 2 \tab 3 \tab 1 \tab 1 \tab 3 \tab 4 \tab 12 \tab 0 \tab 2992 \cr
 }
 }
 

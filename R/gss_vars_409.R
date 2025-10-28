@@ -24,10 +24,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |3085 |128 |1279 |12         |6         |4510  |
-#'  |Total |3085 |128 |1279 |12         |6         |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3085 |128 |1279 |12         |6         |-                          |4510  |
+#'  |Total |3085 |128 |1279 |12         |6         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -65,10 +65,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |3085 |35  |1372 |12         |6         |4510  |
-#'  |Total |3085 |35  |1372 |12         |6         |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3085 |35  |1372 |12         |6         |-                          |4510  |
+#'  |Total |3085 |35  |1372 |12         |6         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -106,10 +106,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |3085 |79  |1328 |12         |6         |4510  |
-#'  |Total |3085 |79  |1328 |12         |6         |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3085 |79  |1328 |12         |6         |-                          |4510  |
+#'  |Total |3085 |79  |1328 |12         |6         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -147,10 +147,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |3085 |64  |1343 |12         |6         |4510  |
-#'  |Total |3085 |64  |1343 |12         |6         |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3085 |64  |1343 |12         |6         |-                          |4510  |
+#'  |Total |3085 |64  |1343 |12         |6         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -188,10 +188,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |3085 |3   |1404 |12         |6         |4510  |
-#'  |Total |3085 |3   |1404 |12         |6         |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3085 |3   |1404 |12         |6         |-                          |4510  |
+#'  |Total |3085 |3   |1404 |12         |6         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -229,10 +229,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |3085 |7   |1400 |12         |6         |4510  |
-#'  |Total |3085 |7   |1400 |12         |6         |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3085 |7   |1400 |12         |6         |-                          |4510  |
+#'  |Total |3085 |7   |1400 |12         |6         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -270,10 +270,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |3085 |47  |1360 |12         |6         |4510  |
-#'  |Total |3085 |47  |1360 |12         |6         |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3085 |47  |1360 |12         |6         |-                          |4510  |
+#'  |Total |3085 |47  |1360 |12         |6         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -311,10 +311,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |3085 |21  |1386 |12         |6         |4510  |
-#'  |Total |3085 |21  |1386 |12         |6         |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3085 |21  |1386 |12         |6         |-                          |4510  |
+#'  |Total |3085 |21  |1386 |12         |6         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -352,10 +352,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |3085 |30  |1377 |12         |6         |4510  |
-#'  |Total |3085 |30  |1377 |12         |6         |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3085 |30  |1377 |12         |6         |-                          |4510  |
+#'  |Total |3085 |30  |1377 |12         |6         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV
@@ -393,10 +393,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |3085 |37  |1370 |12         |6         |4510  |
-#'  |Total |3085 |37  |1370 |12         |6         |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3085 |37  |1370 |12         |6         |-                          |4510  |
+#'  |Total |3085 |37  |1370 |12         |6         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health IV

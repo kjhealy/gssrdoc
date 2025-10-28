@@ -32,10 +32,10 @@ Question Has (s/he) ever worked at one job for as long as one year?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1540/vshow}{GSS Data Explorer page for \code{kdevwork}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2845 \tab 81 \tab 52 \tab 7 \tab 7 \tab 2992 \cr
-   Total \tab 2845 \tab 81 \tab 52 \tab 7 \tab 7 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2845 \tab 81 \tab 52 \tab 7 \tab 7 \tab - \tab 2992 \cr
+   Total \tab 2845 \tab 81 \tab 52 \tab 7 \tab 7 \tab 0 \tab 2992 \cr
 }
 }
 

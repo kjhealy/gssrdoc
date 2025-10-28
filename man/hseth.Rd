@@ -38,10 +38,10 @@ B. Besides Whites, what was the largest racial group in your high school/the las
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2377/vshow}{GSS Data Explorer page for \code{hseth}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab blacks/african-americans \tab hispanics \tab asians \tab american indians \tab all, mixed \tab 2 or more groups \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1706 \tab 606 \tab 223 \tab 106 \tab 28 \tab 5 \tab 3 \tab 66 \tab 74 \tab 2817 \cr
-   Total \tab 1706 \tab 606 \tab 223 \tab 106 \tab 28 \tab 5 \tab 3 \tab 66 \tab 74 \tab 2817 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab blacks/african-americans \tab hispanics \tab asians \tab american indians \tab all, mixed \tab 2 or more groups \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1706 \tab 606 \tab 223 \tab 106 \tab 28 \tab 5 \tab 3 \tab 66 \tab 74 \tab - \tab 2817 \cr
+   Total \tab 1706 \tab 606 \tab 223 \tab 106 \tab 28 \tab 5 \tab 3 \tab 66 \tab 74 \tab 0 \tab 2817 \cr
 }
 }
 

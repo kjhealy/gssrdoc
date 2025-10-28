@@ -36,10 +36,10 @@ B. How many are named Karen?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3667/vshow}{GSS Data Explorer page for \code{trtkaren}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3821 \tab 384 \tab 193 \tab 72 \tab 4 \tab 1 \tab 20 \tab 15 \tab 4510 \cr
-   Total \tab 3821 \tab 384 \tab 193 \tab 72 \tab 4 \tab 1 \tab 20 \tab 15 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3821 \tab 384 \tab 193 \tab 72 \tab 4 \tab 1 \tab 20 \tab 15 \tab - \tab 4510 \cr
+   Total \tab 3821 \tab 384 \tab 193 \tab 72 \tab 4 \tab 1 \tab 20 \tab 15 \tab 0 \tab 4510 \cr
 }
 }
 

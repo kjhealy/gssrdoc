@@ -32,10 +32,10 @@ Question In the past three or four years, have you attended any political meetin
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1030/vshow}{GSS Data Explorer page for \code{polrally}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1987 \tab - \tab 354 \tab 1453 \tab 12 \tab 1819 \cr
-   Total \tab 0 \tab 354 \tab 1453 \tab 12 \tab 1819 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab - \tab 354 \tab 1453 \tab 12 \tab - \tab 1819 \cr
+   Total \tab 0 \tab 354 \tab 1453 \tab 12 \tab 0 \tab 1819 \cr
 }
 }
 

@@ -33,11 +33,11 @@ Question Was your (husband/wife) raised Jewish?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3825/vshow}{GSS Data Explorer page for \code{spjoth16}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   2008 \tab 2020 \tab 1 \tab 2 \tab 2023 \cr
-   2012 \tab 1971 \tab 1 \tab 2 \tab 1974 \cr
-   Total \tab 3991 \tab 2 \tab 4 \tab 3997 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab not available in this year \tab Total \cr
+   2008 \tab 2020 \tab 1 \tab 2 \tab - \tab 2023 \cr
+   2012 \tab 1971 \tab 1 \tab 2 \tab - \tab 1974 \cr
+   Total \tab 3991 \tab 2 \tab 4 \tab 0 \tab 3997 \cr
 }
 }
 

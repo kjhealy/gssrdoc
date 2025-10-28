@@ -33,12 +33,12 @@ B. Visit an art museum or gallery.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1406/vshow}{GSS Data Explorer page for \code{visitart}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 646 \tab 947 \tab 1 \tab 12 \tab 1606 \cr
-   1998 \tab 1387 \tab 527 \tab 907 \tab 1 \tab 10 \tab 2832 \cr
-   2002 \tab - \tab 1018 \tab 1721 \tab 14 \tab 12 \tab 2765 \cr
-   Total \tab 1387 \tab 2191 \tab 3575 \tab 16 \tab 34 \tab 7203 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 646 \tab 947 \tab 1 \tab 12 \tab - \tab 1606 \cr
+   1998 \tab 1387 \tab 527 \tab 907 \tab 1 \tab 10 \tab - \tab 2832 \cr
+   2002 \tab - \tab 1018 \tab 1721 \tab 14 \tab 12 \tab - \tab 2765 \cr
+   Total \tab 1387 \tab 2191 \tab 3575 \tab 16 \tab 34 \tab 0 \tab 7203 \cr
 }
 }
 

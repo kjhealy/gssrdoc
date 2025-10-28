@@ -33,10 +33,10 @@ Question On a scale of 1 to 5 how close did you feel to that person at the time 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6185/vshow}{GSS Data Explorer page for \code{suiclse1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 1 - not close at all \tab 2 \tab 3 \tab 4 \tab 5 - very close \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2093 \tab 144 \tab 129 \tab 210 \tab 136 \tab 130 \tab 1 \tab 24 \tab 2867 \cr
-   Total \tab 2093 \tab 144 \tab 129 \tab 210 \tab 136 \tab 130 \tab 1 \tab 24 \tab 2867 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 1 - not close at all \tab 2 \tab 3 \tab 4 \tab 5 - very close \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2093 \tab 144 \tab 129 \tab 210 \tab 136 \tab 130 \tab 1 \tab 24 \tab - \tab 2867 \cr
+   Total \tab 2093 \tab 144 \tab 129 \tab 210 \tab 136 \tab 130 \tab 1 \tab 24 \tab 0 \tab 2867 \cr
 }
 }
 

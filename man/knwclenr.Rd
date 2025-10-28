@@ -34,10 +34,10 @@ Question Do you know a woman or a man who isï¿½A home or office cleaner
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7231/vshow}{GSS Data Explorer page for \code{knwclenr}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab family or relative \tab close friend \tab someone else i know \tab no one \tab don't know \tab Total \cr
-   2018 \tab 1175 \tab 167 \tab 161 \tab 304 \tab 539 \tab 2 \tab 2348 \cr
-   Total \tab 1175 \tab 167 \tab 161 \tab 304 \tab 539 \tab 2 \tab 2348 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab family or relative \tab close friend \tab someone else i know \tab no one \tab don't know \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 167 \tab 161 \tab 304 \tab 539 \tab 2 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 167 \tab 161 \tab 304 \tab 539 \tab 2 \tab 0 \tab 2348 \cr
 }
 }
 

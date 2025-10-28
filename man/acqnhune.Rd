@@ -36,10 +36,10 @@ C. How many are (IF NUMKNOWN = 4 or 5 DISPLAY: you pretty certain are) currently
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3619/vshow}{GSS Data Explorer page for \code{acqnhune}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 4002 \tab 262 \tab 50 \tab 66 \tab 8 \tab 33 \tab 83 \tab 6 \tab 4510 \cr
-   Total \tab 4002 \tab 262 \tab 50 \tab 66 \tab 8 \tab 33 \tab 83 \tab 6 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 4002 \tab 262 \tab 50 \tab 66 \tab 8 \tab 33 \tab 83 \tab 6 \tab - \tab 4510 \cr
+   Total \tab 4002 \tab 262 \tab 50 \tab 66 \tab 8 \tab 33 \tab 83 \tab 6 \tab 0 \tab 4510 \cr
 }
 }
 

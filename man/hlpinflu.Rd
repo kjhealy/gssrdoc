@@ -35,10 +35,10 @@ B. And are there people you could ask to help influence important decisions in y
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4120/vshow}{GSS Data Explorer page for \code{hlpinflu}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab no, nobody \tab yes, a few people \tab yes, some people \tab yes, a lot of people \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 2992 \tab 566 \tab 630 \tab 229 \tab 85 \tab 6 \tab 2 \tab 4510 \cr
-   Total \tab 2992 \tab 566 \tab 630 \tab 229 \tab 85 \tab 6 \tab 2 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab no, nobody \tab yes, a few people \tab yes, some people \tab yes, a lot of people \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2992 \tab 566 \tab 630 \tab 229 \tab 85 \tab 6 \tab 2 \tab - \tab 4510 \cr
+   Total \tab 2992 \tab 566 \tab 630 \tab 229 \tab 85 \tab 6 \tab 2 \tab 0 \tab 4510 \cr
 }
 }
 

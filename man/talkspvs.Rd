@@ -35,10 +35,10 @@ Question How comfortable are you talking with your supervisor about conflicts be
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5505/vshow}{GSS Data Explorer page for \code{talkspvs}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab not at all comfortable \tab a little \tab somewhat \tab very \tab extremely \tab don't know \tab no answer \tab Total \cr
-   2014 \tab 1505 \tab 139 \tab 119 \tab 262 \tab 337 \tab 166 \tab 5 \tab 5 \tab 2538 \cr
-   Total \tab 1505 \tab 139 \tab 119 \tab 262 \tab 337 \tab 166 \tab 5 \tab 5 \tab 2538 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab not at all comfortable \tab a little \tab somewhat \tab very \tab extremely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab 1505 \tab 139 \tab 119 \tab 262 \tab 337 \tab 166 \tab 5 \tab 5 \tab - \tab 2538 \cr
+   Total \tab 1505 \tab 139 \tab 119 \tab 262 \tab 337 \tab 166 \tab 5 \tab 5 \tab 0 \tab 2538 \cr
 }
 }
 

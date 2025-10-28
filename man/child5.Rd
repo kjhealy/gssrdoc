@@ -36,11 +36,11 @@ D5. Fifth Person is Child
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/894/vshow}{GSS Data Explorer page for \code{child5}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab Total \cr
-   1985 \tab 1153 \tab 43 \tab 335 \tab 3 \tab 1534 \cr
-   2004 \tab 2600 \tab 20 \tab 146 \tab 46 \tab 2812 \cr
-   Total \tab 3753 \tab 63 \tab 481 \tab 49 \tab 4346 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 1153 \tab 43 \tab 335 \tab 3 \tab - \tab 1534 \cr
+   2004 \tab 2600 \tab 20 \tab 146 \tab 46 \tab - \tab 2812 \cr
+   Total \tab 3753 \tab 63 \tab 481 \tab 49 \tab 0 \tab 4346 \cr
 }
 }
 

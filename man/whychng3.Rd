@@ -34,10 +34,10 @@ C. Third Mention
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3073/vshow}{GSS Data Explorer page for \code{whychng3}}.
 
-Counts by year:\tabular{llllllllllllllllllllll}{
-   year \tab iap \tab 25 \tab 28 \tab 29 \tab 30 \tab 31 \tab 35 \tab 38 \tab 39 \tab 43 \tab 44 \tab 45 \tab 5 \tab 68 \tab 70 \tab 74 \tab 95 \tab no mention \tab nothing special happened \tab no answer \tab Total \cr
-   2004 \tab 2163 \tab 1 \tab 3 \tab 3 \tab 2 \tab 6 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 3 \tab 3 \tab 1 \tab 1 \tab 584 \tab 1 \tab 32 \tab 2812 \cr
-   Total \tab 2163 \tab 1 \tab 3 \tab 3 \tab 2 \tab 6 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 3 \tab 3 \tab 1 \tab 1 \tab 584 \tab 1 \tab 32 \tab 2812 \cr
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab iap \tab 25 \tab 28 \tab 29 \tab 30 \tab 31 \tab 35 \tab 38 \tab 39 \tab 43 \tab 44 \tab 45 \tab 5 \tab 68 \tab 70 \tab 74 \tab 95 \tab no mention \tab nothing special happened \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2163 \tab 1 \tab 3 \tab 3 \tab 2 \tab 6 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 3 \tab 3 \tab 1 \tab 1 \tab 584 \tab 1 \tab 32 \tab - \tab 2812 \cr
+   Total \tab 2163 \tab 1 \tab 3 \tab 3 \tab 2 \tab 6 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 3 \tab 3 \tab 1 \tab 1 \tab 584 \tab 1 \tab 32 \tab 0 \tab 2812 \cr
 }
 }
 

@@ -32,10 +32,10 @@ C7. Birth year of seventh child.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1507/vshow}{GSS Data Explorer page for \code{kdyrbrn7}}.
 
-Counts by year:\tabular{llllllllllllllllllllllllllll}{
-   year \tab iap \tab 1931 \tab 1946 \tab 1951 \tab 1953 \tab 1955 \tab 1956 \tab 1957 \tab 1958 \tab 1959 \tab 1960 \tab 1961 \tab 1962 \tab 1963 \tab 1964 \tab 1966 \tab 1967 \tab 1971 \tab 1972 \tab 1976 \tab 1978 \tab 1980 \tab 1986 \tab 1988 \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2955 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 2 \tab 2992 \cr
-   Total \tab 2955 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 2 \tab 2992 \cr
+Counts by year:\tabular{lllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1931 \tab 1946 \tab 1951 \tab 1953 \tab 1955 \tab 1956 \tab 1957 \tab 1958 \tab 1959 \tab 1960 \tab 1961 \tab 1962 \tab 1963 \tab 1964 \tab 1966 \tab 1967 \tab 1971 \tab 1972 \tab 1976 \tab 1978 \tab 1980 \tab 1986 \tab 1988 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2955 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 2 \tab - \tab 2992 \cr
+   Total \tab 2955 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 2 \tab 2 \tab 0 \tab 2992 \cr
 }
 }
 

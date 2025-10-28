@@ -40,10 +40,10 @@ Question Now, think about the other family member you have contact with most fre
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7268/vshow}{GSS Data Explorer page for \code{cntctfam}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab daily \tab several times a week \tab once a week \tab two to three times a month \tab once a month \tab several times a year \tab less often \tab never \tab i do not have other family members \tab the other family member i have the most contact with the most frequently lives with me \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 137 \tab 221 \tab 178 \tab 165 \tab 115 \tab 167 \tab 79 \tab 74 \tab 28 \tab 6 \tab 2 \tab 1 \tab 2348 \cr
-   Total \tab 1175 \tab 137 \tab 221 \tab 178 \tab 165 \tab 115 \tab 167 \tab 79 \tab 74 \tab 28 \tab 6 \tab 2 \tab 1 \tab 2348 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab daily \tab several times a week \tab once a week \tab two to three times a month \tab once a month \tab several times a year \tab less often \tab never \tab i do not have other family members \tab the other family member i have the most contact with the most frequently lives with me \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 137 \tab 221 \tab 178 \tab 165 \tab 115 \tab 167 \tab 79 \tab 74 \tab 28 \tab 6 \tab 2 \tab 1 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 137 \tab 221 \tab 178 \tab 165 \tab 115 \tab 167 \tab 79 \tab 74 \tab 28 \tab 6 \tab 2 \tab 1 \tab 0 \tab 2348 \cr
 }
 }
 

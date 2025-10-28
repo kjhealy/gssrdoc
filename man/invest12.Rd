@@ -33,11 +33,11 @@ E. Invest money in a stock or mutual fund?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2419/vshow}{GSS Data Explorer page for \code{invest12}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2075 \tab 113 \tab 553 \tab 76 \tab - \tab 2817 \cr
-   2002 \tab 1681 \tab 129 \tab 860 \tab 94 \tab 1 \tab 2765 \cr
-   Total \tab 3756 \tab 242 \tab 1413 \tab 170 \tab 1 \tab 5582 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 113 \tab 553 \tab 76 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 129 \tab 860 \tab 94 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 3756 \tab 242 \tab 1413 \tab 170 \tab 1 \tab 0 \tab 5582 \cr
 }
 }
 

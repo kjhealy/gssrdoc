@@ -34,10 +34,10 @@ C. Marriage
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1101/vshow}{GSS Data Explorer page for \code{faith3}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
-   1988 \tab - \tab 512 \tab 479 \tab 407 \tab 61 \tab 22 \tab 1481 \cr
-   Total \tab 0 \tab 512 \tab 479 \tab 407 \tab 61 \tab 22 \tab 1481 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 512 \tab 479 \tab 407 \tab 61 \tab 22 \tab - \tab 1481 \cr
+   Total \tab 0 \tab 512 \tab 479 \tab 407 \tab 61 \tab 22 \tab 0 \tab 1481 \cr
 }
 }
 

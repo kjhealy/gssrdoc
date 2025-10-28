@@ -36,12 +36,13 @@ I. Its history
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4848/vshow}{GSS Data Explorer page for \code{proudhis}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 638 \tab 491 \tab 108 \tab 51 \tab 52 \tab 27 \tab 2904 \cr
-   2004 \tab 1596 \tab 727 \tab 365 \tab 70 \tab 22 \tab 31 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 648 \tab 460 \tab 78 \tab 33 \tab 52 \tab 3 \tab 2538 \cr
-   Total \tab 4397 \tab 2013 \tab 1316 \tab 256 \tab 106 \tab 135 \tab 31 \tab 8254 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 638 \tab 491 \tab 108 \tab 51 \tab 52 \tab 27 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 727 \tab 365 \tab 70 \tab 22 \tab 31 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 648 \tab 460 \tab 78 \tab 33 \tab 52 \tab 3 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1661 \tab 387 \tab 658 \tab 299 \tab 154 \tab 130 \tab 1 \tab - \tab 19 \tab 3309 \cr
+   Total \tab 6058 \tab 2400 \tab 1974 \tab 555 \tab 260 \tab 265 \tab 32 \tab 0 \tab 19 \tab 11563 \cr
 }
 }
 

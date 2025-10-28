@@ -37,10 +37,10 @@ E. I feel God's love for me, directly or through others.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2112/vshow}{GSS Data Explorer page for \code{godlove}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never/almst nevr \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 237 \tab 372 \tab 246 \tab 210 \tab 182 \tab 143 \tab 21 \tab 34 \tab 2832 \cr
-   Total \tab 1387 \tab 237 \tab 372 \tab 246 \tab 210 \tab 182 \tab 143 \tab 21 \tab 34 \tab 2832 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never/almst nevr \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 237 \tab 372 \tab 246 \tab 210 \tab 182 \tab 143 \tab 21 \tab 34 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 237 \tab 372 \tab 246 \tab 210 \tab 182 \tab 143 \tab 21 \tab 34 \tab 0 \tab 2832 \cr
 }
 }
 

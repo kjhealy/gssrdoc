@@ -32,24 +32,24 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7918/vshow}{GSS Data Explorer page for \code{brv5frndnum}}.
 
-Counts by year:\tabular{lllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 15 \tab 16 \tab 2 \tab 3 \tab 4 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab 9 \tab skipped on web \tab Total \cr
-   2022 \tab 3070 \tab 40 \tab 132 \tab 1 \tab 1 \tab 2 \tab 1 \tab 75 \tab 50 \tab 18 \tab 24 \tab 1 \tab 8 \tab 2 \tab 3 \tab 1 \tab 115 \tab 3544 \cr
-   Total \tab 3070 \tab 40 \tab 132 \tab 1 \tab 1 \tab 2 \tab 1 \tab 75 \tab 50 \tab 18 \tab 24 \tab 1 \tab 8 \tab 2 \tab 3 \tab 1 \tab 115 \tab 3544 \cr
+Counts by year:\tabular{llllllllllllllllllll}{
+   year \tab not available in this year \tab 0 \tab 1 \tab 10 \tab 12 \tab 15 \tab 16 \tab 2 \tab 3 \tab 4 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab 9 \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 38 \tab 129 \tab 1 \tab 1 \tab 1 \tab 1 \tab 74 \tab 49 \tab 17 \tab 23 \tab 1 \tab 8 \tab 2 \tab 3 \tab 1 \tab 3081 \tab 114 \tab 3544 \cr
+   Total \tab 0 \tab 38 \tab 129 \tab 1 \tab 1 \tab 1 \tab 1 \tab 74 \tab 49 \tab 17 \tab 23 \tab 1 \tab 8 \tab 2 \tab 3 \tab 1 \tab 3081 \tab 114 \tab 3544 \cr
 }
 }
 
 \seealso{
 Other GSS Next: 
 \code{\link{brv16}},
-\code{\link{brv16child}},
-\code{\link{brv16grand}},
-\code{\link{brv16oth}},
 \code{\link{brv16par}},
-\code{\link{brv16sib}},
 \code{\link{brv16sp}},
+\code{\link{brv5bronum}},
 \code{\link{brv5cowknum}},
-\code{\link{brv5othnum}}
+\code{\link{brv5cuznum}},
+\code{\link{brv5othnum}},
+\code{\link{brv5silnum}},
+\code{\link{brv5sisnum}}
 }
 \concept{GSS Next}
 \keyword{variable}

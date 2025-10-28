@@ -34,10 +34,10 @@ C. How fair do you feel the division of work around the house is in your househo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1662/vshow}{GSS Data Explorer page for \code{fairhwrk}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab fair to both \tab unfair to me \tab unfair to my spouse or partner \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2124 \tab 582 \tab 95 \tab 82 \tab 8 \tab 13 \tab 2904 \cr
-   Total \tab 2124 \tab 582 \tab 95 \tab 82 \tab 8 \tab 13 \tab 2904 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab fair to both \tab unfair to me \tab unfair to my spouse or partner \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2124 \tab 582 \tab 95 \tab 82 \tab 8 \tab 13 \tab - \tab 2904 \cr
+   Total \tab 2124 \tab 582 \tab 95 \tab 82 \tab 8 \tab 13 \tab 0 \tab 2904 \cr
 }
 }
 

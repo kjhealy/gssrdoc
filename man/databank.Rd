@@ -36,12 +36,12 @@ Question The federal government has a lot of different pieces of information abo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4003/vshow}{GSS Data Explorer page for \code{databank}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very serious threat \tab fairly serious \tab not serious \tab not a threat at all \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 197 \tab 191 \tab 176 \tab 56 \tab 46 \tab 11 \tab 1534 \cr
-   1996 \tab 1572 \tab 478 \tab 422 \tab 254 \tab 57 \tab 93 \tab 28 \tab 2904 \cr
-   2006 \tab 2992 \tab 398 \tab 593 \tab 397 \tab 104 \tab 23 \tab 3 \tab 4510 \cr
-   Total \tab 5421 \tab 1073 \tab 1206 \tab 827 \tab 217 \tab 162 \tab 42 \tab 8948 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very serious threat \tab fairly serious \tab not serious \tab not a threat at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 197 \tab 191 \tab 176 \tab 56 \tab 46 \tab 11 \tab - \tab 1534 \cr
+   1996 \tab 1572 \tab 478 \tab 422 \tab 254 \tab 57 \tab 93 \tab 28 \tab - \tab 2904 \cr
+   2006 \tab 2992 \tab 398 \tab 593 \tab 397 \tab 104 \tab 23 \tab 3 \tab - \tab 4510 \cr
+   Total \tab 5421 \tab 1073 \tab 1206 \tab 827 \tab 217 \tab 162 \tab 42 \tab 0 \tab 8948 \cr
 }
 }
 

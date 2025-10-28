@@ -32,10 +32,10 @@ Question During the last 12 months, have you read or listened to the reading of 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7278/vshow}{GSS Data Explorer page for \code{relscrpt}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab can't choose \tab no answer \tab Total \cr
-   2018 \tab 1173 \tab 685 \tab 478 \tab 1 \tab 11 \tab 2348 \cr
-   Total \tab 1173 \tab 685 \tab 478 \tab 1 \tab 11 \tab 2348 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1173 \tab 685 \tab 478 \tab 1 \tab 11 \tab - \tab 2348 \cr
+   Total \tab 1173 \tab 685 \tab 478 \tab 1 \tab 11 \tab 0 \tab 2348 \cr
 }
 }
 

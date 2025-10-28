@@ -33,10 +33,10 @@ Question In history classes in high school and college, do the experiences of ra
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1630/vshow}{GSS Data Explorer page for \code{ethhist}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab too much attention now \tab too little attention \tab about the right amount \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 334 \tab 306 \tab 630 \tab 193 \tab 11 \tab 2992 \cr
-   Total \tab 1518 \tab 334 \tab 306 \tab 630 \tab 193 \tab 11 \tab 2992 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too much attention now \tab too little attention \tab about the right amount \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 334 \tab 306 \tab 630 \tab 193 \tab 11 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 334 \tab 306 \tab 630 \tab 193 \tab 11 \tab 0 \tab 2992 \cr
 }
 }
 

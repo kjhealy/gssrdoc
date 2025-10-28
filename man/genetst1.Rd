@@ -35,12 +35,12 @@ Question B. How much would you say you have heard or read about genetic testing?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5084/vshow}{GSS Data Explorer page for \code{genetst1}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab a great deal \tab something but not very much \tab nothing at all \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2431 \tab 70 \tab 276 \tab 82 \tab 10 \tab 35 \tab 2904 \cr
-   2004 \tab 2 \tab 508 \tab 1896 \tab 397 \tab 9 \tab - \tab 2812 \cr
-   2018 \tab 1168 \tab 142 \tab 694 \tab 314 \tab 4 \tab 26 \tab 2348 \cr
-   Total \tab 3601 \tab 720 \tab 2866 \tab 793 \tab 23 \tab 61 \tab 8064 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a great deal \tab something but not very much \tab nothing at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2431 \tab 70 \tab 276 \tab 82 \tab 10 \tab 35 \tab - \tab 2904 \cr
+   2004 \tab 2 \tab 508 \tab 1896 \tab 397 \tab 9 \tab - \tab - \tab 2812 \cr
+   2018 \tab 1168 \tab 142 \tab 694 \tab 314 \tab 4 \tab 26 \tab - \tab 2348 \cr
+   Total \tab 3601 \tab 720 \tab 2866 \tab 793 \tab 23 \tab 61 \tab 0 \tab 8064 \cr
 }
 }
 

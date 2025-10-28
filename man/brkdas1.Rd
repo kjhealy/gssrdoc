@@ -33,10 +33,10 @@ Question As far as you know, what is a nervous breakdown? (PROBES: How would you
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2049/vshow}{GSS Data Explorer page for \code{brkdas1}}.
 
-Counts by year:\tabular{llllllllllllllllllllllll}{
-   year \tab iap \tab 1 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 21 \tab 22 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab Total \cr
-   1996 \tab 2168 \tab 22 \tab 27 \tab 3 \tab 17 \tab 35 \tab 49 \tab 1 \tab 1 \tab 3 \tab 1 \tab 9 \tab 9 \tab 3 \tab 23 \tab 81 \tab 348 \tab 5 \tab 20 \tab 40 \tab 7 \tab 32 \tab 2904 \cr
-   Total \tab 2168 \tab 22 \tab 27 \tab 3 \tab 17 \tab 35 \tab 49 \tab 1 \tab 1 \tab 3 \tab 1 \tab 9 \tab 9 \tab 3 \tab 23 \tab 81 \tab 348 \tab 5 \tab 20 \tab 40 \tab 7 \tab 32 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 21 \tab 22 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2168 \tab 22 \tab 27 \tab 3 \tab 17 \tab 35 \tab 49 \tab 1 \tab 1 \tab 3 \tab 1 \tab 9 \tab 9 \tab 3 \tab 23 \tab 81 \tab 348 \tab 5 \tab 20 \tab 40 \tab 7 \tab 32 \tab - \tab 2904 \cr
+   Total \tab 2168 \tab 22 \tab 27 \tab 3 \tab 17 \tab 35 \tab 49 \tab 1 \tab 1 \tab 3 \tab 1 \tab 9 \tab 9 \tab 3 \tab 23 \tab 81 \tab 348 \tab 5 \tab 20 \tab 40 \tab 7 \tab 32 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -35,10 +35,10 @@ D2. Relation to R. of second sibling
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1564/vshow}{GSS Data Explorer page for \code{sbrel2}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab full \tab adopted \tab step \tab half \tab no answer \tab Total \cr
-   1994 \tab 721 \tab 1940 \tab 20 \tab 89 \tab 175 \tab 47 \tab 2992 \cr
-   Total \tab 721 \tab 1940 \tab 20 \tab 89 \tab 175 \tab 47 \tab 2992 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab full \tab adopted \tab step \tab half \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 721 \tab 1940 \tab 20 \tab 89 \tab 175 \tab 47 \tab - \tab 2992 \cr
+   Total \tab 721 \tab 1940 \tab 20 \tab 89 \tab 175 \tab 47 \tab 0 \tab 2992 \cr
 }
 }
 

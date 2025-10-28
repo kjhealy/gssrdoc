@@ -35,12 +35,13 @@ J. Check into a mental hospital.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2020/vshow}{GSS Data Explorer page for \code{mentlhos}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 441 \tab 836 \tab 132 \tab 35 \tab 2904 \cr
-   2006 \tab 3073 \tab 465 \tab 879 \tab 76 \tab 17 \tab 4510 \cr
-   2018 \tab 1175 \tab 469 \tab 622 \tab 55 \tab 27 \tab 2348 \cr
-   Total \tab 5708 \tab 1375 \tab 2337 \tab 263 \tab 79 \tab 9762 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 441 \tab 836 \tab 132 \tab 35 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 465 \tab 879 \tab 76 \tab 17 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 469 \tab 622 \tab 55 \tab 27 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1693 \tab 675 \tab 806 \tab 89 \tab 12 \tab - \tab 34 \tab 3309 \cr
+   Total \tab 7401 \tab 2050 \tab 3143 \tab 352 \tab 91 \tab 0 \tab 34 \tab 13071 \cr
 }
 }
 

@@ -33,10 +33,10 @@ B. Given money to an organization concerned with this issue?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/421/vshow}{GSS Data Explorer page for \code{racgive}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1983 \tab 804 \tab 70 \tab 718 \tab 7 \tab 1599 \cr
-   Total \tab 804 \tab 70 \tab 718 \tab 7 \tab 1599 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab 804 \tab 70 \tab 718 \tab 7 \tab - \tab 1599 \cr
+   Total \tab 804 \tab 70 \tab 718 \tab 7 \tab 0 \tab 1599 \cr
 }
 }
 

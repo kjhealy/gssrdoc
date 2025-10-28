@@ -36,10 +36,10 @@ Question Was that person's death emotionally distressing to you?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6184/vshow}{GSS Data Explorer page for \code{suineg1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab yes, greatly \tab yes, to some extent \tab yes, but not much \tab no \tab not sure \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2093 \tab 259 \tab 257 \tab 113 \tab 103 \tab 18 \tab 1 \tab 23 \tab 2867 \cr
-   Total \tab 2093 \tab 259 \tab 257 \tab 113 \tab 103 \tab 18 \tab 1 \tab 23 \tab 2867 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab yes, greatly \tab yes, to some extent \tab yes, but not much \tab no \tab not sure \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2093 \tab 259 \tab 257 \tab 113 \tab 103 \tab 18 \tab 1 \tab 23 \tab - \tab 2867 \cr
+   Total \tab 2093 \tab 259 \tab 257 \tab 113 \tab 103 \tab 18 \tab 1 \tab 23 \tab 0 \tab 2867 \cr
 }
 }
 

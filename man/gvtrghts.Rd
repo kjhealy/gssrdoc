@@ -33,10 +33,10 @@ A. That governments respect democratic rights whatever the circumstances
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4964/vshow}{GSS Data Explorer page for \code{gvtrghts}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab Total \cr
-   2014 \tab 1274 \tab 18 \tab 13 \tab 36 \tab 128 \tab 159 \tab 220 \tab 608 \tab 80 \tab 2 \tab 2538 \cr
-   Total \tab 1274 \tab 18 \tab 13 \tab 36 \tab 128 \tab 159 \tab 220 \tab 608 \tab 80 \tab 2 \tab 2538 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab 1274 \tab 18 \tab 13 \tab 36 \tab 128 \tab 159 \tab 220 \tab 608 \tab 80 \tab 2 \tab - \tab 2538 \cr
+   Total \tab 1274 \tab 18 \tab 13 \tab 36 \tab 128 \tab 159 \tab 220 \tab 608 \tab 80 \tab 2 \tab 0 \tab 2538 \cr
 }
 }
 

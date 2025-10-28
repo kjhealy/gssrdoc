@@ -26,10 +26,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |daily |at least several times a week |at least once a week |at least once a month |several times a year |less often |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:-----------------------------|:--------------------|:---------------------|:--------------------|:----------|:----------|:---------|:-----|
-#'  |2002  |2397 |101   |97                            |88                   |33                    |26                   |14         |1          |8         |2765  |
-#'  |Total |2397 |101   |97                            |88                   |33                    |26                   |14         |1          |8         |2765  |
+#'  |year  |iap  |daily |at least several times a week |at least once a week |at least once a month |several times a year |less often |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:-----------------------------|:--------------------|:---------------------|:--------------------|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |2397 |101   |97                            |88                   |33                    |26                   |14         |1          |8         |-                          |2765  |
+#'  |Total |2397 |101   |97                            |88                   |33                    |26                   |14         |1          |8         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -73,10 +73,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |he lives in the same household as i do |daily |at least several times a week |at least once a week |at least once a month |several times a year |less often |never |my father is no longer alive |i dont know where father lives |no answer |Total |
-#'  |:-----|:----|:--------------------------------------|:-----|:-----------------------------|:--------------------|:---------------------|:--------------------|:----------|:-----|:----------------------------|:------------------------------|:---------|:-----|
-#'  |2002  |1616 |35                                     |40    |60                            |92                   |94                    |114                  |85         |55    |545                          |25                             |4         |2765  |
-#'  |Total |1616 |35                                     |40    |60                            |92                   |94                    |114                  |85         |55    |545                          |25                             |4         |2765  |
+#'  |year  |iap  |he lives in the same household as i do |daily |at least several times a week |at least once a week |at least once a month |several times a year |less often |never |my father is no longer alive |i dont know where father lives |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------------------------------|:-----|:-----------------------------|:--------------------|:---------------------|:--------------------|:----------|:-----|:----------------------------|:------------------------------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |35                                     |40    |60                            |92                   |94                    |114                  |85         |55    |545                          |25                             |4         |-                          |2765  |
+#'  |Total |1616 |35                                     |40    |60                            |92                   |94                    |114                  |85         |55    |545                          |25                             |4         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -117,10 +117,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |daily |at least several times a week |at least once a week |at least once a month |several times a year |less often |never |no answer |Total |
-#'  |:-----|:----|:-----|:-----------------------------|:--------------------|:---------------------|:--------------------|:----------|:-----|:---------|:-----|
-#'  |2002  |2221 |56    |93                            |115                  |100                   |49                   |50         |77    |4         |2765  |
-#'  |Total |2221 |56    |93                            |115                  |100                   |49                   |50         |77    |4         |2765  |
+#'  |year  |iap  |daily |at least several times a week |at least once a week |at least once a month |several times a year |less often |never |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:-----------------------------|:--------------------|:---------------------|:--------------------|:----------|:-----|:---------|:--------------------------|:-----|
+#'  |2002  |2221 |56    |93                            |115                  |100                   |49                   |50         |77    |4         |-                          |2765  |
+#'  |Total |2221 |56    |93                            |115                  |100                   |49                   |50         |77    |4         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -164,10 +164,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |she lives in the same household as i do |daily |at least several times a week |at least once a week |at least once a month |several times a year |less often |never |my mother is no longer alive |i dont know where mother lives |no answer |Total |
-#'  |:-----|:----|:---------------------------------------|:-----|:-----------------------------|:--------------------|:---------------------|:--------------------|:----------|:-----|:----------------------------|:------------------------------|:---------|:-----|
-#'  |2002  |1616 |66                                      |71    |128                           |139                  |111                   |125                  |85         |19    |400                          |1                              |4         |2765  |
-#'  |Total |1616 |66                                      |71    |128                           |139                  |111                   |125                  |85         |19    |400                          |1                              |4         |2765  |
+#'  |year  |iap  |she lives in the same household as i do |daily |at least several times a week |at least once a week |at least once a month |several times a year |less often |never |my mother is no longer alive |i dont know where mother lives |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------------------|:-----|:-----------------------------|:--------------------|:---------------------|:--------------------|:----------|:-----|:----------------------------|:------------------------------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |66                                      |71    |128                           |139                  |111                   |125                  |85         |19    |400                          |1                              |4         |-                          |2765  |
+#'  |Total |1616 |66                                      |71    |128                           |139                  |111                   |125                  |85         |19    |400                          |1                              |4         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -208,10 +208,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |daily |at least several times a week |at least once a week |at least once a month |several times a year |less often |never |no answer |Total |
-#'  |:-----|:----|:-----|:-----------------------------|:--------------------|:---------------------|:--------------------|:----------|:-----|:---------|:-----|
-#'  |2002  |2083 |127   |175                           |185                  |89                    |36                   |28         |38    |4         |2765  |
-#'  |Total |2083 |127   |175                           |185                  |89                    |36                   |28         |38    |4         |2765  |
+#'  |year  |iap  |daily |at least several times a week |at least once a week |at least once a month |several times a year |less often |never |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:-----------------------------|:--------------------|:---------------------|:--------------------|:----------|:-----|:---------|:--------------------------|:-----|
+#'  |2002  |2083 |127   |175                           |185                  |89                    |36                   |28         |38    |4         |-                          |2765  |
+#'  |Total |2083 |127   |175                           |185                  |89                    |36                   |28         |38    |4         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -250,10 +250,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |more than twice in last 4 weeks |once or twice in last 4 weeks |not at all in last 4 weeks |i have no living relative of this type |no answer |Total |
-#'  |:-----|:----|:-------------------------------|:-----------------------------|:--------------------------|:--------------------------------------|:---------|:-----|
-#'  |2002  |1616 |192                             |270                           |494                        |187                                    |6         |2765  |
-#'  |Total |1616 |192                             |270                           |494                        |187                                    |6         |2765  |
+#'  |year  |iap  |more than twice in last 4 weeks |once or twice in last 4 weeks |not at all in last 4 weeks |i have no living relative of this type |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------------|:-----------------------------|:--------------------------|:--------------------------------------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |192                             |270                           |494                        |187                                    |6         |-                          |2765  |
+#'  |Total |1616 |192                             |270                           |494                        |187                                    |6         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -292,10 +292,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |more than twice in last 4 weeks |once or twice in last 4 weeks |not at all in last 4 weeks |i have no living relative of this type |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------------|:-----------------------------|:--------------------------|:--------------------------------------|:----------|:---------|:-----|
-#'  |2002  |1616 |225                             |283                           |580                        |54                                     |2          |5         |2765  |
-#'  |Total |1616 |225                             |283                           |580                        |54                                     |2          |5         |2765  |
+#'  |year  |iap  |more than twice in last 4 weeks |once or twice in last 4 weeks |not at all in last 4 weeks |i have no living relative of this type |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------------|:-----------------------------|:--------------------------|:--------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |225                             |283                           |580                        |54                                     |2          |5         |-                          |2765  |
+#'  |Total |1616 |225                             |283                           |580                        |54                                     |2          |5         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -334,10 +334,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |more than twice in last 4 weeks |once or twice in last 4 weeks |not at all in last 4 weeks |i have no living relative of this type |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------------|:-----------------------------|:--------------------------|:--------------------------------------|:----------|:---------|:-----|
-#'  |2002  |1616 |223                             |141                           |221                        |555                                    |2          |7         |2765  |
-#'  |Total |1616 |223                             |141                           |221                        |555                                    |2          |7         |2765  |
+#'  |year  |iap  |more than twice in last 4 weeks |once or twice in last 4 weeks |not at all in last 4 weeks |i have no living relative of this type |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------------|:-----------------------------|:--------------------------|:--------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |223                             |141                           |221                        |555                                    |2          |7         |-                          |2765  |
+#'  |Total |1616 |223                             |141                           |221                        |555                                    |2          |7         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -376,10 +376,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |more than twice in last 4 weeks |once or twice in last 4 weeks |not at all in last 4 weeks |i have no living relative of this type |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------------|:-----------------------------|:--------------------------|:--------------------------------------|:----------|:---------|:-----|
-#'  |2002  |1616 |313                             |278                           |307                        |242                                    |3          |6         |2765  |
-#'  |Total |1616 |313                             |278                           |307                        |242                                    |3          |6         |2765  |
+#'  |year  |iap  |more than twice in last 4 weeks |once or twice in last 4 weeks |not at all in last 4 weeks |i have no living relative of this type |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------------|:-----------------------------|:--------------------------|:--------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |313                             |278                           |307                        |242                                    |3          |6         |-                          |2765  |
+#'  |Total |1616 |313                             |278                           |307                        |242                                    |3          |6         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -418,10 +418,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |more than twice in last 4 weeks |once or twice in last 4 weeks |not at all in last 4 weeks |i have no living relative of this type |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------------|:-----------------------------|:--------------------------|:--------------------------------------|:----------|:---------|:-----|
-#'  |2002  |1616 |359                             |270                           |354                        |157                                    |4          |5         |2765  |
-#'  |Total |1616 |359                             |270                           |354                        |157                                    |4          |5         |2765  |
+#'  |year  |iap  |more than twice in last 4 weeks |once or twice in last 4 weeks |not at all in last 4 weeks |i have no living relative of this type |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------------|:-----------------------------|:--------------------------|:--------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |359                             |270                           |354                        |157                                    |4          |5         |-                          |2765  |
+#'  |Total |1616 |359                             |270                           |354                        |157                                    |4          |5         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems

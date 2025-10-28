@@ -34,10 +34,10 @@ I. A lot of contact with other people
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/563/vshow}{GSS Data Explorer page for \code{jobpeop}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab unimportant \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab Total \cr
-   1982 \tab 923 \tab 30 \tab 29 \tab 48 \tab 105 \tab 176 \tab 203 \tab 323 \tab 6 \tab 17 \tab 1860 \cr
-   Total \tab 923 \tab 30 \tab 29 \tab 48 \tab 105 \tab 176 \tab 203 \tab 323 \tab 6 \tab 17 \tab 1860 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab unimportant \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab 923 \tab 30 \tab 29 \tab 48 \tab 105 \tab 176 \tab 203 \tab 323 \tab 6 \tab 17 \tab - \tab 1860 \cr
+   Total \tab 923 \tab 30 \tab 29 \tab 48 \tab 105 \tab 176 \tab 203 \tab 323 \tab 6 \tab 17 \tab 0 \tab 1860 \cr
 }
 }
 

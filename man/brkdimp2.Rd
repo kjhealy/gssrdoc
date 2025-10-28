@@ -31,10 +31,10 @@ Question As far as you know, what is a nervous breakdown? (PROBES: How would you
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2052/vshow}{GSS Data Explorer page for \code{brkdimp2}}.
 
-Counts by year:\tabular{llllllllllllllllll}{
-   year \tab iap \tab 101 \tab 102 \tab 103 \tab 104 \tab 105 \tab 106 \tab 107 \tab 108 \tab 109 \tab 110 \tab 111 \tab 112 \tab 113 \tab 114 \tab no answer \tab Total \cr
-   1996 \tab 2645 \tab 7 \tab 9 \tab 11 \tab 37 \tab 46 \tab 8 \tab 7 \tab 2 \tab 21 \tab 9 \tab 5 \tab 1 \tab 8 \tab 1 \tab 87 \tab 2904 \cr
-   Total \tab 2645 \tab 7 \tab 9 \tab 11 \tab 37 \tab 46 \tab 8 \tab 7 \tab 2 \tab 21 \tab 9 \tab 5 \tab 1 \tab 8 \tab 1 \tab 87 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab 101 \tab 102 \tab 103 \tab 104 \tab 105 \tab 106 \tab 107 \tab 108 \tab 109 \tab 110 \tab 111 \tab 112 \tab 113 \tab 114 \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2645 \tab 7 \tab 9 \tab 11 \tab 37 \tab 46 \tab 8 \tab 7 \tab 2 \tab 21 \tab 9 \tab 5 \tab 1 \tab 8 \tab 1 \tab 87 \tab - \tab 2904 \cr
+   Total \tab 2645 \tab 7 \tab 9 \tab 11 \tab 37 \tab 46 \tab 8 \tab 7 \tab 2 \tab 21 \tab 9 \tab 5 \tab 1 \tab 8 \tab 1 \tab 87 \tab 0 \tab 2904 \cr
 }
 }
 

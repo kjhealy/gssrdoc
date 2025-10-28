@@ -37,11 +37,11 @@ A. Periodic lie detector tests
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5243/vshow}{GSS Data Explorer page for \code{lietest}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 398 \tab 632 \tab 137 \tab 137 \tab 26 \tab 41 \tab 16 \tab 2832 \cr
-   2000 \tab 1398 \tab 458 \tab 628 \tab 151 \tab 111 \tab 29 \tab 26 \tab 16 \tab 2817 \cr
-   Total \tab 2843 \tab 856 \tab 1260 \tab 288 \tab 248 \tab 55 \tab 67 \tab 32 \tab 5649 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 398 \tab 632 \tab 137 \tab 137 \tab 26 \tab 41 \tab 16 \tab - \tab 2832 \cr
+   2000 \tab 1398 \tab 458 \tab 628 \tab 151 \tab 111 \tab 29 \tab 26 \tab 16 \tab - \tab 2817 \cr
+   Total \tab 2843 \tab 856 \tab 1260 \tab 288 \tab 248 \tab 55 \tab 67 \tab 32 \tab 0 \tab 5649 \cr
 }
 }
 

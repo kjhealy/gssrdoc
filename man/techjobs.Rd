@@ -35,10 +35,10 @@ Question New kinds of technology are being introduced more and more in the Unite
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4575/vshow}{GSS Data Explorer page for \code{techjobs}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab greatly increase \tab slight increase \tab no difference to \tab slightly reduce \tab greatly reduce \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1609 \tab 183 \tab 238 \tab 129 \tab 329 \tab 232 \tab 87 \tab 25 \tab 2832 \cr
-   Total \tab 1609 \tab 183 \tab 238 \tab 129 \tab 329 \tab 232 \tab 87 \tab 25 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab greatly increase \tab slight increase \tab no difference to \tab slightly reduce \tab greatly reduce \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1609 \tab 183 \tab 238 \tab 129 \tab 329 \tab 232 \tab 87 \tab 25 \tab - \tab 2832 \cr
+   Total \tab 1609 \tab 183 \tab 238 \tab 129 \tab 329 \tab 232 \tab 87 \tab 25 \tab 0 \tab 2832 \cr
 }
 }
 

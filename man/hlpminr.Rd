@@ -35,10 +35,10 @@ A. Where would you place yourself on this scale, or haven't you thought much abo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/761/vshow}{GSS Data Explorer page for \code{hlpminr}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab havent thought much \tab govt help \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab help selves \tab don't know \tab no answer \tab Total \cr
-   1980 \tab - \tab 80 \tab 68 \tab 70 \tab 139 \tab 339 \tab 242 \tab 207 \tab 296 \tab 23 \tab 4 \tab 1468 \cr
-   Total \tab 0 \tab 80 \tab 68 \tab 70 \tab 139 \tab 339 \tab 242 \tab 207 \tab 296 \tab 23 \tab 4 \tab 1468 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab havent thought much \tab govt help \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab help selves \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1980 \tab - \tab 80 \tab 68 \tab 70 \tab 139 \tab 339 \tab 242 \tab 207 \tab 296 \tab 23 \tab 4 \tab - \tab 1468 \cr
+   Total \tab 0 \tab 80 \tab 68 \tab 70 \tab 139 \tab 339 \tab 242 \tab 207 \tab 296 \tab 23 \tab 4 \tab 0 \tab 1468 \cr
 }
 }
 

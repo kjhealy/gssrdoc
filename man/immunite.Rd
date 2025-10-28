@@ -35,11 +35,11 @@ C. Making it harder to keep the country united.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1615/vshow}{GSS Data Explorer page for \code{immunite}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not so likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 500 \tab 497 \tab 265 \tab 111 \tab 93 \tab 8 \tab 2992 \cr
-   2000 \tab 1419 \tab 268 \tab 473 \tab 454 \tab 134 \tab 60 \tab 9 \tab 2817 \cr
-   Total \tab 2937 \tab 768 \tab 970 \tab 719 \tab 245 \tab 153 \tab 17 \tab 5809 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not so likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 500 \tab 497 \tab 265 \tab 111 \tab 93 \tab 8 \tab - \tab 2992 \cr
+   2000 \tab 1419 \tab 268 \tab 473 \tab 454 \tab 134 \tab 60 \tab 9 \tab - \tab 2817 \cr
+   Total \tab 2937 \tab 768 \tab 970 \tab 719 \tab 245 \tab 153 \tab 17 \tab 0 \tab 5809 \cr
 }
 }
 

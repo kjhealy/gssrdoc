@@ -37,10 +37,10 @@ Question How close do you feel to…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4816/vshow}{GSS Data Explorer page for \code{clsenei}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very close \tab close \tab not very close \tab not close at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 197 \tab 556 \tab 405 \tab 168 \tab 27 \tab 14 \tab 2904 \cr
-   Total \tab 1537 \tab 197 \tab 556 \tab 405 \tab 168 \tab 27 \tab 14 \tab 2904 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very close \tab close \tab not very close \tab not close at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1537 \tab 197 \tab 556 \tab 405 \tab 168 \tab 27 \tab 14 \tab - \tab 2904 \cr
+   Total \tab 1537 \tab 197 \tab 556 \tab 405 \tab 168 \tab 27 \tab 14 \tab 0 \tab 2904 \cr
 }
 }
 

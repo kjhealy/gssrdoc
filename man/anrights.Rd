@@ -36,11 +36,11 @@ C. Animals should have the same moral rights that human beings do.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4727/vshow}{GSS Data Explorer page for \code{anrights}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 95 \tab 373 \tab 285 \tab 516 \tab 198 \tab 36 \tab 54 \tab 1606 \cr
-   1994 \tab 1606 \tab 73 \tab 286 \tab 257 \tab 447 \tab 241 \tab 38 \tab 44 \tab 2992 \cr
-   Total \tab 1655 \tab 168 \tab 659 \tab 542 \tab 963 \tab 439 \tab 74 \tab 98 \tab 4598 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 95 \tab 373 \tab 285 \tab 516 \tab 198 \tab 36 \tab 54 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 73 \tab 286 \tab 257 \tab 447 \tab 241 \tab 38 \tab 44 \tab - \tab 2992 \cr
+   Total \tab 1655 \tab 168 \tab 659 \tab 542 \tab 963 \tab 439 \tab 74 \tab 98 \tab 0 \tab 4598 \cr
 }
 }
 

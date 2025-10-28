@@ -35,10 +35,10 @@ Question B. People should not be allowed to express opinions that are harmful or
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1604/vshow}{GSS Data Explorer page for \code{ethspkno}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2275 \tab 71 \tab 222 \tab 86 \tab 246 \tab 71 \tab 8 \tab 13 \tab 2992 \cr
-   Total \tab 2275 \tab 71 \tab 222 \tab 86 \tab 246 \tab 71 \tab 8 \tab 13 \tab 2992 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2275 \tab 71 \tab 222 \tab 86 \tab 246 \tab 71 \tab 8 \tab 13 \tab - \tab 2992 \cr
+   Total \tab 2275 \tab 71 \tab 222 \tab 86 \tab 246 \tab 71 \tab 8 \tab 13 \tab 0 \tab 2992 \cr
 }
 }
 

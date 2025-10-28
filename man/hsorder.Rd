@@ -36,10 +36,10 @@ I. Discipline and orderliness.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4023/vshow}{GSS Data Explorer page for \code{hsorder}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 312 \tab 233 \tab 89 \tab 13 \tab 7 \tab 10 \tab 13 \tab 1534 \cr
-   Total \tab 857 \tab 312 \tab 233 \tab 89 \tab 13 \tab 7 \tab 10 \tab 13 \tab 1534 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 312 \tab 233 \tab 89 \tab 13 \tab 7 \tab 10 \tab 13 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 312 \tab 233 \tab 89 \tab 13 \tab 7 \tab 10 \tab 13 \tab 0 \tab 1534 \cr
 }
 }
 

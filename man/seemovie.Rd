@@ -33,12 +33,12 @@ L. Go out to see a movie in a theater.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1416/vshow}{GSS Data Explorer page for \code{seemovie}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 1114 \tab 480 \tab 1 \tab 11 \tab 1606 \cr
-   1998 \tab 1387 \tab 952 \tab 481 \tab - \tab 12 \tab 2832 \cr
-   2002 \tab 1393 \tab 993 \tab 365 \tab 8 \tab 6 \tab 2765 \cr
-   Total \tab 2780 \tab 3059 \tab 1326 \tab 9 \tab 29 \tab 7203 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 1114 \tab 480 \tab 1 \tab 11 \tab - \tab 1606 \cr
+   1998 \tab 1387 \tab 952 \tab 481 \tab - \tab 12 \tab - \tab 2832 \cr
+   2002 \tab 1393 \tab 993 \tab 365 \tab 8 \tab 6 \tab - \tab 2765 \cr
+   Total \tab 2780 \tab 3059 \tab 1326 \tab 9 \tab 29 \tab 0 \tab 7203 \cr
 }
 }
 

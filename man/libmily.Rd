@@ -32,10 +32,10 @@ Question Suppose this person wrote a book advocating doing away with elections a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7442/vshow}{GSS Data Explorer page for \code{libmily}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab remove \tab not remove \tab don't know \tab skipped on web \tab Total \cr
-   2021 \tab 2675 \tab 391 \tab 947 \tab 3 \tab 16 \tab 4032 \cr
-   Total \tab 2675 \tab 391 \tab 947 \tab 3 \tab 16 \tab 4032 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab remove \tab not remove \tab don't know \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2675 \tab 391 \tab 947 \tab 3 \tab 16 \tab - \tab 4032 \cr
+   Total \tab 2675 \tab 391 \tab 947 \tab 3 \tab 16 \tab 0 \tab 4032 \cr
 }
 }
 

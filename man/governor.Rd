@@ -32,10 +32,10 @@ Question We would want to know how well known the different governmental leaders
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1035/vshow}{GSS Data Explorer page for \code{governor}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab correct \tab incorrect \tab don't know \tab no answer \tab Total \cr
-   1987 \tab - \tab 1372 \tab 82 \tab 350 \tab 15 \tab 1819 \cr
-   Total \tab 0 \tab 1372 \tab 82 \tab 350 \tab 15 \tab 1819 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab correct \tab incorrect \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab - \tab 1372 \tab 82 \tab 350 \tab 15 \tab - \tab 1819 \cr
+   Total \tab 0 \tab 1372 \tab 82 \tab 350 \tab 15 \tab 0 \tab 1819 \cr
 }
 }
 

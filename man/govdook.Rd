@@ -37,12 +37,12 @@ A. Most of the time we can trust people in government to do what is right
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4945/vshow}{GSS Data Explorer page for \code{govdook}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 33 \tab 416 \tab 434 \tab 433 \tab 149 \tab 2 \tab 5 \tab 2812 \cr
-   2010 \tab 614 \tab 23 \tab 303 \tab 323 \tab 492 \tab 248 \tab 35 \tab 6 \tab 2044 \cr
-   2014 \tab 1274 \tab 35 \tab 224 \tab 323 \tab 423 \tab 226 \tab 31 \tab 2 \tab 2538 \cr
-   Total \tab 3228 \tab 91 \tab 943 \tab 1080 \tab 1348 \tab 623 \tab 68 \tab 13 \tab 7394 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 33 \tab 416 \tab 434 \tab 433 \tab 149 \tab 2 \tab 5 \tab - \tab 2812 \cr
+   2010 \tab 614 \tab 23 \tab 303 \tab 323 \tab 492 \tab 248 \tab 35 \tab 6 \tab - \tab 2044 \cr
+   2014 \tab 1274 \tab 35 \tab 224 \tab 323 \tab 423 \tab 226 \tab 31 \tab 2 \tab - \tab 2538 \cr
+   Total \tab 3228 \tab 91 \tab 943 \tab 1080 \tab 1348 \tab 623 \tab 68 \tab 13 \tab 0 \tab 7394 \cr
 }
 }
 

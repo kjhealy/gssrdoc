@@ -34,10 +34,10 @@ Question How often did you consider your pet to be a member of your family?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7222/vshow}{GSS Data Explorer page for \code{petb4fam}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab almost always \tab often \tab sometimes \tab never \tab no answer \tab Total \cr
-   2018 \tab 2144 \tab 128 \tab 25 \tab 10 \tab 18 \tab 23 \tab 2348 \cr
-   Total \tab 2144 \tab 128 \tab 25 \tab 10 \tab 18 \tab 23 \tab 2348 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost always \tab often \tab sometimes \tab never \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 2144 \tab 128 \tab 25 \tab 10 \tab 18 \tab 23 \tab - \tab 2348 \cr
+   Total \tab 2144 \tab 128 \tab 25 \tab 10 \tab 18 \tab 23 \tab 0 \tab 2348 \cr
 }
 }
 

@@ -38,10 +38,10 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7953/vshow}{GSS Data Explorer page for \code{covemply}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab Total \cr
-   2022 \tab 2392 \tab 294 \tab 456 \tab 67 \tab 37 \tab 41 \tab 257 \tab 3544 \cr
-   Total \tab 2392 \tab 294 \tab 456 \tab 67 \tab 37 \tab 41 \tab 257 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab r did not have job before pandemic and does not have job now \tab r has the same job as before the pandemic \tab r lost job due to the pandemic and now has a new job \tab r lost job due to the pandemic and could not find a new job \tab r did not have job before the pandemic and does have job now \tab r changed or left job for reasons unrelated to the pandemic \tab can't choose \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 294 \tab 456 \tab 67 \tab 37 \tab 41 \tab 257 \tab 81 \tab 2309 \tab 2 \tab 3544 \cr
+   Total \tab 0 \tab 294 \tab 456 \tab 67 \tab 37 \tab 41 \tab 257 \tab 81 \tab 2309 \tab 2 \tab 3544 \cr
 }
 }
 

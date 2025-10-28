@@ -35,10 +35,10 @@ A. To be examined at a clinic or by a doctor?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3795/vshow}{GSS Data Explorer page for \code{mhseedoc}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 191 \tab 308 \tab 404 \tab 485 \tab 27 \tab 10 \tab 4510 \cr
-   Total \tab 3085 \tab 191 \tab 308 \tab 404 \tab 485 \tab 27 \tab 10 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 191 \tab 308 \tab 404 \tab 485 \tab 27 \tab 10 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 191 \tab 308 \tab 404 \tab 485 \tab 27 \tab 10 \tab 0 \tab 4510 \cr
 }
 }
 

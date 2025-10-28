@@ -36,10 +36,10 @@ C. Unions in this country have too little power…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1265/vshow}{GSS Data Explorer page for \code{unpower}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1991 \tab - \tab 87 \tab 336 \tab 721 \tab 203 \tab 165 \tab 5 \tab 1517 \cr
-   Total \tab 0 \tab 87 \tab 336 \tab 721 \tab 203 \tab 165 \tab 5 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab - \tab 87 \tab 336 \tab 721 \tab 203 \tab 165 \tab 5 \tab - \tab 1517 \cr
+   Total \tab 0 \tab 87 \tab 336 \tab 721 \tab 203 \tab 165 \tab 5 \tab 0 \tab 1517 \cr
 }
 }
 

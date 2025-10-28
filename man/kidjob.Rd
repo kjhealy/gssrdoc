@@ -36,10 +36,10 @@ D. Having children restricts the employment and career chances of one or both pa
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4460/vshow}{GSS Data Explorer page for \code{kidjob}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 672 \tab 41 \tab 381 \tab 218 \tab 492 \tab 126 \tab 38 \tab 6 \tab 1974 \cr
-   Total \tab 672 \tab 41 \tab 381 \tab 218 \tab 492 \tab 126 \tab 38 \tab 6 \tab 1974 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 672 \tab 41 \tab 381 \tab 218 \tab 492 \tab 126 \tab 38 \tab 6 \tab - \tab 1974 \cr
+   Total \tab 672 \tab 41 \tab 381 \tab 218 \tab 492 \tab 126 \tab 38 \tab 6 \tab 0 \tab 1974 \cr
 }
 }
 

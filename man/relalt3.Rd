@@ -34,10 +34,10 @@ C. Changed your goals in life
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3079/vshow}{GSS Data Explorer page for \code{relalt3}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab not at all \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab a great deal \tab 8 \tab refused \tab Total \cr
-   2004 \tab 2163 \tab 72 \tab 28 \tab 35 \tab 86 \tab 111 \tab 84 \tab 219 \tab 3 \tab 11 \tab 2812 \cr
-   Total \tab 2163 \tab 72 \tab 28 \tab 35 \tab 86 \tab 111 \tab 84 \tab 219 \tab 3 \tab 11 \tab 2812 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab not at all \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab a great deal \tab 8 \tab refused \tab not available in this year \tab Total \cr
+   2004 \tab 2163 \tab 72 \tab 28 \tab 35 \tab 86 \tab 111 \tab 84 \tab 219 \tab 3 \tab 11 \tab - \tab 2812 \cr
+   Total \tab 2163 \tab 72 \tab 28 \tab 35 \tab 86 \tab 111 \tab 84 \tab 219 \tab 3 \tab 11 \tab 0 \tab 2812 \cr
 }
 }
 

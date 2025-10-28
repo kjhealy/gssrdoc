@@ -35,10 +35,10 @@ Question What kind of visa?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3901/vshow}{GSS Data Explorer page for \code{typevisa}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab h1b \tab l1 \tab student \tab tourist \tab other \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1982 \tab 6 \tab 2 \tab 4 \tab 2 \tab 22 \tab 4 \tab 1 \tab 2023 \cr
-   Total \tab 1982 \tab 6 \tab 2 \tab 4 \tab 2 \tab 22 \tab 4 \tab 1 \tab 2023 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab h1b \tab l1 \tab student \tab tourist \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1982 \tab 6 \tab 2 \tab 4 \tab 2 \tab 22 \tab 4 \tab 1 \tab - \tab 2023 \cr
+   Total \tab 1982 \tab 6 \tab 2 \tab 4 \tab 2 \tab 22 \tab 4 \tab 1 \tab 0 \tab 2023 \cr
 }
 }
 

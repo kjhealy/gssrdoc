@@ -31,10 +31,10 @@ L. Private and community foundations
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1926/vshow}{GSS Data Explorer page for \code{hrsfound}}.
 
-Counts by year:\tabular{lllllllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 14 \tab 15 \tab 16 \tab 2 \tab 20 \tab 3 \tab 30 \tab 4 \tab 40 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2862 \tab 1 \tab 3 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 6 \tab 2 \tab 5 \tab 2 \tab 3 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2904 \cr
-   Total \tab 2862 \tab 1 \tab 3 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 6 \tab 2 \tab 5 \tab 2 \tab 3 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2904 \cr
+Counts by year:\tabular{llllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 14 \tab 15 \tab 16 \tab 2 \tab 20 \tab 3 \tab 30 \tab 4 \tab 40 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2862 \tab 1 \tab 3 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 6 \tab 2 \tab 5 \tab 2 \tab 3 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab 2904 \cr
+   Total \tab 2862 \tab 1 \tab 3 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 6 \tab 2 \tab 5 \tab 2 \tab 3 \tab 1 \tab 2 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 0 \tab 2904 \cr
 }
 }
 

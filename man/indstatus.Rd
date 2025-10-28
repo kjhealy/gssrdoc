@@ -39,37 +39,37 @@ Question IND10 Coding Status
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5984/vshow}{GSS Data Explorer page for \code{indstatus}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab found, iap \tab found, no answer \tab found, coded \tab not found, iap \tab not found, no answer \tab not found, coded \tab not found, no code assigned \tab iap \tab Total \cr
-   1972 \tab 68 \tab 8 \tab 626 \tab 94 \tab 17 \tab 640 \tab 160 \tab - \tab 1613 \cr
-   1973 \tab 117 \tab 25 \tab 1092 \tab 30 \tab 11 \tab 156 \tab 73 \tab - \tab 1504 \cr
-   1974 \tab 108 \tab 72 \tab 1037 \tab 20 \tab 1 \tab 209 \tab 37 \tab - \tab 1484 \cr
-   1975 \tab 94 \tab 8 \tab 874 \tab 40 \tab 5 \tab 380 \tab 89 \tab - \tab 1490 \cr
-   1976 \tab 113 \tab 3 \tab 1114 \tab 32 \tab 1 \tab 182 \tab 54 \tab - \tab 1499 \cr
-   1977 \tab 54 \tab 2 \tab 761 \tab 59 \tab - \tab 534 \tab 120 \tab - \tab 1530 \cr
-   1978 \tab 114 \tab 6 \tab 1398 \tab 13 \tab - \tab 1 \tab - \tab - \tab 1532 \cr
-   1980 \tab 96 \tab 3 \tab 1194 \tab 23 \tab - \tab 123 \tab 29 \tab - \tab 1468 \cr
-   1982 \tab 95 \tab 36 \tab 1565 \tab 27 \tab 5 \tab 113 \tab 19 \tab - \tab 1860 \cr
-   1983 \tab 85 \tab 8 \tab 1382 \tab 18 \tab - \tab 88 \tab 18 \tab - \tab 1599 \cr
-   1984 \tab 78 \tab 7 \tab 1373 \tab 10 \tab - \tab 4 \tab 1 \tab - \tab 1473 \cr
-   1985 \tab 67 \tab 3 \tab 1226 \tab 14 \tab - \tab 177 \tab 47 \tab - \tab 1534 \cr
-   1986 \tab 84 \tab 2 \tab 1339 \tab 16 \tab 1 \tab 22 \tab 6 \tab - \tab 1470 \cr
-   1987 \tab 60 \tab 4 \tab 1447 \tab 35 \tab 7 \tab 210 \tab 56 \tab - \tab 1819 \cr
-   1988 \tab 76 \tab 5 \tab 1379 \tab 9 \tab - \tab 11 \tab 1 \tab - \tab 1481 \cr
-   1989 \tab 70 \tab 3 \tab 1347 \tab 22 \tab 1 \tab 83 \tab 11 \tab - \tab 1537 \cr
-   1990 \tab 61 \tab 5 \tab 1292 \tab 10 \tab - \tab 4 \tab - \tab - \tab 1372 \cr
-   1991 \tab 84 \tab 3 \tab 1412 \tab 13 \tab - \tab 5 \tab - \tab - \tab 1517 \cr
-   1993 \tab 61 \tab 7 \tab 1477 \tab 17 \tab 1 \tab 38 \tab 5 \tab - \tab 1606 \cr
-   1994 \tab 120 \tab 14 \tab 2804 \tab 6 \tab 3 \tab 38 \tab 7 \tab - \tab 2992 \cr
-   1996 \tab 102 \tab 15 \tab 2766 \tab 4 \tab 2 \tab 14 \tab 1 \tab - \tab 2904 \cr
-   1998 \tab 121 \tab 36 \tab 2644 \tab 14 \tab 1 \tab 14 \tab 2 \tab - \tab 2832 \cr
-   2000 \tab 125 \tab 24 \tab 2668 \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 91 \tab 23 \tab 2651 \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 113 \tab 45 \tab 2654 \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab 187 \tab 39 \tab 4284 \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 62 \tab 11 \tab 1950 \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 86 \tab 30 \tab 1928 \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
-   Total \tab 2592 \tab 447 \tab 47684 \tab 526 \tab 56 \tab 3046 \tab 736 \tab 0 \tab 55087 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab found, iap \tab found, no answer \tab found, coded \tab not found, iap \tab not found, no answer \tab not found, coded \tab not found, no code assigned \tab iap \tab not available in this year \tab Total \cr
+   1972 \tab 68 \tab 8 \tab 626 \tab 94 \tab 17 \tab 640 \tab 160 \tab - \tab - \tab 1613 \cr
+   1973 \tab 117 \tab 25 \tab 1092 \tab 30 \tab 11 \tab 156 \tab 73 \tab - \tab - \tab 1504 \cr
+   1974 \tab 108 \tab 72 \tab 1037 \tab 20 \tab 1 \tab 209 \tab 37 \tab - \tab - \tab 1484 \cr
+   1975 \tab 94 \tab 8 \tab 874 \tab 40 \tab 5 \tab 380 \tab 89 \tab - \tab - \tab 1490 \cr
+   1976 \tab 113 \tab 3 \tab 1114 \tab 32 \tab 1 \tab 182 \tab 54 \tab - \tab - \tab 1499 \cr
+   1977 \tab 54 \tab 2 \tab 761 \tab 59 \tab - \tab 534 \tab 120 \tab - \tab - \tab 1530 \cr
+   1978 \tab 114 \tab 6 \tab 1398 \tab 13 \tab - \tab 1 \tab - \tab - \tab - \tab 1532 \cr
+   1980 \tab 96 \tab 3 \tab 1194 \tab 23 \tab - \tab 123 \tab 29 \tab - \tab - \tab 1468 \cr
+   1982 \tab 95 \tab 36 \tab 1565 \tab 27 \tab 5 \tab 113 \tab 19 \tab - \tab - \tab 1860 \cr
+   1983 \tab 85 \tab 8 \tab 1382 \tab 18 \tab - \tab 88 \tab 18 \tab - \tab - \tab 1599 \cr
+   1984 \tab 78 \tab 7 \tab 1373 \tab 10 \tab - \tab 4 \tab 1 \tab - \tab - \tab 1473 \cr
+   1985 \tab 67 \tab 3 \tab 1226 \tab 14 \tab - \tab 177 \tab 47 \tab - \tab - \tab 1534 \cr
+   1986 \tab 84 \tab 2 \tab 1339 \tab 16 \tab 1 \tab 22 \tab 6 \tab - \tab - \tab 1470 \cr
+   1987 \tab 60 \tab 4 \tab 1447 \tab 35 \tab 7 \tab 210 \tab 56 \tab - \tab - \tab 1819 \cr
+   1988 \tab 76 \tab 5 \tab 1379 \tab 9 \tab - \tab 11 \tab 1 \tab - \tab - \tab 1481 \cr
+   1989 \tab 70 \tab 3 \tab 1347 \tab 22 \tab 1 \tab 83 \tab 11 \tab - \tab - \tab 1537 \cr
+   1990 \tab 61 \tab 5 \tab 1292 \tab 10 \tab - \tab 4 \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab 84 \tab 3 \tab 1412 \tab 13 \tab - \tab 5 \tab - \tab - \tab - \tab 1517 \cr
+   1993 \tab 61 \tab 7 \tab 1477 \tab 17 \tab 1 \tab 38 \tab 5 \tab - \tab - \tab 1606 \cr
+   1994 \tab 120 \tab 14 \tab 2804 \tab 6 \tab 3 \tab 38 \tab 7 \tab - \tab - \tab 2992 \cr
+   1996 \tab 102 \tab 15 \tab 2766 \tab 4 \tab 2 \tab 14 \tab 1 \tab - \tab - \tab 2904 \cr
+   1998 \tab 121 \tab 36 \tab 2644 \tab 14 \tab 1 \tab 14 \tab 2 \tab - \tab - \tab 2832 \cr
+   2000 \tab 125 \tab 24 \tab 2668 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 91 \tab 23 \tab 2651 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 113 \tab 45 \tab 2654 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 187 \tab 39 \tab 4284 \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 62 \tab 11 \tab 1950 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 86 \tab 30 \tab 1928 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   Total \tab 2592 \tab 447 \tab 47684 \tab 526 \tab 56 \tab 3046 \tab 736 \tab 0 \tab 0 \tab 55087 \cr
 }
 }
 

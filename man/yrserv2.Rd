@@ -31,10 +31,10 @@ Question B. How many years have you been a member of
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3149/vshow}{GSS Data Explorer page for \code{yrserv2}}.
 
-Counts by year:\tabular{lllllllllllllllllll}{
-   year \tab iap \tab 1 \tab 10 \tab 12 \tab 14 \tab 15 \tab 2 \tab 20 \tab 3 \tab 4 \tab 40 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab Total \cr
-   2004 \tab 2774 \tab 4 \tab 3 \tab 1 \tab 2 \tab 1 \tab 4 \tab 2 \tab 3 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 8 \tab 2812 \cr
-   Total \tab 2774 \tab 4 \tab 3 \tab 1 \tab 2 \tab 1 \tab 4 \tab 2 \tab 3 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 8 \tab 2812 \cr
+Counts by year:\tabular{llllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 12 \tab 14 \tab 15 \tab 2 \tab 20 \tab 3 \tab 4 \tab 40 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2774 \tab 4 \tab 3 \tab 1 \tab 2 \tab 1 \tab 4 \tab 2 \tab 3 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 8 \tab - \tab 2812 \cr
+   Total \tab 2774 \tab 4 \tab 3 \tab 1 \tab 2 \tab 1 \tab 4 \tab 2 \tab 3 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 8 \tab 0 \tab 2812 \cr
 }
 }
 

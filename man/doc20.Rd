@@ -36,11 +36,11 @@ T. I trust my doctor to tell me if a mistake was made about my treatment.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2219/vshow}{GSS Data Explorer page for \code{doc20}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strong disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 102 \tab 728 \tab 219 \tab 222 \tab 62 \tab 44 \tab 10 \tab 2832 \cr
-   2006 \tab 3073 \tab 266 \tab 713 \tab 220 \tab 145 \tab 55 \tab 24 \tab 14 \tab 4510 \cr
-   Total \tab 4518 \tab 368 \tab 1441 \tab 439 \tab 367 \tab 117 \tab 68 \tab 24 \tab 7342 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strong disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 102 \tab 728 \tab 219 \tab 222 \tab 62 \tab 44 \tab 10 \tab - \tab 2832 \cr
+   2006 \tab 3073 \tab 266 \tab 713 \tab 220 \tab 145 \tab 55 \tab 24 \tab 14 \tab - \tab 4510 \cr
+   Total \tab 4518 \tab 368 \tab 1441 \tab 439 \tab 367 \tab 117 \tab 68 \tab 24 \tab 0 \tab 7342 \cr
 }
 }
 

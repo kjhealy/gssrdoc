@@ -34,10 +34,10 @@ E. The parents regularly beat the child.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4032/vshow}{GSS Data Explorer page for \code{kidbeat}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab take no action \tab give warning \tab take child \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 19 \tab 94 \tab 532 \tab 15 \tab 17 \tab 1534 \cr
-   Total \tab 857 \tab 19 \tab 94 \tab 532 \tab 15 \tab 17 \tab 1534 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab take no action \tab give warning \tab take child \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 19 \tab 94 \tab 532 \tab 15 \tab 17 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 19 \tab 94 \tab 532 \tab 15 \tab 17 \tab 0 \tab 1534 \cr
 }
 }
 

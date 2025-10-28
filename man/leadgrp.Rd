@@ -33,10 +33,10 @@ B. Served as an officer
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1016/vshow}{GSS Data Explorer page for \code{leadgrp}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1987 \tab 606 \tab 541 \tab 634 \tab 1 \tab 37 \tab 1819 \cr
-   Total \tab 606 \tab 541 \tab 634 \tab 1 \tab 37 \tab 1819 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 606 \tab 541 \tab 634 \tab 1 \tab 37 \tab - \tab 1819 \cr
+   Total \tab 606 \tab 541 \tab 634 \tab 1 \tab 37 \tab 0 \tab 1819 \cr
 }
 }
 

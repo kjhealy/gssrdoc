@@ -37,11 +37,11 @@ A How much responsibility goes with the job"how important do you think that ough
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4328/vshow}{GSS Data Explorer page for \code{payresp}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2000 \tab 1545 \tab 348 \tab 631 \tab 192 \tab 14 \tab 3 \tab 34 \tab 50 \tab - \tab 2817 \cr
-   2021 \tab 2029 \tab 436 \tab 950 \tab 357 \tab 12 \tab 12 \tab 61 \tab 164 \tab 11 \tab 4032 \cr
-   Total \tab 3574 \tab 784 \tab 1581 \tab 549 \tab 26 \tab 15 \tab 95 \tab 214 \tab 11 \tab 6849 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2000 \tab 1545 \tab 348 \tab 631 \tab 192 \tab 14 \tab 3 \tab 34 \tab 50 \tab - \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 436 \tab 950 \tab 357 \tab 12 \tab 12 \tab 61 \tab 164 \tab 11 \tab - \tab 4032 \cr
+   Total \tab 3574 \tab 784 \tab 1581 \tab 549 \tab 26 \tab 15 \tab 95 \tab 214 \tab 11 \tab 0 \tab 6849 \cr
 }
 }
 

@@ -32,10 +32,10 @@ If you have no ADULT brothers or sisters, enter ''0''.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4184/vshow}{GSS Data Explorer page for \code{sibnum}}.
 
-Counts by year:\tabular{llllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 12 \tab 13 \tab 15 \tab 16 \tab 17 \tab 19 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 9 \tab Total \cr
-   2002 \tab 1616 \tab 129 \tab 252 \tab 7 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 259 \tab 185 \tab 96 \tab 85 \tab 48 \tab 74 \tab 6 \tab 2765 \cr
-   Total \tab 1616 \tab 129 \tab 252 \tab 7 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 259 \tab 185 \tab 96 \tab 85 \tab 48 \tab 74 \tab 6 \tab 2765 \cr
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 12 \tab 13 \tab 15 \tab 16 \tab 17 \tab 19 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 9 \tab not available in this year \tab Total \cr
+   2002 \tab 1616 \tab 129 \tab 252 \tab 7 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 259 \tab 185 \tab 96 \tab 85 \tab 48 \tab 74 \tab 6 \tab - \tab 2765 \cr
+   Total \tab 1616 \tab 129 \tab 252 \tab 7 \tab 3 \tab 1 \tab 1 \tab 1 \tab 2 \tab 259 \tab 185 \tab 96 \tab 85 \tab 48 \tab 74 \tab 6 \tab 0 \tab 2765 \cr
 }
 }
 

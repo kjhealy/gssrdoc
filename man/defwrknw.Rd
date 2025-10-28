@@ -33,10 +33,10 @@ A. Do you work for such a company now?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/830/vshow}{GSS Data Explorer page for \code{defwrknw}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1984 \tab 1262 \tab 37 \tab 142 \tab 32 \tab 1473 \cr
-   Total \tab 1262 \tab 37 \tab 142 \tab 32 \tab 1473 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab 1262 \tab 37 \tab 142 \tab 32 \tab - \tab 1473 \cr
+   Total \tab 1262 \tab 37 \tab 142 \tab 32 \tab 0 \tab 1473 \cr
 }
 }
 

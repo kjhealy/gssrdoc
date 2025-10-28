@@ -52,40 +52,40 @@ Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at col
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5338/vshow}{GSS Data Explorer page for \code{relate2}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab spouse \tab child (natural, adopted, step) \tab grand/great-grandchild \tab parent/parent-in-law \tab other relative \tab non-relative \tab son-/daughter-in-law \tab no answer \tab head of household \tab Total \cr
-   1975 \tab 203 \tab 1075 \tab 127 \tab 4 \tab 10 \tab 25 \tab 46 \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 893 \tab 496 \tab 73 \tab 2 \tab 4 \tab 11 \tab 20 \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 256 \tab 1047 \tab 151 \tab 6 \tab 11 \tab 11 \tab 42 \tab 1 \tab 5 \tab - \tab 1530 \cr
-   1978 \tab 295 \tab 1002 \tab 146 \tab 8 \tab 7 \tab 15 \tab 47 \tab 2 \tab 10 \tab - \tab 1532 \cr
-   1980 \tab 285 \tab 941 \tab 140 \tab 7 \tab 10 \tab 22 \tab 53 \tab - \tab 10 \tab - \tab 1468 \cr
-   1982 \tab 412 \tab 1081 \tab 223 \tab 13 \tab 8 \tab 33 \tab 76 \tab - \tab 14 \tab - \tab 1860 \cr
-   1983 \tab 311 \tab 1003 \tab 169 \tab 2 \tab 7 \tab 24 \tab 59 \tab 3 \tab 5 \tab 16 \tab 1599 \cr
-   1984 \tab 327 \tab 870 \tab 145 \tab 7 \tab 5 \tab 16 \tab 77 \tab 1 \tab 9 \tab 16 \tab 1473 \cr
-   1985 \tab 339 \tab 913 \tab 144 \tab 4 \tab 6 \tab 19 \tab 85 \tab 1 \tab 5 \tab 18 \tab 1534 \cr
-   1986 \tab 313 \tab 892 \tab 145 \tab 6 \tab 7 \tab 17 \tab 78 \tab 1 \tab 6 \tab 5 \tab 1470 \cr
-   1987 \tab 424 \tab 945 \tab 216 \tab 10 \tab 6 \tab 48 \tab 120 \tab 5 \tab 38 \tab 7 \tab 1819 \cr
-   1988 \tab 328 \tab 824 \tab 164 \tab 8 \tab 7 \tab 26 \tab 111 \tab 1 \tab 7 \tab 5 \tab 1481 \cr
-   1989 \tab 327 \tab 864 \tab 146 \tab 6 \tab 2 \tab 22 \tab 106 \tab 2 \tab 57 \tab 5 \tab 1537 \cr
-   1990 \tab 323 \tab 760 \tab 157 \tab 7 \tab 7 \tab 19 \tab 86 \tab 3 \tab 10 \tab - \tab 1372 \cr
-   1991 \tab 374 \tab 829 \tab 151 \tab 7 \tab 11 \tab 27 \tab 100 \tab 1 \tab 14 \tab 3 \tab 1517 \cr
-   1993 \tab 373 \tab 900 \tab 172 \tab 6 \tab 8 \tab 18 \tab 121 \tab 1 \tab 7 \tab - \tab 1606 \cr
-   1994 \tab 752 \tab 1596 \tab 339 \tab 13 \tab 17 \tab 47 \tab 206 \tab 4 \tab 18 \tab - \tab 2992 \cr
-   1996 \tab 743 \tab 1394 \tab 353 \tab 16 \tab 20 \tab 37 \tab 248 \tab 3 \tab 90 \tab - \tab 2904 \cr
-   1998 \tab 777 \tab 1389 \tab 299 \tab 8 \tab 16 \tab 38 \tab 226 \tab 4 \tab 75 \tab - \tab 2832 \cr
-   2000 \tab 741 \tab 1325 \tab 354 \tab 13 \tab 27 \tab 46 \tab 296 \tab 4 \tab 11 \tab - \tab 2817 \cr
-   2002 \tab 883 \tab 1214 \tab 328 \tab 7 \tab 11 \tab 44 \tab 259 \tab 13 \tab 6 \tab - \tab 2765 \cr
-   2004 \tab 707 \tab 1527 \tab 279 \tab 13 \tab 22 \tab 39 \tab 217 \tab 5 \tab 3 \tab - \tab 2812 \cr
-   2006 \tab 1226 \tab 2288 \tab 464 \tab 18 \tab 31 \tab 61 \tab 414 \tab 4 \tab 4 \tab - \tab 4510 \cr
-   2008 \tab 527 \tab 1002 \tab 228 \tab 15 \tab 12 \tab 35 \tab 195 \tab 5 \tab 4 \tab - \tab 2023 \cr
-   2010 \tab 595 \tab 909 \tab 225 \tab 10 \tab 19 \tab 25 \tab 243 \tab 4 \tab 14 \tab - \tab 2044 \cr
-   2012 \tab 533 \tab 937 \tab 187 \tab 15 \tab 23 \tab 32 \tab 236 \tab 1 \tab 10 \tab - \tab 1974 \cr
-   2014 \tab 678 \tab 1198 \tab 290 \tab 13 \tab 17 \tab 41 \tab 282 \tab 8 \tab 11 \tab - \tab 2538 \cr
-   2016 \tab 849 \tab 1256 \tab 315 \tab 16 \tab 22 \tab 50 \tab 351 \tab 3 \tab 5 \tab - \tab 2867 \cr
-   2018 \tab 677 \tab 1057 \tab 249 \tab 11 \tab 24 \tab 37 \tab 286 \tab 1 \tab 6 \tab - \tab 2348 \cr
-   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 23047 \tab 31534 \tab 6379 \tab 271 \tab 377 \tab 885 \tab 4686 \tab 81 \tab 454 \tab 75 \tab 67789 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab spouse \tab child (natural, adopted, step) \tab grand/great-grandchild \tab parent/parent-in-law \tab other relative \tab non-relative \tab son-/daughter-in-law \tab no answer \tab head of household \tab skipped on web \tab not available in this year \tab Total \cr
+   1975 \tab 203 \tab 1075 \tab 127 \tab 4 \tab 10 \tab 25 \tab 46 \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
+   1976 \tab 893 \tab 496 \tab 73 \tab 2 \tab 4 \tab 11 \tab 20 \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
+   1977 \tab 256 \tab 1047 \tab 151 \tab 6 \tab 11 \tab 11 \tab 42 \tab 1 \tab 5 \tab - \tab - \tab - \tab 1530 \cr
+   1978 \tab 295 \tab 1002 \tab 146 \tab 8 \tab 7 \tab 15 \tab 47 \tab 2 \tab 10 \tab - \tab - \tab - \tab 1532 \cr
+   1980 \tab 285 \tab 941 \tab 140 \tab 7 \tab 10 \tab 22 \tab 53 \tab - \tab 10 \tab - \tab - \tab - \tab 1468 \cr
+   1982 \tab 412 \tab 1081 \tab 223 \tab 13 \tab 8 \tab 33 \tab 76 \tab - \tab 14 \tab - \tab - \tab - \tab 1860 \cr
+   1983 \tab 311 \tab 1003 \tab 169 \tab 2 \tab 7 \tab 24 \tab 59 \tab 3 \tab 5 \tab 16 \tab - \tab - \tab 1599 \cr
+   1984 \tab 327 \tab 870 \tab 145 \tab 7 \tab 5 \tab 16 \tab 77 \tab 1 \tab 9 \tab 16 \tab - \tab - \tab 1473 \cr
+   1985 \tab 339 \tab 913 \tab 144 \tab 4 \tab 6 \tab 19 \tab 85 \tab 1 \tab 5 \tab 18 \tab - \tab - \tab 1534 \cr
+   1986 \tab 313 \tab 892 \tab 145 \tab 6 \tab 7 \tab 17 \tab 78 \tab 1 \tab 6 \tab 5 \tab - \tab - \tab 1470 \cr
+   1987 \tab 424 \tab 945 \tab 216 \tab 10 \tab 6 \tab 48 \tab 120 \tab 5 \tab 38 \tab 7 \tab - \tab - \tab 1819 \cr
+   1988 \tab 328 \tab 824 \tab 164 \tab 8 \tab 7 \tab 26 \tab 111 \tab 1 \tab 7 \tab 5 \tab - \tab - \tab 1481 \cr
+   1989 \tab 327 \tab 864 \tab 146 \tab 6 \tab 2 \tab 22 \tab 106 \tab 2 \tab 57 \tab 5 \tab - \tab - \tab 1537 \cr
+   1990 \tab 323 \tab 760 \tab 157 \tab 7 \tab 7 \tab 19 \tab 86 \tab 3 \tab 10 \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab 374 \tab 829 \tab 151 \tab 7 \tab 11 \tab 27 \tab 100 \tab 1 \tab 14 \tab 3 \tab - \tab - \tab 1517 \cr
+   1993 \tab 373 \tab 900 \tab 172 \tab 6 \tab 8 \tab 18 \tab 121 \tab 1 \tab 7 \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab 752 \tab 1596 \tab 339 \tab 13 \tab 17 \tab 47 \tab 206 \tab 4 \tab 18 \tab - \tab - \tab - \tab 2992 \cr
+   1996 \tab 743 \tab 1394 \tab 353 \tab 16 \tab 20 \tab 37 \tab 248 \tab 3 \tab 90 \tab - \tab - \tab - \tab 2904 \cr
+   1998 \tab 777 \tab 1389 \tab 299 \tab 8 \tab 16 \tab 38 \tab 226 \tab 4 \tab 75 \tab - \tab - \tab - \tab 2832 \cr
+   2000 \tab 741 \tab 1325 \tab 354 \tab 13 \tab 27 \tab 46 \tab 296 \tab 4 \tab 11 \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 883 \tab 1214 \tab 328 \tab 7 \tab 11 \tab 44 \tab 259 \tab 13 \tab 6 \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 707 \tab 1527 \tab 279 \tab 13 \tab 22 \tab 39 \tab 217 \tab 5 \tab 3 \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 1226 \tab 2288 \tab 464 \tab 18 \tab 31 \tab 61 \tab 414 \tab 4 \tab 4 \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 527 \tab 1002 \tab 228 \tab 15 \tab 12 \tab 35 \tab 195 \tab 5 \tab 4 \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab 595 \tab 909 \tab 225 \tab 10 \tab 19 \tab 25 \tab 243 \tab 4 \tab 14 \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 533 \tab 937 \tab 187 \tab 15 \tab 23 \tab 32 \tab 236 \tab 1 \tab 10 \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 678 \tab 1198 \tab 290 \tab 13 \tab 17 \tab 41 \tab 282 \tab 8 \tab 11 \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 849 \tab 1256 \tab 315 \tab 16 \tab 22 \tab 50 \tab 351 \tab 3 \tab 5 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 677 \tab 1057 \tab 249 \tab 11 \tab 24 \tab 37 \tab 286 \tab 1 \tab 6 \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 1845 \tab 1821 \tab 1 \tab - \tab - \tab 3 \tab 321 \tab - \tab - \tab - \tab 41 \tab - \tab 4032 \cr
+   2022 \tab 2378 \tab 726 \tab 163 \tab 5 \tab 25 \tab 29 \tab 209 \tab 1 \tab 4 \tab - \tab 4 \tab - \tab 3544 \cr
+   Total \tab 19694 \tab 34081 \tab 6543 \tab 276 \tab 402 \tab 917 \tab 5216 \tab 82 \tab 458 \tab 75 \tab 45 \tab 0 \tab 67789 \cr
 }
 }
 

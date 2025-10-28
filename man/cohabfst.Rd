@@ -36,12 +36,12 @@ C. It's a good idea for a couple who intend to get married to live together firs
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4407/vshow}{GSS Data Explorer page for \code{cohabfst}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1994 \tab 1545 \tab 141 \tab 330 \tab 332 \tab 383 \tab 213 \tab 25 \tab 23 \tab 2992 \cr
-   1998 \tab 1548 \tab 188 \tab 299 \tab 329 \tab 211 \tab 199 \tab 31 \tab 27 \tab 2832 \cr
-   2002 \tab 1594 \tab 240 \tab 312 \tab 227 \tab 215 \tab 159 \tab 17 \tab 1 \tab 2765 \cr
-   Total \tab 4687 \tab 569 \tab 941 \tab 888 \tab 809 \tab 571 \tab 73 \tab 51 \tab 8589 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1545 \tab 141 \tab 330 \tab 332 \tab 383 \tab 213 \tab 25 \tab 23 \tab - \tab 2992 \cr
+   1998 \tab 1548 \tab 188 \tab 299 \tab 329 \tab 211 \tab 199 \tab 31 \tab 27 \tab - \tab 2832 \cr
+   2002 \tab 1594 \tab 240 \tab 312 \tab 227 \tab 215 \tab 159 \tab 17 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 4687 \tab 569 \tab 941 \tab 888 \tab 809 \tab 571 \tab 73 \tab 51 \tab 0 \tab 8589 \cr
 }
 }
 

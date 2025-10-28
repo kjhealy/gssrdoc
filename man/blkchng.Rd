@@ -36,10 +36,10 @@ B. Blacks?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2318/vshow}{GSS Data Explorer page for \code{blkchng}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab increase a lot \tab increase by a little \tab stay the same \tab decrease by a little \tab decrease by a lot \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 344 \tab 624 \tab 303 \tab 60 \tab 14 \tab 37 \tab 16 \tab 2817 \cr
-   Total \tab 1419 \tab 344 \tab 624 \tab 303 \tab 60 \tab 14 \tab 37 \tab 16 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab increase a lot \tab increase by a little \tab stay the same \tab decrease by a little \tab decrease by a lot \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 344 \tab 624 \tab 303 \tab 60 \tab 14 \tab 37 \tab 16 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 344 \tab 624 \tab 303 \tab 60 \tab 14 \tab 37 \tab 16 \tab 0 \tab 2817 \cr
 }
 }
 

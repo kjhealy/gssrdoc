@@ -32,10 +32,10 @@ Question Has your (husband/wife) been married more than once?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1483/vshow}{GSS Data Explorer page for \code{spmarnum}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1994 \tab 2213 \tab 171 \tab 576 \tab 32 \tab 2992 \cr
-   Total \tab 2213 \tab 171 \tab 576 \tab 32 \tab 2992 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2213 \tab 171 \tab 576 \tab 32 \tab - \tab 2992 \cr
+   Total \tab 2213 \tab 171 \tab 576 \tab 32 \tab 0 \tab 2992 \cr
 }
 }
 

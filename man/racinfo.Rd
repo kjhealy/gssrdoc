@@ -34,10 +34,10 @@ Question B. How much information do you have about the race relations issue. Do 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/416/vshow}{GSS Data Explorer page for \code{racinfo}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab all info r needs \tab most info \tab some info \tab very little info \tab don't know \tab no answer \tab Total \cr
-   1983 \tab 795 \tab 98 \tab 203 \tab 332 \tab 158 \tab 10 \tab 3 \tab 1599 \cr
-   Total \tab 795 \tab 98 \tab 203 \tab 332 \tab 158 \tab 10 \tab 3 \tab 1599 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab all info r needs \tab most info \tab some info \tab very little info \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab 795 \tab 98 \tab 203 \tab 332 \tab 158 \tab 10 \tab 3 \tab - \tab 1599 \cr
+   Total \tab 795 \tab 98 \tab 203 \tab 332 \tab 158 \tab 10 \tab 3 \tab 0 \tab 1599 \cr
 }
 }
 

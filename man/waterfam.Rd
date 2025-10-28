@@ -35,11 +35,11 @@ Question B. And do you think that pollution of America's rivers, lakes, and stre
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4763/vshow}{GSS Data Explorer page for \code{waterfam}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 374 \tab 445 \tab 541 \tab 113 \tab 15 \tab 33 \tab 36 \tab 1606 \cr
-   1994 \tab 1606 \tab 294 \tab 408 \tab 488 \tab 117 \tab 18 \tab 28 \tab 33 \tab 2992 \cr
-   Total \tab 1655 \tab 668 \tab 853 \tab 1029 \tab 230 \tab 33 \tab 61 \tab 69 \tab 4598 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 374 \tab 445 \tab 541 \tab 113 \tab 15 \tab 33 \tab 36 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 294 \tab 408 \tab 488 \tab 117 \tab 18 \tab 28 \tab 33 \tab - \tab 2992 \cr
+   Total \tab 1655 \tab 668 \tab 853 \tab 1029 \tab 230 \tab 33 \tab 61 \tab 69 \tab 0 \tab 4598 \cr
 }
 }
 

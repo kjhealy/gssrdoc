@@ -37,11 +37,11 @@ A. For environmental problems, there should be international agreements that Ame
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4787/vshow}{GSS Data Explorer page for \code{grnintl}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2000 \tab 1541 \tab 278 \tab 619 \tab 166 \tab 60 \tab 9 \tab 73 \tab 71 \tab 2817 \cr
-   2010 \tab 614 \tab 354 \tab 711 \tab 184 \tab 58 \tab 33 \tab 83 \tab 7 \tab 2044 \cr
-   Total \tab 2155 \tab 632 \tab 1330 \tab 350 \tab 118 \tab 42 \tab 156 \tab 78 \tab 4861 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1541 \tab 278 \tab 619 \tab 166 \tab 60 \tab 9 \tab 73 \tab 71 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 354 \tab 711 \tab 184 \tab 58 \tab 33 \tab 83 \tab 7 \tab - \tab 2044 \cr
+   Total \tab 2155 \tab 632 \tab 1330 \tab 350 \tab 118 \tab 42 \tab 156 \tab 78 \tab 0 \tab 4861 \cr
 }
 }
 

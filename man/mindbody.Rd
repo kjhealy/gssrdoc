@@ -34,13 +34,13 @@ Question A. People picture life after death in many different ways. We'd like to
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/312/vshow}{GSS Data Explorer page for \code{mindbody}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab spiritual \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab sensual life \tab don't know \tab no answer \tab Total \cr
-   1986 \tab 246 \tab 478 \tab 136 \tab 126 \tab 216 \tab 42 \tab 37 \tab 143 \tab 19 \tab 27 \tab 1470 \cr
-   1987 \tab 369 \tab 554 \tab 132 \tab 147 \tab 221 \tab 86 \tab 58 \tab 179 \tab 22 \tab 51 \tab 1819 \cr
-   1988 \tab 282 \tab 432 \tab 135 \tab 115 \tab 222 \tab 57 \tab 53 \tab 131 \tab 15 \tab 39 \tab 1481 \cr
-   1989 \tab 749 \tab 247 \tab 82 \tab 62 \tab 159 \tab 48 \tab 42 \tab 99 \tab 15 \tab 34 \tab 1537 \cr
-   Total \tab 1646 \tab 1711 \tab 485 \tab 450 \tab 818 \tab 233 \tab 190 \tab 552 \tab 71 \tab 151 \tab 6307 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab spiritual \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab sensual life \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 246 \tab 478 \tab 136 \tab 126 \tab 216 \tab 42 \tab 37 \tab 143 \tab 19 \tab 27 \tab - \tab 1470 \cr
+   1987 \tab 369 \tab 554 \tab 132 \tab 147 \tab 221 \tab 86 \tab 58 \tab 179 \tab 22 \tab 51 \tab - \tab 1819 \cr
+   1988 \tab 282 \tab 432 \tab 135 \tab 115 \tab 222 \tab 57 \tab 53 \tab 131 \tab 15 \tab 39 \tab - \tab 1481 \cr
+   1989 \tab 749 \tab 247 \tab 82 \tab 62 \tab 159 \tab 48 \tab 42 \tab 99 \tab 15 \tab 34 \tab - \tab 1537 \cr
+   Total \tab 1646 \tab 1711 \tab 485 \tab 450 \tab 818 \tab 233 \tab 190 \tab 552 \tab 71 \tab 151 \tab 0 \tab 6307 \cr
 }
 }
 

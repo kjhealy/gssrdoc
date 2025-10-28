@@ -34,24 +34,24 @@ A. Was in a protest march showing opposition to the other man''s views?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/665/vshow}{GSS Data Explorer page for \code{hitmarch}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1973 \tab 489 \tab 58 \tab 939 \tab 15 \tab 3 \tab 1504 \cr
-   1975 \tab 407 \tab 32 \tab 1030 \tab 17 \tab 4 \tab 1490 \cr
-   1976 \tab - \tab 46 \tab 1421 \tab 25 \tab 7 \tab 1499 \cr
-   1978 \tab - \tab 49 \tab 1445 \tab 33 \tab 5 \tab 1532 \cr
-   1980 \tab - \tab 62 \tab 1368 \tab 27 \tab 11 \tab 1468 \cr
-   1983 \tab - \tab 55 \tab 1503 \tab 36 \tab 5 \tab 1599 \cr
-   1984 \tab - \tab 48 \tab 1391 \tab 28 \tab 6 \tab 1473 \cr
-   1986 \tab - \tab 49 \tab 1398 \tab 18 \tab 5 \tab 1470 \cr
-   1987 \tab - \tab 62 \tab 1704 \tab 41 \tab 12 \tab 1819 \cr
-   1988 \tab 484 \tab 24 \tab 952 \tab 15 \tab 6 \tab 1481 \cr
-   1989 \tab 502 \tab 27 \tab 985 \tab 15 \tab 8 \tab 1537 \cr
-   1990 \tab 473 \tab 28 \tab 846 \tab 24 \tab 1 \tab 1372 \cr
-   1991 \tab 500 \tab 29 \tab 967 \tab 14 \tab 7 \tab 1517 \cr
-   1993 \tab 549 \tab 23 \tab 1009 \tab 21 \tab 4 \tab 1606 \cr
-   1994 \tab 2481 \tab 12 \tab 493 \tab 4 \tab 2 \tab 2992 \cr
-   Total \tab 5885 \tab 604 \tab 17451 \tab 333 \tab 86 \tab 24359 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1973 \tab 489 \tab 58 \tab 939 \tab 15 \tab 3 \tab - \tab 1504 \cr
+   1975 \tab 407 \tab 32 \tab 1030 \tab 17 \tab 4 \tab - \tab 1490 \cr
+   1976 \tab - \tab 46 \tab 1421 \tab 25 \tab 7 \tab - \tab 1499 \cr
+   1978 \tab - \tab 49 \tab 1445 \tab 33 \tab 5 \tab - \tab 1532 \cr
+   1980 \tab - \tab 62 \tab 1368 \tab 27 \tab 11 \tab - \tab 1468 \cr
+   1983 \tab - \tab 55 \tab 1503 \tab 36 \tab 5 \tab - \tab 1599 \cr
+   1984 \tab - \tab 48 \tab 1391 \tab 28 \tab 6 \tab - \tab 1473 \cr
+   1986 \tab - \tab 49 \tab 1398 \tab 18 \tab 5 \tab - \tab 1470 \cr
+   1987 \tab - \tab 62 \tab 1704 \tab 41 \tab 12 \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 24 \tab 952 \tab 15 \tab 6 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 27 \tab 985 \tab 15 \tab 8 \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 28 \tab 846 \tab 24 \tab 1 \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 29 \tab 967 \tab 14 \tab 7 \tab - \tab 1517 \cr
+   1993 \tab 549 \tab 23 \tab 1009 \tab 21 \tab 4 \tab - \tab 1606 \cr
+   1994 \tab 2481 \tab 12 \tab 493 \tab 4 \tab 2 \tab - \tab 2992 \cr
+   Total \tab 5885 \tab 604 \tab 17451 \tab 333 \tab 86 \tab 0 \tab 24359 \cr
 }
 }
 

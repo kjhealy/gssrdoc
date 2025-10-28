@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |5  |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:--|:----------|:---------|:-----|
-#'  |2014  |1264 |222            |676   |235                        |83       |12 |43         |3         |2538  |
-#'  |Total |1264 |222            |676   |235                        |83       |12 |43         |3         |2538  |
+#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |5  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2014  |1264 |222            |676   |235                        |83       |12 |43         |3         |-                          |2538  |
+#'  |Total |1264 |222            |676   |235                        |83       |12 |43         |3         |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -67,10 +67,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |5   |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:---|:----------|:---------|:-----|
-#'  |2014  |1264 |36             |184   |267                        |606      |114 |64         |3         |2538  |
-#'  |Total |1264 |36             |184   |267                        |606      |114 |64         |3         |2538  |
+#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |5   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2014  |1264 |36             |184   |267                        |606      |114 |64         |3         |-                          |2538  |
+#'  |Total |1264 |36             |184   |267                        |606      |114 |64         |3         |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -110,10 +110,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |5  |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:--|:----------|:---------|:-----|
-#'  |2014  |1264 |288            |761   |97                         |78       |26 |20         |4         |2538  |
-#'  |Total |1264 |288            |761   |97                         |78       |26 |20         |4         |2538  |
+#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |5  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2014  |1264 |288            |761   |97                         |78       |26 |20         |4         |-                          |2538  |
+#'  |Total |1264 |288            |761   |97                         |78       |26 |20         |4         |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -203,10 +203,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |immigrants should retain their culture of origin and not adopt american culture |immigrants should retain their culture of origin and also adopt american culture |immigrants should give up their culture of origin and adopt american culture |can't choose |no answer |Total |
-#'  |:-----|:----|:-------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|:----------------------------------------------------------------------------|:------------|:---------|:-----|
-#'  |2014  |1264 |36                                                                              |1084                                                                             |65                                                                           |85           |4         |2538  |
-#'  |Total |1264 |36                                                                              |1084                                                                             |65                                                                           |85           |4         |2538  |
+#'  |year  |iap  |immigrants should retain their culture of origin and not adopt american culture |immigrants should retain their culture of origin and also adopt american culture |immigrants should give up their culture of origin and adopt american culture |can't choose |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:-------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|:----------------------------------------------------------------------------|:------------|:---------|:--------------------------|:--------------|:-----|
+#'  |2014  |1264 |36                                                                              |1084                                                                             |65                                                                           |85           |4         |-                          |-              |2538  |
+#'  |2024  |1663 |77                                                                              |1275                                                                             |87                                                                           |188          |3         |-                          |16             |3309  |
+#'  |Total |2927 |113                                                                             |2359                                                                             |152                                                                          |273          |7         |0                          |16             |5847  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -246,10 +247,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |disagree strongly |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2014  |1264 |446            |475   |216                        |65       |10                |57           |5         |2538  |
-#'  |Total |1264 |446            |475   |216                        |65       |10                |57           |5         |2538  |
+#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |disagree strongly |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2014  |1264 |446            |475   |216                        |65       |10                |57           |5         |-                          |2538  |
+#'  |Total |1264 |446            |475   |216                        |65       |10                |57           |5         |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -289,10 +290,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |disagree strongly |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2014  |1264 |86             |443   |311                        |275      |49                |106          |4         |2538  |
-#'  |Total |1264 |86             |443   |311                        |275      |49                |106          |4         |2538  |
+#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |disagree strongly |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2014  |1264 |86             |443   |311                        |275      |49                |106          |4         |-                          |2538  |
+#'  |Total |1264 |86             |443   |311                        |275      |49                |106          |4         |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -332,10 +333,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |disagree strongly |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2014  |1264 |347            |619   |157                        |100      |10                |36           |5         |2538  |
-#'  |Total |1264 |347            |619   |157                        |100      |10                |36           |5         |2538  |
+#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |disagree strongly |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2014  |1264 |347            |619   |157                        |100      |10                |36           |5         |-                          |2538  |
+#'  |Total |1264 |347            |619   |157                        |100      |10                |36           |5         |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -375,10 +376,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |disagree strongly |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2014  |1264 |84             |437   |286                        |360      |45                |56           |6         |2538  |
-#'  |Total |1264 |84             |437   |286                        |360      |45                |56           |6         |2538  |
+#'  |year  |iap  |agree strongly |agree |neither agree nor disagree |disagree |disagree strongly |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2014  |1264 |84             |437   |286                        |360      |45                |56           |6         |-                          |2538  |
+#'  |Total |1264 |84             |437   |286                        |360      |45                |56           |6         |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP National Identity
@@ -416,11 +417,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |not at all important |2  |3  |4   |5   |6   |very important |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------------|:--|:--|:---|:---|:---|:--------------|:------------|:---------|:-----|
-#'  |2004  |1340 |41                   |22 |35 |79  |144 |161 |975            |12           |3         |2812  |
-#'  |2014  |1274 |53                   |21 |40 |77  |119 |155 |772            |23           |4         |2538  |
-#'  |Total |2614 |94                   |43 |75 |156 |263 |316 |1747           |35           |7         |5350  |
+#'  |year  |iap  |not at all important |2  |3  |4   |5   |6   |very important |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------------|:--|:--|:---|:---|:---|:--------------|:------------|:---------|:--------------------------|:-----|
+#'  |2004  |1340 |41                   |22 |35 |79  |144 |161 |975            |12           |3         |-                          |2812  |
+#'  |2014  |1274 |53                   |21 |40 |77  |119 |155 |772            |23           |4         |-                          |2538  |
+#'  |Total |2614 |94                   |43 |75 |156 |263 |316 |1747           |35           |7         |0                          |5350  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship

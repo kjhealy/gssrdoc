@@ -42,10 +42,10 @@ PROBE: Anything else?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2918/vshow}{GSS Data Explorer page for \code{chldprb}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab adhd or add \tab depression \tab normal \tab asthma \tab developmental puberty \tab illicit drugs \tab adhd symptoms \tab psychiatric personality problems \tab medical problems symptoms \tab environment social \tab other characteristic miscellaneous \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 135 \tab 228 \tab 287 \tab 230 \tab 30 \tab 49 \tab 43 \tab 61 \tab 62 \tab 161 \tab 26 \tab 78 \tab 3 \tab 2765 \cr
-   Total \tab 1372 \tab 135 \tab 228 \tab 287 \tab 230 \tab 30 \tab 49 \tab 43 \tab 61 \tab 62 \tab 161 \tab 26 \tab 78 \tab 3 \tab 2765 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab adhd or add \tab depression \tab normal \tab asthma \tab developmental puberty \tab illicit drugs \tab adhd symptoms \tab psychiatric personality problems \tab medical problems symptoms \tab environment social \tab other characteristic miscellaneous \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1372 \tab 135 \tab 228 \tab 287 \tab 230 \tab 30 \tab 49 \tab 43 \tab 61 \tab 62 \tab 161 \tab 26 \tab 78 \tab 3 \tab - \tab 2765 \cr
+   Total \tab 1372 \tab 135 \tab 228 \tab 287 \tab 230 \tab 30 \tab 49 \tab 43 \tab 61 \tab 62 \tab 161 \tab 26 \tab 78 \tab 3 \tab 0 \tab 2765 \cr
 }
 }
 

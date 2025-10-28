@@ -91,10 +91,10 @@ First response
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4870/vshow}{GSS Data Explorer page for \code{spklang1}}.
 
-Counts by year:\tabular{lllllllllllllllllllllllllllllllll}{
-   year \tab iap \tab english \tab spanish \tab polish \tab french \tab hebrew \tab russian \tab tagalog \tab chinese \tab italian \tab romanian \tab german \tab chamorro \tab ukranian \tab hungarian \tab turkish \tab khmer \tab korean \tab navajo \tab malayam \tab farsi-persian \tab dari \tab slovak \tab japanese \tab portuguese \tab vajun \tab vietnamese \tab latin \tab swedish \tab vesaya \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 1065 \tab 51 \tab 2 \tab 15 \tab 3 \tab 1 \tab 2 \tab 2 \tab 2 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 196 \tab 2904 \cr
-   Total \tab 1537 \tab 1065 \tab 51 \tab 2 \tab 15 \tab 3 \tab 1 \tab 2 \tab 2 \tab 2 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 196 \tab 2904 \cr
+Counts by year:\tabular{llllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab english \tab spanish \tab polish \tab french \tab hebrew \tab russian \tab tagalog \tab chinese \tab italian \tab romanian \tab german \tab chamorro \tab ukranian \tab hungarian \tab turkish \tab khmer \tab korean \tab navajo \tab malayam \tab farsi-persian \tab dari \tab slovak \tab japanese \tab portuguese \tab vajun \tab vietnamese \tab latin \tab swedish \tab vesaya \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1537 \tab 1065 \tab 51 \tab 2 \tab 15 \tab 3 \tab 1 \tab 2 \tab 2 \tab 2 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 196 \tab - \tab 2904 \cr
+   Total \tab 1537 \tab 1065 \tab 51 \tab 2 \tab 15 \tab 3 \tab 1 \tab 2 \tab 2 \tab 2 \tab 1 \tab 7 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 196 \tab 0 \tab 2904 \cr
 }
 }
 

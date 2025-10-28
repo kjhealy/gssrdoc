@@ -35,10 +35,10 @@ ENTER THE RESPONDENT'S ANSWER, 0-10:
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6317/vshow}{GSS Data Explorer page for \code{govtinfo}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab 0 - all government information should be publically available, even if this meant a risk to public security \tab 1 \tab 10 - public security should be given priority, even if this means limiting access to government information \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1477 \tab 39 \tab 31 \tab 200 \tab 51 \tab 102 \tab 66 \tab 311 \tab 139 \tab 175 \tab 186 \tab 58 \tab 19 \tab 13 \tab 2867 \cr
-   Total \tab 1477 \tab 39 \tab 31 \tab 200 \tab 51 \tab 102 \tab 66 \tab 311 \tab 139 \tab 175 \tab 186 \tab 58 \tab 19 \tab 13 \tab 2867 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab 0 - all government information should be publically available, even if this meant a risk to public security \tab 1 \tab 10 - public security should be given priority, even if this means limiting access to government information \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1477 \tab 39 \tab 31 \tab 200 \tab 51 \tab 102 \tab 66 \tab 311 \tab 139 \tab 175 \tab 186 \tab 58 \tab 19 \tab 13 \tab - \tab 2867 \cr
+   Total \tab 1477 \tab 39 \tab 31 \tab 200 \tab 51 \tab 102 \tab 66 \tab 311 \tab 139 \tab 175 \tab 186 \tab 58 \tab 19 \tab 13 \tab 0 \tab 2867 \cr
 }
 }
 

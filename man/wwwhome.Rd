@@ -33,11 +33,11 @@ Question A. Can you use the World Wide Web when you are at home?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2552/vshow}{GSS Data Explorer page for \code{wwwhome}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2418 \tab 323 \tab 53 \tab 23 \tab 2817 \cr
-   2002 \tab 2016 \tab 665 \tab 82 \tab 2 \tab 2765 \cr
-   Total \tab 4434 \tab 988 \tab 135 \tab 25 \tab 5582 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2418 \tab 323 \tab 53 \tab 23 \tab - \tab 2817 \cr
+   2002 \tab 2016 \tab 665 \tab 82 \tab 2 \tab - \tab 2765 \cr
+   Total \tab 4434 \tab 988 \tab 135 \tab 25 \tab 0 \tab 5582 \cr
 }
 }
 

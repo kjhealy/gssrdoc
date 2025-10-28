@@ -35,11 +35,11 @@ B. A person gives the government incorrect information about himself to get gove
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4638/vshow}{GSS Data Explorer page for \code{govcheat}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab not wrong \tab a bit wrong \tab wrong \tab seriously wrong \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 27 \tab 49 \tab 586 \tab 645 \tab 25 \tab 27 \tab 1517 \cr
-   1998 \tab 1548 \tab 22 \tab 34 \tab 510 \tab 664 \tab 27 \tab 27 \tab 2832 \cr
-   Total \tab 1706 \tab 49 \tab 83 \tab 1096 \tab 1309 \tab 52 \tab 54 \tab 4349 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not wrong \tab a bit wrong \tab wrong \tab seriously wrong \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 27 \tab 49 \tab 586 \tab 645 \tab 25 \tab 27 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 22 \tab 34 \tab 510 \tab 664 \tab 27 \tab 27 \tab - \tab 2832 \cr
+   Total \tab 1706 \tab 49 \tab 83 \tab 1096 \tab 1309 \tab 52 \tab 54 \tab 0 \tab 4349 \cr
 }
 }
 

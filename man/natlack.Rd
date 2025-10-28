@@ -34,10 +34,10 @@ Question Thinking about your day to day experience of nature, please tell me how
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7193/vshow}{GSS Data Explorer page for \code{natlack}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 98 \tab 224 \tab 375 \tab 437 \tab 16 \tab 23 \tab 2348 \cr
-   Total \tab 1175 \tab 98 \tab 224 \tab 375 \tab 437 \tab 16 \tab 23 \tab 2348 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 98 \tab 224 \tab 375 \tab 437 \tab 16 \tab 23 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 98 \tab 224 \tab 375 \tab 437 \tab 16 \tab 23 \tab 0 \tab 2348 \cr
 }
 }
 

@@ -36,10 +36,10 @@ F. Their housing.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5113/vshow}{GSS Data Explorer page for \code{chldhome}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab much better \tab better \tab about the same \tab worse \tab much worse \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 57 \tab 454 \tab 597 \tab 197 \tab 21 \tab 30 \tab 16 \tab 1372 \cr
-   Total \tab 0 \tab 57 \tab 454 \tab 597 \tab 197 \tab 21 \tab 30 \tab 16 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much better \tab better \tab about the same \tab worse \tab much worse \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 57 \tab 454 \tab 597 \tab 197 \tab 21 \tab 30 \tab 16 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 57 \tab 454 \tab 597 \tab 197 \tab 21 \tab 30 \tab 16 \tab 0 \tab 1372 \cr
 }
 }
 

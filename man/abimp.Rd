@@ -34,11 +34,11 @@ Question A. How important is the abortion issue to you--would you say it is one 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/615/vshow}{GSS Data Explorer page for \code{abimp}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not imp at all \tab don't know \tab no answer \tab Total \cr
-   1982 \tab - \tab 218 \tab 765 \tab 557 \tab 285 \tab 25 \tab 10 \tab 1860 \cr
-   1984 \tab 484 \tab 160 \tab 459 \tab 264 \tab 97 \tab 7 \tab 2 \tab 1473 \cr
-   Total \tab 484 \tab 378 \tab 1224 \tab 821 \tab 382 \tab 32 \tab 12 \tab 3333 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not imp at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab - \tab 218 \tab 765 \tab 557 \tab 285 \tab 25 \tab 10 \tab - \tab 1860 \cr
+   1984 \tab 484 \tab 160 \tab 459 \tab 264 \tab 97 \tab 7 \tab 2 \tab - \tab 1473 \cr
+   Total \tab 484 \tab 378 \tab 1224 \tab 821 \tab 382 \tab 32 \tab 12 \tab 0 \tab 3333 \cr
 }
 }
 

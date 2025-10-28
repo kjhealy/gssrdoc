@@ -35,10 +35,10 @@ Question How effective do you think avoiding travel to certain cities is for peo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3864/vshow}{GSS Data Explorer page for \code{eff911k}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 1 not at all effective \tab 2 \tab 3 \tab 4 \tab 5 extremely effective \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 671 \tab 621 \tab 153 \tab 268 \tab 94 \tab 130 \tab 78 \tab 8 \tab 2023 \cr
-   Total \tab 671 \tab 621 \tab 153 \tab 268 \tab 94 \tab 130 \tab 78 \tab 8 \tab 2023 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 1 not at all effective \tab 2 \tab 3 \tab 4 \tab 5 extremely effective \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 671 \tab 621 \tab 153 \tab 268 \tab 94 \tab 130 \tab 78 \tab 8 \tab - \tab 2023 \cr
+   Total \tab 671 \tab 621 \tab 153 \tab 268 \tab 94 \tab 130 \tab 78 \tab 8 \tab 0 \tab 2023 \cr
 }
 }
 

@@ -35,11 +35,11 @@ C. The steel industry.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4073/vshow}{GSS Data Explorer page for \code{ownsteel}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab own it \tab control prices \tab leave alone \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 15 \tab 216 \tab 371 \tab 53 \tab 22 \tab 1534 \cr
-   1990 \tab 155 \tab 21 \tab 364 \tab 623 \tab 152 \tab 57 \tab 1372 \cr
-   Total \tab 1012 \tab 36 \tab 580 \tab 994 \tab 205 \tab 79 \tab 2906 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab own it \tab control prices \tab leave alone \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 15 \tab 216 \tab 371 \tab 53 \tab 22 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 21 \tab 364 \tab 623 \tab 152 \tab 57 \tab - \tab 1372 \cr
+   Total \tab 1012 \tab 36 \tab 580 \tab 994 \tab 205 \tab 79 \tab 0 \tab 2906 \cr
 }
 }
 

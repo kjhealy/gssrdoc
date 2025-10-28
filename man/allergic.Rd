@@ -35,10 +35,11 @@ Question H. In your opinion, how likely is it that (John/Mary)''s situation MIGH
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2928/vshow}{GSS Data Explorer page for \code{allergic}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 164 \tab 514 \tab 422 \tab 236 \tab 46 \tab 11 \tab 2765 \cr
-   Total \tab 1372 \tab 164 \tab 514 \tab 422 \tab 236 \tab 46 \tab 11 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2002 \tab 1372 \tab 164 \tab 514 \tab 422 \tab 236 \tab 46 \tab 11 \tab - \tab - \tab 2765 \cr
+   2024 \tab 1660 \tab 67 \tab 469 \tab 705 \tab 331 \tab 49 \tab 4 \tab - \tab 24 \tab 3309 \cr
+   Total \tab 3032 \tab 231 \tab 983 \tab 1127 \tab 567 \tab 95 \tab 15 \tab 0 \tab 24 \tab 6074 \cr
 }
 }
 

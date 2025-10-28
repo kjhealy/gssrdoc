@@ -38,13 +38,13 @@ G. In my job I can help other people
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4547/vshow}{GSS Data Explorer page for \code{rhlpoths}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 235 \tab 429 \tab 137 \tab 56 \tab 14 \tab 4 \tab 23 \tab 1537 \cr
-   1998 \tab 1967 \tab 254 \tab 410 \tab 103 \tab 49 \tab 11 \tab 6 \tab 32 \tab 2832 \cr
-   2006 \tab 3492 \tab 414 \tab 476 \tab 76 \tab 38 \tab 10 \tab 2 \tab 2 \tab 4510 \cr
-   2016 \tab 1927 \tab 442 \tab 381 \tab 70 \tab 30 \tab 10 \tab 1 \tab 6 \tab 2867 \cr
-   Total \tab 8025 \tab 1345 \tab 1696 \tab 386 \tab 173 \tab 45 \tab 13 \tab 63 \tab 11746 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 235 \tab 429 \tab 137 \tab 56 \tab 14 \tab 4 \tab 23 \tab - \tab 1537 \cr
+   1998 \tab 1967 \tab 254 \tab 410 \tab 103 \tab 49 \tab 11 \tab 6 \tab 32 \tab - \tab 2832 \cr
+   2006 \tab 3492 \tab 414 \tab 476 \tab 76 \tab 38 \tab 10 \tab 2 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 442 \tab 381 \tab 70 \tab 30 \tab 10 \tab 1 \tab 6 \tab - \tab 2867 \cr
+   Total \tab 8025 \tab 1345 \tab 1696 \tab 386 \tab 173 \tab 45 \tab 13 \tab 63 \tab 0 \tab 11746 \cr
 }
 }
 

@@ -35,12 +35,12 @@ Question What was your father''s religious preference when you were growing up? 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1063/vshow}{GSS Data Explorer page for \code{parelig}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab don't know \tab no answer \tab Total \cr
-   1988 \tab 202 \tab 703 \tab 360 \tab 28 \tab 151 \tab 30 \tab 1 \tab 6 \tab 1481 \cr
-   2008 \tab 1969 \tab 5 \tab 2 \tab 40 \tab 5 \tab - \tab 2 \tab - \tab 2023 \cr
-   2012 \tab 1931 \tab 5 \tab 3 \tab 26 \tab 5 \tab 2 \tab 2 \tab - \tab 1974 \cr
-   Total \tab 4102 \tab 713 \tab 365 \tab 94 \tab 161 \tab 32 \tab 5 \tab 6 \tab 5478 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 202 \tab 703 \tab 360 \tab 28 \tab 151 \tab 30 \tab 1 \tab 6 \tab - \tab 1481 \cr
+   2008 \tab 1969 \tab 5 \tab 2 \tab 40 \tab 5 \tab - \tab 2 \tab - \tab - \tab 2023 \cr
+   2012 \tab 1931 \tab 5 \tab 3 \tab 26 \tab 5 \tab 2 \tab 2 \tab - \tab - \tab 1974 \cr
+   Total \tab 4102 \tab 713 \tab 365 \tab 94 \tab 161 \tab 32 \tab 5 \tab 6 \tab 0 \tab 5478 \cr
 }
 }
 

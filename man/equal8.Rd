@@ -35,10 +35,10 @@ H. If someone has a high social or economic position, that indicates the person 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/232/vshow}{GSS Data Explorer page for \code{equal8}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 172 \tab 531 \tab 450 \tab 254 \tab 48 \tab 18 \tab 1473 \cr
-   Total \tab 0 \tab 172 \tab 531 \tab 450 \tab 254 \tab 48 \tab 18 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 172 \tab 531 \tab 450 \tab 254 \tab 48 \tab 18 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 172 \tab 531 \tab 450 \tab 254 \tab 48 \tab 18 \tab 0 \tab 1473 \cr
 }
 }
 

@@ -1,3 +1,32 @@
+#'  Poststratification and nonresponse weight for analyzing nea follow-on
+#' 
+#'  wtssnrps_nea
+#' 
+#' Question POSTSTRATIFICATION AND NONRESPONSE WEIGHT FOR ANALYZING NEA FOLLOW-ON
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
+#' 
+#'
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name wtssnrps_nea
+NULL
+
+
 #'  Poststratification weight for analyzing gss next follow-on
 #' 
 #'  wtssps_next
@@ -56,66 +85,285 @@ NULL
 NULL
 
 
-#'  Person weight composed
+#'  Nea follow-on eligible
 #' 
-#'  wtsscomp
+#'  neaeligible
 #' 
 #' Question  
 #' 
 #' 
 #' @section Values: 
 #'
-#'   * `[Empty]` No applicable value labels
-#'   * `[NA(d)]`NA
+#'   * `[0]` not eligible for follow-on
+#'   * `[1]` eligible for follow-on
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
 #'
-#'  |ballots |years                                                                                                            |
-#'  |:-------|:----------------------------------------------------------------------------------------------------------------|
-#'  |A/B/C/- |1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 |
-#'  |A/B/C/D |2006                                                                                                             |
-#'  |Full    |1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987                               |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `neaeligible`](https://gssdataexplorer.norc.org/variables/8108/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |not eligible for follow-on |eligible for follow-on |Total |
+#'  |:-----|:--------------------------|:--------------------------|:----------------------|:-----|
+#'  |2022  |-                          |1275                       |2269                   |3544  |
+#'  |Total |0                          |1275                       |2269                   |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
+#' @family NEA
 #' 
 #' 
 #' @keywords variable
 #' @md
-#' @name wtsscomp
+#' @name neaeligible
 NULL
 
 
-#'  Wtsscompnr
+#'  Gss next follow-on eligible
 #' 
-#'  wtsscompnr
+#'  nexteligible
 #' 
 #' Question  
 #' 
 #' 
 #' @section Values: 
 #'
-#'   * `[Empty]` No applicable value labels
-#'   * `[NA(d)]`NA
+#'   * `[0]` not eligible for follow-on
+#'   * `[1]` eligible for follow-on
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
 #'
-#'  |ballots |years                                                |
-#'  |:-------|:----------------------------------------------------|
-#'  |A/B/C/- |2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 |
-#'  |A/B/C/D |2006                                                 |
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
 #' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `nexteligible`](https://gssdataexplorer.norc.org/variables/8109/vshow).
 #'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |not eligible for follow-on |eligible for follow-on |not available in this release |Total |
+#'  |:-----|:--------------------------|:--------------------------|:----------------------|:-----------------------------|:-----|
+#'  |2022  |-                          |297                        |3247                   |-                             |3544  |
+#'  |Total |0                          |297                        |3247                   |0                             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' 
+#' @family GSS Next
 #' 
 #' 
 #' @keywords variable
 #' @md
-#' @name wtsscompnr
+#' @name nexteligible
+NULL
+
+
+#'  Did father (or oldest same-sex parent) ever work for pay for as long as a year while you were growing up?
+#' 
+#'  pawrkgrw
+#' 
+#' Question Did father (or oldest same-sex parent) ever work for pay for as long as a year while you were growing up?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2024  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `pawrkgrw`](https://gssdataexplorer.norc.org/variables/8201/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |yes  |no  |don't know |iap |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:----|:---|:----------|:---|:---------|:--------------|:-----|
+#'  |2024  |-                          |2497 |105 |102        |597 |5         |3              |3309  |
+#'  |Total |0                          |2497 |105 |102        |597 |5         |3              |3309  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Family
+#' 
+#' @keywords variable
+#' @md
+#' @name pawrkgrw
+NULL
+
+
+#'  Confidence in labor unions
+#' 
+#'  conlabory
+#' 
+#' Question I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?  
+#' READ EACH ITEM; CODE ONE FOR EACH.
+#' F. Labor unions
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` a great deal
+#'   * `[2]` only some
+#'   * `[3]` hardly any
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |B/C     |2024  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `conlabory`](https://gssdataexplorer.norc.org/variables/8113/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |a great deal |only some |hardly any |don't know |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:------------|:---------|:----------|:----------|:----|:--------------|:-----|
+#'  |2024  |-                          |176          |561       |281        |53         |2227 |11             |3309  |
+#'  |Total |0                          |176          |561       |281        |53         |2227 |11             |3309  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name conlabory
+NULL
+
+
+#'  Differences due mainly to unbringing
+#' 
+#'  racdif5
+#' 
+#' Question On the average Black people have worse jobs, income, and housing than white people.Do you think these differences are . . .
+#' E. Mainly due to upbringing?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2024  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `racdif5`](https://gssdataexplorer.norc.org/variables/8202/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |yes |no  |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:---|:----------|:----|:---------|:--------------|:-----|
+#'  |2024  |-                          |631 |383 |43         |2235 |3         |14             |3309  |
+#'  |Total |0                          |631 |383 |43         |2235 |3         |14             |3309  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name racdif5
+NULL
+
+
+#'  Same-sex couples should have the right to marry one another
+#' 
+#'  marsamey
+#' 
+#' Question Do you agree or disagree with the following statement: Same-sex couples  have the right to marry one another.
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` strongly agree
+#'   * `[2]` agree
+#'   * `[3]` neither agree nor disagree
+#'   * `[4]` disagree
+#'   * `[5]` strongly disagree
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2024  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `marsamey`](https://gssdataexplorer.norc.org/variables/8058/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:----|:---------|:--------------|:-----|
+#'  |2024  |-                          |404            |229   |163                        |116      |158               |13           |2213 |4         |9              |3309  |
+#'  |Total |0                          |404            |229   |163                        |116      |158               |13           |2213 |4         |9              |3309  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name marsamey
+NULL
+
+
+#'  R no religion age 16
+#' 
+#'  norelgsp16
+#' 
+#' Question Were  you raised to be atheist, agnostic, something else, or nothing in particular?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` atheist
+#'   * `[2]` agnostic
+#'   * `[3]` something else
+#'   * `[4]` nothing in particular
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2024  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `norelgsp16`](https://gssdataexplorer.norc.org/variables/8240/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |atheist |agnostic |something else |nothing in particular |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:-------|:--------|:--------------|:---------------------|:----------|:----|:---------|:--------------|:-----|
+#'  |2024  |-                          |15      |19       |18             |375                   |4          |2875 |1         |2              |3309  |
+#'  |Total |0                          |15      |19       |18             |375                   |4          |2875 |1         |2              |3309  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Religion
+#' 
+#' @keywords variable
+#' @md
+#' @name norelgsp16
 NULL
 
 

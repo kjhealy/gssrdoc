@@ -31,10 +31,10 @@ C. Jews?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2325/vshow}{GSS Data Explorer page for \code{comjews}}.
 
-Counts by year:\tabular{lllllllllllllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 15 \tab 2 \tab 20 \tab 25 \tab 3 \tab 30 \tab 33 \tab 35 \tab 4 \tab 40 \tab 5 \tab 50 \tab 6 \tab 60 \tab 7 \tab 70 \tab 75 \tab 8 \tab 80 \tab 90 \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 375 \tab 125 \tab 138 \tab 2 \tab 26 \tab 94 \tab 50 \tab 16 \tab 34 \tab 31 \tab 1 \tab 8 \tab 8 \tab 12 \tab 214 \tab 16 \tab 3 \tab 5 \tab 3 \tab 2 \tab 1 \tab 7 \tab 2 \tab 1 \tab 149 \tab 75 \tab 2817 \cr
-   Total \tab 1419 \tab 375 \tab 125 \tab 138 \tab 2 \tab 26 \tab 94 \tab 50 \tab 16 \tab 34 \tab 31 \tab 1 \tab 8 \tab 8 \tab 12 \tab 214 \tab 16 \tab 3 \tab 5 \tab 3 \tab 2 \tab 1 \tab 7 \tab 2 \tab 1 \tab 149 \tab 75 \tab 2817 \cr
+Counts by year:\tabular{llllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 15 \tab 2 \tab 20 \tab 25 \tab 3 \tab 30 \tab 33 \tab 35 \tab 4 \tab 40 \tab 5 \tab 50 \tab 6 \tab 60 \tab 7 \tab 70 \tab 75 \tab 8 \tab 80 \tab 90 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 375 \tab 125 \tab 138 \tab 2 \tab 26 \tab 94 \tab 50 \tab 16 \tab 34 \tab 31 \tab 1 \tab 8 \tab 8 \tab 12 \tab 214 \tab 16 \tab 3 \tab 5 \tab 3 \tab 2 \tab 1 \tab 7 \tab 2 \tab 1 \tab 149 \tab 75 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 375 \tab 125 \tab 138 \tab 2 \tab 26 \tab 94 \tab 50 \tab 16 \tab 34 \tab 31 \tab 1 \tab 8 \tab 8 \tab 12 \tab 214 \tab 16 \tab 3 \tab 5 \tab 3 \tab 2 \tab 1 \tab 7 \tab 2 \tab 1 \tab 149 \tab 75 \tab 0 \tab 2817 \cr
 }
 }
 

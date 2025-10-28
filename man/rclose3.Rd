@@ -36,11 +36,11 @@ PROBE:  Anyone else?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/852/vshow}{GSS Data Explorer page for \code{rclose3}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab especially close \tab not esp. close \tab no answer \tab Total \cr
-   1985 \tab 1070 \tab 130 \tab 329 \tab 5 \tab 1534 \cr
-   1987 \tab 1345 \tab 62 \tab 372 \tab 40 \tab 1819 \cr
-   Total \tab 2415 \tab 192 \tab 701 \tab 45 \tab 3353 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab especially close \tab not esp. close \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 1070 \tab 130 \tab 329 \tab 5 \tab - \tab 1534 \cr
+   1987 \tab 1345 \tab 62 \tab 372 \tab 40 \tab - \tab 1819 \cr
+   Total \tab 2415 \tab 192 \tab 701 \tab 45 \tab 0 \tab 3353 \cr
 }
 }
 

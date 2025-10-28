@@ -38,12 +38,12 @@ A. First, how important is coming from a wealthy family?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4241/vshow}{GSS Data Explorer page for \code{opwlth}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   1987 \tab 255 \tab 62 \tab 290 \tab 432 \tab 466 \tab 264 \tab 35 \tab 15 \tab - \tab 1819 \cr
-   2000 \tab 1545 \tab 35 \tab 206 \tab 338 \tab 418 \tab 179 \tab 42 \tab 54 \tab - \tab 2817 \cr
-   2021 \tab 2029 \tab 118 \tab 407 \tab 580 \tab 506 \tab 204 \tab 63 \tab 117 \tab 8 \tab 4032 \cr
-   Total \tab 3829 \tab 215 \tab 903 \tab 1350 \tab 1390 \tab 647 \tab 140 \tab 186 \tab 8 \tab 8668 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 62 \tab 290 \tab 432 \tab 466 \tab 264 \tab 35 \tab 15 \tab - \tab - \tab 1819 \cr
+   2000 \tab 1545 \tab 35 \tab 206 \tab 338 \tab 418 \tab 179 \tab 42 \tab 54 \tab - \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 118 \tab 407 \tab 580 \tab 506 \tab 204 \tab 63 \tab 117 \tab 8 \tab - \tab 4032 \cr
+   Total \tab 3829 \tab 215 \tab 903 \tab 1350 \tab 1390 \tab 647 \tab 140 \tab 186 \tab 8 \tab 0 \tab 8668 \cr
 }
 }
 

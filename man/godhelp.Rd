@@ -36,10 +36,10 @@ Question I ask for God''s help in the midst of daily activities.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3087/vshow}{GSS Data Explorer page for \code{godhelp}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never or almost never \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 1472 \tab 298 \tab 319 \tab 163 \tab 191 \tab 170 \tab 180 \tab 4 \tab 15 \tab 2812 \cr
-   Total \tab 1472 \tab 298 \tab 319 \tab 163 \tab 191 \tab 170 \tab 180 \tab 4 \tab 15 \tab 2812 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never or almost never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1472 \tab 298 \tab 319 \tab 163 \tab 191 \tab 170 \tab 180 \tab 4 \tab 15 \tab - \tab 2812 \cr
+   Total \tab 1472 \tab 298 \tab 319 \tab 163 \tab 191 \tab 170 \tab 180 \tab 4 \tab 15 \tab 0 \tab 2812 \cr
 }
 }
 

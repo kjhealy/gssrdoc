@@ -33,10 +33,10 @@ Question Some people think that it's important to stand up for your own opinion 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1376/vshow}{GSS Data Explorer page for \code{standup}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab should stand up regardless \tab keep it yourself if offend others \tab neither \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 890 \tab 607 \tab 75 \tab 22 \tab 12 \tab 1606 \cr
-   Total \tab 0 \tab 890 \tab 607 \tab 75 \tab 22 \tab 12 \tab 1606 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab should stand up regardless \tab keep it yourself if offend others \tab neither \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 890 \tab 607 \tab 75 \tab 22 \tab 12 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 890 \tab 607 \tab 75 \tab 22 \tab 12 \tab 0 \tab 1606 \cr
 }
 }
 

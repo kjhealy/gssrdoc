@@ -37,10 +37,10 @@ E. The age of the employee
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4537/vshow}{GSS Data Explorer page for \code{rageemp}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab most impt \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 1 \tab 3 \tab 11 \tab 679 \tab 25 \tab 179 \tab 1537 \cr
-   Total \tab 639 \tab 1 \tab 3 \tab 11 \tab 679 \tab 25 \tab 179 \tab 1537 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab most impt \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 1 \tab 3 \tab 11 \tab 679 \tab 25 \tab 179 \tab - \tab 1537 \cr
+   Total \tab 639 \tab 1 \tab 3 \tab 11 \tab 679 \tab 25 \tab 179 \tab 0 \tab 1537 \cr
 }
 }
 

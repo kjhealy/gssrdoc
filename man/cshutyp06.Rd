@@ -34,11 +34,11 @@ Question During March through May 2006, were you a resident in a household " suc
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5589/vshow}{GSS Data Explorer page for \code{cshutyp06}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab living in household \tab living in institution \tab homeless (volunteered) \tab other \tab no answer \tab Total \cr
-   2008 \tab - \tab 1994 \tab 21 \tab 6 \tab 1 \tab 1 \tab 2023 \cr
-   2010 \tab - \tab 1991 \tab 43 \tab 2 \tab 7 \tab 1 \tab 2044 \cr
-   Total \tab 0 \tab 3985 \tab 64 \tab 8 \tab 8 \tab 2 \tab 4067 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab living in household \tab living in institution \tab homeless (volunteered) \tab other \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab - \tab 1994 \tab 21 \tab 6 \tab 1 \tab 1 \tab - \tab 2023 \cr
+   2010 \tab - \tab 1991 \tab 43 \tab 2 \tab 7 \tab 1 \tab - \tab 2044 \cr
+   Total \tab 0 \tab 3985 \tab 64 \tab 8 \tab 8 \tab 2 \tab 0 \tab 4067 \cr
 }
 }
 

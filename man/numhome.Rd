@@ -30,10 +30,10 @@ Question C. How many computers in working condition do you have in your home?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2551/vshow}{GSS Data Explorer page for \code{numhome}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2418 \tab 261 \tab 76 \tab 27 \tab 7 \tab 2 \tab 1 \tab 1 \tab 24 \tab 2817 \cr
-   Total \tab 2418 \tab 261 \tab 76 \tab 27 \tab 7 \tab 2 \tab 1 \tab 1 \tab 24 \tab 2817 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2418 \tab 261 \tab 76 \tab 27 \tab 7 \tab 2 \tab 1 \tab 1 \tab 24 \tab - \tab 2817 \cr
+   Total \tab 2418 \tab 261 \tab 76 \tab 27 \tab 7 \tab 2 \tab 1 \tab 1 \tab 24 \tab 0 \tab 2817 \cr
 }
 }
 

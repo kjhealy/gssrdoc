@@ -33,10 +33,10 @@ Please CHECK ONE BOX ONLY.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4107/vshow}{GSS Data Explorer page for \code{cutdebt}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab spend on social programs like health \tab spend less than now on social programs \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1572 \tab 685 \tab 400 \tab 209 \tab 38 \tab 2904 \cr
-   Total \tab 1572 \tab 685 \tab 400 \tab 209 \tab 38 \tab 2904 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab spend on social programs like health \tab spend less than now on social programs \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1572 \tab 685 \tab 400 \tab 209 \tab 38 \tab - \tab 2904 \cr
+   Total \tab 1572 \tab 685 \tab 400 \tab 209 \tab 38 \tab 0 \tab 2904 \cr
 }
 }
 

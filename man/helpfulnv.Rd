@@ -37,7 +37,8 @@ Counts by year:\tabular{llllllll}{
    year \tab iap \tab try to be helpful \tab looking out for themselves \tab depends (phone mode only: volunteered) \tab don't know \tab skipped on web \tab Total \cr
    2021 \tab 2719 \tab 751 \tab 550 \tab 6 \tab 2 \tab 4 \tab 4032 \cr
    2022 \tab 2962 \tab 303 \tab 275 \tab - \tab - \tab 4 \tab 3544 \cr
-   Total \tab 5681 \tab 1054 \tab 825 \tab 6 \tab 2 \tab 8 \tab 7576 \cr
+   2024 \tab 2665 \tab 325 \tab 308 \tab 9 \tab 1 \tab 1 \tab 3309 \cr
+   Total \tab 8346 \tab 1379 \tab 1133 \tab 15 \tab 3 \tab 9 \tab 10885 \cr
 }
 }
 

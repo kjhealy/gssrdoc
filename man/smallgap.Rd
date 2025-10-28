@@ -35,10 +35,10 @@ Question For a society to be fair, differences in people's standards of living s
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7239/vshow}{GSS Data Explorer page for \code{smallgap}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 105 \tab 296 \tab 341 \tab 342 \tab 64 \tab 23 \tab 2 \tab 2348 \cr
-   Total \tab 1175 \tab 105 \tab 296 \tab 341 \tab 342 \tab 64 \tab 23 \tab 2 \tab 2348 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 105 \tab 296 \tab 341 \tab 342 \tab 64 \tab 23 \tab 2 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 105 \tab 296 \tab 341 \tab 342 \tab 64 \tab 23 \tab 2 \tab 0 \tab 2348 \cr
 }
 }
 

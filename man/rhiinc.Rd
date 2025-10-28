@@ -38,13 +38,13 @@ B. My income is high
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4542/vshow}{GSS Data Explorer page for \code{rhiinc}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 38 \tab 190 \tab 266 \tab 297 \tab 73 \tab 7 \tab 27 \tab 1537 \cr
-   1998 \tab 1967 \tab 40 \tab 162 \tab 248 \tab 298 \tab 76 \tab 4 \tab 37 \tab 2832 \cr
-   2006 \tab 3492 \tab 52 \tab 226 \tab 240 \tab 372 \tab 124 \tab 2 \tab 2 \tab 4510 \cr
-   2016 \tab 1927 \tab 53 \tab 208 \tab 259 \tab 318 \tab 96 \tab 1 \tab 5 \tab 2867 \cr
-   Total \tab 8025 \tab 183 \tab 786 \tab 1013 \tab 1285 \tab 369 \tab 14 \tab 71 \tab 11746 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 38 \tab 190 \tab 266 \tab 297 \tab 73 \tab 7 \tab 27 \tab - \tab 1537 \cr
+   1998 \tab 1967 \tab 40 \tab 162 \tab 248 \tab 298 \tab 76 \tab 4 \tab 37 \tab - \tab 2832 \cr
+   2006 \tab 3492 \tab 52 \tab 226 \tab 240 \tab 372 \tab 124 \tab 2 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 53 \tab 208 \tab 259 \tab 318 \tab 96 \tab 1 \tab 5 \tab - \tab 2867 \cr
+   Total \tab 8025 \tab 183 \tab 786 \tab 1013 \tab 1285 \tab 369 \tab 14 \tab 71 \tab 0 \tab 11746 \cr
 }
 }
 

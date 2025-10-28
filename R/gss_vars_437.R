@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |agree strongly |agree |neither agree nor disagree |disagree |5  |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:--|:---------|:-----|
-#'  |1985  |857 |64             |138   |123                        |274      |62 |16        |1534  |
-#'  |Total |857 |64             |138   |123                        |274      |62 |16        |1534  |
+#'  |year  |iap |agree strongly |agree |neither agree nor disagree |disagree |5  |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:--|:---------|:--------------------------|:-----|
+#'  |1985  |857 |64             |138   |123                        |274      |62 |16        |-                          |1534  |
+#'  |Total |857 |64             |138   |123                        |274      |62 |16        |0                          |1534  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -68,10 +68,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |much bettr for women |better for women |no difference |worse for women |much wrse for women |can't choose |no answer |Total |
-#'  |:-----|:---|:--------------------|:----------------|:-------------|:---------------|:-------------------|:------------|:---------|:-----|
-#'  |1985  |857 |14                   |49               |497           |66              |6                   |33           |12        |1534  |
-#'  |Total |857 |14                   |49               |497           |66              |6                   |33           |12        |1534  |
+#'  |year  |iap |much bettr for women |better for women |no difference |worse for women |much wrse for women |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------------|:----------------|:-------------|:---------------|:-------------------|:------------|:---------|:--------------------------|:-----|
+#'  |1985  |857 |14                   |49               |497           |66              |6                   |33           |12        |-                          |1534  |
+#'  |Total |857 |14                   |49               |497           |66              |6                   |33           |12        |0                          |1534  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -111,10 +111,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |much bettr for women |better for women |no difference |worse for women |much wrse for women |can't choose |no answer |Total |
-#'  |:-----|:---|:--------------------|:----------------|:-------------|:---------------|:-------------------|:------------|:---------|:-----|
-#'  |1985  |857 |18                   |55               |212           |321             |31                  |30           |10        |1534  |
-#'  |Total |857 |18                   |55               |212           |321             |31                  |30           |10        |1534  |
+#'  |year  |iap |much bettr for women |better for women |no difference |worse for women |much wrse for women |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------------|:----------------|:-------------|:---------------|:-------------------|:------------|:---------|:--------------------------|:-----|
+#'  |1985  |857 |18                   |55               |212           |321             |31                  |30           |10        |-                          |1534  |
+#'  |Total |857 |18                   |55               |212           |321             |31                  |30           |10        |0                          |1534  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -154,10 +154,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |much bettr for women |better for women |no difference |worse for women |much wrse for women |can't choose |no answer |Total |
-#'  |:-----|:---|:--------------------|:----------------|:-------------|:---------------|:-------------------|:------------|:---------|:-----|
-#'  |1985  |857 |7                    |8                |135           |432             |49                  |35           |11        |1534  |
-#'  |Total |857 |7                    |8                |135           |432             |49                  |35           |11        |1534  |
+#'  |year  |iap |much bettr for women |better for women |no difference |worse for women |much wrse for women |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------------|:----------------|:-------------|:---------------|:-------------------|:------------|:---------|:--------------------------|:-----|
+#'  |1985  |857 |7                    |8                |135           |432             |49                  |35           |11        |-                          |1534  |
+#'  |Total |857 |7                    |8                |135           |432             |49                  |35           |11        |0                          |1534  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -197,10 +197,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly in favor |in favor |neither |against |strongly against |no answer |Total |
-#'  |:-----|:---|:-----------------|:--------|:-------|:-------|:----------------|:---------|:-----|
-#'  |1985  |857 |111               |199      |228     |104     |20               |15        |1534  |
-#'  |Total |857 |111               |199      |228     |104     |20               |15        |1534  |
+#'  |year  |iap |strongly in favor |in favor |neither |against |strongly against |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----------------|:--------|:-------|:-------|:----------------|:---------|:--------------------------|:-----|
+#'  |1985  |857 |111               |199      |228     |104     |20               |15        |-                          |1534  |
+#'  |Total |857 |111               |199      |228     |104     |20               |15        |0                          |1534  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -241,10 +241,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly in favor |in favor |neither |against |strongly against |no answer |Total |
-#'  |:-----|:---|:-----------------|:--------|:-------|:-------|:----------------|:---------|:-----|
-#'  |1985  |857 |86                |189      |254     |110     |15               |23        |1534  |
-#'  |Total |857 |86                |189      |254     |110     |15               |23        |1534  |
+#'  |year  |iap |strongly in favor |in favor |neither |against |strongly against |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----------------|:--------|:-------|:-------|:----------------|:---------|:--------------------------|:-----|
+#'  |1985  |857 |86                |189      |254     |110     |15               |23        |-                          |1534  |
+#'  |Total |857 |86                |189      |254     |110     |15               |23        |0                          |1534  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -285,10 +285,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly in favor |in favor |neither |against |strongly against |no answer |Total |
-#'  |:-----|:---|:-----------------|:--------|:-------|:-------|:----------------|:---------|:-----|
-#'  |1985  |857 |34                |46       |175     |285     |113              |24        |1534  |
-#'  |Total |857 |34                |46       |175     |285     |113              |24        |1534  |
+#'  |year  |iap |strongly in favor |in favor |neither |against |strongly against |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----------------|:--------|:-------|:-------|:----------------|:---------|:--------------------------|:-----|
+#'  |1985  |857 |34                |46       |175     |285     |113              |24        |-                          |1534  |
+#'  |Total |857 |34                |46       |175     |285     |113              |24        |0                          |1534  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -329,10 +329,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |essential |very important |fairly important |not important at all |can't choose |no answer |Total |
-#'  |:-----|:---|:---------|:--------------|:----------------|:--------------------|:------------|:---------|:-----|
-#'  |1985  |857 |590       |70             |3                |2                    |4            |8         |1534  |
-#'  |Total |857 |590       |70             |3                |2                    |4            |8         |1534  |
+#'  |year  |iap |essential |very important |fairly important |not important at all |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------|:--------------|:----------------|:--------------------|:------------|:---------|:--------------------------|:-----|
+#'  |1985  |857 |590       |70             |3                |2                    |4            |8         |-                          |1534  |
+#'  |Total |857 |590       |70             |3                |2                    |4            |8         |0                          |1534  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -372,10 +372,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |Total |
-#'  |:-----|:---|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:-----|
-#'  |1985  |857 |108       |190            |221              |71                 |54                   |16           |17        |1534  |
-#'  |Total |857 |108       |190            |221              |71                 |54                   |16           |17        |1534  |
+#'  |year  |iap |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------------------|:-----|
+#'  |1985  |857 |108       |190            |221              |71                 |54                   |16           |17        |-                          |1534  |
+#'  |Total |857 |108       |190            |221              |71                 |54                   |16           |17        |0                          |1534  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -415,10 +415,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |Total |
-#'  |:-----|:---|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:-----|
-#'  |1985  |857 |316       |215            |99               |17                 |9                    |9            |12        |1534  |
-#'  |Total |857 |316       |215            |99               |17                 |9                    |9            |12        |1534  |
+#'  |year  |iap |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------------------|:-----|
+#'  |1985  |857 |316       |215            |99               |17                 |9                    |9            |12        |-                          |1534  |
+#'  |Total |857 |316       |215            |99               |17                 |9                    |9            |12        |0                          |1534  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't

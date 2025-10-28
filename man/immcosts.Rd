@@ -36,10 +36,10 @@ B. Government spends too much money assisting immigrants.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4891/vshow}{GSS Data Explorer page for \code{immcosts}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1596 \tab 243 \tab 365 \tab 319 \tab 208 \tab 44 \tab 36 \tab 1 \tab 2812 \cr
-   Total \tab 1596 \tab 243 \tab 365 \tab 319 \tab 208 \tab 44 \tab 36 \tab 1 \tab 2812 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1596 \tab 243 \tab 365 \tab 319 \tab 208 \tab 44 \tab 36 \tab 1 \tab - \tab 2812 \cr
+   Total \tab 1596 \tab 243 \tab 365 \tab 319 \tab 208 \tab 44 \tab 36 \tab 1 \tab 0 \tab 2812 \cr
 }
 }
 

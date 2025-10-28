@@ -46,10 +46,11 @@ Question After your primary racial identity, which of these races do you identif
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7752/vshow}{GSS Data Explorer page for \code{racerank2}}.
 
-Counts by year:\tabular{llllllllllllllllllll}{
-   year \tab iap \tab white \tab black or african-american \tab american indian or alaska native \tab asian indian \tab chinese \tab filipino \tab japanese \tab vietnamese \tab other asian \tab native hawaiian \tab samoan \tab other pacific islander \tab some other race \tab hispanic \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 3332 \tab 52 \tab 16 \tab 72 \tab 3 \tab 7 \tab 3 \tab 3 \tab 2 \tab 3 \tab 3 \tab 1 \tab 1 \tab 7 \tab 8 \tab 9 \tab 20 \tab 2 \tab 3544 \cr
-   Total \tab 3332 \tab 52 \tab 16 \tab 72 \tab 3 \tab 7 \tab 3 \tab 3 \tab 2 \tab 3 \tab 3 \tab 1 \tab 1 \tab 7 \tab 8 \tab 9 \tab 20 \tab 2 \tab 3544 \cr
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab not available in this year \tab white \tab black or african-american \tab american indian or alaska native \tab asian indian \tab chinese \tab filipino \tab japanese \tab vietnamese \tab other asian \tab native hawaiian \tab samoan \tab other pacific islander \tab some other race \tab hispanic \tab don't know \tab iap \tab no answer \tab skipped on web \tab korean \tab guamanian or chamorro \tab Total \cr
+   2022 \tab - \tab 52 \tab 16 \tab 72 \tab 3 \tab 7 \tab 3 \tab 3 \tab 2 \tab 3 \tab 3 \tab 1 \tab 1 \tab 7 \tab 8 \tab 9 \tab 3332 \tab 20 \tab 2 \tab - \tab - \tab 3544 \cr
+   2024 \tab - \tab 41 \tab 11 \tab 50 \tab 4 \tab 6 \tab 9 \tab 3 \tab 3 \tab 1 \tab 1 \tab 1 \tab - \tab 4 \tab 8 \tab 9 \tab 3124 \tab 26 \tab 4 \tab 3 \tab 1 \tab 3309 \cr
+   Total \tab 0 \tab 93 \tab 27 \tab 122 \tab 7 \tab 13 \tab 12 \tab 6 \tab 5 \tab 4 \tab 4 \tab 2 \tab 1 \tab 11 \tab 16 \tab 18 \tab 6456 \tab 46 \tab 6 \tab 3 \tab 1 \tab 6853 \cr
 }
 }
 

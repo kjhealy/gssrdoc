@@ -35,11 +35,11 @@ A. Electric power.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4071/vshow}{GSS Data Explorer page for \code{ownpower}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab own it \tab control prices \tab leave alone \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 37 \tab 394 \tab 199 \tab 34 \tab 13 \tab 1534 \cr
-   1990 \tab 155 \tab 63 \tab 618 \tab 366 \tab 122 \tab 48 \tab 1372 \cr
-   Total \tab 1012 \tab 100 \tab 1012 \tab 565 \tab 156 \tab 61 \tab 2906 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab own it \tab control prices \tab leave alone \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 37 \tab 394 \tab 199 \tab 34 \tab 13 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 63 \tab 618 \tab 366 \tab 122 \tab 48 \tab - \tab 1372 \cr
+   Total \tab 1012 \tab 100 \tab 1012 \tab 565 \tab 156 \tab 61 \tab 0 \tab 2906 \cr
 }
 }
 

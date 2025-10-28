@@ -34,10 +34,10 @@ B. Articles in general news magazines like TIME, NEWSWEEK, or U.S. NEWS?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2526/vshow}{GSS Data Explorer page for \code{polmag1}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab not at all \tab 1 or 2 times \tab 3 or more times \tab no answer \tab Total \cr
-   2000 \tab 2558 \tab 95 \tab 86 \tab 63 \tab 15 \tab 2817 \cr
-   Total \tab 2558 \tab 95 \tab 86 \tab 63 \tab 15 \tab 2817 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3 or more times \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2558 \tab 95 \tab 86 \tab 63 \tab 15 \tab - \tab 2817 \cr
+   Total \tab 2558 \tab 95 \tab 86 \tab 63 \tab 15 \tab 0 \tab 2817 \cr
 }
 }
 

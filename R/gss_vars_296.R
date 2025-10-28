@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |not at all |a little bit |moderately |quite a bit |extremely |no answer |Total |
-#'  |:-----|:----|:----------|:------------|:----------|:-----------|:---------|:---------|:-----|
-#'  |2000  |1398 |848        |282          |114        |107         |57        |11        |2817  |
-#'  |Total |1398 |848        |282          |114        |107         |57        |11        |2817  |
+#'  |year  |iap  |not at all |a little bit |moderately |quite a bit |extremely |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:------------|:----------|:-----------|:---------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |848        |282          |114        |107         |57        |11        |-                          |2817  |
+#'  |Total |1398 |848        |282          |114        |107         |57        |11        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -68,10 +68,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |all of the time |most of the time |a good bit of the time |some of the time |a little bit of the time |non of the time |no answer |Total |
-#'  |:-----|:----|:---------------|:----------------|:----------------------|:----------------|:------------------------|:---------------|:---------|:-----|
-#'  |2000  |1398 |144             |607              |252                    |280              |93                       |32              |11        |2817  |
-#'  |Total |1398 |144             |607              |252                    |280              |93                       |32              |11        |2817  |
+#'  |year  |iap  |all of the time |most of the time |a good bit of the time |some of the time |a little bit of the time |non of the time |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:----------------|:----------------------|:----------------|:------------------------|:---------------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |144             |607              |252                    |280              |93                       |32              |11        |-                          |2817  |
+#'  |Total |1398 |144             |607              |252                    |280              |93                       |32              |11        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -111,10 +111,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |all of the time |most of the time |a good bit of the time |some of the time |a little bit of the time |non of the time |no answer |Total |
-#'  |:-----|:----|:---------------|:----------------|:----------------------|:----------------|:------------------------|:---------------|:---------|:-----|
-#'  |2000  |1398 |146             |486              |319                    |259              |134                      |65              |10        |2817  |
-#'  |Total |1398 |146             |486              |319                    |259              |134                      |65              |10        |2817  |
+#'  |year  |iap  |all of the time |most of the time |a good bit of the time |some of the time |a little bit of the time |non of the time |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:----------------|:----------------------|:----------------|:------------------------|:---------------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |146             |486              |319                    |259              |134                      |65              |10        |-                          |2817  |
+#'  |Total |1398 |146             |486              |319                    |259              |134                      |65              |10        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -154,10 +154,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |all of the time |most of the time |a good bit of the time |some of the time |a little bit of the time |non of the time |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:----------------|:----------------------|:----------------|:------------------------|:---------------|:----------|:---------|:-----|
-#'  |2000  |1398 |27              |43               |63                     |266              |537                      |473             |1          |9         |2817  |
-#'  |Total |1398 |27              |43               |63                     |266              |537                      |473             |1          |9         |2817  |
+#'  |year  |iap  |all of the time |most of the time |a good bit of the time |some of the time |a little bit of the time |non of the time |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:----------------|:----------------------|:----------------|:------------------------|:---------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |27              |43               |63                     |266              |537                      |473             |1          |9         |-                          |2817  |
+#'  |Total |1398 |27              |43               |63                     |266              |537                      |473             |1          |9         |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -197,10 +197,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |all of the time |most of the time |a good bit of the time |some of the time |a little bit of the time |non of the time |no answer |Total |
-#'  |:-----|:----|:---------------|:----------------|:----------------------|:----------------|:------------------------|:---------------|:---------|:-----|
-#'  |2000  |1398 |40              |49               |52                     |134              |196                      |936             |12        |2817  |
-#'  |Total |1398 |40              |49               |52                     |134              |196                      |936             |12        |2817  |
+#'  |year  |iap  |all of the time |most of the time |a good bit of the time |some of the time |a little bit of the time |non of the time |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:----------------|:----------------------|:----------------|:------------------------|:---------------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |40              |49               |52                     |134              |196                      |936             |12        |-                          |2817  |
+#'  |Total |1398 |40              |49               |52                     |134              |196                      |936             |12        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -239,10 +239,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1398 |526           |371         |197             |109               |6          |210       |2817  |
-#'  |Total |1398 |526           |371         |197             |109               |6          |210       |2817  |
+#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |526           |371         |197             |109               |6          |210       |-                          |2817  |
+#'  |Total |1398 |526           |371         |197             |109               |6          |210       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -281,10 +281,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1398 |531           |366         |196             |105               |6          |215       |2817  |
-#'  |Total |1398 |531           |366         |196             |105               |6          |215       |2817  |
+#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |531           |366         |196             |105               |6          |215       |-                          |2817  |
+#'  |Total |1398 |531           |366         |196             |105               |6          |215       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -323,10 +323,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1398 |432           |416         |232             |118               |6          |215       |2817  |
-#'  |Total |1398 |432           |416         |232             |118               |6          |215       |2817  |
+#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |432           |416         |232             |118               |6          |215       |-                          |2817  |
+#'  |Total |1398 |432           |416         |232             |118               |6          |215       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -365,10 +365,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1398 |501           |425         |187             |83                |6          |217       |2817  |
-#'  |Total |1398 |501           |425         |187             |83                |6          |217       |2817  |
+#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |501           |425         |187             |83                |6          |217       |-                          |2817  |
+#'  |Total |1398 |501           |425         |187             |83                |6          |217       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -407,10 +407,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1398 |290           |326         |317             |238               |9          |239       |2817  |
-#'  |Total |1398 |290           |326         |317             |238               |9          |239       |2817  |
+#'  |year  |iap  |definitely go |probably go |probably not go |definitely not go |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:-----------|:---------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |290           |326         |317             |238               |9          |239       |-                          |2817  |
+#'  |Total |1398 |290           |326         |317             |238               |9          |239       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status

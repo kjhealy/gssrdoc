@@ -38,10 +38,10 @@ Question (HAND CARD D2)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6322/vshow}{GSS Data Explorer page for \code{wkpersnl}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very important \tab important \tab neither important nor unimportant \tab not important \tab not important at all \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1390 \tab 323 \tab 628 \tab 354 \tab 140 \tab 23 \tab 3 \tab 6 \tab 2867 \cr
-   Total \tab 1390 \tab 323 \tab 628 \tab 354 \tab 140 \tab 23 \tab 3 \tab 6 \tab 2867 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab important \tab neither important nor unimportant \tab not important \tab not important at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1390 \tab 323 \tab 628 \tab 354 \tab 140 \tab 23 \tab 3 \tab 6 \tab - \tab 2867 \cr
+   Total \tab 1390 \tab 323 \tab 628 \tab 354 \tab 140 \tab 23 \tab 3 \tab 6 \tab 0 \tab 2867 \cr
 }
 }
 

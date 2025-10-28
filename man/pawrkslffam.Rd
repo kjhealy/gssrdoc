@@ -32,11 +32,12 @@ Question At this job, was he working for his own family business or family farm?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7429/vshow}{GSS Data Explorer page for \code{pawrkslffam}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab skipped on web \tab Total \cr
-   2021 \tab 541 \tab 660 \tab 2813 \tab 5 \tab 13 \tab 4032 \cr
-   2022 \tab 727 \tab 549 \tab 2229 \tab 37 \tab 2 \tab 3544 \cr
-   Total \tab 1268 \tab 1209 \tab 5042 \tab 42 \tab 15 \tab 7576 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab skipped on web \tab no answer \tab Total \cr
+   2021 \tab 541 \tab 660 \tab 2813 \tab 5 \tab 13 \tab - \tab 4032 \cr
+   2022 \tab 727 \tab 549 \tab 2229 \tab 37 \tab 2 \tab - \tab 3544 \cr
+   2024 \tab 811 \tab 446 \tab 2010 \tab 34 \tab 5 \tab 3 \tab 3309 \cr
+   Total \tab 2079 \tab 1655 \tab 7052 \tab 76 \tab 20 \tab 3 \tab 10885 \cr
 }
 }
 

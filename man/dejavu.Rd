@@ -38,12 +38,12 @@ A. Thought you were somewhere you had been before, but knew that it was impossib
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/316/vshow}{GSS Data Explorer page for \code{dejavu}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab never in my life \tab once or twice \tab several times \tab often \tab can't choose \tab no answer \tab Total \cr
-   1984 \tab - \tab 482 \tab 369 \tab 449 \tab 139 \tab 15 \tab 19 \tab 1473 \cr
-   1988 \tab - \tab 476 \tab 471 \tab 413 \tab 96 \tab 21 \tab 4 \tab 1481 \cr
-   1989 \tab 531 \tab 359 \tab 293 \tab 271 \tab 67 \tab 13 \tab 3 \tab 1537 \cr
-   Total \tab 531 \tab 1317 \tab 1133 \tab 1133 \tab 302 \tab 49 \tab 26 \tab 4491 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never in my life \tab once or twice \tab several times \tab often \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 482 \tab 369 \tab 449 \tab 139 \tab 15 \tab 19 \tab - \tab 1473 \cr
+   1988 \tab - \tab 476 \tab 471 \tab 413 \tab 96 \tab 21 \tab 4 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 359 \tab 293 \tab 271 \tab 67 \tab 13 \tab 3 \tab - \tab 1537 \cr
+   Total \tab 531 \tab 1317 \tab 1133 \tab 1133 \tab 302 \tab 49 \tab 26 \tab 0 \tab 4491 \cr
 }
 }
 

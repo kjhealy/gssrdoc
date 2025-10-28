@@ -34,10 +34,10 @@ I. World Music?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2469/vshow}{GSS Data Explorer page for \code{wwwworld}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab never \tab 1-2 times \tab more than 2 times \tab no answer \tab Total \cr
-   2000 \tab 2498 \tab 136 \tab 45 \tab 25 \tab 113 \tab 2817 \cr
-   Total \tab 2498 \tab 136 \tab 45 \tab 25 \tab 113 \tab 2817 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab never \tab 1-2 times \tab more than 2 times \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2498 \tab 136 \tab 45 \tab 25 \tab 113 \tab - \tab 2817 \cr
+   Total \tab 2498 \tab 136 \tab 45 \tab 25 \tab 113 \tab 0 \tab 2817 \cr
 }
 }
 

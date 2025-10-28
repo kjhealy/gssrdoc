@@ -32,10 +32,10 @@ Question B. Should employers have the right not to hire workers if tests show th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1259/vshow}{GSS Data Explorer page for \code{genehire}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab should \tab should not \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 524 \tab 109 \tab 828 \tab 40 \tab 16 \tab 1517 \cr
-   Total \tab 524 \tab 109 \tab 828 \tab 40 \tab 16 \tab 1517 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab should \tab should not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 524 \tab 109 \tab 828 \tab 40 \tab 16 \tab - \tab 1517 \cr
+   Total \tab 524 \tab 109 \tab 828 \tab 40 \tab 16 \tab 0 \tab 1517 \cr
 }
 }
 

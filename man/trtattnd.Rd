@@ -35,10 +35,10 @@ Question C. How many do you think attend religious services regularly? (Would yo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3698/vshow}{GSS Data Explorer page for \code{trtattnd}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab almost all \tab most \tab about half \tab a few \tab none \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3821 \tab 79 \tab 111 \tab 183 \tab 156 \tab 45 \tab 99 \tab 16 \tab 4510 \cr
-   Total \tab 3821 \tab 79 \tab 111 \tab 183 \tab 156 \tab 45 \tab 99 \tab 16 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab almost all \tab most \tab about half \tab a few \tab none \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3821 \tab 79 \tab 111 \tab 183 \tab 156 \tab 45 \tab 99 \tab 16 \tab - \tab 4510 \cr
+   Total \tab 3821 \tab 79 \tab 111 \tab 183 \tab 156 \tab 45 \tab 99 \tab 16 \tab 0 \tab 4510 \cr
 }
 }
 

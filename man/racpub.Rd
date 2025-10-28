@@ -37,11 +37,11 @@ C. Publish books expressing their views.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3993/vshow}{GSS Data Explorer page for \code{racpub}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 181 \tab 189 \tab 95 \tab 162 \tab 41 \tab 9 \tab 1534 \cr
-   1990 \tab 155 \tab 316 \tab 405 \tab 203 \tab 191 \tab 73 \tab 29 \tab 1372 \cr
-   Total \tab 1012 \tab 497 \tab 594 \tab 298 \tab 353 \tab 114 \tab 38 \tab 2906 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 181 \tab 189 \tab 95 \tab 162 \tab 41 \tab 9 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 316 \tab 405 \tab 203 \tab 191 \tab 73 \tab 29 \tab - \tab 1372 \cr
+   Total \tab 1012 \tab 497 \tab 594 \tab 298 \tab 353 \tab 114 \tab 38 \tab 0 \tab 2906 \cr
 }
 }
 

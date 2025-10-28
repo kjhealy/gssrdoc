@@ -30,13 +30,13 @@ Question B. Number of relatives divorced during previous four years.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/739/vshow}{GSS Data Explorer page for \code{divrel4}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 5 \tab 4 \tab Total \cr
-   1978 \tab - \tab 1230 \tab 262 \tab 37 \tab 2 \tab 1 \tab - \tab 1532 \cr
-   1980 \tab - \tab 1120 \tab 301 \tab 41 \tab 5 \tab - \tab 1 \tab 1468 \cr
-   1983 \tab - \tab 1233 \tab 302 \tab 62 \tab 2 \tab - \tab - \tab 1599 \cr
-   1984 \tab - \tab 1145 \tab 205 \tab 113 \tab 7 \tab - \tab 3 \tab 1473 \cr
-   Total \tab 0 \tab 4728 \tab 1070 \tab 253 \tab 16 \tab 1 \tab 4 \tab 6072 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 5 \tab 4 \tab not available in this year \tab Total \cr
+   1978 \tab - \tab 1230 \tab 262 \tab 37 \tab 2 \tab 1 \tab - \tab - \tab 1532 \cr
+   1980 \tab - \tab 1120 \tab 301 \tab 41 \tab 5 \tab - \tab 1 \tab - \tab 1468 \cr
+   1983 \tab - \tab 1233 \tab 302 \tab 62 \tab 2 \tab - \tab - \tab - \tab 1599 \cr
+   1984 \tab - \tab 1145 \tab 205 \tab 113 \tab 7 \tab - \tab 3 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 4728 \tab 1070 \tab 253 \tab 16 \tab 1 \tab 4 \tab 0 \tab 6072 \cr
 }
 }
 

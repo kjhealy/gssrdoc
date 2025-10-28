@@ -19,9 +19,16 @@ As of 2024, RACECEN2 has been recoded to combine Native Hawaiian, Guamanian or C
 \item \verb{[1]} white
 \item \verb{[2]} black or african american
 \item \verb{[3]} american indian or alaska native
-\item \verb{[4]} asian
-\item \verb{[5]} native hawaiian or other pacific islander
-\item \verb{[6]} some other race
+\item \verb{[4]} asian indian
+\item \verb{[5]} chinese
+\item \verb{[6]} filipino
+\item \verb{[7]} japanese
+\item \verb{[8]} korean
+\item \verb{[9]} vietnamese
+\item \verb{[10]} other asian
+\item \verb{[14]} other pacific islander
+\item \verb{[15]} some other race
+\item \verb{[16]} hispanic
 \item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
@@ -38,21 +45,22 @@ As of 2024, RACECEN2 has been recoded to combine Native Hawaiian, Guamanian or C
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5278/vshow}{GSS Data Explorer page for \code{racecen2}}.
 
-Counts by year:\tabular{lllllllllllllllllllll}{
-   year \tab iap \tab white \tab black or african american \tab american indian or alaska native \tab chinese \tab filipino \tab japanese \tab other pacific islander \tab some other race \tab hispanic \tab vietnamese \tab other asian \tab native hawaiian \tab guamanian or chamorro \tab don't know \tab no answer \tab korean \tab asian indian \tab samoan \tab Total \cr
-   2000 \tab 2745 \tab 8 \tab 2 \tab 40 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 15 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2601 \tab 28 \tab 10 \tab 94 \tab 3 \tab 1 \tab 1 \tab - \tab 3 \tab 10 \tab 2 \tab 6 \tab 1 \tab 1 \tab 2 \tab 2 \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2650 \tab 28 \tab 7 \tab 95 \tab 2 \tab 2 \tab 4 \tab - \tab 5 \tab 11 \tab 1 \tab 2 \tab 1 \tab - \tab - \tab 1 \tab 3 \tab - \tab - \tab 2812 \cr
-   2006 \tab 4244 \tab 41 \tab 13 \tab 135 \tab 7 \tab 1 \tab 1 \tab 3 \tab 8 \tab 40 \tab - \tab 5 \tab 2 \tab 1 \tab 3 \tab 2 \tab - \tab 2 \tab 2 \tab 4510 \cr
-   2008 \tab 1902 \tab 14 \tab 10 \tab 71 \tab 4 \tab 1 \tab 1 \tab - \tab 2 \tab 13 \tab - \tab - \tab 2 \tab 1 \tab - \tab - \tab - \tab 2 \tab - \tab 2023 \cr
-   2010 \tab 1890 \tab 21 \tab 18 \tab 77 \tab 1 \tab 6 \tab 2 \tab 2 \tab 2 \tab 5 \tab - \tab 1 \tab 3 \tab 1 \tab - \tab 9 \tab 3 \tab 3 \tab - \tab 2044 \cr
-   2012 \tab 1830 \tab 22 \tab 17 \tab 70 \tab 2 \tab 5 \tab 2 \tab 1 \tab 2 \tab 12 \tab - \tab 1 \tab - \tab 1 \tab 1 \tab 4 \tab - \tab 3 \tab 1 \tab 1974 \cr
-   2014 \tab 2346 \tab 34 \tab 17 \tab 86 \tab 1 \tab 5 \tab 3 \tab - \tab 4 \tab 18 \tab - \tab 3 \tab - \tab 1 \tab 1 \tab 13 \tab 2 \tab 3 \tab 1 \tab 2538 \cr
-   2016 \tab 2617 \tab 35 \tab 24 \tab 140 \tab 2 \tab 3 \tab 3 \tab 3 \tab 4 \tab 8 \tab 1 \tab 4 \tab - \tab - \tab 1 \tab 15 \tab 3 \tab 1 \tab 3 \tab 2867 \cr
-   2018 \tab 2122 \tab 25 \tab 22 \tab 103 \tab 5 \tab 3 \tab 3 \tab 2 \tab 15 \tab 24 \tab - \tab 4 \tab 2 \tab - \tab 2 \tab 13 \tab 2 \tab 1 \tab - \tab 2348 \cr
-   2021 \tab 3858 \tab 51 \tab 10 \tab 62 \tab 7 \tab 3 \tab 7 \tab - \tab 3 \tab 8 \tab 1 \tab 3 \tab 3 \tab 1 \tab 10 \tab - \tab 2 \tab 3 \tab - \tab 4032 \cr
-   2022 \tab 3362 \tab 52 \tab 16 \tab 72 \tab 7 \tab 3 \tab 3 \tab 1 \tab 7 \tab 8 \tab 2 \tab 3 \tab 3 \tab - \tab - \tab 1 \tab - \tab 3 \tab 1 \tab 3544 \cr
-   Total \tab 32167 \tab 359 \tab 166 \tab 1045 \tab 43 \tab 35 \tab 31 \tab 13 \tab 56 \tab 172 \tab 7 \tab 32 \tab 17 \tab 7 \tab 20 \tab 60 \tab 15 \tab 21 \tab 8 \tab 34274 \cr
+Counts by year:\tabular{llllllllllllllllllll}{
+   year \tab not available in this year \tab white \tab black or african american \tab american indian or alaska native \tab chinese \tab filipino \tab japanese \tab other pacific islander \tab some other race \tab hispanic \tab iap \tab vietnamese \tab other asian \tab don't know \tab no answer \tab korean \tab asian indian \tab skipped on web \tab Total \cr
+   2000 \tab - \tab 8 \tab 2 \tab 40 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 15 \tab 2745 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab - \tab 28 \tab 10 \tab 94 \tab 3 \tab 1 \tab 1 \tab 2 \tab 3 \tab 10 \tab 2601 \tab 2 \tab 6 \tab 2 \tab 2 \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab - \tab 28 \tab 7 \tab 95 \tab 2 \tab 2 \tab 4 \tab 1 \tab 5 \tab 11 \tab 2650 \tab 1 \tab 2 \tab - \tab 1 \tab 3 \tab - \tab - \tab 2812 \cr
+   2006 \tab - \tab 41 \tab 13 \tab 135 \tab 7 \tab 1 \tab 1 \tab 8 \tab 8 \tab 40 \tab 4244 \tab - \tab 5 \tab 3 \tab 2 \tab - \tab 2 \tab - \tab 4510 \cr
+   2008 \tab - \tab 14 \tab 10 \tab 71 \tab 4 \tab 1 \tab 1 \tab 3 \tab 2 \tab 13 \tab 1902 \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab 2023 \cr
+   2010 \tab - \tab 21 \tab 18 \tab 77 \tab 1 \tab 6 \tab 2 \tab 6 \tab 2 \tab 5 \tab 1890 \tab - \tab 1 \tab - \tab 9 \tab 3 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab - \tab 22 \tab 17 \tab 70 \tab 2 \tab 5 \tab 2 \tab 3 \tab 2 \tab 12 \tab 1830 \tab - \tab 1 \tab 1 \tab 4 \tab - \tab 3 \tab - \tab 1974 \cr
+   2014 \tab - \tab 34 \tab 17 \tab 86 \tab 1 \tab 5 \tab 3 \tab 2 \tab 4 \tab 18 \tab 2346 \tab - \tab 3 \tab 1 \tab 13 \tab 2 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab - \tab 35 \tab 24 \tab 140 \tab 2 \tab 3 \tab 3 \tab 6 \tab 4 \tab 8 \tab 2617 \tab 1 \tab 4 \tab 1 \tab 15 \tab 3 \tab 1 \tab - \tab 2867 \cr
+   2018 \tab - \tab 25 \tab 22 \tab 103 \tab 5 \tab 3 \tab 3 \tab 4 \tab 15 \tab 24 \tab 2122 \tab - \tab 4 \tab 2 \tab 13 \tab 2 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab - \tab 51 \tab 10 \tab 62 \tab 7 \tab 3 \tab 7 \tab 4 \tab 3 \tab 8 \tab 3858 \tab 1 \tab 3 \tab 10 \tab - \tab 2 \tab 3 \tab - \tab 4032 \cr
+   2022 \tab - \tab 52 \tab 16 \tab 72 \tab 7 \tab 3 \tab 3 \tab 5 \tab 7 \tab 8 \tab 3362 \tab 2 \tab 3 \tab - \tab 1 \tab - \tab 3 \tab - \tab 3544 \cr
+   2024 \tab - \tab 41 \tab 11 \tab 50 \tab 6 \tab 9 \tab 3 \tab 3 \tab 4 \tab 8 \tab 3124 \tab 3 \tab 1 \tab 9 \tab 26 \tab 3 \tab 4 \tab 4 \tab 3309 \cr
+   Total \tab 0 \tab 400 \tab 177 \tab 1095 \tab 49 \tab 44 \tab 34 \tab 48 \tab 60 \tab 180 \tab 35291 \tab 10 \tab 33 \tab 29 \tab 86 \tab 18 \tab 25 \tab 4 \tab 37583 \cr
 }
 }
 

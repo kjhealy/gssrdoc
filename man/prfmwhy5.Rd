@@ -33,10 +33,10 @@ Question How big a reason was wanting to support a community organization or eve
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6225/vshow}{GSS Data Explorer page for \code{prfmwhy5}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab major reason \tab minor reason \tab not a reason \tab no answer \tab Total \cr
-   2016 \tab 2433 \tab 97 \tab 113 \tab 216 \tab 8 \tab 2867 \cr
-   Total \tab 2433 \tab 97 \tab 113 \tab 216 \tab 8 \tab 2867 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab major reason \tab minor reason \tab not a reason \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2433 \tab 97 \tab 113 \tab 216 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 2433 \tab 97 \tab 113 \tab 216 \tab 8 \tab 0 \tab 2867 \cr
 }
 }
 

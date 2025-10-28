@@ -38,12 +38,12 @@ B. People with very strong religious beliefs are often too intolerant of others.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4689/vshow}{GSS Data Explorer page for \code{religint}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1548 \tab 149 \tab 433 \tab 272 \tab 269 \tab 66 \tab 53 \tab 42 \tab 2832 \cr
-   2008 \tab 658 \tab 283 \tab 627 \tab 199 \tab 200 \tab 32 \tab 21 \tab 3 \tab 2023 \cr
-   2018 \tab 1173 \tab 179 \tab 524 \tab 239 \tab 181 \tab 34 \tab 10 \tab 8 \tab 2348 \cr
-   Total \tab 3379 \tab 611 \tab 1584 \tab 710 \tab 650 \tab 132 \tab 84 \tab 53 \tab 7203 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1548 \tab 149 \tab 433 \tab 272 \tab 269 \tab 66 \tab 53 \tab 42 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 283 \tab 627 \tab 199 \tab 200 \tab 32 \tab 21 \tab 3 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 179 \tab 524 \tab 239 \tab 181 \tab 34 \tab 10 \tab 8 \tab - \tab 2348 \cr
+   Total \tab 3379 \tab 611 \tab 1584 \tab 710 \tab 650 \tab 132 \tab 84 \tab 53 \tab 0 \tab 7203 \cr
 }
 }
 

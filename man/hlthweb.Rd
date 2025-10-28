@@ -37,10 +37,10 @@ Question During the past 12 months, how often, if at all, did you use the intern
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7809/vshow}{GSS Data Explorer page for \code{hlthweb}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 8 \tab Total \cr
-   2022 \tab 2406 \tab 155 \tab 28 \tab 150 \tab 261 \tab 320 \tab 200 \tab 24 \tab 3544 \cr
-   Total \tab 2406 \tab 155 \tab 28 \tab 150 \tab 261 \tab 320 \tab 200 \tab 24 \tab 3544 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab not available in this year \tab several times a day \tab once a day \tab several times a week \tab several times a month \tab several times a year \tab never or almost never \tab r does not have access to the internet \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 155 \tab 28 \tab 150 \tab 261 \tab 320 \tab 200 \tab 24 \tab 23 \tab 2380 \tab 2 \tab 1 \tab 3544 \cr
+   Total \tab 0 \tab 155 \tab 28 \tab 150 \tab 261 \tab 320 \tab 200 \tab 24 \tab 23 \tab 2380 \tab 2 \tab 1 \tab 3544 \cr
 }
 }
 

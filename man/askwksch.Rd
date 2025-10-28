@@ -33,10 +33,10 @@ D. Ask someone else at your workplace or school for help
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2626/vshow}{GSS Data Explorer page for \code{askwksch}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 2043 \tab 377 \tab 295 \tab 3 \tab 47 \tab 2765 \cr
-   Total \tab 2043 \tab 377 \tab 295 \tab 3 \tab 47 \tab 2765 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 2043 \tab 377 \tab 295 \tab 3 \tab 47 \tab - \tab 2765 \cr
+   Total \tab 2043 \tab 377 \tab 295 \tab 3 \tab 47 \tab 0 \tab 2765 \cr
 }
 }
 

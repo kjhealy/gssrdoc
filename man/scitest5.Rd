@@ -35,12 +35,12 @@ E. All man-made chemicals can cause cancer if you eat enough of them.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4745/vshow}{GSS Data Explorer page for \code{scitest5}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 124 \tab 598 \tab 444 \tab 197 \tab 111 \tab 83 \tab 1606 \cr
-   1994 \tab 1606 \tab 127 \tab 504 \tab 414 \tab 183 \tab 119 \tab 39 \tab 2992 \cr
-   2000 \tab 1541 \tab 107 \tab 430 \tab 381 \tab 171 \tab 121 \tab 66 \tab 2817 \cr
-   Total \tab 3196 \tab 358 \tab 1532 \tab 1239 \tab 551 \tab 351 \tab 188 \tab 7415 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 124 \tab 598 \tab 444 \tab 197 \tab 111 \tab 83 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 127 \tab 504 \tab 414 \tab 183 \tab 119 \tab 39 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 107 \tab 430 \tab 381 \tab 171 \tab 121 \tab 66 \tab - \tab 2817 \cr
+   Total \tab 3196 \tab 358 \tab 1532 \tab 1239 \tab 551 \tab 351 \tab 188 \tab 0 \tab 7415 \cr
 }
 }
 

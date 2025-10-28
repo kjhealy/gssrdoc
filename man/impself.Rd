@@ -36,10 +36,10 @@ H. Being self-sufficient and not having to depend on others.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1445/vshow}{GSS Data Explorer page for \code{impself}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab one of most important \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 705 \tab 716 \tab 141 \tab 24 \tab 2 \tab 6 \tab 12 \tab 1606 \cr
-   Total \tab 0 \tab 705 \tab 716 \tab 141 \tab 24 \tab 2 \tab 6 \tab 12 \tab 1606 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab one of most important \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 705 \tab 716 \tab 141 \tab 24 \tab 2 \tab 6 \tab 12 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 705 \tab 716 \tab 141 \tab 24 \tab 2 \tab 6 \tab 12 \tab 0 \tab 1606 \cr
 }
 }
 

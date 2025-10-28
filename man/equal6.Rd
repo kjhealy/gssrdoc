@@ -35,10 +35,10 @@ F. All in all, one can live well in America.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/230/vshow}{GSS Data Explorer page for \code{equal6}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 646 \tab 605 \tab 136 \tab 49 \tab 11 \tab 26 \tab 1473 \cr
-   Total \tab 0 \tab 646 \tab 605 \tab 136 \tab 49 \tab 11 \tab 26 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 646 \tab 605 \tab 136 \tab 49 \tab 11 \tab 26 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 646 \tab 605 \tab 136 \tab 49 \tab 11 \tab 26 \tab 0 \tab 1473 \cr
 }
 }
 

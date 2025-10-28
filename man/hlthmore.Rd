@@ -35,10 +35,10 @@ Question How much do you agree or disagree with the following statements? People
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7791/vshow}{GSS Data Explorer page for \code{hlthmore}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2378 \tab 100 \tab 273 \tab 365 \tab 280 \tab 83 \tab 58 \tab 1 \tab 6 \tab 3544 \cr
-   Total \tab 2378 \tab 100 \tab 273 \tab 365 \tab 280 \tab 83 \tab 58 \tab 1 \tab 6 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 100 \tab 273 \tab 365 \tab 280 \tab 83 \tab 58 \tab 2378 \tab 1 \tab 6 \tab 3544 \cr
+   Total \tab 0 \tab 100 \tab 273 \tab 365 \tab 280 \tab 83 \tab 58 \tab 2378 \tab 1 \tab 6 \tab 3544 \cr
 }
 }
 

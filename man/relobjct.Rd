@@ -33,11 +33,11 @@ Question For religious reasons do you have in your home a shrine, altar, or a re
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4709/vshow}{GSS Data Explorer page for \code{relobjct}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 658 \tab 531 \tab 825 \tab 4 \tab 5 \tab 2023 \cr
-   2018 \tab 1173 \tab 466 \tab 695 \tab 2 \tab 12 \tab 2348 \cr
-   Total \tab 1831 \tab 997 \tab 1520 \tab 6 \tab 17 \tab 4371 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 658 \tab 531 \tab 825 \tab 4 \tab 5 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 466 \tab 695 \tab 2 \tab 12 \tab - \tab 2348 \cr
+   Total \tab 1831 \tab 997 \tab 1520 \tab 6 \tab 17 \tab 0 \tab 4371 \cr
 }
 }
 

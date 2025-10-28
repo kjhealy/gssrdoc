@@ -42,11 +42,12 @@ Vignette E: GO TO DECTREAT
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1998/vshow}{GSS Data Explorer page for \code{viglabel}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 755 \tab 235 \tab 48 \tab 20 \tab 50 \tab 336 \tab 2904 \cr
-   2018 \tab 1411 \tab 481 \tab 209 \tab 29 \tab 13 \tab 20 \tab 185 \tab 2348 \cr
-   Total \tab 2871 \tab 1236 \tab 444 \tab 77 \tab 33 \tab 70 \tab 521 \tab 5252 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 755 \tab 235 \tab 48 \tab 20 \tab 50 \tab 336 \tab - \tab - \tab 2904 \cr
+   2018 \tab 1411 \tab 481 \tab 209 \tab 29 \tab 13 \tab 20 \tab 185 \tab - \tab - \tab 2348 \cr
+   2024 \tab 2007 \tab 674 \tab 437 \tab 92 \tab 49 \tab 30 \tab 7 \tab - \tab 13 \tab 3309 \cr
+   Total \tab 4878 \tab 1910 \tab 881 \tab 169 \tab 82 \tab 100 \tab 528 \tab 0 \tab 13 \tab 8561 \cr
 }
 }
 

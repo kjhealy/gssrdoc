@@ -31,10 +31,10 @@ F2. Highest school grade second child completed.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1529/vshow}{GSS Data Explorer page for \code{kdeduc2}}.
 
-Counts by year:\tabular{llllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2474 \tab 7 \tab 1 \tab 22 \tab 6 \tab 204 \tab 38 \tab 47 \tab 22 \tab 86 \tab 9 \tab 17 \tab 4 \tab 6 \tab 9 \tab 2 \tab 6 \tab 32 \tab 2992 \cr
-   Total \tab 2474 \tab 7 \tab 1 \tab 22 \tab 6 \tab 204 \tab 38 \tab 47 \tab 22 \tab 86 \tab 9 \tab 17 \tab 4 \tab 6 \tab 9 \tab 2 \tab 6 \tab 32 \tab 2992 \cr
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2474 \tab 7 \tab 1 \tab 22 \tab 6 \tab 204 \tab 38 \tab 47 \tab 22 \tab 86 \tab 9 \tab 17 \tab 4 \tab 6 \tab 9 \tab 2 \tab 6 \tab 32 \tab - \tab 2992 \cr
+   Total \tab 2474 \tab 7 \tab 1 \tab 22 \tab 6 \tab 204 \tab 38 \tab 47 \tab 22 \tab 86 \tab 9 \tab 17 \tab 4 \tab 6 \tab 9 \tab 2 \tab 6 \tab 32 \tab 0 \tab 2992 \cr
 }
 }
 

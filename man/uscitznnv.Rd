@@ -34,11 +34,11 @@ Question Now we would like to ask you about U.S. citizenship. Are you…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7620/vshow}{GSS Data Explorer page for \code{uscitznnv}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab a u.s. citizen \tab not a u.s. citizen \tab skipped on web \tab Total \cr
-   2021 \tab 3817 \tab 139 \tab 71 \tab 5 \tab 4032 \cr
-   2022 \tab 3445 \tab 64 \tab 34 \tab 1 \tab 3544 \cr
-   Total \tab 7262 \tab 203 \tab 105 \tab 6 \tab 7576 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab not available in this year \tab a u.s. citizen \tab not a u.s. citizen \tab iap \tab skipped on web \tab not available in this release \tab Total \cr
+   2021 \tab - \tab 139 \tab 71 \tab 3817 \tab 5 \tab - \tab 4032 \cr
+   2022 \tab - \tab 64 \tab 34 \tab 3445 \tab 1 \tab - \tab 3544 \cr
+   Total \tab 0 \tab 203 \tab 105 \tab 7262 \tab 6 \tab 0 \tab 7576 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question A. Did you receive any on-the-job training (anywhere) about this kind o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2149/vshow}{GSS Data Explorer page for \code{otjtrain}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no/prcticly none \tab no answer \tab Total \cr
-   1998 \tab 1455 \tab 920 \tab 428 \tab 29 \tab 2832 \cr
-   Total \tab 1455 \tab 920 \tab 428 \tab 29 \tab 2832 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no/prcticly none \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1455 \tab 920 \tab 428 \tab 29 \tab - \tab 2832 \cr
+   Total \tab 1455 \tab 920 \tab 428 \tab 29 \tab 0 \tab 2832 \cr
 }
 }
 

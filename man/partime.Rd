@@ -35,10 +35,10 @@ G. Parents today don''t spend enough time with their children.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5099/vshow}{GSS Data Explorer page for \code{partime}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 270 \tab 840 \tab 168 \tab 32 \tab 43 \tab 19 \tab 1372 \cr
-   Total \tab 0 \tab 270 \tab 840 \tab 168 \tab 32 \tab 43 \tab 19 \tab 1372 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 270 \tab 840 \tab 168 \tab 32 \tab 43 \tab 19 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 270 \tab 840 \tab 168 \tab 32 \tab 43 \tab 19 \tab 0 \tab 1372 \cr
 }
 }
 

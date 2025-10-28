@@ -34,10 +34,10 @@ Question C. How well do you speak that language?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2303/vshow}{GSS Data Explorer page for \code{spklangw}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very well \tab well \tab not well \tab poorly/hardly at all \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 4320 \tab 37 \tab 44 \tab 57 \tab 40 \tab 8 \tab 4 \tab 4510 \cr
-   Total \tab 4320 \tab 37 \tab 44 \tab 57 \tab 40 \tab 8 \tab 4 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very well \tab well \tab not well \tab poorly/hardly at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 4320 \tab 37 \tab 44 \tab 57 \tab 40 \tab 8 \tab 4 \tab - \tab 4510 \cr
+   Total \tab 4320 \tab 37 \tab 44 \tab 57 \tab 40 \tab 8 \tab 4 \tab 0 \tab 4510 \cr
 }
 }
 

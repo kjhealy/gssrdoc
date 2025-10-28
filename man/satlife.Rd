@@ -37,10 +37,10 @@ Question All things considered, how satisfied are you with your life as a whole 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7275/vshow}{GSS Data Explorer page for \code{satlife}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab completely satisfied \tab mostly satisfied \tab somewhat satisfied \tab neither satisfied nor dissatisfied \tab somewhat dissatisfied \tab mostly dissatisfied \tab completely dissatisfied \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 187 \tab 446 \tab 389 \tab 82 \tab 44 \tab 12 \tab 9 \tab 2 \tab 2 \tab 2348 \cr
-   Total \tab 1175 \tab 187 \tab 446 \tab 389 \tab 82 \tab 44 \tab 12 \tab 9 \tab 2 \tab 2 \tab 2348 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab completely satisfied \tab mostly satisfied \tab somewhat satisfied \tab neither satisfied nor dissatisfied \tab somewhat dissatisfied \tab mostly dissatisfied \tab completely dissatisfied \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 187 \tab 446 \tab 389 \tab 82 \tab 44 \tab 12 \tab 9 \tab 2 \tab 2 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 187 \tab 446 \tab 389 \tab 82 \tab 44 \tab 12 \tab 9 \tab 2 \tab 2 \tab 0 \tab 2348 \cr
 }
 }
 

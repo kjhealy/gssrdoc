@@ -33,10 +33,10 @@ Question Of course, everybody hears a good deal about physical illness and disea
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2042/vshow}{GSS Data Explorer page for \code{mntlimp1}}.
 
-Counts by year:\tabular{lllllllllllllllll}{
-   year \tab iap \tab 101 \tab 102 \tab 103 \tab 104 \tab 105 \tab 106 \tab 107 \tab 108 \tab 109 \tab 110 \tab 111 \tab 112 \tab 113 \tab no answer \tab Total \cr
-   1996 \tab 2196 \tab 88 \tab 38 \tab 43 \tab 52 \tab 106 \tab 4 \tab 56 \tab 61 \tab 90 \tab 89 \tab 14 \tab 1 \tab 11 \tab 55 \tab 2904 \cr
-   Total \tab 2196 \tab 88 \tab 38 \tab 43 \tab 52 \tab 106 \tab 4 \tab 56 \tab 61 \tab 90 \tab 89 \tab 14 \tab 1 \tab 11 \tab 55 \tab 2904 \cr
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab 101 \tab 102 \tab 103 \tab 104 \tab 105 \tab 106 \tab 107 \tab 108 \tab 109 \tab 110 \tab 111 \tab 112 \tab 113 \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2196 \tab 88 \tab 38 \tab 43 \tab 52 \tab 106 \tab 4 \tab 56 \tab 61 \tab 90 \tab 89 \tab 14 \tab 1 \tab 11 \tab 55 \tab - \tab 2904 \cr
+   Total \tab 2196 \tab 88 \tab 38 \tab 43 \tab 52 \tab 106 \tab 4 \tab 56 \tab 61 \tab 90 \tab 89 \tab 14 \tab 1 \tab 11 \tab 55 \tab 0 \tab 2904 \cr
 }
 }
 

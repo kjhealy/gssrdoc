@@ -37,11 +37,11 @@ Question And, in your opinion, which of these options would be the least desirab
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4468/vshow}{GSS Data Explorer page for \code{famwklst}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab the mother stays at home and the father works full-time \tab the mother works part-time and the father works full-time \tab both the mother and father work full-time \tab both the mother and father work part-time \tab the father works part-time and the mother works full-time \tab the father stays at home and the mother works full-time \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2012 \tab 672 \tab 59 \tab 24 \tab 378 \tab 139 \tab 51 \tab 391 \tab 249 \tab 11 \tab - \tab 1974 \cr
-   2022 \tab 2384 \tab 68 \tab 20 \tab 304 \tab 95 \tab 34 \tab 250 \tab 369 \tab 9 \tab 11 \tab 3544 \cr
-   Total \tab 3056 \tab 127 \tab 44 \tab 682 \tab 234 \tab 85 \tab 641 \tab 618 \tab 20 \tab 11 \tab 5518 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab the mother stays at home and the father works full-time \tab the mother works part-time and the father works full-time \tab both the mother and father work full-time \tab both the mother and father work part-time \tab the father works part-time and the mother works full-time \tab the father stays at home and the mother works full-time \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2012 \tab 672 \tab 59 \tab 24 \tab 378 \tab 139 \tab 51 \tab 391 \tab 249 \tab 11 \tab - \tab - \tab 1974 \cr
+   2022 \tab 2384 \tab 68 \tab 20 \tab 304 \tab 95 \tab 34 \tab 250 \tab 369 \tab 9 \tab 11 \tab - \tab 3544 \cr
+   Total \tab 3056 \tab 127 \tab 44 \tab 682 \tab 234 \tab 85 \tab 641 \tab 618 \tab 20 \tab 11 \tab 0 \tab 5518 \cr
 }
 }
 

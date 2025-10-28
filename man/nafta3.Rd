@@ -36,10 +36,10 @@ America should follow NAFTA decisions, even if it does not agree with them.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4897/vshow}{GSS Data Explorer page for \code{nafta3}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1596 \tab 22 \tab 163 \tab 319 \tab 297 \tab 64 \tab 338 \tab 13 \tab 2812 \cr
-   Total \tab 1596 \tab 22 \tab 163 \tab 319 \tab 297 \tab 64 \tab 338 \tab 13 \tab 2812 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1596 \tab 22 \tab 163 \tab 319 \tab 297 \tab 64 \tab 338 \tab 13 \tab - \tab 2812 \cr
+   Total \tab 1596 \tab 22 \tab 163 \tab 319 \tab 297 \tab 64 \tab 338 \tab 13 \tab 0 \tab 2812 \cr
 }
 }
 

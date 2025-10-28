@@ -37,12 +37,13 @@ D. America should follow its own interests, even if this leads to conflicts with
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4853/vshow}{GSS Data Explorer page for \code{amownway}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 154 \tab 418 \tab 351 \tab 329 \tab 38 \tab 51 \tab 26 \tab 2904 \cr
-   2004 \tab 1596 \tab 152 \tab 402 \tab 291 \tab 294 \tab 40 \tab 36 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 114 \tab 440 \tab 276 \tab 315 \tab 57 \tab 67 \tab 5 \tab 2538 \cr
-   Total \tab 4397 \tab 420 \tab 1260 \tab 918 \tab 938 \tab 135 \tab 154 \tab 32 \tab 8254 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 154 \tab 418 \tab 351 \tab 329 \tab 38 \tab 51 \tab 26 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 152 \tab 402 \tab 291 \tab 294 \tab 40 \tab 36 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 114 \tab 440 \tab 276 \tab 315 \tab 57 \tab 67 \tab 5 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1662 \tab 137 \tab 445 \tab 461 \tab 388 \tab 88 \tab 100 \tab 7 \tab - \tab 21 \tab 3309 \cr
+   Total \tab 6059 \tab 557 \tab 1705 \tab 1379 \tab 1326 \tab 223 \tab 254 \tab 39 \tab 0 \tab 21 \tab 11563 \cr
 }
 }
 

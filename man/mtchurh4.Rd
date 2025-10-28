@@ -33,10 +33,10 @@ Question O. Does the church-affiliated group meet in this area?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3285/vshow}{GSS Data Explorer page for \code{mtchurh4}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no answer \tab Total \cr
-   2004 \tab 2794 \tab 4 \tab 14 \tab 2812 \cr
-   Total \tab 2794 \tab 4 \tab 14 \tab 2812 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2794 \tab 4 \tab 14 \tab - \tab 2812 \cr
+   Total \tab 2794 \tab 4 \tab 14 \tab 0 \tab 2812 \cr
 }
 }
 

@@ -35,11 +35,11 @@ Question If you were looking actively, how easy or difficult do you think it wou
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4530/vshow}{GSS Data Explorer page for \code{findjob}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very easy \tab fairly easy \tab neither easy nor difficult \tab fairly difficult \tab very difficult \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 1253 \tab 13 \tab 44 \tab 22 \tab 45 \tab 41 \tab 10 \tab 109 \tab 1537 \cr
-   1998 \tab 1609 \tab 234 \tab 365 \tab 164 \tab 236 \tab 148 \tab 44 \tab 32 \tab 2832 \cr
-   Total \tab 2862 \tab 247 \tab 409 \tab 186 \tab 281 \tab 189 \tab 54 \tab 141 \tab 4369 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very easy \tab fairly easy \tab neither easy nor difficult \tab fairly difficult \tab very difficult \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 1253 \tab 13 \tab 44 \tab 22 \tab 45 \tab 41 \tab 10 \tab 109 \tab - \tab 1537 \cr
+   1998 \tab 1609 \tab 234 \tab 365 \tab 164 \tab 236 \tab 148 \tab 44 \tab 32 \tab - \tab 2832 \cr
+   Total \tab 2862 \tab 247 \tab 409 \tab 186 \tab 281 \tab 189 \tab 54 \tab 141 \tab 0 \tab 4369 \cr
 }
 }
 

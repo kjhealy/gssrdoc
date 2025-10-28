@@ -30,13 +30,13 @@ Question A. Number of relatives divorced last year.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/738/vshow}{GSS Data Explorer page for \code{divrel1}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab Total \cr
-   1978 \tab - \tab 1337 \tab 171 \tab 20 \tab 3 \tab 1 \tab 1532 \cr
-   1980 \tab - \tab 1281 \tab 172 \tab 15 \tab - \tab - \tab 1468 \cr
-   1983 \tab - \tab 1373 \tab 183 \tab 40 \tab 3 \tab - \tab 1599 \cr
-   1984 \tab - \tab 1300 \tab 103 \tab 66 \tab 2 \tab 2 \tab 1473 \cr
-   Total \tab 0 \tab 5291 \tab 629 \tab 141 \tab 8 \tab 3 \tab 6072 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab not available in this year \tab Total \cr
+   1978 \tab - \tab 1337 \tab 171 \tab 20 \tab 3 \tab 1 \tab - \tab 1532 \cr
+   1980 \tab - \tab 1281 \tab 172 \tab 15 \tab - \tab - \tab - \tab 1468 \cr
+   1983 \tab - \tab 1373 \tab 183 \tab 40 \tab 3 \tab - \tab - \tab 1599 \cr
+   1984 \tab - \tab 1300 \tab 103 \tab 66 \tab 2 \tab 2 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 5291 \tab 629 \tab 141 \tab 8 \tab 3 \tab 0 \tab 6072 \cr
 }
 }
 

@@ -33,10 +33,10 @@ A. Nuclear Engineers
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3495/vshow}{GSS Data Explorer page for \code{engbstnk}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab what is best for the country \tab 2 \tab 3 \tab 4 \tab own narrow interests \tab don't know \tab no answer \tab Total \cr
-   2010 \tab 1578 \tab 109 \tab 133 \tab 115 \tab 44 \tab 31 \tab 27 \tab 7 \tab 2044 \cr
-   Total \tab 1578 \tab 109 \tab 133 \tab 115 \tab 44 \tab 31 \tab 27 \tab 7 \tab 2044 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab what is best for the country \tab 2 \tab 3 \tab 4 \tab own narrow interests \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 1578 \tab 109 \tab 133 \tab 115 \tab 44 \tab 31 \tab 27 \tab 7 \tab - \tab 2044 \cr
+   Total \tab 1578 \tab 109 \tab 133 \tab 115 \tab 44 \tab 31 \tab 27 \tab 7 \tab 0 \tab 2044 \cr
 }
 }
 

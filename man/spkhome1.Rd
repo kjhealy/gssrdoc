@@ -92,11 +92,11 @@ First response
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4868/vshow}{GSS Data Explorer page for \code{spkhome1}}.
 
-Counts by year:\tabular{llllllllllllllllllllllllllllllllllll}{
-   year \tab iap \tab english \tab spanish \tab polish \tab french \tab hebrew \tab russian \tab tagalog \tab chinese \tab urdu \tab italian \tab romanian \tab german \tab pashtu \tab chamorro \tab ukranian \tab hungarian \tab turkish \tab khmer \tab korean \tab navajo \tab vietnamese \tab no answer \tab arabic \tab gujarati \tab portuguese \tab hindu \tab armenian \tab american sign language \tab cambodian \tab spanglish \tab tigrigna \tab marathi \tab wolof \tab Total \cr
-   1996 \tab 1537 \tab 1258 \tab 30 \tab 1 \tab 5 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 50 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   2004 \tab 1596 \tab 1154 \tab 25 \tab 2 \tab 1 \tab - \tab 1 \tab 2 \tab 3 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 13 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2812 \cr
-   Total \tab 3133 \tab 2412 \tab 55 \tab 3 \tab 6 \tab 1 \tab 2 \tab 4 \tab 4 \tab 2 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 63 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 5716 \cr
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab english \tab spanish \tab polish \tab french \tab hebrew \tab russian \tab tagalog \tab chinese \tab urdu \tab italian \tab romanian \tab german \tab pashtu \tab chamorro \tab ukranian \tab hungarian \tab turkish \tab khmer \tab korean \tab navajo \tab vietnamese \tab no answer \tab arabic \tab gujarati \tab portuguese \tab hindu \tab armenian \tab american sign language \tab cambodian \tab spanglish \tab tigrigna \tab marathi \tab wolof \tab not available in this year \tab Total \cr
+   1996 \tab 1537 \tab 1258 \tab 30 \tab 1 \tab 5 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 50 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 1154 \tab 25 \tab 2 \tab 1 \tab - \tab 1 \tab 2 \tab 3 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 13 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab 2812 \cr
+   Total \tab 3133 \tab 2412 \tab 55 \tab 3 \tab 6 \tab 1 \tab 2 \tab 4 \tab 4 \tab 2 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 63 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 0 \tab 5716 \cr
 }
 }
 

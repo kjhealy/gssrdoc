@@ -38,12 +38,12 @@ F. Allowing business to make good profits is the best way to improve everyone''s
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7551/vshow}{GSS Data Explorer page for \code{inequal6}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   1987 \tab 255 \tab 156 \tab 554 \tab 345 \tab 359 \tab 63 \tab 57 \tab 30 \tab - \tab 1819 \cr
-   1996 \tab 1460 \tab 263 \tab 508 \tab 165 \tab 300 \tab 147 \tab 54 \tab 7 \tab - \tab 2904 \cr
-   2021 \tab 2245 \tab 184 \tab 627 \tab 555 \tab 246 \tab 78 \tab 69 \tab 3 \tab 25 \tab 4032 \cr
-   Total \tab 3960 \tab 603 \tab 1689 \tab 1065 \tab 905 \tab 288 \tab 180 \tab 40 \tab 25 \tab 8755 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 156 \tab 554 \tab 345 \tab 359 \tab 63 \tab 57 \tab 30 \tab - \tab - \tab 1819 \cr
+   1996 \tab 1460 \tab 263 \tab 508 \tab 165 \tab 300 \tab 147 \tab 54 \tab 7 \tab - \tab - \tab 2904 \cr
+   2021 \tab 2245 \tab 184 \tab 627 \tab 555 \tab 246 \tab 78 \tab 69 \tab 3 \tab 25 \tab - \tab 4032 \cr
+   Total \tab 3960 \tab 603 \tab 1689 \tab 1065 \tab 905 \tab 288 \tab 180 \tab 40 \tab 25 \tab 0 \tab 8755 \cr
 }
 }
 

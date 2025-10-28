@@ -34,10 +34,10 @@ O. Improving parks and recreation
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/224/vshow}{GSS Data Explorer page for \code{natparkz}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab Total \cr
-   1984 \tab 989 \tab 152 \tab 295 \tab 19 \tab 15 \tab 3 \tab 1473 \cr
-   Total \tab 989 \tab 152 \tab 295 \tab 19 \tab 15 \tab 3 \tab 1473 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab 989 \tab 152 \tab 295 \tab 19 \tab 15 \tab 3 \tab - \tab 1473 \cr
+   Total \tab 989 \tab 152 \tab 295 \tab 19 \tab 15 \tab 3 \tab 0 \tab 1473 \cr
 }
 }
 

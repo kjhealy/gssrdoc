@@ -35,10 +35,10 @@ C. Informal learning from co-workers or supervisors where you work now.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1370/vshow}{GSS Data Explorer page for \code{learning}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 605 \tab 295 \tab 353 \tab 145 \tab 101 \tab 6 \tab 12 \tab 1517 \cr
-   Total \tab 605 \tab 295 \tab 353 \tab 145 \tab 101 \tab 6 \tab 12 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 605 \tab 295 \tab 353 \tab 145 \tab 101 \tab 6 \tab 12 \tab - \tab 1517 \cr
+   Total \tab 605 \tab 295 \tab 353 \tab 145 \tab 101 \tab 6 \tab 12 \tab 0 \tab 1517 \cr
 }
 }
 

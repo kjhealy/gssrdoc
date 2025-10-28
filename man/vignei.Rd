@@ -37,12 +37,13 @@ A. To move next door to NAME?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2003/vshow}{GSS Data Explorer page for \code{vignei}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 260 \tab 586 \tab 320 \tab 206 \tab 51 \tab 21 \tab 2904 \cr
-   2006 \tab 3073 \tab 272 \tab 707 \tab 276 \tab 122 \tab 45 \tab 15 \tab 4510 \cr
-   2018 \tab 1175 \tab 190 \tab 548 \tab 234 \tab 138 \tab 30 \tab 33 \tab 2348 \cr
-   Total \tab 5708 \tab 722 \tab 1841 \tab 830 \tab 466 \tab 126 \tab 69 \tab 9762 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 260 \tab 586 \tab 320 \tab 206 \tab 51 \tab 21 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 272 \tab 707 \tab 276 \tab 122 \tab 45 \tab 15 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 190 \tab 548 \tab 234 \tab 138 \tab 30 \tab 33 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1691 \tab 234 \tab 735 \tab 399 \tab 176 \tab 37 \tab 11 \tab - \tab 26 \tab 3309 \cr
+   Total \tab 7399 \tab 956 \tab 2576 \tab 1229 \tab 642 \tab 163 \tab 80 \tab 0 \tab 26 \tab 13071 \cr
 }
 }
 

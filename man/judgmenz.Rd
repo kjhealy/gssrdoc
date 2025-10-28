@@ -37,10 +37,10 @@ E. That he has good sense and sound judgment
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/504/vshow}{GSS Data Explorer page for \code{judgmenz}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab extremely impt \tab very impt \tab fairly impt \tab not too impt \tab no answer \tab Total \cr
-   1980 \tab 985 \tab 192 \tab 240 \tab 44 \tab 2 \tab 5 \tab 1468 \cr
-   Total \tab 985 \tab 192 \tab 240 \tab 44 \tab 2 \tab 5 \tab 1468 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab extremely impt \tab very impt \tab fairly impt \tab not too impt \tab no answer \tab not available in this year \tab Total \cr
+   1980 \tab 985 \tab 192 \tab 240 \tab 44 \tab 2 \tab 5 \tab - \tab 1468 \cr
+   Total \tab 985 \tab 192 \tab 240 \tab 44 \tab 2 \tab 5 \tab 0 \tab 1468 \cr
 }
 }
 

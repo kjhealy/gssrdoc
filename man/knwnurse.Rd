@@ -34,10 +34,10 @@ Question Do you know a woman or a man who isï¿½A nurse
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7236/vshow}{GSS Data Explorer page for \code{knwnurse}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab family or relative \tab close friend \tab someone else i know \tab no one \tab don't know \tab Total \cr
-   2018 \tab 1175 \tab 491 \tab 328 \tab 156 \tab 197 \tab 1 \tab 2348 \cr
-   Total \tab 1175 \tab 491 \tab 328 \tab 156 \tab 197 \tab 1 \tab 2348 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab family or relative \tab close friend \tab someone else i know \tab no one \tab don't know \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 491 \tab 328 \tab 156 \tab 197 \tab 1 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 491 \tab 328 \tab 156 \tab 197 \tab 1 \tab 0 \tab 2348 \cr
 }
 }
 

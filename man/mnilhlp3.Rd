@@ -31,10 +31,10 @@ C3. R''s sources of help during mental illness -- Third mention.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2087/vshow}{GSS Data Explorer page for \code{mnilhlp3}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab 108 \tab 200 \tab 400 \tab 500 \tab 506 \tab 590 \tab 605 \tab no answer \tab Total \cr
-   1996 \tab 2879 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 15 \tab 2904 \cr
-   Total \tab 2879 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 15 \tab 2904 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 108 \tab 200 \tab 400 \tab 500 \tab 506 \tab 590 \tab 605 \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2879 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 15 \tab - \tab 2904 \cr
+   Total \tab 2879 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 1 \tab 15 \tab 0 \tab 2904 \cr
 }
 }
 

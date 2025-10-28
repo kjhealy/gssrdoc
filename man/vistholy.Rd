@@ -38,11 +38,11 @@ Would you say…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4710/vshow}{GSS Data Explorer page for \code{vistholy}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab never \tab less than once a year \tab about once or twice a year \tab several times a year \tab about once a month or more \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 658 \tab 847 \tab 142 \tab 166 \tab 97 \tab 102 \tab 7 \tab 4 \tab 2023 \cr
-   2018 \tab 1173 \tab 698 \tab 115 \tab 137 \tab 80 \tab 131 \tab 2 \tab 12 \tab 2348 \cr
-   Total \tab 1831 \tab 1545 \tab 257 \tab 303 \tab 177 \tab 233 \tab 9 \tab 16 \tab 4371 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab less than once a year \tab about once or twice a year \tab several times a year \tab about once a month or more \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 658 \tab 847 \tab 142 \tab 166 \tab 97 \tab 102 \tab 7 \tab 4 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 698 \tab 115 \tab 137 \tab 80 \tab 131 \tab 2 \tab 12 \tab - \tab 2348 \cr
+   Total \tab 1831 \tab 1545 \tab 257 \tab 303 \tab 177 \tab 233 \tab 9 \tab 16 \tab 0 \tab 4371 \cr
 }
 }
 

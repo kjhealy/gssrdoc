@@ -33,15 +33,16 @@ B. IF WITH A JOB, BUT NOT AT WORK: How many hours a week does (he/she) usually w
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6156/vshow}{GSS Data Explorer page for \code{cohrs2}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab 30 \tab 42 \tab 40 \tab 50 \tab don't know \tab no answer \tab 34 \tab 52 \tab 32 \tab 25 \tab 35 \tab 70 \tab 89+ hours \tab Total \cr
-   2012 \tab 1972 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2532 \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2862 \tab - \tab - \tab 2 \tab 1 \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 2343 \tab - \tab - \tab 1 \tab 2 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 4014 \tab 1 \tab - \tab 5 \tab - \tab - \tab 8 \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 4032 \cr
-   2022 \tab 3538 \tab 1 \tab - \tab 3 \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 17261 \tab 3 \tab 1 \tab 12 \tab 4 \tab 2 \tab 13 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 17303 \cr
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab 30 \tab 42 \tab 40 \tab 50 \tab don't know \tab no answer \tab 34 \tab 52 \tab 32 \tab 25 \tab 35 \tab 70 \tab 89+ hours \tab 45 \tab skipped on web \tab Total \cr
+   2012 \tab 1972 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2532 \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2862 \tab - \tab - \tab 2 \tab 1 \tab - \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2343 \tab - \tab - \tab 1 \tab 2 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 4014 \tab 1 \tab - \tab 5 \tab - \tab - \tab 8 \tab - \tab - \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab 4032 \cr
+   2022 \tab 3539 \tab 1 \tab - \tab 3 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
+   2024 \tab 3302 \tab - \tab - \tab 3 \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1 \tab 1 \tab 3309 \cr
+   Total \tab 20564 \tab 3 \tab 1 \tab 15 \tab 4 \tab 2 \tab 14 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 20612 \cr
 }
 }
 

@@ -37,12 +37,12 @@ G. The Internet or World Wide Web?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2523/vshow}{GSS Data Explorer page for \code{hlthwww}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab Total \cr
-   2000 \tab 2412 \tab 215 \tab 94 \tab 76 \tab 20 \tab - \tab 2817 \cr
-   2002 \tab 2104 \tab 238 \tab 150 \tab 129 \tab 6 \tab 138 \tab 2765 \cr
-   2004 \tab 2209 \tab 179 \tab 122 \tab 121 \tab 6 \tab 175 \tab 2812 \cr
-   Total \tab 6725 \tab 632 \tab 366 \tab 326 \tab 32 \tab 313 \tab 8394 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab not available in this year \tab Total \cr
+   2000 \tab 2412 \tab 215 \tab 94 \tab 76 \tab 20 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2104 \tab 238 \tab 150 \tab 129 \tab 6 \tab 138 \tab - \tab 2765 \cr
+   2004 \tab 2209 \tab 179 \tab 122 \tab 121 \tab 6 \tab 175 \tab - \tab 2812 \cr
+   Total \tab 6725 \tab 632 \tab 366 \tab 326 \tab 32 \tab 313 \tab 0 \tab 8394 \cr
 }
 }
 

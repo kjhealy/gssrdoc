@@ -35,10 +35,10 @@ Question B. Do you consider yourself Orthodox, Conservative, Reform or none of t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/292/vshow}{GSS Data Explorer page for \code{jewaj}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab conservative \tab reform \tab none of these \tab no answer \tab Total \cr
-   2012 \tab 1954 \tab 2 \tab 2 \tab 8 \tab 8 \tab 1974 \cr
-   Total \tab 1954 \tab 2 \tab 2 \tab 8 \tab 8 \tab 1974 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab conservative \tab reform \tab none of these \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1954 \tab 2 \tab 2 \tab 8 \tab 8 \tab - \tab 1974 \cr
+   Total \tab 1954 \tab 2 \tab 2 \tab 8 \tab 8 \tab 0 \tab 1974 \cr
 }
 }
 

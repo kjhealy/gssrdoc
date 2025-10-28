@@ -33,10 +33,10 @@ Question The next questions concern how people think about the past. There have 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1449/vshow}{GSS Data Explorer page for \code{mostimp4}}.
 
-Counts by year:\tabular{llllllllllllllllllllllllllllllllll}{
-   year \tab iap \tab 1 \tab 18 \tab 19 \tab 2 \tab 21 \tab 26 \tab 29 \tab 3 \tab 31 \tab 32 \tab 34 \tab 39 \tab 40 \tab 42 \tab 43 \tab 44 \tab 50 \tab 51 \tab 52 \tab 55 \tab 6 \tab 64 \tab 71 \tab 73 \tab 75 \tab 77 \tab 79 \tab other \tab personal \tab don't know \tab no answer \tab Total \cr
-   1993 \tab 1447 \tab 1 \tab 6 \tab 2 \tab 3 \tab 2 \tab 3 \tab 1 \tab 3 \tab 3 \tab 7 \tab 2 \tab 7 \tab 16 \tab 6 \tab 2 \tab 3 \tab 12 \tab 3 \tab 1 \tab 22 \tab 5 \tab 1 \tab 5 \tab 9 \tab 1 \tab 1 \tab 1 \tab 8 \tab 1 \tab 1 \tab 21 \tab 1606 \cr
-   Total \tab 1447 \tab 1 \tab 6 \tab 2 \tab 3 \tab 2 \tab 3 \tab 1 \tab 3 \tab 3 \tab 7 \tab 2 \tab 7 \tab 16 \tab 6 \tab 2 \tab 3 \tab 12 \tab 3 \tab 1 \tab 22 \tab 5 \tab 1 \tab 5 \tab 9 \tab 1 \tab 1 \tab 1 \tab 8 \tab 1 \tab 1 \tab 21 \tab 1606 \cr
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 18 \tab 19 \tab 2 \tab 21 \tab 26 \tab 29 \tab 3 \tab 31 \tab 32 \tab 34 \tab 39 \tab 40 \tab 42 \tab 43 \tab 44 \tab 50 \tab 51 \tab 52 \tab 55 \tab 6 \tab 64 \tab 71 \tab 73 \tab 75 \tab 77 \tab 79 \tab other \tab personal \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 1447 \tab 1 \tab 6 \tab 2 \tab 3 \tab 2 \tab 3 \tab 1 \tab 3 \tab 3 \tab 7 \tab 2 \tab 7 \tab 16 \tab 6 \tab 2 \tab 3 \tab 12 \tab 3 \tab 1 \tab 22 \tab 5 \tab 1 \tab 5 \tab 9 \tab 1 \tab 1 \tab 1 \tab 8 \tab 1 \tab 1 \tab 21 \tab - \tab 1606 \cr
+   Total \tab 1447 \tab 1 \tab 6 \tab 2 \tab 3 \tab 2 \tab 3 \tab 1 \tab 3 \tab 3 \tab 7 \tab 2 \tab 7 \tab 16 \tab 6 \tab 2 \tab 3 \tab 12 \tab 3 \tab 1 \tab 22 \tab 5 \tab 1 \tab 5 \tab 9 \tab 1 \tab 1 \tab 1 \tab 8 \tab 1 \tab 1 \tab 21 \tab 0 \tab 1606 \cr
 }
 }
 

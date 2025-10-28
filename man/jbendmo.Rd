@@ -42,10 +42,10 @@ Question Please also specify the month.        In (MONTHS):
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6340/vshow}{GSS Data Explorer page for \code{jbendmo}}.
 
-Counts by year:\tabular{lllllllllllllllll}{
-   year \tab iap \tab january \tab february \tab march \tab april \tab may \tab june \tab july \tab august \tab september \tab october \tab november \tab december \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2382 \tab 31 \tab 23 \tab 24 \tab 31 \tab 53 \tab 62 \tab 36 \tab 23 \tab 23 \tab 26 \tab 22 \tab 30 \tab 75 \tab 26 \tab 2867 \cr
-   Total \tab 2382 \tab 31 \tab 23 \tab 24 \tab 31 \tab 53 \tab 62 \tab 36 \tab 23 \tab 23 \tab 26 \tab 22 \tab 30 \tab 75 \tab 26 \tab 2867 \cr
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab january \tab february \tab march \tab april \tab may \tab june \tab july \tab august \tab september \tab october \tab november \tab december \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2382 \tab 31 \tab 23 \tab 24 \tab 31 \tab 53 \tab 62 \tab 36 \tab 23 \tab 23 \tab 26 \tab 22 \tab 30 \tab 75 \tab 26 \tab - \tab 2867 \cr
+   Total \tab 2382 \tab 31 \tab 23 \tab 24 \tab 31 \tab 53 \tab 62 \tab 36 \tab 23 \tab 23 \tab 26 \tab 22 \tab 30 \tab 75 \tab 26 \tab 0 \tab 2867 \cr
 }
 }
 

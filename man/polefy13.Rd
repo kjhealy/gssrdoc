@@ -35,10 +35,10 @@ Question How good is your understanding of the important political issues facing
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3974/vshow}{GSS Data Explorer page for \code{polefy13}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab none \tab a little \tab some \tab quite a bit \tab a great deal \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1328 \tab 29 \tab 117 \tab 284 \tab 152 \tab 41 \tab 19 \tab 4 \tab 1974 \cr
-   Total \tab 1328 \tab 29 \tab 117 \tab 284 \tab 152 \tab 41 \tab 19 \tab 4 \tab 1974 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab none \tab a little \tab some \tab quite a bit \tab a great deal \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1328 \tab 29 \tab 117 \tab 284 \tab 152 \tab 41 \tab 19 \tab 4 \tab - \tab 1974 \cr
+   Total \tab 1328 \tab 29 \tab 117 \tab 284 \tab 152 \tab 41 \tab 19 \tab 4 \tab 0 \tab 1974 \cr
 }
 }
 

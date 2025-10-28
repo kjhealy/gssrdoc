@@ -35,12 +35,12 @@ Question J. In 2004, you remember that Kerry ran for President on the Democratic
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/169/vshow}{GSS Data Explorer page for \code{vote04}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab voted \tab did not vote \tab ineligible \tab don't know \tab no answer \tab Total \cr
-   2006 \tab - \tab 3037 \tab 1089 \tab 335 \tab 34 \tab 15 \tab 4510 \cr
-   2008 \tab - \tab 1248 \tab 539 \tab 175 \tab 54 \tab 7 \tab 2023 \cr
-   2010 \tab - \tab 1220 \tab 534 \tab 231 \tab 46 \tab 13 \tab 2044 \cr
-   Total \tab 0 \tab 5505 \tab 2162 \tab 741 \tab 134 \tab 35 \tab 8577 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab voted \tab did not vote \tab ineligible \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab - \tab 3037 \tab 1089 \tab 335 \tab 34 \tab 15 \tab - \tab 4510 \cr
+   2008 \tab - \tab 1248 \tab 539 \tab 175 \tab 54 \tab 7 \tab - \tab 2023 \cr
+   2010 \tab - \tab 1220 \tab 534 \tab 231 \tab 46 \tab 13 \tab - \tab 2044 \cr
+   Total \tab 0 \tab 5505 \tab 2162 \tab 741 \tab 134 \tab 35 \tab 0 \tab 8577 \cr
 }
 }
 

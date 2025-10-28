@@ -33,10 +33,10 @@ Are you married to, partnered with, or otherwise in a long-term relationship wit
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8016/vshow}{GSS Data Explorer page for \code{lngrltnshp}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2520 \tab 790 \tab 223 \tab 4 \tab 7 \tab 3544 \cr
-   Total \tab 2520 \tab 790 \tab 223 \tab 4 \tab 7 \tab 3544 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab not available in this year \tab yes \tab no \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 791 \tab 222 \tab 2520 \tab 4 \tab 7 \tab 3544 \cr
+   Total \tab 0 \tab 791 \tab 222 \tab 2520 \tab 4 \tab 7 \tab 3544 \cr
 }
 }
 

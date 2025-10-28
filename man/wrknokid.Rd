@@ -34,12 +34,12 @@ A. After marrying and before there are children.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4353/vshow}{GSS Data Explorer page for \code{wrknokid}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab work full-time \tab work part-time \tab stay home \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 931 \tab 215 \tab 67 \tab 171 \tab 30 \tab 1481 \cr
-   1994 \tab 1545 \tab 1067 \tab 168 \tab 34 \tab 154 \tab 24 \tab 2992 \cr
-   2002 \tab 1594 \tab 796 \tab 168 \tab 20 \tab 185 \tab 2 \tab 2765 \cr
-   Total \tab 3206 \tab 2794 \tab 551 \tab 121 \tab 510 \tab 56 \tab 7238 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab work full-time \tab work part-time \tab stay home \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 931 \tab 215 \tab 67 \tab 171 \tab 30 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 1067 \tab 168 \tab 34 \tab 154 \tab 24 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 796 \tab 168 \tab 20 \tab 185 \tab 2 \tab - \tab 2765 \cr
+   Total \tab 3206 \tab 2794 \tab 551 \tab 121 \tab 510 \tab 56 \tab 0 \tab 7238 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Do you know of other people who, as adults, were the object of sexual a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3966/vshow}{GSS Data Explorer page for \code{knwclsex}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 233 \tab 162 \tab 1600 \tab 3 \tab 25 \tab 2023 \cr
-   Total \tab 233 \tab 162 \tab 1600 \tab 3 \tab 25 \tab 2023 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 233 \tab 162 \tab 1600 \tab 3 \tab 25 \tab - \tab 2023 \cr
+   Total \tab 233 \tab 162 \tab 1600 \tab 3 \tab 25 \tab 0 \tab 2023 \cr
 }
 }
 

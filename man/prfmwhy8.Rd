@@ -33,10 +33,10 @@ Question How big a reason was wanting to see a specific, individual performer in
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6228/vshow}{GSS Data Explorer page for \code{prfmwhy8}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab major reason \tab minor reason \tab not a reason \tab 9 \tab Total \cr
-   2016 \tab 2433 \tab 234 \tab 61 \tab 131 \tab 8 \tab 2867 \cr
-   Total \tab 2433 \tab 234 \tab 61 \tab 131 \tab 8 \tab 2867 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab major reason \tab minor reason \tab not a reason \tab 9 \tab not available in this year \tab Total \cr
+   2016 \tab 2433 \tab 234 \tab 61 \tab 131 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 2433 \tab 234 \tab 61 \tab 131 \tab 8 \tab 0 \tab 2867 \cr
 }
 }
 

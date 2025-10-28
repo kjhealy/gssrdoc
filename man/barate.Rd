@@ -34,13 +34,13 @@ C. Graduation Rate
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/71/vshow}{GSS Data Explorer page for \code{barate}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab 0-39.9pct \tab 40-57.9pct \tab 58pct or over \tab no answer \tab Total \cr
-   2012 \tab 1483 \tab 59 \tab 183 \tab 246 \tab 3 \tab 1974 \cr
-   2014 \tab 1877 \tab 89 \tab 212 \tab 356 \tab 4 \tab 2538 \cr
-   2016 \tab 2075 \tab 93 \tab 229 \tab 463 \tab 7 \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab 2348 \cr
-   Total \tab 7783 \tab 241 \tab 624 \tab 1065 \tab 14 \tab 9727 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab 0-39.9pct \tab 40-57.9pct \tab 58pct or over \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1483 \tab 59 \tab 183 \tab 246 \tab 3 \tab - \tab 1974 \cr
+   2014 \tab 1877 \tab 89 \tab 212 \tab 356 \tab 4 \tab - \tab 2538 \cr
+   2016 \tab 2075 \tab 93 \tab 229 \tab 463 \tab 7 \tab - \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 7783 \tab 241 \tab 624 \tab 1065 \tab 14 \tab 0 \tab 9727 \cr
 }
 }
 

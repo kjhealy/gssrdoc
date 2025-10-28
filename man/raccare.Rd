@@ -34,10 +34,10 @@ Question How concerned are you personally about race relations?  Are you very co
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/418/vshow}{GSS Data Explorer page for \code{raccare}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very concerned \tab somewhat concerned \tab not very concerned \tab not concerned at all \tab don't know \tab no answer \tab Total \cr
-   1983 \tab 804 \tab 153 \tab 388 \tab 173 \tab 71 \tab 6 \tab 4 \tab 1599 \cr
-   Total \tab 804 \tab 153 \tab 388 \tab 173 \tab 71 \tab 6 \tab 4 \tab 1599 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very concerned \tab somewhat concerned \tab not very concerned \tab not concerned at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab 804 \tab 153 \tab 388 \tab 173 \tab 71 \tab 6 \tab 4 \tab - \tab 1599 \cr
+   Total \tab 804 \tab 153 \tab 388 \tab 173 \tab 71 \tab 6 \tab 4 \tab 0 \tab 1599 \cr
 }
 }
 

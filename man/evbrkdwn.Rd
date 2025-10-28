@@ -33,11 +33,11 @@ Question Have you ever felt that you were going to have a nervous breakdown?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2066/vshow}{GSS Data Explorer page for \code{evbrkdwn}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 376 \tab 1047 \tab 10 \tab 11 \tab 2904 \cr
-   2016 \tab 1745 \tab 385 \tab 724 \tab 1 \tab 12 \tab 2867 \cr
-   Total \tab 3205 \tab 761 \tab 1771 \tab 11 \tab 23 \tab 5771 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1460 \tab 376 \tab 1047 \tab 10 \tab 11 \tab - \tab 2904 \cr
+   2016 \tab 1745 \tab 385 \tab 724 \tab 1 \tab 12 \tab - \tab 2867 \cr
+   Total \tab 3205 \tab 761 \tab 1771 \tab 11 \tab 23 \tab 0 \tab 5771 \cr
 }
 }
 

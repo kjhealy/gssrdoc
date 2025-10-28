@@ -34,18 +34,18 @@ Would you object strongly, mildly, or not at all?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/384/vshow}{GSS Data Explorer page for \code{racdin}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab strongly object \tab mildly object \tab not object \tab don't know \tab iap \tab no answer \tab Total \cr
-   1972 \tab 173 \tab 206 \tab 939 \tab 30 \tab 261 \tab 4 \tab 1613 \cr
-   1973 \tab 201 \tab 196 \tab 895 \tab 21 \tab 183 \tab 8 \tab 1504 \cr
-   1974 \tab 141 \tab 204 \tab 943 \tab 22 \tab 173 \tab 1 \tab 1484 \cr
-   1976 \tab 173 \tab 196 \tab 963 \tab 33 \tab 129 \tab 5 \tab 1499 \cr
-   1977 \tab 154 \tab 220 \tab 959 \tab 16 \tab 176 \tab 5 \tab 1530 \cr
-   1980 \tab 149 \tab 190 \tab 1105 \tab 21 \tab - \tab 3 \tab 1468 \cr
-   1982 \tab 139 \tab 186 \tab 1508 \tab 21 \tab - \tab 6 \tab 1860 \cr
-   1984 \tab 93 \tab 160 \tab 1197 \tab 18 \tab - \tab 5 \tab 1473 \cr
-   1985 \tab 73 \tab 79 \tab 591 \tab 3 \tab 783 \tab 5 \tab 1534 \cr
-   Total \tab 1296 \tab 1637 \tab 9100 \tab 185 \tab 1705 \tab 42 \tab 13965 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab strongly object \tab mildly object \tab not object \tab don't know \tab iap \tab no answer \tab not available in this year \tab Total \cr
+   1972 \tab 173 \tab 206 \tab 939 \tab 30 \tab 261 \tab 4 \tab - \tab 1613 \cr
+   1973 \tab 201 \tab 196 \tab 895 \tab 21 \tab 183 \tab 8 \tab - \tab 1504 \cr
+   1974 \tab 141 \tab 204 \tab 943 \tab 22 \tab 173 \tab 1 \tab - \tab 1484 \cr
+   1976 \tab 173 \tab 196 \tab 963 \tab 33 \tab 129 \tab 5 \tab - \tab 1499 \cr
+   1977 \tab 154 \tab 220 \tab 959 \tab 16 \tab 176 \tab 5 \tab - \tab 1530 \cr
+   1980 \tab 149 \tab 190 \tab 1105 \tab 21 \tab - \tab 3 \tab - \tab 1468 \cr
+   1982 \tab 139 \tab 186 \tab 1508 \tab 21 \tab - \tab 6 \tab - \tab 1860 \cr
+   1984 \tab 93 \tab 160 \tab 1197 \tab 18 \tab - \tab 5 \tab - \tab 1473 \cr
+   1985 \tab 73 \tab 79 \tab 591 \tab 3 \tab 783 \tab 5 \tab - \tab 1534 \cr
+   Total \tab 1296 \tab 1637 \tab 9100 \tab 185 \tab 1705 \tab 42 \tab 0 \tab 13965 \cr
 }
 }
 

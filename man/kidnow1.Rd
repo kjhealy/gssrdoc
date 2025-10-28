@@ -33,10 +33,10 @@ Question Are your biological or adopted children under age 18 living with you no
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3917/vshow}{GSS Data Explorer page for \code{kidnow1}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes, all of them live with me at least some of the time \tab some live with me at least some of the time \tab none live with me \tab no answer \tab Total \cr
-   2008 \tab 1942 \tab 19 \tab 2 \tab 3 \tab 57 \tab 2023 \cr
-   Total \tab 1942 \tab 19 \tab 2 \tab 3 \tab 57 \tab 2023 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, all of them live with me at least some of the time \tab some live with me at least some of the time \tab none live with me \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1942 \tab 19 \tab 2 \tab 3 \tab 57 \tab - \tab 2023 \cr
+   Total \tab 1942 \tab 19 \tab 2 \tab 3 \tab 57 \tab 0 \tab 2023 \cr
 }
 }
 

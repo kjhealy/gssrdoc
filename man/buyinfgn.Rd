@@ -36,11 +36,11 @@ A. Looked for information about a product you might want to buy?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2532/vshow}{GSS Data Explorer page for \code{buyinfgn}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab don't know \tab Total \cr
-   2000 \tab 1884 \tab 360 \tab 302 \tab 253 \tab 18 \tab - \tab - \tab 2817 \cr
-   2002 \tab 1372 \tab 588 \tab 215 \tab 234 \tab 5 \tab 341 \tab 10 \tab 2765 \cr
-   Total \tab 3256 \tab 948 \tab 517 \tab 487 \tab 23 \tab 341 \tab 10 \tab 5582 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 1884 \tab 360 \tab 302 \tab 253 \tab 18 \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 1372 \tab 588 \tab 215 \tab 234 \tab 5 \tab 341 \tab 10 \tab - \tab 2765 \cr
+   Total \tab 3256 \tab 948 \tab 517 \tab 487 \tab 23 \tab 341 \tab 10 \tab 0 \tab 5582 \cr
 }
 }
 

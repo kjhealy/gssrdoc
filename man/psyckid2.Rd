@@ -36,10 +36,10 @@ B...because s/he is not paying attention at school, does not follow through with
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2180/vshow}{GSS Data Explorer page for \code{psyckid2}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 126 \tab 250 \tab 222 \tab 259 \tab 444 \tab 82 \tab 4 \tab 2832 \cr
-   Total \tab 1445 \tab 126 \tab 250 \tab 222 \tab 259 \tab 444 \tab 82 \tab 4 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 126 \tab 250 \tab 222 \tab 259 \tab 444 \tab 82 \tab 4 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 126 \tab 250 \tab 222 \tab 259 \tab 444 \tab 82 \tab 4 \tab 0 \tab 2832 \cr
 }
 }
 

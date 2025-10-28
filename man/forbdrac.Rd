@@ -32,10 +32,10 @@ Question B. Or consider a person who believes that Blacks are genetically inferi
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4985/vshow}{GSS Data Explorer page for \code{forbdrac}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes forbid \tab no not forbid \tab don't know \tab no answer \tab Total \cr
-   1989 \tab 1039 \tab 189 \tab 284 \tab 18 \tab 7 \tab 1537 \cr
-   Total \tab 1039 \tab 189 \tab 284 \tab 18 \tab 7 \tab 1537 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes forbid \tab no not forbid \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 1039 \tab 189 \tab 284 \tab 18 \tab 7 \tab - \tab 1537 \cr
+   Total \tab 1039 \tab 189 \tab 284 \tab 18 \tab 7 \tab 0 \tab 1537 \cr
 }
 }
 

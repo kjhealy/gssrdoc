@@ -23,10 +23,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2002  |1372 |326 |1048 |12         |7         |2765  |
-#'  |Total |1372 |326 |1048 |12         |7         |2765  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1372 |326 |1048 |12         |7         |-                          |2765  |
+#'  |Total |1372 |326 |1048 |12         |7         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
@@ -63,10 +63,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2002  |1372 |690 |690 |8          |5         |2765  |
-#'  |Total |1372 |690 |690 |8          |5         |2765  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1372 |690 |690 |8          |5         |-                          |2765  |
+#'  |Total |1372 |690 |690 |8          |5         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
@@ -103,10 +103,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2002  |1372 |296 |1084 |8          |5         |2765  |
-#'  |Total |1372 |296 |1084 |8          |5         |2765  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1372 |296 |1084 |8          |5         |-                          |2765  |
+#'  |Total |1372 |296 |1084 |8          |5         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Adult Transitions
@@ -197,10 +197,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |1  |10 |11 |12 |13 |14 |15 |16 |17 |18 |19 |2  |20 |21 |22 |23 |24 |25 |26 |27 |28 |29 |3  |30 |31 |32 |4  |5  |6  |7  |8  |9  |Total |
-#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:-----|
-#'  |2002  |1372 |36 |40 |50 |43 |54 |48 |48 |49 |40 |49 |48 |45 |42 |48 |44 |38 |43 |47 |44 |34 |41 |36 |39 |38 |46 |41 |47 |42 |45 |47 |39 |42 |2765  |
-#'  |Total |1372 |36 |40 |50 |43 |54 |48 |48 |49 |40 |49 |48 |45 |42 |48 |44 |38 |43 |47 |44 |34 |41 |36 |39 |38 |46 |41 |47 |42 |45 |47 |39 |42 |2765  |
+#'  |year  |iap  |1:  adhd, john, white, 8 |2:  adhd, john, white, 14 |3:  adhd, mary, white, 8 |4:  adhd, mary, white, 14 |5:  adhd, john, black, 8 |6:  adhd, john, black, 14 |7:  adhd, mary, black, 8 |8:  adhd, mary, black, 14 |9:  depression, john, white, 8 |10: depression, john, white, 14 |11: depression, mary, white, 8 |12: depression, mary, white, 14 |13: depression, john, black, 8 |14: depression, john, black, 14 |15: depression, mary, black, 8 |16: depression, mary, black, 14 |17: normal, john, white, 8 |18: normal, john, white, 14 |19: normal, mary, white, 8 |20: normal, mary, white, 14 |21: normal, john, black, 8 |22: normal, john, black, 14 |23: normal, mary, black, 8 |24: normal, mary, black, 14 |25: asthma, john, white, 8 |26: asthma, john, white, 14 |27: asthma, mary, white, 8 |28: asthma, mary, white, 14 |29: asthma, john, black, 8 |30: asthma, john, black, 14 |31: asthma, mary, black, 8 |32: asthma, mary, black, 14 |not available in this year |33: classic depression, john, white, 8 |34: classic depression, john, white, 14 |35: classic depression, mary, white, 8 |36: classic depression, mary, white, 14 |37: classic depression, john, black, 8 |38: classic depression, john, black, 14 |39: classic depression, mary, black, 8 |40: classic depression, mary, black, 14 |41: impulsivity, john, white, 8 |42: impulsivity, john, white, 14 |43: impulsivity, mary, white, 8 |44: impulsivity, mary, white, 14 |45: impulsivity, john, black, 8 |46: impulsivity, john, black, 14 |47: impulsivity, mary, black, 8 |48: impulsivity, mary, black, 14 |49: perfectionism, john, white, 8 |50: perfectionism, john, white, 14 |51: perfectionism, mary, white, 8 |52: perfectionism, mary, white, 14 |53: perfectionism, john, black, 8 |54: perfectionism, john, black, 14 |55: perfectionism, mary, black, 8 |56: perfectionism, mary, black, 14 |Total |
+#'  |:-----|:----|:------------------------|:-------------------------|:------------------------|:-------------------------|:------------------------|:-------------------------|:------------------------|:-------------------------|:------------------------------|:-------------------------------|:------------------------------|:-------------------------------|:------------------------------|:-------------------------------|:------------------------------|:-------------------------------|:--------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:---------------------------|:--------------------------|:--------------------------------------|:---------------------------------------|:--------------------------------------|:---------------------------------------|:--------------------------------------|:---------------------------------------|:--------------------------------------|:---------------------------------------|:-------------------------------|:--------------------------------|:-------------------------------|:--------------------------------|:-------------------------------|:--------------------------------|:-------------------------------|:--------------------------------|:---------------------------------|:----------------------------------|:---------------------------------|:----------------------------------|:---------------------------------|:----------------------------------|:---------------------------------|:----------------------------------|:-----|
+#'  |2002  |1372 |36                       |45                        |39                       |47                        |42                       |45                        |47                       |39                        |42                             |40                              |50                             |43                              |54                             |48                              |48                             |49                              |40                         |49                          |48                         |42                          |48                         |44                          |38                         |43                          |47                         |44                          |34                         |41                          |36                         |38                          |46                         |41                          |-                          |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                                      |-                                       |-                               |-                                |-                               |-                                |-                               |-                                |-                               |-                                |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |-                                 |-                                  |2765  |
+#'  |2024  |1639 |31                       |33                        |29                       |29                        |26                       |39                        |37                       |37                        |39                             |24                              |40                             |38                              |38                             |40                              |38                             |28                              |29                         |29                          |42                         |33                          |42                         |35                          |27                         |42                          |-                          |-                           |-                          |-                           |-                          |-                           |-                          |-                           |-                          |31                                     |29                                      |41                                     |34                                      |35                                     |31                                      |37                                     |40                                      |32                              |34                               |33                              |43                               |25                              |31                               |44                              |26                               |44                                |34                                 |37                                |32                                 |42                                |42                                 |33                                |35                                 |3309  |
+#'  |Total |3011 |67                       |78                        |68                       |76                        |68                       |84                        |84                       |76                        |81                             |64                              |90                             |81                              |92                             |88                              |86                             |77                              |69                         |78                          |90                         |75                          |90                         |79                          |65                         |85                          |47                         |44                          |34                         |41                          |36                         |38                          |46                         |41                          |0                          |31                                     |29                                      |41                                     |34                                      |35                                     |31                                      |37                                     |40                                      |32                              |34                               |33                              |43                               |25                              |31                               |44                              |26                               |44                                |34                                 |37                                |32                                 |42                                |42                                 |33                                |35                                 |6074  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -247,10 +248,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |adhd or add |depression |normal |asthma |developmental puberty |illicit drugs |adhd symptoms |psychiatric personality problems |medical problems symptoms |environment social |other characteristic miscellaneous |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:----------|:------|:------|:---------------------|:-------------|:-------------|:--------------------------------|:-------------------------|:------------------|:----------------------------------|:----------|:---------|:-----|
-#'  |2002  |1372 |135         |228        |287    |230    |30                    |49            |43            |61                               |62                        |161                |26                                 |78         |3         |2765  |
-#'  |Total |1372 |135         |228        |287    |230    |30                    |49            |43            |61                               |62                        |161                |26                                 |78         |3         |2765  |
+#'  |year  |iap  |adhd or add |depression |normal |asthma |developmental puberty |illicit drugs |adhd symptoms |psychiatric personality problems |medical problems symptoms |environment social |other characteristic miscellaneous |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:----------|:------|:------|:---------------------|:-------------|:-------------|:--------------------------------|:-------------------------|:------------------|:----------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1372 |135         |228        |287    |230    |30                    |49            |43            |61                               |62                        |161                |26                                 |78         |3         |-                          |2765  |
+#'  |Total |1372 |135         |228        |287    |230    |30                    |49            |43            |61                               |62                        |161                |26                                 |78         |3         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -289,10 +290,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very serious |somewhat serious |not very serious |not at all serious |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:----------------|:----------------|:------------------|:----------|:---------|:-----|
-#'  |2002  |1372 |625          |389              |168              |171                |28         |12        |2765  |
-#'  |Total |1372 |625          |389              |168              |171                |28         |12        |2765  |
+#'  |year  |iap  |very serious |somewhat serious |not very serious |not at all serious |don't know |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:------------|:----------------|:----------------|:------------------|:----------|:---------|:--------------------------|:--------------|:-----|
+#'  |2002  |1372 |625          |389              |168              |171                |28         |12        |-                          |-              |2765  |
+#'  |2024  |1659 |652          |616              |258              |92                 |10         |4         |-                          |18             |3309  |
+#'  |Total |3031 |1277         |1005             |426              |263                |38         |16        |0                          |18             |6074  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -346,10 +348,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |nothing |medical general |doctor |specialist |mental health general |psychiatrist |social worker |counselor therapist |psychologist |family friends general |negative blaming parenting |positive parenting |assistance from school general |involve teacher |involve school counselor |religion |social extracurricular activity |other help miscellaneous |don't know |no answer |Total |
-#'  |:-----|:----|:-------|:---------------|:------|:----------|:---------------------|:------------|:-------------|:-------------------|:------------|:----------------------|:--------------------------|:------------------|:------------------------------|:---------------|:------------------------|:--------|:-------------------------------|:------------------------|:----------|:---------|:-----|
-#'  |2002  |1372 |150     |115             |332    |35         |165                   |29           |5             |27                  |21           |56                     |99                         |103                |32                             |24              |19                       |11       |23                              |79                       |67         |1         |2765  |
-#'  |Total |1372 |150     |115             |332    |35         |165                   |29           |5             |27                  |21           |56                     |99                         |103                |32                             |24              |19                       |11       |23                              |79                       |67         |1         |2765  |
+#'  |year  |iap  |nothing |medical general |doctor |specialist |mental health general |psychiatrist |social worker |counselor therapist |psychologist |family friends general |negative blaming parenting |positive parenting |assistance from school general |involve teacher |involve school counselor |religion |social extracurricular activity |other help miscellaneous |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------|:---------------|:------|:----------|:---------------------|:------------|:-------------|:-------------------|:------------|:----------------------|:--------------------------|:------------------|:------------------------------|:---------------|:------------------------|:--------|:-------------------------------|:------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1372 |150     |115             |332    |35         |165                   |29           |5             |27                  |21           |56                     |99                         |103                |32                             |24              |19                       |11       |23                              |79                       |67         |1         |-                          |2765  |
+#'  |Total |1372 |150     |115             |332    |35         |165                   |29           |5             |27                  |21           |56                     |99                         |103                |32                             |24              |19                       |11       |23                              |79                       |67         |1         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -388,10 +390,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:-----|
-#'  |2002  |1372 |77          |334             |463             |470               |38         |11        |2765  |
-#'  |Total |1372 |77          |334             |463             |470               |38         |11        |2765  |
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:--------------------------|:--------------|:-----|
+#'  |2002  |1372 |77          |334             |463             |470               |38         |11        |-                          |-              |2765  |
+#'  |2024  |1659 |116         |521             |623             |335               |31         |4         |-                          |20             |3309  |
+#'  |Total |3031 |193         |855             |1086            |805               |69         |15        |0                          |20             |6074  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -430,10 +433,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:-----|
-#'  |2002  |1372 |225         |531             |325             |246               |55         |11        |2765  |
-#'  |Total |1372 |225         |531             |325             |246               |55         |11        |2765  |
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:--------------------------|:--------------|:-----|
+#'  |2002  |1372 |225         |531             |325             |246               |55         |11        |-                          |-              |2765  |
+#'  |2024  |1660 |278         |771             |377             |142               |54         |4         |-                          |23             |3309  |
+#'  |Total |3032 |503         |1302            |702             |388               |109        |15        |0                          |23             |6074  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -472,10 +476,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:-----|
-#'  |2002  |1372 |401         |663             |177             |105               |36         |11        |2765  |
-#'  |Total |1372 |401         |663             |177             |105               |36         |11        |2765  |
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:--------------------------|:--------------|:-----|
+#'  |2002  |1372 |401         |663             |177             |105               |36         |11        |-                          |-              |2765  |
+#'  |2024  |1660 |594         |830             |129             |47                |21         |3         |-                          |25             |3309  |
+#'  |Total |3032 |995         |1493            |306             |152               |57         |14        |0                          |25             |6074  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II

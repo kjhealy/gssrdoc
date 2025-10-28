@@ -61,7 +61,8 @@ Counts by year:\tabular{lllllllll}{
    2018 \tab 1188 \tab 904 \tab 181 \tab 66 \tab 9 \tab - \tab - \tab 2348 \cr
    2021 \tab 1987 \tab 1532 \tab 346 \tab 153 \tab 4 \tab - \tab 10 \tab 4032 \cr
    2022 \tab 1780 \tab 1357 \tab 277 \tab 121 \tab 7 \tab - \tab 2 \tab 3544 \cr
-   Total \tab 28955 \tab 20300 \tab 5435 \tab 1574 \tab 333 \tab 202 \tab 12 \tab 56811 \cr
+   2024 \tab 1683 \tab 1187 \tab 284 \tab 137 \tab 16 \tab - \tab 2 \tab 3309 \cr
+   Total \tab 30638 \tab 21487 \tab 5719 \tab 1711 \tab 349 \tab 202 \tab 14 \tab 60120 \cr
 }
 }
 

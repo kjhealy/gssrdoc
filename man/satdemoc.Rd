@@ -34,10 +34,11 @@ Question On the whole, are you very satisfied, fairly satisfied, not very satisf
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2667/vshow}{GSS Data Explorer page for \code{satdemoc}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very satisfied \tab fairly satisfied \tab not very satisfied \tab not at all satisfied \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 235 \tab 854 \tab 201 \tab 79 \tab 36 \tab 14 \tab 2817 \cr
-   Total \tab 1398 \tab 235 \tab 854 \tab 201 \tab 79 \tab 36 \tab 14 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very satisfied \tab fairly satisfied \tab not very satisfied \tab not at all satisfied \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2000 \tab 1398 \tab 235 \tab 854 \tab 201 \tab 79 \tab 36 \tab 14 \tab - \tab - \tab 2817 \cr
+   2024 \tab 17 \tab 196 \tab 1156 \tab 1235 \tab 576 \tab 82 \tab 16 \tab - \tab 31 \tab 3309 \cr
+   Total \tab 1415 \tab 431 \tab 2010 \tab 1436 \tab 655 \tab 118 \tab 30 \tab 0 \tab 31 \tab 6126 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Over the past 12 months, in addition to your main job, have you done any other w
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6337/vshow}{GSS Data Explorer page for \code{extrawrk}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes, during all of that period \tab yes, during most of that period \tab yes, during some of that period \tab no \tab no answer \tab Total \cr
-   2016 \tab 1927 \tab 83 \tab 45 \tab 166 \tab 640 \tab 6 \tab 2867 \cr
-   Total \tab 1927 \tab 83 \tab 45 \tab 166 \tab 640 \tab 6 \tab 2867 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, during all of that period \tab yes, during most of that period \tab yes, during some of that period \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1927 \tab 83 \tab 45 \tab 166 \tab 640 \tab 6 \tab - \tab 2867 \cr
+   Total \tab 1927 \tab 83 \tab 45 \tab 166 \tab 640 \tab 6 \tab 0 \tab 2867 \cr
 }
 }
 

@@ -39,10 +39,10 @@ Question D. During the last 12 months, how often did you have at least 3, but le
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3105/vshow}{GSS Data Explorer page for \code{drink3}}.
 
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab never in the last 12 months \tab once in the last 12 months \tab twice in the last 12 months \tab three to six times in the last 12 months \tab seven to eleven times in the last 12 months \tab one to three times a month \tab once or twice a week \tab three or four times a week \tab every day or nearly every day \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2673 \tab 6 \tab 11 \tab 20 \tab 30 \tab 13 \tab 28 \tab 18 \tab 3 \tab 1 \tab 2 \tab 7 \tab 2812 \cr
-   Total \tab 2673 \tab 6 \tab 11 \tab 20 \tab 30 \tab 13 \tab 28 \tab 18 \tab 3 \tab 1 \tab 2 \tab 7 \tab 2812 \cr
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab never in the last 12 months \tab once in the last 12 months \tab twice in the last 12 months \tab three to six times in the last 12 months \tab seven to eleven times in the last 12 months \tab one to three times a month \tab once or twice a week \tab three or four times a week \tab every day or nearly every day \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2673 \tab 6 \tab 11 \tab 20 \tab 30 \tab 13 \tab 28 \tab 18 \tab 3 \tab 1 \tab 2 \tab 7 \tab - \tab 2812 \cr
+   Total \tab 2673 \tab 6 \tab 11 \tab 20 \tab 30 \tab 13 \tab 28 \tab 18 \tab 3 \tab 1 \tab 2 \tab 7 \tab 0 \tab 2812 \cr
 }
 }
 

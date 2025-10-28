@@ -33,10 +33,10 @@ Question Do you usually work 10 hours or more per week for pay in your main job?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4528/vshow}{GSS Data Explorer page for \code{workweek}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab not available in this year \tab yes \tab no \tab not working \tab no answer \tab iap \tab Total \cr
-   1989 \tab - \tab 898 \tab 160 \tab 395 \tab 84 \tab - \tab 1537 \cr
-   Total \tab 0 \tab 898 \tab 160 \tab 395 \tab 84 \tab 0 \tab 1537 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab not available in this year \tab yes \tab no \tab not working \tab no answer \tab Total \cr
+   1989 \tab - \tab 898 \tab 160 \tab 395 \tab 84 \tab 1537 \cr
+   Total \tab 0 \tab 898 \tab 160 \tab 395 \tab 84 \tab 1537 \cr
 }
 }
 

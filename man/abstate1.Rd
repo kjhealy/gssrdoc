@@ -35,10 +35,10 @@ Question Here in (CURRENT STATE), how easy or hard do you think it is for a woma
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7175/vshow}{GSS Data Explorer page for \code{abstate1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very easy \tab easy \tab neither easy nor hard \tab hard \tab very hard \tab don't know \tab no answer \tab Total \cr
-   2018 \tab - \tab 367 \tab 671 \tab 518 \tab 217 \tab 83 \tab 442 \tab 50 \tab 2348 \cr
-   Total \tab 0 \tab 367 \tab 671 \tab 518 \tab 217 \tab 83 \tab 442 \tab 50 \tab 2348 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very easy \tab easy \tab neither easy nor hard \tab hard \tab very hard \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab - \tab 367 \tab 671 \tab 518 \tab 217 \tab 83 \tab 442 \tab 50 \tab - \tab 2348 \cr
+   Total \tab 0 \tab 367 \tab 671 \tab 518 \tab 217 \tab 83 \tab 442 \tab 50 \tab 0 \tab 2348 \cr
 }
 }
 

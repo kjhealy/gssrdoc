@@ -34,11 +34,11 @@ D. And how about after the children left home?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4426/vshow}{GSS Data Explorer page for \code{spwkgrwn}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab worked full-time \tab worked part-time \tab stayed home \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1545 \tab 456 \tab 62 \tab 69 \tab 415 \tab 445 \tab 2992 \cr
-   2002 \tab 1936 \tab 344 \tab 44 \tab 36 \tab 393 \tab 12 \tab 2765 \cr
-   Total \tab 3481 \tab 800 \tab 106 \tab 105 \tab 808 \tab 457 \tab 5757 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab worked full-time \tab worked part-time \tab stayed home \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1545 \tab 456 \tab 62 \tab 69 \tab 415 \tab 445 \tab - \tab 2992 \cr
+   2002 \tab 1936 \tab 344 \tab 44 \tab 36 \tab 393 \tab 12 \tab - \tab 2765 \cr
+   Total \tab 3481 \tab 800 \tab 106 \tab 105 \tab 808 \tab 457 \tab 0 \tab 5757 \cr
 }
 }
 

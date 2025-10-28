@@ -32,10 +32,10 @@ Question Are you, alone or with others, currently the owner of a business you he
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3815/vshow}{GSS Data Explorer page for \code{ownbiz}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2008 \tab - \tab 250 \tab 1771 \tab 2 \tab 2023 \cr
-   Total \tab 0 \tab 250 \tab 1771 \tab 2 \tab 2023 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab - \tab 250 \tab 1771 \tab 2 \tab - \tab 2023 \cr
+   Total \tab 0 \tab 250 \tab 1771 \tab 2 \tab 0 \tab 2023 \cr
 }
 }
 

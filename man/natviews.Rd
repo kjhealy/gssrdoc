@@ -34,10 +34,10 @@ Question I have views of nature (trees, lawns, gardens, water, etc.) when I am h
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7185/vshow}{GSS Data Explorer page for \code{natviews}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 781 \tab 275 \tab 58 \tab 32 \tab 6 \tab 21 \tab 2348 \cr
-   Total \tab 1175 \tab 781 \tab 275 \tab 58 \tab 32 \tab 6 \tab 21 \tab 2348 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 781 \tab 275 \tab 58 \tab 32 \tab 6 \tab 21 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 781 \tab 275 \tab 58 \tab 32 \tab 6 \tab 21 \tab 0 \tab 2348 \cr
 }
 }
 

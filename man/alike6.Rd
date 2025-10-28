@@ -34,10 +34,10 @@ F. In what way are work and play alike?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1472/vshow}{GSS Data Explorer page for \code{alike6}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab completely wrong \tab partially right \tab completely right \tab don't know \tab no answer \tab Total \cr
-   1994 \tab - \tab 1149 \tab 1480 \tab 178 \tab 160 \tab 25 \tab 2992 \cr
-   Total \tab 0 \tab 1149 \tab 1480 \tab 178 \tab 160 \tab 25 \tab 2992 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab completely wrong \tab partially right \tab completely right \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab - \tab 1149 \tab 1480 \tab 178 \tab 160 \tab 25 \tab - \tab 2992 \cr
+   Total \tab 0 \tab 1149 \tab 1480 \tab 178 \tab 160 \tab 25 \tab 0 \tab 2992 \cr
 }
 }
 

@@ -35,10 +35,10 @@ C. People can be divided into two classes--the weak and the strong
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1168/vshow}{GSS Data Explorer page for \code{twoclass}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 68 \tab 503 \tab 605 \tab 132 \tab 60 \tab 4 \tab 1372 \cr
-   Total \tab 0 \tab 68 \tab 503 \tab 605 \tab 132 \tab 60 \tab 4 \tab 1372 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 68 \tab 503 \tab 605 \tab 132 \tab 60 \tab 4 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 68 \tab 503 \tab 605 \tab 132 \tab 60 \tab 4 \tab 0 \tab 1372 \cr
 }
 }
 

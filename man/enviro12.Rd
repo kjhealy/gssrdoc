@@ -33,11 +33,11 @@ F. Environmental issues?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2433/vshow}{GSS Data Explorer page for \code{enviro12}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2453 \tab 110 \tab 169 \tab 85 \tab 2817 \cr
-   2002 \tab 2411 \tab 139 \tab 170 \tab 45 \tab 2765 \cr
-   Total \tab 4864 \tab 249 \tab 339 \tab 130 \tab 5582 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2453 \tab 110 \tab 169 \tab 85 \tab - \tab 2817 \cr
+   2002 \tab 2411 \tab 139 \tab 170 \tab 45 \tab - \tab 2765 \cr
+   Total \tab 4864 \tab 249 \tab 339 \tab 130 \tab 0 \tab 5582 \cr
 }
 }
 

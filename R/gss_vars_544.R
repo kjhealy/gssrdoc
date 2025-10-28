@@ -23,10 +23,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |not at all important |2   |3  |4   |5   |6  |very important |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------------|:---|:--|:---|:---|:--|:--------------|:------------|:---------|:-----|
-#'  |2014  |1274 |487                  |129 |72 |116 |107 |74 |167            |109          |3         |2538  |
-#'  |Total |1274 |487                  |129 |72 |116 |107 |74 |167            |109          |3         |2538  |
+#'  |year  |iap  |not at all important |2   |3  |4   |5   |6  |very important |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------------|:---|:--|:---|:---|:--|:--------------|:------------|:---------|:--------------------------|:-----|
+#'  |2014  |1274 |487                  |129 |72 |116 |107 |74 |167            |109          |3         |-                          |2538  |
+#'  |Total |1274 |487                  |129 |72 |116 |107 |74 |167            |109          |3         |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -63,10 +63,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |not at all important |2  |3  |4   |5   |6   |very important |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------------|:--|:--|:---|:---|:---|:--------------|:------------|:---------|:-----|
-#'  |2014  |1274 |90                   |26 |31 |139 |124 |174 |629            |47           |4         |2538  |
-#'  |Total |1274 |90                   |26 |31 |139 |124 |174 |629            |47           |4         |2538  |
+#'  |year  |iap  |not at all important |2  |3  |4   |5   |6   |very important |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------------|:--|:--|:---|:---|:---|:--------------|:------------|:---------|:--------------------------|:-----|
+#'  |2014  |1274 |90                   |26 |31 |139 |124 |174 |629            |47           |4         |-                          |2538  |
+#'  |Total |1274 |90                   |26 |31 |139 |124 |174 |629            |47           |4         |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -103,10 +103,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |not at all important |2  |3  |4   |5  |6   |very important |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------------|:--|:--|:---|:--|:---|:--------------|:------------|:---------|:-----|
-#'  |2014  |1274 |79                   |38 |47 |121 |88 |151 |696            |42           |2         |2538  |
-#'  |Total |1274 |79                   |38 |47 |121 |88 |151 |696            |42           |2         |2538  |
+#'  |year  |iap  |not at all important |2  |3  |4   |5  |6   |very important |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------------|:--|:--|:---|:--|:---|:--------------|:------------|:---------|:--------------------------|:-----|
+#'  |2014  |1274 |79                   |38 |47 |121 |88 |151 |696            |42           |2         |-                          |2538  |
+#'  |Total |1274 |79                   |38 |47 |121 |88 |151 |696            |42           |2         |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -142,10 +142,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |left |1  |right |2  |3  |4  |5   |6  |7  |8  |9  |don't know |no answer |Total |
-#'  |:-----|:----|:----|:--|:-----|:--|:--|:--|:---|:--|:--|:--|:--|:----------|:---------|:-----|
-#'  |2014  |1274 |43   |21 |70    |51 |67 |87 |447 |92 |85 |81 |21 |162        |37        |2538  |
-#'  |Total |1274 |43   |21 |70    |51 |67 |87 |447 |92 |85 |81 |21 |162        |37        |2538  |
+#'  |year  |iap  |left |1  |right |2   |3   |4   |5    |6   |7   |8   |9   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:--|:-----|:---|:---|:---|:----|:---|:---|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2014  |1274 |43   |21 |70    |51  |67  |87  |447  |92  |85  |81  |21  |162        |37        |-                          |2538  |
+#'  |2024  |27   |146  |72 |268   |164 |205 |205 |851  |207 |241 |184 |108 |559        |72        |-                          |3309  |
+#'  |Total |1301 |189  |93 |338   |215 |272 |292 |1298 |299 |326 |265 |129 |721        |109       |0                          |5847  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Citizenship
@@ -183,10 +184,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |god created man |man has evolved |man has evolved, but god guided |other |can't choose |no answer |Total |
-#'  |:-----|:----|:---------------|:---------------|:-------------------------------|:-----|:------------|:---------|:-----|
-#'  |2004  |1340 |608             |170             |598                             |52    |26           |18        |2812  |
-#'  |Total |1340 |608             |170             |598                             |52    |26           |18        |2812  |
+#'  |year  |iap  |god created man |man has evolved |man has evolved, but god guided |other |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:---------------|:-------------------------------|:-----|:------------|:---------|:--------------------------|:-----|
+#'  |2004  |1340 |608             |170             |598                             |52    |26           |18        |-                          |2812  |
+#'  |Total |1340 |608             |170             |598                             |52    |26           |18        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc II
@@ -225,10 +226,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely true |probably true |probably not true |definitely not true |can't choose |no answer |Total |
-#'  |:-----|:----|:---------------|:-------------|:-----------------|:-------------------|:------------|:---------|:-----|
-#'  |2004  |1340 |219             |425           |218               |580                 |22           |8         |2812  |
-#'  |Total |1340 |219             |425           |218               |580                 |22           |8         |2812  |
+#'  |year  |iap  |definitely true |probably true |probably not true |definitely not true |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:-------------|:-----------------|:-------------------|:------------|:---------|:--------------------------|:-----|
+#'  |2004  |1340 |219             |425           |218               |580                 |22           |8         |-                          |2812  |
+#'  |Total |1340 |219             |425           |218               |580                 |22           |8         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc II
@@ -268,10 +269,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2006  |2992 |200            |632   |253                        |317      |102               |12           |2         |4510  |
-#'  |Total |2992 |200            |632   |253                        |317      |102               |12           |2         |4510  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |200            |632   |253                        |317      |102               |12           |2         |-                          |4510  |
+#'  |Total |2992 |200            |632   |253                        |317      |102               |12           |2         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
@@ -311,10 +312,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2006  |2992 |523            |771   |98                         |106      |16                |2            |2         |4510  |
-#'  |Total |2992 |523            |771   |98                         |106      |16                |2            |2         |4510  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |523            |771   |98                         |106      |16                |2            |2         |-                          |4510  |
+#'  |Total |2992 |523            |771   |98                         |106      |16                |2            |2         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
@@ -354,10 +355,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:------------|:---------|:-----|
-#'  |2006  |2992 |743            |719   |43                         |9        |2            |2         |4510  |
-#'  |Total |2992 |743            |719   |43                         |9        |2            |2         |4510  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |743            |719   |43                         |9        |2            |2         |-                          |4510  |
+#'  |Total |2992 |743            |719   |43                         |9        |2            |2         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5
@@ -397,10 +398,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2006  |2992 |305            |692   |247                        |219      |52                |1            |2         |4510  |
-#'  |Total |2992 |305            |692   |247                        |219      |52                |1            |2         |4510  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |305            |692   |247                        |219      |52                |1            |2         |-                          |4510  |
+#'  |Total |2992 |305            |692   |247                        |219      |52                |1            |2         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Big 5

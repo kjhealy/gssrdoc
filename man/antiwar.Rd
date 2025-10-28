@@ -33,10 +33,10 @@ C. An anti-war demonstration?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/655/vshow}{GSS Data Explorer page for \code{antiwar}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab Total \cr
-   1973 \tab - \tab 73 \tab 1430 \tab 1 \tab 1504 \cr
-   Total \tab 0 \tab 73 \tab 1430 \tab 1 \tab 1504 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab not available in this year \tab Total \cr
+   1973 \tab - \tab 73 \tab 1430 \tab 1 \tab - \tab 1504 \cr
+   Total \tab 0 \tab 73 \tab 1430 \tab 1 \tab 0 \tab 1504 \cr
 }
 }
 

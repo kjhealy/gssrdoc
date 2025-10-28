@@ -33,10 +33,10 @@ Question Of your children aged 18 and older, with whom do you have the most cont
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4189/vshow}{GSS Data Explorer page for \code{kidmost}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab with a son \tab with a daughter \tab i have no contact with any adult children \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 2307 \tab 179 \tab 259 \tab 9 \tab 3 \tab 8 \tab 2765 \cr
-   Total \tab 2307 \tab 179 \tab 259 \tab 9 \tab 3 \tab 8 \tab 2765 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab with a son \tab with a daughter \tab i have no contact with any adult children \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 2307 \tab 179 \tab 259 \tab 9 \tab 3 \tab 8 \tab - \tab 2765 \cr
+   Total \tab 2307 \tab 179 \tab 259 \tab 9 \tab 3 \tab 8 \tab 0 \tab 2765 \cr
 }
 }
 

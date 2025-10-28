@@ -38,7 +38,8 @@ Counts by year:\tabular{lllllllll}{
    year \tab iap \tab too harshly \tab not harshly enough \tab about right (phone mode only: volunteered) \tab don't know \tab no answer \tab skipped on web \tab Total \cr
    2021 \tab 2045 \tab 581 \tab 1244 \tab 46 \tab 18 \tab 3 \tab 95 \tab 4032 \cr
    2022 \tab 2655 \tab 242 \tab 608 \tab 5 \tab 4 \tab 2 \tab 28 \tab 3544 \cr
-   Total \tab 4700 \tab 823 \tab 1852 \tab 51 \tab 22 \tab 5 \tab 123 \tab 7576 \cr
+   2024 \tab 2664 \tab 141 \tab 475 \tab - \tab 1 \tab - \tab 28 \tab 3309 \cr
+   Total \tab 7364 \tab 964 \tab 2327 \tab 51 \tab 23 \tab 5 \tab 151 \tab 10885 \cr
 }
 }
 

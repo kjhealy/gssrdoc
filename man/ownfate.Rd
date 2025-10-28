@@ -36,11 +36,11 @@ G. We each make our own fate.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4663/vshow}{GSS Data Explorer page for \code{ownfate}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 266 \tab 517 \tab 254 \tab 145 \tab 59 \tab 50 \tab 68 \tab 1517 \cr
-   1998 \tab 1548 \tab 200 \tab 510 \tab 237 \tab 149 \tab 79 \tab 44 \tab 65 \tab 2832 \cr
-   Total \tab 1706 \tab 466 \tab 1027 \tab 491 \tab 294 \tab 138 \tab 94 \tab 133 \tab 4349 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 266 \tab 517 \tab 254 \tab 145 \tab 59 \tab 50 \tab 68 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 200 \tab 510 \tab 237 \tab 149 \tab 79 \tab 44 \tab 65 \tab - \tab 2832 \cr
+   Total \tab 1706 \tab 466 \tab 1027 \tab 491 \tab 294 \tab 138 \tab 94 \tab 133 \tab 0 \tab 4349 \cr
 }
 }
 

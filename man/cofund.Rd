@@ -33,15 +33,15 @@ Question Fundamentalism/Liberalism of Partner's Religion
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6173/vshow}{GSS Data Explorer page for \code{cofund}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab fundamentalist \tab moderate \tab liberal \tab no answer \tab Total \cr
-   2012 \tab 1807 \tab 23 \tab 65 \tab 64 \tab 15 \tab 1974 \cr
-   2014 \tab 2326 \tab 30 \tab 82 \tab 79 \tab 21 \tab 2538 \cr
-   2016 \tab 2603 \tab 33 \tab 102 \tab 100 \tab 29 \tab 2867 \cr
-   2018 \tab 2117 \tab 38 \tab 77 \tab 95 \tab 21 \tab 2348 \cr
-   2021 \tab 3681 \tab 41 \tab 95 \tab 192 \tab 23 \tab 4032 \cr
-   2022 \tab 3230 \tab 48 \tab 95 \tab 147 \tab 24 \tab 3544 \cr
-   Total \tab 15764 \tab 213 \tab 516 \tab 677 \tab 133 \tab 17303 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab fundamentalist \tab moderate \tab liberal \tab no answer \tab skipped on web \tab Total \cr
+   2012 \tab 1807 \tab 23 \tab 65 \tab 64 \tab 15 \tab - \tab 1974 \cr
+   2014 \tab 2326 \tab 30 \tab 82 \tab 79 \tab 21 \tab - \tab 2538 \cr
+   2016 \tab 2603 \tab 33 \tab 102 \tab 100 \tab 29 \tab - \tab 2867 \cr
+   2018 \tab 2117 \tab 38 \tab 77 \tab 95 \tab 21 \tab - \tab 2348 \cr
+   2021 \tab 3681 \tab 41 \tab 95 \tab 192 \tab 23 \tab - \tab 4032 \cr
+   2022 \tab 3236 \tab 48 \tab 94 \tab 143 \tab 23 \tab - \tab 3544 \cr
+   Total \tab 15770 \tab 213 \tab 515 \tab 673 \tab 132 \tab 0 \tab 17303 \cr
 }
 }
 

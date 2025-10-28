@@ -35,10 +35,10 @@ Question In most states a gun owner may legally sell his or her gun without proo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3700/vshow}{GSS Data Explorer page for \code{gunsales}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3139 \tab 826 \tab 236 \tab 109 \tab 91 \tab 71 \tab 26 \tab 12 \tab 4510 \cr
-   Total \tab 3139 \tab 826 \tab 236 \tab 109 \tab 91 \tab 71 \tab 26 \tab 12 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3139 \tab 826 \tab 236 \tab 109 \tab 91 \tab 71 \tab 26 \tab 12 \tab - \tab 4510 \cr
+   Total \tab 3139 \tab 826 \tab 236 \tab 109 \tab 91 \tab 71 \tab 26 \tab 12 \tab 0 \tab 4510 \cr
 }
 }
 

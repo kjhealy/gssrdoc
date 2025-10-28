@@ -37,11 +37,11 @@ B. Workers need strong trade unions to protect their interests.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4506/vshow}{GSS Data Explorer page for \code{strngun}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 84 \tab 160 \tab 364 \tab 341 \tab 342 \tab 164 \tab 65 \tab 17 \tab 1537 \cr
-   2016 \tab 1390 \tab 285 \tab 441 \tab 398 \tab 234 \tab 94 \tab 18 \tab 7 \tab 2867 \cr
-   Total \tab 1474 \tab 445 \tab 805 \tab 739 \tab 576 \tab 258 \tab 83 \tab 24 \tab 4404 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 84 \tab 160 \tab 364 \tab 341 \tab 342 \tab 164 \tab 65 \tab 17 \tab - \tab 1537 \cr
+   2016 \tab 1390 \tab 285 \tab 441 \tab 398 \tab 234 \tab 94 \tab 18 \tab 7 \tab - \tab 2867 \cr
+   Total \tab 1474 \tab 445 \tab 805 \tab 739 \tab 576 \tab 258 \tab 83 \tab 24 \tab 0 \tab 4404 \cr
 }
 }
 

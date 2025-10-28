@@ -33,10 +33,10 @@ Question Do you think Americans today have more freedom, less freedom, or about 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2665/vshow}{GSS Data Explorer page for \code{freenow}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab more freedom \tab about the same amount of freedom \tab less freedom \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 585 \tab 536 \tab 262 \tab 18 \tab 18 \tab 2817 \cr
-   Total \tab 1398 \tab 585 \tab 536 \tab 262 \tab 18 \tab 18 \tab 2817 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab more freedom \tab about the same amount of freedom \tab less freedom \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 585 \tab 536 \tab 262 \tab 18 \tab 18 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 585 \tab 536 \tab 262 \tab 18 \tab 18 \tab 0 \tab 2817 \cr
 }
 }
 

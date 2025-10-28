@@ -32,10 +32,10 @@ Question Are you the child of another individual 18 or older in your household?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8022/vshow}{GSS Data Explorer page for \code{rchild18}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 3170 \tab 129 \tab 238 \tab 1 \tab 6 \tab 3544 \cr
-   Total \tab 3170 \tab 129 \tab 238 \tab 1 \tab 6 \tab 3544 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab not available in this year \tab yes \tab no \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 129 \tab 238 \tab 3170 \tab 1 \tab 6 \tab 3544 \cr
+   Total \tab 0 \tab 129 \tab 238 \tab 3170 \tab 1 \tab 6 \tab 3544 \cr
 }
 }
 

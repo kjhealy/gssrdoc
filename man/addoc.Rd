@@ -34,10 +34,11 @@ Go to a general medical doctor for help?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2941/vshow}{GSS Data Explorer page for \code{addoc}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 1091 \tab 268 \tab 23 \tab 11 \tab 2765 \cr
-   Total \tab 1372 \tab 1091 \tab 268 \tab 23 \tab 11 \tab 2765 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2002 \tab 1372 \tab 1091 \tab 268 \tab 23 \tab 11 \tab - \tab - \tab 2765 \cr
+   2024 \tab 1661 \tab 1224 \tab 379 \tab 15 \tab 5 \tab - \tab 25 \tab 3309 \cr
+   Total \tab 3033 \tab 2315 \tab 647 \tab 38 \tab 16 \tab 0 \tab 25 \tab 6074 \cr
 }
 }
 

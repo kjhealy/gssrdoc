@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |2331 |103               |186             |88                  |29                    |44         |36        |2817  |
-#'  |Total |2331 |103               |186             |88                  |29                    |44         |36        |2817  |
+#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2331 |103               |186             |88                  |29                    |44         |36        |-                          |2817  |
+#'  |Total |2331 |103               |186             |88                  |29                    |44         |36        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -67,10 +67,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |2331 |171               |196             |40                  |15                    |33         |31        |2817  |
-#'  |Total |2331 |171               |196             |40                  |15                    |33         |31        |2817  |
+#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2331 |171               |196             |40                  |15                    |33         |31        |-                          |2817  |
+#'  |Total |2331 |171               |196             |40                  |15                    |33         |31        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -108,10 +108,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |moderately important |slightly important |not at all important |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:--------------------|:------------------|:--------------------|:----------|:---------|:-----|
-#'  |2002  |-   |903            |697                  |471                |667                  |20         |7         |2765  |
-#'  |Total |0   |903            |697                  |471                |667                  |20         |7         |2765  |
+#'  |year  |iap |very important |moderately important |slightly important |not at all important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:--------------------|:------------------|:--------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |-   |903            |697                  |471                |667                  |20         |7         |-                          |2765  |
+#'  |Total |0   |903            |697                  |471                |667                  |20         |7         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -151,10 +151,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2002  |-   |359            |667   |533                        |814      |334               |46         |12        |2765  |
-#'  |Total |0   |359            |667   |533                        |814      |334               |46         |12        |2765  |
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |-   |359            |667   |533                        |814      |334               |46         |12        |-                          |2765  |
+#'  |Total |0   |359            |667   |533                        |814      |334               |46         |12        |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -194,10 +194,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2002  |-   |88             |333   |390                        |1292     |614               |37         |11        |2765  |
-#'  |Total |0   |88             |333   |390                        |1292     |614               |37         |11        |2765  |
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |-   |88             |333   |390                        |1292     |614               |37         |11        |-                          |2765  |
+#'  |Total |0   |88             |333   |390                        |1292     |614               |37         |11        |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -237,10 +237,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2002  |-   |848            |1430  |266                        |147      |39                |28         |7         |2765  |
-#'  |Total |0   |848            |1430  |266                        |147      |39                |28         |7         |2765  |
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |-   |848            |1430  |266                        |147      |39                |28         |7         |-                          |2765  |
+#'  |Total |0   |848            |1430  |266                        |147      |39                |28         |7         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -280,10 +280,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2002  |-   |412            |1210  |546                        |446      |99                |42         |10        |2765  |
-#'  |Total |0   |412            |1210  |546                        |446      |99                |42         |10        |2765  |
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |-   |412            |1210  |546                        |446      |99                |42         |10        |-                          |2765  |
+#'  |Total |0   |412            |1210  |546                        |446      |99                |42         |10        |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -319,10 +319,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very warm |2   |3   |4   |5   |6   |7  |8  |very cool |don't know |no answer |Total |
-#'  |:-----|:---|:---------|:---|:---|:---|:---|:---|:--|:--|:---------|:----------|:---------|:-----|
-#'  |2002  |-   |740       |318 |364 |264 |745 |105 |99 |35 |59        |24         |12        |2765  |
-#'  |Total |0   |740       |318 |364 |264 |745 |105 |99 |35 |59        |24         |12        |2765  |
+#'  |year  |iap |very warm |2   |3   |4   |5   |6   |7  |8  |very cool |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------|:---|:---|:---|:---|:---|:--|:--|:---------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |-   |740       |318 |364 |264 |745 |105 |99 |35 |59        |24         |12        |-                          |2765  |
+#'  |Total |0   |740       |318 |364 |264 |745 |105 |99 |35 |59        |24         |12        |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -358,10 +358,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very warm |2   |3   |4   |5   |6   |7   |8  |very cool |don't know |no answer |Total |
-#'  |:-----|:---|:---------|:---|:---|:---|:---|:---|:---|:--|:---------|:----------|:---------|:-----|
-#'  |2002  |-   |562       |319 |379 |286 |784 |124 |107 |48 |76        |69         |11        |2765  |
-#'  |Total |0   |562       |319 |379 |286 |784 |124 |107 |48 |76        |69         |11        |2765  |
+#'  |year  |iap |very warm |2   |3   |4   |5   |6   |7   |8  |very cool |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------|:---|:---|:---|:---|:---|:---|:--|:---------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |-   |562       |319 |379 |286 |784 |124 |107 |48 |76        |69         |11        |-                          |2765  |
+#'  |Total |0   |562       |319 |379 |286 |784 |124 |107 |48 |76        |69         |11        |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice
@@ -397,10 +397,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very warm |2   |3   |4   |5   |6   |7   |8  |very cool |don't know |no answer |Total |
-#'  |:-----|:---|:---------|:---|:---|:---|:---|:---|:---|:--|:---------|:----------|:---------|:-----|
-#'  |2002  |-   |633       |349 |372 |290 |697 |121 |133 |43 |72        |45         |10        |2765  |
-#'  |Total |0   |633       |349 |372 |290 |697 |121 |133 |43 |72        |45         |10        |2765  |
+#'  |year  |iap |very warm |2   |3   |4   |5   |6   |7   |8  |very cool |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------|:---|:---|:---|:---|:---|:---|:--|:---------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |-   |633       |349 |372 |290 |697 |121 |133 |43 |72        |45         |10        |-                          |2765  |
+#'  |Total |0   |633       |349 |372 |290 |697 |121 |133 |43 |72        |45         |10        |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Prejudice

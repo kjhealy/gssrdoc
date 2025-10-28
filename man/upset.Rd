@@ -35,10 +35,10 @@ Question Thinking about the important people in your life, such as your spouse o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7260/vshow}{GSS Data Explorer page for \code{upset}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab never \tab rarely \tab sometimes \tab often \tab very often \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 454 \tab 444 \tab 211 \tab 42 \tab 19 \tab 1 \tab 2 \tab 2348 \cr
-   Total \tab 1175 \tab 454 \tab 444 \tab 211 \tab 42 \tab 19 \tab 1 \tab 2 \tab 2348 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab rarely \tab sometimes \tab often \tab very often \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 454 \tab 444 \tab 211 \tab 42 \tab 19 \tab 1 \tab 2 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 454 \tab 444 \tab 211 \tab 42 \tab 19 \tab 1 \tab 2 \tab 0 \tab 2348 \cr
 }
 }
 

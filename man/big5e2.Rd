@@ -36,10 +36,10 @@ E. …has few artistic interests
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4983/vshow}{GSS Data Explorer page for \code{big5e2}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 2992 \tab 83 \tab 423 \tab 218 \tab 547 \tab 241 \tab 4 \tab 2 \tab 4510 \cr
-   Total \tab 2992 \tab 83 \tab 423 \tab 218 \tab 547 \tab 241 \tab 4 \tab 2 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2992 \tab 83 \tab 423 \tab 218 \tab 547 \tab 241 \tab 4 \tab 2 \tab - \tab 4510 \cr
+   Total \tab 2992 \tab 83 \tab 423 \tab 218 \tab 547 \tab 241 \tab 4 \tab 2 \tab 0 \tab 4510 \cr
 }
 }
 

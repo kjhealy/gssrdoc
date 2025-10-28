@@ -39,10 +39,10 @@ Question About how often do you talk to (NAME) about political matters?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/958/vshow}{GSS Data Explorer page for \code{talkpol1}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab almost daily \tab at least weekly \tab at least monthly \tab at least yearly \tab less than yearly \tab never \tab don't know \tab no answer \tab Total \cr
-   1987 \tab 98 \tab 245 \tab 365 \tab 373 \tab 262 \tab 160 \tab 284 \tab 5 \tab 27 \tab 1819 \cr
-   Total \tab 98 \tab 245 \tab 365 \tab 373 \tab 262 \tab 160 \tab 284 \tab 5 \tab 27 \tab 1819 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab almost daily \tab at least weekly \tab at least monthly \tab at least yearly \tab less than yearly \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 98 \tab 245 \tab 365 \tab 373 \tab 262 \tab 160 \tab 284 \tab 5 \tab 27 \tab - \tab 1819 \cr
+   Total \tab 98 \tab 245 \tab 365 \tab 373 \tab 262 \tab 160 \tab 284 \tab 5 \tab 27 \tab 0 \tab 1819 \cr
 }
 }
 

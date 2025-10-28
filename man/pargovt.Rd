@@ -35,10 +35,10 @@ F. The role of the federal government in family life today is too large.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5098/vshow}{GSS Data Explorer page for \code{pargovt}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 108 \tab 485 \tab 463 \tab 117 \tab 179 \tab 20 \tab 1372 \cr
-   Total \tab 0 \tab 108 \tab 485 \tab 463 \tab 117 \tab 179 \tab 20 \tab 1372 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 108 \tab 485 \tab 463 \tab 117 \tab 179 \tab 20 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 108 \tab 485 \tab 463 \tab 117 \tab 179 \tab 20 \tab 0 \tab 1372 \cr
 }
 }
 

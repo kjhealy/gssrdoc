@@ -35,12 +35,12 @@ D. To be able to speak English
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4830/vshow}{GSS Data Explorer page for \code{amenglsh}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 956 \tab 290 \tab 69 \tab 25 \tab 11 \tab 16 \tab 2904 \cr
-   2004 \tab 1596 \tab 1011 \tab 166 \tab 28 \tab 8 \tab 2 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 918 \tab 267 \tab 53 \tab 26 \tab 7 \tab 3 \tab 2538 \cr
-   Total \tab 4397 \tab 2885 \tab 723 \tab 150 \tab 59 \tab 20 \tab 20 \tab 8254 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1537 \tab 956 \tab 290 \tab 69 \tab 25 \tab 11 \tab 16 \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 1011 \tab 166 \tab 28 \tab 8 \tab 2 \tab 1 \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 918 \tab 267 \tab 53 \tab 26 \tab 7 \tab 3 \tab - \tab 2538 \cr
+   Total \tab 4397 \tab 2885 \tab 723 \tab 150 \tab 59 \tab 20 \tab 20 \tab 0 \tab 8254 \cr
 }
 }
 

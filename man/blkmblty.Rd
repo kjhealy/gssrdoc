@@ -37,19 +37,12 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7893/vshow}{GSS Data Explorer page for \code{blkmblty}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab agree strongly \tab agree somewhat \tab neither agree nor disagree \tab disagree somewhat \tab disagree strongly \tab skipped on web \tab Total \cr
-   2022 \tab 2309 \tab 373 \tab 375 \tab 145 \tab 187 \tab 143 \tab 12 \tab 3544 \cr
-   Total \tab 2309 \tab 373 \tab 375 \tab 145 \tab 187 \tab 143 \tab 12 \tab 3544 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab not available in this year \tab agree strongly \tab agree somewhat \tab neither agree nor disagree \tab disagree somewhat \tab disagree strongly \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 373 \tab 375 \tab 145 \tab 187 \tab 143 \tab 2309 \tab 12 \tab 3544 \cr
+   Total \tab 0 \tab 373 \tab 375 \tab 145 \tab 187 \tab 143 \tab 2309 \tab 12 \tab 3544 \cr
 }
 }
 
-\seealso{
-Other GSS Next: 
-\code{\link{blkdsrv}},
-\code{\link{blktry}},
-\code{\link{brv5}},
-\code{\link{brv5sp}}
-}
 \concept{GSS Next}
 \keyword{variable}

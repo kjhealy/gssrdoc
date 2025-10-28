@@ -36,10 +36,10 @@ A. Strengthen America''s place in the world.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4903/vshow}{GSS Data Explorer page for \code{patriot1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
-   2014 \tab 1264 \tab 446 \tab 475 \tab 216 \tab 65 \tab 10 \tab 57 \tab 5 \tab 2538 \cr
-   Total \tab 1264 \tab 446 \tab 475 \tab 216 \tab 65 \tab 10 \tab 57 \tab 5 \tab 2538 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab 1264 \tab 446 \tab 475 \tab 216 \tab 65 \tab 10 \tab 57 \tab 5 \tab - \tab 2538 \cr
+   Total \tab 1264 \tab 446 \tab 475 \tab 216 \tab 65 \tab 10 \tab 57 \tab 5 \tab 0 \tab 2538 \cr
 }
 }
 

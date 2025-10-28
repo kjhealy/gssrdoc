@@ -36,10 +36,10 @@ Question Given your skills and effort, is your pay:
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4335/vshow}{GSS Data Explorer page for \code{justpay}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab much less than is just \tab a little less than is just \tab about just for me \tab a little more than is just \tab much more than is just \tab never had a job \tab can't choose \tab no answer \tab Total \cr
-   2000 \tab 1545 \tab 237 \tab 432 \tab 386 \tab 58 \tab 14 \tab 15 \tab 60 \tab 70 \tab 2817 \cr
-   Total \tab 1545 \tab 237 \tab 432 \tab 386 \tab 58 \tab 14 \tab 15 \tab 60 \tab 70 \tab 2817 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab much less than is just \tab a little less than is just \tab about just for me \tab a little more than is just \tab much more than is just \tab never had a job \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1545 \tab 237 \tab 432 \tab 386 \tab 58 \tab 14 \tab 15 \tab 60 \tab 70 \tab - \tab 2817 \cr
+   Total \tab 1545 \tab 237 \tab 432 \tab 386 \tab 58 \tab 14 \tab 15 \tab 60 \tab 70 \tab 0 \tab 2817 \cr
 }
 }
 

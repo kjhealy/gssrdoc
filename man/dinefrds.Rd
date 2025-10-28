@@ -38,10 +38,10 @@ Question How often do you go out to eat or drink with three or more friends or a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7261/vshow}{GSS Data Explorer page for \code{dinefrds}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab daily \tab several times a week \tab once a week \tab two to three times a month \tab once a month \tab several times a year \tab less often \tab never \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 13 \tab 57 \tab 113 \tab 178 \tab 184 \tab 196 \tab 201 \tab 228 \tab 1 \tab 2 \tab 2348 \cr
-   Total \tab 1175 \tab 13 \tab 57 \tab 113 \tab 178 \tab 184 \tab 196 \tab 201 \tab 228 \tab 1 \tab 2 \tab 2348 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab daily \tab several times a week \tab once a week \tab two to three times a month \tab once a month \tab several times a year \tab less often \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 13 \tab 57 \tab 113 \tab 178 \tab 184 \tab 196 \tab 201 \tab 228 \tab 1 \tab 2 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 13 \tab 57 \tab 113 \tab 178 \tab 184 \tab 196 \tab 201 \tab 228 \tab 1 \tab 2 \tab 0 \tab 2348 \cr
 }
 }
 

@@ -34,10 +34,10 @@ Question I believe in a God who watches over me.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2102/vshow}{GSS Data Explorer page for \code{godwatch}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 833 \tab 426 \tab 105 \tab 51 \tab 5 \tab 25 \tab 2832 \cr
-   Total \tab 1387 \tab 833 \tab 426 \tab 105 \tab 51 \tab 5 \tab 25 \tab 2832 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 833 \tab 426 \tab 105 \tab 51 \tab 5 \tab 25 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 833 \tab 426 \tab 105 \tab 51 \tab 5 \tab 25 \tab 0 \tab 2832 \cr
 }
 }
 

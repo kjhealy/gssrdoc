@@ -34,10 +34,10 @@ Question B. Engineering work is dangerous. Do you strongly agree, agree, disagre
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3527/vshow}{GSS Data Explorer page for \code{engdgr}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1489 \tab 30 \tab 152 \tab 227 \tab 24 \tab 49 \tab 3 \tab 1974 \cr
-   Total \tab 1489 \tab 30 \tab 152 \tab 227 \tab 24 \tab 49 \tab 3 \tab 1974 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1489 \tab 30 \tab 152 \tab 227 \tab 24 \tab 49 \tab 3 \tab - \tab 1974 \cr
+   Total \tab 1489 \tab 30 \tab 152 \tab 227 \tab 24 \tab 49 \tab 3 \tab 0 \tab 1974 \cr
 }
 }
 

@@ -35,10 +35,10 @@ A. Through such things as art and music, we come closer to God.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2124/vshow}{GSS Data Explorer page for \code{artgod}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 161 \tab 741 \tab 311 \tab 80 \tab 134 \tab 18 \tab 2832 \cr
-   Total \tab 1387 \tab 161 \tab 741 \tab 311 \tab 80 \tab 134 \tab 18 \tab 2832 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 161 \tab 741 \tab 311 \tab 80 \tab 134 \tab 18 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 161 \tab 741 \tab 311 \tab 80 \tab 134 \tab 18 \tab 0 \tab 2832 \cr
 }
 }
 

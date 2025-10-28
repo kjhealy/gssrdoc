@@ -35,10 +35,10 @@ Question How much influence does the average citizen have on politics: None, a l
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3972/vshow}{GSS Data Explorer page for \code{polefy3}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab none \tab a little \tab some \tab quite a bit \tab a great deal \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1328 \tab 95 \tab 206 \tab 189 \tab 69 \tab 52 \tab 32 \tab 3 \tab 1974 \cr
-   Total \tab 1328 \tab 95 \tab 206 \tab 189 \tab 69 \tab 52 \tab 32 \tab 3 \tab 1974 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab none \tab a little \tab some \tab quite a bit \tab a great deal \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1328 \tab 95 \tab 206 \tab 189 \tab 69 \tab 52 \tab 32 \tab 3 \tab - \tab 1974 \cr
+   Total \tab 1328 \tab 95 \tab 206 \tab 189 \tab 69 \tab 52 \tab 32 \tab 3 \tab 0 \tab 1974 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Do you believe that election ballots should be printed only in English,
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1609/vshow}{GSS Data Explorer page for \code{engballt}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab only in english \tab in other langs \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 524 \tab 898 \tab 43 \tab 9 \tab 2992 \cr
-   Total \tab 1518 \tab 524 \tab 898 \tab 43 \tab 9 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab only in english \tab in other langs \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 524 \tab 898 \tab 43 \tab 9 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 524 \tab 898 \tab 43 \tab 9 \tab 0 \tab 2992 \cr
 }
 }
 

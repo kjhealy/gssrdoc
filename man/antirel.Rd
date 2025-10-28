@@ -34,10 +34,10 @@ Question Some books or films offend people who have strong religious beliefs. Sh
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4684/vshow}{GSS Data Explorer page for \code{antirel}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 184 \tab 211 \tab 409 \tab 373 \tab 158 \tab 24 \tab 1517 \cr
-   Total \tab 158 \tab 184 \tab 211 \tab 409 \tab 373 \tab 158 \tab 24 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 184 \tab 211 \tab 409 \tab 373 \tab 158 \tab 24 \tab - \tab 1517 \cr
+   Total \tab 158 \tab 184 \tab 211 \tab 409 \tab 373 \tab 158 \tab 24 \tab 0 \tab 1517 \cr
 }
 }
 

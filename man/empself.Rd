@@ -35,12 +35,12 @@ A. Being an employee (or) being self-employed?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4524/vshow}{GSS Data Explorer page for \code{empself}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab employee \tab self-employ \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 84 \tab 475 \tab 808 \tab 133 \tab 37 \tab 1537 \cr
-   1998 \tab 1609 \tab 313 \tab 758 \tab 128 \tab 24 \tab 2832 \cr
-   2006 \tab 2992 \tab 569 \tab 930 \tab 17 \tab 2 \tab 4510 \cr
-   Total \tab 4685 \tab 1357 \tab 2496 \tab 278 \tab 63 \tab 8879 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab employee \tab self-employ \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 84 \tab 475 \tab 808 \tab 133 \tab 37 \tab - \tab 1537 \cr
+   1998 \tab 1609 \tab 313 \tab 758 \tab 128 \tab 24 \tab - \tab 2832 \cr
+   2006 \tab 2992 \tab 569 \tab 930 \tab 17 \tab 2 \tab - \tab 4510 \cr
+   Total \tab 4685 \tab 1357 \tab 2496 \tab 278 \tab 63 \tab 0 \tab 8879 \cr
 }
 }
 

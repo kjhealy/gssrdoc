@@ -36,10 +36,10 @@ A. There are so many things to do at home, I often run out of time before I get 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4443/vshow}{GSS Data Explorer page for \code{timehome}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2002 \tab 1594 \tab 384 \tab 399 \tab 170 \tab 153 \tab 46 \tab 16 \tab 3 \tab 2765 \cr
-   Total \tab 1594 \tab 384 \tab 399 \tab 170 \tab 153 \tab 46 \tab 16 \tab 3 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1594 \tab 384 \tab 399 \tab 170 \tab 153 \tab 46 \tab 16 \tab 3 \tab - \tab 2765 \cr
+   Total \tab 1594 \tab 384 \tab 399 \tab 170 \tab 153 \tab 46 \tab 16 \tab 3 \tab 0 \tab 2765 \cr
 }
 }
 

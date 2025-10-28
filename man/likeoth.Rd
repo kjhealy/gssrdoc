@@ -37,10 +37,10 @@ Question Thinking generally now, how much do you like or dislike the person/the 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1786/vshow}{GSS Data Explorer page for \code{likeoth}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab like him-her-them a great deal \tab like him-her-them a little \tab feel neutral toward him-her-them \tab dislike him or her-them a little \tab dislike him or her-them a lot \tab if volunteered - love \tab if volunteered - dont know \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1908 \tab 301 \tab 108 \tab 255 \tab 92 \tab 114 \tab 63 \tab 29 \tab 1 \tab 33 \tab 2904 \cr
-   Total \tab 1908 \tab 301 \tab 108 \tab 255 \tab 92 \tab 114 \tab 63 \tab 29 \tab 1 \tab 33 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab like him-her-them a great deal \tab like him-her-them a little \tab feel neutral toward him-her-them \tab dislike him or her-them a little \tab dislike him or her-them a lot \tab if volunteered - love \tab if volunteered - dont know \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1908 \tab 301 \tab 108 \tab 255 \tab 92 \tab 114 \tab 63 \tab 29 \tab 1 \tab 33 \tab - \tab 2904 \cr
+   Total \tab 1908 \tab 301 \tab 108 \tab 255 \tab 92 \tab 114 \tab 63 \tab 29 \tab 1 \tab 33 \tab 0 \tab 2904 \cr
 }
 }
 

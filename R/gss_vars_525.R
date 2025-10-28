@@ -26,11 +26,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1541 |196            |441   |279                        |197      |37                |55         |71        |2817  |
-#'  |2010  |614  |147            |557   |280                        |307      |36                |97         |6         |2044  |
-#'  |Total |2155 |343            |998   |559                        |504      |73                |152        |77        |4861  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1541 |196            |441   |279                        |197      |37                |55         |71        |-                          |2817  |
+#'  |2010  |614  |147            |557   |280                        |307      |36                |97         |6         |-                          |2044  |
+#'  |Total |2155 |343            |998   |559                        |504      |73                |152        |77        |0                          |4861  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -71,12 +71,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------|:-----|
-#'  |2000  |1541 |33             |204   |346                        |479      |123               |25         |66        |-              |2817  |
-#'  |2010  |614  |38             |301   |299                        |616      |134               |32         |10        |-              |2044  |
-#'  |2021  |2003 |54             |262   |553                        |664      |255               |57         |179       |5              |4032  |
-#'  |Total |4158 |125            |767   |1198                       |1759     |512               |114        |255       |5              |8893  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------|:--------------------------|:-----|
+#'  |2000  |1541 |33             |204   |346                        |479      |123               |25         |66        |-              |-                          |2817  |
+#'  |2010  |614  |38             |301   |299                        |616      |134               |32         |10        |-              |-                          |2044  |
+#'  |2021  |2003 |54             |262   |553                        |664      |255               |57         |179       |5              |-                          |4032  |
+#'  |Total |4158 |125            |767   |1198                       |1759     |512               |114        |255       |5              |0                          |8893  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -117,12 +117,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------|:-----|
-#'  |2000  |1541 |51             |271   |201                        |544      |122               |17         |70        |-              |2817  |
-#'  |2010  |614  |66             |335   |121                        |688      |189               |23         |8         |-              |2044  |
-#'  |2021  |2003 |67             |257   |376                        |826      |265               |49         |180       |9              |4032  |
-#'  |Total |4158 |184            |863   |698                        |2058     |576               |89         |258       |9              |8893  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------|:--------------------------|:-----|
+#'  |2000  |1541 |51             |271   |201                        |544      |122               |17         |70        |-              |-                          |2817  |
+#'  |2010  |614  |66             |335   |121                        |688      |189               |23         |8         |-              |-                          |2044  |
+#'  |2021  |2003 |67             |257   |376                        |826      |265               |49         |180       |9              |-                          |4032  |
+#'  |Total |4158 |184            |863   |698                        |2058     |576               |89         |258       |9              |0                          |8893  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -163,12 +163,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
-#'  |2000  |1541 |70             |254   |333                        |365      |128               |53           |73        |-              |2817  |
-#'  |2010  |614  |85             |393   |257                        |488      |120               |79           |8         |-              |2044  |
-#'  |2021  |2003 |106            |282   |354                        |604      |431               |64           |180       |8              |4032  |
-#'  |Total |4158 |261            |929   |944                        |1457     |679               |196          |261       |8              |8893  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2000  |1541 |70             |254   |333                        |365      |128               |53           |73        |-              |-                          |2817  |
+#'  |2010  |614  |85             |393   |257                        |488      |120               |79           |8         |-              |-                          |2044  |
+#'  |2021  |2003 |106            |282   |354                        |604      |431               |64           |180       |8              |-                          |4032  |
+#'  |Total |4158 |261            |929   |944                        |1457     |679               |196          |261       |8              |0                          |8893  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -209,13 +209,13 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |extremely dangerous for the environment |very dangerous |somewhat dangerous |not very dangerous |not dangerous at all for the environment |can't choose |no answer |Total |
-#'  |:-----|:----|:---------------------------------------|:--------------|:------------------|:------------------|:----------------------------------------|:------------|:---------|:-----|
-#'  |2000  |1541 |92                                      |167            |408                |268                |46                                       |241          |54        |2817  |
-#'  |2010  |614  |123                                     |246            |455                |287                |74                                       |241          |4         |2044  |
-#'  |2016  |1956 |157                                     |212            |338                |134                |35                                       |33           |2         |2867  |
-#'  |2018  |1563 |110                                     |189            |294                |121                |39                                       |29           |3         |2348  |
-#'  |Total |5674 |482                                     |814            |1495               |810                |194                                      |544          |63        |10076 |
+#'  |year  |iap  |extremely dangerous for the environment |very dangerous |somewhat dangerous |not very dangerous |not dangerous at all for the environment |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------------------|:--------------|:------------------|:------------------|:----------------------------------------|:------------|:---------|:--------------------------|:-----|
+#'  |2000  |1541 |92                                      |167            |408                |268                |46                                       |241          |54        |-                          |2817  |
+#'  |2010  |614  |123                                     |246            |455                |287                |74                                       |241          |4         |-                          |2044  |
+#'  |2016  |1956 |157                                     |212            |338                |134                |35                                       |33           |2         |-                          |2867  |
+#'  |2018  |1563 |110                                     |189            |294                |121                |39                                       |29           |3         |-                          |2348  |
+#'  |Total |5674 |482                                     |814            |1495               |810                |194                                      |544          |63        |0                          |10076 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -252,10 +252,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |more than enough |about the right amount |or, too little |can't choose |no answer |Total |
-#'  |:-----|:----|:----------------|:----------------------|:--------------|:------------|:---------|:-----|
-#'  |2000  |1541 |132              |453                    |489            |101          |101       |2817  |
-#'  |Total |1541 |132              |453                    |489            |101          |101       |2817  |
+#'  |year  |iap  |more than enough |about the right amount |or, too little |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:----------------------|:--------------|:------------|:---------|:--------------------------|:-----|
+#'  |2000  |1541 |132              |453                    |489            |101          |101       |-                          |2817  |
+#'  |Total |1541 |132              |453                    |489            |101          |101       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -293,10 +293,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |business and industry |or people in general |both equally |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------|:--------------------|:------------|:----------|:---------|:-----|
-#'  |2000  |1541 |143                   |555                  |296          |178        |104       |2817  |
-#'  |Total |1541 |143                   |555                  |296          |178        |104       |2817  |
+#'  |year  |iap  |business and industry |or people in general |both equally |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------|:--------------------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1541 |143                   |555                  |296          |178        |104       |-                          |2817  |
+#'  |Total |1541 |143                   |555                  |296          |178        |104       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -333,10 +333,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |government |or business and industry? |both equally |can't choose |no answer |Total |
-#'  |:-----|:----|:----------|:-------------------------|:------------|:------------|:---------|:-----|
-#'  |2000  |1541 |492        |136                       |303          |241          |104       |2817  |
-#'  |Total |1541 |492        |136                       |303          |241          |104       |2817  |
+#'  |year  |iap  |government |or business and industry? |both equally |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:-------------------------|:------------|:------------|:---------|:--------------------------|:-----|
+#'  |2000  |1541 |492        |136                       |303          |241          |104       |-                          |2817  |
+#'  |Total |1541 |492        |136                       |303          |241          |104       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -373,10 +373,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |people in general |or government |both equally |can't choose |no answer |Total |
-#'  |:-----|:----|:-----------------|:-------------|:------------|:------------|:---------|:-----|
-#'  |2000  |1541 |494               |224           |294          |161          |103       |2817  |
-#'  |Total |1541 |494               |224           |294          |161          |103       |2817  |
+#'  |year  |iap  |people in general |or government |both equally |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:-------------|:------------|:------------|:---------|:--------------------------|:-----|
+#'  |2000  |1541 |494               |224           |294          |161          |103       |-                          |2817  |
+#'  |Total |1541 |494               |224           |294          |161          |103       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -417,11 +417,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2000  |1541 |278            |619   |166                        |60       |9                 |73           |71        |2817  |
-#'  |2010  |614  |354            |711   |184                        |58       |33                |83           |7         |2044  |
-#'  |Total |2155 |632            |1330  |350                        |118      |42                |156          |78        |4861  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2000  |1541 |278            |619   |166                        |60       |9                 |73           |71        |-                          |2817  |
+#'  |2010  |614  |354            |711   |184                        |58       |33                |83           |7         |-                          |2044  |
+#'  |Total |2155 |632            |1330  |350                        |118      |42                |156          |78        |0                          |4861  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment

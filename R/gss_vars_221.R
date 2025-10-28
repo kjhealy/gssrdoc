@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |male |female |transgender ftm |other |don't know |no answer |Total |
-#'  |:-----|:----|:----|:------|:---------------|:-----|:----------|:---------|:-----|
-#'  |2018  |1982 |159  |197    |1               |4     |1          |4         |2348  |
-#'  |Total |1982 |159  |197    |1               |4     |1          |4         |2348  |
+#'  |year  |iap  |male |female |transgender ftm |other |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:------|:---------------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1982 |159  |197    |1               |4     |1          |4         |-                          |2348  |
+#'  |Total |1982 |159  |197    |1               |4     |1          |4         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -67,10 +67,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |male |female |transgender ftm |other |don't know |no answer |Total |
-#'  |:-----|:----|:----|:------|:---------------|:-----|:----------|:---------|:-----|
-#'  |2018  |2095 |131  |114    |1               |1     |1          |5         |2348  |
-#'  |Total |2095 |131  |114    |1               |1     |1          |5         |2348  |
+#'  |year  |iap  |male |female |transgender ftm |other |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:------|:---------------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |2095 |131  |114    |1               |1     |1          |5         |-                          |2348  |
+#'  |Total |2095 |131  |114    |1               |1     |1          |5         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -109,10 +109,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |male |female |other |don't know |no answer |Total |
-#'  |:-----|:----|:----|:------|:-----|:----------|:---------|:-----|
-#'  |2018  |2190 |69   |80     |2     |4          |3         |2348  |
-#'  |Total |2190 |69   |80     |2     |4          |3         |2348  |
+#'  |year  |iap  |male |female |other |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |2190 |69   |80     |2     |4          |3         |-                          |2348  |
+#'  |Total |2190 |69   |80     |2     |4          |3         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -151,10 +151,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |male |female |don't know |no answer |Total |
-#'  |:-----|:----|:----|:------|:----------|:---------|:-----|
-#'  |2018  |2245 |38   |56     |3          |6         |2348  |
-#'  |Total |2245 |38   |56     |3          |6         |2348  |
+#'  |year  |iap  |male |female |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |2245 |38   |56     |3          |6         |-                          |2348  |
+#'  |Total |2245 |38   |56     |3          |6         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -204,10 +204,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |spouse/partner (current/ex) |parent |sibling |child |grandparent |grandchild |other family |coworker |neighbor |friend |member of religious community |acquaintance |student/classmate |relative of a friend |friend of a relative |other |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:------|:-------|:-----|:-----------|:----------|:------------|:--------|:--------|:------|:-----------------------------|:------------|:-----------------|:--------------------|:--------------------|:-----|:----------|:---------|:-----|
-#'  |2018  |1751 |52                          |77     |58      |26    |8           |2          |113          |23       |20       |181    |3                             |7            |1                 |3                    |1                    |8     |3          |11        |2348  |
-#'  |Total |1751 |52                          |77     |58      |26    |8           |2          |113          |23       |20       |181    |3                             |7            |1                 |3                    |1                    |8     |3          |11        |2348  |
+#'  |year  |iap  |spouse/partner (current/ex) |parent |sibling |child |grandparent |grandchild |other family |coworker |neighbor |friend |member of religious community |acquaintance |student/classmate |relative of a friend |friend of a relative |other |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:------|:-------|:-----|:-----------|:----------|:------------|:--------|:--------|:------|:-----------------------------|:------------|:-----------------|:--------------------|:--------------------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1751 |52                          |77     |58      |26    |8           |2          |113          |23       |20       |181    |3                             |7            |1                 |3                    |1                    |8     |3          |11        |-                          |2348  |
+#'  |Total |1751 |52                          |77     |58      |26    |8           |2          |113          |23       |20       |181    |3                             |7            |1                 |3                    |1                    |8     |3          |11        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -257,10 +257,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |friend |acquaintance |student/classmate |relative of a friend |other |no answer |Total |
-#'  |:-----|:----|:------|:------------|:-----------------|:--------------------|:-----|:---------|:-----|
-#'  |2018  |1751 |3      |2            |1                 |1                    |1     |589       |2348  |
-#'  |Total |1751 |3      |2            |1                 |1                    |1     |589       |2348  |
+#'  |year  |iap  |friend |acquaintance |student/classmate |relative of a friend |other |no answer |not available in this year |Total |
+#'  |:-----|:----|:------|:------------|:-----------------|:--------------------|:-----|:---------|:--------------------------|:-----|
+#'  |2018  |1751 |3      |2            |1                 |1                    |1     |589       |-                          |2348  |
+#'  |Total |1751 |3      |2            |1                 |1                    |1     |589       |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -310,10 +310,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |spouse/partner (current/ex) |parent |sibling |child |grandparent |grandchild |other family |coworker |neighbor |friend |member of religious community |acquaintance |student/classmate |relative of a friend |friend of a relative |other |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:------|:-------|:-----|:-----------|:----------|:------------|:--------|:--------|:------|:-----------------------------|:------------|:-----------------|:--------------------|:--------------------|:-----|:----------|:---------|:-----|
-#'  |2018  |1982 |17                          |27     |45      |21    |11          |3          |81           |8        |9        |117    |2                             |5            |1                 |3                    |2                    |4     |2          |8         |2348  |
-#'  |Total |1982 |17                          |27     |45      |21    |11          |3          |81           |8        |9        |117    |2                             |5            |1                 |3                    |2                    |4     |2          |8         |2348  |
+#'  |year  |iap  |spouse/partner (current/ex) |parent |sibling |child |grandparent |grandchild |other family |coworker |neighbor |friend |member of religious community |acquaintance |student/classmate |relative of a friend |friend of a relative |other |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:------|:-------|:-----|:-----------|:----------|:------------|:--------|:--------|:------|:-----------------------------|:------------|:-----------------|:--------------------|:--------------------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1982 |17                          |27     |45      |21    |11          |3          |81           |8        |9        |117    |2                             |5            |1                 |3                    |2                    |4     |2          |8         |-                          |2348  |
+#'  |Total |1982 |17                          |27     |45      |21    |11          |3          |81           |8        |9        |117    |2                             |5            |1                 |3                    |2                    |4     |2          |8         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -363,10 +363,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |member of religious community |student/classmate |other |no answer |Total |
-#'  |:-----|:----|:-----------------------------|:-----------------|:-----|:---------|:-----|
-#'  |2018  |1982 |1                             |1                 |1     |363       |2348  |
-#'  |Total |1982 |1                             |1                 |1     |363       |2348  |
+#'  |year  |iap  |member of religious community |student/classmate |other |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------------------|:-----------------|:-----|:---------|:--------------------------|:-----|
+#'  |2018  |1982 |1                             |1                 |1     |363       |-                          |2348  |
+#'  |Total |1982 |1                             |1                 |1     |363       |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -416,10 +416,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |spouse/partner (current/ex) |parent |sibling |child |grandparent |grandchild |other family |coworker |neighbor |friend |member of religious community |acquaintance |student/classmate |other |no answer |Total |
-#'  |:-----|:----|:---------------------------|:------|:-------|:-----|:-----------|:----------|:------------|:--------|:--------|:------|:-----------------------------|:------------|:-----------------|:-----|:---------|:-----|
-#'  |2018  |2095 |5                           |9      |21      |11    |7           |2          |65           |10       |2        |103    |2                             |1            |1                 |3     |11        |2348  |
-#'  |Total |2095 |5                           |9      |21      |11    |7           |2          |65           |10       |2        |103    |2                             |1            |1                 |3     |11        |2348  |
+#'  |year  |iap  |spouse/partner (current/ex) |parent |sibling |child |grandparent |grandchild |other family |coworker |neighbor |friend |member of religious community |acquaintance |student/classmate |other |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:------|:-------|:-----|:-----------|:----------|:------------|:--------|:--------|:------|:-----------------------------|:------------|:-----------------|:-----|:---------|:--------------------------|:-----|
+#'  |2018  |2095 |5                           |9      |21      |11    |7           |2          |65           |10       |2        |103    |2                             |1            |1                 |3     |11        |-                          |2348  |
+#'  |Total |2095 |5                           |9      |21      |11    |7           |2          |65           |10       |2        |103    |2                             |1            |1                 |3     |11        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -469,10 +469,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |member of religious community |student/classmate |no answer |Total |
-#'  |:-----|:----|:-----------------------------|:-----------------|:---------|:-----|
-#'  |2018  |2095 |1                             |1                 |251       |2348  |
-#'  |Total |2095 |1                             |1                 |251       |2348  |
+#'  |year  |iap  |member of religious community |student/classmate |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------------------|:-----------------|:---------|:--------------------------|:-----|
+#'  |2018  |2095 |1                             |1                 |251       |-                          |2348  |
+#'  |Total |2095 |1                             |1                 |251       |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

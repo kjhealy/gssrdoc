@@ -35,10 +35,10 @@ D. Some people use their will power and work harder than others.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1385/vshow}{GSS Data Explorer page for \code{lfehrdwk}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 911 \tab 580 \tab 70 \tab 20 \tab 15 \tab 10 \tab 1606 \cr
-   Total \tab 0 \tab 911 \tab 580 \tab 70 \tab 20 \tab 15 \tab 10 \tab 1606 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 911 \tab 580 \tab 70 \tab 20 \tab 15 \tab 10 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 911 \tab 580 \tab 70 \tab 20 \tab 15 \tab 10 \tab 0 \tab 1606 \cr
 }
 }
 

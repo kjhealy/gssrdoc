@@ -34,10 +34,10 @@ Question How important is the death penalty issue to you--would you say it is on
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/269/vshow}{GSS Data Explorer page for \code{capimp}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not important \tab don't know \tab no answer \tab Total \cr
-   1984 \tab 989 \tab 67 \tab 261 \tab 120 \tab 26 \tab 6 \tab 4 \tab 1473 \cr
-   Total \tab 989 \tab 67 \tab 261 \tab 120 \tab 26 \tab 6 \tab 4 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab one of most imp \tab important \tab not very imp \tab not important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab 989 \tab 67 \tab 261 \tab 120 \tab 26 \tab 6 \tab 4 \tab - \tab 1473 \cr
+   Total \tab 989 \tab 67 \tab 261 \tab 120 \tab 26 \tab 6 \tab 4 \tab 0 \tab 1473 \cr
 }
 }
 

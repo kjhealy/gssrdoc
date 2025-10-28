@@ -34,14 +34,14 @@ Question Now for a few items on you. Do you have access to the Internet in your 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3346/vshow}{GSS Data Explorer page for \code{intrhome}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 1187 \tab 675 \tab 1 \tab 1 \tab 4510 \cr
-   2008 \tab 518 \tab 1031 \tab 461 \tab 6 \tab 7 \tab 2023 \cr
-   2010 \tab 1328 \tab 527 \tab 185 \tab 1 \tab 3 \tab 2044 \cr
-   2012 \tab 972 \tab 756 \tab 237 \tab 4 \tab 5 \tab 1974 \cr
-   2014 \tab 1299 \tab 1011 \tab 227 \tab - \tab 1 \tab 2538 \cr
-   Total \tab 6763 \tab 4512 \tab 1785 \tab 12 \tab 17 \tab 13089 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 1187 \tab 675 \tab 1 \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 1031 \tab 461 \tab 6 \tab 7 \tab - \tab 2023 \cr
+   2010 \tab 1328 \tab 527 \tab 185 \tab 1 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 756 \tab 237 \tab 4 \tab 5 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 1011 \tab 227 \tab - \tab 1 \tab - \tab 2538 \cr
+   Total \tab 6763 \tab 4512 \tab 1785 \tab 12 \tab 17 \tab 0 \tab 13089 \cr
 }
 }
 

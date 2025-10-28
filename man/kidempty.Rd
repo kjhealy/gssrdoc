@@ -36,12 +36,12 @@ F. People who have never had children lead empty lives.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4385/vshow}{GSS Data Explorer page for \code{kidempty}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 115 \tab 251 \tab 373 \tab 415 \tab 192 \tab 51 \tab 17 \tab 1481 \cr
-   1994 \tab 1545 \tab 48 \tab 214 \tab 373 \tab 536 \tab 182 \tab 40 \tab 54 \tab 2992 \cr
-   2002 \tab 1594 \tab 76 \tab 127 \tab 255 \tab 428 \tab 252 \tab 32 \tab 1 \tab 2765 \cr
-   Total \tab 3206 \tab 239 \tab 592 \tab 1001 \tab 1379 \tab 626 \tab 123 \tab 72 \tab 7238 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 115 \tab 251 \tab 373 \tab 415 \tab 192 \tab 51 \tab 17 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 48 \tab 214 \tab 373 \tab 536 \tab 182 \tab 40 \tab 54 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 76 \tab 127 \tab 255 \tab 428 \tab 252 \tab 32 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 3206 \tab 239 \tab 592 \tab 1001 \tab 1379 \tab 626 \tab 123 \tab 72 \tab 0 \tab 7238 \cr
 }
 }
 

@@ -34,11 +34,11 @@ Question How difficult was case to get?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5564/vshow}{GSS Data Explorer page for \code{easyget}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very easy \tab somewhat easy \tab somewhat difficult \tab very difficult \tab no answer \tab Total \cr
-   1998 \tab - \tab 687 \tab 796 \tab 815 \tab 494 \tab 40 \tab 2832 \cr
-   2000 \tab - \tab 733 \tab 827 \tab 783 \tab 413 \tab 61 \tab 2817 \cr
-   Total \tab 0 \tab 1420 \tab 1623 \tab 1598 \tab 907 \tab 101 \tab 5649 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very easy \tab somewhat easy \tab somewhat difficult \tab very difficult \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab - \tab 687 \tab 796 \tab 815 \tab 494 \tab 40 \tab - \tab 2832 \cr
+   2000 \tab - \tab 733 \tab 827 \tab 783 \tab 413 \tab 61 \tab - \tab 2817 \cr
+   Total \tab 0 \tab 1420 \tab 1623 \tab 1598 \tab 907 \tab 101 \tab 0 \tab 5649 \cr
 }
 }
 

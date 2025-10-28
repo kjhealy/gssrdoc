@@ -32,10 +32,10 @@ Question Since you were 16 years old, has there ever been a period of 2 years or
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1072/vshow}{GSS Data Explorer page for \code{lapsed}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1988 \tab - \tab 807 \tab 673 \tab 1 \tab 1481 \cr
-   Total \tab 0 \tab 807 \tab 673 \tab 1 \tab 1481 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 807 \tab 673 \tab 1 \tab - \tab 1481 \cr
+   Total \tab 0 \tab 807 \tab 673 \tab 1 \tab 0 \tab 1481 \cr
 }
 }
 

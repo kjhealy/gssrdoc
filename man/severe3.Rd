@@ -32,10 +32,10 @@ Question On a scale from 1 to 10, with 1 being not at all and 10 being very, how
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7132/vshow}{GSS Data Explorer page for \code{severe3}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab 1 - not at all severe \tab 10 - very severe \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 2095 \tab 31 \tab 29 \tab 25 \tab 25 \tab 27 \tab 28 \tab 21 \tab 25 \tab 20 \tab 15 \tab 1 \tab 6 \tab 2348 \cr
-   Total \tab 2095 \tab 31 \tab 29 \tab 25 \tab 25 \tab 27 \tab 28 \tab 21 \tab 25 \tab 20 \tab 15 \tab 1 \tab 6 \tab 2348 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab 1 - not at all severe \tab 10 - very severe \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 2095 \tab 31 \tab 29 \tab 25 \tab 25 \tab 27 \tab 28 \tab 21 \tab 25 \tab 20 \tab 15 \tab 1 \tab 6 \tab - \tab 2348 \cr
+   Total \tab 2095 \tab 31 \tab 29 \tab 25 \tab 25 \tab 27 \tab 28 \tab 21 \tab 25 \tab 20 \tab 15 \tab 1 \tab 6 \tab 0 \tab 2348 \cr
 }
 }
 

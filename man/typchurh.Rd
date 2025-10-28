@@ -32,10 +32,10 @@ Question O. Do you belong to more than one church-affiliated group?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3124/vshow}{GSS Data Explorer page for \code{typchurh}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2004 \tab 2352 \tab 54 \tab 395 \tab 11 \tab 2812 \cr
-   Total \tab 2352 \tab 54 \tab 395 \tab 11 \tab 2812 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2352 \tab 54 \tab 395 \tab 11 \tab - \tab 2812 \cr
+   Total \tab 2352 \tab 54 \tab 395 \tab 11 \tab 0 \tab 2812 \cr
 }
 }
 

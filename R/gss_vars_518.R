@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2018  |1173 |33             |184   |251                        |531      |140               |22           |14        |2348  |
-#'  |Total |1173 |33             |184   |251                        |531      |140               |22           |14        |2348  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2018  |1173 |33             |184   |251                        |531      |140               |22           |14        |-                          |2348  |
+#'  |Total |1173 |33             |184   |251                        |531      |140               |22           |14        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -67,10 +67,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2018  |1173 |147            |443   |159                        |346      |49                |19           |12        |2348  |
-#'  |Total |1173 |147            |443   |159                        |346      |49                |19           |12        |2348  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2018  |1173 |147            |443   |159                        |346      |49                |19           |12        |-                          |2348  |
+#'  |Total |1173 |147            |443   |159                        |346      |49                |19           |12        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -109,10 +109,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very positive |somewhat positive |neither positive nor negative |somewhat negative |very negative |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:-----------------|:-----------------------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2018  |1173 |513           |343               |249                           |41                |9             |6          |14        |2348  |
-#'  |Total |1173 |513           |343               |249                           |41                |9             |6          |14        |2348  |
+#'  |year  |iap  |very positive |somewhat positive |neither positive nor negative |somewhat negative |very negative |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:-----------------|:-----------------------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1173 |513           |343               |249                           |41                |9             |6          |14        |-                          |2348  |
+#'  |Total |1173 |513           |343               |249                           |41                |9             |6          |14        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -151,10 +151,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very positive |somewhat positive |neither positive nor negative |somewhat negative |very negative |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:-----------------|:-----------------------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2018  |1173 |145           |300               |473                           |134               |72            |35         |16        |2348  |
-#'  |Total |1173 |145           |300               |473                           |134               |72            |35         |16        |2348  |
+#'  |year  |iap  |very positive |somewhat positive |neither positive nor negative |somewhat negative |very negative |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:-----------------|:-----------------------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1173 |145           |300               |473                           |134               |72            |35         |16        |-                          |2348  |
+#'  |Total |1173 |145           |300               |473                           |134               |72            |35         |16        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -193,10 +193,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very positive |somewhat positive |neither positive nor negative |somewhat negative |very negative |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:-----------------|:-----------------------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2018  |1173 |164           |274               |537                           |61                |46            |75         |18        |2348  |
-#'  |Total |1173 |164           |274               |537                           |61                |46            |75         |18        |2348  |
+#'  |year  |iap  |very positive |somewhat positive |neither positive nor negative |somewhat negative |very negative |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:-----------------|:-----------------------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1173 |164           |274               |537                           |61                |46            |75         |18        |-                          |2348  |
+#'  |Total |1173 |164           |274               |537                           |61                |46            |75         |18        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -235,10 +235,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very positive |somewhat positive |neither positive nor negative |somewhat negative |very negative |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:-----------------|:-----------------------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2018  |1173 |199           |299               |496                           |51                |58            |56         |16        |2348  |
-#'  |Total |1173 |199           |299               |496                           |51                |58            |56         |16        |2348  |
+#'  |year  |iap  |very positive |somewhat positive |neither positive nor negative |somewhat negative |very negative |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:-----------------|:-----------------------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1173 |199           |299               |496                           |51                |58            |56         |16        |-                          |2348  |
+#'  |Total |1173 |199           |299               |496                           |51                |58            |56         |16        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -277,10 +277,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very positive |somewhat positive |neither positive nor negative |somewhat negative |very negative |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:-----------------|:-----------------------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2018  |1173 |245           |361               |462                           |43                |15            |32         |17        |2348  |
-#'  |Total |1173 |245           |361               |462                           |43                |15            |32         |17        |2348  |
+#'  |year  |iap  |very positive |somewhat positive |neither positive nor negative |somewhat negative |very negative |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:-----------------|:-----------------------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1173 |245           |361               |462                           |43                |15            |32         |17        |-                          |2348  |
+#'  |Total |1173 |245           |361               |462                           |43                |15            |32         |17        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -319,10 +319,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very positive |somewhat positive |neither positive nor negative |somewhat negative |very negative |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:-----------------|:-----------------------------|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2018  |1173 |108           |213               |494                           |157               |151           |35         |17        |2348  |
-#'  |Total |1173 |108           |213               |494                           |157               |151           |35         |17        |2348  |
+#'  |year  |iap  |very positive |somewhat positive |neither positive nor negative |somewhat negative |very negative |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:-----------------|:-----------------------------|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1173 |108           |213               |494                           |157               |151           |35         |17        |-                          |2348  |
+#'  |Total |1173 |108           |213               |494                           |157               |151           |35         |17        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -358,10 +358,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no  |don't know |no answer |Total |
-#'  |:-----|:---|:---|:---|:----------|:---------|:-----|
-#'  |2008  |658 |360 |993 |5          |7         |2023  |
-#'  |Total |658 |360 |993 |5          |7         |2023  |
+#'  |year  |iap |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |658 |360 |993 |5          |7         |-                          |2023  |
+#'  |Total |658 |360 |993 |5          |7         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -397,11 +397,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |to be obedient |to think for themselves |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----------------------|:----------|:---------|:-----|
-#'  |1993  |49  |447            |997                     |93         |20        |1606  |
-#'  |1994  |159 |815            |1788                    |142        |88        |2992  |
-#'  |Total |208 |1262           |2785                    |235        |108       |4598  |
+#'  |year  |iap |to be obedient |to think for themselves |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1993  |49  |447            |997                     |93         |20        |-                          |1606  |
+#'  |1994  |159 |815            |1788                    |142        |88        |-                          |2992  |
+#'  |Total |208 |1262           |2785                    |235        |108       |0                          |4598  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment

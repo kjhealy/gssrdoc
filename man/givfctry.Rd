@@ -36,10 +36,10 @@ N. The owner-manager of a large factory?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4292/vshow}{GSS Data Explorer page for \code{givfctry}}.
 
-Counts by year:\tabular{llll}{
-   year \tab iap \tab 55000 \tab Total \cr
-   2000 \tab 2816 \tab 1 \tab 2817 \cr
-   Total \tab 2816 \tab 1 \tab 2817 \cr
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab 55000 \tab not available in this year \tab Total \cr
+   2000 \tab 2816 \tab 1 \tab - \tab 2817 \cr
+   Total \tab 2816 \tab 1 \tab 0 \tab 2817 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question And do you think that nuclear power stations are…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7494/vshow}{GSS Data Explorer page for \code{nukegen1}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2003 \tab 309 \tab 386 \tab 631 \tab 328 \tab 89 \tab 88 \tab 188 \tab 10 \tab 4032 \cr
-   Total \tab 2003 \tab 309 \tab 386 \tab 631 \tab 328 \tab 89 \tab 88 \tab 188 \tab 10 \tab 4032 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2003 \tab 309 \tab 386 \tab 631 \tab 328 \tab 89 \tab 88 \tab 188 \tab 10 \tab - \tab 4032 \cr
+   Total \tab 2003 \tab 309 \tab 386 \tab 631 \tab 328 \tab 89 \tab 88 \tab 188 \tab 10 \tab 0 \tab 4032 \cr
 }
 }
 

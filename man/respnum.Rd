@@ -47,7 +47,7 @@ Question Respondent's number in family.
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5432/vshow}{GSS Data Explorer page for \code{respnum}}.
 
 Counts by year:\tabular{llllllllllllllllll}{
-   year \tab iap \tab 1st person \tab 2nd person \tab 3rd person \tab 4th person \tab 5th person \tab 8th person \tab 11th person \tab 6th person \tab 9th person \tab 12th person \tab 7th person \tab no answer \tab 10th person \tab 14th person \tab not available in this release \tab Total \cr
+   year \tab iap \tab 1st person \tab 2nd person \tab 3rd person \tab 4th person \tab 5th person \tab 8th person \tab 11th person \tab 6th person \tab 9th person \tab 12th person \tab 7th person \tab no answer \tab 10th person \tab 14th person \tab not available in this year \tab Total \cr
    1975 \tab 755 \tab 410 \tab 277 \tab 34 \tab 9 \tab 2 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
    1976 \tab 755 \tab 429 \tab 280 \tab 29 \tab 3 \tab 1 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
    1977 \tab - \tab 872 \tab 561 \tab 65 \tab 23 \tab 3 \tab - \tab 3 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
@@ -77,9 +77,9 @@ Counts by year:\tabular{llllllllllllllllll}{
    2014 \tab - \tab 1718 \tab 678 \tab 109 \tab 21 \tab 7 \tab - \tab 4 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
    2016 \tab - \tab 1952 \tab 755 \tab 113 \tab 29 \tab 4 \tab - \tab 10 \tab 3 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 2867 \cr
    2018 \tab - \tab 1596 \tab 598 \tab 100 \tab 40 \tab 6 \tab 1 \tab 6 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 1778 \tab 1362 \tab 234 \tab 114 \tab 28 \tab 7 \tab - \tab 13 \tab 6 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 3288 \tab 39226 \tab 17811 \tab 2466 \tab 610 \tab 150 \tab 4 \tab 115 \tab 45 \tab 4 \tab 10 \tab 12 \tab 10 \tab 4 \tab 2 \tab 4032 \tab 67789 \cr
+   2021 \tab 202 \tab 3083 \tab 501 \tab 165 \tab 35 \tab 17 \tab 1 \tab 25 \tab - \tab 1 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab 4032 \cr
+   2022 \tab 1778 \tab 1361 \tab 308 \tab 53 \tab 19 \tab 8 \tab - \tab 13 \tab 3 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 3490 \tab 42308 \tab 18386 \tab 2570 \tab 636 \tab 168 \tab 5 \tab 140 \tab 42 \tab 5 \tab 10 \tab 13 \tab 10 \tab 4 \tab 2 \tab 0 \tab 67789 \cr
 }
 }
 

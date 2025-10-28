@@ -35,11 +35,11 @@ Question What best describes you:
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4711/vshow}{GSS Data Explorer page for \code{relsprt}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab i follow a religion and consider myself to be a spiritual person interested in the sacred and the supernatural \tab i follow a religion, but don't consider myself to be a spiritual person interested in the sacred and the supernat \tab i don't follow a religion, but consider myself to be a spiritual person interested in the sacred and the supernat \tab i don't follow a religion and don't consider myself to be a spiritual person interested in the sacred and the sup \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 658 \tab 528 \tab 304 \tab 312 \tab 154 \tab 48 \tab 19 \tab 2023 \cr
-   2018 \tab 1173 \tab 495 \tab 231 \tab 243 \tab 145 \tab 44 \tab 17 \tab 2348 \cr
-   Total \tab 1831 \tab 1023 \tab 535 \tab 555 \tab 299 \tab 92 \tab 36 \tab 4371 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab i follow a religion and consider myself to be a spiritual person interested in the sacred and the supernatural \tab i follow a religion, but don't consider myself to be a spiritual person interested in the sacred and the supernat \tab i don't follow a religion, but consider myself to be a spiritual person interested in the sacred and the supernat \tab i don't follow a religion and don't consider myself to be a spiritual person interested in the sacred and the sup \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 658 \tab 528 \tab 304 \tab 312 \tab 154 \tab 48 \tab 19 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 495 \tab 231 \tab 243 \tab 145 \tab 44 \tab 17 \tab - \tab 2348 \cr
+   Total \tab 1831 \tab 1023 \tab 535 \tab 555 \tab 299 \tab 92 \tab 36 \tab 0 \tab 4371 \cr
 }
 }
 

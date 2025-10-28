@@ -37,10 +37,10 @@ J. Contraceptive services for teenagers…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5131/vshow}{GSS Data Explorer page for \code{sppill}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
-   1990 \tab 155 \tab 179 \tab 278 \tab 377 \tab 123 \tab 157 \tab 75 \tab 28 \tab 1372 \cr
-   Total \tab 155 \tab 179 \tab 278 \tab 377 \tab 123 \tab 157 \tab 75 \tab 28 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 155 \tab 179 \tab 278 \tab 377 \tab 123 \tab 157 \tab 75 \tab 28 \tab - \tab 1372 \cr
+   Total \tab 155 \tab 179 \tab 278 \tab 377 \tab 123 \tab 157 \tab 75 \tab 28 \tab 0 \tab 1372 \cr
 }
 }
 

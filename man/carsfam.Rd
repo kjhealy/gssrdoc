@@ -36,12 +36,12 @@ B. And do you think that air pollution caused by cars is…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4754/vshow}{GSS Data Explorer page for \code{carsfam}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 189 \tab 372 \tab 674 \tab 178 \tab 22 \tab 36 \tab 86 \tab 1606 \cr
-   1994 \tab 1606 \tab 161 \tab 314 \tab 613 \tab 163 \tab 23 \tab 42 \tab 70 \tab 2992 \cr
-   2000 \tab 1541 \tab 175 \tab 329 \tab 560 \tab 102 \tab 8 \tab 46 \tab 56 \tab 2817 \cr
-   Total \tab 3196 \tab 525 \tab 1015 \tab 1847 \tab 443 \tab 53 \tab 124 \tab 212 \tab 7415 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 189 \tab 372 \tab 674 \tab 178 \tab 22 \tab 36 \tab 86 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 161 \tab 314 \tab 613 \tab 163 \tab 23 \tab 42 \tab 70 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 175 \tab 329 \tab 560 \tab 102 \tab 8 \tab 46 \tab 56 \tab - \tab 2817 \cr
+   Total \tab 3196 \tab 525 \tab 1015 \tab 1847 \tab 443 \tab 53 \tab 124 \tab 212 \tab 0 \tab 7415 \cr
 }
 }
 

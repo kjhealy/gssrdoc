@@ -35,10 +35,10 @@ D. It is best to treat dissenters with leniency and an open mind, since new idea
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1169/vshow}{GSS Data Explorer page for \code{openmind}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 121 \tab 836 \tab 223 \tab 31 \tab 150 \tab 11 \tab 1372 \cr
-   Total \tab 0 \tab 121 \tab 836 \tab 223 \tab 31 \tab 150 \tab 11 \tab 1372 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 121 \tab 836 \tab 223 \tab 31 \tab 150 \tab 11 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 121 \tab 836 \tab 223 \tab 31 \tab 150 \tab 11 \tab 0 \tab 1372 \cr
 }
 }
 

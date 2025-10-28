@@ -31,10 +31,10 @@ B3. What R did about the nervous breakdown -- Third mention.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2072/vshow}{GSS Data Explorer page for \code{brkddo3}}.
 
-Counts by year:\tabular{lllllllllllllllllllllll}{
-   year \tab iap \tab 11 \tab 22 \tab 23 \tab 24 \tab 51 \tab 61 \tab 62 \tab 64 \tab 65 \tab 66 \tab 69 \tab 71 \tab 72 \tab 73 \tab 74 \tab 75 \tab 81 \tab 82 \tab 83 \tab no answer \tab Total \cr
-   1996 \tab 2767 \tab 1 \tab 8 \tab 2 \tab 1 \tab 6 \tab 10 \tab 3 \tab 5 \tab 2 \tab 1 \tab 5 \tab 9 \tab 9 \tab 2 \tab 1 \tab 4 \tab 21 \tab 18 \tab 3 \tab 26 \tab 2904 \cr
-   Total \tab 2767 \tab 1 \tab 8 \tab 2 \tab 1 \tab 6 \tab 10 \tab 3 \tab 5 \tab 2 \tab 1 \tab 5 \tab 9 \tab 9 \tab 2 \tab 1 \tab 4 \tab 21 \tab 18 \tab 3 \tab 26 \tab 2904 \cr
+Counts by year:\tabular{llllllllllllllllllllllll}{
+   year \tab iap \tab 11 \tab 22 \tab 23 \tab 24 \tab 51 \tab 61 \tab 62 \tab 64 \tab 65 \tab 66 \tab 69 \tab 71 \tab 72 \tab 73 \tab 74 \tab 75 \tab 81 \tab 82 \tab 83 \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2767 \tab 1 \tab 8 \tab 2 \tab 1 \tab 6 \tab 10 \tab 3 \tab 5 \tab 2 \tab 1 \tab 5 \tab 9 \tab 9 \tab 2 \tab 1 \tab 4 \tab 21 \tab 18 \tab 3 \tab 26 \tab - \tab 2904 \cr
+   Total \tab 2767 \tab 1 \tab 8 \tab 2 \tab 1 \tab 6 \tab 10 \tab 3 \tab 5 \tab 2 \tab 1 \tab 5 \tab 9 \tab 9 \tab 2 \tab 1 \tab 4 \tab 21 \tab 18 \tab 3 \tab 26 \tab 0 \tab 2904 \cr
 }
 }
 

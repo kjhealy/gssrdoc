@@ -33,11 +33,11 @@ D. Do you know how to send a file that is on your computer's hard drive to someo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2514/vshow}{GSS Data Explorer page for \code{upload}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2075 \tab 457 \tab 205 \tab 80 \tab - \tab 2817 \cr
-   2004 \tab 992 \tab 1360 \tab 437 \tab 20 \tab 3 \tab 2812 \cr
-   Total \tab 3067 \tab 1817 \tab 642 \tab 100 \tab 3 \tab 5629 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 457 \tab 205 \tab 80 \tab - \tab - \tab 2817 \cr
+   2004 \tab 992 \tab 1360 \tab 437 \tab 20 \tab 3 \tab - \tab 2812 \cr
+   Total \tab 3067 \tab 1817 \tab 642 \tab 100 \tab 3 \tab 0 \tab 5629 \cr
 }
 }
 

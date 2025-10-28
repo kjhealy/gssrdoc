@@ -26,10 +26,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2004  |1475 |168            |324   |448                        |235      |115               |30         |17        |2812  |
-#'  |Total |1475 |168            |324   |448                        |235      |115               |30         |17        |2812  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |1475 |168            |324   |448                        |235      |115               |30         |17        |-                          |2812  |
+#'  |Total |1475 |168            |324   |448                        |235      |115               |30         |17        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -69,10 +69,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2004  |1475 |93             |208   |436                        |383      |166               |33         |18        |2812  |
-#'  |Total |1475 |93             |208   |436                        |383      |166               |33         |18        |2812  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |1475 |93             |208   |436                        |383      |166               |33         |18        |-                          |2812  |
+#'  |Total |1475 |93             |208   |436                        |383      |166               |33         |18        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -112,10 +112,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2004  |1475 |55             |182   |428                        |428      |187               |39         |18        |2812  |
-#'  |Total |1475 |55             |182   |428                        |428      |187               |39         |18        |2812  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |1475 |55             |182   |428                        |428      |187               |39         |18        |-                          |2812  |
+#'  |Total |1475 |55             |182   |428                        |428      |187               |39         |18        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Spirituality and Religion
@@ -151,10 +151,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2004  |1996 |669 |139 |8         |2812  |
-#'  |Total |1996 |669 |139 |8         |2812  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2004  |1996 |669 |139 |8         |-                          |2812  |
+#'  |Total |1996 |669 |139 |8         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol
@@ -196,10 +196,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |never in those 12 months |1 to 3 times in 12 months |4 to 7 times in 12 months |8 to 11 times in 12 months |1 to 3 times a month |once or twice a week |3 to 4 times a week |5 times a week or more |no answer |Total |
-#'  |:-----|:----|:------------------------|:-------------------------|:-------------------------|:--------------------------|:--------------------|:--------------------|:-------------------|:----------------------|:---------|:-----|
-#'  |2004  |2499 |65                       |57                        |33                        |30                         |65                   |33                   |16                  |11                     |3         |2812  |
-#'  |Total |2499 |65                       |57                        |33                        |30                         |65                   |33                   |16                  |11                     |3         |2812  |
+#'  |year  |iap  |never in those 12 months |1 to 3 times in 12 months |4 to 7 times in 12 months |8 to 11 times in 12 months |1 to 3 times a month |once or twice a week |3 to 4 times a week |5 times a week or more |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------------------|:-------------------------|:-------------------------|:--------------------------|:--------------------|:--------------------|:-------------------|:----------------------|:---------|:--------------------------|:-----|
+#'  |2004  |2499 |65                       |57                        |33                        |30                         |65                   |33                   |16                  |11                     |3         |-                          |2812  |
+#'  |Total |2499 |65                       |57                        |33                        |30                         |65                   |33                   |16                  |11                     |3         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol
@@ -234,10 +234,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |1   |12 |2  |3  |4  |5  |6  |7  |8  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
-#'  |2004  |2564 |119 |1  |66 |27 |12 |8  |5  |4  |1  |2          |3         |2812  |
-#'  |Total |2564 |119 |1  |66 |27 |12 |8  |5  |4  |1  |2          |3         |2812  |
+#'  |year  |iap  |1   |12 |2  |3  |4  |5  |6  |7  |8  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2564 |119 |1  |66 |27 |12 |8  |5  |4  |1  |2          |3         |-                          |2812  |
+#'  |Total |2564 |119 |1  |66 |27 |12 |8  |5  |4  |1  |2          |3         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol
@@ -279,10 +279,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |never in those 12 months |1 to 3 times in 12 months |4 to 7 times in 12 months |8 to 11 times in 12 months |1 to 3 times a month |once or twice a week |3 to 4 times a week |5 times a week or more |no answer |Total |
-#'  |:-----|:----|:------------------------|:-------------------------|:-------------------------|:--------------------------|:--------------------|:--------------------|:-------------------|:----------------------|:---------|:-----|
-#'  |2004  |2564 |163                      |42                        |8                         |3                          |19                   |5                    |4                   |1                      |3         |2812  |
-#'  |Total |2564 |163                      |42                        |8                         |3                          |19                   |5                    |4                   |1                      |3         |2812  |
+#'  |year  |iap  |never in those 12 months |1 to 3 times in 12 months |4 to 7 times in 12 months |8 to 11 times in 12 months |1 to 3 times a month |once or twice a week |3 to 4 times a week |5 times a week or more |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------------------|:-------------------------|:-------------------------|:--------------------------|:--------------------|:--------------------|:-------------------|:----------------------|:---------|:--------------------------|:-----|
+#'  |2004  |2564 |163                      |42                        |8                         |3                          |19                   |5                    |4                   |1                      |3         |-                          |2812  |
+#'  |Total |2564 |163                      |42                        |8                         |3                          |19                   |5                    |4                   |1                      |3         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol
@@ -324,10 +324,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did not drink at all in the last 12 months |at least a sip, but less than one full drink |at least 1, but less than 3 drinks |at least 3, but less than 5 drinks |at least 5, but less than 8 drinks |at least 8, but less than 12 drinks |at least 12, but less than 20 drinks |20 or more drinks in a single day |don't know |no answer |Total |
-#'  |:-----|:----|:------------------------------------------|:--------------------------------------------|:----------------------------------|:----------------------------------|:----------------------------------|:-----------------------------------|:------------------------------------|:---------------------------------|:----------|:---------|:-----|
-#'  |2004  |2448 |69                                         |26                                           |130                                |69                                 |34                                 |11                                  |15                                   |2                                 |1          |7         |2812  |
-#'  |Total |2448 |69                                         |26                                           |130                                |69                                 |34                                 |11                                  |15                                   |2                                 |1          |7         |2812  |
+#'  |year  |iap  |did not drink at all in the last 12 months |at least a sip, but less than one full drink |at least 1, but less than 3 drinks |at least 3, but less than 5 drinks |at least 5, but less than 8 drinks |at least 8, but less than 12 drinks |at least 12, but less than 20 drinks |20 or more drinks in a single day |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------------------------------------|:--------------------------------------------|:----------------------------------|:----------------------------------|:----------------------------------|:-----------------------------------|:------------------------------------|:---------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2448 |69                                         |26                                           |130                                |69                                 |34                                 |11                                  |15                                   |2                                 |1          |7         |-                          |2812  |
+#'  |Total |2448 |69                                         |26                                           |130                                |69                                 |34                                 |11                                  |15                                   |2                                 |1          |7         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol
@@ -370,10 +370,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |don't know |no answer |Total |
-#'  |:-----|:----|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:----------|:---------|:-----|
-#'  |2004  |2787 |1                          |6                           |3                                        |1                                           |4                          |1                    |1                          |1          |7         |2812  |
-#'  |Total |2787 |1                          |6                           |3                                        |1                                           |4                          |1                    |1                          |1          |7         |2812  |
+#'  |year  |iap  |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2787 |1                          |6                           |3                                        |1                                           |4                          |1                    |1                          |1          |7         |-                          |2812  |
+#'  |Total |2787 |1                          |6                           |3                                        |1                                           |4                          |1                    |1                          |1          |7         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol
@@ -416,10 +416,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |never in the last 12 months |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:----------|:---------|:-----|
-#'  |2004  |2776 |1                           |3                          |6                           |5                                        |4                                           |4                          |4                    |1                          |1          |7         |2812  |
-#'  |Total |2776 |1                           |3                          |6                           |5                                        |4                                           |4                          |4                    |1                          |1          |7         |2812  |
+#'  |year  |iap  |never in the last 12 months |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2776 |1                           |3                          |6                           |5                                        |4                                           |4                          |4                    |1                          |1          |7         |-                          |2812  |
+#'  |Total |2776 |1                           |3                          |6                           |5                                        |4                                           |4                          |4                    |1                          |1          |7         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol

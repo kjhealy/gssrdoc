@@ -25,11 +25,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |don't know |Total |
-#'  |:-----|:----|:---|:----|:---------|:----------|:-----|
-#'  |1991  |500  |56  |947  |14        |-          |1517  |
-#'  |2004  |1472 |114 |1213 |12        |1          |2812  |
-#'  |Total |1972 |170 |2160 |26        |1          |4329  |
+#'  |year  |iap  |yes |no   |no answer |don't know |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:----------|:--------------------------|:-----|
+#'  |1991  |500  |56  |947  |14        |-          |-                          |1517  |
+#'  |2004  |1472 |114 |1213 |12        |1          |-                          |2812  |
+#'  |Total |1972 |170 |2160 |26        |1          |0                          |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -69,11 +69,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1991  |500  |52  |958  |7         |1517  |
-#'  |2004  |1472 |124 |1207 |9         |2812  |
-#'  |Total |1972 |176 |2165 |16        |4329  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1991  |500  |52  |958  |7         |-                          |1517  |
+#'  |2004  |1472 |124 |1207 |9         |-                          |2812  |
+#'  |Total |1972 |176 |2165 |16        |0                          |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -113,11 +113,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1991  |500  |49  |958  |10        |1517  |
-#'  |2004  |1472 |86  |1242 |12        |2812  |
-#'  |Total |1972 |135 |2200 |22        |4329  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1991  |500  |49  |958  |10        |-                          |1517  |
+#'  |2004  |1472 |86  |1242 |12        |-                          |2812  |
+#'  |Total |1972 |135 |2200 |22        |0                          |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -158,11 +158,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1991  |500  |49  |963  |5         |1517  |
-#'  |2004  |1472 |84  |1248 |8         |2812  |
-#'  |Total |1972 |133 |2211 |13        |4329  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1991  |500  |49  |963  |5         |-                          |1517  |
+#'  |2004  |1472 |84  |1248 |8         |-                          |2812  |
+#'  |Total |1972 |133 |2211 |13        |0                          |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -201,10 +201,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |2004  |1472 |48  |1285 |7         |2812  |
-#'  |Total |1472 |48  |1285 |7         |2812  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |2004  |1472 |48  |1285 |7         |-                          |2812  |
+#'  |Total |1472 |48  |1285 |7         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -244,11 +244,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1991  |500  |35  |978  |4         |1517  |
-#'  |2004  |1472 |53  |1280 |7         |2812  |
-#'  |Total |1972 |88  |2258 |11        |4329  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1991  |500  |35  |978  |4         |-                          |1517  |
+#'  |2004  |1472 |53  |1280 |7         |-                          |2812  |
+#'  |Total |1972 |88  |2258 |11        |0                          |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -287,11 +287,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1991  |500  |22  |991  |4         |1517  |
-#'  |2004  |1472 |37  |1296 |7         |2812  |
-#'  |Total |1972 |59  |2287 |11        |4329  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1991  |500  |22  |991  |4         |-                          |1517  |
+#'  |2004  |1472 |37  |1296 |7         |-                          |2812  |
+#'  |Total |1972 |59  |2287 |11        |0                          |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -330,11 +330,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1991  |500  |47  |966  |4         |1517  |
-#'  |2004  |1472 |57  |1276 |7         |2812  |
-#'  |Total |1972 |104 |2242 |11        |4329  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1991  |500  |47  |966  |4         |-                          |1517  |
+#'  |2004  |1472 |57  |1276 |7         |-                          |2812  |
+#'  |Total |1972 |104 |2242 |11        |0                          |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -373,11 +373,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1991  |500  |14  |999  |4         |1517  |
-#'  |2004  |1472 |21  |1312 |7         |2812  |
-#'  |Total |1972 |35  |2311 |11        |4329  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1991  |500  |14  |999  |4         |-                          |1517  |
+#'  |2004  |1472 |21  |1312 |7         |-                          |2812  |
+#'  |Total |1972 |35  |2311 |11        |0                          |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events
@@ -416,11 +416,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1991  |500  |22  |991  |4         |1517  |
-#'  |2004  |1472 |24  |1309 |7         |2812  |
-#'  |Total |1972 |46  |2300 |11        |4329  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1991  |500  |22  |991  |4         |-                          |1517  |
+#'  |2004  |1472 |24  |1309 |7         |-                          |2812  |
+#'  |Total |1972 |46  |2300 |11        |0                          |4329  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Negative Life Events

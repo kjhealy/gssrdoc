@@ -31,10 +31,10 @@ Question G. How many youth groups do you belong to?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3133/vshow}{GSS Data Explorer page for \code{numyouth}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab 1 \tab 2 \tab 3 \tab 5 \tab no answer \tab Total \cr
-   2004 \tab 2657 \tab 136 \tab 10 \tab 1 \tab 1 \tab 7 \tab 2812 \cr
-   Total \tab 2657 \tab 136 \tab 10 \tab 1 \tab 1 \tab 7 \tab 2812 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 5 \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2657 \tab 136 \tab 10 \tab 1 \tab 1 \tab 7 \tab - \tab 2812 \cr
+   Total \tab 2657 \tab 136 \tab 10 \tab 1 \tab 1 \tab 7 \tab 0 \tab 2812 \cr
 }
 }
 

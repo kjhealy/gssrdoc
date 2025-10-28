@@ -35,10 +35,10 @@ Question What is your personal attitude towards members of the following religio
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7290/vshow}{GSS Data Explorer page for \code{jews}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very positive \tab somewhat positive \tab neither positive nor negative \tab somewhat negative \tab very negative \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1173 \tab 245 \tab 361 \tab 462 \tab 43 \tab 15 \tab 32 \tab 17 \tab 2348 \cr
-   Total \tab 1173 \tab 245 \tab 361 \tab 462 \tab 43 \tab 15 \tab 32 \tab 17 \tab 2348 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very positive \tab somewhat positive \tab neither positive nor negative \tab somewhat negative \tab very negative \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1173 \tab 245 \tab 361 \tab 462 \tab 43 \tab 15 \tab 32 \tab 17 \tab - \tab 2348 \cr
+   Total \tab 1173 \tab 245 \tab 361 \tab 462 \tab 43 \tab 15 \tab 32 \tab 17 \tab 0 \tab 2348 \cr
 }
 }
 

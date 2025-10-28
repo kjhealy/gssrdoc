@@ -36,10 +36,10 @@ FI PROBE: IF RESPONDENT ANSWERS 'YES,' ASK; 'Was this you, someone you know, or 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3867/vshow}{GSS Data Explorer page for \code{done911m}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab no \tab yes, respondent \tab yes, someone respondent knows \tab yes, both respondent and someone respondent knows \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 671 \tab 1301 \tab 10 \tab 10 \tab 11 \tab 13 \tab 7 \tab 2023 \cr
-   Total \tab 671 \tab 1301 \tab 10 \tab 10 \tab 11 \tab 13 \tab 7 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab no \tab yes, respondent \tab yes, someone respondent knows \tab yes, both respondent and someone respondent knows \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 671 \tab 1301 \tab 10 \tab 10 \tab 11 \tab 13 \tab 7 \tab - \tab 2023 \cr
+   Total \tab 671 \tab 1301 \tab 10 \tab 10 \tab 11 \tab 13 \tab 7 \tab 0 \tab 2023 \cr
 }
 }
 

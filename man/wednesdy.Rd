@@ -33,11 +33,11 @@ Question On what day or days do you attend religious services during the last se
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5314/vshow}{GSS Data Explorer page for \code{wednesdy}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1996 \tab 2608 \tab 40 \tab 171 \tab 85 \tab 2904 \cr
-   1998 \tab 2329 \tab 109 \tab 302 \tab 92 \tab 2832 \cr
-   Total \tab 4937 \tab 149 \tab 473 \tab 177 \tab 5736 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2608 \tab 40 \tab 171 \tab 85 \tab - \tab 2904 \cr
+   1998 \tab 2329 \tab 109 \tab 302 \tab 92 \tab - \tab 2832 \cr
+   Total \tab 4937 \tab 149 \tab 473 \tab 177 \tab 0 \tab 5736 \cr
 }
 }
 

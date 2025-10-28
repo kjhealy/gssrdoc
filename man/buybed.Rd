@@ -34,10 +34,10 @@ A. Bedroom furniture
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1857/vshow}{GSS Data Explorer page for \code{buybed}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strong preference no contact \tab 2 \tab dont care \tab 4 \tab strong preference contact \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2196 \tab 108 \tab 25 \tab 370 \tab 66 \tab 125 \tab 5 \tab 9 \tab 2904 \cr
-   Total \tab 2196 \tab 108 \tab 25 \tab 370 \tab 66 \tab 125 \tab 5 \tab 9 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strong preference no contact \tab 2 \tab dont care \tab 4 \tab strong preference contact \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2196 \tab 108 \tab 25 \tab 370 \tab 66 \tab 125 \tab 5 \tab 9 \tab - \tab 2904 \cr
+   Total \tab 2196 \tab 108 \tab 25 \tab 370 \tab 66 \tab 125 \tab 5 \tab 9 \tab 0 \tab 2904 \cr
 }
 }
 

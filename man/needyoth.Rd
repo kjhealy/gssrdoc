@@ -33,10 +33,10 @@ E. Any other needy person
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1979/vshow}{GSS Data Explorer page for \code{needyoth}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 694 \tab 721 \tab 7 \tab 22 \tab 2904 \cr
-   Total \tab 1460 \tab 694 \tab 721 \tab 7 \tab 22 \tab 2904 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1460 \tab 694 \tab 721 \tab 7 \tab 22 \tab - \tab 2904 \cr
+   Total \tab 1460 \tab 694 \tab 721 \tab 7 \tab 22 \tab 0 \tab 2904 \cr
 }
 }
 

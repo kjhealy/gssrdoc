@@ -34,10 +34,10 @@ Question In your opinion, does your religion treat men and women equally, treat 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7280/vshow}{GSS Data Explorer page for \code{relgeneq}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab i don't belong to or follow any religion \tab treats men and women equally \tab treats men better than women \tab treats women better than men \tab can't choose \tab no answer \tab Total \cr
-   2018 \tab 1173 \tab 167 \tab 773 \tab 161 \tab 15 \tab 48 \tab 11 \tab 2348 \cr
-   Total \tab 1173 \tab 167 \tab 773 \tab 161 \tab 15 \tab 48 \tab 11 \tab 2348 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab i don't belong to or follow any religion \tab treats men and women equally \tab treats men better than women \tab treats women better than men \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1173 \tab 167 \tab 773 \tab 161 \tab 15 \tab 48 \tab 11 \tab - \tab 2348 \cr
+   Total \tab 1173 \tab 167 \tab 773 \tab 161 \tab 15 \tab 48 \tab 11 \tab 0 \tab 2348 \cr
 }
 }
 

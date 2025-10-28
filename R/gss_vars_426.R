@@ -70,10 +70,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |usa  |antigua |trinidad |jamaica |pakistan |turkey |italy |west indies |colombia |kazakhstan |cuba |india |germany |ecuador |mexico |portugal |el salvador |canada |guatemala |zimbabwe |taiwan |philippines |israel |dominican republic |scotland |haiti |honduras |puerto rico |austraila |china |poland |lithuania |liberia |brazil |morocco |spain |bulgeria |ussr |kuwait |japan |korea |vietnam |bermuda |ghana |panama |france |romania |no answer |Total |
-#'  |:-----|:---|:----|:-------|:--------|:-------|:--------|:------|:-----|:-----------|:--------|:----------|:----|:-----|:-------|:-------|:------|:--------|:-----------|:------|:---------|:--------|:------|:-----------|:------|:------------------|:--------|:-----|:--------|:-----------|:---------|:-----|:------|:---------|:-------|:------|:-------|:-----|:--------|:----|:------|:-----|:-----|:-------|:-------|:-----|:------|:------|:-------|:---------|:-----|
-#'  |2008  |603 |1179 |1       |5        |3       |3        |2      |3     |2           |6        |2          |8    |10    |9       |1       |60     |1        |9           |6      |6         |1        |1      |4           |1      |2                  |1        |3     |3        |2           |2         |4     |2      |1         |1       |2      |1       |1     |1        |1    |1      |1     |3     |1       |1       |2     |2      |2      |1       |56        |2023  |
-#'  |Total |603 |1179 |1       |5        |3       |3        |2      |3     |2           |6        |2          |8    |10    |9       |1       |60     |1        |9           |6      |6         |1        |1      |4           |1      |2                  |1        |3     |3        |2           |2         |4     |2      |1         |1       |2      |1       |1     |1        |1    |1      |1     |3     |1       |1       |2     |2      |2      |1       |56        |2023  |
+#'  |year  |iap |usa  |antigua |trinidad |jamaica |pakistan |turkey |italy |west indies |colombia |kazakhstan |cuba |india |germany |ecuador |mexico |portugal |el salvador |canada |guatemala |zimbabwe |taiwan |philippines |israel |dominican republic |scotland |haiti |honduras |puerto rico |austraila |china |poland |lithuania |liberia |brazil |morocco |spain |bulgeria |ussr |kuwait |japan |korea |vietnam |bermuda |ghana |panama |france |romania |no answer |not available in this year |Total |
+#'  |:-----|:---|:----|:-------|:--------|:-------|:--------|:------|:-----|:-----------|:--------|:----------|:----|:-----|:-------|:-------|:------|:--------|:-----------|:------|:---------|:--------|:------|:-----------|:------|:------------------|:--------|:-----|:--------|:-----------|:---------|:-----|:------|:---------|:-------|:------|:-------|:-----|:--------|:----|:------|:-----|:-----|:-------|:-------|:-----|:------|:------|:-------|:---------|:--------------------------|:-----|
+#'  |2008  |603 |1179 |1       |5        |3       |3        |2      |3     |2           |6        |2          |8    |10    |9       |1       |60     |1        |9           |6      |6         |1        |1      |4           |1      |2                  |1        |3     |3        |2           |2         |4     |2      |1         |1       |2      |1       |1     |1        |1    |1      |1     |3     |1       |1       |2     |2      |2      |1       |56        |-                          |2023  |
+#'  |Total |603 |1179 |1       |5        |3       |3        |2      |3     |2           |6        |2          |8    |10    |9       |1       |60     |1        |9           |6      |6         |1        |1      |4           |1      |2                  |1        |3     |3        |2           |2         |4     |2      |1         |1       |2      |1       |1     |1        |1    |1      |1     |3     |1       |1       |2     |2      |2      |1       |56        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -110,10 +110,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |1  |10 |11 |12 |13 |14 |15 |16 |17 |18 |19 |2  |20 |21 |22 |23 |24 |25 |26 |27 |28 |29 |3  |30 |32 |33 |34 |35 |36 |38 |39 |4  |40 |41 |42 |46 |5  |52 |56 |6  |7  |9  |have not permanently moved to us |no answer |Total |
-#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------------------------|:---------|:-----|
-#'  |2008  |1838 |9  |5  |2  |1  |3  |3  |2  |4  |7  |10 |8  |9  |9  |1  |7  |5  |7  |7  |7  |3  |3  |2  |4  |9  |2  |6  |1  |2  |2  |3  |1  |5  |1  |2  |4  |2  |1  |1  |1  |2  |3  |5  |8                                |6         |2023  |
-#'  |Total |1838 |9  |5  |2  |1  |3  |3  |2  |4  |7  |10 |8  |9  |9  |1  |7  |5  |7  |7  |7  |3  |3  |2  |4  |9  |2  |6  |1  |2  |2  |3  |1  |5  |1  |2  |4  |2  |1  |1  |1  |2  |3  |5  |8                                |6         |2023  |
+#'  |year  |iap  |1  |10 |11 |12 |13 |14 |15 |16 |17 |18 |19 |2  |20 |21 |22 |23 |24 |25 |26 |27 |28 |29 |3  |30 |32 |33 |34 |35 |36 |38 |39 |4  |40 |41 |42 |46 |5  |52 |56 |6  |7  |9  |have not permanently moved to us |no answer |not available in this year |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------------------------|:---------|:--------------------------|:-----|
+#'  |2008  |1838 |9  |5  |2  |1  |3  |3  |2  |4  |7  |10 |8  |9  |9  |1  |7  |5  |7  |7  |7  |3  |3  |2  |4  |9  |2  |6  |1  |2  |2  |3  |1  |5  |1  |2  |4  |2  |1  |1  |1  |2  |3  |5  |8                                |6         |-                          |2023  |
+#'  |Total |1838 |9  |5  |2  |1  |3  |3  |2  |4  |7  |10 |8  |9  |9  |1  |7  |5  |7  |7  |7  |3  |3  |2  |4  |9  |2  |6  |1  |2  |2  |3  |1  |5  |1  |2  |4  |2  |1  |1  |1  |2  |3  |5  |8                                |6         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -152,10 +152,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2008  |1838 |41  |135 |3          |6         |2023  |
-#'  |Total |1838 |41  |135 |3          |6         |2023  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |1838 |41  |135 |3          |6         |-                          |2023  |
+#'  |Total |1838 |41  |135 |3          |6         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -195,10 +195,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |h1b |l1 |student |tourist |other |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:-------|:-------|:-----|:----------|:---------|:-----|
-#'  |2008  |1982 |6   |2  |4       |2       |22    |4          |1         |2023  |
-#'  |Total |1982 |6   |2  |4       |2       |22    |4          |1         |2023  |
+#'  |year  |iap  |h1b |l1 |student |tourist |other |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:-------|:-------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |1982 |6   |2  |4       |2       |22    |4          |1         |-                          |2023  |
+#'  |Total |1982 |6   |2  |4       |2       |22    |4          |1         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -283,10 +283,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |usa  |trinidad |jamaica |pakistan |turkey |west indies |colombia |kazakhstan |cuba |india |germany |ecuador |mexico |el salvador |canada |guatemala |philippines |israel |dominican republic |scotland |haiti |honduras |puerto rico |austraila |china |poland |lithuania |brazil |morocco |spain |bulgeria |ussr |japan |korea |bermuda |france |south africa |england |britain |no answer |Total |
-#'  |:-----|:---|:----|:--------|:-------|:--------|:------|:-----------|:--------|:----------|:----|:-----|:-------|:-------|:------|:-----------|:------|:---------|:-----------|:------|:------------------|:--------|:-----|:--------|:-----------|:---------|:-----|:------|:---------|:------|:-------|:-----|:--------|:----|:-----|:-----|:-------|:------|:------------|:-------|:-------|:---------|:-----|
-#'  |2008  |603 |1239 |3        |2       |2        |1      |3           |6        |2          |4    |7     |2       |1       |39     |7           |3      |5         |3           |1      |1                  |1        |3     |2        |3           |1         |1     |2      |1         |2      |1       |1     |1        |1    |1     |2     |1       |2      |1            |1       |1       |60        |2023  |
-#'  |Total |603 |1239 |3        |2       |2        |1      |3           |6        |2          |4    |7     |2       |1       |39     |7           |3      |5         |3           |1      |1                  |1        |3     |2        |3           |1         |1     |2      |1         |2      |1       |1     |1        |1    |1     |2     |1       |2      |1            |1       |1       |60        |2023  |
+#'  |year  |iap |usa  |trinidad |jamaica |pakistan |turkey |west indies |colombia |kazakhstan |cuba |india |germany |ecuador |mexico |el salvador |canada |guatemala |philippines |israel |dominican republic |scotland |haiti |honduras |puerto rico |austraila |china |poland |lithuania |brazil |morocco |spain |bulgeria |ussr |japan |korea |bermuda |france |south africa |england |britain |no answer |not available in this year |Total |
+#'  |:-----|:---|:----|:--------|:-------|:--------|:------|:-----------|:--------|:----------|:----|:-----|:-------|:-------|:------|:-----------|:------|:---------|:-----------|:------|:------------------|:--------|:-----|:--------|:-----------|:---------|:-----|:------|:---------|:------|:-------|:-----|:--------|:----|:-----|:-----|:-------|:------|:------------|:-------|:-------|:---------|:--------------------------|:-----|
+#'  |2008  |603 |1239 |3        |2       |2        |1      |3           |6        |2          |4    |7     |2       |1       |39     |7           |3      |5         |3           |1      |1                  |1        |3     |2        |3           |1         |1     |2      |1         |2      |1       |1     |1        |1    |1     |2     |1       |2      |1            |1       |1       |60        |-                          |2023  |
+#'  |Total |603 |1239 |3        |2       |2        |1      |3           |6        |2          |4    |7     |2       |1       |39     |7           |3      |5         |3           |1      |1                  |1        |3     |2        |3           |1         |1     |2      |1         |2      |1       |1     |1        |1    |1     |2     |1       |2      |1            |1       |1       |60        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -323,10 +323,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no  |don't know |no answer |Total |
-#'  |:-----|:---|:---|:---|:----------|:---------|:-----|
-#'  |2008  |949 |652 |371 |3          |48        |2023  |
-#'  |Total |949 |652 |371 |3          |48        |2023  |
+#'  |year  |iap |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |949 |652 |371 |3          |48        |-                          |2023  |
+#'  |Total |949 |652 |371 |3          |48        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -400,10 +400,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |aetna |kaiser permanente |tufts |united |wellpoint |oxford |healthnet |united health care |health partners |great west |unicare |anthem/wellpoint |medcost |pacific care |fallon hmo |arise |medical mutual of ohio |florida health care |hawaiian medical system association |coventry |winhealth |health choice |blue cross/blue shield |preferred care |mvp |first health |umr |affinity health care |priority health |ghi |blue cross |40 |blue shield |cigna |covington |harvard pilgrim |other |humana |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:-----------------|:-----|:------|:---------|:------|:---------|:------------------|:---------------|:----------|:-------|:----------------|:-------|:------------|:----------|:-----|:----------------------|:-------------------|:-----------------------------------|:--------|:---------|:-------------|:----------------------|:--------------|:---|:------------|:---|:--------------------|:---------------|:---|:----------|:--|:-----------|:-----|:---------|:---------------|:-----|:------|:----------|:---------|:-----|
-#'  |2008  |1371 |49    |22                |2     |48     |1         |17     |3         |8                  |3               |3          |2       |22               |5       |2            |4          |2     |7                      |2                   |6                                   |6        |5         |2             |215                    |2              |2   |3            |2   |2                    |2               |2   |34         |1  |12          |38    |1         |3               |60    |15     |29         |8         |2023  |
-#'  |Total |1371 |49    |22                |2     |48     |1         |17     |3         |8                  |3               |3          |2       |22               |5       |2            |4          |2     |7                      |2                   |6                                   |6        |5         |2             |215                    |2              |2   |3            |2   |2                    |2               |2   |34         |1  |12          |38    |1         |3               |60    |15     |29         |8         |2023  |
+#'  |year  |iap  |aetna |kaiser permanente |tufts |united |wellpoint |oxford |healthnet |united health care |health partners |great west |unicare |anthem/wellpoint |medcost |pacific care |fallon hmo |arise |medical mutual of ohio |florida health care |hawaiian medical system association |coventry |winhealth |health choice |blue cross/blue shield |preferred care |mvp |first health |umr |affinity health care |priority health |ghi |blue cross |40 |blue shield |cigna |covington |harvard pilgrim |other |humana |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:-----------------|:-----|:------|:---------|:------|:---------|:------------------|:---------------|:----------|:-------|:----------------|:-------|:------------|:----------|:-----|:----------------------|:-------------------|:-----------------------------------|:--------|:---------|:-------------|:----------------------|:--------------|:---|:------------|:---|:--------------------|:---------------|:---|:----------|:--|:-----------|:-----|:---------|:---------------|:-----|:------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |1371 |49    |22                |2     |48     |1         |17     |3         |8                  |3               |3          |2       |22               |5       |2            |4          |2     |7                      |2                   |6                                   |6        |5         |2             |215                    |2              |2   |3            |2   |2                    |2               |2   |34         |1  |12          |38    |1         |3               |60    |15     |29         |8         |-                          |2023  |
+#'  |Total |1371 |49    |22                |2     |48     |1         |17     |3         |8                  |3               |3          |2       |22               |5       |2            |4          |2     |7                      |2                   |6                                   |6        |5         |2             |215                    |2              |2   |3            |2   |2                    |2               |2   |34         |1  |12          |38    |1         |3               |60    |15     |29         |8         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -441,10 +441,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes, another name |no other name |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:-------------|:----------|:---------|:-----|
-#'  |2008  |1371 |129               |441           |76         |6         |2023  |
-#'  |Total |1371 |129               |441           |76         |6         |2023  |
+#'  |year  |iap  |yes, another name |no other name |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |1371 |129               |441           |76         |6         |-                          |2023  |
+#'  |Total |1371 |129               |441           |76         |6         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Global Economics
@@ -485,11 +485,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |only men |some women, but mostly men |equally men and women |some men, but mostly women |only women |i have not had any sex partners |don't know |no answer |Total |
-#'  |:-----|:---|:--------|:--------------------------|:---------------------|:--------------------------|:----------|:-------------------------------|:----------|:---------|:-----|
-#'  |2008  |239 |890      |36                         |7                     |13                         |754        |31                              |3          |50        |2023  |
-#'  |2012  |237 |859      |56                         |11                    |22                         |691        |57                              |-          |41        |1974  |
-#'  |Total |476 |1749     |92                         |18                    |35                         |1445       |88                              |3          |91        |3997  |
+#'  |year  |iap |only men |some women, but mostly men |equally men and women |some men, but mostly women |only women |i have not had any sex partners |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------|:--------------------------|:---------------------|:--------------------------|:----------|:-------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |239 |890      |36                         |7                     |13                         |754        |31                              |3          |50        |-                          |2023  |
+#'  |2012  |237 |859      |56                         |11                    |22                         |691        |57                              |-          |41        |-                          |1974  |
+#'  |Total |476 |1749     |92                         |18                    |35                         |1445       |88                              |3          |91        |0                          |3997  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation
@@ -533,10 +533,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |under age 14 |age 14-18 |age 18-25 |age 26-35 |age 36-45 |age 46-55 |i have never told anyone |Total |
-#'  |:-----|:----|:------------|:---------|:---------|:---------|:---------|:---------|:------------------------|:-----|
-#'  |2008  |1951 |7            |14        |26        |12        |2         |3         |8                        |2023  |
-#'  |Total |1951 |7            |14        |26        |12        |2         |3         |8                        |2023  |
+#'  |year  |iap  |under age 14 |age 14-18 |age 18-25 |age 26-35 |age 36-45 |age 46-55 |i have never told anyone |not available in this year |Total |
+#'  |:-----|:----|:------------|:---------|:---------|:---------|:---------|:---------|:------------------------|:--------------------------|:-----|
+#'  |2008  |1951 |7            |14        |26        |12        |2         |3         |8                        |-                          |2023  |
+#'  |Total |1951 |7            |14        |26        |12        |2         |3         |8                        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sexual Orientation

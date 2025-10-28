@@ -32,10 +32,10 @@ Question During the last year, did you make some personal sacrifice as an expres
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4716/vshow}{GSS Data Explorer page for \code{perscrfc}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 658 \tab 360 \tab 993 \tab 5 \tab 7 \tab 2023 \cr
-   Total \tab 658 \tab 360 \tab 993 \tab 5 \tab 7 \tab 2023 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 658 \tab 360 \tab 993 \tab 5 \tab 7 \tab - \tab 2023 \cr
+   Total \tab 658 \tab 360 \tab 993 \tab 5 \tab 7 \tab 0 \tab 2023 \cr
 }
 }
 

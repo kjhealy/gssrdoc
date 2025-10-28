@@ -34,10 +34,10 @@ B. Women with working-class jobs
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1701/vshow}{GSS Data Explorer page for \code{wrkclass}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab improved their life \tab made their life worse \tab had no effect on their life \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 1087 \tab 82 \tab 194 \tab 95 \tab 2 \tab 2904 \cr
-   Total \tab 1444 \tab 1087 \tab 82 \tab 194 \tab 95 \tab 2 \tab 2904 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab improved their life \tab made their life worse \tab had no effect on their life \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 1087 \tab 82 \tab 194 \tab 95 \tab 2 \tab - \tab 2904 \cr
+   Total \tab 1444 \tab 1087 \tab 82 \tab 194 \tab 95 \tab 2 \tab 0 \tab 2904 \cr
 }
 }
 

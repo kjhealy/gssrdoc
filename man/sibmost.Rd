@@ -33,10 +33,10 @@ Question Of your adult brothers and sisters, with whom do you have the most cont
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4185/vshow}{GSS Data Explorer page for \code{sibmost}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab with a brother \tab with a sister \tab i have no contact with any adult brother or sister \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1745 \tab 414 \tab 537 \tab 58 \tab 4 \tab 7 \tab 2765 \cr
-   Total \tab 1745 \tab 414 \tab 537 \tab 58 \tab 4 \tab 7 \tab 2765 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab with a brother \tab with a sister \tab i have no contact with any adult brother or sister \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1745 \tab 414 \tab 537 \tab 58 \tab 4 \tab 7 \tab - \tab 2765 \cr
+   Total \tab 1745 \tab 414 \tab 537 \tab 58 \tab 4 \tab 7 \tab 0 \tab 2765 \cr
 }
 }
 

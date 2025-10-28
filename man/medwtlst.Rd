@@ -33,10 +33,10 @@ Question (During the past 12 months did it ever happen that you did not get the 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7829/vshow}{GSS Data Explorer page for \code{medwtlst}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab yes \tab no \tab did not need medical treatment \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2381 \tab 147 \tab 836 \tab 173 \tab 1 \tab 2 \tab 4 \tab 3544 \cr
-   Total \tab 2381 \tab 147 \tab 836 \tab 173 \tab 1 \tab 2 \tab 4 \tab 3544 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab not available in this year \tab yes \tab no \tab did not need medical treatment \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 147 \tab 836 \tab 173 \tab 1 \tab 2381 \tab 2 \tab 4 \tab 3544 \cr
+   Total \tab 0 \tab 147 \tab 836 \tab 173 \tab 1 \tab 2381 \tab 2 \tab 4 \tab 3544 \cr
 }
 }
 

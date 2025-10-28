@@ -33,10 +33,10 @@ D. Were any of your contributions to organizations involved in the arts, culture
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1142/vshow}{GSS Data Explorer page for \code{givearts}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 2022 \tab 307 \tab 405 \tab 3 \tab 95 \tab 2832 \cr
-   Total \tab 2022 \tab 307 \tab 405 \tab 3 \tab 95 \tab 2832 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2022 \tab 307 \tab 405 \tab 3 \tab 95 \tab - \tab 2832 \cr
+   Total \tab 2022 \tab 307 \tab 405 \tab 3 \tab 95 \tab 0 \tab 2832 \cr
 }
 }
 

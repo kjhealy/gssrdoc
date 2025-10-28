@@ -33,10 +33,10 @@ A2. Immigrants who are in this country illegally?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1637/vshow}{GSS Data Explorer page for \code{wlthundc}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab 1 - rich \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 - poor \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 30 \tab 23 \tab 27 \tab 65 \tab 127 \tab 414 \tab 658 \tab 116 \tab 14 \tab 2992 \cr
-   Total \tab 1518 \tab 30 \tab 23 \tab 27 \tab 65 \tab 127 \tab 414 \tab 658 \tab 116 \tab 14 \tab 2992 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 1 - rich \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 - poor \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 30 \tab 23 \tab 27 \tab 65 \tab 127 \tab 414 \tab 658 \tab 116 \tab 14 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 30 \tab 23 \tab 27 \tab 65 \tab 127 \tab 414 \tab 658 \tab 116 \tab 14 \tab 0 \tab 2992 \cr
 }
 }
 

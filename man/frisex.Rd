@@ -33,10 +33,10 @@ C. Now thinking of your best friend, or the friend you feel closest to: Is this 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4165/vshow}{GSS Data Explorer page for \code{frisex}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab man \tab woman \tab no answer \tab Total \cr
-   1986 \tab 77 \tab 582 \tab 799 \tab 12 \tab 1470 \cr
-   Total \tab 77 \tab 582 \tab 799 \tab 12 \tab 1470 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab man \tab woman \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 77 \tab 582 \tab 799 \tab 12 \tab - \tab 1470 \cr
+   Total \tab 77 \tab 582 \tab 799 \tab 12 \tab 0 \tab 1470 \cr
 }
 }
 

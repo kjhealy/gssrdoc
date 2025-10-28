@@ -32,10 +32,10 @@ Question To clarify, are you the stepparent of at least one individual 18 or old
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8032/vshow}{GSS Data Explorer page for \code{rstpprnt18}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   2022 \tab 3440 \tab 6 \tab 98 \tab 3544 \cr
-   Total \tab 3440 \tab 6 \tab 98 \tab 3544 \cr
+Counts by year:\tabular{llllll}{
+   year \tab not available in this year \tab yes \tab no \tab iap \tab Total \cr
+   2022 \tab - \tab 6 \tab 98 \tab 3440 \tab 3544 \cr
+   Total \tab 0 \tab 6 \tab 98 \tab 3440 \tab 3544 \cr
 }
 }
 

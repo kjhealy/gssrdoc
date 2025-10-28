@@ -34,10 +34,10 @@ Question B. Do you think of yourself as a(n) (ethnic group or groups specified) 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1593/vshow}{GSS Data Explorer page for \code{ethissue}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab all issues \tab most issues \tab some issues \tab just a few issues \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2873 \tab 23 \tab 44 \tab 26 \tab 18 \tab 1 \tab 7 \tab 2992 \cr
-   Total \tab 2873 \tab 23 \tab 44 \tab 26 \tab 18 \tab 1 \tab 7 \tab 2992 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab all issues \tab most issues \tab some issues \tab just a few issues \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2873 \tab 23 \tab 44 \tab 26 \tab 18 \tab 1 \tab 7 \tab - \tab 2992 \cr
+   Total \tab 2873 \tab 23 \tab 44 \tab 26 \tab 18 \tab 1 \tab 7 \tab 0 \tab 2992 \cr
 }
 }
 

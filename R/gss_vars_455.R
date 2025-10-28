@@ -41,10 +41,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |nurse |clergy |paid help |other |no one |no answer |Total |
-#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:-----|:------|:---------|:-----|:------|:---------|:-----|
-#'  |1986  |42  |737    |142    |10     |128      |54  |62     |23      |37             |122            |22           |34       |2        |3     |2      |11        |7     |12     |20        |1470  |
-#'  |Total |42  |737    |142    |10     |128      |54  |62     |23      |37             |122            |22           |34       |2        |3     |2      |11        |7     |12     |20        |1470  |
+#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |nurse |clergy |paid help |other |no one |no answer |not available in this year |Total |
+#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:-----|:------|:---------|:-----|:------|:---------|:--------------------------|:-----|
+#'  |1986  |42  |737    |142    |10     |128      |54  |62     |23      |37             |122            |22           |34       |2        |3     |2      |11        |7     |12     |20        |-                          |1470  |
+#'  |Total |42  |737    |142    |10     |128      |54  |62     |23      |37             |122            |22           |34       |2        |3     |2      |11        |7     |12     |20        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -96,10 +96,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |nurse |clergy |paid help |other |no one |no answer |Total |
-#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:-----|:------|:---------|:-----|:------|:---------|:-----|
-#'  |1986  |42  |51     |146    |50     |181      |141 |111    |59      |126            |217            |95           |123      |26       |14    |1      |14        |4     |37     |32        |1470  |
-#'  |Total |42  |51     |146    |50     |181      |141 |111    |59      |126            |217            |95           |123      |26       |14    |1      |14        |4     |37     |32        |1470  |
+#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |nurse |clergy |paid help |other |no one |no answer |not available in this year |Total |
+#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:-----|:------|:---------|:-----|:------|:---------|:--------------------------|:-----|
+#'  |1986  |42  |51     |146    |50     |181      |141 |111    |59      |126            |217            |95           |123      |26       |14    |1      |14        |4     |37     |32        |-                          |1470  |
+#'  |Total |42  |51     |146    |50     |181      |141 |111    |59      |126            |217            |95           |123      |26       |14    |1      |14        |4     |37     |32        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -154,10 +154,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |coworker |bank |employer |govt or soc ser |other |no one |don't know |no answer |Total |
-#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:----|:--------|:---------------|:-----|:------|:----------|:---------|:-----|
-#'  |1986  |42  |191    |142    |143    |32       |46  |50     |50      |65             |58             |3            |4        |547  |10       |4               |3     |53     |1          |26        |1470  |
-#'  |Total |42  |191    |142    |143    |32       |46  |50     |50      |65             |58             |3            |4        |547  |10       |4               |3     |53     |1          |26        |1470  |
+#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |coworker |bank |employer |govt or soc ser |other |no one |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:----|:--------|:---------------|:-----|:------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |42  |191    |142    |143    |32       |46  |50     |50      |65             |58             |3            |4        |547  |10       |4               |3     |53     |1          |26        |-                          |1470  |
+#'  |Total |42  |191    |142    |143    |32       |46  |50     |50      |65             |58             |3            |4        |547  |10       |4               |3     |53     |1          |26        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -209,10 +209,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |bank |employer |govt or soc ser |other |no one |don't know |no answer |Total |
-#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:----|:--------|:---------------|:-----|:------|:----------|:---------|:-----|
-#'  |1986  |42  |22     |109    |130    |46       |65  |52     |119     |175            |122            |45           |8        |10       |206  |38       |37              |6     |192    |1          |45        |1470  |
-#'  |Total |42  |22     |109    |130    |46       |65  |52     |119     |175            |122            |45           |8        |10       |206  |38       |37              |6     |192    |1          |45        |1470  |
+#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |bank |employer |govt or soc ser |other |no one |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:----|:--------|:---------------|:-----|:------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |42  |22     |109    |130    |46       |65  |52     |119     |175            |122            |45           |8        |10       |206  |38       |37              |6     |192    |1          |45        |-                          |1470  |
+#'  |Total |42  |22     |109    |130    |46       |65  |52     |119     |175            |122            |45           |8        |10       |206  |38       |37              |6     |192    |1          |45        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -267,10 +267,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |clergy |family doctor |prof counselor |other |no one |no answer |Total |
-#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:------|:-------------|:--------------|:-----|:------|:---------|:-----|
-#'  |1986  |42  |101    |167    |35     |90       |52  |114    |45      |52             |381            |18           |7        |8        |187    |15            |55             |3     |67     |31        |1470  |
-#'  |Total |42  |101    |167    |35     |90       |52  |114    |45      |52             |381            |18           |7        |8        |187    |15            |55             |3     |67     |31        |1470  |
+#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |clergy |family doctor |prof counselor |other |no one |no answer |not available in this year |Total |
+#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:------|:-------------|:--------------|:-----|:------|:---------|:--------------------------|:-----|
+#'  |1986  |42  |101    |167    |35     |90       |52  |114    |45      |52             |381            |18           |7        |8        |187    |15            |55             |3     |67     |31        |-                          |1470  |
+#'  |Total |42  |101    |167    |35     |90       |52  |114    |45      |52             |381            |18           |7        |8        |187    |15            |55             |3     |67     |31        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -322,10 +322,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |clergy |family doctor |prof counselor |other |no one |don't know |no answer |Total |
-#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:------|:-------------|:--------------|:-----|:------|:----------|:---------|:-----|
-#'  |1986  |42  |17     |104    |51     |54       |62  |99     |69      |110            |229            |126          |18       |17       |139    |52            |94             |3     |134    |2          |48        |1470  |
-#'  |Total |42  |17     |104    |51     |54       |62  |99     |69      |110            |229            |126          |18       |17       |139    |52            |94             |3     |134    |2          |48        |1470  |
+#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |clergy |family doctor |prof counselor |other |no one |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:------|:-------------|:--------------|:-----|:------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |42  |17     |104    |51     |54       |62  |99     |69      |110            |229            |126          |18       |17       |139    |52            |94             |3     |134    |2          |48        |-                          |1470  |
+#'  |Total |42  |17     |104    |51     |54       |62  |99     |69      |110            |229            |126          |18       |17       |139    |52            |94             |3     |134    |2          |48        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -380,10 +380,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |clergy |family doctor |prof counselor |other |no one |no answer |Total |
-#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:------|:-------------|:--------------|:-----|:------|:---------|:-----|
-#'  |1986  |42  |570    |75     |13     |73       |20  |87     |25      |24             |363            |17           |12       |9        |66     |14            |11             |4     |34     |11        |1470  |
-#'  |Total |42  |570    |75     |13     |73       |20  |87     |25      |24             |363            |17           |12       |9        |66     |14            |11             |4     |34     |11        |1470  |
+#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |clergy |family doctor |prof counselor |other |no one |no answer |not available in this year |Total |
+#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:------|:-------------|:--------------|:-----|:------|:---------|:--------------------------|:-----|
+#'  |1986  |42  |570    |75     |13     |73       |20  |87     |25      |24             |363            |17           |12       |9        |66     |14            |11             |4     |34     |11        |-                          |1470  |
+#'  |Total |42  |570    |75     |13     |73       |20  |87     |25      |24             |363            |17           |12       |9        |66     |14            |11             |4     |34     |11        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -435,10 +435,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |clergy |family doctor |prof counselor |other |no one |no answer |Total |
-#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:------|:-------------|:--------------|:-----|:------|:---------|:-----|
-#'  |1986  |42  |82     |138    |29     |84       |63  |108    |64      |61             |349            |157          |34       |28       |66     |37            |29             |3     |71     |25        |1470  |
-#'  |Total |42  |82     |138    |29     |84       |63  |108    |64      |61             |349            |157          |34       |28       |66     |37            |29             |3     |71     |25        |1470  |
+#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |clergy |family doctor |prof counselor |other |no one |no answer |not available in this year |Total |
+#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:------|:-------------|:--------------|:-----|:------|:---------|:--------------------------|:-----|
+#'  |1986  |42  |82     |138    |29     |84       |63  |108    |64      |61             |349            |157          |34       |28       |66     |37            |29             |3     |71     |25        |-                          |1470  |
+#'  |Total |42  |82     |138    |29     |84       |63  |108    |64      |61             |349            |157          |34       |28       |66     |37            |29             |3     |71     |25        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -494,10 +494,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |clergy |family doctor |prof counselor |lawyer |other |no one |don't know |no answer |Total |
-#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:------|:-------------|:--------------|:------|:-----|:------|:----------|:---------|:-----|
-#'  |1986  |42  |688    |122    |58     |78       |63  |52     |35      |31             |153            |6            |7        |10       |32     |2             |13             |7      |10    |46     |2          |13        |1470  |
-#'  |Total |42  |688    |122    |58     |78       |63  |52     |35      |31             |153            |6            |7        |10       |32     |2             |13             |7      |10    |46     |2          |13        |1470  |
+#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |clergy |family doctor |prof counselor |lawyer |other |no one |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:------|:-------------|:--------------|:------|:-----|:------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |42  |688    |122    |58     |78       |63  |52     |35      |31             |153            |6            |7        |10       |32     |2             |13             |7      |10    |46     |2          |13        |-                          |1470  |
+#'  |Total |42  |688    |122    |58     |78       |63  |52     |35      |31             |153            |6            |7        |10       |32     |2             |13             |7      |10    |46     |2          |13        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -550,10 +550,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |clergy |family doctor |prof counselor |lawyer |other |no one |don't know |no answer |Total |
-#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:------|:-------------|:--------------|:------|:-----|:------|:----------|:---------|:-----|
-#'  |1986  |42  |47     |180    |141    |93       |123 |87     |75      |114            |256            |62           |19       |28       |49     |7             |7              |13     |9     |80     |3          |35        |1470  |
-#'  |Total |42  |47     |180    |141    |93       |123 |87     |75      |114            |256            |62           |19       |28       |49     |7             |7              |13     |9     |80     |3          |35        |1470  |
+#'  |year  |iap |spouse |mother |father |daughter |son |sister |brother |other relative |closest friend |other friend |neighbor |coworker |clergy |family doctor |prof counselor |lawyer |other |no one |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:------|:------|:------|:--------|:---|:------|:-------|:--------------|:--------------|:------------|:--------|:--------|:------|:-------------|:--------------|:------|:-----|:------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |42  |47     |180    |141    |93       |123 |87     |75      |114            |256            |62           |19       |28       |49     |7             |7              |13     |9     |80     |3          |35        |-                          |1470  |
+#'  |Total |42  |47     |180    |141    |93       |123 |87     |75      |114            |256            |62           |19       |28       |49     |7             |7              |13     |9     |80     |3          |35        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems

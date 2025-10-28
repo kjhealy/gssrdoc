@@ -50,10 +50,10 @@ Question THIRD MENTION:
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6284/vshow}{GSS Data Explorer page for \code{snsmot2c}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab youtube \tab viber \tab kik \tab hangouts \tab other social networks \tab not a social network \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2845 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 1 \tab 11 \tab 2867 \cr
-   Total \tab 2845 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 1 \tab 11 \tab 2867 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab youtube \tab viber \tab kik \tab hangouts \tab other social networks \tab not a social network \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2845 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 1 \tab 11 \tab - \tab 2867 \cr
+   Total \tab 2845 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 1 \tab 11 \tab 0 \tab 2867 \cr
 }
 }
 

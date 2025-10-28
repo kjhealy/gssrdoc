@@ -35,10 +35,11 @@ Question E. In your opinion, how likely is it that (John/Mary)'s situation MIGHT
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2925/vshow}{GSS Data Explorer page for \code{raised}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 289 \tab 615 \tab 246 \tab 201 \tab 32 \tab 10 \tab 2765 \cr
-   Total \tab 1372 \tab 289 \tab 615 \tab 246 \tab 201 \tab 32 \tab 10 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2002 \tab 1372 \tab 289 \tab 615 \tab 246 \tab 201 \tab 32 \tab 10 \tab - \tab - \tab 2765 \cr
+   2024 \tab 1660 \tab 301 \tab 879 \tab 299 \tab 111 \tab 31 \tab 4 \tab - \tab 24 \tab 3309 \cr
+   Total \tab 3032 \tab 590 \tab 1494 \tab 545 \tab 312 \tab 63 \tab 14 \tab 0 \tab 24 \tab 6074 \cr
 }
 }
 

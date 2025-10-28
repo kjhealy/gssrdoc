@@ -35,10 +35,10 @@ Question What about the number of immigrants from Europe? (should it be increase
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2306/vshow}{GSS Data Explorer page for \code{letineur}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab increased a lot \tab increased a little \tab left the same as it is now \tab decreased a little \tab decreased a lot \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 40 \tab 90 \tab 717 \tab 225 \tab 232 \tab 90 \tab 4 \tab 2817 \cr
-   Total \tab 1419 \tab 40 \tab 90 \tab 717 \tab 225 \tab 232 \tab 90 \tab 4 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab increased a lot \tab increased a little \tab left the same as it is now \tab decreased a little \tab decreased a lot \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 40 \tab 90 \tab 717 \tab 225 \tab 232 \tab 90 \tab 4 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 40 \tab 90 \tab 717 \tab 225 \tab 232 \tab 90 \tab 4 \tab 0 \tab 2817 \cr
 }
 }
 

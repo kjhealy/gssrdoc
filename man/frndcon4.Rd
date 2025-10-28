@@ -40,10 +40,10 @@ Is (NAME) a member of your congregation?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1106/vshow}{GSS Data Explorer page for \code{frndcon4}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab yes \tab no \tab r isnt in congregtn \tab friend, no info \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 2046 \tab 141 \tab 427 \tab 148 \tab 3 \tab 10 \tab 57 \tab 2832 \cr
-   Total \tab 2046 \tab 141 \tab 427 \tab 148 \tab 3 \tab 10 \tab 57 \tab 2832 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab yes \tab no \tab r isnt in congregtn \tab friend, no info \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2046 \tab 141 \tab 427 \tab 148 \tab 3 \tab 10 \tab 57 \tab - \tab 2832 \cr
+   Total \tab 2046 \tab 141 \tab 427 \tab 148 \tab 3 \tab 10 \tab 57 \tab 0 \tab 2832 \cr
 }
 }
 

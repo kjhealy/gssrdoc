@@ -35,16 +35,16 @@ Question Did you take a high school physics course?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3354/vshow}{GSS Data Explorer page for \code{hsphys}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2690 \tab 555 \tab 1222 \tab 11 \tab 32 \tab 4510 \cr
-   2008 \tab 597 \tab 432 \tab 979 \tab 12 \tab 3 \tab 2023 \cr
-   2010 \tab 1370 \tab 203 \tab 406 \tab 1 \tab 64 \tab 2044 \cr
-   2012 \tab 1068 \tab 307 \tab 577 \tab 19 \tab 3 \tab 1974 \cr
-   2014 \tab 1348 \tab 382 \tab 796 \tab 11 \tab 1 \tab 2538 \cr
-   2016 \tab 1532 \tab 416 \tab 898 \tab 13 \tab 8 \tab 2867 \cr
-   2018 \tab 1222 \tab 398 \tab 711 \tab 14 \tab 3 \tab 2348 \cr
-   Total \tab 9827 \tab 2693 \tab 5589 \tab 81 \tab 114 \tab 18304 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2690 \tab 555 \tab 1222 \tab 11 \tab 32 \tab - \tab 4510 \cr
+   2008 \tab 597 \tab 432 \tab 979 \tab 12 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 1370 \tab 203 \tab 406 \tab 1 \tab 64 \tab - \tab 2044 \cr
+   2012 \tab 1068 \tab 307 \tab 577 \tab 19 \tab 3 \tab - \tab 1974 \cr
+   2014 \tab 1348 \tab 382 \tab 796 \tab 11 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 1532 \tab 416 \tab 898 \tab 13 \tab 8 \tab - \tab 2867 \cr
+   2018 \tab 1222 \tab 398 \tab 711 \tab 14 \tab 3 \tab - \tab 2348 \cr
+   Total \tab 9827 \tab 2693 \tab 5589 \tab 81 \tab 114 \tab 0 \tab 18304 \cr
 }
 }
 

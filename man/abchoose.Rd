@@ -36,10 +36,10 @@ C. A pregnant woman should be able to obtain a legal abortion for any reason wha
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4414/vshow}{GSS Data Explorer page for \code{abchoose}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1994 \tab 1545 \tab 257 \tab 349 \tab 126 \tab 287 \tab 313 \tab 34 \tab 81 \tab 2992 \cr
-   Total \tab 1545 \tab 257 \tab 349 \tab 126 \tab 287 \tab 313 \tab 34 \tab 81 \tab 2992 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1545 \tab 257 \tab 349 \tab 126 \tab 287 \tab 313 \tab 34 \tab 81 \tab - \tab 2992 \cr
+   Total \tab 1545 \tab 257 \tab 349 \tab 126 \tab 287 \tab 313 \tab 34 \tab 81 \tab 0 \tab 2992 \cr
 }
 }
 

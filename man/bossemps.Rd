@@ -38,14 +38,14 @@ A. between management and employees?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4559/vshow}{GSS Data Explorer page for \code{bossemps}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very good \tab quite good \tab neither good nor bad \tab quite bad \tab very bad \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 191 \tab 392 \tab 210 \tab 46 \tab 12 \tab 21 \tab 26 \tab 1537 \cr
-   1998 \tab 1967 \tab 222 \tab 345 \tab 178 \tab 42 \tab 18 \tab 20 \tab 40 \tab 2832 \cr
-   2006 \tab 3492 \tab 334 \tab 360 \tab 232 \tab 61 \tab 24 \tab 4 \tab 3 \tab 4510 \cr
-   2012 \tab 795 \tab 350 \tab 446 \tab 254 \tab 56 \tab 13 \tab 24 \tab 36 \tab 1974 \cr
-   2016 \tab 1927 \tab 310 \tab 344 \tab 205 \tab 55 \tab 10 \tab 8 \tab 8 \tab 2867 \cr
-   Total \tab 8820 \tab 1407 \tab 1887 \tab 1079 \tab 260 \tab 77 \tab 77 \tab 113 \tab 13720 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very good \tab quite good \tab neither good nor bad \tab quite bad \tab very bad \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 191 \tab 392 \tab 210 \tab 46 \tab 12 \tab 21 \tab 26 \tab - \tab 1537 \cr
+   1998 \tab 1967 \tab 222 \tab 345 \tab 178 \tab 42 \tab 18 \tab 20 \tab 40 \tab - \tab 2832 \cr
+   2006 \tab 3492 \tab 334 \tab 360 \tab 232 \tab 61 \tab 24 \tab 4 \tab 3 \tab - \tab 4510 \cr
+   2012 \tab 795 \tab 350 \tab 446 \tab 254 \tab 56 \tab 13 \tab 24 \tab 36 \tab - \tab 1974 \cr
+   2016 \tab 1927 \tab 310 \tab 344 \tab 205 \tab 55 \tab 10 \tab 8 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 8820 \tab 1407 \tab 1887 \tab 1079 \tab 260 \tab 77 \tab 77 \tab 113 \tab 0 \tab 13720 \cr
 }
 }
 

@@ -37,8 +37,9 @@ For further details see the \href{https://gssdataexplorer.norc.org/variables/755
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab strongly disagree \tab somewhat disagree \tab somewhat agree \tab strongly agree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
    2021 \tab 1713 \tab 1249 \tab 508 \tab 270 \tab 147 \tab 126 \tab 4 \tab 15 \tab 4032 \cr
-   2022 \tab 1900 \tab 792 \tab 328 \tab 273 \tab 129 \tab 80 \tab 8 \tab 34 \tab 3544 \cr
-   Total \tab 3613 \tab 2041 \tab 836 \tab 543 \tab 276 \tab 206 \tab 12 \tab 49 \tab 7576 \cr
+   2022 \tab 1929 \tab 789 \tab 327 \tab 273 \tab 128 \tab 79 \tab 2 \tab 17 \tab 3544 \cr
+   2024 \tab 1188 \tab 937 \tab 418 \tab 372 \tab 205 \tab 127 \tab 11 \tab 51 \tab 3309 \cr
+   Total \tab 4830 \tab 2975 \tab 1253 \tab 915 \tab 480 \tab 332 \tab 17 \tab 83 \tab 10885 \cr
 }
 }
 

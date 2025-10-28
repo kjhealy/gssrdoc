@@ -32,10 +32,10 @@ Question Do you have any other physical disability?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3715/vshow}{GSS Data Explorer page for \code{disabld4}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 1714 \tab 296 \tab 2483 \tab 2 \tab 15 \tab 4510 \cr
-   Total \tab 1714 \tab 296 \tab 2483 \tab 2 \tab 15 \tab 4510 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 1714 \tab 296 \tab 2483 \tab 2 \tab 15 \tab - \tab 4510 \cr
+   Total \tab 1714 \tab 296 \tab 2483 \tab 2 \tab 15 \tab 0 \tab 4510 \cr
 }
 }
 

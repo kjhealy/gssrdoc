@@ -36,11 +36,11 @@ B. Tap his telephone.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3995/vshow}{GSS Data Explorer page for \code{crimtap}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 148 \tab 144 \tab 157 \tab 182 \tab 29 \tab 17 \tab 1534 \cr
-   1990 \tab 155 \tab 227 \tab 317 \tab 299 \tab 270 \tab 40 \tab 64 \tab 1372 \cr
-   Total \tab 1012 \tab 375 \tab 461 \tab 456 \tab 452 \tab 69 \tab 81 \tab 2906 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 148 \tab 144 \tab 157 \tab 182 \tab 29 \tab 17 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 227 \tab 317 \tab 299 \tab 270 \tab 40 \tab 64 \tab - \tab 1372 \cr
+   Total \tab 1012 \tab 375 \tab 461 \tab 456 \tab 452 \tab 69 \tab 81 \tab 0 \tab 2906 \cr
 }
 }
 

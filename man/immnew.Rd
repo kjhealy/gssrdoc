@@ -35,10 +35,10 @@ B. Making the country more open to new ideas and cultures?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2308/vshow}{GSS Data Explorer page for \code{immnew}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 362 \tab 658 \tab 240 \tab 76 \tab 53 \tab 9 \tab 2817 \cr
-   Total \tab 1419 \tab 362 \tab 658 \tab 240 \tab 76 \tab 53 \tab 9 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 362 \tab 658 \tab 240 \tab 76 \tab 53 \tab 9 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 362 \tab 658 \tab 240 \tab 76 \tab 53 \tab 9 \tab 0 \tab 2817 \cr
 }
 }
 

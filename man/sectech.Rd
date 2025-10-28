@@ -35,12 +35,12 @@ Question In order to maintain America's leadership in the world, the government 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5205/vshow}{GSS Data Explorer page for \code{sectech}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 501 \tab 601 \tab 169 \tab 105 \tab 45 \tab 47 \tab 6 \tab 2992 \cr
-   1996 \tab 1444 \tab 455 \tab 579 \tab 142 \tab 171 \tab 60 \tab 46 \tab 7 \tab 2904 \cr
-   1998 \tab 1445 \tab 446 \tab 511 \tab 160 \tab 152 \tab 51 \tab 59 \tab 8 \tab 2832 \cr
-   Total \tab 4407 \tab 1402 \tab 1691 \tab 471 \tab 428 \tab 156 \tab 152 \tab 21 \tab 8728 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 501 \tab 601 \tab 169 \tab 105 \tab 45 \tab 47 \tab 6 \tab - \tab 2992 \cr
+   1996 \tab 1444 \tab 455 \tab 579 \tab 142 \tab 171 \tab 60 \tab 46 \tab 7 \tab - \tab 2904 \cr
+   1998 \tab 1445 \tab 446 \tab 511 \tab 160 \tab 152 \tab 51 \tab 59 \tab 8 \tab - \tab 2832 \cr
+   Total \tab 4407 \tab 1402 \tab 1691 \tab 471 \tab 428 \tab 156 \tab 152 \tab 21 \tab 0 \tab 8728 \cr
 }
 }
 

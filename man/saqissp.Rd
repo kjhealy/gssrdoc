@@ -35,14 +35,14 @@ Question A. R did ISSP Module
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5556/vshow}{GSS Data Explorer page for \code{saqissp}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab r did issp \tab administered by interviewer \tab promised, but did not do \tab r did not do issp \tab r did, but not sure mode \tab Total \cr
-   1996 \tab - \tab 1858 \tab 521 \tab 74 \tab 131 \tab 320 \tab 2904 \cr
-   1998 \tab - \tab 1859 \tab 342 \tab 94 \tab 231 \tab 306 \tab 2832 \cr
-   2000 \tab - \tab 1920 \tab 212 \tab 107 \tab 162 \tab 416 \tab 2817 \cr
-   2002 \tab - \tab 1765 \tab 555 \tab - \tab 445 \tab - \tab 2765 \cr
-   2004 \tab 1340 \tab 882 \tab 334 \tab - \tab 256 \tab - \tab 2812 \cr
-   Total \tab 1340 \tab 8284 \tab 1964 \tab 275 \tab 1225 \tab 1042 \tab 14130 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab r did issp \tab administered by interviewer \tab promised, but did not do \tab r did not do issp \tab r did, but not sure mode \tab not available in this year \tab Total \cr
+   1996 \tab - \tab 1858 \tab 521 \tab 74 \tab 131 \tab 320 \tab - \tab 2904 \cr
+   1998 \tab - \tab 1859 \tab 342 \tab 94 \tab 231 \tab 306 \tab - \tab 2832 \cr
+   2000 \tab - \tab 1920 \tab 212 \tab 107 \tab 162 \tab 416 \tab - \tab 2817 \cr
+   2002 \tab - \tab 1765 \tab 555 \tab - \tab 445 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1340 \tab 882 \tab 334 \tab - \tab 256 \tab - \tab - \tab 2812 \cr
+   Total \tab 1340 \tab 8284 \tab 1964 \tab 275 \tab 1225 \tab 1042 \tab 0 \tab 14130 \cr
 }
 }
 

@@ -34,10 +34,10 @@ Question On the whole, do you think our economic system is...
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1879/vshow}{GSS Data Explorer page for \code{econsys}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab the best possible \tab ok but need some tinkering \tab need fundamental changes \tab need to be replaced \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 104 \tab 639 \tab 537 \tab 113 \tab 43 \tab 8 \tab 2904 \cr
-   Total \tab 1460 \tab 104 \tab 639 \tab 537 \tab 113 \tab 43 \tab 8 \tab 2904 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab the best possible \tab ok but need some tinkering \tab need fundamental changes \tab need to be replaced \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1460 \tab 104 \tab 639 \tab 537 \tab 113 \tab 43 \tab 8 \tab - \tab 2904 \cr
+   Total \tab 1460 \tab 104 \tab 639 \tab 537 \tab 113 \tab 43 \tab 8 \tab 0 \tab 2904 \cr
 }
 }
 

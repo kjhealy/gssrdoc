@@ -37,10 +37,10 @@ Question To what extent is the following statement true or untrue for you? It is
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7274/vshow}{GSS Data Explorer page for \code{mygoals}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab completely true \tab mostly true \tab somewhat true \tab neither true nor untrue \tab somewhat untrue \tab mostly untrue \tab completely untrue \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 143 \tab 475 \tab 345 \tab 104 \tab 60 \tab 29 \tab 11 \tab 5 \tab 1 \tab 2348 \cr
-   Total \tab 1175 \tab 143 \tab 475 \tab 345 \tab 104 \tab 60 \tab 29 \tab 11 \tab 5 \tab 1 \tab 2348 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab completely true \tab mostly true \tab somewhat true \tab neither true nor untrue \tab somewhat untrue \tab mostly untrue \tab completely untrue \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 143 \tab 475 \tab 345 \tab 104 \tab 60 \tab 29 \tab 11 \tab 5 \tab 1 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 143 \tab 475 \tab 345 \tab 104 \tab 60 \tab 29 \tab 11 \tab 5 \tab 1 \tab 0 \tab 2348 \cr
 }
 }
 

@@ -33,11 +33,11 @@ C. Go to a live performance of a non-musical stage play, not including school pe
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2131/vshow}{GSS Data Explorer page for \code{drama}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 339 \tab 1095 \tab 1 \tab 10 \tab 2832 \cr
-   2002 \tab - \tab 776 \tab 1962 \tab 15 \tab 12 \tab 2765 \cr
-   Total \tab 1387 \tab 1115 \tab 3057 \tab 16 \tab 22 \tab 5597 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 339 \tab 1095 \tab 1 \tab 10 \tab - \tab 2832 \cr
+   2002 \tab - \tab 776 \tab 1962 \tab 15 \tab 12 \tab - \tab 2765 \cr
+   Total \tab 1387 \tab 1115 \tab 3057 \tab 16 \tab 22 \tab 0 \tab 5597 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question How willing would you be to accept a reduction in the size of America's
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7489/vshow}{GSS Data Explorer page for \code{naturdev}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab very willing \tab fairly willing \tab neither willing nor unwilling \tab fairly unwilling \tab very unwilling \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2003 \tab 28 \tab 159 \tab 303 \tab 513 \tab 768 \tab 71 \tab 176 \tab 11 \tab 4032 \cr
-   Total \tab 2003 \tab 28 \tab 159 \tab 303 \tab 513 \tab 768 \tab 71 \tab 176 \tab 11 \tab 4032 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab very willing \tab fairly willing \tab neither willing nor unwilling \tab fairly unwilling \tab very unwilling \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2003 \tab 28 \tab 159 \tab 303 \tab 513 \tab 768 \tab 71 \tab 176 \tab 11 \tab - \tab 4032 \cr
+   Total \tab 2003 \tab 28 \tab 159 \tab 303 \tab 513 \tab 768 \tab 71 \tab 176 \tab 11 \tab 0 \tab 4032 \cr
 }
 }
 

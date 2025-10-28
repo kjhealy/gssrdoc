@@ -32,10 +32,10 @@ Question According to the theory of evolution, human beings, as we know them tod
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3549/vshow}{GSS Data Explorer page for \code{evolved1}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab true \tab false \tab can't choose \tab no answer \tab Total \cr
-   2012 \tab 1489 \tab 340 \tab 94 \tab 46 \tab 5 \tab 1974 \cr
-   Total \tab 1489 \tab 340 \tab 94 \tab 46 \tab 5 \tab 1974 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab true \tab false \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1489 \tab 340 \tab 94 \tab 46 \tab 5 \tab - \tab 1974 \cr
+   Total \tab 1489 \tab 340 \tab 94 \tab 46 \tab 5 \tab 0 \tab 1974 \cr
 }
 }
 

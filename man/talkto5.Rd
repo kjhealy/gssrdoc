@@ -36,11 +36,11 @@ Question Thinking about how often you usually talk to (NAME), on the average, Do
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/934/vshow}{GSS Data Explorer page for \code{talkto5}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab almost daily \tab once a week \tab once a month \tab lt once a month \tab no answer \tab Total \cr
-   1985 \tab 1153 \tab 135 \tab 137 \tab 72 \tab 34 \tab 3 \tab 1534 \cr
-   2004 \tab 2600 \tab 54 \tab 61 \tab 39 \tab 12 \tab 46 \tab 2812 \cr
-   Total \tab 3753 \tab 189 \tab 198 \tab 111 \tab 46 \tab 49 \tab 4346 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost daily \tab once a week \tab once a month \tab lt once a month \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 1153 \tab 135 \tab 137 \tab 72 \tab 34 \tab 3 \tab - \tab 1534 \cr
+   2004 \tab 2600 \tab 54 \tab 61 \tab 39 \tab 12 \tab 46 \tab - \tab 2812 \cr
+   Total \tab 3753 \tab 189 \tab 198 \tab 111 \tab 46 \tab 49 \tab 0 \tab 4346 \cr
 }
 }
 

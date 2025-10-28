@@ -36,10 +36,10 @@ Question Do you consider the amount of federal income tax that your household ha
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4065/vshow}{GSS Data Explorer page for \code{inctax}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab much too high \tab too high \tab about right \tab too low \tab does not apply \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 163 \tab 247 \tab 199 \tab 4 \tab 34 \tab 18 \tab 12 \tab 1534 \cr
-   Total \tab 857 \tab 163 \tab 247 \tab 199 \tab 4 \tab 34 \tab 18 \tab 12 \tab 1534 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much too high \tab too high \tab about right \tab too low \tab does not apply \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 163 \tab 247 \tab 199 \tab 4 \tab 34 \tab 18 \tab 12 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 163 \tab 247 \tab 199 \tab 4 \tab 34 \tab 18 \tab 12 \tab 0 \tab 1534 \cr
 }
 }
 

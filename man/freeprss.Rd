@@ -34,10 +34,10 @@ READ STATEMENTS 1-3 ONLY. CIRCLE ONLY ONE CODE.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2674/vshow}{GSS Data Explorer page for \code{freeprss}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab there should be complete freedom of the press, even if \tab the press should develop a code of ethics to keep it \tab the government should keep the press from printing \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 292 \tab 879 \tab 200 \tab 31 \tab 17 \tab 2817 \cr
-   Total \tab 1398 \tab 292 \tab 879 \tab 200 \tab 31 \tab 17 \tab 2817 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab there should be complete freedom of the press, even if \tab the press should develop a code of ethics to keep it \tab the government should keep the press from printing \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 292 \tab 879 \tab 200 \tab 31 \tab 17 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 292 \tab 879 \tab 200 \tab 31 \tab 17 \tab 0 \tab 2817 \cr
 }
 }
 

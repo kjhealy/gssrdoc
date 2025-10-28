@@ -36,10 +36,10 @@ D. Blues or Rhythm and Blues
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1390/vshow}{GSS Data Explorer page for \code{blues}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab like very much \tab like it \tab mixed feelings \tab dislike it \tab dislike very much \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 221 \tab 669 \tab 367 \tab 220 \tab 61 \tab 56 \tab 12 \tab 1606 \cr
-   Total \tab 0 \tab 221 \tab 669 \tab 367 \tab 220 \tab 61 \tab 56 \tab 12 \tab 1606 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab like very much \tab like it \tab mixed feelings \tab dislike it \tab dislike very much \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 221 \tab 669 \tab 367 \tab 220 \tab 61 \tab 56 \tab 12 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 221 \tab 669 \tab 367 \tab 220 \tab 61 \tab 56 \tab 12 \tab 0 \tab 1606 \cr
 }
 }
 

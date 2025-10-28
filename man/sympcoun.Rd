@@ -36,10 +36,10 @@ C. Sympathetic counseling
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1163/vshow}{GSS Data Explorer page for \code{sympcoun}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1831 \tab 253 \tab 263 \tab 197 \tab 62 \tab 15 \tab 122 \tab 74 \tab 2817 \cr
-   Total \tab 1831 \tab 253 \tab 263 \tab 197 \tab 62 \tab 15 \tab 122 \tab 74 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1831 \tab 253 \tab 263 \tab 197 \tab 62 \tab 15 \tab 122 \tab 74 \tab - \tab 2817 \cr
+   Total \tab 1831 \tab 253 \tab 263 \tab 197 \tab 62 \tab 15 \tab 122 \tab 74 \tab 0 \tab 2817 \cr
 }
 }
 

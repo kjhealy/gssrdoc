@@ -35,10 +35,10 @@ D3. Relation to R. of third sibling
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1565/vshow}{GSS Data Explorer page for \code{sbrel3}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab full \tab adopted \tab step \tab half \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1297 \tab 1401 \tab 12 \tab 73 \tab 162 \tab 1 \tab 46 \tab 2992 \cr
-   Total \tab 1297 \tab 1401 \tab 12 \tab 73 \tab 162 \tab 1 \tab 46 \tab 2992 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab full \tab adopted \tab step \tab half \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1297 \tab 1401 \tab 12 \tab 73 \tab 162 \tab 1 \tab 46 \tab - \tab 2992 \cr
+   Total \tab 1297 \tab 1401 \tab 12 \tab 73 \tab 162 \tab 1 \tab 46 \tab 0 \tab 2992 \cr
 }
 }
 

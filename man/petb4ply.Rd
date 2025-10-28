@@ -34,10 +34,10 @@ Question Thinking about your favorite pet, how often did you spend time each day
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7220/vshow}{GSS Data Explorer page for \code{petb4ply}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab almost always \tab often \tab sometimes \tab never \tab no answer \tab Total \cr
-   2018 \tab 2144 \tab 92 \tab 41 \tab 32 \tab 16 \tab 23 \tab 2348 \cr
-   Total \tab 2144 \tab 92 \tab 41 \tab 32 \tab 16 \tab 23 \tab 2348 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost always \tab often \tab sometimes \tab never \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 2144 \tab 92 \tab 41 \tab 32 \tab 16 \tab 23 \tab - \tab 2348 \cr
+   Total \tab 2144 \tab 92 \tab 41 \tab 32 \tab 16 \tab 23 \tab 0 \tab 2348 \cr
 }
 }
 

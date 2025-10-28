@@ -37,10 +37,10 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7950/vshow}{GSS Data Explorer page for \code{vaxsafe}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab skipped on web \tab Total \cr
-   2022 \tab 2309 \tab 407 \tab 430 \tab 332 \tab 43 \tab 20 \tab 3 \tab 3544 \cr
-   Total \tab 2309 \tab 407 \tab 430 \tab 332 \tab 43 \tab 20 \tab 3 \tab 3544 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab not available in this year \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 407 \tab 430 \tab 332 \tab 43 \tab 20 \tab 2309 \tab 3 \tab 3544 \cr
+   Total \tab 0 \tab 407 \tab 430 \tab 332 \tab 43 \tab 20 \tab 2309 \tab 3 \tab 3544 \cr
 }
 }
 

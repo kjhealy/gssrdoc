@@ -36,11 +36,11 @@ Question A. When it comes to your religious identity, would you say you are a fu
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5325/vshow}{GSS Data Explorer page for \code{religid}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab fundamentalist \tab evangelical \tab mainline \tab liberal \tab none \tab other \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1240 \tab 162 \tab 208 \tab 286 \tab 265 \tab 561 \tab 51 \tab 14 \tab 117 \tab 2904 \cr
-   1998 \tab 2019 \tab 74 \tab 95 \tab 118 \tab 122 \tab 232 \tab 34 \tab 17 \tab 121 \tab 2832 \cr
-   Total \tab 3259 \tab 236 \tab 303 \tab 404 \tab 387 \tab 793 \tab 85 \tab 31 \tab 238 \tab 5736 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab fundamentalist \tab evangelical \tab mainline \tab liberal \tab none \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1240 \tab 162 \tab 208 \tab 286 \tab 265 \tab 561 \tab 51 \tab 14 \tab 117 \tab - \tab 2904 \cr
+   1998 \tab 2019 \tab 74 \tab 95 \tab 118 \tab 122 \tab 232 \tab 34 \tab 17 \tab 121 \tab - \tab 2832 \cr
+   Total \tab 3259 \tab 236 \tab 303 \tab 404 \tab 387 \tab 793 \tab 85 \tab 31 \tab 238 \tab 0 \tab 5736 \cr
 }
 }
 

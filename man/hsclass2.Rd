@@ -46,10 +46,10 @@ Question B. When you were in high school/In high school), what (was/is) your fav
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1453/vshow}{GSS Data Explorer page for \code{hsclass2}}.
 
-Counts by year:\tabular{llllllllllllllllll}{
-   year \tab iap \tab foreign language \tab fine arts \tab other humanities \tab economics \tab psychology \tab government-civics \tab social science-other social study \tab mathematics \tab science \tab other \tab business \tab education \tab engineering \tab other vocational \tab no answer \tab Total \cr
-   1993 \tab 1303 \tab 4 \tab 21 \tab 3 \tab 3 \tab 10 \tab 8 \tab 29 \tab 64 \tab 69 \tab 61 \tab 10 \tab 1 \tab 4 \tab 11 \tab 5 \tab 1606 \cr
-   Total \tab 1303 \tab 4 \tab 21 \tab 3 \tab 3 \tab 10 \tab 8 \tab 29 \tab 64 \tab 69 \tab 61 \tab 10 \tab 1 \tab 4 \tab 11 \tab 5 \tab 1606 \cr
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab foreign language \tab fine arts \tab other humanities \tab economics \tab psychology \tab government-civics \tab social science-other social study \tab mathematics \tab science \tab other \tab business \tab education \tab engineering \tab other vocational \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 1303 \tab 4 \tab 21 \tab 3 \tab 3 \tab 10 \tab 8 \tab 29 \tab 64 \tab 69 \tab 61 \tab 10 \tab 1 \tab 4 \tab 11 \tab 5 \tab - \tab 1606 \cr
+   Total \tab 1303 \tab 4 \tab 21 \tab 3 \tab 3 \tab 10 \tab 8 \tab 29 \tab 64 \tab 69 \tab 61 \tab 10 \tab 1 \tab 4 \tab 11 \tab 5 \tab 0 \tab 1606 \cr
 }
 }
 

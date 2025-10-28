@@ -36,16 +36,16 @@ J. Now, does the Earth go around the Sun, or does the Sun go around the Earth?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3343/vshow}{GSS Data Explorer page for \code{earthsun}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab earth around sun \tab sun around earth \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 1372 \tab 342 \tab 149 \tab 1 \tab 4510 \cr
-   2008 \tab 518 \tab 1073 \tab 311 \tab 112 \tab 9 \tab 2023 \cr
-   2010 \tab 1103 \tab 699 \tab 169 \tab 71 \tab 2 \tab 2044 \cr
-   2012 \tab 972 \tab 707 \tab 203 \tab 84 \tab 8 \tab 1974 \cr
-   2014 \tab 1299 \tab 926 \tab 247 \tab 63 \tab 3 \tab 2538 \cr
-   2016 \tab 1477 \tab 987 \tab 314 \tab 82 \tab 7 \tab 2867 \cr
-   2018 \tab 1173 \tab 836 \tab 281 \tab 54 \tab 4 \tab 2348 \cr
-   Total \tab 9188 \tab 6600 \tab 1867 \tab 615 \tab 34 \tab 18304 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab earth around sun \tab sun around earth \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 1372 \tab 342 \tab 149 \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 1073 \tab 311 \tab 112 \tab 9 \tab - \tab 2023 \cr
+   2010 \tab 1103 \tab 699 \tab 169 \tab 71 \tab 2 \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 707 \tab 203 \tab 84 \tab 8 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 926 \tab 247 \tab 63 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 987 \tab 314 \tab 82 \tab 7 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 836 \tab 281 \tab 54 \tab 4 \tab - \tab 2348 \cr
+   Total \tab 9188 \tab 6600 \tab 1867 \tab 615 \tab 34 \tab 0 \tab 18304 \cr
 }
 }
 

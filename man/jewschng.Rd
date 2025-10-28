@@ -36,10 +36,10 @@ C. Jews?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2319/vshow}{GSS Data Explorer page for \code{jewschng}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab increase a lot \tab increase by a little \tab stay the same \tab decrease by a little \tab decrease by a lot \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 50 \tab 328 \tab 695 \tab 163 \tab 25 \tab 124 \tab 13 \tab 2817 \cr
-   Total \tab 1419 \tab 50 \tab 328 \tab 695 \tab 163 \tab 25 \tab 124 \tab 13 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab increase a lot \tab increase by a little \tab stay the same \tab decrease by a little \tab decrease by a lot \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 50 \tab 328 \tab 695 \tab 163 \tab 25 \tab 124 \tab 13 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 50 \tab 328 \tab 695 \tab 163 \tab 25 \tab 124 \tab 13 \tab 0 \tab 2817 \cr
 }
 }
 

@@ -36,10 +36,10 @@ E. Doctors always treat their patients with respect.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2204/vshow}{GSS Data Explorer page for \code{doc5}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab uncertain \tab disagree \tab strong disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 83 \tab 618 \tab 193 \tab 420 \tab 52 \tab 14 \tab 7 \tab 2832 \cr
-   Total \tab 1445 \tab 83 \tab 618 \tab 193 \tab 420 \tab 52 \tab 14 \tab 7 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab uncertain \tab disagree \tab strong disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 83 \tab 618 \tab 193 \tab 420 \tab 52 \tab 14 \tab 7 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 83 \tab 618 \tab 193 \tab 420 \tab 52 \tab 14 \tab 7 \tab 0 \tab 2832 \cr
 }
 }
 

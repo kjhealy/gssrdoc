@@ -35,11 +35,11 @@ F. Next, did any of the following criminal or legal events occur to you since (C
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5179/vshow}{GSS Data Explorer page for \code{law2}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1991 \tab 500 \tab 22 \tab 991 \tab 4 \tab 1517 \cr
-   2004 \tab 1472 \tab 37 \tab 1296 \tab 7 \tab 2812 \cr
-   Total \tab 1972 \tab 59 \tab 2287 \tab 11 \tab 4329 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 500 \tab 22 \tab 991 \tab 4 \tab - \tab 1517 \cr
+   2004 \tab 1472 \tab 37 \tab 1296 \tab 7 \tab - \tab 2812 \cr
+   Total \tab 1972 \tab 59 \tab 2287 \tab 11 \tab 0 \tab 4329 \cr
 }
 }
 

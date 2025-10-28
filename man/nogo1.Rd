@@ -33,10 +33,10 @@ Question Was it a performance or an exhibit?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6248/vshow}{GSS Data Explorer page for \code{nogo1}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab performance \tab exhibit \tab both performance and exhibit \tab Total \cr
-   2016 \tab 2251 \tab 429 \tab 126 \tab 61 \tab 2867 \cr
-   Total \tab 2251 \tab 429 \tab 126 \tab 61 \tab 2867 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab performance \tab exhibit \tab both performance and exhibit \tab not available in this year \tab Total \cr
+   2016 \tab 2251 \tab 429 \tab 126 \tab 61 \tab - \tab 2867 \cr
+   Total \tab 2251 \tab 429 \tab 126 \tab 61 \tab 0 \tab 2867 \cr
 }
 }
 

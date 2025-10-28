@@ -35,10 +35,11 @@ Question B. How willing would you be to spend an evening socializing with (John/
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2934/vshow}{GSS Data Explorer page for \code{spendeve}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 483 \tab 689 \tab 128 \tab 45 \tab 35 \tab 13 \tab 2765 \cr
-   Total \tab 1372 \tab 483 \tab 689 \tab 128 \tab 45 \tab 35 \tab 13 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2002 \tab 1372 \tab 483 \tab 689 \tab 128 \tab 45 \tab 35 \tab 13 \tab - \tab - \tab 2765 \cr
+   2024 \tab 1660 \tab 415 \tab 841 \tab 235 \tab 83 \tab 41 \tab 9 \tab - \tab 25 \tab 3309 \cr
+   Total \tab 3032 \tab 898 \tab 1530 \tab 363 \tab 128 \tab 76 \tab 22 \tab 0 \tab 25 \tab 6074 \cr
 }
 }
 

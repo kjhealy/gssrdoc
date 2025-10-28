@@ -33,11 +33,11 @@ B. Go to a live performance of popular music like rock, country, or rap, not inc
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2130/vshow}{GSS Data Explorer page for \code{popmusic}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
-   1998 \tab 1387 \tab 551 \tab 884 \tab 10 \tab - \tab 2832 \cr
-   2002 \tab 1393 \tab 580 \tab 778 \tab 6 \tab 8 \tab 2765 \cr
-   Total \tab 2780 \tab 1131 \tab 1662 \tab 16 \tab 8 \tab 5597 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 551 \tab 884 \tab 10 \tab - \tab - \tab 2832 \cr
+   2002 \tab 1393 \tab 580 \tab 778 \tab 6 \tab 8 \tab - \tab 2765 \cr
+   Total \tab 2780 \tab 1131 \tab 1662 \tab 16 \tab 8 \tab 0 \tab 5597 \cr
 }
 }
 

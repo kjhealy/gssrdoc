@@ -39,13 +39,13 @@ C. The average citizen has considerable influence on politics.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4041/vshow}{GSS Data Explorer page for \code{poleff3}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree-strongly agree \tab disagree-agree \tab can't choose \tab no answer \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab Total \cr
-   1985 \tab 857 \tab 204 \tab 419 \tab 42 \tab 12 \tab - \tab - \tab - \tab 1534 \cr
-   1996 \tab 1572 \tab 53 \tab 354 \tab 39 \tab 28 \tab 248 \tab 475 \tab 135 \tab 2904 \cr
-   2006 \tab 2992 \tab 105 \tab 406 \tab 14 \tab 1 \tab 243 \tab 521 \tab 228 \tab 4510 \cr
-   2012 \tab 1312 \tab 43 \tab 153 \tab 24 \tab 3 \tab 121 \tab 210 \tab 108 \tab 1974 \cr
-   Total \tab 6733 \tab 405 \tab 1332 \tab 119 \tab 44 \tab 612 \tab 1206 \tab 471 \tab 10922 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree-strongly agree \tab disagree-agree \tab can't choose \tab no answer \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 204 \tab 419 \tab 42 \tab 12 \tab - \tab - \tab - \tab - \tab 1534 \cr
+   1996 \tab 1572 \tab 53 \tab 354 \tab 39 \tab 28 \tab 248 \tab 475 \tab 135 \tab - \tab 2904 \cr
+   2006 \tab 2992 \tab 105 \tab 406 \tab 14 \tab 1 \tab 243 \tab 521 \tab 228 \tab - \tab 4510 \cr
+   2012 \tab 1312 \tab 43 \tab 153 \tab 24 \tab 3 \tab 121 \tab 210 \tab 108 \tab - \tab 1974 \cr
+   Total \tab 6733 \tab 405 \tab 1332 \tab 119 \tab 44 \tab 612 \tab 1206 \tab 471 \tab 0 \tab 10922 \cr
 }
 }
 

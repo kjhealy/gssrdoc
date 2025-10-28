@@ -37,10 +37,10 @@ C. Deciding on major charitable gifts.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1883/vshow}{GSS Data Explorer page for \code{decgift}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab husband alone \tab husband after consulting with wife \tab husband and wife together \tab wife after consulting husband \tab wife alone \tab other \tab no answer \tab see codebook \tab Total \cr
-   1996 \tab 2196 \tab 29 \tab 29 \tab 475 \tab 45 \tab 53 \tab 15 \tab 6 \tab 56 \tab 2904 \cr
-   Total \tab 2196 \tab 29 \tab 29 \tab 475 \tab 45 \tab 53 \tab 15 \tab 6 \tab 56 \tab 2904 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab husband alone \tab husband after consulting with wife \tab husband and wife together \tab wife after consulting husband \tab wife alone \tab other \tab no answer \tab see codebook \tab not available in this year \tab Total \cr
+   1996 \tab 2196 \tab 29 \tab 29 \tab 475 \tab 45 \tab 53 \tab 15 \tab 6 \tab 56 \tab - \tab 2904 \cr
+   Total \tab 2196 \tab 29 \tab 29 \tab 475 \tab 45 \tab 53 \tab 15 \tab 6 \tab 56 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -48,10 +48,10 @@ B. Second Choice
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4176/vshow}{GSS Data Explorer page for \code{upset2}}.
 
-Counts by year:\tabular{llllllllllllllllllllll}{
-   year \tab iap \tab spouse \tab mother \tab father \tab daughter \tab son \tab sister \tab brother \tab other relative \tab closest friend \tab other friend \tab neighbor \tab coworker \tab clergy \tab family doctor \tab prof counselor \tab other \tab no one \tab don't know \tab no answer \tab Total \cr
-   1986 \tab 42 \tab 17 \tab 104 \tab 51 \tab 54 \tab 62 \tab 99 \tab 69 \tab 110 \tab 229 \tab 126 \tab 18 \tab 17 \tab 139 \tab 52 \tab 94 \tab 3 \tab 134 \tab 2 \tab 48 \tab 1470 \cr
-   Total \tab 42 \tab 17 \tab 104 \tab 51 \tab 54 \tab 62 \tab 99 \tab 69 \tab 110 \tab 229 \tab 126 \tab 18 \tab 17 \tab 139 \tab 52 \tab 94 \tab 3 \tab 134 \tab 2 \tab 48 \tab 1470 \cr
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab iap \tab spouse \tab mother \tab father \tab daughter \tab son \tab sister \tab brother \tab other relative \tab closest friend \tab other friend \tab neighbor \tab coworker \tab clergy \tab family doctor \tab prof counselor \tab other \tab no one \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 42 \tab 17 \tab 104 \tab 51 \tab 54 \tab 62 \tab 99 \tab 69 \tab 110 \tab 229 \tab 126 \tab 18 \tab 17 \tab 139 \tab 52 \tab 94 \tab 3 \tab 134 \tab 2 \tab 48 \tab - \tab 1470 \cr
+   Total \tab 42 \tab 17 \tab 104 \tab 51 \tab 54 \tab 62 \tab 99 \tab 69 \tab 110 \tab 229 \tab 126 \tab 18 \tab 17 \tab 139 \tab 52 \tab 94 \tab 3 \tab 134 \tab 2 \tab 48 \tab 0 \tab 1470 \cr
 }
 }
 

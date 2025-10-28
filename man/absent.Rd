@@ -35,10 +35,10 @@ Question About how many days have you been absent from work in the last 6 months
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4590/vshow}{GSS Data Explorer page for \code{absent}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab more thn 20 days \tab 11 to 20 days \tab 6 to 10 days \tab 1 to 5 days \tab none \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1967 \tab 39 \tab 20 \tab 39 \tab 403 \tab 306 \tab 21 \tab 37 \tab 2832 \cr
-   Total \tab 1967 \tab 39 \tab 20 \tab 39 \tab 403 \tab 306 \tab 21 \tab 37 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab more thn 20 days \tab 11 to 20 days \tab 6 to 10 days \tab 1 to 5 days \tab none \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1967 \tab 39 \tab 20 \tab 39 \tab 403 \tab 306 \tab 21 \tab 37 \tab - \tab 2832 \cr
+   Total \tab 1967 \tab 39 \tab 20 \tab 39 \tab 403 \tab 306 \tab 21 \tab 37 \tab 0 \tab 2832 \cr
 }
 }
 

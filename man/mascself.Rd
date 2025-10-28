@@ -34,10 +34,10 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7961/vshow}{GSS Data Explorer page for \code{mascself}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab not at all \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very \tab Total \cr
-   2022 \tab 2581 \tab 192 \tab 114 \tab 70 \tab 52 \tab 109 \tab 142 \tab 284 \tab 3544 \cr
-   Total \tab 2581 \tab 192 \tab 114 \tab 70 \tab 52 \tab 109 \tab 142 \tab 284 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab not at all \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 192 \tab 114 \tab 70 \tab 52 \tab 109 \tab 142 \tab 283 \tab 2318 \tab 264 \tab 3544 \cr
+   Total \tab 0 \tab 192 \tab 114 \tab 70 \tab 52 \tab 109 \tab 142 \tab 283 \tab 2318 \tab 264 \tab 3544 \cr
 }
 }
 

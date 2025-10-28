@@ -36,10 +36,10 @@ Z. How many of the women that you trust are you pretty certain live in a romanti
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3691/vshow}{GSS Data Explorer page for \code{trtcohab}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3821 \tab 344 \tab 100 \tab 150 \tab 20 \tab 16 \tab 43 \tab 16 \tab 4510 \cr
-   Total \tab 3821 \tab 344 \tab 100 \tab 150 \tab 20 \tab 16 \tab 43 \tab 16 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3821 \tab 344 \tab 100 \tab 150 \tab 20 \tab 16 \tab 43 \tab 16 \tab - \tab 4510 \cr
+   Total \tab 3821 \tab 344 \tab 100 \tab 150 \tab 20 \tab 16 \tab 43 \tab 16 \tab 0 \tab 4510 \cr
 }
 }
 

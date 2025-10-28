@@ -38,10 +38,10 @@ Question Thinking back over the last 12 months, about how regularly did you drin
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3098/vshow}{GSS Data Explorer page for \code{drinkyr}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab never in those 12 months \tab 1 to 3 times in 12 months \tab 4 to 7 times in 12 months \tab 8 to 11 times in 12 months \tab 1 to 3 times a month \tab once or twice a week \tab 3 to 4 times a week \tab 5 times a week or more \tab no answer \tab Total \cr
-   2004 \tab 2499 \tab 65 \tab 57 \tab 33 \tab 30 \tab 65 \tab 33 \tab 16 \tab 11 \tab 3 \tab 2812 \cr
-   Total \tab 2499 \tab 65 \tab 57 \tab 33 \tab 30 \tab 65 \tab 33 \tab 16 \tab 11 \tab 3 \tab 2812 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab never in those 12 months \tab 1 to 3 times in 12 months \tab 4 to 7 times in 12 months \tab 8 to 11 times in 12 months \tab 1 to 3 times a month \tab once or twice a week \tab 3 to 4 times a week \tab 5 times a week or more \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2499 \tab 65 \tab 57 \tab 33 \tab 30 \tab 65 \tab 33 \tab 16 \tab 11 \tab 3 \tab - \tab 2812 \cr
+   Total \tab 2499 \tab 65 \tab 57 \tab 33 \tab 30 \tab 65 \tab 33 \tab 16 \tab 11 \tab 3 \tab 0 \tab 2812 \cr
 }
 }
 

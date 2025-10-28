@@ -36,10 +36,10 @@ C. To get all the way to the top in America today, you have to be corrupt.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4322/vshow}{GSS Data Explorer page for \code{corrupt}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2000 \tab 1545 \tab 54 \tab 150 \tab 278 \tab 440 \tab 271 \tab 26 \tab 53 \tab 2817 \cr
-   Total \tab 1545 \tab 54 \tab 150 \tab 278 \tab 440 \tab 271 \tab 26 \tab 53 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1545 \tab 54 \tab 150 \tab 278 \tab 440 \tab 271 \tab 26 \tab 53 \tab - \tab 2817 \cr
+   Total \tab 1545 \tab 54 \tab 150 \tab 278 \tab 440 \tab 271 \tab 26 \tab 53 \tab 0 \tab 2817 \cr
 }
 }
 

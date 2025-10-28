@@ -37,10 +37,10 @@ E. Freedom is having the power to choose and do what I want in life.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2672/vshow}{GSS Data Explorer page for \code{choice}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab one of the most important \tab extremely important \tab very important \tab moderately important \tab somewhat important \tab not too important \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 620 \tab 375 \tab 304 \tab 62 \tab 13 \tab 12 \tab 10 \tab 23 \tab 2817 \cr
-   Total \tab 1398 \tab 620 \tab 375 \tab 304 \tab 62 \tab 13 \tab 12 \tab 10 \tab 23 \tab 2817 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab one of the most important \tab extremely important \tab very important \tab moderately important \tab somewhat important \tab not too important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 620 \tab 375 \tab 304 \tab 62 \tab 13 \tab 12 \tab 10 \tab 23 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 620 \tab 375 \tab 304 \tab 62 \tab 13 \tab 12 \tab 10 \tab 23 \tab 0 \tab 2817 \cr
 }
 }
 

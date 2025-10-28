@@ -35,11 +35,11 @@ C. What was that person''s race?  Was it black, white, hispanic, or other?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5034/vshow}{GSS Data Explorer page for \code{suirac2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab black \tab white \tab don't know \tab no answer \tab hispanic \tab other \tab Total \cr
-   1990 \tab 1347 \tab 3 \tab 19 \tab 1 \tab 2 \tab - \tab - \tab 1372 \cr
-   1991 \tab 1477 \tab 3 \tab 31 \tab - \tab 3 \tab 2 \tab 1 \tab 1517 \cr
-   Total \tab 2824 \tab 6 \tab 50 \tab 1 \tab 5 \tab 2 \tab 1 \tab 2889 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab black \tab white \tab don't know \tab no answer \tab hispanic \tab other \tab not available in this year \tab Total \cr
+   1990 \tab 1347 \tab 3 \tab 19 \tab 1 \tab 2 \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab 1477 \tab 3 \tab 31 \tab - \tab 3 \tab 2 \tab 1 \tab - \tab 1517 \cr
+   Total \tab 2824 \tab 6 \tab 50 \tab 1 \tab 5 \tab 2 \tab 1 \tab 0 \tab 2889 \cr
 }
 }
 

@@ -33,10 +33,10 @@ Question In the past two years, that is, between (INSERT CURRENT MONTH) 1998 and
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2524/vshow}{GSS Data Explorer page for \code{polinfo}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab not at all \tab 1 or 2 times \tab 3 or more times \tab no answer \tab Total \cr
-   2000 \tab 1884 \tab 674 \tab 111 \tab 137 \tab 11 \tab 2817 \cr
-   Total \tab 1884 \tab 674 \tab 111 \tab 137 \tab 11 \tab 2817 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3 or more times \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1884 \tab 674 \tab 111 \tab 137 \tab 11 \tab - \tab 2817 \cr
+   Total \tab 1884 \tab 674 \tab 111 \tab 137 \tab 11 \tab 0 \tab 2817 \cr
 }
 }
 

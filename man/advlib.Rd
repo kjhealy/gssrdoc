@@ -33,11 +33,11 @@ L. A librarian?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2510/vshow}{GSS Data Explorer page for \code{advlib}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2145 \tab 100 \tab 475 \tab 97 \tab 2817 \cr
-   2002 \tab 2142 \tab 101 \tab 475 \tab 47 \tab 2765 \cr
-   Total \tab 4287 \tab 201 \tab 950 \tab 144 \tab 5582 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2145 \tab 100 \tab 475 \tab 97 \tab - \tab 2817 \cr
+   2002 \tab 2142 \tab 101 \tab 475 \tab 47 \tab - \tab 2765 \cr
+   Total \tab 4287 \tab 201 \tab 950 \tab 144 \tab 0 \tab 5582 \cr
 }
 }
 

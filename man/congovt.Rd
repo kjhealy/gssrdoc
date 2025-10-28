@@ -36,10 +36,10 @@ C. Government departments
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4641/vshow}{GSS Data Explorer page for \code{congovt}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab complete confidence \tab a great deal of confidence \tab some confidence \tab very little confidence \tab no confidence at all \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 56 \tab 163 \tab 626 \tab 342 \tab 89 \tab 36 \tab 47 \tab 1517 \cr
-   Total \tab 158 \tab 56 \tab 163 \tab 626 \tab 342 \tab 89 \tab 36 \tab 47 \tab 1517 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab complete confidence \tab a great deal of confidence \tab some confidence \tab very little confidence \tab no confidence at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 56 \tab 163 \tab 626 \tab 342 \tab 89 \tab 36 \tab 47 \tab - \tab 1517 \cr
+   Total \tab 158 \tab 56 \tab 163 \tab 626 \tab 342 \tab 89 \tab 36 \tab 47 \tab 0 \tab 1517 \cr
 }
 }
 

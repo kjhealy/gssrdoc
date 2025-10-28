@@ -35,10 +35,10 @@ A. Say you went to treatment because you feel downhearted and blue and this inte
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2710/vshow}{GSS Data Explorer page for \code{downqol}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely expect \tab probably expect \tab probably not expect \tab definitely not expect \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2362 \tab 120 \tab 194 \tab 75 \tab 22 \tab 20 \tab 24 \tab 2817 \cr
-   Total \tab 2362 \tab 120 \tab 194 \tab 75 \tab 22 \tab 20 \tab 24 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely expect \tab probably expect \tab probably not expect \tab definitely not expect \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2362 \tab 120 \tab 194 \tab 75 \tab 22 \tab 20 \tab 24 \tab - \tab 2817 \cr
+   Total \tab 2362 \tab 120 \tab 194 \tab 75 \tab 22 \tab 20 \tab 24 \tab 0 \tab 2817 \cr
 }
 }
 

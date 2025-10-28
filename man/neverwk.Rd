@@ -32,10 +32,10 @@ Question RESPONDENT'S WORK HISTORY
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1461/vshow}{GSS Data Explorer page for \code{neverwk}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab never worked \tab worked \tab no answer \tab Total \cr
-   1994 \tab 1474 \tab 113 \tab 1394 \tab 11 \tab 2992 \cr
-   Total \tab 1474 \tab 113 \tab 1394 \tab 11 \tab 2992 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab never worked \tab worked \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1474 \tab 113 \tab 1394 \tab 11 \tab - \tab 2992 \cr
+   Total \tab 1474 \tab 113 \tab 1394 \tab 11 \tab 0 \tab 2992 \cr
 }
 }
 

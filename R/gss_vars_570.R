@@ -25,11 +25,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |1996  |1444 |693               |420             |174                 |123                   |48         |2         |2904  |
-#'  |1998  |1445 |538               |454             |214                 |121                   |49         |11        |2832  |
-#'  |Total |2889 |1231              |874             |388                 |244                   |97         |13        |5736  |
+#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |693               |420             |174                 |123                   |48         |2         |-                          |2904  |
+#'  |1998  |1445 |538               |454             |214                 |121                   |49         |11        |-                          |2832  |
+#'  |Total |2889 |1231              |874             |388                 |244                   |97         |13        |0                          |5736  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -68,11 +68,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |1996  |1444 |542               |436             |259                 |170                   |50         |3         |2904  |
-#'  |1998  |1445 |434               |433             |287                 |166                   |55         |12        |2832  |
-#'  |Total |2889 |976               |869             |546                 |336                   |105        |15        |5736  |
+#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |542               |436             |259                 |170                   |50         |3         |-                          |2904  |
+#'  |1998  |1445 |434               |433             |287                 |166                   |55         |12        |-                          |2832  |
+#'  |Total |2889 |976               |869             |546                 |336                   |105        |15        |0                          |5736  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -111,11 +111,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |1996  |1444 |672               |448             |171                 |117                   |47         |5         |2904  |
-#'  |1998  |1445 |528               |445             |221                 |129                   |53         |11        |2832  |
-#'  |Total |2889 |1200              |893             |392                 |246                   |100        |16        |5736  |
+#'  |year  |iap  |definitely should |probably should |probably should not |definitely should not |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |672               |448             |171                 |117                   |47         |5         |-                          |2904  |
+#'  |1998  |1445 |528               |445             |221                 |129                   |53         |11        |-                          |2832  |
+#'  |Total |2889 |1200              |893             |392                 |246                   |100        |16        |0                          |5736  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -154,12 +154,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |nothing about mental health |whether currently consulting |ever consulted a mental |ever consulted & diagnosis |diagnosis & confident. info |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:----------------------------|:-----------------------|:--------------------------|:---------------------------|:----------|:---------|:-----|
-#'  |1996  |1444 |95                          |174                          |122                     |367                        |582                         |86         |34        |2904  |
-#'  |1998  |1445 |66                          |160                          |136                     |381                        |522                         |105        |17        |2832  |
-#'  |2000  |1398 |84                          |135                          |143                     |336                        |596                         |98         |27        |2817  |
-#'  |Total |4287 |245                         |469                          |401                     |1084                       |1700                        |289        |78        |8553  |
+#'  |year  |iap  |nothing about mental health |whether currently consulting |ever consulted a mental |ever consulted & diagnosis |diagnosis & confident. info |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:----------------------------|:-----------------------|:--------------------------|:---------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |95                          |174                          |122                     |367                        |582                         |86         |34        |-                          |2904  |
+#'  |1998  |1445 |66                          |160                          |136                     |381                        |522                         |105        |17        |-                          |2832  |
+#'  |2000  |1398 |84                          |135                          |143                     |336                        |596                         |98         |27        |-                          |2817  |
+#'  |Total |4287 |245                         |469                          |401                     |1084                       |1700                        |289        |78        |0                          |8553  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -200,10 +200,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismiss military |one year prison |5-9 years prison |10-20 yrs prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:----------------|:---------------|:----------------|:----------------|:--------------|:----------|:---------|:-----|
-#'  |1998  |1445 |34        |395              |167             |358              |272              |97             |48         |16        |2832  |
-#'  |Total |1445 |34        |395              |167             |358              |272              |97             |48         |16        |2832  |
+#'  |year  |iap  |reprimand |dismiss military |one year prison |5-9 years prison |10-20 yrs prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:----------------|:---------------|:----------------|:----------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1445 |34        |395              |167             |358              |272              |97             |48         |16        |-                          |2832  |
+#'  |Total |1445 |34        |395              |167             |358              |272              |97             |48         |16        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -244,10 +244,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismiss military |1 year in prison |5-9 yrs prison |10-20 yrs prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:----------------|:----------------|:--------------|:----------------|:--------------|:----------|:---------|:-----|
-#'  |1998  |1445 |273       |591              |185              |156            |68               |25             |68         |21        |2832  |
-#'  |Total |1445 |273       |591              |185              |156            |68               |25             |68         |21        |2832  |
+#'  |year  |iap  |reprimand |dismiss military |1 year in prison |5-9 yrs prison |10-20 yrs prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:----------------|:----------------|:--------------|:----------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1445 |273       |591              |185              |156            |68               |25             |68         |21        |-                          |2832  |
+#'  |Total |1445 |273       |591              |185              |156            |68               |25             |68         |21        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -288,10 +288,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismiss/military |one yr in prison |5-9 yrs in prisn |10-20 yrs prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:----------------|:----------------|:----------------|:----------------|:--------------|:----------|:---------|:-----|
-#'  |1998  |1445 |12        |91               |42               |177              |465              |527            |57         |16        |2832  |
-#'  |Total |1445 |12        |91               |42               |177              |465              |527            |57         |16        |2832  |
+#'  |year  |iap  |reprimand |dismiss/military |one yr in prison |5-9 yrs in prisn |10-20 yrs prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:----------------|:----------------|:----------------|:----------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1445 |12        |91               |42               |177              |465              |527            |57         |16        |-                          |2832  |
+#'  |Total |1445 |12        |91               |42               |177              |465              |527            |57         |16        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -332,10 +332,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismiss/military |one year prison |5-9 years prison |10-20 yrs prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:----------------|:---------------|:----------------|:----------------|:--------------|:----------|:---------|:-----|
-#'  |1998  |1445 |44        |163              |123             |263              |397              |316            |65         |16        |2832  |
-#'  |Total |1445 |44        |163              |123             |263              |397              |316            |65         |16        |2832  |
+#'  |year  |iap  |reprimand |dismiss/military |one year prison |5-9 years prison |10-20 yrs prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:----------------|:---------------|:----------------|:----------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1445 |44        |163              |123             |263              |397              |316            |65         |16        |-                          |2832  |
+#'  |Total |1445 |44        |163              |123             |263              |397              |316            |65         |16        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -376,10 +376,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismiss military |one year prison |5-9 years prison |10-20 yrs prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:----------------|:---------------|:----------------|:----------------|:--------------|:----------|:---------|:-----|
-#'  |1998  |1445 |96        |447              |366             |303              |87               |20             |50         |18        |2832  |
-#'  |Total |1445 |96        |447              |366             |303              |87               |20             |50         |18        |2832  |
+#'  |year  |iap  |reprimand |dismiss military |one year prison |5-9 years prison |10-20 yrs prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:----------------|:---------------|:----------------|:----------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1445 |96        |447              |366             |303              |87               |20             |50         |18        |-                          |2832  |
+#'  |Total |1445 |96        |447              |366             |303              |87               |20             |50         |18        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -420,10 +420,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
-#'  |2000  |1398 |19        |271                                                 |100                |297                 |412                   |246            |56         |18        |2817  |
-#'  |Total |1398 |19        |271                                                 |100                |297                 |412                   |246            |56         |18        |2817  |
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |19        |271                                                 |100                |297                 |412                   |246            |56         |18        |-                          |2817  |
+#'  |Total |1398 |19        |271                                                 |100                |297                 |412                   |246            |56         |18        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security

@@ -33,10 +33,10 @@ B. Develop a government information program to promote safe sex practices, such 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5042/vshow}{GSS Data Explorer page for \code{aidsads}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab support \tab oppose \tab don't know \tab no answer \tab Total \cr
-   1988 \tab 763 \tab 583 \tab 95 \tab 30 \tab 10 \tab 1481 \cr
-   Total \tab 763 \tab 583 \tab 95 \tab 30 \tab 10 \tab 1481 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab support \tab oppose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 763 \tab 583 \tab 95 \tab 30 \tab 10 \tab - \tab 1481 \cr
+   Total \tab 763 \tab 583 \tab 95 \tab 30 \tab 10 \tab 0 \tab 1481 \cr
 }
 }
 

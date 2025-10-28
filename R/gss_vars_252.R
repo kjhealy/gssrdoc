@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |401                         |577                    |271               |36                           |103        |10        |2817  |
-#'  |Total |1419 |401                         |577                    |271               |36                           |103        |10        |2817  |
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |401                         |577                    |271               |36                           |103        |10        |-                          |2817  |
+#'  |Total |1419 |401                         |577                    |271               |36                           |103        |10        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -67,10 +67,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |94                          |571                    |521               |73                           |131        |8         |2817  |
-#'  |Total |1419 |94                          |571                    |521               |73                           |131        |8         |2817  |
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |94                          |571                    |521               |73                           |131        |8         |-                          |2817  |
+#'  |Total |1419 |94                          |571                    |521               |73                           |131        |8         |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -109,10 +109,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |95                          |430                    |550               |171                          |144        |8         |2817  |
-#'  |Total |1419 |95                          |430                    |550               |171                          |144        |8         |2817  |
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |95                          |430                    |550               |171                          |144        |8         |-                          |2817  |
+#'  |Total |1419 |95                          |430                    |550               |171                          |144        |8         |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -151,10 +151,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |145                         |582                    |441               |72                           |151        |7         |2817  |
-#'  |Total |1419 |145                         |582                    |441               |72                           |151        |7         |2817  |
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |145                         |582                    |441               |72                           |151        |7         |-                          |2817  |
+#'  |Total |1419 |145                         |582                    |441               |72                           |151        |7         |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -193,10 +193,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |118                         |541                    |491               |144                          |94         |10        |2817  |
-#'  |Total |1419 |118                         |541                    |491               |144                          |94         |10        |2817  |
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |118                         |541                    |491               |144                          |94         |10        |-                          |2817  |
+#'  |Total |1419 |118                         |541                    |491               |144                          |94         |10        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -235,10 +235,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |52                          |334                    |569               |288                          |146        |9         |2817  |
-#'  |Total |1419 |52                          |334                    |569               |288                          |146        |9         |2817  |
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |52                          |334                    |569               |288                          |146        |9         |-                          |2817  |
+#'  |Total |1419 |52                          |334                    |569               |288                          |146        |9         |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -277,10 +277,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |33                          |216                    |517               |421                          |200        |11        |2817  |
-#'  |Total |1419 |33                          |216                    |517               |421                          |200        |11        |2817  |
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |33                          |216                    |517               |421                          |200        |11        |-                          |2817  |
+#'  |Total |1419 |33                          |216                    |517               |421                          |200        |11        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -319,10 +319,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |29                          |190                    |489               |481                          |197        |12        |2817  |
-#'  |Total |1419 |29                          |190                    |489               |481                          |197        |12        |2817  |
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |29                          |190                    |489               |481                          |197        |12        |-                          |2817  |
+#'  |Total |1419 |29                          |190                    |489               |481                          |197        |12        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -361,10 +361,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |109                         |550                    |489               |98                           |140        |12        |2817  |
-#'  |Total |1419 |109                         |550                    |489               |98                           |140        |12        |2817  |
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |109                         |550                    |489               |98                           |140        |12        |-                          |2817  |
+#'  |Total |1419 |109                         |550                    |489               |98                           |140        |12        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -403,10 +403,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |35                          |224                    |563               |369                          |196        |11        |2817  |
-#'  |Total |1419 |35                          |224                    |563               |369                          |196        |11        |2817  |
+#'  |year  |iap  |most important contribution |important contribution |some contribution |little positive contribution |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:----------------------|:-----------------|:----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |35                          |224                    |563               |369                          |196        |11        |-                          |2817  |
+#'  |Total |1419 |35                          |224                    |563               |369                          |196        |11        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States

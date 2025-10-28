@@ -32,10 +32,10 @@ Question During the last 12 months, was there a performance or exhibit that you 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6247/vshow}{GSS Data Explorer page for \code{nogo}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1390 \tab 616 \tab 851 \tab 2 \tab 8 \tab 2867 \cr
-   Total \tab 1390 \tab 616 \tab 851 \tab 2 \tab 8 \tab 2867 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1390 \tab 616 \tab 851 \tab 2 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 1390 \tab 616 \tab 851 \tab 2 \tab 8 \tab 0 \tab 2867 \cr
 }
 }
 

@@ -31,10 +31,10 @@ Question In how many privately-held businesses, professional practices, limited 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3816/vshow}{GSS Data Explorer page for \code{numown}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab Total \cr
-   2008 \tab 1774 \tab 205 \tab 24 \tab 10 \tab 5 \tab 1 \tab 3 \tab 1 \tab 2023 \cr
-   Total \tab 1774 \tab 205 \tab 24 \tab 10 \tab 5 \tab 1 \tab 3 \tab 1 \tab 2023 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab not available in this year \tab Total \cr
+   2008 \tab 1774 \tab 205 \tab 24 \tab 10 \tab 5 \tab 1 \tab 3 \tab 1 \tab - \tab 2023 \cr
+   Total \tab 1774 \tab 205 \tab 24 \tab 10 \tab 5 \tab 1 \tab 3 \tab 1 \tab 0 \tab 2023 \cr
 }
 }
 

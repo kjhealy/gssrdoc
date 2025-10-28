@@ -33,10 +33,10 @@ Question C. Have you finished all the required courses?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2151/vshow}{GSS Data Explorer page for \code{formlfin}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab never ends \tab no answer \tab Total \cr
-   1998 \tab 2325 \tab 398 \tab 21 \tab 52 \tab 36 \tab 2832 \cr
-   Total \tab 2325 \tab 398 \tab 21 \tab 52 \tab 36 \tab 2832 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab never ends \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2325 \tab 398 \tab 21 \tab 52 \tab 36 \tab - \tab 2832 \cr
+   Total \tab 2325 \tab 398 \tab 21 \tab 52 \tab 36 \tab 0 \tab 2832 \cr
 }
 }
 

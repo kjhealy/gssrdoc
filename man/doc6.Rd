@@ -36,10 +36,10 @@ F. I hardly ever see the same doctor when I go for medical care.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2205/vshow}{GSS Data Explorer page for \code{doc6}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab uncertain \tab disagree \tab strong disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 40 \tab 214 \tab 59 \tab 781 \tab 253 \tab 31 \tab 9 \tab 2832 \cr
-   Total \tab 1445 \tab 40 \tab 214 \tab 59 \tab 781 \tab 253 \tab 31 \tab 9 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab uncertain \tab disagree \tab strong disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 40 \tab 214 \tab 59 \tab 781 \tab 253 \tab 31 \tab 9 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 40 \tab 214 \tab 59 \tab 781 \tab 253 \tab 31 \tab 9 \tab 0 \tab 2832 \cr
 }
 }
 

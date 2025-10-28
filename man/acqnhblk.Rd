@@ -36,10 +36,10 @@ G. How many are Black or African-American?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3623/vshow}{GSS Data Explorer page for \code{acqnhblk}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 4002 \tab 237 \tab 50 \tab 98 \tab 29 \tab 61 \tab 28 \tab 5 \tab 4510 \cr
-   Total \tab 4002 \tab 237 \tab 50 \tab 98 \tab 29 \tab 61 \tab 28 \tab 5 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 4002 \tab 237 \tab 50 \tab 98 \tab 29 \tab 61 \tab 28 \tab 5 \tab - \tab 4510 \cr
+   Total \tab 4002 \tab 237 \tab 50 \tab 98 \tab 29 \tab 61 \tab 28 \tab 5 \tab 0 \tab 4510 \cr
 }
 }
 

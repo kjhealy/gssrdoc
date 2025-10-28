@@ -34,11 +34,12 @@ C. And how about 10 years from now? How well do you think democracy will work in
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4962/vshow}{GSS Data Explorer page for \code{dem10fut}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab very poorly \tab 1 \tab very well \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 72 \tab 30 \tab 150 \tab 53 \tab 90 \tab 109 \tab 181 \tab 131 \tab 197 \tab 250 \tab 106 \tab 94 \tab 9 \tab 2812 \cr
-   2014 \tab 1274 \tab 66 \tab 45 \tab 74 \tab 74 \tab 81 \tab 91 \tab 180 \tab 108 \tab 168 \tab 117 \tab 59 \tab 151 \tab 50 \tab 2538 \cr
-   Total \tab 2614 \tab 138 \tab 75 \tab 224 \tab 127 \tab 171 \tab 200 \tab 361 \tab 239 \tab 365 \tab 367 \tab 165 \tab 245 \tab 59 \tab 5350 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab very poorly \tab 1 \tab very well \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 72 \tab 30 \tab 150 \tab 53 \tab 90 \tab 109 \tab 181 \tab 131 \tab 197 \tab 250 \tab 106 \tab 94 \tab 9 \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 66 \tab 45 \tab 74 \tab 74 \tab 81 \tab 91 \tab 180 \tab 108 \tab 168 \tab 117 \tab 59 \tab 151 \tab 50 \tab - \tab 2538 \cr
+   2024 \tab 1663 \tab 146 \tab 45 \tab 97 \tab 107 \tab 119 \tab 102 \tab 213 \tab 118 \tab 149 \tab 118 \tab 54 \tab 348 \tab 30 \tab - \tab 3309 \cr
+   Total \tab 4277 \tab 284 \tab 120 \tab 321 \tab 234 \tab 290 \tab 302 \tab 574 \tab 357 \tab 514 \tab 485 \tab 219 \tab 593 \tab 89 \tab 0 \tab 8659 \cr
 }
 }
 

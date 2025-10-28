@@ -33,11 +33,11 @@ I. Taxes?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2436/vshow}{GSS Data Explorer page for \code{taxes12}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2453 \tab 116 \tab 164 \tab 84 \tab 2817 \cr
-   2002 \tab 2411 \tab 138 \tab 171 \tab 45 \tab 2765 \cr
-   Total \tab 4864 \tab 254 \tab 335 \tab 129 \tab 5582 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2453 \tab 116 \tab 164 \tab 84 \tab - \tab 2817 \cr
+   2002 \tab 2411 \tab 138 \tab 171 \tab 45 \tab - \tab 2765 \cr
+   Total \tab 4864 \tab 254 \tab 335 \tab 129 \tab 0 \tab 5582 \cr
 }
 }
 

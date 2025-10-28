@@ -34,10 +34,10 @@ Question Thinking now about the next 12 months, how likely do you think it is th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3879/vshow}{GSS Data Explorer page for \code{losejb12}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab fairly likely \tab not too likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1165 \tab 28 \tab 47 \tab 264 \tab 495 \tab 12 \tab 12 \tab 2023 \cr
-   Total \tab 1165 \tab 28 \tab 47 \tab 264 \tab 495 \tab 12 \tab 12 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab fairly likely \tab not too likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1165 \tab 28 \tab 47 \tab 264 \tab 495 \tab 12 \tab 12 \tab - \tab 2023 \cr
+   Total \tab 1165 \tab 28 \tab 47 \tab 264 \tab 495 \tab 12 \tab 12 \tab 0 \tab 2023 \cr
 }
 }
 

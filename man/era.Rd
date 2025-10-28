@@ -35,11 +35,11 @@ B. Do you strongly favor, somewhat favor, somewhat oppose, or strongly oppose th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/709/vshow}{GSS Data Explorer page for \code{era}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly favor \tab favor \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
-   1977 \tab 209 \tab 271 \tab 606 \tab 201 \tab 118 \tab 110 \tab 15 \tab 1530 \cr
-   1982 \tab 183 \tab 438 \tab 730 \tab 267 \tab 134 \tab 84 \tab 24 \tab 1860 \cr
-   Total \tab 392 \tab 709 \tab 1336 \tab 468 \tab 252 \tab 194 \tab 39 \tab 3390 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1977 \tab 209 \tab 271 \tab 606 \tab 201 \tab 118 \tab 110 \tab 15 \tab - \tab 1530 \cr
+   1982 \tab 183 \tab 438 \tab 730 \tab 267 \tab 134 \tab 84 \tab 24 \tab - \tab 1860 \cr
+   Total \tab 392 \tab 709 \tab 1336 \tab 468 \tab 252 \tab 194 \tab 39 \tab 0 \tab 3390 \cr
 }
 }
 

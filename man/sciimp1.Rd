@@ -35,10 +35,10 @@ A. It is done by scientists employed in a university setting. Would you say this
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3398/vshow}{GSS Data Explorer page for \code{sciimp1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab pretty important \tab not too important \tab not important at all \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 599 \tab 846 \tab 261 \tab 81 \tab 71 \tab 6 \tab 4510 \cr
-   Total \tab 2646 \tab 599 \tab 846 \tab 261 \tab 81 \tab 71 \tab 6 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab pretty important \tab not too important \tab not important at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 599 \tab 846 \tab 261 \tab 81 \tab 71 \tab 6 \tab - \tab 4510 \cr
+   Total \tab 2646 \tab 599 \tab 846 \tab 261 \tab 81 \tab 71 \tab 6 \tab 0 \tab 4510 \cr
 }
 }
 

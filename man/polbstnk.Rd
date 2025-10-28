@@ -33,10 +33,10 @@ B. Elected officials
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3496/vshow}{GSS Data Explorer page for \code{polbstnk}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab what is best for the country \tab 2 \tab 3 \tab 4 \tab own narrow interests \tab don't know \tab no answer \tab Total \cr
-   2010 \tab 1578 \tab 30 \tab 78 \tab 141 \tab 107 \tab 78 \tab 25 \tab 7 \tab 2044 \cr
-   Total \tab 1578 \tab 30 \tab 78 \tab 141 \tab 107 \tab 78 \tab 25 \tab 7 \tab 2044 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab what is best for the country \tab 2 \tab 3 \tab 4 \tab own narrow interests \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 1578 \tab 30 \tab 78 \tab 141 \tab 107 \tab 78 \tab 25 \tab 7 \tab - \tab 2044 \cr
+   Total \tab 1578 \tab 30 \tab 78 \tab 141 \tab 107 \tab 78 \tab 25 \tab 7 \tab 0 \tab 2044 \cr
 }
 }
 

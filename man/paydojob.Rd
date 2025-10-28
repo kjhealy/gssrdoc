@@ -36,10 +36,10 @@ A. How well the person does the job?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4571/vshow}{GSS Data Explorer page for \code{paydojob}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1609 \tab 576 \tab 516 \tab 74 \tab 4 \tab 3 \tab 12 \tab 38 \tab 2832 \cr
-   Total \tab 1609 \tab 576 \tab 516 \tab 74 \tab 4 \tab 3 \tab 12 \tab 38 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1609 \tab 576 \tab 516 \tab 74 \tab 4 \tab 3 \tab 12 \tab 38 \tab - \tab 2832 \cr
+   Total \tab 1609 \tab 576 \tab 516 \tab 74 \tab 4 \tab 3 \tab 12 \tab 38 \tab 0 \tab 2832 \cr
 }
 }
 

@@ -1,33 +1,3 @@
-#'  Person post-stratification weight, nonrespondents adjusted
-#' 
-#'  wtssnrps
-#' 
-#' Question Person post-stratification weight, nonrespondents adjusted
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years                                                      |
-#'  |:-------|:----------------------------------------------------------|
-#'  |A/B/C/- |2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
-#'  |A/B/C/D |2006                                                       |
-#' 
-#'
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name wtssnrps
-NULL
-
-
 #'  Expect u.s. in war within 10 years (with volunteered response on web)
 #' 
 #'  uswaryv
@@ -53,11 +23,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |skipped on web |Total |
-#'  |:-----|:----|:---|:---|:----------|:--------------|:-----|
-#'  |2021  |3346 |213 |363 |109        |1              |4032  |
-#'  |2022  |3264 |136 |92  |51         |1              |3544  |
-#'  |Total |6610 |349 |455 |160        |2              |7576  |
+#'  |year  |iap  |yes |no  |don't know |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:--------------|:--------------------------|:-----|
+#'  |2021  |3346 |213 |363 |109        |1              |-                          |4032  |
+#'  |2022  |3264 |136 |92  |51         |1              |-                          |3544  |
+#'  |Total |6610 |349 |455 |160        |2              |0                          |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -98,7 +68,8 @@ NULL
 #'  |:-----|:----|:-------|:----------|:----------|:--------------|:-----|
 #'  |2021  |2658 |819     |457        |93         |5              |4032  |
 #'  |2022  |2988 |299     |146        |111        |-              |3544  |
-#'  |Total |5646 |1118    |603        |204        |5              |7576  |
+#'  |2024  |2734 |300     |174        |101        |-              |3309  |
+#'  |Total |8380 |1418    |777        |305        |5              |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -140,7 +111,8 @@ NULL
 #'  |:-----|:----|:-----------|:------------------|:------------------------------------------|:----------|:--------------|:---------|:-----|
 #'  |2021  |1987 |424         |965                |590                                        |12         |54             |-         |4032  |
 #'  |2022  |2683 |111         |405                |337                                        |1          |6              |1         |3544  |
-#'  |Total |4670 |535         |1370               |927                                        |13         |60             |1         |7576  |
+#'  |2024  |2703 |55          |289                |254                                        |1          |7              |-         |3309  |
+#'  |Total |7373 |590         |1659               |1181                                       |14         |67             |1         |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -183,7 +155,8 @@ NULL
 #'  |:-----|:----|:-----------|:---------------|:---------------|:-------------|:----------|:--------------|:-----|
 #'  |2021  |2658 |340         |587             |256             |127           |62         |2              |4032  |
 #'  |2022  |2990 |121         |250             |97              |52            |33         |1              |3544  |
-#'  |Total |5648 |461         |837             |353             |179           |95         |3              |7576  |
+#'  |2024  |2734 |129         |246             |98              |70            |32         |-              |3309  |
+#'  |Total |8382 |590         |1083            |451             |249           |127        |3              |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -225,8 +198,9 @@ NULL
 #'  |year  |iap  |first law |second law |neither (phone mode only: volunteered) |don't know |no answer |skipped on web |Total |
 #'  |:-----|:----|:---------|:----------|:--------------------------------------|:----------|:---------|:--------------|:-----|
 #'  |2021  |1987 |214       |1521       |302                                    |1          |1         |6              |4032  |
-#'  |2022  |3544 |-         |-          |-                                      |-          |-         |-              |3544  |
-#'  |Total |5531 |214       |1521       |302                                    |1          |1         |6              |7576  |
+#'  |2022  |2367 |134       |919        |100                                    |18         |5         |1              |3544  |
+#'  |2024  |2213 |171       |784        |111                                    |27         |1         |2              |3309  |
+#'  |Total |6567 |519       |3224       |513                                    |46         |7         |9              |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -268,7 +242,8 @@ NULL
 #'  |:-----|:----|:------------------------|:---------------------------------------------------------------|:-------------------|:----------|:---------|:--------------|:-----|
 #'  |2021  |2675 |660                      |595                                                             |94                  |3          |1         |4              |4032  |
 #'  |2022  |2962 |252                      |284                                                             |42                  |-          |-         |4              |3544  |
-#'  |Total |5637 |912                      |879                                                             |136                 |3          |1         |8              |7576  |
+#'  |2024  |2738 |269                      |253                                                             |44                  |-          |-         |5              |3309  |
+#'  |Total |8375 |1181                     |1132                                                            |180                 |3          |1         |13             |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -309,7 +284,8 @@ NULL
 #'  |:-----|:----|:------|:--------------|:-----------------------------------------|:----------|:---------|:--------------|:-----|
 #'  |2021  |2658 |460    |241            |657                                       |6          |1         |9              |4032  |
 #'  |2022  |2998 |205    |66             |269                                       |-          |-         |6              |3544  |
-#'  |Total |5656 |665    |307            |926                                       |6          |1         |15             |7576  |
+#'  |2024  |2739 |199    |93             |273                                       |-          |-         |5              |3309  |
+#'  |Total |8395 |864    |400            |1199                                      |6          |1         |20             |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -350,7 +326,8 @@ NULL
 #'  |:-----|:----|:-----------------|:--------------------------|:--------------------------------------|:----------|:--------------|:-----|
 #'  |2021  |2673 |449               |327                        |582                                    |1          |-              |4032  |
 #'  |2022  |2974 |144               |153                        |272                                    |-          |1              |3544  |
-#'  |Total |5647 |593               |480                        |854                                    |1          |1              |7576  |
+#'  |2024  |2716 |163               |155                        |272                                    |-          |3              |3309  |
+#'  |Total |8363 |756               |635                        |1126                                   |1          |4              |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -387,11 +364,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |would take advantage of you |would try to be fair |depends (phone mode only: volunteered) |no answer |skipped on web |Total |
-#'  |:-----|:----|:---------------------------|:--------------------|:--------------------------------------|:---------|:--------------|:-----|
-#'  |2021  |3344 |140                         |280                  |264                                    |1         |3              |4032  |
-#'  |2022  |2974 |156                         |148                  |262                                    |-         |4              |3544  |
-#'  |Total |6318 |296                         |428                  |526                                    |1         |7              |7576  |
+#'  |year  |iap  |would take advantage of you |would try to be fair |depends (phone mode only: volunteered) |no answer |skipped on web |don't know |Total |
+#'  |:-----|:----|:---------------------------|:--------------------|:--------------------------------------|:---------|:--------------|:----------|:-----|
+#'  |2021  |3344 |140                         |280                  |264                                    |1         |3              |-          |4032  |
+#'  |2022  |2974 |156                         |148                  |262                                    |-         |4              |-          |3544  |
+#'  |Total |6318 |296                         |428                  |526                                    |1         |7              |0          |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -400,6 +377,49 @@ NULL
 #' @keywords variable
 #' @md
 #' @name fairv
+NULL
+
+
+#'  Can people be trusted (with volunteered response on web)
+#' 
+#'  trustv
+#' 
+#' Question Generally speaking, would you say that most people can be trusted or that you can't
+#' be too careful in dealing with people?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` most people can be trusted
+#'   * `[2]` can't be too careful
+#'   * `[3]` depends (phone mode only: volunteered)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |B/C     |2021, 2022, 2024 |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `trustv`](https://gssdataexplorer.norc.org/variables/7593/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |most people can be trusted |can't be too careful |depends (phone mode only: volunteered) |skipped on web |Total |
+#'  |:-----|:----|:--------------------------|:--------------------|:--------------------------------------|:--------------|:-----|
+#'  |2021  |2673 |295                        |557                  |505                                    |2              |4032  |
+#'  |2022  |2974 |98                         |257                  |214                                    |1              |3544  |
+#'  |2024  |2716 |96                         |275                  |216                                    |6              |3309  |
+#'  |Total |8363 |489                        |1089                 |935                                    |9              |10885 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name trustv
 NULL
 
 

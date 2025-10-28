@@ -36,11 +36,11 @@ A. I don't think the government cares much what people like me think.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4939/vshow}{GSS Data Explorer page for \code{poleff18}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 227 \tab 423 \tab 273 \tab 470 \tab 73 \tab 2 \tab 4 \tab 2812 \cr
-   2014 \tab 1274 \tab 308 \tab 413 \tab 213 \tab 238 \tab 64 \tab 25 \tab 3 \tab 2538 \cr
-   Total \tab 2614 \tab 535 \tab 836 \tab 486 \tab 708 \tab 137 \tab 27 \tab 7 \tab 5350 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2004 \tab 1340 \tab 227 \tab 423 \tab 273 \tab 470 \tab 73 \tab 2 \tab 4 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 308 \tab 413 \tab 213 \tab 238 \tab 64 \tab 25 \tab 3 \tab - \tab - \tab 2538 \cr
+   Total \tab 2614 \tab 535 \tab 836 \tab 486 \tab 708 \tab 137 \tab 27 \tab 7 \tab 0 \tab 0 \tab 5350 \cr
 }
 }
 

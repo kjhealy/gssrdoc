@@ -31,10 +31,10 @@ B3. What R. did about the mental illness -- Third mention.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2084/vshow}{GSS Data Explorer page for \code{mnildo3}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab 51 \tab 61 \tab 64 \tab 69 \tab 74 \tab 81 \tab 82 \tab no answer \tab Total \cr
-   1996 \tab 2871 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 4 \tab 5 \tab 16 \tab 2904 \cr
-   Total \tab 2871 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 4 \tab 5 \tab 16 \tab 2904 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 51 \tab 61 \tab 64 \tab 69 \tab 74 \tab 81 \tab 82 \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2871 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 4 \tab 5 \tab 16 \tab - \tab 2904 \cr
+   Total \tab 2871 \tab 1 \tab 3 \tab 1 \tab 2 \tab 1 \tab 4 \tab 5 \tab 16 \tab 0 \tab 2904 \cr
 }
 }
 

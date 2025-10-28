@@ -33,10 +33,10 @@ Question You said you were a member of a church affiliated group. Is that group 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1012/vshow}{GSS Data Explorer page for \code{churhgrp}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab church \tab related group \tab both \tab no answer \tab Total \cr
-   1987 \tab 1227 \tab 309 \tab 181 \tab 77 \tab 25 \tab 1819 \cr
-   Total \tab 1227 \tab 309 \tab 181 \tab 77 \tab 25 \tab 1819 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab church \tab related group \tab both \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 1227 \tab 309 \tab 181 \tab 77 \tab 25 \tab - \tab 1819 \cr
+   Total \tab 1227 \tab 309 \tab 181 \tab 77 \tab 25 \tab 0 \tab 1819 \cr
 }
 }
 

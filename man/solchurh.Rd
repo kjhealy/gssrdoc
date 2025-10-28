@@ -33,10 +33,10 @@ O. Church-affiliated groups
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/994/vshow}{GSS Data Explorer page for \code{solchurh}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1987 \tab 1227 \tab 455 \tab 75 \tab 2 \tab 60 \tab 1819 \cr
-   Total \tab 1227 \tab 455 \tab 75 \tab 2 \tab 60 \tab 1819 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 1227 \tab 455 \tab 75 \tab 2 \tab 60 \tab - \tab 1819 \cr
+   Total \tab 1227 \tab 455 \tab 75 \tab 2 \tab 60 \tab 0 \tab 1819 \cr
 }
 }
 

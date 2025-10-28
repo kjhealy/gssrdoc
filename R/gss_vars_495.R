@@ -23,10 +23,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |i do not have a job/superior/co-worker |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:--------------------------------------|:----------|:---------|:-----|
-#'  |2016  |1390 |237 |1136 |96                                     |1          |7         |2867  |
-#'  |Total |1390 |237 |1136 |96                                     |1          |7         |2867  |
+#'  |year  |iap  |yes |no   |i do not have a job/superior/co-worker |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:--------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1390 |237 |1136 |96                                     |1          |7         |-                          |2867  |
+#'  |Total |1390 |237 |1136 |96                                     |1          |7         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -67,10 +67,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2016  |1390 |63             |204   |532                        |472      |158               |39           |9         |2867  |
-#'  |Total |1390 |63             |204   |532                        |472      |158               |39           |9         |2867  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2016  |1390 |63             |204   |532                        |472      |158               |39           |9         |-                          |2867  |
+#'  |Total |1390 |63             |204   |532                        |472      |158               |39           |9         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -112,10 +112,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2016  |1927 |529            |347   |28                         |20       |8                 |2            |6         |2867  |
-#'  |Total |1927 |529            |347   |28                         |20       |8                 |2            |6         |2867  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2016  |1927 |529            |347   |28                         |20       |8                 |2            |6         |-                          |2867  |
+#'  |Total |1927 |529            |347   |28                         |20       |8                 |2            |6         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -157,10 +157,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |always |often |sometimes |hardly ever |never |no answer |Total |
-#'  |:-----|:----|:------|:-----|:---------|:-----------|:-----|:---------|:-----|
-#'  |2016  |1927 |64     |83    |142       |162         |484   |5         |2867  |
-#'  |Total |1927 |64     |83    |142       |162         |484   |5         |2867  |
+#'  |year  |iap  |always |often |sometimes |hardly ever |never |no answer |not available in this year |Total |
+#'  |:-----|:----|:------|:-----|:---------|:-----------|:-----|:---------|:--------------------------|:-----|
+#'  |2016  |1927 |64     |83    |142       |162         |484   |5         |-                          |2867  |
+#'  |Total |1927 |64     |83    |142       |162         |484   |5         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -202,10 +202,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |always |often |sometimes |hardly ever |never |no answer |Total |
-#'  |:-----|:----|:------|:-----|:---------|:-----------|:-----|:---------|:-----|
-#'  |2016  |1927 |198    |177   |234       |146         |180   |5         |2867  |
-#'  |Total |1927 |198    |177   |234       |146         |180   |5         |2867  |
+#'  |year  |iap  |always |often |sometimes |hardly ever |never |no answer |not available in this year |Total |
+#'  |:-----|:----|:------|:-----|:---------|:-----------|:-----|:---------|:--------------------------|:-----|
+#'  |2016  |1927 |198    |177   |234       |146         |180   |5         |-                          |2867  |
+#'  |Total |1927 |198    |177   |234       |146         |180   |5         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -244,10 +244,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |starting and finishing times are decided by my employer and i cannot change them on my own |i have a schedule or shift which regularly changes (for example, from days to evenings or to nights) |i have a schedule where daily working times are decided at short notice by my employer |don't know |no answer |Total |
-#'  |:-----|:----|:------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:----------|:---------|:-----|
-#'  |2016  |1927 |445                                                                                        |383                                                                                                  |104                                                                                    |2          |6         |2867  |
-#'  |Total |1927 |445                                                                                        |383                                                                                                  |104                                                                                    |2          |6         |2867  |
+#'  |year  |iap  |starting and finishing times are decided by my employer and i cannot change them on my own |i have a schedule or shift which regularly changes (for example, from days to evenings or to nights) |i have a schedule where daily working times are decided at short notice by my employer |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1927 |445                                                                                        |383                                                                                                  |104                                                                                    |2          |6         |-                          |2867  |
+#'  |Total |1927 |445                                                                                        |383                                                                                                  |104                                                                                    |2          |6         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -285,10 +285,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |i have a regular schedule or shift (daytime, evening, or night) |i have a schedule or shift which regularly changes (for example, from days to evenings or to nights) |i have a schedule where daily working times are decided at short notice by my employer |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:----------|:---------|:-----|
-#'  |2016  |1927 |700                                                             |166                                                                                                  |55                                                                                     |11         |8         |2867  |
-#'  |Total |1927 |700                                                             |166                                                                                                  |55                                                                                     |11         |8         |2867  |
+#'  |year  |iap  |i have a regular schedule or shift (daytime, evening, or night) |i have a schedule or shift which regularly changes (for example, from days to evenings or to nights) |i have a schedule where daily working times are decided at short notice by my employer |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1927 |700                                                             |166                                                                                                  |55                                                                                     |11         |8         |-                          |2867  |
+#'  |Total |1927 |700                                                             |166                                                                                                  |55                                                                                     |11         |8         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -331,10 +331,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2016  |1927 |121            |253   |175                        |270      |113               |2            |6         |2867  |
-#'  |Total |1927 |121            |253   |175                        |270      |113               |2            |6         |2867  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2016  |1927 |121            |253   |175                        |270      |113               |2            |6         |-                          |2867  |
+#'  |Total |1927 |121            |253   |175                        |270      |113               |2            |6         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -376,10 +376,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2016  |1927 |93             |280   |156                        |269      |130               |5          |7         |2867  |
-#'  |Total |1927 |93             |280   |156                        |269      |130               |5          |7         |2867  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1927 |93             |280   |156                        |269      |130               |5          |7         |-                          |2867  |
+#'  |Total |1927 |93             |280   |156                        |269      |130               |5          |7         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -421,10 +421,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2016  |1927 |43             |120   |131                        |307      |328               |4          |7         |2867  |
-#'  |Total |1927 |43             |120   |131                        |307      |328               |4          |7         |2867  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1927 |43             |120   |131                        |307      |328               |4          |7         |-                          |2867  |
+#'  |Total |1927 |43             |120   |131                        |307      |328               |4          |7         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation

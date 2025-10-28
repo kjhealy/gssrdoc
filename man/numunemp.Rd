@@ -31,10 +31,10 @@ Question About how many different times have you been unemployed and looking for
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1273/vshow}{GSS Data Explorer page for \code{numunemp}}.
 
-Counts by year:\tabular{llllllllllllllllllllllll}{
-   year \tab iap \tab 1 \tab 10 \tab 12 \tab 15 \tab 2 \tab 20 \tab 21 \tab 25 \tab 3 \tab 30 \tab 32 \tab 4 \tab 5 \tab 50 \tab 6 \tab 7 \tab 70 \tab 8 \tab 96 or more \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 824 \tab 211 \tab 27 \tab 6 \tab 4 \tab 156 \tab 6 \tab 1 \tab 2 \tab 114 \tab 3 \tab 1 \tab 66 \tab 35 \tab 1 \tab 17 \tab 7 \tab 1 \tab 5 \tab 2 \tab 12 \tab 16 \tab 1517 \cr
-   Total \tab 824 \tab 211 \tab 27 \tab 6 \tab 4 \tab 156 \tab 6 \tab 1 \tab 2 \tab 114 \tab 3 \tab 1 \tab 66 \tab 35 \tab 1 \tab 17 \tab 7 \tab 1 \tab 5 \tab 2 \tab 12 \tab 16 \tab 1517 \cr
+Counts by year:\tabular{lllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 12 \tab 15 \tab 2 \tab 20 \tab 21 \tab 25 \tab 3 \tab 30 \tab 32 \tab 4 \tab 5 \tab 50 \tab 6 \tab 7 \tab 70 \tab 8 \tab 96 or more \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 824 \tab 211 \tab 27 \tab 6 \tab 4 \tab 156 \tab 6 \tab 1 \tab 2 \tab 114 \tab 3 \tab 1 \tab 66 \tab 35 \tab 1 \tab 17 \tab 7 \tab 1 \tab 5 \tab 2 \tab 12 \tab 16 \tab - \tab 1517 \cr
+   Total \tab 824 \tab 211 \tab 27 \tab 6 \tab 4 \tab 156 \tab 6 \tab 1 \tab 2 \tab 114 \tab 3 \tab 1 \tab 66 \tab 35 \tab 1 \tab 17 \tab 7 \tab 1 \tab 5 \tab 2 \tab 12 \tab 16 \tab 0 \tab 1517 \cr
 }
 }
 

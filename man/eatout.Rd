@@ -35,11 +35,11 @@ B. Have a meal (breakfast, lunch or dinner) at a restaurant (including fast food
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5307/vshow}{GSS Data Explorer page for \code{eatout}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
-   1996 \tab 1953 \tab 765 \tab 184 \tab 2 \tab - \tab 2904 \cr
-   1998 \tab 1387 \tab 1158 \tab 282 \tab 4 \tab 1 \tab 2832 \cr
-   Total \tab 3340 \tab 1923 \tab 466 \tab 6 \tab 1 \tab 5736 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1996 \tab 1953 \tab 765 \tab 184 \tab 2 \tab - \tab - \tab 2904 \cr
+   1998 \tab 1387 \tab 1158 \tab 282 \tab 4 \tab 1 \tab - \tab 2832 \cr
+   Total \tab 3340 \tab 1923 \tab 466 \tab 6 \tab 1 \tab 0 \tab 5736 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Please indicate the word that comes closest to the meaning of the word 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7762/vshow}{GSS Data Explorer page for \code{wordl}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab incorrect answer \tab correct answer \tab no answer \tab Total \cr
-   2022 \tab 2345 \tab 425 \tab 696 \tab 78 \tab 3544 \cr
-   Total \tab 2345 \tab 425 \tab 696 \tab 78 \tab 3544 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab not available in this year \tab incorrect answer \tab correct answer \tab iap \tab no answer \tab Total \cr
+   2022 \tab - \tab 425 \tab 696 \tab 2345 \tab 78 \tab 3544 \cr
+   Total \tab 0 \tab 425 \tab 696 \tab 2345 \tab 78 \tab 3544 \cr
 }
 }
 

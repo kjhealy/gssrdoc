@@ -33,10 +33,10 @@ D. That politicians take into account the views of citizens before making decisi
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4936/vshow}{GSS Data Explorer page for \code{citviews}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 14 \tab 6 \tab 18 \tab 54 \tab 98 \tab 177 \tab 1093 \tab 8 \tab 4 \tab 2812 \cr
-   Total \tab 1340 \tab 14 \tab 6 \tab 18 \tab 54 \tab 98 \tab 177 \tab 1093 \tab 8 \tab 4 \tab 2812 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 14 \tab 6 \tab 18 \tab 54 \tab 98 \tab 177 \tab 1093 \tab 8 \tab 4 \tab - \tab 2812 \cr
+   Total \tab 1340 \tab 14 \tab 6 \tab 18 \tab 54 \tab 98 \tab 177 \tab 1093 \tab 8 \tab 4 \tab 0 \tab 2812 \cr
 }
 }
 

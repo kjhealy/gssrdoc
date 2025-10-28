@@ -33,11 +33,11 @@ A. Look for information you needed for your work?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2415/vshow}{GSS Data Explorer page for \code{work12}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2075 \tab 423 \tab 244 \tab 75 \tab - \tab 2817 \cr
-   2002 \tab 1681 \tab 604 \tab 385 \tab 94 \tab 1 \tab 2765 \cr
-   Total \tab 3756 \tab 1027 \tab 629 \tab 169 \tab 1 \tab 5582 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 423 \tab 244 \tab 75 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 604 \tab 385 \tab 94 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 3756 \tab 1027 \tab 629 \tab 169 \tab 1 \tab 0 \tab 5582 \cr
 }
 }
 

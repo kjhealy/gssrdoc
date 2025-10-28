@@ -37,10 +37,10 @@ C. That he is honest
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/502/vshow}{GSS Data Explorer page for \code{honestz}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab extremely impt \tab very impt \tab fairly impt \tab no answer \tab Total \cr
-   1980 \tab 985 \tab 314 \tab 153 \tab 11 \tab 5 \tab 1468 \cr
-   Total \tab 985 \tab 314 \tab 153 \tab 11 \tab 5 \tab 1468 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab extremely impt \tab very impt \tab fairly impt \tab no answer \tab not available in this year \tab Total \cr
+   1980 \tab 985 \tab 314 \tab 153 \tab 11 \tab 5 \tab - \tab 1468 \cr
+   Total \tab 985 \tab 314 \tab 153 \tab 11 \tab 5 \tab 0 \tab 1468 \cr
 }
 }
 

@@ -36,10 +36,10 @@ E. I worry that if I run out of money or health insurance I will get second clas
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2250/vshow}{GSS Data Explorer page for \code{termpay}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 208 \tab 554 \tab 177 \tab 339 \tab 61 \tab 41 \tab 7 \tab 2832 \cr
-   Total \tab 1445 \tab 208 \tab 554 \tab 177 \tab 339 \tab 61 \tab 41 \tab 7 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 208 \tab 554 \tab 177 \tab 339 \tab 61 \tab 41 \tab 7 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 208 \tab 554 \tab 177 \tab 339 \tab 61 \tab 41 \tab 7 \tab 0 \tab 2832 \cr
 }
 }
 

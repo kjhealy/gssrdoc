@@ -33,10 +33,10 @@ L. Ordinary tomatoes do not contain genes, while genetically modified tomatoes D
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3345/vshow}{GSS Data Explorer page for \code{tomatoes}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab true \tab false \tab can't choose \tab no answer \tab Total \cr
-   2010 \tab 1103 \tab 181 \tab 445 \tab 311 \tab 4 \tab 2044 \cr
-   Total \tab 1103 \tab 181 \tab 445 \tab 311 \tab 4 \tab 2044 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab true \tab false \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 1103 \tab 181 \tab 445 \tab 311 \tab 4 \tab - \tab 2044 \cr
+   Total \tab 1103 \tab 181 \tab 445 \tab 311 \tab 4 \tab 0 \tab 2044 \cr
 }
 }
 

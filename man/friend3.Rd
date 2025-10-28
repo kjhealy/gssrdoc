@@ -36,12 +36,12 @@ I3. Third Person is Friend
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/917/vshow}{GSS Data Explorer page for \code{friend3}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab don't know \tab Total \cr
-   1985 \tab 599 \tab 669 \tab 262 \tab 4 \tab - \tab 1534 \cr
-   1987 \tab 735 \tab 791 \tab 269 \tab 24 \tab - \tab 1819 \cr
-   2004 \tab 2240 \tab 325 \tab 199 \tab 47 \tab 1 \tab 2812 \cr
-   Total \tab 3574 \tab 1785 \tab 730 \tab 75 \tab 1 \tab 6165 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1985 \tab 599 \tab 669 \tab 262 \tab 4 \tab - \tab - \tab 1534 \cr
+   1987 \tab 735 \tab 791 \tab 269 \tab 24 \tab - \tab - \tab 1819 \cr
+   2004 \tab 2240 \tab 325 \tab 199 \tab 47 \tab 1 \tab - \tab 2812 \cr
+   Total \tab 3574 \tab 1785 \tab 730 \tab 75 \tab 1 \tab 0 \tab 6165 \cr
 }
 }
 

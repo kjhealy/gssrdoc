@@ -35,10 +35,10 @@ B. The people who do it have advanced degrees in their field. (Would you say thi
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3399/vshow}{GSS Data Explorer page for \code{sciimp2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab pretty important \tab not too important \tab not important at all \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 1153 \tab 530 \tab 91 \tab 27 \tab 57 \tab 6 \tab 4510 \cr
-   Total \tab 2646 \tab 1153 \tab 530 \tab 91 \tab 27 \tab 57 \tab 6 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab pretty important \tab not too important \tab not important at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 1153 \tab 530 \tab 91 \tab 27 \tab 57 \tab 6 \tab - \tab 4510 \cr
+   Total \tab 2646 \tab 1153 \tab 530 \tab 91 \tab 27 \tab 57 \tab 6 \tab 0 \tab 4510 \cr
 }
 }
 

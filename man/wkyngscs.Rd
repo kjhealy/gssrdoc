@@ -34,10 +34,10 @@ B. After the youngest child started school?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4482/vshow}{GSS Data Explorer page for \code{wkyngscs}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab worked full-time \tab worked part-time \tab stayed at home \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1044 \tab 531 \tab 100 \tab 100 \tab 189 \tab 10 \tab 1974 \cr
-   Total \tab 1044 \tab 531 \tab 100 \tab 100 \tab 189 \tab 10 \tab 1974 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab worked full-time \tab worked part-time \tab stayed at home \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1044 \tab 531 \tab 100 \tab 100 \tab 189 \tab 10 \tab - \tab 1974 \cr
+   Total \tab 1044 \tab 531 \tab 100 \tab 100 \tab 189 \tab 10 \tab 0 \tab 1974 \cr
 }
 }
 

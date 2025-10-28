@@ -32,10 +32,10 @@ Question Permission to access respondent's facebook account
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7427/vshow}{GSS Data Explorer page for \code{fbaccess}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab permission granted \tab permission denied \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1903 \tab 317 \tab 623 \tab 2 \tab 22 \tab 2867 \cr
-   Total \tab 1903 \tab 317 \tab 623 \tab 2 \tab 22 \tab 2867 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab permission granted \tab permission denied \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1903 \tab 317 \tab 623 \tab 2 \tab 22 \tab - \tab 2867 \cr
+   Total \tab 1903 \tab 317 \tab 623 \tab 2 \tab 22 \tab 0 \tab 2867 \cr
 }
 }
 

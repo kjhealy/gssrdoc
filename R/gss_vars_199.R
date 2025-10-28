@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |agree strongly |agree somewhat |disagree somewhat |disagree strongly |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:-----|
-#'  |1996  |1460 |522            |330            |230               |296               |60         |6         |2904  |
-#'  |Total |1460 |522            |330            |230               |296               |60         |6         |2904  |
+#'  |year  |iap  |agree strongly |agree somewhat |disagree somewhat |disagree strongly |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1460 |522            |330            |230               |296               |60         |6         |-                          |2904  |
+#'  |Total |1460 |522            |330            |230               |296               |60         |6         |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -68,10 +68,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |agree strongly |agree somewhat |disagree somewhat |disagree strongly |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:-----|
-#'  |1996  |1460 |441            |374            |290               |245               |82         |12        |2904  |
-#'  |Total |1460 |441            |374            |290               |245               |82         |12        |2904  |
+#'  |year  |iap  |agree strongly |agree somewhat |disagree somewhat |disagree strongly |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:--------------|:-----------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1460 |441            |374            |290               |245               |82         |12        |-                          |2904  |
+#'  |Total |1460 |441            |374            |290               |245               |82         |12        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -111,10 +111,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |never |rarely |occasionally 1-3 times a yr |regularly |almost every weekend |no answer |Total |
-#'  |:-----|:----|:-----|:------|:---------------------------|:---------|:--------------------|:---------|:-----|
-#'  |1996  |1460 |457   |397    |382                         |146       |56                   |6         |2904  |
-#'  |Total |1460 |457   |397    |382                         |146       |56                   |6         |2904  |
+#'  |year  |iap  |never |rarely |occasionally 1-3 times a yr |regularly |almost every weekend |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:------|:---------------------------|:---------|:--------------------|:---------|:--------------------------|:-----|
+#'  |1996  |1460 |457   |397    |382                         |146       |56                   |6         |-                          |2904  |
+#'  |Total |1460 |457   |397    |382                         |146       |56                   |6         |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -150,10 +150,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |expect to pay posted price |negotiate for lower price |don't know |no answer |Total |
-#'  |:-----|:----|:--------------------------|:-------------------------|:----------|:---------|:-----|
-#'  |1996  |1917 |383                        |579                       |12         |13        |2904  |
-#'  |Total |1917 |383                        |579                       |12         |13        |2904  |
+#'  |year  |iap  |expect to pay posted price |negotiate for lower price |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------------------|:-------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1917 |383                        |579                       |12         |13        |-                          |2904  |
+#'  |Total |1917 |383                        |579                       |12         |13        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -189,10 +189,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1996  |1460 |54  |1381 |9         |2904  |
-#'  |Total |1460 |54  |1381 |9         |2904  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1996  |1460 |54  |1381 |9         |-                          |2904  |
+#'  |Total |1460 |54  |1381 |9         |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -233,10 +233,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |only especially busy seasons |less than 10 hours a week |between 10 and 30 hours a week |more than 30 hours a week |no answer |Total |
-#'  |:-----|:----|:----------------------------|:-------------------------|:------------------------------|:-------------------------|:---------|:-----|
-#'  |1996  |2841 |8                            |7                         |12                             |27                        |9         |2904  |
-#'  |Total |2841 |8                            |7                         |12                             |27                        |9         |2904  |
+#'  |year  |iap  |only especially busy seasons |less than 10 hours a week |between 10 and 30 hours a week |more than 30 hours a week |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------------------|:-------------------------|:------------------------------|:-------------------------|:---------|:--------------------------|:-----|
+#'  |1996  |2841 |8                            |7                         |12                             |27                        |9         |-                          |2904  |
+#'  |Total |2841 |8                            |7                         |12                             |27                        |9         |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -279,10 +279,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |manufacturing |retail sales |wholesale sales |services |transportation |construction |finance, insrnce or real est |farming |other specify |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:------------|:---------------|:--------|:--------------|:------------|:----------------------------|:-------|:-------------|:----------|:---------|:-----|
-#'  |1996  |2841 |4             |6            |1               |11       |5              |9            |1                            |6       |8             |1          |11        |2904  |
-#'  |Total |2841 |4             |6            |1               |11       |5              |9            |1                            |6       |8             |1          |11        |2904  |
+#'  |year  |iap  |manufacturing |retail sales |wholesale sales |services |transportation |construction |finance, insrnce or real est |farming |other specify |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:------------|:---------------|:--------|:--------------|:------------|:----------------------------|:-------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |2841 |4             |6            |1               |11       |5              |9            |1                            |6       |8             |1          |11        |-                          |2904  |
+#'  |Total |2841 |4             |6            |1               |11       |5              |9            |1                            |6       |8             |1          |11        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -322,10 +322,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |the best possible |ok but need some tinkering |need fundamental changes |need to be replaced |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:--------------------------|:------------------------|:-------------------|:----------|:---------|:-----|
-#'  |1996  |1460 |104               |639                        |537                      |113                 |43         |8         |2904  |
-#'  |Total |1460 |104               |639                        |537                      |113                 |43         |8         |2904  |
+#'  |year  |iap  |the best possible |ok but need some tinkering |need fundamental changes |need to be replaced |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:--------------------------|:------------------------|:-------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1460 |104               |639                        |537                      |113                 |43         |8         |-                          |2904  |
+#'  |Total |1460 |104               |639                        |537                      |113                 |43         |8         |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -365,10 +365,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |wife manages all the money |husband manages all the money |wife has a housekeeping allowance |all the money is pooled |some of the money is pooled |keep finances completely separate |no answer |Total |
-#'  |:-----|:----|:--------------------------|:-----------------------------|:---------------------------------|:-----------------------|:---------------------------|:---------------------------------|:---------|:-----|
-#'  |1996  |2196 |200                        |61                            |59                                |260                     |91                          |32                                |5         |2904  |
-#'  |Total |2196 |200                        |61                            |59                                |260                     |91                          |32                                |5         |2904  |
+#'  |year  |iap  |wife manages all the money |husband manages all the money |wife has a housekeeping allowance |all the money is pooled |some of the money is pooled |keep finances completely separate |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------------------|:-----------------------------|:---------------------------------|:-----------------------|:---------------------------|:---------------------------------|:---------|:--------------------------|:-----|
+#'  |1996  |2196 |200                        |61                            |59                                |260                     |91                          |32                                |5         |-                          |2904  |
+#'  |Total |2196 |200                        |61                            |59                                |260                     |91                          |32                                |5         |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -411,10 +411,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |husband alone |husband after consulting with wife |husband and wife together |wife after consulting husband |wife alone |other |no answer |see codebook |Total |
-#'  |:-----|:----|:-------------|:----------------------------------|:-------------------------|:-----------------------------|:----------|:-----|:---------|:------------|:-----|
-#'  |1996  |2196 |47            |90                                 |501                       |22                            |21         |5     |3         |19           |2904  |
-#'  |Total |2196 |47            |90                                 |501                       |22                            |21         |5     |3         |19           |2904  |
+#'  |year  |iap  |husband alone |husband after consulting with wife |husband and wife together |wife after consulting husband |wife alone |other |no answer |see codebook |not available in this year |Total |
+#'  |:-----|:----|:-------------|:----------------------------------|:-------------------------|:-----------------------------|:----------|:-----|:---------|:------------|:--------------------------|:-----|
+#'  |1996  |2196 |47            |90                                 |501                       |22                            |21         |5     |3         |19           |-                          |2904  |
+#'  |Total |2196 |47            |90                                 |501                       |22                            |21         |5     |3         |19           |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets

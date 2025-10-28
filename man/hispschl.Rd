@@ -33,10 +33,10 @@ A. Do you know any of these Hispanics from when you went to school or college?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2350/vshow}{GSS Data Explorer page for \code{hispschl}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1878 \tab 369 \tab 501 \tab 3 \tab 66 \tab 2817 \cr
-   Total \tab 1878 \tab 369 \tab 501 \tab 3 \tab 66 \tab 2817 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1878 \tab 369 \tab 501 \tab 3 \tab 66 \tab - \tab 2817 \cr
+   Total \tab 1878 \tab 369 \tab 501 \tab 3 \tab 66 \tab 0 \tab 2817 \cr
 }
 }
 

@@ -34,10 +34,10 @@ C. Satisfaction with their present financial situation
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/734/vshow}{GSS Data Explorer page for \code{salsatfn}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very often \tab sometimes \tab almost never \tab don't know \tab no answer \tab Total \cr
-   1978 \tab - \tab 601 \tab 616 \tab 302 \tab 7 \tab 6 \tab 1532 \cr
-   Total \tab 0 \tab 601 \tab 616 \tab 302 \tab 7 \tab 6 \tab 1532 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very often \tab sometimes \tab almost never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1978 \tab - \tab 601 \tab 616 \tab 302 \tab 7 \tab 6 \tab - \tab 1532 \cr
+   Total \tab 0 \tab 601 \tab 616 \tab 302 \tab 7 \tab 6 \tab 0 \tab 1532 \cr
 }
 }
 

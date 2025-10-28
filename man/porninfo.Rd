@@ -34,10 +34,10 @@ Question B. How much information do you have about the pornography issue--do you
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/644/vshow}{GSS Data Explorer page for \code{porninfo}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab all info r needs \tab most info \tab some info \tab very little info \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 209 \tab 303 \tab 542 \tab 381 \tab 18 \tab 20 \tab 1473 \cr
-   Total \tab 0 \tab 209 \tab 303 \tab 542 \tab 381 \tab 18 \tab 20 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab all info r needs \tab most info \tab some info \tab very little info \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 209 \tab 303 \tab 542 \tab 381 \tab 18 \tab 20 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 209 \tab 303 \tab 542 \tab 381 \tab 18 \tab 20 \tab 0 \tab 1473 \cr
 }
 }
 

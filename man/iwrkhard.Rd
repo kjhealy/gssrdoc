@@ -33,11 +33,11 @@ Question Which of the following statements best describes your feelings about th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4531/vshow}{GSS Data Explorer page for \code{iwrkhard}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab only minimum \tab not to interfere \tab real hard \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 65 \tab 265 \tab 522 \tab 11 \tab 35 \tab 1537 \cr
-   1998 \tab 1967 \tab 67 \tab 306 \tab 451 \tab 13 \tab 28 \tab 2832 \cr
-   Total \tab 2606 \tab 132 \tab 571 \tab 973 \tab 24 \tab 63 \tab 4369 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab only minimum \tab not to interfere \tab real hard \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 65 \tab 265 \tab 522 \tab 11 \tab 35 \tab - \tab 1537 \cr
+   1998 \tab 1967 \tab 67 \tab 306 \tab 451 \tab 13 \tab 28 \tab - \tab 2832 \cr
+   Total \tab 2606 \tab 132 \tab 571 \tab 973 \tab 24 \tab 63 \tab 0 \tab 4369 \cr
 }
 }
 

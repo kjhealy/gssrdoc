@@ -35,12 +35,13 @@ B. Take a prescription medication to control his/her behavior.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2032/vshow}{GSS Data Explorer page for \code{mustmed}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 372 \tab 970 \tab 82 \tab 20 \tab 2904 \cr
-   2006 \tab 3073 \tab 371 \tab 999 \tab 52 \tab 15 \tab 4510 \cr
-   2018 \tab 1175 \tab 318 \tab 795 \tab 32 \tab 28 \tab 2348 \cr
-   Total \tab 5708 \tab 1061 \tab 2764 \tab 166 \tab 63 \tab 9762 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 372 \tab 970 \tab 82 \tab 20 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 371 \tab 999 \tab 52 \tab 15 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 318 \tab 795 \tab 32 \tab 28 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1693 \tab 435 \tab 1086 \tab 52 \tab 13 \tab - \tab 30 \tab 3309 \cr
+   Total \tab 7401 \tab 1496 \tab 3850 \tab 218 \tab 76 \tab 0 \tab 30 \tab 13071 \cr
 }
 }
 

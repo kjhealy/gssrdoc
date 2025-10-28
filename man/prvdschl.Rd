@@ -37,10 +37,10 @@ School education for children?  (Should it be?)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6307/vshow}{GSS Data Explorer page for \code{prvdschl}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab government \tab private companies/for-profit organizations \tab non-profit organizations/charities/cooperatives \tab religious organizations \tab family, relatives or friends \tab can't choose \tab no answer \tab Total \cr
-   2016 \tab 1477 \tab 1071 \tab 76 \tab 63 \tab 8 \tab 131 \tab 25 \tab 16 \tab 2867 \cr
-   Total \tab 1477 \tab 1071 \tab 76 \tab 63 \tab 8 \tab 131 \tab 25 \tab 16 \tab 2867 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab government \tab private companies/for-profit organizations \tab non-profit organizations/charities/cooperatives \tab religious organizations \tab family, relatives or friends \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1477 \tab 1071 \tab 76 \tab 63 \tab 8 \tab 131 \tab 25 \tab 16 \tab - \tab 2867 \cr
+   Total \tab 1477 \tab 1071 \tab 76 \tab 63 \tab 8 \tab 131 \tab 25 \tab 16 \tab 0 \tab 2867 \cr
 }
 }
 

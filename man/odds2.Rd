@@ -36,16 +36,16 @@ B. Does this mean that each of the couple's children will have the same risk of 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3333/vshow}{GSS Data Explorer page for \code{odds2}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 1408 \tab 356 \tab 96 \tab 4 \tab 4510 \cr
-   2008 \tab 518 \tab 1079 \tab 311 \tab 101 \tab 14 \tab 2023 \cr
-   2010 \tab 1328 \tab 538 \tab 130 \tab 39 \tab 9 \tab 2044 \cr
-   2012 \tab 972 \tab 700 \tab 213 \tab 81 \tab 8 \tab 1974 \cr
-   2014 \tab 1299 \tab 885 \tab 274 \tab 78 \tab 2 \tab 2538 \cr
-   2016 \tab 1477 \tab 1010 \tab 317 \tab 50 \tab 13 \tab 2867 \cr
-   2018 \tab 1173 \tab 854 \tab 261 \tab 54 \tab 6 \tab 2348 \cr
-   Total \tab 9413 \tab 6474 \tab 1862 \tab 499 \tab 56 \tab 18304 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 1408 \tab 356 \tab 96 \tab 4 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 1079 \tab 311 \tab 101 \tab 14 \tab - \tab 2023 \cr
+   2010 \tab 1328 \tab 538 \tab 130 \tab 39 \tab 9 \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 700 \tab 213 \tab 81 \tab 8 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 885 \tab 274 \tab 78 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 1010 \tab 317 \tab 50 \tab 13 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 854 \tab 261 \tab 54 \tab 6 \tab - \tab 2348 \cr
+   Total \tab 9413 \tab 6474 \tab 1862 \tab 499 \tab 56 \tab 0 \tab 18304 \cr
 }
 }
 

@@ -31,10 +31,10 @@ Question H. How many school service groups do you belong to?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3134/vshow}{GSS Data Explorer page for \code{numschl}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab no answer \tab Total \cr
-   2004 \tab 2602 \tab 183 \tab 15 \tab 3 \tab 1 \tab 8 \tab 2812 \cr
-   Total \tab 2602 \tab 183 \tab 15 \tab 3 \tab 1 \tab 8 \tab 2812 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2602 \tab 183 \tab 15 \tab 3 \tab 1 \tab 8 \tab - \tab 2812 \cr
+   Total \tab 2602 \tab 183 \tab 15 \tab 3 \tab 1 \tab 8 \tab 0 \tab 2812 \cr
 }
 }
 

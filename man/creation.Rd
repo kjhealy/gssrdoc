@@ -34,10 +34,10 @@ Question After I read off three statements, please tell me which one comes close
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4972/vshow}{GSS Data Explorer page for \code{creation}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab god created man \tab man has evolved \tab man has evolved, but god guided \tab other \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 608 \tab 170 \tab 598 \tab 52 \tab 26 \tab 18 \tab 2812 \cr
-   Total \tab 1340 \tab 608 \tab 170 \tab 598 \tab 52 \tab 26 \tab 18 \tab 2812 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab god created man \tab man has evolved \tab man has evolved, but god guided \tab other \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 608 \tab 170 \tab 598 \tab 52 \tab 26 \tab 18 \tab - \tab 2812 \cr
+   Total \tab 1340 \tab 608 \tab 170 \tab 598 \tab 52 \tab 26 \tab 18 \tab 0 \tab 2812 \cr
 }
 }
 

@@ -34,10 +34,10 @@ Question During the past 3 months, how often did you stay at home or leave work 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3013/vshow}{GSS Data Explorer page for \code{skipwork}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 945 \tab 14 \tab 89 \tab 231 \tab 1491 \tab 5 \tab 37 \tab 2812 \cr
-   Total \tab 945 \tab 14 \tab 89 \tab 231 \tab 1491 \tab 5 \tab 37 \tab 2812 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 945 \tab 14 \tab 89 \tab 231 \tab 1491 \tab 5 \tab 37 \tab - \tab 2812 \cr
+   Total \tab 945 \tab 14 \tab 89 \tab 231 \tab 1491 \tab 5 \tab 37 \tab 0 \tab 2812 \cr
 }
 }
 

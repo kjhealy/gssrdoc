@@ -34,10 +34,10 @@ A. Altered your outlook on life?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3077/vshow}{GSS Data Explorer page for \code{relalt1}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab not at all \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab a great deal \tab refused \tab Total \cr
-   2004 \tab 2163 \tab 19 \tab 9 \tab 19 \tab 60 \tab 104 \tab 117 \tab 310 \tab 11 \tab 2812 \cr
-   Total \tab 2163 \tab 19 \tab 9 \tab 19 \tab 60 \tab 104 \tab 117 \tab 310 \tab 11 \tab 2812 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab not at all \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab a great deal \tab refused \tab not available in this year \tab Total \cr
+   2004 \tab 2163 \tab 19 \tab 9 \tab 19 \tab 60 \tab 104 \tab 117 \tab 310 \tab 11 \tab - \tab 2812 \cr
+   Total \tab 2163 \tab 19 \tab 9 \tab 19 \tab 60 \tab 104 \tab 117 \tab 310 \tab 11 \tab 0 \tab 2812 \cr
 }
 }
 

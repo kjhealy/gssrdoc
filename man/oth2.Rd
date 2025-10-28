@@ -35,11 +35,11 @@ H. And finally, since (CURRENT MONTH), (1990/2003), did any of the following occ
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5190/vshow}{GSS Data Explorer page for \code{oth2}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1991 \tab 500 \tab 21 \tab 990 \tab 6 \tab 1517 \cr
-   2004 \tab 1472 \tab 34 \tab 1299 \tab 7 \tab 2812 \cr
-   Total \tab 1972 \tab 55 \tab 2289 \tab 13 \tab 4329 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 500 \tab 21 \tab 990 \tab 6 \tab - \tab 1517 \cr
+   2004 \tab 1472 \tab 34 \tab 1299 \tab 7 \tab - \tab 2812 \cr
+   Total \tab 1972 \tab 55 \tab 2289 \tab 13 \tab 0 \tab 4329 \cr
 }
 }
 

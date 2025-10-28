@@ -32,10 +32,10 @@ Question Did not want to go to that location.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6254/vshow}{GSS Data Explorer page for \code{prfmloc}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab a reason \tab not a reason \tab don't know \tab Total \cr
-   2016 \tab 2408 \tab 38 \tab 420 \tab 1 \tab 2867 \cr
-   Total \tab 2408 \tab 38 \tab 420 \tab 1 \tab 2867 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab a reason \tab not a reason \tab don't know \tab not available in this year \tab Total \cr
+   2016 \tab 2408 \tab 38 \tab 420 \tab 1 \tab - \tab 2867 \cr
+   Total \tab 2408 \tab 38 \tab 420 \tab 1 \tab 0 \tab 2867 \cr
 }
 }
 

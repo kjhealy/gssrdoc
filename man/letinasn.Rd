@@ -36,11 +36,11 @@ Question What about the number of immigrants from Asia? (Should it be increased 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2305/vshow}{GSS Data Explorer page for \code{letinasn}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab increased a lot \tab increased a little \tab left the same as it is now \tab decreased a little \tab decreased a lot \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 36 \tab 79 \tab 626 \tab 259 \tab 299 \tab 95 \tab 4 \tab 2817 \cr
-   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 4963 \tab 36 \tab 79 \tab 626 \tab 259 \tab 299 \tab 95 \tab 4 \tab 6361 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab increased a lot \tab increased a little \tab left the same as it is now \tab decreased a little \tab decreased a lot \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2000 \tab 1419 \tab 36 \tab 79 \tab 626 \tab 259 \tab 299 \tab 95 \tab 4 \tab - \tab - \tab 2817 \cr
+   2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab - \tab 3544 \cr
+   Total \tab 1419 \tab 36 \tab 79 \tab 626 \tab 259 \tab 299 \tab 95 \tab 4 \tab 3544 \tab 0 \tab 6361 \cr
 }
 }
 

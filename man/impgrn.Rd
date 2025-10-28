@@ -37,12 +37,12 @@ A. There are more important things to do in life than protect the environment.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4779/vshow}{GSS Data Explorer page for \code{impgrn}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2000 \tab 1541 \tab 33 \tab 204 \tab 346 \tab 479 \tab 123 \tab 25 \tab 66 \tab - \tab 2817 \cr
-   2010 \tab 614 \tab 38 \tab 301 \tab 299 \tab 616 \tab 134 \tab 32 \tab 10 \tab - \tab 2044 \cr
-   2021 \tab 2003 \tab 54 \tab 262 \tab 553 \tab 664 \tab 255 \tab 57 \tab 179 \tab 5 \tab 4032 \cr
-   Total \tab 4158 \tab 125 \tab 767 \tab 1198 \tab 1759 \tab 512 \tab 114 \tab 255 \tab 5 \tab 8893 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2000 \tab 1541 \tab 33 \tab 204 \tab 346 \tab 479 \tab 123 \tab 25 \tab 66 \tab - \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 38 \tab 301 \tab 299 \tab 616 \tab 134 \tab 32 \tab 10 \tab - \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 54 \tab 262 \tab 553 \tab 664 \tab 255 \tab 57 \tab 179 \tab 5 \tab - \tab 4032 \cr
+   Total \tab 4158 \tab 125 \tab 767 \tab 1198 \tab 1759 \tab 512 \tab 114 \tab 255 \tab 5 \tab 0 \tab 8893 \cr
 }
 }
 

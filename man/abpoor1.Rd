@@ -35,10 +35,10 @@ B. If the family has a very low income and cannot afford any more children.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4634/vshow}{GSS Data Explorer page for \code{abpoor1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should allow it \tab probably should allow it \tab probably should not allow it \tab definitely should not allow it \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 479 \tab 198 \tab 164 \tab 378 \tab 96 \tab 44 \tab 1517 \cr
-   Total \tab 158 \tab 479 \tab 198 \tab 164 \tab 378 \tab 96 \tab 44 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should allow it \tab probably should allow it \tab probably should not allow it \tab definitely should not allow it \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 479 \tab 198 \tab 164 \tab 378 \tab 96 \tab 44 \tab - \tab 1517 \cr
+   Total \tab 158 \tab 479 \tab 198 \tab 164 \tab 378 \tab 96 \tab 44 \tab 0 \tab 1517 \cr
 }
 }
 

@@ -36,10 +36,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no answer |Total |
-#'  |:-----|:----|:---------|:-----|
-#'  |2004  |2771 |41        |2812  |
-#'  |Total |2771 |41        |2812  |
+#'  |year  |iap  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:--------------------------|:-----|
+#'  |2004  |2771 |41        |-                          |2812  |
+#'  |Total |2771 |41        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -89,10 +89,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |fraternal groups |sports groups |youth groups |school service groups |hobby or garden clubs |school fraternities or sororities |nationality groups |literary art discussion or study grps |professional or academic societies |church-affiliated groups |other groups |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:-------------|:------------|:---------------------|:---------------------|:---------------------------------|:------------------|:-------------------------------------|:----------------------------------|:------------------------|:------------|:----------|:---------|:-----|
-#'  |2004  |2734 |2                |2             |1            |2                     |1                     |1                                 |2                  |2                                     |3                                  |11                       |4            |1          |46        |2812  |
-#'  |Total |2734 |2                |2             |1            |2                     |1                     |1                                 |2                  |2                                     |3                                  |11                       |4            |1          |46        |2812  |
+#'  |year  |iap  |fraternal groups |sports groups |youth groups |school service groups |hobby or garden clubs |school fraternities or sororities |nationality groups |literary art discussion or study grps |professional or academic societies |church-affiliated groups |other groups |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:-------------|:------------|:---------------------|:---------------------|:---------------------------------|:------------------|:-------------------------------------|:----------------------------------|:------------------------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2734 |2                |2             |1            |2                     |1                     |1                                 |2                  |2                                     |3                                  |11                       |4            |1          |46        |-                          |2812  |
+#'  |Total |2734 |2                |2             |1            |2                     |1                     |1                                 |2                  |2                                     |3                                  |11                       |4            |1          |46        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -142,10 +142,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |veterans groups |church-affiliated groups |other groups |no answer |Total |
-#'  |:-----|:----|:---------------|:------------------------|:------------|:---------|:-----|
-#'  |2004  |2768 |1               |1                        |1            |41        |2812  |
-#'  |Total |2768 |1               |1                        |1            |41        |2812  |
+#'  |year  |iap  |veterans groups |church-affiliated groups |other groups |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:------------------------|:------------|:---------|:--------------------------|:-----|
+#'  |2004  |2768 |1               |1                        |1            |41        |-                          |2812  |
+#'  |Total |2768 |1               |1                        |1            |41        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -195,10 +195,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |political clubs |no answer |Total |
-#'  |:-----|:----|:---------------|:---------|:-----|
-#'  |2004  |2770 |1               |41        |2812  |
-#'  |Total |2770 |1               |41        |2812  |
+#'  |year  |iap  |political clubs |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:---------|:--------------------------|:-----|
+#'  |2004  |2770 |1               |41        |-                          |2812  |
+#'  |Total |2770 |1               |41        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -248,10 +248,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |church-affiliated groups |no answer |Total |
-#'  |:-----|:----|:------------------------|:---------|:-----|
-#'  |2004  |2770 |1                        |41        |2812  |
-#'  |Total |2770 |1                        |41        |2812  |
+#'  |year  |iap  |church-affiliated groups |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------------------|:---------|:--------------------------|:-----|
+#'  |2004  |2770 |1                        |41        |-                          |2812  |
+#'  |Total |2770 |1                        |41        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -301,10 +301,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no answer |Total |
-#'  |:-----|:----|:---------|:-----|
-#'  |2004  |2771 |41        |2812  |
-#'  |Total |2771 |41        |2812  |
+#'  |year  |iap  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:--------------------------|:-----|
+#'  |2004  |2771 |41        |-                          |2812  |
+#'  |Total |2771 |41        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -354,10 +354,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no answer |Total |
-#'  |:-----|:----|:---------|:-----|
-#'  |2004  |2771 |41        |2812  |
-#'  |Total |2771 |41        |2812  |
+#'  |year  |iap  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:--------------------------|:-----|
+#'  |2004  |2771 |41        |-                          |2812  |
+#'  |Total |2771 |41        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -407,10 +407,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |fraternal groups |labor unions |literary art discussion or study grps |professional or academic societies |church-affiliated groups |other groups |no answer |Total |
-#'  |:-----|:----|:----------------|:------------|:-------------------------------------|:----------------------------------|:------------------------|:------------|:---------|:-----|
-#'  |2004  |2751 |1                |1            |1                                     |1                                  |9                        |2            |46        |2812  |
-#'  |Total |2751 |1                |1            |1                                     |1                                  |9                        |2            |46        |2812  |
+#'  |year  |iap  |fraternal groups |labor unions |literary art discussion or study grps |professional or academic societies |church-affiliated groups |other groups |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:------------|:-------------------------------------|:----------------------------------|:------------------------|:------------|:---------|:--------------------------|:-----|
+#'  |2004  |2751 |1                |1            |1                                     |1                                  |9                        |2            |46        |-                          |2812  |
+#'  |Total |2751 |1                |1            |1                                     |1                                  |9                        |2            |46        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -460,10 +460,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |church-affiliated groups |other groups |no answer |Total |
-#'  |:-----|:----|:------------------------|:------------|:---------|:-----|
-#'  |2004  |2768 |1                        |2            |41        |2812  |
-#'  |Total |2768 |1                        |2            |41        |2812  |
+#'  |year  |iap  |church-affiliated groups |other groups |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------------------|:------------|:---------|:--------------------------|:-----|
+#'  |2004  |2768 |1                        |2            |41        |-                          |2812  |
+#'  |Total |2768 |1                        |2            |41        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics
@@ -513,10 +513,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no answer |Total |
-#'  |:-----|:----|:---------|:-----|
-#'  |2004  |2771 |41        |2812  |
-#'  |Total |2771 |41        |2812  |
+#'  |year  |iap  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:--------------------------|:-----|
+#'  |2004  |2771 |41        |-                          |2812  |
+#'  |Total |2771 |41        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Interviewer Characteristics

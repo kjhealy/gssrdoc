@@ -34,10 +34,10 @@ Question During elections, do you ever try to show people why they should vote f
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1028/vshow}{GSS Data Explorer page for \code{swayvote}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   1987 \tab - \tab 175 \tab 398 \tab 247 \tab 986 \tab 4 \tab 9 \tab 1819 \cr
-   Total \tab 0 \tab 175 \tab 398 \tab 247 \tab 986 \tab 4 \tab 9 \tab 1819 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab - \tab 175 \tab 398 \tab 247 \tab 986 \tab 4 \tab 9 \tab - \tab 1819 \cr
+   Total \tab 0 \tab 175 \tab 398 \tab 247 \tab 986 \tab 4 \tab 9 \tab 0 \tab 1819 \cr
 }
 }
 

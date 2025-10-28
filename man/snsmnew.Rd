@@ -63,10 +63,10 @@ SOCIAL NETWORKING/SOCIAL MEDIA SITE:
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6285/vshow}{GSS Data Explorer page for \code{snsmnew}}.
 
-Counts by year:\tabular{lllllllllllllllllllllllllll}{
-   year \tab iap \tab twitter \tab facebook \tab instagram \tab linkedin \tab snapchat \tab tumblr \tab whatsapp \tab google+ \tab pinterest \tab flickr \tab vine \tab classmates \tab youtube \tab viber \tab plenty of fish \tab kik \tab online dating sites \tab spotify \tab tinder \tab online gaming \tab yahoo \tab other social networks \tab not a social network \tab no answer \tab Total \cr
-   2016 \tab 1867 \tab 57 \tab 147 \tab 123 \tab 100 \tab 186 \tab 18 \tab 49 \tab 67 \tab 166 \tab 4 \tab 13 \tab 13 \tab 5 \tab 1 \tab 2 \tab 3 \tab 6 \tab 1 \tab 1 \tab 3 \tab 1 \tab 9 \tab 14 \tab 11 \tab 2867 \cr
-   Total \tab 1867 \tab 57 \tab 147 \tab 123 \tab 100 \tab 186 \tab 18 \tab 49 \tab 67 \tab 166 \tab 4 \tab 13 \tab 13 \tab 5 \tab 1 \tab 2 \tab 3 \tab 6 \tab 1 \tab 1 \tab 3 \tab 1 \tab 9 \tab 14 \tab 11 \tab 2867 \cr
+Counts by year:\tabular{llllllllllllllllllllllllllll}{
+   year \tab iap \tab twitter \tab facebook \tab instagram \tab linkedin \tab snapchat \tab tumblr \tab whatsapp \tab google+ \tab pinterest \tab flickr \tab vine \tab classmates \tab youtube \tab viber \tab plenty of fish \tab kik \tab online dating sites \tab spotify \tab tinder \tab online gaming \tab yahoo \tab other social networks \tab not a social network \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1867 \tab 57 \tab 147 \tab 123 \tab 100 \tab 186 \tab 18 \tab 49 \tab 67 \tab 166 \tab 4 \tab 13 \tab 13 \tab 5 \tab 1 \tab 2 \tab 3 \tab 6 \tab 1 \tab 1 \tab 3 \tab 1 \tab 9 \tab 14 \tab 11 \tab - \tab 2867 \cr
+   Total \tab 1867 \tab 57 \tab 147 \tab 123 \tab 100 \tab 186 \tab 18 \tab 49 \tab 67 \tab 166 \tab 4 \tab 13 \tab 13 \tab 5 \tab 1 \tab 2 \tab 3 \tab 6 \tab 1 \tab 1 \tab 3 \tab 1 \tab 9 \tab 14 \tab 11 \tab 0 \tab 2867 \cr
 }
 }
 

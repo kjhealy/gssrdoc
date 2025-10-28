@@ -33,10 +33,10 @@ D. One of the bad effects of science is that it breaks down people''s ideas of r
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1048/vshow}{GSS Data Explorer page for \code{scimoral}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
-   1988 \tab - \tab 474 \tab 961 \tab 29 \tab 17 \tab 1481 \cr
-   Total \tab 0 \tab 474 \tab 961 \tab 29 \tab 17 \tab 1481 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 474 \tab 961 \tab 29 \tab 17 \tab - \tab 1481 \cr
+   Total \tab 0 \tab 474 \tab 961 \tab 29 \tab 17 \tab 0 \tab 1481 \cr
 }
 }
 

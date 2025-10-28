@@ -37,10 +37,10 @@ B. I find strength and comfort in my religion.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2109/vshow}{GSS Data Explorer page for \code{relcmfrt}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never/almst nevr \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 226 \tab 362 \tab 243 \tab 193 \tab 179 \tab 193 \tab 19 \tab 30 \tab 2832 \cr
-   Total \tab 1387 \tab 226 \tab 362 \tab 243 \tab 193 \tab 179 \tab 193 \tab 19 \tab 30 \tab 2832 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab many times a day \tab every day \tab most days \tab some days \tab once in a while \tab never/almst nevr \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 226 \tab 362 \tab 243 \tab 193 \tab 179 \tab 193 \tab 19 \tab 30 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 226 \tab 362 \tab 243 \tab 193 \tab 179 \tab 193 \tab 19 \tab 30 \tab 0 \tab 2832 \cr
 }
 }
 

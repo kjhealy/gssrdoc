@@ -36,10 +36,10 @@ B. Computer checks of international travel records
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5250/vshow}{GSS Data Explorer page for \code{chktravl}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 301 \tab 590 \tab 227 \tab 209 \tab 37 \tab 38 \tab 17 \tab 2817 \cr
-   Total \tab 1398 \tab 301 \tab 590 \tab 227 \tab 209 \tab 37 \tab 38 \tab 17 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 301 \tab 590 \tab 227 \tab 209 \tab 37 \tab 38 \tab 17 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 301 \tab 590 \tab 227 \tab 209 \tab 37 \tab 38 \tab 17 \tab 0 \tab 2817 \cr
 }
 }
 

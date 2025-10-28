@@ -91,10 +91,10 @@ Second response
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4871/vshow}{GSS Data Explorer page for \code{spklang2}}.
 
-Counts by year:\tabular{lllllllllllllllllllllllllll}{
-   year \tab iap \tab english \tab spanish \tab polish \tab french \tab tagalog \tab urdu \tab italian \tab german \tab hungarian \tab korean \tab navajo \tab arabic \tab farsi-persian \tab lithuanian \tab gujarati \tab yidddish \tab creole \tab vietnamese \tab norwegian \tab malaysian \tab latin \tab czech \tab hindu \tab no answer \tab Total \cr
-   1996 \tab 2757 \tab 38 \tab 45 \tab 3 \tab 16 \tab 3 \tab 2 \tab 6 \tab 16 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2904 \cr
-   Total \tab 2757 \tab 38 \tab 45 \tab 3 \tab 16 \tab 3 \tab 2 \tab 6 \tab 16 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2904 \cr
+Counts by year:\tabular{llllllllllllllllllllllllllll}{
+   year \tab iap \tab english \tab spanish \tab polish \tab french \tab tagalog \tab urdu \tab italian \tab german \tab hungarian \tab korean \tab navajo \tab arabic \tab farsi-persian \tab lithuanian \tab gujarati \tab yidddish \tab creole \tab vietnamese \tab norwegian \tab malaysian \tab latin \tab czech \tab hindu \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2757 \tab 38 \tab 45 \tab 3 \tab 16 \tab 3 \tab 2 \tab 6 \tab 16 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab 2904 \cr
+   Total \tab 2757 \tab 38 \tab 45 \tab 3 \tab 16 \tab 3 \tab 2 \tab 6 \tab 16 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 0 \tab 2904 \cr
 }
 }
 

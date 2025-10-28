@@ -34,10 +34,10 @@ B. For students who have outstanding grades in high school.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4026/vshow}{GSS Data Explorer page for \code{aidsmart}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab govt give grants \tab govt make loans \tab no govt asst \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 226 \tab 364 \tab 57 \tab 13 \tab 17 \tab 1534 \cr
-   Total \tab 857 \tab 226 \tab 364 \tab 57 \tab 13 \tab 17 \tab 1534 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab govt give grants \tab govt make loans \tab no govt asst \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 226 \tab 364 \tab 57 \tab 13 \tab 17 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 226 \tab 364 \tab 57 \tab 13 \tab 17 \tab 0 \tab 1534 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question It is the responsibility of private companies to reduce the differences
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7505/vshow}{GSS Data Explorer page for \code{mkt1}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2029 \tab 384 \tab 680 \tab 425 \tab 224 \tab 77 \tab 61 \tab 135 \tab 17 \tab 4032 \cr
-   Total \tab 2029 \tab 384 \tab 680 \tab 425 \tab 224 \tab 77 \tab 61 \tab 135 \tab 17 \tab 4032 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2029 \tab 384 \tab 680 \tab 425 \tab 224 \tab 77 \tab 61 \tab 135 \tab 17 \tab - \tab 4032 \cr
+   Total \tab 2029 \tab 384 \tab 680 \tab 425 \tab 224 \tab 77 \tab 61 \tab 135 \tab 17 \tab 0 \tab 4032 \cr
 }
 }
 

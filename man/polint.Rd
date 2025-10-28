@@ -37,13 +37,14 @@ Question How interested would you say you personally are in politics?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4089/vshow}{GSS Data Explorer page for \code{polint}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very interested \tab fairly interested \tab somewhat interested \tab not very interested \tab not at all interested \tab can't choose \tab no answer \tab Total \cr
-   1990 \tab 155 \tab 147 \tab 330 \tab 408 \tab 200 \tab 77 \tab 19 \tab 36 \tab 1372 \cr
-   1996 \tab 1572 \tab 190 \tab 326 \tab 398 \tab 241 \tab 107 \tab 24 \tab 46 \tab 2904 \cr
-   2006 \tab 2992 \tab 278 \tab 361 \tab 427 \tab 234 \tab 216 \tab 2 \tab - \tab 4510 \cr
-   2016 \tab 1477 \tab 249 \tab 313 \tab 397 \tab 257 \tab 161 \tab 1 \tab 12 \tab 2867 \cr
-   Total \tab 6196 \tab 864 \tab 1330 \tab 1630 \tab 932 \tab 561 \tab 46 \tab 94 \tab 11653 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab very interested \tab fairly interested \tab somewhat interested \tab not very interested \tab not at all interested \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1990 \tab 155 \tab 147 \tab 330 \tab 408 \tab 200 \tab 77 \tab 19 \tab 36 \tab - \tab - \tab 1372 \cr
+   1996 \tab 1572 \tab 190 \tab 326 \tab 398 \tab 241 \tab 107 \tab 24 \tab 46 \tab - \tab - \tab 2904 \cr
+   2006 \tab 2992 \tab 278 \tab 361 \tab 427 \tab 234 \tab 216 \tab 2 \tab - \tab - \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 249 \tab 313 \tab 397 \tab 257 \tab 161 \tab 1 \tab 12 \tab - \tab - \tab 2867 \cr
+   2024 \tab 1671 \tab 248 \tab 322 \tab 426 \tab 336 \tab 232 \tab 61 \tab 8 \tab - \tab 5 \tab 3309 \cr
+   Total \tab 7867 \tab 1112 \tab 1652 \tab 2056 \tab 1268 \tab 793 \tab 107 \tab 102 \tab 0 \tab 5 \tab 14962 \cr
 }
 }
 

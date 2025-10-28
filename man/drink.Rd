@@ -33,22 +33,22 @@ Question Do you ever have occasion to use any alcoholic beverages such as liquor
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/530/vshow}{GSS Data Explorer page for \code{drink}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1977 \tab - \tab 1099 \tab 426 \tab 5 \tab 1530 \cr
-   1978 \tab - \tab 1107 \tab 422 \tab 3 \tab 1532 \cr
-   1980 \tab - \tab 1074 \tab 391 \tab 3 \tab 1468 \cr
-   1983 \tab - \tab 1180 \tab 416 \tab 3 \tab 1599 \cr
-   1984 \tab - \tab 1067 \tab 399 \tab 7 \tab 1473 \cr
-   1986 \tab - \tab 991 \tab 477 \tab 2 \tab 1470 \cr
-   1987 \tab - \tab 1280 \tab 534 \tab 5 \tab 1819 \cr
-   1988 \tab 484 \tab 687 \tab 308 \tab 2 \tab 1481 \cr
-   1989 \tab 502 \tab 691 \tab 342 \tab 2 \tab 1537 \cr
-   1990 \tab 473 \tab 636 \tab 263 \tab - \tab 1372 \cr
-   1991 \tab 500 \tab 700 \tab 316 \tab 1 \tab 1517 \cr
-   1993 \tab 549 \tab 733 \tab 324 \tab - \tab 1606 \cr
-   1994 \tab 2481 \tab 353 \tab 158 \tab - \tab 2992 \cr
-   Total \tab 4989 \tab 11598 \tab 4776 \tab 33 \tab 21396 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1977 \tab - \tab 1099 \tab 426 \tab 5 \tab - \tab 1530 \cr
+   1978 \tab - \tab 1107 \tab 422 \tab 3 \tab - \tab 1532 \cr
+   1980 \tab - \tab 1074 \tab 391 \tab 3 \tab - \tab 1468 \cr
+   1983 \tab - \tab 1180 \tab 416 \tab 3 \tab - \tab 1599 \cr
+   1984 \tab - \tab 1067 \tab 399 \tab 7 \tab - \tab 1473 \cr
+   1986 \tab - \tab 991 \tab 477 \tab 2 \tab - \tab 1470 \cr
+   1987 \tab - \tab 1280 \tab 534 \tab 5 \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 687 \tab 308 \tab 2 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 691 \tab 342 \tab 2 \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 636 \tab 263 \tab - \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 700 \tab 316 \tab 1 \tab - \tab 1517 \cr
+   1993 \tab 549 \tab 733 \tab 324 \tab - \tab - \tab 1606 \cr
+   1994 \tab 2481 \tab 353 \tab 158 \tab - \tab - \tab 2992 \cr
+   Total \tab 4989 \tab 11598 \tab 4776 \tab 33 \tab 0 \tab 21396 \cr
 }
 }
 

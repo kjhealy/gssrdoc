@@ -40,10 +40,11 @@ Question The next questions are about pornography- Internet materials or website
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7757/vshow}{GSS Data Explorer page for \code{xmoviey}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab never \tab less than once a year \tab about once or twice a year \tab several times a year \tab about once a month \tab 2-3 times a month \tab nearly every week \tab every week \tab once a day \tab several times a day \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2364 \tab 627 \tab 79 \tab 84 \tab 97 \tab 47 \tab 55 \tab 40 \tab 47 \tab 24 \tab 12 \tab 39 \tab 25 \tab 4 \tab 3544 \cr
-   Total \tab 2364 \tab 627 \tab 79 \tab 84 \tab 97 \tab 47 \tab 55 \tab 40 \tab 47 \tab 24 \tab 12 \tab 39 \tab 25 \tab 4 \tab 3544 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab not available in this year \tab never \tab less than once a year \tab about once or twice a year \tab several times a year \tab about once a month \tab 2-3 times a month \tab nearly every week \tab every week \tab once a day \tab several times a day \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 627 \tab 79 \tab 84 \tab 97 \tab 47 \tab 55 \tab 40 \tab 47 \tab 24 \tab 12 \tab 39 \tab 2364 \tab 25 \tab 4 \tab 3544 \cr
+   2024 \tab - \tab 604 \tab 74 \tab 79 \tab 68 \tab 37 \tab 56 \tab 40 \tab 33 \tab 11 \tab 14 \tab 47 \tab 2227 \tab 9 \tab 10 \tab 3309 \cr
+   Total \tab 0 \tab 1231 \tab 153 \tab 163 \tab 165 \tab 84 \tab 111 \tab 80 \tab 80 \tab 35 \tab 26 \tab 86 \tab 4591 \tab 34 \tab 14 \tab 6853 \cr
 }
 }
 

@@ -36,10 +36,10 @@ C. Dealing with threats to America''s security?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4110/vshow}{GSS Data Explorer page for \code{helpsec}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very successful \tab quite successful \tab neither successful nor unsuccessful \tab quite unsuccessful \tab very unsuccessful \tab can't choose \tab Total \cr
-   2006 \tab 2992 \tab 177 \tab 523 \tab 335 \tab 282 \tab 178 \tab 23 \tab 4510 \cr
-   Total \tab 2992 \tab 177 \tab 523 \tab 335 \tab 282 \tab 178 \tab 23 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very successful \tab quite successful \tab neither successful nor unsuccessful \tab quite unsuccessful \tab very unsuccessful \tab can't choose \tab not available in this year \tab Total \cr
+   2006 \tab 2992 \tab 177 \tab 523 \tab 335 \tab 282 \tab 178 \tab 23 \tab - \tab 4510 \cr
+   Total \tab 2992 \tab 177 \tab 523 \tab 335 \tab 282 \tab 178 \tab 23 \tab 0 \tab 4510 \cr
 }
 }
 

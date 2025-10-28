@@ -37,12 +37,13 @@ E. A genetic or inherited problem
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1992/vshow}{GSS Data Explorer page for \code{genetics}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 155 \tab 507 \tab 419 \tab 269 \tab 78 \tab 16 \tab 2904 \cr
-   2006 \tab 3073 \tab 201 \tab 681 \tab 331 \tab 152 \tab 58 \tab 14 \tab 4510 \cr
-   2018 \tab 1175 \tab 167 \tab 498 \tab 288 \tab 163 \tab 28 \tab 29 \tab 2348 \cr
-   Total \tab 5708 \tab 523 \tab 1686 \tab 1038 \tab 584 \tab 164 \tab 59 \tab 9762 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 155 \tab 507 \tab 419 \tab 269 \tab 78 \tab 16 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 201 \tab 681 \tab 331 \tab 152 \tab 58 \tab 14 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 167 \tab 498 \tab 288 \tab 163 \tab 28 \tab 29 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1691 \tab 176 \tab 754 \tab 439 \tab 176 \tab 42 \tab 10 \tab - \tab 21 \tab 3309 \cr
+   Total \tab 7399 \tab 699 \tab 2440 \tab 1477 \tab 760 \tab 206 \tab 69 \tab 0 \tab 21 \tab 13071 \cr
 }
 }
 

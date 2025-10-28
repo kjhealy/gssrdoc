@@ -38,10 +38,10 @@ A. How often do you see or visit with your sister?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4136/vshow}{GSS Data Explorer page for \code{sisvisit}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab lives in hshld \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab don't know \tab no answer \tab Total \cr
-   1986 \tab 413 \tab 25 \tab 67 \tab 95 \tab 145 \tab 214 \tab 229 \tab 272 \tab 1 \tab 9 \tab 1470 \cr
-   Total \tab 413 \tab 25 \tab 67 \tab 95 \tab 145 \tab 214 \tab 229 \tab 272 \tab 1 \tab 9 \tab 1470 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab lives in hshld \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 413 \tab 25 \tab 67 \tab 95 \tab 145 \tab 214 \tab 229 \tab 272 \tab 1 \tab 9 \tab - \tab 1470 \cr
+   Total \tab 413 \tab 25 \tab 67 \tab 95 \tab 145 \tab 214 \tab 229 \tab 272 \tab 1 \tab 9 \tab 0 \tab 1470 \cr
 }
 }
 

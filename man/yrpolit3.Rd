@@ -31,10 +31,10 @@ Question D. How many years have you been a member of…?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3163/vshow}{GSS Data Explorer page for \code{yrpolit3}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab 1 \tab 20 \tab 4 \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2801 \tab 1 \tab 1 \tab 2 \tab 1 \tab 6 \tab 2812 \cr
-   Total \tab 2801 \tab 1 \tab 1 \tab 2 \tab 1 \tab 6 \tab 2812 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 1 \tab 20 \tab 4 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2801 \tab 1 \tab 1 \tab 2 \tab 1 \tab 6 \tab - \tab 2812 \cr
+   Total \tab 2801 \tab 1 \tab 1 \tab 2 \tab 1 \tab 6 \tab 0 \tab 2812 \cr
 }
 }
 

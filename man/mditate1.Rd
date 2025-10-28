@@ -37,10 +37,10 @@ Question How often do you meditate?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7537/vshow}{GSS Data Explorer page for \code{mditate1}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab at least once a day \tab almost every day \tab once or twice a week \tab once or twice a month \tab a few times per year \tab once a year or less \tab never \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 413 \tab 336 \tab 402 \tab 461 \tab 343 \tab 374 \tab 204 \tab 1454 \tab 3 \tab 6 \tab 36 \tab 4032 \cr
-   Total \tab 413 \tab 336 \tab 402 \tab 461 \tab 343 \tab 374 \tab 204 \tab 1454 \tab 3 \tab 6 \tab 36 \tab 4032 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab at least once a day \tab almost every day \tab once or twice a week \tab once or twice a month \tab a few times per year \tab once a year or less \tab never \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 413 \tab 336 \tab 402 \tab 461 \tab 343 \tab 374 \tab 204 \tab 1454 \tab 3 \tab 6 \tab 36 \tab - \tab 4032 \cr
+   Total \tab 413 \tab 336 \tab 402 \tab 461 \tab 343 \tab 374 \tab 204 \tab 1454 \tab 3 \tab 6 \tab 36 \tab 0 \tab 4032 \cr
 }
 }
 

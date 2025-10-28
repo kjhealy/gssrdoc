@@ -38,14 +38,14 @@ E. Felt as though you were very close to a powerful, spiritual force that seemed
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/320/vshow}{GSS Data Explorer page for \code{grace}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab never in my life \tab once or twice \tab several times \tab often \tab can't choose \tab no answer \tab Total \cr
-   1983 \tab - \tab 691 \tab 430 \tab 260 \tab 158 \tab 56 \tab 4 \tab 1599 \cr
-   1984 \tab - \tab 857 \tab 294 \tab 197 \tab 94 \tab 12 \tab 19 \tab 1473 \cr
-   1988 \tab - \tab 994 \tab 266 \tab 125 \tab 66 \tab 25 \tab 5 \tab 1481 \cr
-   1989 \tab 531 \tab 695 \tab 174 \tab 74 \tab 45 \tab 15 \tab 3 \tab 1537 \cr
-   1991 \tab 158 \tab 766 \tab 203 \tab 109 \tab 61 \tab 185 \tab 35 \tab 1517 \cr
-   Total \tab 689 \tab 4003 \tab 1367 \tab 765 \tab 424 \tab 293 \tab 66 \tab 7607 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never in my life \tab once or twice \tab several times \tab often \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab - \tab 691 \tab 430 \tab 260 \tab 158 \tab 56 \tab 4 \tab - \tab 1599 \cr
+   1984 \tab - \tab 857 \tab 294 \tab 197 \tab 94 \tab 12 \tab 19 \tab - \tab 1473 \cr
+   1988 \tab - \tab 994 \tab 266 \tab 125 \tab 66 \tab 25 \tab 5 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 695 \tab 174 \tab 74 \tab 45 \tab 15 \tab 3 \tab - \tab 1537 \cr
+   1991 \tab 158 \tab 766 \tab 203 \tab 109 \tab 61 \tab 185 \tab 35 \tab - \tab 1517 \cr
+   Total \tab 689 \tab 4003 \tab 1367 \tab 765 \tab 424 \tab 293 \tab 66 \tab 0 \tab 7607 \cr
 }
 }
 

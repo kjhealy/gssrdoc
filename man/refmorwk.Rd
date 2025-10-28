@@ -34,10 +34,11 @@ B. Take on additional paid work?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1668/vshow}{GSS Data Explorer page for \code{refmorwk}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 518 \tab 824 \tab 118 \tab 2904 \cr
-   Total \tab 1444 \tab 518 \tab 824 \tab 118 \tab 2904 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab don't know \tab skipped on web \tab Total \cr
+   1996 \tab 1444 \tab 518 \tab 824 \tab 118 \tab - \tab - \tab - \tab 2904 \cr
+   2024 \tab 1162 \tab 832 \tab 1268 \tab 6 \tab - \tab 15 \tab 26 \tab 3309 \cr
+   Total \tab 2606 \tab 1350 \tab 2092 \tab 124 \tab 0 \tab 15 \tab 26 \tab 6213 \cr
 }
 }
 

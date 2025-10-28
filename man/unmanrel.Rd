@@ -35,10 +35,10 @@ Question In general how would you describe relations in your work place between 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1366/vshow}{GSS Data Explorer page for \code{unmanrel}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very \tab quite good \tab neither good nor bad \tab quite bad \tab very bad \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 605 \tab 289 \tab 314 \tab 208 \tab 40 \tab 24 \tab 8 \tab 29 \tab 1517 \cr
-   Total \tab 605 \tab 289 \tab 314 \tab 208 \tab 40 \tab 24 \tab 8 \tab 29 \tab 1517 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very \tab quite good \tab neither good nor bad \tab quite bad \tab very bad \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 605 \tab 289 \tab 314 \tab 208 \tab 40 \tab 24 \tab 8 \tab 29 \tab - \tab 1517 \cr
+   Total \tab 605 \tab 289 \tab 314 \tab 208 \tab 40 \tab 24 \tab 8 \tab 29 \tab 0 \tab 1517 \cr
 }
 }
 

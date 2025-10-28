@@ -37,11 +37,11 @@ Question A. Now in 1968, you remember that Humphrey ran for President on the Dem
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/144/vshow}{GSS Data Explorer page for \code{if68who}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab humphrey \tab nixon \tab wallace \tab other \tab wldnt vt-relig \tab don't know \tab iap \tab no answer \tab Total \cr
-   1972 \tab 173 \tab 175 \tab 49 \tab 23 \tab 10 \tab 88 \tab 1089 \tab 6 \tab 1613 \cr
-   1973 \tab 178 \tab 196 \tab 94 \tab 14 \tab - \tab 43 \tab 961 \tab 18 \tab 1504 \cr
-   Total \tab 351 \tab 371 \tab 143 \tab 37 \tab 10 \tab 131 \tab 2050 \tab 24 \tab 3117 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab humphrey \tab nixon \tab wallace \tab other \tab wldnt vt-relig \tab don't know \tab iap \tab no answer \tab not available in this year \tab Total \cr
+   1972 \tab 173 \tab 175 \tab 49 \tab 23 \tab 10 \tab 88 \tab 1089 \tab 6 \tab - \tab 1613 \cr
+   1973 \tab 178 \tab 196 \tab 94 \tab 14 \tab - \tab 43 \tab 961 \tab 18 \tab - \tab 1504 \cr
+   Total \tab 351 \tab 371 \tab 143 \tab 37 \tab 10 \tab 131 \tab 2050 \tab 24 \tab 0 \tab 3117 \cr
 }
 }
 

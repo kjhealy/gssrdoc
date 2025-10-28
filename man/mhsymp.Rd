@@ -35,10 +35,10 @@ B. Would you say that you feel no sympathy, a little sympathy, quite a bit of sy
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3813/vshow}{GSS Data Explorer page for \code{mhsymp}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab no sympathy at all \tab a little sympathy \tab quite a bit of sympathy \tab a great deal of sympathy \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3343 \tab 13 \tab 295 \tab 469 \tab 379 \tab 6 \tab 5 \tab 4510 \cr
-   Total \tab 3343 \tab 13 \tab 295 \tab 469 \tab 379 \tab 6 \tab 5 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab no sympathy at all \tab a little sympathy \tab quite a bit of sympathy \tab a great deal of sympathy \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3343 \tab 13 \tab 295 \tab 469 \tab 379 \tab 6 \tab 5 \tab - \tab 4510 \cr
+   Total \tab 3343 \tab 13 \tab 295 \tab 469 \tab 379 \tab 6 \tab 5 \tab 0 \tab 4510 \cr
 }
 }
 

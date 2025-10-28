@@ -1,3 +1,159 @@
+#'  Number of brother deaths
+#' 
+#'  brv5bronum
+#' 
+#' Question NUMBER OF BROTHER DEATHS
+#' 
+#' NOTE: This variable originates on the GSS Next follow-on, and should not be analyzed without the GSS Next-specific weights WTSSPS_NEXT or WTSSNRPS_NEXT
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `brv5bronum`](https://gssdataexplorer.norc.org/variables/7914/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |0  |1  |2  |3  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:--|:--|:--|:--|:----|:--------------|:-----|
+#'  |2022  |-                          |24 |52 |12 |4  |3408 |44             |3544  |
+#'  |Total |0                          |24 |52 |12 |4  |3408 |44             |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family GSS Next
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name brv5bronum
+NULL
+
+
+#'  Number of sister deaths
+#' 
+#'  brv5sisnum
+#' 
+#' Question NUMBER OF SISTER DEATHS
+#' 
+#' NOTE: This variable originates on the GSS Next follow-on, and should not be analyzed without the GSS Next-specific weights WTSSPS_NEXT or WTSSNRPS_NEXT
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `brv5sisnum`](https://gssdataexplorer.norc.org/variables/7915/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |0  |1  |2  |4  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:--|:--|:--|:--|:----|:--------------|:-----|
+#'  |2022  |-                          |37 |38 |1  |1  |3408 |59             |3544  |
+#'  |Total |0                          |37 |38 |1  |1  |3408 |59             |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family GSS Next
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name brv5sisnum
+NULL
+
+
+#'  Number of brother-in-law or sister-in-law deaths
+#' 
+#'  brv5silnum
+#' 
+#' Question NUMBER OF BROTHER-IN-LAW OR SISTER-IN-LAW DEATHS
+#' 
+#' NOTE: This variable originates on the GSS Next follow-on, and should not be analyzed without the GSS Next-specific weights WTSSPS_NEXT or WTSSNRPS_NEXT
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `brv5silnum`](https://gssdataexplorer.norc.org/variables/7916/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |0  |1  |2  |3  |4  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:--|:--|:--|:--|:--|:----|:--------------|:-----|
+#'  |2022  |-                          |30 |31 |8  |2  |1  |3408 |64             |3544  |
+#'  |Total |0                          |30 |31 |8  |2  |1  |3408 |64             |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family GSS Next
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name brv5silnum
+NULL
+
+
+#'  Number of cousin deaths
+#' 
+#'  brv5cuznum
+#' 
+#' Question NUMBER OF COUSIN DEATHS
+#' 
+#' NOTE: This variable originates on the GSS Next follow-on, and should not be analyzed without the GSS Next-specific weights WTSSPS_NEXT or WTSSNRPS_NEXT
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `brv5cuznum`](https://gssdataexplorer.norc.org/variables/7917/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |0   |1  |10 |2  |3  |4  |5  |7  |8  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:--|:--|:--|:--|:--|:--|:--|:--|:----|:--------------|:-----|
+#'  |2022  |-                          |101 |97 |1  |44 |11 |6  |4  |1  |1  |3081 |197            |3544  |
+#'  |Total |0                          |101 |97 |1  |44 |11 |6  |4  |1  |1  |3081 |197            |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family GSS Next
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name brv5cuznum
+NULL
+
+
 #'  Number of friend deaths
 #' 
 #'  brv5frndnum
@@ -22,10 +178,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0  |1   |10 |12 |15 |16 |2  |3  |4  |5  |50 |6  |7  |8  |9  |skipped on web |Total |
-#'  |:-----|:----|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------|:-----|
-#'  |2022  |3070 |40 |132 |1  |1  |2  |1  |75 |50 |18 |24 |1  |8  |2  |3  |1  |115            |3544  |
-#'  |Total |3070 |40 |132 |1  |1  |2  |1  |75 |50 |18 |24 |1  |8  |2  |3  |1  |115            |3544  |
+#'  |year  |not available in this year |0  |1   |10 |12 |15 |16 |2  |3  |4  |5  |50 |6  |7  |8  |9  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----|:--------------|:-----|
+#'  |2022  |-                          |38 |129 |1  |1  |1  |1  |74 |49 |17 |23 |1  |8  |2  |3  |1  |3081 |114            |3544  |
+#'  |Total |0                          |38 |129 |1  |1  |1  |1  |74 |49 |17 |23 |1  |8  |2  |3  |1  |3081 |114            |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -61,10 +217,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0   |1  |2  |20 |3  |4  |5  |6  |7  |8  |skipped on web |Total |
-#'  |:-----|:----|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------|:-----|
-#'  |2022  |3070 |108 |73 |22 |1  |15 |4  |3  |1  |1  |1  |245            |3544  |
-#'  |Total |3070 |108 |73 |22 |1  |15 |4  |3  |1  |1  |1  |245            |3544  |
+#'  |year  |not available in this year |0   |1  |2  |20 |3  |4  |5  |6  |7  |8  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----|:--------------|:-----|
+#'  |2022  |-                          |106 |72 |22 |1  |14 |4  |3  |1  |1  |1  |3081 |238            |3544  |
+#'  |Total |0                          |106 |72 |22 |1  |14 |4  |3  |1  |1  |1  |3081 |238            |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -100,10 +256,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0  |1  |10 |2  |20 |3  |4  |5  |50 |6  |7  |8  |skipped on web |Total |
-#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------|:-----|
-#'  |2022  |3070 |81 |96 |2  |40 |1  |17 |8  |7  |1  |4  |2  |1  |214            |3544  |
-#'  |Total |3070 |81 |96 |2  |40 |1  |17 |8  |7  |1  |4  |2  |1  |214            |3544  |
+#'  |year  |not available in this year |0  |1  |10 |2  |20 |3  |4  |5  |50 |6  |7  |8  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----|:--------------|:-----|
+#'  |2022  |-                          |80 |95 |2  |40 |1  |17 |6  |7  |1  |4  |2  |1  |3081 |207            |3544  |
+#'  |Total |0                          |80 |95 |2  |40 |1  |17 |6  |7  |1  |4  |2  |1  |3081 |207            |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -141,10 +297,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |skipped on web |Total |
-#'  |:-----|:----|:---|:---|:--------------|:-----|
-#'  |2022  |2309 |768 |465 |2              |3544  |
-#'  |Total |2309 |768 |465 |2              |3544  |
+#'  |year  |not available in this year |no  |yes |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:---|:----|:--------------|:-----|
+#'  |2022  |-                          |465 |768 |2309 |2              |3544  |
+#'  |Total |0                          |465 |768 |2309 |2              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -182,10 +338,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |Total |
-#'  |:-----|:----|:---|:---|:-----|
-#'  |2022  |2767 |770 |7   |3544  |
-#'  |Total |2767 |770 |7   |3544  |
+#'  |year  |not available in this year |no  |yes |iap  |Total |
+#'  |:-----|:--------------------------|:---|:---|:----|:-----|
+#'  |2022  |-                          |761 |7   |2776 |3544  |
+#'  |Total |0                          |761 |7   |2776 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -223,10 +379,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |Total |
-#'  |:-----|:----|:---|:---|:-----|
-#'  |2022  |2767 |672 |105 |3544  |
-#'  |Total |2767 |672 |105 |3544  |
+#'  |year  |not available in this year |no  |yes |iap  |Total |
+#'  |:-----|:--------------------------|:---|:---|:----|:-----|
+#'  |2022  |-                          |666 |102 |2776 |3544  |
+#'  |Total |0                          |666 |102 |2776 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -235,169 +391,6 @@ NULL
 #' @keywords variable
 #' @md
 #' @name brv16par
-NULL
-
-
-#'  Death of grandparent
-#' 
-#'  brv16grand
-#' 
-#' Question We're very sorry. Who would that be?
-#' 
-#' NOTE: This variable originates on the GSS Next follow-on, and should not be analyzed without the GSS Next-specific weights WTSSPS_NEXT or WTSSNRPS_NEXT
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[0]` no
-#'   * `[1]` yes
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A/B/C   |2022  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `brv16grand`](https://gssdataexplorer.norc.org/variables/7924/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |no  |yes |Total |
-#'  |:-----|:----|:---|:---|:-----|
-#'  |2022  |2767 |733 |44  |3544  |
-#'  |Total |2767 |733 |44  |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family GSS Next
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name brv16grand
-NULL
-
-
-#'  Death of child
-#' 
-#'  brv16child
-#' 
-#' Question We're very sorry. Who would that be?
-#' 
-#' NOTE: This variable originates on the GSS Next follow-on, and should not be analyzed without the GSS Next-specific weights WTSSPS_NEXT or WTSSNRPS_NEXT
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[Empty]` No applicable value labels
-#'   * `[NA(d)]`NA
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A/B/C   |2022  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `brv16child`](https://gssdataexplorer.norc.org/variables/7925/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |no  |yes |Total |
-#'  |:-----|:----|:---|:---|:-----|
-#'  |2022  |2767 |241 |536 |3544  |
-#'  |Total |2767 |241 |536 |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family GSS Next
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name brv16child
-NULL
-
-
-#'  Death of sibling
-#' 
-#'  brv16sib
-#' 
-#' Question We're very sorry. Who would that be?
-#' 
-#' NOTE: This variable originates on the GSS Next follow-on, and should not be analyzed without the GSS Next-specific weights WTSSPS_NEXT or WTSSNRPS_NEXT
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[0]` no
-#'   * `[1]` yes
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A/B/C   |2022  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `brv16sib`](https://gssdataexplorer.norc.org/variables/7926/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |no  |yes |Total |
-#'  |:-----|:----|:---|:---|:-----|
-#'  |2022  |2767 |508 |269 |3544  |
-#'  |Total |2767 |508 |269 |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family GSS Next
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name brv16sib
-NULL
-
-
-#'  Death of someone else
-#' 
-#'  brv16oth
-#' 
-#' Question We're very sorry. Who would that be?
-#' 
-#' NOTE: This variable originates on the GSS Next follow-on, and should not be analyzed without the GSS Next-specific weights WTSSPS_NEXT or WTSSNRPS_NEXT
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[0]` no
-#'   * `[1]` yes
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A/B/C   |2022  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `brv16oth`](https://gssdataexplorer.norc.org/variables/7927/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |no  |Total |
-#'  |:-----|:----|:---|:-----|
-#'  |2022  |2767 |777 |3544  |
-#'  |Total |2767 |777 |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family GSS Next
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name brv16oth
 NULL
 
 

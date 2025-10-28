@@ -32,10 +32,10 @@ Question When you were growing up, did anyone usually say grace or give thanks t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1070/vshow}{GSS Data Explorer page for \code{grace16}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1988 \tab - \tab 992 \tab 479 \tab 3 \tab 7 \tab 1481 \cr
-   Total \tab 0 \tab 992 \tab 479 \tab 3 \tab 7 \tab 1481 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 992 \tab 479 \tab 3 \tab 7 \tab - \tab 1481 \cr
+   Total \tab 0 \tab 992 \tab 479 \tab 3 \tab 7 \tab 0 \tab 1481 \cr
 }
 }
 

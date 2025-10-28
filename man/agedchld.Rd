@@ -33,10 +33,10 @@ Question As you know, many grown children move back home to live with their pare
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6175/vshow}{GSS Data Explorer page for \code{agedchld}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab a good idea \tab a bad idea \tab depends \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2414 \tab 192 \tab 153 \tab 102 \tab 4 \tab 2 \tab 2867 \cr
-   Total \tab 2414 \tab 192 \tab 153 \tab 102 \tab 4 \tab 2 \tab 2867 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a good idea \tab a bad idea \tab depends \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2414 \tab 192 \tab 153 \tab 102 \tab 4 \tab 2 \tab - \tab 2867 \cr
+   Total \tab 2414 \tab 192 \tab 153 \tab 102 \tab 4 \tab 2 \tab 0 \tab 2867 \cr
 }
 }
 

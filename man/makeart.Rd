@@ -33,12 +33,12 @@ C. Make art or craft objects such as pottery, woodworking, quilts, or paintings.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1407/vshow}{GSS Data Explorer page for \code{makeart}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 642 \tab 951 \tab 1 \tab 12 \tab 1606 \cr
-   1998 \tab 1387 \tab 544 \tab 890 \tab - \tab 11 \tab 2832 \cr
-   2002 \tab 1393 \tab 567 \tab 792 \tab 8 \tab 5 \tab 2765 \cr
-   Total \tab 2780 \tab 1753 \tab 2633 \tab 9 \tab 28 \tab 7203 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 642 \tab 951 \tab 1 \tab 12 \tab - \tab 1606 \cr
+   1998 \tab 1387 \tab 544 \tab 890 \tab - \tab 11 \tab - \tab 2832 \cr
+   2002 \tab 1393 \tab 567 \tab 792 \tab 8 \tab 5 \tab - \tab 2765 \cr
+   Total \tab 2780 \tab 1753 \tab 2633 \tab 9 \tab 28 \tab 0 \tab 7203 \cr
 }
 }
 

@@ -35,10 +35,10 @@ H. Cubans?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2278/vshow}{GSS Data Explorer page for \code{contcuba}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab most important contribution \tab important contribution \tab some contribution \tab little positive contribution \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 29 \tab 190 \tab 489 \tab 481 \tab 197 \tab 12 \tab 2817 \cr
-   Total \tab 1419 \tab 29 \tab 190 \tab 489 \tab 481 \tab 197 \tab 12 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab most important contribution \tab important contribution \tab some contribution \tab little positive contribution \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 29 \tab 190 \tab 489 \tab 481 \tab 197 \tab 12 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 29 \tab 190 \tab 489 \tab 481 \tab 197 \tab 12 \tab 0 \tab 2817 \cr
 }
 }
 

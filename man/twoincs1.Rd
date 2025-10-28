@@ -36,12 +36,12 @@ Question A. Do you agree or disagree ... both the husband and the wife should co
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4455/vshow}{GSS Data Explorer page for \code{twoincs1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1545 \tab 277 \tab 527 \tab 417 \tab 157 \tab 17 \tab 26 \tab 26 \tab 2992 \cr
-   2002 \tab 1594 \tab 341 \tab 327 \tab 369 \tab - \tab 109 \tab 23 \tab 2 \tab 2765 \cr
-   2012 \tab 672 \tab 249 \tab 572 \tab 307 \tab 121 \tab 18 \tab 28 \tab 7 \tab 1974 \cr
-   Total \tab 3811 \tab 867 \tab 1426 \tab 1093 \tab 278 \tab 144 \tab 77 \tab 35 \tab 7731 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1545 \tab 277 \tab 527 \tab 417 \tab 157 \tab 17 \tab 26 \tab 26 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 341 \tab 327 \tab 369 \tab - \tab 109 \tab 23 \tab 2 \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 249 \tab 572 \tab 307 \tab 121 \tab 18 \tab 28 \tab 7 \tab - \tab 1974 \cr
+   Total \tab 3811 \tab 867 \tab 1426 \tab 1093 \tab 278 \tab 144 \tab 77 \tab 35 \tab 0 \tab 7731 \cr
 }
 }
 

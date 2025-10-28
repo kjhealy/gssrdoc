@@ -37,12 +37,12 @@ A. Articles in a daily newspaper?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2517/vshow}{GSS Data Explorer page for \code{hlthpapr}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab Total \cr
-   2000 \tab 2412 \tab 277 \tab 69 \tab 39 \tab 20 \tab - \tab 2817 \cr
-   2002 \tab 2104 \tab 480 \tab 91 \tab 48 \tab 6 \tab 36 \tab 2765 \cr
-   2004 \tab 2209 \tab 418 \tab 93 \tab 30 \tab 6 \tab 56 \tab 2812 \cr
-   Total \tab 6725 \tab 1175 \tab 253 \tab 117 \tab 32 \tab 92 \tab 8394 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab not available in this year \tab Total \cr
+   2000 \tab 2412 \tab 277 \tab 69 \tab 39 \tab 20 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2104 \tab 480 \tab 91 \tab 48 \tab 6 \tab 36 \tab - \tab 2765 \cr
+   2004 \tab 2209 \tab 418 \tab 93 \tab 30 \tab 6 \tab 56 \tab - \tab 2812 \cr
+   Total \tab 6725 \tab 1175 \tab 253 \tab 117 \tab 32 \tab 92 \tab 0 \tab 8394 \cr
 }
 }
 

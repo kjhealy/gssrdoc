@@ -39,14 +39,14 @@ C. The police and law enforcement.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4059/vshow}{GSS Data Explorer page for \code{sppolice}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 64 \tab 274 \tab 275 \tab 31 \tab 6 \tab 12 \tab 15 \tab 1534 \cr
-   1990 \tab 155 \tab 131 \tab 509 \tab 442 \tab 50 \tab 15 \tab 32 \tab 38 \tab 1372 \cr
-   1996 \tab 1572 \tab 155 \tab 586 \tab 447 \tab 74 \tab 15 \tab 19 \tab 36 \tab 2904 \cr
-   2006 \tab 2992 \tab 245 \tab 593 \tab 544 \tab 100 \tab 20 \tab 15 \tab 1 \tab 4510 \cr
-   2016 \tab 1477 \tab 150 \tab 545 \tab 537 \tab 117 \tab 21 \tab 9 \tab 11 \tab 2867 \cr
-   Total \tab 7053 \tab 745 \tab 2507 \tab 2245 \tab 372 \tab 77 \tab 87 \tab 101 \tab 13187 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 64 \tab 274 \tab 275 \tab 31 \tab 6 \tab 12 \tab 15 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 131 \tab 509 \tab 442 \tab 50 \tab 15 \tab 32 \tab 38 \tab - \tab 1372 \cr
+   1996 \tab 1572 \tab 155 \tab 586 \tab 447 \tab 74 \tab 15 \tab 19 \tab 36 \tab - \tab 2904 \cr
+   2006 \tab 2992 \tab 245 \tab 593 \tab 544 \tab 100 \tab 20 \tab 15 \tab 1 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 150 \tab 545 \tab 537 \tab 117 \tab 21 \tab 9 \tab 11 \tab - \tab 2867 \cr
+   Total \tab 7053 \tab 745 \tab 2507 \tab 2245 \tab 372 \tab 77 \tab 87 \tab 101 \tab 0 \tab 13187 \cr
 }
 }
 

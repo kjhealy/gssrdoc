@@ -35,10 +35,10 @@ Obedience and respect for authority are the most important virtues children shou
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1640/vshow}{GSS Data Explorer page for \code{obrespct}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 480 \tab 677 \tab 254 \tab 36 \tab 14 \tab 13 \tab 2992 \cr
-   Total \tab 1518 \tab 480 \tab 677 \tab 254 \tab 36 \tab 14 \tab 13 \tab 2992 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 480 \tab 677 \tab 254 \tab 36 \tab 14 \tab 13 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 480 \tab 677 \tab 254 \tab 36 \tab 14 \tab 13 \tab 0 \tab 2992 \cr
 }
 }
 

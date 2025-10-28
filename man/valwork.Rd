@@ -32,10 +32,10 @@ I. Work-related organizations
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1968/vshow}{GSS Data Explorer page for \code{valwork}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab 0 \tab 15 \tab 16 \tab 20 \tab 200 \tab 2000 \tab 25 \tab 300 \tab 40 \tab 50 \tab 80 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2800 \tab 59 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 4 \tab 28 \tab 2904 \cr
-   Total \tab 2800 \tab 59 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 4 \tab 28 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab 0 \tab 15 \tab 16 \tab 20 \tab 200 \tab 2000 \tab 25 \tab 300 \tab 40 \tab 50 \tab 80 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2800 \tab 59 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 4 \tab 28 \tab - \tab 2904 \cr
+   Total \tab 2800 \tab 59 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 4 \tab 28 \tab 0 \tab 2904 \cr
 }
 }
 

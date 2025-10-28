@@ -33,10 +33,10 @@ E5. Is fifth child alive?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1523/vshow}{GSS Data Explorer page for \code{kdalive5}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1994 \tab 2871 \tab 111 \tab 5 \tab 5 \tab 2992 \cr
-   Total \tab 2871 \tab 111 \tab 5 \tab 5 \tab 2992 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2871 \tab 111 \tab 5 \tab 5 \tab - \tab 2992 \cr
+   Total \tab 2871 \tab 111 \tab 5 \tab 5 \tab 0 \tab 2992 \cr
 }
 }
 

@@ -36,10 +36,10 @@ D. The government should provide a job for everyone who wants one.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4298/vshow}{GSS Data Explorer page for \code{govjobs}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1987 \tab 255 \tab 256 \tab 491 \tab 292 \tab 345 \tab 125 \tab 23 \tab 32 \tab 1819 \cr
-   Total \tab 255 \tab 256 \tab 491 \tab 292 \tab 345 \tab 125 \tab 23 \tab 32 \tab 1819 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 256 \tab 491 \tab 292 \tab 345 \tab 125 \tab 23 \tab 32 \tab - \tab 1819 \cr
+   Total \tab 255 \tab 256 \tab 491 \tab 292 \tab 345 \tab 125 \tab 23 \tab 32 \tab 0 \tab 1819 \cr
 }
 }
 

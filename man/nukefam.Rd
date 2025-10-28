@@ -35,11 +35,11 @@ Question B. And do you think that nuclear power stations are…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4757/vshow}{GSS Data Explorer page for \code{nukefam}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 253 \tab 288 \tab 515 \tab 278 \tab 65 \tab 68 \tab 90 \tab 1606 \cr
-   1994 \tab 1606 \tab 234 \tab 288 \tab 456 \tab 222 \tab 42 \tab 72 \tab 72 \tab 2992 \cr
-   Total \tab 1655 \tab 487 \tab 576 \tab 971 \tab 500 \tab 107 \tab 140 \tab 162 \tab 4598 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 253 \tab 288 \tab 515 \tab 278 \tab 65 \tab 68 \tab 90 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 234 \tab 288 \tab 456 \tab 222 \tab 42 \tab 72 \tab 72 \tab - \tab 2992 \cr
+   Total \tab 1655 \tab 487 \tab 576 \tab 971 \tab 500 \tab 107 \tab 140 \tab 162 \tab 0 \tab 4598 \cr
 }
 }
 

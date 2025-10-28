@@ -34,10 +34,10 @@ Question Did you ever live with a partner you didn't marry?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4411/vshow}{GSS Data Explorer page for \code{livnowed}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes, with a previous partner \tab yes, with my present partner \tab yes, with previous and present partner \tab no, never \tab no answer \tab Total \cr
-   1994 \tab 1545 \tab 215 \tab 53 \tab 41 \tab 1001 \tab 137 \tab 2992 \cr
-   Total \tab 1545 \tab 215 \tab 53 \tab 41 \tab 1001 \tab 137 \tab 2992 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, with a previous partner \tab yes, with my present partner \tab yes, with previous and present partner \tab no, never \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1545 \tab 215 \tab 53 \tab 41 \tab 1001 \tab 137 \tab - \tab 2992 \cr
+   Total \tab 1545 \tab 215 \tab 53 \tab 41 \tab 1001 \tab 137 \tab 0 \tab 2992 \cr
 }
 }
 

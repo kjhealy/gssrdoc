@@ -38,10 +38,10 @@ C. You have arrived at work too tired to function well because of the household 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4477/vshow}{GSS Data Explorer page for \code{tiredwk1}}.
 
 Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab doesn't apply/no job \tab several times a week \tab several times a month \tab once or twice \tab never \tab don't know \tab no answer \tab 5 \tab skipped on web \tab Total \cr
+   year \tab iap \tab doesn't apply/no job \tab several times a week \tab several times a month \tab once or twice \tab never \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
    2012 \tab 672 \tab 452 \tab 34 \tab 43 \tab 153 \tab 609 \tab 3 \tab 8 \tab - \tab - \tab 1974 \cr
-   2022 \tab 2386 \tab - \tab 43 \tab 84 \tab 180 \tab 497 \tab 8 \tab 4 \tab 331 \tab 11 \tab 3544 \cr
-   Total \tab 3058 \tab 452 \tab 77 \tab 127 \tab 333 \tab 1106 \tab 11 \tab 12 \tab 331 \tab 11 \tab 5518 \cr
+   2022 \tab 2386 \tab 331 \tab 43 \tab 84 \tab 180 \tab 497 \tab 8 \tab 4 \tab 11 \tab - \tab 3544 \cr
+   Total \tab 3058 \tab 783 \tab 77 \tab 127 \tab 333 \tab 1106 \tab 11 \tab 12 \tab 11 \tab 0 \tab 5518 \cr
 }
 }
 

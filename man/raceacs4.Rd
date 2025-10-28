@@ -33,10 +33,11 @@ Question What is your race? Indicate one or more races that you consider yoursel
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7453/vshow}{GSS Data Explorer page for \code{raceacs4}}.
 
 Counts by year:\tabular{llllllll}{
-   year \tab iap \tab no \tab yes \tab don't know \tab no answer \tab refused \tab Total \cr
+   year \tab not available in this year \tab no \tab yes \tab don't know \tab no answer \tab refused \tab Total \cr
    2021 \tab - \tab 3968 \tab 49 \tab 6 \tab 9 \tab - \tab 4032 \cr
    2022 \tab - \tab 3462 \tab 41 \tab 8 \tab 18 \tab 15 \tab 3544 \cr
-   Total \tab 0 \tab 7430 \tab 90 \tab 14 \tab 27 \tab 15 \tab 7576 \cr
+   2024 \tab - \tab 3209 \tab 49 \tab 18 \tab 24 \tab 9 \tab 3309 \cr
+   Total \tab 0 \tab 10639 \tab 139 \tab 32 \tab 51 \tab 24 \tab 10885 \cr
 }
 }
 
@@ -44,7 +45,7 @@ Counts by year:\tabular{llllllll}{
 Other Core: 
 \code{\link{raceacs10}},
 \code{\link{raceacs11}},
-\code{\link{raceacs2}},
+\code{\link{raceacs12}},
 \code{\link{raceacs6}},
 \code{\link{raceacs8}}
 }

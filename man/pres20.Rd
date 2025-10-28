@@ -34,10 +34,11 @@ Question Did you vote for Joe Biden or Donald Trump?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7759/vshow}{GSS Data Explorer page for \code{pres20}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab biden \tab trump \tab other candidate \tab didn't vote for president \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 939 \tab 1417 \tab 883 \tab 82 \tab 14 \tab 38 \tab 158 \tab 13 \tab 3544 \cr
-   Total \tab 939 \tab 1417 \tab 883 \tab 82 \tab 14 \tab 38 \tab 158 \tab 13 \tab 3544 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab biden \tab trump \tab other candidate \tab didn't vote for president \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 1417 \tab 883 \tab 82 \tab 14 \tab 38 \tab 939 \tab 158 \tab 13 \tab 3544 \cr
+   2024 \tab - \tab 1188 \tab 874 \tab 53 \tab 13 \tab 44 \tab 981 \tab 38 \tab 118 \tab 3309 \cr
+   Total \tab 0 \tab 2605 \tab 1757 \tab 135 \tab 27 \tab 82 \tab 1920 \tab 196 \tab 131 \tab 6853 \cr
 }
 }
 

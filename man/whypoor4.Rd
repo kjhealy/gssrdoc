@@ -34,10 +34,10 @@ D. Lack of effort by the poor themselves
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1173/vshow}{GSS Data Explorer page for \code{whypoor4}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very important \tab somewhat important \tab not important \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 620 \tab 602 \tab 115 \tab 29 \tab 6 \tab 1372 \cr
-   Total \tab 0 \tab 620 \tab 602 \tab 115 \tab 29 \tab 6 \tab 1372 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab somewhat important \tab not important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 620 \tab 602 \tab 115 \tab 29 \tab 6 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 620 \tab 602 \tab 115 \tab 29 \tab 6 \tab 0 \tab 1372 \cr
 }
 }
 

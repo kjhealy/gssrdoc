@@ -33,15 +33,15 @@ Question Did you ever have a religious or spiritual experience that changed your
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2122/vshow}{GSS Data Explorer page for \code{relexp}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   1998 \tab 1387 \tab 557 \tab 867 \tab 5 \tab 16 \tab - \tab 2832 \cr
-   2004 \tab 1472 \tab 477 \tab 848 \tab 4 \tab 11 \tab - \tab 2812 \cr
-   2006 \tab 1518 \tab 1237 \tab 1730 \tab 18 \tab 7 \tab - \tab 4510 \cr
-   2008 \tab - \tab 869 \tab 1135 \tab 12 \tab 7 \tab - \tab 2023 \cr
-   2010 \tab - \tab 836 \tab 1188 \tab 11 \tab 9 \tab - \tab 2044 \cr
-   2021 \tab 2687 \tab 541 \tab 789 \tab 2 \tab 1 \tab 12 \tab 4032 \cr
-   Total \tab 7064 \tab 4517 \tab 6557 \tab 52 \tab 51 \tab 12 \tab 18253 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 557 \tab 867 \tab 5 \tab 16 \tab - \tab - \tab 2832 \cr
+   2004 \tab 1472 \tab 477 \tab 848 \tab 4 \tab 11 \tab - \tab - \tab 2812 \cr
+   2006 \tab 1518 \tab 1237 \tab 1730 \tab 18 \tab 7 \tab - \tab - \tab 4510 \cr
+   2008 \tab - \tab 869 \tab 1135 \tab 12 \tab 7 \tab - \tab - \tab 2023 \cr
+   2010 \tab - \tab 836 \tab 1188 \tab 11 \tab 9 \tab - \tab - \tab 2044 \cr
+   2021 \tab 2687 \tab 541 \tab 789 \tab 2 \tab 1 \tab 12 \tab - \tab 4032 \cr
+   Total \tab 7064 \tab 4517 \tab 6557 \tab 52 \tab 51 \tab 12 \tab 0 \tab 18253 \cr
 }
 }
 

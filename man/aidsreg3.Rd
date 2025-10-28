@@ -41,13 +41,13 @@ E. What state did this person live in?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5024/vshow}{GSS Data Explorer page for \code{aidsreg3}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab new england \tab middle atlantic \tab e. nor. central \tab south atlantic \tab w. sou. central \tab pacific \tab no answer \tab e. sou. central \tab mountain \tab w. nor. central \tab Total \cr
-   1989 \tab 1517 \tab 1 \tab 3 \tab 1 \tab 4 \tab 4 \tab 3 \tab 4 \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1347 \tab - \tab 7 \tab 4 \tab 5 \tab 1 \tab 5 \tab 1 \tab 1 \tab 1 \tab - \tab 1372 \cr
-   1991 \tab 1466 \tab 1 \tab 8 \tab 6 \tab 8 \tab 2 \tab 16 \tab 7 \tab - \tab 1 \tab 2 \tab 1517 \cr
-   1993 \tab 1490 \tab 5 \tab 24 \tab 12 \tab 21 \tab 9 \tab 25 \tab 6 \tab 3 \tab 8 \tab 3 \tab 1606 \cr
-   Total \tab 5820 \tab 7 \tab 42 \tab 23 \tab 38 \tab 16 \tab 49 \tab 18 \tab 4 \tab 10 \tab 5 \tab 6032 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab new england \tab middle atlantic \tab e. nor. central \tab south atlantic \tab w. sou. central \tab pacific \tab no answer \tab e. sou. central \tab mountain \tab w. nor. central \tab not available in this year \tab Total \cr
+   1989 \tab 1517 \tab 1 \tab 3 \tab 1 \tab 4 \tab 4 \tab 3 \tab 4 \tab - \tab - \tab - \tab - \tab 1537 \cr
+   1990 \tab 1347 \tab - \tab 7 \tab 4 \tab 5 \tab 1 \tab 5 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab 1372 \cr
+   1991 \tab 1466 \tab 1 \tab 8 \tab 6 \tab 8 \tab 2 \tab 16 \tab 7 \tab - \tab 1 \tab 2 \tab - \tab 1517 \cr
+   1993 \tab 1490 \tab 5 \tab 24 \tab 12 \tab 21 \tab 9 \tab 25 \tab 6 \tab 3 \tab 8 \tab 3 \tab - \tab 1606 \cr
+   Total \tab 5820 \tab 7 \tab 42 \tab 23 \tab 38 \tab 16 \tab 49 \tab 18 \tab 4 \tab 10 \tab 5 \tab 0 \tab 6032 \cr
 }
 }
 

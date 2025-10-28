@@ -34,13 +34,13 @@ Question Did your mother ever work for pay for as long as one year after you wer
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4392/vshow}{GSS Data Explorer page for \code{mawork14}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab didnt live with mom \tab don't know \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 665 \tab 696 \tab 26 \tab 2 \tab 25 \tab 1481 \cr
-   1994 \tab 1545 \tab 741 \tab 628 \tab 26 \tab 4 \tab 48 \tab 2992 \cr
-   2002 \tab 1594 \tab 695 \tab 425 \tab - \tab 48 \tab 3 \tab 2765 \cr
-   2012 \tab 672 \tab 852 \tab 397 \tab 30 \tab 17 \tab 6 \tab 1974 \cr
-   Total \tab 3878 \tab 2953 \tab 2146 \tab 82 \tab 71 \tab 82 \tab 9212 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab didnt live with mom \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 665 \tab 696 \tab 26 \tab 2 \tab 25 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 741 \tab 628 \tab 26 \tab 4 \tab 48 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 695 \tab 425 \tab - \tab 48 \tab 3 \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 852 \tab 397 \tab 30 \tab 17 \tab 6 \tab - \tab 1974 \cr
+   Total \tab 3878 \tab 2953 \tab 2146 \tab 82 \tab 71 \tab 82 \tab 0 \tab 9212 \cr
 }
 }
 

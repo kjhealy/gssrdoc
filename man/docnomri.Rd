@@ -33,10 +33,10 @@ Question Do you agree with the doctor's decision nor to order the MRI at this ti
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2754/vshow}{GSS Data Explorer page for \code{docnomri}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab maybe \tab don't know \tab no answer \tab Total \cr
-   2002 \tab - \tab 1319 \tab 1137 \tab 266 \tab 39 \tab 4 \tab 2765 \cr
-   Total \tab 0 \tab 1319 \tab 1137 \tab 266 \tab 39 \tab 4 \tab 2765 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab maybe \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab - \tab 1319 \tab 1137 \tab 266 \tab 39 \tab 4 \tab - \tab 2765 \cr
+   Total \tab 0 \tab 1319 \tab 1137 \tab 266 \tab 39 \tab 4 \tab 0 \tab 2765 \cr
 }
 }
 

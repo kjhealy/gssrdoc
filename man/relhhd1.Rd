@@ -51,7 +51,7 @@ Question What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?  SEE CODES BELO
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5416/vshow}{GSS Data Explorer page for \code{relhhd1}}.
 
 Counts by year:\tabular{lllll}{
-   year \tab iap \tab head of household \tab not available in this release \tab Total \cr
+   year \tab iap \tab head of household \tab not available in this year \tab Total \cr
    1993 \tab - \tab 1606 \tab - \tab 1606 \cr
    1994 \tab - \tab 2992 \tab - \tab 2992 \cr
    1996 \tab - \tab 2904 \tab - \tab 2904 \cr
@@ -66,9 +66,9 @@ Counts by year:\tabular{lllll}{
    2014 \tab - \tab 2538 \tab - \tab 2538 \cr
    2016 \tab - \tab 2867 \tab - \tab 2867 \cr
    2018 \tab - \tab 2348 \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 3544 \tab - \tab - \tab 3544 \cr
-   Total \tab 3544 \tab 37032 \tab 4032 \tab 44608 \cr
+   2021 \tab 211 \tab 3821 \tab - \tab 4032 \cr
+   2022 \tab 1779 \tab 1765 \tab - \tab 3544 \cr
+   Total \tab 1990 \tab 42618 \tab 0 \tab 44608 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question How important to you is the opportunity to be promoted?  Is it…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1302/vshow}{GSS Data Explorer page for \code{imppromo}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab does not apply, volunteered \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 605 \tab 296 \tab 181 \tab 142 \tab 165 \tab 115 \tab 1 \tab 12 \tab 1517 \cr
-   Total \tab 605 \tab 296 \tab 181 \tab 142 \tab 165 \tab 115 \tab 1 \tab 12 \tab 1517 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab does not apply, volunteered \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 605 \tab 296 \tab 181 \tab 142 \tab 165 \tab 115 \tab 1 \tab 12 \tab - \tab 1517 \cr
+   Total \tab 605 \tab 296 \tab 181 \tab 142 \tab 165 \tab 115 \tab 1 \tab 12 \tab 0 \tab 1517 \cr
 }
 }
 

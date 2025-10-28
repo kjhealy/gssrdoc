@@ -35,10 +35,10 @@ Question (To what extent to do you agree or disagree with the following statemen
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7858/vshow}{GSS Data Explorer page for \code{allorglevel}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly disagree \tab disagree \tab neither agree nor disagree \tab agree \tab strongly agree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 1549 \tab 198 \tab 300 \tab 582 \tab 674 \tab 156 \tab 36 \tab 23 \tab 26 \tab 3544 \cr
-   Total \tab 1549 \tab 198 \tab 300 \tab 582 \tab 674 \tab 156 \tab 36 \tab 23 \tab 26 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab strongly disagree \tab disagree \tab neither agree nor disagree \tab agree \tab strongly agree \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 198 \tab 300 \tab 582 \tab 674 \tab 156 \tab 36 \tab 1549 \tab 23 \tab 26 \tab 3544 \cr
+   Total \tab 0 \tab 198 \tab 300 \tab 582 \tab 674 \tab 156 \tab 36 \tab 1549 \tab 23 \tab 26 \tab 3544 \cr
 }
 }
 

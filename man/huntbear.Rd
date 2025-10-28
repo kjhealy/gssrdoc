@@ -34,11 +34,11 @@ D. Hunting is more likely than climate change to make polar bears become extinct
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3435/vshow}{GSS Data Explorer page for \code{huntbear}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 762 \tab 688 \tab 413 \tab 1 \tab 4510 \cr
-   2010 \tab 1338 \tab 287 \tab 320 \tab 88 \tab 11 \tab 2044 \cr
-   Total \tab 3984 \tab 1049 \tab 1008 \tab 501 \tab 12 \tab 6554 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 762 \tab 688 \tab 413 \tab 1 \tab - \tab 4510 \cr
+   2010 \tab 1338 \tab 287 \tab 320 \tab 88 \tab 11 \tab - \tab 2044 \cr
+   Total \tab 3984 \tab 1049 \tab 1008 \tab 501 \tab 12 \tab 0 \tab 6554 \cr
 }
 }
 

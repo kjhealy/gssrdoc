@@ -36,10 +36,10 @@ I. Other (SPECIFY).
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1284/vshow}{GSS Data Explorer page for \code{fndjob9}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab union \tab school \tab self-employed,created job \tab announcement,newspaper \tab other \tab no answer \tab Total \cr
-   1991 \tab 605 \tab 10 \tab 1 \tab 22 \tab 7 \tab 21 \tab 851 \tab 1517 \cr
-   Total \tab 605 \tab 10 \tab 1 \tab 22 \tab 7 \tab 21 \tab 851 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab union \tab school \tab self-employed,created job \tab announcement,newspaper \tab other \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 605 \tab 10 \tab 1 \tab 22 \tab 7 \tab 21 \tab 851 \tab - \tab 1517 \cr
+   Total \tab 605 \tab 10 \tab 1 \tab 22 \tab 7 \tab 21 \tab 851 \tab 0 \tab 1517 \cr
 }
 }
 

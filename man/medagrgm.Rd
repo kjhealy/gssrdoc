@@ -32,10 +32,10 @@ Question Please look at Card B16. (On a scale of 1 to 5, where 1 means "Near com
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3390/vshow}{GSS Data Explorer page for \code{medagrgm}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab near complete agreement \tab 2 \tab 3 \tab 4 \tab no agreement at all \tab don't know \tab Total \cr
-   2006 \tab 3574 \tab 76 \tab 180 \tab 382 \tab 101 \tab 76 \tab 121 \tab 4510 \cr
-   Total \tab 3574 \tab 76 \tab 180 \tab 382 \tab 101 \tab 76 \tab 121 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab near complete agreement \tab 2 \tab 3 \tab 4 \tab no agreement at all \tab don't know \tab not available in this year \tab Total \cr
+   2006 \tab 3574 \tab 76 \tab 180 \tab 382 \tab 101 \tab 76 \tab 121 \tab - \tab 4510 \cr
+   Total \tab 3574 \tab 76 \tab 180 \tab 382 \tab 101 \tab 76 \tab 121 \tab 0 \tab 4510 \cr
 }
 }
 

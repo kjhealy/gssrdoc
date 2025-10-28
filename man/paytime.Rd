@@ -36,10 +36,10 @@ D. How long the person has been with the firm?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4574/vshow}{GSS Data Explorer page for \code{paytime}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1609 \tab 141 \tab 418 \tab 407 \tab 144 \tab 50 \tab 23 \tab 40 \tab 2832 \cr
-   Total \tab 1609 \tab 141 \tab 418 \tab 407 \tab 144 \tab 50 \tab 23 \tab 40 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1609 \tab 141 \tab 418 \tab 407 \tab 144 \tab 50 \tab 23 \tab 40 \tab - \tab 2832 \cr
+   Total \tab 1609 \tab 141 \tab 418 \tab 407 \tab 144 \tab 50 \tab 23 \tab 40 \tab 0 \tab 2832 \cr
 }
 }
 

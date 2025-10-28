@@ -32,10 +32,10 @@ Question A. As far as you know, are women now assigned to jobs in the armed forc
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/798/vshow}{GSS Data Explorer page for \code{fefight}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes, they are \tab no they arent \tab don't know \tab no answer \tab Total \cr
-   1982 \tab - \tab 418 \tab 960 \tab 462 \tab 20 \tab 1860 \cr
-   Total \tab 0 \tab 418 \tab 960 \tab 462 \tab 20 \tab 1860 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, they are \tab no they arent \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab - \tab 418 \tab 960 \tab 462 \tab 20 \tab - \tab 1860 \cr
+   Total \tab 0 \tab 418 \tab 960 \tab 462 \tab 20 \tab 0 \tab 1860 \cr
 }
 }
 

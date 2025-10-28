@@ -37,40 +37,41 @@ Question Number of visitors in household.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5438/vshow}{GSS Data Explorer page for \code{visitors}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab no visitors \tab 1 visitor \tab 2 visitors \tab 4 visitors \tab 3 visitors \tab not available in this release \tab Total \cr
-   1975 \tab - \tab 1454 \tab 25 \tab 8 \tab 3 \tab - \tab - \tab 1490 \cr
-   1976 \tab 755 \tab 738 \tab 2 \tab 3 \tab 1 \tab - \tab - \tab 1499 \cr
-   1977 \tab - \tab 1512 \tab 15 \tab 2 \tab 1 \tab - \tab - \tab 1530 \cr
-   1978 \tab - \tab 1509 \tab 12 \tab 6 \tab 2 \tab 3 \tab - \tab 1532 \cr
-   1980 \tab - \tab 1436 \tab 21 \tab 7 \tab 2 \tab 2 \tab - \tab 1468 \cr
-   1982 \tab - \tab 1839 \tab 16 \tab 3 \tab - \tab 2 \tab - \tab 1860 \cr
-   1983 \tab - \tab 1574 \tab 19 \tab 3 \tab - \tab 3 \tab - \tab 1599 \cr
-   1984 \tab - \tab 1443 \tab 20 \tab 7 \tab - \tab 3 \tab - \tab 1473 \cr
-   1985 \tab - \tab 1498 \tab 30 \tab 5 \tab 1 \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 1452 \tab 14 \tab 4 \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab - \tab 1794 \tab 18 \tab 4 \tab 2 \tab 1 \tab - \tab 1819 \cr
-   1988 \tab - \tab 1469 \tab 9 \tab 2 \tab - \tab 1 \tab - \tab 1481 \cr
-   1989 \tab - \tab 1522 \tab 9 \tab 5 \tab - \tab 1 \tab - \tab 1537 \cr
-   1990 \tab - \tab 1359 \tab 10 \tab 3 \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab - \tab 1498 \tab 14 \tab 5 \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab - \tab 1597 \tab 8 \tab 1 \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab - \tab 2970 \tab 17 \tab 4 \tab 1 \tab - \tab - \tab 2992 \cr
-   1996 \tab - \tab 2881 \tab 15 \tab 7 \tab - \tab 1 \tab - \tab 2904 \cr
-   1998 \tab - \tab 2805 \tab 12 \tab 9 \tab 2 \tab 4 \tab - \tab 2832 \cr
-   2000 \tab - \tab 2808 \tab 5 \tab 3 \tab - \tab 1 \tab - \tab 2817 \cr
-   2002 \tab - \tab 2759 \tab 5 \tab 1 \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab - \tab 2798 \tab 14 \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab - \tab 4462 \tab 36 \tab 10 \tab 1 \tab 1 \tab - \tab 4510 \cr
-   2008 \tab - \tab 2004 \tab 15 \tab 3 \tab - \tab 1 \tab - \tab 2023 \cr
-   2010 \tab - \tab 2018 \tab 19 \tab 7 \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab - \tab 1955 \tab 16 \tab 2 \tab 1 \tab - \tab - \tab 1974 \cr
-   2014 \tab - \tab 2520 \tab 15 \tab 1 \tab - \tab 2 \tab - \tab 2538 \cr
-   2016 \tab - \tab 2839 \tab 23 \tab 3 \tab 1 \tab 1 \tab - \tab 2867 \cr
-   2018 \tab - \tab 2316 \tab 27 \tab 5 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 4299 \tab 58829 \tab 461 \tab 123 \tab 18 \tab 27 \tab 4032 \tab 67789 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab no visitors \tab 1 visitor \tab 2 visitors \tab 4 visitors \tab 3 visitors \tab Total \cr
+   1975 \tab - \tab 1454 \tab 25 \tab 8 \tab 3 \tab - \tab 1490 \cr
+   1976 \tab 755 \tab 738 \tab 2 \tab 3 \tab 1 \tab - \tab 1499 \cr
+   1977 \tab - \tab 1512 \tab 15 \tab 2 \tab 1 \tab - \tab 1530 \cr
+   1978 \tab - \tab 1509 \tab 12 \tab 6 \tab 2 \tab 3 \tab 1532 \cr
+   1980 \tab - \tab 1436 \tab 21 \tab 7 \tab 2 \tab 2 \tab 1468 \cr
+   1982 \tab - \tab 1839 \tab 16 \tab 3 \tab - \tab 2 \tab 1860 \cr
+   1983 \tab - \tab 1574 \tab 19 \tab 3 \tab - \tab 3 \tab 1599 \cr
+   1984 \tab - \tab 1443 \tab 20 \tab 7 \tab - \tab 3 \tab 1473 \cr
+   1985 \tab - \tab 1498 \tab 30 \tab 5 \tab 1 \tab - \tab 1534 \cr
+   1986 \tab - \tab 1452 \tab 14 \tab 4 \tab - \tab - \tab 1470 \cr
+   1987 \tab - \tab 1794 \tab 18 \tab 4 \tab 2 \tab 1 \tab 1819 \cr
+   1988 \tab - \tab 1469 \tab 9 \tab 2 \tab - \tab 1 \tab 1481 \cr
+   1989 \tab - \tab 1522 \tab 9 \tab 5 \tab - \tab 1 \tab 1537 \cr
+   1990 \tab - \tab 1359 \tab 10 \tab 3 \tab - \tab - \tab 1372 \cr
+   1991 \tab - \tab 1498 \tab 14 \tab 5 \tab - \tab - \tab 1517 \cr
+   1993 \tab - \tab 1597 \tab 8 \tab 1 \tab - \tab - \tab 1606 \cr
+   1994 \tab - \tab 2970 \tab 17 \tab 4 \tab 1 \tab - \tab 2992 \cr
+   1996 \tab - \tab 2881 \tab 15 \tab 7 \tab - \tab 1 \tab 2904 \cr
+   1998 \tab - \tab 2805 \tab 12 \tab 9 \tab 2 \tab 4 \tab 2832 \cr
+   2000 \tab - \tab 2808 \tab 5 \tab 3 \tab - \tab 1 \tab 2817 \cr
+   2002 \tab - \tab 2759 \tab 5 \tab 1 \tab - \tab - \tab 2765 \cr
+   2004 \tab - \tab 2798 \tab 14 \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab - \tab 4462 \tab 36 \tab 10 \tab 1 \tab 1 \tab 4510 \cr
+   2008 \tab - \tab 2004 \tab 15 \tab 3 \tab - \tab 1 \tab 2023 \cr
+   2010 \tab - \tab 2018 \tab 19 \tab 7 \tab - \tab - \tab 2044 \cr
+   2012 \tab - \tab 1955 \tab 16 \tab 2 \tab 1 \tab - \tab 1974 \cr
+   2014 \tab - \tab 2520 \tab 15 \tab 1 \tab - \tab 2 \tab 2538 \cr
+   2016 \tab - \tab 2839 \tab 23 \tab 3 \tab 1 \tab 1 \tab 2867 \cr
+   2018 \tab - \tab 2316 \tab 27 \tab 5 \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab 3905 \tab 105 \tab 17 \tab 2 \tab 3 \tab 4032 \cr
+   2022 \tab - \tab 3508 \tab 33 \tab 2 \tab 1 \tab - \tab 3544 \cr
+   2024 \tab 1630 \tab 1638 \tab 37 \tab 4 \tab - \tab - \tab 3309 \cr
+   Total \tab 2385 \tab 67880 \tab 636 \tab 146 \tab 21 \tab 30 \tab 71098 \cr
 }
 }
 

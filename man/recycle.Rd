@@ -36,14 +36,14 @@ Question A. How often do you make a special effort to sort glass or cans or plas
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4769/vshow}{GSS Data Explorer page for \code{recycle}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab always \tab often \tab sometimes \tab never \tab recycling not available where i live \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   1993 \tab 49 \tab 579 \tab 338 \tab 343 \tab 204 \tab 55 \tab 1 \tab 37 \tab - \tab 1606 \cr
-   1994 \tab 1606 \tab 481 \tab 329 \tab 340 \tab 170 \tab 47 \tab - \tab 19 \tab - \tab 2992 \cr
-   2000 \tab 1541 \tab 393 \tab 291 \tab 271 \tab 189 \tab 67 \tab 2 \tab 63 \tab - \tab 2817 \cr
-   2010 \tab 614 \tab 563 \tab 324 \tab 317 \tab 190 \tab 28 \tab 1 \tab 7 \tab - \tab 2044 \cr
-   2021 \tab 2003 \tab 1006 \tab 278 \tab 218 \tab 198 \tab 130 \tab - \tab 192 \tab 7 \tab 4032 \cr
-   Total \tab 5813 \tab 3022 \tab 1560 \tab 1489 \tab 951 \tab 327 \tab 4 \tab 318 \tab 7 \tab 13491 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab never \tab recycling not available where i live \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 579 \tab 338 \tab 343 \tab 204 \tab 55 \tab 1 \tab 37 \tab - \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 481 \tab 329 \tab 340 \tab 170 \tab 47 \tab - \tab 19 \tab - \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 393 \tab 291 \tab 271 \tab 189 \tab 67 \tab 2 \tab 63 \tab - \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 563 \tab 324 \tab 317 \tab 190 \tab 28 \tab 1 \tab 7 \tab - \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 1006 \tab 278 \tab 218 \tab 198 \tab 130 \tab - \tab 192 \tab 7 \tab - \tab 4032 \cr
+   Total \tab 5813 \tab 3022 \tab 1560 \tab 1489 \tab 951 \tab 327 \tab 4 \tab 318 \tab 7 \tab 0 \tab 13491 \cr
 }
 }
 

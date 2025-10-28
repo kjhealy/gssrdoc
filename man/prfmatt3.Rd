@@ -32,10 +32,10 @@ Question Friend
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6217/vshow}{GSS Data Explorer page for \code{prfmatt3}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2016 \tab 2452 \tab 184 \tab 223 \tab 8 \tab 2867 \cr
-   Total \tab 2452 \tab 184 \tab 223 \tab 8 \tab 2867 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2452 \tab 184 \tab 223 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 2452 \tab 184 \tab 223 \tab 8 \tab 0 \tab 2867 \cr
 }
 }
 

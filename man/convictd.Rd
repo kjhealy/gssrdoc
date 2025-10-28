@@ -32,10 +32,10 @@ Question B. Not counting minor traffic offenses, have you ever been convicted of
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/686/vshow}{GSS Data Explorer page for \code{convictd}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 220 \tab 210 \tab 1538 \tab 1 \tab 5 \tab 1974 \cr
-   Total \tab 220 \tab 210 \tab 1538 \tab 1 \tab 5 \tab 1974 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 220 \tab 210 \tab 1538 \tab 1 \tab 5 \tab - \tab 1974 \cr
+   Total \tab 220 \tab 210 \tab 1538 \tab 1 \tab 5 \tab 0 \tab 1974 \cr
 }
 }
 

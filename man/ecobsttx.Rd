@@ -35,11 +35,11 @@ A. Economists
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3384/vshow}{GSS Data Explorer page for \code{ecobsttx}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab what is best for the country \tab 2 \tab 3 \tab 4 \tab own narrow interests \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3574 \tab 211 \tab 259 \tab 231 \tab 90 \tab 84 \tab 61 \tab - \tab 4510 \cr
-   2010 \tab 1578 \tab 80 \tab 133 \tab 135 \tab 49 \tab 42 \tab 23 \tab 4 \tab 2044 \cr
-   Total \tab 5152 \tab 291 \tab 392 \tab 366 \tab 139 \tab 126 \tab 84 \tab 4 \tab 6554 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab what is best for the country \tab 2 \tab 3 \tab 4 \tab own narrow interests \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3574 \tab 211 \tab 259 \tab 231 \tab 90 \tab 84 \tab 61 \tab - \tab - \tab 4510 \cr
+   2010 \tab 1578 \tab 80 \tab 133 \tab 135 \tab 49 \tab 42 \tab 23 \tab 4 \tab - \tab 2044 \cr
+   Total \tab 5152 \tab 291 \tab 392 \tab 366 \tab 139 \tab 126 \tab 84 \tab 4 \tab 0 \tab 6554 \cr
 }
 }
 

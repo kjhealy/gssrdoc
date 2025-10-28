@@ -34,10 +34,10 @@ C. Third listed child?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2641/vshow}{GSS Data Explorer page for \code{timekid3}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab too much \tab about the right amount \tab too little \tab no answer \tab Total \cr
-   2000 \tab 2592 \tab 12 \tab 111 \tab 68 \tab 34 \tab 2817 \cr
-   Total \tab 2592 \tab 12 \tab 111 \tab 68 \tab 34 \tab 2817 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab too much \tab about the right amount \tab too little \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2592 \tab 12 \tab 111 \tab 68 \tab 34 \tab - \tab 2817 \cr
+   Total \tab 2592 \tab 12 \tab 111 \tab 68 \tab 34 \tab 0 \tab 2817 \cr
 }
 }
 

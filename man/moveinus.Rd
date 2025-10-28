@@ -38,10 +38,10 @@ To move within America.            
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6347/vshow}{GSS Data Explorer page for \code{moveinus}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2533 \tab 22 \tab 90 \tab 35 \tab 86 \tab 75 \tab 3 \tab 23 \tab 2867 \cr
-   Total \tab 2533 \tab 22 \tab 90 \tab 35 \tab 86 \tab 75 \tab 3 \tab 23 \tab 2867 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2533 \tab 22 \tab 90 \tab 35 \tab 86 \tab 75 \tab 3 \tab 23 \tab - \tab 2867 \cr
+   Total \tab 2533 \tab 22 \tab 90 \tab 35 \tab 86 \tab 75 \tab 3 \tab 23 \tab 0 \tab 2867 \cr
 }
 }
 

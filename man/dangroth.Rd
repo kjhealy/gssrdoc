@@ -35,12 +35,13 @@ E. Be admitted to a hospital for treatment if s/he is dangerous to others.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2035/vshow}{GSS Data Explorer page for \code{dangroth}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 1286 \tab 107 \tab 30 \tab 21 \tab 2904 \cr
-   2006 \tab 3073 \tab 1291 \tab 102 \tab 27 \tab 17 \tab 4510 \cr
-   2018 \tab 1175 \tab 1098 \tab 31 \tab 15 \tab 29 \tab 2348 \cr
-   Total \tab 5708 \tab 3675 \tab 240 \tab 72 \tab 67 \tab 9762 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 1286 \tab 107 \tab 30 \tab 21 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 1291 \tab 102 \tab 27 \tab 17 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 1098 \tab 31 \tab 15 \tab 29 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1693 \tab 1450 \tab 108 \tab 19 \tab 12 \tab - \tab 27 \tab 3309 \cr
+   Total \tab 7401 \tab 5125 \tab 348 \tab 91 \tab 79 \tab 0 \tab 27 \tab 13071 \cr
 }
 }
 

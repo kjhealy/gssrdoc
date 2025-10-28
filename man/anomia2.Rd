@@ -33,12 +33,12 @@ B. You sometimes can't help wondering whether anything is worthwhile any more.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/538/vshow}{GSS Data Explorer page for \code{anomia2}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
-   1973 \tab - \tab 604 \tab 885 \tab 12 \tab 3 \tab 1504 \cr
-   1974 \tab - \tab 641 \tab 828 \tab 10 \tab 5 \tab 1484 \cr
-   1976 \tab - \tab 596 \tab 881 \tab 17 \tab 5 \tab 1499 \cr
-   Total \tab 0 \tab 1841 \tab 2594 \tab 39 \tab 13 \tab 4487 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1973 \tab - \tab 604 \tab 885 \tab 12 \tab 3 \tab - \tab 1504 \cr
+   1974 \tab - \tab 641 \tab 828 \tab 10 \tab 5 \tab - \tab 1484 \cr
+   1976 \tab - \tab 596 \tab 881 \tab 17 \tab 5 \tab - \tab 1499 \cr
+   Total \tab 0 \tab 1841 \tab 2594 \tab 39 \tab 13 \tab 0 \tab 4487 \cr
 }
 }
 

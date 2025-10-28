@@ -33,12 +33,12 @@ Question Do you work for a for-profit company, a non-profit or not-for-profit or
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2851/vshow}{GSS Data Explorer page for \code{workfor1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab for-profit company \tab non-profit or not-for-profit organization \tab government or government agency \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2014 \tab 1765 \tab 514 \tab 115 \tab 126 \tab 13 \tab 5 \tab - \tab 2538 \cr
-   2018 \tab 900 \tab 936 \tab 201 \tab 229 \tab 47 \tab 35 \tab - \tab 2348 \cr
-   2022 \tab 2569 \tab 594 \tab 143 \tab 145 \tab 81 \tab 8 \tab 4 \tab 3544 \cr
-   Total \tab 5234 \tab 2044 \tab 459 \tab 500 \tab 141 \tab 48 \tab 4 \tab 8430 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab for-profit company \tab non-profit or not-for-profit organization \tab government or government agency \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2014 \tab 1765 \tab 514 \tab 115 \tab 126 \tab 13 \tab 5 \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 936 \tab 201 \tab 229 \tab 47 \tab 35 \tab - \tab - \tab 2348 \cr
+   2022 \tab 2569 \tab 594 \tab 143 \tab 145 \tab 81 \tab 8 \tab 4 \tab - \tab 3544 \cr
+   Total \tab 5234 \tab 2044 \tab 459 \tab 500 \tab 141 \tab 48 \tab 4 \tab 0 \tab 8430 \cr
 }
 }
 

@@ -34,10 +34,10 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7946/vshow}{GSS Data Explorer page for \code{abgender}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab skipped on web \tab Total \cr
-   2022 \tab 2309 \tab 182 \tab 1047 \tab 6 \tab 3544 \cr
-   Total \tab 2309 \tab 182 \tab 1047 \tab 6 \tab 3544 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab not available in this year \tab yes \tab no \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 182 \tab 1047 \tab 2309 \tab 6 \tab 3544 \cr
+   Total \tab 0 \tab 182 \tab 1047 \tab 2309 \tab 6 \tab 3544 \cr
 }
 }
 
@@ -45,9 +45,9 @@ Counts by year:\tabular{llllll}{
 Other GSS Next: 
 \code{\link{abbelief}},
 \code{\link{brv16bronum}},
-\code{\link{brv16chinum}},
 \code{\link{brv16cuznum}},
 \code{\link{brv16frndnum}},
+\code{\link{brv16gpanum}},
 \code{\link{brv16othnum}},
 \code{\link{brv16silnum}},
 \code{\link{brv16sisnum}},

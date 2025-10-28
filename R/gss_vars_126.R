@@ -24,10 +24,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |somewhat important |not important |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:------------------|:-------------|:----------|:---------|:-----|
-#'  |1990  |-   |486            |527                |323           |30         |6         |1372  |
-#'  |Total |0   |486            |527                |323           |30         |6         |1372  |
+#'  |year  |iap |very important |somewhat important |not important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:------------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |486            |527                |323           |30         |6         |-                          |1372  |
+#'  |Total |0   |486            |527                |323           |30         |6         |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -65,10 +65,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |somewhat important |not important |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:------------------|:-------------|:----------|:---------|:-----|
-#'  |1990  |-   |521            |461                |338           |44         |8         |1372  |
-#'  |Total |0   |521            |461                |338           |44         |8         |1372  |
+#'  |year  |iap |very important |somewhat important |not important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:------------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |521            |461                |338           |44         |8         |-                          |1372  |
+#'  |Total |0   |521            |461                |338           |44         |8         |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -106,10 +106,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |somewhat important |not important |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:------------------|:-------------|:----------|:---------|:-----|
-#'  |1990  |-   |474            |571                |285           |35         |7         |1372  |
-#'  |Total |0   |474            |571                |285           |35         |7         |1372  |
+#'  |year  |iap |very important |somewhat important |not important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:------------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |474            |571                |285           |35         |7         |-                          |1372  |
+#'  |Total |0   |474            |571                |285           |35         |7         |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -147,10 +147,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |somewhat important |not important |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:------------------|:-------------|:----------|:---------|:-----|
-#'  |1990  |-   |620            |602                |115           |29         |6         |1372  |
-#'  |Total |0   |620            |602                |115           |29         |6         |1372  |
+#'  |year  |iap |very important |somewhat important |not important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:------------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |620            |602                |115           |29         |6         |-                          |1372  |
+#'  |Total |0   |620            |602                |115           |29         |6         |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -189,10 +189,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |agree strongly |agree |disagree |disagree strongly |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |1990  |-   |79             |632   |454      |61                |141        |5         |1372  |
-#'  |Total |0   |79             |632   |454      |61                |141        |5         |1372  |
+#'  |year  |iap |agree strongly |agree |disagree |disagree strongly |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |79             |632   |454      |61                |141        |5         |-                          |1372  |
+#'  |Total |0   |79             |632   |454      |61                |141        |5         |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -232,10 +232,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |agree strongly |agree |disagree |disagree strongly |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |1990  |-   |86             |459   |615      |159               |47         |6         |1372  |
-#'  |Total |0   |86             |459   |615      |159               |47         |6         |1372  |
+#'  |year  |iap |agree strongly |agree |disagree |disagree strongly |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |86             |459   |615      |159               |47         |6         |-                          |1372  |
+#'  |Total |0   |86             |459   |615      |159               |47         |6         |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -274,10 +274,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |agree strongly |agree |disagree |disagree strongly |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |1990  |-   |281            |738   |291      |35                |22         |5         |1372  |
-#'  |Total |0   |281            |738   |291      |35                |22         |5         |1372  |
+#'  |year  |iap |agree strongly |agree |disagree |disagree strongly |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |281            |738   |291      |35                |22         |5         |-                          |1372  |
+#'  |Total |0   |281            |738   |291      |35                |22         |5         |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -317,10 +317,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |agree strongly |agree |disagree |disagree strongly |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |1990  |-   |161            |497   |555      |121               |31         |7         |1372  |
-#'  |Total |0   |161            |497   |555      |121               |31         |7         |1372  |
+#'  |year  |iap |agree strongly |agree |disagree |disagree strongly |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |161            |497   |555      |121               |31         |7         |-                          |1372  |
+#'  |Total |0   |161            |497   |555      |121               |31         |7         |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -376,7 +376,8 @@ NULL
 #'  |2018  |1170  |68       |112  |305  |585   |73   |12  |5        |11         |7         |-              |2348  |
 #'  |2021  |2689  |70       |133  |388  |653   |68   |19  |5        |2          |1         |4              |4032  |
 #'  |2022  |2339  |95       |142  |326  |526   |67   |11  |11       |19         |7         |1              |3544  |
-#'  |Total |21201 |1156     |2078 |6259 |11176 |1557 |251 |96       |457        |138       |5              |44374 |
+#'  |2024  |2200  |74       |100  |266  |527   |75   |17  |8        |27         |6         |9              |3309  |
+#'  |Total |23401 |1230     |2178 |6525 |11703 |1632 |268 |104      |484        |144       |14             |47683 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations
@@ -413,11 +414,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |1 - rich |2   |3   |4   |5   |6  |7 - poor |don't know |no answer |Total |
-#'  |:-----|:----|:--------|:---|:---|:---|:---|:--|:--------|:----------|:---------|:-----|
-#'  |1990  |-    |152      |336 |350 |323 |68  |15 |6        |105        |17        |1372  |
-#'  |2000  |1419 |138      |283 |325 |328 |73  |33 |14       |188        |16        |2817  |
-#'  |Total |1419 |290      |619 |675 |651 |141 |48 |20       |293        |33        |4189  |
+#'  |year  |iap  |1 - rich |2   |3   |4   |5   |6  |7 - poor |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------|:---|:---|:---|:---|:--|:--------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-    |152      |336 |350 |323 |68  |15 |6        |105        |17        |-                          |1372  |
+#'  |2000  |1419 |138      |283 |325 |328 |73  |33 |14       |188        |16        |-                          |2817  |
+#'  |Total |1419 |290      |619 |675 |651 |141 |48 |20       |293        |33        |0                          |4189  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Intergroup Relations

@@ -27,10 +27,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |one of the most important |extremely important |very important |moderately important |somewhat important |not too important |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------|:-------------------|:--------------|:--------------------|:------------------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1398 |552                       |401                 |326            |71                   |15                 |17                |14         |23        |2817  |
-#'  |Total |1398 |552                       |401                 |326            |71                   |15                 |17                |14         |23        |2817  |
+#'  |year  |iap  |one of the most important |extremely important |very important |moderately important |somewhat important |not too important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------|:-------------------|:--------------|:--------------------|:------------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |552                       |401                 |326            |71                   |15                 |17                |14         |23        |-                          |2817  |
+#'  |Total |1398 |552                       |401                 |326            |71                   |15                 |17                |14         |23        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -68,10 +68,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |there should be complete freedom of the press, even if |the press should develop a code of ethics to keep it |the government should keep the press from printing |don't know |no answer |Total |
-#'  |:-----|:----|:------------------------------------------------------|:----------------------------------------------------|:--------------------------------------------------|:----------|:---------|:-----|
-#'  |2000  |1398 |292                                                    |879                                                  |200                                                |31         |17        |2817  |
-#'  |Total |1398 |292                                                    |879                                                  |200                                                |31         |17        |2817  |
+#'  |year  |iap  |there should be complete freedom of the press, even if |the press should develop a code of ethics to keep it |the government should keep the press from printing |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------------------------------------------------|:----------------------------------------------------|:--------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |292                                                    |879                                                  |200                                                |31         |17        |-                          |2817  |
+#'  |Total |1398 |292                                                    |879                                                  |200                                                |31         |17        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -110,10 +110,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |1398 |114            |410   |264                        |370      |208               |37         |16        |2817  |
-#'  |Total |1398 |114            |410   |264                        |370      |208               |37         |16        |2817  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |114            |410   |264                        |370      |208               |37         |16        |-                          |2817  |
+#'  |Total |1398 |114            |410   |264                        |370      |208               |37         |16        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -150,10 +150,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no choice and control |2  |3  |some choice and control |5   |6   |a great deal of choice and control |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------|:--|:--|:-----------------------|:---|:---|:----------------------------------|:----------|:---------|:-----|
-#'  |2000  |1398 |9                     |19 |35 |289                     |201 |384 |448                                |19         |15        |2817  |
-#'  |Total |1398 |9                     |19 |35 |289                     |201 |384 |448                                |19         |15        |2817  |
+#'  |year  |iap  |no choice and control |2  |3  |some choice and control |5   |6   |a great deal of choice and control |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------|:--|:--|:-----------------------|:---|:---|:----------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |9                     |19 |35 |289                     |201 |384 |448                                |19         |15        |-                          |2817  |
+#'  |Total |1398 |9                     |19 |35 |289                     |201 |384 |448                                |19         |15        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -191,10 +191,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes, limited a lot |yes, limited a little |no, not limited at all |no answer |Total |
-#'  |:-----|:----|:------------------|:---------------------|:----------------------|:---------|:-----|
-#'  |2000  |1398 |136                |159                   |1103                   |21        |2817  |
-#'  |Total |1398 |136                |159                   |1103                   |21        |2817  |
+#'  |year  |iap  |yes, limited a lot |yes, limited a little |no, not limited at all |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------------|:---------------------|:----------------------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |136                |159                   |1103                   |21        |-                          |2817  |
+#'  |Total |1398 |136                |159                   |1103                   |21        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -232,10 +232,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes, limited a lot |yes, limited a little |no, not limited at all |no answer |Total |
-#'  |:-----|:----|:------------------|:---------------------|:----------------------|:---------|:-----|
-#'  |2000  |1398 |168                |200                   |1019                   |32        |2817  |
-#'  |Total |1398 |168                |200                   |1019                   |32        |2817  |
+#'  |year  |iap  |yes, limited a lot |yes, limited a little |no, not limited at all |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------------|:---------------------|:----------------------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |168                |200                   |1019                   |32        |-                          |2817  |
+#'  |Total |1398 |168                |200                   |1019                   |32        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -271,10 +271,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |2000  |1398 |343 |1067 |9         |2817  |
-#'  |Total |1398 |343 |1067 |9         |2817  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |343 |1067 |9         |-                          |2817  |
+#'  |Total |1398 |343 |1067 |9         |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -310,10 +310,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |2000  |1398 |316 |1093 |10        |2817  |
-#'  |Total |1398 |316 |1093 |10        |2817  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |316 |1093 |10        |-                          |2817  |
+#'  |Total |1398 |316 |1093 |10        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -349,10 +349,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |2000  |1398 |264 |1146 |9         |2817  |
-#'  |Total |1398 |264 |1146 |9         |2817  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |264 |1146 |9         |-                          |2817  |
+#'  |Total |1398 |264 |1146 |9         |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -388,10 +388,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |2000  |1398 |221 |1186 |12        |2817  |
-#'  |Total |1398 |221 |1186 |12        |2817  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |221 |1186 |12        |-                          |2817  |
+#'  |Total |1398 |221 |1186 |12        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status

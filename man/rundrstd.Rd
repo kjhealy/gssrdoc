@@ -33,10 +33,10 @@ Question INTERVIEWER: BY THE TIME YOU HANDED HAND CARD C4 (IMMSTATS) TO THE RESP
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3028/vshow}{GSS Data Explorer page for \code{rundrstd}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab other \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2540 \tab 220 \tab 23 \tab 16 \tab 8 \tab 5 \tab 2812 \cr
-   Total \tab 2540 \tab 220 \tab 23 \tab 16 \tab 8 \tab 5 \tab 2812 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2540 \tab 220 \tab 23 \tab 16 \tab 8 \tab 5 \tab - \tab 2812 \cr
+   Total \tab 2540 \tab 220 \tab 23 \tab 16 \tab 8 \tab 5 \tab 0 \tab 2812 \cr
 }
 }
 

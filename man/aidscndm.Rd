@@ -32,10 +32,10 @@ Question B. Can people reduce their chance of getting the AIDS virus by using a 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5078/vshow}{GSS Data Explorer page for \code{aidscndm}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2014 \tab 707 \tab 1663 \tab 95 \tab 39 \tab 34 \tab 2538 \cr
-   Total \tab 707 \tab 1663 \tab 95 \tab 39 \tab 34 \tab 2538 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab 707 \tab 1663 \tab 95 \tab 39 \tab 34 \tab - \tab 2538 \cr
+   Total \tab 707 \tab 1663 \tab 95 \tab 39 \tab 34 \tab 0 \tab 2538 \cr
 }
 }
 

@@ -36,11 +36,11 @@ O. I doubt that my doctor really cares about me as a person.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2214/vshow}{GSS Data Explorer page for \code{doc15}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strong disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 25 \tab 199 \tab 208 \tab 758 \tab 164 \tab 24 \tab 9 \tab 2832 \cr
-   2006 \tab 3073 \tab 67 \tab 175 \tab 263 \tab 586 \tab 308 \tab 25 \tab 13 \tab 4510 \cr
-   Total \tab 4518 \tab 92 \tab 374 \tab 471 \tab 1344 \tab 472 \tab 49 \tab 22 \tab 7342 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strong disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 25 \tab 199 \tab 208 \tab 758 \tab 164 \tab 24 \tab 9 \tab - \tab 2832 \cr
+   2006 \tab 3073 \tab 67 \tab 175 \tab 263 \tab 586 \tab 308 \tab 25 \tab 13 \tab - \tab 4510 \cr
+   Total \tab 4518 \tab 92 \tab 374 \tab 471 \tab 1344 \tab 472 \tab 49 \tab 22 \tab 0 \tab 7342 \cr
 }
 }
 

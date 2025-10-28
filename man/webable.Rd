@@ -36,11 +36,11 @@ Question Would you rate your ability to use the World Wide Web as excellent, goo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2621/vshow}{GSS Data Explorer page for \code{webable}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab excellent \tab good \tab fair \tab poor \tab very poor \tab no answer \tab Total \cr
-   2002 \tab 1914 \tab 218 \tab 311 \tab 197 \tab 45 \tab 15 \tab 65 \tab 2765 \cr
-   2004 \tab 2122 \tab 192 \tab 289 \tab 139 \tab 37 \tab 21 \tab 12 \tab 2812 \cr
-   Total \tab 4036 \tab 410 \tab 600 \tab 336 \tab 82 \tab 36 \tab 77 \tab 5577 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab excellent \tab good \tab fair \tab poor \tab very poor \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1914 \tab 218 \tab 311 \tab 197 \tab 45 \tab 15 \tab 65 \tab - \tab 2765 \cr
+   2004 \tab 2122 \tab 192 \tab 289 \tab 139 \tab 37 \tab 21 \tab 12 \tab - \tab 2812 \cr
+   Total \tab 4036 \tab 410 \tab 600 \tab 336 \tab 82 \tab 36 \tab 77 \tab 0 \tab 5577 \cr
 }
 }
 

@@ -33,10 +33,10 @@ A. Written a letter to a public official expressing your views on women''s right
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/598/vshow}{GSS Data Explorer page for \code{fewrite}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1983 \tab 804 \tab 55 \tab 735 \tab 1 \tab 4 \tab 1599 \cr
-   Total \tab 804 \tab 55 \tab 735 \tab 1 \tab 4 \tab 1599 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab 804 \tab 55 \tab 735 \tab 1 \tab 4 \tab - \tab 1599 \cr
+   Total \tab 804 \tab 55 \tab 735 \tab 1 \tab 4 \tab 0 \tab 1599 \cr
 }
 }
 

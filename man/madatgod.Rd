@@ -34,10 +34,10 @@ B. From Often felt agnry to Never felt angry at God
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1094/vshow}{GSS Data Explorer page for \code{madatgod}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab often angry at god \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab never angry at god \tab don't know \tab no answer \tab Total \cr
-   1988 \tab - \tab 37 \tab 49 \tab 103 \tab 242 \tab 217 \tab 271 \tab 526 \tab 7 \tab 29 \tab 1481 \cr
-   Total \tab 0 \tab 37 \tab 49 \tab 103 \tab 242 \tab 217 \tab 271 \tab 526 \tab 7 \tab 29 \tab 1481 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab often angry at god \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab never angry at god \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 37 \tab 49 \tab 103 \tab 242 \tab 217 \tab 271 \tab 526 \tab 7 \tab 29 \tab - \tab 1481 \cr
+   Total \tab 0 \tab 37 \tab 49 \tab 103 \tab 242 \tab 217 \tab 271 \tab 526 \tab 7 \tab 29 \tab 0 \tab 1481 \cr
 }
 }
 

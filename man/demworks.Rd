@@ -34,10 +34,10 @@ Question All in all, how well or badly do you think the system of democracy in A
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4102/vshow}{GSS Data Explorer page for \code{demworks}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab it works well and needs no changes \tab it works well but needs some changes \tab needs a lot of changes \tab needs to be completely changed \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1572 \tab 57 \tab 832 \tab 299 \tab 58 \tab 62 \tab 24 \tab 2904 \cr
-   Total \tab 1572 \tab 57 \tab 832 \tab 299 \tab 58 \tab 62 \tab 24 \tab 2904 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab it works well and needs no changes \tab it works well but needs some changes \tab needs a lot of changes \tab needs to be completely changed \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1572 \tab 57 \tab 832 \tab 299 \tab 58 \tab 62 \tab 24 \tab - \tab 2904 \cr
+   Total \tab 1572 \tab 57 \tab 832 \tab 299 \tab 58 \tab 62 \tab 24 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -36,12 +36,12 @@ Question And what about the federal government, does it have too much power or t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4070/vshow}{GSS Data Explorer page for \code{govtpow}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab far too much power \tab too much power \tab about the right amount of power \tab too little power \tab far too little power \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 104 \tab 261 \tab 240 \tab 25 \tab 2 \tab 35 \tab 10 \tab 1534 \cr
-   1990 \tab 155 \tab 145 \tab 404 \tab 520 \tab 48 \tab 3 \tab 73 \tab 24 \tab 1372 \cr
-   1996 \tab 1572 \tab 308 \tab 508 \tab 368 \tab 40 \tab 6 \tab 54 \tab 48 \tab 2904 \cr
-   Total \tab 2584 \tab 557 \tab 1173 \tab 1128 \tab 113 \tab 11 \tab 162 \tab 82 \tab 5810 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab far too much power \tab too much power \tab about the right amount of power \tab too little power \tab far too little power \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 104 \tab 261 \tab 240 \tab 25 \tab 2 \tab 35 \tab 10 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 145 \tab 404 \tab 520 \tab 48 \tab 3 \tab 73 \tab 24 \tab - \tab 1372 \cr
+   1996 \tab 1572 \tab 308 \tab 508 \tab 368 \tab 40 \tab 6 \tab 54 \tab 48 \tab - \tab 2904 \cr
+   Total \tab 2584 \tab 557 \tab 1173 \tab 1128 \tab 113 \tab 11 \tab 162 \tab 82 \tab 0 \tab 5810 \cr
 }
 }
 

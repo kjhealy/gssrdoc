@@ -26,11 +26,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a great deal |some |a little |not at all |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:----|:--------|:----------|:----------|:---------|:-----|
-#'  |2006  |2646 |1256         |350  |124      |82         |50         |2         |4510  |
-#'  |2010  |1338 |461          |114  |64       |46         |11         |10        |2044  |
-#'  |Total |3984 |1717         |464  |188      |128        |61         |12        |6554  |
+#'  |year  |iap  |a great deal |some |a little |not at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:----|:--------|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |1256         |350  |124      |82         |50         |2         |-                          |4510  |
+#'  |2010  |1338 |461          |114  |64       |46         |11         |10        |-                          |2044  |
+#'  |Total |3984 |1717         |464  |188      |128        |61         |12        |0                          |6554  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -70,10 +70,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a great deal |some |a little |not at all |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:----|:--------|:----------|:----------|:---------|:-----|
-#'  |2006  |2646 |808          |658  |222      |113        |60         |3         |4510  |
-#'  |Total |2646 |808          |658  |222      |113        |60         |3         |4510  |
+#'  |year  |iap  |a great deal |some |a little |not at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:----|:--------|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |808          |658  |222      |113        |60         |3         |-                          |4510  |
+#'  |Total |2646 |808          |658  |222      |113        |60         |3         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -113,10 +113,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a great deal |some |a little |not at all |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:----|:--------|:----------|:----------|:---------|:-----|
-#'  |2010  |1338 |323          |217  |97       |44         |15         |10        |2044  |
-#'  |Total |1338 |323          |217  |97       |44         |15         |10        |2044  |
+#'  |year  |iap  |a great deal |some |a little |not at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:----|:--------|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |2010  |1338 |323          |217  |97       |44         |15         |10        |-                          |2044  |
+#'  |Total |1338 |323          |217  |97       |44         |15         |10        |0                          |2044  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -156,11 +156,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a great deal |some |a little |not at all |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:----|:--------|:----------|:----------|:---------|:-----|
-#'  |2006  |2646 |841          |670  |191      |106        |53         |3         |4510  |
-#'  |2010  |1338 |327          |221  |84       |50         |14         |10        |2044  |
-#'  |Total |3984 |1168         |891  |275      |156        |67         |13        |6554  |
+#'  |year  |iap  |a great deal |some |a little |not at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:----|:--------|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |841          |670  |191      |106        |53         |3         |-                          |4510  |
+#'  |2010  |1338 |327          |221  |84       |50         |14         |10        |-                          |2044  |
+#'  |Total |3984 |1168         |891  |275      |156        |67         |13        |0                          |6554  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -201,11 +201,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a great deal |some |a little |not at all |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:----|:--------|:----------|:----------|:---------|:-----|
-#'  |2006  |2646 |1156         |375  |133      |120        |76         |4         |4510  |
-#'  |2010  |1338 |454          |124  |52       |50         |15         |11        |2044  |
-#'  |Total |3984 |1610         |499  |185      |170        |91         |15        |6554  |
+#'  |year  |iap  |a great deal |some |a little |not at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:----|:--------|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |1156         |375  |133      |120        |76         |4         |-                          |4510  |
+#'  |2010  |1338 |454          |124  |52       |50         |15         |11        |-                          |2044  |
+#'  |Total |3984 |1610         |499  |185      |170        |91         |15        |0                          |6554  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -247,11 +247,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |the extinction of the polar bears |the rise in sea level |the threat to the arctic seals |the threat to the inuit way of life |the melting of the northern ice cap |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------------|:---------------------|:------------------------------|:-----------------------------------|:-----------------------------------|:----------|:---------|:-----|
-#'  |2006  |2646 |155                               |762                   |36                             |244                                 |594                                 |66         |7         |4510  |
-#'  |2010  |1338 |74                                |308                   |8                              |94                                  |182                                 |26         |14        |2044  |
-#'  |Total |3984 |229                               |1070                  |44                             |338                                 |776                                 |92         |21        |6554  |
+#'  |year  |iap  |the extinction of the polar bears |the rise in sea level |the threat to the arctic seals |the threat to the inuit way of life |the melting of the northern ice cap |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------------|:---------------------|:------------------------------|:-----------------------------------|:-----------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |155                               |762                   |36                             |244                                 |594                                 |66         |7         |-                          |4510  |
+#'  |2010  |1338 |74                                |308                   |8                              |94                                  |182                                 |26         |14        |-                          |2044  |
+#'  |Total |3984 |229                               |1070                  |44                             |338                                 |776                                 |92         |21        |0                          |6554  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -292,12 +292,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a lot |some |just a little |nothing at all |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:----|:-------------|:--------------|:----------|:---------|:-----|
-#'  |2006  |2646 |100   |284  |436           |1014           |28         |2         |4510  |
-#'  |2008  |518  |80    |224  |407           |746            |32         |16        |2023  |
-#'  |2010  |1584 |23    |90   |127           |210            |2          |8         |2044  |
-#'  |Total |4748 |203   |598  |970           |1970           |62         |26        |8577  |
+#'  |year  |iap  |a lot |some |just a little |nothing at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:----|:-------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |100   |284  |436           |1014           |28         |2         |-                          |4510  |
+#'  |2008  |518  |80    |224  |407           |746            |32         |16        |-                          |2023  |
+#'  |2010  |1584 |23    |90   |127           |210            |2          |8         |-                          |2044  |
+#'  |Total |4748 |203   |598  |970           |1970           |62         |26        |0                          |8577  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -337,12 +337,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |true |false |can't choose |no answer |Total |
-#'  |:-----|:----|:----|:-----|:------------|:---------|:-----|
-#'  |2006  |3688 |483  |63    |274          |2         |4510  |
-#'  |2008  |1312 |449  |58    |200          |4         |2023  |
-#'  |2010  |1796 |136  |22    |82           |8         |2044  |
-#'  |Total |6796 |1068 |143   |556          |14        |8577  |
+#'  |year  |iap  |true |false |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:-----|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |3688 |483  |63    |274          |2         |-                          |4510  |
+#'  |2008  |1312 |449  |58    |200          |4         |-                          |2023  |
+#'  |2010  |1796 |136  |22    |82           |8         |-                          |2044  |
+#'  |Total |6796 |1068 |143   |556          |14        |0                          |8577  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -382,12 +382,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |true |false |can't choose |no answer |Total |
-#'  |:-----|:----|:----|:-----|:------------|:---------|:-----|
-#'  |2006  |3688 |336  |81    |403          |2         |4510  |
-#'  |2008  |1312 |309  |89    |308          |5         |2023  |
-#'  |2010  |1796 |77   |32    |130          |9         |2044  |
-#'  |Total |6796 |722  |202   |841          |16        |8577  |
+#'  |year  |iap  |true |false |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:-----|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |3688 |336  |81    |403          |2         |-                          |4510  |
+#'  |2008  |1312 |309  |89    |308          |5         |-                          |2023  |
+#'  |2010  |1796 |77   |32    |130          |9         |-                          |2044  |
+#'  |Total |6796 |722  |202   |841          |16        |0                          |8577  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -428,14 +428,14 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |benefits greater |about equal (if volunteered) |harmful results greater |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:----------------------------|:-----------------------|:----------|:---------|:-----|
-#'  |2006  |2646 |727              |355                          |166                     |614        |2         |4510  |
-#'  |2008  |518  |577              |171                          |148                     |582        |27        |2023  |
-#'  |2010  |1584 |164              |42                           |41                      |202        |11        |2044  |
-#'  |2016  |1956 |446              |97                           |160                     |198        |10        |2867  |
-#'  |2018  |1563 |421              |63                           |163                     |128        |10        |2348  |
-#'  |Total |8267 |2335             |728                          |678                     |1724       |60        |13792 |
+#'  |year  |iap  |benefits greater |about equal (if volunteered) |harmful results greater |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:----------------------------|:-----------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2646 |727              |355                          |166                     |614        |2         |-                          |4510  |
+#'  |2008  |518  |577              |171                          |148                     |582        |27        |-                          |2023  |
+#'  |2010  |1584 |164              |42                           |41                      |202        |11        |-                          |2044  |
+#'  |2016  |1956 |446              |97                           |160                     |198        |10        |-                          |2867  |
+#'  |2018  |1563 |421              |63                           |163                     |128        |10        |-                          |2348  |
+#'  |Total |8267 |2335             |728                          |678                     |1724       |60        |0                          |13792 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes

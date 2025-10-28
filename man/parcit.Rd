@@ -34,12 +34,12 @@ Question B. At the time of your birth, were both, one or neither of your parents
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4874/vshow}{GSS Data Explorer page for \code{parcit}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab both were citizens of america \tab only father was a citizen of america \tab only mother was a citizen of america \tab neither was a citizen of america \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 1218 \tab 17 \tab 13 \tab 99 \tab 2 \tab 18 \tab 2904 \cr
-   2004 \tab 1596 \tab 1065 \tab 18 \tab 17 \tab 113 \tab 2 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 1048 \tab 29 \tab 13 \tab 174 \tab 6 \tab 4 \tab 2538 \cr
-   Total \tab 4397 \tab 3331 \tab 64 \tab 43 \tab 386 \tab 10 \tab 23 \tab 8254 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab both were citizens of america \tab only father was a citizen of america \tab only mother was a citizen of america \tab neither was a citizen of america \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1537 \tab 1218 \tab 17 \tab 13 \tab 99 \tab 2 \tab 18 \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 1065 \tab 18 \tab 17 \tab 113 \tab 2 \tab 1 \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 1048 \tab 29 \tab 13 \tab 174 \tab 6 \tab 4 \tab - \tab 2538 \cr
+   Total \tab 4397 \tab 3331 \tab 64 \tab 43 \tab 386 \tab 10 \tab 23 \tab 0 \tab 8254 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Have you ever given up or would you give up good job opportunities for the benef
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6323/vshow}{GSS Data Explorer page for \code{famorjob}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab yes, i have done so and probably would do so again \tab yes, i have done so but probably would not do so again \tab no, i have not done so but probably would do so \tab no, i have not done so and probably would not do so \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1390 \tab 620 \tab 117 \tab 568 \tab 154 \tab 9 \tab 9 \tab 2867 \cr
-   Total \tab 1390 \tab 620 \tab 117 \tab 568 \tab 154 \tab 9 \tab 9 \tab 2867 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab yes, i have done so and probably would do so again \tab yes, i have done so but probably would not do so again \tab no, i have not done so but probably would do so \tab no, i have not done so and probably would not do so \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1390 \tab 620 \tab 117 \tab 568 \tab 154 \tab 9 \tab 9 \tab - \tab 2867 \cr
+   Total \tab 1390 \tab 620 \tab 117 \tab 568 \tab 154 \tab 9 \tab 9 \tab 0 \tab 2867 \cr
 }
 }
 

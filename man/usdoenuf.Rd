@@ -33,10 +33,10 @@ Question C. Some countries are doing more to protect the world environment than 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4768/vshow}{GSS Data Explorer page for \code{usdoenuf}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab more than enough \tab about the right amount, or \tab too little? \tab don't know \tab no answer \tab Total \cr
-   2010 \tab 614 \tab 129 \tab 473 \tab 693 \tab 130 \tab 5 \tab 2044 \cr
-   Total \tab 614 \tab 129 \tab 473 \tab 693 \tab 130 \tab 5 \tab 2044 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab more than enough \tab about the right amount, or \tab too little? \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 614 \tab 129 \tab 473 \tab 693 \tab 130 \tab 5 \tab - \tab 2044 \cr
+   Total \tab 614 \tab 129 \tab 473 \tab 693 \tab 130 \tab 5 \tab 0 \tab 2044 \cr
 }
 }
 

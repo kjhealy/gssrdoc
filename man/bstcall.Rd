@@ -37,10 +37,10 @@ Question And how often do you have any other contact with this friend besides vi
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4206/vshow}{GSS Data Explorer page for \code{bstcall}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab never \tab no answer \tab Total \cr
-   2002 \tab 1701 \tab 192 \tab 282 \tab 241 \tab 169 \tab 80 \tab 50 \tab 43 \tab 7 \tab 2765 \cr
-   Total \tab 1701 \tab 192 \tab 282 \tab 241 \tab 169 \tab 80 \tab 50 \tab 43 \tab 7 \tab 2765 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab never \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1701 \tab 192 \tab 282 \tab 241 \tab 169 \tab 80 \tab 50 \tab 43 \tab 7 \tab - \tab 2765 \cr
+   Total \tab 1701 \tab 192 \tab 282 \tab 241 \tab 169 \tab 80 \tab 50 \tab 43 \tab 7 \tab 0 \tab 2765 \cr
 }
 }
 

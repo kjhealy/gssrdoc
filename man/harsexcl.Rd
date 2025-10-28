@@ -32,10 +32,10 @@ Question Now think about church, synagogue, or other religious settings. Since y
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3936/vshow}{GSS Data Explorer page for \code{harsexcl}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 233 \tab 43 \tab 1715 \tab 3 \tab 29 \tab 2023 \cr
-   Total \tab 233 \tab 43 \tab 1715 \tab 3 \tab 29 \tab 2023 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 233 \tab 43 \tab 1715 \tab 3 \tab 29 \tab - \tab 2023 \cr
+   Total \tab 233 \tab 43 \tab 1715 \tab 3 \tab 29 \tab 0 \tab 2023 \cr
 }
 }
 

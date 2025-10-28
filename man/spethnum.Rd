@@ -35,18 +35,18 @@ Question (RECODE OF SPETHNIC)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5272/vshow}{GSS Data Explorer page for \code{spethnum}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab names 1 \tab chooses 1 of 2+ \tab cannot choose 1 \tab cannot name any \tab uncodeable \tab Total \cr
-   1985 \tab 663 \tab 457 \tab 219 \tab 63 \tab 127 \tab 5 \tab 1534 \cr
-   1986 \tab 644 \tab 427 \tab 221 \tab 54 \tab 120 \tab 4 \tab 1470 \cr
-   1987 \tab 903 \tab 479 \tab 196 \tab 70 \tab 161 \tab 10 \tab 1819 \cr
-   1988 \tab 693 \tab 416 \tab 175 \tab 51 \tab 136 \tab 10 \tab 1481 \cr
-   1989 \tab 690 \tab 448 \tab 186 \tab 73 \tab 125 \tab 15 \tab 1537 \cr
-   1990 \tab 645 \tab 380 \tab 183 \tab 44 \tab 107 \tab 13 \tab 1372 \cr
-   1991 \tab 713 \tab 471 \tab 161 \tab 55 \tab 105 \tab 12 \tab 1517 \cr
-   1993 \tab 747 \tab 435 \tab 222 \tab 54 \tab 132 \tab 16 \tab 1606 \cr
-   1994 \tab 2591 \tab 222 \tab 100 \tab 10 \tab 56 \tab 13 \tab 2992 \cr
-   Total \tab 8289 \tab 3735 \tab 1663 \tab 474 \tab 1069 \tab 98 \tab 15328 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab names 1 \tab chooses 1 of 2+ \tab cannot choose 1 \tab cannot name any \tab uncodeable \tab not available in this year \tab Total \cr
+   1985 \tab 663 \tab 457 \tab 219 \tab 63 \tab 127 \tab 5 \tab - \tab 1534 \cr
+   1986 \tab 644 \tab 427 \tab 221 \tab 54 \tab 120 \tab 4 \tab - \tab 1470 \cr
+   1987 \tab 903 \tab 479 \tab 196 \tab 70 \tab 161 \tab 10 \tab - \tab 1819 \cr
+   1988 \tab 693 \tab 416 \tab 175 \tab 51 \tab 136 \tab 10 \tab - \tab 1481 \cr
+   1989 \tab 690 \tab 448 \tab 186 \tab 73 \tab 125 \tab 15 \tab - \tab 1537 \cr
+   1990 \tab 645 \tab 380 \tab 183 \tab 44 \tab 107 \tab 13 \tab - \tab 1372 \cr
+   1991 \tab 713 \tab 471 \tab 161 \tab 55 \tab 105 \tab 12 \tab - \tab 1517 \cr
+   1993 \tab 747 \tab 435 \tab 222 \tab 54 \tab 132 \tab 16 \tab - \tab 1606 \cr
+   1994 \tab 2591 \tab 222 \tab 100 \tab 10 \tab 56 \tab 13 \tab - \tab 2992 \cr
+   Total \tab 8289 \tab 3735 \tab 1663 \tab 474 \tab 1069 \tab 98 \tab 0 \tab 15328 \cr
 }
 }
 

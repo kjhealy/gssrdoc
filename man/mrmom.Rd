@@ -36,10 +36,10 @@ B. It is not good if the man stays at home and cares for the children and the wo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4403/vshow}{GSS Data Explorer page for \code{mrmom}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1994 \tab 1545 \tab 99 \tab 231 \tab 291 \tab 560 \tab 224 \tab 16 \tab 26 \tab 2992 \cr
-   Total \tab 1545 \tab 99 \tab 231 \tab 291 \tab 560 \tab 224 \tab 16 \tab 26 \tab 2992 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1545 \tab 99 \tab 231 \tab 291 \tab 560 \tab 224 \tab 16 \tab 26 \tab - \tab 2992 \cr
+   Total \tab 1545 \tab 99 \tab 231 \tab 291 \tab 560 \tab 224 \tab 16 \tab 26 \tab 0 \tab 2992 \cr
 }
 }
 

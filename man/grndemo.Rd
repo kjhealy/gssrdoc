@@ -34,14 +34,14 @@ C. ...taken part in a protest or demonstration about an environmental issue?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4776/vshow}{GSS Data Explorer page for \code{grndemo}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes, i have \tab no, i have not \tab no answer \tab can't choose \tab skipped on web \tab Total \cr
-   1993 \tab 49 \tab 40 \tab 1390 \tab 127 \tab - \tab - \tab 1606 \cr
-   1994 \tab 1606 \tab 39 \tab 1250 \tab 95 \tab 2 \tab - \tab 2992 \cr
-   2000 \tab 1541 \tab 37 \tab 1123 \tab 115 \tab 1 \tab - \tab 2817 \cr
-   2010 \tab 614 \tab 31 \tab 1390 \tab 7 \tab 2 \tab - \tab 2044 \cr
-   2021 \tab 2003 \tab 89 \tab 1728 \tab 196 \tab - \tab 16 \tab 4032 \cr
-   Total \tab 5813 \tab 236 \tab 6881 \tab 540 \tab 5 \tab 16 \tab 13491 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, i have \tab no, i have not \tab no answer \tab can't choose \tab skipped on web \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 40 \tab 1390 \tab 127 \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 39 \tab 1250 \tab 95 \tab 2 \tab - \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 37 \tab 1123 \tab 115 \tab 1 \tab - \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 31 \tab 1390 \tab 7 \tab 2 \tab - \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 89 \tab 1728 \tab 196 \tab - \tab 16 \tab - \tab 4032 \cr
+   Total \tab 5813 \tab 236 \tab 6881 \tab 540 \tab 5 \tab 16 \tab 0 \tab 13491 \cr
 }
 }
 

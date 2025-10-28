@@ -35,16 +35,16 @@ Question Did you take a high school chemistry course?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3353/vshow}{GSS Data Explorer page for \code{hschem}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2690 \tab 961 \tab 818 \tab 9 \tab 32 \tab 4510 \cr
-   2008 \tab 597 \tab 710 \tab 705 \tab 9 \tab 2 \tab 2023 \cr
-   2010 \tab 1370 \tab 357 \tab 252 \tab 1 \tab 64 \tab 2044 \cr
-   2012 \tab 1068 \tab 502 \tab 384 \tab 17 \tab 3 \tab 1974 \cr
-   2014 \tab 1348 \tab 626 \tab 553 \tab 9 \tab 2 \tab 2538 \cr
-   2016 \tab 1532 \tab 734 \tab 587 \tab 6 \tab 8 \tab 2867 \cr
-   2018 \tab 1222 \tab 634 \tab 478 \tab 11 \tab 3 \tab 2348 \cr
-   Total \tab 9827 \tab 4524 \tab 3777 \tab 62 \tab 114 \tab 18304 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2690 \tab 961 \tab 818 \tab 9 \tab 32 \tab - \tab 4510 \cr
+   2008 \tab 597 \tab 710 \tab 705 \tab 9 \tab 2 \tab - \tab 2023 \cr
+   2010 \tab 1370 \tab 357 \tab 252 \tab 1 \tab 64 \tab - \tab 2044 \cr
+   2012 \tab 1068 \tab 502 \tab 384 \tab 17 \tab 3 \tab - \tab 1974 \cr
+   2014 \tab 1348 \tab 626 \tab 553 \tab 9 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 1532 \tab 734 \tab 587 \tab 6 \tab 8 \tab - \tab 2867 \cr
+   2018 \tab 1222 \tab 634 \tab 478 \tab 11 \tab 3 \tab - \tab 2348 \cr
+   Total \tab 9827 \tab 4524 \tab 3777 \tab 62 \tab 114 \tab 0 \tab 18304 \cr
 }
 }
 

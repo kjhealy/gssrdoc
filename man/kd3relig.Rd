@@ -44,11 +44,11 @@ Question In what religion is (CHILD'S NAME) being raised? Is it Protestant, Cath
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3832/vshow}{GSS Data Explorer page for \code{kd3relig}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab buddhism \tab other eastern religions \tab muslim/islam \tab orthodox-christian \tab christian \tab inter-nondenominational \tab no answer \tab Total \cr
-   2008 \tab 1843 \tab 92 \tab 38 \tab 5 \tab 27 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 2 \tab 2 \tab 2023 \cr
-   2012 \tab 1972 \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   Total \tab 3815 \tab 92 \tab 38 \tab 6 \tab 27 \tab 5 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 2 \tab 2 \tab 3997 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab buddhism \tab other eastern religions \tab muslim/islam \tab orthodox-christian \tab christian \tab inter-nondenominational \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1843 \tab 92 \tab 38 \tab 5 \tab 27 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 2 \tab 2 \tab - \tab 2023 \cr
+   2012 \tab 1972 \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   Total \tab 3815 \tab 92 \tab 38 \tab 6 \tab 27 \tab 5 \tab 1 \tab 1 \tab 1 \tab 1 \tab 6 \tab 2 \tab 2 \tab 0 \tab 3997 \cr
 }
 }
 

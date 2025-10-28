@@ -35,10 +35,10 @@ A. Do you feel this way because of something that happened to you personally, be
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1257/vshow}{GSS Data Explorer page for \code{discwhy6}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab general,no source \tab all of the above \tab the law \tab don't know \tab no answer \tab Total \cr
-   1990 \tab 1294 \tab 18 \tab 3 \tab 6 \tab 26 \tab 25 \tab 1372 \cr
-   Total \tab 1294 \tab 18 \tab 3 \tab 6 \tab 26 \tab 25 \tab 1372 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab general,no source \tab all of the above \tab the law \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 1294 \tab 18 \tab 3 \tab 6 \tab 26 \tab 25 \tab - \tab 1372 \cr
+   Total \tab 1294 \tab 18 \tab 3 \tab 6 \tab 26 \tab 25 \tab 0 \tab 1372 \cr
 }
 }
 

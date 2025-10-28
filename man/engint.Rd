@@ -34,10 +34,10 @@ Question I. Engineers have few other interests but their work. Do you strongly a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3534/vshow}{GSS Data Explorer page for \code{engint}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1489 \tab 8 \tab 67 \tab 291 \tab 42 \tab 73 \tab 4 \tab 1974 \cr
-   Total \tab 1489 \tab 8 \tab 67 \tab 291 \tab 42 \tab 73 \tab 4 \tab 1974 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1489 \tab 8 \tab 67 \tab 291 \tab 42 \tab 73 \tab 4 \tab - \tab 1974 \cr
+   Total \tab 1489 \tab 8 \tab 67 \tab 291 \tab 42 \tab 73 \tab 4 \tab 0 \tab 1974 \cr
 }
 }
 

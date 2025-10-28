@@ -32,11 +32,11 @@ Question A. During March through May 2006, were you living in the United States 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5585/vshow}{GSS Data Explorer page for \code{res2006}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab living in the u.s. \tab not living in u.s. \tab no answer \tab don't know \tab Total \cr
-   2008 \tab - \tab 1998 \tab 24 \tab 1 \tab - \tab 2023 \cr
-   2010 \tab - \tab 2002 \tab 40 \tab - \tab 2 \tab 2044 \cr
-   Total \tab 0 \tab 4000 \tab 64 \tab 1 \tab 2 \tab 4067 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab living in the u.s. \tab not living in u.s. \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2008 \tab - \tab 1998 \tab 24 \tab 1 \tab - \tab - \tab 2023 \cr
+   2010 \tab - \tab 2002 \tab 40 \tab - \tab 2 \tab - \tab 2044 \cr
+   Total \tab 0 \tab 4000 \tab 64 \tab 1 \tab 2 \tab 0 \tab 4067 \cr
 }
 }
 

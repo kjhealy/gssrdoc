@@ -32,10 +32,10 @@ Question Have you personally ever received income from Aid to Families with Depe
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/583/vshow}{GSS Data Explorer page for \code{getaid}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1986 \tab - \tab 281 \tab 1179 \tab 10 \tab 1470 \cr
-   Total \tab 0 \tab 281 \tab 1179 \tab 10 \tab 1470 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab - \tab 281 \tab 1179 \tab 10 \tab - \tab 1470 \cr
+   Total \tab 0 \tab 281 \tab 1179 \tab 10 \tab 0 \tab 1470 \cr
 }
 }
 

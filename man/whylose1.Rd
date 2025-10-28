@@ -41,10 +41,10 @@ Question A. Why do you think it is likely?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3880/vshow}{GSS Data Explorer page for \code{whylose1}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab company's sales were declining \tab job moved to another location in the united states \tab job moved to another country \tab other \tab no answer \tab Total \cr
-   2008 \tab 1948 \tab 31 \tab 2 \tab 2 \tab 39 \tab 1 \tab 2023 \cr
-   Total \tab 1948 \tab 31 \tab 2 \tab 2 \tab 39 \tab 1 \tab 2023 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab company's sales were declining \tab job moved to another location in the united states \tab job moved to another country \tab other \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1948 \tab 31 \tab 2 \tab 2 \tab 39 \tab 1 \tab - \tab 2023 \cr
+   Total \tab 1948 \tab 31 \tab 2 \tab 2 \tab 39 \tab 1 \tab 0 \tab 2023 \cr
 }
 }
 

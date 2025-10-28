@@ -36,12 +36,12 @@ C. Other educational site?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2396/vshow}{GSS Data Explorer page for \code{educ30}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2075 \tab 290 \tab 193 \tab 105 \tab 79 \tab 75 \tab - \tab 2817 \cr
-   2002 \tab 1681 \tab 456 \tab 245 \tab 126 \tab 162 \tab 94 \tab 1 \tab 2765 \cr
-   2004 \tab 2122 \tab 327 \tab 160 \tab 94 \tab 97 \tab 12 \tab - \tab 2812 \cr
-   Total \tab 5878 \tab 1073 \tab 598 \tab 325 \tab 338 \tab 181 \tab 1 \tab 8394 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 290 \tab 193 \tab 105 \tab 79 \tab 75 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 456 \tab 245 \tab 126 \tab 162 \tab 94 \tab 1 \tab - \tab 2765 \cr
+   2004 \tab 2122 \tab 327 \tab 160 \tab 94 \tab 97 \tab 12 \tab - \tab - \tab 2812 \cr
+   Total \tab 5878 \tab 1073 \tab 598 \tab 325 \tab 338 \tab 181 \tab 1 \tab 0 \tab 8394 \cr
 }
 }
 

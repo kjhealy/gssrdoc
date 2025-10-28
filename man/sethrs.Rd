@@ -36,10 +36,10 @@ Question Which of the following statements best describes how your working hours
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6295/vshow}{GSS Data Explorer page for \code{sethrs}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab the total number of hours i work each week is decided by my employer with little or no input from me \tab the total number of hours i work each week is decided by my employer but with my input \tab i can decide how many hours i work each week, within certain limits \tab i am entirely free to decide how many hours i work each week \tab how many hours i work a week depends on things outside of my control and outside of my employer's control \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2273 \tab 234 \tab 144 \tab 115 \tab 48 \tab 38 \tab 2 \tab 13 \tab 2867 \cr
-   Total \tab 2273 \tab 234 \tab 144 \tab 115 \tab 48 \tab 38 \tab 2 \tab 13 \tab 2867 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab the total number of hours i work each week is decided by my employer with little or no input from me \tab the total number of hours i work each week is decided by my employer but with my input \tab i can decide how many hours i work each week, within certain limits \tab i am entirely free to decide how many hours i work each week \tab how many hours i work a week depends on things outside of my control and outside of my employer's control \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2273 \tab 234 \tab 144 \tab 115 \tab 48 \tab 38 \tab 2 \tab 13 \tab - \tab 2867 \cr
+   Total \tab 2273 \tab 234 \tab 144 \tab 115 \tab 48 \tab 38 \tab 2 \tab 13 \tab 0 \tab 2867 \cr
 }
 }
 

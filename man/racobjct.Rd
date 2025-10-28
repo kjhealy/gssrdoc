@@ -33,10 +33,10 @@ Question If a Negro with the same income and education as you have, moved into y
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/392/vshow}{GSS Data Explorer page for \code{racobjct}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab yes,would like it \tab yes,would not like \tab no difference \tab don't know \tab iap \tab no answer \tab Total \cr
-   1972 \tab 17 \tab 186 \tab 1117 \tab 29 \tab 261 \tab 3 \tab 1613 \cr
-   Total \tab 17 \tab 186 \tab 1117 \tab 29 \tab 261 \tab 3 \tab 1613 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab yes,would like it \tab yes,would not like \tab no difference \tab don't know \tab iap \tab no answer \tab not available in this year \tab Total \cr
+   1972 \tab 17 \tab 186 \tab 1117 \tab 29 \tab 261 \tab 3 \tab - \tab 1613 \cr
+   Total \tab 17 \tab 186 \tab 1117 \tab 29 \tab 261 \tab 3 \tab 0 \tab 1613 \cr
 }
 }
 

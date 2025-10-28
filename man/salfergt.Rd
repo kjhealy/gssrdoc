@@ -34,10 +34,10 @@ A. Women's rights
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/732/vshow}{GSS Data Explorer page for \code{salfergt}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very often \tab sometimes \tab almost never \tab don't know \tab no answer \tab Total \cr
-   1978 \tab - \tab 284 \tab 743 \tab 495 \tab 5 \tab 5 \tab 1532 \cr
-   Total \tab 0 \tab 284 \tab 743 \tab 495 \tab 5 \tab 5 \tab 1532 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very often \tab sometimes \tab almost never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1978 \tab - \tab 284 \tab 743 \tab 495 \tab 5 \tab 5 \tab - \tab 1532 \cr
+   Total \tab 0 \tab 284 \tab 743 \tab 495 \tab 5 \tab 5 \tab 0 \tab 1532 \cr
 }
 }
 

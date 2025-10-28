@@ -39,11 +39,11 @@ IF YES: A. How often have you read the Bible in the last year? (USE CATEGORIES A
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1080/vshow}{GSS Data Explorer page for \code{readword}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab several x day \tab once a day \tab several x week \tab once a week \tab lt once a week \tab didnt read last year \tab no answer \tab Total \cr
-   1988 \tab 4 \tab 49 \tab 135 \tab 157 \tab 130 \tab 446 \tab 557 \tab 3 \tab 1481 \cr
-   1998 \tab 1387 \tab 37 \tab 116 \tab 143 \tab 132 \tab 406 \tab 602 \tab 9 \tab 2832 \cr
-   Total \tab 1391 \tab 86 \tab 251 \tab 300 \tab 262 \tab 852 \tab 1159 \tab 12 \tab 4313 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab several x day \tab once a day \tab several x week \tab once a week \tab lt once a week \tab didnt read last year \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 4 \tab 49 \tab 135 \tab 157 \tab 130 \tab 446 \tab 557 \tab 3 \tab - \tab 1481 \cr
+   1998 \tab 1387 \tab 37 \tab 116 \tab 143 \tab 132 \tab 406 \tab 602 \tab 9 \tab - \tab 2832 \cr
+   Total \tab 1391 \tab 86 \tab 251 \tab 300 \tab 262 \tab 852 \tab 1159 \tab 12 \tab 0 \tab 4313 \cr
 }
 }
 

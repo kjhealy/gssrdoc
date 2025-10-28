@@ -33,10 +33,11 @@ Question Do you think immigrants living in the U.S. should adopt U.S. culture, k
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7755/vshow}{GSS Data Explorer page for \code{adoptus}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab NA \tab 1 \tab 2 \tab 3 \tab Total \cr
-   2022 \tab 1231 \tab 258 \tab 195 \tab 1860 \tab 3544 \cr
-   Total \tab 1231 \tab 258 \tab 195 \tab 1860 \tab 3544 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab not available in this year \tab adopt u.s. culture \tab keep their own culture \tab do both \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 258 \tab 195 \tab 1860 \tab 18 \tab 1203 \tab 6 \tab 4 \tab 3544 \cr
+   2024 \tab - \tab 273 \tab 188 \tab 1738 \tab 30 \tab 1067 \tab 5 \tab 8 \tab 3309 \cr
+   Total \tab 0 \tab 531 \tab 383 \tab 3598 \tab 48 \tab 2270 \tab 11 \tab 12 \tab 6853 \cr
 }
 }
 

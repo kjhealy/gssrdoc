@@ -35,13 +35,13 @@ C. Illegal drug use
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5210/vshow}{GSS Data Explorer page for \code{askdrugs}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 1234 \tab 169 \tab 28 \tab 16 \tab 15 \tab 12 \tab 2992 \cr
-   1996 \tab 1444 \tab 1246 \tab 148 \tab 31 \tab 12 \tab 19 \tab 4 \tab 2904 \cr
-   1998 \tab 1445 \tab 1101 \tab 212 \tab 28 \tab 14 \tab 23 \tab 9 \tab 2832 \cr
-   2000 \tab 1398 \tab 1143 \tab 189 \tab 28 \tab 19 \tab 32 \tab 8 \tab 2817 \cr
-   Total \tab 5805 \tab 4724 \tab 718 \tab 115 \tab 61 \tab 89 \tab 33 \tab 11545 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 1234 \tab 169 \tab 28 \tab 16 \tab 15 \tab 12 \tab - \tab 2992 \cr
+   1996 \tab 1444 \tab 1246 \tab 148 \tab 31 \tab 12 \tab 19 \tab 4 \tab - \tab 2904 \cr
+   1998 \tab 1445 \tab 1101 \tab 212 \tab 28 \tab 14 \tab 23 \tab 9 \tab - \tab 2832 \cr
+   2000 \tab 1398 \tab 1143 \tab 189 \tab 28 \tab 19 \tab 32 \tab 8 \tab - \tab 2817 \cr
+   Total \tab 5805 \tab 4724 \tab 718 \tab 115 \tab 61 \tab 89 \tab 33 \tab 0 \tab 11545 \cr
 }
 }
 

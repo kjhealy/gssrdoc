@@ -35,12 +35,12 @@ Question Do you think the number of immigrants to America nowadays should be…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4863/vshow}{GSS Data Explorer page for \code{letin1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab increased a lot \tab increased a little \tab remain the same as it is \tab reduced a little \tab reduced a lot \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 33 \tab 65 \tab 310 \tab 339 \tab 394 \tab 172 \tab 54 \tab 2904 \cr
-   2004 \tab 1596 \tab 45 \tab 78 \tab 354 \tab 338 \tab 278 \tab 122 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 41 \tab 114 \tab 465 \tab 270 \tab 210 \tab 170 \tab 4 \tab 2538 \cr
-   Total \tab 4397 \tab 119 \tab 257 \tab 1129 \tab 947 \tab 882 \tab 464 \tab 59 \tab 8254 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab increased a lot \tab increased a little \tab remain the same as it is \tab reduced a little \tab reduced a lot \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 33 \tab 65 \tab 310 \tab 339 \tab 394 \tab 172 \tab 54 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 45 \tab 78 \tab 354 \tab 338 \tab 278 \tab 122 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 41 \tab 114 \tab 465 \tab 270 \tab 210 \tab 170 \tab 4 \tab - \tab - \tab 2538 \cr
+   Total \tab 4397 \tab 119 \tab 257 \tab 1129 \tab 947 \tab 882 \tab 464 \tab 59 \tab 0 \tab 0 \tab 8254 \cr
 }
 }
 

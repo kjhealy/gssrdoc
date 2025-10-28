@@ -34,10 +34,10 @@ Question B. How about for most young women, do you think military service is def
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/819/vshow}{GSS Data Explorer page for \code{milokfe}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely good \tab probably good \tab prob not good \tab def not good \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 208 \tab 807 \tab 283 \tab 95 \tab 58 \tab 22 \tab 1473 \cr
-   Total \tab 0 \tab 208 \tab 807 \tab 283 \tab 95 \tab 58 \tab 22 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely good \tab probably good \tab prob not good \tab def not good \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 208 \tab 807 \tab 283 \tab 95 \tab 58 \tab 22 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 208 \tab 807 \tab 283 \tab 95 \tab 58 \tab 22 \tab 0 \tab 1473 \cr
 }
 }
 

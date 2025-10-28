@@ -32,24 +32,24 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7920/vshow}{GSS Data Explorer page for \code{brv5othnum}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 2 \tab 20 \tab 3 \tab 4 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab skipped on web \tab Total \cr
-   2022 \tab 3070 \tab 81 \tab 96 \tab 2 \tab 40 \tab 1 \tab 17 \tab 8 \tab 7 \tab 1 \tab 4 \tab 2 \tab 1 \tab 214 \tab 3544 \cr
-   Total \tab 3070 \tab 81 \tab 96 \tab 2 \tab 40 \tab 1 \tab 17 \tab 8 \tab 7 \tab 1 \tab 4 \tab 2 \tab 1 \tab 214 \tab 3544 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab not available in this year \tab 0 \tab 1 \tab 10 \tab 2 \tab 20 \tab 3 \tab 4 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 80 \tab 95 \tab 2 \tab 40 \tab 1 \tab 17 \tab 6 \tab 7 \tab 1 \tab 4 \tab 2 \tab 1 \tab 3081 \tab 207 \tab 3544 \cr
+   Total \tab 0 \tab 80 \tab 95 \tab 2 \tab 40 \tab 1 \tab 17 \tab 6 \tab 7 \tab 1 \tab 4 \tab 2 \tab 1 \tab 3081 \tab 207 \tab 3544 \cr
 }
 }
 
 \seealso{
 Other GSS Next: 
 \code{\link{brv16}},
-\code{\link{brv16child}},
-\code{\link{brv16grand}},
-\code{\link{brv16oth}},
 \code{\link{brv16par}},
-\code{\link{brv16sib}},
 \code{\link{brv16sp}},
+\code{\link{brv5bronum}},
 \code{\link{brv5cowknum}},
-\code{\link{brv5frndnum}}
+\code{\link{brv5cuznum}},
+\code{\link{brv5frndnum}},
+\code{\link{brv5silnum}},
+\code{\link{brv5sisnum}}
 }
 \concept{GSS Next}
 \keyword{variable}

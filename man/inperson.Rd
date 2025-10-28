@@ -41,12 +41,12 @@ A. Seeing them socially, face-to-face?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2544/vshow}{GSS Data Explorer page for \code{inperson}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab 0 \tab 1 - 2 \tab 3 - 5 \tab 6 - 10 \tab 11 - 15 \tab 16-25 \tab 26-50 \tab 50+ \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1884 \tab 63 \tab 139 \tab 213 \tab 192 \tab 83 \tab 96 \tab 76 \tab 44 \tab 4 \tab 23 \tab 2817 \cr
-   2002 \tab 74 \tab 103 \tab 322 \tab 531 \tab 572 \tab 302 \tab 361 \tab 313 \tab 173 \tab 1 \tab 13 \tab 2765 \cr
-   2004 \tab 1873 \tab 66 \tab 133 \tab 183 \tab 197 \tab 102 \tab 113 \tab 79 \tab 50 \tab 4 \tab 12 \tab 2812 \cr
-   Total \tab 3831 \tab 232 \tab 594 \tab 927 \tab 961 \tab 487 \tab 570 \tab 468 \tab 267 \tab 9 \tab 48 \tab 8394 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 0 \tab 1 - 2 \tab 3 - 5 \tab 6 - 10 \tab 11 - 15 \tab 16-25 \tab 26-50 \tab 50+ \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1884 \tab 63 \tab 139 \tab 213 \tab 192 \tab 83 \tab 96 \tab 76 \tab 44 \tab 4 \tab 23 \tab - \tab 2817 \cr
+   2002 \tab 74 \tab 103 \tab 322 \tab 531 \tab 572 \tab 302 \tab 361 \tab 313 \tab 173 \tab 1 \tab 13 \tab - \tab 2765 \cr
+   2004 \tab 1873 \tab 66 \tab 133 \tab 183 \tab 197 \tab 102 \tab 113 \tab 79 \tab 50 \tab 4 \tab 12 \tab - \tab 2812 \cr
+   Total \tab 3831 \tab 232 \tab 594 \tab 927 \tab 961 \tab 487 \tab 570 \tab 468 \tab 267 \tab 9 \tab 48 \tab 0 \tab 8394 \cr
 }
 }
 

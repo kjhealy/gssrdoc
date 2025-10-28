@@ -36,11 +36,11 @@ Pharmaceutical companies working to create safe vaccines to protect the public a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7579/vshow}{GSS Data Explorer page for \code{conpharvacy}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab a great deal \tab only some \tab hardly any \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2658 \tab 599 \tab 448 \tab 145 \tab 169 \tab 13 \tab 4032 \cr
-   2022 \tab 2309 \tab 545 \tab 478 \tab 210 \tab - \tab 2 \tab 3544 \cr
-   Total \tab 4967 \tab 1144 \tab 926 \tab 355 \tab 169 \tab 15 \tab 7576 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a great deal \tab only some \tab hardly any \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2658 \tab 599 \tab 448 \tab 145 \tab 169 \tab 13 \tab - \tab 4032 \cr
+   2022 \tab 2309 \tab 545 \tab 478 \tab 210 \tab - \tab 2 \tab - \tab 3544 \cr
+   Total \tab 4967 \tab 1144 \tab 926 \tab 355 \tab 169 \tab 15 \tab 0 \tab 7576 \cr
 }
 }
 

@@ -34,10 +34,10 @@ F. Southern Whites
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1242/vshow}{GSS Data Explorer page for \code{influso}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab too much influence \tab right amount \tab too little influence \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 141 \tab 832 \tab 198 \tab 180 \tab 21 \tab 1372 \cr
-   Total \tab 0 \tab 141 \tab 832 \tab 198 \tab 180 \tab 21 \tab 1372 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too much influence \tab right amount \tab too little influence \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 141 \tab 832 \tab 198 \tab 180 \tab 21 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 141 \tab 832 \tab 198 \tab 180 \tab 21 \tab 0 \tab 1372 \cr
 }
 }
 

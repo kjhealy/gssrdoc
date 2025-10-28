@@ -36,10 +36,10 @@ Question Is (NAME) Asian, Black, Hispanic, White or something else?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1130/vshow}{GSS Data Explorer page for \code{frndrac3}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab asian \tab black \tab hispanic \tab white \tab something else \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1853 \tab 21 \tab 104 \tab 46 \tab 723 \tab 16 \tab 1 \tab 68 \tab 2832 \cr
-   Total \tab 1853 \tab 21 \tab 104 \tab 46 \tab 723 \tab 16 \tab 1 \tab 68 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab asian \tab black \tab hispanic \tab white \tab something else \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1853 \tab 21 \tab 104 \tab 46 \tab 723 \tab 16 \tab 1 \tab 68 \tab - \tab 2832 \cr
+   Total \tab 1853 \tab 21 \tab 104 \tab 46 \tab 723 \tab 16 \tab 1 \tab 68 \tab 0 \tab 2832 \cr
 }
 }
 

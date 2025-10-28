@@ -32,10 +32,10 @@ Question B. Do you think most people can be trusted?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/442/vshow}{GSS Data Explorer page for \code{trusty}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1983 \tab 804 \tab 443 \tab 326 \tab 21 \tab 5 \tab 1599 \cr
-   Total \tab 804 \tab 443 \tab 326 \tab 21 \tab 5 \tab 1599 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab 804 \tab 443 \tab 326 \tab 21 \tab 5 \tab - \tab 1599 \cr
+   Total \tab 804 \tab 443 \tab 326 \tab 21 \tab 5 \tab 0 \tab 1599 \cr
 }
 }
 

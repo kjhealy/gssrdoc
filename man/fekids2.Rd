@@ -35,10 +35,10 @@ B. Women are taught from childhood how to care for children. How important do yo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1692/vshow}{GSS Data Explorer page for \code{fekids2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 463 \tab 445 \tab 319 \tab 213 \tab 16 \tab 4 \tab 2904 \cr
-   Total \tab 1444 \tab 463 \tab 445 \tab 319 \tab 213 \tab 16 \tab 4 \tab 2904 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 463 \tab 445 \tab 319 \tab 213 \tab 16 \tab 4 \tab - \tab 2904 \cr
+   Total \tab 1444 \tab 463 \tab 445 \tab 319 \tab 213 \tab 16 \tab 4 \tab 0 \tab 2904 \cr
 }
 }
 

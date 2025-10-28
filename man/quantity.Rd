@@ -34,10 +34,10 @@ Question How easy or hard would you say it is for your supervisor to know how mu
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1336/vshow}{GSS Data Explorer page for \code{quantity}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very easy \tab somewhat easy \tab somewhat hard \tab very hard \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 795 \tab 362 \tab 179 \tab 102 \tab 60 \tab 4 \tab 15 \tab 1517 \cr
-   Total \tab 795 \tab 362 \tab 179 \tab 102 \tab 60 \tab 4 \tab 15 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very easy \tab somewhat easy \tab somewhat hard \tab very hard \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 795 \tab 362 \tab 179 \tab 102 \tab 60 \tab 4 \tab 15 \tab - \tab 1517 \cr
+   Total \tab 795 \tab 362 \tab 179 \tab 102 \tab 60 \tab 4 \tab 15 \tab 0 \tab 1517 \cr
 }
 }
 

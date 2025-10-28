@@ -36,10 +36,10 @@ C. I trust my doctor to put my medical needs above all other considerations when
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2981/vshow}{GSS Data Explorer page for \code{doc18a}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree somewhat \tab neither agree nor disagree \tab disgree somewhat \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 597 \tab 571 \tab 76 \tab 95 \tab 25 \tab 21 \tab 8 \tab 2765 \cr
-   Total \tab 1372 \tab 597 \tab 571 \tab 76 \tab 95 \tab 25 \tab 21 \tab 8 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree somewhat \tab neither agree nor disagree \tab disgree somewhat \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1372 \tab 597 \tab 571 \tab 76 \tab 95 \tab 25 \tab 21 \tab 8 \tab - \tab 2765 \cr
+   Total \tab 1372 \tab 597 \tab 571 \tab 76 \tab 95 \tab 25 \tab 21 \tab 8 \tab 0 \tab 2765 \cr
 }
 }
 

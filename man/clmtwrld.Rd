@@ -32,10 +32,10 @@ Question On a scale from 0 to 10, how bad or good do you think the impacts of cl
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7487/vshow}{GSS Data Explorer page for \code{clmtwrld}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab 0 - extremely bad \tab 1 \tab 10 - extremely good \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab can't choose \tab no answer \tab Total \cr
-   2021 \tab 2003 \tab 428 \tab 137 \tab 25 \tab 243 \tab 239 \tab 184 \tab 346 \tab 56 \tab 44 \tab 20 \tab 15 \tab 83 \tab 209 \tab 4032 \cr
-   Total \tab 2003 \tab 428 \tab 137 \tab 25 \tab 243 \tab 239 \tab 184 \tab 346 \tab 56 \tab 44 \tab 20 \tab 15 \tab 83 \tab 209 \tab 4032 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab 0 - extremely bad \tab 1 \tab 10 - extremely good \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2021 \tab 2003 \tab 428 \tab 137 \tab 25 \tab 243 \tab 239 \tab 184 \tab 346 \tab 56 \tab 44 \tab 20 \tab 15 \tab 83 \tab 209 \tab - \tab 4032 \cr
+   Total \tab 2003 \tab 428 \tab 137 \tab 25 \tab 243 \tab 239 \tab 184 \tab 346 \tab 56 \tab 44 \tab 20 \tab 15 \tab 83 \tab 209 \tab 0 \tab 4032 \cr
 }
 }
 

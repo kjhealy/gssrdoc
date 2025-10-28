@@ -35,10 +35,10 @@ Question When I make important decisions in my life, I rely mostly on reason and
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7540/vshow}{GSS Data Explorer page for \code{decevidc}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 422 \tab 833 \tab 1888 \tab 626 \tab 167 \tab 50 \tab 1 \tab 3 \tab 42 \tab 4032 \cr
-   Total \tab 422 \tab 833 \tab 1888 \tab 626 \tab 167 \tab 50 \tab 1 \tab 3 \tab 42 \tab 4032 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 422 \tab 833 \tab 1888 \tab 626 \tab 167 \tab 50 \tab 1 \tab 3 \tab 42 \tab - \tab 4032 \cr
+   Total \tab 422 \tab 833 \tab 1888 \tab 626 \tab 167 \tab 50 \tab 1 \tab 3 \tab 42 \tab 0 \tab 4032 \cr
 }
 }
 

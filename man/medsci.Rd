@@ -36,11 +36,11 @@ G. Medicine. Is medicine very scientific, pretty scientific, not too scientific,
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3412/vshow}{GSS Data Explorer page for \code{medsci}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab haven't heard of it (volunteered) \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 1495 \tab 305 \tab 24 \tab 5 \tab 1 \tab 30 \tab 4 \tab 4510 \cr
-   2012 \tab 1477 \tab 407 \tab 63 \tab 7 \tab 5 \tab - \tab 11 \tab 4 \tab 1974 \cr
-   Total \tab 4123 \tab 1902 \tab 368 \tab 31 \tab 10 \tab 1 \tab 41 \tab 8 \tab 6484 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab haven't heard of it (volunteered) \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 1495 \tab 305 \tab 24 \tab 5 \tab 1 \tab 30 \tab 4 \tab - \tab 4510 \cr
+   2012 \tab 1477 \tab 407 \tab 63 \tab 7 \tab 5 \tab - \tab 11 \tab 4 \tab - \tab 1974 \cr
+   Total \tab 4123 \tab 1902 \tab 368 \tab 31 \tab 10 \tab 1 \tab 41 \tab 8 \tab 0 \tab 6484 \cr
 }
 }
 

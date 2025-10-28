@@ -37,10 +37,10 @@ Question D. Do you also consider yourself to be a member of (READ REMAINING GROU
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5328/vshow}{GSS Data Explorer page for \code{relid3}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab pentecostal \tab fundamentalist \tab evangelical \tab mainline \tab liberal \tab none \tab other (specify) \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2488 \tab 1 \tab 2 \tab 4 \tab 5 \tab 1 \tab 51 \tab 1 \tab 11 \tab 253 \tab 2817 \cr
-   Total \tab 2488 \tab 1 \tab 2 \tab 4 \tab 5 \tab 1 \tab 51 \tab 1 \tab 11 \tab 253 \tab 2817 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab pentecostal \tab fundamentalist \tab evangelical \tab mainline \tab liberal \tab none \tab other (specify) \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2488 \tab 1 \tab 2 \tab 4 \tab 5 \tab 1 \tab 51 \tab 1 \tab 11 \tab 253 \tab - \tab 2817 \cr
+   Total \tab 2488 \tab 1 \tab 2 \tab 4 \tab 5 \tab 1 \tab 51 \tab 1 \tab 11 \tab 253 \tab 0 \tab 2817 \cr
 }
 }
 

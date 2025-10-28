@@ -36,11 +36,11 @@ B. I feel I have a pretty good understanding of the important political issues f
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4940/vshow}{GSS Data Explorer page for \code{poleff19}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 269 \tab 812 \tab 233 \tab 127 \tab 21 \tab 5 \tab 5 \tab 2812 \cr
-   2014 \tab 1274 \tab 201 \tab 615 \tab 229 \tab 134 \tab 34 \tab 48 \tab 3 \tab 2538 \cr
-   Total \tab 2614 \tab 470 \tab 1427 \tab 462 \tab 261 \tab 55 \tab 53 \tab 8 \tab 5350 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 269 \tab 812 \tab 233 \tab 127 \tab 21 \tab 5 \tab 5 \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 201 \tab 615 \tab 229 \tab 134 \tab 34 \tab 48 \tab 3 \tab - \tab 2538 \cr
+   Total \tab 2614 \tab 470 \tab 1427 \tab 462 \tab 261 \tab 55 \tab 53 \tab 8 \tab 0 \tab 5350 \cr
 }
 }
 

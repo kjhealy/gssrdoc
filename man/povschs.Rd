@@ -37,10 +37,10 @@ B. Spending more money on the schools in poor neighborhoods especially for pre-s
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1231/vshow}{GSS Data Explorer page for \code{povschs}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
-   1990 \tab 698 \tab 211 \tab 360 \tab 49 \tab 28 \tab 9 \tab 11 \tab 6 \tab 1372 \cr
-   Total \tab 698 \tab 211 \tab 360 \tab 49 \tab 28 \tab 9 \tab 11 \tab 6 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 698 \tab 211 \tab 360 \tab 49 \tab 28 \tab 9 \tab 11 \tab 6 \tab - \tab 1372 \cr
+   Total \tab 698 \tab 211 \tab 360 \tab 49 \tab 28 \tab 9 \tab 11 \tab 6 \tab 0 \tab 1372 \cr
 }
 }
 

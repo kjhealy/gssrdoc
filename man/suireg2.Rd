@@ -41,11 +41,11 @@ D. What state did this person live in?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5035/vshow}{GSS Data Explorer page for \code{suireg2}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab new england \tab e. nor. central \tab w. nor. central \tab south atlantic \tab e. sou. central \tab w. sou. central \tab mountain \tab pacific \tab no answer \tab middle atlantic \tab Total \cr
-   1990 \tab 1347 \tab 3 \tab 4 \tab 3 \tab 2 \tab 2 \tab 3 \tab 3 \tab 3 \tab 2 \tab - \tab 1372 \cr
-   1991 \tab 1477 \tab 1 \tab 7 \tab 4 \tab 8 \tab 4 \tab 1 \tab 1 \tab 7 \tab 3 \tab 4 \tab 1517 \cr
-   Total \tab 2824 \tab 4 \tab 11 \tab 7 \tab 10 \tab 6 \tab 4 \tab 4 \tab 10 \tab 5 \tab 4 \tab 2889 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab new england \tab e. nor. central \tab w. nor. central \tab south atlantic \tab e. sou. central \tab w. sou. central \tab mountain \tab pacific \tab no answer \tab middle atlantic \tab not available in this year \tab Total \cr
+   1990 \tab 1347 \tab 3 \tab 4 \tab 3 \tab 2 \tab 2 \tab 3 \tab 3 \tab 3 \tab 2 \tab - \tab - \tab 1372 \cr
+   1991 \tab 1477 \tab 1 \tab 7 \tab 4 \tab 8 \tab 4 \tab 1 \tab 1 \tab 7 \tab 3 \tab 4 \tab - \tab 1517 \cr
+   Total \tab 2824 \tab 4 \tab 11 \tab 7 \tab 10 \tab 6 \tab 4 \tab 4 \tab 10 \tab 5 \tab 4 \tab 0 \tab 2889 \cr
 }
 }
 

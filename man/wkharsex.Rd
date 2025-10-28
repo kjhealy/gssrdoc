@@ -32,15 +32,15 @@ Question In the last 12 months, were you sexually harassed by anyone while you w
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2824/vshow}{GSS Data Explorer page for \code{wkharsex}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2002 \tab 969 \tab 85 \tab 1689 \tab 6 \tab 16 \tab - \tab 2765 \cr
-   2006 \tab 2776 \tab 55 \tab 1659 \tab 5 \tab 15 \tab - \tab 4510 \cr
-   2010 \tab 857 \tab 35 \tab 1125 \tab 3 \tab 24 \tab - \tab 2044 \cr
-   2014 \tab 1288 \tab 32 \tab 1210 \tab 1 \tab 7 \tab - \tab 2538 \cr
-   2018 \tab 900 \tab 48 \tab 1362 \tab 3 \tab 35 \tab - \tab 2348 \cr
-   2022 \tab 1556 \tab 76 \tab 1879 \tab 4 \tab 13 \tab 16 \tab 3544 \cr
-   Total \tab 8346 \tab 331 \tab 8924 \tab 22 \tab 110 \tab 16 \tab 17749 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2002 \tab 969 \tab 85 \tab 1689 \tab 6 \tab 16 \tab - \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 55 \tab 1659 \tab 5 \tab 15 \tab - \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 35 \tab 1125 \tab 3 \tab 24 \tab - \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 32 \tab 1210 \tab 1 \tab 7 \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 48 \tab 1362 \tab 3 \tab 35 \tab - \tab - \tab 2348 \cr
+   2022 \tab 1556 \tab 76 \tab 1879 \tab 4 \tab 13 \tab 16 \tab - \tab 3544 \cr
+   Total \tab 8346 \tab 331 \tab 8924 \tab 22 \tab 110 \tab 16 \tab 0 \tab 17749 \cr
 }
 }
 

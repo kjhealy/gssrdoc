@@ -33,10 +33,10 @@ Question And how many other adults in your household personally own a gun?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3705/vshow}{GSS Data Explorer page for \code{othguns}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab 1 person \tab 2 persons \tab 3 persons \tab don't know \tab Total \cr
-   2006 \tab 4368 \tab 125 \tab 14 \tab 2 \tab 1 \tab 4510 \cr
-   Total \tab 4368 \tab 125 \tab 14 \tab 2 \tab 1 \tab 4510 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab 1 person \tab 2 persons \tab 3 persons \tab don't know \tab not available in this year \tab Total \cr
+   2006 \tab 4368 \tab 125 \tab 14 \tab 2 \tab 1 \tab - \tab 4510 \cr
+   Total \tab 4368 \tab 125 \tab 14 \tab 2 \tab 1 \tab 0 \tab 4510 \cr
 }
 }
 

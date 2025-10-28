@@ -23,10 +23,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |1987  |1639 |128 |26 |26        |1819  |
-#'  |Total |1639 |128 |26 |26        |1819  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |1987  |1639 |128 |26 |26        |-                          |1819  |
+#'  |Total |1639 |128 |26 |26        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -63,10 +63,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |1987  |1637 |138 |16 |28        |1819  |
-#'  |Total |1637 |138 |16 |28        |1819  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |1987  |1637 |138 |16 |28        |-                          |1819  |
+#'  |Total |1637 |138 |16 |28        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -103,10 +103,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
-#'  |1987  |1693 |74  |22 |2          |28        |1819  |
-#'  |Total |1693 |74  |22 |2          |28        |1819  |
+#'  |year  |iap  |yes |no |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1987  |1693 |74  |22 |2          |28        |-                          |1819  |
+#'  |Total |1693 |74  |22 |2          |28        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -143,10 +143,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |1987  |1724 |61  |8  |26        |1819  |
-#'  |Total |1724 |61  |8  |26        |1819  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |1987  |1724 |61  |8  |26        |-                          |1819  |
+#'  |Total |1724 |61  |8  |26        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -183,10 +183,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
-#'  |1987  |1550 |146 |76 |8          |39        |1819  |
-#'  |Total |1550 |146 |76 |8          |39        |1819  |
+#'  |year  |iap  |yes |no |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1987  |1550 |146 |76 |8          |39        |-                          |1819  |
+#'  |Total |1550 |146 |76 |8          |39        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -223,10 +223,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |1987  |1473 |113 |205 |28        |1819  |
-#'  |Total |1473 |113 |205 |28        |1819  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |1987  |1473 |113 |205 |28        |-                          |1819  |
+#'  |Total |1473 |113 |205 |28        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -263,10 +263,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |1987  |1645 |114 |30 |30        |1819  |
-#'  |Total |1645 |114 |30 |30        |1819  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |1987  |1645 |114 |30 |30        |-                          |1819  |
+#'  |Total |1645 |114 |30 |30        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -303,10 +303,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
-#'  |1987  |1578 |174 |35 |1          |31        |1819  |
-#'  |Total |1578 |174 |35 |1          |31        |1819  |
+#'  |year  |iap  |yes |no |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1987  |1578 |174 |35 |1          |31        |-                          |1819  |
+#'  |Total |1578 |174 |35 |1          |31        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -344,10 +344,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |1987  |1650 |48  |91 |30        |1819  |
-#'  |Total |1650 |48  |91 |30        |1819  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |1987  |1650 |48  |91 |30        |-                          |1819  |
+#'  |Total |1650 |48  |91 |30        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -384,10 +384,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |1987  |1709 |57  |26 |27        |1819  |
-#'  |Total |1709 |57  |26 |27        |1819  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |1987  |1709 |57  |26 |27        |-                          |1819  |
+#'  |Total |1709 |57  |26 |27        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation

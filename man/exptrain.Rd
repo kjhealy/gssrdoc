@@ -35,10 +35,10 @@ D. Experience or training at a different employer.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1371/vshow}{GSS Data Explorer page for \code{exptrain}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 605 \tab 196 \tab 256 \tab 166 \tab 275 \tab 8 \tab 11 \tab 1517 \cr
-   Total \tab 605 \tab 196 \tab 256 \tab 166 \tab 275 \tab 8 \tab 11 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 605 \tab 196 \tab 256 \tab 166 \tab 275 \tab 8 \tab 11 \tab - \tab 1517 \cr
+   Total \tab 605 \tab 196 \tab 256 \tab 166 \tab 275 \tab 8 \tab 11 \tab 0 \tab 1517 \cr
 }
 }
 

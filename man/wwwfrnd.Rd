@@ -32,11 +32,11 @@ Question G. Friend?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2490/vshow}{GSS Data Explorer page for \code{wwwfrnd}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2657 \tab 57 \tab 11 \tab 92 \tab 2817 \cr
-   2002 \tab 2647 \tab 61 \tab 10 \tab 47 \tab 2765 \cr
-   Total \tab 5304 \tab 118 \tab 21 \tab 139 \tab 5582 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2657 \tab 57 \tab 11 \tab 92 \tab - \tab 2817 \cr
+   2002 \tab 2647 \tab 61 \tab 10 \tab 47 \tab - \tab 2765 \cr
+   Total \tab 5304 \tab 118 \tab 21 \tab 139 \tab 0 \tab 5582 \cr
 }
 }
 

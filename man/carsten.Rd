@@ -36,11 +36,11 @@ C. Within the next ten years, how likely do you think it is that there will be a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4755/vshow}{GSS Data Explorer page for \code{carsten}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab certain to happen \tab very likely to happen \tab fairly likely to happen \tab not very likely to happen \tab not at all likely \tab can't choose \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 214 \tab 429 \tab 441 \tab 302 \tab 11 \tab 73 \tab 87 \tab 1606 \cr
-   1994 \tab 1606 \tab 150 \tab 401 \tab 407 \tab 277 \tab 19 \tab 62 \tab 70 \tab 2992 \cr
-   Total \tab 1655 \tab 364 \tab 830 \tab 848 \tab 579 \tab 30 \tab 135 \tab 157 \tab 4598 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab certain to happen \tab very likely to happen \tab fairly likely to happen \tab not very likely to happen \tab not at all likely \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 214 \tab 429 \tab 441 \tab 302 \tab 11 \tab 73 \tab 87 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 150 \tab 401 \tab 407 \tab 277 \tab 19 \tab 62 \tab 70 \tab - \tab 2992 \cr
+   Total \tab 1655 \tab 364 \tab 830 \tab 848 \tab 579 \tab 30 \tab 135 \tab 157 \tab 0 \tab 4598 \cr
 }
 }
 

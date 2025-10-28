@@ -36,12 +36,12 @@ E. News and current events?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2398/vshow}{GSS Data Explorer page for \code{news30}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2075 \tab 153 \tab 186 \tab 120 \tab 209 \tab 74 \tab - \tab 2817 \cr
-   2002 \tab 1681 \tab 221 \tab 211 \tab 158 \tab 399 \tab 94 \tab 1 \tab 2765 \cr
-   2004 \tab 2122 \tab 179 \tab 146 \tab 108 \tab 245 \tab 12 \tab - \tab 2812 \cr
-   Total \tab 5878 \tab 553 \tab 543 \tab 386 \tab 853 \tab 180 \tab 1 \tab 8394 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 153 \tab 186 \tab 120 \tab 209 \tab 74 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 221 \tab 211 \tab 158 \tab 399 \tab 94 \tab 1 \tab - \tab 2765 \cr
+   2004 \tab 2122 \tab 179 \tab 146 \tab 108 \tab 245 \tab 12 \tab - \tab - \tab 2812 \cr
+   Total \tab 5878 \tab 553 \tab 543 \tab 386 \tab 853 \tab 180 \tab 1 \tab 0 \tab 8394 \cr
 }
 }
 

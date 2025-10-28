@@ -32,10 +32,10 @@ Question A. People picture life after death in many different ways. We'd like to
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/313/vshow}{GSS Data Explorer page for \code{restact}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab peaceful \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab intense action \tab don't know \tab no answer \tab Total \cr
-   1986 \tab 246 \tab 643 \tab 167 \tab 109 \tab 182 \tab 19 \tab 15 \tab 48 \tab 17 \tab 24 \tab 1470 \cr
-   Total \tab 246 \tab 643 \tab 167 \tab 109 \tab 182 \tab 19 \tab 15 \tab 48 \tab 17 \tab 24 \tab 1470 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab peaceful \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab intense action \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 246 \tab 643 \tab 167 \tab 109 \tab 182 \tab 19 \tab 15 \tab 48 \tab 17 \tab 24 \tab - \tab 1470 \cr
+   Total \tab 246 \tab 643 \tab 167 \tab 109 \tab 182 \tab 19 \tab 15 \tab 48 \tab 17 \tab 24 \tab 0 \tab 1470 \cr
 }
 }
 

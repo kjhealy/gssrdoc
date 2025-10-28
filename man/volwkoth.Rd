@@ -35,10 +35,10 @@ D. Any other kind of voluntary activities
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4694/vshow}{GSS Data Explorer page for \code{volwkoth}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab no \tab yes 1-2 times \tab yes 3-5 times \tab yes 6/more times \tab no answer \tab Total \cr
-   1998 \tab 1548 \tab 755 \tab 222 \tab 109 \tab 138 \tab 60 \tab 2832 \cr
-   Total \tab 1548 \tab 755 \tab 222 \tab 109 \tab 138 \tab 60 \tab 2832 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab no \tab yes 1-2 times \tab yes 3-5 times \tab yes 6/more times \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1548 \tab 755 \tab 222 \tab 109 \tab 138 \tab 60 \tab - \tab 2832 \cr
+   Total \tab 1548 \tab 755 \tab 222 \tab 109 \tab 138 \tab 60 \tab 0 \tab 2832 \cr
 }
 }
 

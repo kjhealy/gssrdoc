@@ -34,10 +34,10 @@ Please tell me what you think, where 1 means most people would try to take advan
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4801/vshow}{GSS Data Explorer page for \code{fair5}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab most people would try to take advantage \tab 2 \tab 3 \tab 4 \tab most people would try to be fair \tab 6 can't choose \tab don't know \tab no answer \tab Total \cr
-   2010 \tab 614 \tab 250 \tab 175 \tab 412 \tab 340 \tab 223 \tab 23 \tab 2 \tab 5 \tab 2044 \cr
-   Total \tab 614 \tab 250 \tab 175 \tab 412 \tab 340 \tab 223 \tab 23 \tab 2 \tab 5 \tab 2044 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab most people would try to take advantage \tab 2 \tab 3 \tab 4 \tab most people would try to be fair \tab 6 can't choose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 614 \tab 250 \tab 175 \tab 412 \tab 340 \tab 223 \tab 23 \tab 2 \tab 5 \tab - \tab 2044 \cr
+   Total \tab 614 \tab 250 \tab 175 \tab 412 \tab 340 \tab 223 \tab 23 \tab 2 \tab 5 \tab 0 \tab 2044 \cr
 }
 }
 

@@ -34,10 +34,10 @@ Question Have you changed where you go for shopping or entertainment because of 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3570/vshow}{GSS Data Explorer page for \code{avoidmh}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab often \tab sometimes \tab almost never \tab never \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3073 \tab 18 \tab 70 \tab 175 \tab 1156 \tab 6 \tab 12 \tab 4510 \cr
-   Total \tab 3073 \tab 18 \tab 70 \tab 175 \tab 1156 \tab 6 \tab 12 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab often \tab sometimes \tab almost never \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3073 \tab 18 \tab 70 \tab 175 \tab 1156 \tab 6 \tab 12 \tab - \tab 4510 \cr
+   Total \tab 3073 \tab 18 \tab 70 \tab 175 \tab 1156 \tab 6 \tab 12 \tab 0 \tab 4510 \cr
 }
 }
 

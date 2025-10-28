@@ -36,10 +36,10 @@ B. Nervous.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2115/vshow}{GSS Data Explorer page for \code{nervous}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab all of the time \tab most of the time \tab some of the time \tab little of time \tab none of the time \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 44 \tab 92 \tab 390 \tab 464 \tab 439 \tab 4 \tab 12 \tab 2832 \cr
-   Total \tab 1387 \tab 44 \tab 92 \tab 390 \tab 464 \tab 439 \tab 4 \tab 12 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab all of the time \tab most of the time \tab some of the time \tab little of time \tab none of the time \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 44 \tab 92 \tab 390 \tab 464 \tab 439 \tab 4 \tab 12 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 44 \tab 92 \tab 390 \tab 464 \tab 439 \tab 4 \tab 12 \tab 0 \tab 2832 \cr
 }
 }
 

@@ -37,11 +37,11 @@ E. Having children increases people's social standing in society.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4461/vshow}{GSS Data Explorer page for \code{kidsocst}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2012 \tab 672 \tab 46 \tab 367 \tab 381 \tab 391 \tab 63 \tab 49 \tab 5 \tab - \tab 1974 \cr
-   2022 \tab 2380 \tab 36 \tab 259 \tab 446 \tab 276 \tab 63 \tab 70 \tab 5 \tab 9 \tab 3544 \cr
-   Total \tab 3052 \tab 82 \tab 626 \tab 827 \tab 667 \tab 126 \tab 119 \tab 10 \tab 9 \tab 5518 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2012 \tab 672 \tab 46 \tab 367 \tab 381 \tab 391 \tab 63 \tab 49 \tab 5 \tab - \tab - \tab 1974 \cr
+   2022 \tab 2380 \tab 36 \tab 259 \tab 446 \tab 276 \tab 63 \tab 70 \tab 5 \tab 9 \tab - \tab 3544 \cr
+   Total \tab 3052 \tab 82 \tab 626 \tab 827 \tab 667 \tab 126 \tab 119 \tab 10 \tab 9 \tab 0 \tab 5518 \cr
 }
 }
 

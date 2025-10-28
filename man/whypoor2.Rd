@@ -34,10 +34,10 @@ B. Loose morals and drunkenness
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1171/vshow}{GSS Data Explorer page for \code{whypoor2}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very important \tab somewhat important \tab not important \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 521 \tab 461 \tab 338 \tab 44 \tab 8 \tab 1372 \cr
-   Total \tab 0 \tab 521 \tab 461 \tab 338 \tab 44 \tab 8 \tab 1372 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab somewhat important \tab not important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 521 \tab 461 \tab 338 \tab 44 \tab 8 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 521 \tab 461 \tab 338 \tab 44 \tab 8 \tab 0 \tab 1372 \cr
 }
 }
 

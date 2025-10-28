@@ -36,11 +36,11 @@ Question Some people think those with high incomes should pay a larger proportio
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4004/vshow}{GSS Data Explorer page for \code{progtax}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab pay much more \tab pay more \tab all pay same \tab pay less \tab pay much less \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 119 \tab 252 \tab 265 \tab 6 \tab 1 \tab 25 \tab 9 \tab 1534 \cr
-   1990 \tab 155 \tab 218 \tab 497 \tab 425 \tab 10 \tab 5 \tab 51 \tab 11 \tab 1372 \cr
-   Total \tab 1012 \tab 337 \tab 749 \tab 690 \tab 16 \tab 6 \tab 76 \tab 20 \tab 2906 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab pay much more \tab pay more \tab all pay same \tab pay less \tab pay much less \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 119 \tab 252 \tab 265 \tab 6 \tab 1 \tab 25 \tab 9 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 218 \tab 497 \tab 425 \tab 10 \tab 5 \tab 51 \tab 11 \tab - \tab 1372 \cr
+   Total \tab 1012 \tab 337 \tab 749 \tab 690 \tab 16 \tab 6 \tab 76 \tab 20 \tab 0 \tab 2906 \cr
 }
 }
 

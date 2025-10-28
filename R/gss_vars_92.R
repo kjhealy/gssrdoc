@@ -23,10 +23,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |1984  |1262 |37  |142 |32        |1473  |
-#'  |Total |1262 |37  |142 |32        |1473  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |1984  |1262 |37  |142 |32        |-                          |1473  |
+#'  |Total |1262 |37  |142 |32        |0                          |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -62,10 +62,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no   |no answer |Total |
-#'  |:-----|:---|:---|:----|:---------|:-----|
-#'  |1984  |-   |82  |1363 |28        |1473  |
-#'  |Total |0   |82  |1363 |28        |1473  |
+#'  |year  |iap |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:----|:---------|:--------------------------|:-----|
+#'  |1984  |-   |82  |1363 |28        |-                          |1473  |
+#'  |Total |0   |82  |1363 |28        |0                          |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -102,10 +102,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |1984  |1363 |13  |65 |32        |1473  |
-#'  |Total |1363 |13  |65 |32        |1473  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |1984  |1363 |13  |65 |32        |-                          |1473  |
+#'  |Total |1363 |13  |65 |32        |0                          |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -142,10 +142,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very dependent |somewhat dependent |not at all |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:------------------|:----------|:----------|:---------|:-----|
-#'  |1984  |-   |132            |495                |748        |72         |26        |1473  |
-#'  |Total |0   |132            |495                |748        |72         |26        |1473  |
+#'  |year  |iap |very dependent |somewhat dependent |not at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:------------------|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |1984  |-   |132            |495                |748        |72         |26        |-                          |1473  |
+#'  |Total |0   |132            |495                |748        |72         |26        |0                          |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -184,10 +184,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:-----|
-#'  |1984  |-   |1152           |229                |66             |4          |22        |1473  |
-#'  |Total |0   |1152           |229                |66             |4          |22        |1473  |
+#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1984  |-   |1152           |229                |66             |4          |22        |-                          |1473  |
+#'  |Total |0   |1152           |229                |66             |4          |22        |0                          |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -226,10 +226,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:-----|
-#'  |1984  |-   |451            |808                |182            |11         |21        |1473  |
-#'  |Total |0   |451            |808                |182            |11         |21        |1473  |
+#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1984  |-   |451            |808                |182            |11         |21        |-                          |1473  |
+#'  |Total |0   |451            |808                |182            |11         |21        |0                          |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -268,10 +268,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:-----|
-#'  |1984  |-   |941            |418                |79             |12         |23        |1473  |
-#'  |Total |0   |941            |418                |79             |12         |23        |1473  |
+#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1984  |-   |941            |418                |79             |12         |23        |-                          |1473  |
+#'  |Total |0   |941            |418                |79             |12         |23        |0                          |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -310,10 +310,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:-----|
-#'  |1984  |-   |1312           |114                |16             |8          |23        |1473  |
-#'  |Total |0   |1312           |114                |16             |8          |23        |1473  |
+#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1984  |-   |1312           |114                |16             |8          |23        |-                          |1473  |
+#'  |Total |0   |1312           |114                |16             |8          |23        |0                          |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -352,10 +352,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:-----|
-#'  |1984  |-   |1207           |200                |39             |6          |21        |1473  |
-#'  |Total |0   |1207           |200                |39             |6          |21        |1473  |
+#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1984  |-   |1207           |200                |39             |6          |21        |-                          |1473  |
+#'  |Total |0   |1207           |200                |39             |6          |21        |0                          |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -394,10 +394,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:-----|
-#'  |1984  |-   |813            |545                |81             |11         |23        |1473  |
-#'  |Total |0   |813            |545                |81             |11         |23        |1473  |
+#'  |year  |iap |very important |somewhat important |not obligation |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1984  |-   |813            |545                |81             |11         |23        |-                          |1473  |
+#'  |Total |0   |813            |545                |81             |11         |23        |0                          |1473  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core

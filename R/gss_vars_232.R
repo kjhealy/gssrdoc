@@ -22,10 +22,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |art human spirit |art xprss artist |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:----------------|:----------|:---------|:-----|
-#'  |1998  |1387 |538              |851              |23         |33        |2832  |
-#'  |Total |1387 |538              |851              |23         |33        |2832  |
+#'  |year  |iap  |art human spirit |art xprss artist |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |538              |851              |23         |33        |-                          |2832  |
+#'  |Total |1387 |538              |851              |23         |33        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -62,11 +62,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes  |no  |no answer |don't know |Total |
-#'  |:-----|:----|:----|:---|:---------|:----------|:-----|
-#'  |1998  |1387 |968  |466 |11        |-          |2832  |
-#'  |2002  |1393 |987  |371 |6         |8          |2765  |
-#'  |Total |2780 |1955 |837 |17        |8          |5597  |
+#'  |year  |iap  |yes  |no  |no answer |don't know |not available in this year |Total |
+#'  |:-----|:----|:----|:---|:---------|:----------|:--------------------------|:-----|
+#'  |1998  |1387 |968  |466 |11        |-          |-                          |2832  |
+#'  |2002  |1393 |987  |371 |6         |8          |-                          |2765  |
+#'  |Total |2780 |1955 |837 |17        |8          |0                          |5597  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -104,11 +104,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes  |no   |no answer |don't know |Total |
-#'  |:-----|:----|:----|:----|:---------|:----------|:-----|
-#'  |1998  |1387 |551  |884  |10        |-          |2832  |
-#'  |2002  |1393 |580  |778  |6         |8          |2765  |
-#'  |Total |2780 |1131 |1662 |16        |8          |5597  |
+#'  |year  |iap  |yes  |no   |no answer |don't know |not available in this year |Total |
+#'  |:-----|:----|:----|:----|:---------|:----------|:--------------------------|:-----|
+#'  |1998  |1387 |551  |884  |10        |-          |-                          |2832  |
+#'  |2002  |1393 |580  |778  |6         |8          |-                          |2765  |
+#'  |Total |2780 |1131 |1662 |16        |8          |0                          |5597  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -146,11 +146,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes  |no   |don't know |no answer |Total |
-#'  |:-----|:----|:----|:----|:----------|:---------|:-----|
-#'  |1998  |1387 |339  |1095 |1          |10        |2832  |
-#'  |2002  |-    |776  |1962 |15         |12        |2765  |
-#'  |Total |1387 |1115 |3057 |16         |22        |5597  |
+#'  |year  |iap  |yes  |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:----|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |339  |1095 |1          |10        |-                          |2832  |
+#'  |2002  |-    |776  |1962 |15         |12        |-                          |2765  |
+#'  |Total |1387 |1115 |3057 |16         |22        |0                          |5597  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -187,10 +187,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |1998  |1797 |313 |643 |79        |2832  |
-#'  |Total |1797 |313 |643 |79        |2832  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |1998  |1797 |313 |643 |79        |-                          |2832  |
+#'  |Total |1797 |313 |643 |79        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -226,10 +226,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |1998  |1387 |226 |1190 |1          |28        |2832  |
-#'  |Total |1387 |226 |1190 |1          |28        |2832  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |226 |1190 |1          |28        |-                          |2832  |
+#'  |Total |1387 |226 |1190 |1          |28        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -266,10 +266,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1998  |1387 |639 |639 |150        |17        |2832  |
-#'  |Total |1387 |639 |639 |150        |17        |2832  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |639 |639 |150        |17        |-                          |2832  |
+#'  |Total |1387 |639 |639 |150        |17        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -306,10 +306,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1998  |1387 |769 |502 |156        |18        |2832  |
-#'  |Total |1387 |769 |502 |156        |18        |2832  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |769 |502 |156        |18        |-                          |2832  |
+#'  |Total |1387 |769 |502 |156        |18        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -346,10 +346,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1998  |1387 |786 |487 |154        |18        |2832  |
-#'  |Total |1387 |786 |487 |154        |18        |2832  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |786 |487 |154        |18        |-                          |2832  |
+#'  |Total |1387 |786 |487 |154        |18        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -386,10 +386,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2016  |1390 |605 |864 |8         |2867  |
-#'  |Total |1390 |605 |864 |8         |2867  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2016  |1390 |605 |864 |8         |-                          |2867  |
+#'  |Total |1390 |605 |864 |8         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Arts and Culture

@@ -36,12 +36,12 @@ C3. Third Person is Sibling
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/887/vshow}{GSS Data Explorer page for \code{sibling3}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab don't know \tab Total \cr
-   1985 \tab 599 \tab 99 \tab 833 \tab 3 \tab - \tab 1534 \cr
-   1987 \tab 735 \tab 102 \tab 957 \tab 25 \tab - \tab 1819 \cr
-   2004 \tab 2240 \tab 57 \tab 467 \tab 47 \tab 1 \tab 2812 \cr
-   Total \tab 3574 \tab 258 \tab 2257 \tab 75 \tab 1 \tab 6165 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1985 \tab 599 \tab 99 \tab 833 \tab 3 \tab - \tab - \tab 1534 \cr
+   1987 \tab 735 \tab 102 \tab 957 \tab 25 \tab - \tab - \tab 1819 \cr
+   2004 \tab 2240 \tab 57 \tab 467 \tab 47 \tab 1 \tab - \tab 2812 \cr
+   Total \tab 3574 \tab 258 \tab 2257 \tab 75 \tab 1 \tab 0 \tab 6165 \cr
 }
 }
 

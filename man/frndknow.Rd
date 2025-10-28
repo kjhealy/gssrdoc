@@ -35,10 +35,10 @@ Question Some people have friends who mostly know one another. Other people have
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/962/vshow}{GSS Data Explorer page for \code{frndknow}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab all know each other \tab most know each other \tab few know each other \tab none know each other \tab no friends(vol.) \tab don't know \tab no answer \tab Total \cr
-   1985 \tab - \tab 183 \tab 742 \tab 536 \tab 52 \tab 4 \tab 15 \tab 2 \tab 1534 \cr
-   Total \tab 0 \tab 183 \tab 742 \tab 536 \tab 52 \tab 4 \tab 15 \tab 2 \tab 1534 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab all know each other \tab most know each other \tab few know each other \tab none know each other \tab no friends(vol.) \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab - \tab 183 \tab 742 \tab 536 \tab 52 \tab 4 \tab 15 \tab 2 \tab - \tab 1534 \cr
+   Total \tab 0 \tab 183 \tab 742 \tab 536 \tab 52 \tab 4 \tab 15 \tab 2 \tab 0 \tab 1534 \cr
 }
 }
 

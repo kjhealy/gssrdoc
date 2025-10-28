@@ -33,10 +33,10 @@ Question Would you say the economy of (NAME METROPOLITAN AREA OR COUNTY) is very
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/833/vshow}{GSS Data Explorer page for \code{resdefwk}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very dependent \tab somewhat dependent \tab not at all \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 132 \tab 495 \tab 748 \tab 72 \tab 26 \tab 1473 \cr
-   Total \tab 0 \tab 132 \tab 495 \tab 748 \tab 72 \tab 26 \tab 1473 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very dependent \tab somewhat dependent \tab not at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 132 \tab 495 \tab 748 \tab 72 \tab 26 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 132 \tab 495 \tab 748 \tab 72 \tab 26 \tab 0 \tab 1473 \cr
 }
 }
 

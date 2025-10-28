@@ -35,10 +35,10 @@ E. Parents today have a hard time making ends meet.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5097/vshow}{GSS Data Explorer page for \code{parfin}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 302 \tab 893 \tab 119 \tab 20 \tab 21 \tab 17 \tab 1372 \cr
-   Total \tab 0 \tab 302 \tab 893 \tab 119 \tab 20 \tab 21 \tab 17 \tab 1372 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 302 \tab 893 \tab 119 \tab 20 \tab 21 \tab 17 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 302 \tab 893 \tab 119 \tab 20 \tab 21 \tab 17 \tab 0 \tab 1372 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Are there any activities that you do with the same group of people on a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3109/vshow}{GSS Data Explorer page for \code{infrmgrp}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 394 \tab 1071 \tab 1 \tab 6 \tab 2812 \cr
-   Total \tab 1340 \tab 394 \tab 1071 \tab 1 \tab 6 \tab 2812 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 394 \tab 1071 \tab 1 \tab 6 \tab - \tab 2812 \cr
+   Total \tab 1340 \tab 394 \tab 1071 \tab 1 \tab 6 \tab 0 \tab 2812 \cr
 }
 }
 

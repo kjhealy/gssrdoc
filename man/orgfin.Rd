@@ -35,10 +35,10 @@ Question As a result of these organizational changes, would you say that your fi
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1270/vshow}{GSS Data Explorer page for \code{orgfin}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab much better \tab better \tab worse \tab much worse \tab no effect \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 1045 \tab 19 \tab 58 \tab 79 \tab 37 \tab 247 \tab 1 \tab 31 \tab 1517 \cr
-   Total \tab 1045 \tab 19 \tab 58 \tab 79 \tab 37 \tab 247 \tab 1 \tab 31 \tab 1517 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much better \tab better \tab worse \tab much worse \tab no effect \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 1045 \tab 19 \tab 58 \tab 79 \tab 37 \tab 247 \tab 1 \tab 31 \tab - \tab 1517 \cr
+   Total \tab 1045 \tab 19 \tab 58 \tab 79 \tab 37 \tab 247 \tab 1 \tab 31 \tab 0 \tab 1517 \cr
 }
 }
 

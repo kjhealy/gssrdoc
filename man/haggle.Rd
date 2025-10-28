@@ -32,10 +32,10 @@ Question When you go to such a sale, and when prices are posted, do you expect t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1875/vshow}{GSS Data Explorer page for \code{haggle}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab expect to pay posted price \tab negotiate for lower price \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1917 \tab 383 \tab 579 \tab 12 \tab 13 \tab 2904 \cr
-   Total \tab 1917 \tab 383 \tab 579 \tab 12 \tab 13 \tab 2904 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab expect to pay posted price \tab negotiate for lower price \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1917 \tab 383 \tab 579 \tab 12 \tab 13 \tab - \tab 2904 \cr
+   Total \tab 1917 \tab 383 \tab 579 \tab 12 \tab 13 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -25,10 +25,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very much |somewhat |not very much |not at all |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:--------|:-------------|:----------|:----------|:---------|:-----|
-#'  |2018  |1175 |73        |351      |399           |250        |51         |49        |2348  |
-#'  |Total |1175 |73        |351      |399           |250        |51         |49        |2348  |
+#'  |year  |iap  |very much |somewhat |not very much |not at all |don't know |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:---------|:--------|:-------------|:----------|:----------|:---------|:--------------------------|:--------------|:-----|
+#'  |2018  |1175 |73        |351      |399           |250        |51         |49        |-                          |-              |2348  |
+#'  |2024  |1693 |132       |522      |497           |363        |64         |10        |-                          |28             |3309  |
+#'  |Total |2868 |205       |873      |896           |613        |115        |59        |0                          |28             |5657  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -65,10 +66,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2018  |1175 |197 |936 |5          |35        |2348  |
-#'  |Total |1175 |197 |936 |5          |35        |2348  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:--------------|:-----|
+#'  |2018  |1175 |197 |936  |5          |35        |-                          |-              |2348  |
+#'  |2024  |49   |739 |2462 |7          |15        |-                          |37             |3309  |
+#'  |Total |1224 |936 |3398 |12         |50        |0                          |37             |5657  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health
@@ -105,10 +107,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |2018  |2116 |187 |10 |35        |2348  |
-#'  |Total |2116 |187 |10 |35        |2348  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:--------------|:-----|
+#'  |2018  |2116 |187 |10 |35        |-                          |-              |2348  |
+#'  |2024  |2570 |683 |53 |2         |-                          |1              |3309  |
+#'  |Total |4686 |870 |63 |37        |0                          |1              |5657  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -144,10 +147,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |true |false |don't know |no answer |Total |
-#'  |:-----|:----|:----|:-----|:----------|:---------|:-----|
-#'  |2018  |1175 |947  |199   |3          |24        |2348  |
-#'  |Total |1175 |947  |199   |3          |24        |2348  |
+#'  |year  |iap  |true |false |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |947  |199   |3          |24        |-                          |2348  |
+#'  |Total |1175 |947  |199   |3          |24        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -183,10 +186,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |true |false |don't know |no answer |Total |
-#'  |:-----|:----|:----|:-----|:----------|:---------|:-----|
-#'  |2018  |1175 |309  |833   |5          |26        |2348  |
-#'  |Total |1175 |309  |833   |5          |26        |2348  |
+#'  |year  |iap  |true |false |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |309  |833   |5          |26        |-                          |2348  |
+#'  |Total |1175 |309  |833   |5          |26        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -222,10 +225,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |true |false |don't know |no answer |Total |
-#'  |:-----|:----|:----|:-----|:----------|:---------|:-----|
-#'  |2018  |1175 |782  |360   |5          |26        |2348  |
-#'  |Total |1175 |782  |360   |5          |26        |2348  |
+#'  |year  |iap  |true |false |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |782  |360   |5          |26        |-                          |2348  |
+#'  |Total |1175 |782  |360   |5          |26        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -261,10 +264,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |true |false |don't know |no answer |Total |
-#'  |:-----|:----|:----|:-----|:----------|:---------|:-----|
-#'  |2018  |1175 |350  |791   |5          |27        |2348  |
-#'  |Total |1175 |350  |791   |5          |27        |2348  |
+#'  |year  |iap  |true |false |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |350  |791   |5          |27        |-                          |2348  |
+#'  |Total |1175 |350  |791   |5          |27        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -300,10 +303,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |true |false |don't know |no answer |Total |
-#'  |:-----|:----|:----|:-----|:----------|:---------|:-----|
-#'  |2018  |1175 |458  |684   |4          |27        |2348  |
-#'  |Total |1175 |458  |684   |4          |27        |2348  |
+#'  |year  |iap  |true |false |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |458  |684   |4          |27        |-                          |2348  |
+#'  |Total |1175 |458  |684   |4          |27        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -339,10 +342,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |true |false |don't know |no answer |Total |
-#'  |:-----|:----|:----|:-----|:----------|:---------|:-----|
-#'  |2018  |1175 |573  |569   |5          |26        |2348  |
-#'  |Total |1175 |573  |569   |5          |26        |2348  |
+#'  |year  |iap  |true |false |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |573  |569   |5          |26        |-                          |2348  |
+#'  |Total |1175 |573  |569   |5          |26        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -378,10 +381,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |true |false |don't know |no answer |Total |
-#'  |:-----|:----|:----|:-----|:----------|:---------|:-----|
-#'  |2018  |1175 |363  |777   |6          |27        |2348  |
-#'  |Total |1175 |363  |777   |6          |27        |2348  |
+#'  |year  |iap  |true |false |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |363  |777   |6          |27        |-                          |2348  |
+#'  |Total |1175 |363  |777   |6          |27        |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

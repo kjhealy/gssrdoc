@@ -38,13 +38,13 @@ B. between co-workers/colleagues?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4560/vshow}{GSS Data Explorer page for \code{cowrkers}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very good \tab quite good \tab neither good nor bad \tab quite bad \tab very bad \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 239 \tab 422 \tab 159 \tab 16 \tab 2 \tab 16 \tab 44 \tab 1537 \cr
-   1998 \tab 1967 \tab 261 \tab 391 \tab 123 \tab 13 \tab 4 \tab 21 \tab 52 \tab 2832 \cr
-   2006 \tab 3492 \tab 400 \tab 426 \tab 154 \tab 18 \tab 11 \tab 7 \tab 2 \tab 4510 \cr
-   2016 \tab 1927 \tab 333 \tab 405 \tab 151 \tab 27 \tab 6 \tab 9 \tab 9 \tab 2867 \cr
-   Total \tab 8025 \tab 1233 \tab 1644 \tab 587 \tab 74 \tab 23 \tab 53 \tab 107 \tab 11746 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very good \tab quite good \tab neither good nor bad \tab quite bad \tab very bad \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 239 \tab 422 \tab 159 \tab 16 \tab 2 \tab 16 \tab 44 \tab - \tab 1537 \cr
+   1998 \tab 1967 \tab 261 \tab 391 \tab 123 \tab 13 \tab 4 \tab 21 \tab 52 \tab - \tab 2832 \cr
+   2006 \tab 3492 \tab 400 \tab 426 \tab 154 \tab 18 \tab 11 \tab 7 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 333 \tab 405 \tab 151 \tab 27 \tab 6 \tab 9 \tab 9 \tab - \tab 2867 \cr
+   Total \tab 8025 \tab 1233 \tab 1644 \tab 587 \tab 74 \tab 23 \tab 53 \tab 107 \tab 0 \tab 11746 \cr
 }
 }
 

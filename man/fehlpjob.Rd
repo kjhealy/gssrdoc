@@ -36,10 +36,10 @@ C. Women should be given preferential treatment when applying for jobs or promot
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4014/vshow}{GSS Data Explorer page for \code{fehlpjob}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly in favor \tab in favor \tab neither \tab against \tab strongly against \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 34 \tab 46 \tab 175 \tab 285 \tab 113 \tab 24 \tab 1534 \cr
-   Total \tab 857 \tab 34 \tab 46 \tab 175 \tab 285 \tab 113 \tab 24 \tab 1534 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly in favor \tab in favor \tab neither \tab against \tab strongly against \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 34 \tab 46 \tab 175 \tab 285 \tab 113 \tab 24 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 34 \tab 46 \tab 175 \tab 285 \tab 113 \tab 24 \tab 0 \tab 1534 \cr
 }
 }
 

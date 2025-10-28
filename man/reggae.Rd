@@ -36,10 +36,10 @@ O.  Reggae
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1401/vshow}{GSS Data Explorer page for \code{reggae}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab like very much \tab like it \tab mixed feelings \tab dislike it \tab dislike very much \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 84 \tab 362 \tab 340 \tab 297 \tab 217 \tab 295 \tab 11 \tab 1606 \cr
-   Total \tab 0 \tab 84 \tab 362 \tab 340 \tab 297 \tab 217 \tab 295 \tab 11 \tab 1606 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab like very much \tab like it \tab mixed feelings \tab dislike it \tab dislike very much \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 84 \tab 362 \tab 340 \tab 297 \tab 217 \tab 295 \tab 11 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 84 \tab 362 \tab 340 \tab 297 \tab 217 \tab 295 \tab 11 \tab 0 \tab 1606 \cr
 }
 }
 

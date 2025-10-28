@@ -37,13 +37,13 @@ Question Do you think that people with high incomes should pay a larger share of
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4305/vshow}{GSS Data Explorer page for \code{taxshare}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab much larger share \tab larger \tab the same share \tab smaller \tab much smaller share \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   1987 \tab 255 \tab 347 \tab 648 \tab 428 \tab 24 \tab 7 \tab 88 \tab 22 \tab - \tab 1819 \cr
-   2000 \tab 1545 \tab 260 \tab 502 \tab 384 \tab 16 \tab 11 \tab 49 \tab 50 \tab - \tab 2817 \cr
-   2008 \tab 982 \tab 196 \tab 421 \tab 380 \tab 15 \tab 5 \tab 18 \tab 6 \tab - \tab 2023 \cr
-   2021 \tab 2029 \tab 512 \tab 760 \tab 432 \tab 32 \tab 12 \tab 101 \tab 144 \tab 10 \tab 4032 \cr
-   Total \tab 4811 \tab 1315 \tab 2331 \tab 1624 \tab 87 \tab 35 \tab 256 \tab 222 \tab 10 \tab 10691 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab much larger share \tab larger \tab the same share \tab smaller \tab much smaller share \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 347 \tab 648 \tab 428 \tab 24 \tab 7 \tab 88 \tab 22 \tab - \tab - \tab 1819 \cr
+   2000 \tab 1545 \tab 260 \tab 502 \tab 384 \tab 16 \tab 11 \tab 49 \tab 50 \tab - \tab - \tab 2817 \cr
+   2008 \tab 982 \tab 196 \tab 421 \tab 380 \tab 15 \tab 5 \tab 18 \tab 6 \tab - \tab - \tab 2023 \cr
+   2021 \tab 2029 \tab 512 \tab 760 \tab 432 \tab 32 \tab 12 \tab 101 \tab 144 \tab 10 \tab - \tab 4032 \cr
+   Total \tab 4811 \tab 1315 \tab 2331 \tab 1624 \tab 87 \tab 35 \tab 256 \tab 222 \tab 10 \tab 0 \tab 10691 \cr
 }
 }
 

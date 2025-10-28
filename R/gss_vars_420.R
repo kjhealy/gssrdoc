@@ -23,11 +23,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |half/part |no  |Total |
-#'  |:-----|:----|:---|:---------|:---|:-----|
-#'  |2008  |1866 |2   |3         |152 |2023  |
-#'  |2012  |1967 |2   |1         |4   |1974  |
-#'  |Total |3833 |4   |4         |156 |3997  |
+#'  |year  |iap  |yes |half/part |no  |not available in this year |Total |
+#'  |:-----|:----|:---|:---------|:---|:--------------------------|:-----|
+#'  |2008  |1866 |2   |3         |152 |-                          |2023  |
+#'  |2012  |1967 |2   |1         |4   |-                          |1974  |
+#'  |Total |3833 |4   |4         |156 |0                          |3997  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -66,11 +66,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no |Total |
-#'  |:-----|:----|:--|:-----|
-#'  |2008  |1940 |83 |2023  |
-#'  |2012  |1970 |4  |1974  |
-#'  |Total |3910 |87 |3997  |
+#'  |year  |iap  |no |not available in this year |Total |
+#'  |:-----|:----|:--|:--------------------------|:-----|
+#'  |2008  |1940 |83 |-                          |2023  |
+#'  |2012  |1970 |4  |-                          |1974  |
+#'  |Total |3910 |87 |0                          |3997  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -109,10 +109,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no |Total |
-#'  |:-----|:----|:--|:-----|
-#'  |2008  |1995 |28 |2023  |
-#'  |Total |1995 |28 |2023  |
+#'  |year  |iap  |no |not available in this year |Total |
+#'  |:-----|:----|:--|:--------------------------|:-----|
+#'  |2008  |1995 |28 |-                          |2023  |
+#'  |Total |1995 |28 |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -151,10 +151,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no |Total |
-#'  |:-----|:----|:--|:-----|
-#'  |2008  |2014 |9  |2023  |
-#'  |Total |2014 |9  |2023  |
+#'  |year  |iap  |no |not available in this year |Total |
+#'  |:-----|:----|:--|:--------------------------|:-----|
+#'  |2008  |2014 |9  |-                          |2023  |
+#'  |Total |2014 |9  |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -193,11 +193,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no |Total |
-#'  |:-----|:----|:--|:-----|
-#'  |2008  |2022 |1  |2023  |
-#'  |2012  |1974 |-  |1974  |
-#'  |Total |3996 |1  |3997  |
+#'  |year  |iap  |no |not available in this year |Total |
+#'  |:-----|:----|:--|:--------------------------|:-----|
+#'  |2008  |2022 |1  |-                          |2023  |
+#'  |2012  |1974 |-  |-                          |1974  |
+#'  |Total |3996 |1  |0                          |3997  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -239,10 +239,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |no   |yes, respondent |yes, someone respondent knows |yes, both respondent and someone respondent knows |don't know |no answer |Total |
-#'  |:-----|:---|:----|:---------------|:-----------------------------|:-------------------------------------------------|:----------|:---------|:-----|
-#'  |2008  |671 |1029 |69              |135                           |105                                               |9          |5         |2023  |
-#'  |Total |671 |1029 |69              |135                           |105                                               |9          |5         |2023  |
+#'  |year  |iap |no   |yes, respondent |yes, someone respondent knows |yes, both respondent and someone respondent knows |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:----|:---------------|:-----------------------------|:-------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |671 |1029 |69              |135                           |105                                               |9          |5         |-                          |2023  |
+#'  |Total |671 |1029 |69              |135                           |105                                               |9          |5         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -282,10 +282,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |1 not at all effective |2   |3   |4   |5 extremely effective |don't know |no answer |Total |
-#'  |:-----|:---|:----------------------|:---|:---|:---|:---------------------|:----------|:---------|:-----|
-#'  |2008  |671 |167                    |135 |430 |197 |351                   |67         |5         |2023  |
-#'  |Total |671 |167                    |135 |430 |197 |351                   |67         |5         |2023  |
+#'  |year  |iap |1 not at all effective |2   |3   |4   |5 extremely effective |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:----------------------|:---|:---|:---|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |671 |167                    |135 |430 |197 |351                   |67         |5         |-                          |2023  |
+#'  |Total |671 |167                    |135 |430 |197 |351                   |67         |5         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -325,10 +325,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |no   |yes, respondent |yes, someone respondent knows |yes, both respondent and someone respondent knows |don't know |no answer |Total |
-#'  |:-----|:---|:----|:---------------|:-----------------------------|:-------------------------------------------------|:----------|:---------|:-----|
-#'  |2008  |671 |1050 |72              |148                           |72                                                |6          |4         |2023  |
-#'  |Total |671 |1050 |72              |148                           |72                                                |6          |4         |2023  |
+#'  |year  |iap |no   |yes, respondent |yes, someone respondent knows |yes, both respondent and someone respondent knows |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:----|:---------------|:-----------------------------|:-------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |671 |1050 |72              |148                           |72                                                |6          |4         |-                          |2023  |
+#'  |Total |671 |1050 |72              |148                           |72                                                |6          |4         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -367,10 +367,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |1 not at all effective |2   |3   |4   |5 extremely effective |don't know |no answer |Total |
-#'  |:-----|:---|:----------------------|:---|:---|:---|:---------------------|:----------|:---------|:-----|
-#'  |2008  |671 |272                    |166 |401 |164 |275                   |69         |5         |2023  |
-#'  |Total |671 |272                    |166 |401 |164 |275                   |69         |5         |2023  |
+#'  |year  |iap |1 not at all effective |2   |3   |4   |5 extremely effective |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:----------------------|:---|:---|:---|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |671 |272                    |166 |401 |164 |275                   |69         |5         |-                          |2023  |
+#'  |Total |671 |272                    |166 |401 |164 |275                   |69         |5         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness
@@ -410,10 +410,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |no   |yes, respondent |yes, someone respondent knows |yes, both respondent and someone respondent knows |don't know |no answer |Total |
-#'  |:-----|:---|:----|:---------------|:-----------------------------|:-------------------------------------------------|:----------|:---------|:-----|
-#'  |2008  |671 |1157 |38              |98                            |47                                                |7          |5         |2023  |
-#'  |Total |671 |1157 |38              |98                            |47                                                |7          |5         |2023  |
+#'  |year  |iap |no   |yes, respondent |yes, someone respondent knows |yes, both respondent and someone respondent knows |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:----|:---------------|:-----------------------------|:-------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |671 |1157 |38              |98                            |47                                                |7          |5         |-                          |2023  |
+#'  |Total |671 |1157 |38              |98                            |47                                                |7          |5         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Terrorism Preparedness

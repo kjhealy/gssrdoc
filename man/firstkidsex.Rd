@@ -34,10 +34,10 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7958/vshow}{GSS Data Explorer page for \code{firstkidsex}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab male \tab female \tab skipped on web \tab Total \cr
-   2022 \tab 2844 \tab 316 \tab 382 \tab 2 \tab 3544 \cr
-   Total \tab 2844 \tab 316 \tab 382 \tab 2 \tab 3544 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab not available in this year \tab male \tab female \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 316 \tab 382 \tab 2844 \tab 2 \tab 3544 \cr
+   Total \tab 0 \tab 316 \tab 382 \tab 2844 \tab 2 \tab 3544 \cr
 }
 }
 

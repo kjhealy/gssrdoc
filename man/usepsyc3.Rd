@@ -36,11 +36,11 @@ C. ...because you were feeling depressed, tired, were having trouble sleeping an
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2177/vshow}{GSS Data Explorer page for \code{usepsyc3}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 210 \tab 341 \tab 177 \tab 227 \tab 379 \tab 50 \tab 3 \tab 2832 \cr
-   2006 \tab 3073 \tab 275 \tab 413 \tab 199 \tab 202 \tab 301 \tab 34 \tab 13 \tab 4510 \cr
-   Total \tab 4518 \tab 485 \tab 754 \tab 376 \tab 429 \tab 680 \tab 84 \tab 16 \tab 7342 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 210 \tab 341 \tab 177 \tab 227 \tab 379 \tab 50 \tab 3 \tab - \tab 2832 \cr
+   2006 \tab 3073 \tab 275 \tab 413 \tab 199 \tab 202 \tab 301 \tab 34 \tab 13 \tab - \tab 4510 \cr
+   Total \tab 4518 \tab 485 \tab 754 \tab 376 \tab 429 \tab 680 \tab 84 \tab 16 \tab 0 \tab 7342 \cr
 }
 }
 

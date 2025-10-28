@@ -35,10 +35,10 @@ Make sure people pay their taxes?  Would you say...
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6311/vshow}{GSS Data Explorer page for \code{taxpaid}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab almost always \tab often \tab sometimes \tab almost never \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1477 \tab 733 \tab 299 \tab 261 \tab 56 \tab 27 \tab 14 \tab 2867 \cr
-   Total \tab 1477 \tab 733 \tab 299 \tab 261 \tab 56 \tab 27 \tab 14 \tab 2867 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab almost always \tab often \tab sometimes \tab almost never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1477 \tab 733 \tab 299 \tab 261 \tab 56 \tab 27 \tab 14 \tab - \tab 2867 \cr
+   Total \tab 1477 \tab 733 \tab 299 \tab 261 \tab 56 \tab 27 \tab 14 \tab 0 \tab 2867 \cr
 }
 }
 

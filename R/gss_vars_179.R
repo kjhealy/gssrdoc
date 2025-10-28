@@ -24,10 +24,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1996  |1444 |233 |1118 |109       |2904  |
-#'  |Total |1444 |233 |1118 |109       |2904  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |don't know |skipped on web |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:----------|:--------------|:-----|
+#'  |1996  |1444 |233 |1118 |109       |-                          |-          |-              |2904  |
+#'  |2024  |1162 |440 |1653 |8         |-                          |18         |28             |3309  |
+#'  |Total |2606 |673 |2771 |117       |0                          |18         |28             |6213  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -66,10 +67,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |1996  |1444 |632 |719 |109       |2904  |
-#'  |Total |1444 |632 |719 |109       |2904  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |632 |719 |109       |-                          |2904  |
+#'  |Total |1444 |632 |719 |109       |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -125,7 +126,8 @@ NULL
 #'  |2018  |1554  |89          |273             |264             |153           |14         |1         |-              |2348  |
 #'  |2021  |2689  |119         |422             |511             |284           |2          |1         |4              |4032  |
 #'  |2022  |2339  |108         |403             |411             |258           |20         |1         |4              |3544  |
-#'  |Total |26496 |1205        |3800            |3454            |1864          |281        |70        |8              |37178 |
+#'  |2024  |2200  |120         |370             |359             |226           |27         |1         |6              |3309  |
+#'  |Total |28696 |1325        |4170            |3813            |2090          |308        |71        |14             |40487 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -220,10 +222,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes, should offer this option |no, should not offer this option |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------------------|:--------------------------------|:----------|:---------|:-----|
-#'  |1996  |1444 |1274                          |142                              |41         |3         |2904  |
-#'  |Total |1444 |1274                          |142                              |41         |3         |2904  |
+#'  |year  |iap  |yes, should offer this option |no, should not offer this option |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------------------|:--------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |1274                          |142                              |41         |3         |-                          |2904  |
+#'  |Total |1444 |1274                          |142                              |41         |3         |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -262,10 +264,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes, should offer this option |no, should not offer this option |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------------------|:--------------------------------|:----------|:---------|:-----|
-#'  |1996  |1444 |1057                          |338                              |60         |5         |2904  |
-#'  |Total |1444 |1057                          |338                              |60         |5         |2904  |
+#'  |year  |iap  |yes, should offer this option |no, should not offer this option |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------------------|:--------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |1057                          |338                              |60         |5         |-                          |2904  |
+#'  |Total |1444 |1057                          |338                              |60         |5         |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -304,10 +306,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1996  |1444 |574 |493 |76         |317       |2904  |
-#'  |Total |1444 |574 |493 |76         |317       |2904  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |574 |493 |76         |317       |-                          |2904  |
+#'  |Total |1444 |574 |493 |76         |317       |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -345,10 +347,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1996  |1444 |476 |573 |81         |330       |2904  |
-#'  |Total |1444 |476 |573 |81         |330       |2904  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |476 |573 |81         |330       |-                          |2904  |
+#'  |Total |1444 |476 |573 |81         |330       |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -387,10 +389,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1996  |1444 |724 |369 |67         |300       |2904  |
-#'  |Total |1444 |724 |369 |67         |300       |2904  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |724 |369 |67         |300       |-                          |2904  |
+#'  |Total |1444 |724 |369 |67         |300       |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender
@@ -429,10 +431,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1996  |1444 |837 |397 |77         |149       |2904  |
-#'  |Total |1444 |837 |397 |77         |149       |2904  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1444 |837 |397 |77         |149       |-                          |2904  |
+#'  |Total |1444 |837 |397 |77         |149       |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Gender

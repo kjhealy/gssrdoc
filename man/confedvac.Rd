@@ -35,10 +35,10 @@ The federal government ensuring the safety of vaccines to protect the public aga
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7580/vshow}{GSS Data Explorer page for \code{confedvac}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a great deal \tab only some \tab hardly any \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2689 \tab 436 \tab 567 \tab 156 \tab 1 \tab 167 \tab 16 \tab 4032 \cr
-   Total \tab 2689 \tab 436 \tab 567 \tab 156 \tab 1 \tab 167 \tab 16 \tab 4032 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal \tab only some \tab hardly any \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2689 \tab 436 \tab 567 \tab 156 \tab 1 \tab 167 \tab 16 \tab - \tab 4032 \cr
+   Total \tab 2689 \tab 436 \tab 567 \tab 156 \tab 1 \tab 167 \tab 16 \tab 0 \tab 4032 \cr
 }
 }
 

@@ -33,10 +33,10 @@ Question Did the seller guarantee to pay for some or all unexpected repairs need
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1826/vshow}{GSS Data Explorer page for \code{warrntyh}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes -- informal assurance \tab yes -- written guarantee \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2451 \tab 39 \tab 109 \tab 272 \tab 23 \tab 10 \tab 2904 \cr
-   Total \tab 2451 \tab 39 \tab 109 \tab 272 \tab 23 \tab 10 \tab 2904 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes -- informal assurance \tab yes -- written guarantee \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2451 \tab 39 \tab 109 \tab 272 \tab 23 \tab 10 \tab - \tab 2904 \cr
+   Total \tab 2451 \tab 39 \tab 109 \tab 272 \tab 23 \tab 10 \tab 0 \tab 2904 \cr
 }
 }
 

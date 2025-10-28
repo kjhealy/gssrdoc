@@ -33,11 +33,11 @@ Question E. Advanced search
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2634/vshow}{GSS Data Explorer page for \code{advsrch}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab very familiar \tab somewhat familiar \tab not familiar \tab no answer \tab Total \cr
-   2002 \tab 2142 \tab 218 \tab 224 \tab 134 \tab 47 \tab 2765 \cr
-   2004 \tab 992 \tab 915 \tab 588 \tab 298 \tab 19 \tab 2812 \cr
-   Total \tab 3134 \tab 1133 \tab 812 \tab 432 \tab 66 \tab 5577 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab very familiar \tab somewhat familiar \tab not familiar \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 2142 \tab 218 \tab 224 \tab 134 \tab 47 \tab - \tab 2765 \cr
+   2004 \tab 992 \tab 915 \tab 588 \tab 298 \tab 19 \tab - \tab 2812 \cr
+   Total \tab 3134 \tab 1133 \tab 812 \tab 432 \tab 66 \tab 0 \tab 5577 \cr
 }
 }
 

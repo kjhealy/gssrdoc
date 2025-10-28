@@ -34,10 +34,10 @@ Question How much information do you have about the death penalty issue? Do you 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/270/vshow}{GSS Data Explorer page for \code{capinfo}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab all info r needs \tab most of the info \tab some info \tab very little info \tab don't know \tab no answer \tab Total \cr
-   1984 \tab 989 \tab 52 \tab 114 \tab 183 \tab 126 \tab 5 \tab 4 \tab 1473 \cr
-   Total \tab 989 \tab 52 \tab 114 \tab 183 \tab 126 \tab 5 \tab 4 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab all info r needs \tab most of the info \tab some info \tab very little info \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab 989 \tab 52 \tab 114 \tab 183 \tab 126 \tab 5 \tab 4 \tab - \tab 1473 \cr
+   Total \tab 989 \tab 52 \tab 114 \tab 183 \tab 126 \tab 5 \tab 4 \tab 0 \tab 1473 \cr
 }
 }
 

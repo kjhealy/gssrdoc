@@ -35,10 +35,11 @@ Question A. How willing would you be to move next door to (John/Mary)''s family?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2933/vshow}{GSS Data Explorer page for \code{nextdoor}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 494 \tab 651 \tab 139 \tab 63 \tab 33 \tab 13 \tab 2765 \cr
-   Total \tab 1372 \tab 494 \tab 651 \tab 139 \tab 63 \tab 33 \tab 13 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2002 \tab 1372 \tab 494 \tab 651 \tab 139 \tab 63 \tab 33 \tab 13 \tab - \tab - \tab 2765 \cr
+   2024 \tab 1660 \tab 398 \tab 875 \tab 205 \tab 93 \tab 42 \tab 10 \tab - \tab 26 \tab 3309 \cr
+   Total \tab 3032 \tab 892 \tab 1526 \tab 344 \tab 156 \tab 75 \tab 23 \tab 0 \tab 26 \tab 6074 \cr
 }
 }
 

@@ -33,10 +33,10 @@ G. Participate in a walkathon or marathon to raise money for a cause
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2916/vshow}{GSS Data Explorer page for \code{partthon}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 296 \tab 1084 \tab 8 \tab 5 \tab 2765 \cr
-   Total \tab 1372 \tab 296 \tab 1084 \tab 8 \tab 5 \tab 2765 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1372 \tab 296 \tab 1084 \tab 8 \tab 5 \tab - \tab 2765 \cr
+   Total \tab 1372 \tab 296 \tab 1084 \tab 8 \tab 5 \tab 0 \tab 2765 \cr
 }
 }
 

@@ -34,10 +34,10 @@ Question D. Scientists don't get as much fun out of life as other people Do. Do 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3514/vshow}{GSS Data Explorer page for \code{scientfu}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1457 \tab 14 \tab 101 \tab 300 \tab 47 \tab 52 \tab 3 \tab 1974 \cr
-   Total \tab 1457 \tab 14 \tab 101 \tab 300 \tab 47 \tab 52 \tab 3 \tab 1974 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1457 \tab 14 \tab 101 \tab 300 \tab 47 \tab 52 \tab 3 \tab - \tab 1974 \cr
+   Total \tab 1457 \tab 14 \tab 101 \tab 300 \tab 47 \tab 52 \tab 3 \tab 0 \tab 1974 \cr
 }
 }
 

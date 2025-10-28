@@ -27,11 +27,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |1998  |1445 |398            |632   |137                        |137      |26                |41         |16        |2832  |
-#'  |2000  |1398 |458            |628   |151                        |111      |29                |26         |16        |2817  |
-#'  |Total |2843 |856            |1260  |288                        |248      |55                |67         |32        |5649  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1445 |398            |632   |137                        |137      |26                |41         |16        |-                          |2832  |
+#'  |2000  |1398 |458            |628   |151                        |111      |29                |26         |16        |-                          |2817  |
+#'  |Total |2843 |856            |1260  |288                        |248      |55                |67         |32        |0                          |5649  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -72,11 +72,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |1998  |1445 |618            |624   |49                         |46       |10                |25         |15        |2832  |
-#'  |2000  |1398 |687            |544   |92                         |45       |12                |22         |17        |2817  |
-#'  |Total |2843 |1305           |1168  |141                        |91       |22                |47         |32        |5649  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1445 |618            |624   |49                         |46       |10                |25         |15        |-                          |2832  |
+#'  |2000  |1398 |687            |544   |92                         |45       |12                |22         |17        |-                          |2817  |
+#'  |Total |2843 |1305           |1168  |141                        |91       |22                |47         |32        |0                          |5649  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -117,10 +117,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |1998  |1445 |174            |356   |267                        |400      |124               |50         |16        |2832  |
-#'  |Total |1445 |174            |356   |267                        |400      |124               |50         |16        |2832  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1445 |174            |356   |267                        |400      |124               |50         |16        |-                          |2832  |
+#'  |Total |1445 |174            |356   |267                        |400      |124               |50         |16        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -162,11 +162,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |1998  |1445 |175            |513   |231                        |341      |69                |44         |14        |2832  |
-#'  |2000  |1398 |193            |462   |347                        |307      |60                |32         |18        |2817  |
-#'  |Total |2843 |368            |975   |578                        |648      |129               |76         |32        |5649  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1445 |175            |513   |231                        |341      |69                |44         |14        |-                          |2832  |
+#'  |2000  |1398 |193            |462   |347                        |307      |60                |32         |18        |-                          |2817  |
+#'  |Total |2843 |368            |975   |578                        |648      |129               |76         |32        |0                          |5649  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -207,10 +207,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |1998  |1445 |188            |498   |238                        |348      |64                |37         |14        |2832  |
-#'  |Total |1445 |188            |498   |238                        |348      |64                |37         |14        |2832  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1445 |188            |498   |238                        |348      |64                |37         |14        |-                          |2832  |
+#'  |Total |1445 |188            |498   |238                        |348      |64                |37         |14        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -251,10 +251,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |1998  |1445 |121            |468   |250                        |372      |103               |59         |14        |2832  |
-#'  |Total |1445 |121            |468   |250                        |372      |103               |59         |14        |2832  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1445 |121            |468   |250                        |372      |103               |59         |14        |-                          |2832  |
+#'  |Total |1445 |121            |468   |250                        |372      |103               |59         |14        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -294,10 +294,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2000  |1398 |185            |411   |286                        |386      |98                |37           |16        |2817  |
-#'  |Total |1398 |185            |411   |286                        |386      |98                |37           |16        |2817  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |185            |411   |286                        |386      |98                |37           |16        |-                          |2817  |
+#'  |Total |1398 |185            |411   |286                        |386      |98                |37           |16        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -337,10 +337,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2000  |1398 |301            |590   |227                        |209      |37                |38           |17        |2817  |
-#'  |Total |1398 |301            |590   |227                        |209      |37                |38           |17        |2817  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |301            |590   |227                        |209      |37                |38           |17        |-                          |2817  |
+#'  |Total |1398 |301            |590   |227                        |209      |37                |38           |17        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -380,10 +380,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2000  |1398 |276            |629   |209                        |210      |32                |45           |18        |2817  |
-#'  |Total |1398 |276            |629   |209                        |210      |32                |45           |18        |2817  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |276            |629   |209                        |210      |32                |45           |18        |-                          |2817  |
+#'  |Total |1398 |276            |629   |209                        |210      |32                |45           |18        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -423,10 +423,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2000  |1398 |140            |277   |253                        |469      |213               |46           |21        |2817  |
-#'  |Total |1398 |140            |277   |253                        |469      |213               |46           |21        |2817  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |140            |277   |253                        |469      |213               |46           |21        |-                          |2817  |
+#'  |Total |1398 |140            |277   |253                        |469      |213               |46           |21        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security

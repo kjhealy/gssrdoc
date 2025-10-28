@@ -35,12 +35,12 @@ Question How close do you feel to…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4819/vshow}{GSS Data Explorer page for \code{clseusa}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very close \tab close \tab not very close \tab not close at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 463 \tab 596 \tab 200 \tab 48 \tab 31 \tab 29 \tab 2904 \cr
-   2004 \tab 1596 \tab 623 \tab 442 \tab 102 \tab 23 \tab 25 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 539 \tab 518 \tab 141 \tab 41 \tab 32 \tab 3 \tab 2538 \cr
-   Total \tab 4397 \tab 1625 \tab 1556 \tab 443 \tab 112 \tab 88 \tab 33 \tab 8254 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very close \tab close \tab not very close \tab not close at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1537 \tab 463 \tab 596 \tab 200 \tab 48 \tab 31 \tab 29 \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 623 \tab 442 \tab 102 \tab 23 \tab 25 \tab 1 \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 539 \tab 518 \tab 141 \tab 41 \tab 32 \tab 3 \tab - \tab 2538 \cr
+   Total \tab 4397 \tab 1625 \tab 1556 \tab 443 \tab 112 \tab 88 \tab 33 \tab 0 \tab 8254 \cr
 }
 }
 

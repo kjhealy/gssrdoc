@@ -36,10 +36,10 @@ G. When you think about the United States, how often do you feel UPSET? Do you f
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1795/vshow}{GSS Data Explorer page for \code{usupset}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab always \tab most of the time \tab some of the time \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2199 \tab 14 \tab 47 \tab 344 \tab 214 \tab 80 \tab 5 \tab 1 \tab 2904 \cr
-   Total \tab 2199 \tab 14 \tab 47 \tab 344 \tab 214 \tab 80 \tab 5 \tab 1 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab always \tab most of the time \tab some of the time \tab rarely \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2199 \tab 14 \tab 47 \tab 344 \tab 214 \tab 80 \tab 5 \tab 1 \tab - \tab 2904 \cr
+   Total \tab 2199 \tab 14 \tab 47 \tab 344 \tab 214 \tab 80 \tab 5 \tab 1 \tab 0 \tab 2904 \cr
 }
 }
 

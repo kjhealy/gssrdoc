@@ -36,10 +36,10 @@ A. Prime-time drama or situation comedy programs.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1419/vshow}{GSS Data Explorer page for \code{tvshows}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab daily \tab sevrl days in week \tab sevrl days in month \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 336 \tab 587 \tab 275 \tab 296 \tab 101 \tab 3 \tab 8 \tab 1606 \cr
-   Total \tab 0 \tab 336 \tab 587 \tab 275 \tab 296 \tab 101 \tab 3 \tab 8 \tab 1606 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab daily \tab sevrl days in week \tab sevrl days in month \tab rarely \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 336 \tab 587 \tab 275 \tab 296 \tab 101 \tab 3 \tab 8 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 336 \tab 587 \tab 275 \tab 296 \tab 101 \tab 3 \tab 8 \tab 0 \tab 1606 \cr
 }
 }
 

@@ -37,10 +37,10 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7954/vshow}{GSS Data Explorer page for \code{pandinc}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab increased a lot \tab increased a little \tab stay about the same \tab decreased a little \tab decreased a lot \tab can't choose \tab skipped on web \tab Total \cr
-   2022 \tab 2309 \tab 94 \tab 265 \tab 509 \tab 161 \tab 173 \tab 31 \tab 2 \tab 3544 \cr
-   Total \tab 2309 \tab 94 \tab 265 \tab 509 \tab 161 \tab 173 \tab 31 \tab 2 \tab 3544 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab increased a lot \tab increased a little \tab stay about the same \tab decreased a little \tab decreased a lot \tab can't choose \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 94 \tab 265 \tab 509 \tab 161 \tab 173 \tab 31 \tab 2309 \tab 2 \tab 3544 \cr
+   Total \tab 0 \tab 94 \tab 265 \tab 509 \tab 161 \tab 173 \tab 31 \tab 2309 \tab 2 \tab 3544 \cr
 }
 }
 

@@ -34,29 +34,29 @@ A. Are there any (Negro/Black/African-American) families living close to you?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/389/vshow}{GSS Data Explorer page for \code{racclos}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab yes \tab no \tab iap \tab no answer \tab don't know \tab Total \cr
-   1972 \tab 283 \tab 100 \tab 1226 \tab 4 \tab - \tab 1613 \cr
-   1973 \tab 369 \tab 148 \tab 980 \tab 7 \tab - \tab 1504 \cr
-   1974 \tab 377 \tab 173 \tab 929 \tab 4 \tab 1 \tab 1484 \cr
-   1975 \tab 307 \tab 125 \tab 1053 \tab 5 \tab - \tab 1490 \cr
-   1976 \tab 417 \tab 158 \tab 916 \tab 7 \tab 1 \tab 1499 \cr
-   1977 \tab 371 \tab 153 \tab 994 \tab 12 \tab - \tab 1530 \cr
-   1978 \tab 543 \tab 202 \tab 785 \tab 2 \tab - \tab 1532 \cr
-   1980 \tab 495 \tab 178 \tab 791 \tab 3 \tab 1 \tab 1468 \cr
-   1982 \tab 721 \tab 212 \tab 918 \tab 8 \tab 1 \tab 1860 \cr
-   1983 \tab 521 \tab 227 \tab 845 \tab 6 \tab - \tab 1599 \cr
-   1984 \tab 573 \tab 164 \tab 719 \tab 17 \tab - \tab 1473 \cr
-   1985 \tab 542 \tab 183 \tab 793 \tab 16 \tab - \tab 1534 \cr
-   1986 \tab 506 \tab 185 \tab 767 \tab 8 \tab 4 \tab 1470 \cr
-   1987 \tab 954 \tab 814 \tab - \tab 51 \tab - \tab 1819 \cr
-   1988 \tab 621 \tab 155 \tab 686 \tab 16 \tab 3 \tab 1481 \cr
-   1989 \tab 560 \tab 217 \tab 741 \tab 19 \tab - \tab 1537 \cr
-   1990 \tab 559 \tab 171 \tab 625 \tab 15 \tab 2 \tab 1372 \cr
-   1991 \tab 600 \tab 176 \tab 714 \tab 25 \tab 2 \tab 1517 \cr
-   1993 \tab 699 \tab 235 \tab 641 \tab 25 \tab 6 \tab 1606 \cr
-   1994 \tab 333 \tab 100 \tab 2541 \tab 16 \tab 2 \tab 2992 \cr
-   Total \tab 10351 \tab 4076 \tab 17664 \tab 266 \tab 23 \tab 32380 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab yes \tab no \tab iap \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1972 \tab 283 \tab 100 \tab 1226 \tab 4 \tab - \tab - \tab 1613 \cr
+   1973 \tab 369 \tab 148 \tab 980 \tab 7 \tab - \tab - \tab 1504 \cr
+   1974 \tab 377 \tab 173 \tab 929 \tab 4 \tab 1 \tab - \tab 1484 \cr
+   1975 \tab 307 \tab 125 \tab 1053 \tab 5 \tab - \tab - \tab 1490 \cr
+   1976 \tab 417 \tab 158 \tab 916 \tab 7 \tab 1 \tab - \tab 1499 \cr
+   1977 \tab 371 \tab 153 \tab 994 \tab 12 \tab - \tab - \tab 1530 \cr
+   1978 \tab 543 \tab 202 \tab 785 \tab 2 \tab - \tab - \tab 1532 \cr
+   1980 \tab 495 \tab 178 \tab 791 \tab 3 \tab 1 \tab - \tab 1468 \cr
+   1982 \tab 721 \tab 212 \tab 918 \tab 8 \tab 1 \tab - \tab 1860 \cr
+   1983 \tab 521 \tab 227 \tab 845 \tab 6 \tab - \tab - \tab 1599 \cr
+   1984 \tab 573 \tab 164 \tab 719 \tab 17 \tab - \tab - \tab 1473 \cr
+   1985 \tab 542 \tab 183 \tab 793 \tab 16 \tab - \tab - \tab 1534 \cr
+   1986 \tab 506 \tab 185 \tab 767 \tab 8 \tab 4 \tab - \tab 1470 \cr
+   1987 \tab 954 \tab 814 \tab - \tab 51 \tab - \tab - \tab 1819 \cr
+   1988 \tab 621 \tab 155 \tab 686 \tab 16 \tab 3 \tab - \tab 1481 \cr
+   1989 \tab 560 \tab 217 \tab 741 \tab 19 \tab - \tab - \tab 1537 \cr
+   1990 \tab 559 \tab 171 \tab 625 \tab 15 \tab 2 \tab - \tab 1372 \cr
+   1991 \tab 600 \tab 176 \tab 714 \tab 25 \tab 2 \tab - \tab 1517 \cr
+   1993 \tab 699 \tab 235 \tab 641 \tab 25 \tab 6 \tab - \tab 1606 \cr
+   1994 \tab 333 \tab 100 \tab 2541 \tab 16 \tab 2 \tab - \tab 2992 \cr
+   Total \tab 10351 \tab 4076 \tab 17664 \tab 266 \tab 23 \tab 0 \tab 32380 \cr
 }
 }
 

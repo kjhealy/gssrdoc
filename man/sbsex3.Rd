@@ -33,10 +33,10 @@ B3. Sex of third sibling.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1547/vshow}{GSS Data Explorer page for \code{sbsex3}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1297 \tab 802 \tab 852 \tab 1 \tab 40 \tab 2992 \cr
-   Total \tab 1297 \tab 802 \tab 852 \tab 1 \tab 40 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1297 \tab 802 \tab 852 \tab 1 \tab 40 \tab - \tab 2992 \cr
+   Total \tab 1297 \tab 802 \tab 852 \tab 1 \tab 40 \tab 0 \tab 2992 \cr
 }
 }
 

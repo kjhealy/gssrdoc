@@ -35,12 +35,12 @@ Question I. In 2000, you remember that Gore ran for President on the Democratic 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/168/vshow}{GSS Data Explorer page for \code{if00who}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab gore \tab bush \tab nader \tab other \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1770 \tab 352 \tab 385 \tab 26 \tab 124 \tab 66 \tab 42 \tab 2765 \cr
-   2004 \tab 1737 \tab 404 \tab 419 \tab 32 \tab 98 \tab 65 \tab 57 \tab 2812 \cr
-   2006 \tab 3345 \tab 423 \tab 349 \tab 37 \tab 154 \tab 125 \tab 77 \tab 4510 \cr
-   Total \tab 6852 \tab 1179 \tab 1153 \tab 95 \tab 376 \tab 256 \tab 176 \tab 10087 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab gore \tab bush \tab nader \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1770 \tab 352 \tab 385 \tab 26 \tab 124 \tab 66 \tab 42 \tab - \tab 2765 \cr
+   2004 \tab 1737 \tab 404 \tab 419 \tab 32 \tab 98 \tab 65 \tab 57 \tab - \tab 2812 \cr
+   2006 \tab 3345 \tab 423 \tab 349 \tab 37 \tab 154 \tab 125 \tab 77 \tab - \tab 4510 \cr
+   Total \tab 6852 \tab 1179 \tab 1153 \tab 95 \tab 376 \tab 256 \tab 176 \tab 0 \tab 10087 \cr
 }
 }
 

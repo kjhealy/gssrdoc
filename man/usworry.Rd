@@ -36,10 +36,10 @@ A. How often do you feel WORRIED? Do you feel worried:
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1789/vshow}{GSS Data Explorer page for \code{usworry}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab always \tab most of the time \tab some of the time \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2199 \tab 34 \tab 97 \tab 355 \tab 153 \tab 61 \tab 4 \tab 1 \tab 2904 \cr
-   Total \tab 2199 \tab 34 \tab 97 \tab 355 \tab 153 \tab 61 \tab 4 \tab 1 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab always \tab most of the time \tab some of the time \tab rarely \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2199 \tab 34 \tab 97 \tab 355 \tab 153 \tab 61 \tab 4 \tab 1 \tab - \tab 2904 \cr
+   Total \tab 2199 \tab 34 \tab 97 \tab 355 \tab 153 \tab 61 \tab 4 \tab 1 \tab 0 \tab 2904 \cr
 }
 }
 

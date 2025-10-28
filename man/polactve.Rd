@@ -36,11 +36,11 @@ A. Political parties encourage people to become active in politics
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4952/vshow}{GSS Data Explorer page for \code{polactve}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 178 \tab 738 \tab 317 \tab 194 \tab 23 \tab 15 \tab 7 \tab 2812 \cr
-   2014 \tab 1274 \tab 92 \tab 508 \tab 346 \tab 198 \tab 40 \tab 74 \tab 6 \tab 2538 \cr
-   Total \tab 2614 \tab 270 \tab 1246 \tab 663 \tab 392 \tab 63 \tab 89 \tab 13 \tab 5350 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 178 \tab 738 \tab 317 \tab 194 \tab 23 \tab 15 \tab 7 \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 92 \tab 508 \tab 346 \tab 198 \tab 40 \tab 74 \tab 6 \tab - \tab 2538 \cr
+   Total \tab 2614 \tab 270 \tab 1246 \tab 663 \tab 392 \tab 63 \tab 89 \tab 13 \tab 0 \tab 5350 \cr
 }
 }
 

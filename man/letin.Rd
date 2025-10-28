@@ -35,11 +35,11 @@ Question Do you think the number of immigrants from foreign countries who are pe
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1611/vshow}{GSS Data Explorer page for \code{letin}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab increased a lot \tab increased a little \tab left the same as it is now \tab decreased a little \tab decreased a lot \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 35 \tab 53 \tab 395 \tab 407 \tab 507 \tab 69 \tab 8 \tab 2992 \cr
-   2000 \tab 1419 \tab 50 \tab 74 \tab 612 \tab 281 \tab 301 \tab 76 \tab 4 \tab 2817 \cr
-   Total \tab 2937 \tab 85 \tab 127 \tab 1007 \tab 688 \tab 808 \tab 145 \tab 12 \tab 5809 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab increased a lot \tab increased a little \tab left the same as it is now \tab decreased a little \tab decreased a lot \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 35 \tab 53 \tab 395 \tab 407 \tab 507 \tab 69 \tab 8 \tab - \tab 2992 \cr
+   2000 \tab 1419 \tab 50 \tab 74 \tab 612 \tab 281 \tab 301 \tab 76 \tab 4 \tab - \tab 2817 \cr
+   Total \tab 2937 \tab 85 \tab 127 \tab 1007 \tab 688 \tab 808 \tab 145 \tab 12 \tab 0 \tab 5809 \cr
 }
 }
 

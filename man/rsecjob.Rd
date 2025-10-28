@@ -38,13 +38,13 @@ A. My job is secure
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4541/vshow}{GSS Data Explorer page for \code{rsecjob}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 248 \tab 409 \tab 116 \tab 74 \tab 21 \tab 6 \tab 24 \tab 1537 \cr
-   1998 \tab 1967 \tab 197 \tab 377 \tab 127 \tab 96 \tab 24 \tab 7 \tab 37 \tab 2832 \cr
-   2006 \tab 3492 \tab 288 \tab 431 \tab 129 \tab 137 \tab 25 \tab 6 \tab 2 \tab 4510 \cr
-   2016 \tab 1927 \tab 316 \tab 392 \tab 121 \tab 84 \tab 21 \tab 1 \tab 5 \tab 2867 \cr
-   Total \tab 8025 \tab 1049 \tab 1609 \tab 493 \tab 391 \tab 91 \tab 20 \tab 68 \tab 11746 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 248 \tab 409 \tab 116 \tab 74 \tab 21 \tab 6 \tab 24 \tab - \tab 1537 \cr
+   1998 \tab 1967 \tab 197 \tab 377 \tab 127 \tab 96 \tab 24 \tab 7 \tab 37 \tab - \tab 2832 \cr
+   2006 \tab 3492 \tab 288 \tab 431 \tab 129 \tab 137 \tab 25 \tab 6 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 316 \tab 392 \tab 121 \tab 84 \tab 21 \tab 1 \tab 5 \tab - \tab 2867 \cr
+   Total \tab 8025 \tab 1049 \tab 1609 \tab 493 \tab 391 \tab 91 \tab 20 \tab 68 \tab 0 \tab 11746 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question When talking about your religion, how often do you say we instead of th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7528/vshow}{GSS Data Explorer page for \code{relidwe}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab never \tab rarely \tab some of the time \tab most of the time \tab all of the time \tab don't know \tab no answer \tab skipped on web \tab see codebook \tab Total \cr
-   2021 \tab 393 \tab 785 \tab 586 \tab 857 \tab 735 \tab 469 \tab 21 \tab 6 \tab 82 \tab 98 \tab 4032 \cr
-   Total \tab 393 \tab 785 \tab 586 \tab 857 \tab 735 \tab 469 \tab 21 \tab 6 \tab 82 \tab 98 \tab 4032 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab never \tab rarely \tab some of the time \tab most of the time \tab all of the time \tab don't know \tab no answer \tab skipped on web \tab see codebook \tab not available in this year \tab Total \cr
+   2021 \tab 393 \tab 785 \tab 586 \tab 857 \tab 735 \tab 469 \tab 21 \tab 6 \tab 82 \tab 98 \tab - \tab 4032 \cr
+   Total \tab 393 \tab 785 \tab 586 \tab 857 \tab 735 \tab 469 \tab 21 \tab 6 \tab 82 \tab 98 \tab 0 \tab 4032 \cr
 }
 }
 

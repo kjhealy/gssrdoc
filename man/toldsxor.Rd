@@ -39,10 +39,10 @@ Question At about what age were you when you first told someone that you were (g
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3909/vshow}{GSS Data Explorer page for \code{toldsxor}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab under age 14 \tab age 14-18 \tab age 18-25 \tab age 26-35 \tab age 36-45 \tab age 56-65 \tab i have never told anyone \tab no answer \tab Total \cr
-   2008 \tab 1942 \tab 3 \tab 10 \tab 20 \tab 10 \tab 3 \tab 3 \tab 9 \tab 23 \tab 2023 \cr
-   Total \tab 1942 \tab 3 \tab 10 \tab 20 \tab 10 \tab 3 \tab 3 \tab 9 \tab 23 \tab 2023 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab under age 14 \tab age 14-18 \tab age 18-25 \tab age 26-35 \tab age 36-45 \tab age 56-65 \tab i have never told anyone \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1942 \tab 3 \tab 10 \tab 20 \tab 10 \tab 3 \tab 3 \tab 9 \tab 23 \tab - \tab 2023 \cr
+   Total \tab 1942 \tab 3 \tab 10 \tab 20 \tab 10 \tab 3 \tab 3 \tab 9 \tab 23 \tab 0 \tab 2023 \cr
 }
 }
 

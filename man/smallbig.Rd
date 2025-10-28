@@ -35,12 +35,12 @@ B. Working in a small firm (or) working in a large firm
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4525/vshow}{GSS Data Explorer page for \code{smallbig}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab small \tab big \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 84 \tab 745 \tab 474 \tab 194 \tab 40 \tab 1537 \cr
-   1998 \tab 1609 \tab 727 \tab 308 \tab 159 \tab 29 \tab 2832 \cr
-   2006 \tab 2992 \tab 1010 \tab 455 \tab 48 \tab 5 \tab 4510 \cr
-   Total \tab 4685 \tab 2482 \tab 1237 \tab 401 \tab 74 \tab 8879 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab small \tab big \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 84 \tab 745 \tab 474 \tab 194 \tab 40 \tab - \tab 1537 \cr
+   1998 \tab 1609 \tab 727 \tab 308 \tab 159 \tab 29 \tab - \tab 2832 \cr
+   2006 \tab 2992 \tab 1010 \tab 455 \tab 48 \tab 5 \tab - \tab 4510 \cr
+   Total \tab 4685 \tab 2482 \tab 1237 \tab 401 \tab 74 \tab 0 \tab 8879 \cr
 }
 }
 

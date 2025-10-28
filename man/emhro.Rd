@@ -33,11 +33,11 @@ D. Sending or receiving e-mail?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2592/vshow}{GSS Data Explorer page for \code{emhro}}.
 
-Counts by year:\tabular{lllllllllllllllll}{
-   year \tab iap \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 8 \tab no answer \tab 20 \tab 25 \tab 30 \tab 7 \tab don't know \tab Total \cr
-   2000 \tab 2731 \tab 13 \tab 1 \tab 7 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 57 \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2579 \tab 51 \tab 6 \tab 32 \tab 18 \tab 7 \tab 16 \tab 1 \tab 3 \tab 44 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 2765 \cr
-   Total \tab 5310 \tab 64 \tab 7 \tab 39 \tab 21 \tab 8 \tab 18 \tab 2 \tab 4 \tab 101 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 5582 \cr
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 8 \tab no answer \tab 20 \tab 25 \tab 30 \tab 7 \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2731 \tab 13 \tab 1 \tab 7 \tab 3 \tab 1 \tab 2 \tab 1 \tab 1 \tab 57 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2579 \tab 51 \tab 6 \tab 32 \tab 18 \tab 7 \tab 16 \tab 1 \tab 3 \tab 44 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab - \tab 2765 \cr
+   Total \tab 5310 \tab 64 \tab 7 \tab 39 \tab 21 \tab 8 \tab 18 \tab 2 \tab 4 \tab 101 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 0 \tab 5582 \cr
 }
 }
 

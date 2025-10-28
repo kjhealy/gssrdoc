@@ -35,10 +35,10 @@ K. Looked up the views of a political candidate for office?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2542/vshow}{GSS Data Explorer page for \code{polcangn}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 942 \tab 198 \tab 138 \tab 103 \tab 6 \tab 6 \tab 2765 \cr
-   Total \tab 1372 \tab 942 \tab 198 \tab 138 \tab 103 \tab 6 \tab 6 \tab 2765 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1372 \tab 942 \tab 198 \tab 138 \tab 103 \tab 6 \tab 6 \tab - \tab 2765 \cr
+   Total \tab 1372 \tab 942 \tab 198 \tab 138 \tab 103 \tab 6 \tab 6 \tab 0 \tab 2765 \cr
 }
 }
 

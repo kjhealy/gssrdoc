@@ -33,10 +33,10 @@ A. Do you know any of these Jews from when you went to school or college?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2345/vshow}{GSS Data Explorer page for \code{jewsschl}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2015 \tab 331 \tab 391 \tab 6 \tab 74 \tab 2817 \cr
-   Total \tab 2015 \tab 331 \tab 391 \tab 6 \tab 74 \tab 2817 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2015 \tab 331 \tab 391 \tab 6 \tab 74 \tab - \tab 2817 \cr
+   Total \tab 2015 \tab 331 \tab 391 \tab 6 \tab 74 \tab 0 \tab 2817 \cr
 }
 }
 

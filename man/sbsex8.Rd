@@ -33,10 +33,10 @@ B8. Sex of eighth sibling.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1552/vshow}{GSS Data Explorer page for \code{sbsex8}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2702 \tab 137 \tab 132 \tab 2 \tab 19 \tab 2992 \cr
-   Total \tab 2702 \tab 137 \tab 132 \tab 2 \tab 19 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2702 \tab 137 \tab 132 \tab 2 \tab 19 \tab - \tab 2992 \cr
+   Total \tab 2702 \tab 137 \tab 132 \tab 2 \tab 19 \tab 0 \tab 2992 \cr
 }
 }
 

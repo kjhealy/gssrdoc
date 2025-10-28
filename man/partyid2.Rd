@@ -35,10 +35,10 @@ Question Is (NAME) a Democrat, a Republican, an Independent, or what?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/956/vshow}{GSS Data Explorer page for \code{partyid2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab democrat \tab republican \tab independent \tab other \tab don't know \tab no answer \tab Total \cr
-   1987 \tab 385 \tab 585 \tab 282 \tab 143 \tab 37 \tab 357 \tab 30 \tab 1819 \cr
-   Total \tab 385 \tab 585 \tab 282 \tab 143 \tab 37 \tab 357 \tab 30 \tab 1819 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab democrat \tab republican \tab independent \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 385 \tab 585 \tab 282 \tab 143 \tab 37 \tab 357 \tab 30 \tab - \tab 1819 \cr
+   Total \tab 385 \tab 585 \tab 282 \tab 143 \tab 37 \tab 357 \tab 30 \tab 0 \tab 1819 \cr
 }
 }
 

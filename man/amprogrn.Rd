@@ -33,10 +33,10 @@ Question Some countries are doing more to protect the world environment than oth
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4783/vshow}{GSS Data Explorer page for \code{amprogrn}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab more than enough \tab about the right amount \tab or, too little \tab can't choose \tab no answer \tab Total \cr
-   2000 \tab 1541 \tab 132 \tab 453 \tab 489 \tab 101 \tab 101 \tab 2817 \cr
-   Total \tab 1541 \tab 132 \tab 453 \tab 489 \tab 101 \tab 101 \tab 2817 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab more than enough \tab about the right amount \tab or, too little \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1541 \tab 132 \tab 453 \tab 489 \tab 101 \tab 101 \tab - \tab 2817 \cr
+   Total \tab 1541 \tab 132 \tab 453 \tab 489 \tab 101 \tab 101 \tab 0 \tab 2817 \cr
 }
 }
 

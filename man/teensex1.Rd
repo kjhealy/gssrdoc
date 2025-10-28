@@ -34,10 +34,10 @@ Question What if they are in their early teens, say under 16 years old, in that 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4415/vshow}{GSS Data Explorer page for \code{teensex1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab always wrong \tab almost always wrong \tab wrong only sometimes \tab not wrong at all \tab can't choose \tab no answer \tab Total \cr
-   1994 \tab 1545 \tab 927 \tab 215 \tab 114 \tab 54 \tab 48 \tab 89 \tab 2992 \cr
-   Total \tab 1545 \tab 927 \tab 215 \tab 114 \tab 54 \tab 48 \tab 89 \tab 2992 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always wrong \tab almost always wrong \tab wrong only sometimes \tab not wrong at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1545 \tab 927 \tab 215 \tab 114 \tab 54 \tab 48 \tab 89 \tab - \tab 2992 \cr
+   Total \tab 1545 \tab 927 \tab 215 \tab 114 \tab 54 \tab 48 \tab 89 \tab 0 \tab 2992 \cr
 }
 }
 

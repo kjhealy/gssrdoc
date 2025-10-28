@@ -37,11 +37,12 @@ E. People like (NAME) are unpredictable.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3766/vshow}{GSS Data Explorer page for \code{mhunsure}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 96 \tab 612 \tab 508 \tab 170 \tab 30 \tab 9 \tab 4510 \cr
-   2018 \tab 1175 \tab 251 \tab 498 \tab 281 \tab 79 \tab 35 \tab 29 \tab 2348 \cr
-   Total \tab 4260 \tab 347 \tab 1110 \tab 789 \tab 249 \tab 65 \tab 38 \tab 6858 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2006 \tab 3085 \tab 96 \tab 612 \tab 508 \tab 170 \tab 30 \tab 9 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 251 \tab 498 \tab 281 \tab 79 \tab 35 \tab 29 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1692 \tab 266 \tab 757 \tab 435 \tab 85 \tab 38 \tab 13 \tab - \tab 23 \tab 3309 \cr
+   Total \tab 5952 \tab 613 \tab 1867 \tab 1224 \tab 334 \tab 103 \tab 51 \tab 0 \tab 23 \tab 10167 \cr
 }
 }
 

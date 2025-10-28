@@ -34,10 +34,10 @@ Question How many languages do you speak well enough to hold a conversation in, 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7277/vshow}{GSS Data Explorer page for \code{numlangs}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab one language \tab two languages \tab three languages \tab four or more languages \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 920 \tab 213 \tab 29 \tab 7 \tab 3 \tab 1 \tab 2348 \cr
-   Total \tab 1175 \tab 920 \tab 213 \tab 29 \tab 7 \tab 3 \tab 1 \tab 2348 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab one language \tab two languages \tab three languages \tab four or more languages \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 920 \tab 213 \tab 29 \tab 7 \tab 3 \tab 1 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 920 \tab 213 \tab 29 \tab 7 \tab 3 \tab 1 \tab 0 \tab 2348 \cr
 }
 }
 

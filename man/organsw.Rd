@@ -39,10 +39,10 @@ B. Which of these procedures would be the worst way to assign an organ? (CODE ON
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1867/vshow}{GSS Data Explorer page for \code{organsw}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab auction \tab first come-first served \tab lottery \tab merit \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 1102 \tab 16 \tab 110 \tab 171 \tab 37 \tab 8 \tab 2904 \cr
-   Total \tab 1460 \tab 1102 \tab 16 \tab 110 \tab 171 \tab 37 \tab 8 \tab 2904 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab auction \tab first come-first served \tab lottery \tab merit \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1460 \tab 1102 \tab 16 \tab 110 \tab 171 \tab 37 \tab 8 \tab - \tab 2904 \cr
+   Total \tab 1460 \tab 1102 \tab 16 \tab 110 \tab 171 \tab 37 \tab 8 \tab 0 \tab 2904 \cr
 }
 }
 

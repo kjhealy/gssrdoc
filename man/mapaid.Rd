@@ -36,11 +36,11 @@ A. Working women should receive paid maternity leave when they have a baby.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4412/vshow}{GSS Data Explorer page for \code{mapaid}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1994 \tab 1545 \tab 384 \tab 633 \tab 148 \tab 150 \tab 26 \tab 26 \tab 80 \tab 2992 \cr
-   2002 \tab 1594 \tab 571 \tab 411 \tab 98 \tab 56 \tab 19 \tab 15 \tab 1 \tab 2765 \cr
-   Total \tab 3139 \tab 955 \tab 1044 \tab 246 \tab 206 \tab 45 \tab 41 \tab 81 \tab 5757 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1545 \tab 384 \tab 633 \tab 148 \tab 150 \tab 26 \tab 26 \tab 80 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 571 \tab 411 \tab 98 \tab 56 \tab 19 \tab 15 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 3139 \tab 955 \tab 1044 \tab 246 \tab 206 \tab 45 \tab 41 \tab 81 \tab 0 \tab 5757 \cr
 }
 }
 

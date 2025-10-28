@@ -35,10 +35,10 @@ Question In general, how much confidence do you have in the health care system i
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7789/vshow}{GSS Data Explorer page for \code{conhlth}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab Total \cr
-   2022 \tab 2397 \tab 60 \tab 225 \tab 544 \tab 227 \tab 91 \tab 3544 \cr
-   Total \tab 2397 \tab 60 \tab 225 \tab 544 \tab 227 \tab 91 \tab 3544 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab complete confidence \tab a great deal of confidence \tab some confidence \tab very little confidence \tab no confidence at all \tab can't choose \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 60 \tab 225 \tab 544 \tab 227 \tab 91 \tab 15 \tab 2378 \tab 4 \tab 3544 \cr
+   Total \tab 0 \tab 60 \tab 225 \tab 544 \tab 227 \tab 91 \tab 15 \tab 2378 \tab 4 \tab 3544 \cr
 }
 }
 

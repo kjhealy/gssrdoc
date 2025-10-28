@@ -33,10 +33,10 @@ A. Where would you rate Whites in general on this scale?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2261/vshow}{GSS Data Explorer page for \code{famwhts}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab commitment to strong families \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab lacks commitment to strong families \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 131 \tab 271 \tab 318 \tab 434 \tab 127 \tab 48 \tab 10 \tab 47 \tab 12 \tab 2817 \cr
-   Total \tab 1419 \tab 131 \tab 271 \tab 318 \tab 434 \tab 127 \tab 48 \tab 10 \tab 47 \tab 12 \tab 2817 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab commitment to strong families \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab lacks commitment to strong families \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 131 \tab 271 \tab 318 \tab 434 \tab 127 \tab 48 \tab 10 \tab 47 \tab 12 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 131 \tab 271 \tab 318 \tab 434 \tab 127 \tab 48 \tab 10 \tab 47 \tab 12 \tab 0 \tab 2817 \cr
 }
 }
 

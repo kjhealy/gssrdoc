@@ -33,26 +33,26 @@ Question Do you approve or disapprove of a married woman earning money in busine
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/589/vshow}{GSS Data Explorer page for \code{fework}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab approve \tab disapprove \tab don't know \tab no answer \tab iap \tab Total \cr
-   1972 \tab 1031 \tab 546 \tab 34 \tab 2 \tab - \tab 1613 \cr
-   1974 \tab 1002 \tab 447 \tab 29 \tab 6 \tab - \tab 1484 \cr
-   1975 \tab 1039 \tab 423 \tab 23 \tab 5 \tab - \tab 1490 \cr
-   1977 \tab 999 \tab 507 \tab 22 \tab 2 \tab - \tab 1530 \cr
-   1978 \tab 1107 \tab 402 \tab 21 \tab 2 \tab - \tab 1532 \cr
-   1982 \tab 1360 \tab 464 \tab 35 \tab 1 \tab - \tab 1860 \cr
-   1983 \tab 1196 \tab 365 \tab 32 \tab 6 \tab - \tab 1599 \cr
-   1985 \tab 1286 \tab 202 \tab 36 \tab 10 \tab - \tab 1534 \cr
-   1986 \tab 1123 \tab 319 \tab 23 \tab 5 \tab - \tab 1470 \cr
-   1988 \tab 773 \tab 188 \tab 20 \tab 7 \tab 493 \tab 1481 \cr
-   1989 \tab 774 \tab 208 \tab 18 \tab 6 \tab 531 \tab 1537 \cr
-   1990 \tab 739 \tab 163 \tab 19 \tab 7 \tab 444 \tab 1372 \cr
-   1991 \tab 801 \tab 196 \tab 23 \tab 4 \tab 493 \tab 1517 \cr
-   1993 \tab 849 \tab 207 \tab 22 \tab 2 \tab 526 \tab 1606 \cr
-   1994 \tab 1569 \tab 364 \tab 34 \tab 10 \tab 1015 \tab 2992 \cr
-   1996 \tab 1595 \tab 320 \tab 37 \tab 8 \tab 944 \tab 2904 \cr
-   1998 \tab 1510 \tab 327 \tab 27 \tab 7 \tab 961 \tab 2832 \cr
-   Total \tab 18753 \tab 5648 \tab 455 \tab 90 \tab 5407 \tab 30353 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab approve \tab disapprove \tab don't know \tab no answer \tab iap \tab not available in this year \tab Total \cr
+   1972 \tab 1031 \tab 546 \tab 34 \tab 2 \tab - \tab - \tab 1613 \cr
+   1974 \tab 1002 \tab 447 \tab 29 \tab 6 \tab - \tab - \tab 1484 \cr
+   1975 \tab 1039 \tab 423 \tab 23 \tab 5 \tab - \tab - \tab 1490 \cr
+   1977 \tab 999 \tab 507 \tab 22 \tab 2 \tab - \tab - \tab 1530 \cr
+   1978 \tab 1107 \tab 402 \tab 21 \tab 2 \tab - \tab - \tab 1532 \cr
+   1982 \tab 1360 \tab 464 \tab 35 \tab 1 \tab - \tab - \tab 1860 \cr
+   1983 \tab 1196 \tab 365 \tab 32 \tab 6 \tab - \tab - \tab 1599 \cr
+   1985 \tab 1286 \tab 202 \tab 36 \tab 10 \tab - \tab - \tab 1534 \cr
+   1986 \tab 1123 \tab 319 \tab 23 \tab 5 \tab - \tab - \tab 1470 \cr
+   1988 \tab 773 \tab 188 \tab 20 \tab 7 \tab 493 \tab - \tab 1481 \cr
+   1989 \tab 774 \tab 208 \tab 18 \tab 6 \tab 531 \tab - \tab 1537 \cr
+   1990 \tab 739 \tab 163 \tab 19 \tab 7 \tab 444 \tab - \tab 1372 \cr
+   1991 \tab 801 \tab 196 \tab 23 \tab 4 \tab 493 \tab - \tab 1517 \cr
+   1993 \tab 849 \tab 207 \tab 22 \tab 2 \tab 526 \tab - \tab 1606 \cr
+   1994 \tab 1569 \tab 364 \tab 34 \tab 10 \tab 1015 \tab - \tab 2992 \cr
+   1996 \tab 1595 \tab 320 \tab 37 \tab 8 \tab 944 \tab - \tab 2904 \cr
+   1998 \tab 1510 \tab 327 \tab 27 \tab 7 \tab 961 \tab - \tab 2832 \cr
+   Total \tab 18753 \tab 5648 \tab 455 \tab 90 \tab 5407 \tab 0 \tab 30353 \cr
 }
 }
 

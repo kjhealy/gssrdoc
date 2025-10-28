@@ -35,13 +35,13 @@ B. Criminal arrests and convictions
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5209/vshow}{GSS Data Explorer page for \code{askcrime}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 1301 \tab 130 \tab 9 \tab 7 \tab 16 \tab 11 \tab 2992 \cr
-   1996 \tab 1444 \tab 1284 \tab 124 \tab 19 \tab 6 \tab 23 \tab 4 \tab 2904 \cr
-   1998 \tab 1445 \tab 1131 \tab 189 \tab 25 \tab 11 \tab 23 \tab 8 \tab 2832 \cr
-   2000 \tab 1398 \tab 1188 \tab 158 \tab 21 \tab 11 \tab 32 \tab 9 \tab 2817 \cr
-   Total \tab 5805 \tab 4904 \tab 601 \tab 74 \tab 35 \tab 94 \tab 32 \tab 11545 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 1301 \tab 130 \tab 9 \tab 7 \tab 16 \tab 11 \tab - \tab 2992 \cr
+   1996 \tab 1444 \tab 1284 \tab 124 \tab 19 \tab 6 \tab 23 \tab 4 \tab - \tab 2904 \cr
+   1998 \tab 1445 \tab 1131 \tab 189 \tab 25 \tab 11 \tab 23 \tab 8 \tab - \tab 2832 \cr
+   2000 \tab 1398 \tab 1188 \tab 158 \tab 21 \tab 11 \tab 32 \tab 9 \tab - \tab 2817 \cr
+   Total \tab 5805 \tab 4904 \tab 601 \tab 74 \tab 35 \tab 94 \tab 32 \tab 0 \tab 11545 \cr
 }
 }
 

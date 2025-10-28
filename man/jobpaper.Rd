@@ -36,11 +36,11 @@ B. Classified ads in a daily newspaper? Would you say not at all, 1 or 2 times, 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2611/vshow}{GSS Data Explorer page for \code{jobpaper}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab no answer \tab Total \cr
-   2002 \tab 2220 \tab 189 \tab 116 \tab 101 \tab 133 \tab 6 \tab 2765 \cr
-   2004 \tab 2453 \tab 121 \tab 65 \tab 72 \tab 96 \tab 5 \tab 2812 \cr
-   Total \tab 4673 \tab 310 \tab 181 \tab 173 \tab 229 \tab 11 \tab 5577 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 2220 \tab 189 \tab 116 \tab 101 \tab 133 \tab 6 \tab - \tab 2765 \cr
+   2004 \tab 2453 \tab 121 \tab 65 \tab 72 \tab 96 \tab 5 \tab - \tab 2812 \cr
+   Total \tab 4673 \tab 310 \tab 181 \tab 173 \tab 229 \tab 11 \tab 0 \tab 5577 \cr
 }
 }
 

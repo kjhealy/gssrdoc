@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |i have participated more than twice |i have participated once or twice |i belong to such a group but never participate |i do not belong to such a group |no answer |Total |
-#'  |:-----|:----|:-----------------------------------|:---------------------------------|:----------------------------------------------|:-------------------------------|:---------|:-----|
-#'  |2002  |1616 |190                                 |151                               |46                                             |754                             |8         |2765  |
-#'  |Total |1616 |190                                 |151                               |46                                             |754                             |8         |2765  |
+#'  |year  |iap  |i have participated more than twice |i have participated once or twice |i belong to such a group but never participate |i do not belong to such a group |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------------------------|:---------------------------------|:----------------------------------------------|:-------------------------------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |190                                 |151                               |46                                             |754                             |8         |-                          |2765  |
+#'  |Total |1616 |190                                 |151                               |46                                             |754                             |8         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -67,10 +67,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |i have participated more than twice |i have participated once or twice |i belong to such a group but never participate |i do not belong to such a group |no answer |Total |
-#'  |:-----|:----|:-----------------------------------|:---------------------------------|:----------------------------------------------|:-------------------------------|:---------|:-----|
-#'  |2002  |1616 |82                                  |103                               |46                                             |911                             |7         |2765  |
-#'  |Total |1616 |82                                  |103                               |46                                             |911                             |7         |2765  |
+#'  |year  |iap  |i have participated more than twice |i have participated once or twice |i belong to such a group but never participate |i do not belong to such a group |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------------------------|:---------------------------------|:----------------------------------------------|:-------------------------------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |82                                  |103                               |46                                             |911                             |7         |-                          |2765  |
+#'  |Total |1616 |82                                  |103                               |46                                             |911                             |7         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -109,10 +109,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |i have participated more than twice |i have participated once or twice |i belong to such a group but never participate |i do not belong to such a group |no answer |Total |
-#'  |:-----|:----|:-----------------------------------|:---------------------------------|:----------------------------------------------|:-------------------------------|:---------|:-----|
-#'  |2002  |1616 |160                                 |125                               |50                                             |807                             |7         |2765  |
-#'  |Total |1616 |160                                 |125                               |50                                             |807                             |7         |2765  |
+#'  |year  |iap  |i have participated more than twice |i have participated once or twice |i belong to such a group but never participate |i do not belong to such a group |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------------------------|:---------------------------------|:----------------------------------------------|:-------------------------------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |160                                 |125                               |50                                             |807                             |7         |-                          |2765  |
+#'  |Total |1616 |160                                 |125                               |50                                             |807                             |7         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -165,10 +165,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |husband, wife, partner |mother |father |daughter |daughter-in-law |son |sister |brother |other blood relative |other in-law relative |close friend |neighbor |someone you work with |someone at a social services agency |someone you pay to help |someone else |no one |don't know |no answer |Total |
-#'  |:-----|:----|:----------------------|:------|:------|:--------|:---------------|:---|:------|:-------|:--------------------|:---------------------|:------------|:--------|:---------------------|:-----------------------------------|:-----------------------|:------------|:------|:----------|:---------|:-----|
-#'  |2002  |1616 |547                    |137    |26     |98       |7               |33  |51     |27      |17                   |7                     |113          |25       |6                     |3                                   |2                       |14           |29     |1          |6         |2765  |
-#'  |Total |1616 |547                    |137    |26     |98       |7               |33  |51     |27      |17                   |7                     |113          |25       |6                     |3                                   |2                       |14           |29     |1          |6         |2765  |
+#'  |year  |iap  |husband, wife, partner |mother |father |daughter |daughter-in-law |son |sister |brother |other blood relative |other in-law relative |close friend |neighbor |someone you work with |someone at a social services agency |someone you pay to help |someone else |no one |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------------|:------|:------|:--------|:---------------|:---|:------|:-------|:--------------------|:---------------------|:------------|:--------|:---------------------|:-----------------------------------|:-----------------------|:------------|:------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |547                    |137    |26     |98       |7               |33  |51     |27      |17                   |7                     |113          |25       |6                     |3                                   |2                       |14           |29     |1          |6         |-                          |2765  |
+#'  |Total |1616 |547                    |137    |26     |98       |7               |33  |51     |27      |17                   |7                     |113          |25       |6                     |3                                   |2                       |14           |29     |1          |6         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -221,10 +221,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |husband, wife, partner |mother |father |daughter |daughter-in-law |son |son-in-law |sister |brother |other blood relative |other in-law relative |close friend |neighbor |someone you work with |someone at a social services agency |someone you pay to help |other |no one |don't know |no answer |Total |
-#'  |:-----|:----|:----------------------|:------|:------|:--------|:---------------|:---|:----------|:------|:-------|:--------------------|:---------------------|:------------|:--------|:---------------------|:-----------------------------------|:-----------------------|:-----|:------|:----------|:---------|:-----|
-#'  |2002  |1616 |84                     |165    |54     |169      |9               |95  |6          |86     |41      |44                   |44                    |182          |48       |24                    |4                                   |5                       |16    |57     |2          |14        |2765  |
-#'  |Total |1616 |84                     |165    |54     |169      |9               |95  |6          |86     |41      |44                   |44                    |182          |48       |24                    |4                                   |5                       |16    |57     |2          |14        |2765  |
+#'  |year  |iap  |husband, wife, partner |mother |father |daughter |daughter-in-law |son |son-in-law |sister |brother |other blood relative |other in-law relative |close friend |neighbor |someone you work with |someone at a social services agency |someone you pay to help |other |no one |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------------|:------|:------|:--------|:---------------|:---|:----------|:------|:-------|:--------------------|:---------------------|:------------|:--------|:---------------------|:-----------------------------------|:-----------------------|:-----|:------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |84                     |165    |54     |169      |9               |95  |6          |86     |41      |44                   |44                    |182          |48       |24                    |4                                   |5                       |16    |57     |2          |14        |-                          |2765  |
+#'  |Total |1616 |84                     |165    |54     |169      |9               |95  |6          |86     |41      |44                   |44                    |182          |48       |24                    |4                                   |5                       |16    |57     |2          |14        |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -278,10 +278,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |husband, wife, partner |mother |father |daughter |son |sister |brother |other blood relative |other in-law relative |close friend |someone you work with |employer |government or social services agency |bank or credit union |private money lender |someone else |no one |don't know |no answer |Total |
-#'  |:-----|:----|:----------------------|:------|:------|:--------|:---|:------|:-------|:--------------------|:---------------------|:------------|:---------------------|:--------|:------------------------------------|:--------------------|:--------------------|:------------|:------|:----------|:---------|:-----|
-#'  |2002  |1616 |144                    |186    |164    |32       |33  |56     |64      |36                   |36                    |61           |8                     |2        |6                                    |88                   |5                    |75           |134    |6          |13        |2765  |
-#'  |Total |1616 |144                    |186    |164    |32       |33  |56     |64      |36                   |36                    |61           |8                     |2        |6                                    |88                   |5                    |75           |134    |6          |13        |2765  |
+#'  |year  |iap  |husband, wife, partner |mother |father |daughter |son |sister |brother |other blood relative |other in-law relative |close friend |someone you work with |employer |government or social services agency |bank or credit union |private money lender |someone else |no one |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------------|:------|:------|:--------|:---|:------|:-------|:--------------------|:---------------------|:------------|:---------------------|:--------|:------------------------------------|:--------------------|:--------------------|:------------|:------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |144                    |186    |164    |32       |33  |56     |64      |36                   |36                    |61           |8                     |2        |6                                    |88                   |5                    |75           |134    |6          |13        |-                          |2765  |
+#'  |Total |1616 |144                    |186    |164    |32       |33  |56     |64      |36                   |36                    |61           |8                     |2        |6                                    |88                   |5                    |75           |134    |6          |13        |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -335,10 +335,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |husband, wife, partner |mother |father |daughter |son |sister |brother |other blood relative |other in-law relative |close friend |neighbor |someone you work with |employer |government or social services agency |bank or credit union |private money lender |someone else |no one |don't know |no answer |Total |
-#'  |:-----|:----|:----------------------|:------|:------|:--------|:---|:------|:-------|:--------------------|:---------------------|:------------|:--------|:---------------------|:--------|:------------------------------------|:--------------------|:--------------------|:------------|:------|:----------|:---------|:-----|
-#'  |2002  |1616 |42                     |123    |124    |30       |32  |78     |79      |63                   |70                    |96           |3        |7                     |7        |5                                    |33                   |17                   |86           |235    |9          |10        |2765  |
-#'  |Total |1616 |42                     |123    |124    |30       |32  |78     |79      |63                   |70                    |96           |3        |7                     |7        |5                                    |33                   |17                   |86           |235    |9          |10        |2765  |
+#'  |year  |iap  |husband, wife, partner |mother |father |daughter |son |sister |brother |other blood relative |other in-law relative |close friend |neighbor |someone you work with |employer |government or social services agency |bank or credit union |private money lender |someone else |no one |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------------|:------|:------|:--------|:---|:------|:-------|:--------------------|:---------------------|:------------|:--------|:---------------------|:--------|:------------------------------------|:--------------------|:--------------------|:------------|:------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |42                     |123    |124    |30       |32  |78     |79      |63                   |70                    |96           |3        |7                     |7        |5                                    |33                   |17                   |86           |235    |9          |10        |-                          |2765  |
+#'  |Total |1616 |42                     |123    |124    |30       |32  |78     |79      |63                   |70                    |96           |3        |7                     |7        |5                                    |33                   |17                   |86           |235    |9          |10        |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -391,10 +391,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |husband, wife, partner |mother |father |daughter |son |sister |brother |other blood relative |other in-law relative |close friend |neighbor |someone you work with |priest or member of the clergy |family doctor |a psychologist or other professional counselor |someone else |no one |don't know |no answer |Total |
-#'  |:-----|:----|:----------------------|:------|:------|:--------|:---|:------|:-------|:--------------------|:---------------------|:------------|:--------|:---------------------|:------------------------------|:-------------|:----------------------------------------------|:------------|:------|:----------|:---------|:-----|
-#'  |2002  |1616 |363                    |102    |21     |55       |14  |70     |32      |11                   |13                    |348          |5        |8                     |3                              |7             |11                                             |32           |44     |3          |7         |2765  |
-#'  |Total |1616 |363                    |102    |21     |55       |14  |70     |32      |11                   |13                    |348          |5        |8                     |3                              |7             |11                                             |32           |44     |3          |7         |2765  |
+#'  |year  |iap  |husband, wife, partner |mother |father |daughter |son |sister |brother |other blood relative |other in-law relative |close friend |neighbor |someone you work with |priest or member of the clergy |family doctor |a psychologist or other professional counselor |someone else |no one |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------------|:------|:------|:--------|:---|:------|:-------|:--------------------|:---------------------|:------------|:--------|:---------------------|:------------------------------|:-------------|:----------------------------------------------|:------------|:------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |363                    |102    |21     |55       |14  |70     |32      |11                   |13                    |348          |5        |8                     |3                              |7             |11                                             |32           |44     |3          |7         |-                          |2765  |
+#'  |Total |1616 |363                    |102    |21     |55       |14  |70     |32      |11                   |13                    |348          |5        |8                     |3                              |7             |11                                             |32           |44     |3          |7         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -447,10 +447,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |husband, wife, partner |mother |father |daughter |son |sister |brother |other blood relative |other in-law relative |close friend |neighbor |someone you work with |priest or member of the clergy |family doctor |a psychologist or other professional counselor |someone else |no one |don't know |no answer |Total |
-#'  |:-----|:----|:----------------------|:------|:------|:--------|:---|:------|:-------|:--------------------|:---------------------|:------------|:--------|:---------------------|:------------------------------|:-------------|:----------------------------------------------|:------------|:------|:----------|:---------|:-----|
-#'  |2002  |1616 |125                    |135    |42     |89       |36  |110    |62      |35                   |37                    |281          |13       |32                    |2                              |9             |5                                              |38           |86     |5          |7         |2765  |
-#'  |Total |1616 |125                    |135    |42     |89       |36  |110    |62      |35                   |37                    |281          |13       |32                    |2                              |9             |5                                              |38           |86     |5          |7         |2765  |
+#'  |year  |iap  |husband, wife, partner |mother |father |daughter |son |sister |brother |other blood relative |other in-law relative |close friend |neighbor |someone you work with |priest or member of the clergy |family doctor |a psychologist or other professional counselor |someone else |no one |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------------|:------|:------|:--------|:---|:------|:-------|:--------------------|:---------------------|:------------|:--------|:---------------------|:------------------------------|:-------------|:----------------------------------------------|:------------|:------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |125                    |135    |42     |89       |36  |110    |62      |35                   |37                    |281          |13       |32                    |2                              |9             |5                                              |38           |86     |5          |7         |-                          |2765  |
+#'  |Total |1616 |125                    |135    |42     |89       |36  |110    |62      |35                   |37                    |281          |13       |32                    |2                              |9             |5                                              |38           |86     |5          |7         |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -492,13 +492,13 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |more than once a week |once a week |once a month |at least two or three times in the past year |once in the past year |not at all in the past year |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------|:-----------|:------------|:--------------------------------------------|:---------------------|:---------------------------|:----------|:---------|:-----|
-#'  |2002  |1616 |135                   |98          |196          |340                                          |121                   |250                         |1          |8         |2765  |
-#'  |2004  |1472 |125                   |137         |291          |407                                          |106                   |268                         |2          |4         |2812  |
-#'  |2012  |666  |58                    |80          |175          |394                                          |120                   |473                         |1          |7         |1974  |
-#'  |2014  |1264 |53                    |97          |225          |377                                          |137                   |379                         |2          |4         |2538  |
-#'  |Total |5018 |371                   |412         |887          |1518                                         |484                   |1370                        |6          |23        |10089 |
+#'  |year  |iap  |more than once a week |once a week |once a month |at least two or three times in the past year |once in the past year |not at all in the past year |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------|:-----------|:------------|:--------------------------------------------|:---------------------|:---------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1616 |135                   |98          |196          |340                                          |121                   |250                         |1          |8         |-                          |2765  |
+#'  |2004  |1472 |125                   |137         |291          |407                                          |106                   |268                         |2          |4         |-                          |2812  |
+#'  |2012  |666  |58                    |80          |175          |394                                          |120                   |473                         |1          |7         |-                          |1974  |
+#'  |2014  |1264 |53                    |97          |225          |377                                          |137                   |379                         |2          |4         |-                          |2538  |
+#'  |Total |5018 |371                   |412         |887          |1518                                         |484                   |1370                        |6          |23        |0                          |10089 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems

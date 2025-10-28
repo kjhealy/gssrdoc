@@ -33,10 +33,10 @@ Question INTERVIEWER ONLY, DO NOT ASK R
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7294/vshow}{GSS Data Explorer page for \code{maleornt}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab r is homosexual/gay \tab r is not homosexual/gay \tab r sexual orientation uncertain \tab no answer \tab Total \cr
-   2018 \tab 1647 \tab 7 \tab 448 \tab 91 \tab 155 \tab 2348 \cr
-   Total \tab 1647 \tab 7 \tab 448 \tab 91 \tab 155 \tab 2348 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab r is homosexual/gay \tab r is not homosexual/gay \tab r sexual orientation uncertain \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1647 \tab 7 \tab 448 \tab 91 \tab 155 \tab - \tab 2348 \cr
+   Total \tab 1647 \tab 7 \tab 448 \tab 91 \tab 155 \tab 0 \tab 2348 \cr
 }
 }
 

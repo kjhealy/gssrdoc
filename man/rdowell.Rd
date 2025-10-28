@@ -37,10 +37,10 @@ B. How well the employee does the job
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4534/vshow}{GSS Data Explorer page for \code{rdowell}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab most impt \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 488 \tab 129 \tab 54 \tab 37 \tab 25 \tab 165 \tab 1537 \cr
-   Total \tab 639 \tab 488 \tab 129 \tab 54 \tab 37 \tab 25 \tab 165 \tab 1537 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab most impt \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 488 \tab 129 \tab 54 \tab 37 \tab 25 \tab 165 \tab - \tab 1537 \cr
+   Total \tab 639 \tab 488 \tab 129 \tab 54 \tab 37 \tab 25 \tab 165 \tab 0 \tab 1537 \cr
 }
 }
 

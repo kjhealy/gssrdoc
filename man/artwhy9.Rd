@@ -44,10 +44,10 @@ Question Please specify (Immediately after ARTWHY8)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6246/vshow}{GSS Data Explorer page for \code{artwhy9}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab school related \tab wanted to see specific show/exhibit \tab entertainment, enjoyment, have fun \tab support family/friend \tab celebrate birthday, anniversary \tab night out, date \tab meet, support artist \tab work related \tab miscellaneous other reasons \tab no answer \tab Total \cr
-   2016 \tab 2798 \tab 5 \tab 1 \tab 1 \tab 17 \tab 2 \tab 2 \tab 2 \tab 2 \tab 29 \tab 8 \tab 2867 \cr
-   Total \tab 2798 \tab 5 \tab 1 \tab 1 \tab 17 \tab 2 \tab 2 \tab 2 \tab 2 \tab 29 \tab 8 \tab 2867 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab school related \tab wanted to see specific show/exhibit \tab entertainment, enjoyment, have fun \tab support family/friend \tab celebrate birthday, anniversary \tab night out, date \tab meet, support artist \tab work related \tab miscellaneous other reasons \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2798 \tab 5 \tab 1 \tab 1 \tab 17 \tab 2 \tab 2 \tab 2 \tab 2 \tab 29 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 2798 \tab 5 \tab 1 \tab 1 \tab 17 \tab 2 \tab 2 \tab 2 \tab 2 \tab 29 \tab 8 \tab 0 \tab 2867 \cr
 }
 }
 

@@ -36,10 +36,10 @@ F. Adult children are an important source of help for elderly parents.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4462/vshow}{GSS Data Explorer page for \code{eldersup}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 672 \tab 267 \tab 832 \tab 98 \tab 70 \tab 9 \tab 20 \tab 6 \tab 1974 \cr
-   Total \tab 672 \tab 267 \tab 832 \tab 98 \tab 70 \tab 9 \tab 20 \tab 6 \tab 1974 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 672 \tab 267 \tab 832 \tab 98 \tab 70 \tab 9 \tab 20 \tab 6 \tab - \tab 1974 \cr
+   Total \tab 672 \tab 267 \tab 832 \tab 98 \tab 70 \tab 9 \tab 20 \tab 6 \tab 0 \tab 1974 \cr
 }
 }
 

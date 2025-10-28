@@ -40,10 +40,10 @@ At this time, I am meeting the goals I have set for myself.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6208/vshow}{GSS Data Explorer page for \code{hope6}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab definitely false \tab mostly false \tab somewhat false \tab slightly false \tab slightly true \tab somewhat true \tab mostly true \tab definitely true \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1409 \tab 57 \tab 51 \tab 62 \tab 104 \tab 251 \tab 357 \tab 404 \tab 153 \tab 7 \tab 12 \tab 2867 \cr
-   Total \tab 1409 \tab 57 \tab 51 \tab 62 \tab 104 \tab 251 \tab 357 \tab 404 \tab 153 \tab 7 \tab 12 \tab 2867 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab definitely false \tab mostly false \tab somewhat false \tab slightly false \tab slightly true \tab somewhat true \tab mostly true \tab definitely true \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1409 \tab 57 \tab 51 \tab 62 \tab 104 \tab 251 \tab 357 \tab 404 \tab 153 \tab 7 \tab 12 \tab - \tab 2867 \cr
+   Total \tab 1409 \tab 57 \tab 51 \tab 62 \tab 104 \tab 251 \tab 357 \tab 404 \tab 153 \tab 7 \tab 12 \tab 0 \tab 2867 \cr
 }
 }
 

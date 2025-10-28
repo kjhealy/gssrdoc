@@ -36,10 +36,10 @@ D. Commercials on network television.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5120/vshow}{GSS Data Explorer page for \code{infadstv}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very positive \tab positive \tab neutral \tab negative \tab very negative \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 61 \tab 187 \tab 398 \tab 504 \tab 177 \tab 38 \tab 7 \tab 1372 \cr
-   Total \tab 0 \tab 61 \tab 187 \tab 398 \tab 504 \tab 177 \tab 38 \tab 7 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very positive \tab positive \tab neutral \tab negative \tab very negative \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 61 \tab 187 \tab 398 \tab 504 \tab 177 \tab 38 \tab 7 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 61 \tab 187 \tab 398 \tab 504 \tab 177 \tab 38 \tab 7 \tab 0 \tab 1372 \cr
 }
 }
 

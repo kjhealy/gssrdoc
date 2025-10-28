@@ -54,20 +54,20 @@ A. Relationship of first person to spouse?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5453/vshow}{GSS Data Explorer page for \code{relsp1}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab spouse \tab partner, fiance(e), boyfriend, girlfriend, etc. \tab no answer \tab don't know \tab not available in this release \tab Total \cr
-   2000 \tab 1288 \tab 1327 \tab 192 \tab 10 \tab - \tab - \tab 2817 \cr
-   2002 \tab 1387 \tab 1216 \tab 162 \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 1124 \tab 1524 \tab 161 \tab - \tab 3 \tab - \tab 2812 \cr
-   2006 \tab 1924 \tab 2300 \tab 286 \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 868 \tab 1005 \tab 145 \tab 2 \tab 3 \tab - \tab 2023 \cr
-   2010 \tab 943 \tab 913 \tab 178 \tab 4 \tab 6 \tab - \tab 2044 \cr
-   2012 \tab 864 \tab 945 \tab 163 \tab 1 \tab 1 \tab - \tab 1974 \cr
-   2014 \tab 1121 \tab 1204 \tab 208 \tab - \tab 5 \tab - \tab 2538 \cr
-   2016 \tab 1338 \tab 1266 \tab 255 \tab 6 \tab 2 \tab - \tab 2867 \cr
-   2018 \tab 1068 \tab 1072 \tab 204 \tab 3 \tab 1 \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   Total \tab 11925 \tab 12772 \tab 1954 \tab 26 \tab 21 \tab 4032 \tab 30730 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab spouse \tab partner, fiance(e), boyfriend, girlfriend, etc. \tab no answer \tab don't know \tab hh spouse, partner \tab not available in this year \tab Total \cr
+   2000 \tab 1288 \tab 1327 \tab 192 \tab 10 \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 1387 \tab 1216 \tab 162 \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 1124 \tab 1524 \tab 161 \tab - \tab 3 \tab - \tab - \tab 2812 \cr
+   2006 \tab 1924 \tab 2300 \tab 286 \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 868 \tab 1005 \tab 145 \tab 2 \tab 3 \tab - \tab - \tab 2023 \cr
+   2010 \tab 943 \tab 913 \tab 178 \tab 4 \tab 6 \tab - \tab - \tab 2044 \cr
+   2012 \tab 864 \tab 945 \tab 163 \tab 1 \tab 1 \tab - \tab - \tab 1974 \cr
+   2014 \tab 1121 \tab 1204 \tab 208 \tab - \tab 5 \tab - \tab - \tab 2538 \cr
+   2016 \tab 1338 \tab 1266 \tab 255 \tab 6 \tab 2 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1068 \tab 1072 \tab 204 \tab 3 \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab 1897 \tab 1821 \tab 314 \tab - \tab - \tab - \tab - \tab 4032 \cr
+   Total \tab 13822 \tab 14593 \tab 2268 \tab 26 \tab 21 \tab 0 \tab 0 \tab 30730 \cr
 }
 }
 

@@ -33,10 +33,10 @@ A. My own previous knowledge of the firm or attorney.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1829/vshow}{GSS Data Explorer page for \code{lawyera}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2254 \tab 197 \tab 342 \tab 1 \tab 110 \tab 2904 \cr
-   Total \tab 2254 \tab 197 \tab 342 \tab 1 \tab 110 \tab 2904 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2254 \tab 197 \tab 342 \tab 1 \tab 110 \tab - \tab 2904 \cr
+   Total \tab 2254 \tab 197 \tab 342 \tab 1 \tab 110 \tab 0 \tab 2904 \cr
 }
 }
 

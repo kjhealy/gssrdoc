@@ -33,11 +33,11 @@ Question A. Do you use a computer at some other place besides your home or workp
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2579/vshow}{GSS Data Explorer page for \code{compoth}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2294 \tab 124 \tab 371 \tab 28 \tab 2817 \cr
-   2002 \tab 855 \tab 482 \tab 1415 \tab 13 \tab 2765 \cr
-   Total \tab 3149 \tab 606 \tab 1786 \tab 41 \tab 5582 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2294 \tab 124 \tab 371 \tab 28 \tab - \tab 2817 \cr
+   2002 \tab 855 \tab 482 \tab 1415 \tab 13 \tab - \tab 2765 \cr
+   Total \tab 3149 \tab 606 \tab 1786 \tab 41 \tab 0 \tab 5582 \cr
 }
 }
 

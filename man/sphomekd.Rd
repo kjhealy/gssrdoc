@@ -37,10 +37,10 @@ F. Housing for poor families with children…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5127/vshow}{GSS Data Explorer page for \code{sphomekd}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
-   1990 \tab 155 \tab 163 \tab 451 \tab 460 \tab 60 \tab 23 \tab 39 \tab 21 \tab 1372 \cr
-   Total \tab 155 \tab 163 \tab 451 \tab 460 \tab 60 \tab 23 \tab 39 \tab 21 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 155 \tab 163 \tab 451 \tab 460 \tab 60 \tab 23 \tab 39 \tab 21 \tab - \tab 1372 \cr
+   Total \tab 155 \tab 163 \tab 451 \tab 460 \tab 60 \tab 23 \tab 39 \tab 21 \tab 0 \tab 1372 \cr
 }
 }
 

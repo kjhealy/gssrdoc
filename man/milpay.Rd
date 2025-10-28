@@ -34,11 +34,11 @@ B. How do you feel about the pay and benefits that people in the armed forces re
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/782/vshow}{GSS Data Explorer page for \code{milpay}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab should be larger \tab about right \tab should be smaller \tab don't know \tab no answer \tab Total \cr
-   1982 \tab - \tab 683 \tab 897 \tab 33 \tab 227 \tab 20 \tab 1860 \cr
-   1983 \tab - \tab 434 \tab 925 \tab 33 \tab 202 \tab 5 \tab 1599 \cr
-   Total \tab 0 \tab 1117 \tab 1822 \tab 66 \tab 429 \tab 25 \tab 3459 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab should be larger \tab about right \tab should be smaller \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab - \tab 683 \tab 897 \tab 33 \tab 227 \tab 20 \tab - \tab 1860 \cr
+   1983 \tab - \tab 434 \tab 925 \tab 33 \tab 202 \tab 5 \tab - \tab 1599 \cr
+   Total \tab 0 \tab 1117 \tab 1822 \tab 66 \tab 429 \tab 25 \tab 0 \tab 3459 \cr
 }
 }
 

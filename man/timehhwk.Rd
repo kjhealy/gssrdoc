@@ -37,12 +37,12 @@ B. Time doing household work?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4487/vshow}{GSS Data Explorer page for \code{timehhwk}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab spend much more \tab spend a bit more \tab spend same \tab spend a bit less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 84 \tab 51 \tab 284 \tab 534 \tab 288 \tab 227 \tab 26 \tab 43 \tab 1537 \cr
-   1998 \tab 1609 \tab 57 \tab 233 \tab 385 \tab 247 \tab 231 \tab 30 \tab 40 \tab 2832 \cr
-   2006 \tab 2992 \tab 98 \tab 297 \tab 532 \tab 257 \tab 282 \tab 49 \tab 3 \tab 4510 \cr
-   Total \tab 4685 \tab 206 \tab 814 \tab 1451 \tab 792 \tab 740 \tab 105 \tab 86 \tab 8879 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab spend much more \tab spend a bit more \tab spend same \tab spend a bit less \tab spend much less \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 84 \tab 51 \tab 284 \tab 534 \tab 288 \tab 227 \tab 26 \tab 43 \tab - \tab 1537 \cr
+   1998 \tab 1609 \tab 57 \tab 233 \tab 385 \tab 247 \tab 231 \tab 30 \tab 40 \tab - \tab 2832 \cr
+   2006 \tab 2992 \tab 98 \tab 297 \tab 532 \tab 257 \tab 282 \tab 49 \tab 3 \tab - \tab 4510 \cr
+   Total \tab 4685 \tab 206 \tab 814 \tab 1451 \tab 792 \tab 740 \tab 105 \tab 86 \tab 0 \tab 8879 \cr
 }
 }
 

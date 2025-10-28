@@ -34,10 +34,10 @@ E. Would seek advice from friend, relative, or other person for information on c
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2988/vshow}{GSS Data Explorer page for \code{caninf5}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab no \tab yes \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1789 \tab 684 \tab 11 \tab 25 \tab 308 \tab 2817 \cr
-   Total \tab 1789 \tab 684 \tab 11 \tab 25 \tab 308 \tab 2817 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab no \tab yes \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1789 \tab 684 \tab 11 \tab 25 \tab 308 \tab - \tab 2817 \cr
+   Total \tab 1789 \tab 684 \tab 11 \tab 25 \tab 308 \tab 0 \tab 2817 \cr
 }
 }
 

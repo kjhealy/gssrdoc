@@ -34,11 +34,11 @@ B. And what about when a child was under school age?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4424/vshow}{GSS Data Explorer page for \code{spwkbaby}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab worked full-time \tab worked part-time \tab stayed home \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1545 \tab 637 \tab 106 \tab 206 \tab 108 \tab 390 \tab 2992 \cr
-   2002 \tab 1936 \tab 530 \tab 79 \tab 111 \tab 97 \tab 12 \tab 2765 \cr
-   Total \tab 3481 \tab 1167 \tab 185 \tab 317 \tab 205 \tab 402 \tab 5757 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab worked full-time \tab worked part-time \tab stayed home \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1545 \tab 637 \tab 106 \tab 206 \tab 108 \tab 390 \tab - \tab 2992 \cr
+   2002 \tab 1936 \tab 530 \tab 79 \tab 111 \tab 97 \tab 12 \tab - \tab 2765 \cr
+   Total \tab 3481 \tab 1167 \tab 185 \tab 317 \tab 205 \tab 402 \tab 0 \tab 5757 \cr
 }
 }
 

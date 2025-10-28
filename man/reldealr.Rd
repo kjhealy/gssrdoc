@@ -35,10 +35,10 @@ Question Which of the following best describes your relationship to the salesper
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1810/vshow}{GSS Data Explorer page for \code{reldealr}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a relative , including in-laws \tab a friend or acquaintance \tab a friend of a friend-relative \tab previous business dealings \tab no prior relationship \tab no answer \tab Total \cr
-   1996 \tab 2497 \tab 9 \tab 45 \tab 22 \tab 41 \tab 279 \tab 11 \tab 2904 \cr
-   Total \tab 2497 \tab 9 \tab 45 \tab 22 \tab 41 \tab 279 \tab 11 \tab 2904 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a relative , including in-laws \tab a friend or acquaintance \tab a friend of a friend-relative \tab previous business dealings \tab no prior relationship \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2497 \tab 9 \tab 45 \tab 22 \tab 41 \tab 279 \tab 11 \tab - \tab 2904 \cr
+   Total \tab 2497 \tab 9 \tab 45 \tab 22 \tab 41 \tab 279 \tab 11 \tab 0 \tab 2904 \cr
 }
 }
 

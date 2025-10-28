@@ -33,10 +33,10 @@ Question How satisfied are you with your purchase? READ CATEGORIES BELOW.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1827/vshow}{GSS Data Explorer page for \code{sathome}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab not too satisfied \tab pretty satisfied \tab extremely satisfied \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2451 \tab 21 \tab 208 \tab 219 \tab 1 \tab 4 \tab 2904 \cr
-   Total \tab 2451 \tab 21 \tab 208 \tab 219 \tab 1 \tab 4 \tab 2904 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab not too satisfied \tab pretty satisfied \tab extremely satisfied \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2451 \tab 21 \tab 208 \tab 219 \tab 1 \tab 4 \tab - \tab 2904 \cr
+   Total \tab 2451 \tab 21 \tab 208 \tab 219 \tab 1 \tab 4 \tab 0 \tab 2904 \cr
 }
 }
 

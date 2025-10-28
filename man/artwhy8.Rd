@@ -32,10 +32,10 @@ Question Was there some other major reason for your decision to attend that is n
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6245/vshow}{GSS Data Explorer page for \code{artwhy8}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2546 \tab 61 \tab 251 \tab 1 \tab 8 \tab 2867 \cr
-   Total \tab 2546 \tab 61 \tab 251 \tab 1 \tab 8 \tab 2867 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2546 \tab 61 \tab 251 \tab 1 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 2546 \tab 61 \tab 251 \tab 1 \tab 8 \tab 0 \tab 2867 \cr
 }
 }
 

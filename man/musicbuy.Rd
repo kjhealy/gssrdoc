@@ -32,11 +32,11 @@ Question E. Purchased a recording as a result of hearing it on the Web?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2460/vshow}{GSS Data Explorer page for \code{musicbuy}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2498 \tab 75 \tab 131 \tab 113 \tab 2817 \cr
-   2002 \tab 2492 \tab 100 \tab 127 \tab 46 \tab 2765 \cr
-   Total \tab 4990 \tab 175 \tab 258 \tab 159 \tab 5582 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2498 \tab 75 \tab 131 \tab 113 \tab - \tab 2817 \cr
+   2002 \tab 2492 \tab 100 \tab 127 \tab 46 \tab - \tab 2765 \cr
+   Total \tab 4990 \tab 175 \tab 258 \tab 159 \tab 0 \tab 5582 \cr
 }
 }
 

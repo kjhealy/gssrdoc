@@ -23,10 +23,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no  |no answer |Total |
-#'  |:-----|:---|:---|:---|:---------|:-----|
-#'  |1991  |605 |143 |646 |123       |1517  |
-#'  |Total |605 |143 |646 |123       |1517  |
+#'  |year  |iap |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:---------|:--------------------------|:-----|
+#'  |1991  |605 |143 |646 |123       |-                          |1517  |
+#'  |Total |605 |143 |646 |123       |0                          |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -63,10 +63,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no  |no answer |Total |
-#'  |:-----|:---|:---|:---|:---------|:-----|
-#'  |1991  |605 |81  |706 |125       |1517  |
-#'  |Total |605 |81  |706 |125       |1517  |
+#'  |year  |iap |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:---------|:--------------------------|:-----|
+#'  |1991  |605 |81  |706 |125       |-                          |1517  |
+#'  |Total |605 |81  |706 |125       |0                          |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -103,10 +103,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no  |no answer |Total |
-#'  |:-----|:---|:---|:---|:---------|:-----|
-#'  |1991  |605 |38  |742 |132       |1517  |
-#'  |Total |605 |38  |742 |132       |1517  |
+#'  |year  |iap |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:---------|:--------------------------|:-----|
+#'  |1991  |605 |38  |742 |132       |-                          |1517  |
+#'  |Total |605 |38  |742 |132       |0                          |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -143,10 +143,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no  |no answer |Total |
-#'  |:-----|:---|:---|:---|:---------|:-----|
-#'  |1991  |605 |171 |627 |114       |1517  |
-#'  |Total |605 |171 |627 |114       |1517  |
+#'  |year  |iap |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:---------|:--------------------------|:-----|
+#'  |1991  |605 |171 |627 |114       |-                          |1517  |
+#'  |Total |605 |171 |627 |114       |0                          |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -186,10 +186,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |union |school |self-employed,created job |announcement,newspaper |other |no answer |Total |
-#'  |:-----|:---|:-----|:------|:-------------------------|:----------------------|:-----|:---------|:-----|
-#'  |1991  |605 |10    |1      |22                        |7                      |21    |851       |1517  |
-#'  |Total |605 |10    |1      |22                        |7                      |21    |851       |1517  |
+#'  |year  |iap |union |school |self-employed,created job |announcement,newspaper |other |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----|:------|:-------------------------|:----------------------|:-----|:---------|:--------------------------|:-----|
+#'  |1991  |605 |10    |1      |22                        |7                      |21    |851       |-                          |1517  |
+#'  |Total |605 |10    |1      |22                        |7                      |21    |851       |0                          |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -226,10 +226,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no  |don't know |no answer |Total |
-#'  |:-----|:---|:---|:---|:----------|:---------|:-----|
-#'  |1991  |605 |167 |735 |1          |9         |1517  |
-#'  |Total |605 |167 |735 |1          |9         |1517  |
+#'  |year  |iap |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1991  |605 |167 |735 |1          |9         |-                          |1517  |
+#'  |Total |605 |167 |735 |1          |9         |0                          |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -266,10 +266,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no  |don't know |no answer |Total |
-#'  |:-----|:---|:---|:---|:----------|:---------|:-----|
-#'  |1991  |605 |235 |666 |1          |10        |1517  |
-#'  |Total |605 |235 |666 |1          |10        |1517  |
+#'  |year  |iap |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1991  |605 |235 |666 |1          |10        |-                          |1517  |
+#'  |Total |605 |235 |666 |1          |10        |0                          |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -306,10 +306,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no  |no answer |Total |
-#'  |:-----|:---|:---|:---|:---------|:-----|
-#'  |1991  |605 |98  |803 |11        |1517  |
-#'  |Total |605 |98  |803 |11        |1517  |
+#'  |year  |iap |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:---------|:--------------------------|:-----|
+#'  |1991  |605 |98  |803 |11        |-                          |1517  |
+#'  |Total |605 |98  |803 |11        |0                          |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -348,10 +348,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no  |don't know |no answer |Total |
-#'  |:-----|:---|:---|:---|:----------|:---------|:-----|
-#'  |1991  |605 |292 |608 |1          |11        |1517  |
-#'  |Total |605 |292 |608 |1          |11        |1517  |
+#'  |year  |iap |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1991  |605 |292 |608 |1          |11        |-                          |1517  |
+#'  |Total |605 |292 |608 |1          |11        |0                          |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -388,10 +388,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no  |don't know |no answer |Total |
-#'  |:-----|:---|:---|:---|:----------|:---------|:-----|
-#'  |1991  |605 |338 |562 |1          |11        |1517  |
-#'  |Total |605 |338 |562 |1          |11        |1517  |
+#'  |year  |iap |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1991  |605 |338 |562 |1          |11        |-                          |1517  |
+#'  |Total |605 |338 |562 |1          |11        |0                          |1517  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations

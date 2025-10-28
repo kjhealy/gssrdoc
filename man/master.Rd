@@ -35,11 +35,11 @@ D. Master
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/325/vshow}{GSS Data Explorer page for \code{master}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab extremely likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
-   1983 \tab - \tab 851 \tab 385 \tab 175 \tab 138 \tab 34 \tab 16 \tab 1599 \cr
-   1984 \tab 989 \tab 267 \tab 117 \tab 49 \tab 35 \tab 5 \tab 11 \tab 1473 \cr
-   Total \tab 989 \tab 1118 \tab 502 \tab 224 \tab 173 \tab 39 \tab 27 \tab 3072 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab - \tab 851 \tab 385 \tab 175 \tab 138 \tab 34 \tab 16 \tab - \tab 1599 \cr
+   1984 \tab 989 \tab 267 \tab 117 \tab 49 \tab 35 \tab 5 \tab 11 \tab - \tab 1473 \cr
+   Total \tab 989 \tab 1118 \tab 502 \tab 224 \tab 173 \tab 39 \tab 27 \tab 0 \tab 3072 \cr
 }
 }
 

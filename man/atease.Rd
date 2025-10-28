@@ -32,10 +32,10 @@ P. Felt at ease?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1721/vshow}{GSS Data Explorer page for \code{atease}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 113 \tab 100 \tab 119 \tab 158 \tab 145 \tab 160 \tab 159 \tab 489 \tab 9 \tab 8 \tab 2904 \cr
-   Total \tab 1444 \tab 113 \tab 100 \tab 119 \tab 158 \tab 145 \tab 160 \tab 159 \tab 489 \tab 9 \tab 8 \tab 2904 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 113 \tab 100 \tab 119 \tab 158 \tab 145 \tab 160 \tab 159 \tab 489 \tab 9 \tab 8 \tab - \tab 2904 \cr
+   Total \tab 1444 \tab 113 \tab 100 \tab 119 \tab 158 \tab 145 \tab 160 \tab 159 \tab 489 \tab 9 \tab 8 \tab 0 \tab 2904 \cr
 }
 }
 

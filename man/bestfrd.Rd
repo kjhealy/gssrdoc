@@ -35,10 +35,10 @@ Question Now think about your best friend, the friend you feel closest to (but n
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4204/vshow}{GSS Data Explorer page for \code{bestfrd}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab a male relative \tab a female relative \tab a man who is not a relative \tab a woman who is not a relative \tab i dont have a close friend \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1616 \tab 151 \tab 186 \tab 328 \tab 419 \tab 56 \tab 2 \tab 7 \tab 2765 \cr
-   Total \tab 1616 \tab 151 \tab 186 \tab 328 \tab 419 \tab 56 \tab 2 \tab 7 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab a male relative \tab a female relative \tab a man who is not a relative \tab a woman who is not a relative \tab i dont have a close friend \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1616 \tab 151 \tab 186 \tab 328 \tab 419 \tab 56 \tab 2 \tab 7 \tab - \tab 2765 \cr
+   Total \tab 1616 \tab 151 \tab 186 \tab 328 \tab 419 \tab 56 \tab 2 \tab 7 \tab 0 \tab 2765 \cr
 }
 }
 

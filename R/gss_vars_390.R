@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |haven't heard of it (volunteered) |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:---------------------------------|:----------|:---------|:-----|
-#'  |2012  |1469 |88              |193               |143                |62                    |1                                 |15         |3         |1974  |
-#'  |Total |1469 |88              |193               |143                |62                    |1                                 |15         |3         |1974  |
+#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |haven't heard of it (volunteered) |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:---------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1469 |88              |193               |143                |62                    |1                                 |15         |3         |-                          |1974  |
+#'  |Total |1469 |88              |193               |143                |62                    |1                                 |15         |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -70,10 +70,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |haven't heard of it (volunteered) |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:---------------------------------|:----------|:---------|:-----|
-#'  |2012  |1469 |36              |101               |161                |179                   |2                                 |23         |3         |1974  |
-#'  |Total |1469 |36              |101               |161                |179                   |2                                 |23         |3         |1974  |
+#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |haven't heard of it (volunteered) |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:---------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1469 |36              |101               |161                |179                   |2                                 |23         |3         |-                          |1974  |
+#'  |Total |1469 |36              |101               |161                |179                   |2                                 |23         |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -115,10 +115,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:----------|:---------|:-----|
-#'  |2012  |1469 |382             |93                |14                 |3                     |9          |4         |1974  |
-#'  |Total |1469 |382             |93                |14                 |3                     |9          |4         |1974  |
+#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1469 |382             |93                |14                 |3                     |9          |4         |-                          |1974  |
+#'  |Total |1469 |382             |93                |14                 |3                     |9          |4         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -160,10 +160,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:----------|:---------|:-----|
-#'  |2012  |1469 |181             |189               |72                 |38                    |22         |3         |1974  |
-#'  |Total |1469 |181             |189               |72                 |38                    |22         |3         |1974  |
+#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1469 |181             |189               |72                 |38                    |22         |3         |-                          |1974  |
+#'  |Total |1469 |181             |189               |72                 |38                    |22         |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -205,10 +205,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |haven't heard of it (volunteered) |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:---------------------------------|:----------|:---------|:-----|
-#'  |2012  |1469 |72              |159               |154                |100                   |1                                 |16         |3         |1974  |
-#'  |Total |1469 |72              |159               |154                |100                   |1                                 |16         |3         |1974  |
+#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |haven't heard of it (volunteered) |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:---------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1469 |72              |159               |154                |100                   |1                                 |16         |3         |-                          |1974  |
+#'  |Total |1469 |72              |159               |154                |100                   |1                                 |16         |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -250,10 +250,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |haven't heard of it (volunteered) |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:---------------------------------|:----------|:---------|:-----|
-#'  |2012  |1469 |289             |148               |30                 |19                    |2                                 |14         |3         |1974  |
-#'  |Total |1469 |289             |148               |30                 |19                    |2                                 |14         |3         |1974  |
+#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |haven't heard of it (volunteered) |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:---------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1469 |289             |148               |30                 |19                    |2                                 |14         |3         |-                          |1974  |
+#'  |Total |1469 |289             |148               |30                 |19                    |2                                 |14         |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -295,10 +295,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:----------|:---------|:-----|
-#'  |2012  |1469 |27              |61                |212                |186                   |16         |3         |1974  |
-#'  |Total |1469 |27              |61                |212                |186                   |16         |3         |1974  |
+#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1469 |27              |61                |212                |186                   |16         |3         |-                          |1974  |
+#'  |Total |1469 |27              |61                |212                |186                   |16         |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -340,10 +340,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:----------|:---------|:-----|
-#'  |2012  |1469 |259             |156               |53                 |16                    |18         |3         |1974  |
-#'  |Total |1469 |259             |156               |53                 |16                    |18         |3         |1974  |
+#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1469 |259             |156               |53                 |16                    |18         |3         |-                          |1974  |
+#'  |Total |1469 |259             |156               |53                 |16                    |18         |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -385,10 +385,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |haven't heard of it (volunteered) |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:---------------------------------|:----------|:---------|:-----|
-#'  |2012  |1469 |52              |131               |172                |128                   |3                                 |16         |3         |1974  |
-#'  |Total |1469 |52              |131               |172                |128                   |3                                 |16         |3         |1974  |
+#'  |year  |iap  |very scientific |pretty scientific |not too scientific |not scientific at all |haven't heard of it (volunteered) |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:-----------------|:------------------|:---------------------|:---------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2012  |1469 |52              |131               |172                |128                   |3                                 |16         |3         |-                          |1974  |
+#'  |Total |1469 |52              |131               |172                |128                   |3                                 |16         |3         |0                          |1974  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -426,13 +426,13 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap   |0   |1  |100 |12 |15 |20 |25 |3  |4  |40 |5  |50 |51 |6  |60 |66 |7  |70 |75 |80 |85 |90 |94 |95 |don't know |no answer |10 |2  |30 |9  |33 |35 |48 |8  |97 |11 |24 |skipped on web |Total |
-#'  |:-----|:-----|:---|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------|:-----|
-#'  |2006  |4266  |50  |5  |54  |2  |3  |6  |1  |6  |2  |1  |3  |28 |1  |6  |3  |1  |1  |4  |6  |4  |3  |1  |1  |2  |28         |22        |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |4510  |
-#'  |2014  |2432  |31  |3  |20  |1  |2  |2  |1  |1  |3  |-  |5  |5  |1  |2  |-  |-  |-  |1  |2  |-  |2  |1  |-  |1  |9          |2         |6  |2  |2  |1  |-  |-  |-  |-  |-  |-  |-  |-              |2538  |
-#'  |2018  |2105  |60  |6  |39  |-  |-  |1  |4  |-  |1  |1  |6  |17 |1  |7  |3  |-  |-  |2  |2  |3  |1  |5  |-  |1  |27         |44        |2  |4  |-  |-  |2  |1  |1  |1  |1  |-  |-  |-              |2348  |
-#'  |2022  |3423  |39  |-  |17  |1  |-  |2  |2  |5  |30 |-  |4  |1  |-  |-  |-  |-  |-  |-  |-  |3  |-  |1  |-  |-  |-          |2         |3  |2  |-  |-  |-  |-  |-  |-  |-  |1  |1  |7              |3544  |
-#'  |Total |12226 |180 |14 |130 |4  |5  |11 |8  |12 |36 |2  |18 |51 |3  |15 |6  |1  |1  |7  |10 |10 |6  |8  |1  |4  |64         |70        |11 |8  |2  |1  |2  |1  |1  |1  |1  |1  |1  |7              |12940 |
+#'  |year  |iap   |0   |1  |100 |12 |15 |20 |25 |3  |4  |40 |5  |50 |51 |6  |60 |66 |7  |70 |75 |80 |85 |90 |94 |95 |don't know |no answer |10 |2  |30 |9  |33 |35 |48 |8  |97 |11 |24 |skipped on web |not available in this year |Total |
+#'  |:-----|:-----|:---|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------|:--------------------------|:-----|
+#'  |2006  |4266  |50  |5  |54  |2  |3  |6  |1  |6  |2  |1  |3  |28 |1  |6  |3  |1  |1  |4  |6  |4  |3  |1  |1  |2  |28         |22        |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |-              |-                          |4510  |
+#'  |2014  |2432  |31  |3  |20  |1  |2  |2  |1  |1  |3  |-  |5  |5  |1  |2  |-  |-  |-  |1  |2  |-  |2  |1  |-  |1  |9          |2         |6  |2  |2  |1  |-  |-  |-  |-  |-  |-  |-  |-              |-                          |2538  |
+#'  |2018  |2105  |60  |6  |39  |-  |-  |1  |4  |-  |1  |1  |6  |17 |1  |7  |3  |-  |-  |2  |2  |3  |1  |5  |-  |1  |27         |44        |2  |4  |-  |-  |2  |1  |1  |1  |1  |-  |-  |-              |-                          |2348  |
+#'  |2022  |3423  |39  |-  |17  |1  |-  |2  |2  |5  |30 |-  |4  |1  |-  |-  |-  |-  |-  |-  |-  |3  |-  |1  |-  |-  |-          |2         |3  |2  |-  |-  |-  |-  |-  |-  |-  |1  |1  |7              |-                          |3544  |
+#'  |Total |12226 |180 |14 |130 |4  |5  |11 |8  |12 |36 |2  |18 |51 |3  |15 |6  |1  |1  |7  |10 |10 |6  |8  |1  |4  |64         |70        |11 |8  |2  |1  |2  |1  |1  |1  |1  |1  |1  |7              |0                          |12940 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Shared Capitalism

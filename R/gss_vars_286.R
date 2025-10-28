@@ -22,10 +22,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes, used internet yesterday |no, did not use internet yesterday |no answer |Total |
-#'  |:-----|:----|:----------------------------|:----------------------------------|:---------|:-----|
-#'  |2016  |1483 |1261                         |114                                |9         |2867  |
-#'  |Total |1483 |1261                         |114                                |9         |2867  |
+#'  |year  |iap  |yes, used internet yesterday |no, did not use internet yesterday |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------------------|:----------------------------------|:---------|:--------------------------|:-----|
+#'  |2016  |1483 |1261                         |114                                |9         |-                          |2867  |
+#'  |Total |1483 |1261                         |114                                |9         |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -61,10 +61,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |permission granted |permission denied |don't know |no answer |Total |
-#'  |:-----|:----|:------------------|:-----------------|:----------|:---------|:-----|
-#'  |2016  |1903 |317                |623               |2          |22        |2867  |
-#'  |Total |1903 |317                |623               |2          |22        |2867  |
+#'  |year  |iap  |permission granted |permission denied |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1903 |317                |623               |2          |22        |-                          |2867  |
+#'  |Total |1903 |317                |623               |2          |22        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -101,10 +101,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |2016  |1483 |255 |1117 |12        |2867  |
-#'  |Total |1483 |255 |1117 |12        |2867  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |2016  |1483 |255 |1117 |12        |-                          |2867  |
+#'  |Total |1483 |255 |1117 |12        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -141,10 +141,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes  |no  |no answer |Total |
-#'  |:-----|:----|:----|:---|:---------|:-----|
-#'  |2016  |1483 |1022 |350 |12        |2867  |
-#'  |Total |1483 |1022 |350 |12        |2867  |
+#'  |year  |iap  |yes  |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:---|:---------|:--------------------------|:-----|
+#'  |2016  |1483 |1022 |350 |12        |-                          |2867  |
+#'  |Total |1483 |1022 |350 |12        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -181,10 +181,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2016  |1483 |423 |949 |12        |2867  |
-#'  |Total |1483 |423 |949 |12        |2867  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2016  |1483 |423 |949 |12        |-                          |2867  |
+#'  |Total |1483 |423 |949 |12        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -221,10 +221,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2016  |1483 |394 |978 |12        |2867  |
-#'  |Total |1483 |394 |978 |12        |2867  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2016  |1483 |394 |978 |12        |-                          |2867  |
+#'  |Total |1483 |394 |978 |12        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -261,10 +261,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |2016  |1483 |311 |1061 |12        |2867  |
-#'  |Total |1483 |311 |1061 |12        |2867  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |2016  |1483 |311 |1061 |12        |-                          |2867  |
+#'  |Total |1483 |311 |1061 |12        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -301,10 +301,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |2016  |1483 |69  |1303 |12        |2867  |
-#'  |Total |1483 |69  |1303 |12        |2867  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |2016  |1483 |69  |1303 |12        |-                          |2867  |
+#'  |Total |1483 |69  |1303 |12        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -341,10 +341,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |2016  |1483 |178 |1194 |12        |2867  |
-#'  |Total |1483 |178 |1194 |12        |2867  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |2016  |1483 |178 |1194 |12        |-                          |2867  |
+#'  |Total |1483 |178 |1194 |12        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage
@@ -381,10 +381,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2016  |1483 |476 |897 |11        |2867  |
-#'  |Total |1483 |476 |897 |11        |2867  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2016  |1483 |476 |897 |11        |-                          |2867  |
+#'  |Total |1483 |476 |897 |11        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Media Usage

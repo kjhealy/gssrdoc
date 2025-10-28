@@ -32,10 +32,10 @@ Question Next are a number of statements concerning personal attitudes and trait
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7153/vshow}{GSS Data Explorer page for \code{mcsds5}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 458 \tab 684 \tab 4 \tab 27 \tab 2348 \cr
-   Total \tab 1175 \tab 458 \tab 684 \tab 4 \tab 27 \tab 2348 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 458 \tab 684 \tab 4 \tab 27 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 458 \tab 684 \tab 4 \tab 27 \tab 0 \tab 2348 \cr
 }
 }
 

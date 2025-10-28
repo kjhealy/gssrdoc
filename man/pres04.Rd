@@ -39,12 +39,12 @@ Question J. In 2004, you remember that Kerry ran for President on the Democratic
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/170/vshow}{GSS Data Explorer page for \code{pres04}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab kerry \tab bush \tab nader \tab didnt vote \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 1458 \tab 1434 \tab 1446 \tab 47 \tab 17 \tab 18 \tab 90 \tab 4510 \cr
-   2008 \tab 768 \tab 580 \tab 599 \tab 25 \tab 12 \tab 8 \tab 31 \tab 2023 \cr
-   2010 \tab 811 \tab 526 \tab 630 \tab 26 \tab 6 \tab 8 \tab 37 \tab 2044 \cr
-   Total \tab 3037 \tab 2540 \tab 2675 \tab 98 \tab 35 \tab 34 \tab 158 \tab 8577 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab kerry \tab bush \tab nader \tab didnt vote \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 1458 \tab 1434 \tab 1446 \tab 47 \tab 17 \tab 18 \tab 90 \tab - \tab 4510 \cr
+   2008 \tab 768 \tab 580 \tab 599 \tab 25 \tab 12 \tab 8 \tab 31 \tab - \tab 2023 \cr
+   2010 \tab 811 \tab 526 \tab 630 \tab 26 \tab 6 \tab 8 \tab 37 \tab - \tab 2044 \cr
+   Total \tab 3037 \tab 2540 \tab 2675 \tab 98 \tab 35 \tab 34 \tab 158 \tab 0 \tab 8577 \cr
 }
 }
 

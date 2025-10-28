@@ -35,10 +35,10 @@ Question Religions are usually a barrier to equality between women and men.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7281/vshow}{GSS Data Explorer page for \code{relgenbar}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2018 \tab 1173 \tab 62 \tab 255 \tab 305 \tab 415 \tab 101 \tab 23 \tab 14 \tab 2348 \cr
-   Total \tab 1173 \tab 62 \tab 255 \tab 305 \tab 415 \tab 101 \tab 23 \tab 14 \tab 2348 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1173 \tab 62 \tab 255 \tab 305 \tab 415 \tab 101 \tab 23 \tab 14 \tab - \tab 2348 \cr
+   Total \tab 1173 \tab 62 \tab 255 \tab 305 \tab 415 \tab 101 \tab 23 \tab 14 \tab 0 \tab 2348 \cr
 }
 }
 

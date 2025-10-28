@@ -36,7 +36,8 @@ Counts by year:\tabular{llllllll}{
    year \tab iap \tab yes, allowed to speak \tab not allowed \tab don't know \tab skipped on web \tab no answer \tab Total \cr
    2021 \tab 2675 \tab 953 \tab 385 \tab 5 \tab 14 \tab - \tab 4032 \cr
    2022 \tab 2367 \tab 777 \tab 367 \tab 26 \tab 3 \tab 4 \tab 3544 \cr
-   Total \tab 5042 \tab 1730 \tab 752 \tab 31 \tab 17 \tab 4 \tab 7576 \cr
+   2024 \tab 2213 \tab 703 \tab 354 \tab 31 \tab 7 \tab 1 \tab 3309 \cr
+   Total \tab 7255 \tab 2433 \tab 1106 \tab 62 \tab 24 \tab 5 \tab 10885 \cr
 }
 }
 

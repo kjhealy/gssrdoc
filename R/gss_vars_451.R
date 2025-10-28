@@ -28,10 +28,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |lives in hshld |daily |several x week |once a week |once a month |several x year |less often |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------------|:-----------|:------------|:--------------|:----------|:---------|:-----|
-#'  |1986  |772 |65             |55    |88             |99          |110          |126            |140        |15        |1470  |
-#'  |Total |772 |65             |55    |88             |99          |110          |126            |140        |15        |1470  |
+#'  |year  |iap |lives in hshld |daily |several x week |once a week |once a month |several x year |less often |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------|:-----------|:------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |772 |65             |55    |88             |99          |110          |126            |140        |15        |-                          |1470  |
+#'  |Total |772 |65             |55    |88             |99          |110          |126            |140        |15        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -74,10 +74,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |lt 15 min |15-30 min |30 min-1 hr |1-2 hr |2-3 hr |3-5 hr |5-12 hr |12+ hr |don't know |no answer |Total |
-#'  |:-----|:---|:---------|:---------|:-----------|:------|:------|:------|:-------|:------|:----------|:---------|:-----|
-#'  |1986  |837 |158       |120       |64          |42     |24     |44     |68      |95     |2          |16        |1470  |
-#'  |Total |837 |158       |120       |64          |42     |24     |44     |68      |95     |2          |16        |1470  |
+#'  |year  |iap |lt 15 min |15-30 min |30 min-1 hr |1-2 hr |2-3 hr |3-5 hr |5-12 hr |12+ hr |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------|:---------|:-----------|:------|:------|:------|:-------|:------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |837 |158       |120       |64          |42     |24     |44     |68      |95     |2          |16        |-                          |1470  |
+#'  |Total |837 |158       |120       |64          |42     |24     |44     |68      |95     |2          |16        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -118,10 +118,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |daily |several x week |once a week |once a month |several x year |less often |no answer |Total |
-#'  |:-----|:---|:-----|:--------------|:-----------|:------------|:--------------|:----------|:---------|:-----|
-#'  |1986  |837 |49    |92             |180         |133          |59             |101        |19        |1470  |
-#'  |Total |837 |49    |92             |180         |133          |59             |101        |19        |1470  |
+#'  |year  |iap |daily |several x week |once a week |once a month |several x year |less often |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----|:--------------|:-----------|:------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |837 |49    |92             |180         |133          |59             |101        |19        |-                          |1470  |
+#'  |Total |837 |49    |92             |180         |133          |59             |101        |19        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -161,10 +161,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |none |one |two |three |four |five + |don't know |no answer |Total |
-#'  |:-----|:---|:----|:---|:---|:-----|:----|:------|:----------|:---------|:-----|
-#'  |1986  |-   |413  |438 |305 |148   |74   |85     |2          |5         |1470  |
-#'  |Total |0   |413  |438 |305 |148   |74   |85     |2          |5         |1470  |
+#'  |year  |iap |none |one |two |three |four |five + |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:----|:---|:---|:-----|:----|:------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |-   |413  |438 |305 |148   |74   |85     |2          |5         |-                          |1470  |
+#'  |Total |0   |413  |438 |305 |148   |74   |85     |2          |5         |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -206,10 +206,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |lives in hshld |daily |several x week |once a week |once a month |several x year |less often |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------------|:-----------|:------------|:--------------|:----------|:----------|:---------|:-----|
-#'  |1986  |413 |25             |67    |95             |145         |214          |229            |272        |1          |9         |1470  |
-#'  |Total |413 |25             |67    |95             |145         |214          |229            |272        |1          |9         |1470  |
+#'  |year  |iap |lives in hshld |daily |several x week |once a week |once a month |several x year |less often |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------|:-----------|:------------|:--------------|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |413 |25             |67    |95             |145         |214          |229            |272        |1          |9         |-                          |1470  |
+#'  |Total |413 |25             |67    |95             |145         |214          |229            |272        |1          |9         |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -252,10 +252,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |lt 15 min |15-30 min |30 min-1 hr |1-2 hr |2-3 hr |3-5 hr |5-12 hr |12+ hr |don't know |no answer |Total |
-#'  |:-----|:---|:---------|:---------|:-----------|:------|:------|:------|:-------|:------|:----------|:---------|:-----|
-#'  |1986  |439 |207       |182       |135         |84     |60     |76     |117     |155    |3          |12        |1470  |
-#'  |Total |439 |207       |182       |135         |84     |60     |76     |117     |155    |3          |12        |1470  |
+#'  |year  |iap |lt 15 min |15-30 min |30 min-1 hr |1-2 hr |2-3 hr |3-5 hr |5-12 hr |12+ hr |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------|:---------|:-----------|:------|:------|:------|:-------|:------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |439 |207       |182       |135         |84     |60     |76     |117     |155    |3          |12        |-                          |1470  |
+#'  |Total |439 |207       |182       |135         |84     |60     |76     |117     |155    |3          |12        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -296,10 +296,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |daily |several x week |once a week |once a month |several x year |less often |no answer |Total |
-#'  |:-----|:---|:-----|:--------------|:-----------|:------------|:--------------|:----------|:---------|:-----|
-#'  |1986  |439 |98    |136            |194         |253          |181            |156        |13        |1470  |
-#'  |Total |439 |98    |136            |194         |253          |181            |156        |13        |1470  |
+#'  |year  |iap |daily |several x week |once a week |once a month |several x year |less often |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----|:--------------|:-----------|:------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |439 |98    |136            |194         |253          |181            |156        |13        |-                          |1470  |
+#'  |Total |439 |98    |136            |194         |253          |181            |156        |13        |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -339,10 +339,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |none |one |two |three |four |five + |don't know |no answer |Total |
-#'  |:-----|:---|:----|:---|:---|:-----|:----|:------|:----------|:---------|:-----|
-#'  |1986  |-   |430  |459 |281 |153   |66   |74     |2          |5         |1470  |
-#'  |Total |0   |430  |459 |281 |153   |66   |74     |2          |5         |1470  |
+#'  |year  |iap |none |one |two |three |four |five + |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:----|:---|:---|:-----|:----|:------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |-   |430  |459 |281 |153   |66   |74     |2          |5         |-                          |1470  |
+#'  |Total |0   |430  |459 |281 |153   |66   |74     |2          |5         |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -384,10 +384,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |lives in hshld |daily |several x week |once a week |once a month |several x year |less often |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------------|:-----------|:------------|:--------------|:----------|:---------|:-----|
-#'  |1986  |430 |32             |52    |81             |128         |194          |257            |289        |7         |1470  |
-#'  |Total |430 |32             |52    |81             |128         |194          |257            |289        |7         |1470  |
+#'  |year  |iap |lives in hshld |daily |several x week |once a week |once a month |several x year |less often |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------|:-----------|:------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |430 |32             |52    |81             |128         |194          |257            |289        |7         |-                          |1470  |
+#'  |Total |430 |32             |52    |81             |128         |194          |257            |289        |7         |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems
@@ -430,10 +430,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |lt 15 min |15-30 min |30 min-1 hr |1-2 hr |2-3 hr |3-5 hr |5-12 hr |12+ hr |don't know |no answer |Total |
-#'  |:-----|:---|:---------|:---------|:-----------|:------|:------|:------|:-------|:------|:----------|:---------|:-----|
-#'  |1986  |462 |195       |165       |131         |92     |54     |62     |113     |180    |7          |9         |1470  |
-#'  |Total |462 |195       |165       |131         |92     |54     |62     |113     |180    |7          |9         |1470  |
+#'  |year  |iap |lt 15 min |15-30 min |30 min-1 hr |1-2 hr |2-3 hr |3-5 hr |5-12 hr |12+ hr |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------|:---------|:-----------|:------|:------|:------|:-------|:------|:----------|:---------|:--------------------------|:-----|
+#'  |1986  |462 |195       |165       |131         |92     |54     |62     |113     |180    |7          |9         |-                          |1470  |
+#'  |Total |462 |195       |165       |131         |92     |54     |62     |113     |180    |7          |9         |0                          |1470  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Networks & Support Systems

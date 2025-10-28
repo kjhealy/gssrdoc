@@ -35,10 +35,10 @@ with each employee having a share of ownership.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7225/vshow}{GSS Data Explorer page for \code{buyesop}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab i would be less likely to buy from an employee-owned company \tab i would be neither more nor less likely to buy from an employee-owned company \tab i would be more likely to buy from an employee-owned company \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 900 \tab 121 \tab 753 \tab 517 \tab 26 \tab 31 \tab 2348 \cr
-   Total \tab 900 \tab 121 \tab 753 \tab 517 \tab 26 \tab 31 \tab 2348 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab i would be less likely to buy from an employee-owned company \tab i would be neither more nor less likely to buy from an employee-owned company \tab i would be more likely to buy from an employee-owned company \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 900 \tab 121 \tab 753 \tab 517 \tab 26 \tab 31 \tab - \tab 2348 \cr
+   Total \tab 900 \tab 121 \tab 753 \tab 517 \tab 26 \tab 31 \tab 0 \tab 2348 \cr
 }
 }
 

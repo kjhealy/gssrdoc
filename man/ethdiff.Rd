@@ -36,10 +36,10 @@ B. Now think only about ethnic minority groups within the U.S. such as African A
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2735/vshow}{GSS Data Explorer page for \code{ethdiff}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2002 \tab - \tab 278 \tab 1378 \tab 575 \tab 445 \tab 37 \tab 44 \tab 8 \tab 2765 \cr
-   Total \tab 0 \tab 278 \tab 1378 \tab 575 \tab 445 \tab 37 \tab 44 \tab 8 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab - \tab 278 \tab 1378 \tab 575 \tab 445 \tab 37 \tab 44 \tab 8 \tab - \tab 2765 \cr
+   Total \tab 0 \tab 278 \tab 1378 \tab 575 \tab 445 \tab 37 \tab 44 \tab 8 \tab 0 \tab 2765 \cr
 }
 }
 

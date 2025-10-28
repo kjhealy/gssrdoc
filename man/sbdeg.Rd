@@ -35,10 +35,10 @@ Question SIBLING'S DEGREE
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1583/vshow}{GSS Data Explorer page for \code{sbdeg}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab less than high school \tab high school \tab associate/junior college \tab bachelor's \tab graduate \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 378 \tab 390 \tab 1431 \tab 116 \tab 402 \tab 178 \tab 92 \tab 5 \tab 2992 \cr
-   Total \tab 378 \tab 390 \tab 1431 \tab 116 \tab 402 \tab 178 \tab 92 \tab 5 \tab 2992 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab less than high school \tab high school \tab associate/junior college \tab bachelor's \tab graduate \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 378 \tab 390 \tab 1431 \tab 116 \tab 402 \tab 178 \tab 92 \tab 5 \tab - \tab 2992 \cr
+   Total \tab 378 \tab 390 \tab 1431 \tab 116 \tab 402 \tab 178 \tab 92 \tab 5 \tab 0 \tab 2992 \cr
 }
 }
 

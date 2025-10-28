@@ -32,11 +32,11 @@ Question D. Visited a Web site associated with a particular novelist, playwright
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2482/vshow}{GSS Data Explorer page for \code{litauth}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2554 \tab 91 \tab 57 \tab 115 \tab 2817 \cr
-   2002 \tab 2555 \tab 96 \tab 67 \tab 47 \tab 2765 \cr
-   Total \tab 5109 \tab 187 \tab 124 \tab 162 \tab 5582 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2554 \tab 91 \tab 57 \tab 115 \tab - \tab 2817 \cr
+   2002 \tab 2555 \tab 96 \tab 67 \tab 47 \tab - \tab 2765 \cr
+   Total \tab 5109 \tab 187 \tab 124 \tab 162 \tab 0 \tab 5582 \cr
 }
 }
 

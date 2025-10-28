@@ -32,10 +32,10 @@ Question Have you personally ever received treatment for a mental health problem
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3810/vshow}{GSS Data Explorer page for \code{mhtrtslf}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 213 \tab 1200 \tab 1 \tab 11 \tab 4510 \cr
-   Total \tab 3085 \tab 213 \tab 1200 \tab 1 \tab 11 \tab 4510 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 213 \tab 1200 \tab 1 \tab 11 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 213 \tab 1200 \tab 1 \tab 11 \tab 0 \tab 4510 \cr
 }
 }
 

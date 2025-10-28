@@ -33,10 +33,10 @@ H. Respondent can't choose
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4523/vshow}{GSS Data Explorer page for \code{undk}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab dk chosen \tab not chosen \tab no answer \tab Total \cr
-   1989 \tab 84 \tab 56 \tab 1198 \tab 199 \tab 1537 \cr
-   Total \tab 84 \tab 56 \tab 1198 \tab 199 \tab 1537 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab dk chosen \tab not chosen \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 84 \tab 56 \tab 1198 \tab 199 \tab - \tab 1537 \cr
+   Total \tab 84 \tab 56 \tab 1198 \tab 199 \tab 0 \tab 1537 \cr
 }
 }
 

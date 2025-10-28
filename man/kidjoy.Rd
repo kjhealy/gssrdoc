@@ -37,13 +37,13 @@ B. Watching children grow up is life''s greatest joy.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4381/vshow}{GSS Data Explorer page for \code{kidjoy}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 581 \tab 626 \tab 126 \tab 36 \tab 19 \tab 10 \tab 16 \tab 1481 \cr
-   1994 \tab 1545 \tab 484 \tab 645 \tab 188 \tab 52 \tab 6 \tab 21 \tab 51 \tab 2992 \cr
-   2002 \tab 1594 \tab 611 \tab 374 \tab 130 \tab 26 \tab 11 \tab 18 \tab 1 \tab 2765 \cr
-   2012 \tab 672 \tab 550 \tab 558 \tab 120 \tab 40 \tab 3 \tab 26 \tab 5 \tab 1974 \cr
-   Total \tab 3878 \tab 2226 \tab 2203 \tab 564 \tab 154 \tab 39 \tab 75 \tab 73 \tab 9212 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 581 \tab 626 \tab 126 \tab 36 \tab 19 \tab 10 \tab 16 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 484 \tab 645 \tab 188 \tab 52 \tab 6 \tab 21 \tab 51 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 611 \tab 374 \tab 130 \tab 26 \tab 11 \tab 18 \tab 1 \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 550 \tab 558 \tab 120 \tab 40 \tab 3 \tab 26 \tab 5 \tab - \tab 1974 \cr
+   Total \tab 3878 \tab 2226 \tab 2203 \tab 564 \tab 154 \tab 39 \tab 75 \tab 73 \tab 0 \tab 9212 \cr
 }
 }
 

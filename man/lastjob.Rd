@@ -40,10 +40,10 @@ Question And how about your job now? (If you are not working now, please tell us
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4318/vshow}{GSS Data Explorer page for \code{lastjob}}.
 
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab prof or tech \tab higher admin \tab clerical \tab sales \tab service \tab skilled worker \tab semi-skilled worker \tab unskilled worker \tab farm \tab never had job \tab no answer \tab Total \cr
-   1987 \tab 255 \tab 281 \tab 39 \tab 255 \tab 136 \tab 152 \tab 222 \tab 120 \tab 173 \tab 34 \tab 46 \tab 106 \tab 1819 \cr
-   Total \tab 255 \tab 281 \tab 39 \tab 255 \tab 136 \tab 152 \tab 222 \tab 120 \tab 173 \tab 34 \tab 46 \tab 106 \tab 1819 \cr
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab prof or tech \tab higher admin \tab clerical \tab sales \tab service \tab skilled worker \tab semi-skilled worker \tab unskilled worker \tab farm \tab never had job \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 281 \tab 39 \tab 255 \tab 136 \tab 152 \tab 222 \tab 120 \tab 173 \tab 34 \tab 46 \tab 106 \tab - \tab 1819 \cr
+   Total \tab 255 \tab 281 \tab 39 \tab 255 \tab 136 \tab 152 \tab 222 \tab 120 \tab 173 \tab 34 \tab 46 \tab 106 \tab 0 \tab 1819 \cr
 }
 }
 

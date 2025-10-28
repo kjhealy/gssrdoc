@@ -38,13 +38,13 @@ C. Good opportunities for advancement?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4509/vshow}{GSS Data Explorer page for \code{promotn}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very important \tab important \tab neither important nor unimportant \tab not important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 84 \tab 585 \tab 730 \tab 77 \tab 21 \tab 4 \tab 9 \tab 27 \tab 1537 \cr
-   1998 \tab 1609 \tab 427 \tab 598 \tab 99 \tab 30 \tab 3 \tab 21 \tab 45 \tab 2832 \cr
-   2006 \tab 2992 \tab 631 \tab 687 \tab 124 \tab 56 \tab 15 \tab 4 \tab 1 \tab 4510 \cr
-   2016 \tab 1390 \tab 729 \tab 637 \tab 66 \tab 32 \tab 6 \tab 2 \tab 5 \tab 2867 \cr
-   Total \tab 6075 \tab 2372 \tab 2652 \tab 366 \tab 139 \tab 28 \tab 36 \tab 78 \tab 11746 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab important \tab neither important nor unimportant \tab not important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 84 \tab 585 \tab 730 \tab 77 \tab 21 \tab 4 \tab 9 \tab 27 \tab - \tab 1537 \cr
+   1998 \tab 1609 \tab 427 \tab 598 \tab 99 \tab 30 \tab 3 \tab 21 \tab 45 \tab - \tab 2832 \cr
+   2006 \tab 2992 \tab 631 \tab 687 \tab 124 \tab 56 \tab 15 \tab 4 \tab 1 \tab - \tab 4510 \cr
+   2016 \tab 1390 \tab 729 \tab 637 \tab 66 \tab 32 \tab 6 \tab 2 \tab 5 \tab - \tab 2867 \cr
+   Total \tab 6075 \tab 2372 \tab 2652 \tab 366 \tab 139 \tab 28 \tab 36 \tab 78 \tab 0 \tab 11746 \cr
 }
 }
 

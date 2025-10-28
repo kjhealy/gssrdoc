@@ -22,10 +22,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes, allow |no, not allow |don't know |no answer |Total |
-#'  |:-----|:----|:----------|:-------------|:----------|:---------|:-----|
-#'  |1989  |1029 |272        |190           |14         |32        |1537  |
-#'  |Total |1029 |272        |190           |14         |32        |1537  |
+#'  |year  |iap  |yes, allow |no, not allow |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |1989  |1029 |272        |190           |14         |32        |-                          |1537  |
+#'  |Total |1029 |272        |190           |14         |32        |0                          |1537  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Civil Liberties
@@ -61,10 +61,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |allow marriage |not allow marriage |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:------------------|:----------|:---------|:-----|
-#'  |1989  |1029 |311            |145                |22         |30        |1537  |
-#'  |Total |1029 |311            |145                |22         |30        |1537  |
+#'  |year  |iap  |allow marriage |not allow marriage |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1989  |1029 |311            |145                |22         |30        |-                          |1537  |
+#'  |Total |1029 |311            |145                |22         |30        |0                          |1537  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Civil Liberties
@@ -99,12 +99,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |0    |1   |2  |3  |4  |5  |6  |seven or more |no answer |Total |
-#'  |:-----|:---|:----|:---|:--|:--|:--|:--|:--|:-------------|:---------|:-----|
-#'  |1988  |-   |1325 |95  |36 |13 |4  |4  |1  |1             |2         |1481  |
-#'  |1989  |-   |1375 |103 |34 |16 |4  |1  |-  |1             |3         |1537  |
-#'  |1990  |-   |1244 |81  |27 |11 |4  |2  |1  |-             |2         |1372  |
-#'  |Total |0   |3944 |279 |97 |40 |12 |7  |2  |2             |7         |4390  |
+#'  |year  |iap |0    |1   |2  |3  |4  |5  |6  |seven or more |no answer |not available in this year |Total |
+#'  |:-----|:---|:----|:---|:--|:--|:--|:--|:--|:-------------|:---------|:--------------------------|:-----|
+#'  |1988  |-   |1325 |95  |36 |13 |4  |4  |1  |1             |2         |-                          |1481  |
+#'  |1989  |-   |1375 |103 |34 |16 |4  |1  |-  |1             |3         |-                          |1537  |
+#'  |1990  |-   |1244 |81  |27 |11 |4  |2  |1  |-             |2         |-                          |1372  |
+#'  |Total |0   |3944 |279 |97 |40 |12 |7  |2  |2             |7         |0                          |4390  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -148,12 +148,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |partner or lover |other relative |friend |neighbor |co-worker |acquaintance |other |no answer |son or daughter |patient |Total |
-#'  |:-----|:----|:----------------|:--------------|:------|:--------|:---------|:------------|:-----|:---------|:---------------|:-------|:-----|
-#'  |1988  |1325 |2                |17             |70     |10       |13        |37           |5     |2         |-               |-       |1481  |
-#'  |1989  |1375 |-                |19             |60     |10       |9         |52           |7     |3         |1               |1       |1537  |
-#'  |1990  |1244 |1                |15             |45     |5        |9         |43           |4     |2         |1               |3       |1372  |
-#'  |Total |3944 |3                |51             |175    |25       |31        |132          |16    |7         |2               |4       |4390  |
+#'  |year  |iap  |partner or lover |other relative |friend |neighbor |co-worker |acquaintance |other |no answer |son or daughter |patient |not available in this year |Total |
+#'  |:-----|:----|:----------------|:--------------|:------|:--------|:---------|:------------|:-----|:---------|:---------------|:-------|:--------------------------|:-----|
+#'  |1988  |1325 |2                |17             |70     |10       |13        |37           |5     |2         |-               |-       |-                          |1481  |
+#'  |1989  |1375 |-                |19             |60     |10       |9         |52           |7     |3         |1               |1       |-                          |1537  |
+#'  |1990  |1244 |1                |15             |45     |5        |9         |43           |4     |2         |1               |3       |-                          |1372  |
+#'  |Total |3944 |3                |51             |175    |25       |31        |132          |16    |7         |2               |4       |0                          |4390  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -190,12 +190,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |male |female |no answer |Total |
-#'  |:-----|:----|:----|:------|:---------|:-----|
-#'  |1988  |1325 |121  |31     |4         |1481  |
-#'  |1989  |1375 |116  |43     |3         |1537  |
-#'  |1990  |1244 |94   |32     |2         |1372  |
-#'  |Total |3944 |331  |106    |9         |4390  |
+#'  |year  |iap  |male |female |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:------|:---------|:--------------------------|:-----|
+#'  |1988  |1325 |121  |31     |4         |-                          |1481  |
+#'  |1989  |1375 |116  |43     |3         |-                          |1537  |
+#'  |1990  |1244 |94   |32     |2         |-                          |1372  |
+#'  |Total |3944 |331  |106    |9         |0                          |4390  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -234,12 +234,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |10 years or under |11-20 |21-40 |41 year or older |no answer |Total |
-#'  |:-----|:----|:-----------------|:-----|:-----|:----------------|:---------|:-----|
-#'  |1988  |1325 |2                 |26    |90    |35               |3         |1481  |
-#'  |1989  |1375 |1                 |26    |99    |33               |3         |1537  |
-#'  |1990  |1244 |2                 |23    |75    |26               |2         |1372  |
-#'  |Total |3944 |5                 |75    |264   |94               |8         |4390  |
+#'  |year  |iap  |10 years or under |11-20 |21-40 |41 year or older |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:-----|:-----|:----------------|:---------|:--------------------------|:-----|
+#'  |1988  |1325 |2                 |26    |90    |35               |3         |-                          |1481  |
+#'  |1989  |1375 |1                 |26    |99    |33               |3         |-                          |1537  |
+#'  |1990  |1244 |2                 |23    |75    |26               |2         |-                          |1372  |
+#'  |Total |3944 |5                 |75    |264   |94               |8         |0                          |4390  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -278,12 +278,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |black |white |hispanic |other |no answer |Total |
-#'  |:-----|:----|:-----|:-----|:--------|:-----|:---------|:-----|
-#'  |1988  |1325 |48    |81    |18       |7     |2         |1481  |
-#'  |1989  |1375 |45    |100   |14       |-     |3         |1537  |
-#'  |1990  |1244 |51    |62    |8        |5     |2         |1372  |
-#'  |Total |3944 |144   |243   |40       |12    |7         |4390  |
+#'  |year  |iap  |black |white |hispanic |other |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:-----|:--------|:-----|:---------|:--------------------------|:-----|
+#'  |1988  |1325 |48    |81    |18       |7     |2         |-                          |1481  |
+#'  |1989  |1375 |45    |100   |14       |-     |3         |-                          |1537  |
+#'  |1990  |1244 |51    |62    |8        |5     |2         |-                          |1372  |
+#'  |Total |3944 |144   |243   |40       |12    |7         |0                          |4390  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -328,11 +328,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |foreign |new england |middle atlantic |e. nor. central |w. nor. central |south atlantic |e. sou. central |w. sou. central |mountain |pacific |no answer |Total |
-#'  |:-----|:----|:-------|:-----------|:---------------|:---------------|:---------------|:--------------|:---------------|:---------------|:--------|:-------|:---------|:-----|
-#'  |1989  |1375 |1       |4           |20              |28              |7               |32             |12              |22              |12       |18      |6         |1537  |
-#'  |1990  |1244 |1       |3           |18              |24              |6               |26             |10              |13              |14       |11      |2         |1372  |
-#'  |Total |2619 |2       |7           |38              |52              |13              |58             |22              |35              |26       |29      |8         |2909  |
+#'  |year  |iap  |foreign |new england |middle atlantic |e. nor. central |w. nor. central |south atlantic |e. sou. central |w. sou. central |mountain |pacific |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------|:-----------|:---------------|:---------------|:---------------|:--------------|:---------------|:---------------|:--------|:-------|:---------|:--------------------------|:-----|
+#'  |1989  |1375 |1       |4           |20              |28              |7               |32             |12              |22              |12       |18      |6         |-                          |1537  |
+#'  |1990  |1244 |1       |3           |18              |24              |6               |26             |10              |13              |14       |11      |2         |-                          |1372  |
+#'  |Total |2619 |2       |7           |38              |52              |13              |58             |22              |35              |26       |29      |8         |0                          |2909  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -376,11 +376,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |other relative |friend |neighbor |co-worker |acquaintance |other |no answer |partner or lover |Total |
-#'  |:-----|:----|:--------------|:------|:--------|:---------|:------------|:-----|:---------|:----------------|:-----|
-#'  |1989  |1478 |3              |19     |5        |6         |20           |2     |4         |-                |1537  |
-#'  |1990  |1325 |3              |18     |1        |1         |20           |1     |2         |1                |1372  |
-#'  |Total |2803 |6              |37     |6        |7         |40           |3     |6         |1                |2909  |
+#'  |year  |iap  |other relative |friend |neighbor |co-worker |acquaintance |other |no answer |partner or lover |not available in this year |Total |
+#'  |:-----|:----|:--------------|:------|:--------|:---------|:------------|:-----|:---------|:----------------|:--------------------------|:-----|
+#'  |1989  |1478 |3              |19     |5        |6         |20           |2     |4         |-                |-                          |1537  |
+#'  |1990  |1325 |3              |18     |1        |1         |20           |1     |2         |1                |-                          |1372  |
+#'  |Total |2803 |6              |37     |6        |7         |40           |3     |6         |1                |0                          |2909  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS
@@ -417,11 +417,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |male |female |no answer |Total |
-#'  |:-----|:----|:----|:------|:---------|:-----|
-#'  |1989  |1478 |45   |10     |4         |1537  |
-#'  |1990  |1325 |33   |12     |2         |1372  |
-#'  |Total |2803 |78   |22     |6         |2909  |
+#'  |year  |iap  |male |female |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:------|:---------|:--------------------------|:-----|
+#'  |1989  |1478 |45   |10     |4         |-                          |1537  |
+#'  |1990  |1325 |33   |12     |2         |-                          |1372  |
+#'  |Total |2803 |78   |22     |6         |0                          |2909  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Victims & AIDS

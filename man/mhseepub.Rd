@@ -34,10 +34,10 @@ Question Do you frequently, occasionally, rarely, or never see someone who seems
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3811/vshow}{GSS Data Explorer page for \code{mhseepub}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab frequently \tab occasionally \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 223 \tab 474 \tab 465 \tab 253 \tab 5 \tab 5 \tab 4510 \cr
-   Total \tab 3085 \tab 223 \tab 474 \tab 465 \tab 253 \tab 5 \tab 5 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab frequently \tab occasionally \tab rarely \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 223 \tab 474 \tab 465 \tab 253 \tab 5 \tab 5 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 223 \tab 474 \tab 465 \tab 253 \tab 5 \tab 5 \tab 0 \tab 4510 \cr
 }
 }
 

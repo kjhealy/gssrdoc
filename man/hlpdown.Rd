@@ -37,10 +37,10 @@ Question Who would you turn to first to~. Be there for you if you felt a bit dow
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7246/vshow}{GSS Data Explorer page for \code{hlpdown}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab close family member \tab more distant family member \tab close friend \tab neighbor \tab someone i work with \tab someone else \tab no one \tab don't know \tab Total \cr
-   2018 \tab 1175 \tab 578 \tab 21 \tab 491 \tab 6 \tab 9 \tab 20 \tab 43 \tab 5 \tab 2348 \cr
-   Total \tab 1175 \tab 578 \tab 21 \tab 491 \tab 6 \tab 9 \tab 20 \tab 43 \tab 5 \tab 2348 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab close family member \tab more distant family member \tab close friend \tab neighbor \tab someone i work with \tab someone else \tab no one \tab don't know \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 578 \tab 21 \tab 491 \tab 6 \tab 9 \tab 20 \tab 43 \tab 5 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 578 \tab 21 \tab 491 \tab 6 \tab 9 \tab 20 \tab 43 \tab 5 \tab 0 \tab 2348 \cr
 }
 }
 

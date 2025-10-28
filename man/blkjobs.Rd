@@ -35,10 +35,10 @@ B. How about for blacks?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1244/vshow}{GSS Data Explorer page for \code{blkjobs}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a lot \tab some \tab only a little \tab none at all \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 392 \tab 577 \tab 217 \tab 126 \tab 49 \tab 11 \tab 1372 \cr
-   Total \tab 0 \tab 392 \tab 577 \tab 217 \tab 126 \tab 49 \tab 11 \tab 1372 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a lot \tab some \tab only a little \tab none at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 392 \tab 577 \tab 217 \tab 126 \tab 49 \tab 11 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 392 \tab 577 \tab 217 \tab 126 \tab 49 \tab 11 \tab 0 \tab 1372 \cr
 }
 }
 

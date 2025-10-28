@@ -34,23 +34,21 @@ NOTE: This variable originates on the NEA follow-on, and should not be analyzed 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7869/vshow}{GSS Data Explorer page for \code{artsout}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab skipped on web \tab Total \cr
-   2022 \tab 2929 \tab 368 \tab 244 \tab 3 \tab 3544 \cr
-   Total \tab 2929 \tab 368 \tab 244 \tab 3 \tab 3544 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab not available in this year \tab yes \tab no \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 368 \tab 244 \tab 2929 \tab 3 \tab 3544 \cr
+   Total \tab 0 \tab 368 \tab 244 \tab 2929 \tab 3 \tab 3544 \cr
 }
 }
 
 \seealso{
 Other NEA: 
-\code{\link{yrarmus}},
-\code{\link{yrarpo}},
-\code{\link{yrclass}},
+\code{\link{yrartxbt}},
 \code{\link{yrcreat}},
+\code{\link{yrlvmus}},
 \code{\link{yrmovie}},
 \code{\link{yrrdg}},
 \code{\link{yrstmus}},
-\code{\link{yrstpo}},
 \code{\link{yrtour}}
 }
 \concept{NEA}

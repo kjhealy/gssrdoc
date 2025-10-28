@@ -35,10 +35,10 @@ Question In the United States, do you think it is easier or harder to get access
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7799/vshow}{GSS Data Explorer page for \code{hlthacc3}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab Total \cr
-   2022 \tab 2485 \tab 47 \tab 87 \tab 721 \tab 154 \tab 50 \tab 3544 \cr
-   Total \tab 2485 \tab 47 \tab 87 \tab 721 \tab 154 \tab 50 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab much easier \tab somewhat easier \tab about the same \tab somewhat harder \tab much harder \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 47 \tab 87 \tab 721 \tab 154 \tab 50 \tab 98 \tab 2379 \tab 2 \tab 6 \tab 3544 \cr
+   Total \tab 0 \tab 47 \tab 87 \tab 721 \tab 154 \tab 50 \tab 98 \tab 2379 \tab 2 \tab 6 \tab 3544 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question A. Did you ever tell anyone in a position of authority in your congrega
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3963/vshow}{GSS Data Explorer page for \code{toldrel1}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   2008 \tab 2008 \tab 2 \tab 13 \tab 2023 \cr
-   Total \tab 2008 \tab 2 \tab 13 \tab 2023 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab not available in this year \tab Total \cr
+   2008 \tab 2008 \tab 2 \tab 13 \tab - \tab 2023 \cr
+   Total \tab 2008 \tab 2 \tab 13 \tab 0 \tab 2023 \cr
 }
 }
 

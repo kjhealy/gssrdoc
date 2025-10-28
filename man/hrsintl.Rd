@@ -31,10 +31,10 @@ M. International/foreign
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1927/vshow}{GSS Data Explorer page for \code{hrsintl}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab 1 \tab 13 \tab 4 \tab 5 \tab Total \cr
-   1996 \tab 2896 \tab 2 \tab 1 \tab 3 \tab 2 \tab 2904 \cr
-   Total \tab 2896 \tab 2 \tab 1 \tab 3 \tab 2 \tab 2904 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab 1 \tab 13 \tab 4 \tab 5 \tab not available in this year \tab Total \cr
+   1996 \tab 2896 \tab 2 \tab 1 \tab 3 \tab 2 \tab - \tab 2904 \cr
+   Total \tab 2896 \tab 2 \tab 1 \tab 3 \tab 2 \tab 0 \tab 2904 \cr
 }
 }
 

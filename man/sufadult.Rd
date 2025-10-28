@@ -36,10 +36,10 @@ B. A child would suffer as an adult if others learn that he or she received ment
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2958/vshow}{GSS Data Explorer page for \code{sufadult}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 121 \tab 442 \tab 460 \tab 316 \tab 43 \tab 11 \tab 2765 \cr
-   Total \tab 1372 \tab 121 \tab 442 \tab 460 \tab 316 \tab 43 \tab 11 \tab 2765 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1372 \tab 121 \tab 442 \tab 460 \tab 316 \tab 43 \tab 11 \tab - \tab 2765 \cr
+   Total \tab 1372 \tab 121 \tab 442 \tab 460 \tab 316 \tab 43 \tab 11 \tab 0 \tab 2765 \cr
 }
 }
 

@@ -24,10 +24,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
-#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
-#'  |2018  |1175 |125                |113          |199                 |735    |1          |2348  |
-#'  |Total |1175 |125                |113          |199                 |735    |1          |2348  |
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |not available in this year |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:--------------------------|:-----|
+#'  |2018  |1175 |125                |113          |199                 |735    |1          |-                          |2348  |
+#'  |Total |1175 |125                |113          |199                 |735    |1          |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -65,10 +65,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
-#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
-#'  |2018  |1175 |149                |147          |184                 |689    |4          |2348  |
-#'  |Total |1175 |149                |147          |184                 |689    |4          |2348  |
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |not available in this year |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:--------------------------|:-----|
+#'  |2018  |1175 |149                |147          |184                 |689    |4          |-                          |2348  |
+#'  |Total |1175 |149                |147          |184                 |689    |4          |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -106,10 +106,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
-#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
-#'  |2018  |1175 |167                |161          |304                 |539    |2          |2348  |
-#'  |Total |1175 |167                |161          |304                 |539    |2          |2348  |
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |not available in this year |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:--------------------------|:-----|
+#'  |2018  |1175 |167                |161          |304                 |539    |2          |-                          |2348  |
+#'  |Total |1175 |167                |161          |304                 |539    |2          |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -147,10 +147,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
-#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
-#'  |2018  |1175 |216                |327          |315                 |314    |1          |2348  |
-#'  |Total |1175 |216                |327          |315                 |314    |1          |2348  |
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |not available in this year |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:--------------------------|:-----|
+#'  |2018  |1175 |216                |327          |315                 |314    |1          |-                          |2348  |
+#'  |Total |1175 |216                |327          |315                 |314    |1          |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -188,10 +188,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
-#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
-#'  |2018  |1175 |135                |190          |298                 |545    |5          |2348  |
-#'  |Total |1175 |135                |190          |298                 |545    |5          |2348  |
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |not available in this year |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:--------------------------|:-----|
+#'  |2018  |1175 |135                |190          |298                 |545    |5          |-                          |2348  |
+#'  |Total |1175 |135                |190          |298                 |545    |5          |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -229,10 +229,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
-#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
-#'  |2018  |1175 |187                |249          |243                 |493    |1          |2348  |
-#'  |Total |1175 |187                |249          |243                 |493    |1          |2348  |
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |not available in this year |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:--------------------------|:-----|
+#'  |2018  |1175 |187                |249          |243                 |493    |1          |-                          |2348  |
+#'  |Total |1175 |187                |249          |243                 |493    |1          |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -270,10 +270,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
-#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
-#'  |2018  |1175 |278                |286          |286                 |322    |1          |2348  |
-#'  |Total |1175 |278                |286          |286                 |322    |1          |2348  |
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |not available in this year |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:--------------------------|:-----|
+#'  |2018  |1175 |278                |286          |286                 |322    |1          |-                          |2348  |
+#'  |Total |1175 |278                |286          |286                 |322    |1          |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -311,10 +311,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
-#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
-#'  |2018  |1175 |491                |328          |156                 |197    |1          |2348  |
-#'  |Total |1175 |491                |328          |156                 |197    |1          |2348  |
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |not available in this year |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:--------------------------|:-----|
+#'  |2018  |1175 |491                |328          |156                 |197    |1          |-                          |2348  |
+#'  |Total |1175 |491                |328          |156                 |197    |1          |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -352,10 +352,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
-#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
-#'  |2018  |1175 |278                |220          |234                 |440    |1          |2348  |
-#'  |Total |1175 |278                |220          |234                 |440    |1          |2348  |
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |not available in this year |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:--------------------------|:-----|
+#'  |2018  |1175 |278                |220          |234                 |440    |1          |-                          |2348  |
+#'  |Total |1175 |278                |220          |234                 |440    |1          |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -393,10 +393,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |Total |
-#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:-----|
-#'  |2018  |1175 |425                |312          |184                 |250    |2          |2348  |
-#'  |Total |1175 |425                |312          |184                 |250    |2          |2348  |
+#'  |year  |iap  |family or relative |close friend |someone else i know |no one |don't know |not available in this year |Total |
+#'  |:-----|:----|:------------------|:------------|:-------------------|:------|:----------|:--------------------------|:-----|
+#'  |2018  |1175 |425                |312          |184                 |250    |2          |-                          |2348  |
+#'  |Total |1175 |425                |312          |184                 |250    |2          |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

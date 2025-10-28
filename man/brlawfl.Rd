@@ -35,10 +35,10 @@ Comply with laws and regulations?  Would you say...
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6313/vshow}{GSS Data Explorer page for \code{brlawfl}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab almost always \tab often \tab sometimes \tab almost never \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1477 \tab 290 \tab 392 \tab 513 \tab 149 \tab 32 \tab 14 \tab 2867 \cr
-   Total \tab 1477 \tab 290 \tab 392 \tab 513 \tab 149 \tab 32 \tab 14 \tab 2867 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab almost always \tab often \tab sometimes \tab almost never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1477 \tab 290 \tab 392 \tab 513 \tab 149 \tab 32 \tab 14 \tab - \tab 2867 \cr
+   Total \tab 1477 \tab 290 \tab 392 \tab 513 \tab 149 \tab 32 \tab 14 \tab 0 \tab 2867 \cr
 }
 }
 

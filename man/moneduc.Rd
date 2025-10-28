@@ -33,10 +33,10 @@ B. Education
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1901/vshow}{GSS Data Explorer page for \code{moneduc}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1996 \tab 2661 \tab 126 \tab 100 \tab 17 \tab 2904 \cr
-   Total \tab 2661 \tab 126 \tab 100 \tab 17 \tab 2904 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2661 \tab 126 \tab 100 \tab 17 \tab - \tab 2904 \cr
+   Total \tab 2661 \tab 126 \tab 100 \tab 17 \tab 0 \tab 2904 \cr
 }
 }
 

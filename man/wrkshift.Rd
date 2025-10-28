@@ -34,10 +34,10 @@ Which of the following statements best describes your usual working schedule in 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6333/vshow}{GSS Data Explorer page for \code{wrkshift}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab i have a regular schedule or shift (daytime, evening, or night) \tab i have a schedule or shift which regularly changes (for example, from days to evenings or to nights) \tab i have a schedule where daily working times are decided at short notice by my employer \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1927 \tab 700 \tab 166 \tab 55 \tab 11 \tab 8 \tab 2867 \cr
-   Total \tab 1927 \tab 700 \tab 166 \tab 55 \tab 11 \tab 8 \tab 2867 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab i have a regular schedule or shift (daytime, evening, or night) \tab i have a schedule or shift which regularly changes (for example, from days to evenings or to nights) \tab i have a schedule where daily working times are decided at short notice by my employer \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1927 \tab 700 \tab 166 \tab 55 \tab 11 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 1927 \tab 700 \tab 166 \tab 55 \tab 11 \tab 8 \tab 0 \tab 2867 \cr
 }
 }
 

@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no, never |yes, but rarely |yes, sometimes |yes, often |yes, very often |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:---------------|:--------------|:----------|:---------------|:----------|:---------|:-----|
-#'  |2018  |1175 |626       |239             |211            |54         |38              |4          |1         |2348  |
-#'  |Total |1175 |626       |239             |211            |54         |38              |4          |1         |2348  |
+#'  |year  |iap  |no, never |yes, but rarely |yes, sometimes |yes, often |yes, very often |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:---------------|:--------------|:----------|:---------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |626       |239             |211            |54         |38              |4          |1         |-                          |2348  |
+#'  |Total |1175 |626       |239             |211            |54         |38              |4          |1         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -67,10 +67,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |never |rarely |sometimes |often |very often |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:------|:---------|:-----|:----------|:----------|:---------|:-----|
-#'  |2018  |1175 |454   |444    |211       |42    |19         |1          |2         |2348  |
-#'  |Total |1175 |454   |444    |211       |42    |19         |1          |2         |2348  |
+#'  |year  |iap  |never |rarely |sometimes |often |very often |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:------|:---------|:-----|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |454   |444    |211       |42    |19         |1          |2         |-                          |2348  |
+#'  |Total |1175 |454   |444    |211       |42    |19         |1          |2         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -112,10 +112,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:----------|:---------|:-----|
-#'  |2018  |1175 |13    |57                   |113         |178                        |184          |196                  |201        |228   |1          |2         |2348  |
-#'  |Total |1175 |13    |57                   |113         |178                        |184          |196                  |201        |228   |1          |2         |2348  |
+#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |13    |57                   |113         |178                        |184          |196                  |201        |228   |1          |2         |-                          |2348  |
+#'  |Total |1175 |13    |57                   |113         |178                        |184          |196                  |201        |228   |1          |2         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -154,10 +154,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |never |rarely |sometimes |often |very often |don't know |Total |
-#'  |:-----|:----|:-----|:------|:---------|:-----|:----------|:----------|:-----|
-#'  |2018  |1404 |86    |296    |413       |95    |49         |5          |2348  |
-#'  |Total |1404 |86    |296    |413       |95    |49         |5          |2348  |
+#'  |year  |iap  |never |rarely |sometimes |often |very often |don't know |not available in this year |Total |
+#'  |:-----|:----|:-----|:------|:---------|:-----|:----------|:----------|:--------------------------|:-----|
+#'  |2018  |1404 |86    |296    |413       |95    |49         |5          |-                          |2348  |
+#'  |Total |1404 |86    |296    |413       |95    |49         |5          |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -197,10 +197,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0-4 people |5-9 people |10-19 people |20-49 people |50-99 people |100 or more people |don't know |no answer |Total |
-#'  |:-----|:----|:----------|:----------|:------------|:------------|:------------|:------------------|:----------|:---------|:-----|
-#'  |2018  |1175 |226        |313        |268          |224          |67           |70                 |4          |1         |2348  |
-#'  |Total |1175 |226        |313        |268          |224          |67           |70                 |4          |1         |2348  |
+#'  |year  |iap  |0-4 people |5-9 people |10-19 people |20-49 people |50-99 people |100 or more people |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:----------|:------------|:------------|:------------|:------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |226        |313        |268          |224          |67           |70                 |4          |1         |-                          |2348  |
+#'  |Total |1175 |226        |313        |268          |224          |67           |70                 |4          |1         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -239,10 +239,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |all or almost all of them |most of them |about half of them |some of them |none or almost none of them |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------------|:------------|:------------------|:------------|:---------------------------|:----------|:---------|:-----|
-#'  |2018  |1175 |189                       |308          |236                |332          |102                         |4          |2         |2348  |
-#'  |Total |1175 |189                       |308          |236                |332          |102                         |4          |2         |2348  |
+#'  |year  |iap  |all or almost all of them |most of them |about half of them |some of them |none or almost none of them |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------------|:------------|:------------------|:------------|:---------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |189                       |308          |236                |332          |102                         |4          |2         |-                          |2348  |
+#'  |Total |1175 |189                       |308          |236                |332          |102                         |4          |2         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -286,10 +286,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |my parents are no longer alive |the parent i have contact with most frequently lives with me |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:------------------------------|:------------------------------------------------------------|:----------|:---------|:-----|
-#'  |2018  |1175 |262   |208                  |141         |67                         |29           |18                   |14         |22    |390                            |19                                                           |2          |1         |2348  |
-#'  |Total |1175 |262   |208                  |141         |67                         |29           |18                   |14         |22    |390                            |19                                                           |2          |1         |2348  |
+#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |my parents are no longer alive |the parent i have contact with most frequently lives with me |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:------------------------------|:------------------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |262   |208                  |141         |67                         |29           |18                   |14         |22    |390                            |19                                                           |2          |1         |-                          |2348  |
+#'  |Total |1175 |262   |208                  |141         |67                         |29           |18                   |14         |22    |390                            |19                                                           |2          |1         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -333,10 +333,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |i do not have brothers or sisters |the brother or sister i have contact with most frequently lives with me |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:---------------------------------|:-----------------------------------------------------------------------|:----------|:---------|:-----|
-#'  |2018  |1175 |176   |258                  |164         |193                        |118          |71                   |45         |61    |71                                |9                                                                       |5          |2         |2348  |
-#'  |Total |1175 |176   |258                  |164         |193                        |118          |71                   |45         |61    |71                                |9                                                                       |5          |2         |2348  |
+#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |i do not have brothers or sisters |the brother or sister i have contact with most frequently lives with me |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:---------------------------------|:-----------------------------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |176   |258                  |164         |193                        |118          |71                   |45         |61    |71                                |9                                                                       |5          |2         |-                          |2348  |
+#'  |Total |1175 |176   |258                  |164         |193                        |118          |71                   |45         |61    |71                                |9                                                                       |5          |2         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -380,10 +380,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |i do not have any adult children |the adult child i have contact with most frequently lives with me |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:--------------------------------|:-----------------------------------------------------------------|:----------|:---------|:-----|
-#'  |2018  |1175 |264   |151                  |63          |38                         |16           |13                   |7          |23    |563                              |18                                                                |15         |2         |2348  |
-#'  |Total |1175 |264   |151                  |63          |38                         |16           |13                   |7          |23    |563                              |18                                                                |15         |2         |2348  |
+#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |i do not have any adult children |the adult child i have contact with most frequently lives with me |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:--------------------------------|:-----------------------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |264   |151                  |63          |38                         |16           |13                   |7          |23    |563                              |18                                                                |15         |2         |-                          |2348  |
+#'  |Total |1175 |264   |151                  |63          |38                         |16           |13                   |7          |23    |563                              |18                                                                |15         |2         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -427,10 +427,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |i do not have other family members |the other family member i have the most contact with the most frequently lives with me |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:----------------------------------|:--------------------------------------------------------------------------------------|:----------|:---------|:-----|
-#'  |2018  |1175 |137   |221                  |178         |165                        |115          |167                  |79         |74    |28                                 |6                                                                                      |2          |1         |2348  |
-#'  |Total |1175 |137   |221                  |178         |165                        |115          |167                  |79         |74    |28                                 |6                                                                                      |2          |1         |2348  |
+#'  |year  |iap  |daily |several times a week |once a week |two to three times a month |once a month |several times a year |less often |never |i do not have other family members |the other family member i have the most contact with the most frequently lives with me |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:--------------------|:-----------|:--------------------------|:------------|:--------------------|:----------|:-----|:----------------------------------|:--------------------------------------------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2018  |1175 |137   |221                  |178         |165                        |115          |167                  |79         |74    |28                                 |6                                                                                      |2          |1         |-                          |2348  |
+#'  |Total |1175 |137   |221                  |178         |165                        |115          |167                  |79         |74    |28                                 |6                                                                                      |2          |1         |0                          |2348  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

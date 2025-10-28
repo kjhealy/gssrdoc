@@ -39,12 +39,12 @@ Question If you were to consider your life in general, how happy or unhappy woul
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4451/vshow}{GSS Data Explorer page for \code{happy7}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab completely happy \tab very happy \tab fairly happy \tab neither happy nor unhappy \tab fairly unhappy \tab very unhappy \tab completely unhappy \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2002 \tab 1594 \tab 141 \tab 510 \tab 391 \tab 69 \tab 32 \tab 16 \tab 1 \tab 7 \tab 4 \tab - \tab 2765 \cr
-   2012 \tab 672 \tab 148 \tab 563 \tab 440 \tab 77 \tab 35 \tab 16 \tab 5 \tab 11 \tab 7 \tab - \tab 1974 \cr
-   2022 \tab 2386 \tab 120 \tab 425 \tab 413 \tab 94 \tab 50 \tab 17 \tab 2 \tab 29 \tab 5 \tab 3 \tab 3544 \cr
-   Total \tab 4652 \tab 409 \tab 1498 \tab 1244 \tab 240 \tab 117 \tab 49 \tab 8 \tab 47 \tab 16 \tab 3 \tab 8283 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab completely happy \tab very happy \tab fairly happy \tab neither happy nor unhappy \tab fairly unhappy \tab very unhappy \tab completely unhappy \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2002 \tab 1594 \tab 141 \tab 510 \tab 391 \tab 69 \tab 32 \tab 16 \tab 1 \tab 7 \tab 4 \tab - \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 148 \tab 563 \tab 440 \tab 77 \tab 35 \tab 16 \tab 5 \tab 11 \tab 7 \tab - \tab - \tab 1974 \cr
+   2022 \tab 1220 \tab 282 \tab 782 \tab 865 \tab 175 \tab 123 \tab 34 \tab 8 \tab 43 \tab 5 \tab 7 \tab - \tab 3544 \cr
+   Total \tab 3486 \tab 571 \tab 1855 \tab 1696 \tab 321 \tab 190 \tab 66 \tab 14 \tab 61 \tab 16 \tab 7 \tab 0 \tab 8283 \cr
 }
 }
 

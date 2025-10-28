@@ -36,10 +36,10 @@ D. It is all right to develop friendships with people just because you know they
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4232/vshow}{GSS Data Explorer page for \code{usefrds}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2002 \tab 1616 \tab 24 \tab 109 \tab 211 \tab 475 \tab 308 \tab 13 \tab 9 \tab 2765 \cr
-   Total \tab 1616 \tab 24 \tab 109 \tab 211 \tab 475 \tab 308 \tab 13 \tab 9 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1616 \tab 24 \tab 109 \tab 211 \tab 475 \tab 308 \tab 13 \tab 9 \tab - \tab 2765 \cr
+   Total \tab 1616 \tab 24 \tab 109 \tab 211 \tab 475 \tab 308 \tab 13 \tab 9 \tab 0 \tab 2765 \cr
 }
 }
 

@@ -39,10 +39,10 @@ Question In which of these groups did the revenues from this business fall for l
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3819/vshow}{GSS Data Explorer page for \code{bizgross}}.
 
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab ( $15,000 \tab $15,001-$25,000 \tab $25,001-$30,000 \tab $30,001-$35,000 \tab $35,001-$50,000 \tab $50,001-$60,000 \tab $60,001-$75,000 \tab $75,001-$100,000 \tab ) $100,000 \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1773 \tab 104 \tab 16 \tab 11 \tab 7 \tab 17 \tab 9 \tab 7 \tab 7 \tab 48 \tab 12 \tab 12 \tab 2023 \cr
-   Total \tab 1773 \tab 104 \tab 16 \tab 11 \tab 7 \tab 17 \tab 9 \tab 7 \tab 7 \tab 48 \tab 12 \tab 12 \tab 2023 \cr
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab ( $15,000 \tab $15,001-$25,000 \tab $25,001-$30,000 \tab $30,001-$35,000 \tab $35,001-$50,000 \tab $50,001-$60,000 \tab $60,001-$75,000 \tab $75,001-$100,000 \tab ) $100,000 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1773 \tab 104 \tab 16 \tab 11 \tab 7 \tab 17 \tab 9 \tab 7 \tab 7 \tab 48 \tab 12 \tab 12 \tab - \tab 2023 \cr
+   Total \tab 1773 \tab 104 \tab 16 \tab 11 \tab 7 \tab 17 \tab 9 \tab 7 \tab 7 \tab 48 \tab 12 \tab 12 \tab 0 \tab 2023 \cr
 }
 }
 

@@ -35,12 +35,13 @@ D. Go to a psychiatrist for help
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2014/vshow}{GSS Data Explorer page for \code{mentldoc}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 954 \tab 379 \tab 77 \tab 34 \tab 2904 \cr
-   2006 \tab 3073 \tab 1113 \tab 263 \tab 47 \tab 14 \tab 4510 \cr
-   2018 \tab 1175 \tab 969 \tab 153 \tab 22 \tab 29 \tab 2348 \cr
-   Total \tab 5708 \tab 3036 \tab 795 \tab 146 \tab 77 \tab 9762 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 954 \tab 379 \tab 77 \tab 34 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 1113 \tab 263 \tab 47 \tab 14 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 969 \tab 153 \tab 22 \tab 29 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1693 \tab 1335 \tab 207 \tab 37 \tab 12 \tab - \tab 25 \tab 3309 \cr
+   Total \tab 7401 \tab 4371 \tab 1002 \tab 183 \tab 89 \tab 0 \tab 25 \tab 13071 \cr
 }
 }
 

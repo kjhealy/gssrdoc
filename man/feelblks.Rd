@@ -32,10 +32,10 @@ Question A. In general, how warm or cool do you feel towards African Americans?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2730/vshow}{GSS Data Explorer page for \code{feelblks}}.
 
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab very warm \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab very cool \tab don't know \tab no answer \tab Total \cr
-   2002 \tab - \tab 740 \tab 318 \tab 364 \tab 264 \tab 745 \tab 105 \tab 99 \tab 35 \tab 59 \tab 24 \tab 12 \tab 2765 \cr
-   Total \tab 0 \tab 740 \tab 318 \tab 364 \tab 264 \tab 745 \tab 105 \tab 99 \tab 35 \tab 59 \tab 24 \tab 12 \tab 2765 \cr
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab very warm \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab very cool \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab - \tab 740 \tab 318 \tab 364 \tab 264 \tab 745 \tab 105 \tab 99 \tab 35 \tab 59 \tab 24 \tab 12 \tab - \tab 2765 \cr
+   Total \tab 0 \tab 740 \tab 318 \tab 364 \tab 264 \tab 745 \tab 105 \tab 99 \tab 35 \tab 59 \tab 24 \tab 12 \tab 0 \tab 2765 \cr
 }
 }
 

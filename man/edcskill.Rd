@@ -36,10 +36,10 @@ A. School, college, or university
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4583/vshow}{GSS Data Explorer page for \code{edcskill}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very important \tab important \tab not un/importnt \tab not important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1967 \tab 218 \tab 271 \tab 127 \tab 101 \tab 82 \tab 9 \tab 57 \tab 2832 \cr
-   Total \tab 1967 \tab 218 \tab 271 \tab 127 \tab 101 \tab 82 \tab 9 \tab 57 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab important \tab not un/important \tab not important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1967 \tab 218 \tab 271 \tab 127 \tab 101 \tab 82 \tab 9 \tab 57 \tab - \tab 2832 \cr
+   Total \tab 1967 \tab 218 \tab 271 \tab 127 \tab 101 \tab 82 \tab 9 \tab 57 \tab 0 \tab 2832 \cr
 }
 }
 

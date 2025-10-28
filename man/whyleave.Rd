@@ -33,10 +33,10 @@ Question Why did you leave your last (full-time) job? Did you leave voluntarily,
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3876/vshow}{GSS Data Explorer page for \code{whyleave}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab left voluntarily \tab job was abolished \tab permanently laid off \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1804 \tab 154 \tab 20 \tab 38 \tab 4 \tab 3 \tab 2023 \cr
-   Total \tab 1804 \tab 154 \tab 20 \tab 38 \tab 4 \tab 3 \tab 2023 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab left voluntarily \tab job was abolished \tab permanently laid off \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1804 \tab 154 \tab 20 \tab 38 \tab 4 \tab 3 \tab - \tab 2023 \cr
+   Total \tab 1804 \tab 154 \tab 20 \tab 38 \tab 4 \tab 3 \tab 0 \tab 2023 \cr
 }
 }
 

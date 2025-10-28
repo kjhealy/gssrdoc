@@ -38,10 +38,10 @@ How satisfied were you in your last job?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6341/vshow}{GSS Data Explorer page for \code{exjobsat}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab completely satisfied \tab very satisfied \tab fairly satisfied \tab neither satisfied nor dissatisfied \tab fairly dissatisfied \tab very dissatisfied \tab completely dissatisfied \tab 99 \tab Total \cr
-   2016 \tab 2382 \tab 134 \tab 147 \tab 109 \tab 21 \tab 15 \tab 23 \tab 13 \tab 23 \tab 2867 \cr
-   Total \tab 2382 \tab 134 \tab 147 \tab 109 \tab 21 \tab 15 \tab 23 \tab 13 \tab 23 \tab 2867 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab completely satisfied \tab very satisfied \tab fairly satisfied \tab neither satisfied nor dissatisfied \tab fairly dissatisfied \tab very dissatisfied \tab completely dissatisfied \tab 99 \tab not available in this year \tab Total \cr
+   2016 \tab 2382 \tab 134 \tab 147 \tab 109 \tab 21 \tab 15 \tab 23 \tab 13 \tab 23 \tab - \tab 2867 \cr
+   Total \tab 2382 \tab 134 \tab 147 \tab 109 \tab 21 \tab 15 \tab 23 \tab 13 \tab 23 \tab 0 \tab 2867 \cr
 }
 }
 

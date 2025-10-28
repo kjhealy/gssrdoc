@@ -36,11 +36,11 @@ A. Prozac is harmful to the body.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2226/vshow}{GSS Data Explorer page for \code{proz1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1635 \tab 59 \tab 240 \tab 371 \tab 211 \tab 28 \tab 279 \tab 9 \tab 2832 \cr
-   2006 \tab 3238 \tab 78 \tab 236 \tab 537 \tab 225 \tab 35 \tab 144 \tab 17 \tab 4510 \cr
-   Total \tab 4873 \tab 137 \tab 476 \tab 908 \tab 436 \tab 63 \tab 423 \tab 26 \tab 7342 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1635 \tab 59 \tab 240 \tab 371 \tab 211 \tab 28 \tab 279 \tab 9 \tab - \tab 2832 \cr
+   2006 \tab 3238 \tab 78 \tab 236 \tab 537 \tab 225 \tab 35 \tab 144 \tab 17 \tab - \tab 4510 \cr
+   Total \tab 4873 \tab 137 \tab 476 \tab 908 \tab 436 \tab 63 \tab 423 \tab 26 \tab 0 \tab 7342 \cr
 }
 }
 

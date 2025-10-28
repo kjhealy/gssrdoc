@@ -37,12 +37,13 @@ C. The way (s/he) was raised
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1990/vshow}{GSS Data Explorer page for \code{wayraise}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 149 \tab 552 \tab 420 \tab 245 \tab 60 \tab 18 \tab 2904 \cr
-   2006 \tab 3073 \tab 148 \tab 580 \tab 387 \tab 257 \tab 51 \tab 14 \tab 4510 \cr
-   2018 \tab 1175 \tab 99 \tab 413 \tab 376 \tab 232 \tab 23 \tab 30 \tab 2348 \cr
-   Total \tab 5708 \tab 396 \tab 1545 \tab 1183 \tab 734 \tab 134 \tab 62 \tab 9762 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 149 \tab 552 \tab 420 \tab 245 \tab 60 \tab 18 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 148 \tab 580 \tab 387 \tab 257 \tab 51 \tab 14 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 99 \tab 413 \tab 376 \tab 232 \tab 23 \tab 30 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1691 \tab 146 \tab 599 \tab 508 \tab 296 \tab 38 \tab 10 \tab - \tab 21 \tab 3309 \cr
+   Total \tab 7399 \tab 542 \tab 2144 \tab 1691 \tab 1030 \tab 172 \tab 72 \tab 0 \tab 21 \tab 13071 \cr
 }
 }
 

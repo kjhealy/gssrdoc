@@ -34,10 +34,10 @@ Question Do you know a woman or a man who isï¿½A hairdresser or barber
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7232/vshow}{GSS Data Explorer page for \code{knwcuttr}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab family or relative \tab close friend \tab someone else i know \tab no one \tab don't know \tab Total \cr
-   2018 \tab 1175 \tab 216 \tab 327 \tab 315 \tab 314 \tab 1 \tab 2348 \cr
-   Total \tab 1175 \tab 216 \tab 327 \tab 315 \tab 314 \tab 1 \tab 2348 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab family or relative \tab close friend \tab someone else i know \tab no one \tab don't know \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 216 \tab 327 \tab 315 \tab 314 \tab 1 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 216 \tab 327 \tab 315 \tab 314 \tab 1 \tab 0 \tab 2348 \cr
 }
 }
 

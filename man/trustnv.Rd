@@ -35,10 +35,11 @@ be too careful in dealing with people?
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7613/vshow}{GSS Data Explorer page for \code{trustnv}}.
 
 Counts by year:\tabular{lllllll}{
-   year \tab iap \tab can trust \tab can't be too careful \tab depends (phone mode only: volunteered) \tab skipped on web \tab Total \cr
+   year \tab iap \tab most people can be trusted \tab can't be too careful \tab depends(phone mode only, volunteered) \tab skipped on web \tab Total \cr
    2021 \tab 2719 \tab 527 \tab 776 \tab 4 \tab 6 \tab 4032 \cr
    2022 \tab 2962 \tab 195 \tab 383 \tab 1 \tab 3 \tab 3544 \cr
-   Total \tab 5681 \tab 722 \tab 1159 \tab 5 \tab 9 \tab 7576 \cr
+   2024 \tab 2665 \tab 217 \tab 412 \tab 8 \tab 7 \tab 3309 \cr
+   Total \tab 8346 \tab 939 \tab 1571 \tab 13 \tab 16 \tab 10885 \cr
 }
 }
 

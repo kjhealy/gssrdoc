@@ -34,10 +34,10 @@ Question Counting all these times, in total were you unemployed and looking for 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1274/vshow}{GSS Data Explorer page for \code{totunemp}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab 2-8 weeks \tab 8 week - 6 mon \tab 6-12 mon \tab ) 1 year \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 824 \tab 337 \tab 187 \tab 75 \tab 81 \tab 2 \tab 11 \tab 1517 \cr
-   Total \tab 824 \tab 337 \tab 187 \tab 75 \tab 81 \tab 2 \tab 11 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 2-8 weeks \tab 8 week - 6 mon \tab 6-12 mon \tab ) 1 year \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 824 \tab 337 \tab 187 \tab 75 \tab 81 \tab 2 \tab 11 \tab - \tab 1517 \cr
+   Total \tab 824 \tab 337 \tab 187 \tab 75 \tab 81 \tab 2 \tab 11 \tab 0 \tab 1517 \cr
 }
 }
 

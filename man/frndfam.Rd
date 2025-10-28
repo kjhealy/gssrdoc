@@ -33,10 +33,10 @@ Question While some people think that close relatives should be the most importa
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7782/vshow}{GSS Data Explorer page for \code{frndfam}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab Total \cr
-   2022 \tab 2500 \tab 237 \tab 78 \tab 127 \tab 529 \tab 22 \tab 18 \tab 33 \tab 3544 \cr
-   Total \tab 2500 \tab 237 \tab 78 \tab 127 \tab 529 \tab 22 \tab 18 \tab 33 \tab 3544 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab not available in this year \tab close relatives should definitely be the most important \tab 2 \tab 3 \tab both should be equally important \tab 5 \tab 6 \tab close friends should definitely be the most important \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 237 \tab 78 \tab 127 \tab 529 \tab 22 \tab 18 \tab 33 \tab 96 \tab 2386 \tab 10 \tab 8 \tab 3544 \cr
+   Total \tab 0 \tab 237 \tab 78 \tab 127 \tab 529 \tab 22 \tab 18 \tab 33 \tab 96 \tab 2386 \tab 10 \tab 8 \tab 3544 \cr
 }
 }
 

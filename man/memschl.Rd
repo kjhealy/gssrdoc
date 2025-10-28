@@ -35,25 +35,25 @@ H. School service groups
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/970/vshow}{GSS Data Explorer page for \code{memschl}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1974 \tab - \tab 259 \tab 1203 \tab 1 \tab 21 \tab 1484 \cr
-   1975 \tab - \tab 206 \tab 1255 \tab 1 \tab 28 \tab 1490 \cr
-   1977 \tab - \tab 203 \tab 1313 \tab - \tab 14 \tab 1530 \cr
-   1978 \tab - \tab 213 \tab 1302 \tab 1 \tab 16 \tab 1532 \cr
-   1980 \tab - \tab 145 \tab 1294 \tab 2 \tab 27 \tab 1468 \cr
-   1983 \tab - \tab 217 \tab 1375 \tab - \tab 7 \tab 1599 \cr
-   1984 \tab - \tab 179 \tab 1273 \tab 1 \tab 20 \tab 1473 \cr
-   1986 \tab - \tab 210 \tab 1249 \tab - \tab 11 \tab 1470 \cr
-   1987 \tab - \tab 220 \tab 1577 \tab 1 \tab 21 \tab 1819 \cr
-   1988 \tab 484 \tab 124 \tab 861 \tab - \tab 12 \tab 1481 \cr
-   1989 \tab 502 \tab 134 \tab 872 \tab 1 \tab 28 \tab 1537 \cr
-   1990 \tab 473 \tab 117 \tab 775 \tab - \tab 7 \tab 1372 \cr
-   1991 \tab 500 \tab 145 \tab 860 \tab 1 \tab 11 \tab 1517 \cr
-   1993 \tab 549 \tab 163 \tab 888 \tab 2 \tab 4 \tab 1606 \cr
-   1994 \tab 2481 \tab 82 \tab 427 \tab - \tab 2 \tab 2992 \cr
-   2004 \tab 1340 \tab 206 \tab 1260 \tab 1 \tab 5 \tab 2812 \cr
-   Total \tab 6329 \tab 2823 \tab 17784 \tab 12 \tab 234 \tab 27182 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1974 \tab - \tab 259 \tab 1203 \tab 1 \tab 21 \tab - \tab 1484 \cr
+   1975 \tab - \tab 206 \tab 1255 \tab 1 \tab 28 \tab - \tab 1490 \cr
+   1977 \tab - \tab 203 \tab 1313 \tab - \tab 14 \tab - \tab 1530 \cr
+   1978 \tab - \tab 213 \tab 1302 \tab 1 \tab 16 \tab - \tab 1532 \cr
+   1980 \tab - \tab 145 \tab 1294 \tab 2 \tab 27 \tab - \tab 1468 \cr
+   1983 \tab - \tab 217 \tab 1375 \tab - \tab 7 \tab - \tab 1599 \cr
+   1984 \tab - \tab 179 \tab 1273 \tab 1 \tab 20 \tab - \tab 1473 \cr
+   1986 \tab - \tab 210 \tab 1249 \tab - \tab 11 \tab - \tab 1470 \cr
+   1987 \tab - \tab 220 \tab 1577 \tab 1 \tab 21 \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 124 \tab 861 \tab - \tab 12 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 134 \tab 872 \tab 1 \tab 28 \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 117 \tab 775 \tab - \tab 7 \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 145 \tab 860 \tab 1 \tab 11 \tab - \tab 1517 \cr
+   1993 \tab 549 \tab 163 \tab 888 \tab 2 \tab 4 \tab - \tab 1606 \cr
+   1994 \tab 2481 \tab 82 \tab 427 \tab - \tab 2 \tab - \tab 2992 \cr
+   2004 \tab 1340 \tab 206 \tab 1260 \tab 1 \tab 5 \tab - \tab 2812 \cr
+   Total \tab 6329 \tab 2823 \tab 17784 \tab 12 \tab 234 \tab 0 \tab 27182 \cr
 }
 }
 

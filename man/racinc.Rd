@@ -33,10 +33,10 @@ Question If a black person has the same qualifications as a white person, Do you
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/412/vshow}{GSS Data Explorer page for \code{racinc}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab almost always \tab sometimes \tab almost never \tab don't know \tab no answer \tab Total \cr
-   1982 \tab 1350 \tab 66 \tab 278 \tab 159 \tab 2 \tab 5 \tab 1860 \cr
-   Total \tab 1350 \tab 66 \tab 278 \tab 159 \tab 2 \tab 5 \tab 1860 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost always \tab sometimes \tab almost never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab 1350 \tab 66 \tab 278 \tab 159 \tab 2 \tab 5 \tab - \tab 1860 \cr
+   Total \tab 1350 \tab 66 \tab 278 \tab 159 \tab 2 \tab 5 \tab 0 \tab 1860 \cr
 }
 }
 

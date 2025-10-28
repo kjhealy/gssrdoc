@@ -37,10 +37,10 @@ Question Of these groups"whites, blacks, Jews, Hispanics and Latin Americans, As
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2361/vshow}{GSS Data Explorer page for \code{leastcom}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab whites \tab blacks/african-americans \tab jews \tab hispanics \tab asians \tab equal in common to all \tab nothing in common with any \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 35 \tab 210 \tab 174 \tab 173 \tab 426 \tab 164 \tab 71 \tab 107 \tab 38 \tab 2817 \cr
-   Total \tab 1419 \tab 35 \tab 210 \tab 174 \tab 173 \tab 426 \tab 164 \tab 71 \tab 107 \tab 38 \tab 2817 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab whites \tab blacks/african-americans \tab jews \tab hispanics \tab asians \tab equal in common to all \tab nothing in common with any \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 35 \tab 210 \tab 174 \tab 173 \tab 426 \tab 164 \tab 71 \tab 107 \tab 38 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 35 \tab 210 \tab 174 \tab 173 \tab 426 \tab 164 \tab 71 \tab 107 \tab 38 \tab 0 \tab 2817 \cr
 }
 }
 

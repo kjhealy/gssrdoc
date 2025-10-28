@@ -33,10 +33,10 @@ B. Your family and friends
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1086/vshow}{GSS Data Explorer page for \code{decoths}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very important \tab 2 \tab 3 \tab 4 \tab not very important \tab don't know \tab no answer \tab Total \cr
-   1988 \tab - \tab 715 \tab 389 \tab 227 \tab 68 \tab 69 \tab 7 \tab 6 \tab 1481 \cr
-   Total \tab 0 \tab 715 \tab 389 \tab 227 \tab 68 \tab 69 \tab 7 \tab 6 \tab 1481 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab 2 \tab 3 \tab 4 \tab not very important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 715 \tab 389 \tab 227 \tab 68 \tab 69 \tab 7 \tab 6 \tab - \tab 1481 \cr
+   Total \tab 0 \tab 715 \tab 389 \tab 227 \tab 68 \tab 69 \tab 7 \tab 6 \tab 0 \tab 1481 \cr
 }
 }
 

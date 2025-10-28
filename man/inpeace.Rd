@@ -37,10 +37,10 @@ C. True freedom is feeling an inner spiritual peace.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2670/vshow}{GSS Data Explorer page for \code{inpeace}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab one of the most important \tab extremely important \tab very important \tab moderately important \tab somewhat important \tab not too important \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 507 \tab 298 \tab 370 \tab 120 \tab 50 \tab 28 \tab 22 \tab 24 \tab 2817 \cr
-   Total \tab 1398 \tab 507 \tab 298 \tab 370 \tab 120 \tab 50 \tab 28 \tab 22 \tab 24 \tab 2817 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab one of the most important \tab extremely important \tab very important \tab moderately important \tab somewhat important \tab not too important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 507 \tab 298 \tab 370 \tab 120 \tab 50 \tab 28 \tab 22 \tab 24 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 507 \tab 298 \tab 370 \tab 120 \tab 50 \tab 28 \tab 22 \tab 24 \tab 0 \tab 2817 \cr
 }
 }
 

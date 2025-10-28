@@ -35,10 +35,10 @@ B. How about for blacks?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1247/vshow}{GSS Data Explorer page for \code{blkhouse}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a lot \tab some \tab only a little \tab none at all \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 452 \tab 527 \tab 193 \tab 131 \tab 57 \tab 12 \tab 1372 \cr
-   Total \tab 0 \tab 452 \tab 527 \tab 193 \tab 131 \tab 57 \tab 12 \tab 1372 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a lot \tab some \tab only a little \tab none at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 452 \tab 527 \tab 193 \tab 131 \tab 57 \tab 12 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 452 \tab 527 \tab 193 \tab 131 \tab 57 \tab 12 \tab 0 \tab 1372 \cr
 }
 }
 

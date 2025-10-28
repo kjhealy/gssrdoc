@@ -35,10 +35,10 @@ Question The federal government should advocate Christian values.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7545/vshow}{GSS Data Explorer page for \code{govchrst}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 424 \tab 287 \tab 598 \tab 1087 \tab 696 \tab 891 \tab 4 \tab 4 \tab 41 \tab 4032 \cr
-   Total \tab 424 \tab 287 \tab 598 \tab 1087 \tab 696 \tab 891 \tab 4 \tab 4 \tab 41 \tab 4032 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 424 \tab 287 \tab 598 \tab 1087 \tab 696 \tab 891 \tab 4 \tab 4 \tab 41 \tab - \tab 4032 \cr
+   Total \tab 424 \tab 287 \tab 598 \tab 1087 \tab 696 \tab 891 \tab 4 \tab 4 \tab 41 \tab 0 \tab 4032 \cr
 }
 }
 

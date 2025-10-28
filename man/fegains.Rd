@@ -32,10 +32,10 @@ Question People have different ideas about the best way for women to improve the
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1044/vshow}{GSS Data Explorer page for \code{fegains}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab womens rights grps \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab better trained inds \tab no answer \tab Total \cr
-   1987 \tab 778 \tab 59 \tab 27 \tab 38 \tab 188 \tab 136 \tab 130 \tab 442 \tab 21 \tab 1819 \cr
-   Total \tab 778 \tab 59 \tab 27 \tab 38 \tab 188 \tab 136 \tab 130 \tab 442 \tab 21 \tab 1819 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab womens rights grps \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab better trained inds \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 778 \tab 59 \tab 27 \tab 38 \tab 188 \tab 136 \tab 130 \tab 442 \tab 21 \tab - \tab 1819 \cr
+   Total \tab 778 \tab 59 \tab 27 \tab 38 \tab 188 \tab 136 \tab 130 \tab 442 \tab 21 \tab 0 \tab 1819 \cr
 }
 }
 

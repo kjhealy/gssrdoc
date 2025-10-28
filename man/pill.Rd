@@ -32,14 +32,14 @@ Question A. In some places in the United States, it is not legal to supply birth
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/623/vshow}{GSS Data Explorer page for \code{pill}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab available \tab not available \tab don't know \tab no answer \tab Total \cr
-   1974 \tab - \tab 1354 \tab 115 \tab 15 \tab - \tab 1484 \cr
-   1975 \tab - \tab 1331 \tab 126 \tab 31 \tab 2 \tab 1490 \cr
-   1977 \tab - \tab 1389 \tab 112 \tab 24 \tab 5 \tab 1530 \cr
-   1982 \tab - \tab 1664 \tab 148 \tab 45 \tab 3 \tab 1860 \cr
-   1983 \tab - \tab 1441 \tab 127 \tab 29 \tab 2 \tab 1599 \cr
-   Total \tab 0 \tab 7179 \tab 628 \tab 144 \tab 12 \tab 7963 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab available \tab not available \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1974 \tab - \tab 1354 \tab 115 \tab 15 \tab - \tab - \tab 1484 \cr
+   1975 \tab - \tab 1331 \tab 126 \tab 31 \tab 2 \tab - \tab 1490 \cr
+   1977 \tab - \tab 1389 \tab 112 \tab 24 \tab 5 \tab - \tab 1530 \cr
+   1982 \tab - \tab 1664 \tab 148 \tab 45 \tab 3 \tab - \tab 1860 \cr
+   1983 \tab - \tab 1441 \tab 127 \tab 29 \tab 2 \tab - \tab 1599 \cr
+   Total \tab 0 \tab 7179 \tab 628 \tab 144 \tab 12 \tab 0 \tab 7963 \cr
 }
 }
 

@@ -37,12 +37,13 @@ E. To have a group home for people like NAME opened in your neighborhood?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2007/vshow}{GSS Data Explorer page for \code{viggrp}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 263 \tab 572 \tab 272 \tab 237 \tab 74 \tab 26 \tab 2904 \cr
-   2006 \tab 3073 \tab 270 \tab 601 \tab 309 \tab 187 \tab 53 \tab 17 \tab 4510 \cr
-   2018 \tab 1175 \tab 275 \tab 491 \tab 227 \tab 124 \tab 25 \tab 31 \tab 2348 \cr
-   Total \tab 5708 \tab 808 \tab 1664 \tab 808 \tab 548 \tab 152 \tab 74 \tab 9762 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 263 \tab 572 \tab 272 \tab 237 \tab 74 \tab 26 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 270 \tab 601 \tab 309 \tab 187 \tab 53 \tab 17 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 275 \tab 491 \tab 227 \tab 124 \tab 25 \tab 31 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1691 \tab 269 \tab 709 \tab 356 \tab 198 \tab 43 \tab 13 \tab - \tab 30 \tab 3309 \cr
+   Total \tab 7399 \tab 1077 \tab 2373 \tab 1164 \tab 746 \tab 195 \tab 87 \tab 0 \tab 30 \tab 13071 \cr
 }
 }
 

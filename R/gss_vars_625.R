@@ -1,43 +1,3 @@
-#'  Black
-#' 
-#'  raceacs2
-#' 
-#' Question What is your race? Indicate one or more races that you consider yourself to be.  Black or African American
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[0]` no
-#'   * `[1]` yes
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years            |
-#'  |:-------|:----------------|
-#'  |A/B/C   |2021, 2022, 2024 |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `raceacs2`](https://gssdataexplorer.norc.org/variables/7451/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap |no   |yes  |don't know |no answer |refused |Total |
-#'  |:-----|:---|:----|:----|:----------|:---------|:-------|:-----|
-#'  |2021  |-   |3522 |495  |6          |9         |-       |4032  |
-#'  |2022  |-   |2913 |590  |8          |18        |15      |3544  |
-#'  |Total |0   |6435 |1085 |14         |27        |15      |7576  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Core
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name raceacs2
-NULL
-
-
 #'  American indian or alaska native
 #' 
 #'  raceacs3
@@ -62,11 +22,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |no   |yes |don't know |no answer |refused |Total |
-#'  |:-----|:---|:----|:---|:----------|:---------|:-------|:-----|
-#'  |2021  |-   |3885 |132 |6          |9         |-       |4032  |
-#'  |2022  |-   |3360 |143 |8          |18        |15      |3544  |
-#'  |Total |0   |7245 |275 |14         |27        |15      |7576  |
+#'  |year  |not available in this year |no    |yes |don't know |no answer |refused |Total |
+#'  |:-----|:--------------------------|:-----|:---|:----------|:---------|:-------|:-----|
+#'  |2021  |-                          |3885  |132 |6          |9         |-       |4032  |
+#'  |2022  |-                          |3360  |143 |8          |18        |15      |3544  |
+#'  |2024  |-                          |3144  |114 |18         |24        |9       |3309  |
+#'  |Total |0                          |10389 |389 |32         |51        |24      |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -102,11 +63,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |no   |yes |don't know |no answer |refused |Total |
-#'  |:-----|:---|:----|:---|:----------|:---------|:-------|:-----|
-#'  |2021  |-   |3968 |49  |6          |9         |-       |4032  |
-#'  |2022  |-   |3462 |41  |8          |18        |15      |3544  |
-#'  |Total |0   |7430 |90  |14         |27        |15      |7576  |
+#'  |year  |not available in this year |no    |yes |don't know |no answer |refused |Total |
+#'  |:-----|:--------------------------|:-----|:---|:----------|:---------|:-------|:-----|
+#'  |2021  |-                          |3968  |49  |6          |9         |-       |4032  |
+#'  |2022  |-                          |3462  |41  |8          |18        |15      |3544  |
+#'  |2024  |-                          |3209  |49  |18         |24        |9       |3309  |
+#'  |Total |0                          |10639 |139 |32         |51        |24      |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -142,11 +104,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |no   |yes |don't know |no answer |refused |Total |
-#'  |:-----|:---|:----|:---|:----------|:---------|:-------|:-----|
-#'  |2021  |-   |3964 |53  |6          |9         |-       |4032  |
-#'  |2022  |-   |3470 |33  |8          |18        |15      |3544  |
-#'  |Total |0   |7434 |86  |14         |27        |15      |7576  |
+#'  |year  |not available in this year |no    |yes |don't know |no answer |refused |Total |
+#'  |:-----|:--------------------------|:-----|:---|:----------|:---------|:-------|:-----|
+#'  |2021  |-                          |3964  |53  |6          |9         |-       |4032  |
+#'  |2022  |-                          |3470  |33  |8          |18        |15      |3544  |
+#'  |2024  |-                          |3216  |42  |18         |24        |9       |3309  |
+#'  |Total |0                          |10650 |128 |32         |51        |24      |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -182,11 +145,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |no   |yes |don't know |no answer |refused |Total |
-#'  |:-----|:---|:----|:---|:----------|:---------|:-------|:-----|
-#'  |2021  |-   |3997 |20  |6          |9         |-       |4032  |
-#'  |2022  |-   |3475 |28  |8          |18        |15      |3544  |
-#'  |Total |0   |7472 |48  |14         |27        |15      |7576  |
+#'  |year  |not available in this year |no    |yes |don't know |no answer |refused |Total |
+#'  |:-----|:--------------------------|:-----|:---|:----------|:---------|:-------|:-----|
+#'  |2021  |-                          |3997  |20  |6          |9         |-       |4032  |
+#'  |2022  |-                          |3475  |28  |8          |18        |15      |3544  |
+#'  |2024  |-                          |3223  |35  |18         |24        |9       |3309  |
+#'  |Total |0                          |10695 |83  |32         |51        |24      |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -222,11 +186,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |no   |yes |don't know |no answer |refused |Total |
-#'  |:-----|:---|:----|:---|:----------|:---------|:-------|:-----|
-#'  |2021  |-   |3994 |23  |6          |9         |-       |4032  |
-#'  |2022  |-   |3491 |12  |8          |18        |15      |3544  |
-#'  |Total |0   |7485 |35  |14         |27        |15      |7576  |
+#'  |year  |not available in this year |no    |yes |don't know |no answer |refused |Total |
+#'  |:-----|:--------------------------|:-----|:---|:----------|:---------|:-------|:-----|
+#'  |2021  |-                          |3994  |23  |6          |9         |-       |4032  |
+#'  |2022  |-                          |3491  |12  |8          |18        |15      |3544  |
+#'  |2024  |-                          |3243  |15  |18         |24        |9       |3309  |
+#'  |Total |0                          |10728 |50  |32         |51        |24      |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -262,11 +227,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |no   |yes |don't know |no answer |refused |Total |
-#'  |:-----|:---|:----|:---|:----------|:---------|:-------|:-----|
-#'  |2021  |-   |3990 |27  |6          |9         |-       |4032  |
-#'  |2022  |-   |3492 |11  |8          |18        |15      |3544  |
-#'  |Total |0   |7482 |38  |14         |27        |15      |7576  |
+#'  |year  |not available in this year |no    |yes |don't know |no answer |refused |Total |
+#'  |:-----|:--------------------------|:-----|:---|:----------|:---------|:-------|:-----|
+#'  |2021  |-                          |3990  |27  |6          |9         |-       |4032  |
+#'  |2022  |-                          |3492  |11  |8          |18        |15      |3544  |
+#'  |2024  |-                          |3250  |8   |18         |24        |9       |3309  |
+#'  |Total |0                          |10732 |46  |32         |51        |24      |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -302,11 +268,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |no   |yes |don't know |no answer |refused |Total |
-#'  |:-----|:---|:----|:---|:----------|:---------|:-------|:-----|
-#'  |2021  |-   |4010 |7   |6          |9         |-       |4032  |
-#'  |2022  |-   |3492 |11  |8          |18        |15      |3544  |
-#'  |Total |0   |7502 |18  |14         |27        |15      |7576  |
+#'  |year  |not available in this year |no    |yes |don't know |no answer |refused |Total |
+#'  |:-----|:--------------------------|:-----|:---|:----------|:---------|:-------|:-----|
+#'  |2021  |-                          |4010  |7   |6          |9         |-       |4032  |
+#'  |2022  |-                          |3492  |11  |8          |18        |15      |3544  |
+#'  |2024  |-                          |3250  |8   |18         |24        |9       |3309  |
+#'  |Total |0                          |10752 |26  |32         |51        |24      |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -342,11 +309,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |no   |yes |don't know |no answer |refused |Total |
-#'  |:-----|:---|:----|:---|:----------|:---------|:-------|:-----|
-#'  |2021  |-   |3991 |26  |6          |9         |-       |4032  |
-#'  |2022  |-   |3484 |19  |8          |18        |15      |3544  |
-#'  |Total |0   |7475 |45  |14         |27        |15      |7576  |
+#'  |year  |not available in this year |no    |yes |don't know |no answer |refused |Total |
+#'  |:-----|:--------------------------|:-----|:---|:----------|:---------|:-------|:-----|
+#'  |2021  |-                          |3991  |26  |6          |9         |-       |4032  |
+#'  |2022  |-                          |3484  |19  |8          |18        |15      |3544  |
+#'  |2024  |-                          |3230  |28  |18         |24        |9       |3309  |
+#'  |Total |0                          |10705 |73  |32         |51        |24      |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -383,11 +351,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |no   |yes |don't know |no answer |refused |Total |
-#'  |:-----|:---|:----|:---|:----------|:---------|:-------|:-----|
-#'  |2021  |-   |4010 |7   |6          |9         |-       |4032  |
-#'  |2022  |-   |3499 |4   |8          |18        |15      |3544  |
-#'  |Total |0   |7509 |11  |14         |27        |15      |7576  |
+#'  |year  |not available in this year |no   |yes |don't know |no answer |refused |Total |
+#'  |:-----|:--------------------------|:----|:---|:----------|:---------|:-------|:-----|
+#'  |2021  |-                          |4010 |7   |6          |9         |-       |4032  |
+#'  |2022  |-                          |3499 |4   |8          |18        |15      |3544  |
+#'  |Total |0                          |7509 |11  |14         |27        |15      |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Core
@@ -396,6 +364,47 @@ NULL
 #' @keywords variable
 #' @md
 #' @name raceacs11
+NULL
+
+
+#'  Guamanian or chamorro
+#' 
+#'  raceacs12
+#' 
+#' Question What is your race? Indicate one or more races that you consider yourself to be.  Guamanian or Chamorro 
+#'   As of 2024, RACEACS12 has been recoded into RACEACS14 as "Other Pacific Islander."
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[0]` no
+#'   * `[1]` yes
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2021, 2022 |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `raceacs12`](https://gssdataexplorer.norc.org/variables/7461/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |no   |yes |don't know |no answer |refused |Total |
+#'  |:-----|:--------------------------|:----|:---|:----------|:---------|:-------|:-----|
+#'  |2021  |-                          |4013 |4   |6          |9         |-       |4032  |
+#'  |2022  |-                          |3501 |2   |8          |18        |15      |3544  |
+#'  |Total |0                          |7514 |6   |14         |27        |15      |7576  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Race
+#' 
+#' @keywords variable
+#' @md
+#' @name raceacs12
 NULL
 
 

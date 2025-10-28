@@ -32,10 +32,10 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7956/vshow}{GSS Data Explorer page for \code{biokids}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab skipped on web \tab Total \cr
-   2022 \tab 2309 \tab 417 \tab 206 \tab 1 \tab 1 \tab 328 \tab 149 \tab 78 \tab 31 \tab 11 \tab 6 \tab 1 \tab 6 \tab 3544 \cr
-   Total \tab 2309 \tab 417 \tab 206 \tab 1 \tab 1 \tab 328 \tab 149 \tab 78 \tab 31 \tab 11 \tab 6 \tab 1 \tab 6 \tab 3544 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab not available in this year \tab 0 \tab 1 \tab 10 \tab 11 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 417 \tab 206 \tab 1 \tab 1 \tab 328 \tab 149 \tab 78 \tab 31 \tab 11 \tab 6 \tab 1 \tab 2309 \tab 6 \tab 3544 \cr
+   Total \tab 0 \tab 417 \tab 206 \tab 1 \tab 1 \tab 328 \tab 149 \tab 78 \tab 31 \tab 11 \tab 6 \tab 1 \tab 2309 \tab 6 \tab 3544 \cr
 }
 }
 

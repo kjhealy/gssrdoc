@@ -31,10 +31,10 @@ F9. Highest school grade ninth child completed.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1536/vshow}{GSS Data Explorer page for \code{kdeduc9}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab Total \cr
-   1994 \tab 2983 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2992 \cr
-   Total \tab 2983 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2992 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab not available in this year \tab Total \cr
+   1994 \tab 2983 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab - \tab 2992 \cr
+   Total \tab 2983 \tab 1 \tab 2 \tab 1 \tab 3 \tab 1 \tab 1 \tab 0 \tab 2992 \cr
 }
 }
 

@@ -35,10 +35,11 @@ Question A. Now, I want to ask you some specific questions about (John/Mary). In
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2921/vshow}{GSS Data Explorer page for \code{badchar}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 77 \tab 334 \tab 463 \tab 470 \tab 38 \tab 11 \tab 2765 \cr
-   Total \tab 1372 \tab 77 \tab 334 \tab 463 \tab 470 \tab 38 \tab 11 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2002 \tab 1372 \tab 77 \tab 334 \tab 463 \tab 470 \tab 38 \tab 11 \tab - \tab - \tab 2765 \cr
+   2024 \tab 1659 \tab 116 \tab 521 \tab 623 \tab 335 \tab 31 \tab 4 \tab - \tab 20 \tab 3309 \cr
+   Total \tab 3031 \tab 193 \tab 855 \tab 1086 \tab 805 \tab 69 \tab 15 \tab 0 \tab 20 \tab 6074 \cr
 }
 }
 

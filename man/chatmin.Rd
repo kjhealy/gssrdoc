@@ -31,11 +31,11 @@ B. Minutes per week?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2387/vshow}{GSS Data Explorer page for \code{chatmin}}.
 
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 15 \tab 20 \tab 3 \tab 30 \tab 5 \tab don't know \tab no answer \tab 40 \tab Total \cr
-   2000 \tab 2074 \tab 597 \tab 1 \tab 7 \tab 7 \tab 5 \tab 1 \tab 33 \tab 3 \tab 3 \tab 86 \tab - \tab 2817 \cr
-   2002 \tab 2403 \tab 299 \tab - \tab - \tab - \tab 2 \tab - \tab 10 \tab 1 \tab - \tab 49 \tab 1 \tab 2765 \cr
-   Total \tab 4477 \tab 896 \tab 1 \tab 7 \tab 7 \tab 7 \tab 1 \tab 43 \tab 4 \tab 3 \tab 135 \tab 1 \tab 5582 \cr
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 15 \tab 20 \tab 3 \tab 30 \tab 5 \tab don't know \tab no answer \tab 40 \tab not available in this year \tab Total \cr
+   2000 \tab 2074 \tab 597 \tab 1 \tab 7 \tab 7 \tab 5 \tab 1 \tab 33 \tab 3 \tab 3 \tab 86 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2403 \tab 299 \tab - \tab - \tab - \tab 2 \tab - \tab 10 \tab 1 \tab - \tab 49 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 4477 \tab 896 \tab 1 \tab 7 \tab 7 \tab 7 \tab 1 \tab 43 \tab 4 \tab 3 \tab 135 \tab 1 \tab 0 \tab 5582 \cr
 }
 }
 

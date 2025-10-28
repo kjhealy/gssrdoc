@@ -36,10 +36,10 @@ C. Third listed child?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2653/vshow}{GSS Data Explorer page for \code{knowkid3}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab almost all of the time \tab most of the time \tab about half of the time \tab some of the time \tab no answer \tab Total \cr
-   2000 \tab 2745 \tab 48 \tab 13 \tab 2 \tab 2 \tab 7 \tab 2817 \cr
-   Total \tab 2745 \tab 48 \tab 13 \tab 2 \tab 2 \tab 7 \tab 2817 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost all of the time \tab most of the time \tab about half of the time \tab some of the time \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2745 \tab 48 \tab 13 \tab 2 \tab 2 \tab 7 \tab - \tab 2817 \cr
+   Total \tab 2745 \tab 48 \tab 13 \tab 2 \tab 2 \tab 7 \tab 0 \tab 2817 \cr
 }
 }
 

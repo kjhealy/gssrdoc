@@ -35,12 +35,12 @@ A. How would you rate the quality of the men and women now serving in the armed 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/781/vshow}{GSS Data Explorer page for \code{milqual}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab excellent \tab good \tab not so good \tab poor \tab don't know \tab no answer \tab Total \cr
-   1982 \tab - \tab 110 \tab 843 \tab 558 \tab 180 \tab 149 \tab 20 \tab 1860 \cr
-   1983 \tab - \tab 134 \tab 877 \tab 355 \tab 108 \tab 121 \tab 4 \tab 1599 \cr
-   1984 \tab - \tab 161 \tab 832 \tab 335 \tab 56 \tab 69 \tab 20 \tab 1473 \cr
-   Total \tab 0 \tab 405 \tab 2552 \tab 1248 \tab 344 \tab 339 \tab 44 \tab 4932 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab excellent \tab good \tab not so good \tab poor \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab - \tab 110 \tab 843 \tab 558 \tab 180 \tab 149 \tab 20 \tab - \tab 1860 \cr
+   1983 \tab - \tab 134 \tab 877 \tab 355 \tab 108 \tab 121 \tab 4 \tab - \tab 1599 \cr
+   1984 \tab - \tab 161 \tab 832 \tab 335 \tab 56 \tab 69 \tab 20 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 405 \tab 2552 \tab 1248 \tab 344 \tab 339 \tab 44 \tab 0 \tab 4932 \cr
 }
 }
 

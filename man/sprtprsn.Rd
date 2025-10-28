@@ -35,7 +35,7 @@ Question To what extent do you consider yourself a spiritual person?  Are you . 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2121/vshow}{GSS Data Explorer page for \code{sprtprsn}}.
 
 Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very spiritual \tab moderately spirtual \tab slightly spiritual \tab not spiritual at all \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   year \tab iap \tab very spiritual \tab moderately spiritual \tab slightly spiritual \tab not spiritual at all \tab don't know \tab no answer \tab skipped on web \tab Total \cr
    1998 \tab 1387 \tab 314 \tab 571 \tab 366 \tab 171 \tab 5 \tab 18 \tab - \tab 2832 \cr
    2006 \tab 1518 \tab 877 \tab 1216 \tab 595 \tab 266 \tab 29 \tab 9 \tab - \tab 4510 \cr
    2008 \tab - \tab 549 \tab 817 \tab 429 \tab 196 \tab 22 \tab 10 \tab - \tab 2023 \cr
@@ -46,7 +46,8 @@ Counts by year:\tabular{llllllllll}{
    2018 \tab - \tab 700 \tab 831 \tab 522 \tab 265 \tab 18 \tab 12 \tab - \tab 2348 \cr
    2021 \tab - \tab 961 \tab 1362 \tab 1006 \tab 605 \tab 4 \tab 48 \tab 46 \tab 4032 \cr
    2022 \tab - \tab 957 \tab 1202 \tab 831 \tab 502 \tab 17 \tab 19 \tab 16 \tab 3544 \cr
-   Total \tab 2905 \tab 7092 \tab 9520 \tab 5817 \tab 2979 \tab 173 \tab 164 \tab 62 \tab 28712 \cr
+   2024 \tab - \tab 957 \tab 1054 \tab 754 \tab 472 \tab 31 \tab 10 \tab 31 \tab 3309 \cr
+   Total \tab 2905 \tab 8049 \tab 10574 \tab 6571 \tab 3451 \tab 204 \tab 174 \tab 93 \tab 32021 \cr
 }
 }
 

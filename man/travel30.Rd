@@ -36,12 +36,12 @@ H. Travel?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2401/vshow}{GSS Data Explorer page for \code{travel30}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2075 \tab 230 \tab 233 \tab 111 \tab 95 \tab 73 \tab - \tab 2817 \cr
-   2002 \tab 1681 \tab 366 \tab 298 \tab 171 \tab 154 \tab 94 \tab 1 \tab 2765 \cr
-   2004 \tab 2122 \tab 231 \tab 218 \tab 121 \tab 108 \tab 12 \tab - \tab 2812 \cr
-   Total \tab 5878 \tab 827 \tab 749 \tab 403 \tab 357 \tab 179 \tab 1 \tab 8394 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 230 \tab 233 \tab 111 \tab 95 \tab 73 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 366 \tab 298 \tab 171 \tab 154 \tab 94 \tab 1 \tab - \tab 2765 \cr
+   2004 \tab 2122 \tab 231 \tab 218 \tab 121 \tab 108 \tab 12 \tab - \tab - \tab 2812 \cr
+   Total \tab 5878 \tab 827 \tab 749 \tab 403 \tab 357 \tab 179 \tab 1 \tab 0 \tab 8394 \cr
 }
 }
 

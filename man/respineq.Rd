@@ -36,10 +36,10 @@ Question From the following list, who do you think should have the greatest resp
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7506/vshow}{GSS Data Explorer page for \code{respineq}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab private companies \tab government \tab trade unions \tab high-income individuals themselves \tab low-income individuals themselves \tab income differences do not need to be reduced \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2029 \tab 515 \tab 539 \tab 87 \tab 97 \tab 122 \tab 175 \tab 311 \tab 143 \tab 14 \tab 4032 \cr
-   Total \tab 2029 \tab 515 \tab 539 \tab 87 \tab 97 \tab 122 \tab 175 \tab 311 \tab 143 \tab 14 \tab 4032 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab private companies \tab government \tab trade unions \tab high-income individuals themselves \tab low-income individuals themselves \tab income differences do not need to be reduced \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2029 \tab 515 \tab 539 \tab 87 \tab 97 \tab 122 \tab 175 \tab 311 \tab 143 \tab 14 \tab - \tab 4032 \cr
+   Total \tab 2029 \tab 515 \tab 539 \tab 87 \tab 97 \tab 122 \tab 175 \tab 311 \tab 143 \tab 14 \tab 0 \tab 4032 \cr
 }
 }
 

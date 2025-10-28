@@ -37,10 +37,10 @@ Question And how often do you have any other contact with your father besides vi
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4193/vshow}{GSS Data Explorer page for \code{pacall1}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab never \tab no answer \tab Total \cr
-   2002 \tab 2221 \tab 56 \tab 93 \tab 115 \tab 100 \tab 49 \tab 50 \tab 77 \tab 4 \tab 2765 \cr
-   Total \tab 2221 \tab 56 \tab 93 \tab 115 \tab 100 \tab 49 \tab 50 \tab 77 \tab 4 \tab 2765 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab never \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 2221 \tab 56 \tab 93 \tab 115 \tab 100 \tab 49 \tab 50 \tab 77 \tab 4 \tab - \tab 2765 \cr
+   Total \tab 2221 \tab 56 \tab 93 \tab 115 \tab 100 \tab 49 \tab 50 \tab 77 \tab 4 \tab 0 \tab 2765 \cr
 }
 }
 

@@ -37,11 +37,11 @@ C. ...that practicing a religion helps people to gain comfort in times of troubl
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4714/vshow}{GSS Data Explorer page for \code{comfort}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 658 \tab 626 \tab 663 \tab 51 \tab 5 \tab 6 \tab 9 \tab 5 \tab 2023 \cr
-   2018 \tab 1173 \tab 484 \tab 602 \tab 55 \tab 17 \tab 4 \tab 2 \tab 11 \tab 2348 \cr
-   Total \tab 1831 \tab 1110 \tab 1265 \tab 106 \tab 22 \tab 10 \tab 11 \tab 16 \tab 4371 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 658 \tab 626 \tab 663 \tab 51 \tab 5 \tab 6 \tab 9 \tab 5 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 484 \tab 602 \tab 55 \tab 17 \tab 4 \tab 2 \tab 11 \tab - \tab 2348 \cr
+   Total \tab 1831 \tab 1110 \tab 1265 \tab 106 \tab 22 \tab 10 \tab 11 \tab 16 \tab 0 \tab 4371 \cr
 }
 }
 

@@ -36,10 +36,10 @@ B. Workers would not bother to get skills and qualifications unless they were pa
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4257/vshow}{GSS Data Explorer page for \code{inequal2}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1987 \tab 255 \tab 220 \tab 658 \tab 221 \tab 352 \tab 55 \tab 29 \tab 29 \tab 1819 \cr
-   Total \tab 255 \tab 220 \tab 658 \tab 221 \tab 352 \tab 55 \tab 29 \tab 29 \tab 1819 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 220 \tab 658 \tab 221 \tab 352 \tab 55 \tab 29 \tab 29 \tab - \tab 1819 \cr
+   Total \tab 255 \tab 220 \tab 658 \tab 221 \tab 352 \tab 55 \tab 29 \tab 29 \tab 0 \tab 1819 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Do you think Negroes should have as good a chance as white people to ge
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/401/vshow}{GSS Data Explorer page for \code{racjob}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab as good a chance \tab whites first \tab don't know \tab iap \tab no answer \tab Total \cr
-   1972 \tab 1289 \tab 43 \tab 16 \tab 261 \tab 4 \tab 1613 \cr
-   Total \tab 1289 \tab 43 \tab 16 \tab 261 \tab 4 \tab 1613 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab as good a chance \tab whites first \tab don't know \tab iap \tab no answer \tab not available in this year \tab Total \cr
+   1972 \tab 1289 \tab 43 \tab 16 \tab 261 \tab 4 \tab - \tab 1613 \cr
+   Total \tab 1289 \tab 43 \tab 16 \tab 261 \tab 4 \tab 0 \tab 1613 \cr
 }
 }
 

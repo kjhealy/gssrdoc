@@ -35,10 +35,10 @@ G. How about, for young men, serving in the military during peacetime?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/840/vshow}{GSS Data Explorer page for \code{obmepax}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very important \tab somewhat important \tab not obligation \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 476 \tab 700 \tab 256 \tab 18 \tab 23 \tab 1473 \cr
-   Total \tab 0 \tab 476 \tab 700 \tab 256 \tab 18 \tab 23 \tab 1473 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab somewhat important \tab not obligation \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 476 \tab 700 \tab 256 \tab 18 \tab 23 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 476 \tab 700 \tab 256 \tab 18 \tab 23 \tab 0 \tab 1473 \cr
 }
 }
 

@@ -37,12 +37,13 @@ F. American television should give preference to American films and programs
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4855/vshow}{GSS Data Explorer page for \code{amtv}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 124 \tab 359 \tab 421 \tab 317 \tab 77 \tab 45 \tab 24 \tab 2904 \cr
-   2004 \tab 1596 \tab 105 \tab 292 \tab 350 \tab 362 \tab 79 \tab 27 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 70 \tab 286 \tab 370 \tab 379 \tab 110 \tab 55 \tab 4 \tab 2538 \cr
-   Total \tab 4397 \tab 299 \tab 937 \tab 1141 \tab 1058 \tab 266 \tab 127 \tab 29 \tab 8254 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 124 \tab 359 \tab 421 \tab 317 \tab 77 \tab 45 \tab 24 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 105 \tab 292 \tab 350 \tab 362 \tab 79 \tab 27 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 70 \tab 286 \tab 370 \tab 379 \tab 110 \tab 55 \tab 4 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1663 \tab 95 \tab 309 \tab 538 \tab 446 \tab 137 \tab 99 \tab 3 \tab - \tab 19 \tab 3309 \cr
+   Total \tab 6060 \tab 394 \tab 1246 \tab 1679 \tab 1504 \tab 403 \tab 226 \tab 32 \tab 0 \tab 19 \tab 11563 \cr
 }
 }
 

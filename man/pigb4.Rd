@@ -32,10 +32,10 @@ Question Past pet - Pig
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7217/vshow}{GSS Data Explorer page for \code{pigb4}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab did not have \tab no answer \tab Total \cr
-   2018 \tab 2144 \tab 181 \tab 23 \tab 2348 \cr
-   Total \tab 2144 \tab 181 \tab 23 \tab 2348 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab did not have \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 2144 \tab 181 \tab 23 \tab - \tab 2348 \cr
+   Total \tab 2144 \tab 181 \tab 23 \tab 0 \tab 2348 \cr
 }
 }
 

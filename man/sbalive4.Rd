@@ -33,10 +33,10 @@ E4. Is fourth sibling alive?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1575/vshow}{GSS Data Explorer page for \code{sbalive4}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1794 \tab 984 \tab 168 \tab 3 \tab 43 \tab 2992 \cr
-   Total \tab 1794 \tab 984 \tab 168 \tab 3 \tab 43 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1794 \tab 984 \tab 168 \tab 3 \tab 43 \tab - \tab 2992 \cr
+   Total \tab 1794 \tab 984 \tab 168 \tab 3 \tab 43 \tab 0 \tab 2992 \cr
 }
 }
 

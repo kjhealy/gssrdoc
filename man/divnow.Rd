@@ -35,10 +35,10 @@ Question In general, would you say that the law now makes it easy or difficult f
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4386/vshow}{GSS Data Explorer page for \code{divnow}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very easy \tab fairly easy \tab neither easy nor difficult \tab fairly difficult \tab very difficult \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 572 \tab 443 \tab 197 \tab 75 \tab 52 \tab 45 \tab 30 \tab 1481 \cr
-   Total \tab 67 \tab 572 \tab 443 \tab 197 \tab 75 \tab 52 \tab 45 \tab 30 \tab 1481 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very easy \tab fairly easy \tab neither easy nor difficult \tab fairly difficult \tab very difficult \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 572 \tab 443 \tab 197 \tab 75 \tab 52 \tab 45 \tab 30 \tab - \tab 1481 \cr
+   Total \tab 67 \tab 572 \tab 443 \tab 197 \tab 75 \tab 52 \tab 45 \tab 30 \tab 0 \tab 1481 \cr
 }
 }
 

@@ -22,10 +22,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no   |no answer |Total |
-#'  |:-----|:---|:---|:----|:---------|:-----|
-#'  |1987  |-   |390 |1417 |12        |1819  |
-#'  |Total |0   |390 |1417 |12        |1819  |
+#'  |year  |iap |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:----|:---------|:--------------------------|:-----|
+#'  |1987  |-   |390 |1417 |12        |-                          |1819  |
+#'  |Total |0   |390 |1417 |12        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -64,10 +64,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |too much |right amount |too little |far too little |don't know |no answer |Total |
-#'  |:-----|:----|:--------|:------------|:----------|:--------------|:----------|:---------|:-----|
-#'  |1987  |1275 |7        |60           |268        |188            |16         |5         |1819  |
-#'  |Total |1275 |7        |60           |268        |188            |16         |5         |1819  |
+#'  |year  |iap  |too much |right amount |too little |far too little |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------|:------------|:----------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1987  |1275 |7        |60           |268        |188            |16         |5         |-                          |1819  |
+#'  |Total |1275 |7        |60           |268        |188            |16         |5         |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -103,10 +103,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |civil rights grps |2  |3  |4   |5  |6  |better trained inds |no answer |Total |
-#'  |:-----|:----|:-----------------|:--|:--|:---|:--|:--|:-------------------|:---------|:-----|
-#'  |1987  |1275 |37                |19 |17 |140 |72 |41 |209                 |9         |1819  |
-#'  |Total |1275 |37                |19 |17 |140 |72 |41 |209                 |9         |1819  |
+#'  |year  |iap  |civil rights grps |2  |3  |4   |5  |6  |better trained inds |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:--|:--|:---|:--|:--|:-------------------|:---------|:--------------------------|:-----|
+#'  |1987  |1275 |37                |19 |17 |140 |72 |41 |209                 |9         |-                          |1819  |
+#'  |Total |1275 |37                |19 |17 |140 |72 |41 |209                 |9         |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -145,10 +145,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |far too much |too much |right amount |too little |far too little |don't know |no answer |Total |
-#'  |:-----|:---|:------------|:--------|:------------|:----------|:--------------|:----------|:---------|:-----|
-#'  |1987  |778 |8            |43       |375          |461        |118            |25         |11        |1819  |
-#'  |Total |778 |8            |43       |375          |461        |118            |25         |11        |1819  |
+#'  |year  |iap |far too much |too much |right amount |too little |far too little |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------|:--------|:------------|:----------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1987  |778 |8            |43       |375          |461        |118            |25         |11        |-                          |1819  |
+#'  |Total |778 |8            |43       |375          |461        |118            |25         |11        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -184,10 +184,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |womens rights grps |2  |3  |4   |5   |6   |better trained inds |no answer |Total |
-#'  |:-----|:---|:------------------|:--|:--|:---|:---|:---|:-------------------|:---------|:-----|
-#'  |1987  |778 |59                 |27 |38 |188 |136 |130 |442                 |21        |1819  |
-#'  |Total |778 |59                 |27 |38 |188 |136 |130 |442                 |21        |1819  |
+#'  |year  |iap |womens rights grps |2  |3  |4   |5   |6   |better trained inds |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------------|:--|:--|:---|:---|:---|:-------------------|:---------|:--------------------------|:-----|
+#'  |1987  |778 |59                 |27 |38 |188 |136 |130 |442                 |21        |-                          |1819  |
+#'  |Total |778 |59                 |27 |38 |188 |136 |130 |442                 |21        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Socio-political participation
@@ -224,10 +224,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |agree |disagree |don't know |no answer |Total |
-#'  |:-----|:---|:-----|:--------|:----------|:---------|:-----|
-#'  |1988  |-   |334   |1111     |21         |15        |1481  |
-#'  |Total |0   |334   |1111     |21         |15        |1481  |
+#'  |year  |iap |agree |disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----|:--------|:----------|:---------|:--------------------------|:-----|
+#'  |1988  |-   |334   |1111     |21         |15        |-                          |1481  |
+#'  |Total |0   |334   |1111     |21         |15        |0                          |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -264,10 +264,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |agree |disagree |don't know |no answer |Total |
-#'  |:-----|:---|:-----|:--------|:----------|:---------|:-----|
-#'  |1988  |-   |595   |854      |18         |14        |1481  |
-#'  |Total |0   |595   |854      |18         |14        |1481  |
+#'  |year  |iap |agree |disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----|:--------|:----------|:---------|:--------------------------|:-----|
+#'  |1988  |-   |595   |854      |18         |14        |-                          |1481  |
+#'  |Total |0   |595   |854      |18         |14        |0                          |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -304,10 +304,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |agree |disagree |don't know |no answer |Total |
-#'  |:-----|:---|:-----|:--------|:----------|:---------|:-----|
-#'  |1988  |-   |504   |942      |19         |16        |1481  |
-#'  |Total |0   |504   |942      |19         |16        |1481  |
+#'  |year  |iap |agree |disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----|:--------|:----------|:---------|:--------------------------|:-----|
+#'  |1988  |-   |504   |942      |19         |16        |-                          |1481  |
+#'  |Total |0   |504   |942      |19         |16        |0                          |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -345,10 +345,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |agree |disagree |don't know |no answer |Total |
-#'  |:-----|:---|:-----|:--------|:----------|:---------|:-----|
-#'  |1988  |-   |474   |961      |29         |17        |1481  |
-#'  |Total |0   |474   |961      |29         |17        |1481  |
+#'  |year  |iap |agree |disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----|:--------|:----------|:---------|:--------------------------|:-----|
+#'  |1988  |-   |474   |961      |29         |17        |-                          |1481  |
+#'  |Total |0   |474   |961      |29         |17        |0                          |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -388,10 +388,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes |no  |no answer |Total |
-#'  |:-----|:---|:---|:---|:---------|:-----|
-#'  |1988  |-   |525 |945 |11        |1481  |
-#'  |Total |0   |525 |945 |11        |1481  |
+#'  |year  |iap |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:---------|:--------------------------|:-----|
+#'  |1988  |-   |525 |945 |11        |-                          |1481  |
+#'  |Total |0   |525 |945 |11        |0                          |1481  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion

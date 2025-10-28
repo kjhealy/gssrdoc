@@ -36,10 +36,10 @@ Question If you were no longer an AMERICAN, but were a citizen of another countr
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1788/vshow}{GSS Data Explorer page for \code{notam}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab completely different \tab quite different \tab somewhat different \tab just slightly different \tab not at all different \tab citizen of another country \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2199 \tab 191 \tab 123 \tab 148 \tab 68 \tab 81 \tab 13 \tab 76 \tab 5 \tab 2904 \cr
-   Total \tab 2199 \tab 191 \tab 123 \tab 148 \tab 68 \tab 81 \tab 13 \tab 76 \tab 5 \tab 2904 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab completely different \tab quite different \tab somewhat different \tab just slightly different \tab not at all different \tab citizen of another country \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2199 \tab 191 \tab 123 \tab 148 \tab 68 \tab 81 \tab 13 \tab 76 \tab 5 \tab - \tab 2904 \cr
+   Total \tab 2199 \tab 191 \tab 123 \tab 148 \tab 68 \tab 81 \tab 13 \tab 76 \tab 5 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -33,18 +33,18 @@ A. Did she work for as long as a year before you started first grade?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/89/vshow}{GSS Data Explorer page for \code{mawkbaby}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1973 \tab 913 \tab 244 \tab 320 \tab 26 \tab 1 \tab 1504 \cr
-   1974 \tab 882 \tab 254 \tab 317 \tab 29 \tab 2 \tab 1484 \cr
-   1975 \tab 794 \tab 281 \tab 377 \tab 25 \tab 13 \tab 1490 \cr
-   1976 \tab 802 \tab 277 \tab 373 \tab 27 \tab 20 \tab 1499 \cr
-   1977 \tab 877 \tab 230 \tab 363 \tab 30 \tab 30 \tab 1530 \cr
-   1978 \tab 776 \tab 318 \tab 404 \tab 24 \tab 10 \tab 1532 \cr
-   1980 \tab 743 \tab 288 \tab 398 \tab 24 \tab 15 \tab 1468 \cr
-   1982 \tab 944 \tab 392 \tab 414 \tab 43 \tab 67 \tab 1860 \cr
-   1983 \tab 731 \tab 344 \tab 478 \tab 43 \tab 3 \tab 1599 \cr
-   Total \tab 7462 \tab 2628 \tab 3444 \tab 271 \tab 161 \tab 13966 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1973 \tab 913 \tab 244 \tab 320 \tab 26 \tab 1 \tab - \tab 1504 \cr
+   1974 \tab 882 \tab 254 \tab 317 \tab 29 \tab 2 \tab - \tab 1484 \cr
+   1975 \tab 794 \tab 281 \tab 377 \tab 25 \tab 13 \tab - \tab 1490 \cr
+   1976 \tab 802 \tab 277 \tab 373 \tab 27 \tab 20 \tab - \tab 1499 \cr
+   1977 \tab 877 \tab 230 \tab 363 \tab 30 \tab 30 \tab - \tab 1530 \cr
+   1978 \tab 776 \tab 318 \tab 404 \tab 24 \tab 10 \tab - \tab 1532 \cr
+   1980 \tab 743 \tab 288 \tab 398 \tab 24 \tab 15 \tab - \tab 1468 \cr
+   1982 \tab 944 \tab 392 \tab 414 \tab 43 \tab 67 \tab - \tab 1860 \cr
+   1983 \tab 731 \tab 344 \tab 478 \tab 43 \tab 3 \tab - \tab 1599 \cr
+   Total \tab 7462 \tab 2628 \tab 3444 \tab 271 \tab 161 \tab 0 \tab 13966 \cr
 }
 }
 

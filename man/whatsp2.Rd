@@ -34,11 +34,12 @@ Question How would you classify the place where your (spouse/partner) (work/work
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7748/vshow}{GSS Data Explorer page for \code{whatsp2}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab manufacturing \tab wholesale trade \tab retail trade \tab other (agriculture, construction, service, government, etc.) \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab 2132 \tab 163 \tab 36 \tab 148 \tab 1019 \tab 31 \tab 11 \tab 4 \tab 3544 \cr
-   Total \tab 6164 \tab 163 \tab 36 \tab 148 \tab 1019 \tab 31 \tab 11 \tab 4 \tab 7576 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab manufacturing \tab wholesale trade \tab retail trade \tab other (agriculture, construction, service, government, etc.) \tab don't know \tab iap \tab skipped on web \tab no answer \tab Total \cr
+   2021 \tab - \tab 247 \tab 56 \tab 244 \tab 1347 \tab 2 \tab 2117 \tab 19 \tab - \tab 4032 \cr
+   2022 \tab - \tab 164 \tab 36 \tab 149 \tab 1022 \tab 31 \tab 2126 \tab 4 \tab 12 \tab 3544 \cr
+   2024 \tab - \tab 157 \tab 31 \tab 158 \tab 910 \tab 31 \tab 2011 \tab 6 \tab 5 \tab 3309 \cr
+   Total \tab 0 \tab 568 \tab 123 \tab 551 \tab 3279 \tab 64 \tab 6254 \tab 29 \tab 17 \tab 10885 \cr
 }
 }
 

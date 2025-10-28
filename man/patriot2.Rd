@@ -36,10 +36,10 @@ B. Lead to intolerance in America
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4904/vshow}{GSS Data Explorer page for \code{patriot2}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
-   2014 \tab 1264 \tab 86 \tab 443 \tab 311 \tab 275 \tab 49 \tab 106 \tab 4 \tab 2538 \cr
-   Total \tab 1264 \tab 86 \tab 443 \tab 311 \tab 275 \tab 49 \tab 106 \tab 4 \tab 2538 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab 1264 \tab 86 \tab 443 \tab 311 \tab 275 \tab 49 \tab 106 \tab 4 \tab - \tab 2538 \cr
+   Total \tab 1264 \tab 86 \tab 443 \tab 311 \tab 275 \tab 49 \tab 106 \tab 4 \tab 0 \tab 2538 \cr
 }
 }
 

@@ -33,10 +33,10 @@ B. Turn to friends for help.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3783/vshow}{GSS Data Explorer page for \code{mhhlpfrd}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab not at all important \tab very important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 45 \tab 437 \tab 39 \tab 52 \tab 40 \tab 189 \tab 95 \tab 154 \tab 254 \tab 103 \tab 7 \tab 10 \tab 4510 \cr
-   Total \tab 3085 \tab 45 \tab 437 \tab 39 \tab 52 \tab 40 \tab 189 \tab 95 \tab 154 \tab 254 \tab 103 \tab 7 \tab 10 \tab 4510 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab not at all important \tab very important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 45 \tab 437 \tab 39 \tab 52 \tab 40 \tab 189 \tab 95 \tab 154 \tab 254 \tab 103 \tab 7 \tab 10 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 45 \tab 437 \tab 39 \tab 52 \tab 40 \tab 189 \tab 95 \tab 154 \tab 254 \tab 103 \tab 7 \tab 10 \tab 0 \tab 4510 \cr
 }
 }
 

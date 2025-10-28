@@ -33,10 +33,10 @@ E. Labor unions
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/984/vshow}{GSS Data Explorer page for \code{solunion}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1987 \tab 1550 \tab 146 \tab 76 \tab 8 \tab 39 \tab 1819 \cr
-   Total \tab 1550 \tab 146 \tab 76 \tab 8 \tab 39 \tab 1819 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 1550 \tab 146 \tab 76 \tab 8 \tab 39 \tab - \tab 1819 \cr
+   Total \tab 1550 \tab 146 \tab 76 \tab 8 \tab 39 \tab 0 \tab 1819 \cr
 }
 }
 

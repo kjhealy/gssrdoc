@@ -1,42 +1,3 @@
-#'  From what country or countries did your ancestors come?  Other oceania
-#' 
-#'  ethregion96
-#' 
-#' Question From what country or countries did your ancestors come?  Other Oceania
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[Empty]` No applicable value labels
-#'   * `[NA(d)]`NA
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years      |
-#'  |:-------|:----------|
-#'  |A/B/C   |2021, 2022 |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `ethregion96`](https://gssdataexplorer.norc.org/variables/7735/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap |no   |yes |don't know |no answer |skipped on web |Total |
-#'  |:-----|:---|:----|:---|:----------|:---------|:--------------|:-----|
-#'  |2021  |15  |3297 |5   |681        |1         |33             |4032  |
-#'  |2022  |216 |3111 |6   |163        |48        |-              |3544  |
-#'  |Total |231 |6408 |11  |844        |49        |33             |7576  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name ethregion96
-NULL
-
-
 #'  Govt employee
 #' 
 #'  wrkgovt1
@@ -65,7 +26,8 @@ NULL
 #'  |:-----|:---|:----|:----|:----------|:---------|:--------------|:-----|
 #'  |2021  |79  |869  |3047 |2          |5         |30             |4032  |
 #'  |2022  |113 |658  |2746 |16         |4         |7              |3544  |
-#'  |Total |192 |1527 |5793 |18         |9         |37             |7576  |
+#'  |2024  |105 |670  |2507 |9          |5         |13             |3309  |
+#'  |Total |297 |2197 |8300 |27         |14        |50             |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -105,7 +67,8 @@ NULL
 #'  |:-----|:---|:----|:----|:----------|:---------|:--------------|:-----|
 #'  |2021  |79  |2322 |1597 |2          |5         |27             |4032  |
 #'  |2022  |113 |2157 |1221 |35         |4         |14             |3544  |
-#'  |Total |192 |4479 |2818 |37         |9         |41             |7576  |
+#'  |2024  |105 |1903 |1255 |25         |7         |14             |3309  |
+#'  |Total |297 |6382 |4073 |62         |16        |55             |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -266,7 +229,8 @@ NULL
 #'  |:-----|:----|:------|:----------|:----------|:--------------|:---------|:-----|
 #'  |2021  |2675 |539    |804        |2          |12             |-         |4032  |
 #'  |2022  |2367 |480    |669        |20         |5              |3         |3544  |
-#'  |Total |5042 |1019   |1473       |22         |17             |3         |7576  |
+#'  |2024  |2213 |426    |635        |24         |9              |2         |3309  |
+#'  |Total |7255 |1445   |2108       |46         |26             |5         |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -306,7 +270,8 @@ NULL
 #'  |:-----|:----|:---------------------|:-----------|:----------|:--------------|:---------|:-----|
 #'  |2021  |2675 |953                   |385         |5          |14             |-         |4032  |
 #'  |2022  |2367 |777                   |367         |26         |3              |4         |3544  |
-#'  |Total |5042 |1730                  |752         |31         |17             |4         |7576  |
+#'  |2024  |2213 |703                   |354         |31         |7              |1         |3309  |
+#'  |Total |7255 |2433                  |1106        |62         |24             |5         |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -346,7 +311,8 @@ NULL
 #'  |:-----|:----|:----------|:---------|:----------|:--------------|:---------|:-----|
 #'  |2021  |2675 |444        |885       |4          |24             |-         |4032  |
 #'  |2022  |2367 |407        |706       |54         |3              |7         |3544  |
-#'  |Total |5042 |851        |1591      |58         |27             |7         |7576  |
+#'  |2024  |2213 |389        |636       |56         |13             |2         |3309  |
+#'  |Total |7255 |1240       |2227      |114        |40             |9         |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -396,6 +362,45 @@ NULL
 #' @keywords variable
 #' @md
 #' @name libcomy
+NULL
+
+
+#'  Allow militarist to speak y
+#' 
+#'  spkmily
+#' 
+#' Question Consider a person who advocates doing away with elections and letting the military run the country. If such a person wanted to make a speech in your community, should this person be allowed to speak, or not?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` yes, allowed to speak
+#'   * `[2]` not allowed
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/C     |2021  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `spkmily`](https://gssdataexplorer.norc.org/variables/7441/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes, allowed to speak |not allowed |don't know |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:---------------------|:-----------|:----------|:--------------|:--------------------------|:-----|
+#'  |2021  |2675 |839                   |504         |3          |11             |-                          |4032  |
+#'  |Total |2675 |839                   |504         |3          |11             |0                          |4032  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name spkmily
 NULL
 
 

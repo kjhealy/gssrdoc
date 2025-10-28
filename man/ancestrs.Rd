@@ -36,11 +36,11 @@ C. ...in the supernatural powers of deceased ancestors?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4707/vshow}{GSS Data Explorer page for \code{ancestrs}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably not \tab no, definitely not \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 658 \tab 115 \tab 206 \tab 403 \tab 567 \tab 63 \tab 11 \tab 2023 \cr
-   2018 \tab 1173 \tab 164 \tab 237 \tab 347 \tab 368 \tab 46 \tab 13 \tab 2348 \cr
-   Total \tab 1831 \tab 279 \tab 443 \tab 750 \tab 935 \tab 109 \tab 24 \tab 4371 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably not \tab no, definitely not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 658 \tab 115 \tab 206 \tab 403 \tab 567 \tab 63 \tab 11 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 164 \tab 237 \tab 347 \tab 368 \tab 46 \tab 13 \tab - \tab 2348 \cr
+   Total \tab 1831 \tab 279 \tab 443 \tab 750 \tab 935 \tab 109 \tab 24 \tab 0 \tab 4371 \cr
 }
 }
 

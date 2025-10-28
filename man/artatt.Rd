@@ -34,10 +34,10 @@ Did you attend this exhibit alone, with one other person, or with two or more ot
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6231/vshow}{GSS Data Explorer page for \code{artatt}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab alone \tab with one other person \tab with two or more other people \tab no answer \tab Total \cr
-   2016 \tab 2546 \tab 29 \tab 150 \tab 134 \tab 8 \tab 2867 \cr
-   Total \tab 2546 \tab 29 \tab 150 \tab 134 \tab 8 \tab 2867 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab alone \tab with one other person \tab with two or more other people \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2546 \tab 29 \tab 150 \tab 134 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 2546 \tab 29 \tab 150 \tab 134 \tab 8 \tab 0 \tab 2867 \cr
 }
 }
 

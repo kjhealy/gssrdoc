@@ -36,11 +36,11 @@ F. The northern ice cap may completely melt.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3443/vshow}{GSS Data Explorer page for \code{noicecap}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a great deal \tab some \tab a little \tab not at all \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 1156 \tab 375 \tab 133 \tab 120 \tab 76 \tab 4 \tab 4510 \cr
-   2010 \tab 1338 \tab 454 \tab 124 \tab 52 \tab 50 \tab 15 \tab 11 \tab 2044 \cr
-   Total \tab 3984 \tab 1610 \tab 499 \tab 185 \tab 170 \tab 91 \tab 15 \tab 6554 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal \tab some \tab a little \tab not at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 1156 \tab 375 \tab 133 \tab 120 \tab 76 \tab 4 \tab - \tab 4510 \cr
+   2010 \tab 1338 \tab 454 \tab 124 \tab 52 \tab 50 \tab 15 \tab 11 \tab - \tab 2044 \cr
+   Total \tab 3984 \tab 1610 \tab 499 \tab 185 \tab 170 \tab 91 \tab 15 \tab 0 \tab 6554 \cr
 }
 }
 

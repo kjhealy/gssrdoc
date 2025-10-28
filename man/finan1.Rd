@@ -37,11 +37,11 @@ C. Did any of the following financial matters happen to you during the last year
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5160/vshow}{GSS Data Explorer page for \code{finan1}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1991 \tab 500 \tab 13 \tab 1001 \tab 3 \tab 1517 \cr
-   2004 \tab 1472 \tab 17 \tab 1315 \tab 8 \tab 2812 \cr
-   Total \tab 1972 \tab 30 \tab 2316 \tab 11 \tab 4329 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 500 \tab 13 \tab 1001 \tab 3 \tab - \tab 1517 \cr
+   2004 \tab 1472 \tab 17 \tab 1315 \tab 8 \tab - \tab 2812 \cr
+   Total \tab 1972 \tab 30 \tab 2316 \tab 11 \tab 0 \tab 4329 \cr
 }
 }
 

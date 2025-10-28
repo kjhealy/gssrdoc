@@ -37,10 +37,10 @@ Question Now I'd like you to imagine a neighborhood that had an ethnic and racia
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2369/vshow}{GSS Data Explorer page for \code{neieth8}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab asian \tab black \tab hispanic \tab white \tab doesnt matter-dont care-race not important \tab rural-wants no neighbors \tab mixed race, 2 or more races in 1 hh \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 102 \tab 214 \tab 163 \tab 698 \tab 47 \tab 5 \tab 6 \tab 2 \tab 161 \tab 2817 \cr
-   Total \tab 1419 \tab 102 \tab 214 \tab 163 \tab 698 \tab 47 \tab 5 \tab 6 \tab 2 \tab 161 \tab 2817 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab asian \tab black \tab hispanic \tab white \tab doesnt matter-dont care-race not important \tab rural-wants no neighbors \tab mixed race, 2 or more races in 1 hh \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 102 \tab 214 \tab 163 \tab 698 \tab 47 \tab 5 \tab 6 \tab 2 \tab 161 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 102 \tab 214 \tab 163 \tab 698 \tab 47 \tab 5 \tab 6 \tab 2 \tab 161 \tab 0 \tab 2817 \cr
 }
 }
 

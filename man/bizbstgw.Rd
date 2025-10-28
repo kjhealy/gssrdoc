@@ -35,11 +35,11 @@ C. Business Leaders
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3364/vshow}{GSS Data Explorer page for \code{bizbstgw}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab what is best for the country \tab 2 \tab 3 \tab 4 \tab own narrow interests \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3582 \tab 51 \tab 39 \tab 212 \tab 259 \tab 320 \tab 45 \tab 2 \tab 4510 \cr
-   2010 \tab 1569 \tab 25 \tab 25 \tab 118 \tab 126 \tab 156 \tab 20 \tab 5 \tab 2044 \cr
-   Total \tab 5151 \tab 76 \tab 64 \tab 330 \tab 385 \tab 476 \tab 65 \tab 7 \tab 6554 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab what is best for the country \tab 2 \tab 3 \tab 4 \tab own narrow interests \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3582 \tab 51 \tab 39 \tab 212 \tab 259 \tab 320 \tab 45 \tab 2 \tab - \tab 4510 \cr
+   2010 \tab 1569 \tab 25 \tab 25 \tab 118 \tab 126 \tab 156 \tab 20 \tab 5 \tab - \tab 2044 \cr
+   Total \tab 5151 \tab 76 \tab 64 \tab 330 \tab 385 \tab 476 \tab 65 \tab 7 \tab 0 \tab 6554 \cr
 }
 }
 

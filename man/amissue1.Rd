@@ -34,10 +34,10 @@ Question D. Do you think of yourself as "just an American" on all issues, most i
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1595/vshow}{GSS Data Explorer page for \code{amissue1}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab all issues \tab most issues \tab some issues \tab just a few issues \tab no answer \tab Total \cr
-   1994 \tab 2970 \tab 1 \tab 6 \tab 4 \tab 2 \tab 9 \tab 2992 \cr
-   Total \tab 2970 \tab 1 \tab 6 \tab 4 \tab 2 \tab 9 \tab 2992 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab all issues \tab most issues \tab some issues \tab just a few issues \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2970 \tab 1 \tab 6 \tab 4 \tab 2 \tab 9 \tab - \tab 2992 \cr
+   Total \tab 2970 \tab 1 \tab 6 \tab 4 \tab 2 \tab 9 \tab 0 \tab 2992 \cr
 }
 }
 

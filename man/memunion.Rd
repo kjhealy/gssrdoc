@@ -35,25 +35,25 @@ E. Labor unions
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/967/vshow}{GSS Data Explorer page for \code{memunion}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
-   1974 \tab - \tab 241 \tab 1224 \tab 19 \tab - \tab 1484 \cr
-   1975 \tab - \tab 230 \tab 1229 \tab 29 \tab 2 \tab 1490 \cr
-   1977 \tab - \tab 261 \tab 1258 \tab 11 \tab - \tab 1530 \cr
-   1978 \tab - \tab 232 \tab 1287 \tab 12 \tab 1 \tab 1532 \cr
-   1980 \tab - \tab 191 \tab 1255 \tab 21 \tab 1 \tab 1468 \cr
-   1983 \tab - \tab 221 \tab 1369 \tab 6 \tab 3 \tab 1599 \cr
-   1984 \tab - \tab 207 \tab 1243 \tab 21 \tab 2 \tab 1473 \cr
-   1986 \tab - \tab 161 \tab 1299 \tab 9 \tab 1 \tab 1470 \cr
-   1987 \tab - \tab 249 \tab 1549 \tab 20 \tab 1 \tab 1819 \cr
-   1988 \tab 484 \tab 128 \tab 856 \tab 11 \tab 2 \tab 1481 \cr
-   1989 \tab 502 \tab 138 \tab 868 \tab 29 \tab - \tab 1537 \cr
-   1990 \tab 473 \tab 112 \tab 780 \tab 6 \tab 1 \tab 1372 \cr
-   1991 \tab 500 \tab 98 \tab 908 \tab 9 \tab 2 \tab 1517 \cr
-   1993 \tab 549 \tab 106 \tab 945 \tab 5 \tab 1 \tab 1606 \cr
-   1994 \tab 2481 \tab 60 \tab 449 \tab 2 \tab - \tab 2992 \cr
-   2004 \tab 1340 \tab 141 \tab 1326 \tab 5 \tab - \tab 2812 \cr
-   Total \tab 6329 \tab 2776 \tab 17845 \tab 215 \tab 17 \tab 27182 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1974 \tab - \tab 241 \tab 1224 \tab 19 \tab - \tab - \tab 1484 \cr
+   1975 \tab - \tab 230 \tab 1229 \tab 29 \tab 2 \tab - \tab 1490 \cr
+   1977 \tab - \tab 261 \tab 1258 \tab 11 \tab - \tab - \tab 1530 \cr
+   1978 \tab - \tab 232 \tab 1287 \tab 12 \tab 1 \tab - \tab 1532 \cr
+   1980 \tab - \tab 191 \tab 1255 \tab 21 \tab 1 \tab - \tab 1468 \cr
+   1983 \tab - \tab 221 \tab 1369 \tab 6 \tab 3 \tab - \tab 1599 \cr
+   1984 \tab - \tab 207 \tab 1243 \tab 21 \tab 2 \tab - \tab 1473 \cr
+   1986 \tab - \tab 161 \tab 1299 \tab 9 \tab 1 \tab - \tab 1470 \cr
+   1987 \tab - \tab 249 \tab 1549 \tab 20 \tab 1 \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 128 \tab 856 \tab 11 \tab 2 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 138 \tab 868 \tab 29 \tab - \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 112 \tab 780 \tab 6 \tab 1 \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 98 \tab 908 \tab 9 \tab 2 \tab - \tab 1517 \cr
+   1993 \tab 549 \tab 106 \tab 945 \tab 5 \tab 1 \tab - \tab 1606 \cr
+   1994 \tab 2481 \tab 60 \tab 449 \tab 2 \tab - \tab - \tab 2992 \cr
+   2004 \tab 1340 \tab 141 \tab 1326 \tab 5 \tab - \tab - \tab 2812 \cr
+   Total \tab 6329 \tab 2776 \tab 17845 \tab 215 \tab 17 \tab 0 \tab 27182 \cr
 }
 }
 

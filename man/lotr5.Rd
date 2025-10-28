@@ -37,10 +37,10 @@ I rarely count on good things happening to me.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6201/vshow}{GSS Data Explorer page for \code{lotr5}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly disagree \tab disagree \tab neutral \tab agree \tab strongly agree \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1409 \tab 190 \tab 699 \tab 270 \tab 225 \tab 61 \tab 3 \tab 10 \tab 2867 \cr
-   Total \tab 1409 \tab 190 \tab 699 \tab 270 \tab 225 \tab 61 \tab 3 \tab 10 \tab 2867 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly disagree \tab disagree \tab neutral \tab agree \tab strongly agree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1409 \tab 190 \tab 699 \tab 270 \tab 225 \tab 61 \tab 3 \tab 10 \tab - \tab 2867 \cr
+   Total \tab 1409 \tab 190 \tab 699 \tab 270 \tab 225 \tab 61 \tab 3 \tab 10 \tab 0 \tab 2867 \cr
 }
 }
 

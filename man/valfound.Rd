@@ -32,10 +32,10 @@ L. Private and community foundations
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1971/vshow}{GSS Data Explorer page for \code{valfound}}.
 
-Counts by year:\tabular{llllllllllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 10 \tab 100 \tab 1000 \tab 150 \tab 18 \tab 20 \tab 200 \tab 2000 \tab 210 \tab 25 \tab 250 \tab 28 \tab 30 \tab 300 \tab 40 \tab 50 \tab 500 \tab 65 \tab 70 \tab 90 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2700 \tab 82 \tab 1 \tab 7 \tab 1 \tab 2 \tab 1 \tab 6 \tab 9 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 2 \tab 5 \tab 1 \tab 3 \tab 5 \tab 1 \tab 2 \tab 1 \tab 9 \tab 58 \tab 2904 \cr
-   Total \tab 2700 \tab 82 \tab 1 \tab 7 \tab 1 \tab 2 \tab 1 \tab 6 \tab 9 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 2 \tab 5 \tab 1 \tab 3 \tab 5 \tab 1 \tab 2 \tab 1 \tab 9 \tab 58 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 100 \tab 1000 \tab 150 \tab 18 \tab 20 \tab 200 \tab 2000 \tab 210 \tab 25 \tab 250 \tab 28 \tab 30 \tab 300 \tab 40 \tab 50 \tab 500 \tab 65 \tab 70 \tab 90 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2700 \tab 82 \tab 1 \tab 7 \tab 1 \tab 2 \tab 1 \tab 6 \tab 9 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 2 \tab 5 \tab 1 \tab 3 \tab 5 \tab 1 \tab 2 \tab 1 \tab 9 \tab 58 \tab - \tab 2904 \cr
+   Total \tab 2700 \tab 82 \tab 1 \tab 7 \tab 1 \tab 2 \tab 1 \tab 6 \tab 9 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 2 \tab 5 \tab 1 \tab 3 \tab 5 \tab 1 \tab 2 \tab 1 \tab 9 \tab 58 \tab 0 \tab 2904 \cr
 }
 }
 

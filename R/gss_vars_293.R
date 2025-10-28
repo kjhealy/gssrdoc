@@ -26,10 +26,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |almost all of the time |most of the time |about half of the time |some of the time |no answer |Total |
-#'  |:-----|:----|:----------------------|:----------------|:----------------------|:----------------|:---------|:-----|
-#'  |2000  |2745 |48                     |13               |2                      |2                |7         |2817  |
-#'  |Total |2745 |48                     |13               |2                      |2                |7         |2817  |
+#'  |year  |iap  |almost all of the time |most of the time |about half of the time |some of the time |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------------|:----------------|:----------------------|:----------------|:---------|:--------------------------|:-----|
+#'  |2000  |2745 |48                     |13               |2                      |2                |7         |-                          |2817  |
+#'  |Total |2745 |48                     |13               |2                      |2                |7         |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -69,10 +69,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |almost all of the time |most of the time |about half of the time |some of the time |no answer |Total |
-#'  |:-----|:----|:----------------------|:----------------|:----------------------|:----------------|:---------|:-----|
-#'  |2000  |2794 |12                     |4                |1                      |1                |5         |2817  |
-#'  |Total |2794 |12                     |4                |1                      |1                |5         |2817  |
+#'  |year  |iap  |almost all of the time |most of the time |about half of the time |some of the time |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------------|:----------------|:----------------------|:----------------|:---------|:--------------------------|:-----|
+#'  |2000  |2794 |12                     |4                |1                      |1                |5         |-                          |2817  |
+#'  |Total |2794 |12                     |4                |1                      |1                |5         |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -161,10 +161,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |telephone line |dsl |cable |satellite |wireless |cellphone |other |not at all |don't know |Total |
-#'  |:-----|:---|:--------------|:---|:-----|:---------|:--------|:---------|:-----|:----------|:----------|:-----|
-#'  |2004  |992 |785            |385 |400   |5         |2        |2         |4     |213        |24         |2812  |
-#'  |Total |992 |785            |385 |400   |5         |2        |2         |4     |213        |24         |2812  |
+#'  |year  |iap |telephone line |dsl |cable |satellite |wireless |cellphone |other |not at all |don't know |not available in this year |Total |
+#'  |:-----|:---|:--------------|:---|:-----|:---------|:--------|:---------|:-----|:----------|:----------|:--------------------------|:-----|
+#'  |2004  |992 |785            |385 |400   |5         |2        |2         |4     |213        |24         |-                          |2812  |
+#'  |Total |992 |785            |385 |400   |5         |2        |2         |4     |213        |24         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -208,10 +208,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |want:doing what i want |autonomy:self-realization |choices:making decision |rights:religion and speech |movement:movement and travel |negative:slave surbordinate discrimination |citizen:political participation |security:economic independence |other |don't know |Total |
-#'  |:-----|:----|:----------------------|:-------------------------|:-----------------------|:--------------------------|:----------------------------|:------------------------------------------|:-------------------------------|:------------------------------|:-----|:----------|:-----|
-#'  |2000  |1403 |461                    |64                        |161                     |272                        |115                          |73                                         |56                              |51                             |137   |24         |2817  |
-#'  |Total |1403 |461                    |64                        |161                     |272                        |115                          |73                                         |56                              |51                             |137   |24         |2817  |
+#'  |year  |iap  |want:doing what i want |autonomy:self-realization |choices:making decision |rights:religion and speech |movement:movement and travel |negative:slave surbordinate discrimination |citizen:political participation |security:economic independence |other |don't know |not available in this year |Total |
+#'  |:-----|:----|:----------------------|:-------------------------|:-----------------------|:--------------------------|:----------------------------|:------------------------------------------|:-------------------------------|:------------------------------|:-----|:----------|:--------------------------|:-----|
+#'  |2000  |1403 |461                    |64                        |161                     |272                        |115                          |73                                         |56                              |51                             |137   |24         |-                          |2817  |
+#'  |Total |1403 |461                    |64                        |161                     |272                        |115                          |73                                         |56                              |51                             |137   |24         |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -256,10 +256,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |want:doing what i want |autonomy:self-realization |choices:making decision |rights:religion and speech |movement:movement and travel |negative:slave surbordinate discrimination |citizen:political participation |security:economic independence |other |Total |
-#'  |:-----|:----|:----------------------|:-------------------------|:-----------------------|:--------------------------|:----------------------------|:------------------------------------------|:-------------------------------|:------------------------------|:-----|:-----|
-#'  |2000  |2237 |111                    |22                        |49                      |160                        |62                           |53                                         |43                              |39                             |41    |2817  |
-#'  |Total |2237 |111                    |22                        |49                      |160                        |62                           |53                                         |43                              |39                             |41    |2817  |
+#'  |year  |iap  |want:doing what i want |autonomy:self-realization |choices:making decision |rights:religion and speech |movement:movement and travel |negative:slave surbordinate discrimination |citizen:political participation |security:economic independence |other |not available in this year |Total |
+#'  |:-----|:----|:----------------------|:-------------------------|:-----------------------|:--------------------------|:----------------------------|:------------------------------------------|:-------------------------------|:------------------------------|:-----|:--------------------------|:-----|
+#'  |2000  |2237 |111                    |22                        |49                      |160                        |62                           |53                                         |43                              |39                             |41    |-                          |2817  |
+#'  |Total |2237 |111                    |22                        |49                      |160                        |62                           |53                                         |43                              |39                             |41    |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -304,10 +304,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |want:doing what i want |autonomy:self-realization |choices:making decision |rights:religion and speech |movement:movement and travel |negative:slave surbordinate discrimination |citizen:political participation |security:economic independence |other |Total |
-#'  |:-----|:----|:----------------------|:-------------------------|:-----------------------|:--------------------------|:----------------------------|:------------------------------------------|:-------------------------------|:------------------------------|:-----|:-----|
-#'  |2000  |2623 |28                     |9                         |21                      |53                         |14                           |18                                         |16                              |17                             |18    |2817  |
-#'  |Total |2623 |28                     |9                         |21                      |53                         |14                           |18                                         |16                              |17                             |18    |2817  |
+#'  |year  |iap  |want:doing what i want |autonomy:self-realization |choices:making decision |rights:religion and speech |movement:movement and travel |negative:slave surbordinate discrimination |citizen:political participation |security:economic independence |other |not available in this year |Total |
+#'  |:-----|:----|:----------------------|:-------------------------|:-----------------------|:--------------------------|:----------------------------|:------------------------------------------|:-------------------------------|:------------------------------|:-----|:--------------------------|:-----|
+#'  |2000  |2623 |28                     |9                         |21                      |53                         |14                           |18                                         |16                              |17                             |18    |-                          |2817  |
+#'  |Total |2623 |28                     |9                         |21                      |53                         |14                           |18                                         |16                              |17                             |18    |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -353,10 +353,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |moving:driving travel |leisure:recreation enjoyable activity |social:engagement with family or institutions |negative:no obigation, divorced, being alone |inner:spiritual and religious freedom |choices:variant of making choices |citizen:political participation |security:economic security and independence |other |no answer |Total |
-#'  |:-----|:----|:---------------------|:-------------------------------------|:---------------------------------------------|:--------------------------------------------|:-------------------------------------|:---------------------------------|:-------------------------------|:-------------------------------------------|:-----|:---------|:-----|
-#'  |2000  |1403 |235                   |131                                   |94                                            |120                                          |134                                   |81                                |163                             |197                                         |98    |161       |2817  |
-#'  |Total |1403 |235                   |131                                   |94                                            |120                                          |134                                   |81                                |163                             |197                                         |98    |161       |2817  |
+#'  |year  |iap  |moving:driving travel |leisure:recreation enjoyable activity |social:engagement with family or institutions |negative:no obigation, divorced, being alone |inner:spiritual and religious freedom |choices:variant of making choices |citizen:political participation |security:economic security and independence |other |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------|:-------------------------------------|:---------------------------------------------|:--------------------------------------------|:-------------------------------------|:---------------------------------|:-------------------------------|:-------------------------------------------|:-----|:---------|:--------------------------|:-----|
+#'  |2000  |1403 |235                   |131                                   |94                                            |120                                          |134                                   |81                                |163                             |197                                         |98    |161       |-                          |2817  |
+#'  |Total |1403 |235                   |131                                   |94                                            |120                                          |134                                   |81                                |163                             |197                                         |98    |161       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -401,10 +401,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |moving:driving travel |leisure:recreation enjoyable activity |social:engagement with family or institutions |negative:no obigation, divorced, being alone |inner:spiritual and religious freedom |choices:variant of making choices |citizen:political participation |security:economic security and independence |other |Total |
-#'  |:-----|:----|:---------------------|:-------------------------------------|:---------------------------------------------|:--------------------------------------------|:-------------------------------------|:---------------------------------|:-------------------------------|:-------------------------------------------|:-----|:-----|
-#'  |2000  |2400 |78                    |38                                    |58                                            |32                                           |48                                    |15                                |53                              |79                                          |16    |2817  |
-#'  |Total |2400 |78                    |38                                    |58                                            |32                                           |48                                    |15                                |53                              |79                                          |16    |2817  |
+#'  |year  |iap  |moving:driving travel |leisure:recreation enjoyable activity |social:engagement with family or institutions |negative:no obigation, divorced, being alone |inner:spiritual and religious freedom |choices:variant of making choices |citizen:political participation |security:economic security and independence |other |not available in this year |Total |
+#'  |:-----|:----|:---------------------|:-------------------------------------|:---------------------------------------------|:--------------------------------------------|:-------------------------------------|:---------------------------------|:-------------------------------|:-------------------------------------------|:-----|:--------------------------|:-----|
+#'  |2000  |2400 |78                    |38                                    |58                                            |32                                           |48                                    |15                                |53                              |79                                          |16    |-                          |2817  |
+#'  |Total |2400 |78                    |38                                    |58                                            |32                                           |48                                    |15                                |53                              |79                                          |16    |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom
@@ -449,10 +449,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |moving:driving travel |leisure:recreation enjoyable activity |social:engagement with family or institutions |negative:no obigation, divorced, being alone |inner:spiritual and religious freedom |choices:variant of making choices |citizen:political participation |security:economic security and independence |other |Total |
-#'  |:-----|:----|:---------------------|:-------------------------------------|:---------------------------------------------|:--------------------------------------------|:-------------------------------------|:---------------------------------|:-------------------------------|:-------------------------------------------|:-----|:-----|
-#'  |2000  |2710 |13                    |15                                    |15                                            |8                                            |13                                    |3                                 |17                              |19                                          |4     |2817  |
-#'  |Total |2710 |13                    |15                                    |15                                            |8                                            |13                                    |3                                 |17                              |19                                          |4     |2817  |
+#'  |year  |iap  |moving:driving travel |leisure:recreation enjoyable activity |social:engagement with family or institutions |negative:no obigation, divorced, being alone |inner:spiritual and religious freedom |choices:variant of making choices |citizen:political participation |security:economic security and independence |other |not available in this year |Total |
+#'  |:-----|:----|:---------------------|:-------------------------------------|:---------------------------------------------|:--------------------------------------------|:-------------------------------------|:---------------------------------|:-------------------------------|:-------------------------------------------|:-----|:--------------------------|:-----|
+#'  |2000  |2710 |13                    |15                                    |15                                            |8                                            |13                                    |3                                 |17                              |19                                          |4     |-                          |2817  |
+#'  |Total |2710 |13                    |15                                    |15                                            |8                                            |13                                    |3                                 |17                              |19                                          |4     |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Freedom

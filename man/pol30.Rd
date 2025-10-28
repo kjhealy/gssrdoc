@@ -36,12 +36,12 @@ G. Political information?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2400/vshow}{GSS Data Explorer page for \code{pol30}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2075 \tab 467 \tab 124 \tab 41 \tab 35 \tab 75 \tab - \tab 2817 \cr
-   2002 \tab 1681 \tab 675 \tab 172 \tab 65 \tab 77 \tab 94 \tab 1 \tab 2765 \cr
-   2004 \tab 2122 \tab 393 \tab 151 \tab 60 \tab 74 \tab 12 \tab - \tab 2812 \cr
-   Total \tab 5878 \tab 1535 \tab 447 \tab 166 \tab 186 \tab 181 \tab 1 \tab 8394 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 467 \tab 124 \tab 41 \tab 35 \tab 75 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 675 \tab 172 \tab 65 \tab 77 \tab 94 \tab 1 \tab - \tab 2765 \cr
+   2004 \tab 2122 \tab 393 \tab 151 \tab 60 \tab 74 \tab 12 \tab - \tab - \tab 2812 \cr
+   Total \tab 5878 \tab 1535 \tab 447 \tab 166 \tab 186 \tab 181 \tab 1 \tab 0 \tab 8394 \cr
 }
 }
 

@@ -33,10 +33,10 @@ H. I am usually interested in local elections.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4046/vshow}{GSS Data Explorer page for \code{poleff8}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab agree \tab disagree \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 484 \tab 148 \tab 36 \tab 9 \tab 1534 \cr
-   Total \tab 857 \tab 484 \tab 148 \tab 36 \tab 9 \tab 1534 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab agree \tab disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 484 \tab 148 \tab 36 \tab 9 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 484 \tab 148 \tab 36 \tab 9 \tab 0 \tab 1534 \cr
 }
 }
 

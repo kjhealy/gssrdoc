@@ -34,10 +34,10 @@ Which do you favor:  promoting equal opportunity or promoting equal outcomes?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1379/vshow}{GSS Data Explorer page for \code{opoutcme}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab promote equal oppotunity \tab promote equal outcomes \tab other \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 1347 \tab 194 \tab 17 \tab 41 \tab 7 \tab 1606 \cr
-   Total \tab 0 \tab 1347 \tab 194 \tab 17 \tab 41 \tab 7 \tab 1606 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab promote equal oppotunity \tab promote equal outcomes \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 1347 \tab 194 \tab 17 \tab 41 \tab 7 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 1347 \tab 194 \tab 17 \tab 41 \tab 7 \tab 0 \tab 1606 \cr
 }
 }
 

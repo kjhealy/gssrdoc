@@ -35,11 +35,11 @@ Question B. And do you think that pesticides and chemicals used in farming areâ€
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4761/vshow}{GSS Data Explorer page for \code{chemfam}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 211 \tab 328 \tab 736 \tab 194 \tab 18 \tab 40 \tab 30 \tab 1606 \cr
-   1994 \tab 1606 \tab 186 \tab 265 \tab 640 \tab 188 \tab 21 \tab 39 \tab 47 \tab 2992 \cr
-   Total \tab 1655 \tab 397 \tab 593 \tab 1376 \tab 382 \tab 39 \tab 79 \tab 77 \tab 4598 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 211 \tab 328 \tab 736 \tab 194 \tab 18 \tab 40 \tab 30 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 186 \tab 265 \tab 640 \tab 188 \tab 21 \tab 39 \tab 47 \tab - \tab 2992 \cr
+   Total \tab 1655 \tab 397 \tab 593 \tab 1376 \tab 382 \tab 39 \tab 79 \tab 77 \tab 0 \tab 4598 \cr
 }
 }
 

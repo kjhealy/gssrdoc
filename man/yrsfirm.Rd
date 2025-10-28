@@ -37,27 +37,27 @@ A. How long the employee has been with the firm
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4496/vshow}{GSS Data Explorer page for \code{yrsfirm}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab no answer \tab most impt \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab Total \cr
-   1988 \tab - \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab - \tab 391 \tab 111 \tab 195 \tab 346 \tab 441 \tab 53 \tab 1537 \cr
-   1990 \tab - \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab - \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab - \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab - \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab - \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
-   1998 \tab - \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab - \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab - \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab - \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
-   2006 \tab - \tab 4510 \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab - \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab - \tab 2044 \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab - \tab 1974 \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab - \tab 2538 \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab - \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab - \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   Total \tab 0 \tab 41793 \tab 111 \tab 195 \tab 346 \tab 441 \tab 53 \tab 42939 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab no answer \tab most impt \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
+   1989 \tab - \tab 391 \tab 111 \tab 195 \tab 346 \tab 441 \tab 53 \tab - \tab 1537 \cr
+   1990 \tab - \tab 1372 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab - \tab 1517 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1517 \cr
+   1993 \tab - \tab 1606 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab - \tab 2992 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
+   1996 \tab - \tab 2904 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2904 \cr
+   1998 \tab - \tab 2832 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2832 \cr
+   2000 \tab - \tab 2817 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab - \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab - \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab - \tab 4510 \tab - \tab - \tab - \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab - \tab 2023 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab - \tab 2044 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab - \tab 1974 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab - \tab 2538 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab - \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab - \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 0 \tab 41793 \tab 111 \tab 195 \tab 346 \tab 441 \tab 53 \tab 0 \tab 42939 \cr
 }
 }
 

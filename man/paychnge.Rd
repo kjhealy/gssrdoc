@@ -33,10 +33,10 @@ Question Thinking about your current employer, how much has your pay changed on 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3874/vshow}{GSS Data Explorer page for \code{paychnge}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab my pay has gone up more than the cost of living \tab my pay has stayed about the same as the cost of living \tab my pay has not kept up with the cost of living \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1165 \tab 199 \tab 291 \tab 348 \tab 10 \tab 10 \tab 2023 \cr
-   Total \tab 1165 \tab 199 \tab 291 \tab 348 \tab 10 \tab 10 \tab 2023 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab my pay has gone up more than the cost of living \tab my pay has stayed about the same as the cost of living \tab my pay has not kept up with the cost of living \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1165 \tab 199 \tab 291 \tab 348 \tab 10 \tab 10 \tab - \tab 2023 \cr
+   Total \tab 1165 \tab 199 \tab 291 \tab 348 \tab 10 \tab 10 \tab 0 \tab 2023 \cr
 }
 }
 

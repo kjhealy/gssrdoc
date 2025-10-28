@@ -46,7 +46,7 @@ Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at col
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5381/vshow}{GSS Data Explorer page for \code{gender9}}.
 
 Counts by year:\tabular{lllllll}{
-   year \tab iap \tab male \tab female \tab no answer \tab not available in this release \tab Total \cr
+   year \tab iap \tab male \tab female \tab no answer \tab not available in this year \tab Total \cr
    1975 \tab 1478 \tab 7 \tab 5 \tab - \tab - \tab 1490 \cr
    1976 \tab 1494 \tab - \tab 5 \tab - \tab - \tab 1499 \cr
    1977 \tab 1516 \tab 7 \tab 6 \tab 1 \tab - \tab 1530 \cr
@@ -76,9 +76,9 @@ Counts by year:\tabular{lllllll}{
    2014 \tab 2531 \tab 5 \tab 2 \tab - \tab - \tab 2538 \cr
    2016 \tab 2858 \tab 4 \tab 5 \tab - \tab - \tab 2867 \cr
    2018 \tab 2342 \tab 3 \tab 2 \tab 1 \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 3538 \tab 5 \tab 1 \tab - \tab - \tab 3544 \cr
-   Total \tab 63565 \tab 91 \tab 91 \tab 10 \tab 4032 \tab 67789 \cr
+   2021 \tab 4025 \tab 2 \tab 5 \tab - \tab - \tab 4032 \cr
+   2022 \tab 3538 \tab 4 \tab 2 \tab - \tab - \tab 3544 \cr
+   Total \tab 67590 \tab 92 \tab 97 \tab 10 \tab 0 \tab 67789 \cr
 }
 }
 

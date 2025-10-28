@@ -36,12 +36,12 @@ Question On the whole, do you think it should or should not be the government's 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4094/vshow}{GSS Data Explorer page for \code{grnlaws}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1572 \tab 572 \tab 521 \tab 104 \tab 35 \tab 43 \tab 57 \tab 2904 \cr
-   2006 \tab 2992 \tab 925 \tab 478 \tab 76 \tab 18 \tab 20 \tab 1 \tab 4510 \cr
-   2016 \tab 1477 \tab 688 \tab 535 \tab 98 \tab 32 \tab 23 \tab 14 \tab 2867 \cr
-   Total \tab 6041 \tab 2185 \tab 1534 \tab 278 \tab 85 \tab 86 \tab 72 \tab 10281 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1572 \tab 572 \tab 521 \tab 104 \tab 35 \tab 43 \tab 57 \tab - \tab 2904 \cr
+   2006 \tab 2992 \tab 925 \tab 478 \tab 76 \tab 18 \tab 20 \tab 1 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 688 \tab 535 \tab 98 \tab 32 \tab 23 \tab 14 \tab - \tab 2867 \cr
+   Total \tab 6041 \tab 2185 \tab 1534 \tab 278 \tab 85 \tab 86 \tab 72 \tab 0 \tab 10281 \cr
 }
 }
 

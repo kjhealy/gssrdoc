@@ -32,10 +32,10 @@ Question People have different opinions about responsibilities towards relatives
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7778/vshow}{GSS Data Explorer page for \code{rsprltv1}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab yes, they definitely should \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab no, they definitely should not \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2386 \tab 285 \tab 137 \tab 178 \tab 246 \tab 67 \tab 27 \tab 80 \tab 120 \tab 9 \tab 9 \tab 3544 \cr
-   Total \tab 2386 \tab 285 \tab 137 \tab 178 \tab 246 \tab 67 \tab 27 \tab 80 \tab 120 \tab 9 \tab 9 \tab 3544 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab not available in this year \tab yes, they definitely should \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab no, they definitely should not \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 285 \tab 137 \tab 178 \tab 246 \tab 67 \tab 27 \tab 80 \tab 120 \tab 2386 \tab 9 \tab 9 \tab 3544 \cr
+   Total \tab 0 \tab 285 \tab 137 \tab 178 \tab 246 \tab 67 \tab 27 \tab 80 \tab 120 \tab 2386 \tab 9 \tab 9 \tab 3544 \cr
 }
 }
 

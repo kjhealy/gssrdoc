@@ -32,10 +32,10 @@ Question If there is a limited number of jobs, do you approve or disapprove of a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/718/vshow}{GSS Data Explorer page for \code{feworkif}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab approve \tab disapprove \tab don't know \tab no answer \tab Total \cr
-   1977 \tab - \tab 543 \tab 953 \tab 30 \tab 4 \tab 1530 \cr
-   Total \tab 0 \tab 543 \tab 953 \tab 30 \tab 4 \tab 1530 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab approve \tab disapprove \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1977 \tab - \tab 543 \tab 953 \tab 30 \tab 4 \tab - \tab 1530 \cr
+   Total \tab 0 \tab 543 \tab 953 \tab 30 \tab 4 \tab 0 \tab 1530 \cr
 }
 }
 

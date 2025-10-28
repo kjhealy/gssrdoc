@@ -34,25 +34,25 @@ Question Do you think it will be best for the future of this country if we take 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5486/vshow}{GSS Data Explorer page for \code{usintl}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab active part \tab stay out \tab don't know \tab no answer \tab Total \cr
-   1973 \tab - \tab 985 \tab 458 \tab 52 \tab 9 \tab 1504 \cr
-   1975 \tab - \tab 900 \tab 528 \tab 56 \tab 6 \tab 1490 \cr
-   1976 \tab - \tab 945 \tab 483 \tab 68 \tab 3 \tab 1499 \cr
-   1978 \tab - \tab 979 \tab 490 \tab 61 \tab 2 \tab 1532 \cr
-   1982 \tab - \tab 1077 \tab 689 \tab 86 \tab 8 \tab 1860 \cr
-   1983 \tab - \tab 1038 \tab 488 \tab 66 \tab 7 \tab 1599 \cr
-   1984 \tab - \tab 942 \tab 419 \tab 88 \tab 24 \tab 1473 \cr
-   1985 \tab 783 \tab 525 \tab 202 \tab 18 \tab 6 \tab 1534 \cr
-   1986 \tab - \tab 931 \tab 460 \tab 52 \tab 27 \tab 1470 \cr
-   1988 \tab 493 \tab 636 \tab 310 \tab 36 \tab 6 \tab 1481 \cr
-   1989 \tab 531 \tab 687 \tab 281 \tab 36 \tab 2 \tab 1537 \cr
-   1990 \tab 444 \tab 633 \tab 253 \tab 38 \tab 4 \tab 1372 \cr
-   1991 \tab 493 \tab 752 \tab 247 \tab 25 \tab - \tab 1517 \cr
-   1993 \tab 526 \tab 725 \tab 306 \tab 49 \tab - \tab 1606 \cr
-   1994 \tab 2485 \tab 324 \tab 159 \tab 18 \tab 6 \tab 2992 \cr
-   2006 \tab 2992 \tab 887 \tab 573 \tab 54 \tab 4 \tab 4510 \cr
-   Total \tab 8747 \tab 12966 \tab 6346 \tab 803 \tab 114 \tab 28976 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab active part \tab stay out \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1973 \tab - \tab 985 \tab 458 \tab 52 \tab 9 \tab - \tab 1504 \cr
+   1975 \tab - \tab 900 \tab 528 \tab 56 \tab 6 \tab - \tab 1490 \cr
+   1976 \tab - \tab 945 \tab 483 \tab 68 \tab 3 \tab - \tab 1499 \cr
+   1978 \tab - \tab 979 \tab 490 \tab 61 \tab 2 \tab - \tab 1532 \cr
+   1982 \tab - \tab 1077 \tab 689 \tab 86 \tab 8 \tab - \tab 1860 \cr
+   1983 \tab - \tab 1038 \tab 488 \tab 66 \tab 7 \tab - \tab 1599 \cr
+   1984 \tab - \tab 942 \tab 419 \tab 88 \tab 24 \tab - \tab 1473 \cr
+   1985 \tab 783 \tab 525 \tab 202 \tab 18 \tab 6 \tab - \tab 1534 \cr
+   1986 \tab - \tab 931 \tab 460 \tab 52 \tab 27 \tab - \tab 1470 \cr
+   1988 \tab 493 \tab 636 \tab 310 \tab 36 \tab 6 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 687 \tab 281 \tab 36 \tab 2 \tab - \tab 1537 \cr
+   1990 \tab 444 \tab 633 \tab 253 \tab 38 \tab 4 \tab - \tab 1372 \cr
+   1991 \tab 493 \tab 752 \tab 247 \tab 25 \tab - \tab - \tab 1517 \cr
+   1993 \tab 526 \tab 725 \tab 306 \tab 49 \tab - \tab - \tab 1606 \cr
+   1994 \tab 2485 \tab 324 \tab 159 \tab 18 \tab 6 \tab - \tab 2992 \cr
+   2006 \tab 2992 \tab 887 \tab 573 \tab 54 \tab 4 \tab - \tab 4510 \cr
+   Total \tab 8747 \tab 12966 \tab 6346 \tab 803 \tab 114 \tab 0 \tab 28976 \cr
 }
 }
 

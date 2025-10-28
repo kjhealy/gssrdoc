@@ -32,10 +32,10 @@ Question Do you have any health insurance, including Medicare or Medicaid?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2743/vshow}{GSS Data Explorer page for \code{hlthplan}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2002 \tab - \tab 2387 \tab 368 \tab 7 \tab 3 \tab 2765 \cr
-   Total \tab 0 \tab 2387 \tab 368 \tab 7 \tab 3 \tab 2765 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab - \tab 2387 \tab 368 \tab 7 \tab 3 \tab - \tab 2765 \cr
+   Total \tab 0 \tab 2387 \tab 368 \tab 7 \tab 3 \tab 0 \tab 2765 \cr
 }
 }
 

@@ -31,10 +31,10 @@ B. What was your daily wage, before any taxes or deductions?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2162/vshow}{GSS Data Explorer page for \code{daily}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab 100 \tab 125 \tab 127 \tab 128 \tab 175 \tab 35 \tab 400 \tab 45 \tab 50 \tab 60 \tab 65 \tab 70 \tab no answer \tab Total \cr
-   1998 \tab 2785 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 33 \tab 2832 \cr
-   Total \tab 2785 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 33 \tab 2832 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab 100 \tab 125 \tab 127 \tab 128 \tab 175 \tab 35 \tab 400 \tab 45 \tab 50 \tab 60 \tab 65 \tab 70 \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2785 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 33 \tab - \tab 2832 \cr
+   Total \tab 2785 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 33 \tab 0 \tab 2832 \cr
 }
 }
 

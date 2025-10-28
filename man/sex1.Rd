@@ -36,11 +36,11 @@ Question (NAME) is (male/female)?  Is that correct?  ASK FOR EACH NAME.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/865/vshow}{GSS Data Explorer page for \code{sex1}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab male \tab female \tab no answer \tab Total \cr
-   1985 \tab 136 \tab 676 \tab 717 \tab 5 \tab 1534 \cr
-   2004 \tab 1696 \tab 509 \tab 556 \tab 51 \tab 2812 \cr
-   Total \tab 1832 \tab 1185 \tab 1273 \tab 56 \tab 4346 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab male \tab female \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 136 \tab 676 \tab 717 \tab 5 \tab - \tab 1534 \cr
+   2004 \tab 1696 \tab 509 \tab 556 \tab 51 \tab - \tab 2812 \cr
+   Total \tab 1832 \tab 1185 \tab 1273 \tab 56 \tab 0 \tab 4346 \cr
 }
 }
 

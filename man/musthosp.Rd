@@ -35,12 +35,13 @@ C. Be admitted to a hospital for treatment.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2033/vshow}{GSS Data Explorer page for \code{musthosp}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 501 \tab 840 \tab 79 \tab 24 \tab 2904 \cr
-   2006 \tab 3073 \tab 426 \tab 946 \tab 50 \tab 15 \tab 4510 \cr
-   2018 \tab 1175 \tab 434 \tab 671 \tab 37 \tab 31 \tab 2348 \cr
-   Total \tab 5708 \tab 1361 \tab 2457 \tab 166 \tab 70 \tab 9762 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 501 \tab 840 \tab 79 \tab 24 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 426 \tab 946 \tab 50 \tab 15 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 434 \tab 671 \tab 37 \tab 31 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1693 \tab 553 \tab 962 \tab 55 \tab 13 \tab - \tab 33 \tab 3309 \cr
+   Total \tab 7401 \tab 1914 \tab 3419 \tab 221 \tab 83 \tab 0 \tab 33 \tab 13071 \cr
 }
 }
 

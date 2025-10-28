@@ -35,10 +35,10 @@ Question In the past 12 months, how often, if at all, have you taken part in the
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7242/vshow}{GSS Data Explorer page for \code{partpart}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab once a week or more \tab one to three times a month \tab several times a year \tab once in the past year \tab never \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 14 \tab 17 \tab 82 \tab 133 \tab 917 \tab 9 \tab 1 \tab 2348 \cr
-   Total \tab 1175 \tab 14 \tab 17 \tab 82 \tab 133 \tab 917 \tab 9 \tab 1 \tab 2348 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab once a week or more \tab one to three times a month \tab several times a year \tab once in the past year \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 14 \tab 17 \tab 82 \tab 133 \tab 917 \tab 9 \tab 1 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 14 \tab 17 \tab 82 \tab 133 \tab 917 \tab 9 \tab 1 \tab 0 \tab 2348 \cr
 }
 }
 

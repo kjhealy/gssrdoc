@@ -44,13 +44,13 @@ Question What was your father''s religious preference when you were a child? Was
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4667/vshow}{GSS Data Explorer page for \code{parelkid}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab buddhism \tab hinduism \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 704 \tab 368 \tab 32 \tab 9 \tab 4 \tab 14 \tab 89 \tab 114 \tab 25 \tab 1517 \cr
-   1998 \tab 1548 \tab 601 \tab 344 \tab 25 \tab 7 \tab 8 \tab 20 \tab 100 \tab 135 \tab 44 \tab 2832 \cr
-   2008 \tab 658 \tab 602 \tab 413 \tab 25 \tab 5 \tab 12 \tab 12 \tab 198 \tab 92 \tab 6 \tab 2023 \cr
-   2018 \tab 1173 \tab 484 \tab 348 \tab 23 \tab 4 \tab 13 \tab 14 \tab 179 \tab 92 \tab 18 \tab 2348 \cr
-   Total \tab 3537 \tab 2391 \tab 1473 \tab 105 \tab 25 \tab 37 \tab 60 \tab 566 \tab 433 \tab 93 \tab 8720 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab buddhism \tab hinduism \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 704 \tab 368 \tab 32 \tab 9 \tab 4 \tab 14 \tab 89 \tab 114 \tab 25 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 601 \tab 344 \tab 25 \tab 7 \tab 8 \tab 20 \tab 100 \tab 135 \tab 44 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 602 \tab 413 \tab 25 \tab 5 \tab 12 \tab 12 \tab 198 \tab 92 \tab 6 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 484 \tab 348 \tab 23 \tab 4 \tab 13 \tab 14 \tab 179 \tab 92 \tab 18 \tab - \tab 2348 \cr
+   Total \tab 3537 \tab 2391 \tab 1473 \tab 105 \tab 25 \tab 37 \tab 60 \tab 566 \tab 433 \tab 93 \tab 0 \tab 8720 \cr
 }
 }
 

@@ -36,7 +36,8 @@ Counts by year:\tabular{llllllll}{
    year \tab iap \tab yes \tab no \tab skipped on web \tab don't know \tab no answer \tab Total \cr
    2021 \tab 2794 \tab 283 \tab 911 \tab 44 \tab - \tab - \tab 4032 \cr
    2022 \tab 2339 \tab 299 \tab 854 \tab 9 \tab 34 \tab 9 \tab 3544 \cr
-   Total \tab 5133 \tab 582 \tab 1765 \tab 53 \tab 34 \tab 9 \tab 7576 \cr
+   2024 \tab 2682 \tab 161 \tab 449 \tab 17 \tab - \tab - \tab 3309 \cr
+   Total \tab 7815 \tab 743 \tab 2214 \tab 70 \tab 34 \tab 9 \tab 10885 \cr
 }
 }
 

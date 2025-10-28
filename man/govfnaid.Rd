@@ -35,10 +35,10 @@ Question The government should give financial assistance to college students fro
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7554/vshow}{GSS Data Explorer page for \code{govfnaid}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2250 \tab 281 \tab 681 \tab 419 \tab 242 \tab 90 \tab 52 \tab 2 \tab 15 \tab 4032 \cr
-   Total \tab 2250 \tab 281 \tab 681 \tab 419 \tab 242 \tab 90 \tab 52 \tab 2 \tab 15 \tab 4032 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2250 \tab 281 \tab 681 \tab 419 \tab 242 \tab 90 \tab 52 \tab 2 \tab 15 \tab - \tab 4032 \cr
+   Total \tab 2250 \tab 281 \tab 681 \tab 419 \tab 242 \tab 90 \tab 52 \tab 2 \tab 15 \tab 0 \tab 4032 \cr
 }
 }
 

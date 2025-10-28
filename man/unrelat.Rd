@@ -16,7 +16,9 @@ As of 2024, UNRELAT has been recoded to only account for 0 to 2+ people. This ha
 \section{Values}{
 
 \itemize{
-\item \verb{[8]} 8 or more
+\item \verb{[0]} 0
+\item \verb{[1]} 1
+\item \verb{[2]} 2 or more
 \item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
@@ -34,43 +36,44 @@ As of 2024, UNRELAT has been recoded to only account for 0 to 2+ people. This ha
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/102/vshow}{GSS Data Explorer page for \code{unrelat}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 6 \tab 7 \tab 8 or more \tab iap \tab no answer \tab 5 \tab not available in this release \tab skipped on web \tab Total \cr
-   1972 \tab 1388 \tab 44 \tab 11 \tab 5 \tab 4 \tab 1 \tab 1 \tab 3 \tab 153 \tab 3 \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1273 \tab 50 \tab 14 \tab 8 \tab 3 \tab 1 \tab - \tab - \tab 154 \tab - \tab 1 \tab - \tab - \tab 1504 \cr
-   1974 \tab 1244 \tab 52 \tab 11 \tab 4 \tab 2 \tab - \tab - \tab - \tab 168 \tab 1 \tab 2 \tab - \tab - \tab 1484 \cr
-   1975 \tab 1223 \tab 49 \tab 9 \tab 5 \tab 3 \tab - \tab - \tab - \tab 200 \tab - \tab 1 \tab - \tab - \tab 1490 \cr
-   1976 \tab 1196 \tab 50 \tab 11 \tab 4 \tab 1 \tab - \tab - \tab - \tab 235 \tab 1 \tab 1 \tab - \tab - \tab 1499 \cr
-   1977 \tab 1208 \tab 45 \tab 10 \tab 2 \tab 1 \tab 2 \tab 1 \tab - \tab 261 \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1164 \tab 53 \tab 8 \tab - \tab 2 \tab - \tab - \tab - \tab 296 \tab 9 \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1094 \tab 58 \tab 14 \tab 5 \tab 3 \tab - \tab - \tab - \tab 288 \tab 6 \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1345 \tab 78 \tab 11 \tab 3 \tab 3 \tab - \tab - \tab - \tab 413 \tab 6 \tab 1 \tab - \tab - \tab 1860 \cr
-   1983 \tab 1199 \tab 63 \tab 9 \tab 5 \tab 1 \tab - \tab - \tab - \tab 309 \tab 13 \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1048 \tab 67 \tab 21 \tab 2 \tab 2 \tab 1 \tab - \tab - \tab 330 \tab 1 \tab 1 \tab - \tab - \tab 1473 \cr
-   1985 \tab 1046 \tab 80 \tab 19 \tab 5 \tab 1 \tab - \tab - \tab - \tab 343 \tab 39 \tab 1 \tab - \tab - \tab 1534 \cr
-   1986 \tab 1048 \tab 67 \tab 16 \tab 10 \tab - \tab - \tab - \tab - \tab 312 \tab 16 \tab 1 \tab - \tab - \tab 1470 \cr
-   1987 \tab 1232 \tab 90 \tab 31 \tab 13 \tab 5 \tab 2 \tab - \tab - \tab 420 \tab 24 \tab 2 \tab - \tab - \tab 1819 \cr
-   1988 \tab 1034 \tab 94 \tab 18 \tab 3 \tab - \tab - \tab 1 \tab - \tab 328 \tab 1 \tab 2 \tab - \tab - \tab 1481 \cr
-   1989 \tab 1073 \tab 101 \tab 15 \tab 6 \tab 2 \tab - \tab - \tab - \tab 327 \tab 13 \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 935 \tab 76 \tab 9 \tab 5 \tab - \tab - \tab - \tab - \tab 330 \tab 17 \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1009 \tab 76 \tab 20 \tab 8 \tab 2 \tab - \tab - \tab - \tab 378 \tab 22 \tab 2 \tab - \tab - \tab 1517 \cr
-   1993 \tab 1040 \tab 90 \tab 22 \tab 10 \tab 1 \tab - \tab - \tab - \tab 436 \tab 6 \tab 1 \tab - \tab - \tab 1606 \cr
-   1994 \tab 1846 \tab 163 \tab 31 \tab 9 \tab 4 \tab 1 \tab - \tab - \tab 903 \tab 34 \tab 1 \tab - \tab - \tab 2992 \cr
-   1996 \tab 1611 \tab 201 \tab 48 \tab 19 \tab 3 \tab - \tab - \tab - \tab 949 \tab 70 \tab 3 \tab - \tab - \tab 2904 \cr
-   1998 \tab 1609 \tab 166 \tab 40 \tab 20 \tab 6 \tab 2 \tab - \tab 2 \tab 944 \tab 40 \tab 3 \tab - \tab - \tab 2832 \cr
-   2000 \tab 1640 \tab 194 \tab 38 \tab 17 \tab 5 \tab - \tab - \tab - \tab 917 \tab 2 \tab 4 \tab - \tab - \tab 2817 \cr
-   2002 \tab 1647 \tab 168 \tab 39 \tab 17 \tab 7 \tab - \tab - \tab 3 \tab 881 \tab 1 \tab 2 \tab - \tab - \tab 2765 \cr
-   2004 \tab 1744 \tab 166 \tab 22 \tab 9 \tab 3 \tab 1 \tab 1 \tab 1 \tab 861 \tab - \tab 4 \tab - \tab - \tab 2812 \cr
-   2006 \tab 2692 \tab 231 \tab 62 \tab 29 \tab 5 \tab 1 \tab - \tab - \tab 1483 \tab 6 \tab 1 \tab - \tab - \tab 4510 \cr
-   2008 \tab 1245 \tab 104 \tab 19 \tab 13 \tab 3 \tab - \tab - \tab - \tab 637 \tab 1 \tab 1 \tab - \tab - \tab 2023 \cr
-   2010 \tab 1135 \tab 137 \tab 28 \tab 12 \tab 3 \tab - \tab - \tab 1 \tab 724 \tab - \tab 4 \tab - \tab - \tab 2044 \cr
-   2012 \tab 1156 \tab 133 \tab 29 \tab 13 \tab 6 \tab - \tab 1 \tab 1 \tab 632 \tab - \tab 3 \tab - \tab - \tab 1974 \cr
-   2014 \tab 1456 \tab 167 \tab 45 \tab 15 \tab 4 \tab 1 \tab - \tab 3 \tab 844 \tab 1 \tab 2 \tab - \tab - \tab 2538 \cr
-   2016 \tab 1587 \tab 175 \tab 53 \tab 16 \tab 5 \tab - \tab - \tab - \tab 1025 \tab 5 \tab 1 \tab - \tab - \tab 2867 \cr
-   2018 \tab 1315 \tab 157 \tab 28 \tab 13 \tab 4 \tab 3 \tab 1 \tab 1 \tab 826 \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab 4032 \cr
-   2022 \tab 1827 \tab 283 \tab 54 \tab 22 \tab 8 \tab 1 \tab 1 \tab 1 \tab 1339 \tab - \tab 3 \tab - \tab 5 \tab 3544 \cr
-   Total \tab 44309 \tab 3728 \tab 815 \tab 327 \tab 102 \tab 17 \tab 7 \tab 16 \tab 18646 \tab 338 \tab 48 \tab 4032 \tab 5 \tab 72390 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab 0 \tab 1 \tab 2 or more \tab iap \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   1972 \tab 1388 \tab 44 \tab 25 \tab 153 \tab 3 \tab - \tab - \tab 1613 \cr
+   1973 \tab 1273 \tab 50 \tab 27 \tab 154 \tab - \tab - \tab - \tab 1504 \cr
+   1974 \tab 1244 \tab 52 \tab 19 \tab 168 \tab 1 \tab - \tab - \tab 1484 \cr
+   1975 \tab 1223 \tab 49 \tab 18 \tab 200 \tab - \tab - \tab - \tab 1490 \cr
+   1976 \tab 1196 \tab 50 \tab 17 \tab 235 \tab 1 \tab - \tab - \tab 1499 \cr
+   1977 \tab 1208 \tab 45 \tab 16 \tab 261 \tab - \tab - \tab - \tab 1530 \cr
+   1978 \tab 1164 \tab 53 \tab 10 \tab 296 \tab 9 \tab - \tab - \tab 1532 \cr
+   1980 \tab 1094 \tab 58 \tab 22 \tab 288 \tab 6 \tab - \tab - \tab 1468 \cr
+   1982 \tab 1345 \tab 78 \tab 18 \tab 413 \tab 6 \tab - \tab - \tab 1860 \cr
+   1983 \tab 1199 \tab 63 \tab 15 \tab 309 \tab 13 \tab - \tab - \tab 1599 \cr
+   1984 \tab 1048 \tab 67 \tab 27 \tab 330 \tab 1 \tab - \tab - \tab 1473 \cr
+   1985 \tab 1046 \tab 80 \tab 26 \tab 343 \tab 39 \tab - \tab - \tab 1534 \cr
+   1986 \tab 1048 \tab 67 \tab 27 \tab 312 \tab 16 \tab - \tab - \tab 1470 \cr
+   1987 \tab 1232 \tab 90 \tab 53 \tab 420 \tab 24 \tab - \tab - \tab 1819 \cr
+   1988 \tab 1034 \tab 94 \tab 24 \tab 328 \tab 1 \tab - \tab - \tab 1481 \cr
+   1989 \tab 1073 \tab 101 \tab 23 \tab 327 \tab 13 \tab - \tab - \tab 1537 \cr
+   1990 \tab 935 \tab 76 \tab 14 \tab 330 \tab 17 \tab - \tab - \tab 1372 \cr
+   1991 \tab 1009 \tab 76 \tab 32 \tab 378 \tab 22 \tab - \tab - \tab 1517 \cr
+   1993 \tab 1040 \tab 90 \tab 34 \tab 436 \tab 6 \tab - \tab - \tab 1606 \cr
+   1994 \tab 1846 \tab 163 \tab 46 \tab 903 \tab 34 \tab - \tab - \tab 2992 \cr
+   1996 \tab 1611 \tab 201 \tab 73 \tab 949 \tab 70 \tab - \tab - \tab 2904 \cr
+   1998 \tab 1609 \tab 166 \tab 73 \tab 944 \tab 40 \tab - \tab - \tab 2832 \cr
+   2000 \tab 1640 \tab 194 \tab 64 \tab 917 \tab 2 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1647 \tab 168 \tab 68 \tab 881 \tab 1 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1744 \tab 166 \tab 41 \tab 861 \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 2692 \tab 231 \tab 98 \tab 1483 \tab 6 \tab - \tab - \tab 4510 \cr
+   2008 \tab 1245 \tab 104 \tab 36 \tab 637 \tab 1 \tab - \tab - \tab 2023 \cr
+   2010 \tab 1135 \tab 137 \tab 48 \tab 724 \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1156 \tab 133 \tab 53 \tab 632 \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 1456 \tab 167 \tab 70 \tab 844 \tab 1 \tab - \tab - \tab 2538 \cr
+   2016 \tab 1587 \tab 175 \tab 75 \tab 1025 \tab 5 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1315 \tab 157 \tab 50 \tab 826 \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 2285 \tab 332 \tab 82 \tab 1318 \tab - \tab 1 \tab 14 \tab 4032 \cr
+   2022 \tab 1827 \tab 283 \tab 90 \tab 1339 \tab - \tab - \tab 5 \tab 3544 \cr
+   2024 \tab 1670 \tab 249 \tab 71 \tab 1312 \tab - \tab - \tab 7 \tab 3309 \cr
+   Total \tab 48264 \tab 4309 \tab 1485 \tab 21276 \tab 338 \tab 1 \tab 26 \tab 75699 \cr
 }
 }
 

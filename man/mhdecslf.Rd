@@ -34,10 +34,10 @@ Question How able is (NAME) to decide whether or not (he/she) should receive tre
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3760/vshow}{GSS Data Explorer page for \code{mhdecslf}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very able \tab moderately able \tab not very able \tab not at all able \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 389 \tab 488 \tab 407 \tab 103 \tab 30 \tab 8 \tab 4510 \cr
-   Total \tab 3085 \tab 389 \tab 488 \tab 407 \tab 103 \tab 30 \tab 8 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very able \tab moderately able \tab not very able \tab not at all able \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 389 \tab 488 \tab 407 \tab 103 \tab 30 \tab 8 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 389 \tab 488 \tab 407 \tab 103 \tab 30 \tab 8 \tab 0 \tab 4510 \cr
 }
 }
 

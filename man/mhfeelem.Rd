@@ -35,10 +35,10 @@ M. (NAME) should feel embarrassed about (his/her) situation.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3774/vshow}{GSS Data Explorer page for \code{mhfeelem}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 8 \tab 50 \tab 789 \tab 554 \tab 16 \tab 8 \tab 4510 \cr
-   Total \tab 3085 \tab 8 \tab 50 \tab 789 \tab 554 \tab 16 \tab 8 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 8 \tab 50 \tab 789 \tab 554 \tab 16 \tab 8 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 8 \tab 50 \tab 789 \tab 554 \tab 16 \tab 8 \tab 0 \tab 4510 \cr
 }
 }
 

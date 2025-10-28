@@ -36,10 +36,10 @@ P. Contemporary pop/rock
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1402/vshow}{GSS Data Explorer page for \code{conrock}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab like very much \tab like it \tab mixed feelings \tab dislike it \tab dislike very much \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 206 \tab 645 \tab 296 \tab 245 \tab 152 \tab 50 \tab 12 \tab 1606 \cr
-   Total \tab 0 \tab 206 \tab 645 \tab 296 \tab 245 \tab 152 \tab 50 \tab 12 \tab 1606 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab like very much \tab like it \tab mixed feelings \tab dislike it \tab dislike very much \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 206 \tab 645 \tab 296 \tab 245 \tab 152 \tab 50 \tab 12 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 206 \tab 645 \tab 296 \tab 245 \tab 152 \tab 50 \tab 12 \tab 0 \tab 1606 \cr
 }
 }
 

@@ -33,12 +33,12 @@ Question A. Are you a member of an Employee Stock Ownership Plan commonly called
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3561/vshow}{GSS Data Explorer page for \code{esop}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2014 \tab 2432 \tab 22 \tab 81 \tab 1 \tab 2 \tab - \tab 2538 \cr
-   2018 \tab 2142 \tab 58 \tab 136 \tab 10 \tab 2 \tab - \tab 2348 \cr
-   2022 \tab 3423 \tab 25 \tab 83 \tab 11 \tab - \tab 2 \tab 3544 \cr
-   Total \tab 7997 \tab 105 \tab 300 \tab 22 \tab 4 \tab 2 \tab 8430 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2014 \tab 2432 \tab 22 \tab 81 \tab 1 \tab 2 \tab - \tab - \tab 2538 \cr
+   2018 \tab 2142 \tab 58 \tab 136 \tab 10 \tab 2 \tab - \tab - \tab 2348 \cr
+   2022 \tab 3423 \tab 25 \tab 83 \tab 11 \tab - \tab 2 \tab - \tab 3544 \cr
+   Total \tab 7997 \tab 105 \tab 300 \tab 22 \tab 4 \tab 2 \tab 0 \tab 8430 \cr
 }
 }
 

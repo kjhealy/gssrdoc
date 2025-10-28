@@ -33,11 +33,11 @@ Question And who do you think should primarily cover the costs of this help to t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4472/vshow}{GSS Data Explorer page for \code{eldcost}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab the elderly people themselves or their family \tab the government/public funds \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2012 \tab 672 \tab 567 \tab 482 \tab 247 \tab 6 \tab - \tab 1974 \cr
-   2022 \tab 2385 \tab 320 \tab 586 \tab 242 \tab 5 \tab 6 \tab 3544 \cr
-   Total \tab 3057 \tab 887 \tab 1068 \tab 489 \tab 11 \tab 6 \tab 5518 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab the elderly people themselves or their family \tab the government/public funds \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2012 \tab 672 \tab 567 \tab 482 \tab 247 \tab 6 \tab - \tab - \tab 1974 \cr
+   2022 \tab 2385 \tab 320 \tab 586 \tab 242 \tab 5 \tab 6 \tab - \tab 3544 \cr
+   Total \tab 3057 \tab 887 \tab 1068 \tab 489 \tab 11 \tab 6 \tab 0 \tab 5518 \cr
 }
 }
 

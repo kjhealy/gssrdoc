@@ -33,11 +33,11 @@ H. To help people in America who are worse off than yourself
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4914/vshow}{GSS Data Explorer page for \code{helpusa}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 12 \tab 8 \tab 27 \tab 112 \tab 277 \tab 312 \tab 717 \tab 5 \tab 2 \tab 2812 \cr
-   2014 \tab 1274 \tab 14 \tab 8 \tab 28 \tab 121 \tab 245 \tab 293 \tab 538 \tab 16 \tab 1 \tab 2538 \cr
-   Total \tab 2614 \tab 26 \tab 16 \tab 55 \tab 233 \tab 522 \tab 605 \tab 1255 \tab 21 \tab 3 \tab 5350 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2004 \tab 1340 \tab 12 \tab 8 \tab 27 \tab 112 \tab 277 \tab 312 \tab 717 \tab 5 \tab 2 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 14 \tab 8 \tab 28 \tab 121 \tab 245 \tab 293 \tab 538 \tab 16 \tab 1 \tab - \tab - \tab 2538 \cr
+   Total \tab 2614 \tab 26 \tab 16 \tab 55 \tab 233 \tab 522 \tab 605 \tab 1255 \tab 21 \tab 3 \tab 0 \tab 0 \tab 5350 \cr
 }
 }
 

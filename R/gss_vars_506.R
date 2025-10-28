@@ -26,12 +26,12 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes, once or twice |yes, more than twice |no answer |Total |
-#'  |:-----|:----|:---|:------------------|:--------------------|:---------|:-----|
-#'  |1998  |2460 |259 |30                 |17                   |66        |2832  |
-#'  |2006  |4008 |428 |31                 |39                   |4         |4510  |
-#'  |2016  |2533 |235 |44                 |32                   |23        |2867  |
-#'  |Total |9001 |922 |105                |88                   |93        |10209 |
+#'  |year  |iap  |no  |yes, once or twice |yes, more than twice |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:------------------|:--------------------|:---------|:--------------------------|:-----|
+#'  |1998  |2460 |259 |30                 |17                   |66        |-                          |2832  |
+#'  |2006  |4008 |428 |31                 |39                   |4         |-                          |4510  |
+#'  |2016  |2533 |235 |44                 |32                   |23        |-                          |2867  |
+#'  |Total |9001 |922 |105                |88                   |93        |0                          |10209 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -71,12 +71,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no   |yes, once or twice |yes, more than twice |no answer |Total |
-#'  |:-----|:----|:----|:------------------|:--------------------|:---------|:-----|
-#'  |1998  |2460 |278  |14                 |8                    |72        |2832  |
-#'  |2006  |4008 |478  |11                 |9                    |4         |4510  |
-#'  |2016  |2533 |268  |22                 |21                   |23        |2867  |
-#'  |Total |9001 |1024 |47                 |38                   |99        |10209 |
+#'  |year  |iap  |no   |yes, once or twice |yes, more than twice |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:------------------|:--------------------|:---------|:--------------------------|:-----|
+#'  |1998  |2460 |278  |14                 |8                    |72        |-                          |2832  |
+#'  |2006  |4008 |478  |11                 |9                    |4         |-                          |4510  |
+#'  |2016  |2533 |268  |22                 |21                   |23        |-                          |2867  |
+#'  |Total |9001 |1024 |47                 |38                   |99        |0                          |10209 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -116,12 +116,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes, once or twice |yes, more than twice |no answer |Total |
-#'  |:-----|:----|:---|:------------------|:--------------------|:---------|:-----|
-#'  |1998  |2460 |248 |39                 |19                   |66        |2832  |
-#'  |2006  |4008 |411 |48                 |39                   |4         |4510  |
-#'  |2016  |2533 |208 |50                 |53                   |23        |2867  |
-#'  |Total |9001 |867 |137                |111                  |93        |10209 |
+#'  |year  |iap  |no  |yes, once or twice |yes, more than twice |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:------------------|:--------------------|:---------|:--------------------------|:-----|
+#'  |1998  |2460 |248 |39                 |19                   |66        |-                          |2832  |
+#'  |2006  |4008 |411 |48                 |39                   |4         |-                          |4510  |
+#'  |2016  |2533 |208 |50                 |53                   |23        |-                          |2867  |
+#'  |Total |9001 |867 |137                |111                  |93        |0                          |10209 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -161,12 +161,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes, once or twice |yes, more than twice |no answer |don't know |Total |
-#'  |:-----|:----|:---|:------------------|:--------------------|:---------|:----------|:-----|
-#'  |1998  |2460 |251 |41                 |19                   |61        |-          |2832  |
-#'  |2006  |4008 |405 |48                 |44                   |4         |1          |4510  |
-#'  |2016  |2533 |227 |45                 |39                   |23        |-          |2867  |
-#'  |Total |9001 |883 |134                |102                  |88        |1          |10209 |
+#'  |year  |iap  |no  |yes, once or twice |yes, more than twice |no answer |don't know |not available in this year |Total |
+#'  |:-----|:----|:---|:------------------|:--------------------|:---------|:----------|:--------------------------|:-----|
+#'  |1998  |2460 |251 |41                 |19                   |61        |-          |-                          |2832  |
+#'  |2006  |4008 |405 |48                 |44                   |4         |1          |-                          |4510  |
+#'  |2016  |2533 |227 |45                 |39                   |23        |-          |-                          |2867  |
+#'  |Total |9001 |883 |134                |102                  |88        |1          |0                          |10209 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -208,11 +208,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |pnsion pri/st/ss |unemploy benfits |spouse/partner |othr famly mmbrs |soc assis/welfre |occasional work |other |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:----------------|:--------------|:----------------|:----------------|:---------------|:-----|:----------|:---------|:-----|
-#'  |1998  |2460 |152              |8                |66             |28               |29               |4               |43    |2          |40        |2832  |
-#'  |2006  |4008 |173              |19               |119            |30               |68               |8               |78    |-          |7         |4510  |
-#'  |Total |6468 |325              |27               |185            |58               |97               |12              |121   |2          |47        |7342  |
+#'  |year  |iap  |pnsion pri/st/ss |unemploy benfits |spouse/partner |othr famly mmbrs |soc assis/welfre |occasional work |other |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:----------------|:--------------|:----------------|:----------------|:---------------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |2460 |152              |8                |66             |28               |29               |4               |43    |2          |40        |-                          |2832  |
+#'  |2006  |4008 |173              |19               |119            |30               |68               |8               |78    |-          |7         |-                          |4510  |
+#'  |Total |6468 |325              |27               |185            |58               |97               |12              |121   |2          |47        |0                          |7342  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -252,10 +252,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2006  |2992 |236            |549   |343                        |309      |58                |20           |3         |4510  |
-#'  |Total |2992 |236            |549   |343                        |309      |58                |20           |3         |4510  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |236            |549   |343                        |309      |58                |20           |3         |-                          |4510  |
+#'  |Total |2992 |236            |549   |343                        |309      |58                |20           |3         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -295,10 +295,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2006  |2992 |180            |474   |305                        |455      |84                |17           |3         |4510  |
-#'  |Total |2992 |180            |474   |305                        |455      |84                |17           |3         |4510  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |180            |474   |305                        |455      |84                |17           |3         |-                          |4510  |
+#'  |Total |2992 |180            |474   |305                        |455      |84                |17           |3         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -338,10 +338,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2006  |2992 |226            |600   |343                        |228      |77                |42           |2         |4510  |
-#'  |Total |2992 |226            |600   |343                        |228      |77                |42           |2         |4510  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |226            |600   |343                        |228      |77                |42           |2         |-                          |4510  |
+#'  |Total |2992 |226            |600   |343                        |228      |77                |42           |2         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -381,10 +381,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2006  |2992 |261            |606   |321                        |226      |61                |41           |2         |4510  |
-#'  |Total |2992 |261            |606   |321                        |226      |61                |41           |2         |4510  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |261            |606   |321                        |226      |61                |41           |2         |-                          |4510  |
+#'  |Total |2992 |261            |606   |321                        |226      |61                |41           |2         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation
@@ -424,10 +424,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |2006  |3492 |348            |488   |96                         |67       |16                |1            |2         |4510  |
-#'  |Total |3492 |348            |488   |96                         |67       |16                |1            |2         |4510  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |3492 |348            |488   |96                         |67       |16                |1            |2         |-                          |4510  |
+#'  |Total |3492 |348            |488   |96                         |67       |16                |1            |2         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Orientation

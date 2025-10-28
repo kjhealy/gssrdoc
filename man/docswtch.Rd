@@ -33,10 +33,10 @@ Question Based on what the doctor has just told you, if you could, would you swi
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2757/vshow}{GSS Data Explorer page for \code{docswtch}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab maybe \tab don't know \tab no answer \tab Total \cr
-   2002 \tab - \tab 984 \tab 1349 \tab 402 \tab 26 \tab 4 \tab 2765 \cr
-   Total \tab 0 \tab 984 \tab 1349 \tab 402 \tab 26 \tab 4 \tab 2765 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab maybe \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab - \tab 984 \tab 1349 \tab 402 \tab 26 \tab 4 \tab - \tab 2765 \cr
+   Total \tab 0 \tab 984 \tab 1349 \tab 402 \tab 26 \tab 4 \tab 0 \tab 2765 \cr
 }
 }
 

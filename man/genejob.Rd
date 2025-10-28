@@ -33,10 +33,10 @@ A. Should employers have the right to give these genetic tests to people who are
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1258/vshow}{GSS Data Explorer page for \code{genejob}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab should \tab should not \tab don't know \tab no answer \tab Total \cr
-   1991 \tab - \tab 210 \tab 1220 \tab 70 \tab 17 \tab 1517 \cr
-   Total \tab 0 \tab 210 \tab 1220 \tab 70 \tab 17 \tab 1517 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab should \tab should not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab - \tab 210 \tab 1220 \tab 70 \tab 17 \tab - \tab 1517 \cr
+   Total \tab 0 \tab 210 \tab 1220 \tab 70 \tab 17 \tab 0 \tab 1517 \cr
 }
 }
 

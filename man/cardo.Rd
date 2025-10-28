@@ -35,10 +35,10 @@ B. What would you do in this situation?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4697/vshow}{GSS Data Explorer page for \code{cardo}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab def tll plce was \tab prb tll plce was \tab prb tll plce not \tab def tll plce not \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1548 \tab 443 \tab 415 \tab 103 \tab 17 \tab 245 \tab 61 \tab 2832 \cr
-   Total \tab 1548 \tab 443 \tab 415 \tab 103 \tab 17 \tab 245 \tab 61 \tab 2832 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab def tll plce was \tab prb tll plce was \tab prb tll plce not \tab def tll plce not \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1548 \tab 443 \tab 415 \tab 103 \tab 17 \tab 245 \tab 61 \tab - \tab 2832 \cr
+   Total \tab 1548 \tab 443 \tab 415 \tab 103 \tab 17 \tab 245 \tab 61 \tab 0 \tab 2832 \cr
 }
 }
 

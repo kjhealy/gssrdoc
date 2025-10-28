@@ -36,10 +36,10 @@ B. Pro-athletes giving thanks to God during sports events?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1138/vshow}{GSS Data Explorer page for \code{godsport}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly approve \tab somewhat approve \tab not apprve/oppse \tab somewhat oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 509 \tab 355 \tab 358 \tab 90 \tab 77 \tab 43 \tab 13 \tab 2832 \cr
-   Total \tab 1387 \tab 509 \tab 355 \tab 358 \tab 90 \tab 77 \tab 43 \tab 13 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly approve \tab somewhat approve \tab not apprve/oppse \tab somewhat oppose \tab strongly oppose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 509 \tab 355 \tab 358 \tab 90 \tab 77 \tab 43 \tab 13 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 509 \tab 355 \tab 358 \tab 90 \tab 77 \tab 43 \tab 13 \tab 0 \tab 2832 \cr
 }
 }
 

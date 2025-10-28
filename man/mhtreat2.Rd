@@ -33,10 +33,10 @@ Question Is (NAME 2) currently receiving treatment for their mental health probl
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7121/vshow}{GSS Data Explorer page for \code{mhtreat2}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab unsure \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1982 \tab 191 \tab 114 \tab 54 \tab 4 \tab 3 \tab 2348 \cr
-   Total \tab 1982 \tab 191 \tab 114 \tab 54 \tab 4 \tab 3 \tab 2348 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab unsure \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1982 \tab 191 \tab 114 \tab 54 \tab 4 \tab 3 \tab - \tab 2348 \cr
+   Total \tab 1982 \tab 191 \tab 114 \tab 54 \tab 4 \tab 3 \tab 0 \tab 2348 \cr
 }
 }
 

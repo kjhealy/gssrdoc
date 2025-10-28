@@ -55,7 +55,7 @@ M. Relationship of thirteenth person to spouse?
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5465/vshow}{GSS Data Explorer page for \code{relsp13}}.
 
 Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab natural/biological child \tab niece or nephew \tab child of non-relative \tab no answer \tab grandchild, great-grandchild \tab child, not specified \tab not available in this release \tab Total \cr
+   year \tab iap \tab natural/biological child \tab niece or nephew \tab child of non-relative \tab no answer \tab grandchild, great-grandchild \tab child, not specified \tab not available in this year \tab Total \cr
    2000 \tab 2816 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
    2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
    2004 \tab 2812 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
@@ -66,8 +66,8 @@ Counts by year:\tabular{llllllllll}{
    2014 \tab 2537 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 2538 \cr
    2016 \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
    2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   Total \tab 26691 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 4032 \tab 30730 \cr
+   2021 \tab 4030 \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab 4032 \cr
+   Total \tab 30721 \tab 1 \tab 1 \tab 1 \tab 2 \tab 3 \tab 1 \tab 0 \tab 30730 \cr
 }
 }
 

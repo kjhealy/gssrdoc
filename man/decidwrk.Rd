@@ -35,10 +35,10 @@ Which of the following statements best describes how your working hours are deci
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6332/vshow}{GSS Data Explorer page for \code{decidwrk}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab starting and finishing times are decided by my employer and i cannot change them on my own \tab i have a schedule or shift which regularly changes (for example, from days to evenings or to nights) \tab i have a schedule where daily working times are decided at short notice by my employer \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1927 \tab 445 \tab 383 \tab 104 \tab 2 \tab 6 \tab 2867 \cr
-   Total \tab 1927 \tab 445 \tab 383 \tab 104 \tab 2 \tab 6 \tab 2867 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab starting and finishing times are decided by my employer and i cannot change them on my own \tab i have a schedule or shift which regularly changes (for example, from days to evenings or to nights) \tab i have a schedule where daily working times are decided at short notice by my employer \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1927 \tab 445 \tab 383 \tab 104 \tab 2 \tab 6 \tab - \tab 2867 \cr
+   Total \tab 1927 \tab 445 \tab 383 \tab 104 \tab 2 \tab 6 \tab 0 \tab 2867 \cr
 }
 }
 

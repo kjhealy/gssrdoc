@@ -34,10 +34,10 @@ Question Even after they go away, feelings sometimes come back when we think abo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1766/vshow}{GSS Data Explorer page for \code{thnkangr}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very often \tab every once in a while \tab just once or twice \tab never-not once until now \tab no answer \tab Total \cr
-   1996 \tab 1936 \tab 140 \tab 292 \tab 292 \tab 219 \tab 25 \tab 2904 \cr
-   Total \tab 1936 \tab 140 \tab 292 \tab 292 \tab 219 \tab 25 \tab 2904 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very often \tab every once in a while \tab just once or twice \tab never-not once until now \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1936 \tab 140 \tab 292 \tab 292 \tab 219 \tab 25 \tab - \tab 2904 \cr
+   Total \tab 1936 \tab 140 \tab 292 \tab 292 \tab 219 \tab 25 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -32,10 +32,10 @@ A. How many promotions have you received?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1301/vshow}{GSS Data Explorer page for \code{numpromo}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 or more \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 1148 \tab 132 \tab 61 \tab 41 \tab 26 \tab 5 \tab 3 \tab 10 \tab 1 \tab 90 \tab 1517 \cr
-   Total \tab 1148 \tab 132 \tab 61 \tab 41 \tab 26 \tab 5 \tab 3 \tab 10 \tab 1 \tab 90 \tab 1517 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 or more \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 1148 \tab 132 \tab 61 \tab 41 \tab 26 \tab 5 \tab 3 \tab 10 \tab 1 \tab 90 \tab - \tab 1517 \cr
+   Total \tab 1148 \tab 132 \tab 61 \tab 41 \tab 26 \tab 5 \tab 3 \tab 10 \tab 1 \tab 90 \tab 0 \tab 1517 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question RESPONDENT'S FIRST SPOUSE'S DEGREE
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1478/vshow}{GSS Data Explorer page for \code{fstspdeg}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab less than high school \tab high school \tab associate/junior college \tab bachelor's \tab graduate \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2432 \tab 119 \tab 309 \tab 20 \tab 48 \tab 24 \tab 34 \tab 6 \tab 2992 \cr
-   Total \tab 2432 \tab 119 \tab 309 \tab 20 \tab 48 \tab 24 \tab 34 \tab 6 \tab 2992 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab less than high school \tab high school \tab associate/junior college \tab bachelor's \tab graduate \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2432 \tab 119 \tab 309 \tab 20 \tab 48 \tab 24 \tab 34 \tab 6 \tab - \tab 2992 \cr
+   Total \tab 2432 \tab 119 \tab 309 \tab 20 \tab 48 \tab 24 \tab 34 \tab 6 \tab 0 \tab 2992 \cr
 }
 }
 

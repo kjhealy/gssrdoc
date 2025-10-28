@@ -32,10 +32,10 @@ Question On any given day, is there some place where you find out where you will
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1373/vshow}{GSS Data Explorer page for \code{findout}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1991 \tab 1231 \tab 191 \tab 88 \tab 7 \tab 1517 \cr
-   Total \tab 1231 \tab 191 \tab 88 \tab 7 \tab 1517 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 1231 \tab 191 \tab 88 \tab 7 \tab - \tab 1517 \cr
+   Total \tab 1231 \tab 191 \tab 88 \tab 7 \tab 0 \tab 1517 \cr
 }
 }
 

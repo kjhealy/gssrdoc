@@ -32,10 +32,10 @@ Question Does your health insurance plan have restrictions, for example limits o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2745/vshow}{GSS Data Explorer page for \code{insrlmts}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 375 \tab 1190 \tab 1005 \tab 188 \tab 7 \tab 2765 \cr
-   Total \tab 375 \tab 1190 \tab 1005 \tab 188 \tab 7 \tab 2765 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 375 \tab 1190 \tab 1005 \tab 188 \tab 7 \tab - \tab 2765 \cr
+   Total \tab 375 \tab 1190 \tab 1005 \tab 188 \tab 7 \tab 0 \tab 2765 \cr
 }
 }
 

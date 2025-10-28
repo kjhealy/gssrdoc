@@ -36,11 +36,11 @@ C. Elected Officials. (Would you say a great deal of influence, a fair amount, a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3372/vshow}{GSS Data Explorer page for \code{polinfsc}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a great deal of influence \tab a fair amount \tab a little influence \tab none at all \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3582 \tab 111 \tab 317 \tab 292 \tab 152 \tab 51 \tab 5 \tab 4510 \cr
-   2010 \tab 1569 \tab 48 \tab 159 \tab 165 \tab 81 \tab 18 \tab 4 \tab 2044 \cr
-   Total \tab 5151 \tab 159 \tab 476 \tab 457 \tab 233 \tab 69 \tab 9 \tab 6554 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal of influence \tab a fair amount \tab a little influence \tab none at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3582 \tab 111 \tab 317 \tab 292 \tab 152 \tab 51 \tab 5 \tab - \tab 4510 \cr
+   2010 \tab 1569 \tab 48 \tab 159 \tab 165 \tab 81 \tab 18 \tab 4 \tab - \tab 2044 \cr
+   Total \tab 5151 \tab 159 \tab 476 \tab 457 \tab 233 \tab 69 \tab 9 \tab 0 \tab 6554 \cr
 }
 }
 

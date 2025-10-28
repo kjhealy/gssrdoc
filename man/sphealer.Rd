@@ -35,12 +35,13 @@ F. Go to a spiritual or a natural healer for help
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2016/vshow}{GSS Data Explorer page for \code{sphealer}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 293 \tab 1011 \tab 106 \tab 34 \tab 2904 \cr
-   2006 \tab 3073 \tab 550 \tab 812 \tab 57 \tab 18 \tab 4510 \cr
-   2018 \tab 1175 \tab 580 \tab 526 \tab 37 \tab 30 \tab 2348 \cr
-   Total \tab 5708 \tab 1423 \tab 2349 \tab 200 \tab 82 \tab 9762 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 293 \tab 1011 \tab 106 \tab 34 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 550 \tab 812 \tab 57 \tab 18 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 580 \tab 526 \tab 37 \tab 30 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1693 \tab 820 \tab 697 \tab 66 \tab 10 \tab - \tab 23 \tab 3309 \cr
+   Total \tab 7401 \tab 2243 \tab 3046 \tab 266 \tab 92 \tab 0 \tab 23 \tab 13071 \cr
 }
 }
 

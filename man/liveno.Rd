@@ -37,10 +37,10 @@ E. Living in a neighborhood where half of your neighbors were whites raised in t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1218/vshow}{GSS Data Explorer page for \code{liveno}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
-   1990 \tab 914 \tab 38 \tab 93 \tab 261 \tab 42 \tab 8 \tab 10 \tab 6 \tab 1372 \cr
-   Total \tab 914 \tab 38 \tab 93 \tab 261 \tab 42 \tab 8 \tab 10 \tab 6 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 914 \tab 38 \tab 93 \tab 261 \tab 42 \tab 8 \tab 10 \tab 6 \tab - \tab 1372 \cr
+   Total \tab 914 \tab 38 \tab 93 \tab 261 \tab 42 \tab 8 \tab 10 \tab 6 \tab 0 \tab 1372 \cr
 }
 }
 

@@ -33,10 +33,10 @@ Question How would it make you feel if a close relative of yours were planning t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/721/vshow}{GSS Data Explorer page for \code{racmarel}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very uneasy \tab somewhat uneasy \tab not uneasy \tab don't know \tab no answer \tab Total \cr
-   1977 \tab - \tab 635 \tab 481 \tab 370 \tab 38 \tab 6 \tab 1530 \cr
-   Total \tab 0 \tab 635 \tab 481 \tab 370 \tab 38 \tab 6 \tab 1530 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very uneasy \tab somewhat uneasy \tab not uneasy \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1977 \tab - \tab 635 \tab 481 \tab 370 \tab 38 \tab 6 \tab - \tab 1530 \cr
+   Total \tab 0 \tab 635 \tab 481 \tab 370 \tab 38 \tab 6 \tab 0 \tab 1530 \cr
 }
 }
 

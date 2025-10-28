@@ -31,10 +31,10 @@ Question J. How many years have you been a member of
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3187/vshow}{GSS Data Explorer page for \code{yrgreek2}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab 13 \tab 50 \tab no answer \tab Total \cr
-   2004 \tab 2804 \tab 1 \tab 1 \tab 6 \tab 2812 \cr
-   Total \tab 2804 \tab 1 \tab 1 \tab 6 \tab 2812 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab 13 \tab 50 \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2804 \tab 1 \tab 1 \tab 6 \tab - \tab 2812 \cr
+   Total \tab 2804 \tab 1 \tab 1 \tab 6 \tab 0 \tab 2812 \cr
 }
 }
 

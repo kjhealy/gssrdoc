@@ -36,10 +36,10 @@ A. Whites?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2317/vshow}{GSS Data Explorer page for \code{whtchng}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab increase a lot \tab increase by a little \tab stay the same \tab decrease by a little \tab decrease by a lot \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 115 \tab 387 \tab 468 \tab 307 \tab 77 \tab 31 \tab 13 \tab 2817 \cr
-   Total \tab 1419 \tab 115 \tab 387 \tab 468 \tab 307 \tab 77 \tab 31 \tab 13 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab increase a lot \tab increase by a little \tab stay the same \tab decrease by a little \tab decrease by a lot \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 115 \tab 387 \tab 468 \tab 307 \tab 77 \tab 31 \tab 13 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 115 \tab 387 \tab 468 \tab 307 \tab 77 \tab 31 \tab 13 \tab 0 \tab 2817 \cr
 }
 }
 

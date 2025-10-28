@@ -35,10 +35,10 @@ Question How often in the past 4 weeks have you felt thatï¿½ You lack compani
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7254/vshow}{GSS Data Explorer page for \code{lonely1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab never \tab rarely \tab sometimes \tab often \tab very often \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 555 \tab 264 \tab 213 \tab 73 \tab 62 \tab 3 \tab 3 \tab 2348 \cr
-   Total \tab 1175 \tab 555 \tab 264 \tab 213 \tab 73 \tab 62 \tab 3 \tab 3 \tab 2348 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab rarely \tab sometimes \tab often \tab very often \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 555 \tab 264 \tab 213 \tab 73 \tab 62 \tab 3 \tab 3 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 555 \tab 264 \tab 213 \tab 73 \tab 62 \tab 3 \tab 3 \tab 0 \tab 2348 \cr
 }
 }
 

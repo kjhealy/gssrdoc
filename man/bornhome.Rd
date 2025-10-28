@@ -34,10 +34,10 @@ Question Thinking back to the time when you were born, tell me which box shows t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3025/vshow}{GSS Data Explorer page for \code{bornhome}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab box a \tab box b \tab box c \tab other \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2539 \tab 51 \tab 180 \tab 16 \tab 3 \tab 16 \tab 7 \tab 2812 \cr
-   Total \tab 2539 \tab 51 \tab 180 \tab 16 \tab 3 \tab 16 \tab 7 \tab 2812 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab box a \tab box b \tab box c \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2539 \tab 51 \tab 180 \tab 16 \tab 3 \tab 16 \tab 7 \tab - \tab 2812 \cr
+   Total \tab 2539 \tab 51 \tab 180 \tab 16 \tab 3 \tab 16 \tab 7 \tab 0 \tab 2812 \cr
 }
 }
 

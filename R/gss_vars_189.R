@@ -23,10 +23,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did |didnt |no answer |Total |
-#'  |:-----|:----|:---|:-----|:---------|:-----|
-#'  |1996  |1779 |297 |817   |11        |2904  |
-#'  |Total |1779 |297 |817   |11        |2904  |
+#'  |year  |iap  |did |didnt |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:-----|:---------|:--------------------------|:-----|
+#'  |1996  |1779 |297 |817   |11        |-                          |2904  |
+#'  |Total |1779 |297 |817   |11        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -63,10 +63,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did |didnt |no answer |Total |
-#'  |:-----|:----|:---|:-----|:---------|:-----|
-#'  |1996  |1779 |310 |804   |11        |2904  |
-#'  |Total |1779 |310 |804   |11        |2904  |
+#'  |year  |iap  |did |didnt |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:-----|:---------|:--------------------------|:-----|
+#'  |1996  |1779 |310 |804   |11        |-                          |2904  |
+#'  |Total |1779 |310 |804   |11        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -103,10 +103,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did |didnt |no answer |Total |
-#'  |:-----|:----|:---|:-----|:---------|:-----|
-#'  |1996  |1779 |76  |1038  |11        |2904  |
-#'  |Total |1779 |76  |1038  |11        |2904  |
+#'  |year  |iap  |did |didnt |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:-----|:---------|:--------------------------|:-----|
+#'  |1996  |1779 |76  |1038  |11        |-                          |2904  |
+#'  |Total |1779 |76  |1038  |11        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -143,10 +143,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did |didnt |no answer |Total |
-#'  |:-----|:----|:---|:-----|:---------|:-----|
-#'  |1996  |1779 |160 |954   |11        |2904  |
-#'  |Total |1779 |160 |954   |11        |2904  |
+#'  |year  |iap  |did |didnt |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:-----|:---------|:--------------------------|:-----|
+#'  |1996  |1779 |160 |954   |11        |-                          |2904  |
+#'  |Total |1779 |160 |954   |11        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -183,10 +183,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did |didnt |no answer |Total |
-#'  |:-----|:----|:---|:-----|:---------|:-----|
-#'  |1996  |1779 |88  |1026  |11        |2904  |
-#'  |Total |1779 |88  |1026  |11        |2904  |
+#'  |year  |iap  |did |didnt |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:-----|:---------|:--------------------------|:-----|
+#'  |1996  |1779 |88  |1026  |11        |-                          |2904  |
+#'  |Total |1779 |88  |1026  |11        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -223,10 +223,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did |didnt |no answer |Total |
-#'  |:-----|:----|:---|:-----|:---------|:-----|
-#'  |1996  |1779 |326 |788   |11        |2904  |
-#'  |Total |1779 |326 |788   |11        |2904  |
+#'  |year  |iap  |did |didnt |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:-----|:---------|:--------------------------|:-----|
+#'  |1996  |1779 |326 |788   |11        |-                          |2904  |
+#'  |Total |1779 |326 |788   |11        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -263,10 +263,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did |didnt |no answer |Total |
-#'  |:-----|:----|:---|:-----|:---------|:-----|
-#'  |1996  |1779 |511 |603   |11        |2904  |
-#'  |Total |1779 |511 |603   |11        |2904  |
+#'  |year  |iap  |did |didnt |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:-----|:---------|:--------------------------|:-----|
+#'  |1996  |1779 |511 |603   |11        |-                          |2904  |
+#'  |Total |1779 |511 |603   |11        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -303,10 +303,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did |didnt |no answer |Total |
-#'  |:-----|:----|:---|:-----|:---------|:-----|
-#'  |1996  |1779 |174 |940   |11        |2904  |
-#'  |Total |1779 |174 |940   |11        |2904  |
+#'  |year  |iap  |did |didnt |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:-----|:---------|:--------------------------|:-----|
+#'  |1996  |1779 |174 |940   |11        |-                          |2904  |
+#'  |Total |1779 |174 |940   |11        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -343,10 +343,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did |didnt |no answer |Total |
-#'  |:-----|:----|:---|:-----|:---------|:-----|
-#'  |1996  |1779 |69  |1045  |11        |2904  |
-#'  |Total |1779 |69  |1045  |11        |2904  |
+#'  |year  |iap  |did |didnt |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:-----|:---------|:--------------------------|:-----|
+#'  |1996  |1779 |69  |1045  |11        |-                          |2904  |
+#'  |Total |1779 |69  |1045  |11        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions
@@ -383,10 +383,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |did |didnt |no answer |Total |
-#'  |:-----|:----|:---|:-----|:---------|:-----|
-#'  |1996  |1779 |109 |1005  |11        |2904  |
-#'  |Total |1779 |109 |1005  |11        |2904  |
+#'  |year  |iap  |did |didnt |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:-----|:---------|:--------------------------|:-----|
+#'  |1996  |1779 |109 |1005  |11        |-                          |2904  |
+#'  |Total |1779 |109 |1005  |11        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Emotions

@@ -33,10 +33,10 @@ Question Should penalties for illegally selling guns be tougher, less tough, or 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3701/vshow}{GSS Data Explorer page for \code{gunsdrug}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab tougher \tab less tough \tab about as tough \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3139 \tab 734 \tab 104 \tab 490 \tab 31 \tab 12 \tab 4510 \cr
-   Total \tab 3139 \tab 734 \tab 104 \tab 490 \tab 31 \tab 12 \tab 4510 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab tougher \tab less tough \tab about as tough \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3139 \tab 734 \tab 104 \tab 490 \tab 31 \tab 12 \tab - \tab 4510 \cr
+   Total \tab 3139 \tab 734 \tab 104 \tab 490 \tab 31 \tab 12 \tab 0 \tab 4510 \cr
 }
 }
 

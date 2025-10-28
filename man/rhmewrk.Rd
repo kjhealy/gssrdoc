@@ -37,10 +37,10 @@ A. How much of this work do you do?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1660/vshow}{GSS Data Explorer page for \code{rhmewrk}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab all \tab most \tab about half \tab some \tab very little or none \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 479 \tab 312 \tab 419 \tab 176 \tab 64 \tab 2 \tab 8 \tab 2904 \cr
-   Total \tab 1444 \tab 479 \tab 312 \tab 419 \tab 176 \tab 64 \tab 2 \tab 8 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab all \tab most \tab about half \tab some \tab very little or none \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 479 \tab 312 \tab 419 \tab 176 \tab 64 \tab 2 \tab 8 \tab - \tab 2904 \cr
+   Total \tab 1444 \tab 479 \tab 312 \tab 419 \tab 176 \tab 64 \tab 2 \tab 8 \tab 0 \tab 2904 \cr
 }
 }
 

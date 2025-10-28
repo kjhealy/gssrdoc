@@ -34,10 +34,11 @@ Get advice from your child''s teachers?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2939/vshow}{GSS Data Explorer page for \code{adtch}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 1098 \tab 256 \tab 28 \tab 11 \tab 2765 \cr
-   Total \tab 1372 \tab 1098 \tab 256 \tab 28 \tab 11 \tab 2765 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2002 \tab 1372 \tab 1098 \tab 256 \tab 28 \tab 11 \tab - \tab - \tab 2765 \cr
+   2024 \tab 1661 \tab 1394 \tab 213 \tab 14 \tab 5 \tab - \tab 22 \tab 3309 \cr
+   Total \tab 3033 \tab 2492 \tab 469 \tab 42 \tab 16 \tab 0 \tab 22 \tab 6074 \cr
 }
 }
 

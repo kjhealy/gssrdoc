@@ -35,10 +35,10 @@ D7. Relation to R. of seventh sibling
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1569/vshow}{GSS Data Explorer page for \code{sbrel7}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab full \tab adopted \tab step \tab half \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2583 \tab 313 \tab 3 \tab 24 \tab 43 \tab 1 \tab 25 \tab 2992 \cr
-   Total \tab 2583 \tab 313 \tab 3 \tab 24 \tab 43 \tab 1 \tab 25 \tab 2992 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab full \tab adopted \tab step \tab half \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2583 \tab 313 \tab 3 \tab 24 \tab 43 \tab 1 \tab 25 \tab - \tab 2992 \cr
+   Total \tab 2583 \tab 313 \tab 3 \tab 24 \tab 43 \tab 1 \tab 25 \tab 0 \tab 2992 \cr
 }
 }
 

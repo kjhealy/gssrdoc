@@ -48,7 +48,7 @@ Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at col
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5335/vshow}{GSS Data Explorer page for \code{mar1}}.
 
 Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab married \tab widowed \tab divorced \tab separated \tab never married \tab don't know \tab no answer \tab not available in this release \tab skipped on web \tab Total \cr
+   year \tab iap \tab married \tab widowed \tab divorced \tab separated \tab never married \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
    1975 \tab - \tab 1086 \tab 152 \tab 93 \tab 51 \tab 108 \tab - \tab - \tab - \tab - \tab 1490 \cr
    1976 \tab 755 \tab 502 \tab 102 \tab 48 \tab 31 \tab 61 \tab - \tab - \tab - \tab - \tab 1499 \cr
    1977 \tab - \tab 1052 \tab 184 \tab 112 \tab 67 \tab 114 \tab 1 \tab - \tab - \tab - \tab 1530 \cr
@@ -78,9 +78,9 @@ Counts by year:\tabular{llllllllllll}{
    2014 \tab - \tab 1246 \tab 221 \tab 391 \tab 92 \tab 509 \tab 61 \tab 18 \tab - \tab - \tab 2538 \cr
    2016 \tab - \tab 1320 \tab 273 \tab 473 \tab 121 \tab 609 \tab 37 \tab 34 \tab - \tab - \tab 2867 \cr
    2018 \tab - \tab 1078 \tab 219 \tab 390 \tab 109 \tab 477 \tab 57 \tab 18 \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab 4032 \cr
-   2022 \tab 1780 \tab 774 \tab 137 \tab 309 \tab 52 \tab 477 \tab 2 \tab 7 \tab - \tab 6 \tab 3544 \cr
-   Total \tab 2535 \tab 33255 \tab 6294 \tab 8499 \tab 2378 \tab 10186 \tab 300 \tab 304 \tab 4032 \tab 6 \tab 67789 \cr
+   2021 \tab 211 \tab 1905 \tab 312 \tab 619 \tab 88 \tab 850 \tab 1 \tab 2 \tab 44 \tab - \tab 4032 \cr
+   2022 \tab 1780 \tab 775 \tab 137 \tab 309 \tab 52 \tab 476 \tab 2 \tab 7 \tab 6 \tab - \tab 3544 \cr
+   Total \tab 2746 \tab 35161 \tab 6606 \tab 9118 \tab 2466 \tab 11035 \tab 301 \tab 306 \tab 50 \tab 0 \tab 67789 \cr
 }
 }
 

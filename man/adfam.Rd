@@ -34,10 +34,11 @@ Get advice from family and friends about (John/Mary)?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2937/vshow}{GSS Data Explorer page for \code{adfam}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 921 \tab 441 \tab 20 \tab 11 \tab 2765 \cr
-   Total \tab 1372 \tab 921 \tab 441 \tab 20 \tab 11 \tab 2765 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2002 \tab 1372 \tab 921 \tab 441 \tab 20 \tab 11 \tab - \tab - \tab 2765 \cr
+   2024 \tab 1661 \tab 1245 \tab 361 \tab 18 \tab 5 \tab - \tab 19 \tab 3309 \cr
+   Total \tab 3033 \tab 2166 \tab 802 \tab 38 \tab 16 \tab 0 \tab 19 \tab 6074 \cr
 }
 }
 

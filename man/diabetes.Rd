@@ -33,12 +33,12 @@ C. Diabetes or high blood pressure?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2844/vshow}{GSS Data Explorer page for \code{diabetes}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab skipped on web \tab Total \cr
-   2014 \tab 1288 \tab 129 \tab 1115 \tab 6 \tab - \tab - \tab 2538 \cr
-   2018 \tab 900 \tab 153 \tab 1260 \tab 33 \tab 2 \tab - \tab 2348 \cr
-   2022 \tab 1557 \tab 235 \tab 1719 \tab 8 \tab 5 \tab 20 \tab 3544 \cr
-   Total \tab 3745 \tab 517 \tab 4094 \tab 47 \tab 7 \tab 20 \tab 8430 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab skipped on web \tab not available in this year \tab Total \cr
+   2014 \tab 1288 \tab 129 \tab 1115 \tab 6 \tab - \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 153 \tab 1260 \tab 33 \tab 2 \tab - \tab - \tab 2348 \cr
+   2022 \tab 1557 \tab 235 \tab 1719 \tab 8 \tab 5 \tab 20 \tab - \tab 3544 \cr
+   Total \tab 3745 \tab 517 \tab 4094 \tab 47 \tab 7 \tab 20 \tab 0 \tab 8430 \cr
 }
 }
 

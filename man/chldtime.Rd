@@ -36,10 +36,10 @@ I. The time children have with their parents.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5116/vshow}{GSS Data Explorer page for \code{chldtime}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab much better \tab better \tab about the same \tab worse \tab much worse \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 18 \tab 117 \tab 401 \tab 718 \tab 71 \tab 33 \tab 14 \tab 1372 \cr
-   Total \tab 0 \tab 18 \tab 117 \tab 401 \tab 718 \tab 71 \tab 33 \tab 14 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much better \tab better \tab about the same \tab worse \tab much worse \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 18 \tab 117 \tab 401 \tab 718 \tab 71 \tab 33 \tab 14 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 18 \tab 117 \tab 401 \tab 718 \tab 71 \tab 33 \tab 14 \tab 0 \tab 1372 \cr
 }
 }
 

@@ -35,10 +35,10 @@ D. Arctic penguins may be threatened.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3441/vshow}{GSS Data Explorer page for \code{penguins}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a great deal \tab some \tab a little \tab not at all \tab don't know \tab no answer \tab Total \cr
-   2010 \tab 1338 \tab 323 \tab 217 \tab 97 \tab 44 \tab 15 \tab 10 \tab 2044 \cr
-   Total \tab 1338 \tab 323 \tab 217 \tab 97 \tab 44 \tab 15 \tab 10 \tab 2044 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal \tab some \tab a little \tab not at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 1338 \tab 323 \tab 217 \tab 97 \tab 44 \tab 15 \tab 10 \tab - \tab 2044 \cr
+   Total \tab 1338 \tab 323 \tab 217 \tab 97 \tab 44 \tab 15 \tab 10 \tab 0 \tab 2044 \cr
 }
 }
 

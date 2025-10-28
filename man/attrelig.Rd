@@ -35,11 +35,11 @@ D. Attend religious services?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5309/vshow}{GSS Data Explorer page for \code{attrelig}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1996 \tab 1953 \tab 295 \tab 655 \tab 1 \tab 2904 \cr
-   1998 \tab 1387 \tab 499 \tab 942 \tab 4 \tab 2832 \cr
-   Total \tab 3340 \tab 794 \tab 1597 \tab 5 \tab 5736 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1953 \tab 295 \tab 655 \tab 1 \tab - \tab 2904 \cr
+   1998 \tab 1387 \tab 499 \tab 942 \tab 4 \tab - \tab 2832 \cr
+   Total \tab 3340 \tab 794 \tab 1597 \tab 5 \tab 0 \tab 5736 \cr
 }
 }
 

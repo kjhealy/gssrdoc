@@ -34,10 +34,10 @@ A. Attended a public meeting organized to protest against the government.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4092/vshow}{GSS Data Explorer page for \code{rprtst15}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab never \tab once \tab more than once \tab no answer \tab Total \cr
-   1996 \tab 1572 \tab 1127 \tab 118 \tab 59 \tab 28 \tab 2904 \cr
-   Total \tab 1572 \tab 1127 \tab 118 \tab 59 \tab 28 \tab 2904 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab never \tab once \tab more than once \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1572 \tab 1127 \tab 118 \tab 59 \tab 28 \tab - \tab 2904 \cr
+   Total \tab 1572 \tab 1127 \tab 118 \tab 59 \tab 28 \tab 0 \tab 2904 \cr
 }
 }
 

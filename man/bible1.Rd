@@ -34,11 +34,11 @@ Question Which of these statements comes closest to describing your feelings abo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4656/vshow}{GSS Data Explorer page for \code{bible1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab word of god, take literally \tab god-inspired, shouldn't take literally \tab book of fables, by man \tab this does not apply to me \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 430 \tab 639 \tab 188 \tab 27 \tab 50 \tab 25 \tab 1517 \cr
-   1998 \tab 1548 \tab 358 \tab 585 \tab 207 \tab 40 \tab 56 \tab 38 \tab 2832 \cr
-   Total \tab 1706 \tab 788 \tab 1224 \tab 395 \tab 67 \tab 106 \tab 63 \tab 4349 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab word of god, take literally \tab god-inspired, shouldn't take literally \tab book of fables, by man \tab this does not apply to me \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 430 \tab 639 \tab 188 \tab 27 \tab 50 \tab 25 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 358 \tab 585 \tab 207 \tab 40 \tab 56 \tab 38 \tab - \tab 2832 \cr
+   Total \tab 1706 \tab 788 \tab 1224 \tab 395 \tab 67 \tab 106 \tab 63 \tab 0 \tab 4349 \cr
 }
 }
 

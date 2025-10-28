@@ -35,10 +35,10 @@ D. Which statement best describes your own view about eating foods that have bee
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3397/vshow}{GSS Data Explorer page for \code{eatgm}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab dont care whether or not food has been genetically modified \tab willing to eat but would prefer unmodified foods \tab will not eat genetically modified food \tab don't know \tab Total \cr
-   2006 \tab 3574 \tab 139 \tab 479 \tab 285 \tab 33 \tab 4510 \cr
-   Total \tab 3574 \tab 139 \tab 479 \tab 285 \tab 33 \tab 4510 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab dont care whether or not food has been genetically modified \tab willing to eat but would prefer unmodified foods \tab will not eat genetically modified food \tab don't know \tab not available in this year \tab Total \cr
+   2006 \tab 3574 \tab 139 \tab 479 \tab 285 \tab 33 \tab - \tab 4510 \cr
+   Total \tab 3574 \tab 139 \tab 479 \tab 285 \tab 33 \tab 0 \tab 4510 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question How much do you trust university research centers?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7482/vshow}{GSS Data Explorer page for \code{trresrch}}.
 
-Counts by year:\tabular{lllllllllllllllll}{
-   year \tab iap \tab 0 - no trust \tab 1 \tab 10 - complete trust \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2003 \tab 58 \tab 22 \tab 98 \tab 64 \tab 83 \tab 93 \tab 389 \tab 151 \tab 280 \tab 343 \tab 207 \tab 77 \tab 155 \tab 9 \tab 4032 \cr
-   Total \tab 2003 \tab 58 \tab 22 \tab 98 \tab 64 \tab 83 \tab 93 \tab 389 \tab 151 \tab 280 \tab 343 \tab 207 \tab 77 \tab 155 \tab 9 \tab 4032 \cr
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab 0 - no trust \tab 1 \tab 10 - complete trust \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2003 \tab 58 \tab 22 \tab 98 \tab 64 \tab 83 \tab 93 \tab 389 \tab 151 \tab 280 \tab 343 \tab 207 \tab 77 \tab 155 \tab 9 \tab - \tab 4032 \cr
+   Total \tab 2003 \tab 58 \tab 22 \tab 98 \tab 64 \tab 83 \tab 93 \tab 389 \tab 151 \tab 280 \tab 343 \tab 207 \tab 77 \tab 155 \tab 9 \tab 0 \tab 4032 \cr
 }
 }
 

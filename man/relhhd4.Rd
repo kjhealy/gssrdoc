@@ -50,25 +50,25 @@ Question What is (PERSON)'s relationship to (HEAD OF HOUSEHOLD)?  SEE CODES BELO
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5419/vshow}{GSS Data Explorer page for \code{relhhd4}}.
 
-Counts by year:\tabular{llllllllllllllllllllllll}{
-   year \tab iap \tab spouse \tab partner, fiance(e), boyfriend, girlfriend, etc. \tab child, natural or adopted, stepchild \tab grandchild, great-grandchild \tab son-in-law, daughter-in-law \tab parent \tab parent-in-law \tab niece or nephew \tab brother, sister (full, half, or step sibling) \tab sibling-in-law \tab roommate, housemate \tab friend \tab child of non-relative \tab other non-relative (employee, boarder) \tab no answer \tab cousin \tab other relative (great-aunt, grandniece, etc.) \tab grandparent, great-grandparent \tab uncle or aunt \tab don't know \tab not available in this release \tab Total \cr
-   1993 \tab 1190 \tab 3 \tab 1 \tab 371 \tab 15 \tab 2 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 7 \tab 2 \tab 3 \tab 2 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab 2274 \tab 5 \tab 2 \tab 624 \tab 34 \tab 5 \tab 3 \tab 3 \tab 5 \tab 2 \tab 4 \tab 9 \tab 3 \tab 11 \tab 1 \tab 3 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab 2992 \cr
-   1996 \tab 2184 \tab 10 \tab 3 \tab 591 \tab 26 \tab 6 \tab 3 \tab 3 \tab 9 \tab 6 \tab 3 \tab 9 \tab 2 \tab 10 \tab 3 \tab 31 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab 2904 \cr
-   1998 \tab 2196 \tab 5 \tab 4 \tab 534 \tab 23 \tab 7 \tab 4 \tab 2 \tab 10 \tab 3 \tab 2 \tab 6 \tab - \tab 7 \tab 2 \tab 24 \tab - \tab 2 \tab 1 \tab - \tab - \tab - \tab 2832 \cr
-   2000 \tab 2127 \tab - \tab - \tab 569 \tab 35 \tab 6 \tab 5 \tab 2 \tab 1 \tab 5 \tab 4 \tab 11 \tab 3 \tab 5 \tab 2 \tab 35 \tab 2 \tab 2 \tab 2 \tab 1 \tab - \tab - \tab 2817 \cr
-   2002 \tab 2266 \tab - \tab - \tab 417 \tab 30 \tab 7 \tab - \tab 1 \tab 8 \tab 7 \tab - \tab 8 \tab 6 \tab 4 \tab 5 \tab 4 \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab 2765 \cr
-   2004 \tab 2214 \tab - \tab - \tab 522 \tab 31 \tab 5 \tab 3 \tab 2 \tab 4 \tab 6 \tab 1 \tab 8 \tab 2 \tab 2 \tab 5 \tab - \tab 1 \tab 3 \tab 1 \tab - \tab 2 \tab - \tab 2812 \cr
-   2006 \tab 3502 \tab - \tab - \tab 897 \tab 33 \tab 3 \tab 7 \tab 3 \tab 8 \tab 7 \tab 6 \tab 16 \tab 7 \tab 6 \tab 8 \tab - \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab 4510 \cr
-   2008 \tab 1547 \tab - \tab - \tab 405 \tab 34 \tab 4 \tab - \tab 2 \tab 4 \tab 5 \tab 1 \tab 8 \tab 3 \tab 4 \tab 3 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab 2023 \cr
-   2010 \tab 1627 \tab - \tab 3 \tab 329 \tab 28 \tab 10 \tab 3 \tab 3 \tab 4 \tab 7 \tab 1 \tab 15 \tab 3 \tab 2 \tab 4 \tab 3 \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab 2044 \cr
-   2012 \tab 1526 \tab - \tab 2 \tab 361 \tab 28 \tab 4 \tab 5 \tab 1 \tab 8 \tab 6 \tab 6 \tab 11 \tab 2 \tab 4 \tab 2 \tab 1 \tab - \tab - \tab - \tab 6 \tab 1 \tab - \tab 1974 \cr
-   2014 \tab 2040 \tab - \tab 2 \tab 420 \tab 24 \tab 11 \tab 6 \tab 1 \tab 3 \tab 4 \tab - \tab 11 \tab 4 \tab 4 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab 2 \tab 1 \tab - \tab 2538 \cr
-   2016 \tab 2353 \tab - \tab - \tab 426 \tab 34 \tab 10 \tab 6 \tab 2 \tab 5 \tab 5 \tab 1 \tab 10 \tab 1 \tab 2 \tab 3 \tab - \tab 1 \tab 2 \tab - \tab 3 \tab 3 \tab - \tab 2867 \cr
-   2018 \tab 1899 \tab - \tab - \tab 354 \tab 29 \tab 16 \tab 1 \tab 4 \tab 5 \tab 3 \tab 3 \tab 20 \tab 2 \tab 3 \tab 3 \tab - \tab 1 \tab 3 \tab - \tab 2 \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 32489 \tab 23 \tab 17 \tab 6820 \tab 404 \tab 96 \tab 47 \tab 30 \tab 78 \tab 67 \tab 33 \tab 149 \tab 40 \tab 67 \tab 45 \tab 105 \tab 12 \tab 20 \tab 7 \tab 17 \tab 10 \tab 4032 \tab 44608 \cr
+Counts by year:\tabular{lllllllllllllllllllllllll}{
+   year \tab iap \tab spouse \tab partner, fiance(e), boyfriend, girlfriend, etc. \tab child, natural or adopted, stepchild \tab grandchild, great-grandchild \tab son-in-law, daughter-in-law \tab parent \tab parent-in-law \tab niece or nephew \tab brother, sister (full, half, or step sibling) \tab sibling-in-law \tab roommate, housemate \tab friend \tab child of non-relative \tab other non-relative (employee, boarder) \tab no answer \tab cousin \tab other relative (great-aunt, grandniece, etc.) \tab grandparent, great-grandparent \tab uncle or aunt \tab don't know \tab skipped on web \tab not available in this year \tab Total \cr
+   1993 \tab 1190 \tab 3 \tab 1 \tab 371 \tab 15 \tab 2 \tab 1 \tab 1 \tab 4 \tab 1 \tab 1 \tab 7 \tab 2 \tab 3 \tab 2 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1606 \cr
+   1994 \tab 2274 \tab 5 \tab 2 \tab 624 \tab 34 \tab 5 \tab 3 \tab 3 \tab 5 \tab 2 \tab 4 \tab 9 \tab 3 \tab 11 \tab 1 \tab 3 \tab 1 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab 2992 \cr
+   1996 \tab 2184 \tab 10 \tab 3 \tab 591 \tab 26 \tab 6 \tab 3 \tab 3 \tab 9 \tab 6 \tab 3 \tab 9 \tab 2 \tab 10 \tab 3 \tab 31 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab - \tab 2904 \cr
+   1998 \tab 2196 \tab 5 \tab 4 \tab 534 \tab 23 \tab 7 \tab 4 \tab 2 \tab 10 \tab 3 \tab 2 \tab 6 \tab - \tab 7 \tab 2 \tab 24 \tab - \tab 2 \tab 1 \tab - \tab - \tab - \tab - \tab 2832 \cr
+   2000 \tab 2127 \tab - \tab - \tab 569 \tab 35 \tab 6 \tab 5 \tab 2 \tab 1 \tab 5 \tab 4 \tab 11 \tab 3 \tab 5 \tab 2 \tab 35 \tab 2 \tab 2 \tab 2 \tab 1 \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2266 \tab - \tab - \tab 417 \tab 30 \tab 7 \tab - \tab 1 \tab 8 \tab 7 \tab - \tab 8 \tab 6 \tab 4 \tab 5 \tab 4 \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab 2765 \cr
+   2004 \tab 2214 \tab - \tab - \tab 522 \tab 31 \tab 5 \tab 3 \tab 2 \tab 4 \tab 6 \tab 1 \tab 8 \tab 2 \tab 2 \tab 5 \tab - \tab 1 \tab 3 \tab 1 \tab - \tab 2 \tab - \tab - \tab 2812 \cr
+   2006 \tab 3502 \tab - \tab - \tab 897 \tab 33 \tab 3 \tab 7 \tab 3 \tab 8 \tab 7 \tab 6 \tab 16 \tab 7 \tab 6 \tab 8 \tab - \tab 2 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab - \tab 4510 \cr
+   2008 \tab 1547 \tab - \tab - \tab 405 \tab 34 \tab 4 \tab - \tab 2 \tab 4 \tab 5 \tab 1 \tab 8 \tab 3 \tab 4 \tab 3 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab 2023 \cr
+   2010 \tab 1627 \tab - \tab 3 \tab 329 \tab 28 \tab 10 \tab 3 \tab 3 \tab 4 \tab 7 \tab 1 \tab 15 \tab 3 \tab 2 \tab 4 \tab 3 \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1526 \tab - \tab 2 \tab 361 \tab 28 \tab 4 \tab 5 \tab 1 \tab 8 \tab 6 \tab 6 \tab 11 \tab 2 \tab 4 \tab 2 \tab 1 \tab - \tab - \tab - \tab 6 \tab 1 \tab - \tab - \tab 1974 \cr
+   2014 \tab 2040 \tab - \tab 2 \tab 420 \tab 24 \tab 11 \tab 6 \tab 1 \tab 3 \tab 4 \tab - \tab 11 \tab 4 \tab 4 \tab 2 \tab 1 \tab 1 \tab 1 \tab - \tab 2 \tab 1 \tab - \tab - \tab 2538 \cr
+   2016 \tab 2353 \tab - \tab - \tab 426 \tab 34 \tab 10 \tab 6 \tab 2 \tab 5 \tab 5 \tab 1 \tab 10 \tab 1 \tab 2 \tab 3 \tab - \tab 1 \tab 2 \tab - \tab 3 \tab 3 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1899 \tab - \tab - \tab 354 \tab 29 \tab 16 \tab 1 \tab 4 \tab 5 \tab 3 \tab 3 \tab 20 \tab 2 \tab 3 \tab 3 \tab - \tab 1 \tab 3 \tab - \tab 2 \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab 3169 \tab - \tab 3 \tab 698 \tab 40 \tab 10 \tab 17 \tab 3 \tab 6 \tab 10 \tab 5 \tab 29 \tab 13 \tab 11 \tab 8 \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab 8 \tab - \tab 4032 \cr
+   2022 \tab 3210 \tab - \tab 1 \tab 272 \tab 9 \tab 5 \tab 5 \tab 2 \tab 1 \tab 9 \tab 1 \tab 7 \tab 5 \tab 4 \tab 3 \tab 1 \tab 2 \tab 3 \tab 2 \tab - \tab - \tab 2 \tab - \tab 3544 \cr
+   Total \tab 35324 \tab 23 \tab 21 \tab 7790 \tab 453 \tab 111 \tab 69 \tab 35 \tab 85 \tab 86 \tab 39 \tab 185 \tab 58 \tab 82 \tab 56 \tab 106 \tab 15 \tab 23 \tab 10 \tab 17 \tab 10 \tab 10 \tab 0 \tab 44608 \cr
 }
 }
 

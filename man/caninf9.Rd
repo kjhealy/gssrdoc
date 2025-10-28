@@ -34,10 +34,10 @@ I. Would go to news or media site for information on candidate.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2992/vshow}{GSS Data Explorer page for \code{caninf9}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab no \tab yes \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1789 \tab 646 \tab 49 \tab 25 \tab 308 \tab 2817 \cr
-   Total \tab 1789 \tab 646 \tab 49 \tab 25 \tab 308 \tab 2817 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab no \tab yes \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1789 \tab 646 \tab 49 \tab 25 \tab 308 \tab - \tab 2817 \cr
+   Total \tab 1789 \tab 646 \tab 49 \tab 25 \tab 308 \tab 0 \tab 2817 \cr
 }
 }
 

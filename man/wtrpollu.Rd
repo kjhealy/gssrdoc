@@ -35,10 +35,10 @@ Question To what degree was your neighborhood affected by water polution over th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7502/vshow}{GSS Data Explorer page for \code{wtrpollu}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab not at all \tab to a small extent \tab to some extent \tab to a great extent \tab to a very great extent \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2003 \tab 854 \tab 449 \tab 285 \tab 88 \tab 23 \tab 110 \tab 201 \tab 19 \tab 4032 \cr
-   Total \tab 2003 \tab 854 \tab 449 \tab 285 \tab 88 \tab 23 \tab 110 \tab 201 \tab 19 \tab 4032 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab not at all \tab to a small extent \tab to some extent \tab to a great extent \tab to a very great extent \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2003 \tab 854 \tab 449 \tab 285 \tab 88 \tab 23 \tab 110 \tab 201 \tab 19 \tab - \tab 4032 \cr
+   Total \tab 2003 \tab 854 \tab 449 \tab 285 \tab 88 \tab 23 \tab 110 \tab 201 \tab 19 \tab 0 \tab 4032 \cr
 }
 }
 

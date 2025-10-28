@@ -35,13 +35,13 @@ Question C. In 1976, you remember that Carter ran for President on the Democrati
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/148/vshow}{GSS Data Explorer page for \code{vote76}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab voted \tab did not vote \tab not eligible \tab refused \tab don't know \tab no answer \tab Total \cr
-   1977 \tab - \tab 983 \tab 479 \tab 56 \tab 3 \tab 4 \tab 5 \tab 1530 \cr
-   1978 \tab - \tab 973 \tab 456 \tab 82 \tab 3 \tab 16 \tab 2 \tab 1532 \cr
-   1980 \tab - \tab 896 \tab 440 \tab 107 \tab - \tab 22 \tab 3 \tab 1468 \cr
-   1982 \tab - \tab 1100 \tab 477 \tab 221 \tab 5 \tab 54 \tab 3 \tab 1860 \cr
-   Total \tab 0 \tab 3952 \tab 1852 \tab 466 \tab 11 \tab 96 \tab 13 \tab 6390 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab voted \tab did not vote \tab not eligible \tab refused \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1977 \tab - \tab 983 \tab 479 \tab 56 \tab 3 \tab 4 \tab 5 \tab - \tab 1530 \cr
+   1978 \tab - \tab 973 \tab 456 \tab 82 \tab 3 \tab 16 \tab 2 \tab - \tab 1532 \cr
+   1980 \tab - \tab 896 \tab 440 \tab 107 \tab - \tab 22 \tab 3 \tab - \tab 1468 \cr
+   1982 \tab - \tab 1100 \tab 477 \tab 221 \tab 5 \tab 54 \tab 3 \tab - \tab 1860 \cr
+   Total \tab 0 \tab 3952 \tab 1852 \tab 466 \tab 11 \tab 96 \tab 13 \tab 0 \tab 6390 \cr
 }
 }
 

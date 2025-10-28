@@ -32,10 +32,10 @@ Question A. Do you think it should or should not be the government's responsibil
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3708/vshow}{GSS Data Explorer page for \code{natdisin}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab should \tab should not be \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2992 \tab 1368 \tab 131 \tab 18 \tab 1 \tab 4510 \cr
-   Total \tab 2992 \tab 1368 \tab 131 \tab 18 \tab 1 \tab 4510 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab should \tab should not be \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2992 \tab 1368 \tab 131 \tab 18 \tab 1 \tab - \tab 4510 \cr
+   Total \tab 2992 \tab 1368 \tab 131 \tab 18 \tab 1 \tab 0 \tab 4510 \cr
 }
 }
 

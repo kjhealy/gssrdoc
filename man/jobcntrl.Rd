@@ -34,10 +34,10 @@ Question I'm going to read four statements. (HAND CARD BV TO RESPONDENT) Please 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1307/vshow}{GSS Data Explorer page for \code{jobcntrl}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab other decide what and how i do \tab other decide what but not how \tab i decide some what and how i do \tab i am my own boss \tab no answer \tab Total \cr
-   1991 \tab 605 \tab 86 \tab 214 \tab 328 \tab 267 \tab 17 \tab 1517 \cr
-   Total \tab 605 \tab 86 \tab 214 \tab 328 \tab 267 \tab 17 \tab 1517 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab other decide what and how i do \tab other decide what but not how \tab i decide some what and how i do \tab i am my own boss \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 605 \tab 86 \tab 214 \tab 328 \tab 267 \tab 17 \tab - \tab 1517 \cr
+   Total \tab 605 \tab 86 \tab 214 \tab 328 \tab 267 \tab 17 \tab 0 \tab 1517 \cr
 }
 }
 

@@ -38,10 +38,10 @@ Question How satisfied or dissatisfied were you with the treatment you received.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7832/vshow}{GSS Data Explorer page for \code{docsat1}}.
 
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab completely satisfied \tab very satisfied \tab fairly satisfied \tab neither satisfied nor dissatisfied \tab fairly dissatisfied \tab very dissatisfied \tab completely dissatisfied \tab 9 \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2382 \tab 224 \tab 382 \tab 314 \tab 78 \tab 66 \tab 21 \tab 29 \tab 30 \tab 11 \tab 3 \tab 4 \tab 3544 \cr
-   Total \tab 2382 \tab 224 \tab 382 \tab 314 \tab 78 \tab 66 \tab 21 \tab 29 \tab 30 \tab 11 \tab 3 \tab 4 \tab 3544 \cr
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab not available in this year \tab completely satisfied \tab very satisfied \tab fairly satisfied \tab neither satisfied nor dissatisfied \tab fairly dissatisfied \tab very dissatisfied \tab completely dissatisfied \tab does not apply \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 224 \tab 382 \tab 314 \tab 78 \tab 66 \tab 21 \tab 29 \tab 11 \tab 30 \tab 2382 \tab 3 \tab 4 \tab 3544 \cr
+   Total \tab 0 \tab 224 \tab 382 \tab 314 \tab 78 \tab 66 \tab 21 \tab 29 \tab 11 \tab 30 \tab 2382 \tab 3 \tab 4 \tab 3544 \cr
 }
 }
 

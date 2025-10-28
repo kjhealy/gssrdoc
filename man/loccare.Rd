@@ -34,10 +34,10 @@ Question If you had some complaint about a local government activity and took th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1026/vshow}{GSS Data Explorer page for \code{loccare}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab lot of attention \tab some \tab very little \tab none \tab don't know \tab no answer \tab Total \cr
-   1987 \tab - \tab 487 \tab 859 \tab 307 \tab 121 \tab 35 \tab 10 \tab 1819 \cr
-   Total \tab 0 \tab 487 \tab 859 \tab 307 \tab 121 \tab 35 \tab 10 \tab 1819 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab lot of attention \tab some \tab very little \tab none \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab - \tab 487 \tab 859 \tab 307 \tab 121 \tab 35 \tab 10 \tab - \tab 1819 \cr
+   Total \tab 0 \tab 487 \tab 859 \tab 307 \tab 121 \tab 35 \tab 10 \tab 0 \tab 1819 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Favor or oppose reducing funding for police and instead funding social 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7574/vshow}{GSS Data Explorer page for \code{defund}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab favor \tab oppose \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 1315 \tab 952 \tab 1392 \tab 7 \tab 332 \tab 34 \tab 4032 \cr
-   Total \tab 1315 \tab 952 \tab 1392 \tab 7 \tab 332 \tab 34 \tab 4032 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab favor \tab oppose \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 1315 \tab 952 \tab 1392 \tab 7 \tab 332 \tab 34 \tab - \tab 4032 \cr
+   Total \tab 1315 \tab 952 \tab 1392 \tab 7 \tab 332 \tab 34 \tab 0 \tab 4032 \cr
 }
 }
 

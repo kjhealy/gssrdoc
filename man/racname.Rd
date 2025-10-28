@@ -35,10 +35,10 @@ Question Which would you most like to be called, "Black", "Negro", "Colored", or
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/404/vshow}{GSS Data Explorer page for \code{racname}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab black \tab negro \tab colored \tab afro-american \tab makes no difference \tab no answer \tab Total \cr
-   1982 \tab 1350 \tab 264 \tab 29 \tab 23 \tab 29 \tab 158 \tab 7 \tab 1860 \cr
-   Total \tab 1350 \tab 264 \tab 29 \tab 23 \tab 29 \tab 158 \tab 7 \tab 1860 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab black \tab negro \tab colored \tab afro-american \tab makes no difference \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab 1350 \tab 264 \tab 29 \tab 23 \tab 29 \tab 158 \tab 7 \tab - \tab 1860 \cr
+   Total \tab 1350 \tab 264 \tab 29 \tab 23 \tab 29 \tab 158 \tab 7 \tab 0 \tab 1860 \cr
 }
 }
 

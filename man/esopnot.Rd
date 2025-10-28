@@ -35,10 +35,10 @@ Question If you are given two job offers for the same position with the same sal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7226/vshow}{GSS Data Explorer page for \code{esopnot}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab i would definitely take the job without the esop (employee stock ownership plan) or cash profit sharing \tab i would probably take the job without the esop (employee stock ownership plan) or cash profit sharing \tab i would be neutral \tab i would probably take the job with the esop (employee stock ownership plan) or cash profit sharing \tab i would definitely take the job with the esop (employee stock ownership plan) or cash profit sharing \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 900 \tab 97 \tab 45 \tab 384 \tab 437 \tab 422 \tab 28 \tab 35 \tab 2348 \cr
-   Total \tab 900 \tab 97 \tab 45 \tab 384 \tab 437 \tab 422 \tab 28 \tab 35 \tab 2348 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab i would definitely take the job without the esop (employee stock ownership plan) or cash profit sharing \tab i would probably take the job without the esop (employee stock ownership plan) or cash profit sharing \tab i would be neutral \tab i would probably take the job with the esop (employee stock ownership plan) or cash profit sharing \tab i would definitely take the job with the esop (employee stock ownership plan) or cash profit sharing \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 900 \tab 97 \tab 45 \tab 384 \tab 437 \tab 422 \tab 28 \tab 35 \tab - \tab 2348 \cr
+   Total \tab 900 \tab 97 \tab 45 \tab 384 \tab 437 \tab 422 \tab 28 \tab 35 \tab 0 \tab 2348 \cr
 }
 }
 

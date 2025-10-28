@@ -34,10 +34,11 @@ D. Cut back on your work?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1670/vshow}{GSS Data Explorer page for \code{workless}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 311 \tab 1034 \tab 115 \tab 2904 \cr
-   Total \tab 1444 \tab 311 \tab 1034 \tab 115 \tab 2904 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab don't know \tab skipped on web \tab Total \cr
+   1996 \tab 1444 \tab 311 \tab 1034 \tab 115 \tab - \tab - \tab - \tab 2904 \cr
+   2024 \tab 1162 \tab 561 \tab 1536 \tab 6 \tab - \tab 16 \tab 28 \tab 3309 \cr
+   Total \tab 2606 \tab 872 \tab 2570 \tab 121 \tab 0 \tab 16 \tab 28 \tab 6213 \cr
 }
 }
 

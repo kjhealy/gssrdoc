@@ -36,10 +36,10 @@ Question Please indicate about how many people do you have contact with on a typ
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7263/vshow}{GSS Data Explorer page for \code{conwkday}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab 0-4 people \tab 5-9 people \tab 10-19 people \tab 20-49 people \tab 50-99 people \tab 100 or more people \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 226 \tab 313 \tab 268 \tab 224 \tab 67 \tab 70 \tab 4 \tab 1 \tab 2348 \cr
-   Total \tab 1175 \tab 226 \tab 313 \tab 268 \tab 224 \tab 67 \tab 70 \tab 4 \tab 1 \tab 2348 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 0-4 people \tab 5-9 people \tab 10-19 people \tab 20-49 people \tab 50-99 people \tab 100 or more people \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 226 \tab 313 \tab 268 \tab 224 \tab 67 \tab 70 \tab 4 \tab 1 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 226 \tab 313 \tab 268 \tab 224 \tab 67 \tab 70 \tab 4 \tab 1 \tab 0 \tab 2348 \cr
 }
 }
 

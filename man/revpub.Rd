@@ -38,14 +38,14 @@ C. Publish books expressing their views.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3990/vshow}{GSS Data Explorer page for \code{revpub}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 170 \tab 182 \tab 88 \tab 186 \tab 37 \tab 14 \tab 1534 \cr
-   1990 \tab 155 \tab 365 \tab 388 \tab 167 \tab 215 \tab 58 \tab 24 \tab 1372 \cr
-   1996 \tab 1572 \tab 407 \tab 443 \tab 156 \tab 218 \tab 67 \tab 41 \tab 2904 \cr
-   2006 \tab 2992 \tab 839 \tab 439 \tab 125 \tab 102 \tab 13 \tab - \tab 4510 \cr
-   2016 \tab 1477 \tab 719 \tab 418 \tab 132 \tab 92 \tab 18 \tab 11 \tab 2867 \cr
-   Total \tab 7053 \tab 2500 \tab 1870 \tab 668 \tab 813 \tab 193 \tab 90 \tab 13187 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 170 \tab 182 \tab 88 \tab 186 \tab 37 \tab 14 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 365 \tab 388 \tab 167 \tab 215 \tab 58 \tab 24 \tab - \tab 1372 \cr
+   1996 \tab 1572 \tab 407 \tab 443 \tab 156 \tab 218 \tab 67 \tab 41 \tab - \tab 2904 \cr
+   2006 \tab 2992 \tab 839 \tab 439 \tab 125 \tab 102 \tab 13 \tab - \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 719 \tab 418 \tab 132 \tab 92 \tab 18 \tab 11 \tab - \tab 2867 \cr
+   Total \tab 7053 \tab 2500 \tab 1870 \tab 668 \tab 813 \tab 193 \tab 90 \tab 0 \tab 13187 \cr
 }
 }
 

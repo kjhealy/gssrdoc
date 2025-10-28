@@ -34,37 +34,38 @@ Question Do you believe there is a life after death?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/300/vshow}{GSS Data Explorer page for \code{postlife}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
-   1973 \tab - \tab 1051 \tab 316 \tab 137 \tab - \tab - \tab 1504 \cr
-   1975 \tab - \tab 1000 \tab 341 \tab 147 \tab 2 \tab - \tab 1490 \cr
-   1976 \tab - \tab 1073 \tab 299 \tab 126 \tab 1 \tab - \tab 1499 \cr
-   1978 \tab - \tab 1069 \tab 325 \tab 135 \tab 3 \tab - \tab 1532 \cr
-   1980 \tab - \tab 1071 \tab 247 \tab 144 \tab 6 \tab - \tab 1468 \cr
-   1983 \tab - \tab 1086 \tab 389 \tab 120 \tab 4 \tab - \tab 1599 \cr
-   1984 \tab - \tab 1074 \tab 278 \tab 111 \tab 10 \tab - \tab 1473 \cr
-   1986 \tab - \tab 1117 \tab 246 \tab 104 \tab 3 \tab - \tab 1470 \cr
-   1987 \tab - \tab 1304 \tab 369 \tab 139 \tab 7 \tab - \tab 1819 \cr
-   1988 \tab - \tab 1089 \tab 282 \tab 109 \tab 1 \tab - \tab 1481 \cr
-   1989 \tab 531 \tab 690 \tab 218 \tab 97 \tab 1 \tab - \tab 1537 \cr
-   1990 \tab 444 \tab 643 \tab 178 \tab 98 \tab 9 \tab - \tab 1372 \cr
-   1991 \tab 493 \tab 732 \tab 177 \tab 110 \tab 5 \tab - \tab 1517 \cr
-   1993 \tab 526 \tab 780 \tab 185 \tab 111 \tab 4 \tab - \tab 1606 \cr
-   1994 \tab 1015 \tab 1425 \tab 327 \tab 206 \tab 19 \tab - \tab 2992 \cr
-   1996 \tab 944 \tab 1429 \tab 308 \tab 190 \tab 33 \tab - \tab 2904 \cr
-   1998 \tab 463 \tab 1687 \tab 379 \tab 281 \tab 22 \tab - \tab 2832 \cr
-   2000 \tab 486 \tab 1687 \tab 377 \tab 244 \tab 23 \tab - \tab 2817 \cr
-   2002 \tab 1393 \tab 975 \tab 236 \tab 151 \tab 10 \tab - \tab 2765 \cr
-   2004 \tab 1472 \tab 958 \tab 213 \tab 166 \tab 3 \tab - \tab 2812 \cr
-   2006 \tab 1518 \tab 2177 \tab 452 \tab 356 \tab 7 \tab - \tab 4510 \cr
-   2008 \tab - \tab 1455 \tab 332 \tab 231 \tab 5 \tab - \tab 2023 \cr
-   2010 \tab - \tab 1462 \tab 341 \tab 235 \tab 6 \tab - \tab 2044 \cr
-   2012 \tab - \tab 1427 \tab 340 \tab 200 \tab 7 \tab - \tab 1974 \cr
-   2014 \tab - \tab 1783 \tab 459 \tab 291 \tab 5 \tab - \tab 2538 \cr
-   2016 \tab - \tab 2089 \tab 499 \tab 271 \tab 8 \tab - \tab 2867 \cr
-   2018 \tab - \tab 1720 \tab 403 \tab 216 \tab 9 \tab - \tab 2348 \cr
-   2022 \tab 1704 \tab 1284 \tab 295 \tab 256 \tab 5 \tab - \tab 3544 \cr
-   Total \tab 10989 \tab 35337 \tab 8811 \tab 4982 \tab 218 \tab 0 \tab 60337 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1973 \tab - \tab 1051 \tab 316 \tab 137 \tab - \tab - \tab - \tab 1504 \cr
+   1975 \tab - \tab 1000 \tab 341 \tab 147 \tab 2 \tab - \tab - \tab 1490 \cr
+   1976 \tab - \tab 1073 \tab 299 \tab 126 \tab 1 \tab - \tab - \tab 1499 \cr
+   1978 \tab - \tab 1069 \tab 325 \tab 135 \tab 3 \tab - \tab - \tab 1532 \cr
+   1980 \tab - \tab 1071 \tab 247 \tab 144 \tab 6 \tab - \tab - \tab 1468 \cr
+   1983 \tab - \tab 1086 \tab 389 \tab 120 \tab 4 \tab - \tab - \tab 1599 \cr
+   1984 \tab - \tab 1074 \tab 278 \tab 111 \tab 10 \tab - \tab - \tab 1473 \cr
+   1986 \tab - \tab 1117 \tab 246 \tab 104 \tab 3 \tab - \tab - \tab 1470 \cr
+   1987 \tab - \tab 1304 \tab 369 \tab 139 \tab 7 \tab - \tab - \tab 1819 \cr
+   1988 \tab - \tab 1089 \tab 282 \tab 109 \tab 1 \tab - \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 690 \tab 218 \tab 97 \tab 1 \tab - \tab - \tab 1537 \cr
+   1990 \tab 444 \tab 643 \tab 178 \tab 98 \tab 9 \tab - \tab - \tab 1372 \cr
+   1991 \tab 493 \tab 732 \tab 177 \tab 110 \tab 5 \tab - \tab - \tab 1517 \cr
+   1993 \tab 526 \tab 780 \tab 185 \tab 111 \tab 4 \tab - \tab - \tab 1606 \cr
+   1994 \tab 1015 \tab 1425 \tab 327 \tab 206 \tab 19 \tab - \tab - \tab 2992 \cr
+   1996 \tab 944 \tab 1429 \tab 308 \tab 190 \tab 33 \tab - \tab - \tab 2904 \cr
+   1998 \tab 463 \tab 1687 \tab 379 \tab 281 \tab 22 \tab - \tab - \tab 2832 \cr
+   2000 \tab 486 \tab 1687 \tab 377 \tab 244 \tab 23 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1393 \tab 975 \tab 236 \tab 151 \tab 10 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1472 \tab 958 \tab 213 \tab 166 \tab 3 \tab - \tab - \tab 2812 \cr
+   2006 \tab 1518 \tab 2177 \tab 452 \tab 356 \tab 7 \tab - \tab - \tab 4510 \cr
+   2008 \tab - \tab 1455 \tab 332 \tab 231 \tab 5 \tab - \tab - \tab 2023 \cr
+   2010 \tab - \tab 1462 \tab 341 \tab 235 \tab 6 \tab - \tab - \tab 2044 \cr
+   2012 \tab - \tab 1427 \tab 340 \tab 200 \tab 7 \tab - \tab - \tab 1974 \cr
+   2014 \tab - \tab 1783 \tab 459 \tab 291 \tab 5 \tab - \tab - \tab 2538 \cr
+   2016 \tab - \tab 2089 \tab 499 \tab 271 \tab 8 \tab - \tab - \tab 2867 \cr
+   2018 \tab - \tab 1720 \tab 403 \tab 216 \tab 9 \tab - \tab - \tab 2348 \cr
+   2022 \tab 1704 \tab 1284 \tab 295 \tab 256 \tab 5 \tab - \tab - \tab 3544 \cr
+   2024 \tab 1823 \tab 1063 \tab 220 \tab 196 \tab 6 \tab - \tab 1 \tab 3309 \cr
+   Total \tab 12812 \tab 36400 \tab 9031 \tab 5178 \tab 224 \tab 0 \tab 1 \tab 63646 \cr
 }
 }
 

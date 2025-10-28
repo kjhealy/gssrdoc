@@ -35,10 +35,10 @@ E. To work closely with (NAME) on a job?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3756/vshow}{GSS Data Explorer page for \code{mhwkwith}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 310 \tab 601 \tab 342 \tab 142 \tab 24 \tab 6 \tab 4510 \cr
-   Total \tab 3085 \tab 310 \tab 601 \tab 342 \tab 142 \tab 24 \tab 6 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 310 \tab 601 \tab 342 \tab 142 \tab 24 \tab 6 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 310 \tab 601 \tab 342 \tab 142 \tab 24 \tab 6 \tab 0 \tab 4510 \cr
 }
 }
 

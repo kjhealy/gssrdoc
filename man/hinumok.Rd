@@ -36,12 +36,12 @@ in the armed forces?  RECORD UNDER "D" BELOW.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/784/vshow}{GSS Data Explorer page for \code{hinumok}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab too many \tab about right number \tab should be more \tab don't know \tab no answer \tab Total \cr
-   1982 \tab 937 \tab 56 \tab 452 \tab 252 \tab 151 \tab 12 \tab 1860 \cr
-   1983 \tab - \tab 94 \tab 844 \tab 413 \tab 240 \tab 8 \tab 1599 \cr
-   1984 \tab - \tab 59 \tab 779 \tab 422 \tab 177 \tab 36 \tab 1473 \cr
-   Total \tab 937 \tab 209 \tab 2075 \tab 1087 \tab 568 \tab 56 \tab 4932 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too many \tab about right number \tab should be more \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab 937 \tab 56 \tab 452 \tab 252 \tab 151 \tab 12 \tab - \tab 1860 \cr
+   1983 \tab - \tab 94 \tab 844 \tab 413 \tab 240 \tab 8 \tab - \tab 1599 \cr
+   1984 \tab - \tab 59 \tab 779 \tab 422 \tab 177 \tab 36 \tab - \tab 1473 \cr
+   Total \tab 937 \tab 209 \tab 2075 \tab 1087 \tab 568 \tab 56 \tab 0 \tab 4932 \cr
 }
 }
 

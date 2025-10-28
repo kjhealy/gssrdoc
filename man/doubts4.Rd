@@ -34,10 +34,10 @@ D. Feeling that life really has no meaning
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1098/vshow}{GSS Data Explorer page for \code{doubts4}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
-   1988 \tab - \tab 53 \tab 269 \tab 1108 \tab 32 \tab 19 \tab 1481 \cr
-   Total \tab 0 \tab 53 \tab 269 \tab 1108 \tab 32 \tab 19 \tab 1481 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 53 \tab 269 \tab 1108 \tab 32 \tab 19 \tab - \tab 1481 \cr
+   Total \tab 0 \tab 53 \tab 269 \tab 1108 \tab 32 \tab 19 \tab 0 \tab 1481 \cr
 }
 }
 

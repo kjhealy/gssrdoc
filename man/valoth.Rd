@@ -32,10 +32,10 @@ O. Other (SPECIFY)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1974/vshow}{GSS Data Explorer page for \code{valoth}}.
 
-Counts by year:\tabular{lllllllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 10 \tab 100 \tab 120 \tab 14000 \tab 15 \tab 150 \tab 20 \tab 200 \tab 25 \tab 300 \tab 35 \tab 45 \tab 5 \tab 50 \tab 500 \tab 65 \tab 75 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2807 \tab 39 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 5 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 4 \tab 1 \tab 1 \tab 3 \tab 24 \tab 2904 \cr
-   Total \tab 2807 \tab 39 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 5 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 4 \tab 1 \tab 1 \tab 3 \tab 24 \tab 2904 \cr
+Counts by year:\tabular{llllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 100 \tab 120 \tab 14000 \tab 15 \tab 150 \tab 20 \tab 200 \tab 25 \tab 300 \tab 35 \tab 45 \tab 5 \tab 50 \tab 500 \tab 65 \tab 75 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2807 \tab 39 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 5 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 4 \tab 1 \tab 1 \tab 3 \tab 24 \tab - \tab 2904 \cr
+   Total \tab 2807 \tab 39 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 5 \tab 4 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 4 \tab 4 \tab 1 \tab 1 \tab 3 \tab 24 \tab 0 \tab 2904 \cr
 }
 }
 

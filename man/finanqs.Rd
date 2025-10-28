@@ -37,11 +37,11 @@ D. Regular questions about financial assets and liabilities
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5246/vshow}{GSS Data Explorer page for \code{finanqs}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 175 \tab 513 \tab 231 \tab 341 \tab 69 \tab 44 \tab 14 \tab 2832 \cr
-   2000 \tab 1398 \tab 193 \tab 462 \tab 347 \tab 307 \tab 60 \tab 32 \tab 18 \tab 2817 \cr
-   Total \tab 2843 \tab 368 \tab 975 \tab 578 \tab 648 \tab 129 \tab 76 \tab 32 \tab 5649 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 175 \tab 513 \tab 231 \tab 341 \tab 69 \tab 44 \tab 14 \tab - \tab 2832 \cr
+   2000 \tab 1398 \tab 193 \tab 462 \tab 347 \tab 307 \tab 60 \tab 32 \tab 18 \tab - \tab 2817 \cr
+   Total \tab 2843 \tab 368 \tab 975 \tab 578 \tab 648 \tab 129 \tab 76 \tab 32 \tab 0 \tab 5649 \cr
 }
 }
 

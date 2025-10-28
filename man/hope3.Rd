@@ -40,10 +40,10 @@ There are lots of ways around any problem that I am facing now.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6205/vshow}{GSS Data Explorer page for \code{hope3}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab definitely false \tab mostly false \tab somewhat false \tab slightly false \tab slightly true \tab somewhat true \tab mostly true \tab definitely true \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1409 \tab 20 \tab 36 \tab 38 \tab 52 \tab 191 \tab 347 \tab 472 \tab 286 \tab 4 \tab 12 \tab 2867 \cr
-   Total \tab 1409 \tab 20 \tab 36 \tab 38 \tab 52 \tab 191 \tab 347 \tab 472 \tab 286 \tab 4 \tab 12 \tab 2867 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab definitely false \tab mostly false \tab somewhat false \tab slightly false \tab slightly true \tab somewhat true \tab mostly true \tab definitely true \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1409 \tab 20 \tab 36 \tab 38 \tab 52 \tab 191 \tab 347 \tab 472 \tab 286 \tab 4 \tab 12 \tab - \tab 2867 \cr
+   Total \tab 1409 \tab 20 \tab 36 \tab 38 \tab 52 \tab 191 \tab 347 \tab 472 \tab 286 \tab 4 \tab 12 \tab 0 \tab 2867 \cr
 }
 }
 

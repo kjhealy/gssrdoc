@@ -33,10 +33,10 @@ Question Please indicate which of the following statements comes closer to descr
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3045/vshow}{GSS Data Explorer page for \code{owndoing}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab i have little influence over things that happens to me \tab what happens to me is largely my own doing \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 432 \tab 341 \tab 2008 \tab 17 \tab 14 \tab 2812 \cr
-   Total \tab 432 \tab 341 \tab 2008 \tab 17 \tab 14 \tab 2812 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab i have little influence over things that happens to me \tab what happens to me is largely my own doing \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 432 \tab 341 \tab 2008 \tab 17 \tab 14 \tab - \tab 2812 \cr
+   Total \tab 432 \tab 341 \tab 2008 \tab 17 \tab 14 \tab 0 \tab 2812 \cr
 }
 }
 

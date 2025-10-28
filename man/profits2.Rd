@@ -36,10 +36,10 @@ B. Corporations should pay more of their profits to workers and less to sharehol
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1264/vshow}{GSS Data Explorer page for \code{profits2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1991 \tab - \tab 248 \tab 895 \tab 255 \tab 18 \tab 94 \tab 7 \tab 1517 \cr
-   Total \tab 0 \tab 248 \tab 895 \tab 255 \tab 18 \tab 94 \tab 7 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab - \tab 248 \tab 895 \tab 255 \tab 18 \tab 94 \tab 7 \tab - \tab 1517 \cr
+   Total \tab 0 \tab 248 \tab 895 \tab 255 \tab 18 \tab 94 \tab 7 \tab 0 \tab 1517 \cr
 }
 }
 

@@ -36,16 +36,16 @@ Question Would you say that astrology is very scientific, sort of scientific, or
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3324/vshow}{GSS Data Explorer page for \code{astrosci}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very scientific \tab sort of scientific \tab not at all scientific \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 89 \tab 494 \tab 1210 \tab 71 \tab - \tab 4510 \cr
-   2008 \tab 518 \tab 74 \tab 434 \tab 935 \tab 59 \tab 3 \tab 2023 \cr
-   2010 \tab 1353 \tab 39 \tab 192 \tab 432 \tab 25 \tab 3 \tab 2044 \cr
-   2012 \tab 972 \tab 101 \tab 330 \tab 522 \tab 42 \tab 7 \tab 1974 \cr
-   2014 \tab 1299 \tab 82 \tab 313 \tab 818 \tab 23 \tab 3 \tab 2538 \cr
-   2016 \tab 1477 \tab 109 \tab 404 \tab 835 \tab 38 \tab 4 \tab 2867 \cr
-   2018 \tab 1173 \tab 77 \tab 383 \tab 680 \tab 32 \tab 3 \tab 2348 \cr
-   Total \tab 9438 \tab 571 \tab 2550 \tab 5432 \tab 290 \tab 23 \tab 18304 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very scientific \tab sort of scientific \tab not at all scientific \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 89 \tab 494 \tab 1210 \tab 71 \tab - \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 74 \tab 434 \tab 935 \tab 59 \tab 3 \tab - \tab 2023 \cr
+   2010 \tab 1353 \tab 39 \tab 192 \tab 432 \tab 25 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 101 \tab 330 \tab 522 \tab 42 \tab 7 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 82 \tab 313 \tab 818 \tab 23 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 109 \tab 404 \tab 835 \tab 38 \tab 4 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 77 \tab 383 \tab 680 \tab 32 \tab 3 \tab - \tab 2348 \cr
+   Total \tab 9438 \tab 571 \tab 2550 \tab 5432 \tab 290 \tab 23 \tab 0 \tab 18304 \cr
 }
 }
 

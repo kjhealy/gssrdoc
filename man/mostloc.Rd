@@ -35,11 +35,11 @@ Question Which location do you use the most?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2584/vshow}{GSS Data Explorer page for \code{mostloc}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab school \tab library \tab friends house \tab other \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2727 \tab 23 \tab 10 \tab 19 \tab 7 \tab 31 \tab - \tab 2817 \cr
-   2002 \tab 2662 \tab 30 \tab 26 \tab 31 \tab 12 \tab 3 \tab 1 \tab 2765 \cr
-   Total \tab 5389 \tab 53 \tab 36 \tab 50 \tab 19 \tab 34 \tab 1 \tab 5582 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab school \tab library \tab friends house \tab other \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2727 \tab 23 \tab 10 \tab 19 \tab 7 \tab 31 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2662 \tab 30 \tab 26 \tab 31 \tab 12 \tab 3 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 5389 \tab 53 \tab 36 \tab 50 \tab 19 \tab 34 \tab 1 \tab 0 \tab 5582 \cr
 }
 }
 

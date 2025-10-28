@@ -36,10 +36,10 @@ C. Someone who really understands me
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4227/vshow}{GSS Data Explorer page for \code{frdknows}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab extremely important \tab very important \tab fairly important \tab not too important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1616 \tab 411 \tab 446 \tab 206 \tab 57 \tab 19 \tab 2 \tab 8 \tab 2765 \cr
-   Total \tab 1616 \tab 411 \tab 446 \tab 206 \tab 57 \tab 19 \tab 2 \tab 8 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab extremely important \tab very important \tab fairly important \tab not too important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1616 \tab 411 \tab 446 \tab 206 \tab 57 \tab 19 \tab 2 \tab 8 \tab - \tab 2765 \cr
+   Total \tab 1616 \tab 411 \tab 446 \tab 206 \tab 57 \tab 19 \tab 2 \tab 8 \tab 0 \tab 2765 \cr
 }
 }
 

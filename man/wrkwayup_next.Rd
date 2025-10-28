@@ -37,10 +37,10 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7892/vshow}{GSS Data Explorer page for \code{wrkwayup_next}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab agree strongly \tab agree somewhat \tab neither agree nor disagree \tab disagree somewhat \tab disagree strongly \tab skipped on web \tab Total \cr
-   2022 \tab 2309 \tab 276 \tab 269 \tab 223 \tab 207 \tab 259 \tab 1 \tab 3544 \cr
-   Total \tab 2309 \tab 276 \tab 269 \tab 223 \tab 207 \tab 259 \tab 1 \tab 3544 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab not available in this year \tab agree strongly \tab agree somewhat \tab neither agree nor disagree \tab disagree somewhat \tab disagree strongly \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 276 \tab 269 \tab 223 \tab 207 \tab 259 \tab 2309 \tab 1 \tab 3544 \cr
+   Total \tab 0 \tab 276 \tab 269 \tab 223 \tab 207 \tab 259 \tab 2309 \tab 1 \tab 3544 \cr
 }
 }
 

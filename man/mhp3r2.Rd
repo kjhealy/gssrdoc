@@ -46,10 +46,10 @@ Question (If present) Second relationship with third person.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7105/vshow}{GSS Data Explorer page for \code{mhp3r2}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab member of religious community \tab student/classmate \tab no answer \tab Total \cr
-   2018 \tab 2095 \tab 1 \tab 1 \tab 251 \tab 2348 \cr
-   Total \tab 2095 \tab 1 \tab 1 \tab 251 \tab 2348 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab member of religious community \tab student/classmate \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 2095 \tab 1 \tab 1 \tab 251 \tab - \tab 2348 \cr
+   Total \tab 2095 \tab 1 \tab 1 \tab 251 \tab 0 \tab 2348 \cr
 }
 }
 

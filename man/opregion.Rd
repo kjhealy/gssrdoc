@@ -36,10 +36,10 @@ K. The part of the country a person comes from?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4251/vshow}{GSS Data Explorer page for \code{opregion}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1987 \tab 255 \tab 30 \tab 104 \tab 235 \tab 575 \tab 566 \tab 38 \tab 16 \tab 1819 \cr
-   Total \tab 255 \tab 30 \tab 104 \tab 235 \tab 575 \tab 566 \tab 38 \tab 16 \tab 1819 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 30 \tab 104 \tab 235 \tab 575 \tab 566 \tab 38 \tab 16 \tab - \tab 1819 \cr
+   Total \tab 255 \tab 30 \tab 104 \tab 235 \tab 575 \tab 566 \tab 38 \tab 16 \tab 0 \tab 1819 \cr
 }
 }
 

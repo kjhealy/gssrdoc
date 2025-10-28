@@ -30,10 +30,10 @@ Question How many rooms are there in your home (apartment or house)? Do not coun
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7500/vshow}{GSS Data Explorer page for \code{numrooms}}.
 
-Counts by year:\tabular{llllllllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 18 \tab 2 \tab 20 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2003 \tab 3 \tab 83 \tab 63 \tab 24 \tab 28 \tab 10 \tab 9 \tab 3 \tab 3 \tab 1 \tab 189 \tab 1 \tab 270 \tab 221 \tab 259 \tab 235 \tab 165 \tab 156 \tab 89 \tab 192 \tab 25 \tab 4032 \cr
-   Total \tab 2003 \tab 3 \tab 83 \tab 63 \tab 24 \tab 28 \tab 10 \tab 9 \tab 3 \tab 3 \tab 1 \tab 189 \tab 1 \tab 270 \tab 221 \tab 259 \tab 235 \tab 165 \tab 156 \tab 89 \tab 192 \tab 25 \tab 4032 \cr
+Counts by year:\tabular{lllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 18 \tab 2 \tab 20 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2003 \tab 3 \tab 83 \tab 63 \tab 24 \tab 28 \tab 10 \tab 9 \tab 3 \tab 3 \tab 1 \tab 189 \tab 1 \tab 270 \tab 221 \tab 259 \tab 235 \tab 165 \tab 156 \tab 89 \tab 192 \tab 25 \tab - \tab 4032 \cr
+   Total \tab 2003 \tab 3 \tab 83 \tab 63 \tab 24 \tab 28 \tab 10 \tab 9 \tab 3 \tab 3 \tab 1 \tab 189 \tab 1 \tab 270 \tab 221 \tab 259 \tab 235 \tab 165 \tab 156 \tab 89 \tab 192 \tab 25 \tab 0 \tab 4032 \cr
 }
 }
 

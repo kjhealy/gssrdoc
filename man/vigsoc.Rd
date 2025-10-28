@@ -37,12 +37,13 @@ B. To spend an evening socializing with NAME?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2004/vshow}{GSS Data Explorer page for \code{vigsoc}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 212 \tab 540 \tab 344 \tab 295 \tab 31 \tab 22 \tab 2904 \cr
-   2006 \tab 3073 \tab 240 \tab 609 \tab 362 \tab 173 \tab 38 \tab 15 \tab 4510 \cr
-   2018 \tab 1175 \tab 201 \tab 508 \tab 266 \tab 151 \tab 16 \tab 31 \tab 2348 \cr
-   Total \tab 5708 \tab 653 \tab 1657 \tab 972 \tab 619 \tab 85 \tab 68 \tab 9762 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 212 \tab 540 \tab 344 \tab 295 \tab 31 \tab 22 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 240 \tab 609 \tab 362 \tab 173 \tab 38 \tab 15 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 201 \tab 508 \tab 266 \tab 151 \tab 16 \tab 31 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1691 \tab 225 \tab 679 \tab 441 \tab 216 \tab 21 \tab 10 \tab - \tab 26 \tab 3309 \cr
+   Total \tab 7399 \tab 878 \tab 2336 \tab 1413 \tab 835 \tab 106 \tab 78 \tab 0 \tab 26 \tab 13071 \cr
 }
 }
 

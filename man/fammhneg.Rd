@@ -35,10 +35,11 @@ Question Thinking about your family, to what extent do they hold negative attitu
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7145/vshow}{GSS Data Explorer page for \code{fammhneg}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very much \tab somewhat \tab not very much \tab not at all \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 31 \tab 192 \tab 390 \tab 477 \tab 31 \tab 52 \tab 2348 \cr
-   Total \tab 1175 \tab 31 \tab 192 \tab 390 \tab 477 \tab 31 \tab 52 \tab 2348 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very much \tab somewhat \tab not very much \tab not at all \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2018 \tab 1175 \tab 31 \tab 192 \tab 390 \tab 477 \tab 31 \tab 52 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1693 \tab 116 \tab 370 \tab 572 \tab 496 \tab 32 \tab 9 \tab - \tab 21 \tab 3309 \cr
+   Total \tab 2868 \tab 147 \tab 562 \tab 962 \tab 973 \tab 63 \tab 61 \tab 0 \tab 21 \tab 5657 \cr
 }
 }
 

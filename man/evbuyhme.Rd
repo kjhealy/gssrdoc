@@ -32,10 +32,10 @@ Question Have you ever purchased a home (including a condominium or mobile home)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1812/vshow}{GSS Data Explorer page for \code{evbuyhme}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   1996 \tab 2196 \tab 453 \tab 255 \tab 2904 \cr
-   Total \tab 2196 \tab 453 \tab 255 \tab 2904 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab not available in this year \tab Total \cr
+   1996 \tab 2196 \tab 453 \tab 255 \tab - \tab 2904 \cr
+   Total \tab 2196 \tab 453 \tab 255 \tab 0 \tab 2904 \cr
 }
 }
 

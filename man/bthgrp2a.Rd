@@ -46,10 +46,10 @@ Question What are the groups you both belong to? Circle all that apply.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5521/vshow}{GSS Data Explorer page for \code{bthgrp2a}}.
 
-Counts by year:\tabular{llllllllllllllllllll}{
-   year \tab iap \tab fraternal groups \tab service clubs \tab veterans groups \tab political clubs \tab labor unions \tab sports groups \tab youth groups \tab school service groups \tab hobby or garden clubs \tab nationality groups \tab farm organizations \tab literary art discussion or study grps \tab professional or academic societies \tab church-affiliated groups \tab other groups \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2698 \tab 2 \tab 5 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 6 \tab 2 \tab 1 \tab 5 \tab 3 \tab 28 \tab 5 \tab 1 \tab 48 \tab 2812 \cr
-   Total \tab 2698 \tab 2 \tab 5 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 6 \tab 2 \tab 1 \tab 5 \tab 3 \tab 28 \tab 5 \tab 1 \tab 48 \tab 2812 \cr
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab fraternal groups \tab service clubs \tab veterans groups \tab political clubs \tab labor unions \tab sports groups \tab youth groups \tab school service groups \tab hobby or garden clubs \tab nationality groups \tab farm organizations \tab literary art discussion or study grps \tab professional or academic societies \tab church-affiliated groups \tab other groups \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2698 \tab 2 \tab 5 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 6 \tab 2 \tab 1 \tab 5 \tab 3 \tab 28 \tab 5 \tab 1 \tab 48 \tab - \tab 2812 \cr
+   Total \tab 2698 \tab 2 \tab 5 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 1 \tab 6 \tab 2 \tab 1 \tab 5 \tab 3 \tab 28 \tab 5 \tab 1 \tab 48 \tab 0 \tab 2812 \cr
 }
 }
 

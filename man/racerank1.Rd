@@ -46,10 +46,11 @@ Question If you had to choose, which of these races do you identify most with?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7751/vshow}{GSS Data Explorer page for \code{racerank1}}.
 
-Counts by year:\tabular{lllllllllllllllllllll}{
-   year \tab iap \tab white \tab black or african-american \tab american indian or alaska native \tab asian indian \tab chinese \tab filipino \tab japanese \tab korean \tab vietnamese \tab other asian \tab guamanian or chamorro \tab samoan \tab other pacific islander \tab some other race \tab hispanic \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 23 \tab 2514 \tab 565 \tab 63 \tab 36 \tab 26 \tab 25 \tab 8 \tab 11 \tab 9 \tab 16 \tab 1 \tab 2 \tab 3 \tab 66 \tab 146 \tab 9 \tab 19 \tab 2 \tab 3544 \cr
-   Total \tab 23 \tab 2514 \tab 565 \tab 63 \tab 36 \tab 26 \tab 25 \tab 8 \tab 11 \tab 9 \tab 16 \tab 1 \tab 2 \tab 3 \tab 66 \tab 146 \tab 9 \tab 19 \tab 2 \tab 3544 \cr
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab not available in this year \tab white \tab black or african-american \tab american indian or alaska native \tab asian indian \tab chinese \tab filipino \tab japanese \tab korean \tab vietnamese \tab other asian \tab guamanian or chamorro \tab samoan \tab other pacific islander \tab some other race \tab hispanic \tab don't know \tab iap \tab no answer \tab skipped on web \tab native hawaiian \tab Total \cr
+   2022 \tab - \tab 2514 \tab 565 \tab 63 \tab 36 \tab 26 \tab 25 \tab 8 \tab 11 \tab 9 \tab 16 \tab 1 \tab 2 \tab 3 \tab 66 \tab 146 \tab 9 \tab 23 \tab 19 \tab 2 \tab - \tab 3544 \cr
+   2024 \tab - \tab 2280 \tab 572 \tab 47 \tab 42 \tab 35 \tab 26 \tab 12 \tab 5 \tab 5 \tab 24 \tab 2 \tab 3 \tab 3 \tab 36 \tab 149 \tab 8 \tab 27 \tab 26 \tab 4 \tab 3 \tab 3309 \cr
+   Total \tab 0 \tab 4794 \tab 1137 \tab 110 \tab 78 \tab 61 \tab 51 \tab 20 \tab 16 \tab 14 \tab 40 \tab 3 \tab 5 \tab 6 \tab 102 \tab 295 \tab 17 \tab 50 \tab 45 \tab 6 \tab 3 \tab 6853 \cr
 }
 }
 

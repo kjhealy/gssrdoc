@@ -33,11 +33,11 @@ A. Do you understand what the Equal Rights Amendment means?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/708/vshow}{GSS Data Explorer page for \code{erameans}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1977 \tab 209 \tab 1060 \tab 239 \tab 22 \tab - \tab 1530 \cr
-   1982 \tab 183 \tab 1405 \tab 230 \tab 35 \tab 7 \tab 1860 \cr
-   Total \tab 392 \tab 2465 \tab 469 \tab 57 \tab 7 \tab 3390 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1977 \tab 209 \tab 1060 \tab 239 \tab 22 \tab - \tab - \tab 1530 \cr
+   1982 \tab 183 \tab 1405 \tab 230 \tab 35 \tab 7 \tab - \tab 1860 \cr
+   Total \tab 392 \tab 2465 \tab 469 \tab 57 \tab 7 \tab 0 \tab 3390 \cr
 }
 }
 

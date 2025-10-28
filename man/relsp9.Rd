@@ -55,7 +55,7 @@ I. Relationship of ninth person to spouse?
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5461/vshow}{GSS Data Explorer page for \code{relsp9}}.
 
 Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab child, not specified \tab grandchild, great-grandchild \tab son-in-law, daughter-in-law \tab niece or nephew \tab natural/biological child \tab adopted child \tab stepchild \tab no answer \tab friend \tab don't know \tab sibling-in-law \tab not available in this release \tab Total \cr
+   year \tab iap \tab child, not specified \tab grandchild, great-grandchild \tab son-in-law, daughter-in-law \tab niece or nephew \tab natural/biological child \tab adopted child \tab stepchild \tab no answer \tab friend \tab don't know \tab sibling-in-law \tab not available in this year \tab Total \cr
    2000 \tab 2806 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab - \tab - \tab - \tab - \tab 2817 \cr
    2002 \tab 2763 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 2765 \cr
    2004 \tab 2810 \tab - \tab - \tab - \tab - \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2812 \cr
@@ -66,8 +66,8 @@ Counts by year:\tabular{lllllllllllllll}{
    2014 \tab 2533 \tab 3 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
    2016 \tab 2859 \tab 4 \tab - \tab - \tab - \tab 3 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
    2018 \tab 2343 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   Total \tab 26649 \tab 12 \tab 7 \tab 3 \tab 4 \tab 10 \tab 3 \tab 2 \tab 5 \tab 1 \tab 1 \tab 1 \tab 4032 \tab 30730 \cr
+   2021 \tab 4029 \tab - \tab 1 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 4032 \cr
+   Total \tab 30678 \tab 12 \tab 8 \tab 3 \tab 4 \tab 11 \tab 3 \tab 2 \tab 5 \tab 1 \tab 1 \tab 2 \tab 0 \tab 30730 \cr
 }
 }
 

@@ -38,10 +38,10 @@ E. Decides what to have for dinner.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4422/vshow}{GSS Data Explorer page for \code{dinner}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab always the woman \tab usually the woman \tab about equal or both together \tab usually the man \tab always the man \tab is done by a third person \tab not married \tab can't choose \tab no answer \tab Total \cr
-   1994 \tab 1545 \tab 156 \tab 289 \tab 319 \tab 38 \tab 8 \tab 2 \tab 603 \tab 2 \tab 30 \tab 2992 \cr
-   Total \tab 1545 \tab 156 \tab 289 \tab 319 \tab 38 \tab 8 \tab 2 \tab 603 \tab 2 \tab 30 \tab 2992 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab always the woman \tab usually the woman \tab about equal or both together \tab usually the man \tab always the man \tab is done by a third person \tab not married \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1545 \tab 156 \tab 289 \tab 319 \tab 38 \tab 8 \tab 2 \tab 603 \tab 2 \tab 30 \tab - \tab 2992 \cr
+   Total \tab 1545 \tab 156 \tab 289 \tab 319 \tab 38 \tab 8 \tab 2 \tab 603 \tab 2 \tab 30 \tab 0 \tab 2992 \cr
 }
 }
 

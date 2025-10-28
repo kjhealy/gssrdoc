@@ -37,11 +37,11 @@ A. Buy better health care than people with lower incomes
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4326/vshow}{GSS Data Explorer page for \code{richhlth}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab very just, definitely right \tab somewhat just, right \tab neither just nor unjust, mixed feelings \tab somewhat unjust, wrong \tab very unjust, definitely wrong \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2000 \tab 1545 \tab 165 \tab 170 \tab 264 \tab 249 \tab 340 \tab 35 \tab 49 \tab - \tab 2817 \cr
-   2021 \tab 2029 \tab 121 \tab 191 \tab 452 \tab 421 \tab 586 \tab 73 \tab 144 \tab 15 \tab 4032 \cr
-   Total \tab 3574 \tab 286 \tab 361 \tab 716 \tab 670 \tab 926 \tab 108 \tab 193 \tab 15 \tab 6849 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab very just, definitely right \tab somewhat just, right \tab neither just nor unjust, mixed feelings \tab somewhat unjust, wrong \tab very unjust, definitely wrong \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2000 \tab 1545 \tab 165 \tab 170 \tab 264 \tab 249 \tab 340 \tab 35 \tab 49 \tab - \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 121 \tab 191 \tab 452 \tab 421 \tab 586 \tab 73 \tab 144 \tab 15 \tab - \tab 4032 \cr
+   Total \tab 3574 \tab 286 \tab 361 \tab 716 \tab 670 \tab 926 \tab 108 \tab 193 \tab 15 \tab 0 \tab 6849 \cr
 }
 }
 

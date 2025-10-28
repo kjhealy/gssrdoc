@@ -31,10 +31,10 @@ Question M. How many years have you been a member of
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3196/vshow}{GSS Data Explorer page for \code{yrlit2}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab 1 \tab 10 \tab 2 \tab 22 \tab 3 \tab 5 \tab 54 \tab no answer \tab Total \cr
-   2004 \tab 2784 \tab 6 \tab 1 \tab 6 \tab 1 \tab 1 \tab 3 \tab 1 \tab 9 \tab 2812 \cr
-   Total \tab 2784 \tab 6 \tab 1 \tab 6 \tab 1 \tab 1 \tab 3 \tab 1 \tab 9 \tab 2812 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 1 \tab 10 \tab 2 \tab 22 \tab 3 \tab 5 \tab 54 \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2784 \tab 6 \tab 1 \tab 6 \tab 1 \tab 1 \tab 3 \tab 1 \tab 9 \tab - \tab 2812 \cr
+   Total \tab 2784 \tab 6 \tab 1 \tab 6 \tab 1 \tab 1 \tab 3 \tab 1 \tab 9 \tab 0 \tab 2812 \cr
 }
 }
 

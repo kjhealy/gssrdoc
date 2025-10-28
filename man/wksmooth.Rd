@@ -35,15 +35,15 @@ Q. The place where I work is run in a smooth and effective manner
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2790/vshow}{GSS Data Explorer page for \code{wksmooth}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2002 \tab 969 \tab 397 \tab 925 \tab 367 \tab 81 \tab 11 \tab 15 \tab - \tab 2765 \cr
-   2006 \tab 2776 \tab 364 \tab 898 \tab 354 \tab 82 \tab 22 \tab 14 \tab - \tab 4510 \cr
-   2010 \tab 857 \tab 246 \tab 679 \tab 179 \tab 46 \tab 10 \tab 27 \tab - \tab 2044 \cr
-   2014 \tab 1288 \tab 256 \tab 735 \tab 213 \tab 34 \tab 3 \tab 9 \tab - \tab 2538 \cr
-   2018 \tab 900 \tab 235 \tab 849 \tab 278 \tab 49 \tab 5 \tab 32 \tab - \tab 2348 \cr
-   2022 \tab 1549 \tab 319 \tab 1113 \tab 392 \tab 104 \tab 30 \tab 14 \tab 23 \tab 3544 \cr
-   Total \tab 8339 \tab 1817 \tab 5199 \tab 1783 \tab 396 \tab 81 \tab 111 \tab 23 \tab 17749 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2002 \tab 969 \tab 397 \tab 925 \tab 367 \tab 81 \tab 11 \tab 15 \tab - \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 364 \tab 898 \tab 354 \tab 82 \tab 22 \tab 14 \tab - \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 246 \tab 679 \tab 179 \tab 46 \tab 10 \tab 27 \tab - \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 256 \tab 735 \tab 213 \tab 34 \tab 3 \tab 9 \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 235 \tab 849 \tab 278 \tab 49 \tab 5 \tab 32 \tab - \tab - \tab 2348 \cr
+   2022 \tab 1549 \tab 319 \tab 1113 \tab 392 \tab 104 \tab 30 \tab 14 \tab 23 \tab - \tab 3544 \cr
+   Total \tab 8339 \tab 1817 \tab 5199 \tab 1783 \tab 396 \tab 81 \tab 111 \tab 23 \tab 0 \tab 17749 \cr
 }
 }
 

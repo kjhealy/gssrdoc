@@ -35,10 +35,10 @@ B. Not being able to climb several flights of stairs?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2700/vshow}{GSS Data Explorer page for \code{wait2}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab zero days \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab Total \cr
-   2000 \tab 2057 \tab 29 \tab 403 \tab 227 \tab 63 \tab 14 \tab 13 \tab 5 \tab 6 \tab 2817 \cr
-   Total \tab 2057 \tab 29 \tab 403 \tab 227 \tab 63 \tab 14 \tab 13 \tab 5 \tab 6 \tab 2817 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab zero days \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab not available in this year \tab Total \cr
+   2000 \tab 2057 \tab 29 \tab 403 \tab 227 \tab 63 \tab 14 \tab 13 \tab 5 \tab 6 \tab - \tab 2817 \cr
+   Total \tab 2057 \tab 29 \tab 403 \tab 227 \tab 63 \tab 14 \tab 13 \tab 5 \tab 6 \tab 0 \tab 2817 \cr
 }
 }
 

@@ -36,10 +36,10 @@ Q. I feel my doctor does not do everything s/he should for my medical care.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2216/vshow}{GSS Data Explorer page for \code{doc17}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab uncertain \tab disagree \tab strong disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 26 \tab 246 \tab 204 \tab 747 \tab 130 \tab 24 \tab 10 \tab 2832 \cr
-   Total \tab 1445 \tab 26 \tab 246 \tab 204 \tab 747 \tab 130 \tab 24 \tab 10 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab uncertain \tab disagree \tab strong disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 26 \tab 246 \tab 204 \tab 747 \tab 130 \tab 24 \tab 10 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 26 \tab 246 \tab 204 \tab 747 \tab 130 \tab 24 \tab 10 \tab 0 \tab 2832 \cr
 }
 }
 

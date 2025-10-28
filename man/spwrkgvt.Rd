@@ -32,10 +32,10 @@ Question (Is/Was)(s/he)  employed by the federal, state, or local government or 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4626/vshow}{GSS Data Explorer page for \code{spwrkgvt}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab government \tab private employer \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3749 \tab 139 \tab 587 \tab 20 \tab 15 \tab 4510 \cr
-   Total \tab 3749 \tab 139 \tab 587 \tab 20 \tab 15 \tab 4510 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab government \tab private employer \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3749 \tab 139 \tab 587 \tab 20 \tab 15 \tab - \tab 4510 \cr
+   Total \tab 3749 \tab 139 \tab 587 \tab 20 \tab 15 \tab 0 \tab 4510 \cr
 }
 }
 

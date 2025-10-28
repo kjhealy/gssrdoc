@@ -33,10 +33,10 @@ C. A nurse in a combat zone ...
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/791/vshow}{GSS Data Explorer page for \code{nurse}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab should \tab should not \tab don't know \tab no answer \tab Total \cr
-   1982 \tab - \tab 1676 \tab 145 \tab 28 \tab 11 \tab 1860 \cr
-   Total \tab 0 \tab 1676 \tab 145 \tab 28 \tab 11 \tab 1860 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab should \tab should not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab - \tab 1676 \tab 145 \tab 28 \tab 11 \tab - \tab 1860 \cr
+   Total \tab 0 \tab 1676 \tab 145 \tab 28 \tab 11 \tab 0 \tab 1860 \cr
 }
 }
 

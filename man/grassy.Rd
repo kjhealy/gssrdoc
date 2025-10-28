@@ -33,10 +33,10 @@ Other people think marijuana use should not be made legal. Which do you favor?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/286/vshow}{GSS Data Explorer page for \code{grassy}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab legal \tab not legal \tab don't know \tab no answer \tab Total \cr
-   1978 \tab 761 \tab 242 \tab 501 \tab 27 \tab 1 \tab 1532 \cr
-   Total \tab 761 \tab 242 \tab 501 \tab 27 \tab 1 \tab 1532 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab legal \tab not legal \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1978 \tab 761 \tab 242 \tab 501 \tab 27 \tab 1 \tab - \tab 1532 \cr
+   Total \tab 761 \tab 242 \tab 501 \tab 27 \tab 1 \tab 0 \tab 1532 \cr
 }
 }
 

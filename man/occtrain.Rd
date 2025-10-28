@@ -32,10 +32,10 @@ Question A. Have you gone through any specialized training in school to obtain a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2138/vshow}{GSS Data Explorer page for \code{occtrain}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1998 \tab 1455 \tab 504 \tab 739 \tab 134 \tab 2832 \cr
-   Total \tab 1455 \tab 504 \tab 739 \tab 134 \tab 2832 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1455 \tab 504 \tab 739 \tab 134 \tab - \tab 2832 \cr
+   Total \tab 1455 \tab 504 \tab 739 \tab 134 \tab 0 \tab 2832 \cr
 }
 }
 

@@ -39,12 +39,12 @@ A. Does the laundry?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4429/vshow}{GSS Data Explorer page for \code{laundry1}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab always me \tab usually me \tab about equal or both together \tab usually my spouse/partner \tab always my spouse/partner \tab is done by a third person \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2002 \tab 2058 \tab 170 \tab 140 \tab 187 \tab 151 \tab 22 \tab 10 \tab 6 \tab 21 \tab - \tab 2765 \cr
-   2012 \tab 1274 \tab 187 \tab 109 \tab 176 \tab 123 \tab 87 \tab 14 \tab 2 \tab 2 \tab - \tab 1974 \cr
-   2022 \tab 3024 \tab 91 \tab 68 \tab 184 \tab 97 \tab 66 \tab 6 \tab 6 \tab 1 \tab 1 \tab 3544 \cr
-   Total \tab 6356 \tab 448 \tab 317 \tab 547 \tab 371 \tab 175 \tab 30 \tab 14 \tab 24 \tab 1 \tab 8283 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab always me \tab usually me \tab about equal or both together \tab usually my spouse/partner \tab always my spouse/partner \tab is done by a third person \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2002 \tab 2058 \tab 170 \tab 140 \tab 187 \tab 151 \tab 22 \tab 10 \tab 6 \tab 21 \tab - \tab - \tab 2765 \cr
+   2012 \tab 1274 \tab 187 \tab 109 \tab 176 \tab 123 \tab 87 \tab 14 \tab 2 \tab 2 \tab - \tab - \tab 1974 \cr
+   2022 \tab 3024 \tab 91 \tab 68 \tab 184 \tab 97 \tab 66 \tab 6 \tab 6 \tab 1 \tab 1 \tab - \tab 3544 \cr
+   Total \tab 6356 \tab 448 \tab 317 \tab 547 \tab 371 \tab 175 \tab 30 \tab 14 \tab 24 \tab 1 \tab 0 \tab 8283 \cr
 }
 }
 

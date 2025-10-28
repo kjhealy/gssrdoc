@@ -37,10 +37,10 @@ Question How often do you see or visit this son or daughter?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4190/vshow}{GSS Data Explorer page for \code{kidvisit}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab he or she lives in the same household as i do \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab no answer \tab Total \cr
-   2002 \tab 2319 \tab 78 \tab 64 \tab 81 \tab 70 \tab 58 \tab 64 \tab 23 \tab 8 \tab 2765 \cr
-   Total \tab 2319 \tab 78 \tab 64 \tab 81 \tab 70 \tab 58 \tab 64 \tab 23 \tab 8 \tab 2765 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab he or she lives in the same household as i do \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 2319 \tab 78 \tab 64 \tab 81 \tab 70 \tab 58 \tab 64 \tab 23 \tab 8 \tab - \tab 2765 \cr
+   Total \tab 2319 \tab 78 \tab 64 \tab 81 \tab 70 \tab 58 \tab 64 \tab 23 \tab 8 \tab 0 \tab 2765 \cr
 }
 }
 

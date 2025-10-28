@@ -36,10 +36,10 @@ J. When I'm anxious, I try not to worry anyone else.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1734/vshow}{GSS Data Explorer page for \code{notworry}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree or disagree-it depends \tab disagree \tab strongly disagree \tab no answer \tab Total \cr
-   1996 \tab 2149 \tab 75 \tab 484 \tab 67 \tab 114 \tab 11 \tab 4 \tab 2904 \cr
-   Total \tab 2149 \tab 75 \tab 484 \tab 67 \tab 114 \tab 11 \tab 4 \tab 2904 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree or disagree-it depends \tab disagree \tab strongly disagree \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2149 \tab 75 \tab 484 \tab 67 \tab 114 \tab 11 \tab 4 \tab - \tab 2904 \cr
+   Total \tab 2149 \tab 75 \tab 484 \tab 67 \tab 114 \tab 11 \tab 4 \tab 0 \tab 2904 \cr
 }
 }
 

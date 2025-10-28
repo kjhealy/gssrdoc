@@ -37,10 +37,10 @@ E. A white raised in the North?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1225/vshow}{GSS Data Explorer page for \code{marno}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
-   1990 \tab 914 \tab 51 \tab 77 \tab 268 \tab 35 \tab 16 \tab 6 \tab 5 \tab 1372 \cr
-   Total \tab 914 \tab 51 \tab 77 \tab 268 \tab 35 \tab 16 \tab 6 \tab 5 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 914 \tab 51 \tab 77 \tab 268 \tab 35 \tab 16 \tab 6 \tab 5 \tab - \tab 1372 \cr
+   Total \tab 914 \tab 51 \tab 77 \tab 268 \tab 35 \tab 16 \tab 6 \tab 5 \tab 0 \tab 1372 \cr
 }
 }
 

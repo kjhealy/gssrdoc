@@ -34,10 +34,10 @@ Question Which of the following is a key factor that enables an airplane to lift
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3473/vshow}{GSS Data Explorer page for \code{lftplane}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab air pressure beneath the wing is greater than that above the wing \tab pressure within the airplane is greater than that of the outside \tab engine power is greater than that of friction \tab the plane's wing is lighter than air \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 518 \tab 799 \tab 90 \tab 345 \tab 40 \tab 211 \tab 20 \tab 2023 \cr
-   Total \tab 518 \tab 799 \tab 90 \tab 345 \tab 40 \tab 211 \tab 20 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab air pressure beneath the wing is greater than that above the wing \tab pressure within the airplane is greater than that of the outside \tab engine power is greater than that of friction \tab the plane's wing is lighter than air \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 518 \tab 799 \tab 90 \tab 345 \tab 40 \tab 211 \tab 20 \tab - \tab 2023 \cr
+   Total \tab 518 \tab 799 \tab 90 \tab 345 \tab 40 \tab 211 \tab 20 \tab 0 \tab 2023 \cr
 }
 }
 

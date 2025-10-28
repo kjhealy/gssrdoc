@@ -35,10 +35,10 @@ D. Jews?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2274/vshow}{GSS Data Explorer page for \code{contjew}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab most important contribution \tab important contribution \tab some contribution \tab little positive contribution \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 145 \tab 582 \tab 441 \tab 72 \tab 151 \tab 7 \tab 2817 \cr
-   Total \tab 1419 \tab 145 \tab 582 \tab 441 \tab 72 \tab 151 \tab 7 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab most important contribution \tab important contribution \tab some contribution \tab little positive contribution \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 145 \tab 582 \tab 441 \tab 72 \tab 151 \tab 7 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 145 \tab 582 \tab 441 \tab 72 \tab 151 \tab 7 \tab 0 \tab 2817 \cr
 }
 }
 

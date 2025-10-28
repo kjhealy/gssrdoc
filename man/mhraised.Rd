@@ -35,10 +35,10 @@ C. The way (he/she) was raised.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3744/vshow}{GSS Data Explorer page for \code{mhraised}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 70 \tab 419 \tab 482 \tab 409 \tab 39 \tab 6 \tab 4510 \cr
-   Total \tab 3085 \tab 70 \tab 419 \tab 482 \tab 409 \tab 39 \tab 6 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 70 \tab 419 \tab 482 \tab 409 \tab 39 \tab 6 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 70 \tab 419 \tab 482 \tab 409 \tab 39 \tab 6 \tab 0 \tab 4510 \cr
 }
 }
 

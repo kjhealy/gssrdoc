@@ -34,10 +34,10 @@ Question How firm are you about your opinion on the death penalty--would you say
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/271/vshow}{GSS Data Explorer page for \code{capfirm}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab change very likely \tab somewhat likely \tab somewhat unlikely \tab change very unlikely \tab don't know \tab no answer \tab Total \cr
-   1984 \tab 989 \tab 13 \tab 95 \tab 141 \tab 216 \tab 15 \tab 4 \tab 1473 \cr
-   Total \tab 989 \tab 13 \tab 95 \tab 141 \tab 216 \tab 15 \tab 4 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab change very likely \tab somewhat likely \tab somewhat unlikely \tab change very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab 989 \tab 13 \tab 95 \tab 141 \tab 216 \tab 15 \tab 4 \tab - \tab 1473 \cr
+   Total \tab 989 \tab 13 \tab 95 \tab 141 \tab 216 \tab 15 \tab 4 \tab 0 \tab 1473 \cr
 }
 }
 

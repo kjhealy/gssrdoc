@@ -36,10 +36,10 @@ E. A family with four children or more
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4379/vshow}{GSS Data Explorer page for \code{fourkids}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very desirable \tab desirable \tab neither \tab undesirable \tab very undesirable \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 154 \tab 314 \tab 335 \tab 300 \tab 156 \tab 84 \tab 71 \tab 1481 \cr
-   Total \tab 67 \tab 154 \tab 314 \tab 335 \tab 300 \tab 156 \tab 84 \tab 71 \tab 1481 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very desirable \tab desirable \tab neither \tab undesirable \tab very undesirable \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 154 \tab 314 \tab 335 \tab 300 \tab 156 \tab 84 \tab 71 \tab - \tab 1481 \cr
+   Total \tab 67 \tab 154 \tab 314 \tab 335 \tab 300 \tab 156 \tab 84 \tab 71 \tab 0 \tab 1481 \cr
 }
 }
 
@@ -47,7 +47,6 @@ Counts by year:\tabular{llllllllll}{
 Other ISSP Family & Gender Roles: 
 \code{\link{kidtrble}},
 \code{\link{mardiv}},
-\code{\link{marhomo}},
 \code{\link{nokids}},
 \code{\link{numkids}},
 \code{\link{onekid}},

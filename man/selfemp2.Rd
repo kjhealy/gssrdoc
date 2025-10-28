@@ -36,10 +36,10 @@ B. Being an employee interferes more with family life than self-employment
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4607/vshow}{GSS Data Explorer page for \code{selfemp2}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 2992 \tab 180 \tab 474 \tab 305 \tab 455 \tab 84 \tab 17 \tab 3 \tab 4510 \cr
-   Total \tab 2992 \tab 180 \tab 474 \tab 305 \tab 455 \tab 84 \tab 17 \tab 3 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2992 \tab 180 \tab 474 \tab 305 \tab 455 \tab 84 \tab 17 \tab 3 \tab - \tab 4510 \cr
+   Total \tab 2992 \tab 180 \tab 474 \tab 305 \tab 455 \tab 84 \tab 17 \tab 3 \tab 0 \tab 4510 \cr
 }
 }
 

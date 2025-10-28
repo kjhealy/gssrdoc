@@ -34,10 +34,10 @@ Question I am satisfied with my day to day experience of nature.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7188/vshow}{GSS Data Explorer page for \code{natsat}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 629 \tab 370 \tab 115 \tab 32 \tab 4 \tab 23 \tab 2348 \cr
-   Total \tab 1175 \tab 629 \tab 370 \tab 115 \tab 32 \tab 4 \tab 23 \tab 2348 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 629 \tab 370 \tab 115 \tab 32 \tab 4 \tab 23 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 629 \tab 370 \tab 115 \tab 32 \tab 4 \tab 23 \tab 0 \tab 2348 \cr
 }
 }
 

@@ -35,24 +35,24 @@ A. Did this happen to you as a child or as an adult?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/662/vshow}{GSS Data Explorer page for \code{gunage}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab child \tab adult \tab both \tab don't know \tab no answer \tab Total \cr
-   1973 \tab 1258 \tab 29 \tab 207 \tab 6 \tab 1 \tab 3 \tab 1504 \cr
-   1975 \tab 1230 \tab 32 \tab 214 \tab 7 \tab - \tab 7 \tab 1490 \cr
-   1976 \tab 1242 \tab 37 \tab 206 \tab 12 \tab 1 \tab 1 \tab 1499 \cr
-   1978 \tab 1221 \tab 44 \tab 249 \tab 17 \tab 1 \tab - \tab 1532 \cr
-   1980 \tab 1157 \tab 38 \tab 257 \tab 13 \tab - \tab 3 \tab 1468 \cr
-   1983 \tab 1272 \tab 41 \tab 267 \tab 15 \tab 1 \tab 3 \tab 1599 \cr
-   1984 \tab 1181 \tab 47 \tab 233 \tab 10 \tab - \tab 2 \tab 1473 \cr
-   1986 \tab 1174 \tab 36 \tab 245 \tab 11 \tab - \tab 4 \tab 1470 \cr
-   1987 \tab 1430 \tab 52 \tab 304 \tab 24 \tab - \tab 9 \tab 1819 \cr
-   1988 \tab 1264 \tab 32 \tab 174 \tab 8 \tab - \tab 3 \tab 1481 \cr
-   1989 \tab 1334 \tab 22 \tab 163 \tab 14 \tab - \tab 4 \tab 1537 \cr
-   1990 \tab 1192 \tab 24 \tab 148 \tab 6 \tab - \tab 2 \tab 1372 \cr
-   1991 \tab 1310 \tab 30 \tab 164 \tab 5 \tab - \tab 8 \tab 1517 \cr
-   1993 \tab 1404 \tab 29 \tab 155 \tab 17 \tab - \tab 1 \tab 1606 \cr
-   1994 \tab 2887 \tab 10 \tab 87 \tab 7 \tab - \tab 1 \tab 2992 \cr
-   Total \tab 20556 \tab 503 \tab 3073 \tab 172 \tab 4 \tab 51 \tab 24359 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab child \tab adult \tab both \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1973 \tab 1258 \tab 29 \tab 207 \tab 6 \tab 1 \tab 3 \tab - \tab 1504 \cr
+   1975 \tab 1230 \tab 32 \tab 214 \tab 7 \tab - \tab 7 \tab - \tab 1490 \cr
+   1976 \tab 1242 \tab 37 \tab 206 \tab 12 \tab 1 \tab 1 \tab - \tab 1499 \cr
+   1978 \tab 1221 \tab 44 \tab 249 \tab 17 \tab 1 \tab - \tab - \tab 1532 \cr
+   1980 \tab 1157 \tab 38 \tab 257 \tab 13 \tab - \tab 3 \tab - \tab 1468 \cr
+   1983 \tab 1272 \tab 41 \tab 267 \tab 15 \tab 1 \tab 3 \tab - \tab 1599 \cr
+   1984 \tab 1181 \tab 47 \tab 233 \tab 10 \tab - \tab 2 \tab - \tab 1473 \cr
+   1986 \tab 1174 \tab 36 \tab 245 \tab 11 \tab - \tab 4 \tab - \tab 1470 \cr
+   1987 \tab 1430 \tab 52 \tab 304 \tab 24 \tab - \tab 9 \tab - \tab 1819 \cr
+   1988 \tab 1264 \tab 32 \tab 174 \tab 8 \tab - \tab 3 \tab - \tab 1481 \cr
+   1989 \tab 1334 \tab 22 \tab 163 \tab 14 \tab - \tab 4 \tab - \tab 1537 \cr
+   1990 \tab 1192 \tab 24 \tab 148 \tab 6 \tab - \tab 2 \tab - \tab 1372 \cr
+   1991 \tab 1310 \tab 30 \tab 164 \tab 5 \tab - \tab 8 \tab - \tab 1517 \cr
+   1993 \tab 1404 \tab 29 \tab 155 \tab 17 \tab - \tab 1 \tab - \tab 1606 \cr
+   1994 \tab 2887 \tab 10 \tab 87 \tab 7 \tab - \tab 1 \tab - \tab 2992 \cr
+   Total \tab 20556 \tab 503 \tab 3073 \tab 172 \tab 4 \tab 51 \tab 0 \tab 24359 \cr
 }
 }
 

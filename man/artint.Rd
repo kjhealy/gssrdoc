@@ -32,10 +32,10 @@ Question Programs or events were not of interest.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6257/vshow}{GSS Data Explorer page for \code{artint}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab a reason \tab not a reason \tab Total \cr
-   2016 \tab 2710 \tab 13 \tab 144 \tab 2867 \cr
-   Total \tab 2710 \tab 13 \tab 144 \tab 2867 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab a reason \tab not a reason \tab not available in this year \tab Total \cr
+   2016 \tab 2710 \tab 13 \tab 144 \tab - \tab 2867 \cr
+   Total \tab 2710 \tab 13 \tab 144 \tab 0 \tab 2867 \cr
 }
 }
 

@@ -37,11 +37,12 @@ C. The U.S. would be a better country if religion had less influence.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4690/vshow}{GSS Data Explorer page for \code{religinf}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   1998 \tab 1548 \tab 51 \tab 131 \tab 321 \tab 479 \tab 209 \tab 49 \tab 44 \tab - \tab 2832 \cr
-   2021 \tab 427 \tab 514 \tab 565 \tab 1069 \tab 890 \tab 521 \tab 3 \tab 5 \tab 38 \tab 4032 \cr
-   Total \tab 1975 \tab 565 \tab 696 \tab 1390 \tab 1369 \tab 730 \tab 52 \tab 49 \tab 38 \tab 6864 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1998 \tab 1548 \tab 51 \tab 131 \tab 321 \tab 479 \tab 209 \tab 49 \tab 44 \tab - \tab - \tab 2832 \cr
+   2021 \tab 427 \tab 514 \tab 565 \tab 1069 \tab 890 \tab 521 \tab 3 \tab 5 \tab 38 \tab - \tab 4032 \cr
+   2024 \tab 1106 \tab 339 \tab 343 \tab 582 \tab 509 \tab 362 \tab 34 \tab 11 \tab 23 \tab - \tab 3309 \cr
+   Total \tab 3081 \tab 904 \tab 1039 \tab 1972 \tab 1878 \tab 1092 \tab 86 \tab 60 \tab 61 \tab 0 \tab 10173 \cr
 }
 }
 

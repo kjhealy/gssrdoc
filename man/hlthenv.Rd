@@ -35,10 +35,10 @@ Question (People suffer from severe health problems...) Because of the environme
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7802/vshow}{GSS Data Explorer page for \code{hlthenv}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2380 \tab 127 \tab 577 \tab 313 \tab 62 \tab 17 \tab 63 \tab 1 \tab 4 \tab 3544 \cr
-   Total \tab 2380 \tab 127 \tab 577 \tab 313 \tab 62 \tab 17 \tab 63 \tab 1 \tab 4 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 127 \tab 577 \tab 313 \tab 62 \tab 17 \tab 63 \tab 2380 \tab 1 \tab 4 \tab 3544 \cr
+   Total \tab 0 \tab 127 \tab 577 \tab 313 \tab 62 \tab 17 \tab 63 \tab 2380 \tab 1 \tab 4 \tab 3544 \cr
 }
 }
 

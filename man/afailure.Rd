@@ -35,10 +35,10 @@ B. All in all, I'm inclinded to feel I'm a failure.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3037/vshow}{GSS Data Explorer page for \code{afailure}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 432 \tab 55 \tab 152 \tab 964 \tab 1202 \tab 5 \tab 2 \tab 2812 \cr
-   Total \tab 432 \tab 55 \tab 152 \tab 964 \tab 1202 \tab 5 \tab 2 \tab 2812 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 432 \tab 55 \tab 152 \tab 964 \tab 1202 \tab 5 \tab 2 \tab - \tab 2812 \cr
+   Total \tab 432 \tab 55 \tab 152 \tab 964 \tab 1202 \tab 5 \tab 2 \tab 0 \tab 2812 \cr
 }
 }
 

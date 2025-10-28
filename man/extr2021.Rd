@@ -32,10 +32,10 @@ Question Did you receive any of these performance-based payments in the year 202
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7850/vshow}{GSS Data Explorer page for \code{extr2021}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2022 \tab 3222 \tab 207 \tab 103 \tab 10 \tab 2 \tab 3544 \cr
-   Total \tab 3222 \tab 207 \tab 103 \tab 10 \tab 2 \tab 3544 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab not available in this year \tab yes \tab no \tab don't know \tab iap \tab no answer \tab Total \cr
+   2022 \tab - \tab 207 \tab 103 \tab 10 \tab 3222 \tab 2 \tab 3544 \cr
+   Total \tab 0 \tab 207 \tab 103 \tab 10 \tab 3222 \tab 2 \tab 3544 \cr
 }
 }
 

@@ -34,10 +34,10 @@ Question And when a marriage is troubled and unhappy, is it generally better for
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4390/vshow}{GSS Data Explorer page for \code{divwife}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab much better to div \tab better to divorce \tab worse to divorce \tab much worse to div \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 232 \tab 558 \tab 185 \tab 83 \tab 326 \tab 30 \tab 1481 \cr
-   Total \tab 67 \tab 232 \tab 558 \tab 185 \tab 83 \tab 326 \tab 30 \tab 1481 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab much better to div \tab better to divorce \tab worse to divorce \tab much worse to div \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 232 \tab 558 \tab 185 \tab 83 \tab 326 \tab 30 \tab - \tab 1481 \cr
+   Total \tab 67 \tab 232 \tab 558 \tab 185 \tab 83 \tab 326 \tab 30 \tab 0 \tab 1481 \cr
 }
 }
 

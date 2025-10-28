@@ -34,10 +34,10 @@ Question There are some people whose views are considered extreme by the majorit
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7279/vshow}{GSS Data Explorer page for \code{relext3}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely \tab probably \tab probably not \tab definitely not \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1173 \tab 286 \tab 445 \tab 258 \tab 155 \tab 21 \tab 10 \tab 2348 \cr
-   Total \tab 1173 \tab 286 \tab 445 \tab 258 \tab 155 \tab 21 \tab 10 \tab 2348 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely \tab probably \tab probably not \tab definitely not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1173 \tab 286 \tab 445 \tab 258 \tab 155 \tab 21 \tab 10 \tab - \tab 2348 \cr
+   Total \tab 1173 \tab 286 \tab 445 \tab 258 \tab 155 \tab 21 \tab 10 \tab 0 \tab 2348 \cr
 }
 }
 

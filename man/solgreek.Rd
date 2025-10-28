@@ -33,10 +33,10 @@ J. School fraternities or sororities
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/989/vshow}{GSS Data Explorer page for \code{solgreek}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1987 \tab 1709 \tab 57 \tab 26 \tab 27 \tab 1819 \cr
-   Total \tab 1709 \tab 57 \tab 26 \tab 27 \tab 1819 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 1709 \tab 57 \tab 26 \tab 27 \tab - \tab 1819 \cr
+   Total \tab 1709 \tab 57 \tab 26 \tab 27 \tab 0 \tab 1819 \cr
 }
 }
 

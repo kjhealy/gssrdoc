@@ -40,10 +40,10 @@ Question Here is a list of different types of jobs. Which type did your father h
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4314/vshow}{GSS Data Explorer page for \code{pajob}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab prof or tech \tab higher admin \tab clerical \tab sales \tab service \tab skilled worker \tab semi-skilled worker \tab unskilled worker \tab farm \tab Total \cr
-   1987 \tab 443 \tab 154 \tab 53 \tab 50 \tab 119 \tab 77 \tab 282 \tab 204 \tab 175 \tab 262 \tab 1819 \cr
-   Total \tab 443 \tab 154 \tab 53 \tab 50 \tab 119 \tab 77 \tab 282 \tab 204 \tab 175 \tab 262 \tab 1819 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab prof or tech \tab higher admin \tab clerical \tab sales \tab service \tab skilled worker \tab semi-skilled worker \tab unskilled worker \tab farm \tab not available in this year \tab Total \cr
+   1987 \tab 443 \tab 154 \tab 53 \tab 50 \tab 119 \tab 77 \tab 282 \tab 204 \tab 175 \tab 262 \tab - \tab 1819 \cr
+   Total \tab 443 \tab 154 \tab 53 \tab 50 \tab 119 \tab 77 \tab 282 \tab 204 \tab 175 \tab 262 \tab 0 \tab 1819 \cr
 }
 }
 

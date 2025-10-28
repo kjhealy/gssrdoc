@@ -35,12 +35,12 @@ D. Working in a private business (or) working for the government or civil servic
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4527/vshow}{GSS Data Explorer page for \code{privgovt}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab private firm \tab govt \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 84 \tab 821 \tab 394 \tab 201 \tab 37 \tab 1537 \cr
-   1998 \tab 1609 \tab 801 \tab 231 \tab 161 \tab 30 \tab 2832 \cr
-   2006 \tab 2992 \tab 1009 \tab 449 \tab 55 \tab 5 \tab 4510 \cr
-   Total \tab 4685 \tab 2631 \tab 1074 \tab 417 \tab 72 \tab 8879 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab private firm \tab govt \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 84 \tab 821 \tab 394 \tab 201 \tab 37 \tab - \tab 1537 \cr
+   1998 \tab 1609 \tab 801 \tab 231 \tab 161 \tab 30 \tab - \tab 2832 \cr
+   2006 \tab 2992 \tab 1009 \tab 449 \tab 55 \tab 5 \tab - \tab 4510 \cr
+   Total \tab 4685 \tab 2631 \tab 1074 \tab 417 \tab 72 \tab 0 \tab 8879 \cr
 }
 }
 

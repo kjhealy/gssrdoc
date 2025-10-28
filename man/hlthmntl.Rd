@@ -35,11 +35,11 @@ Question In general, how would you rate your mental health, including your mood 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7165/vshow}{GSS Data Explorer page for \code{hlthmntl}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2018 \tab - \tab 478 \tab 905 \tab 671 \tab 232 \tab 43 \tab 3 \tab 16 \tab - \tab 2348 \cr
-   2021 \tab 380 \tab 579 \tab 1313 \tab 1147 \tab 476 \tab 122 \tab - \tab 1 \tab 14 \tab 4032 \cr
-   Total \tab 380 \tab 1057 \tab 2218 \tab 1818 \tab 708 \tab 165 \tab 3 \tab 17 \tab 14 \tab 6380 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2018 \tab - \tab 478 \tab 905 \tab 671 \tab 232 \tab 43 \tab 3 \tab 16 \tab - \tab - \tab 2348 \cr
+   2021 \tab 380 \tab 579 \tab 1313 \tab 1147 \tab 476 \tab 122 \tab - \tab 1 \tab 14 \tab - \tab 4032 \cr
+   Total \tab 380 \tab 1057 \tab 2218 \tab 1818 \tab 708 \tab 165 \tab 3 \tab 17 \tab 14 \tab 0 \tab 6380 \cr
 }
 }
 

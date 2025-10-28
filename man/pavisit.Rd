@@ -38,10 +38,10 @@ A. How often do you see or visit your father?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4132/vshow}{GSS Data Explorer page for \code{pavisit}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab lives in hshld \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab Total \cr
-   1986 \tab 772 \tab 65 \tab 55 \tab 88 \tab 99 \tab 110 \tab 126 \tab 140 \tab 15 \tab 1470 \cr
-   Total \tab 772 \tab 65 \tab 55 \tab 88 \tab 99 \tab 110 \tab 126 \tab 140 \tab 15 \tab 1470 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab lives in hshld \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 772 \tab 65 \tab 55 \tab 88 \tab 99 \tab 110 \tab 126 \tab 140 \tab 15 \tab - \tab 1470 \cr
+   Total \tab 772 \tab 65 \tab 55 \tab 88 \tab 99 \tab 110 \tab 126 \tab 140 \tab 15 \tab 0 \tab 1470 \cr
 }
 }
 

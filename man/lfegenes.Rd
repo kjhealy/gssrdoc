@@ -35,10 +35,10 @@ B. Some people are born with better genes than others.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1383/vshow}{GSS Data Explorer page for \code{lfegenes}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 150 \tab 446 \tab 472 \tab 484 \tab 43 \tab 11 \tab 1606 \cr
-   Total \tab 0 \tab 150 \tab 446 \tab 472 \tab 484 \tab 43 \tab 11 \tab 1606 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 150 \tab 446 \tab 472 \tab 484 \tab 43 \tab 11 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 150 \tab 446 \tab 472 \tab 484 \tab 43 \tab 11 \tab 0 \tab 1606 \cr
 }
 }
 

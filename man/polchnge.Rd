@@ -33,11 +33,11 @@ B. Did your Web experience change your view in any way?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2446/vshow}{GSS Data Explorer page for \code{polchnge}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2484 \tab 54 \tab 184 \tab 1 \tab 94 \tab 2817 \cr
-   2002 \tab 2414 \tab 90 \tab 215 \tab 1 \tab 45 \tab 2765 \cr
-   Total \tab 4898 \tab 144 \tab 399 \tab 2 \tab 139 \tab 5582 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2484 \tab 54 \tab 184 \tab 1 \tab 94 \tab - \tab 2817 \cr
+   2002 \tab 2414 \tab 90 \tab 215 \tab 1 \tab 45 \tab - \tab 2765 \cr
+   Total \tab 4898 \tab 144 \tab 399 \tab 2 \tab 139 \tab 0 \tab 5582 \cr
 }
 }
 

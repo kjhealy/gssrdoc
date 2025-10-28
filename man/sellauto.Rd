@@ -34,10 +34,10 @@ B. An automobile.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1852/vshow}{GSS Data Explorer page for \code{sellauto}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strong preference no contact \tab 2 \tab dont care \tab 4 \tab strong preference contact \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2168 \tab 189 \tab 34 \tab 363 \tab 50 \tab 84 \tab 11 \tab 5 \tab 2904 \cr
-   Total \tab 2168 \tab 189 \tab 34 \tab 363 \tab 50 \tab 84 \tab 11 \tab 5 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strong preference no contact \tab 2 \tab dont care \tab 4 \tab strong preference contact \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2168 \tab 189 \tab 34 \tab 363 \tab 50 \tab 84 \tab 11 \tab 5 \tab - \tab 2904 \cr
+   Total \tab 2168 \tab 189 \tab 34 \tab 363 \tab 50 \tab 84 \tab 11 \tab 5 \tab 0 \tab 2904 \cr
 }
 }
 

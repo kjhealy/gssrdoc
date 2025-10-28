@@ -35,10 +35,10 @@ F. I try to make sense of the situation and decide what to do without relying on
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2101/vshow}{GSS Data Explorer page for \code{cope6}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a great deal \tab quite a bit \tab somewhat \tab not at all \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 180 \tab 218 \tab 470 \tab 530 \tab 26 \tab 21 \tab 2832 \cr
-   Total \tab 1387 \tab 180 \tab 218 \tab 470 \tab 530 \tab 26 \tab 21 \tab 2832 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal \tab quite a bit \tab somewhat \tab not at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 180 \tab 218 \tab 470 \tab 530 \tab 26 \tab 21 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 180 \tab 218 \tab 470 \tab 530 \tab 26 \tab 21 \tab 0 \tab 2832 \cr
 }
 }
 

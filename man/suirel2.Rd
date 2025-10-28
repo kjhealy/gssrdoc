@@ -52,10 +52,10 @@ Question Please tell me the relationship category of the person you knew second 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6189/vshow}{GSS Data Explorer page for \code{suirel2}}.
 
-Counts by year:\tabular{lllllllllllllllllllllll}{
-   year \tab iap \tab husband or wife \tab partner or lover \tab son or daughter \tab mother or father \tab step-parent \tab cousin \tab other relative \tab friend \tab neighbor \tab co-worker \tab patient \tab acquaintance \tab ex-spouse or ex-partner \tab classmate \tab relative of a friend \tab student \tab friend of a friend \tab other \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2425 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 28 \tab 64 \tab 161 \tab 15 \tab 22 \tab 6 \tab 84 \tab 2 \tab 2 \tab 3 \tab 4 \tab 6 \tab 11 \tab 1 \tab 24 \tab 2867 \cr
-   Total \tab 2425 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 28 \tab 64 \tab 161 \tab 15 \tab 22 \tab 6 \tab 84 \tab 2 \tab 2 \tab 3 \tab 4 \tab 6 \tab 11 \tab 1 \tab 24 \tab 2867 \cr
+Counts by year:\tabular{llllllllllllllllllllllll}{
+   year \tab iap \tab husband or wife \tab partner or lover \tab son or daughter \tab mother or father \tab step-parent \tab cousin \tab other relative \tab friend \tab neighbor \tab co-worker \tab patient \tab acquaintance \tab ex-spouse or ex-partner \tab classmate \tab relative of a friend \tab student \tab friend of a friend \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2425 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 28 \tab 64 \tab 161 \tab 15 \tab 22 \tab 6 \tab 84 \tab 2 \tab 2 \tab 3 \tab 4 \tab 6 \tab 11 \tab 1 \tab 24 \tab - \tab 2867 \cr
+   Total \tab 2425 \tab 1 \tab 4 \tab 1 \tab 2 \tab 1 \tab 28 \tab 64 \tab 161 \tab 15 \tab 22 \tab 6 \tab 84 \tab 2 \tab 2 \tab 3 \tab 4 \tab 6 \tab 11 \tab 1 \tab 24 \tab 0 \tab 2867 \cr
 }
 }
 

@@ -36,10 +36,10 @@ B. If symptoms are no longer present, people should stop taking these medication
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2169/vshow}{GSS Data Explorer page for \code{psycmed2}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 199 \tab 462 \tab 143 \tab 356 \tab 102 \tab 122 \tab 3 \tab 2832 \cr
-   Total \tab 1445 \tab 199 \tab 462 \tab 143 \tab 356 \tab 102 \tab 122 \tab 3 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 199 \tab 462 \tab 143 \tab 356 \tab 102 \tab 122 \tab 3 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 199 \tab 462 \tab 143 \tab 356 \tab 102 \tab 122 \tab 3 \tab 0 \tab 2832 \cr
 }
 }
 

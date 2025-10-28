@@ -34,10 +34,10 @@ Question What is your current legal marital status?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3911/vshow}{GSS Data Explorer page for \code{marunion}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab legally married \tab in a civil union or registered domestic partnership \tab separated \tab not currently married or in a civil union or registered domestic partnership \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1879 \tab 32 \tab 8 \tab 6 \tab 65 \tab 2 \tab 31 \tab 2023 \cr
-   Total \tab 1879 \tab 32 \tab 8 \tab 6 \tab 65 \tab 2 \tab 31 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab legally married \tab in a civil union or registered domestic partnership \tab separated \tab not currently married or in a civil union or registered domestic partnership \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1879 \tab 32 \tab 8 \tab 6 \tab 65 \tab 2 \tab 31 \tab - \tab 2023 \cr
+   Total \tab 1879 \tab 32 \tab 8 \tab 6 \tab 65 \tab 2 \tab 31 \tab 0 \tab 2023 \cr
 }
 }
 

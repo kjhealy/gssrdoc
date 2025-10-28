@@ -34,10 +34,10 @@ Question B. On the whole, how satisfied are you with the job you have -- would y
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6645/vshow}{GSS Data Explorer page for \code{satjobhv}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very satisfied \tab moderately satisfied \tab a little dissatisfied \tab very dissatisfied \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2561 \tab 118 \tab 134 \tab 32 \tab 10 \tab 10 \tab 2 \tab 2867 \cr
-   Total \tab 2561 \tab 118 \tab 134 \tab 32 \tab 10 \tab 10 \tab 2 \tab 2867 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very satisfied \tab moderately satisfied \tab a little dissatisfied \tab very dissatisfied \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2561 \tab 118 \tab 134 \tab 32 \tab 10 \tab 10 \tab 2 \tab - \tab 2867 \cr
+   Total \tab 2561 \tab 118 \tab 134 \tab 32 \tab 10 \tab 10 \tab 2 \tab 0 \tab 2867 \cr
 }
 }
 

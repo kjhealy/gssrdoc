@@ -33,11 +33,12 @@ Question Did you ever know anyone who was in a hospital because of a mental illn
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2058/vshow}{GSS Data Explorer page for \code{knwmhosp}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2168 \tab 366 \tab 355 \tab 8 \tab 7 \tab 2904 \cr
-   2002 \tab 1859 \tab 561 \tab 343 \tab 2 \tab - \tab 2765 \cr
-   Total \tab 4027 \tab 927 \tab 698 \tab 10 \tab 7 \tab 5669 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 2168 \tab 366 \tab 355 \tab 8 \tab 7 \tab - \tab - \tab 2904 \cr
+   2002 \tab 1859 \tab 561 \tab 343 \tab 2 \tab - \tab - \tab - \tab 2765 \cr
+   2024 \tab 1664 \tab 942 \tab 673 \tab 9 \tab 4 \tab - \tab 17 \tab 3309 \cr
+   Total \tab 5691 \tab 1869 \tab 1371 \tab 19 \tab 11 \tab 0 \tab 17 \tab 8978 \cr
 }
 }
 

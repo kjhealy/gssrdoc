@@ -32,12 +32,12 @@ Question Some people say that it is better for a country if different racial and
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4858/vshow}{GSS Data Explorer page for \code{meltpot1}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab better for society maintain distinct \tab better if groups adapt and blend into \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 399 \tab 557 \tab 348 \tab 63 \tab 2904 \cr
-   2004 \tab 1596 \tab 554 \tab 615 \tab 28 \tab 19 \tab 2812 \cr
-   2014 \tab 1264 \tab 478 \tab 597 \tab 191 \tab 8 \tab 2538 \cr
-   Total \tab 4397 \tab 1431 \tab 1769 \tab 567 \tab 90 \tab 8254 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab better for society maintain distinct \tab better if groups adapt and blend into \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1537 \tab 399 \tab 557 \tab 348 \tab 63 \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 554 \tab 615 \tab 28 \tab 19 \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 478 \tab 597 \tab 191 \tab 8 \tab - \tab 2538 \cr
+   Total \tab 4397 \tab 1431 \tab 1769 \tab 567 \tab 90 \tab 0 \tab 8254 \cr
 }
 }
 

@@ -36,11 +36,11 @@ B. Read a newspaper article about the polar regions?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3425/vshow}{GSS Data Explorer page for \code{polaryr2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 476 \tab 633 \tab 375 \tab 361 \tab 17 \tab 2 \tab 4510 \cr
-   2010 \tab 1338 \tab 166 \tab 267 \tab 129 \tab 133 \tab 4 \tab 7 \tab 2044 \cr
-   Total \tab 3984 \tab 642 \tab 900 \tab 504 \tab 494 \tab 21 \tab 9 \tab 6554 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 476 \tab 633 \tab 375 \tab 361 \tab 17 \tab 2 \tab - \tab 4510 \cr
+   2010 \tab 1338 \tab 166 \tab 267 \tab 129 \tab 133 \tab 4 \tab 7 \tab - \tab 2044 \cr
+   Total \tab 3984 \tab 642 \tab 900 \tab 504 \tab 494 \tab 21 \tab 9 \tab 0 \tab 6554 \cr
 }
 }
 

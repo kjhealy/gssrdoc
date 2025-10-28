@@ -20,11 +20,8 @@ As of 2024, HIVTEST2 has been recoded to only account for seven categories by co
 \item \verb{[2]} counseling and testing site
 \item \verb{[3]} hospital
 \item \verb{[4]} clinic
-\item \verb{[5]} jail or prison
-\item \verb{[6]} home
 \item \verb{[7]} somewhere else
 \item \verb{[8]} emergency room
-\item \verb{[9]} drug treatment facility
 \item \verb{[10]} hospital inpatient
 \item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
@@ -42,18 +39,19 @@ As of 2024, HIVTEST2 has been recoded to only account for seven categories by co
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5076/vshow}{GSS Data Explorer page for \code{hivtest2}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab private doctor or hmo office \tab counseling and testing site \tab hospital \tab clinic \tab jail or prison \tab home \tab somewhere else \tab don't know \tab no answer \tab emergency room \tab drug treatment facility \tab hospital inpatient \tab skipped on web \tab Total \cr
-   2006 \tab 3556 \tab 458 \tab 48 \tab 145 \tab 185 \tab 19 \tab 28 \tab 48 \tab 5 \tab 18 \tab - \tab - \tab - \tab - \tab 4510 \cr
-   2008 \tab 1295 \tab 325 \tab 41 \tab 103 \tab 162 \tab 13 \tab 14 \tab 50 \tab 3 \tab 17 \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2010 \tab 1300 \tab 342 \tab 46 \tab 108 \tab 149 \tab 18 \tab 17 \tab 38 \tab 2 \tab 24 \tab - \tab - \tab - \tab - \tab 2044 \cr
-   2012 \tab 1249 \tab 343 \tab 25 \tab 106 \tab 159 \tab 11 \tab 9 \tab 39 \tab 1 \tab 32 \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 1510 \tab 456 \tab 35 \tab 187 \tab 227 \tab 19 \tab 17 \tab 46 \tab 3 \tab 38 \tab - \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2135 \tab 312 \tab 39 \tab 126 \tab 174 \tab 11 \tab 8 \tab 35 \tab 1 \tab 26 \tab - \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab 1768 \tab 290 \tab 16 \tab 94 \tab 119 \tab 10 \tab 6 \tab 21 \tab - \tab 24 \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 3294 \tab 418 \tab 43 \tab - \tab 123 \tab 8 \tab 9 \tab 55 \tab - \tab 21 \tab 17 \tab 9 \tab 35 \tab - \tab 4032 \cr
-   2022 \tab 2947 \tab 284 \tab 31 \tab 19 \tab 31 \tab 113 \tab 13 \tab 6 \tab 23 \tab 34 \tab 4 \tab 38 \tab - \tab 1 \tab 3544 \cr
-   Total \tab 19054 \tab 3228 \tab 324 \tab 888 \tab 1329 \tab 222 \tab 121 \tab 338 \tab 38 \tab 234 \tab 21 \tab 47 \tab 35 \tab 1 \tab 25880 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab not available in this year \tab private doctor or hmo office \tab counseling and testing site \tab hospital \tab clinic \tab somewhere else \tab don't know \tab iap \tab no answer \tab emergency room \tab hospital inpatient \tab skipped on web \tab Total \cr
+   2006 \tab - \tab 458 \tab 48 \tab 145 \tab 185 \tab 95 \tab 5 \tab 3556 \tab 18 \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab - \tab 325 \tab 41 \tab 103 \tab 162 \tab 77 \tab 3 \tab 1295 \tab 17 \tab - \tab - \tab - \tab 2023 \cr
+   2010 \tab - \tab 342 \tab 46 \tab 108 \tab 149 \tab 73 \tab 2 \tab 1300 \tab 24 \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab - \tab 343 \tab 25 \tab 106 \tab 159 \tab 59 \tab 1 \tab 1249 \tab 32 \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab - \tab 456 \tab 35 \tab 187 \tab 227 \tab 82 \tab 3 \tab 1510 \tab 38 \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab - \tab 312 \tab 39 \tab 126 \tab 174 \tab 54 \tab 1 \tab 2135 \tab 26 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab - \tab 290 \tab 16 \tab 94 \tab 119 \tab 37 \tab - \tab 1768 \tab 24 \tab - \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab 418 \tab 43 \tab - \tab 123 \tab 81 \tab - \tab 3294 \tab 21 \tab 17 \tab 35 \tab - \tab 4032 \cr
+   2022 \tab - \tab 283 \tab 31 \tab - \tab 113 \tab 61 \tab 23 \tab 2971 \tab 11 \tab 19 \tab 31 \tab 1 \tab 3544 \cr
+   2024 \tab - \tab 356 \tab 19 \tab - \tab 138 \tab 61 \tab - \tab 2592 \tab 72 \tab 25 \tab 46 \tab - \tab 3309 \cr
+   Total \tab 0 \tab 3583 \tab 343 \tab 869 \tab 1549 \tab 680 \tab 38 \tab 21670 \tab 283 \tab 61 \tab 112 \tab 1 \tab 29189 \cr
 }
 }
 

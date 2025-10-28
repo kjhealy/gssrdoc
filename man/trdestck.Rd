@@ -32,10 +32,10 @@ Question C. If your company has stock, is the stock of the company where your wo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3563/vshow}{GSS Data Explorer page for \code{trdestck}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2014 \tab 1765 \tab 123 \tab 530 \tab 115 \tab 5 \tab 2538 \cr
-   Total \tab 1765 \tab 123 \tab 530 \tab 115 \tab 5 \tab 2538 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab 1765 \tab 123 \tab 530 \tab 115 \tab 5 \tab - \tab 2538 \cr
+   Total \tab 1765 \tab 123 \tab 530 \tab 115 \tab 5 \tab 0 \tab 2538 \cr
 }
 }
 

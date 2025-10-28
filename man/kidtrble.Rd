@@ -36,10 +36,10 @@ A. Children are more trouble than they are worth.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4380/vshow}{GSS Data Explorer page for \code{kidtrble}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 18 \tab 39 \tab 127 \tab 550 \tab 643 \tab 20 \tab 17 \tab 1481 \cr
-   Total \tab 67 \tab 18 \tab 39 \tab 127 \tab 550 \tab 643 \tab 20 \tab 17 \tab 1481 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 18 \tab 39 \tab 127 \tab 550 \tab 643 \tab 20 \tab 17 \tab - \tab 1481 \cr
+   Total \tab 67 \tab 18 \tab 39 \tab 127 \tab 550 \tab 643 \tab 20 \tab 17 \tab 0 \tab 1481 \cr
 }
 }
 
@@ -47,7 +47,6 @@ Counts by year:\tabular{llllllllll}{
 Other ISSP Family & Gender Roles: 
 \code{\link{fourkids}},
 \code{\link{mardiv}},
-\code{\link{marhomo}},
 \code{\link{nokids}},
 \code{\link{numkids}},
 \code{\link{onekid}},

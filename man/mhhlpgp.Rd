@@ -33,10 +33,10 @@ D. Go to a general medical doctor for help.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3785/vshow}{GSS Data Explorer page for \code{mhhlpgp}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab iap \tab not at all important \tab very important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 22 \tab 799 \tab 58 \tab 20 \tab 19 \tab 78 \tab 45 \tab 90 \tab 142 \tab 137 \tab 6 \tab 9 \tab 4510 \cr
-   Total \tab 3085 \tab 22 \tab 799 \tab 58 \tab 20 \tab 19 \tab 78 \tab 45 \tab 90 \tab 142 \tab 137 \tab 6 \tab 9 \tab 4510 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab not at all important \tab very important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 22 \tab 799 \tab 58 \tab 20 \tab 19 \tab 78 \tab 45 \tab 90 \tab 142 \tab 137 \tab 6 \tab 9 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 22 \tab 799 \tab 58 \tab 20 \tab 19 \tab 78 \tab 45 \tab 90 \tab 142 \tab 137 \tab 6 \tab 9 \tab 0 \tab 4510 \cr
 }
 }
 

@@ -32,13 +32,14 @@ Question In your (SPOUSE or PARTNER'S) job, (do you/does he/she) supervise anyon
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6178/vshow}{GSS Data Explorer page for \code{wksup1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab 6 \tab Total \cr
-   2016 \tab 914 \tab 749 \tab 1197 \tab 5 \tab 2 \tab - \tab - \tab 2867 \cr
-   2018 \tab 693 \tab 595 \tab 1055 \tab 4 \tab 1 \tab - \tab - \tab 2348 \cr
-   2021 \tab 1419 \tab 844 \tab 1704 \tab 59 \tab 1 \tab 5 \tab - \tab 4032 \cr
-   2022 \tab 1203 \tab 788 \tab 1527 \tab - \tab 5 \tab 2 \tab 19 \tab 3544 \cr
-   Total \tab 4229 \tab 2976 \tab 5483 \tab 68 \tab 9 \tab 7 \tab 19 \tab 12791 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2016 \tab 914 \tab 749 \tab 1197 \tab 5 \tab 2 \tab - \tab 2867 \cr
+   2018 \tab 693 \tab 595 \tab 1055 \tab 4 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab 1419 \tab 844 \tab 1704 \tab 59 \tab 1 \tab 5 \tab 4032 \cr
+   2022 \tab 1203 \tab 788 \tab 1527 \tab 19 \tab 5 \tab 2 \tab 3544 \cr
+   2024 \tab 1250 \tab 605 \tab 1406 \tab 30 \tab 10 \tab 8 \tab 3309 \cr
+   Total \tab 5479 \tab 3581 \tab 6889 \tab 117 \tab 19 \tab 15 \tab 16100 \cr
 }
 }
 

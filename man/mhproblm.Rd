@@ -34,10 +34,10 @@ Question Please remember, there are no right-or-wrong answers to these questions
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3720/vshow}{GSS Data Explorer page for \code{mhproblm}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very serious \tab moderately serious \tab not very serious \tab not at all seriou \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 899 \tab 444 \tab 60 \tab 10 \tab 6 \tab 6 \tab 4510 \cr
-   Total \tab 3085 \tab 899 \tab 444 \tab 60 \tab 10 \tab 6 \tab 6 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very serious \tab moderately serious \tab not very serious \tab not at all seriou \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 899 \tab 444 \tab 60 \tab 10 \tab 6 \tab 6 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 899 \tab 444 \tab 60 \tab 10 \tab 6 \tab 6 \tab 0 \tab 4510 \cr
 }
 }
 

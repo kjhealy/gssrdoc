@@ -33,10 +33,10 @@ D. Did you meet the fourth name in one of these groups or did you meet somewhere
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3306/vshow}{GSS Data Explorer page for \code{frstmet4}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes, one of these groups \tab no, somewhere else \tab no answer \tab Total \cr
-   2004 \tab 2734 \tab 8 \tab 24 \tab 46 \tab 2812 \cr
-   Total \tab 2734 \tab 8 \tab 24 \tab 46 \tab 2812 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes, one of these groups \tab no, somewhere else \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2734 \tab 8 \tab 24 \tab 46 \tab - \tab 2812 \cr
+   Total \tab 2734 \tab 8 \tab 24 \tab 46 \tab 0 \tab 2812 \cr
 }
 }
 

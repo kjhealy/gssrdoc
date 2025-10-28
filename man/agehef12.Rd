@@ -38,10 +38,10 @@ Was (NAME) over or under 18 on their last birthday?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7987/vshow}{GSS Data Explorer page for \code{agehef12}}.
 
-Counts by year:\tabular{llll}{
-   year \tab iap \tab 18-29 \tab Total \cr
-   2022 \tab 3540 \tab 4 \tab 3544 \cr
-   Total \tab 3540 \tab 4 \tab 3544 \cr
+Counts by year:\tabular{lllll}{
+   year \tab not available in this year \tab 18-29 \tab iap \tab Total \cr
+   2022 \tab - \tab 4 \tab 3540 \tab 3544 \cr
+   Total \tab 0 \tab 4 \tab 3540 \tab 3544 \cr
 }
 }
 

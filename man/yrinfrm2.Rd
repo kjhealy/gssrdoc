@@ -31,10 +31,10 @@ Question Q. How many years have you been a member of…?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3217/vshow}{GSS Data Explorer page for \code{yrinfrm2}}.
 
-Counts by year:\tabular{lllllllllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 15 \tab 16 \tab 2 \tab 20 \tab 25 \tab 3 \tab 30 \tab 36 \tab 4 \tab 5 \tab 6 \tab 60 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2708 \tab 5 \tab 13 \tab 7 \tab 1 \tab 6 \tab 3 \tab 1 \tab 12 \tab 2 \tab 1 \tab 10 \tab 4 \tab 1 \tab 4 \tab 5 \tab 2 \tab 1 \tab 5 \tab 1 \tab 1 \tab 2 \tab 17 \tab 2812 \cr
-   Total \tab 2708 \tab 5 \tab 13 \tab 7 \tab 1 \tab 6 \tab 3 \tab 1 \tab 12 \tab 2 \tab 1 \tab 10 \tab 4 \tab 1 \tab 4 \tab 5 \tab 2 \tab 1 \tab 5 \tab 1 \tab 1 \tab 2 \tab 17 \tab 2812 \cr
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 15 \tab 16 \tab 2 \tab 20 \tab 25 \tab 3 \tab 30 \tab 36 \tab 4 \tab 5 \tab 6 \tab 60 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2708 \tab 5 \tab 13 \tab 7 \tab 1 \tab 6 \tab 3 \tab 1 \tab 12 \tab 2 \tab 1 \tab 10 \tab 4 \tab 1 \tab 4 \tab 5 \tab 2 \tab 1 \tab 5 \tab 1 \tab 1 \tab 2 \tab 17 \tab - \tab 2812 \cr
+   Total \tab 2708 \tab 5 \tab 13 \tab 7 \tab 1 \tab 6 \tab 3 \tab 1 \tab 12 \tab 2 \tab 1 \tab 10 \tab 4 \tab 1 \tab 4 \tab 5 \tab 2 \tab 1 \tab 5 \tab 1 \tab 1 \tab 2 \tab 17 \tab 0 \tab 2812 \cr
 }
 }
 

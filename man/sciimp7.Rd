@@ -35,10 +35,10 @@ G. Other scientists repeat the experiment, and find similar results. (Would you 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3404/vshow}{GSS Data Explorer page for \code{sciimp7}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab pretty important \tab not too important \tab not important at all \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 1223 \tab 489 \tab 57 \tab 19 \tab 70 \tab 6 \tab 4510 \cr
-   Total \tab 2646 \tab 1223 \tab 489 \tab 57 \tab 19 \tab 70 \tab 6 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab pretty important \tab not too important \tab not important at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 1223 \tab 489 \tab 57 \tab 19 \tab 70 \tab 6 \tab - \tab 4510 \cr
+   Total \tab 2646 \tab 1223 \tab 489 \tab 57 \tab 19 \tab 70 \tab 6 \tab 0 \tab 4510 \cr
 }
 }
 

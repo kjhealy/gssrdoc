@@ -35,10 +35,10 @@ G. Other associations or groups
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4213/vshow}{GSS Data Explorer page for \code{grpoth}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab i have participated more than twice \tab i have participated once or twice \tab i belong to such a group but never participate \tab i do not belong to such a group \tab no answer \tab Total \cr
-   2002 \tab 1616 \tab 160 \tab 125 \tab 50 \tab 807 \tab 7 \tab 2765 \cr
-   Total \tab 1616 \tab 160 \tab 125 \tab 50 \tab 807 \tab 7 \tab 2765 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab i have participated more than twice \tab i have participated once or twice \tab i belong to such a group but never participate \tab i do not belong to such a group \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1616 \tab 160 \tab 125 \tab 50 \tab 807 \tab 7 \tab - \tab 2765 \cr
+   Total \tab 1616 \tab 160 \tab 125 \tab 50 \tab 807 \tab 7 \tab 0 \tab 2765 \cr
 }
 }
 

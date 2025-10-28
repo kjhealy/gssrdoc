@@ -34,10 +34,10 @@ J. Helping other countries
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/219/vshow}{GSS Data Explorer page for \code{nataidz}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab Total \cr
-   1984 \tab 989 \tab 16 \tab 111 \tab 332 \tab 20 \tab 5 \tab 1473 \cr
-   Total \tab 989 \tab 16 \tab 111 \tab 332 \tab 20 \tab 5 \tab 1473 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab 989 \tab 16 \tab 111 \tab 332 \tab 20 \tab 5 \tab - \tab 1473 \cr
+   Total \tab 989 \tab 16 \tab 111 \tab 332 \tab 20 \tab 5 \tab 0 \tab 1473 \cr
 }
 }
 

@@ -37,12 +37,12 @@ D. International organizations are taking away too much power from the American 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4886/vshow}{GSS Data Explorer page for \code{powrorgs}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2004 \tab 1596 \tab 112 \tab 303 \tab 377 \tab 329 \tab 28 \tab 66 \tab 1 \tab - \tab 2812 \cr
-   2014 \tab 1264 \tab 75 \tab 322 \tab 351 \tab 362 \tab 35 \tab 125 \tab 4 \tab - \tab 2538 \cr
-   2021 \tab 2003 \tab 174 \tab 377 \tab 618 \tab 446 \tab 131 \tab 112 \tab 154 \tab 17 \tab 4032 \cr
-   Total \tab 4863 \tab 361 \tab 1002 \tab 1346 \tab 1137 \tab 194 \tab 303 \tab 159 \tab 17 \tab 9382 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2004 \tab 1596 \tab 112 \tab 303 \tab 377 \tab 329 \tab 28 \tab 66 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 75 \tab 322 \tab 351 \tab 362 \tab 35 \tab 125 \tab 4 \tab - \tab - \tab 2538 \cr
+   2021 \tab 2003 \tab 174 \tab 377 \tab 618 \tab 446 \tab 131 \tab 112 \tab 154 \tab 17 \tab - \tab 4032 \cr
+   Total \tab 4863 \tab 361 \tab 1002 \tab 1346 \tab 1137 \tab 194 \tab 303 \tab 159 \tab 17 \tab 0 \tab 9382 \cr
 }
 }
 

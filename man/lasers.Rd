@@ -36,16 +36,16 @@ D. Lasers work by focusing sound waves. (Is that true or false?)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3337/vshow}{GSS Data Explorer page for \code{lasers}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 341 \tab 824 \tab 698 \tab 1 \tab 4510 \cr
-   2008 \tab 518 \tab 345 \tab 727 \tab 422 \tab 11 \tab 2023 \cr
-   2010 \tab 1103 \tab 181 \tab 439 \tab 319 \tab 2 \tab 2044 \cr
-   2012 \tab 972 \tab 237 \tab 456 \tab 301 \tab 8 \tab 1974 \cr
-   2014 \tab 1299 \tab 253 \tab 589 \tab 396 \tab 1 \tab 2538 \cr
-   2016 \tab 1477 \tab 347 \tab 619 \tab 411 \tab 13 \tab 2867 \cr
-   2018 \tab 1173 \tab 255 \tab 522 \tab 394 \tab 4 \tab 2348 \cr
-   Total \tab 9188 \tab 1959 \tab 4176 \tab 2941 \tab 40 \tab 18304 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 341 \tab 824 \tab 698 \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 345 \tab 727 \tab 422 \tab 11 \tab - \tab 2023 \cr
+   2010 \tab 1103 \tab 181 \tab 439 \tab 319 \tab 2 \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 237 \tab 456 \tab 301 \tab 8 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 253 \tab 589 \tab 396 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 347 \tab 619 \tab 411 \tab 13 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 255 \tab 522 \tab 394 \tab 4 \tab - \tab 2348 \cr
+   Total \tab 9188 \tab 1959 \tab 4176 \tab 2941 \tab 40 \tab 0 \tab 18304 \cr
 }
 }
 

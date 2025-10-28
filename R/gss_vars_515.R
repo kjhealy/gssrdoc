@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no   |yes 1-2 times |yes 3-5 times |yes 6/more times |no answer |Total |
-#'  |:-----|:----|:----|:-------------|:-------------|:----------------|:---------|:-----|
-#'  |1998  |1548 |1102 |81            |22            |20               |59        |2832  |
-#'  |Total |1548 |1102 |81            |22            |20               |59        |2832  |
+#'  |year  |iap  |no   |yes 1-2 times |yes 3-5 times |yes 6/more times |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:-------------|:-------------|:----------------|:---------|:--------------------------|:-----|
+#'  |1998  |1548 |1102 |81            |22            |20               |59        |-                          |2832  |
+#'  |Total |1548 |1102 |81            |22            |20               |59        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -67,10 +67,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes 1-2 times |yes 3-5 times |yes 6/more times |no answer |Total |
-#'  |:-----|:----|:---|:-------------|:-------------|:----------------|:---------|:-----|
-#'  |1998  |1548 |752 |251           |119           |105              |57        |2832  |
-#'  |Total |1548 |752 |251           |119           |105              |57        |2832  |
+#'  |year  |iap  |no  |yes 1-2 times |yes 3-5 times |yes 6/more times |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:-------------|:-------------|:----------------|:---------|:--------------------------|:-----|
+#'  |1998  |1548 |752 |251           |119           |105              |57        |-                          |2832  |
+#'  |Total |1548 |752 |251           |119           |105              |57        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -109,10 +109,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes 1-2 times |yes 3-5 times |yes 6/more times |no answer |Total |
-#'  |:-----|:----|:---|:-------------|:-------------|:----------------|:---------|:-----|
-#'  |1998  |1548 |787 |191           |85            |163              |58        |2832  |
-#'  |Total |1548 |787 |191           |85            |163              |58        |2832  |
+#'  |year  |iap  |no  |yes 1-2 times |yes 3-5 times |yes 6/more times |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:-------------|:-------------|:----------------|:---------|:--------------------------|:-----|
+#'  |1998  |1548 |787 |191           |85            |163              |58        |-                          |2832  |
+#'  |Total |1548 |787 |191           |85            |163              |58        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -151,10 +151,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes 1-2 times |yes 3-5 times |yes 6/more times |no answer |Total |
-#'  |:-----|:----|:---|:-------------|:-------------|:----------------|:---------|:-----|
-#'  |1998  |1548 |755 |222           |109           |138              |60        |2832  |
-#'  |Total |1548 |755 |222           |109           |138              |60        |2832  |
+#'  |year  |iap  |no  |yes 1-2 times |yes 3-5 times |yes 6/more times |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:-------------|:-------------|:----------------|:---------|:--------------------------|:-----|
+#'  |1998  |1548 |755 |222           |109           |138              |60        |-                          |2832  |
+#'  |Total |1548 |755 |222           |109           |138              |60        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -192,11 +192,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |little truth any |basic truth many |truth in one |can't choose |no answer |Total |
-#'  |:-----|:----|:----------------|:----------------|:------------|:------------|:---------|:-----|
-#'  |1998  |1548 |42               |894              |126          |178          |44        |2832  |
-#'  |2008  |658  |60               |1103             |166          |27           |9         |2023  |
-#'  |Total |2206 |102              |1997             |292          |205          |53        |4855  |
+#'  |year  |iap  |little truth any |basic truth many |truth in one |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:----------------|:------------|:------------|:---------|:--------------------------|:-----|
+#'  |1998  |1548 |42               |894              |126          |178          |44        |-                          |2832  |
+#'  |2008  |658  |60               |1103             |166          |27           |9         |-                          |2023  |
+#'  |Total |2206 |102              |1997             |292          |205          |53        |0                          |4855  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -234,10 +234,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definite right |some right |no right |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:----------|:--------|:------------|:---------|:-----|
-#'  |1998  |1548 |23             |115        |972      |119          |55        |2832  |
-#'  |Total |1548 |23             |115        |972      |119          |55        |2832  |
+#'  |year  |iap  |definite right |some right |no right |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:----------|:--------|:------------|:---------|:--------------------------|:-----|
+#'  |1998  |1548 |23             |115        |972      |119          |55        |-                          |2832  |
+#'  |Total |1548 |23             |115        |972      |119          |55        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -276,10 +276,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |def tll plce was |prb tll plce was |prb tll plce not |def tll plce not |can't choose |no answer |Total |
-#'  |:-----|:----|:----------------|:----------------|:----------------|:----------------|:------------|:---------|:-----|
-#'  |1998  |1548 |443              |415              |103              |17               |245          |61        |2832  |
-#'  |Total |1548 |443              |415              |103              |17               |245          |61        |2832  |
+#'  |year  |iap  |def tll plce was |prb tll plce was |prb tll plce not |def tll plce not |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:----------------|:----------------|:----------------|:------------|:---------|:--------------------------|:-----|
+#'  |1998  |1548 |443              |415              |103              |17               |245          |61        |-                          |2832  |
+#'  |Total |1548 |443              |415              |103              |17               |245          |61        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -317,10 +317,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |i have lived in different countries |i have lived in different places in the same country |i have lived in different neighborhoods in the same place |i have always lived in the same neighborhood |don't know |Total |
-#'  |:-----|:---|:-----------------------------------|:----------------------------------------------------|:---------------------------------------------------------|:--------------------------------------------|:----------|:-----|
-#'  |2008  |658 |205                                 |613                                                  |385                                                       |161                                          |1          |2023  |
-#'  |Total |658 |205                                 |613                                                  |385                                                       |161                                          |1          |2023  |
+#'  |year  |iap |i have lived in different countries |i have lived in different places in the same country |i have lived in different neighborhoods in the same place |i have always lived in the same neighborhood |don't know |not available in this year |Total |
+#'  |:-----|:---|:-----------------------------------|:----------------------------------------------------|:---------------------------------------------------------|:--------------------------------------------|:----------|:--------------------------|:-----|
+#'  |2008  |658 |205                                 |613                                                  |385                                                       |161                                          |1          |-                          |2023  |
+#'  |Total |658 |205                                 |613                                                  |385                                                       |161                                          |1          |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -361,10 +361,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2008  |658 |376            |683   |154                        |107      |24                |15         |6         |2023  |
-#'  |Total |658 |376            |683   |154                        |107      |24                |15         |6         |2023  |
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |658 |376            |683   |154                        |107      |24                |15         |6         |-                          |2023  |
+#'  |Total |658 |376            |683   |154                        |107      |24                |15         |6         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion
@@ -405,10 +405,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2008  |658 |433            |666   |116                        |106      |31                |8          |5         |2023  |
-#'  |Total |658 |433            |666   |116                        |106      |31                |8          |5         |2023  |
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |658 |433            |666   |116                        |106      |31                |8          |5         |-                          |2023  |
+#'  |Total |658 |433            |666   |116                        |106      |31                |8          |5         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Religion

@@ -36,11 +36,12 @@ To have American ancestry
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4881/vshow}{GSS Data Explorer page for \code{amancstr}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1596 \tab 388 \tab 267 \tab 368 \tab 164 \tab 26 \tab 3 \tab 2812 \cr
-   2014 \tab 1264 \tab 304 \tab 220 \tab 408 \tab 310 \tab 28 \tab 4 \tab 2538 \cr
-   Total \tab 2860 \tab 692 \tab 487 \tab 776 \tab 474 \tab 54 \tab 7 \tab 5350 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2004 \tab 1596 \tab 388 \tab 267 \tab 368 \tab 164 \tab 26 \tab 3 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 304 \tab 220 \tab 408 \tab 310 \tab 28 \tab 4 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1661 \tab 248 \tab 280 \tab 484 \tab 557 \tab 53 \tab 4 \tab - \tab 22 \tab 3309 \cr
+   Total \tab 4521 \tab 940 \tab 767 \tab 1260 \tab 1031 \tab 107 \tab 11 \tab 0 \tab 22 \tab 8659 \cr
 }
 }
 

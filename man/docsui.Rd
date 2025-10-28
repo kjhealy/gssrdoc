@@ -36,10 +36,10 @@ F. Ask for physician-assisted suicide.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2260/vshow}{GSS Data Explorer page for \code{docsui}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 184 \tab 234 \tab 260 \tab 338 \tab 277 \tab 56 \tab 38 \tab 2832 \cr
-   Total \tab 1445 \tab 184 \tab 234 \tab 260 \tab 338 \tab 277 \tab 56 \tab 38 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 184 \tab 234 \tab 260 \tab 338 \tab 277 \tab 56 \tab 38 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 184 \tab 234 \tab 260 \tab 338 \tab 277 \tab 56 \tab 38 \tab 0 \tab 2832 \cr
 }
 }
 

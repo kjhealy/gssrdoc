@@ -35,10 +35,10 @@ H. All in all, I think social differences in this country are justified.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/240/vshow}{GSS Data Explorer page for \code{usclass8}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 120 \tab 631 \tab 474 \tab 164 \tab 58 \tab 26 \tab 1473 \cr
-   Total \tab 0 \tab 120 \tab 631 \tab 474 \tab 164 \tab 58 \tab 26 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 120 \tab 631 \tab 474 \tab 164 \tab 58 \tab 26 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 120 \tab 631 \tab 474 \tab 164 \tab 58 \tab 26 \tab 0 \tab 1473 \cr
 }
 }
 

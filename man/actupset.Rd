@@ -34,11 +34,11 @@ Question H. People at work throw things, slam doors, or hit objects when they ar
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3005/vshow}{GSS Data Explorer page for \code{actupset}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 945 \tab 31 \tab 85 \tab 170 \tab 1520 \tab 19 \tab 42 \tab 2812 \cr
-   2012 \tab 795 \tab 17 \tab 52 \tab 101 \tab 966 \tab 12 \tab 31 \tab 1974 \cr
-   Total \tab 1740 \tab 48 \tab 137 \tab 271 \tab 2486 \tab 31 \tab 73 \tab 4786 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 945 \tab 31 \tab 85 \tab 170 \tab 1520 \tab 19 \tab 42 \tab - \tab 2812 \cr
+   2012 \tab 795 \tab 17 \tab 52 \tab 101 \tab 966 \tab 12 \tab 31 \tab - \tab 1974 \cr
+   Total \tab 1740 \tab 48 \tab 137 \tab 271 \tab 2486 \tab 31 \tab 73 \tab 0 \tab 4786 \cr
 }
 }
 

@@ -35,11 +35,11 @@ A. It is wonderful that young people today have greater freedom to protest again
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1166/vshow}{GSS Data Explorer page for \code{ownthing}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 157 \tab 753 \tab 341 \tab 68 \tab 51 \tab 2 \tab 1372 \cr
-   1994 \tab 1518 \tab 201 \tab 725 \tab 404 \tab 101 \tab 31 \tab 12 \tab 2992 \cr
-   Total \tab 1518 \tab 358 \tab 1478 \tab 745 \tab 169 \tab 82 \tab 14 \tab 4364 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 157 \tab 753 \tab 341 \tab 68 \tab 51 \tab 2 \tab - \tab 1372 \cr
+   1994 \tab 1518 \tab 201 \tab 725 \tab 404 \tab 101 \tab 31 \tab 12 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 358 \tab 1478 \tab 745 \tab 169 \tab 82 \tab 14 \tab 0 \tab 4364 \cr
 }
 }
 

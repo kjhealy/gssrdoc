@@ -32,13 +32,13 @@ Question Do you have access to stress management or stress reduction programs at
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2835/vshow}{GSS Data Explorer page for \code{strredpg}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2010 \tab 857 \tab 404 \tab 712 \tab 48 \tab 23 \tab - \tab 2044 \cr
-   2014 \tab 1288 \tab 478 \tab 719 \tab 46 \tab 7 \tab - \tab 2538 \cr
-   2018 \tab 900 \tab 511 \tab 847 \tab 57 \tab 33 \tab - \tab 2348 \cr
-   2022 \tab 1555 \tab 879 \tab 1002 \tab 68 \tab 18 \tab 22 \tab 3544 \cr
-   Total \tab 4600 \tab 2272 \tab 3280 \tab 219 \tab 81 \tab 22 \tab 10474 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2010 \tab 857 \tab 404 \tab 712 \tab 48 \tab 23 \tab - \tab - \tab 2044 \cr
+   2014 \tab 1288 \tab 478 \tab 719 \tab 46 \tab 7 \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 511 \tab 847 \tab 57 \tab 33 \tab - \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 879 \tab 1002 \tab 68 \tab 18 \tab 22 \tab - \tab 3544 \cr
+   Total \tab 4600 \tab 2272 \tab 3280 \tab 219 \tab 81 \tab 22 \tab 0 \tab 10474 \cr
 }
 }
 

@@ -37,10 +37,10 @@ A. Deciding whether or not to buy an automobile.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1881/vshow}{GSS Data Explorer page for \code{decauto}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab husband alone \tab husband after consulting with wife \tab husband and wife together \tab wife after consulting husband \tab wife alone \tab other \tab no answer \tab see codebook \tab Total \cr
-   1996 \tab 2196 \tab 47 \tab 90 \tab 501 \tab 22 \tab 21 \tab 5 \tab 3 \tab 19 \tab 2904 \cr
-   Total \tab 2196 \tab 47 \tab 90 \tab 501 \tab 22 \tab 21 \tab 5 \tab 3 \tab 19 \tab 2904 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab husband alone \tab husband after consulting with wife \tab husband and wife together \tab wife after consulting husband \tab wife alone \tab other \tab no answer \tab see codebook \tab not available in this year \tab Total \cr
+   1996 \tab 2196 \tab 47 \tab 90 \tab 501 \tab 22 \tab 21 \tab 5 \tab 3 \tab 19 \tab - \tab 2904 \cr
+   Total \tab 2196 \tab 47 \tab 90 \tab 501 \tab 22 \tab 21 \tab 5 \tab 3 \tab 19 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -34,10 +34,11 @@ A. Refuse a job promotion?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1667/vshow}{GSS Data Explorer page for \code{refpromo}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 148 \tab 1192 \tab 1 \tab 119 \tab 2904 \cr
-   Total \tab 1444 \tab 148 \tab 1192 \tab 1 \tab 119 \tab 2904 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1444 \tab 148 \tab 1192 \tab 1 \tab 119 \tab - \tab - \tab 2904 \cr
+   2024 \tab 1162 \tab 177 \tab 1920 \tab 17 \tab 8 \tab - \tab 25 \tab 3309 \cr
+   Total \tab 2606 \tab 325 \tab 3112 \tab 18 \tab 127 \tab 0 \tab 25 \tab 6213 \cr
 }
 }
 

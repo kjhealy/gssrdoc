@@ -35,10 +35,10 @@ Question To what degree was your neighborhood affected by extreme weather over t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7503/vshow}{GSS Data Explorer page for \code{exweathr}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab not at all \tab to a small extent \tab to some extent \tab to a great extent \tab to a very great extent \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2003 \tab 301 \tab 554 \tab 591 \tab 212 \tab 98 \tab 64 \tab 201 \tab 8 \tab 4032 \cr
-   Total \tab 2003 \tab 301 \tab 554 \tab 591 \tab 212 \tab 98 \tab 64 \tab 201 \tab 8 \tab 4032 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab not at all \tab to a small extent \tab to some extent \tab to a great extent \tab to a very great extent \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2003 \tab 301 \tab 554 \tab 591 \tab 212 \tab 98 \tab 64 \tab 201 \tab 8 \tab - \tab 4032 \cr
+   Total \tab 2003 \tab 301 \tab 554 \tab 591 \tab 212 \tab 98 \tab 64 \tab 201 \tab 8 \tab 0 \tab 4032 \cr
 }
 }
 

@@ -32,11 +32,11 @@ Question A. Do you ever use the Web to learn about, view, or discuss topics rela
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2473/vshow}{GSS Data Explorer page for \code{wwwart}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2326 \tab 100 \tab 278 \tab 113 \tab 2817 \cr
-   2002 \tab 2284 \tab 91 \tab 344 \tab 46 \tab 2765 \cr
-   Total \tab 4610 \tab 191 \tab 622 \tab 159 \tab 5582 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2326 \tab 100 \tab 278 \tab 113 \tab - \tab 2817 \cr
+   2002 \tab 2284 \tab 91 \tab 344 \tab 46 \tab - \tab 2765 \cr
+   Total \tab 4610 \tab 191 \tab 622 \tab 159 \tab 0 \tab 5582 \cr
 }
 }
 

@@ -33,10 +33,10 @@ B7. Sex of seventh sibling.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1551/vshow}{GSS Data Explorer page for \code{sbsex7}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2583 \tab 196 \tab 185 \tab 4 \tab 24 \tab 2992 \cr
-   Total \tab 2583 \tab 196 \tab 185 \tab 4 \tab 24 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2583 \tab 196 \tab 185 \tab 4 \tab 24 \tab - \tab 2992 \cr
+   Total \tab 2583 \tab 196 \tab 185 \tab 4 \tab 24 \tab 0 \tab 2992 \cr
 }
 }
 

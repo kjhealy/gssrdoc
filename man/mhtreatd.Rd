@@ -33,10 +33,11 @@ Question Did you get treatment for your mental health problem?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7148/vshow}{GSS Data Explorer page for \code{mhtreatd}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2018 \tab 2116 \tab 187 \tab 10 \tab 35 \tab 2348 \cr
-   Total \tab 2116 \tab 187 \tab 10 \tab 35 \tab 2348 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2018 \tab 2116 \tab 187 \tab 10 \tab 35 \tab - \tab - \tab 2348 \cr
+   2024 \tab 2570 \tab 683 \tab 53 \tab 2 \tab - \tab 1 \tab 3309 \cr
+   Total \tab 4686 \tab 870 \tab 63 \tab 37 \tab 0 \tab 1 \tab 5657 \cr
 }
 }
 

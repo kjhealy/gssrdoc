@@ -33,10 +33,10 @@ Question B. And what about women?  Would you say that their treatment and opport
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/815/vshow}{GSS Data Explorer page for \code{femilop}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab military better \tab civilian better \tab no difference \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 267 \tab 474 \tab 625 \tab 83 \tab 24 \tab 1473 \cr
-   Total \tab 0 \tab 267 \tab 474 \tab 625 \tab 83 \tab 24 \tab 1473 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab military better \tab civilian better \tab no difference \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 267 \tab 474 \tab 625 \tab 83 \tab 24 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 267 \tab 474 \tab 625 \tab 83 \tab 24 \tab 0 \tab 1473 \cr
 }
 }
 

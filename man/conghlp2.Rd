@@ -34,10 +34,10 @@ Question If you had a problem or were faced with a difficult situation, how much
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2093/vshow}{GSS Data Explorer page for \code{conghlp2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a great deal \tab some \tab a little \tab none \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1797 \tab 435 \tab 240 \tab 82 \tab 48 \tab 64 \tab 166 \tab 2832 \cr
-   Total \tab 1797 \tab 435 \tab 240 \tab 82 \tab 48 \tab 64 \tab 166 \tab 2832 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal \tab some \tab a little \tab none \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1797 \tab 435 \tab 240 \tab 82 \tab 48 \tab 64 \tab 166 \tab - \tab 2832 \cr
+   Total \tab 1797 \tab 435 \tab 240 \tab 82 \tab 48 \tab 64 \tab 166 \tab 0 \tab 2832 \cr
 }
 }
 

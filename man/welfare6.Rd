@@ -36,10 +36,10 @@ F. Discourages young women who get pregnant from marrying the father of the chil
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5503/vshow}{GSS Data Explorer page for \code{welfare6}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1986 \tab - \tab 188 \tab 654 \tab 509 \tab 49 \tab 67 \tab 3 \tab 1470 \cr
-   Total \tab 0 \tab 188 \tab 654 \tab 509 \tab 49 \tab 67 \tab 3 \tab 1470 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab - \tab 188 \tab 654 \tab 509 \tab 49 \tab 67 \tab 3 \tab - \tab 1470 \cr
+   Total \tab 0 \tab 188 \tab 654 \tab 509 \tab 49 \tab 67 \tab 3 \tab 0 \tab 1470 \cr
 }
 }
 

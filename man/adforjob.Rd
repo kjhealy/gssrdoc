@@ -36,12 +36,12 @@ D. Advertised for a job in newspapers or journals?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4602/vshow}{GSS Data Explorer page for \code{adforjob}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab no \tab yes, once or twice \tab yes, more than twice \tab no answer \tab Total \cr
-   1998 \tab 2460 \tab 278 \tab 14 \tab 8 \tab 72 \tab 2832 \cr
-   2006 \tab 4008 \tab 478 \tab 11 \tab 9 \tab 4 \tab 4510 \cr
-   2016 \tab 2533 \tab 268 \tab 22 \tab 21 \tab 23 \tab 2867 \cr
-   Total \tab 9001 \tab 1024 \tab 47 \tab 38 \tab 99 \tab 10209 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab no \tab yes, once or twice \tab yes, more than twice \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2460 \tab 278 \tab 14 \tab 8 \tab 72 \tab - \tab 2832 \cr
+   2006 \tab 4008 \tab 478 \tab 11 \tab 9 \tab 4 \tab - \tab 4510 \cr
+   2016 \tab 2533 \tab 268 \tab 22 \tab 21 \tab 23 \tab - \tab 2867 \cr
+   Total \tab 9001 \tab 1024 \tab 47 \tab 38 \tab 99 \tab 0 \tab 10209 \cr
 }
 }
 

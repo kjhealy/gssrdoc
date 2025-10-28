@@ -41,16 +41,16 @@ A. In what branch of the service was that?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5286/vshow}{GSS Data Explorer page for \code{vetkind}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab several \tab air force guard \tab air force \tab navy \tab army \tab national guard \tab marines \tab coast guard \tab no answer \tab public health \tab Total \cr
-   1974 \tab 1142 \tab 8 \tab 2 \tab 50 \tab 72 \tab 174 \tab 8 \tab 16 \tab 4 \tab 8 \tab - \tab 1484 \cr
-   1975 \tab 1162 \tab 3 \tab - \tab 39 \tab 63 \tab 191 \tab 6 \tab 18 \tab 4 \tab 4 \tab - \tab 1490 \cr
-   1977 \tab 1188 \tab 3 \tab 1 \tab 49 \tab 57 \tab 195 \tab 9 \tab 16 \tab 4 \tab 8 \tab - \tab 1530 \cr
-   1978 \tab 1205 \tab 3 \tab 1 \tab 56 \tab 70 \tab 166 \tab 11 \tab 14 \tab 2 \tab 4 \tab - \tab 1532 \cr
-   1982 \tab 1543 \tab 1 \tab 1 \tab 46 \tab 52 \tab 174 \tab 9 \tab 22 \tab 3 \tab 8 \tab 1 \tab 1860 \cr
-   1983 \tab 1301 \tab 3 \tab 1 \tab 51 \tab 70 \tab 137 \tab 5 \tab 23 \tab 5 \tab 3 \tab - \tab 1599 \cr
-   1984 \tab 1205 \tab 4 \tab - \tab 40 \tab 48 \tab 118 \tab 5 \tab 25 \tab 2 \tab 26 \tab - \tab 1473 \cr
-   Total \tab 8746 \tab 25 \tab 6 \tab 331 \tab 432 \tab 1155 \tab 53 \tab 134 \tab 24 \tab 61 \tab 1 \tab 10968 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab several \tab air force guard \tab air force \tab navy \tab army \tab national guard \tab marines \tab coast guard \tab no answer \tab public health \tab not available in this year \tab Total \cr
+   1974 \tab 1142 \tab 8 \tab 2 \tab 50 \tab 72 \tab 174 \tab 8 \tab 16 \tab 4 \tab 8 \tab - \tab - \tab 1484 \cr
+   1975 \tab 1162 \tab 3 \tab - \tab 39 \tab 63 \tab 191 \tab 6 \tab 18 \tab 4 \tab 4 \tab - \tab - \tab 1490 \cr
+   1977 \tab 1188 \tab 3 \tab 1 \tab 49 \tab 57 \tab 195 \tab 9 \tab 16 \tab 4 \tab 8 \tab - \tab - \tab 1530 \cr
+   1978 \tab 1205 \tab 3 \tab 1 \tab 56 \tab 70 \tab 166 \tab 11 \tab 14 \tab 2 \tab 4 \tab - \tab - \tab 1532 \cr
+   1982 \tab 1543 \tab 1 \tab 1 \tab 46 \tab 52 \tab 174 \tab 9 \tab 22 \tab 3 \tab 8 \tab 1 \tab - \tab 1860 \cr
+   1983 \tab 1301 \tab 3 \tab 1 \tab 51 \tab 70 \tab 137 \tab 5 \tab 23 \tab 5 \tab 3 \tab - \tab - \tab 1599 \cr
+   1984 \tab 1205 \tab 4 \tab - \tab 40 \tab 48 \tab 118 \tab 5 \tab 25 \tab 2 \tab 26 \tab - \tab - \tab 1473 \cr
+   Total \tab 8746 \tab 25 \tab 6 \tab 331 \tab 432 \tab 1155 \tab 53 \tab 134 \tab 24 \tab 61 \tab 1 \tab 0 \tab 10968 \cr
 }
 }
 

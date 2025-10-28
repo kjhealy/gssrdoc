@@ -35,10 +35,10 @@ Question How effective do you think reducing use of public transportation is for
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3858/vshow}{GSS Data Explorer page for \code{eff911h}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 1 not at all effective \tab 2 \tab 3 \tab 4 \tab 5 extremely effective \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 671 \tab 823 \tab 138 \tab 193 \tab 44 \tab 64 \tab 83 \tab 7 \tab 2023 \cr
-   Total \tab 671 \tab 823 \tab 138 \tab 193 \tab 44 \tab 64 \tab 83 \tab 7 \tab 2023 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 1 not at all effective \tab 2 \tab 3 \tab 4 \tab 5 extremely effective \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 671 \tab 823 \tab 138 \tab 193 \tab 44 \tab 64 \tab 83 \tab 7 \tab - \tab 2023 \cr
+   Total \tab 671 \tab 823 \tab 138 \tab 193 \tab 44 \tab 64 \tab 83 \tab 7 \tab 0 \tab 2023 \cr
 }
 }
 

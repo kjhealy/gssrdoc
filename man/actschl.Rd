@@ -33,10 +33,10 @@ H. School service groups
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1003/vshow}{GSS Data Explorer page for \code{actschl}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1987 \tab 1578 \tab 158 \tab 52 \tab 31 \tab 1819 \cr
-   Total \tab 1578 \tab 158 \tab 52 \tab 31 \tab 1819 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 1578 \tab 158 \tab 52 \tab 31 \tab - \tab 1819 \cr
+   Total \tab 1578 \tab 158 \tab 52 \tab 31 \tab 0 \tab 1819 \cr
 }
 }
 

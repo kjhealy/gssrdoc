@@ -33,10 +33,10 @@ I. Hobby or garden clubs
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/988/vshow}{GSS Data Explorer page for \code{solhobby}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1987 \tab 1650 \tab 48 \tab 91 \tab 30 \tab 1819 \cr
-   Total \tab 1650 \tab 48 \tab 91 \tab 30 \tab 1819 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 1650 \tab 48 \tab 91 \tab 30 \tab - \tab 1819 \cr
+   Total \tab 1650 \tab 48 \tab 91 \tab 30 \tab 0 \tab 1819 \cr
 }
 }
 

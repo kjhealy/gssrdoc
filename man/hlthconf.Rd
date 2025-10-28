@@ -35,10 +35,10 @@ Question (During the past 4 weeks how often...) Have you lost confidence in your
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7823/vshow}{GSS Data Explorer page for \code{hlthconf}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab never \tab seldom \tab sometimes \tab often \tab very often \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2381 \tab 556 \tab 252 \tab 209 \tab 68 \tab 47 \tab 19 \tab 3 \tab 9 \tab 3544 \cr
-   Total \tab 2381 \tab 556 \tab 252 \tab 209 \tab 68 \tab 47 \tab 19 \tab 3 \tab 9 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab never \tab seldom \tab sometimes \tab often \tab very often \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 556 \tab 252 \tab 209 \tab 68 \tab 47 \tab 19 \tab 2381 \tab 3 \tab 9 \tab 3544 \cr
+   Total \tab 0 \tab 556 \tab 252 \tab 209 \tab 68 \tab 47 \tab 19 \tab 2381 \tab 3 \tab 9 \tab 3544 \cr
 }
 }
 

@@ -35,11 +35,11 @@ C. Tax records
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5225/vshow}{GSS Data Explorer page for \code{chktaxes}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 672 \tab 448 \tab 171 \tab 117 \tab 47 \tab 5 \tab 2904 \cr
-   1998 \tab 1445 \tab 528 \tab 445 \tab 221 \tab 129 \tab 53 \tab 11 \tab 2832 \cr
-   Total \tab 2889 \tab 1200 \tab 893 \tab 392 \tab 246 \tab 100 \tab 16 \tab 5736 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 672 \tab 448 \tab 171 \tab 117 \tab 47 \tab 5 \tab - \tab 2904 \cr
+   1998 \tab 1445 \tab 528 \tab 445 \tab 221 \tab 129 \tab 53 \tab 11 \tab - \tab 2832 \cr
+   Total \tab 2889 \tab 1200 \tab 893 \tab 392 \tab 246 \tab 100 \tab 16 \tab 0 \tab 5736 \cr
 }
 }
 

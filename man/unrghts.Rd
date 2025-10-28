@@ -33,10 +33,10 @@ Question Which of these two statements comes closer to your view?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4951/vshow}{GSS Data Explorer page for \code{unrghts}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab un should intervene \tab un should not intervene \tab dont know what the un is \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 1067 \tab 271 \tab 61 \tab 51 \tab 22 \tab 2812 \cr
-   Total \tab 1340 \tab 1067 \tab 271 \tab 61 \tab 51 \tab 22 \tab 2812 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab un should intervene \tab un should not intervene \tab dont know what the un is \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 1067 \tab 271 \tab 61 \tab 51 \tab 22 \tab - \tab 2812 \cr
+   Total \tab 1340 \tab 1067 \tab 271 \tab 61 \tab 51 \tab 22 \tab 0 \tab 2812 \cr
 }
 }
 

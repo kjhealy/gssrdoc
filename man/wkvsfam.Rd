@@ -34,16 +34,16 @@ Question How often do the demands of your job interfere with your family life?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2770/vshow}{GSS Data Explorer page for \code{wkvsfam}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2002 \tab 969 \tab 231 \tab 471 \tab 568 \tab 506 \tab 6 \tab 14 \tab - \tab 2765 \cr
-   2006 \tab 2776 \tab 196 \tab 524 \tab 525 \tab 470 \tab 8 \tab 11 \tab - \tab 4510 \cr
-   2010 \tab 857 \tab 171 \tab 351 \tab 377 \tab 264 \tab 1 \tab 23 \tab - \tab 2044 \cr
-   2012 \tab 795 \tab 151 \tab 339 \tab 354 \tab 302 \tab 5 \tab 28 \tab - \tab 1974 \cr
-   2014 \tab 1288 \tab 167 \tab 424 \tab 350 \tab 302 \tab 1 \tab 6 \tab - \tab 2538 \cr
-   2018 \tab 900 \tab 185 \tab 429 \tab 479 \tab 324 \tab 2 \tab 29 \tab - \tab 2348 \cr
-   2022 \tab 1541 \tab 218 \tab 645 \tab 669 \tab 447 \tab 2 \tab 10 \tab 12 \tab 3544 \cr
-   Total \tab 9126 \tab 1319 \tab 3183 \tab 3322 \tab 2615 \tab 25 \tab 121 \tab 12 \tab 19723 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2002 \tab 969 \tab 231 \tab 471 \tab 568 \tab 506 \tab 6 \tab 14 \tab - \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 196 \tab 524 \tab 525 \tab 470 \tab 8 \tab 11 \tab - \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 171 \tab 351 \tab 377 \tab 264 \tab 1 \tab 23 \tab - \tab - \tab 2044 \cr
+   2012 \tab 795 \tab 151 \tab 339 \tab 354 \tab 302 \tab 5 \tab 28 \tab - \tab - \tab 1974 \cr
+   2014 \tab 1288 \tab 167 \tab 424 \tab 350 \tab 302 \tab 1 \tab 6 \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 185 \tab 429 \tab 479 \tab 324 \tab 2 \tab 29 \tab - \tab - \tab 2348 \cr
+   2022 \tab 1541 \tab 218 \tab 645 \tab 669 \tab 447 \tab 2 \tab 10 \tab 12 \tab - \tab 3544 \cr
+   Total \tab 9126 \tab 1319 \tab 3183 \tab 3322 \tab 2615 \tab 25 \tab 121 \tab 12 \tab 0 \tab 19723 \cr
 }
 }
 

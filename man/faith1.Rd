@@ -34,11 +34,11 @@ A. Death in the family
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1099/vshow}{GSS Data Explorer page for \code{faith1}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
-   1988 \tab - \tab 404 \tab 567 \tab 444 \tab 45 \tab 21 \tab 1481 \cr
-   1998 \tab 1387 \tab 421 \tab 463 \tab 473 \tab 74 \tab 14 \tab 2832 \cr
-   Total \tab 1387 \tab 825 \tab 1030 \tab 917 \tab 119 \tab 35 \tab 4313 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 404 \tab 567 \tab 444 \tab 45 \tab 21 \tab - \tab 1481 \cr
+   1998 \tab 1387 \tab 421 \tab 463 \tab 473 \tab 74 \tab 14 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 825 \tab 1030 \tab 917 \tab 119 \tab 35 \tab 0 \tab 4313 \cr
 }
 }
 

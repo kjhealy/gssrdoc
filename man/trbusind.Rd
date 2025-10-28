@@ -32,10 +32,10 @@ Question How much do you trust business and industry?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7484/vshow}{GSS Data Explorer page for \code{trbusind}}.
 
-Counts by year:\tabular{lllllllllllllllll}{
-   year \tab iap \tab 0 - no trust \tab 1 \tab 10 - complete trust \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2003 \tab 67 \tab 45 \tab 22 \tab 134 \tab 218 \tab 249 \tab 571 \tab 210 \tab 193 \tab 80 \tab 16 \tab 60 \tab 155 \tab 9 \tab 4032 \cr
-   Total \tab 2003 \tab 67 \tab 45 \tab 22 \tab 134 \tab 218 \tab 249 \tab 571 \tab 210 \tab 193 \tab 80 \tab 16 \tab 60 \tab 155 \tab 9 \tab 4032 \cr
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab 0 - no trust \tab 1 \tab 10 - complete trust \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2003 \tab 67 \tab 45 \tab 22 \tab 134 \tab 218 \tab 249 \tab 571 \tab 210 \tab 193 \tab 80 \tab 16 \tab 60 \tab 155 \tab 9 \tab - \tab 4032 \cr
+   Total \tab 2003 \tab 67 \tab 45 \tab 22 \tab 134 \tab 218 \tab 249 \tab 571 \tab 210 \tab 193 \tab 80 \tab 16 \tab 60 \tab 155 \tab 9 \tab 0 \tab 4032 \cr
 }
 }
 

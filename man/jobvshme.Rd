@@ -34,10 +34,10 @@ Question In the last few years, how often would you say that your family or hous
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1364/vshow}{GSS Data Explorer page for \code{jobvshme}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab frequently \tab sometimes \tab seldom \tab never \tab no answer \tab Total \cr
-   1991 \tab 605 \tab 42 \tab 158 \tab 293 \tab 407 \tab 12 \tab 1517 \cr
-   Total \tab 605 \tab 42 \tab 158 \tab 293 \tab 407 \tab 12 \tab 1517 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab frequently \tab sometimes \tab seldom \tab never \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 605 \tab 42 \tab 158 \tab 293 \tab 407 \tab 12 \tab - \tab 1517 \cr
+   Total \tab 605 \tab 42 \tab 158 \tab 293 \tab 407 \tab 12 \tab 0 \tab 1517 \cr
 }
 }
 

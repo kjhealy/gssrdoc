@@ -33,11 +33,11 @@ E. Using the World Wide Web other than for e-mail?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2594/vshow}{GSS Data Explorer page for \code{wwwhro}}.
 
-Counts by year:\tabular{llllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 30 \tab 4 \tab 5 \tab 6 \tab 7 \tab no answer \tab 10 \tab 15 \tab 20 \tab 22 \tab 37 \tab 8 \tab don't know \tab Total \cr
-   2000 \tab 2665 \tab 57 \tab 22 \tab 8 \tab 4 \tab 1 \tab 2 \tab 2 \tab 2 \tab 1 \tab 53 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 2270 \tab 251 \tab 80 \tab 51 \tab 19 \tab - \tab 10 \tab 12 \tab 3 \tab 2 \tab 44 \tab 10 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4 \tab 4 \tab 2765 \cr
-   Total \tab 4935 \tab 308 \tab 102 \tab 59 \tab 23 \tab 1 \tab 12 \tab 14 \tab 5 \tab 3 \tab 97 \tab 10 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4 \tab 4 \tab 5582 \cr
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 30 \tab 4 \tab 5 \tab 6 \tab 7 \tab no answer \tab 10 \tab 15 \tab 20 \tab 22 \tab 37 \tab 8 \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2665 \tab 57 \tab 22 \tab 8 \tab 4 \tab 1 \tab 2 \tab 2 \tab 2 \tab 1 \tab 53 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2270 \tab 251 \tab 80 \tab 51 \tab 19 \tab - \tab 10 \tab 12 \tab 3 \tab 2 \tab 44 \tab 10 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4 \tab 4 \tab - \tab 2765 \cr
+   Total \tab 4935 \tab 308 \tab 102 \tab 59 \tab 23 \tab 1 \tab 12 \tab 14 \tab 5 \tab 3 \tab 97 \tab 10 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4 \tab 4 \tab 0 \tab 5582 \cr
 }
 }
 

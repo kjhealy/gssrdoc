@@ -33,10 +33,10 @@ Question B. Have you completed this informal on-the-job training?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2155/vshow}{GSS Data Explorer page for \code{doingfin}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab not yet/eventual \tab never ends \tab no answer \tab Total \cr
-   1998 \tab 1937 \tab 664 \tab 29 \tab 161 \tab 41 \tab 2832 \cr
-   Total \tab 1937 \tab 664 \tab 29 \tab 161 \tab 41 \tab 2832 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab not yet/eventual \tab never ends \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1937 \tab 664 \tab 29 \tab 161 \tab 41 \tab - \tab 2832 \cr
+   Total \tab 1937 \tab 664 \tab 29 \tab 161 \tab 41 \tab 0 \tab 2832 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question G. Law Enforcement. (Is law enforcement...?)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3543/vshow}{GSS Data Explorer page for \code{lawenfrc}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab haven't heard of it (volunteered) \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1469 \tab 72 \tab 159 \tab 154 \tab 100 \tab 1 \tab 16 \tab 3 \tab 1974 \cr
-   Total \tab 1469 \tab 72 \tab 159 \tab 154 \tab 100 \tab 1 \tab 16 \tab 3 \tab 1974 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab haven't heard of it (volunteered) \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1469 \tab 72 \tab 159 \tab 154 \tab 100 \tab 1 \tab 16 \tab 3 \tab - \tab 1974 \cr
+   Total \tab 1469 \tab 72 \tab 159 \tab 154 \tab 100 \tab 1 \tab 16 \tab 3 \tab 0 \tab 1974 \cr
 }
 }
 

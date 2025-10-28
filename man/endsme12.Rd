@@ -35,10 +35,10 @@ Question During the next 12 months, how difficult or easy do you think it will b
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7518/vshow}{GSS Data Explorer page for \code{endsme12}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab very difficult \tab fairly difficult \tab neither easy nor difficult \tab fairly easy \tab very easy \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2029 \tab 132 \tab 349 \tab 507 \tab 488 \tab 276 \tab 59 \tab 176 \tab 16 \tab 4032 \cr
-   Total \tab 2029 \tab 132 \tab 349 \tab 507 \tab 488 \tab 276 \tab 59 \tab 176 \tab 16 \tab 4032 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab very difficult \tab fairly difficult \tab neither easy nor difficult \tab fairly easy \tab very easy \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2029 \tab 132 \tab 349 \tab 507 \tab 488 \tab 276 \tab 59 \tab 176 \tab 16 \tab - \tab 4032 \cr
+   Total \tab 2029 \tab 132 \tab 349 \tab 507 \tab 488 \tab 276 \tab 59 \tab 176 \tab 16 \tab 0 \tab 4032 \cr
 }
 }
 

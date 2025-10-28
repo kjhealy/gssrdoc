@@ -34,11 +34,11 @@ F. Business or work contacts away from your workplace?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2600/vshow}{GSS Data Explorer page for \code{emwrkawy}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2423 \tab 149 \tab 186 \tab 59 \tab 2817 \cr
-   2002 \tab 2167 \tab 274 \tab 283 \tab 41 \tab 2765 \cr
-   Total \tab 4590 \tab 423 \tab 469 \tab 100 \tab 5582 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2423 \tab 149 \tab 186 \tab 59 \tab - \tab 2817 \cr
+   2002 \tab 2167 \tab 274 \tab 283 \tab 41 \tab - \tab 2765 \cr
+   Total \tab 4590 \tab 423 \tab 469 \tab 100 \tab 0 \tab 5582 \cr
 }
 }
 

@@ -37,11 +37,11 @@ B. A same sex male couple can bring up a child as well as a male-female couple.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4458/vshow}{GSS Data Explorer page for \code{ssmchild}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2012 \tab 672 \tab 116 \tab 411 \tab 158 \tab 330 \tab 213 \tab 63 \tab 11 \tab - \tab 1974 \cr
-   2022 \tab 2381 \tab 285 \tab 385 \tab 186 \tab 148 \tab 85 \tab 58 \tab 10 \tab 6 \tab 3544 \cr
-   Total \tab 3053 \tab 401 \tab 796 \tab 344 \tab 478 \tab 298 \tab 121 \tab 21 \tab 6 \tab 5518 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2012 \tab 672 \tab 116 \tab 411 \tab 158 \tab 330 \tab 213 \tab 63 \tab 11 \tab - \tab - \tab 1974 \cr
+   2022 \tab 2381 \tab 285 \tab 385 \tab 186 \tab 148 \tab 85 \tab 58 \tab 10 \tab 6 \tab - \tab 3544 \cr
+   Total \tab 3053 \tab 401 \tab 796 \tab 344 \tab 478 \tab 298 \tab 121 \tab 21 \tab 6 \tab 0 \tab 5518 \cr
 }
 }
 

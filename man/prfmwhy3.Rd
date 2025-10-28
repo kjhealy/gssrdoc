@@ -33,10 +33,10 @@ Question How big a reason was wanting to socialize with family or friends in you
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6223/vshow}{GSS Data Explorer page for \code{prfmwhy3}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab major reason \tab minor reason \tab not a reason \tab no answer \tab Total \cr
-   2016 \tab 2433 \tab 229 \tab 98 \tab 98 \tab 9 \tab 2867 \cr
-   Total \tab 2433 \tab 229 \tab 98 \tab 98 \tab 9 \tab 2867 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab major reason \tab minor reason \tab not a reason \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2433 \tab 229 \tab 98 \tab 98 \tab 9 \tab - \tab 2867 \cr
+   Total \tab 2433 \tab 229 \tab 98 \tab 98 \tab 9 \tab 0 \tab 2867 \cr
 }
 }
 

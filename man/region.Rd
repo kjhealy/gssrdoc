@@ -15,15 +15,10 @@ Question A. REGION OF INTERVIEW
 \section{Values}{
 
 \itemize{
-\item \verb{[1]} new england
-\item \verb{[2]} middle atlantic
-\item \verb{[3]} east north central
-\item \verb{[4]} west north central
-\item \verb{[5]} south atlantic
-\item \verb{[6]} east south central
-\item \verb{[7]} west south central
-\item \verb{[8]} mountain
-\item \verb{[9]} pacific
+\item \verb{[1]} northeast
+\item \verb{[2]} midwest
+\item \verb{[3]} south
+\item \verb{[4]} west
 \item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
@@ -41,43 +36,44 @@ Question A. REGION OF INTERVIEW
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/119/vshow}{GSS Data Explorer page for \code{region}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab new england \tab middle atlantic \tab east north central \tab west north central \tab south atlantic \tab east south atlantic \tab west south central \tab mountain \tab pacific \tab Total \cr
-   1972 \tab 90 \tab 298 \tab 305 \tab 141 \tab 218 \tab 84 \tab 197 \tab 56 \tab 224 \tab 1613 \cr
-   1973 \tab 75 \tab 268 \tab 333 \tab 95 \tab 284 \tab 75 \tab 121 \tab 59 \tab 194 \tab 1504 \cr
-   1974 \tab 71 \tab 257 \tab 334 \tab 95 \tab 282 \tab 75 \tab 120 \tab 55 \tab 195 \tab 1484 \cr
-   1975 \tab 64 \tab 262 \tab 329 \tab 100 \tab 295 \tab 84 \tab 121 \tab 61 \tab 174 \tab 1490 \cr
-   1976 \tab 70 \tab 270 \tab 321 \tab 103 \tab 282 \tab 85 \tab 114 \tab 64 \tab 190 \tab 1499 \cr
-   1977 \tab 62 \tab 239 \tab 371 \tab 85 \tab 313 \tab 76 \tab 119 \tab 61 \tab 204 \tab 1530 \cr
-   1978 \tab 72 \tab 263 \tab 327 \tab 116 \tab 305 \tab 85 \tab 112 \tab 66 \tab 186 \tab 1532 \cr
-   1980 \tab 53 \tab 239 \tab 306 \tab 102 \tab 267 \tab 111 \tab 120 \tab 79 \tab 191 \tab 1468 \cr
-   1982 \tab 63 \tab 331 \tab 402 \tab 110 \tab 379 \tab 149 \tab 148 \tab 58 \tab 220 \tab 1860 \cr
-   1983 \tab 85 \tab 254 \tab 330 \tab 154 \tab 252 \tab 101 \tab 135 \tab 88 \tab 200 \tab 1599 \cr
-   1984 \tab 78 \tab 217 \tab 282 \tab 134 \tab 249 \tab 118 \tab 128 \tab 86 \tab 181 \tab 1473 \cr
-   1985 \tab 94 \tab 201 \tab 270 \tab 140 \tab 264 \tab 123 \tab 150 \tab 102 \tab 190 \tab 1534 \cr
-   1986 \tab 86 \tab 217 \tab 270 \tab 134 \tab 252 \tab 116 \tab 119 \tab 88 \tab 188 \tab 1470 \cr
-   1987 \tab 78 \tab 263 \tab 362 \tab 144 \tab 389 \tab 150 \tab 141 \tab 103 \tab 189 \tab 1819 \cr
-   1988 \tab 80 \tab 209 \tab 268 \tab 139 \tab 265 \tab 105 \tab 134 \tab 105 \tab 176 \tab 1481 \cr
-   1989 \tab 82 \tab 221 \tab 256 \tab 145 \tab 293 \tab 114 \tab 122 \tab 92 \tab 212 \tab 1537 \cr
-   1990 \tab 73 \tab 200 \tab 243 \tab 134 \tab 238 \tab 105 \tab 115 \tab 85 \tab 179 \tab 1372 \cr
-   1991 \tab 92 \tab 207 \tab 262 \tab 118 \tab 301 \tab 114 \tab 129 \tab 79 \tab 215 \tab 1517 \cr
-   1993 \tab 60 \tab 230 \tab 299 \tab 118 \tab 278 \tab 129 \tab 152 \tab 86 \tab 254 \tab 1606 \cr
-   1994 \tab 150 \tab 416 \tab 484 \tab 231 \tab 575 \tab 203 \tab 317 \tab 202 \tab 414 \tab 2992 \cr
-   1996 \tab 157 \tab 412 \tab 489 \tab 210 \tab 542 \tab 209 \tab 265 \tab 200 \tab 420 \tab 2904 \cr
-   1998 \tab 141 \tab 428 \tab 492 \tab 204 \tab 532 \tab 189 \tab 300 \tab 188 \tab 358 \tab 2832 \cr
-   2000 \tab 139 \tab 429 \tab 467 \tab 203 \tab 510 \tab 195 \tab 301 \tab 182 \tab 391 \tab 2817 \cr
-   2002 \tab 141 \tab 435 \tab 478 \tab 223 \tab 486 \tab 199 \tab 272 \tab 165 \tab 366 \tab 2765 \cr
-   2004 \tab 86 \tab 363 \tab 494 \tab 203 \tab 611 \tab 161 \tab 312 \tab 203 \tab 379 \tab 2812 \cr
-   2006 \tab 163 \tab 548 \tab 762 \tab 276 \tab 1011 \tab 255 \tab 479 \tab 364 \tab 652 \tab 4510 \cr
-   2008 \tab 81 \tab 274 \tab 349 \tab 120 \tab 443 \tab 97 \tab 210 \tab 154 \tab 295 \tab 2023 \cr
-   2010 \tab 76 \tab 262 \tab 357 \tab 117 \tab 438 \tab 130 \tab 219 \tab 144 \tab 301 \tab 2044 \cr
-   2012 \tab 113 \tab 222 \tab 330 \tab 127 \tab 423 \tab 128 \tab 191 \tab 148 \tab 292 \tab 1974 \cr
-   2014 \tab 126 \tab 309 \tab 428 \tab 145 \tab 512 \tab 151 \tab 263 \tab 224 \tab 380 \tab 2538 \cr
-   2016 \tab 175 \tab 313 \tab 502 \tab 193 \tab 550 \tab 205 \tab 297 \tab 235 \tab 397 \tab 2867 \cr
-   2018 \tab 124 \tab 232 \tab 388 \tab 125 \tab 513 \tab 163 \tab 277 \tab 183 \tab 343 \tab 2348 \cr
-   2021 \tab 203 \tab 414 \tab 676 \tab 314 \tab 800 \tab 270 \tab 426 \tab 345 \tab 584 \tab 4032 \cr
-   2022 \tab 177 \tab 348 \tab 577 \tab 221 \tab 817 \tab 229 \tab 369 \tab 296 \tab 510 \tab 3544 \cr
-   Total \tab 3480 \tab 10051 \tab 13143 \tab 5219 \tab 14169 \tab 4783 \tab 6995 \tab 4706 \tab 9844 \tab 72390 \cr
+Counts by year:\tabular{llllll}{
+   year \tab northeast \tab midwest \tab south \tab west \tab Total \cr
+   1972 \tab 388 \tab 446 \tab 499 \tab 280 \tab 1613 \cr
+   1973 \tab 343 \tab 428 \tab 480 \tab 253 \tab 1504 \cr
+   1974 \tab 328 \tab 429 \tab 477 \tab 250 \tab 1484 \cr
+   1975 \tab 326 \tab 429 \tab 500 \tab 235 \tab 1490 \cr
+   1976 \tab 340 \tab 424 \tab 481 \tab 254 \tab 1499 \cr
+   1977 \tab 301 \tab 456 \tab 508 \tab 265 \tab 1530 \cr
+   1978 \tab 335 \tab 443 \tab 502 \tab 252 \tab 1532 \cr
+   1980 \tab 292 \tab 408 \tab 498 \tab 270 \tab 1468 \cr
+   1982 \tab 394 \tab 512 \tab 676 \tab 278 \tab 1860 \cr
+   1983 \tab 339 \tab 484 \tab 488 \tab 288 \tab 1599 \cr
+   1984 \tab 295 \tab 416 \tab 495 \tab 267 \tab 1473 \cr
+   1985 \tab 295 \tab 410 \tab 537 \tab 292 \tab 1534 \cr
+   1986 \tab 303 \tab 404 \tab 487 \tab 276 \tab 1470 \cr
+   1987 \tab 341 \tab 506 \tab 680 \tab 292 \tab 1819 \cr
+   1988 \tab 289 \tab 407 \tab 504 \tab 281 \tab 1481 \cr
+   1989 \tab 303 \tab 401 \tab 529 \tab 304 \tab 1537 \cr
+   1990 \tab 273 \tab 377 \tab 458 \tab 264 \tab 1372 \cr
+   1991 \tab 299 \tab 380 \tab 544 \tab 294 \tab 1517 \cr
+   1993 \tab 290 \tab 417 \tab 559 \tab 340 \tab 1606 \cr
+   1994 \tab 566 \tab 715 \tab 1095 \tab 616 \tab 2992 \cr
+   1996 \tab 569 \tab 699 \tab 1016 \tab 620 \tab 2904 \cr
+   1998 \tab 569 \tab 696 \tab 1021 \tab 546 \tab 2832 \cr
+   2000 \tab 568 \tab 670 \tab 1006 \tab 573 \tab 2817 \cr
+   2002 \tab 576 \tab 701 \tab 957 \tab 531 \tab 2765 \cr
+   2004 \tab 449 \tab 697 \tab 1084 \tab 582 \tab 2812 \cr
+   2006 \tab 711 \tab 1038 \tab 1745 \tab 1016 \tab 4510 \cr
+   2008 \tab 355 \tab 469 \tab 750 \tab 449 \tab 2023 \cr
+   2010 \tab 338 \tab 474 \tab 787 \tab 445 \tab 2044 \cr
+   2012 \tab 335 \tab 457 \tab 742 \tab 440 \tab 1974 \cr
+   2014 \tab 435 \tab 573 \tab 926 \tab 604 \tab 2538 \cr
+   2016 \tab 488 \tab 695 \tab 1052 \tab 632 \tab 2867 \cr
+   2018 \tab 356 \tab 513 \tab 953 \tab 526 \tab 2348 \cr
+   2021 \tab 617 \tab 990 \tab 1496 \tab 929 \tab 4032 \cr
+   2022 \tab 525 \tab 798 \tab 1415 \tab 806 \tab 3544 \cr
+   2024 \tab 541 \tab 812 \tab 1310 \tab 646 \tab 3309 \cr
+   Total \tab 14072 \tab 19174 \tab 27257 \tab 15196 \tab 75699 \cr
 }
 }
 

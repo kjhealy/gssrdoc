@@ -35,11 +35,11 @@ A. Only a few people have the knowledge and ability to judge excellence in the a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1422/vshow}{GSS Data Explorer page for \code{judgeart}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 87 \tab 642 \tab 614 \tab 139 \tab 107 \tab 17 \tab 1606 \cr
-   1998 \tab 1387 \tab 98 \tab 439 \tab 526 \tab 213 \tab 156 \tab 13 \tab 2832 \cr
-   Total \tab 1387 \tab 185 \tab 1081 \tab 1140 \tab 352 \tab 263 \tab 30 \tab 4438 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 87 \tab 642 \tab 614 \tab 139 \tab 107 \tab 17 \tab - \tab 1606 \cr
+   1998 \tab 1387 \tab 98 \tab 439 \tab 526 \tab 213 \tab 156 \tab 13 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 185 \tab 1081 \tab 1140 \tab 352 \tab 263 \tab 30 \tab 0 \tab 4438 \cr
 }
 }
 

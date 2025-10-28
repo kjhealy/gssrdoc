@@ -59,7 +59,8 @@ Counts by year:\tabular{lllllllllllllllll}{
    2016 \tab 979 \tab 12 \tab 20 \tab 63 \tab 44 \tab 100 \tab 174 \tab 356 \tab 414 \tab 339 \tab 226 \tab 115 \tab 25 \tab - \tab - \tab 2867 \cr
    2018 \tab 789 \tab 14 \tab 26 \tab 52 \tab 45 \tab 100 \tab 151 \tab 272 \tab 338 \tab 266 \tab 191 \tab 92 \tab 12 \tab - \tab - \tab 2348 \cr
    2022 \tab 1168 \tab 13 \tab 48 \tab 146 \tab 74 \tab 111 \tab 193 \tab 305 \tab 425 \tab 358 \tab 347 \tab 281 \tab - \tab - \tab 75 \tab 3544 \cr
-   Total \tab 17600 \tab 241 \tab 635 \tab 1814 \tab 1110 \tab 2025 \tab 3461 \tab 5590 \tab 7435 \tab 5449 \tab 3770 \tab 2721 \tab 1459 \tab 0 \tab 75 \tab 53385 \cr
+   2024 \tab 1126 \tab 15 \tab 50 \tab 113 \tab 55 \tab 133 \tab 178 \tab 278 \tab 380 \tab 330 \tab 333 \tab 293 \tab - \tab - \tab 25 \tab 3309 \cr
+   Total \tab 18726 \tab 256 \tab 685 \tab 1927 \tab 1165 \tab 2158 \tab 3639 \tab 5868 \tab 7815 \tab 5779 \tab 4103 \tab 3014 \tab 1459 \tab 0 \tab 100 \tab 56694 \cr
 }
 }
 

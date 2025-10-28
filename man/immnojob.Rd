@@ -35,10 +35,10 @@ C. People born in the U.S. losing their jobs?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2309/vshow}{GSS Data Explorer page for \code{immnojob}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 351 \tab 453 \tab 402 \tab 135 \tab 48 \tab 9 \tab 2817 \cr
-   Total \tab 1419 \tab 351 \tab 453 \tab 402 \tab 135 \tab 48 \tab 9 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 351 \tab 453 \tab 402 \tab 135 \tab 48 \tab 9 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 351 \tab 453 \tab 402 \tab 135 \tab 48 \tab 9 \tab 0 \tab 2817 \cr
 }
 }
 

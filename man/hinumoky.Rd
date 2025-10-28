@@ -34,10 +34,10 @@ RECORD UNDER "A" BELOW.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/786/vshow}{GSS Data Explorer page for \code{hinumoky}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab too many \tab about right number \tab should be more \tab don't know \tab no answer \tab Total \cr
-   1982 \tab 923 \tab 55 \tab 445 \tab 277 \tab 150 \tab 10 \tab 1860 \cr
-   Total \tab 923 \tab 55 \tab 445 \tab 277 \tab 150 \tab 10 \tab 1860 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too many \tab about right number \tab should be more \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab 923 \tab 55 \tab 445 \tab 277 \tab 150 \tab 10 \tab - \tab 1860 \cr
+   Total \tab 923 \tab 55 \tab 445 \tab 277 \tab 150 \tab 10 \tab 0 \tab 1860 \cr
 }
 }
 

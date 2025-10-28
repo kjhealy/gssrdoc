@@ -37,14 +37,14 @@ D. Modern science will solve our environmental problems with little change to ou
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4724/vshow}{GSS Data Explorer page for \code{scigrn}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   1993 \tab 49 \tab 36 \tab 257 \tab 301 \tab 689 \tab 161 \tab 54 \tab 59 \tab - \tab 1606 \cr
-   1994 \tab 1606 \tab 28 \tab 231 \tab 298 \tab 577 \tab 159 \tab 50 \tab 43 \tab - \tab 2992 \cr
-   2000 \tab 1541 \tab 35 \tab 219 \tab 335 \tab 446 \tab 104 \tab 56 \tab 81 \tab - \tab 2817 \cr
-   2010 \tab 614 \tab 26 \tab 299 \tab 356 \tab 539 \tab 111 \tab 94 \tab 5 \tab - \tab 2044 \cr
-   2021 \tab 2003 \tab 35 \tab 241 \tab 525 \tab 691 \tab 280 \tab 86 \tab 164 \tab 7 \tab 4032 \cr
-   Total \tab 5813 \tab 160 \tab 1247 \tab 1815 \tab 2942 \tab 815 \tab 340 \tab 352 \tab 7 \tab 13491 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 36 \tab 257 \tab 301 \tab 689 \tab 161 \tab 54 \tab 59 \tab - \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 28 \tab 231 \tab 298 \tab 577 \tab 159 \tab 50 \tab 43 \tab - \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 35 \tab 219 \tab 335 \tab 446 \tab 104 \tab 56 \tab 81 \tab - \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 26 \tab 299 \tab 356 \tab 539 \tab 111 \tab 94 \tab 5 \tab - \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 35 \tab 241 \tab 525 \tab 691 \tab 280 \tab 86 \tab 164 \tab 7 \tab - \tab 4032 \cr
+   Total \tab 5813 \tab 160 \tab 1247 \tab 1815 \tab 2942 \tab 815 \tab 340 \tab 352 \tab 7 \tab 0 \tab 13491 \cr
 }
 }
 

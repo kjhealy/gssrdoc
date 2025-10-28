@@ -34,10 +34,10 @@ Question Experiment about goldfish and temperature.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3476/vshow}{GSS Data Explorer page for \code{goldfish}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab experiment a \tab experiment b \tab experiment c \tab experiment d \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 709 \tab 761 \tab 84 \tab 116 \tab 77 \tab 248 \tab 28 \tab 2023 \cr
-   Total \tab 709 \tab 761 \tab 84 \tab 116 \tab 77 \tab 248 \tab 28 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab experiment a \tab experiment b \tab experiment c \tab experiment d \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 709 \tab 761 \tab 84 \tab 116 \tab 77 \tab 248 \tab 28 \tab - \tab 2023 \cr
+   Total \tab 709 \tab 761 \tab 84 \tab 116 \tab 77 \tab 248 \tab 28 \tab 0 \tab 2023 \cr
 }
 }
 

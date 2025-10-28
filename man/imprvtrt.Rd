@@ -36,12 +36,13 @@ Question In your opinion, how likely is it that NAME's situation will improve wi
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2002/vshow}{GSS Data Explorer page for \code{imprvtrt}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 690 \tab 590 \tab 53 \tab 50 \tab 42 \tab 19 \tab 2904 \cr
-   2006 \tab 3073 \tab 673 \tab 621 \tab 53 \tab 21 \tab 55 \tab 14 \tab 4510 \cr
-   2018 \tab 1175 \tab 577 \tab 468 \tab 51 \tab 29 \tab 20 \tab 28 \tab 2348 \cr
-   Total \tab 5708 \tab 1940 \tab 1679 \tab 157 \tab 100 \tab 117 \tab 61 \tab 9762 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab not likely at all \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 690 \tab 590 \tab 53 \tab 50 \tab 42 \tab 19 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 673 \tab 621 \tab 53 \tab 21 \tab 55 \tab 14 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 577 \tab 468 \tab 51 \tab 29 \tab 20 \tab 28 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1691 \tab 607 \tab 792 \tab 108 \tab 51 \tab 26 \tab 8 \tab - \tab 26 \tab 3309 \cr
+   Total \tab 7399 \tab 2547 \tab 2471 \tab 265 \tab 151 \tab 143 \tab 69 \tab 0 \tab 26 \tab 13071 \cr
 }
 }
 

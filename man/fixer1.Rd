@@ -31,10 +31,10 @@ G. Most important reason from above
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1846/vshow}{GSS Data Explorer page for \code{fixer1}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2721 \tab 44 \tab 27 \tab 10 \tab 31 \tab 6 \tab 53 \tab 2 \tab 10 \tab 2904 \cr
-   Total \tab 2721 \tab 44 \tab 27 \tab 10 \tab 31 \tab 6 \tab 53 \tab 2 \tab 10 \tab 2904 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2721 \tab 44 \tab 27 \tab 10 \tab 31 \tab 6 \tab 53 \tab 2 \tab 10 \tab - \tab 2904 \cr
+   Total \tab 2721 \tab 44 \tab 27 \tab 10 \tab 31 \tab 6 \tab 53 \tab 2 \tab 10 \tab 0 \tab 2904 \cr
 }
 }
 

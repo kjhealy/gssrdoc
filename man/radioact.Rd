@@ -36,16 +36,16 @@ B. All radioactivity is man-made. (Is that true or false?)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3335/vshow}{GSS Data Explorer page for \code{radioact}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 269 \tab 1292 \tab 302 \tab 1 \tab 4510 \cr
-   2008 \tab 518 \tab 293 \tab 1026 \tab 176 \tab 10 \tab 2023 \cr
-   2010 \tab 1103 \tab 175 \tab 625 \tab 139 \tab 2 \tab 2044 \cr
-   2012 \tab 972 \tab 176 \tab 706 \tab 114 \tab 6 \tab 1974 \cr
-   2014 \tab 1299 \tab 208 \tab 894 \tab 134 \tab 3 \tab 2538 \cr
-   2016 \tab 1477 \tab 255 \tab 964 \tab 160 \tab 11 \tab 2867 \cr
-   2018 \tab 1173 \tab 235 \tab 802 \tab 135 \tab 3 \tab 2348 \cr
-   Total \tab 9188 \tab 1611 \tab 6309 \tab 1160 \tab 36 \tab 18304 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 269 \tab 1292 \tab 302 \tab 1 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 293 \tab 1026 \tab 176 \tab 10 \tab - \tab 2023 \cr
+   2010 \tab 1103 \tab 175 \tab 625 \tab 139 \tab 2 \tab - \tab 2044 \cr
+   2012 \tab 972 \tab 176 \tab 706 \tab 114 \tab 6 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 208 \tab 894 \tab 134 \tab 3 \tab - \tab 2538 \cr
+   2016 \tab 1477 \tab 255 \tab 964 \tab 160 \tab 11 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 235 \tab 802 \tab 135 \tab 3 \tab - \tab 2348 \cr
+   Total \tab 9188 \tab 1611 \tab 6309 \tab 1160 \tab 36 \tab 0 \tab 18304 \cr
 }
 }
 

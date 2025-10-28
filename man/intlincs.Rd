@@ -37,11 +37,12 @@ A. Large international companies are doing more and more damage to local busines
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4883/vshow}{GSS Data Explorer page for \code{intlincs}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1596 \tab 272 \tab 435 \tab 287 \tab 150 \tab 17 \tab 54 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 217 \tab 568 \tab 269 \tab 132 \tab 17 \tab 68 \tab 3 \tab 2538 \cr
-   Total \tab 2860 \tab 489 \tab 1003 \tab 556 \tab 282 \tab 34 \tab 122 \tab 4 \tab 5350 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2004 \tab 1596 \tab 272 \tab 435 \tab 287 \tab 150 \tab 17 \tab 54 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 217 \tab 568 \tab 269 \tab 132 \tab 17 \tab 68 \tab 3 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1663 \tab 277 \tab 671 \tab 410 \tab 120 \tab 17 \tab 129 \tab 3 \tab - \tab 19 \tab 3309 \cr
+   Total \tab 4523 \tab 766 \tab 1674 \tab 966 \tab 402 \tab 51 \tab 251 \tab 7 \tab 0 \tab 19 \tab 8659 \cr
 }
 }
 

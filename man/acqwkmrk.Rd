@@ -37,10 +37,10 @@ A. How many of the people you are acquainted with through work are named Mark?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3632/vshow}{GSS Data Explorer page for \code{acqwkmrk}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab I don't have a job \tab no answer \tab Total \cr
-   2006 \tab 4009 \tab 248 \tab 116 \tab 98 \tab 9 \tab 5 \tab 13 \tab 5 \tab 7 \tab 4510 \cr
-   Total \tab 4009 \tab 248 \tab 116 \tab 98 \tab 9 \tab 5 \tab 13 \tab 5 \tab 7 \tab 4510 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab I don't have a job \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 4009 \tab 248 \tab 116 \tab 98 \tab 9 \tab 5 \tab 13 \tab 5 \tab 7 \tab - \tab 4510 \cr
+   Total \tab 4009 \tab 248 \tab 116 \tab 98 \tab 9 \tab 5 \tab 13 \tab 5 \tab 7 \tab 0 \tab 4510 \cr
 }
 }
 

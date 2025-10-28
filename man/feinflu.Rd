@@ -35,10 +35,10 @@ Question People have different opinions about the amount of influence that vario
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1043/vshow}{GSS Data Explorer page for \code{feinflu}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab far too much \tab too much \tab right amount \tab too little \tab far too little \tab don't know \tab no answer \tab Total \cr
-   1987 \tab 778 \tab 8 \tab 43 \tab 375 \tab 461 \tab 118 \tab 25 \tab 11 \tab 1819 \cr
-   Total \tab 778 \tab 8 \tab 43 \tab 375 \tab 461 \tab 118 \tab 25 \tab 11 \tab 1819 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab far too much \tab too much \tab right amount \tab too little \tab far too little \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 778 \tab 8 \tab 43 \tab 375 \tab 461 \tab 118 \tab 25 \tab 11 \tab - \tab 1819 \cr
+   Total \tab 778 \tab 8 \tab 43 \tab 375 \tab 461 \tab 118 \tab 25 \tab 11 \tab 0 \tab 1819 \cr
 }
 }
 

@@ -37,10 +37,10 @@ Overall, I expect more good things to happen to me than bad.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6202/vshow}{GSS Data Explorer page for \code{lotr6}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly disagree \tab disagree \tab neutral \tab agree \tab strongly agree \tab no answer \tab Total \cr
-   2016 \tab 1409 \tab 39 \tab 90 \tab 196 \tab 843 \tab 280 \tab 10 \tab 2867 \cr
-   Total \tab 1409 \tab 39 \tab 90 \tab 196 \tab 843 \tab 280 \tab 10 \tab 2867 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly disagree \tab disagree \tab neutral \tab agree \tab strongly agree \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1409 \tab 39 \tab 90 \tab 196 \tab 843 \tab 280 \tab 10 \tab - \tab 2867 \cr
+   Total \tab 1409 \tab 39 \tab 90 \tab 196 \tab 843 \tab 280 \tab 10 \tab 0 \tab 2867 \cr
 }
 }
 

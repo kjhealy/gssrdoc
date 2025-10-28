@@ -37,10 +37,10 @@ A. I prefer that my doctor offers me choices and asks my opinion.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2740/vshow}{GSS Data Explorer page for \code{docaskme}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab moderately agree \tab slightly agree \tab slightly disagree \tab moderately disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2002 \tab - \tab 1986 \tab 521 \tab 145 \tab 43 \tab 31 \tab 19 \tab 15 \tab 5 \tab 2765 \cr
-   Total \tab 0 \tab 1986 \tab 521 \tab 145 \tab 43 \tab 31 \tab 19 \tab 15 \tab 5 \tab 2765 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab moderately agree \tab slightly agree \tab slightly disagree \tab moderately disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab - \tab 1986 \tab 521 \tab 145 \tab 43 \tab 31 \tab 19 \tab 15 \tab 5 \tab - \tab 2765 \cr
+   Total \tab 0 \tab 1986 \tab 521 \tab 145 \tab 43 \tab 31 \tab 19 \tab 15 \tab 5 \tab 0 \tab 2765 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Was the home new or previously owned?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1815/vshow}{GSS Data Explorer page for \code{newowned}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab new \tab previously owned \tab no answer \tab Total \cr
-   1996 \tab 2451 \tab 134 \tab 318 \tab 1 \tab 2904 \cr
-   Total \tab 2451 \tab 134 \tab 318 \tab 1 \tab 2904 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab new \tab previously owned \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2451 \tab 134 \tab 318 \tab 1 \tab - \tab 2904 \cr
+   Total \tab 2451 \tab 134 \tab 318 \tab 1 \tab 0 \tab 2904 \cr
 }
 }
 

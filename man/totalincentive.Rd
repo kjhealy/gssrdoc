@@ -31,10 +31,10 @@ Question TOTAL INCENTIVE FOR CASE, INCLUDING PRE- AND POST- INCENTIVE FOR BASELI
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7976/vshow}{GSS Data Explorer page for \code{totalincentive}}.
 
-Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllll}{
-   year \tab iap \tab 102 \tab 104 \tab 107 \tab 109 \tab 112 \tab 117 \tab 119 \tab 122 \tab 127 \tab 132 \tab 134 \tab 137 \tab 142 \tab 144 \tab 147 \tab 152 \tab 157 \tab 159 \tab 162 \tab 167 \tab 169 \tab 177 \tab 182 \tab 187 \tab $200+ in total payments \tab 52 \tab 54 \tab 57 \tab 59 \tab 62 \tab 67 \tab 69 \tab 72 \tab 77 \tab 82 \tab 84 \tab 87 \tab 92 \tab 94 \tab 97 \tab Total \cr
-   2022 \tab - \tab 440 \tab 2 \tab 98 \tab 96 \tab 94 \tab 8 \tab 13 \tab 109 \tab 303 \tab 30 \tab 32 \tab 267 \tab 5 \tab 27 \tab 58 \tab 97 \tab 41 \tab 1 \tab 46 \tab 5 \tab 1 \tab 46 \tab 7 \tab 5 \tab 824 \tab 233 \tab 2 \tab 15 \tab 86 \tab 57 \tab 4 \tab 11 \tab 19 \tab 103 \tab 6 \tab 15 \tab 298 \tab 5 \tab 28 \tab 7 \tab 3544 \cr
-   Total \tab 0 \tab 440 \tab 2 \tab 98 \tab 96 \tab 94 \tab 8 \tab 13 \tab 109 \tab 303 \tab 30 \tab 32 \tab 267 \tab 5 \tab 27 \tab 58 \tab 97 \tab 41 \tab 1 \tab 46 \tab 5 \tab 1 \tab 46 \tab 7 \tab 5 \tab 824 \tab 233 \tab 2 \tab 15 \tab 86 \tab 57 \tab 4 \tab 11 \tab 19 \tab 103 \tab 6 \tab 15 \tab 298 \tab 5 \tab 28 \tab 7 \tab 3544 \cr
+Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab not available in this year \tab 102 \tab 104 \tab 107 \tab 109 \tab 112 \tab 117 \tab 119 \tab 12 \tab 122 \tab 127 \tab 132 \tab 134 \tab 137 \tab 142 \tab 144 \tab 147 \tab 152 \tab 157 \tab 159 \tab 162 \tab 167 \tab 169 \tab 177 \tab 182 \tab 187 \tab 2 \tab $200+ in total payments \tab 27 \tab 32 \tab 37 \tab 42 \tab 52 \tab 54 \tab 57 \tab 59 \tab 62 \tab 67 \tab 69 \tab 7 \tab 70 \tab 72 \tab 77 \tab 82 \tab 84 \tab 87 \tab 92 \tab 94 \tab 97 \tab not available in this release \tab Total \cr
+   2022 \tab - \tab 424 \tab 2 \tab 89 \tab 92 \tab 93 \tab 8 \tab 13 \tab 4 \tab 102 \tab 292 \tab 29 \tab 31 \tab 262 \tab 5 \tab 26 \tab 54 \tab 95 \tab 39 \tab 1 \tab 45 \tab 4 \tab 1 \tab 41 \tab 6 \tab 5 \tab 41 \tab 802 \tab 28 \tab 8 \tab 11 \tab 5 \tab 218 \tab 2 \tab 12 \tab 81 \tab 54 \tab 4 \tab 11 \tab 44 \tab 2 \tab 17 \tab 95 \tab 4 \tab 15 \tab 292 \tab 4 \tab 25 \tab 6 \tab - \tab 3544 \cr
+   Total \tab 0 \tab 424 \tab 2 \tab 89 \tab 92 \tab 93 \tab 8 \tab 13 \tab 4 \tab 102 \tab 292 \tab 29 \tab 31 \tab 262 \tab 5 \tab 26 \tab 54 \tab 95 \tab 39 \tab 1 \tab 45 \tab 4 \tab 1 \tab 41 \tab 6 \tab 5 \tab 41 \tab 802 \tab 28 \tab 8 \tab 11 \tab 5 \tab 218 \tab 2 \tab 12 \tab 81 \tab 54 \tab 4 \tab 11 \tab 44 \tab 2 \tab 17 \tab 95 \tab 4 \tab 15 \tab 292 \tab 4 \tab 25 \tab 6 \tab 0 \tab 3544 \cr
 }
 }
 

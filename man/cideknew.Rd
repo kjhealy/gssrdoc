@@ -31,12 +31,12 @@ Question Within the past 12 months, how many people have you known personally th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4990/vshow}{GSS Data Explorer page for \code{cideknew}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab seven or more \tab no answer \tab Total \cr
-   1988 \tab - \tab 1325 \tab 95 \tab 36 \tab 13 \tab 4 \tab 4 \tab 1 \tab 1 \tab 2 \tab 1481 \cr
-   1989 \tab - \tab 1375 \tab 103 \tab 34 \tab 16 \tab 4 \tab 1 \tab - \tab 1 \tab 3 \tab 1537 \cr
-   1990 \tab - \tab 1244 \tab 81 \tab 27 \tab 11 \tab 4 \tab 2 \tab 1 \tab - \tab 2 \tab 1372 \cr
-   Total \tab 0 \tab 3944 \tab 279 \tab 97 \tab 40 \tab 12 \tab 7 \tab 2 \tab 2 \tab 7 \tab 4390 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab seven or more \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 1325 \tab 95 \tab 36 \tab 13 \tab 4 \tab 4 \tab 1 \tab 1 \tab 2 \tab - \tab 1481 \cr
+   1989 \tab - \tab 1375 \tab 103 \tab 34 \tab 16 \tab 4 \tab 1 \tab - \tab 1 \tab 3 \tab - \tab 1537 \cr
+   1990 \tab - \tab 1244 \tab 81 \tab 27 \tab 11 \tab 4 \tab 2 \tab 1 \tab - \tab 2 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 3944 \tab 279 \tab 97 \tab 40 \tab 12 \tab 7 \tab 2 \tab 2 \tab 7 \tab 0 \tab 4390 \cr
 }
 }
 

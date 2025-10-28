@@ -33,10 +33,10 @@ Question Leaving aside what you think of abortion for yourself, do you think a w
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7172/vshow}{GSS Data Explorer page for \code{abfelegl}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab should \tab should not \tab it depends \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1052 \tab 481 \tab 193 \tab 581 \tab 9 \tab 32 \tab 2348 \cr
-   Total \tab 1052 \tab 481 \tab 193 \tab 581 \tab 9 \tab 32 \tab 2348 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab should \tab should not \tab it depends \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1052 \tab 481 \tab 193 \tab 581 \tab 9 \tab 32 \tab - \tab 2348 \cr
+   Total \tab 1052 \tab 481 \tab 193 \tab 581 \tab 9 \tab 32 \tab 0 \tab 2348 \cr
 }
 }
 

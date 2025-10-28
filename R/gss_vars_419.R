@@ -22,11 +22,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |Total |
-#'  |:-----|:----|:---|:--|:-----|
-#'  |2008  |1983 |23  |17 |2023  |
-#'  |2012  |1946 |14  |14 |1974  |
-#'  |Total |3929 |37  |31 |3997  |
+#'  |year  |iap  |yes |no |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--------------------------|:-----|
+#'  |2008  |1983 |23  |17 |-                          |2023  |
+#'  |2012  |1946 |14  |14 |-                          |1974  |
+#'  |Total |3929 |37  |31 |0                          |3997  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -63,11 +63,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |Total |
-#'  |:-----|:----|:---|:--|:-----|
-#'  |2008  |1968 |24  |31 |2023  |
-#'  |2012  |1928 |15  |31 |1974  |
-#'  |Total |3896 |39  |62 |3997  |
+#'  |year  |iap  |yes |no |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--------------------------|:-----|
+#'  |2008  |1968 |24  |31 |-                          |2023  |
+#'  |2012  |1928 |15  |31 |-                          |1974  |
+#'  |Total |3896 |39  |62 |0                          |3997  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -114,11 +114,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |protestant |catholic |jewish |none |other |buddhism |hinduism |other eastern religions |muslim/islam |orthodox-christian |christian |inter-nondenominational |don't know |no answer |Total |
-#'  |:-----|:----|:----------|:--------|:------|:----|:-----|:--------|:--------|:-----------------------|:------------|:------------------|:---------|:-----------------------|:----------|:---------|:-----|
-#'  |2008  |1261 |352        |173      |14     |153  |5     |2        |5        |4                       |9            |1                  |35        |6                       |1          |2         |2023  |
-#'  |2012  |1955 |2          |-        |9      |7    |1     |-        |-        |-                       |-            |-                  |-         |-                       |-          |-         |1974  |
-#'  |Total |3216 |354        |173      |23     |160  |6     |2        |5        |4                       |9            |1                  |35        |6                       |1          |2         |3997  |
+#'  |year  |iap  |protestant |catholic |jewish |none |other |buddhism |hinduism |other eastern religions |muslim/islam |orthodox-christian |christian |inter-nondenominational |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:--------|:------|:----|:-----|:--------|:--------|:-----------------------|:------------|:------------------|:---------|:-----------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |1261 |352        |173      |14     |153  |5     |2        |5        |4                       |9            |1                  |35        |6                       |1          |2         |-                          |2023  |
+#'  |2012  |1955 |2          |-        |9      |7    |1     |-        |-        |-                       |-            |-                  |-         |-                       |-          |-         |-                          |1974  |
+#'  |Total |3216 |354        |173      |23     |160  |6     |2        |5        |4                       |9            |1                  |35        |6                       |1          |2         |0                          |3997  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -167,11 +167,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |protestant |catholic |jewish |none |other |buddhism |hinduism |other eastern religions |muslim/islam |orthodox-christian |christian |inter-nondenominational |don't know |no answer |Total |
-#'  |:-----|:----|:----------|:--------|:------|:----|:-----|:--------|:--------|:-----------------------|:------------|:------------------|:---------|:-----------------------|:----------|:---------|:-----|
-#'  |2008  |1570 |207        |114      |11     |80   |5     |3        |1        |3                       |5            |1                  |16        |5                       |1          |1         |2023  |
-#'  |2012  |1962 |-          |-        |8      |4    |-     |-        |-        |-                       |-            |-                  |-         |-                       |-          |-         |1974  |
-#'  |Total |3532 |207        |114      |19     |84   |5     |3        |1        |3                       |5            |1                  |16        |5                       |1          |1         |3997  |
+#'  |year  |iap  |protestant |catholic |jewish |none |other |buddhism |hinduism |other eastern religions |muslim/islam |orthodox-christian |christian |inter-nondenominational |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:--------|:------|:----|:-----|:--------|:--------|:-----------------------|:------------|:------------------|:---------|:-----------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |1570 |207        |114      |11     |80   |5     |3        |1        |3                       |5            |1                  |16        |5                       |1          |1         |-                          |2023  |
+#'  |2012  |1962 |-          |-        |8      |4    |-     |-        |-        |-                       |-            |-                  |-         |-                       |-          |-         |-                          |1974  |
+#'  |Total |3532 |207        |114      |19     |84   |5     |3        |1        |3                       |5            |1                  |16        |5                       |1          |1         |0                          |3997  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -221,11 +221,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |protestant |catholic |jewish |none |other |buddhism |other eastern religions |muslim/islam |orthodox-christian |christian |inter-nondenominational |no answer |Total |
-#'  |:-----|:----|:----------|:--------|:------|:----|:-----|:--------|:-----------------------|:------------|:------------------|:---------|:-----------------------|:---------|:-----|
-#'  |2008  |1843 |92         |38       |5      |27   |4     |1        |1                       |1            |1                  |6         |2                       |2         |2023  |
-#'  |2012  |1972 |-          |-        |1      |-    |1     |-        |-                       |-            |-                  |-         |-                       |-         |1974  |
-#'  |Total |3815 |92         |38       |6      |27   |5     |1        |1                       |1            |1                  |6         |2                       |2         |3997  |
+#'  |year  |iap  |protestant |catholic |jewish |none |other |buddhism |other eastern religions |muslim/islam |orthodox-christian |christian |inter-nondenominational |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:--------|:------|:----|:-----|:--------|:-----------------------|:------------|:------------------|:---------|:-----------------------|:---------|:--------------------------|:-----|
+#'  |2008  |1843 |92         |38       |5      |27   |4     |1        |1                       |1            |1                  |6         |2                       |2         |-                          |2023  |
+#'  |2012  |1972 |-          |-        |1      |-    |1     |-        |-                       |-            |-                  |-         |-                       |-         |-                          |1974  |
+#'  |Total |3815 |92         |38       |6      |27   |5     |1        |1                       |1            |1                  |6         |2                       |2         |0                          |3997  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -274,10 +274,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |protestant |catholic |jewish |none |buddhism |muslim/islam |christian |no answer |Total |
-#'  |:-----|:----|:----------|:--------|:------|:----|:--------|:------------|:---------|:---------|:-----|
-#'  |2008  |1960 |33         |13       |3      |9    |1        |1            |2         |1         |2023  |
-#'  |Total |1960 |33         |13       |3      |9    |1        |1            |2         |1         |2023  |
+#'  |year  |iap  |protestant |catholic |jewish |none |buddhism |muslim/islam |christian |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:--------|:------|:----|:--------|:------------|:---------|:---------|:--------------------------|:-----|
+#'  |2008  |1960 |33         |13       |3      |9    |1        |1            |2         |1         |-                          |2023  |
+#'  |Total |1960 |33         |13       |3      |9    |1        |1            |2         |1         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -326,10 +326,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |protestant |catholic |jewish |none |christian |inter-nondenominational |Total |
-#'  |:-----|:----|:----------|:--------|:------|:----|:---------|:-----------------------|:-----|
-#'  |2008  |2007 |7          |4        |2      |1    |1         |1                       |2023  |
-#'  |Total |2007 |7          |4        |2      |1    |1         |1                       |2023  |
+#'  |year  |iap  |protestant |catholic |jewish |none |christian |inter-nondenominational |not available in this year |Total |
+#'  |:-----|:----|:----------|:--------|:------|:----|:---------|:-----------------------|:--------------------------|:-----|
+#'  |2008  |2007 |7          |4        |2      |1    |1         |1                       |-                          |2023  |
+#'  |Total |2007 |7          |4        |2      |1    |1         |1                       |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -378,10 +378,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |protestant |inter-nondenominational |Total |
-#'  |:-----|:----|:----------|:-----------------------|:-----|
-#'  |2008  |2020 |2          |1                       |2023  |
-#'  |Total |2020 |2          |1                       |2023  |
+#'  |year  |iap  |protestant |inter-nondenominational |not available in this year |Total |
+#'  |:-----|:----|:----------|:-----------------------|:--------------------------|:-----|
+#'  |2008  |2020 |2          |1                       |-                          |2023  |
+#'  |Total |2020 |2          |1                       |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -430,10 +430,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |other |Total |
-#'  |:-----|:----|:-----|:-----|
-#'  |2008  |2022 |1     |2023  |
-#'  |Total |2022 |1     |2023  |
+#'  |year  |iap  |other |not available in this year |Total |
+#'  |:-----|:----|:-----|:--------------------------|:-----|
+#'  |2008  |2022 |1     |-                          |2023  |
+#'  |Total |2022 |1     |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity
@@ -482,10 +482,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |protestant |Total |
-#'  |:-----|:----|:----------|:-----|
-#'  |2008  |2022 |1          |2023  |
-#'  |Total |2022 |1          |2023  |
+#'  |year  |iap  |protestant |not available in this year |Total |
+#'  |:-----|:----|:----------|:--------------------------|:-----|
+#'  |2008  |2022 |1          |-                          |2023  |
+#'  |Total |2022 |1          |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jewish Identity

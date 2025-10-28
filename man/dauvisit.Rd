@@ -38,10 +38,10 @@ A. How often do you see or visit with your daughter?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4144/vshow}{GSS Data Explorer page for \code{dauvisit}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab lives in hshld \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab Total \cr
-   1986 \tab 978 \tab 69 \tab 66 \tab 78 \tab 78 \tab 71 \tab 70 \tab 57 \tab 3 \tab 1470 \cr
-   Total \tab 978 \tab 69 \tab 66 \tab 78 \tab 78 \tab 71 \tab 70 \tab 57 \tab 3 \tab 1470 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab lives in hshld \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 978 \tab 69 \tab 66 \tab 78 \tab 78 \tab 71 \tab 70 \tab 57 \tab 3 \tab - \tab 1470 \cr
+   Total \tab 978 \tab 69 \tab 66 \tab 78 \tab 78 \tab 71 \tab 70 \tab 57 \tab 3 \tab 0 \tab 1470 \cr
 }
 }
 

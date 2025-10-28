@@ -34,12 +34,12 @@ A. After marrying and before you had children?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4396/vshow}{GSS Data Explorer page for \code{rwrknokd}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes, full-time \tab yes,part-time \tab no \tab don't know \tab no answer \tab Total \cr
-   1988 \tab 1148 \tab 192 \tab 38 \tab 82 \tab 7 \tab 14 \tab 1481 \cr
-   1994 \tab 1545 \tab 800 \tab 66 \tab 137 \tab 87 \tab 357 \tab 2992 \cr
-   2002 \tab 1936 \tab 631 \tab 57 \tab 69 \tab 60 \tab 12 \tab 2765 \cr
-   Total \tab 4629 \tab 1623 \tab 161 \tab 288 \tab 154 \tab 383 \tab 7238 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, full-time \tab yes,part-time \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 1148 \tab 192 \tab 38 \tab 82 \tab 7 \tab 14 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 800 \tab 66 \tab 137 \tab 87 \tab 357 \tab - \tab 2992 \cr
+   2002 \tab 1936 \tab 631 \tab 57 \tab 69 \tab 60 \tab 12 \tab - \tab 2765 \cr
+   Total \tab 4629 \tab 1623 \tab 161 \tab 288 \tab 154 \tab 383 \tab 0 \tab 7238 \cr
 }
 }
 

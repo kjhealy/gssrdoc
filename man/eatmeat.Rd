@@ -32,10 +32,10 @@ Question In a typical week, on how many days do you eat beef, lamb, or products 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7499/vshow}{GSS Data Explorer page for \code{eatmeat}}.
 
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab none \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 days \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2003 \tab 214 \tab 315 \tab 365 \tab 342 \tab 206 \tab 163 \tab 67 \tab 123 \tab 34 \tab 192 \tab 8 \tab 4032 \cr
-   Total \tab 2003 \tab 214 \tab 315 \tab 365 \tab 342 \tab 206 \tab 163 \tab 67 \tab 123 \tab 34 \tab 192 \tab 8 \tab 4032 \cr
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab none \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 days \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2003 \tab 214 \tab 315 \tab 365 \tab 342 \tab 206 \tab 163 \tab 67 \tab 123 \tab 34 \tab 192 \tab 8 \tab - \tab 4032 \cr
+   Total \tab 2003 \tab 214 \tab 315 \tab 365 \tab 342 \tab 206 \tab 163 \tab 67 \tab 123 \tab 34 \tab 192 \tab 8 \tab 0 \tab 4032 \cr
 }
 }
 

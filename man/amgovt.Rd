@@ -36,12 +36,13 @@ F. To respect America's political institutions and laws
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4832/vshow}{GSS Data Explorer page for \code{amgovt}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 856 \tab 377 \tab 68 \tab 23 \tab 26 \tab 17 \tab 2904 \cr
-   2004 \tab 1596 \tab 871 \tab 288 \tab 36 \tab 11 \tab 9 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 802 \tab 355 \tab 55 \tab 30 \tab 27 \tab 5 \tab 2538 \cr
-   Total \tab 4397 \tab 2529 \tab 1020 \tab 159 \tab 64 \tab 62 \tab 23 \tab 8254 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 856 \tab 377 \tab 68 \tab 23 \tab 26 \tab 17 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 871 \tab 288 \tab 36 \tab 11 \tab 9 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 802 \tab 355 \tab 55 \tab 30 \tab 27 \tab 5 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1661 \tab 929 \tab 485 \tab 108 \tab 50 \tab 57 \tab 4 \tab - \tab 15 \tab 3309 \cr
+   Total \tab 6058 \tab 3458 \tab 1505 \tab 267 \tab 114 \tab 119 \tab 27 \tab 0 \tab 15 \tab 11563 \cr
 }
 }
 

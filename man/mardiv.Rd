@@ -36,10 +36,10 @@ I. Couples don''t take marriage seriously enough when divorce is easily availabl
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4372/vshow}{GSS Data Explorer page for \code{mardiv}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 293 \tab 603 \tab 227 \tab 195 \tab 47 \tab 26 \tab 23 \tab 1481 \cr
-   Total \tab 67 \tab 293 \tab 603 \tab 227 \tab 195 \tab 47 \tab 26 \tab 23 \tab 1481 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 293 \tab 603 \tab 227 \tab 195 \tab 47 \tab 26 \tab 23 \tab - \tab 1481 \cr
+   Total \tab 67 \tab 293 \tab 603 \tab 227 \tab 195 \tab 47 \tab 26 \tab 23 \tab 0 \tab 1481 \cr
 }
 }
 
@@ -47,16 +47,11 @@ Counts by year:\tabular{llllllllll}{
 Other ISSP Family & Gender Roles: 
 \code{\link{fourkids}},
 \code{\link{kidtrble}},
-\code{\link{marhomo}},
 \code{\link{nokids}},
 \code{\link{numkids}},
 \code{\link{onekid}},
 \code{\link{threkids}},
 \code{\link{twokids}}
-
-Other Marriage: 
-\code{\link{marhomo}},
-\code{\link{marhomo1}}
 }
 \concept{ISSP Family & Gender Roles}
 \concept{Marriage}

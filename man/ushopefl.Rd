@@ -36,10 +36,10 @@ F. When you think about the United States, how often do you feel HOPEFUL? Do you
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1794/vshow}{GSS Data Explorer page for \code{ushopefl}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab always \tab most of the time \tab some of the time \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2199 \tab 148 \tab 238 \tab 241 \tab 50 \tab 15 \tab 11 \tab 2 \tab 2904 \cr
-   Total \tab 2199 \tab 148 \tab 238 \tab 241 \tab 50 \tab 15 \tab 11 \tab 2 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab always \tab most of the time \tab some of the time \tab rarely \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2199 \tab 148 \tab 238 \tab 241 \tab 50 \tab 15 \tab 11 \tab 2 \tab - \tab 2904 \cr
+   Total \tab 2199 \tab 148 \tab 238 \tab 241 \tab 50 \tab 15 \tab 11 \tab 2 \tab 0 \tab 2904 \cr
 }
 }
 

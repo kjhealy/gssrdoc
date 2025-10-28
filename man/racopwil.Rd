@@ -33,10 +33,10 @@ Question B. In the next five years, do you think that opportunities for blacks t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/414/vshow}{GSS Data Explorer page for \code{racopwil}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab improve \tab remain same \tab get worse \tab don't know \tab no answer \tab Total \cr
-   1982 \tab 1350 \tab 177 \tab 168 \tab 145 \tab 14 \tab 6 \tab 1860 \cr
-   Total \tab 1350 \tab 177 \tab 168 \tab 145 \tab 14 \tab 6 \tab 1860 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab improve \tab remain same \tab get worse \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab 1350 \tab 177 \tab 168 \tab 145 \tab 14 \tab 6 \tab - \tab 1860 \cr
+   Total \tab 1350 \tab 177 \tab 168 \tab 145 \tab 14 \tab 6 \tab 0 \tab 1860 \cr
 }
 }
 

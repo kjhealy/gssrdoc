@@ -34,12 +34,12 @@ C. After the youngest child started school?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4398/vshow}{GSS Data Explorer page for \code{rwrksch}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes, full-time \tab yes,part-time \tab no \tab don't know \tab no answer \tab Total \cr
-   1988 \tab 1148 \tab 103 \tab 69 \tab 87 \tab 55 \tab 19 \tab 1481 \cr
-   1994 \tab 1545 \tab 619 \tab 131 \tab 128 \tab 189 \tab 380 \tab 2992 \cr
-   2002 \tab 1936 \tab 481 \tab 118 \tab 88 \tab 130 \tab 12 \tab 2765 \cr
-   Total \tab 4629 \tab 1203 \tab 318 \tab 303 \tab 374 \tab 411 \tab 7238 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes, full-time \tab yes,part-time \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 1148 \tab 103 \tab 69 \tab 87 \tab 55 \tab 19 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 619 \tab 131 \tab 128 \tab 189 \tab 380 \tab - \tab 2992 \cr
+   2002 \tab 1936 \tab 481 \tab 118 \tab 88 \tab 130 \tab 12 \tab - \tab 2765 \cr
+   Total \tab 4629 \tab 1203 \tab 318 \tab 303 \tab 374 \tab 411 \tab 0 \tab 7238 \cr
 }
 }
 

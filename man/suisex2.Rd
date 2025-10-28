@@ -33,11 +33,11 @@ A. Was that person male or female?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5032/vshow}{GSS Data Explorer page for \code{suisex2}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab Total \cr
-   1990 \tab 1347 \tab 14 \tab 8 \tab 1 \tab 2 \tab 1372 \cr
-   1991 \tab 1477 \tab 28 \tab 9 \tab - \tab 3 \tab 1517 \cr
-   Total \tab 2824 \tab 42 \tab 17 \tab 1 \tab 5 \tab 2889 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 1347 \tab 14 \tab 8 \tab 1 \tab 2 \tab - \tab 1372 \cr
+   1991 \tab 1477 \tab 28 \tab 9 \tab - \tab 3 \tab - \tab 1517 \cr
+   Total \tab 2824 \tab 42 \tab 17 \tab 1 \tab 5 \tab 0 \tab 2889 \cr
 }
 }
 

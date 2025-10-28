@@ -16,8 +16,9 @@ As of 2024, BABIES_EXP has been recoded to only account for 0 to 2+ children you
 \section{Values}{
 
 \itemize{
-\item \verb{[0]} 0 household members under 6
-\item \verb{[8]} 8 or more
+\item \verb{[0]} 0
+\item \verb{[1]} 1
+\item \verb{[2]} 2 or more
 \item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
@@ -33,19 +34,22 @@ As of 2024, BABIES_EXP has been recoded to only account for 0 to 2+ children you
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7998/vshow}{GSS Data Explorer page for \code{babies_exp}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab 0 household members under 6 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 1788 \tab 1457 \tab 178 \tab 73 \tab 22 \tab 8 \tab 1 \tab 9 \tab 8 \tab 3544 \cr
-   Total \tab 1788 \tab 1457 \tab 178 \tab 73 \tab 22 \tab 8 \tab 1 \tab 9 \tab 8 \tab 3544 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab not available in this year \tab 0 \tab 1 \tab 2 or more \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 1457 \tab 178 \tab 104 \tab 1788 \tab 9 \tab 8 \tab 3544 \cr
+   2024 \tab - \tab 1369 \tab 151 \tab 84 \tab 1684 \tab 3 \tab 18 \tab 3309 \cr
+   Total \tab 0 \tab 2826 \tab 329 \tab 188 \tab 3472 \tab 12 \tab 26 \tab 6853 \cr
 }
 }
 
 \seealso{
 Other Core: 
-\code{\link{hompop_exp}}
+\code{\link{preteen_exp}},
+\code{\link{teens_exp}}
 
 Other Household: 
-\code{\link{hompop_exp}}
+\code{\link{preteen_exp}},
+\code{\link{teens_exp}}
 }
 \concept{Core}
 \concept{Household}

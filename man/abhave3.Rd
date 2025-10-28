@@ -34,10 +34,10 @@ C. You did not think you could afford another child?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/701/vshow}{GSS Data Explorer page for \code{abhave3}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1977 \tab - \tab 427 \tab 1043 \tab 47 \tab 13 \tab 1530 \cr
-   Total \tab 0 \tab 427 \tab 1043 \tab 47 \tab 13 \tab 1530 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1977 \tab - \tab 427 \tab 1043 \tab 47 \tab 13 \tab - \tab 1530 \cr
+   Total \tab 0 \tab 427 \tab 1043 \tab 47 \tab 13 \tab 0 \tab 1530 \cr
 }
 }
 

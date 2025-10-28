@@ -34,25 +34,25 @@ Question B. IF NO OR DON''T KNOW TO A:  Where half of the children are (Whites/(
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/396/vshow}{GSS Data Explorer page for \code{rachaf}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab yes, object \tab no \tab don't know \tab iap \tab no answer \tab Total \cr
-   1972 \tab 216 \tab 997 \tab 38 \tab 357 \tab 5 \tab 1613 \cr
-   1974 \tab 298 \tab 889 \tab 38 \tab 240 \tab 19 \tab 1484 \cr
-   1975 \tab 271 \tab 912 \tab 48 \tab 253 \tab 6 \tab 1490 \cr
-   1977 \tab 232 \tab 990 \tab 23 \tab 274 \tab 11 \tab 1530 \cr
-   1978 \tab 257 \tab 1156 \tab 42 \tab 70 \tab 7 \tab 1532 \cr
-   1982 \tab 256 \tab 1447 \tab 44 \tab 104 \tab 9 \tab 1860 \cr
-   1983 \tab 267 \tab 1209 \tab 37 \tab 78 \tab 8 \tab 1599 \cr
-   1985 \tab 237 \tab 1195 \tab 29 \tab 64 \tab 9 \tab 1534 \cr
-   1986 \tab 246 \tab 1113 \tab 33 \tab 70 \tab 8 \tab 1470 \cr
-   1988 \tab 148 \tab 773 \tab 22 \tab 534 \tab 4 \tab 1481 \cr
-   1989 \tab 163 \tab 757 \tab 36 \tab 573 \tab 8 \tab 1537 \cr
-   1990 \tab 213 \tab 1074 \tab 37 \tab 42 \tab 6 \tab 1372 \cr
-   1991 \tab 146 \tab 813 \tab 22 \tab 526 \tab 10 \tab 1517 \cr
-   1993 \tab 148 \tab 850 \tab 31 \tab 573 \tab 4 \tab 1606 \cr
-   1994 \tab 230 \tab 1616 \tab 45 \tab 1086 \tab 15 \tab 2992 \cr
-   1996 \tab 140 \tab 793 \tab 15 \tab 1942 \tab 14 \tab 2904 \cr
-   Total \tab 3468 \tab 16584 \tab 540 \tab 6786 \tab 143 \tab 27521 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab yes, object \tab no \tab don't know \tab iap \tab no answer \tab not available in this year \tab Total \cr
+   1972 \tab 216 \tab 997 \tab 38 \tab 357 \tab 5 \tab - \tab 1613 \cr
+   1974 \tab 298 \tab 889 \tab 38 \tab 240 \tab 19 \tab - \tab 1484 \cr
+   1975 \tab 271 \tab 912 \tab 48 \tab 253 \tab 6 \tab - \tab 1490 \cr
+   1977 \tab 232 \tab 990 \tab 23 \tab 274 \tab 11 \tab - \tab 1530 \cr
+   1978 \tab 257 \tab 1156 \tab 42 \tab 70 \tab 7 \tab - \tab 1532 \cr
+   1982 \tab 256 \tab 1447 \tab 44 \tab 104 \tab 9 \tab - \tab 1860 \cr
+   1983 \tab 267 \tab 1209 \tab 37 \tab 78 \tab 8 \tab - \tab 1599 \cr
+   1985 \tab 237 \tab 1195 \tab 29 \tab 64 \tab 9 \tab - \tab 1534 \cr
+   1986 \tab 246 \tab 1113 \tab 33 \tab 70 \tab 8 \tab - \tab 1470 \cr
+   1988 \tab 148 \tab 773 \tab 22 \tab 534 \tab 4 \tab - \tab 1481 \cr
+   1989 \tab 163 \tab 757 \tab 36 \tab 573 \tab 8 \tab - \tab 1537 \cr
+   1990 \tab 213 \tab 1074 \tab 37 \tab 42 \tab 6 \tab - \tab 1372 \cr
+   1991 \tab 146 \tab 813 \tab 22 \tab 526 \tab 10 \tab - \tab 1517 \cr
+   1993 \tab 148 \tab 850 \tab 31 \tab 573 \tab 4 \tab - \tab 1606 \cr
+   1994 \tab 230 \tab 1616 \tab 45 \tab 1086 \tab 15 \tab - \tab 2992 \cr
+   1996 \tab 140 \tab 793 \tab 15 \tab 1942 \tab 14 \tab - \tab 2904 \cr
+   Total \tab 3468 \tab 16584 \tab 540 \tab 6786 \tab 143 \tab 0 \tab 27521 \cr
 }
 }
 

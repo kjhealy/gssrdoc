@@ -36,12 +36,13 @@ C. America''s economic achievements
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4842/vshow}{GSS Data Explorer page for \code{proudeco}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 374 \tab 675 \tab 194 \tab 39 \tab 53 \tab 32 \tab 2904 \cr
-   2004 \tab 1596 \tab 462 \tab 562 \tab 132 \tab 25 \tab 33 \tab 2 \tab 2812 \cr
-   2014 \tab 1264 \tab 302 \tab 589 \tab 230 \tab 70 \tab 80 \tab 3 \tab 2538 \cr
-   Total \tab 4397 \tab 1138 \tab 1826 \tab 556 \tab 134 \tab 166 \tab 37 \tab 8254 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 374 \tab 675 \tab 194 \tab 39 \tab 53 \tab 32 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 462 \tab 562 \tab 132 \tab 25 \tab 33 \tab 2 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 302 \tab 589 \tab 230 \tab 70 \tab 80 \tab 3 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1661 \tab 352 \tab 698 \tab 309 \tab 137 \tab 129 \tab 7 \tab - \tab 16 \tab 3309 \cr
+   Total \tab 6058 \tab 1490 \tab 2524 \tab 865 \tab 271 \tab 295 \tab 44 \tab 0 \tab 16 \tab 11563 \cr
 }
 }
 

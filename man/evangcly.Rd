@@ -32,10 +32,10 @@ Question Would you describe yourself as an evangelical Christian, or not?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7524/vshow}{GSS Data Explorer page for \code{evangcly}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab see codebook \tab Total \cr
-   2021 \tab 3240 \tab 289 \tab 477 \tab 6 \tab 1 \tab 17 \tab 2 \tab 4032 \cr
-   Total \tab 3240 \tab 289 \tab 477 \tab 6 \tab 1 \tab 17 \tab 2 \tab 4032 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab see codebook \tab not available in this year \tab Total \cr
+   2021 \tab 3240 \tab 289 \tab 477 \tab 6 \tab 1 \tab 17 \tab 2 \tab - \tab 4032 \cr
+   Total \tab 3240 \tab 289 \tab 477 \tab 6 \tab 1 \tab 17 \tab 2 \tab 0 \tab 4032 \cr
 }
 }
 

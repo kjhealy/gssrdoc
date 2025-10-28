@@ -34,29 +34,29 @@ Question Have your sex partners in the last 12 months been…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5056/vshow}{GSS Data Explorer page for \code{sexsex}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab exclusively male \tab both male and female \tab exclusively female \tab no answer \tab don't know \tab Total \cr
-   1988 \tab 409 \tab 556 \tab 2 \tab 461 \tab 53 \tab - \tab 1481 \cr
-   1989 \tab 444 \tab 558 \tab 3 \tab 498 \tab 34 \tab - \tab 1537 \cr
-   1990 \tab 429 \tab 468 \tab 5 \tab 424 \tab 46 \tab - \tab 1372 \cr
-   1991 \tab 511 \tab 530 \tab 3 \tab 412 \tab 61 \tab - \tab 1517 \cr
-   1993 \tab 427 \tab 592 \tab 6 \tab 504 \tab 77 \tab - \tab 1606 \cr
-   1994 \tab 809 \tab 1108 \tab 8 \tab 953 \tab 114 \tab - \tab 2992 \cr
-   1996 \tab 756 \tab 1063 \tab 18 \tab 950 \tab 117 \tab - \tab 2904 \cr
-   1998 \tab 895 \tab 990 \tab 17 \tab 841 \tab 89 \tab - \tab 2832 \cr
-   2000 \tab 938 \tab 934 \tab 14 \tab 822 \tab 109 \tab - \tab 2817 \cr
-   2002 \tab 1000 \tab 887 \tab 12 \tab 821 \tab 45 \tab - \tab 2765 \cr
-   2004 \tab 1013 \tab 943 \tab 8 \tab 813 \tab 33 \tab 2 \tab 2812 \cr
-   2006 \tab 2692 \tab 967 \tab 20 \tab 809 \tab 22 \tab - \tab 4510 \cr
-   2008 \tab 651 \tab 687 \tab 13 \tab 653 \tab 14 \tab 5 \tab 2023 \cr
-   2010 \tab 632 \tab 716 \tab 10 \tab 667 \tab 18 \tab 1 \tab 2044 \cr
-   2012 \tab 643 \tab 700 \tab 18 \tab 592 \tab 21 \tab - \tab 1974 \cr
-   2014 \tab 727 \tab 931 \tab 20 \tab 820 \tab 38 \tab 2 \tab 2538 \cr
-   2016 \tab 1506 \tab 694 \tab 26 \tab 626 \tab 15 \tab - \tab 2867 \cr
-   2018 \tab 1301 \tab 508 \tab 21 \tab 505 \tab 13 \tab - \tab 2348 \cr
-   2021 \tab 2307 \tab 884 \tab 16 \tab 789 \tab 19 \tab 17 \tab 4032 \cr
-   2022 \tab 2366 \tab 574 \tab 17 \tab 520 \tab 46 \tab 21 \tab 3544 \cr
-   Total \tab 20456 \tab 15290 \tab 257 \tab 13480 \tab 984 \tab 48 \tab 50515 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab exclusively male \tab both male and female \tab exclusively female \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   1988 \tab 409 \tab 556 \tab 2 \tab 461 \tab 53 \tab - \tab - \tab 1481 \cr
+   1989 \tab 444 \tab 558 \tab 3 \tab 498 \tab 34 \tab - \tab - \tab 1537 \cr
+   1990 \tab 429 \tab 468 \tab 5 \tab 424 \tab 46 \tab - \tab - \tab 1372 \cr
+   1991 \tab 511 \tab 530 \tab 3 \tab 412 \tab 61 \tab - \tab - \tab 1517 \cr
+   1993 \tab 427 \tab 592 \tab 6 \tab 504 \tab 77 \tab - \tab - \tab 1606 \cr
+   1994 \tab 809 \tab 1108 \tab 8 \tab 953 \tab 114 \tab - \tab - \tab 2992 \cr
+   1996 \tab 756 \tab 1063 \tab 18 \tab 950 \tab 117 \tab - \tab - \tab 2904 \cr
+   1998 \tab 895 \tab 990 \tab 17 \tab 841 \tab 89 \tab - \tab - \tab 2832 \cr
+   2000 \tab 938 \tab 934 \tab 14 \tab 822 \tab 109 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1000 \tab 887 \tab 12 \tab 821 \tab 45 \tab - \tab - \tab 2765 \cr
+   2004 \tab 1013 \tab 943 \tab 8 \tab 813 \tab 33 \tab 2 \tab - \tab 2812 \cr
+   2006 \tab 2692 \tab 967 \tab 20 \tab 809 \tab 22 \tab - \tab - \tab 4510 \cr
+   2008 \tab 651 \tab 687 \tab 13 \tab 653 \tab 14 \tab 5 \tab - \tab 2023 \cr
+   2010 \tab 632 \tab 716 \tab 10 \tab 667 \tab 18 \tab 1 \tab - \tab 2044 \cr
+   2012 \tab 643 \tab 700 \tab 18 \tab 592 \tab 21 \tab - \tab - \tab 1974 \cr
+   2014 \tab 727 \tab 931 \tab 20 \tab 820 \tab 38 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 1506 \tab 694 \tab 26 \tab 626 \tab 15 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1301 \tab 508 \tab 21 \tab 505 \tab 13 \tab - \tab - \tab 2348 \cr
+   2021 \tab 2307 \tab 884 \tab 16 \tab 789 \tab 19 \tab 17 \tab - \tab 4032 \cr
+   2022 \tab 2409 \tab 574 \tab 17 \tab 520 \tab 18 \tab 6 \tab - \tab 3544 \cr
+   Total \tab 20499 \tab 15290 \tab 257 \tab 13480 \tab 956 \tab 33 \tab 0 \tab 50515 \cr
 }
 }
 

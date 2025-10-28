@@ -33,12 +33,12 @@ Question L. In 2012, you remember that Obama ran for President on the Democratic
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/175/vshow}{GSS Data Explorer page for \code{vote12}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab voted \tab did not vote \tab ineligible \tab don't know \tab no answer \tab Total \cr
-   2014 \tab - \tab 1652 \tab 722 \tab 135 \tab 23 \tab 6 \tab 2538 \cr
-   2016 \tab - \tab 1809 \tab 800 \tab 201 \tab 48 \tab 9 \tab 2867 \cr
-   2018 \tab - \tab 1488 \tab 565 \tab 252 \tab 33 \tab 10 \tab 2348 \cr
-   Total \tab 0 \tab 4949 \tab 2087 \tab 588 \tab 104 \tab 25 \tab 7753 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab voted \tab did not vote \tab ineligible \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab - \tab 1652 \tab 722 \tab 135 \tab 23 \tab 6 \tab - \tab 2538 \cr
+   2016 \tab - \tab 1809 \tab 800 \tab 201 \tab 48 \tab 9 \tab - \tab 2867 \cr
+   2018 \tab - \tab 1488 \tab 565 \tab 252 \tab 33 \tab 10 \tab - \tab 2348 \cr
+   Total \tab 0 \tab 4949 \tab 2087 \tab 588 \tab 104 \tab 25 \tab 0 \tab 7753 \cr
 }
 }
 

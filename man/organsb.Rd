@@ -39,10 +39,10 @@ A. Which of these procedures should be used to assign the organ among the patien
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1866/vshow}{GSS Data Explorer page for \code{organsb}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab auction \tab first come-first served \tab lottery \tab merit \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 17 \tab 1151 \tab 86 \tab 120 \tab 55 \tab 15 \tab 2904 \cr
-   Total \tab 1460 \tab 17 \tab 1151 \tab 86 \tab 120 \tab 55 \tab 15 \tab 2904 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab auction \tab first come-first served \tab lottery \tab merit \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1460 \tab 17 \tab 1151 \tab 86 \tab 120 \tab 55 \tab 15 \tab - \tab 2904 \cr
+   Total \tab 1460 \tab 17 \tab 1151 \tab 86 \tab 120 \tab 55 \tab 15 \tab 0 \tab 2904 \cr
 }
 }
 

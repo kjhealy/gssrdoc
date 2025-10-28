@@ -32,10 +32,10 @@ Question 11. During the past twelve months, were you unable to work at your job 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5146/vshow}{GSS Data Explorer page for \code{hlth11}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 1472 \tab 178 \tab 1155 \tab 1 \tab 6 \tab 2812 \cr
-   Total \tab 1472 \tab 178 \tab 1155 \tab 1 \tab 6 \tab 2812 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1472 \tab 178 \tab 1155 \tab 1 \tab 6 \tab - \tab 2812 \cr
+   Total \tab 1472 \tab 178 \tab 1155 \tab 1 \tab 6 \tab 0 \tab 2812 \cr
 }
 }
 

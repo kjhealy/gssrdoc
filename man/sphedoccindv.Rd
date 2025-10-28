@@ -32,10 +32,10 @@ Question Spouse's Head of Household OCC/IND verbatim recovered
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6002/vshow}{GSS Data Explorer page for \code{sphedoccindv}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab no verbatims for sphed \tab verbatims for sphed \tab Total \cr
-   1994 \tab 54 \tab 2174 \tab 764 \tab 2992 \cr
-   Total \tab 54 \tab 2174 \tab 764 \tab 2992 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab no verbatims for sphed \tab verbatims for sphed \tab not available in this year \tab Total \cr
+   1994 \tab 54 \tab 2174 \tab 764 \tab - \tab 2992 \cr
+   Total \tab 54 \tab 2174 \tab 764 \tab 0 \tab 2992 \cr
 }
 }
 

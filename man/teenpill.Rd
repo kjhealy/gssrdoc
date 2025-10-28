@@ -33,14 +33,14 @@ Question B. Do you think birth control information should be available to teenag
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/624/vshow}{GSS Data Explorer page for \code{teenpill}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab available \tab not available \tab depends on age \tab don't know \tab no answer \tab Total \cr
-   1974 \tab - \tab 1145 \tab 286 \tab 3 \tab 37 \tab 13 \tab 1484 \cr
-   1975 \tab - \tab 1167 \tab 278 \tab - \tab 38 \tab 7 \tab 1490 \cr
-   1977 \tab - \tab 1249 \tab 244 \tab - \tab 30 \tab 7 \tab 1530 \cr
-   1982 \tab - \tab 1580 \tab 225 \tab - \tab 50 \tab 5 \tab 1860 \cr
-   1983 \tab - \tab 1354 \tab 199 \tab - \tab 39 \tab 7 \tab 1599 \cr
-   Total \tab 0 \tab 6495 \tab 1232 \tab 3 \tab 194 \tab 39 \tab 7963 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab available \tab not available \tab depends on age \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1974 \tab - \tab 1145 \tab 286 \tab 3 \tab 37 \tab 13 \tab - \tab 1484 \cr
+   1975 \tab - \tab 1167 \tab 278 \tab - \tab 38 \tab 7 \tab - \tab 1490 \cr
+   1977 \tab - \tab 1249 \tab 244 \tab - \tab 30 \tab 7 \tab - \tab 1530 \cr
+   1982 \tab - \tab 1580 \tab 225 \tab - \tab 50 \tab 5 \tab - \tab 1860 \cr
+   1983 \tab - \tab 1354 \tab 199 \tab - \tab 39 \tab 7 \tab - \tab 1599 \cr
+   Total \tab 0 \tab 6495 \tab 1232 \tab 3 \tab 194 \tab 39 \tab 0 \tab 7963 \cr
 }
 }
 

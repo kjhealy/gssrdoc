@@ -35,10 +35,10 @@ G. I hardly ever expect things to go my way.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3042/vshow}{GSS Data Explorer page for \code{pessimst}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 432 \tab 98 \tab 416 \tab 1359 \tab 495 \tab 6 \tab 6 \tab 2812 \cr
-   Total \tab 432 \tab 98 \tab 416 \tab 1359 \tab 495 \tab 6 \tab 6 \tab 2812 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 432 \tab 98 \tab 416 \tab 1359 \tab 495 \tab 6 \tab 6 \tab - \tab 2812 \cr
+   Total \tab 432 \tab 98 \tab 416 \tab 1359 \tab 495 \tab 6 \tab 6 \tab 0 \tab 2812 \cr
 }
 }
 

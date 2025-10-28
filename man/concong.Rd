@@ -38,13 +38,13 @@ A. U.S. Congress
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4639/vshow}{GSS Data Explorer page for \code{concong}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab complete confidence \tab a great deal of confidence \tab some confidence \tab very little confidence \tab no confidence at all \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 102 \tab 236 \tab 594 \tab 264 \tab 91 \tab 44 \tab 28 \tab 1517 \cr
-   1998 \tab 1548 \tab 28 \tab 130 \tab 638 \tab 319 \tab 93 \tab 41 \tab 35 \tab 2832 \cr
-   2008 \tab 658 \tab 32 \tab 105 \tab 652 \tab 364 \tab 187 \tab 23 \tab 2 \tab 2023 \cr
-   2018 \tab 1173 \tab 24 \tab 57 \tab 438 \tab 458 \tab 166 \tab 23 \tab 9 \tab 2348 \cr
-   Total \tab 3537 \tab 186 \tab 528 \tab 2322 \tab 1405 \tab 537 \tab 131 \tab 74 \tab 8720 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab complete confidence \tab a great deal of confidence \tab some confidence \tab very little confidence \tab no confidence at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 102 \tab 236 \tab 594 \tab 264 \tab 91 \tab 44 \tab 28 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 28 \tab 130 \tab 638 \tab 319 \tab 93 \tab 41 \tab 35 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 32 \tab 105 \tab 652 \tab 364 \tab 187 \tab 23 \tab 2 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 24 \tab 57 \tab 438 \tab 458 \tab 166 \tab 23 \tab 9 \tab - \tab 2348 \cr
+   Total \tab 3537 \tab 186 \tab 528 \tab 2322 \tab 1405 \tab 537 \tab 131 \tab 74 \tab 0 \tab 8720 \cr
 }
 }
 

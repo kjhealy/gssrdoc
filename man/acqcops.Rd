@@ -35,10 +35,10 @@ Question A. How many of the people you are acquainted with are police officers?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3595/vshow}{GSS Data Explorer page for \code{acqcops}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3828 \tab 266 \tab 133 \tab 199 \tab 37 \tab 39 \tab 1 \tab 7 \tab 4510 \cr
-   Total \tab 3828 \tab 266 \tab 133 \tab 199 \tab 37 \tab 39 \tab 1 \tab 7 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3828 \tab 266 \tab 133 \tab 199 \tab 37 \tab 39 \tab 1 \tab 7 \tab - \tab 4510 \cr
+   Total \tab 3828 \tab 266 \tab 133 \tab 199 \tab 37 \tab 39 \tab 1 \tab 7 \tab 0 \tab 4510 \cr
 }
 }
 

@@ -34,11 +34,11 @@ Question Should religious extremists be allowed to hold public meetings?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4917/vshow}{GSS Data Explorer page for \code{relmeet}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab should definitely be allowed \tab should probably be allowed \tab should probably not be allowed \tab should definitely not be allowed \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 458 \tab 591 \tab 239 \tab 142 \tab 31 \tab 11 \tab 2812 \cr
-   2014 \tab 1274 \tab 407 \tab 456 \tab 162 \tab 123 \tab 112 \tab 4 \tab 2538 \cr
-   Total \tab 2614 \tab 865 \tab 1047 \tab 401 \tab 265 \tab 143 \tab 15 \tab 5350 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab should definitely be allowed \tab should probably be allowed \tab should probably not be allowed \tab should definitely not be allowed \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 458 \tab 591 \tab 239 \tab 142 \tab 31 \tab 11 \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 407 \tab 456 \tab 162 \tab 123 \tab 112 \tab 4 \tab - \tab 2538 \cr
+   Total \tab 2614 \tab 865 \tab 1047 \tab 401 \tab 265 \tab 143 \tab 15 \tab 0 \tab 5350 \cr
 }
 }
 

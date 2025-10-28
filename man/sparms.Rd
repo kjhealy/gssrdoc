@@ -39,14 +39,14 @@ E. The military and defense.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4061/vshow}{GSS Data Explorer page for \code{sparms}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 49 \tab 77 \tab 237 \tab 183 \tab 92 \tab 21 \tab 18 \tab 1534 \cr
-   1990 \tab 155 \tab 37 \tab 120 \tab 422 \tab 340 \tab 217 \tab 36 \tab 45 \tab 1372 \cr
-   1996 \tab 1572 \tab 61 \tab 211 \tab 585 \tab 315 \tab 106 \tab 19 \tab 35 \tab 2904 \cr
-   2006 \tab 2992 \tab 189 \tab 356 \tab 542 \tab 315 \tab 95 \tab 18 \tab 3 \tab 4510 \cr
-   2016 \tab 1477 \tab 184 \tab 421 \tab 479 \tab 196 \tab 87 \tab 12 \tab 11 \tab 2867 \cr
-   Total \tab 7053 \tab 520 \tab 1185 \tab 2265 \tab 1349 \tab 597 \tab 106 \tab 112 \tab 13187 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 49 \tab 77 \tab 237 \tab 183 \tab 92 \tab 21 \tab 18 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 37 \tab 120 \tab 422 \tab 340 \tab 217 \tab 36 \tab 45 \tab - \tab 1372 \cr
+   1996 \tab 1572 \tab 61 \tab 211 \tab 585 \tab 315 \tab 106 \tab 19 \tab 35 \tab - \tab 2904 \cr
+   2006 \tab 2992 \tab 189 \tab 356 \tab 542 \tab 315 \tab 95 \tab 18 \tab 3 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 184 \tab 421 \tab 479 \tab 196 \tab 87 \tab 12 \tab 11 \tab - \tab 2867 \cr
+   Total \tab 7053 \tab 520 \tab 1185 \tab 2265 \tab 1349 \tab 597 \tab 106 \tab 112 \tab 0 \tab 13187 \cr
 }
 }
 

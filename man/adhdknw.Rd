@@ -42,10 +42,10 @@ Question PROBE: Anything else?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2969/vshow}{GSS Data Explorer page for \code{adhdknw}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab nothing don t know \tab had herad of it unspecified \tab medication ritalin \tab chemical biological cause \tab environment social cause \tab describing symptoms \tab other \tab someone else i know has it \tab my child has it \tab i have(had) it \tab diet based too much sugar \tab anti-adhd \tab no answer \tab Total \cr
-   2002 \tab 1847 \tab 28 \tab 220 \tab 70 \tab 41 \tab 24 \tab 285 \tab 10 \tab 95 \tab 40 \tab 11 \tab 14 \tab 68 \tab 12 \tab 2765 \cr
-   Total \tab 1847 \tab 28 \tab 220 \tab 70 \tab 41 \tab 24 \tab 285 \tab 10 \tab 95 \tab 40 \tab 11 \tab 14 \tab 68 \tab 12 \tab 2765 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab nothing don t know \tab had herad of it unspecified \tab medication ritalin \tab chemical biological cause \tab environment social cause \tab describing symptoms \tab other \tab someone else i know has it \tab my child has it \tab i have(had) it \tab diet based too much sugar \tab anti-adhd \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1847 \tab 28 \tab 220 \tab 70 \tab 41 \tab 24 \tab 285 \tab 10 \tab 95 \tab 40 \tab 11 \tab 14 \tab 68 \tab 12 \tab - \tab 2765 \cr
+   Total \tab 1847 \tab 28 \tab 220 \tab 70 \tab 41 \tab 24 \tab 285 \tab 10 \tab 95 \tab 40 \tab 11 \tab 14 \tab 68 \tab 12 \tab 0 \tab 2765 \cr
 }
 }
 

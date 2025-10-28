@@ -33,10 +33,10 @@ E. Most people with power try to take advantage of people like yourself.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/432/vshow}{GSS Data Explorer page for \code{alienat5}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab feel \tab not feel \tab don't know \tab no answer \tab Total \cr
-   1978 \tab - \tab 845 \tab 625 \tab 50 \tab 12 \tab 1532 \cr
-   Total \tab 0 \tab 845 \tab 625 \tab 50 \tab 12 \tab 1532 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab feel \tab not feel \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1978 \tab - \tab 845 \tab 625 \tab 50 \tab 12 \tab - \tab 1532 \cr
+   Total \tab 0 \tab 845 \tab 625 \tab 50 \tab 12 \tab 0 \tab 1532 \cr
 }
 }
 

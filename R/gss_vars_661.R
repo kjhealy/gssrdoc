@@ -1,16 +1,16 @@
-#'  Number of stepchild deaths
+#'  Number of grandfather deaths
 #' 
-#'  brv16chinum
+#'  brv16gpanum
 #' 
-#' Question NUMBER OF STEPCHILD DEATHS
+#' Question NUMBER OF GRANDFATHER DEATHS
 #' 
 #' NOTE: This variable originates on the GSS Next follow-on, and should not be analyzed without the GSS Next-specific weights WTSSPS_NEXT or WTSSNRPS_NEXT
 #' 
 #' 
 #' @section Values: 
 #'
-#'   * `[Empty]` No applicable value labels
-#'   * `[NA(d)]`NA
+#'   * `[4]` one or more, number unknown
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
 #'
@@ -19,14 +19,14 @@
 #'  |A/B/C   |2022  |
 #' 
 #' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `brv16chinum`](https://gssdataexplorer.norc.org/variables/7938/vshow).
+#' For further details see the [GSS Data Explorer page for `brv16gpanum`](https://gssdataexplorer.norc.org/variables/7935/vshow).
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |Total |
-#'  |:-----|:----|:-----|
-#'  |2022  |3544 |3544  |
-#'  |Total |3544 |3544  |
+#'  |year  |not available in this year |0   |1   |2  |3  |one or more, number unknown |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:---|:--|:--|:---------------------------|:----|:--------------|:-----|
+#'  |2022  |-                          |221 |168 |39 |1  |1                           |3014 |100            |3544  |
+#'  |Total |0                          |221 |168 |39 |1  |1                           |3014 |100            |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -34,7 +34,7 @@
 #' 
 #' @keywords variable
 #' @md
-#' @name brv16chinum
+#' @name brv16gpanum
 NULL
 
 
@@ -62,10 +62,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0  |1  |2  |skipped on web |Total |
-#'  |:-----|:----|:--|:--|:--|:--------------|:-----|
-#'  |2022  |3500 |13 |18 |1  |12             |3544  |
-#'  |Total |3500 |13 |18 |1  |12             |3544  |
+#'  |year  |not available in this year |0  |1  |2  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:--|:--|:--|:----|:--------------|:-----|
+#'  |2022  |-                          |13 |18 |1  |3501 |11             |3544  |
+#'  |Total |0                          |13 |18 |1  |3501 |11             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -101,10 +101,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0  |1  |skipped on web |Total |
-#'  |:-----|:----|:--|:--|:--------------|:-----|
-#'  |2022  |3500 |18 |11 |15             |3544  |
-#'  |Total |3500 |18 |11 |15             |3544  |
+#'  |year  |not available in this year |0  |1  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:--|:--|:----|:--------------|:-----|
+#'  |2022  |-                          |18 |11 |3501 |14             |3544  |
+#'  |Total |0                          |18 |11 |3501 |14             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -140,10 +140,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0  |1  |skipped on web |Total |
-#'  |:-----|:----|:--|:--|:--------------|:-----|
-#'  |2022  |3500 |20 |2  |22             |3544  |
-#'  |Total |3500 |20 |2  |22             |3544  |
+#'  |year  |not available in this year |0  |1  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:--|:--|:----|:--------------|:-----|
+#'  |2022  |-                          |20 |2  |3501 |21             |3544  |
+#'  |Total |0                          |20 |2  |3501 |21             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -179,10 +179,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0  |1  |2  |3  |4  |5  |8  |skipped on web |Total |
-#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--------------|:-----|
-#'  |2022  |3275 |72 |55 |21 |10 |4  |1  |1  |105            |3544  |
-#'  |Total |3275 |72 |55 |21 |10 |4  |1  |1  |105            |3544  |
+#'  |year  |not available in this year |0  |1  |2  |3  |4  |5  |8  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:--|:--|:--|:--|:--|:--|:--|:----|:--------------|:-----|
+#'  |2022  |-                          |72 |54 |21 |10 |4  |1  |1  |3277 |104            |3544  |
+#'  |Total |0                          |72 |54 |21 |10 |4  |1  |1  |3277 |104            |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -218,10 +218,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0  |1  |10 |12 |2  |25 |3  |4  |5  |6  |7  |8  |skipped on web |Total |
-#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--------------|:-----|
-#'  |2022  |3275 |48 |66 |2  |1  |36 |1  |16 |9  |14 |1  |1  |1  |73             |3544  |
-#'  |Total |3275 |48 |66 |2  |1  |36 |1  |16 |9  |14 |1  |1  |1  |73             |3544  |
+#'  |year  |not available in this year |0  |1  |10 |12 |2  |25 |3  |4  |5  |6  |7  |8  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----|:--------------|:-----|
+#'  |2022  |-                          |48 |66 |2  |1  |36 |1  |16 |9  |14 |1  |1  |1  |3277 |71             |3544  |
+#'  |Total |0                          |48 |66 |2  |1  |36 |1  |16 |9  |14 |1  |1  |1  |3277 |71             |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -257,10 +257,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0  |1  |2  |3  |4  |5  |skipped on web |Total |
-#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--------------|:-----|
-#'  |2022  |3275 |62 |53 |26 |8  |4  |5  |111            |3544  |
-#'  |Total |3275 |62 |53 |26 |8  |4  |5  |111            |3544  |
+#'  |year  |not available in this year |0  |1  |2  |3  |4  |5  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:--|:--|:--|:--|:--|:--|:----|:--------------|:-----|
+#'  |2022  |-                          |62 |52 |26 |8  |4  |5  |3277 |110            |3544  |
+#'  |Total |0                          |62 |52 |26 |8  |4  |5  |3277 |110            |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -298,10 +298,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |skipped on web |Total |
-#'  |:-----|:----|:---|:---|:--------------|:-----|
-#'  |2022  |2309 |493 |733 |9              |3544  |
-#'  |Total |2309 |493 |733 |9              |3544  |
+#'  |year  |not available in this year |yes |no  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:---|:----|:--------------|:-----|
+#'  |2022  |-                          |493 |733 |2309 |9              |3544  |
+#'  |Total |0                          |493 |733 |2309 |9              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -339,10 +339,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |skipped on web |Total |
-#'  |:-----|:----|:---|:----|:--------------|:-----|
-#'  |2022  |2309 |182 |1047 |6              |3544  |
-#'  |Total |2309 |182 |1047 |6              |3544  |
+#'  |year  |not available in this year |yes |no   |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:----|:----|:--------------|:-----|
+#'  |2022  |-                          |182 |1047 |2309 |6              |3544  |
+#'  |Total |0                          |182 |1047 |2309 |6              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -384,10 +384,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |NA   |1   |2  |3   |4  |5  |6   |Total |
-#'  |:-----|:----|:---|:--|:---|:--|:--|:---|:-----|
-#'  |2022  |2313 |493 |76 |299 |84 |54 |225 |3544  |
-#'  |Total |2313 |493 |76 |299 |84 |54 |225 |3544  |
+#'  |year  |not available in this year |strongly pro-choice |slightly pro-choice |both pro-choice and pro-life |neither pro-choice nor pro-life |slightly pro-life |strongly pro-life |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:-------------------|:-------------------|:----------------------------|:-------------------------------|:-----------------|:-----------------|:----|:--------------|:-----|
+#'  |2022  |-                          |493                 |76                  |299                          |84                              |54                |225               |2309 |4              |3544  |
+#'  |Total |0                          |493                 |76                  |299                          |84                              |54                |225               |2309 |4              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next

@@ -33,10 +33,10 @@ Are there any individuals aged 0 to 17 years old living at this household?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8015/vshow}{GSS Data Explorer page for \code{kidsund18}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 1788 \tab 528 \tab 1213 \tab 10 \tab 5 \tab 3544 \cr
-   Total \tab 1788 \tab 528 \tab 1213 \tab 10 \tab 5 \tab 3544 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab not available in this year \tab yes \tab no \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 528 \tab 1213 \tab 1788 \tab 10 \tab 5 \tab 3544 \cr
+   Total \tab 0 \tab 528 \tab 1213 \tab 1788 \tab 10 \tab 5 \tab 3544 \cr
 }
 }
 

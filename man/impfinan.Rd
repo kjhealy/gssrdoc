@@ -36,10 +36,10 @@ A. Being financially secure.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1438/vshow}{GSS Data Explorer page for \code{impfinan}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab one of most important \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 427 \tab 817 \tab 290 \tab 49 \tab 6 \tab 5 \tab 12 \tab 1606 \cr
-   Total \tab 0 \tab 427 \tab 817 \tab 290 \tab 49 \tab 6 \tab 5 \tab 12 \tab 1606 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab one of most important \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 427 \tab 817 \tab 290 \tab 49 \tab 6 \tab 5 \tab 12 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 427 \tab 817 \tab 290 \tab 49 \tab 6 \tab 5 \tab 12 \tab 0 \tab 1606 \cr
 }
 }
 

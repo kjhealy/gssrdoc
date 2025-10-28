@@ -36,11 +36,11 @@ C. History. Is history very scientific, pretty scientific, not too scientific, o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3408/vshow}{GSS Data Explorer page for \code{histsci}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab haven't heard of it (volunteered) \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 195 \tab 389 \tab 676 \tab 539 \tab 6 \tab 55 \tab 4 \tab 4510 \cr
-   2012 \tab 1477 \tab 62 \tab 109 \tab 203 \tab 102 \tab 1 \tab 15 \tab 5 \tab 1974 \cr
-   Total \tab 4123 \tab 257 \tab 498 \tab 879 \tab 641 \tab 7 \tab 70 \tab 9 \tab 6484 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab haven't heard of it (volunteered) \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 195 \tab 389 \tab 676 \tab 539 \tab 6 \tab 55 \tab 4 \tab - \tab 4510 \cr
+   2012 \tab 1477 \tab 62 \tab 109 \tab 203 \tab 102 \tab 1 \tab 15 \tab 5 \tab - \tab 1974 \cr
+   Total \tab 4123 \tab 257 \tab 498 \tab 879 \tab 641 \tab 7 \tab 70 \tab 9 \tab 0 \tab 6484 \cr
 }
 }
 

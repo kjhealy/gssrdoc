@@ -36,11 +36,11 @@ Question What''s is (NAME''S) religious preference?  Is it Protestant, Catholic,
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1109/vshow}{GSS Data Explorer page for \code{frndrel2}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab don't know \tab no answer \tab Total \cr
-   1988 \tab 160 \tab 579 \tab 297 \tab 34 \tab 102 \tab 46 \tab 183 \tab 80 \tab 1481 \cr
-   1998 \tab 1877 \tab 308 \tab 219 \tab 18 \tab 92 \tab 28 \tab 204 \tab 86 \tab 2832 \cr
-   Total \tab 2037 \tab 887 \tab 516 \tab 52 \tab 194 \tab 74 \tab 387 \tab 166 \tab 4313 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 160 \tab 579 \tab 297 \tab 34 \tab 102 \tab 46 \tab 183 \tab 80 \tab - \tab 1481 \cr
+   1998 \tab 1877 \tab 308 \tab 219 \tab 18 \tab 92 \tab 28 \tab 204 \tab 86 \tab - \tab 2832 \cr
+   Total \tab 2037 \tab 887 \tab 516 \tab 52 \tab 194 \tab 74 \tab 387 \tab 166 \tab 0 \tab 4313 \cr
 }
 }
 

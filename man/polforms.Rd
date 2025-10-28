@@ -34,11 +34,11 @@ A. Visiting such Web sites helps you form an opinion on issues about which you a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2447/vshow}{GSS Data Explorer page for \code{polforms}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very true \tab somewhat true \tab not true \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2453 \tab 42 \tab 152 \tab 72 \tab 9 \tab 89 \tab 2817 \cr
-   2002 \tab 2411 \tab 47 \tab 168 \tab 90 \tab 3 \tab 46 \tab 2765 \cr
-   Total \tab 4864 \tab 89 \tab 320 \tab 162 \tab 12 \tab 135 \tab 5582 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not true \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2453 \tab 42 \tab 152 \tab 72 \tab 9 \tab 89 \tab - \tab 2817 \cr
+   2002 \tab 2411 \tab 47 \tab 168 \tab 90 \tab 3 \tab 46 \tab - \tab 2765 \cr
+   Total \tab 4864 \tab 89 \tab 320 \tab 162 \tab 12 \tab 135 \tab 0 \tab 5582 \cr
 }
 }
 

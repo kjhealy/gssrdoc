@@ -33,10 +33,10 @@ Question And how about you? Do you personally feel that you now have more freedo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2666/vshow}{GSS Data Explorer page for \code{rfreenow}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab more freedom \tab about the same amount of freedom \tab less freedom \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 549 \tab 657 \tab 190 \tab 10 \tab 13 \tab 2817 \cr
-   Total \tab 1398 \tab 549 \tab 657 \tab 190 \tab 10 \tab 13 \tab 2817 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab more freedom \tab about the same amount of freedom \tab less freedom \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 549 \tab 657 \tab 190 \tab 10 \tab 13 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 549 \tab 657 \tab 190 \tab 10 \tab 13 \tab 0 \tab 2817 \cr
 }
 }
 

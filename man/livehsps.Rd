@@ -36,11 +36,11 @@ D. Living in a neighborhood where half of your neighbors were Hispanic Americans
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1217/vshow}{GSS Data Explorer page for \code{livehsps}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 52 \tab 131 \tab 584 \tab 402 \tab 168 \tab 24 \tab 11 \tab 1372 \cr
-   2000 \tab 1419 \tab 138 \tab 235 \tab 612 \tab 266 \tab 78 \tab 53 \tab 16 \tab 2817 \cr
-   Total \tab 1419 \tab 190 \tab 366 \tab 1196 \tab 668 \tab 246 \tab 77 \tab 27 \tab 4189 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 52 \tab 131 \tab 584 \tab 402 \tab 168 \tab 24 \tab 11 \tab - \tab 1372 \cr
+   2000 \tab 1419 \tab 138 \tab 235 \tab 612 \tab 266 \tab 78 \tab 53 \tab 16 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 190 \tab 366 \tab 1196 \tab 668 \tab 246 \tab 77 \tab 27 \tab 0 \tab 4189 \cr
 }
 }
 

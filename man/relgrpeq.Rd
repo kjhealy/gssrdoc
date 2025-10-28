@@ -36,10 +36,10 @@ A. All religious groups in America should have equal rights. Would you say…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4699/vshow}{GSS Data Explorer page for \code{relgrpeq}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 658 \tab 376 \tab 683 \tab 154 \tab 107 \tab 24 \tab 15 \tab 6 \tab 2023 \cr
-   Total \tab 658 \tab 376 \tab 683 \tab 154 \tab 107 \tab 24 \tab 15 \tab 6 \tab 2023 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 658 \tab 376 \tab 683 \tab 154 \tab 107 \tab 24 \tab 15 \tab 6 \tab - \tab 2023 \cr
+   Total \tab 658 \tab 376 \tab 683 \tab 154 \tab 107 \tab 24 \tab 15 \tab 6 \tab 0 \tab 2023 \cr
 }
 }
 

@@ -32,18 +32,18 @@ Question B. Which language do you speak more fluent?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2302/vshow}{GSS Data Explorer page for \code{betrlang}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab language 1 \tab language 2 \tab no answer \tab don't know \tab skipped on web \tab Total \cr
-   2006 \tab 3837 \tab 635 \tab 36 \tab 2 \tab - \tab - \tab 4510 \cr
-   2008 \tab 1471 \tab 515 \tab 32 \tab - \tab 5 \tab - \tab 2023 \cr
-   2010 \tab 1508 \tab 500 \tab 33 \tab - \tab 3 \tab - \tab 2044 \cr
-   2012 \tab 1401 \tab 537 \tab 33 \tab 1 \tab 2 \tab - \tab 1974 \cr
-   2014 \tab 1790 \tab 699 \tab 43 \tab - \tab 6 \tab - \tab 2538 \cr
-   2016 \tab 2045 \tab 749 \tab 62 \tab 8 \tab 3 \tab - \tab 2867 \cr
-   2018 \tab 1623 \tab 690 \tab 31 \tab 1 \tab 3 \tab - \tab 2348 \cr
-   2021 \tab 2972 \tab 1004 \tab 46 \tab 1 \tab 2 \tab 7 \tab 4032 \cr
-   2022 \tab 2605 \tab 887 \tab 49 \tab - \tab 1 \tab 2 \tab 3544 \cr
-   Total \tab 19252 \tab 6216 \tab 365 \tab 13 \tab 25 \tab 9 \tab 25880 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab language 1 \tab language 2 \tab no answer \tab don't know \tab skipped on web \tab not available in this year \tab Total \cr
+   2006 \tab 3837 \tab 635 \tab 36 \tab 2 \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 1471 \tab 515 \tab 32 \tab - \tab 5 \tab - \tab - \tab 2023 \cr
+   2010 \tab 1508 \tab 500 \tab 33 \tab - \tab 3 \tab - \tab - \tab 2044 \cr
+   2012 \tab 1401 \tab 537 \tab 33 \tab 1 \tab 2 \tab - \tab - \tab 1974 \cr
+   2014 \tab 1790 \tab 699 \tab 43 \tab - \tab 6 \tab - \tab - \tab 2538 \cr
+   2016 \tab 2045 \tab 749 \tab 62 \tab 8 \tab 3 \tab - \tab - \tab 2867 \cr
+   2018 \tab 1623 \tab 690 \tab 31 \tab 1 \tab 3 \tab - \tab - \tab 2348 \cr
+   2021 \tab 2972 \tab 1004 \tab 46 \tab 1 \tab 2 \tab 7 \tab - \tab 4032 \cr
+   2022 \tab 2605 \tab 887 \tab 49 \tab - \tab 1 \tab 2 \tab - \tab 3544 \cr
+   Total \tab 19252 \tab 6216 \tab 365 \tab 13 \tab 25 \tab 9 \tab 0 \tab 25880 \cr
 }
 }
 

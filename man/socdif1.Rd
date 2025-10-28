@@ -35,10 +35,10 @@ A. Only if differences in income are large enough is there an incentive for indi
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1174/vshow}{GSS Data Explorer page for \code{socdif1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab disagree \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 79 \tab 632 \tab 454 \tab 61 \tab 141 \tab 5 \tab 1372 \cr
-   Total \tab 0 \tab 79 \tab 632 \tab 454 \tab 61 \tab 141 \tab 5 \tab 1372 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab disagree \tab disagree strongly \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 79 \tab 632 \tab 454 \tab 61 \tab 141 \tab 5 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 79 \tab 632 \tab 454 \tab 61 \tab 141 \tab 5 \tab 0 \tab 1372 \cr
 }
 }
 

@@ -31,10 +31,10 @@ PROBE IF NECESSARY:  Would it have been 5 or more?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3099/vshow}{GSS Data Explorer page for \code{drinkday}}.
 
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab 1 \tab 12 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2564 \tab 119 \tab 1 \tab 66 \tab 27 \tab 12 \tab 8 \tab 5 \tab 4 \tab 1 \tab 2 \tab 3 \tab 2812 \cr
-   Total \tab 2564 \tab 119 \tab 1 \tab 66 \tab 27 \tab 12 \tab 8 \tab 5 \tab 4 \tab 1 \tab 2 \tab 3 \tab 2812 \cr
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab 1 \tab 12 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2564 \tab 119 \tab 1 \tab 66 \tab 27 \tab 12 \tab 8 \tab 5 \tab 4 \tab 1 \tab 2 \tab 3 \tab - \tab 2812 \cr
+   Total \tab 2564 \tab 119 \tab 1 \tab 66 \tab 27 \tab 12 \tab 8 \tab 5 \tab 4 \tab 1 \tab 2 \tab 3 \tab 0 \tab 2812 \cr
 }
 }
 

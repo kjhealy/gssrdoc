@@ -32,10 +32,10 @@ Question Could not find anyone to go with.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6259/vshow}{GSS Data Explorer page for \code{artgst}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab a reason \tab not a reason \tab Total \cr
-   2016 \tab 2710 \tab 23 \tab 134 \tab 2867 \cr
-   Total \tab 2710 \tab 23 \tab 134 \tab 2867 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab a reason \tab not a reason \tab not available in this year \tab Total \cr
+   2016 \tab 2710 \tab 23 \tab 134 \tab - \tab 2867 \cr
+   Total \tab 2710 \tab 23 \tab 134 \tab 0 \tab 2867 \cr
 }
 }
 

@@ -33,11 +33,11 @@ D. To follow one's conscience even if it means going against what the churches o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1092/vshow}{GSS Data Explorer page for \code{goownway}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very important \tab 2 \tab 3 \tab 4 \tab not very important \tab don't know \tab no answer \tab Total \cr
-   1988 \tab - \tab 605 \tab 333 \tab 303 \tab 88 \tab 110 \tab 24 \tab 18 \tab 1481 \cr
-   1998 \tab 1387 \tab 576 \tab 234 \tab 313 \tab 92 \tab 137 \tab 78 \tab 15 \tab 2832 \cr
-   Total \tab 1387 \tab 1181 \tab 567 \tab 616 \tab 180 \tab 247 \tab 102 \tab 33 \tab 4313 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab 2 \tab 3 \tab 4 \tab not very important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 605 \tab 333 \tab 303 \tab 88 \tab 110 \tab 24 \tab 18 \tab - \tab 1481 \cr
+   1998 \tab 1387 \tab 576 \tab 234 \tab 313 \tab 92 \tab 137 \tab 78 \tab 15 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 1181 \tab 567 \tab 616 \tab 180 \tab 247 \tab 102 \tab 33 \tab 0 \tab 4313 \cr
 }
 }
 

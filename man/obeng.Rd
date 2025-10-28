@@ -35,10 +35,10 @@ E. How about being able to speak and understand English?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/838/vshow}{GSS Data Explorer page for \code{obeng}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very important \tab somewhat important \tab not obligation \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 1207 \tab 200 \tab 39 \tab 6 \tab 21 \tab 1473 \cr
-   Total \tab 0 \tab 1207 \tab 200 \tab 39 \tab 6 \tab 21 \tab 1473 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab somewhat important \tab not obligation \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 1207 \tab 200 \tab 39 \tab 6 \tab 21 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 1207 \tab 200 \tab 39 \tab 6 \tab 21 \tab 0 \tab 1473 \cr
 }
 }
 

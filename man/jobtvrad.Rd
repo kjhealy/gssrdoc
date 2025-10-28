@@ -36,11 +36,11 @@ H. Radio or television programs?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2617/vshow}{GSS Data Explorer page for \code{jobtvrad}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 2220 \tab 483 \tab 34 \tab 12 \tab 8 \tab 2 \tab 6 \tab 2765 \cr
-   2004 \tab 2453 \tab 318 \tab 21 \tab 7 \tab 6 \tab - \tab 7 \tab 2812 \cr
-   Total \tab 4673 \tab 801 \tab 55 \tab 19 \tab 14 \tab 2 \tab 13 \tab 5577 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab 6 or more times \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 2220 \tab 483 \tab 34 \tab 12 \tab 8 \tab 2 \tab 6 \tab - \tab 2765 \cr
+   2004 \tab 2453 \tab 318 \tab 21 \tab 7 \tab 6 \tab - \tab 7 \tab - \tab 2812 \cr
+   Total \tab 4673 \tab 801 \tab 55 \tab 19 \tab 14 \tab 2 \tab 13 \tab 0 \tab 5577 \cr
 }
 }
 

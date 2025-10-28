@@ -36,11 +36,11 @@ B. Sea level may rise by more than 20 feet, flooding coastal areas.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3439/vshow}{GSS Data Explorer page for \code{sealevel}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a great deal \tab some \tab a little \tab not at all \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 1256 \tab 350 \tab 124 \tab 82 \tab 50 \tab 2 \tab 4510 \cr
-   2010 \tab 1338 \tab 461 \tab 114 \tab 64 \tab 46 \tab 11 \tab 10 \tab 2044 \cr
-   Total \tab 3984 \tab 1717 \tab 464 \tab 188 \tab 128 \tab 61 \tab 12 \tab 6554 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal \tab some \tab a little \tab not at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 1256 \tab 350 \tab 124 \tab 82 \tab 50 \tab 2 \tab - \tab 4510 \cr
+   2010 \tab 1338 \tab 461 \tab 114 \tab 64 \tab 46 \tab 11 \tab 10 \tab - \tab 2044 \cr
+   Total \tab 3984 \tab 1717 \tab 464 \tab 188 \tab 128 \tab 61 \tab 12 \tab 0 \tab 6554 \cr
 }
 }
 

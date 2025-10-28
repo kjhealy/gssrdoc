@@ -32,10 +32,10 @@ Question And what about a gay person? Suppose this gay person wanted to make a s
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7443/vshow}{GSS Data Explorer page for \code{spkhomoy}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes, allowed to speak \tab not allowed \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2675 \tab 1284 \tab 65 \tab 1 \tab 7 \tab 4032 \cr
-   Total \tab 2675 \tab 1284 \tab 65 \tab 1 \tab 7 \tab 4032 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, allowed to speak \tab not allowed \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2675 \tab 1284 \tab 65 \tab 1 \tab 7 \tab - \tab 4032 \cr
+   Total \tab 2675 \tab 1284 \tab 65 \tab 1 \tab 7 \tab 0 \tab 4032 \cr
 }
 }
 

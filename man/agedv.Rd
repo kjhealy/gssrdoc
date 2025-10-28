@@ -33,11 +33,11 @@ Question As you know, many older people share a home with their grown children. 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7594/vshow}{GSS Data Explorer page for \code{agedv}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab a good idea \tab a bad idea \tab depends (phone mode only: volunteered) \tab don't know \tab skipped on web \tab Total \cr
-   2021 \tab 2673 \tab 359 \tab 167 \tab 831 \tab 2 \tab - \tab 4032 \cr
-   2022 \tab 2961 \tab 144 \tab 58 \tab 379 \tab 1 \tab 1 \tab 3544 \cr
-   Total \tab 5634 \tab 503 \tab 225 \tab 1210 \tab 3 \tab 1 \tab 7576 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a good idea \tab a bad idea \tab depends (phone mode only: volunteered) \tab don't know \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2673 \tab 359 \tab 167 \tab 831 \tab 2 \tab - \tab - \tab 4032 \cr
+   2022 \tab 2961 \tab 144 \tab 58 \tab 379 \tab 1 \tab 1 \tab - \tab 3544 \cr
+   Total \tab 5634 \tab 503 \tab 225 \tab 1210 \tab 3 \tab 1 \tab 0 \tab 7576 \cr
 }
 }
 

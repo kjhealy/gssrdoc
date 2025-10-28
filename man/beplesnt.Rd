@@ -36,10 +36,10 @@ I. I try to be pleasant so that others won't get upset.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1733/vshow}{GSS Data Explorer page for \code{beplesnt}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree or disagree-it depends \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2149 \tab 100 \tab 504 \tab 54 \tab 85 \tab 6 \tab 2 \tab 4 \tab 2904 \cr
-   Total \tab 2149 \tab 100 \tab 504 \tab 54 \tab 85 \tab 6 \tab 2 \tab 4 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree or disagree-it depends \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2149 \tab 100 \tab 504 \tab 54 \tab 85 \tab 6 \tab 2 \tab 4 \tab - \tab 2904 \cr
+   Total \tab 2149 \tab 100 \tab 504 \tab 54 \tab 85 \tab 6 \tab 2 \tab 4 \tab 0 \tab 2904 \cr
 }
 }
 

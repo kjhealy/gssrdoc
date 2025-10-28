@@ -36,10 +36,10 @@ Question A. How often do you hear languages other than English spoken in the loc
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2292/vshow}{GSS Data Explorer page for \code{langcom}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab never \tab less than once a week \tab once a week \tab several times a week \tab once a day \tab several times a day \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 380 \tab 251 \tab 142 \tab 251 \tab 90 \tab 258 \tab 13 \tab 13 \tab 2817 \cr
-   Total \tab 1419 \tab 380 \tab 251 \tab 142 \tab 251 \tab 90 \tab 258 \tab 13 \tab 13 \tab 2817 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab never \tab less than once a week \tab once a week \tab several times a week \tab once a day \tab several times a day \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 380 \tab 251 \tab 142 \tab 251 \tab 90 \tab 258 \tab 13 \tab 13 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 380 \tab 251 \tab 142 \tab 251 \tab 90 \tab 258 \tab 13 \tab 13 \tab 0 \tab 2817 \cr
 }
 }
 

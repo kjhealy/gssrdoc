@@ -36,11 +36,11 @@ H. Attend a live lecture by a scientist about the polar regions?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3431/vshow}{GSS Data Explorer page for \code{polaryr8}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 137 \tab 338 \tab 438 \tab 931 \tab 18 \tab 2 \tab 4510 \cr
-   2010 \tab 1338 \tab 51 \tab 117 \tab 177 \tab 350 \tab 2 \tab 9 \tab 2044 \cr
-   Total \tab 3984 \tab 188 \tab 455 \tab 615 \tab 1281 \tab 20 \tab 11 \tab 6554 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 137 \tab 338 \tab 438 \tab 931 \tab 18 \tab 2 \tab - \tab 4510 \cr
+   2010 \tab 1338 \tab 51 \tab 117 \tab 177 \tab 350 \tab 2 \tab 9 \tab - \tab 2044 \cr
+   Total \tab 3984 \tab 188 \tab 455 \tab 615 \tab 1281 \tab 20 \tab 11 \tab 0 \tab 6554 \cr
 }
 }
 

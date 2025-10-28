@@ -35,12 +35,13 @@ A. Get treatment at a clinic or from a doctor.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2031/vshow}{GSS Data Explorer page for \code{mustdoc}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 503 \tab 844 \tab 79 \tab 18 \tab 2904 \cr
-   2006 \tab 3073 \tab 413 \tab 956 \tab 52 \tab 16 \tab 4510 \cr
-   2018 \tab 1175 \tab 422 \tab 693 \tab 30 \tab 28 \tab 2348 \cr
-   Total \tab 5708 \tab 1338 \tab 2493 \tab 161 \tab 62 \tab 9762 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 503 \tab 844 \tab 79 \tab 18 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 413 \tab 956 \tab 52 \tab 16 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 422 \tab 693 \tab 30 \tab 28 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1693 \tab 519 \tab 1010 \tab 45 \tab 12 \tab - \tab 30 \tab 3309 \cr
+   Total \tab 7401 \tab 1857 \tab 3503 \tab 206 \tab 74 \tab 0 \tab 30 \tab 13071 \cr
 }
 }
 

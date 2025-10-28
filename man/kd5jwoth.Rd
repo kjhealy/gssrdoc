@@ -33,11 +33,11 @@ Question Is (CHILD'S NAME) considered Jewish for any reason?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3842/vshow}{GSS Data Explorer page for \code{kd5jwoth}}.
 
-Counts by year:\tabular{llll}{
-   year \tab iap \tab no \tab Total \cr
-   2008 \tab 2022 \tab 1 \tab 2023 \cr
-   2012 \tab 1974 \tab - \tab 1974 \cr
-   Total \tab 3996 \tab 1 \tab 3997 \cr
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab no \tab not available in this year \tab Total \cr
+   2008 \tab 2022 \tab 1 \tab - \tab 2023 \cr
+   2012 \tab 1974 \tab - \tab - \tab 1974 \cr
+   Total \tab 3996 \tab 1 \tab 0 \tab 3997 \cr
 }
 }
 

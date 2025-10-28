@@ -32,10 +32,10 @@ Question F2. And how much do you feel you know about solutions to these sorts of
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4806/vshow}{GSS Data Explorer page for \code{knowsol}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab know nothing at all \tab 2 \tab 3 \tab 4 \tab know a great deal \tab don't know \tab no answer \tab Total \cr
-   2010 \tab 614 \tab 262 \tab 380 \tab 538 \tab 157 \tab 41 \tab 44 \tab 8 \tab 2044 \cr
-   Total \tab 614 \tab 262 \tab 380 \tab 538 \tab 157 \tab 41 \tab 44 \tab 8 \tab 2044 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab know nothing at all \tab 2 \tab 3 \tab 4 \tab know a great deal \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 614 \tab 262 \tab 380 \tab 538 \tab 157 \tab 41 \tab 44 \tab 8 \tab - \tab 2044 \cr
+   Total \tab 614 \tab 262 \tab 380 \tab 538 \tab 157 \tab 41 \tab 44 \tab 8 \tab 0 \tab 2044 \cr
 }
 }
 

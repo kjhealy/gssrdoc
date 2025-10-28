@@ -35,10 +35,10 @@ Question How successful do you feel in your work life? Do you feel...
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1665/vshow}{GSS Data Explorer page for \code{worklife}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab not at all successful \tab not very successful \tab somewhat successful \tab very successful \tab completely successful \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1910 \tab 15 \tab 73 \tab 443 \tab 366 \tab 89 \tab 3 \tab 5 \tab 2904 \cr
-   Total \tab 1910 \tab 15 \tab 73 \tab 443 \tab 366 \tab 89 \tab 3 \tab 5 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab not at all successful \tab not very successful \tab somewhat successful \tab very successful \tab completely successful \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1910 \tab 15 \tab 73 \tab 443 \tab 366 \tab 89 \tab 3 \tab 5 \tab - \tab 2904 \cr
+   Total \tab 1910 \tab 15 \tab 73 \tab 443 \tab 366 \tab 89 \tab 3 \tab 5 \tab 0 \tab 2904 \cr
 }
 }
 

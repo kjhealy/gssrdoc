@@ -30,13 +30,13 @@ Question A. Number of relatives hospitalized/disabled last year.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/744/vshow}{GSS Data Explorer page for \code{hosrel1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab Total \cr
-   1978 \tab - \tab 878 \tab 496 \tab 120 \tab 32 \tab 6 \tab - \tab - \tab 1532 \cr
-   1980 \tab - \tab 864 \tab 445 \tab 117 \tab 33 \tab 4 \tab 4 \tab 1 \tab 1468 \cr
-   1983 \tab - \tab 977 \tab 473 \tab 112 \tab 26 \tab 7 \tab 4 \tab - \tab 1599 \cr
-   1984 \tab - \tab 944 \tab 407 \tab 92 \tab 25 \tab 3 \tab 2 \tab - \tab 1473 \cr
-   Total \tab 0 \tab 3663 \tab 1821 \tab 441 \tab 116 \tab 20 \tab 10 \tab 1 \tab 6072 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab not available in this year \tab Total \cr
+   1978 \tab - \tab 878 \tab 496 \tab 120 \tab 32 \tab 6 \tab - \tab - \tab - \tab 1532 \cr
+   1980 \tab - \tab 864 \tab 445 \tab 117 \tab 33 \tab 4 \tab 4 \tab 1 \tab - \tab 1468 \cr
+   1983 \tab - \tab 977 \tab 473 \tab 112 \tab 26 \tab 7 \tab 4 \tab - \tab - \tab 1599 \cr
+   1984 \tab - \tab 944 \tab 407 \tab 92 \tab 25 \tab 3 \tab 2 \tab - \tab - \tab 1473 \cr
+   Total \tab 0 \tab 3663 \tab 1821 \tab 441 \tab 116 \tab 20 \tab 10 \tab 1 \tab 0 \tab 6072 \cr
 }
 }
 

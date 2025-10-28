@@ -24,10 +24,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2000  |1789 |344 |353 |25         |306       |2817  |
-#'  |Total |1789 |344 |353 |25         |306       |2817  |
+#'  |year  |iap  |no  |yes |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1789 |344 |353 |25         |306       |-                          |2817  |
+#'  |Total |1789 |344 |353 |25         |306       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -65,10 +65,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2000  |1789 |672 |23  |25         |308       |2817  |
-#'  |Total |1789 |672 |23  |25         |308       |2817  |
+#'  |year  |iap  |no  |yes |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1789 |672 |23  |25         |308       |-                          |2817  |
+#'  |Total |1789 |672 |23  |25         |308       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -106,10 +106,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2000  |1789 |693 |2   |25         |308       |2817  |
-#'  |Total |1789 |693 |2   |25         |308       |2817  |
+#'  |year  |iap  |no  |yes |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1789 |693 |2   |25         |308       |-                          |2817  |
+#'  |Total |1789 |693 |2   |25         |308       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -147,10 +147,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2000  |1789 |665 |30  |25         |308       |2817  |
-#'  |Total |1789 |665 |30  |25         |308       |2817  |
+#'  |year  |iap  |no  |yes |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1789 |665 |30  |25         |308       |-                          |2817  |
+#'  |Total |1789 |665 |30  |25         |308       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -188,10 +188,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2000  |1789 |684 |11  |25         |308       |2817  |
-#'  |Total |1789 |684 |11  |25         |308       |2817  |
+#'  |year  |iap  |no  |yes |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1789 |684 |11  |25         |308       |-                          |2817  |
+#'  |Total |1789 |684 |11  |25         |308       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -229,10 +229,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2000  |1789 |692 |3   |25         |308       |2817  |
-#'  |Total |1789 |692 |3   |25         |308       |2817  |
+#'  |year  |iap  |no  |yes |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1789 |692 |3   |25         |308       |-                          |2817  |
+#'  |Total |1789 |692 |3   |25         |308       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -270,10 +270,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2000  |1789 |633 |62  |25         |308       |2817  |
-#'  |Total |1789 |633 |62  |25         |308       |2817  |
+#'  |year  |iap  |no  |yes |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1789 |633 |62  |25         |308       |-                          |2817  |
+#'  |Total |1789 |633 |62  |25         |308       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -311,10 +311,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2000  |1789 |692 |3   |25         |308       |2817  |
-#'  |Total |1789 |692 |3   |25         |308       |2817  |
+#'  |year  |iap  |no  |yes |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1789 |692 |3   |25         |308       |-                          |2817  |
+#'  |Total |1789 |692 |3   |25         |308       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -352,10 +352,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2000  |1789 |646 |49  |25         |308       |2817  |
-#'  |Total |1789 |646 |49  |25         |308       |2817  |
+#'  |year  |iap  |no  |yes |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1789 |646 |49  |25         |308       |-                          |2817  |
+#'  |Total |1789 |646 |49  |25         |308       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -393,10 +393,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2000  |1789 |678 |17  |25         |308       |2817  |
-#'  |Total |1789 |678 |17  |25         |308       |2817  |
+#'  |year  |iap  |no  |yes |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1789 |678 |17  |25         |308       |-                          |2817  |
+#'  |Total |1789 |678 |17  |25         |308       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online

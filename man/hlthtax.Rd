@@ -35,10 +35,10 @@ Question How willing would you be to pay higher taxes to improve the level of he
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7794/vshow}{GSS Data Explorer page for \code{hlthtax}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab very willing \tab fairly willing \tab neither willing nor unwilling \tab fairly unwilling \tab very unwilling \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2379 \tab 154 \tab 345 \tab 230 \tab 151 \tab 229 \tab 50 \tab 2 \tab 4 \tab 3544 \cr
-   Total \tab 2379 \tab 154 \tab 345 \tab 230 \tab 151 \tab 229 \tab 50 \tab 2 \tab 4 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab very willing \tab fairly willing \tab neither willing nor unwilling \tab fairly unwilling \tab very unwilling \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 154 \tab 345 \tab 230 \tab 151 \tab 229 \tab 50 \tab 2379 \tab 2 \tab 4 \tab 3544 \cr
+   Total \tab 0 \tab 154 \tab 345 \tab 230 \tab 151 \tab 229 \tab 50 \tab 2379 \tab 2 \tab 4 \tab 3544 \cr
 }
 }
 

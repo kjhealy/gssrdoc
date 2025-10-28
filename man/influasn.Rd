@@ -34,10 +34,10 @@ D. Asian Americans
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1240/vshow}{GSS Data Explorer page for \code{influasn}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab too much influence \tab right amount \tab too little influence \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 85 \tab 553 \tab 503 \tab 207 \tab 24 \tab 1372 \cr
-   Total \tab 0 \tab 85 \tab 553 \tab 503 \tab 207 \tab 24 \tab 1372 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too much influence \tab right amount \tab too little influence \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 85 \tab 553 \tab 503 \tab 207 \tab 24 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 85 \tab 553 \tab 503 \tab 207 \tab 24 \tab 0 \tab 1372 \cr
 }
 }
 

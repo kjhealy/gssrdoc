@@ -39,13 +39,13 @@ F. People we elect to Congress try to keep the promises they have made during th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4100/vshow}{GSS Data Explorer page for \code{poleff16}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1572 \tab 45 \tab 277 \tab 271 \tab 502 \tab 178 \tab 33 \tab 26 \tab 2904 \cr
-   2006 \tab 2992 \tab 33 \tab 296 \tab 301 \tab 536 \tab 333 \tab 19 \tab - \tab 4510 \cr
-   2012 \tab 1312 \tab 10 \tab 140 \tab 119 \tab 253 \tab 117 \tab 20 \tab 3 \tab 1974 \cr
-   2016 \tab 1477 \tab 36 \tab 247 \tab 303 \tab 540 \tab 240 \tab 12 \tab 12 \tab 2867 \cr
-   Total \tab 7353 \tab 124 \tab 960 \tab 994 \tab 1831 \tab 868 \tab 84 \tab 41 \tab 12255 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1572 \tab 45 \tab 277 \tab 271 \tab 502 \tab 178 \tab 33 \tab 26 \tab - \tab 2904 \cr
+   2006 \tab 2992 \tab 33 \tab 296 \tab 301 \tab 536 \tab 333 \tab 19 \tab - \tab - \tab 4510 \cr
+   2012 \tab 1312 \tab 10 \tab 140 \tab 119 \tab 253 \tab 117 \tab 20 \tab 3 \tab - \tab 1974 \cr
+   2016 \tab 1477 \tab 36 \tab 247 \tab 303 \tab 540 \tab 240 \tab 12 \tab 12 \tab - \tab 2867 \cr
+   Total \tab 7353 \tab 124 \tab 960 \tab 994 \tab 1831 \tab 868 \tab 84 \tab 41 \tab 0 \tab 12255 \cr
 }
 }
 

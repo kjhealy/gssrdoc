@@ -32,10 +32,10 @@ Question D. During April through June 2012, were you living in the United States
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5588/vshow}{GSS Data Explorer page for \code{res2012}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab living in the u.s. \tab not living in u.s. \tab no answer \tab Total \cr
-   2014 \tab - \tab 2498 \tab 39 \tab 1 \tab 2538 \cr
-   Total \tab 0 \tab 2498 \tab 39 \tab 1 \tab 2538 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab living in the u.s. \tab not living in u.s. \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab - \tab 2498 \tab 39 \tab 1 \tab - \tab 2538 \cr
+   Total \tab 0 \tab 2498 \tab 39 \tab 1 \tab 0 \tab 2538 \cr
 }
 }
 

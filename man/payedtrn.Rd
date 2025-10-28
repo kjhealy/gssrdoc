@@ -37,11 +37,11 @@ B. The number of year spent in education and training?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4329/vshow}{GSS Data Explorer page for \code{payedtrn}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2000 \tab 1545 \tab 263 \tab 566 \tab 319 \tab 41 \tab 10 \tab 23 \tab 50 \tab - \tab 2817 \cr
-   2021 \tab 2029 \tab 242 \tab 759 \tab 622 \tab 125 \tab 23 \tab 53 \tab 166 \tab 13 \tab 4032 \cr
-   Total \tab 3574 \tab 505 \tab 1325 \tab 941 \tab 166 \tab 33 \tab 76 \tab 216 \tab 13 \tab 6849 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2000 \tab 1545 \tab 263 \tab 566 \tab 319 \tab 41 \tab 10 \tab 23 \tab 50 \tab - \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 242 \tab 759 \tab 622 \tab 125 \tab 23 \tab 53 \tab 166 \tab 13 \tab - \tab 4032 \cr
+   Total \tab 3574 \tab 505 \tab 1325 \tab 941 \tab 166 \tab 33 \tab 76 \tab 216 \tab 13 \tab 0 \tab 6849 \cr
 }
 }
 

@@ -36,10 +36,10 @@ A. I have come home from work too tired to do the chores which need to be done.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4447/vshow}{GSS Data Explorer page for \code{tiredhme}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab several times a week \tab several times a month \tab once or twice \tab never \tab doesnt apply or no job \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1594 \tab 253 \tab 216 \tab 302 \tab 109 \tab 277 \tab 7 \tab 7 \tab 2765 \cr
-   Total \tab 1594 \tab 253 \tab 216 \tab 302 \tab 109 \tab 277 \tab 7 \tab 7 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab several times a week \tab several times a month \tab once or twice \tab never \tab doesnt apply or no job \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1594 \tab 253 \tab 216 \tab 302 \tab 109 \tab 277 \tab 7 \tab 7 \tab - \tab 2765 \cr
+   Total \tab 1594 \tab 253 \tab 216 \tab 302 \tab 109 \tab 277 \tab 7 \tab 7 \tab 0 \tab 2765 \cr
 }
 }
 

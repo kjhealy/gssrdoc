@@ -35,10 +35,10 @@ B. RECORD NUMBER OF RELIGIONS MENTIONED
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1053/vshow}{GSS Data Explorer page for \code{switnum}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab 1 \tab 2 \tab 3 \tab four or more \tab no answer \tab Total \cr
-   1988 \tab 945 \tab 255 \tab 97 \tab 24 \tab 6 \tab 154 \tab 1481 \cr
-   Total \tab 945 \tab 255 \tab 97 \tab 24 \tab 6 \tab 154 \tab 1481 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab four or more \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 945 \tab 255 \tab 97 \tab 24 \tab 6 \tab 154 \tab - \tab 1481 \cr
+   Total \tab 945 \tab 255 \tab 97 \tab 24 \tab 6 \tab 154 \tab 0 \tab 1481 \cr
 }
 }
 

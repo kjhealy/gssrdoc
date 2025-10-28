@@ -34,10 +34,10 @@ Question A. What do you think the chances are these days that you or anyone in y
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1647/vshow}{GSS Data Explorer page for \code{rdiscaff}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 213 \tab 458 \tab 340 \tab 358 \tab 88 \tab 17 \tab 2992 \cr
-   Total \tab 1518 \tab 213 \tab 458 \tab 340 \tab 358 \tab 88 \tab 17 \tab 2992 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 213 \tab 458 \tab 340 \tab 358 \tab 88 \tab 17 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 213 \tab 458 \tab 340 \tab 358 \tab 88 \tab 17 \tab 0 \tab 2992 \cr
 }
 }
 

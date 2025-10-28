@@ -33,10 +33,10 @@ Question Of course, everybody hears a good deal about physical illness and disea
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2048/vshow}{GSS Data Explorer page for \code{mntloth}}.
 
-Counts by year:\tabular{llllllllllllllllllll}{
-   year \tab iap \tab 1007 \tab 1011 \tab 1102 \tab 1106 \tab 1107 \tab 1108 \tab 1110 \tab 1201 \tab 1204 \tab 1205 \tab 1206 \tab 1207 \tab 1209 \tab 1210 \tab 1211 \tab 1214 \tab no answer \tab Total \cr
-   1996 \tab 2686 \tab 2 \tab 1 \tab 4 \tab 1 \tab 17 \tab 1 \tab 1 \tab 3 \tab 3 \tab 1 \tab 2 \tab 14 \tab 51 \tab 4 \tab 53 \tab 42 \tab 18 \tab 2904 \cr
-   Total \tab 2686 \tab 2 \tab 1 \tab 4 \tab 1 \tab 17 \tab 1 \tab 1 \tab 3 \tab 3 \tab 1 \tab 2 \tab 14 \tab 51 \tab 4 \tab 53 \tab 42 \tab 18 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab 1007 \tab 1011 \tab 1102 \tab 1106 \tab 1107 \tab 1108 \tab 1110 \tab 1201 \tab 1204 \tab 1205 \tab 1206 \tab 1207 \tab 1209 \tab 1210 \tab 1211 \tab 1214 \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2686 \tab 2 \tab 1 \tab 4 \tab 1 \tab 17 \tab 1 \tab 1 \tab 3 \tab 3 \tab 1 \tab 2 \tab 14 \tab 51 \tab 4 \tab 53 \tab 42 \tab 18 \tab - \tab 2904 \cr
+   Total \tab 2686 \tab 2 \tab 1 \tab 4 \tab 1 \tab 17 \tab 1 \tab 1 \tab 3 \tab 3 \tab 1 \tab 2 \tab 14 \tab 51 \tab 4 \tab 53 \tab 42 \tab 18 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Some doctors or groups may be paid more if they limit the use of expens
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2747/vshow}{GSS Data Explorer page for \code{fininc}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2002 \tab - \tab 1340 \tab 1406 \tab 14 \tab 5 \tab 2765 \cr
-   Total \tab 0 \tab 1340 \tab 1406 \tab 14 \tab 5 \tab 2765 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab - \tab 1340 \tab 1406 \tab 14 \tab 5 \tab - \tab 2765 \cr
+   Total \tab 0 \tab 1340 \tab 1406 \tab 14 \tab 5 \tab 0 \tab 2765 \cr
 }
 }
 

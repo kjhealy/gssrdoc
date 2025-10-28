@@ -66,10 +66,10 @@ A. Starting when you were 16 years old, what other religious preferences have yo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1052/vshow}{GSS Data Explorer page for \code{switch3}}.
 
-Counts by year:\tabular{llllllllllllllllllllll}{
-   year \tab iap \tab southern bapt con \tab baptist, dk which \tab united methodist ch \tab other methodist ch \tab methodist, dk which \tab lutheran ch in amer \tab wisconsin ev luth sn \tab lutheran, dk which \tab united pres ch in us \tab presbyterian, dk whi \tab 160003 \tab 160035 \tab 160040 \tab 160068 \tab no denomination \tab catholic \tab jewish \tab other religion \tab no answer \tab Total \cr
-   1988 \tab 1297 \tab 3 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 2 \tab 2 \tab 3 \tab 1 \tab 2 \tab 154 \tab 1481 \cr
-   Total \tab 1297 \tab 3 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 2 \tab 2 \tab 3 \tab 1 \tab 2 \tab 154 \tab 1481 \cr
+Counts by year:\tabular{lllllllllllllllllllllll}{
+   year \tab iap \tab southern bapt con \tab baptist, dk which \tab united methodist ch \tab other methodist ch \tab methodist, dk which \tab lutheran ch in amer \tab wisconsin ev luth sn \tab lutheran, dk which \tab united pres ch in us \tab presbyterian, dk whi \tab 160003 \tab 160035 \tab 160040 \tab 160068 \tab no denomination \tab catholic \tab jewish \tab other religion \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 1297 \tab 3 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 2 \tab 2 \tab 3 \tab 1 \tab 2 \tab 154 \tab - \tab 1481 \cr
+   Total \tab 1297 \tab 3 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 2 \tab 2 \tab 3 \tab 1 \tab 2 \tab 154 \tab 0 \tab 1481 \cr
 }
 }
 

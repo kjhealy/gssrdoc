@@ -36,11 +36,11 @@ F. I think Prozac helps people control their symptoms.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2231/vshow}{GSS Data Explorer page for \code{proz6}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1635 \tab 53 \tab 647 \tab 207 \tab 58 \tab 11 \tab 210 \tab 11 \tab 2832 \cr
-   2006 \tab 3238 \tab 87 \tab 700 \tab 261 \tab 60 \tab 21 \tab 127 \tab 16 \tab 4510 \cr
-   Total \tab 4873 \tab 140 \tab 1347 \tab 468 \tab 118 \tab 32 \tab 337 \tab 27 \tab 7342 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1635 \tab 53 \tab 647 \tab 207 \tab 58 \tab 11 \tab 210 \tab 11 \tab - \tab 2832 \cr
+   2006 \tab 3238 \tab 87 \tab 700 \tab 261 \tab 60 \tab 21 \tab 127 \tab 16 \tab - \tab 4510 \cr
+   Total \tab 4873 \tab 140 \tab 1347 \tab 468 \tab 118 \tab 32 \tab 337 \tab 27 \tab 0 \tab 7342 \cr
 }
 }
 

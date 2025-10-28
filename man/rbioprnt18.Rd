@@ -32,10 +32,10 @@ Question To clarify, are you the biological parent of at least one individual 18
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8021/vshow}{GSS Data Explorer page for \code{rbioprnt18}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   2022 \tab 3410 \tab 120 \tab 14 \tab 3544 \cr
-   Total \tab 3410 \tab 120 \tab 14 \tab 3544 \cr
+Counts by year:\tabular{llllll}{
+   year \tab not available in this year \tab yes \tab no \tab iap \tab Total \cr
+   2022 \tab - \tab 120 \tab 14 \tab 3410 \tab 3544 \cr
+   Total \tab 0 \tab 120 \tab 14 \tab 3410 \tab 3544 \cr
 }
 }
 

@@ -34,9 +34,10 @@ Question In 2020, you remember that Joe Biden ran for President on the Democrati
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7758/vshow}{GSS Data Explorer page for \code{vote20}}.
 
 Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab voted \tab did not vote \tab ineligible \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   year \tab not available in this year \tab voted \tab did not vote \tab ineligible \tab don't know \tab no answer \tab skipped on web \tab Total \cr
    2022 \tab - \tab 2474 \tab 681 \tab 166 \tab 87 \tab 130 \tab 6 \tab 3544 \cr
-   Total \tab 0 \tab 2474 \tab 681 \tab 166 \tab 87 \tab 130 \tab 6 \tab 3544 \cr
+   2024 \tab - \tab 2200 \tab 629 \tab 195 \tab 141 \tab 24 \tab 120 \tab 3309 \cr
+   Total \tab 0 \tab 4674 \tab 1310 \tab 361 \tab 228 \tab 154 \tab 126 \tab 6853 \cr
 }
 }
 

@@ -36,10 +36,10 @@ Question Think of the most recent loan of this type. To whom did you lend this m
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1856/vshow}{GSS Data Explorer page for \code{loanedto}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab parents of grandparents \tab children \tab other relative \tab friend \tab co-worker or bus. associate \tab other specify \tab Total \cr
-   1996 \tab 2620 \tab 15 \tab 66 \tab 68 \tab 103 \tab 26 \tab 6 \tab 2904 \cr
-   Total \tab 2620 \tab 15 \tab 66 \tab 68 \tab 103 \tab 26 \tab 6 \tab 2904 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab parents of grandparents \tab children \tab other relative \tab friend \tab co-worker or bus. associate \tab other specify \tab not available in this year \tab Total \cr
+   1996 \tab 2620 \tab 15 \tab 66 \tab 68 \tab 103 \tab 26 \tab 6 \tab - \tab 2904 \cr
+   Total \tab 2620 \tab 15 \tab 66 \tab 68 \tab 103 \tab 26 \tab 6 \tab 0 \tab 2904 \cr
 }
 }
 

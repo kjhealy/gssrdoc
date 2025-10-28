@@ -38,12 +38,12 @@ C. Seen events that happened at a great distance as they were happening.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/318/vshow}{GSS Data Explorer page for \code{visions}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab never in my life \tab once or twice \tab several times \tab often \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 1009 \tab 254 \tab 132 \tab 39 \tab 20 \tab 19 \tab 1473 \cr
-   1988 \tab - \tab 1033 \tab 248 \tab 110 \tab 49 \tab 27 \tab 14 \tab 1481 \cr
-   1989 \tab 531 \tab 754 \tab 141 \tab 67 \tab 21 \tab 19 \tab 4 \tab 1537 \cr
-   Total \tab 531 \tab 2796 \tab 643 \tab 309 \tab 109 \tab 66 \tab 37 \tab 4491 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never in my life \tab once or twice \tab several times \tab often \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 1009 \tab 254 \tab 132 \tab 39 \tab 20 \tab 19 \tab - \tab 1473 \cr
+   1988 \tab - \tab 1033 \tab 248 \tab 110 \tab 49 \tab 27 \tab 14 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 754 \tab 141 \tab 67 \tab 21 \tab 19 \tab 4 \tab - \tab 1537 \cr
+   Total \tab 531 \tab 2796 \tab 643 \tab 309 \tab 109 \tab 66 \tab 37 \tab 0 \tab 4491 \cr
 }
 }
 

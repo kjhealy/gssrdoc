@@ -35,10 +35,10 @@ B. Teach 15 year olds in schools.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3989/vshow}{GSS Data Explorer page for \code{revtch15}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 50 \tab 69 \tab 119 \tab 341 \tab 36 \tab 62 \tab 1534 \cr
-   Total \tab 857 \tab 50 \tab 69 \tab 119 \tab 341 \tab 36 \tab 62 \tab 1534 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 50 \tab 69 \tab 119 \tab 341 \tab 36 \tab 62 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 50 \tab 69 \tab 119 \tab 341 \tab 36 \tab 62 \tab 0 \tab 1534 \cr
 }
 }
 

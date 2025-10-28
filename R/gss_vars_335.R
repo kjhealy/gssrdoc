@@ -24,10 +24,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2000  |1789 |686 |9   |25         |308       |2817  |
-#'  |Total |1789 |686 |9   |25         |308       |2817  |
+#'  |year  |iap  |no  |yes |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1789 |686 |9   |25         |308       |-                          |2817  |
+#'  |Total |1789 |686 |9   |25         |308       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -65,10 +65,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2000  |1789 |638 |57  |25         |308       |2817  |
-#'  |Total |1789 |638 |57  |25         |308       |2817  |
+#'  |year  |iap  |no  |yes |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1789 |638 |57  |25         |308       |-                          |2817  |
+#'  |Total |1789 |638 |57  |25         |308       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -106,10 +106,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no  |yes |yes, at least one url is not a .com |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:-----------------------------------|:----------|:---------|:-----|
-#'  |2000  |1789 |633 |57  |5                                   |25         |308       |2817  |
-#'  |Total |1789 |633 |57  |5                                   |25         |308       |2817  |
+#'  |year  |iap  |no  |yes |yes, at least one url is not a .com |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:-----------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1789 |633 |57  |5                                   |25         |308       |-                          |2817  |
+#'  |Total |1789 |633 |57  |5                                   |25         |308       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -170,10 +170,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |no specific search engine mentioned |yahoo |aol |cnn |msn |excite |google |webferret |lycos |altavista |usatoday |copernic |peoplefind.com |abc |msnbc |infoseek go |dogpile |snap |metacrawler |webcrawler |netscape |iwon |politics.com |homp page search engine |nbc |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------------------------|:-----|:---|:---|:---|:------|:------|:---------|:-----|:---------|:--------|:--------|:--------------|:---|:-----|:-----------|:-------|:----|:-----------|:----------|:--------|:----|:------------|:-----------------------|:---|:----------|:---------|:-----|
-#'  |2000  |1789 |527                                 |83    |18  |13  |5   |5      |7      |1         |3     |6         |1        |2        |1              |3   |2     |2           |1       |2    |1           |1          |1        |1    |6            |2                       |1   |25         |308       |2817  |
-#'  |Total |1789 |527                                 |83    |18  |13  |5   |5      |7      |1         |3     |6         |1        |2        |1              |3   |2     |2           |1       |2    |1           |1          |1        |1    |6            |2                       |1   |25         |308       |2817  |
+#'  |year  |iap  |no specific search engine mentioned |yahoo |aol |cnn |msn |excite |google |webferret |lycos |altavista |usatoday |copernic |peoplefind.com |abc |msnbc |infoseek go |dogpile |snap |metacrawler |webcrawler |netscape |iwon |politics.com |homp page search engine |nbc |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------------------------|:-----|:---|:---|:---|:------|:------|:---------|:-----|:---------|:--------|:--------|:--------------|:---|:-----|:-----------|:-------|:----|:-----------|:----------|:--------|:----|:------------|:-----------------------|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1789 |527                                 |83    |18  |13  |5   |5      |7      |1         |3     |6         |1        |2        |1              |3   |2     |2           |1       |2    |1           |1          |1        |1    |6            |2                       |1   |25         |308       |-                          |2817  |
+#'  |Total |1789 |527                                 |83    |18  |13  |5   |5      |7      |1         |3     |6         |1        |2        |1              |3   |2     |2           |1       |2    |1           |1          |1        |1    |6            |2                       |1   |25         |308       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Seeking Online
@@ -211,11 +211,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |often |sometimes |rarely |never |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:---------|:------|:-----|:----------|:---------|:-----|
-#'  |2004  |945  |462   |599       |316    |409   |38         |43        |2812  |
-#'  |2012  |795  |360   |407       |164    |188   |26         |34        |1974  |
-#'  |Total |1740 |822   |1006      |480    |597   |64         |77        |4786  |
+#'  |year  |iap  |often |sometimes |rarely |never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:---------|:------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |945  |462   |599       |316    |409   |38         |43        |-                          |2812  |
+#'  |2012  |795  |360   |407       |164    |188   |26         |34        |-                          |1974  |
+#'  |Total |1740 |822   |1006      |480    |597   |64         |77        |0                          |4786  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
@@ -253,10 +253,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |often |sometimes |rarely |never |don't know |no answer |Total |
-#'  |:-----|:---|:-----|:---------|:------|:-----|:----------|:---------|:-----|
-#'  |2004  |945 |948   |511       |195    |140   |31         |42        |2812  |
-#'  |Total |945 |948   |511       |195    |140   |31         |42        |2812  |
+#'  |year  |iap |often |sometimes |rarely |never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----|:---------|:------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |945 |948   |511       |195    |140   |31         |42        |-                          |2812  |
+#'  |Total |945 |948   |511       |195    |140   |31         |42        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
@@ -294,11 +294,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |often |sometimes |rarely |never |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:---------|:------|:-----|:----------|:---------|:-----|
-#'  |2004  |945  |117   |395       |469    |820   |23         |43        |2812  |
-#'  |2012  |795  |98    |279       |324    |429   |15         |34        |1974  |
-#'  |Total |1740 |215   |674       |793    |1249  |38         |77        |4786  |
+#'  |year  |iap  |often |sometimes |rarely |never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:---------|:------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |945  |117   |395       |469    |820   |23         |43        |-                          |2812  |
+#'  |2012  |795  |98    |279       |324    |429   |15         |34        |-                          |1974  |
+#'  |Total |1740 |215   |674       |793    |1249  |38         |77        |0                          |4786  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
@@ -336,11 +336,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |often |sometimes |rarely |never |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:---------|:------|:-----|:----------|:---------|:-----|
-#'  |2004  |945  |53    |228       |410    |1114  |21         |41        |2812  |
-#'  |2012  |795  |38    |134       |315    |645   |14         |33        |1974  |
-#'  |Total |1740 |91    |362       |725    |1759  |35         |74        |4786  |
+#'  |year  |iap  |often |sometimes |rarely |never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:---------|:------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |945  |53    |228       |410    |1114  |21         |41        |-                          |2812  |
+#'  |2012  |795  |38    |134       |315    |645   |14         |33        |-                          |1974  |
+#'  |Total |1740 |91    |362       |725    |1759  |35         |74        |0                          |4786  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
@@ -378,11 +378,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |often |sometimes |rarely |never |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:---------|:------|:-----|:----------|:---------|:-----|
-#'  |2004  |945  |139   |495       |516    |656   |20         |41        |2812  |
-#'  |2012  |795  |102   |362       |305    |366   |12         |32        |1974  |
-#'  |Total |1740 |241   |857       |821    |1022  |32         |73        |4786  |
+#'  |year  |iap  |often |sometimes |rarely |never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:---------|:------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |945  |139   |495       |516    |656   |20         |41        |-                          |2812  |
+#'  |2012  |795  |102   |362       |305    |366   |12         |32        |-                          |1974  |
+#'  |Total |1740 |241   |857       |821    |1022  |32         |73        |0                          |4786  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict
@@ -420,10 +420,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |often |sometimes |rarely |never |don't know |no answer |Total |
-#'  |:-----|:---|:-----|:---------|:------|:-----|:----------|:---------|:-----|
-#'  |2004  |945 |38    |169       |307    |1292  |20         |41        |2812  |
-#'  |Total |945 |38    |169       |307    |1292  |20         |41        |2812  |
+#'  |year  |iap |often |sometimes |rarely |never |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----|:---------|:------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |945 |38    |169       |307    |1292  |20         |41        |-                          |2812  |
+#'  |Total |945 |38    |169       |307    |1292  |20         |41        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Workplace Conflict

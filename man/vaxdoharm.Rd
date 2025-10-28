@@ -35,10 +35,10 @@ Question How much do you agree or disagree with the following statements about v
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7818/vshow}{GSS Data Explorer page for \code{vaxdoharm}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2381 \tab 48 \tab 88 \tab 259 \tab 388 \tab 333 \tab 36 \tab 3 \tab 8 \tab 3544 \cr
-   Total \tab 2381 \tab 48 \tab 88 \tab 259 \tab 388 \tab 333 \tab 36 \tab 3 \tab 8 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 48 \tab 88 \tab 259 \tab 388 \tab 333 \tab 36 \tab 2381 \tab 3 \tab 8 \tab 3544 \cr
+   Total \tab 0 \tab 48 \tab 88 \tab 259 \tab 388 \tab 333 \tab 36 \tab 2381 \tab 3 \tab 8 \tab 3544 \cr
 }
 }
 

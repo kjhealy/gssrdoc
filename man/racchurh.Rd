@@ -34,21 +34,21 @@ Question Do (Blacks/Negroes/African-Americans)/Whites attend the church that you
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/402/vshow}{GSS Data Explorer page for \code{racchurh}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab no church \tab don't know \tab no answer \tab Total \cr
-   1978 \tab - \tab 438 \tab 829 \tab 260 \tab 2 \tab 3 \tab 1532 \cr
-   1980 \tab - \tab 520 \tab 719 \tab 223 \tab 2 \tab 4 \tab 1468 \cr
-   1983 \tab - \tab 482 \tab 862 \tab 243 \tab 4 \tab 8 \tab 1599 \cr
-   1984 \tab - \tab 563 \tab 692 \tab 204 \tab - \tab 14 \tab 1473 \cr
-   1986 \tab - \tab 456 \tab 798 \tab 208 \tab 4 \tab 4 \tab 1470 \cr
-   1987 \tab - \tab 712 \tab 881 \tab 196 \tab - \tab 30 \tab 1819 \cr
-   1988 \tab 484 \tab 407 \tab 433 \tab 152 \tab 1 \tab 4 \tab 1481 \cr
-   1989 \tab 502 \tab 340 \tab 498 \tab 192 \tab - \tab 5 \tab 1537 \cr
-   1990 \tab 473 \tab 325 \tab 412 \tab 158 \tab 2 \tab 2 \tab 1372 \cr
-   1991 \tab 500 \tab 390 \tab 471 \tab 138 \tab 1 \tab 17 \tab 1517 \cr
-   1993 \tab 549 \tab 399 \tab 443 \tab 211 \tab 1 \tab 3 \tab 1606 \cr
-   1994 \tab 2481 \tab 200 \tab 224 \tab 83 \tab 1 \tab 3 \tab 2992 \cr
-   Total \tab 4989 \tab 5232 \tab 7262 \tab 2268 \tab 18 \tab 97 \tab 19866 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab no church \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1978 \tab - \tab 438 \tab 829 \tab 260 \tab 2 \tab 3 \tab - \tab 1532 \cr
+   1980 \tab - \tab 520 \tab 719 \tab 223 \tab 2 \tab 4 \tab - \tab 1468 \cr
+   1983 \tab - \tab 482 \tab 862 \tab 243 \tab 4 \tab 8 \tab - \tab 1599 \cr
+   1984 \tab - \tab 563 \tab 692 \tab 204 \tab - \tab 14 \tab - \tab 1473 \cr
+   1986 \tab - \tab 456 \tab 798 \tab 208 \tab 4 \tab 4 \tab - \tab 1470 \cr
+   1987 \tab - \tab 712 \tab 881 \tab 196 \tab - \tab 30 \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 407 \tab 433 \tab 152 \tab 1 \tab 4 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 340 \tab 498 \tab 192 \tab - \tab 5 \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 325 \tab 412 \tab 158 \tab 2 \tab 2 \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 390 \tab 471 \tab 138 \tab 1 \tab 17 \tab - \tab 1517 \cr
+   1993 \tab 549 \tab 399 \tab 443 \tab 211 \tab 1 \tab 3 \tab - \tab 1606 \cr
+   1994 \tab 2481 \tab 200 \tab 224 \tab 83 \tab 1 \tab 3 \tab - \tab 2992 \cr
+   Total \tab 4989 \tab 5232 \tab 7262 \tab 2268 \tab 18 \tab 97 \tab 0 \tab 19866 \cr
 }
 }
 

@@ -34,10 +34,10 @@ Question I feel a deep sense of responsibility for reducing pain and suffering i
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2103/vshow}{GSS Data Explorer page for \code{lesspain}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 239 \tab 640 \tab 433 \tab 97 \tab 12 \tab 24 \tab 2832 \cr
-   Total \tab 1387 \tab 239 \tab 640 \tab 433 \tab 97 \tab 12 \tab 24 \tab 2832 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 239 \tab 640 \tab 433 \tab 97 \tab 12 \tab 24 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 239 \tab 640 \tab 433 \tab 97 \tab 12 \tab 24 \tab 0 \tab 2832 \cr
 }
 }
 

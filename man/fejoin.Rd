@@ -33,10 +33,10 @@ C. Joined an organization concerned with women''s rights?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/600/vshow}{GSS Data Explorer page for \code{fejoin}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1983 \tab 804 \tab 35 \tab 755 \tab 5 \tab 1599 \cr
-   Total \tab 804 \tab 35 \tab 755 \tab 5 \tab 1599 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab 804 \tab 35 \tab 755 \tab 5 \tab - \tab 1599 \cr
+   Total \tab 804 \tab 35 \tab 755 \tab 5 \tab 0 \tab 1599 \cr
 }
 }
 

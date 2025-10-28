@@ -38,11 +38,11 @@ Question What is your main source of economic support?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4605/vshow}{GSS Data Explorer page for \code{econsup}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab pnsion pri/st/ss \tab unemploy benfits \tab spouse/partner \tab othr famly mmbrs \tab soc assis/welfre \tab occasional work \tab other \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 2460 \tab 152 \tab 8 \tab 66 \tab 28 \tab 29 \tab 4 \tab 43 \tab 2 \tab 40 \tab 2832 \cr
-   2006 \tab 4008 \tab 173 \tab 19 \tab 119 \tab 30 \tab 68 \tab 8 \tab 78 \tab - \tab 7 \tab 4510 \cr
-   Total \tab 6468 \tab 325 \tab 27 \tab 185 \tab 58 \tab 97 \tab 12 \tab 121 \tab 2 \tab 47 \tab 7342 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab pnsion pri/st/ss \tab unemploy benfits \tab spouse/partner \tab othr famly mmbrs \tab soc assis/welfre \tab occasional work \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2460 \tab 152 \tab 8 \tab 66 \tab 28 \tab 29 \tab 4 \tab 43 \tab 2 \tab 40 \tab - \tab 2832 \cr
+   2006 \tab 4008 \tab 173 \tab 19 \tab 119 \tab 30 \tab 68 \tab 8 \tab 78 \tab - \tab 7 \tab - \tab 4510 \cr
+   Total \tab 6468 \tab 325 \tab 27 \tab 185 \tab 58 \tab 97 \tab 12 \tab 121 \tab 2 \tab 47 \tab 0 \tab 7342 \cr
 }
 }
 

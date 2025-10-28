@@ -36,10 +36,10 @@ D. Newspapers
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4794/vshow}{GSS Data Explorer page for \code{infonews}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab a great deal of trust \tab quite a lot of trust \tab some trust \tab not much trust \tab hardly any trust \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1541 \tab 55 \tab 218 \tab 528 \tab 251 \tab 72 \tab 33 \tab 119 \tab 2817 \cr
-   Total \tab 1541 \tab 55 \tab 218 \tab 528 \tab 251 \tab 72 \tab 33 \tab 119 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab a great deal of trust \tab quite a lot of trust \tab some trust \tab not much trust \tab hardly any trust \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1541 \tab 55 \tab 218 \tab 528 \tab 251 \tab 72 \tab 33 \tab 119 \tab - \tab 2817 \cr
+   Total \tab 1541 \tab 55 \tab 218 \tab 528 \tab 251 \tab 72 \tab 33 \tab 119 \tab 0 \tab 2817 \cr
 }
 }
 

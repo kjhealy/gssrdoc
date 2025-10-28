@@ -33,10 +33,10 @@ Question How many full time jobs have you have had in past three years, that is 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3872/vshow}{GSS Data Explorer page for \code{work3yrs}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab one \tab number greater than 1 \tab none \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 603 \tab 791 \tab 293 \tab 275 \tab 2 \tab 59 \tab 2023 \cr
-   Total \tab 603 \tab 791 \tab 293 \tab 275 \tab 2 \tab 59 \tab 2023 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab one \tab number greater than 1 \tab none \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 603 \tab 791 \tab 293 \tab 275 \tab 2 \tab 59 \tab - \tab 2023 \cr
+   Total \tab 603 \tab 791 \tab 293 \tab 275 \tab 2 \tab 59 \tab 0 \tab 2023 \cr
 }
 }
 

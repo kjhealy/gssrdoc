@@ -35,10 +35,10 @@ K. Having physical health or emotional problems interfere with you social life, 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2698/vshow}{GSS Data Explorer page for \code{treat11}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely go \tab probably go \tab probably not go \tab definitely not go \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 284 \tab 364 \tab 279 \tab 229 \tab 12 \tab 251 \tab 2817 \cr
-   Total \tab 1398 \tab 284 \tab 364 \tab 279 \tab 229 \tab 12 \tab 251 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely go \tab probably go \tab probably not go \tab definitely not go \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 284 \tab 364 \tab 279 \tab 229 \tab 12 \tab 251 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 284 \tab 364 \tab 279 \tab 229 \tab 12 \tab 251 \tab 0 \tab 2817 \cr
 }
 }
 

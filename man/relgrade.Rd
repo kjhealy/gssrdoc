@@ -36,10 +36,10 @@ Question Using the school grading system of A,B,C,D, and F for Fail, how Do you 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/381/vshow}{GSS Data Explorer page for \code{relgrade}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab a \tab b \tab c \tab d \tab f \tab no religion \tab don't know \tab no answer \tab Total \cr
-   1989 \tab 531 \tab 278 \tab 287 \tab 182 \tab 45 \tab 33 \tab 125 \tab 51 \tab 5 \tab 1537 \cr
-   Total \tab 531 \tab 278 \tab 287 \tab 182 \tab 45 \tab 33 \tab 125 \tab 51 \tab 5 \tab 1537 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab a \tab b \tab c \tab d \tab f \tab no religion \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 531 \tab 278 \tab 287 \tab 182 \tab 45 \tab 33 \tab 125 \tab 51 \tab 5 \tab - \tab 1537 \cr
+   Total \tab 531 \tab 278 \tab 287 \tab 182 \tab 45 \tab 33 \tab 125 \tab 51 \tab 5 \tab 0 \tab 1537 \cr
 }
 }
 

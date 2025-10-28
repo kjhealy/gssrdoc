@@ -35,10 +35,10 @@ A. The world would be a better place if Americans acknowledged America''s shortc
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4898/vshow}{GSS Data Explorer page for \code{shortcom}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab 5 \tab don't know \tab no answer \tab Total \cr
-   2014 \tab 1264 \tab 222 \tab 676 \tab 235 \tab 83 \tab 12 \tab 43 \tab 3 \tab 2538 \cr
-   Total \tab 1264 \tab 222 \tab 676 \tab 235 \tab 83 \tab 12 \tab 43 \tab 3 \tab 2538 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab 5 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab 1264 \tab 222 \tab 676 \tab 235 \tab 83 \tab 12 \tab 43 \tab 3 \tab - \tab 2538 \cr
+   Total \tab 1264 \tab 222 \tab 676 \tab 235 \tab 83 \tab 12 \tab 43 \tab 3 \tab 0 \tab 2538 \cr
 }
 }
 

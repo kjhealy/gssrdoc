@@ -126,10 +126,10 @@ Question D. Which of these languages other than English do you speak most fluent
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2286/vshow}{GSS Data Explorer page for \code{othbest}}.
 
-Counts by year:\tabular{lllllllllllllllllllllllllllll}{
-   year \tab iap \tab spanish \tab polish \tab french \tab hebrew \tab russian \tab chinese \tab italian \tab german \tab hungarian \tab arabic \tab farsi-persian \tab serbian \tab slovak \tab portuguese \tab creole \tab vietnamese \tab hindu \tab sign language \tab tongan \tab armenian \tab ibo \tab dutch \tab cherokee \tab patois \tab pangasinan \tab tamil \tab Total \cr
-   2000 \tab 2728 \tab 28 \tab 1 \tab 15 \tab 1 \tab 1 \tab 3 \tab 4 \tab 7 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 5 \tab 2817 \cr
-   Total \tab 2728 \tab 28 \tab 1 \tab 15 \tab 1 \tab 1 \tab 3 \tab 4 \tab 7 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 5 \tab 2817 \cr
+Counts by year:\tabular{llllllllllllllllllllllllllllll}{
+   year \tab iap \tab spanish \tab polish \tab french \tab hebrew \tab russian \tab chinese \tab italian \tab german \tab hungarian \tab arabic \tab farsi-persian \tab serbian \tab slovak \tab portuguese \tab creole \tab vietnamese \tab hindu \tab sign language \tab tongan \tab armenian \tab ibo \tab dutch \tab cherokee \tab patois \tab pangasinan \tab tamil \tab not available in this year \tab Total \cr
+   2000 \tab 2728 \tab 28 \tab 1 \tab 15 \tab 1 \tab 1 \tab 3 \tab 4 \tab 7 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 5 \tab - \tab 2817 \cr
+   Total \tab 2728 \tab 28 \tab 1 \tab 15 \tab 1 \tab 1 \tab 3 \tab 4 \tab 7 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 5 \tab 0 \tab 2817 \cr
 }
 }
 

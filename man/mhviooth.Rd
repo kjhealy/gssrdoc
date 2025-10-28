@@ -34,10 +34,10 @@ Question A. How likely is it (NAME) would do something violent or harmful toward
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3799/vshow}{GSS Data Explorer page for \code{mhviooth}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 82 \tab 357 \tab 600 \tab 278 \tab 97 \tab 11 \tab 4510 \cr
-   Total \tab 3085 \tab 82 \tab 357 \tab 600 \tab 278 \tab 97 \tab 11 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 82 \tab 357 \tab 600 \tab 278 \tab 97 \tab 11 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 82 \tab 357 \tab 600 \tab 278 \tab 97 \tab 11 \tab 0 \tab 4510 \cr
 }
 }
 

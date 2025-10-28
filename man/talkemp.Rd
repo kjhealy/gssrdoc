@@ -35,11 +35,11 @@ A. Talk directly to the employee
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2865/vshow}{GSS Data Explorer page for \code{talkemp}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab not at all likely \tab not very likely \tab somewhat likely \tab very likely \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 969 \tab 480 \tab 301 \tab 432 \tab 514 \tab 40 \tab 29 \tab 2765 \cr
-   2006 \tab 2778 \tab 420 \tab 284 \tab 383 \tab 546 \tab 69 \tab 30 \tab 4510 \cr
-   Total \tab 3747 \tab 900 \tab 585 \tab 815 \tab 1060 \tab 109 \tab 59 \tab 7275 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not at all likely \tab not very likely \tab somewhat likely \tab very likely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 969 \tab 480 \tab 301 \tab 432 \tab 514 \tab 40 \tab 29 \tab - \tab 2765 \cr
+   2006 \tab 2778 \tab 420 \tab 284 \tab 383 \tab 546 \tab 69 \tab 30 \tab - \tab 4510 \cr
+   Total \tab 3747 \tab 900 \tab 585 \tab 815 \tab 1060 \tab 109 \tab 59 \tab 0 \tab 7275 \cr
 }
 }
 

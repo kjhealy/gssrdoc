@@ -33,10 +33,10 @@ B9. Sex of ninth sibling.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1553/vshow}{GSS Data Explorer page for \code{sbsex9}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2795 \tab 85 \tab 94 \tab 3 \tab 15 \tab 2992 \cr
-   Total \tab 2795 \tab 85 \tab 94 \tab 3 \tab 15 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab male \tab female \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2795 \tab 85 \tab 94 \tab 3 \tab 15 \tab - \tab 2992 \cr
+   Total \tab 2795 \tab 85 \tab 94 \tab 3 \tab 15 \tab 0 \tab 2992 \cr
 }
 }
 

@@ -40,10 +40,10 @@ Question And what about your mother? How often do you see or visit her?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4194/vshow}{GSS Data Explorer page for \code{mavisit1}}.
 
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab she lives in the same household as i do \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab never \tab my mother is no longer alive \tab i dont know where mother lives \tab no answer \tab Total \cr
-   2002 \tab 1616 \tab 66 \tab 71 \tab 128 \tab 139 \tab 111 \tab 125 \tab 85 \tab 19 \tab 400 \tab 1 \tab 4 \tab 2765 \cr
-   Total \tab 1616 \tab 66 \tab 71 \tab 128 \tab 139 \tab 111 \tab 125 \tab 85 \tab 19 \tab 400 \tab 1 \tab 4 \tab 2765 \cr
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab she lives in the same household as i do \tab daily \tab at least several times a week \tab at least once a week \tab at least once a month \tab several times a year \tab less often \tab never \tab my mother is no longer alive \tab i dont know where mother lives \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1616 \tab 66 \tab 71 \tab 128 \tab 139 \tab 111 \tab 125 \tab 85 \tab 19 \tab 400 \tab 1 \tab 4 \tab - \tab 2765 \cr
+   Total \tab 1616 \tab 66 \tab 71 \tab 128 \tab 139 \tab 111 \tab 125 \tab 85 \tab 19 \tab 400 \tab 1 \tab 4 \tab 0 \tab 2765 \cr
 }
 }
 

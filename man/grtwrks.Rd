@@ -35,10 +35,10 @@ Question The great works of philosophy and science are the best source of truth,
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7538/vshow}{GSS Data Explorer page for \code{grtwrks}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 422 \tab 297 \tab 959 \tab 1624 \tab 506 \tab 161 \tab 11 \tab 5 \tab 47 \tab 4032 \cr
-   Total \tab 422 \tab 297 \tab 959 \tab 1624 \tab 506 \tab 161 \tab 11 \tab 5 \tab 47 \tab 4032 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 422 \tab 297 \tab 959 \tab 1624 \tab 506 \tab 161 \tab 11 \tab 5 \tab 47 \tab - \tab 4032 \cr
+   Total \tab 422 \tab 297 \tab 959 \tab 1624 \tab 506 \tab 161 \tab 11 \tab 5 \tab 47 \tab 0 \tab 4032 \cr
 }
 }
 

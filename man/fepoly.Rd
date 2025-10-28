@@ -33,11 +33,11 @@ Question B. Would you say that most men are better suited emotionally for politi
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/592/vshow}{GSS Data Explorer page for \code{fepoly}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab men \tab equal \tab women \tab don't know \tab no answer \tab Total \cr
-   1974 \tab 753 \tab 238 \tab 450 \tab 31 \tab 11 \tab 1 \tab 1484 \cr
-   1982 \tab 923 \tab 229 \tab 630 \tab 50 \tab 21 \tab 7 \tab 1860 \cr
-   Total \tab 1676 \tab 467 \tab 1080 \tab 81 \tab 32 \tab 8 \tab 3344 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab men \tab equal \tab women \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1974 \tab 753 \tab 238 \tab 450 \tab 31 \tab 11 \tab 1 \tab - \tab 1484 \cr
+   1982 \tab 923 \tab 229 \tab 630 \tab 50 \tab 21 \tab 7 \tab - \tab 1860 \cr
+   Total \tab 1676 \tab 467 \tab 1080 \tab 81 \tab 32 \tab 8 \tab 0 \tab 3344 \cr
 }
 }
 

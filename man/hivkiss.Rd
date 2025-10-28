@@ -32,10 +32,10 @@ Question D. People are likely to get HIV by deep kissing, putting their tongue i
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5080/vshow}{GSS Data Explorer page for \code{hivkiss}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
-   2014 \tab 707 \tab 481 \tab 1210 \tab 102 \tab 38 \tab 2538 \cr
-   Total \tab 707 \tab 481 \tab 1210 \tab 102 \tab 38 \tab 2538 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab 707 \tab 481 \tab 1210 \tab 102 \tab 38 \tab - \tab 2538 \cr
+   Total \tab 707 \tab 481 \tab 1210 \tab 102 \tab 38 \tab 0 \tab 2538 \cr
 }
 }
 

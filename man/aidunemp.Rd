@@ -38,15 +38,15 @@ F. Provide a decent standard of living for the unemployed.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4081/vshow}{GSS Data Explorer page for \code{aidunemp}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 98 \tab 217 \tab 206 \tab 104 \tab 39 \tab 13 \tab 1534 \cr
-   1989 \tab 84 \tab 243 \tab 511 \tab 344 \tab 219 \tab 95 \tab 41 \tab 1537 \cr
-   1990 \tab 155 \tab 154 \tab 433 \tab 378 \tab 145 \tab 67 \tab 40 \tab 1372 \cr
-   1996 \tab 1572 \tab 153 \tab 418 \tab 396 \tab 230 \tab 76 \tab 59 \tab 2904 \cr
-   2006 \tab 2992 \tab 237 \tab 532 \tab 512 \tab 199 \tab 37 \tab 1 \tab 4510 \cr
-   2016 \tab 1477 \tab 217 \tab 541 \tab 442 \tab 139 \tab 37 \tab 14 \tab 2867 \cr
-   Total \tab 7137 \tab 1102 \tab 2652 \tab 2278 \tab 1036 \tab 351 \tab 168 \tab 14724 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 98 \tab 217 \tab 206 \tab 104 \tab 39 \tab 13 \tab - \tab 1534 \cr
+   1989 \tab 84 \tab 243 \tab 511 \tab 344 \tab 219 \tab 95 \tab 41 \tab - \tab 1537 \cr
+   1990 \tab 155 \tab 154 \tab 433 \tab 378 \tab 145 \tab 67 \tab 40 \tab - \tab 1372 \cr
+   1996 \tab 1572 \tab 153 \tab 418 \tab 396 \tab 230 \tab 76 \tab 59 \tab - \tab 2904 \cr
+   2006 \tab 2992 \tab 237 \tab 532 \tab 512 \tab 199 \tab 37 \tab 1 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 217 \tab 541 \tab 442 \tab 139 \tab 37 \tab 14 \tab - \tab 2867 \cr
+   Total \tab 7137 \tab 1102 \tab 2652 \tab 2278 \tab 1036 \tab 351 \tab 168 \tab 0 \tab 14724 \cr
 }
 }
 

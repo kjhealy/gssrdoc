@@ -33,10 +33,10 @@ B. Blacks?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2262/vshow}{GSS Data Explorer page for \code{famblks}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab commitment to strong families \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab lacks commitment to strong families \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 84 \tab 140 \tab 229 \tab 459 \tab 238 \tab 136 \tab 41 \tab 59 \tab 12 \tab 2817 \cr
-   Total \tab 1419 \tab 84 \tab 140 \tab 229 \tab 459 \tab 238 \tab 136 \tab 41 \tab 59 \tab 12 \tab 2817 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab commitment to strong families \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab lacks commitment to strong families \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 84 \tab 140 \tab 229 \tab 459 \tab 238 \tab 136 \tab 41 \tab 59 \tab 12 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 84 \tab 140 \tab 229 \tab 459 \tab 238 \tab 136 \tab 41 \tab 59 \tab 12 \tab 0 \tab 2817 \cr
 }
 }
 

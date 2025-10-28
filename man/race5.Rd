@@ -37,11 +37,11 @@ Question Is (NAME) Asian, Black, Hispanic, White or something else?  ASK FOR EAC
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/874/vshow}{GSS Data Explorer page for \code{race5}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab asian \tab black \tab hispanic \tab white \tab other \tab no answer \tab Total \cr
-   1985 \tab 1153 \tab 1 \tab 24 \tab 12 \tab 336 \tab 4 \tab 4 \tab 1534 \cr
-   2004 \tab 2600 \tab 2 \tab 11 \tab 7 \tab 143 \tab 3 \tab 46 \tab 2812 \cr
-   Total \tab 3753 \tab 3 \tab 35 \tab 19 \tab 479 \tab 7 \tab 50 \tab 4346 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab asian \tab black \tab hispanic \tab white \tab other \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 1153 \tab 1 \tab 24 \tab 12 \tab 336 \tab 4 \tab 4 \tab - \tab 1534 \cr
+   2004 \tab 2600 \tab 2 \tab 11 \tab 7 \tab 143 \tab 3 \tab 46 \tab - \tab 2812 \cr
+   Total \tab 3753 \tab 3 \tab 35 \tab 19 \tab 479 \tab 7 \tab 50 \tab 0 \tab 4346 \cr
 }
 }
 

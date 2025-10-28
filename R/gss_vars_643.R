@@ -1,3 +1,124 @@
+#'  Fate of illegal immigrants
+#' 
+#'  immfate
+#' 
+#' Question What should be done about immigrants who are currently living in the U.S. illegally?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` become citizens
+#'   * `[2]` become permanent legal residents
+#'   * `[3]` identified and deported
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/C     |2022, 2024 |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `immfate`](https://gssdataexplorer.norc.org/variables/7756/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |become citizens |become permanent legal residents |identified and deported |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:---------------|:--------------------------------|:-----------------------|:----------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |1575            |341                              |382                     |26         |1203 |7         |10             |3544  |
+#'  |2024  |-                          |1303            |320                              |547                     |45         |1067 |12        |15             |3309  |
+#'  |Total |0                          |2878            |661                              |929                     |71         |2270 |19        |25             |6853  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name immfate
+NULL
+
+
+#'  Immigration from latin america should decrease or increase
+#' 
+#'  letinhsp1
+#' 
+#' Question Do you think the number of immigrants from Latin America who are permitted to come to the United States to live should be decreased, increased or left the same?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` decreased
+#'   * `[2]` increased
+#'   * `[3]` left the same
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `letinhsp1`](https://gssdataexplorer.norc.org/variables/8005/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |decreased |increased |left the same |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:---------|:---------|:-------------|:----------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |513       |473       |1246          |84         |1203 |7         |18             |3544  |
+#'  |Total |0                          |513       |473       |1246          |84         |1203 |7         |18             |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name letinhsp1
+NULL
+
+
+#'  Immigration from asia should decrease or increase
+#' 
+#'  letinasn1
+#' 
+#' Question Do you think the number of immigrants from Asia who are permitted to come to the United States to live should be decreased, increased or left the same?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` decreased
+#'   * `[2]` increased
+#'   * `[3]` left the same
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B     |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `letinasn1`](https://gssdataexplorer.norc.org/variables/8004/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |decreased |increased |left the same |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:---------|:---------|:-------------|:----------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |385       |419       |1422          |88         |1203 |7         |20             |3544  |
+#'  |Total |0                          |385       |419       |1422          |88         |1203 |7         |20             |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name letinasn1
+NULL
+
+
 #'  Seen pornography in past year
 #' 
 #'  xmoviey
@@ -30,10 +151,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |never |less than once a year |about once or twice a year |several times a year |about once a month |2-3 times a month |nearly every week |every week |once a day |several times a day |don't know |no answer |skipped on web |Total |
-#'  |:-----|:----|:-----|:---------------------|:--------------------------|:--------------------|:------------------|:-----------------|:-----------------|:----------|:----------|:-------------------|:----------|:---------|:--------------|:-----|
-#'  |2022  |2364 |627   |79                    |84                         |97                   |47                 |55                |40                |47         |24         |12                  |39         |25        |4              |3544  |
-#'  |Total |2364 |627   |79                    |84                         |97                   |47                 |55                |40                |47         |24         |12                  |39         |25        |4              |3544  |
+#'  |year  |not available in this year |never |less than once a year |about once or twice a year |several times a year |about once a month |2-3 times a month |nearly every week |every week |once a day |several times a day |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:-----|:---------------------|:--------------------------|:--------------------|:------------------|:-----------------|:-----------------|:----------|:----------|:-------------------|:----------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |627   |79                    |84                         |97                   |47                 |55                |40                |47         |24         |12                  |39         |2364 |25        |4              |3544  |
+#'  |2024  |-                          |604   |74                    |79                         |68                   |37                 |56                |40                |33         |11         |14                  |47         |2227 |9         |10             |3309  |
+#'  |Total |0                          |1231  |153                   |163                        |165                  |84                 |111               |80                |80         |35         |26                  |86         |4591 |34        |14             |6853  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -70,10 +192,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |voted |did not vote |ineligible |don't know |no answer |skipped on web |Total |
-#'  |:-----|:---|:-----|:------------|:----------|:----------|:---------|:--------------|:-----|
-#'  |2022  |-   |2474  |681          |166        |87         |130       |6              |3544  |
-#'  |Total |0   |2474  |681          |166        |87         |130       |6              |3544  |
+#'  |year  |not available in this year |voted |did not vote |ineligible |don't know |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:-----|:------------|:----------|:----------|:---------|:--------------|:-----|
+#'  |2022  |-                          |2474  |681          |166        |87         |130       |6              |3544  |
+#'  |2024  |-                          |2200  |629          |195        |141        |24        |120            |3309  |
+#'  |Total |0                          |4674  |1310         |361        |228        |154       |126            |6853  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -111,10 +234,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |biden |trump |other candidate |didn't vote for president |don't know |no answer |skipped on web |Total |
-#'  |:-----|:---|:-----|:-----|:---------------|:-------------------------|:----------|:---------|:--------------|:-----|
-#'  |2022  |939 |1417  |883   |82              |14                        |38         |158       |13             |3544  |
-#'  |Total |939 |1417  |883   |82              |14                        |38         |158       |13             |3544  |
+#'  |year  |not available in this year |biden |trump |other candidate |didn't vote for president |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:-----|:-----|:---------------|:-------------------------|:----------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |1417  |883   |82              |14                        |38         |939  |158       |13             |3544  |
+#'  |2024  |-                          |1188  |874   |53              |13                        |44         |981  |38        |118            |3309  |
+#'  |Total |0                          |2605  |1757  |135             |27                        |82         |1920 |196       |131            |6853  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -152,10 +276,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |biden |trump |other |don't know/can't remember |don't know |no answer |skipped on web |Total |
-#'  |:-----|:----|:-----|:-----|:-----|:-------------------------|:----------|:---------|:--------------|:-----|
-#'  |2022  |2466 |260   |315   |135   |102                       |24         |238       |4              |3544  |
-#'  |Total |2466 |260   |315   |135   |102                       |24         |238       |4              |3544  |
+#'  |year  |not available in this year |biden |trump |other |don't know/can't remember |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:-----|:-----|:-----|:-------------------------|:----------|:----|:---------|:--------------|:-----|
+#'  |2022  |-                          |260   |315   |135   |102                       |24         |2466 |238       |4              |3544  |
+#'  |2024  |-                          |231   |316   |125   |120                       |23         |2203 |82        |209            |3309  |
+#'  |Total |0                          |491   |631   |260   |222                       |47         |4669 |320       |213            |6853  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -191,10 +316,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |incorrect answer |correct answer |no answer |Total |
-#'  |:-----|:----|:----------------|:--------------|:---------|:-----|
-#'  |2022  |2345 |292              |817            |90        |3544  |
-#'  |Total |2345 |292              |817            |90        |3544  |
+#'  |year  |not available in this year |incorrect answer |correct answer |iap  |no answer |Total |
+#'  |:-----|:--------------------------|:----------------|:--------------|:----|:---------|:-----|
+#'  |2022  |-                          |292              |817            |2345 |90        |3544  |
+#'  |Total |0                          |292              |817            |2345 |90        |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -230,10 +355,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |incorrect answer |correct answer |no answer |Total |
-#'  |:-----|:----|:----------------|:--------------|:---------|:-----|
-#'  |2022  |2345 |425              |696            |78        |3544  |
-#'  |Total |2345 |425              |696            |78        |3544  |
+#'  |year  |not available in this year |incorrect answer |correct answer |iap  |no answer |Total |
+#'  |:-----|:--------------------------|:----------------|:--------------|:----|:---------|:-----|
+#'  |2022  |-                          |425              |696            |2345 |78        |3544  |
+#'  |Total |0                          |425              |696            |2345 |78        |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -269,10 +394,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |incorrect answer |correct answer |no answer |Total |
-#'  |:-----|:----|:----------------|:--------------|:---------|:-----|
-#'  |2022  |2345 |359              |763            |77        |3544  |
-#'  |Total |2345 |359              |763            |77        |3544  |
+#'  |year  |not available in this year |incorrect answer |correct answer |iap  |no answer |Total |
+#'  |:-----|:--------------------------|:----------------|:--------------|:----|:---------|:-----|
+#'  |2022  |-                          |359              |763            |2345 |77        |3544  |
+#'  |Total |0                          |359              |763            |2345 |77        |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -281,132 +406,6 @@ NULL
 #' @keywords variable
 #' @md
 #' @name wordn
-NULL
-
-
-#'  Mother working doesn't hurt children - issp version
-#' 
-#'  fechld2
-#' 
-#' Question To begin, we have some questions about women. To what extent do you agree or disagree...? A working mother can establish just as warm and secure a relationship with her children as a mother who does not work.
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` strongly agree
-#'   * `[2]` agree
-#'   * `[3]` neither agree nor disagree
-#'   * `[4]` disagree
-#'   * `[5]` strongly disagree
-#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A       |2022  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `fechld2`](https://gssdataexplorer.norc.org/variables/7764/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
-#'  |2022  |2377 |487            |434   |83                         |117      |21                |14           |6         |5              |3544  |
-#'  |Total |2377 |487            |434   |83                         |117      |21                |14           |6         |5              |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name fechld2
-NULL
-
-
-#'  Preschool kids suffer if mother works  - issp version
-#' 
-#'  fepresch2
-#' 
-#' Question (To what extent do you agree or disagree...?) A pre-school child is likely to suffer if his or her mother works.
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` strongly agree
-#'   * `[2]` agree
-#'   * `[3]` neither agree nor disagree
-#'   * `[4]` disagree
-#'   * `[5]` strongly disagree
-#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A       |2022  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `fepresch2`](https://gssdataexplorer.norc.org/variables/7765/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
-#'  |2022  |2378 |44             |188   |167                        |429      |300               |23           |6         |9              |3544  |
-#'  |Total |2378 |44             |188   |167                        |429      |300               |23           |6         |9              |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name fepresch2
-NULL
-
-
-#'  Women vs men responsibility for the home
-#' 
-#'  rspgndr
-#' 
-#' Question People have different opinions about how much responsibility women and men should have for the home and family. Which of the following statements comes closest to your opinion?
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` women take much more responsibility
-#'   * `[2]` women take somewhat more responsibility
-#'   * `[3]` women and men take equal responsibility
-#'   * `[4]` men take somewhat more responsibility
-#'   * `[5]` men take much more responsibility
-#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A       |2022  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `rspgndr`](https://gssdataexplorer.norc.org/variables/7766/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |women take much more responsibility |women take somewhat more responsibility |women and men take equal responsibility |men take somewhat more responsibility |men take much more responsibility |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:-----------------------------------|:---------------------------------------|:---------------------------------------|:-------------------------------------|:---------------------------------|:------------|:---------|:--------------|:-----|
-#'  |2022  |2379 |18                                  |35                                      |912                                     |78                                    |39                                |69           |7         |7              |3544  |
-#'  |Total |2379 |18                                  |35                                      |912                                     |78                                    |39                                |69           |7         |7              |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name rspgndr
 NULL
 
 

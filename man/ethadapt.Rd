@@ -36,10 +36,10 @@ D. In order to have a smoothly functioning society, members of ethnic minorities
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2729/vshow}{GSS Data Explorer page for \code{ethadapt}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2002 \tab - \tab 412 \tab 1210 \tab 546 \tab 446 \tab 99 \tab 42 \tab 10 \tab 2765 \cr
-   Total \tab 0 \tab 412 \tab 1210 \tab 546 \tab 446 \tab 99 \tab 42 \tab 10 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab - \tab 412 \tab 1210 \tab 546 \tab 446 \tab 99 \tab 42 \tab 10 \tab - \tab 2765 \cr
+   Total \tab 0 \tab 412 \tab 1210 \tab 546 \tab 446 \tab 99 \tab 42 \tab 10 \tab 0 \tab 2765 \cr
 }
 }
 

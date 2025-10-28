@@ -37,10 +37,10 @@ Question How often do you have any contact with people who are a lot poorer than
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7516/vshow}{GSS Data Explorer page for \code{contpoor}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab never \tab less than once a month \tab once a month \tab several times a month \tab once a week \tab several times a week \tab every day \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2029 \tab 80 \tab 240 \tab 151 \tab 378 \tab 128 \tab 377 \tab 350 \tab 112 \tab 174 \tab 13 \tab 4032 \cr
-   Total \tab 2029 \tab 80 \tab 240 \tab 151 \tab 378 \tab 128 \tab 377 \tab 350 \tab 112 \tab 174 \tab 13 \tab 4032 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab never \tab less than once a month \tab once a month \tab several times a month \tab once a week \tab several times a week \tab every day \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2029 \tab 80 \tab 240 \tab 151 \tab 378 \tab 128 \tab 377 \tab 350 \tab 112 \tab 174 \tab 13 \tab - \tab 4032 \cr
+   Total \tab 2029 \tab 80 \tab 240 \tab 151 \tab 378 \tab 128 \tab 377 \tab 350 \tab 112 \tab 174 \tab 13 \tab 0 \tab 4032 \cr
 }
 }
 

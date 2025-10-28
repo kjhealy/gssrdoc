@@ -32,10 +32,10 @@ Question As a result of the 9/11 terrorist attacks, do you think that gun contro
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3703/vshow}{GSS Data Explorer page for \code{guns911}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab should be stricter \tab should be less strict \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3139 \tab 1026 \tab 226 \tab 103 \tab 16 \tab 4510 \cr
-   Total \tab 3139 \tab 1026 \tab 226 \tab 103 \tab 16 \tab 4510 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab should be stricter \tab should be less strict \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3139 \tab 1026 \tab 226 \tab 103 \tab 16 \tab - \tab 4510 \cr
+   Total \tab 3139 \tab 1026 \tab 226 \tab 103 \tab 16 \tab 0 \tab 4510 \cr
 }
 }
 

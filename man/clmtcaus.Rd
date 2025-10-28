@@ -34,10 +34,10 @@ Question There has been a lot of discussion about the world's climate and the id
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7486/vshow}{GSS Data Explorer page for \code{clmtcaus}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab has not been changing \tab has been changing mostly due to natural processes \tab has been changing about equally due to natural processes and human activity \tab has been changing mostly due to human activity \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2003 \tab 35 \tab 240 \tab 639 \tab 856 \tab 90 \tab 160 \tab 9 \tab 4032 \cr
-   Total \tab 2003 \tab 35 \tab 240 \tab 639 \tab 856 \tab 90 \tab 160 \tab 9 \tab 4032 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab has not been changing \tab has been changing mostly due to natural processes \tab has been changing about equally due to natural processes and human activity \tab has been changing mostly due to human activity \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 2003 \tab 35 \tab 240 \tab 639 \tab 856 \tab 90 \tab 160 \tab 9 \tab - \tab 4032 \cr
+   Total \tab 2003 \tab 35 \tab 240 \tab 639 \tab 856 \tab 90 \tab 160 \tab 9 \tab 0 \tab 4032 \cr
 }
 }
 

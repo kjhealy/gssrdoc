@@ -36,10 +36,10 @@ A. People who organize protests against a government action they strongly oppose
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4085/vshow}{GSS Data Explorer page for \code{protstrs}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab extremely favorable \tab favorable \tab neither favorable or unfavorable \tab unfavorable \tab extremely unfavorable \tab can't choose \tab no answer \tab Total \cr
-   1990 \tab 155 \tab 107 \tab 322 \tab 412 \tab 173 \tab 69 \tab 99 \tab 35 \tab 1372 \cr
-   Total \tab 155 \tab 107 \tab 322 \tab 412 \tab 173 \tab 69 \tab 99 \tab 35 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab extremely favorable \tab favorable \tab neither favorable or unfavorable \tab unfavorable \tab extremely unfavorable \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 155 \tab 107 \tab 322 \tab 412 \tab 173 \tab 69 \tab 99 \tab 35 \tab - \tab 1372 \cr
+   Total \tab 155 \tab 107 \tab 322 \tab 412 \tab 173 \tab 69 \tab 99 \tab 35 \tab 0 \tab 1372 \cr
 }
 }
 

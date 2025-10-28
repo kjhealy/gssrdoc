@@ -30,10 +30,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:-----|
-#'  |2016  |1409 |23               |25           |38             |54             |199           |374           |439         |286             |7          |13        |2867  |
-#'  |Total |1409 |23               |25           |38             |54             |199           |374           |439         |286             |7          |13        |2867  |
+#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1409 |23               |25           |38             |54             |199           |374           |439         |286             |7          |13        |-                          |2867  |
+#'  |Total |1409 |23               |25           |38             |54             |199           |374           |439         |286             |7          |13        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -77,10 +77,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:-----|
-#'  |2016  |1409 |57               |51           |62             |104            |251           |357           |404         |153             |7          |12        |2867  |
-#'  |Total |1409 |57               |51           |62             |104            |251           |357           |404         |153             |7          |12        |2867  |
+#'  |year  |iap  |definitely false |mostly false |somewhat false |slightly false |slightly true |somewhat true |mostly true |definitely true |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:------------|:--------------|:--------------|:-------------|:-------------|:-----------|:---------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1409 |57               |51           |62             |104            |251           |357           |404         |153             |7          |12        |-                          |2867  |
+#'  |Total |1409 |57               |51           |62             |104            |251           |357           |404         |153             |7          |12        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Hope and Optimism
@@ -130,7 +130,8 @@ NULL
 #'  |2018  |-    |372            |873                  |573                |510                  |8          |12        |-              |2348  |
 #'  |2021  |-    |518            |1284                 |939                |1213                 |3          |47        |28             |4032  |
 #'  |2022  |-    |488            |1124                 |841                |1051                 |14         |15        |11             |3544  |
-#'  |Total |2905 |4193           |9690                 |5975               |5660                 |85         |165       |39             |28712 |
+#'  |2024  |-    |505            |1036                 |776                |935                  |16         |11        |30             |3309  |
+#'  |Total |2905 |4698           |10726                |6751               |6595                 |101        |176       |69             |32021 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -168,19 +169,20 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very spiritual |moderately spirtual |slightly spiritual |not spiritual at all |don't know |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-------------------|:------------------|:--------------------|:----------|:---------|:--------------|:-----|
-#'  |1998  |1387 |314            |571                 |366                |171                  |5          |18        |-              |2832  |
-#'  |2006  |1518 |877            |1216                |595                |266                  |29         |9         |-              |4510  |
-#'  |2008  |-    |549            |817                 |429                |196                  |22         |10        |-              |2023  |
-#'  |2010  |-    |583            |787                 |433                |219                  |15         |7         |-              |2044  |
-#'  |2012  |-    |583            |731                 |412                |203                  |34         |11        |-              |1974  |
-#'  |2014  |-    |735            |935                 |578                |268                  |12         |10        |-              |2538  |
-#'  |2016  |-    |833            |1068                |645                |284                  |17         |20        |-              |2867  |
-#'  |2018  |-    |700            |831                 |522                |265                  |18         |12        |-              |2348  |
-#'  |2021  |-    |961            |1362                |1006               |605                  |4          |48        |46             |4032  |
-#'  |2022  |-    |957            |1202                |831                |502                  |17         |19        |16             |3544  |
-#'  |Total |2905 |7092           |9520                |5817               |2979                 |173        |164       |62             |28712 |
+#'  |year  |iap  |very spiritual |moderately spiritual |slightly spiritual |not spiritual at all |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:--------------|:--------------------|:------------------|:--------------------|:----------|:---------|:--------------|:-----|
+#'  |1998  |1387 |314            |571                  |366                |171                  |5          |18        |-              |2832  |
+#'  |2006  |1518 |877            |1216                 |595                |266                  |29         |9         |-              |4510  |
+#'  |2008  |-    |549            |817                  |429                |196                  |22         |10        |-              |2023  |
+#'  |2010  |-    |583            |787                  |433                |219                  |15         |7         |-              |2044  |
+#'  |2012  |-    |583            |731                  |412                |203                  |34         |11        |-              |1974  |
+#'  |2014  |-    |735            |935                  |578                |268                  |12         |10        |-              |2538  |
+#'  |2016  |-    |833            |1068                 |645                |284                  |17         |20        |-              |2867  |
+#'  |2018  |-    |700            |831                  |522                |265                  |18         |12        |-              |2348  |
+#'  |2021  |-    |961            |1362                 |1006               |605                  |4          |48        |46             |4032  |
+#'  |2022  |-    |957            |1202                 |831                |502                  |17         |19        |16             |3544  |
+#'  |2024  |-    |957            |1054                 |754                |472                  |31         |10        |31             |3309  |
+#'  |Total |2905 |8049           |10574                |6571               |3451                 |204        |174       |93             |32021 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -217,15 +219,15 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes  |no   |don't know |no answer |skipped on web |Total |
-#'  |:-----|:----|:----|:----|:----------|:---------|:--------------|:-----|
-#'  |1998  |1387 |557  |867  |5          |16        |-              |2832  |
-#'  |2004  |1472 |477  |848  |4          |11        |-              |2812  |
-#'  |2006  |1518 |1237 |1730 |18         |7         |-              |4510  |
-#'  |2008  |-    |869  |1135 |12         |7         |-              |2023  |
-#'  |2010  |-    |836  |1188 |11         |9         |-              |2044  |
-#'  |2021  |2687 |541  |789  |2          |1         |12             |4032  |
-#'  |Total |7064 |4517 |6557 |52         |51        |12             |18253 |
+#'  |year  |iap  |yes  |no   |don't know |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:----|:----|:----------|:---------|:--------------|:--------------------------|:-----|
+#'  |1998  |1387 |557  |867  |5          |16        |-              |-                          |2832  |
+#'  |2004  |1472 |477  |848  |4          |11        |-              |-                          |2812  |
+#'  |2006  |1518 |1237 |1730 |18         |7         |-              |-                          |4510  |
+#'  |2008  |-    |869  |1135 |12         |7         |-              |-                          |2023  |
+#'  |2010  |-    |836  |1188 |11         |9         |-              |-                          |2044  |
+#'  |2021  |2687 |541  |789  |2          |1         |12             |-                          |4032  |
+#'  |Total |7064 |4517 |6557 |52         |51        |12             |0                          |18253 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -262,10 +264,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |too little |about right |too much |don't know |no answer |Total |
-#'  |:-----|:----|:----------|:-----------|:--------|:----------|:---------|:-----|
-#'  |1998  |1387 |303        |631         |269      |229        |13        |2832  |
-#'  |Total |1387 |303        |631         |269      |229        |13        |2832  |
+#'  |year  |iap  |too little |about right |too much |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:-----------|:--------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |303        |631         |269      |229        |13        |-                          |2832  |
+#'  |Total |1387 |303        |631         |269      |229        |13        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -304,10 +306,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |1998  |1387 |161            |741   |311      |80                |134        |18        |2832  |
-#'  |Total |1387 |161            |741   |311      |80                |134        |18        |2832  |
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |161            |741   |311      |80                |134        |18        |-                          |2832  |
+#'  |Total |1387 |161            |741   |311      |80                |134        |18        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -346,10 +348,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |1998  |1387 |108            |697   |385      |68                |174        |13        |2832  |
-#'  |Total |1387 |108            |697   |385      |68                |174        |13        |2832  |
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |108            |697   |385      |68                |174        |13        |-                          |2832  |
+#'  |Total |1387 |108            |697   |385      |68                |174        |13        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -385,10 +387,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |allowed |not allowed |don't know |no answer |Total |
-#'  |:-----|:----|:-------|:-----------|:----------|:---------|:-----|
-#'  |1998  |1387 |779     |638         |15         |13        |2832  |
-#'  |Total |1387 |779     |638         |15         |13        |2832  |
+#'  |year  |iap  |allowed |not allowed |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------|:-----------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |779     |638         |15         |13        |-                          |2832  |
+#'  |Total |1387 |779     |638         |15         |13        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture
@@ -426,10 +428,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |offended |not offended |don't know |no answer |Total |
-#'  |:-----|:----|:--------|:------------|:----------|:---------|:-----|
-#'  |1998  |2040 |316      |444          |10         |22        |2832  |
-#'  |Total |2040 |316      |444          |10         |22        |2832  |
+#'  |year  |iap  |offended |not offended |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |2040 |316      |444          |10         |22        |-                          |2832  |
+#'  |Total |2040 |316      |444          |10         |22        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture

@@ -36,11 +36,11 @@ B. Publishing pamphlets to protest against the government.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3983/vshow}{GSS Data Explorer page for \code{protest2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 259 \tab 164 \tab 104 \tab 96 \tab 30 \tab 24 \tab 1534 \cr
-   1990 \tab 155 \tab 469 \tab 326 \tab 188 \tab 145 \tab 64 \tab 25 \tab 1372 \cr
-   Total \tab 1012 \tab 728 \tab 490 \tab 292 \tab 241 \tab 94 \tab 49 \tab 2906 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 259 \tab 164 \tab 104 \tab 96 \tab 30 \tab 24 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 469 \tab 326 \tab 188 \tab 145 \tab 64 \tab 25 \tab - \tab 1372 \cr
+   Total \tab 1012 \tab 728 \tab 490 \tab 292 \tab 241 \tab 94 \tab 49 \tab 0 \tab 2906 \cr
 }
 }
 

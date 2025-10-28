@@ -34,21 +34,21 @@ D. Have you ever smoked regularly?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/536/vshow}{GSS Data Explorer page for \code{evsmoke}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1978 \tab 604 \tab 300 \tab 573 \tab 55 \tab 1532 \cr
-   1980 \tab 601 \tab 299 \tab 551 \tab 17 \tab 1468 \cr
-   1983 \tab 591 \tab 329 \tab 667 \tab 12 \tab 1599 \cr
-   1984 \tab 542 \tab 280 \tab 628 \tab 23 \tab 1473 \cr
-   1986 \tab 477 \tab 301 \tab 648 \tab 44 \tab 1470 \cr
-   1987 \tab 582 \tab 392 \tab 791 \tab 54 \tab 1819 \cr
-   1988 \tab 823 \tab 200 \tab 408 \tab 50 \tab 1481 \cr
-   1989 \tab 811 \tab 242 \tab 425 \tab 59 \tab 1537 \cr
-   1990 \tab 758 \tab 220 \tab 368 \tab 26 \tab 1372 \cr
-   1991 \tab 819 \tab 208 \tab 469 \tab 21 \tab 1517 \cr
-   1993 \tab 837 \tab 260 \tab 496 \tab 13 \tab 1606 \cr
-   1994 \tab 2623 \tab 124 \tab 239 \tab 6 \tab 2992 \cr
-   Total \tab 10068 \tab 3155 \tab 6263 \tab 380 \tab 19866 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1978 \tab 604 \tab 300 \tab 573 \tab 55 \tab - \tab 1532 \cr
+   1980 \tab 601 \tab 299 \tab 551 \tab 17 \tab - \tab 1468 \cr
+   1983 \tab 591 \tab 329 \tab 667 \tab 12 \tab - \tab 1599 \cr
+   1984 \tab 542 \tab 280 \tab 628 \tab 23 \tab - \tab 1473 \cr
+   1986 \tab 477 \tab 301 \tab 648 \tab 44 \tab - \tab 1470 \cr
+   1987 \tab 582 \tab 392 \tab 791 \tab 54 \tab - \tab 1819 \cr
+   1988 \tab 823 \tab 200 \tab 408 \tab 50 \tab - \tab 1481 \cr
+   1989 \tab 811 \tab 242 \tab 425 \tab 59 \tab - \tab 1537 \cr
+   1990 \tab 758 \tab 220 \tab 368 \tab 26 \tab - \tab 1372 \cr
+   1991 \tab 819 \tab 208 \tab 469 \tab 21 \tab - \tab 1517 \cr
+   1993 \tab 837 \tab 260 \tab 496 \tab 13 \tab - \tab 1606 \cr
+   1994 \tab 2623 \tab 124 \tab 239 \tab 6 \tab - \tab 2992 \cr
+   Total \tab 10068 \tab 3155 \tab 6263 \tab 380 \tab 0 \tab 19866 \cr
 }
 }
 

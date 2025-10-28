@@ -36,7 +36,7 @@ Question Fundamentalism/Liberalism of Respondent's Religion
 For further details see the \href{https://gssdataexplorer.norc.org/variables/293/vshow}{GSS Data Explorer page for \code{fund}}.
 
 Counts by year:\tabular{llllllll}{
-   year \tab fundamentalist \tab moderate \tab liberal \tab no answer \tab skipped on web \tab iap \tab Total \cr
+   year \tab fundamentalist \tab moderate \tab liberal \tab no answer \tab iap \tab skipped on web \tab Total \cr
    1972 \tab 442 \tab 846 \tab 287 \tab 38 \tab - \tab - \tab 1613 \cr
    1973 \tab 423 \tab 777 \tab 258 \tab 46 \tab - \tab - \tab 1504 \cr
    1974 \tab 424 \tab 751 \tab 287 \tab 22 \tab - \tab - \tab 1484 \cr
@@ -69,9 +69,9 @@ Counts by year:\tabular{llllllll}{
    2014 \tab 588 \tab 1024 \tab 809 \tab 117 \tab - \tab - \tab 2538 \cr
    2016 \tab 687 \tab 1130 \tab 903 \tab 147 \tab - \tab - \tab 2867 \cr
    2018 \tab 544 \tab 882 \tab 797 \tab 125 \tab - \tab - \tab 2348 \cr
-   2021 \tab 612 \tab 1565 \tab 1565 \tab 258 \tab 32 \tab - \tab 4032 \cr
-   2022 \tab 126 \tab 370 \tab 548 \tab 2492 \tab 7 \tab 1 \tab 3544 \cr
-   Total \tab 19801 \tab 28287 \tab 18969 \tab 5293 \tab 39 \tab 1 \tab 72390 \cr
+   2021 \tab 612 \tab 1565 \tab 1565 \tab 253 \tab 5 \tab 32 \tab 4032 \cr
+   2022 \tab 594 \tab 1366 \tab 1322 \tab 233 \tab 20 \tab 9 \tab 3544 \cr
+   Total \tab 20269 \tab 29283 \tab 19743 \tab 3029 \tab 25 \tab 41 \tab 72390 \cr
 }
 }
 

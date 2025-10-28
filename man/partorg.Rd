@@ -36,10 +36,10 @@ Question C. In what way is the place part of the larger organization?  Is it...
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2143/vshow}{GSS Data Explorer page for \code{partorg}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab branch/subsdiary \tab org headquarters \tab governmnt agency \tab public sch sys \tab something else \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 2074 \tab 341 \tab 54 \tab 111 \tab 70 \tab 132 \tab 19 \tab 31 \tab 2832 \cr
-   Total \tab 2074 \tab 341 \tab 54 \tab 111 \tab 70 \tab 132 \tab 19 \tab 31 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab branch/subsdiary \tab org headquarters \tab governmnt agency \tab public sch sys \tab something else \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2074 \tab 341 \tab 54 \tab 111 \tab 70 \tab 132 \tab 19 \tab 31 \tab - \tab 2832 \cr
+   Total \tab 2074 \tab 341 \tab 54 \tab 111 \tab 70 \tab 132 \tab 19 \tab 31 \tab 0 \tab 2832 \cr
 }
 }
 

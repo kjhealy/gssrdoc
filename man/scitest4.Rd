@@ -35,12 +35,12 @@ D. Human beings developed from earlier species of animals.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4744/vshow}{GSS Data Explorer page for \code{scitest4}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 205 \tab 445 \tab 200 \tab 500 \tab 120 \tab 87 \tab 1606 \cr
-   1994 \tab 1606 \tab 188 \tab 406 \tab 224 \tab 410 \tab 113 \tab 45 \tab 2992 \cr
-   2000 \tab 1541 \tab 172 \tab 334 \tab 194 \tab 395 \tab 115 \tab 66 \tab 2817 \cr
-   Total \tab 3196 \tab 565 \tab 1185 \tab 618 \tab 1305 \tab 348 \tab 198 \tab 7415 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 205 \tab 445 \tab 200 \tab 500 \tab 120 \tab 87 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 188 \tab 406 \tab 224 \tab 410 \tab 113 \tab 45 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 172 \tab 334 \tab 194 \tab 395 \tab 115 \tab 66 \tab - \tab 2817 \cr
+   Total \tab 3196 \tab 565 \tab 1185 \tab 618 \tab 1305 \tab 348 \tab 198 \tab 0 \tab 7415 \cr
 }
 }
 

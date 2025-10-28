@@ -23,10 +23,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1996  |2497 |128 |202 |1          |76        |2904  |
-#'  |Total |2497 |128 |202 |1          |76        |2904  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |2497 |128 |202 |1          |76        |-                          |2904  |
+#'  |Total |2497 |128 |202 |1          |76        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -63,10 +63,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1996  |2497 |111 |204 |1          |91        |2904  |
-#'  |Total |2497 |111 |204 |1          |91        |2904  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |2497 |111 |204 |1          |91        |-                          |2904  |
+#'  |Total |2497 |111 |204 |1          |91        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -103,10 +103,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1996  |2497 |38  |267 |1          |101       |2904  |
-#'  |Total |2497 |38  |267 |1          |101       |2904  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |2497 |38  |267 |1          |101       |-                          |2904  |
+#'  |Total |2497 |38  |267 |1          |101       |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -143,10 +143,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1996  |2497 |107 |209 |1          |90        |2904  |
-#'  |Total |2497 |107 |209 |1          |90        |2904  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |2497 |107 |209 |1          |90        |-                          |2904  |
+#'  |Total |2497 |107 |209 |1          |90        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -183,10 +183,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1996  |2497 |79  |226 |1          |101       |2904  |
-#'  |Total |2497 |79  |226 |1          |101       |2904  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |2497 |79  |226 |1          |101       |-                          |2904  |
+#'  |Total |2497 |79  |226 |1          |101       |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -223,10 +223,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1996  |2497 |168 |166 |1          |72        |2904  |
-#'  |Total |2497 |168 |166 |1          |72        |2904  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |2497 |168 |166 |1          |72        |-                          |2904  |
+#'  |Total |2497 |168 |166 |1          |72        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -263,10 +263,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1996  |2497 |121 |203 |1          |82        |2904  |
-#'  |Total |2497 |121 |203 |1          |82        |2904  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |2497 |121 |203 |1          |82        |-                          |2904  |
+#'  |Total |2497 |121 |203 |1          |82        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -301,10 +301,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |1  |2  |3  |4  |5  |6  |7  |no answer |Total |
-#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:---------|:-----|
-#'  |1996  |2711 |35 |23 |5  |20 |10 |76 |17 |7         |2904  |
-#'  |Total |2711 |35 |23 |5  |20 |10 |76 |17 |7         |2904  |
+#'  |year  |iap  |1  |2  |3  |4  |5  |6  |7  |no answer |not available in this year |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:--|:--|:--|:---------|:--------------------------|:-----|
+#'  |1996  |2711 |35 |23 |5  |20 |10 |76 |17 |7         |-                          |2904  |
+#'  |Total |2711 |35 |23 |5  |20 |10 |76 |17 |7         |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -343,10 +343,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a relative , including in-laws |a friend or acquaintance |a friend of a friend-relative |previous business dealings |no prior relationship |no answer |Total |
-#'  |:-----|:----|:------------------------------|:------------------------|:-----------------------------|:--------------------------|:---------------------|:---------|:-----|
-#'  |1996  |2497 |9                              |45                       |22                            |41                         |279                   |11        |2904  |
-#'  |Total |2497 |9                              |45                       |22                            |41                         |279                   |11        |2904  |
+#'  |year  |iap  |a relative , including in-laws |a friend or acquaintance |a friend of a friend-relative |previous business dealings |no prior relationship |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------------------------|:------------------------|:-----------------------------|:--------------------------|:---------------------|:---------|:--------------------------|:-----|
+#'  |1996  |2497 |9                              |45                       |22                            |41                         |279                   |11        |-                          |2904  |
+#'  |Total |2497 |9                              |45                       |22                            |41                         |279                   |11        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -383,10 +383,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |not too satisfied |pretty satisfied |extremely satisfied |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:----------------|:-------------------|:----------|:---------|:-----|
-#'  |1996  |2497 |36                |157              |203                 |1          |10        |2904  |
-#'  |Total |2497 |36                |157              |203                 |1          |10        |2904  |
+#'  |year  |iap  |not too satisfied |pretty satisfied |extremely satisfied |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:----------------|:-------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |2497 |36                |157              |203                 |1          |10        |-                          |2904  |
+#'  |Total |2497 |36                |157              |203                 |1          |10        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets

@@ -35,10 +35,10 @@ B. The economy can run only if businessmen make good profits. That benefits ever
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/226/vshow}{GSS Data Explorer page for \code{equal2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 348 \tab 647 \tab 301 \tab 119 \tab 43 \tab 15 \tab 1473 \cr
-   Total \tab 0 \tab 348 \tab 647 \tab 301 \tab 119 \tab 43 \tab 15 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 348 \tab 647 \tab 301 \tab 119 \tab 43 \tab 15 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 348 \tab 647 \tab 301 \tab 119 \tab 43 \tab 15 \tab 0 \tab 1473 \cr
 }
 }
 

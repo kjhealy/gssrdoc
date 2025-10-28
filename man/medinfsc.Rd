@@ -36,11 +36,11 @@ A. Medical researchers. (Would you say a great deal of influence, a fair amount,
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3370/vshow}{GSS Data Explorer page for \code{medinfsc}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a great deal of influence \tab a fair amount \tab a little influence \tab none at all \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3582 \tab 360 \tab 384 \tab 103 \tab 33 \tab 45 \tab 3 \tab 4510 \cr
-   2010 \tab 1569 \tab 179 \tab 207 \tab 54 \tab 14 \tab 16 \tab 5 \tab 2044 \cr
-   Total \tab 5151 \tab 539 \tab 591 \tab 157 \tab 47 \tab 61 \tab 8 \tab 6554 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal of influence \tab a fair amount \tab a little influence \tab none at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3582 \tab 360 \tab 384 \tab 103 \tab 33 \tab 45 \tab 3 \tab - \tab 4510 \cr
+   2010 \tab 1569 \tab 179 \tab 207 \tab 54 \tab 14 \tab 16 \tab 5 \tab - \tab 2044 \cr
+   Total \tab 5151 \tab 539 \tab 591 \tab 157 \tab 47 \tab 61 \tab 8 \tab 0 \tab 6554 \cr
 }
 }
 

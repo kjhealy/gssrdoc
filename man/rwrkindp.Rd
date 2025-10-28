@@ -38,13 +38,13 @@ F. I can work independently
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4546/vshow}{GSS Data Explorer page for \code{rwrkindp}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 242 \tab 430 \tab 97 \tab 78 \tab 19 \tab 5 \tab 27 \tab 1537 \cr
-   1998 \tab 1967 \tab 236 \tab 431 \tab 83 \tab 60 \tab 16 \tab 4 \tab 35 \tab 2832 \cr
-   2006 \tab 3492 \tab 330 \tab 482 \tab 77 \tab 97 \tab 29 \tab 1 \tab 2 \tab 4510 \cr
-   2016 \tab 1927 \tab 382 \tab 390 \tab 70 \tab 69 \tab 22 \tab 1 \tab 6 \tab 2867 \cr
-   Total \tab 8025 \tab 1190 \tab 1733 \tab 327 \tab 304 \tab 86 \tab 11 \tab 70 \tab 11746 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 242 \tab 430 \tab 97 \tab 78 \tab 19 \tab 5 \tab 27 \tab - \tab 1537 \cr
+   1998 \tab 1967 \tab 236 \tab 431 \tab 83 \tab 60 \tab 16 \tab 4 \tab 35 \tab - \tab 2832 \cr
+   2006 \tab 3492 \tab 330 \tab 482 \tab 77 \tab 97 \tab 29 \tab 1 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 382 \tab 390 \tab 70 \tab 69 \tab 22 \tab 1 \tab 6 \tab - \tab 2867 \cr
+   Total \tab 8025 \tab 1190 \tab 1733 \tab 327 \tab 304 \tab 86 \tab 11 \tab 70 \tab 0 \tab 11746 \cr
 }
 }
 

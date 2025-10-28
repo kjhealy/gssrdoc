@@ -35,11 +35,11 @@ F. Using the World Wide Web (other than for e-mail)?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2577/vshow}{GSS Data Explorer page for \code{wwwminw}}.
 
-Counts by year:\tabular{llllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 10 \tab 15 \tab 20 \tab 30 \tab 35 \tab 45 \tab 5 \tab don't know \tab no answer \tab 1 \tab 19 \tab 25 \tab 3 \tab 40 \tab 50 \tab 6 \tab Total \cr
-   2000 \tab 2486 \tab 244 \tab 3 \tab 4 \tab 2 \tab 20 \tab 1 \tab 1 \tab 2 \tab 1 \tab 53 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
-   2002 \tab 1572 \tab 1022 \tab 13 \tab 17 \tab 11 \tab 63 \tab - \tab 4 \tab 8 \tab 8 \tab 33 \tab 4 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 3 \tab 2765 \cr
-   Total \tab 4058 \tab 1266 \tab 16 \tab 21 \tab 13 \tab 83 \tab 1 \tab 5 \tab 10 \tab 9 \tab 86 \tab 4 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 3 \tab 5582 \cr
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 15 \tab 20 \tab 30 \tab 35 \tab 45 \tab 5 \tab don't know \tab no answer \tab 1 \tab 19 \tab 25 \tab 3 \tab 40 \tab 50 \tab 6 \tab not available in this year \tab Total \cr
+   2000 \tab 2486 \tab 244 \tab 3 \tab 4 \tab 2 \tab 20 \tab 1 \tab 1 \tab 2 \tab 1 \tab 53 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 1572 \tab 1022 \tab 13 \tab 17 \tab 11 \tab 63 \tab - \tab 4 \tab 8 \tab 8 \tab 33 \tab 4 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 3 \tab - \tab 2765 \cr
+   Total \tab 4058 \tab 1266 \tab 16 \tab 21 \tab 13 \tab 83 \tab 1 \tab 5 \tab 10 \tab 9 \tab 86 \tab 4 \tab 1 \tab 1 \tab 1 \tab 3 \tab 1 \tab 3 \tab 0 \tab 5582 \cr
 }
 }
 

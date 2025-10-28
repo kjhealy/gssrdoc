@@ -35,10 +35,10 @@ T. People like (NAME) should not be allowed to teach children.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3781/vshow}{GSS Data Explorer page for \code{mhnotch}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 98 \tab 469 \tab 609 \tab 185 \tab 54 \tab 10 \tab 4510 \cr
-   Total \tab 3085 \tab 98 \tab 469 \tab 609 \tab 185 \tab 54 \tab 10 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 98 \tab 469 \tab 609 \tab 185 \tab 54 \tab 10 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 98 \tab 469 \tab 609 \tab 185 \tab 54 \tab 10 \tab 0 \tab 4510 \cr
 }
 }
 

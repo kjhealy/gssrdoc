@@ -37,10 +37,10 @@ K. That he is considerate of others
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/510/vshow}{GSS Data Explorer page for \code{considez}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab extremely impt \tab very impt \tab fairly impt \tab not too impt \tab no answer \tab Total \cr
-   1980 \tab 985 \tab 177 \tab 263 \tab 37 \tab 2 \tab 4 \tab 1468 \cr
-   Total \tab 985 \tab 177 \tab 263 \tab 37 \tab 2 \tab 4 \tab 1468 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab extremely impt \tab very impt \tab fairly impt \tab not too impt \tab no answer \tab not available in this year \tab Total \cr
+   1980 \tab 985 \tab 177 \tab 263 \tab 37 \tab 2 \tab 4 \tab - \tab 1468 \cr
+   Total \tab 985 \tab 177 \tab 263 \tab 37 \tab 2 \tab 4 \tab 0 \tab 1468 \cr
 }
 }
 

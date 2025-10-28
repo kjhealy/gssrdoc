@@ -34,10 +34,10 @@ Question A. An engineer usually works alone. Do you strongly agree, agree, disag
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3526/vshow}{GSS Data Explorer page for \code{englone}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1489 \tab 15 \tab 86 \tab 279 \tab 51 \tab 50 \tab 4 \tab 1974 \cr
-   Total \tab 1489 \tab 15 \tab 86 \tab 279 \tab 51 \tab 50 \tab 4 \tab 1974 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1489 \tab 15 \tab 86 \tab 279 \tab 51 \tab 50 \tab 4 \tab - \tab 1974 \cr
+   Total \tab 1489 \tab 15 \tab 86 \tab 279 \tab 51 \tab 50 \tab 4 \tab 0 \tab 1974 \cr
 }
 }
 

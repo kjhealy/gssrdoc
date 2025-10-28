@@ -33,13 +33,13 @@ A. Is that person currently living, or has that person died?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5020/vshow}{GSS Data Explorer page for \code{aidsded3}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab living \tab died \tab no answer \tab don't know \tab Total \cr
-   1989 \tab 1517 \tab 13 \tab 4 \tab 3 \tab - \tab 1537 \cr
-   1990 \tab 1347 \tab 11 \tab 13 \tab 1 \tab - \tab 1372 \cr
-   1991 \tab 1466 \tab 17 \tab 27 \tab 5 \tab 2 \tab 1517 \cr
-   1993 \tab 1490 \tab 34 \tab 75 \tab 6 \tab 1 \tab 1606 \cr
-   Total \tab 5820 \tab 75 \tab 119 \tab 15 \tab 3 \tab 6032 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab living \tab died \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1989 \tab 1517 \tab 13 \tab 4 \tab 3 \tab - \tab - \tab 1537 \cr
+   1990 \tab 1347 \tab 11 \tab 13 \tab 1 \tab - \tab - \tab 1372 \cr
+   1991 \tab 1466 \tab 17 \tab 27 \tab 5 \tab 2 \tab - \tab 1517 \cr
+   1993 \tab 1490 \tab 34 \tab 75 \tab 6 \tab 1 \tab - \tab 1606 \cr
+   Total \tab 5820 \tab 75 \tab 119 \tab 15 \tab 3 \tab 0 \tab 6032 \cr
 }
 }
 

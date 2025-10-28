@@ -34,10 +34,10 @@ Question C. How firm are you about your opinion on race relations--would you say
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/417/vshow}{GSS Data Explorer page for \code{racfirm}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely to chang \tab somewhat likely \tab somewhat unlikely \tab very unlikely to cha \tab don't know \tab no answer \tab Total \cr
-   1983 \tab 795 \tab 31 \tab 227 \tab 270 \tab 246 \tab 27 \tab 3 \tab 1599 \cr
-   Total \tab 795 \tab 31 \tab 227 \tab 270 \tab 246 \tab 27 \tab 3 \tab 1599 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely to chang \tab somewhat likely \tab somewhat unlikely \tab very unlikely to cha \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab 795 \tab 31 \tab 227 \tab 270 \tab 246 \tab 27 \tab 3 \tab - \tab 1599 \cr
+   Total \tab 795 \tab 31 \tab 227 \tab 270 \tab 246 \tab 27 \tab 3 \tab 0 \tab 1599 \cr
 }
 }
 

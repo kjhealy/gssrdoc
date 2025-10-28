@@ -24,10 +24,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |all issues |most issues |some issues |just a few issues |don't know |no answer |Total |
-#'  |:-----|:----|:----------|:-----------|:-----------|:-----------------|:----------|:---------|:-----|
-#'  |1994  |1670 |793        |404         |85          |27                |6          |7         |2992  |
-#'  |Total |1670 |793        |404         |85          |27                |6          |7         |2992  |
+#'  |year  |iap  |all issues |most issues |some issues |just a few issues |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:-----------|:-----------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1994  |1670 |793        |404         |85          |27                |6          |7         |-                          |2992  |
+#'  |Total |1670 |793        |404         |85          |27                |6          |7         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -65,10 +65,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |all issues |most issues |some issues |just a few issues |don't know |no answer |Total |
-#'  |:-----|:----|:----------|:-----------|:-----------|:-----------------|:----------|:---------|:-----|
-#'  |1994  |2873 |23         |44          |26          |18                |1          |7         |2992  |
-#'  |Total |2873 |23         |44          |26          |18                |1          |7         |2992  |
+#'  |year  |iap  |all issues |most issues |some issues |just a few issues |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:-----------|:-----------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1994  |2873 |23         |44          |26          |18                |1          |7         |-                          |2992  |
+#'  |Total |2873 |23         |44          |26          |18                |1          |7         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -106,10 +106,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |just an american |some part. ethnic grp |it depends |no answer |Total |
-#'  |:-----|:----|:----------------|:---------------------|:----------|:---------|:-----|
-#'  |1994  |2953 |13               |11                    |6          |9         |2992  |
-#'  |Total |2953 |13               |11                    |6          |9         |2992  |
+#'  |year  |iap  |just an american |some part. ethnic grp |it depends |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1994  |2953 |13               |11                    |6          |9         |-                          |2992  |
+#'  |Total |2953 |13               |11                    |6          |9         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -147,10 +147,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |all issues |most issues |some issues |just a few issues |no answer |Total |
-#'  |:-----|:----|:----------|:-----------|:-----------|:-----------------|:---------|:-----|
-#'  |1994  |2970 |1          |6           |4           |2                 |9         |2992  |
-#'  |Total |2970 |1          |6           |4           |2                 |9         |2992  |
+#'  |year  |iap  |all issues |most issues |some issues |just a few issues |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:-----------|:-----------|:-----------------|:---------|:--------------------------|:-----|
+#'  |1994  |2970 |1          |6           |4           |2                 |9         |-                          |2992  |
+#'  |Total |2970 |1          |6           |4           |2                 |9         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -188,10 +188,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |most issues |some issues |just a few issues |no answer |Total |
-#'  |:-----|:----|:-----------|:-----------|:-----------------|:---------|:-----|
-#'  |1994  |2972 |8           |2           |1                 |9         |2992  |
-#'  |Total |2972 |8           |2           |1                 |9         |2992  |
+#'  |year  |iap  |most issues |some issues |just a few issues |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:-----------|:-----------------|:---------|:--------------------------|:-----|
+#'  |1994  |2972 |8           |2           |1                 |9         |-                          |2992  |
+#'  |Total |2972 |8           |2           |1                 |9         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -228,10 +228,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |better in america |about the same |better in oth adv cntry |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:--------------|:-----------------------|:----------|:---------|:-----|
-#'  |1994  |1518 |1155              |220            |61                      |35         |3         |2992  |
-#'  |Total |1518 |1155              |220            |61                      |35         |3         |2992  |
+#'  |year  |iap  |better in america |about the same |better in oth adv cntry |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:--------------|:-----------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1994  |1518 |1155              |220            |61                      |35         |3         |-                          |2992  |
+#'  |Total |1518 |1155              |220            |61                      |35         |3         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -269,10 +269,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |extremely proud |very proud |somewhat proud |not very proud |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:----------|:--------------|:--------------|:----------|:---------|:-----|
-#'  |1994  |1518 |683             |564        |185            |20             |7          |15        |2992  |
-#'  |Total |1518 |683             |564        |185            |20             |7          |15        |2992  |
+#'  |year  |iap  |extremely proud |very proud |somewhat proud |not very proud |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:----------|:--------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1994  |1518 |683             |564        |185            |20             |7          |15        |-                          |2992  |
+#'  |Total |1518 |683             |564        |185            |20             |7          |15        |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -308,11 +308,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |maintain distinct cultures |2   |3   |4   |5   |6   |blend in to larger society |don't know |no answer |Total |
-#'  |:-----|:----|:--------------------------|:---|:---|:---|:---|:---|:--------------------------|:----------|:---------|:-----|
-#'  |1994  |1518 |191                        |102 |166 |424 |230 |114 |208                        |33         |6         |2992  |
-#'  |2000  |1419 |120                        |132 |173 |438 |185 |140 |137                        |62         |11        |2817  |
-#'  |Total |2937 |311                        |234 |339 |862 |415 |254 |345                        |95         |17        |5809  |
+#'  |year  |iap  |maintain distinct cultures |2   |3   |4   |5   |6   |blend in to larger society |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------------------|:---|:---|:---|:---|:---|:--------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1994  |1518 |191                        |102 |166 |424 |230 |114 |208                        |33         |6         |-                          |2992  |
+#'  |2000  |1419 |120                        |132 |173 |438 |185 |140 |137                        |62         |11        |-                          |2817  |
+#'  |Total |2937 |311                        |234 |339 |862 |415 |254 |345                        |95         |17        |0                          |5809  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -350,10 +350,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |govt to help |left up to groups |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:-----------------|:----------|:---------|:-----|
-#'  |1994  |2527 |47           |400               |11         |7         |2992  |
-#'  |Total |2527 |47           |400               |11         |7         |2992  |
+#'  |year  |iap  |govt to help |left up to groups |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1994  |2527 |47           |400               |11         |7         |-                          |2992  |
+#'  |Total |2527 |47           |400               |11         |7         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism
@@ -392,10 +392,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |govt to help |left up to groups |don't know |no answer |Total |
-#'  |:-----|:----|:------------|:-----------------|:----------|:---------|:-----|
-#'  |1994  |2434 |108          |394               |22         |34        |2992  |
-#'  |Total |2434 |108          |394               |22         |34        |2992  |
+#'  |year  |iap  |govt to help |left up to groups |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1994  |2434 |108          |394               |22         |34        |-                          |2992  |
+#'  |Total |2434 |108          |394               |22         |34        |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multiculturalism

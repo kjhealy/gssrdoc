@@ -32,10 +32,10 @@ Question A. Did you have sexual contact with this leader?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3948/vshow}{GSS Data Explorer page for \code{clrgsex1}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab Total \cr
-   2008 \tab 2001 \tab 1 \tab 20 \tab 1 \tab 2023 \cr
-   Total \tab 2001 \tab 1 \tab 20 \tab 1 \tab 2023 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab not available in this year \tab Total \cr
+   2008 \tab 2001 \tab 1 \tab 20 \tab 1 \tab - \tab 2023 \cr
+   Total \tab 2001 \tab 1 \tab 20 \tab 1 \tab 0 \tab 2023 \cr
 }
 }
 

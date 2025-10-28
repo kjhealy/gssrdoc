@@ -32,10 +32,10 @@ Question MONTHS:
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6193/vshow}{GSS Data Explorer page for \code{suimths2}}.
 
-Counts by year:\tabular{llllllllllllllllll}{
-   year \tab iap \tab less than one \tab 1 \tab 10 \tab 11 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no month given \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2425 \tab 129 \tab 5 \tab 1 \tab 2 \tab 3 \tab 11 \tab 3 \tab 3 \tab 15 \tab 2 \tab 1 \tab 2 \tab 224 \tab 6 \tab 35 \tab 2867 \cr
-   Total \tab 2425 \tab 129 \tab 5 \tab 1 \tab 2 \tab 3 \tab 11 \tab 3 \tab 3 \tab 15 \tab 2 \tab 1 \tab 2 \tab 224 \tab 6 \tab 35 \tab 2867 \cr
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab less than one \tab 1 \tab 10 \tab 11 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab no month given \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2425 \tab 129 \tab 5 \tab 1 \tab 2 \tab 3 \tab 11 \tab 3 \tab 3 \tab 15 \tab 2 \tab 1 \tab 2 \tab 224 \tab 6 \tab 35 \tab - \tab 2867 \cr
+   Total \tab 2425 \tab 129 \tab 5 \tab 1 \tab 2 \tab 3 \tab 11 \tab 3 \tab 3 \tab 15 \tab 2 \tab 1 \tab 2 \tab 224 \tab 6 \tab 35 \tab 0 \tab 2867 \cr
 }
 }
 

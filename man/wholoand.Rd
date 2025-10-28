@@ -36,10 +36,10 @@ Question Think of the most recent loan of this type. From whom did you borrow th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1850/vshow}{GSS Data Explorer page for \code{wholoand}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab parents or grandparents \tab children \tab other relative \tab friend \tab co-worker or bus. associate \tab other-specify \tab no answer \tab Total \cr
-   1996 \tab 2746 \tab 68 \tab 4 \tab 37 \tab 35 \tab 5 \tab 5 \tab 4 \tab 2904 \cr
-   Total \tab 2746 \tab 68 \tab 4 \tab 37 \tab 35 \tab 5 \tab 5 \tab 4 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab parents or grandparents \tab children \tab other relative \tab friend \tab co-worker or bus. associate \tab other-specify \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2746 \tab 68 \tab 4 \tab 37 \tab 35 \tab 5 \tab 5 \tab 4 \tab - \tab 2904 \cr
+   Total \tab 2746 \tab 68 \tab 4 \tab 37 \tab 35 \tab 5 \tab 5 \tab 4 \tab 0 \tab 2904 \cr
 }
 }
 

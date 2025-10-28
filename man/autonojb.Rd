@@ -32,10 +32,10 @@ Question Have you heard of persons in your firm having their jobs replaced by co
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3889/vshow}{GSS Data Explorer page for \code{autonojb}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   2008 \tab 1381 \tab 101 \tab 541 \tab 2023 \cr
-   Total \tab 1381 \tab 101 \tab 541 \tab 2023 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab not available in this year \tab Total \cr
+   2008 \tab 1381 \tab 101 \tab 541 \tab - \tab 2023 \cr
+   Total \tab 1381 \tab 101 \tab 541 \tab 0 \tab 2023 \cr
 }
 }
 

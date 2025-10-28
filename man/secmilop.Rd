@@ -35,11 +35,11 @@ B. Military operations
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5220/vshow}{GSS Data Explorer page for \code{secmilop}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 842 \tab 425 \tab 97 \tab 44 \tab 50 \tab 2 \tab 2904 \cr
-   1998 \tab 1445 \tab 736 \tab 479 \tab 72 \tab 30 \tab 59 \tab 11 \tab 2832 \cr
-   Total \tab 2889 \tab 1578 \tab 904 \tab 169 \tab 74 \tab 109 \tab 13 \tab 5736 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 842 \tab 425 \tab 97 \tab 44 \tab 50 \tab 2 \tab - \tab 2904 \cr
+   1998 \tab 1445 \tab 736 \tab 479 \tab 72 \tab 30 \tab 59 \tab 11 \tab - \tab 2832 \cr
+   Total \tab 2889 \tab 1578 \tab 904 \tab 169 \tab 74 \tab 109 \tab 13 \tab 0 \tab 5736 \cr
 }
 }
 

@@ -37,10 +37,10 @@ F. Downloading pornographic material from the Internet to a computer at the offi
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5242/vshow}{GSS Data Explorer page for \code{comporn}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab reprimand \tab dismissal from the military/fired by the government \tab one year in prison \tab 5-9 years in prison \tab 10-20 years in prison \tab life in prison \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 386 \tab 545 \tab 138 \tab 134 \tab 76 \tab 61 \tab 64 \tab 15 \tab 2817 \cr
-   Total \tab 1398 \tab 386 \tab 545 \tab 138 \tab 134 \tab 76 \tab 61 \tab 64 \tab 15 \tab 2817 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab reprimand \tab dismissal from the military/fired by the government \tab one year in prison \tab 5-9 years in prison \tab 10-20 years in prison \tab life in prison \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 386 \tab 545 \tab 138 \tab 134 \tab 76 \tab 61 \tab 64 \tab 15 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 386 \tab 545 \tab 138 \tab 134 \tab 76 \tab 61 \tab 64 \tab 15 \tab 0 \tab 2817 \cr
 }
 }
 

@@ -46,10 +46,10 @@ Question First relationship with third person.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7104/vshow}{GSS Data Explorer page for \code{mhp3r1}}.
 
-Counts by year:\tabular{llllllllllllllllll}{
-   year \tab iap \tab spouse/partner (current/ex) \tab parent \tab sibling \tab child \tab grandparent \tab grandchild \tab other family \tab coworker \tab neighbor \tab friend \tab member of religious community \tab acquaintance \tab student/classmate \tab other \tab no answer \tab Total \cr
-   2018 \tab 2095 \tab 5 \tab 9 \tab 21 \tab 11 \tab 7 \tab 2 \tab 65 \tab 10 \tab 2 \tab 103 \tab 2 \tab 1 \tab 1 \tab 3 \tab 11 \tab 2348 \cr
-   Total \tab 2095 \tab 5 \tab 9 \tab 21 \tab 11 \tab 7 \tab 2 \tab 65 \tab 10 \tab 2 \tab 103 \tab 2 \tab 1 \tab 1 \tab 3 \tab 11 \tab 2348 \cr
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab spouse/partner (current/ex) \tab parent \tab sibling \tab child \tab grandparent \tab grandchild \tab other family \tab coworker \tab neighbor \tab friend \tab member of religious community \tab acquaintance \tab student/classmate \tab other \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 2095 \tab 5 \tab 9 \tab 21 \tab 11 \tab 7 \tab 2 \tab 65 \tab 10 \tab 2 \tab 103 \tab 2 \tab 1 \tab 1 \tab 3 \tab 11 \tab - \tab 2348 \cr
+   Total \tab 2095 \tab 5 \tab 9 \tab 21 \tab 11 \tab 7 \tab 2 \tab 65 \tab 10 \tab 2 \tab 103 \tab 2 \tab 1 \tab 1 \tab 3 \tab 11 \tab 0 \tab 2348 \cr
 }
 }
 

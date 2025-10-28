@@ -37,11 +37,11 @@ B. To accept a position with lower pay
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4621/vshow}{GSS Data Explorer page for \code{nounemp2}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3492 \tab 183 \tab 423 \tab 129 \tab 191 \tab 84 \tab 6 \tab 2 \tab 4510 \cr
-   2016 \tab 1927 \tab 149 \tab 362 \tab 128 \tab 209 \tab 82 \tab 3 \tab 7 \tab 2867 \cr
-   Total \tab 5419 \tab 332 \tab 785 \tab 257 \tab 400 \tab 166 \tab 9 \tab 9 \tab 7377 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3492 \tab 183 \tab 423 \tab 129 \tab 191 \tab 84 \tab 6 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 149 \tab 362 \tab 128 \tab 209 \tab 82 \tab 3 \tab 7 \tab - \tab 2867 \cr
+   Total \tab 5419 \tab 332 \tab 785 \tab 257 \tab 400 \tab 166 \tab 9 \tab 9 \tab 0 \tab 7377 \cr
 }
 }
 

@@ -36,12 +36,13 @@ A. To have been born in America
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4827/vshow}{GSS Data Explorer page for \code{ambornin}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 546 \tab 365 \tab 250 \tab 164 \tab 26 \tab 16 \tab 2904 \cr
-   2004 \tab 1596 \tab 679 \tab 245 \tab 196 \tab 74 \tab 21 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 530 \tab 283 \tab 292 \tab 137 \tab 30 \tab 2 \tab 2538 \cr
-   Total \tab 4397 \tab 1755 \tab 893 \tab 738 \tab 375 \tab 77 \tab 19 \tab 8254 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 546 \tab 365 \tab 250 \tab 164 \tab 26 \tab 16 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 679 \tab 245 \tab 196 \tab 74 \tab 21 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 530 \tab 283 \tab 292 \tab 137 \tab 30 \tab 2 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1661 \tab 464 \tab 369 \tab 447 \tab 296 \tab 55 \tab 2 \tab - \tab 15 \tab 3309 \cr
+   Total \tab 6058 \tab 2219 \tab 1262 \tab 1185 \tab 671 \tab 132 \tab 21 \tab 0 \tab 15 \tab 11563 \cr
 }
 }
 

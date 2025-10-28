@@ -34,10 +34,10 @@ Question As you know, when a parent is unable to care for a baby, the parent oft
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1869/vshow}{GSS Data Explorer page for \code{adoption}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a social service agency \tab go to the highest bidders \tab by lottery \tab birth mothers should decide \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 758 \tab 32 \tab 104 \tab 477 \tab 67 \tab 6 \tab 2904 \cr
-   Total \tab 1460 \tab 758 \tab 32 \tab 104 \tab 477 \tab 67 \tab 6 \tab 2904 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a social service agency \tab go to the highest bidders \tab by lottery \tab birth mothers should decide \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1460 \tab 758 \tab 32 \tab 104 \tab 477 \tab 67 \tab 6 \tab - \tab 2904 \cr
+   Total \tab 1460 \tab 758 \tab 32 \tab 104 \tab 477 \tab 67 \tab 6 \tab 0 \tab 2904 \cr
 }
 }
 

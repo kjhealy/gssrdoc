@@ -34,10 +34,10 @@ Question If you were to see a fellow employee not working as hard or well as he 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3555/vshow}{GSS Data Explorer page for \code{talkteam}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab not at all likely \tab not very likely \tab somewhat likely \tab very likely \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2778 \tab 575 \tab 305 \tab 424 \tab 325 \tab 68 \tab 35 \tab 4510 \cr
-   Total \tab 2778 \tab 575 \tab 305 \tab 424 \tab 325 \tab 68 \tab 35 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not at all likely \tab not very likely \tab somewhat likely \tab very likely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2778 \tab 575 \tab 305 \tab 424 \tab 325 \tab 68 \tab 35 \tab - \tab 4510 \cr
+   Total \tab 2778 \tab 575 \tab 305 \tab 424 \tab 325 \tab 68 \tab 35 \tab 0 \tab 4510 \cr
 }
 }
 

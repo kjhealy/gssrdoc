@@ -36,10 +36,10 @@ B. How many of the people you are acquainted with through your neighborhood are 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3618/vshow}{GSS Data Explorer page for \code{acqnhlin}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 4002 \tab 380 \tab 80 \tab 29 \tab 2 \tab 11 \tab 6 \tab 4510 \cr
-   Total \tab 4002 \tab 380 \tab 80 \tab 29 \tab 2 \tab 11 \tab 6 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 4002 \tab 380 \tab 80 \tab 29 \tab 2 \tab 11 \tab 6 \tab - \tab 4510 \cr
+   Total \tab 4002 \tab 380 \tab 80 \tab 29 \tab 2 \tab 11 \tab 6 \tab 0 \tab 4510 \cr
 }
 }
 

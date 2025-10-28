@@ -34,10 +34,10 @@ Question Do strongly disagree, disagree, agree, or strongly agree that methods o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5570/vshow}{GSS Data Explorer page for \code{pilloky}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1342 \tab 146 \tab 216 \tab 166 \tab 140 \tab 12 \tab 1 \tab 2023 \cr
-   Total \tab 1342 \tab 146 \tab 216 \tab 166 \tab 140 \tab 12 \tab 1 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1342 \tab 146 \tab 216 \tab 166 \tab 140 \tab 12 \tab 1 \tab - \tab 2023 \cr
+   Total \tab 1342 \tab 146 \tab 216 \tab 166 \tab 140 \tab 12 \tab 1 \tab 0 \tab 2023 \cr
 }
 }
 

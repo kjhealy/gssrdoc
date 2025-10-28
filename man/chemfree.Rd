@@ -36,12 +36,12 @@ Question B. And how often do you make a special effort to buy fruits and vegetab
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4770/vshow}{GSS Data Explorer page for \code{chemfree}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab always \tab often \tab sometimes \tab never \tab not available \tab no answer \tab don't know \tab Total \cr
-   1993 \tab 49 \tab 125 \tab 296 \tab 475 \tab 510 \tab 113 \tab 38 \tab - \tab 1606 \cr
-   1994 \tab 1606 \tab 112 \tab 226 \tab 427 \tab 488 \tab 112 \tab 20 \tab 1 \tab 2992 \cr
-   2010 \tab 614 \tab 151 \tab 341 \tab 469 \tab 424 \tab 19 \tab 9 \tab 17 \tab 2044 \cr
-   Total \tab 2269 \tab 388 \tab 863 \tab 1371 \tab 1422 \tab 244 \tab 67 \tab 18 \tab 6642 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab never \tab not available \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 125 \tab 296 \tab 475 \tab 510 \tab 113 \tab 38 \tab - \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 112 \tab 226 \tab 427 \tab 488 \tab 112 \tab 20 \tab 1 \tab - \tab 2992 \cr
+   2010 \tab 614 \tab 151 \tab 341 \tab 469 \tab 424 \tab 19 \tab 9 \tab 17 \tab - \tab 2044 \cr
+   Total \tab 2269 \tab 388 \tab 863 \tab 1371 \tab 1422 \tab 244 \tab 67 \tab 18 \tab 0 \tab 6642 \cr
 }
 }
 

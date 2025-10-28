@@ -36,10 +36,10 @@ D. I would endure all things for the sake of the one I love.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3056/vshow}{GSS Data Explorer page for \code{agape4}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree somewhat \tab neither agree nor disagree \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 1472 \tab 557 \tab 475 \tab 146 \tab 106 \tab 45 \tab 5 \tab 6 \tab 2812 \cr
-   Total \tab 1472 \tab 557 \tab 475 \tab 146 \tab 106 \tab 45 \tab 5 \tab 6 \tab 2812 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree somewhat \tab neither agree nor disagree \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1472 \tab 557 \tab 475 \tab 146 \tab 106 \tab 45 \tab 5 \tab 6 \tab - \tab 2812 \cr
+   Total \tab 1472 \tab 557 \tab 475 \tab 146 \tab 106 \tab 45 \tab 5 \tab 6 \tab 0 \tab 2812 \cr
 }
 }
 

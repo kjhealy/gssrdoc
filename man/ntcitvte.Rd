@@ -33,10 +33,10 @@ C. That long-term residents of a country, who are not citizens, have the right t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4968/vshow}{GSS Data Explorer page for \code{ntcitvte}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
-   2014 \tab 1274 \tab 487 \tab 129 \tab 72 \tab 116 \tab 107 \tab 74 \tab 167 \tab 109 \tab 3 \tab 2538 \cr
-   Total \tab 1274 \tab 487 \tab 129 \tab 72 \tab 116 \tab 107 \tab 74 \tab 167 \tab 109 \tab 3 \tab 2538 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab 1274 \tab 487 \tab 129 \tab 72 \tab 116 \tab 107 \tab 74 \tab 167 \tab 109 \tab 3 \tab - \tab 2538 \cr
+   Total \tab 1274 \tab 487 \tab 129 \tab 72 \tab 116 \tab 107 \tab 74 \tab 167 \tab 109 \tab 3 \tab 0 \tab 2538 \cr
 }
 }
 

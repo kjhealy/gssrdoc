@@ -34,10 +34,10 @@ A. Failure of society to provide good schools for many Americans
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1170/vshow}{GSS Data Explorer page for \code{whypoor1}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very important \tab somewhat important \tab not important \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 486 \tab 527 \tab 323 \tab 30 \tab 6 \tab 1372 \cr
-   Total \tab 0 \tab 486 \tab 527 \tab 323 \tab 30 \tab 6 \tab 1372 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab somewhat important \tab not important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 486 \tab 527 \tab 323 \tab 30 \tab 6 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 486 \tab 527 \tab 323 \tab 30 \tab 6 \tab 0 \tab 1372 \cr
 }
 }
 

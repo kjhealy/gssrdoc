@@ -33,10 +33,10 @@ Question A. Do you know whether the "486" or "pentium" on a personal computer (a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2630/vshow}{GSS Data Explorer page for \code{processr}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab the size of the hard drive \tab the speed of the hard drive \tab the type of microprocessor \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 2142 \tab 63 \tab 115 \tab 256 \tab 140 \tab 49 \tab 2765 \cr
-   Total \tab 2142 \tab 63 \tab 115 \tab 256 \tab 140 \tab 49 \tab 2765 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab the size of the hard drive \tab the speed of the hard drive \tab the type of microprocessor \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 2142 \tab 63 \tab 115 \tab 256 \tab 140 \tab 49 \tab - \tab 2765 \cr
+   Total \tab 2142 \tab 63 \tab 115 \tab 256 \tab 140 \tab 49 \tab 0 \tab 2765 \cr
 }
 }
 

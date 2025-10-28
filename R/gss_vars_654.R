@@ -1,3 +1,169 @@
+#'  Willingness to use video chat
+#' 
+#'  svyid1
+#' 
+#' Question How likely is it that you would be willing to use a video chat for a survey interview within the next few months?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` not very likely
+#'   * `[4]` not at all likely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2022, 2024 |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `svyid1`](https://gssdataexplorer.norc.org/variables/7864/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |very likely |somewhat likely |not very likely |not at all likely |don't know |iap |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:-----------|:---------------|:---------------|:-----------------|:----------|:---|:---------|:--------------|:-----|
+#'  |2022  |-                          |424         |1015            |825             |1152              |27         |66  |25        |10             |3544  |
+#'  |2024  |-                          |391         |885             |804             |1127              |27         |56  |11        |8              |3309  |
+#'  |Total |0                          |815         |1900            |1629            |2279              |54         |122 |36        |18             |6853  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name svyid1
+NULL
+
+
+#'  Willingnes for in-person survey
+#' 
+#'  svyid2
+#' 
+#' Question How likely is it that you would be willing to have someone visit your home for a survey in-person interview within the next few months?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` very likely
+#'   * `[2]` somewhat likely
+#'   * `[3]` not very likely
+#'   * `[4]` not at all likely
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A/B/C   |2022, 2024 |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `svyid2`](https://gssdataexplorer.norc.org/variables/7865/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |very likely |somewhat likely |not very likely |not at all likely |don't know |iap |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:-----------|:---------------|:---------------|:-----------------|:----------|:---|:---------|:--------------|:-----|
+#'  |2022  |-                          |441         |1002            |734             |1231              |32         |66  |25        |13             |3544  |
+#'  |2024  |-                          |395         |815             |749             |1237              |38         |56  |7         |12             |3309  |
+#'  |Total |0                          |836         |1817            |1483            |2468              |70         |122 |32        |25             |6853  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name svyid2
+NULL
+
+
+#'  Attend live music or theater in past 12 months
+#' 
+#'  yrlvmus
+#' 
+#' Question First, we'd like to ask about some leisure or recreational activities that people do during their free time. As we list each activity, please indicate if it is something you have done in the past 12 months. During the last 12 months, did you go in person to a live music, theater, or dance performance?
+#' 
+#' NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `yrlvmus`](https://gssdataexplorer.norc.org/variables/7866/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |yes |no  |don't know |iap  |Total |
+#'  |:-----|:--------------------------|:---|:---|:----------|:----|:-----|
+#'  |2022  |-                          |431 |408 |4          |2701 |3544  |
+#'  |Total |0                          |431 |408 |4          |2701 |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family NEA
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name yrlvmus
+NULL
+
+
+#'  Attend art exhibit in past 12 months
+#' 
+#'  yrartxbt
+#' 
+#' Question (During the last 12 months, did you...) go in person to an art exhibit, such as paintings, sculpture, textiles, graphic design, or photography?
+#' 
+#' NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2022  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `yrartxbt`](https://gssdataexplorer.norc.org/variables/7867/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |yes |no  |don't know |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:---|:----------|:----|:--------------|:-----|
+#'  |2022  |-                          |277 |559 |3          |2701 |4              |3544  |
+#'  |Total |0                          |277 |559 |3          |2701 |4              |3544  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family NEA
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name yrartxbt
+NULL
+
+
 #'  See movie in past 12 months
 #' 
 #'  yrmovie
@@ -24,10 +190,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |skipped on web |Total |
-#'  |:-----|:----|:---|:---|:----------|:--------------|:-----|
-#'  |2022  |2701 |422 |418 |1          |2              |3544  |
-#'  |Total |2701 |422 |418 |1          |2              |3544  |
+#'  |year  |not available in this year |yes |no  |don't know |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:---|:----------|:----|:--------------|:-----|
+#'  |2022  |-                          |422 |418 |1          |2701 |2              |3544  |
+#'  |Total |0                          |422 |418 |1          |2701 |2              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
@@ -65,10 +231,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |skipped on web |Total |
-#'  |:-----|:----|:---|:---|:--------------|:-----|
-#'  |2022  |2929 |368 |244 |3              |3544  |
-#'  |Total |2929 |368 |244 |3              |3544  |
+#'  |year  |not available in this year |yes |no  |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:---|:----|:--------------|:-----|
+#'  |2022  |-                          |368 |244 |2929 |3              |3544  |
+#'  |Total |0                          |368 |244 |2929 |3              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
@@ -106,10 +272,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |skipped on web |Total |
-#'  |:-----|:----|:---|:---|:----------|:--------------|:-----|
-#'  |2022  |2701 |261 |576 |4          |2              |3544  |
-#'  |Total |2701 |261 |576 |4          |2              |3544  |
+#'  |year  |not available in this year |yes |no  |don't know |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:---|:----------|:----|:--------------|:-----|
+#'  |2022  |-                          |261 |576 |4          |2701 |2              |3544  |
+#'  |Total |0                          |261 |576 |4          |2701 |2              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
@@ -147,10 +313,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |skipped on web |Total |
-#'  |:-----|:----|:---|:---|:----------|:--------------|:-----|
-#'  |2022  |2701 |552 |288 |1          |2              |3544  |
-#'  |Total |2701 |552 |288 |1          |2              |3544  |
+#'  |year  |not available in this year |yes |no  |don't know |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:---|:----------|:----|:--------------|:-----|
+#'  |2022  |-                          |552 |288 |1          |2701 |2              |3544  |
+#'  |Total |0                          |552 |288 |1          |2701 |2              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
@@ -188,10 +354,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |Total |
-#'  |:-----|:----|:---|:---|:----------|:-----|
-#'  |2022  |2701 |192 |648 |3          |3544  |
-#'  |Total |2701 |192 |648 |3          |3544  |
+#'  |year  |not available in this year |yes |no  |don't know |iap  |Total |
+#'  |:-----|:--------------------------|:---|:---|:----------|:----|:-----|
+#'  |2022  |-                          |192 |648 |3          |2701 |3544  |
+#'  |Total |0                          |192 |648 |3          |2701 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
@@ -229,10 +395,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |skipped on web |Total |
-#'  |:-----|:----|:---|:---|:----------|:--------------|:-----|
-#'  |2022  |2701 |348 |486 |6          |3              |3544  |
-#'  |Total |2701 |348 |486 |6          |3              |3544  |
+#'  |year  |not available in this year |yes |no  |don't know |iap  |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:---|:----------|:----|:--------------|:-----|
+#'  |2022  |-                          |348 |486 |6          |2701 |3              |3544  |
+#'  |Total |0                          |348 |486 |6          |2701 |3              |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family NEA
@@ -241,170 +407,6 @@ NULL
 #' @keywords variable
 #' @md
 #' @name yrstmus
-NULL
-
-
-#'  Archived livestreamed music or theater in past 12 months
-#' 
-#'  yrarmus
-#' 
-#' Question (During the last 12 months, did you...) watch or listen to an archived web event featuring a music, theater, or dance performance? This may have included video or audio clips on, for example, YouTube, an organization's website, or a social media platform.
-#' 
-#' NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` yes
-#'   * `[2]` no
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A/B/C   |2022  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `yrarmus`](https://gssdataexplorer.norc.org/variables/7874/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |yes |no  |don't know |skipped on web |Total |
-#'  |:-----|:----|:---|:---|:----------|:--------------|:-----|
-#'  |2022  |2701 |558 |274 |8          |3              |3544  |
-#'  |Total |2701 |558 |274 |8          |3              |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family NEA
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name yrarmus
-NULL
-
-
-#'  Livestreamed reading event in past 12 months
-#' 
-#'  yrstpo
-#' 
-#' Question (During the last 12 months, did you...) watch or listen to a live-streamed poetry event, book-reading, or storytelling event?
-#' 
-#' NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` yes
-#'   * `[2]` no
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A/B/C   |2022  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `yrstpo`](https://gssdataexplorer.norc.org/variables/7875/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |yes |no  |don't know |skipped on web |Total |
-#'  |:-----|:----|:---|:---|:----------|:--------------|:-----|
-#'  |2022  |2701 |112 |725 |1          |5              |3544  |
-#'  |Total |2701 |112 |725 |1          |5              |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family NEA
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name yrstpo
-NULL
-
-
-#'  Archived livestreamed reading event in past 12 months
-#' 
-#'  yrarpo
-#' 
-#' Question (During the last 12 months, did you...) watch or listen to an archived web event featuring poetry, book-reading, or storytelling? This may have included video or audio clips on, for example, YouTube, an organization's website, or a social media platform.
-#' 
-#' NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` yes
-#'   * `[2]` no
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A/B/C   |2022  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `yrarpo`](https://gssdataexplorer.norc.org/variables/7876/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |yes |no  |don't know |Total |
-#'  |:-----|:----|:---|:---|:----------|:-----|
-#'  |2022  |2701 |220 |618 |5          |3544  |
-#'  |Total |2701 |220 |618 |5          |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family NEA
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name yrarpo
-NULL
-
-
-#'  Online class in past 12 months
-#' 
-#'  yrclass
-#' 
-#' Question (During the last 12 months, did you...) take any online classes or lessons -- or watch instructional videos -- on creating or performing art? This may have included music, theater, or dance; creative writing; crafts or visual arts; digital art; or filmmaking or photography done for artistic purposes.
-#' 
-#' NOTE: This variable originates on the NEA follow-on, and should not be analyzed without the NEA-specific weights WTSSPS_NEA or WTSSNRPS_NEA
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` yes
-#'   * `[2]` no
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A/B/C   |2022  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `yrclass`](https://gssdataexplorer.norc.org/variables/7877/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |yes |no  |don't know |skipped on web |Total |
-#'  |:-----|:----|:---|:---|:----------|:--------------|:-----|
-#'  |2022  |2701 |229 |608 |3          |3              |3544  |
-#'  |Total |2701 |229 |608 |3          |3              |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family NEA
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name yrclass
 NULL
 
 

@@ -34,10 +34,10 @@ Question Do you know a woman or a man who isï¿½A senior executive of a large 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7230/vshow}{GSS Data Explorer page for \code{knwexec}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab family or relative \tab close friend \tab someone else i know \tab no one \tab don't know \tab Total \cr
-   2018 \tab 1175 \tab 149 \tab 147 \tab 184 \tab 689 \tab 4 \tab 2348 \cr
-   Total \tab 1175 \tab 149 \tab 147 \tab 184 \tab 689 \tab 4 \tab 2348 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab family or relative \tab close friend \tab someone else i know \tab no one \tab don't know \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 149 \tab 147 \tab 184 \tab 689 \tab 4 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 149 \tab 147 \tab 184 \tab 689 \tab 4 \tab 0 \tab 2348 \cr
 }
 }
 

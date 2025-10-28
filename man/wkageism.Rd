@@ -32,16 +32,16 @@ Question Do you feel in any way discriminated against on your job because of you
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2821/vshow}{GSS Data Explorer page for \code{wkageism}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2002 \tab 969 \tab 155 \tab 1620 \tab 7 \tab 14 \tab - \tab 2765 \cr
-   2006 \tab 2776 \tab 148 \tab 1565 \tab 4 \tab 17 \tab - \tab 4510 \cr
-   2010 \tab 857 \tab 89 \tab 1073 \tab 2 \tab 23 \tab - \tab 2044 \cr
-   2012 \tab 795 \tab 108 \tab 1040 \tab 4 \tab 27 \tab - \tab 1974 \cr
-   2014 \tab 1288 \tab 78 \tab 1166 \tab - \tab 6 \tab - \tab 2538 \cr
-   2018 \tab 900 \tab 125 \tab 1287 \tab 4 \tab 32 \tab - \tab 2348 \cr
-   2022 \tab 1555 \tab 155 \tab 1799 \tab 6 \tab 13 \tab 16 \tab 3544 \cr
-   Total \tab 9140 \tab 858 \tab 9550 \tab 27 \tab 132 \tab 16 \tab 19723 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2002 \tab 969 \tab 155 \tab 1620 \tab 7 \tab 14 \tab - \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 148 \tab 1565 \tab 4 \tab 17 \tab - \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 89 \tab 1073 \tab 2 \tab 23 \tab - \tab - \tab 2044 \cr
+   2012 \tab 795 \tab 108 \tab 1040 \tab 4 \tab 27 \tab - \tab - \tab 1974 \cr
+   2014 \tab 1288 \tab 78 \tab 1166 \tab - \tab 6 \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 125 \tab 1287 \tab 4 \tab 32 \tab - \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 155 \tab 1799 \tab 6 \tab 13 \tab 16 \tab - \tab 3544 \cr
+   Total \tab 9140 \tab 858 \tab 9550 \tab 27 \tab 132 \tab 16 \tab 0 \tab 19723 \cr
 }
 }
 

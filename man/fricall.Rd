@@ -37,10 +37,10 @@ F. And how often do you have any other contact with this friend besides visiting
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4168/vshow}{GSS Data Explorer page for \code{fricall}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab Total \cr
-   1986 \tab 92 \tab 285 \tab 312 \tab 277 \tab 247 \tab 104 \tab 141 \tab 12 \tab 1470 \cr
-   Total \tab 92 \tab 285 \tab 312 \tab 277 \tab 247 \tab 104 \tab 141 \tab 12 \tab 1470 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 92 \tab 285 \tab 312 \tab 277 \tab 247 \tab 104 \tab 141 \tab 12 \tab - \tab 1470 \cr
+   Total \tab 92 \tab 285 \tab 312 \tab 277 \tab 247 \tab 104 \tab 141 \tab 12 \tab 0 \tab 1470 \cr
 }
 }
 

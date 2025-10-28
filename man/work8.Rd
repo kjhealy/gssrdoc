@@ -35,11 +35,11 @@ B. Second, what about work-related matters?  Did any of the following happen to 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5157/vshow}{GSS Data Explorer page for \code{work8}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 500 \tab 52 \tab 914 \tab 2 \tab 49 \tab 1517 \cr
-   2004 \tab 1472 \tab 62 \tab 1265 \tab 2 \tab 11 \tab 2812 \cr
-   Total \tab 1972 \tab 114 \tab 2179 \tab 4 \tab 60 \tab 4329 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 500 \tab 52 \tab 914 \tab 2 \tab 49 \tab - \tab 1517 \cr
+   2004 \tab 1472 \tab 62 \tab 1265 \tab 2 \tab 11 \tab - \tab 2812 \cr
+   Total \tab 1972 \tab 114 \tab 2179 \tab 4 \tab 60 \tab 0 \tab 4329 \cr
 }
 }
 

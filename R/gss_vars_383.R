@@ -24,10 +24,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2008  |518 |96             |474   |542      |321               |61         |11        |2023  |
-#'  |Total |518 |96             |474   |542      |321               |61         |11        |2023  |
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |518 |96             |474   |542      |321               |61         |11        |-                          |2023  |
+#'  |Total |518 |96             |474   |542      |321               |61         |11        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -65,10 +65,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |true |false |don't know |no answer |Total |
-#'  |:-----|:----|:----|:-----|:----------|:---------|:-----|
-#'  |2008  |1769 |41   |176   |35         |2         |2023  |
-#'  |Total |1769 |41   |176   |35         |2         |2023  |
+#'  |year  |iap  |true |false |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |1769 |41   |176   |35         |2         |-                          |2023  |
+#'  |Total |1769 |41   |176   |35         |2         |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -107,10 +107,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |it is odorless |it does not conduct electricity |it is tasteless |it is liquid at most temperatures on earth |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-------------------------------|:---------------|:------------------------------------------|:----------|:---------|:-----|
-#'  |2008  |518 |64             |70                              |71              |1012                                       |268        |20        |2023  |
-#'  |Total |518 |64             |70                              |71              |1012                                       |268        |20        |2023  |
+#'  |year  |iap |it is odorless |it does not conduct electricity |it is tasteless |it is liquid at most temperatures on earth |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-------------------------------|:---------------|:------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |518 |64             |70                              |71              |1012                                       |268        |20        |-                          |2023  |
+#'  |Total |518 |64             |70                              |71              |1012                                       |268        |20        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -150,10 +150,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |long ears and a long body |small ears and a short tail |a long nose and a long tail |a short nose and large ears |a long tail and a short nose |don't know |no answer |Total |
-#'  |:-----|:---|:-------------------------|:---------------------------|:---------------------------|:---------------------------|:----------------------------|:----------|:---------|:-----|
-#'  |2008  |709 |184                       |679                         |60                          |82                          |77                           |214        |18        |2023  |
-#'  |Total |709 |184                       |679                         |60                          |82                          |77                           |214        |18        |2023  |
+#'  |year  |iap |long ears and a long body |small ears and a short tail |a long nose and a long tail |a short nose and large ears |a long tail and a short nose |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------------------|:---------------------------|:---------------------------|:---------------------------|:----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |709 |184                       |679                         |60                          |82                          |77                           |214        |18        |-                          |2023  |
+#'  |Total |709 |184                       |679                         |60                          |82                          |77                           |214        |18        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -192,10 +192,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |air pressure beneath the wing is greater than that above the wing |pressure within the airplane is greater than that of the outside |engine power is greater than that of friction |the plane's wing is lighter than air |don't know |no answer |Total |
-#'  |:-----|:---|:-----------------------------------------------------------------|:----------------------------------------------------------------|:---------------------------------------------|:------------------------------------|:----------|:---------|:-----|
-#'  |2008  |518 |799                                                               |90                                                               |345                                           |40                                   |211        |20        |2023  |
-#'  |Total |518 |799                                                               |90                                                               |345                                           |40                                   |211        |20        |2023  |
+#'  |year  |iap |air pressure beneath the wing is greater than that above the wing |pressure within the airplane is greater than that of the outside |engine power is greater than that of friction |the plane's wing is lighter than air |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----------------------------------------------------------------|:----------------------------------------------------------------|:---------------------------------------------|:------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |518 |799                                                               |90                                                               |345                                           |40                                   |211        |20        |-                          |2023  |
+#'  |Total |518 |799                                                               |90                                                               |345                                           |40                                   |211        |20        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -233,10 +233,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |complete |partial |unsatisfactory/incorrect |don't know |no answer |Total |
-#'  |:-----|:---|:--------|:-------|:------------------------|:----------|:---------|:-----|
-#'  |2008  |518 |656      |61      |299                      |466        |23        |2023  |
-#'  |Total |518 |656      |61      |299                      |466        |23        |2023  |
+#'  |year  |iap |complete |partial |unsatisfactory/incorrect |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------|:-------|:------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |518 |656      |61      |299                      |466        |23        |-                          |2023  |
+#'  |Total |518 |656      |61      |299                      |466        |23        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -274,10 +274,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |complete |partial |unsatisfactory/incorrect |don't know |no answer |Total |
-#'  |:-----|:---|:--------|:-------|:------------------------|:----------|:---------|:-----|
-#'  |2008  |518 |292      |191     |147                      |849        |26        |2023  |
-#'  |Total |518 |292      |191     |147                      |849        |26        |2023  |
+#'  |year  |iap |complete |partial |unsatisfactory/incorrect |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------|:-------|:------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |518 |292      |191     |147                      |849        |26        |-                          |2023  |
+#'  |Total |518 |292      |191     |147                      |849        |26        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -315,10 +315,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |experiment a |experiment b |experiment c |experiment d |don't know |no answer |Total |
-#'  |:-----|:---|:------------|:------------|:------------|:------------|:----------|:---------|:-----|
-#'  |2008  |709 |761          |84           |116          |77           |248        |28        |2023  |
-#'  |Total |709 |761          |84           |116          |77           |248        |28        |2023  |
+#'  |year  |iap |experiment a |experiment b |experiment c |experiment d |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------|:------------|:------------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |709 |761          |84           |116          |77           |248        |28        |-                          |2023  |
+#'  |Total |709 |761          |84           |116          |77           |248        |28        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -356,10 +356,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes, because there is plenty of ocean water |yes, because ocean water has many natural fertilizers |no, because ocean water is too salty for plants grown on land |no, because ocean water is much more polluted than rainwater |don't know |no answer |Total |
-#'  |:-----|:---|:-------------------------------------------|:-----------------------------------------------------|:-------------------------------------------------------------|:------------------------------------------------------------|:----------|:---------|:-----|
-#'  |2008  |518 |23                                          |36                                                    |1262                                                          |100                                                          |64         |20        |2023  |
-#'  |Total |518 |23                                          |36                                                    |1262                                                          |100                                                          |64         |20        |2023  |
+#'  |year  |iap |yes, because there is plenty of ocean water |yes, because ocean water has many natural fertilizers |no, because ocean water is too salty for plants grown on land |no, because ocean water is much more polluted than rainwater |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------------------------------------|:-----------------------------------------------------|:-------------------------------------------------------------|:------------------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |518 |23                                          |36                                                    |1262                                                          |100                                                          |64         |20        |-                          |2023  |
+#'  |Total |518 |23                                          |36                                                    |1262                                                          |100                                                          |64         |20        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes
@@ -397,10 +397,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |the wind in the desert blows sand against a rock |a glacier picks up boulders as it moves |a flood washes over a riverbank, and the water carries small soil particles downstream |an icy winter causes the pavement in a road to crack |don't know |no answer |Total |
-#'  |:-----|:---|:------------------------------------------------|:---------------------------------------|:--------------------------------------------------------------------------------------|:----------------------------------------------------|:----------|:---------|:-----|
-#'  |2008  |518 |147                                              |245                                     |99                                                                                     |830                                                  |162        |22        |2023  |
-#'  |Total |518 |147                                              |245                                     |99                                                                                     |830                                                  |162        |22        |2023  |
+#'  |year  |iap |the wind in the desert blows sand against a rock |a glacier picks up boulders as it moves |a flood washes over a riverbank, and the water carries small soil particles downstream |an icy winter causes the pavement in a road to crack |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------------------------------------------|:---------------------------------------|:--------------------------------------------------------------------------------------|:----------------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2008  |518 |147                                              |245                                     |99                                                                                     |830                                                  |162        |22        |-                          |2023  |
+#'  |Total |518 |147                                              |245                                     |99                                                                                     |830                                                  |162        |22        |0                          |2023  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Science Knowledge & Attitudes

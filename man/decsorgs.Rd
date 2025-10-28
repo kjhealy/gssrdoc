@@ -36,11 +36,11 @@ C. In general, America should follow the decisions of international organization
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4885/vshow}{GSS Data Explorer page for \code{decsorgs}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1596 \tab 53 \tab 286 \tab 392 \tab 342 \tab 65 \tab 77 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 37 \tab 330 \tab 355 \tab 346 \tab 76 \tab 125 \tab 5 \tab 2538 \cr
-   Total \tab 2860 \tab 90 \tab 616 \tab 747 \tab 688 \tab 141 \tab 202 \tab 6 \tab 5350 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1596 \tab 53 \tab 286 \tab 392 \tab 342 \tab 65 \tab 77 \tab 1 \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 37 \tab 330 \tab 355 \tab 346 \tab 76 \tab 125 \tab 5 \tab - \tab 2538 \cr
+   Total \tab 2860 \tab 90 \tab 616 \tab 747 \tab 688 \tab 141 \tab 202 \tab 6 \tab 0 \tab 5350 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Have you borrowed $100 or more from another person (not a bank, busines
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1849/vshow}{GSS Data Explorer page for \code{borrowed}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1996 \tab 2168 \tab 154 \tab 578 \tab 4 \tab 2904 \cr
-   Total \tab 2168 \tab 154 \tab 578 \tab 4 \tab 2904 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2168 \tab 154 \tab 578 \tab 4 \tab - \tab 2904 \cr
+   Total \tab 2168 \tab 154 \tab 578 \tab 4 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question A. Under the First Amendment guaranteeing free speech, people should be
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1603/vshow}{GSS Data Explorer page for \code{ethspkok}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2235 \tab 158 \tab 317 \tab 84 \tab 150 \tab 31 \tab 9 \tab 8 \tab 2992 \cr
-   Total \tab 2235 \tab 158 \tab 317 \tab 84 \tab 150 \tab 31 \tab 9 \tab 8 \tab 2992 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2235 \tab 158 \tab 317 \tab 84 \tab 150 \tab 31 \tab 9 \tab 8 \tab - \tab 2992 \cr
+   Total \tab 2235 \tab 158 \tab 317 \tab 84 \tab 150 \tab 31 \tab 9 \tab 8 \tab 0 \tab 2992 \cr
 }
 }
 

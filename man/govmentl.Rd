@@ -35,11 +35,11 @@ Question On the whole, do you think it should or should not be the government''s
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2039/vshow}{GSS Data Explorer page for \code{govmentl}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 2196 \tab 243 \tab 274 \tab 86 \tab 53 \tab 40 \tab 12 \tab 2904 \cr
-   2006 \tab 3808 \tab 266 \tab 293 \tab 104 \tab 16 \tab 14 \tab 9 \tab 4510 \cr
-   Total \tab 6004 \tab 509 \tab 567 \tab 190 \tab 69 \tab 54 \tab 21 \tab 7414 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2196 \tab 243 \tab 274 \tab 86 \tab 53 \tab 40 \tab 12 \tab - \tab 2904 \cr
+   2006 \tab 3808 \tab 266 \tab 293 \tab 104 \tab 16 \tab 14 \tab 9 \tab - \tab 4510 \cr
+   Total \tab 6004 \tab 509 \tab 567 \tab 190 \tab 69 \tab 54 \tab 21 \tab 0 \tab 7414 \cr
 }
 }
 

@@ -33,10 +33,10 @@ Question C. And which of these two groups is making more effort to look after th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4786/vshow}{GSS Data Explorer page for \code{peopgovt}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab people in general \tab or government \tab both equally \tab can't choose \tab no answer \tab Total \cr
-   2000 \tab 1541 \tab 494 \tab 224 \tab 294 \tab 161 \tab 103 \tab 2817 \cr
-   Total \tab 1541 \tab 494 \tab 224 \tab 294 \tab 161 \tab 103 \tab 2817 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab people in general \tab or government \tab both equally \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1541 \tab 494 \tab 224 \tab 294 \tab 161 \tab 103 \tab - \tab 2817 \cr
+   Total \tab 1541 \tab 494 \tab 224 \tab 294 \tab 161 \tab 103 \tab 0 \tab 2817 \cr
 }
 }
 

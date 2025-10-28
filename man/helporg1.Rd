@@ -38,12 +38,12 @@ A. I am willing to work harder than I have to in order to help the firm or organ
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4585/vshow}{GSS Data Explorer page for \code{helporg1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1967 \tab 190 \tab 434 \tab 141 \tab 43 \tab 4 \tab 9 \tab 44 \tab 2832 \cr
-   2006 \tab 3492 \tab 364 \tab 447 \tab 138 \tab 45 \tab 17 \tab 4 \tab 3 \tab 4510 \cr
-   2016 \tab 1927 \tab 338 \tab 413 \tab 132 \tab 36 \tab 10 \tab 4 \tab 7 \tab 2867 \cr
-   Total \tab 7386 \tab 892 \tab 1294 \tab 411 \tab 124 \tab 31 \tab 17 \tab 54 \tab 10209 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1967 \tab 190 \tab 434 \tab 141 \tab 43 \tab 4 \tab 9 \tab 44 \tab - \tab 2832 \cr
+   2006 \tab 3492 \tab 364 \tab 447 \tab 138 \tab 45 \tab 17 \tab 4 \tab 3 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 338 \tab 413 \tab 132 \tab 36 \tab 10 \tab 4 \tab 7 \tab - \tab 2867 \cr
+   Total \tab 7386 \tab 892 \tab 1294 \tab 411 \tab 124 \tab 31 \tab 17 \tab 54 \tab 0 \tab 10209 \cr
 }
 }
 

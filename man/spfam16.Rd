@@ -40,10 +40,10 @@ PROBE FOR BEFORE THAT.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1484/vshow}{GSS Data Explorer page for \code{spfam16}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab other \tab both own mother and father \tab father and stepmother \tab mother and stepfather \tab father-no mother or stepmother \tab mother-no father or stepfather \tab some other male relative -no female head- \tab some other female relative -no male head- \tab other, with both male and female relatives \tab no answer \tab Total \cr
-   1994 \tab 2213 \tab 19 \tab 584 \tab 19 \tab 31 \tab 16 \tab 73 \tab 1 \tab 7 \tab 12 \tab 17 \tab 2992 \cr
-   Total \tab 2213 \tab 19 \tab 584 \tab 19 \tab 31 \tab 16 \tab 73 \tab 1 \tab 7 \tab 12 \tab 17 \tab 2992 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab other \tab both own mother and father \tab father and stepmother \tab mother and stepfather \tab father-no mother or stepmother \tab mother-no father or stepfather \tab some other male relative -no female head- \tab some other female relative -no male head- \tab other, with both male and female relatives \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2213 \tab 19 \tab 584 \tab 19 \tab 31 \tab 16 \tab 73 \tab 1 \tab 7 \tab 12 \tab 17 \tab - \tab 2992 \cr
+   Total \tab 2213 \tab 19 \tab 584 \tab 19 \tab 31 \tab 16 \tab 73 \tab 1 \tab 7 \tab 12 \tab 17 \tab 0 \tab 2992 \cr
 }
 }
 

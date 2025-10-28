@@ -33,10 +33,10 @@ A. Do you think college students should be exempted from a draft?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/806/vshow}{GSS Data Explorer page for \code{draftcol}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no, not exempt \tab don't know \tab no answer \tab Total \cr
-   1982 \tab - \tab 507 \tab 1279 \tab 71 \tab 3 \tab 1860 \cr
-   Total \tab 0 \tab 507 \tab 1279 \tab 71 \tab 3 \tab 1860 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no, not exempt \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab - \tab 507 \tab 1279 \tab 71 \tab 3 \tab - \tab 1860 \cr
+   Total \tab 0 \tab 507 \tab 1279 \tab 71 \tab 3 \tab 0 \tab 1860 \cr
 }
 }
 

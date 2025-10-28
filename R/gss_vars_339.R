@@ -20,10 +20,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |1   |10  |11  |12  |13 |14 |15  |16 |17 |18  |19 |2  |20 |21  |3  |4  |5   |6  |7  |8  |9  |don't know |no answer |Total |
-#'  |:-----|:---|:---|:---|:---|:---|:--|:--|:---|:--|:--|:---|:--|:--|:--|:---|:--|:--|:---|:--|:--|:--|:--|:----------|:---------|:-----|
-#'  |2004  |432 |155 |239 |185 |153 |45 |64 |203 |78 |98 |147 |73 |43 |93 |296 |50 |57 |144 |44 |55 |66 |60 |18         |14        |2812  |
-#'  |Total |432 |155 |239 |185 |153 |45 |64 |203 |78 |98 |147 |73 |43 |93 |296 |50 |57 |144 |44 |55 |66 |60 |18         |14        |2812  |
+#'  |year  |iap |1   |10  |11  |12  |13 |14 |15  |16 |17 |18  |19 |2  |20 |21  |3  |4  |5   |6  |7  |8  |9  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:---|:---|:--|:--|:---|:--|:--|:---|:--|:--|:--|:---|:--|:--|:---|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |432 |155 |239 |185 |153 |45 |64 |203 |78 |98 |147 |73 |43 |93 |296 |50 |57 |144 |44 |55 |66 |60 |18         |14        |-                          |2812  |
+#'  |Total |432 |155 |239 |185 |153 |45 |64 |203 |78 |98 |147 |73 |43 |93 |296 |50 |57 |144 |44 |55 |66 |60 |18         |14        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
@@ -57,10 +57,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |1   |10  |11  |12  |13 |14 |15  |16 |17  |18  |19 |2  |20 |21  |3  |4  |5   |6  |7  |8  |9  |don't know |no answer |Total |
-#'  |:-----|:---|:---|:---|:---|:---|:--|:--|:---|:--|:---|:---|:--|:--|:--|:---|:--|:--|:---|:--|:--|:--|:--|:----------|:---------|:-----|
-#'  |2004  |432 |154 |266 |202 |152 |49 |53 |216 |78 |106 |140 |53 |56 |91 |252 |50 |60 |133 |50 |67 |68 |55 |19         |10        |2812  |
-#'  |Total |432 |154 |266 |202 |152 |49 |53 |216 |78 |106 |140 |53 |56 |91 |252 |50 |60 |133 |50 |67 |68 |55 |19         |10        |2812  |
+#'  |year  |iap |1   |10  |11  |12  |13 |14 |15  |16 |17  |18  |19 |2  |20 |21  |3  |4  |5   |6  |7  |8  |9  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---|:---|:---|:---|:--|:--|:---|:--|:---|:---|:--|:--|:--|:---|:--|:--|:---|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |432 |154 |266 |202 |152 |49 |53 |216 |78 |106 |140 |53 |56 |91 |252 |50 |60 |133 |50 |67 |68 |55 |19         |10        |-                          |2812  |
+#'  |Total |432 |154 |266 |202 |152 |49 |53 |216 |78 |106 |140 |53 |56 |91 |252 |50 |60 |133 |50 |67 |68 |55 |19         |10        |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Genes and the Environment
@@ -99,10 +99,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2004  |432 |824            |1338  |183      |30                |2          |3         |2812  |
-#'  |Total |432 |824            |1338  |183      |30                |2          |3         |2812  |
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |432 |824            |1338  |183      |30                |2          |3         |-                          |2812  |
+#'  |Total |432 |824            |1338  |183      |30                |2          |3         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -143,10 +143,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2004  |432 |55             |152   |964      |1202              |5          |2         |2812  |
-#'  |Total |432 |55             |152   |964      |1202              |5          |2         |2812  |
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |432 |55             |152   |964      |1202              |5          |2         |-                          |2812  |
+#'  |Total |432 |55             |152   |964      |1202              |5          |2         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -187,10 +187,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2004  |432 |138            |518   |957      |757               |5          |5         |2812  |
-#'  |Total |432 |138            |518   |957      |757               |5          |5         |2812  |
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |432 |138            |518   |957      |757               |5          |5         |-                          |2812  |
+#'  |Total |432 |138            |518   |957      |757               |5          |5         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -231,10 +231,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2004  |432 |1369           |915   |60       |31                |3          |2         |2812  |
-#'  |Total |432 |1369           |915   |60       |31                |3          |2         |2812  |
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |432 |1369           |915   |60       |31                |3          |2         |-                          |2812  |
+#'  |Total |432 |1369           |915   |60       |31                |3          |2         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -275,10 +275,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2004  |432 |73             |372   |892      |1036              |4          |3         |2812  |
-#'  |Total |432 |73             |372   |892      |1036              |4          |3         |2812  |
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |432 |73             |372   |892      |1036              |4          |3         |-                          |2812  |
+#'  |Total |432 |73             |372   |892      |1036              |4          |3         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -319,10 +319,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2004  |432 |705            |1259  |357      |46                |9          |4         |2812  |
-#'  |Total |432 |705            |1259  |357      |46                |9          |4         |2812  |
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |432 |705            |1259  |357      |46                |9          |4         |-                          |2812  |
+#'  |Total |432 |705            |1259  |357      |46                |9          |4         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -363,10 +363,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2004  |432 |98             |416   |1359     |495               |6          |6         |2812  |
-#'  |Total |432 |98             |416   |1359     |495               |6          |6         |2812  |
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |432 |98             |416   |1359     |495               |6          |6         |-                          |2812  |
+#'  |Total |432 |98             |416   |1359     |495               |6          |6         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations
@@ -407,10 +407,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2004  |432 |140            |466   |1241     |523               |6          |4         |2812  |
-#'  |Total |432 |140            |466   |1241     |523               |6          |4         |2812  |
+#'  |year  |iap |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |432 |140            |466   |1241     |523               |6          |4         |-                          |2812  |
+#'  |Total |432 |140            |466   |1241     |523               |6          |4         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Work Organizations

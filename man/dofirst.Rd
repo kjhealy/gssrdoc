@@ -42,10 +42,11 @@ What is the first thing s/he should do?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7094/vshow}{GSS Data Explorer page for \code{dofirst}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab talk to family and friends about it \tab talk to a minister, priest, rabbi or other religious leader \tab go to a general medical doctor for help \tab go to a psychiatrist for help \tab go to a therapist, or counselor, like a psychologist, social worker, or other mental health professional for help \tab go to a spiritual or a natural healer for help \tab join a self-help group where people with similar problems help each other \tab take prescription medication \tab check into a mental hospital \tab don't know \tab Total \cr
-   2018 \tab 1214 \tab 679 \tab 26 \tab 209 \tab 42 \tab 104 \tab 2 \tab 37 \tab 2 \tab 29 \tab 4 \tab 2348 \cr
-   Total \tab 1214 \tab 679 \tab 26 \tab 209 \tab 42 \tab 104 \tab 2 \tab 37 \tab 2 \tab 29 \tab 4 \tab 2348 \cr
+Counts by year:\tabular{llllllllllllllll}{
+   year \tab iap \tab talk to family and friends about it \tab talk to a minister, priest, rabbi or other religious leader \tab go to a general medical doctor for help \tab go to a psychiatrist for help \tab go to a therapist, or counselor, like a psychologist, social worker, or other mental health professional for help \tab go to a spiritual or a natural healer for help \tab join a self-help group where people with similar problems help each other \tab take prescription medication \tab check into a mental hospital \tab don't know \tab not available in this year \tab take non-prescription medication, like over the counter sleeping pills \tab skipped on web \tab Total \cr
+   2018 \tab 1214 \tab 679 \tab 26 \tab 209 \tab 42 \tab 104 \tab 2 \tab 37 \tab 2 \tab 29 \tab 4 \tab - \tab - \tab - \tab 2348 \cr
+   2024 \tab 1745 \tab 779 \tab 46 \tab 279 \tab 67 \tab 210 \tab 13 \tab 75 \tab 12 \tab 53 \tab 8 \tab - \tab 5 \tab 17 \tab 3309 \cr
+   Total \tab 2959 \tab 1458 \tab 72 \tab 488 \tab 109 \tab 314 \tab 15 \tab 112 \tab 14 \tab 82 \tab 12 \tab 0 \tab 5 \tab 17 \tab 5657 \cr
 }
 }
 

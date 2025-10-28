@@ -32,10 +32,10 @@ Question C. Was this leader someone to whom you went for counseling?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3944/vshow}{GSS Data Explorer page for \code{counsel3}}.
 
-Counts by year:\tabular{llll}{
-   year \tab iap \tab no \tab Total \cr
-   2008 \tab 2021 \tab 2 \tab 2023 \cr
-   Total \tab 2021 \tab 2 \tab 2023 \cr
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab no \tab not available in this year \tab Total \cr
+   2008 \tab 2021 \tab 2 \tab - \tab 2023 \cr
+   Total \tab 2021 \tab 2 \tab 0 \tab 2023 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Have you ever worked for a company where a major part of their business
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/829/vshow}{GSS Data Explorer page for \code{defwrkev}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1984 \tab - \tab 181 \tab 1262 \tab 30 \tab 1473 \cr
-   Total \tab 0 \tab 181 \tab 1262 \tab 30 \tab 1473 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 181 \tab 1262 \tab 30 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 181 \tab 1262 \tab 30 \tab 0 \tab 1473 \cr
 }
 }
 

@@ -34,10 +34,10 @@ C. Conflict of faith and science
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1097/vshow}{GSS Data Explorer page for \code{doubts3}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
-   1988 \tab - \tab 73 \tab 369 \tab 955 \tab 64 \tab 20 \tab 1481 \cr
-   Total \tab 0 \tab 73 \tab 369 \tab 955 \tab 64 \tab 20 \tab 1481 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 73 \tab 369 \tab 955 \tab 64 \tab 20 \tab - \tab 1481 \cr
+   Total \tab 0 \tab 73 \tab 369 \tab 955 \tab 64 \tab 20 \tab 0 \tab 1481 \cr
 }
 }
 

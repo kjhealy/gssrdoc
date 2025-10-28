@@ -35,14 +35,14 @@ Question You said you get most of your information about science and technology 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3500/vshow}{GSS Data Explorer page for \code{scinews1}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab printed newspapers \tab other \tab online newspapers \tab no answer \tab Total \cr
-   2010 \tab 2028 \tab 15 \tab 1 \tab - \tab - \tab 2044 \cr
-   2012 \tab 1914 \tab 44 \tab 3 \tab 8 \tab 5 \tab 1974 \cr
-   2014 \tab 2455 \tab 68 \tab - \tab 13 \tab 2 \tab 2538 \cr
-   2016 \tab 2800 \tab 51 \tab 2 \tab 10 \tab 4 \tab 2867 \cr
-   2018 \tab 2298 \tab 31 \tab 3 \tab 15 \tab 1 \tab 2348 \cr
-   Total \tab 11495 \tab 209 \tab 9 \tab 46 \tab 12 \tab 11771 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab printed newspapers \tab other \tab online newspapers \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 2028 \tab 15 \tab 1 \tab - \tab - \tab - \tab 2044 \cr
+   2012 \tab 1914 \tab 44 \tab 3 \tab 8 \tab 5 \tab - \tab 1974 \cr
+   2014 \tab 2455 \tab 68 \tab - \tab 13 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 2800 \tab 51 \tab 2 \tab 10 \tab 4 \tab - \tab 2867 \cr
+   2018 \tab 2298 \tab 31 \tab 3 \tab 15 \tab 1 \tab - \tab 2348 \cr
+   Total \tab 11495 \tab 209 \tab 9 \tab 46 \tab 12 \tab 0 \tab 11771 \cr
 }
 }
 

@@ -37,12 +37,13 @@ B. Immigrants are generally good for America''s economy
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4860/vshow}{GSS Data Explorer page for \code{immameco}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 60 \tab 364 \tab 413 \tab 361 \tab 52 \tab 60 \tab 57 \tab 2904 \cr
-   2004 \tab 1596 \tab 80 \tab 458 \tab 355 \tab 236 \tab 55 \tab 31 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 114 \tab 550 \tab 330 \tab 207 \tab 25 \tab 45 \tab 3 \tab 2538 \cr
-   Total \tab 4397 \tab 254 \tab 1372 \tab 1098 \tab 804 \tab 132 \tab 136 \tab 61 \tab 8254 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 60 \tab 364 \tab 413 \tab 361 \tab 52 \tab 60 \tab 57 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 80 \tab 458 \tab 355 \tab 236 \tab 55 \tab 31 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 114 \tab 550 \tab 330 \tab 207 \tab 25 \tab 45 \tab 3 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1663 \tab 181 \tab 661 \tab 443 \tab 193 \tab 55 \tab 94 \tab 2 \tab - \tab 17 \tab 3309 \cr
+   Total \tab 6060 \tab 435 \tab 2033 \tab 1541 \tab 997 \tab 187 \tab 230 \tab 63 \tab 0 \tab 17 \tab 11563 \cr
 }
 }
 

@@ -35,10 +35,10 @@ E. Science is too concerned with theory and speculation to be of much use in mak
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3320/vshow}{GSS Data Explorer page for \code{scispec}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 100 \tab 561 \tab 852 \tab 211 \tab 135 \tab 5 \tab 4510 \cr
-   Total \tab 2646 \tab 100 \tab 561 \tab 852 \tab 211 \tab 135 \tab 5 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 100 \tab 561 \tab 852 \tab 211 \tab 135 \tab 5 \tab - \tab 4510 \cr
+   Total \tab 2646 \tab 100 \tab 561 \tab 852 \tab 211 \tab 135 \tab 5 \tab 0 \tab 4510 \cr
 }
 }
 

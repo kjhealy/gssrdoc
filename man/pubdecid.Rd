@@ -33,13 +33,13 @@ Question A. If you had to choose, which one of the following would be closest to
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4766/vshow}{GSS Data Explorer page for \code{pubdecid}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab gov. let people decide \tab gov. make laws \tab don't know \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 261 \tab 968 \tab 288 \tab 40 \tab 1606 \cr
-   1994 \tab 1606 \tab 284 \tab 786 \tab 278 \tab 38 \tab 2992 \cr
-   2000 \tab 1541 \tab 293 \tab 571 \tab 307 \tab 105 \tab 2817 \cr
-   2010 \tab 614 \tab 385 \tab 647 \tab 386 \tab 12 \tab 2044 \cr
-   Total \tab 3810 \tab 1223 \tab 2972 \tab 1259 \tab 195 \tab 9459 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab gov. let people decide \tab gov. make laws \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 261 \tab 968 \tab 288 \tab 40 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 284 \tab 786 \tab 278 \tab 38 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 293 \tab 571 \tab 307 \tab 105 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 385 \tab 647 \tab 386 \tab 12 \tab - \tab 2044 \cr
+   Total \tab 3810 \tab 1223 \tab 2972 \tab 1259 \tab 195 \tab 0 \tab 9459 \cr
 }
 }
 

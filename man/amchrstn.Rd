@@ -36,12 +36,13 @@ E. To be a Christian
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4831/vshow}{GSS Data Explorer page for \code{amchrstn}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 505 \tab 198 \tab 282 \tab 324 \tab 39 \tab 19 \tab 2904 \cr
-   2004 \tab 1596 \tab 585 \tab 192 \tab 209 \tab 194 \tab 35 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 408 \tab 152 \tab 271 \tab 392 \tab 44 \tab 7 \tab 2538 \cr
-   Total \tab 4397 \tab 1498 \tab 542 \tab 762 \tab 910 \tab 118 \tab 27 \tab 8254 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 505 \tab 198 \tab 282 \tab 324 \tab 39 \tab 19 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 585 \tab 192 \tab 209 \tab 194 \tab 35 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 408 \tab 152 \tab 271 \tab 392 \tab 44 \tab 7 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1661 \tab 349 \tab 218 \tab 315 \tab 646 \tab 99 \tab 4 \tab - \tab 17 \tab 3309 \cr
+   Total \tab 6058 \tab 1847 \tab 760 \tab 1077 \tab 1556 \tab 217 \tab 31 \tab 0 \tab 17 \tab 11563 \cr
 }
 }
 

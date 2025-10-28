@@ -34,10 +34,10 @@ Question I. Scientists have few other interests but their work. Do you strongly 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3519/vshow}{GSS Data Explorer page for \code{scientwk}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1457 \tab 15 \tab 147 \tab 260 \tab 24 \tab 67 \tab 4 \tab 1974 \cr
-   Total \tab 1457 \tab 15 \tab 147 \tab 260 \tab 24 \tab 67 \tab 4 \tab 1974 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1457 \tab 15 \tab 147 \tab 260 \tab 24 \tab 67 \tab 4 \tab - \tab 1974 \cr
+   Total \tab 1457 \tab 15 \tab 147 \tab 260 \tab 24 \tab 67 \tab 4 \tab 0 \tab 1974 \cr
 }
 }
 

@@ -37,13 +37,13 @@ E. Religious miracles
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4655/vshow}{GSS Data Explorer page for \code{miracles}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably not \tab no, definitely not \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 543 \tab 331 \tab 193 \tab 123 \tab 95 \tab 74 \tab 1517 \cr
-   1998 \tab 1548 \tab 577 \tab 304 \tab 142 \tab 99 \tab 102 \tab 60 \tab 2832 \cr
-   2008 \tab 658 \tab 738 \tab 311 \tab 183 \tab 101 \tab 29 \tab 3 \tab 2023 \cr
-   2018 \tab 1173 \tab 591 \tab 277 \tab 159 \tab 114 \tab 25 \tab 9 \tab 2348 \cr
-   Total \tab 3537 \tab 2449 \tab 1223 \tab 677 \tab 437 \tab 251 \tab 146 \tab 8720 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab yes, definitely \tab yes, probably \tab no, probably not \tab no, definitely not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 543 \tab 331 \tab 193 \tab 123 \tab 95 \tab 74 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 577 \tab 304 \tab 142 \tab 99 \tab 102 \tab 60 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 738 \tab 311 \tab 183 \tab 101 \tab 29 \tab 3 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 591 \tab 277 \tab 159 \tab 114 \tab 25 \tab 9 \tab - \tab 2348 \cr
+   Total \tab 3537 \tab 2449 \tab 1223 \tab 677 \tab 437 \tab 251 \tab 146 \tab 0 \tab 8720 \cr
 }
 }
 

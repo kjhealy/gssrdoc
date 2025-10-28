@@ -35,11 +35,11 @@ A. First, thinking about health related matters, did any of the following happen
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5143/vshow}{GSS Data Explorer page for \code{hlth8}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
-   1991 \tab 500 \tab 28 \tab 978 \tab 11 \tab - \tab 1517 \cr
-   2004 \tab 1472 \tab 41 \tab 1282 \tab 12 \tab 5 \tab 2812 \cr
-   Total \tab 1972 \tab 69 \tab 2260 \tab 23 \tab 5 \tab 4329 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1991 \tab 500 \tab 28 \tab 978 \tab 11 \tab - \tab - \tab 1517 \cr
+   2004 \tab 1472 \tab 41 \tab 1282 \tab 12 \tab 5 \tab - \tab 2812 \cr
+   Total \tab 1972 \tab 69 \tab 2260 \tab 23 \tab 5 \tab 0 \tab 4329 \cr
 }
 }
 

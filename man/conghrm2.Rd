@@ -34,10 +34,10 @@ Question How often are the people in your congregation critical of you and the t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2095/vshow}{GSS Data Explorer page for \code{conghrm2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very often \tab fairly often \tab once in a while \tab never \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1797 \tab 23 \tab 27 \tab 164 \tab 649 \tab 8 \tab 164 \tab 2832 \cr
-   Total \tab 1797 \tab 23 \tab 27 \tab 164 \tab 649 \tab 8 \tab 164 \tab 2832 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very often \tab fairly often \tab once in a while \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1797 \tab 23 \tab 27 \tab 164 \tab 649 \tab 8 \tab 164 \tab - \tab 2832 \cr
+   Total \tab 1797 \tab 23 \tab 27 \tab 164 \tab 649 \tab 8 \tab 164 \tab 0 \tab 2832 \cr
 }
 }
 

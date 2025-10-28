@@ -32,13 +32,13 @@ Question A zoo or aquarium. How many times did you visit a zoo or aquarium durin
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3465/vshow}{GSS Data Explorer page for \code{viszoo}}.
 
-Counts by year:\tabular{lllllllllllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 15 \tab 2 \tab 20 \tab 21 \tab 24 \tab 3 \tab 36 \tab 4 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab no answer \tab 95 \tab 11 \tab 30 \tab 48 \tab 9 \tab don't know \tab Total \cr
-   2008 \tab 518 \tab 770 \tab 409 \tab 10 \tab 5 \tab 1 \tab 188 \tab 2 \tab 1 \tab 1 \tab 53 \tab 1 \tab 26 \tab 25 \tab 1 \tab 5 \tab 1 \tab 5 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
-   2012 \tab 972 \tab 550 \tab 254 \tab 4 \tab 2 \tab 3 \tab 111 \tab - \tab - \tab - \tab 32 \tab - \tab 14 \tab 17 \tab 1 \tab 6 \tab - \tab 2 \tab 4 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2016 \tab 1477 \tab 738 \tab 400 \tab 7 \tab 4 \tab 2 \tab 142 \tab 2 \tab - \tab - \tab 46 \tab - \tab 18 \tab 16 \tab - \tab 5 \tab 1 \tab - \tab 4 \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2867 \cr
-   2018 \tab 1173 \tab 627 \tab 323 \tab 4 \tab - \tab - \tab 127 \tab 2 \tab - \tab - \tab 44 \tab - \tab 23 \tab 13 \tab 1 \tab 8 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab 2348 \cr
-   Total \tab 4140 \tab 2685 \tab 1386 \tab 25 \tab 11 \tab 6 \tab 568 \tab 6 \tab 1 \tab 1 \tab 175 \tab 1 \tab 81 \tab 71 \tab 3 \tab 24 \tab 3 \tab 8 \tab 9 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 9212 \cr
+Counts by year:\tabular{llllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 15 \tab 2 \tab 20 \tab 21 \tab 24 \tab 3 \tab 36 \tab 4 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab no answer \tab 95 \tab 11 \tab 30 \tab 48 \tab 9 \tab don't know \tab not available in this year \tab Total \cr
+   2008 \tab 518 \tab 770 \tab 409 \tab 10 \tab 5 \tab 1 \tab 188 \tab 2 \tab 1 \tab 1 \tab 53 \tab 1 \tab 26 \tab 25 \tab 1 \tab 5 \tab 1 \tab 5 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2023 \cr
+   2012 \tab 972 \tab 550 \tab 254 \tab 4 \tab 2 \tab 3 \tab 111 \tab - \tab - \tab - \tab 32 \tab - \tab 14 \tab 17 \tab 1 \tab 6 \tab - \tab 2 \tab 4 \tab 2 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2016 \tab 1477 \tab 738 \tab 400 \tab 7 \tab 4 \tab 2 \tab 142 \tab 2 \tab - \tab - \tab 46 \tab - \tab 18 \tab 16 \tab - \tab 5 \tab 1 \tab - \tab 4 \tab - \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab - \tab 2867 \cr
+   2018 \tab 1173 \tab 627 \tab 323 \tab 4 \tab - \tab - \tab 127 \tab 2 \tab - \tab - \tab 44 \tab - \tab 23 \tab 13 \tab 1 \tab 8 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 4140 \tab 2685 \tab 1386 \tab 25 \tab 11 \tab 6 \tab 568 \tab 6 \tab 1 \tab 1 \tab 175 \tab 1 \tab 81 \tab 71 \tab 3 \tab 24 \tab 3 \tab 8 \tab 9 \tab 2 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 0 \tab 9212 \cr
 }
 }
 

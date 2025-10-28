@@ -37,10 +37,10 @@ Question How often R felt part of something larger than themselves
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7535/vshow}{GSS Data Explorer page for \code{sprtlrgr}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab at least once a day \tab almost every day \tab once or twice a week \tab once or twice a month \tab a few times per year \tab once a year or less \tab never \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 411 \tab 334 \tab 693 \tab 442 \tab 421 \tab 693 \tab 409 \tab 552 \tab 6 \tab 6 \tab 65 \tab 4032 \cr
-   Total \tab 411 \tab 334 \tab 693 \tab 442 \tab 421 \tab 693 \tab 409 \tab 552 \tab 6 \tab 6 \tab 65 \tab 4032 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab at least once a day \tab almost every day \tab once or twice a week \tab once or twice a month \tab a few times per year \tab once a year or less \tab never \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 411 \tab 334 \tab 693 \tab 442 \tab 421 \tab 693 \tab 409 \tab 552 \tab 6 \tab 6 \tab 65 \tab - \tab 4032 \cr
+   Total \tab 411 \tab 334 \tab 693 \tab 442 \tab 421 \tab 693 \tab 409 \tab 552 \tab 6 \tab 6 \tab 65 \tab 0 \tab 4032 \cr
 }
 }
 

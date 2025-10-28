@@ -35,10 +35,10 @@ J. Feeling downhearted and blue?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2708/vshow}{GSS Data Explorer page for \code{wait10}}.
 
-Counts by year:\tabular{lllllllllllllllll}{
-   year \tab iap \tab zero days \tab 1 \tab 10 \tab 12 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab some days \tab some weeks \tab some months \tab no answer \tab Total \cr
-   2000 \tab 2146 \tab 8 \tab 149 \tab 1 \tab 3 \tab 114 \tab 25 \tab 8 \tab 4 \tab 6 \tab 4 \tab 18 \tab 33 \tab 25 \tab 273 \tab 2817 \cr
-   Total \tab 2146 \tab 8 \tab 149 \tab 1 \tab 3 \tab 114 \tab 25 \tab 8 \tab 4 \tab 6 \tab 4 \tab 18 \tab 33 \tab 25 \tab 273 \tab 2817 \cr
+Counts by year:\tabular{llllllllllllllllll}{
+   year \tab iap \tab zero days \tab 1 \tab 10 \tab 12 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab some days \tab some weeks \tab some months \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2146 \tab 8 \tab 149 \tab 1 \tab 3 \tab 114 \tab 25 \tab 8 \tab 4 \tab 6 \tab 4 \tab 18 \tab 33 \tab 25 \tab 273 \tab - \tab 2817 \cr
+   Total \tab 2146 \tab 8 \tab 149 \tab 1 \tab 3 \tab 114 \tab 25 \tab 8 \tab 4 \tab 6 \tab 4 \tab 18 \tab 33 \tab 25 \tab 273 \tab 0 \tab 2817 \cr
 }
 }
 

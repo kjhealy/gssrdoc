@@ -24,11 +24,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |living in household |living in institution |homeless (volunteered) |other |no answer |don't know |Total |
-#'  |:-----|:---|:-------------------|:---------------------|:----------------------|:-----|:---------|:----------|:-----|
-#'  |2010  |-   |2011                |22                    |1                      |8     |2         |-          |2044  |
-#'  |2012  |-   |1937                |25                    |3                      |2     |5         |2          |1974  |
-#'  |Total |0   |3948                |47                    |4                      |10    |7         |2          |4018  |
+#'  |year  |iap |living in household |living in institution |homeless (volunteered) |other |no answer |don't know |not available in this year |Total |
+#'  |:-----|:---|:-------------------|:---------------------|:----------------------|:-----|:---------|:----------|:--------------------------|:-----|
+#'  |2010  |-   |2011                |22                    |1                      |8     |2         |-          |-                          |2044  |
+#'  |2012  |-   |1937                |25                    |3                      |2     |5         |2          |-                          |1974  |
+#'  |Total |0   |3948                |47                    |4                      |10    |7         |2          |0                          |4018  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -67,11 +67,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |living in household |living in institution |homeless (volunteered) |other |no answer |Total |
-#'  |:-----|:---|:-------------------|:---------------------|:----------------------|:-----|:---------|:-----|
-#'  |2012  |-   |1944                |19                    |4                      |4     |3         |1974  |
-#'  |2014  |-   |2490                |39                    |5                      |2     |2         |2538  |
-#'  |Total |0   |4434                |58                    |9                      |6     |5         |4512  |
+#'  |year  |iap |living in household |living in institution |homeless (volunteered) |other |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------------|:---------------------|:----------------------|:-----|:---------|:--------------------------|:-----|
+#'  |2012  |-   |1944                |19                    |4                      |4     |3         |-                          |1974  |
+#'  |2014  |-   |2490                |39                    |5                      |2     |2         |-                          |2538  |
+#'  |Total |0   |4434                |58                    |9                      |6     |5         |0                          |4512  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -110,10 +110,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |living in household |living in institution |homeless (volunteered) |other |no answer |Total |
-#'  |:-----|:---|:-------------------|:---------------------|:----------------------|:-----|:---------|:-----|
-#'  |2014  |-   |2502                |28                    |5                      |2     |1         |2538  |
-#'  |Total |0   |2502                |28                    |5                      |2     |1         |2538  |
+#'  |year  |iap |living in household |living in institution |homeless (volunteered) |other |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------------|:---------------------|:----------------------|:-----|:---------|:--------------------------|:-----|
+#'  |2014  |-   |2502                |28                    |5                      |2     |1         |-                          |2538  |
+#'  |Total |0   |2502                |28                    |5                      |2     |1         |0                          |2538  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights
@@ -151,12 +151,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |excellent |good |fair |poor |not available in this year |Total |
-#'  |:-----|:----|:---------|:----|:----|:----|:--------------------------|:-----|
-#'  |2016  |1437 |622       |637  |148  |23   |-                          |2867  |
-#'  |2018  |1188 |469       |532  |137  |22   |-                          |2348  |
-#'  |2022  |2661 |308       |452  |101  |22   |-                          |3544  |
-#'  |Total |5286 |1399      |1621 |386  |67   |0                          |8759  |
+#'  |year  |iap  |excellent |good |fair |poor |not available in this year |not available in this release |Total |
+#'  |:-----|:----|:---------|:----|:----|:----|:--------------------------|:-----------------------------|:-----|
+#'  |2016  |1437 |622       |637  |148  |23   |-                          |-                             |2867  |
+#'  |2018  |1188 |469       |532  |137  |22   |-                          |-                             |2348  |
+#'  |2022  |2661 |308       |452  |101  |22   |-                          |-                             |3544  |
+#'  |Total |5286 |1399      |1621 |386  |67   |0                          |0                             |8759  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -291,12 +291,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |trailer |detached single family house |2-family house, 2 units side-by-side |2-family house, 2 units one above the other |detached 3-4 family house |row house (3 or more units in an attached row) |apartment house (5 or more units, 4 stories or less) |apartment house (5 or more units, 4 stories or more) |apartment in a partly commercial structure |other |don't know |no answer |not available in this year |Total |
-#'  |:-----|:----|:-------|:----------------------------|:------------------------------------|:-------------------------------------------|:-------------------------|:----------------------------------------------|:----------------------------------------------------|:----------------------------------------------------|:------------------------------------------|:-----|:----------|:---------|:--------------------------|:-----|
-#'  |2016  |-    |156     |1824                         |84                                   |62                                          |36                        |127                                            |395                                                  |133                                                  |15                                         |30    |3          |2         |-                          |2867  |
-#'  |2018  |-    |120     |1535                         |76                                   |23                                          |25                        |125                                            |308                                                  |96                                                   |13                                         |25    |1          |1         |-                          |2348  |
-#'  |2022  |2077 |80      |899                          |55                                   |16                                          |11                        |87                                             |210                                                  |79                                                   |11                                         |19    |-          |-         |-                          |3544  |
-#'  |Total |2077 |356     |4258                         |215                                  |101                                         |72                        |339                                            |913                                                  |308                                                  |39                                         |74    |4          |3         |0                          |8759  |
+#'  |year  |iap  |trailer |detached single family house |2-family house, 2 units side-by-side |2-family house, 2 units one above the other |detached 3-4 family house |row house (3 or more units in an attached row) |apartment house (5 or more units, 3 stories or less) |apartment house (5 or more units, 4 stories or more) |apartment in a partly commercial structure |other |don't know |no answer |not available in this year |not available in this release |Total |
+#'  |:-----|:----|:-------|:----------------------------|:------------------------------------|:-------------------------------------------|:-------------------------|:----------------------------------------------|:----------------------------------------------------|:----------------------------------------------------|:------------------------------------------|:-----|:----------|:---------|:--------------------------|:-----------------------------|:-----|
+#'  |2016  |-    |156     |1824                         |84                                   |62                                          |36                        |127                                            |395                                                  |133                                                  |15                                         |30    |3          |2         |-                          |-                             |2867  |
+#'  |2018  |-    |120     |1535                         |76                                   |23                                          |25                        |125                                            |308                                                  |96                                                   |13                                         |25    |1          |1         |-                          |-                             |2348  |
+#'  |2022  |2077 |80      |899                          |55                                   |16                                          |11                        |87                                             |210                                                  |79                                                   |11                                         |19    |-          |-         |-                          |-                             |3544  |
+#'  |Total |2077 |356     |4258                         |215                                  |101                                         |72                        |339                                            |913                                                  |308                                                  |39                                         |74    |4          |3         |0                          |0                             |8759  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -332,11 +332,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |yes  |no   |don't know |no answer |not available in this year |Total |
-#'  |:-----|:---|:----|:----|:----------|:---------|:--------------------------|:-----|
-#'  |2016  |-   |831  |1998 |11         |27        |-                          |2867  |
-#'  |2018  |-   |688  |1636 |18         |6         |-                          |2348  |
-#'  |Total |0   |1519 |3634 |29         |33        |0                          |5215  |
+#'  |year  |iap |yes  |no   |don't know |no answer |not available in this year |not available in this release |Total |
+#'  |:-----|:---|:----|:----|:----------|:---------|:--------------------------|:-----------------------------|:-----|
+#'  |2016  |-   |831  |1998 |11         |27        |-                          |-                             |2867  |
+#'  |2018  |-   |688  |1636 |18         |6         |-                          |-                             |2348  |
+#'  |Total |0   |1519 |3634 |29         |33        |0                          |0                             |5215  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -372,12 +372,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |high |low  |don't know |no answer |not available in this year |Total |
-#'  |:-----|:----|:----|:----|:----------|:---------|:--------------------------|:-----|
-#'  |2016  |-    |2174 |661  |5          |27        |-                          |2867  |
-#'  |2018  |-    |1752 |576  |14         |6         |-                          |2348  |
-#'  |2022  |2077 |952  |515  |-          |-         |-                          |3544  |
-#'  |Total |2077 |4878 |1752 |19         |33        |0                          |8759  |
+#'  |year  |iap  |high |low  |don't know |no answer |not available in this year |not available in this release |Total |
+#'  |:-----|:----|:----|:----|:----------|:---------|:--------------------------|:-----------------------------|:-----|
+#'  |2016  |-    |2174 |661  |5          |27        |-                          |-                             |2867  |
+#'  |2018  |-    |1752 |576  |14         |6         |-                          |-                             |2348  |
+#'  |2022  |2077 |952  |515  |-          |-         |-                          |-                             |3544  |
+#'  |Total |2077 |4878 |1752 |19         |33        |0                          |0                             |8759  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -414,12 +414,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |higher than average |average |lower than average |don't know |no answer |not available in this year |Total |
-#'  |:-----|:----|:-------------------|:-------|:------------------|:----------|:---------|:--------------------------|:-----|
-#'  |2016  |-    |518                 |1618    |702                |2          |27        |-                          |2867  |
-#'  |2018  |-    |385                 |1348    |607                |2          |6         |-                          |2348  |
-#'  |2022  |2077 |269                 |857     |341                |-          |-         |-                          |3544  |
-#'  |Total |2077 |1172                |3823    |1650               |4          |33        |0                          |8759  |
+#'  |year  |iap  |higher than average |average |lower than average |don't know |no answer |not available in this year |not available in this release |Total |
+#'  |:-----|:----|:-------------------|:-------|:------------------|:----------|:---------|:--------------------------|:-----------------------------|:-----|
+#'  |2016  |-    |518                 |1618    |702                |2          |27        |-                          |-                             |2867  |
+#'  |2018  |-    |385                 |1348    |607                |2          |6         |-                          |-                             |2348  |
+#'  |2022  |2077 |269                 |857     |341                |-          |-         |-                          |-                             |3544  |
+#'  |Total |2077 |1172                |3823    |1650               |4          |33        |0                          |0                             |8759  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

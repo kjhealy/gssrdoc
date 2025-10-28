@@ -33,11 +33,11 @@ Question When you do your job well, are you likely to get a bonus or pay increas
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2815/vshow}{GSS Data Explorer page for \code{wkbonus}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab maybe \tab no \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 969 \tab 431 \tab 251 \tab 1082 \tab 12 \tab 20 \tab 2765 \cr
-   2006 \tab 2776 \tab 400 \tab 288 \tab 996 \tab 26 \tab 24 \tab 4510 \cr
-   Total \tab 3745 \tab 831 \tab 539 \tab 2078 \tab 38 \tab 44 \tab 7275 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab maybe \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 969 \tab 431 \tab 251 \tab 1082 \tab 12 \tab 20 \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 400 \tab 288 \tab 996 \tab 26 \tab 24 \tab - \tab 4510 \cr
+   Total \tab 3745 \tab 831 \tab 539 \tab 2078 \tab 38 \tab 44 \tab 0 \tab 7275 \cr
 }
 }
 

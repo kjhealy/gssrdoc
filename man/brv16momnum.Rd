@@ -33,23 +33,23 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7931/vshow}{GSS Data Explorer page for \code{brv16momnum}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab 0 \tab 1 \tab skipped on web \tab Total \cr
-   2022 \tab 3441 \tab 49 \tab 20 \tab 34 \tab 3544 \cr
-   Total \tab 3441 \tab 49 \tab 20 \tab 34 \tab 3544 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab not available in this year \tab 0 \tab 1 \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 49 \tab 20 \tab 3442 \tab 33 \tab 3544 \cr
+   Total \tab 0 \tab 49 \tab 20 \tab 3442 \tab 33 \tab 3544 \cr
 }
 }
 
 \seealso{
 Other GSS Next: 
 \code{\link{brv16dadnum}},
-\code{\link{brv16daunum}},
 \code{\link{brv16filnum}},
 \code{\link{brv16gmanum}},
-\code{\link{brv16gpanum}},
+\code{\link{brv16grand}},
 \code{\link{brv16milnum}},
+\code{\link{brv16oth}},
 \code{\link{brv16partnum}},
-\code{\link{brv16sonnum}},
+\code{\link{brv16sib}},
 \code{\link{brv16spnum}}
 }
 \concept{GSS Next}

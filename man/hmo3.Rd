@@ -36,10 +36,10 @@ C. They help to control costs.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2195/vshow}{GSS Data Explorer page for \code{hmo3}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly disagree \tab disagree \tab neither agree nor disagree \tab agree \tab strongly agree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 53 \tab 253 \tab 204 \tab 584 \tab 83 \tab 206 \tab 4 \tab 2832 \cr
-   Total \tab 1445 \tab 53 \tab 253 \tab 204 \tab 584 \tab 83 \tab 206 \tab 4 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly disagree \tab disagree \tab neither agree nor disagree \tab agree \tab strongly agree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 53 \tab 253 \tab 204 \tab 584 \tab 83 \tab 206 \tab 4 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 53 \tab 253 \tab 204 \tab 584 \tab 83 \tab 206 \tab 4 \tab 0 \tab 2832 \cr
 }
 }
 

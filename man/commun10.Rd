@@ -34,10 +34,10 @@ Question What about ten years ago, that is in 1972, which of these statements ca
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5489/vshow}{GSS Data Explorer page for \code{commun10}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab worst kind \tab bad, not worst \tab ok for some \tab good form \tab don't know \tab no answer \tab Total \cr
-   1982 \tab - \tab 1090 \tab 327 \tab 220 \tab 35 \tab 179 \tab 9 \tab 1860 \cr
-   Total \tab 0 \tab 1090 \tab 327 \tab 220 \tab 35 \tab 179 \tab 9 \tab 1860 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab worst kind \tab bad, not worst \tab ok for some \tab good form \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab - \tab 1090 \tab 327 \tab 220 \tab 35 \tab 179 \tab 9 \tab - \tab 1860 \cr
+   Total \tab 0 \tab 1090 \tab 327 \tab 220 \tab 35 \tab 179 \tab 9 \tab 0 \tab 1860 \cr
 }
 }
 

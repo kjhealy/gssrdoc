@@ -36,10 +36,10 @@ A. First listed child?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2651/vshow}{GSS Data Explorer page for \code{knowkid1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab almost all of the time \tab most of the time \tab about half of the time \tab some of the time \tab hardly any of the time \tab no answer \tab Total \cr
-   2000 \tab 2369 \tab 226 \tab 115 \tab 31 \tab 14 \tab 8 \tab 54 \tab 2817 \cr
-   Total \tab 2369 \tab 226 \tab 115 \tab 31 \tab 14 \tab 8 \tab 54 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab almost all of the time \tab most of the time \tab about half of the time \tab some of the time \tab hardly any of the time \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2369 \tab 226 \tab 115 \tab 31 \tab 14 \tab 8 \tab 54 \tab - \tab 2817 \cr
+   Total \tab 2369 \tab 226 \tab 115 \tab 31 \tab 14 \tab 8 \tab 54 \tab 0 \tab 2817 \cr
 }
 }
 

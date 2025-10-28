@@ -23,10 +23,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |never ends |no answer |Total |
-#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
-#'  |1998  |2325 |398 |21 |52         |36        |2832  |
-#'  |Total |2325 |398 |21 |52         |36        |2832  |
+#'  |year  |iap  |yes |no |never ends |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |2325 |398 |21 |52         |36        |-                          |2832  |
+#'  |Total |2325 |398 |21 |52         |36        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
@@ -65,10 +65,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a month or less |1-3 months |3-6 months |6 months-1 yr |over a year |no answer |Total |
-#'  |:-----|:----|:---------------|:----------|:----------|:-------------|:-----------|:---------|:-----|
-#'  |1998  |2377 |163             |74         |58         |47            |74          |39        |2832  |
-#'  |Total |2377 |163             |74         |58         |47            |74          |39        |2832  |
+#'  |year  |iap  |a month or less |1-3 months |3-6 months |6 months-1 yr |over a year |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:----------|:----------|:-------------|:-----------|:---------|:--------------------------|:-----|
+#'  |1998  |2377 |163             |74         |58         |47            |74          |39        |-                          |2832  |
+#'  |Total |2377 |163             |74         |58         |47            |74          |39        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
@@ -105,10 +105,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |35 hours or less |35 hours-70 hrs |over 70 hours |don't know |no answer |Total |
-#'  |:-----|:----|:----------------|:---------------|:-------------|:----------|:---------|:-----|
-#'  |1998  |2377 |85               |68              |241           |2          |59        |2832  |
-#'  |Total |2377 |85               |68              |241           |2          |59        |2832  |
+#'  |year  |iap  |35 hours or less |35 hours-70 hrs |over 70 hours |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------|:---------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |2377 |85               |68              |241           |2          |59        |-                          |2832  |
+#'  |Total |2377 |85               |68              |241           |2          |59        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
@@ -144,10 +144,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |1998  |1883 |861 |54 |34        |2832  |
-#'  |Total |1883 |861 |54 |34        |2832  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |1998  |1883 |861 |54 |34        |-                          |2832  |
+#'  |Total |1883 |861 |54 |34        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
@@ -184,10 +184,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |not yet/eventual |never ends |no answer |Total |
-#'  |:-----|:----|:---|:----------------|:----------|:---------|:-----|
-#'  |1998  |1937 |664 |29               |161        |41        |2832  |
-#'  |Total |1937 |664 |29               |161        |41        |2832  |
+#'  |year  |iap  |yes |not yet/eventual |never ends |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1937 |664 |29               |161        |41        |-                          |2832  |
+#'  |Total |1937 |664 |29               |161        |41        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
@@ -226,10 +226,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a month or less |month to three |3 months to 6 |6 months to year |over a year |don't know |no answer |Total |
-#'  |:-----|:----|:---------------|:--------------|:-------------|:----------------|:-----------|:----------|:---------|:-----|
-#'  |1998  |2098 |270             |86             |81            |59               |186         |1          |51        |2832  |
-#'  |Total |2098 |270             |86             |81            |59               |186         |1          |51        |2832  |
+#'  |year  |iap  |a month or less |month to three |3 months to 6 |6 months to year |over a year |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:--------------|:-------------|:----------------|:-----------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |2098 |270             |86             |81            |59               |186         |1          |51        |-                          |2832  |
+#'  |Total |2098 |270             |86             |81            |59               |186         |1          |51        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
@@ -265,10 +265,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |1998  |1455 |495 |854 |28        |2832  |
-#'  |Total |1455 |495 |854 |28        |2832  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |1998  |1455 |495 |854 |28        |-                          |2832  |
+#'  |Total |1455 |495 |854 |28        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
@@ -308,10 +308,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |less one year |one to 3 years |3 to 5 years |five - ten years |ten years/over |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:--------------|:------------|:----------------|:--------------|:----------|:---------|:-----|
-#'  |1998  |2309 |243           |122            |35           |46               |39             |1          |37        |2832  |
-#'  |Total |2309 |243           |122            |35           |46               |39             |1          |37        |2832  |
+#'  |year  |iap  |less one year |one to 3 years |3 to 5 years |five - ten years |ten years/over |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:--------------|:------------|:----------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |2309 |243           |122            |35           |46               |39             |1          |37        |-                          |2832  |
+#'  |Total |2309 |243           |122            |35           |46               |39             |1          |37        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
@@ -350,10 +350,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |one |two |three to five |six to ten |more than ten |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:-------------|:----------|:-------------|:----------|:---------|:-----|
-#'  |1998  |1455 |182 |211 |606           |223        |104           |2          |49        |2832  |
-#'  |Total |1455 |182 |211 |606           |223        |104           |2          |49        |2832  |
+#'  |year  |iap  |one |two |three to five |six to ten |more than ten |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:-------------|:----------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1455 |182 |211 |606           |223        |104           |2          |49        |-                          |2832  |
+#'  |Total |1455 |182 |211 |606           |223        |104           |2          |49        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs
@@ -394,10 +394,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |hourly wage |daily wage |weekly wage |monthly salary |annual salary |other pay rate |no answer |Total |
-#'  |:-----|:----|:-----------|:----------|:-----------|:--------------|:-------------|:--------------|:---------|:-----|
-#'  |1998  |1455 |650         |17         |124         |149            |225           |182            |30        |2832  |
-#'  |Total |1455 |650         |17         |124         |149            |225           |182            |30        |2832  |
+#'  |year  |iap  |hourly wage |daily wage |weekly wage |monthly salary |annual salary |other pay rate |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------|:----------|:-----------|:--------------|:-------------|:--------------|:---------|:--------------------------|:-----|
+#'  |1998  |1455 |650         |17         |124         |149            |225           |182            |30        |-                          |2832  |
+#'  |Total |1455 |650         |17         |124         |149            |225           |182            |30        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Jobs

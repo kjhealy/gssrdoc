@@ -35,10 +35,10 @@ Question (During the past 12 months, how often, if at all, have you used the int
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7812/vshow}{GSS Data Explorer page for \code{hlthwbvax}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab never \tab seldom \tab sometimes \tab often \tab very often \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2406 \tab 270 \tab 256 \tab 389 \tab 133 \tab 49 \tab 39 \tab 1 \tab 1 \tab 3544 \cr
-   Total \tab 2406 \tab 270 \tab 256 \tab 389 \tab 133 \tab 49 \tab 39 \tab 1 \tab 1 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab never \tab seldom \tab sometimes \tab often \tab very often \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 270 \tab 256 \tab 389 \tab 133 \tab 49 \tab 39 \tab 2406 \tab 1 \tab 1 \tab 3544 \cr
+   Total \tab 0 \tab 270 \tab 256 \tab 389 \tab 133 \tab 49 \tab 39 \tab 2406 \tab 1 \tab 1 \tab 3544 \cr
 }
 }
 

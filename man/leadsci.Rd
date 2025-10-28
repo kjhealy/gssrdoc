@@ -35,10 +35,10 @@ F. Government decision makers should pay attention only to those scientific theo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3321/vshow}{GSS Data Explorer page for \code{leadsci}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 122 \tab 734 \tab 784 \tab 110 \tab 110 \tab 4 \tab 4510 \cr
-   Total \tab 2646 \tab 122 \tab 734 \tab 784 \tab 110 \tab 110 \tab 4 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 122 \tab 734 \tab 784 \tab 110 \tab 110 \tab 4 \tab - \tab 4510 \cr
+   Total \tab 2646 \tab 122 \tab 734 \tab 784 \tab 110 \tab 110 \tab 4 \tab 0 \tab 4510 \cr
 }
 }
 

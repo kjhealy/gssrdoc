@@ -33,10 +33,10 @@ Question B. Sometimes people are asked to make great sacrifices for others in th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1381/vshow}{GSS Data Explorer page for \code{obtohelp}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab it is oblgation \tab only if they want to \tab other \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 890 \tab 626 \tab 57 \tab 24 \tab 9 \tab 1606 \cr
-   Total \tab 0 \tab 890 \tab 626 \tab 57 \tab 24 \tab 9 \tab 1606 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab it is oblgation \tab only if they want to \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 890 \tab 626 \tab 57 \tab 24 \tab 9 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 890 \tab 626 \tab 57 \tab 24 \tab 9 \tab 0 \tab 1606 \cr
 }
 }
 

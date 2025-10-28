@@ -36,11 +36,11 @@ D. Occupying a government office and stopping work there for several days.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3985/vshow}{GSS Data Explorer page for \code{protest4}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 19 \tab 30 \tab 162 \tab 394 \tab 44 \tab 28 \tab 1534 \cr
-   1990 \tab 155 \tab 43 \tab 98 \tab 326 \tab 643 \tab 81 \tab 26 \tab 1372 \cr
-   Total \tab 1012 \tab 62 \tab 128 \tab 488 \tab 1037 \tab 125 \tab 54 \tab 2906 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 19 \tab 30 \tab 162 \tab 394 \tab 44 \tab 28 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 43 \tab 98 \tab 326 \tab 643 \tab 81 \tab 26 \tab - \tab 1372 \cr
+   Total \tab 1012 \tab 62 \tab 128 \tab 488 \tab 1037 \tab 125 \tab 54 \tab 0 \tab 2906 \cr
 }
 }
 

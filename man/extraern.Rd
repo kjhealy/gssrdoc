@@ -37,10 +37,10 @@ From my additional job(s), I earned...
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6338/vshow}{GSS Data Explorer page for \code{extraern}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab much less than from main job \tab less than from main job \tab about the same as from main job \tab more than from main job \tab much more than from main job \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2567 \tab 152 \tab 88 \tab 24 \tab 13 \tab 11 \tab 4 \tab 8 \tab 2867 \cr
-   Total \tab 2567 \tab 152 \tab 88 \tab 24 \tab 13 \tab 11 \tab 4 \tab 8 \tab 2867 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much less than from main job \tab less than from main job \tab about the same as from main job \tab more than from main job \tab much more than from main job \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2567 \tab 152 \tab 88 \tab 24 \tab 13 \tab 11 \tab 4 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 2567 \tab 152 \tab 88 \tab 24 \tab 13 \tab 11 \tab 4 \tab 8 \tab 0 \tab 2867 \cr
 }
 }
 

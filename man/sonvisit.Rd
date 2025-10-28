@@ -38,10 +38,10 @@ A. How often do you see or visit with your son?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4148/vshow}{GSS Data Explorer page for \code{sonvisit}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab lives in hshld \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab Total \cr
-   1986 \tab 973 \tab 103 \tab 59 \tab 57 \tab 70 \tab 65 \tab 79 \tab 59 \tab 5 \tab 1470 \cr
-   Total \tab 973 \tab 103 \tab 59 \tab 57 \tab 70 \tab 65 \tab 79 \tab 59 \tab 5 \tab 1470 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab lives in hshld \tab daily \tab several x week \tab once a week \tab once a month \tab several x year \tab less often \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 973 \tab 103 \tab 59 \tab 57 \tab 70 \tab 65 \tab 79 \tab 59 \tab 5 \tab - \tab 1470 \cr
+   Total \tab 973 \tab 103 \tab 59 \tab 57 \tab 70 \tab 65 \tab 79 \tab 59 \tab 5 \tab 0 \tab 1470 \cr
 }
 }
 

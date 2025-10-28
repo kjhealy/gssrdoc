@@ -35,10 +35,10 @@ Question People usually get a better price for goods or services when they get t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1863/vshow}{GSS Data Explorer page for \code{frnddeal}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 240 \tab 562 \tab 287 \tab 260 \tab 66 \tab 25 \tab 4 \tab 2904 \cr
-   Total \tab 1460 \tab 240 \tab 562 \tab 287 \tab 260 \tab 66 \tab 25 \tab 4 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1460 \tab 240 \tab 562 \tab 287 \tab 260 \tab 66 \tab 25 \tab 4 \tab - \tab 2904 \cr
+   Total \tab 1460 \tab 240 \tab 562 \tab 287 \tab 260 \tab 66 \tab 25 \tab 4 \tab 0 \tab 2904 \cr
 }
 }
 

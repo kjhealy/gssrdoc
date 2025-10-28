@@ -36,10 +36,10 @@ A. Computer checks of personal financial records
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5249/vshow}{GSS Data Explorer page for \code{compfin}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 185 \tab 411 \tab 286 \tab 386 \tab 98 \tab 37 \tab 16 \tab 2817 \cr
-   Total \tab 1398 \tab 185 \tab 411 \tab 286 \tab 386 \tab 98 \tab 37 \tab 16 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 185 \tab 411 \tab 286 \tab 386 \tab 98 \tab 37 \tab 16 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 185 \tab 411 \tab 286 \tab 386 \tab 98 \tab 37 \tab 16 \tab 0 \tab 2817 \cr
 }
 }
 

@@ -34,10 +34,10 @@ C. Shopping, paying bills and other household management?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2571/vshow}{GSS Data Explorer page for \code{ecomminw}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 15 \tab 20 \tab 30 \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2486 \tab 268 \tab 1 \tab 4 \tab 1 \tab 3 \tab 1 \tab 53 \tab 2817 \cr
-   Total \tab 2486 \tab 268 \tab 1 \tab 4 \tab 1 \tab 3 \tab 1 \tab 53 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 15 \tab 20 \tab 30 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2486 \tab 268 \tab 1 \tab 4 \tab 1 \tab 3 \tab 1 \tab 53 \tab - \tab 2817 \cr
+   Total \tab 2486 \tab 268 \tab 1 \tab 4 \tab 1 \tab 3 \tab 1 \tab 53 \tab 0 \tab 2817 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question J. Does the school fraternity or sorority meet in this area?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3263/vshow}{GSS Data Explorer page for \code{mtgreek1}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2004 \tab 2746 \tab 31 \tab 28 \tab 7 \tab 2812 \cr
-   Total \tab 2746 \tab 31 \tab 28 \tab 7 \tab 2812 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2746 \tab 31 \tab 28 \tab 7 \tab - \tab 2812 \cr
+   Total \tab 2746 \tab 31 \tab 28 \tab 7 \tab 0 \tab 2812 \cr
 }
 }
 

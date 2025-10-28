@@ -36,10 +36,10 @@ D. How many are named Brenda?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3575/vshow}{GSS Data Explorer page for \code{acqbrnda}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3139 \tab 573 \tab 454 \tab 287 \tab 20 \tab 9 \tab 6 \tab 22 \tab 4510 \cr
-   Total \tab 3139 \tab 573 \tab 454 \tab 287 \tab 20 \tab 9 \tab 6 \tab 22 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3139 \tab 573 \tab 454 \tab 287 \tab 20 \tab 9 \tab 6 \tab 22 \tab - \tab 4510 \cr
+   Total \tab 3139 \tab 573 \tab 454 \tab 287 \tab 20 \tab 9 \tab 6 \tab 22 \tab 0 \tab 4510 \cr
 }
 }
 

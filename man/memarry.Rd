@@ -34,10 +34,10 @@ Question If you were advising a young man, which of the following ways of life w
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4363/vshow}{GSS Data Explorer page for \code{memarry}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab live alone \tab live with posslq \tab cohabitate, then marry \tab marry \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 143 \tab 40 \tab 369 \tab 636 \tab 199 \tab 27 \tab 1481 \cr
-   Total \tab 67 \tab 143 \tab 40 \tab 369 \tab 636 \tab 199 \tab 27 \tab 1481 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab live alone \tab live with posslq \tab cohabitate, then marry \tab marry \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 143 \tab 40 \tab 369 \tab 636 \tab 199 \tab 27 \tab - \tab 1481 \cr
+   Total \tab 67 \tab 143 \tab 40 \tab 369 \tab 636 \tab 199 \tab 27 \tab 0 \tab 1481 \cr
 }
 }
 

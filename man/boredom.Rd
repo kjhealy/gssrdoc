@@ -36,10 +36,10 @@ D. Are you bored at work?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4553/vshow}{GSS Data Explorer page for \code{boredom}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab always \tab often \tab sometimes \tab hardly ever \tab never \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 12 \tab 57 \tab 294 \tab 283 \tab 224 \tab 2 \tab 26 \tab 1537 \cr
-   Total \tab 639 \tab 12 \tab 57 \tab 294 \tab 283 \tab 224 \tab 2 \tab 26 \tab 1537 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab hardly ever \tab never \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 12 \tab 57 \tab 294 \tab 283 \tab 224 \tab 2 \tab 26 \tab - \tab 1537 \cr
+   Total \tab 639 \tab 12 \tab 57 \tab 294 \tab 283 \tab 224 \tab 2 \tab 26 \tab 0 \tab 1537 \cr
 }
 }
 

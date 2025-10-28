@@ -33,10 +33,10 @@ B. Do you know any of these Jews from the community where you now live?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2346/vshow}{GSS Data Explorer page for \code{jewscom}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2015 \tab 334 \tab 381 \tab 6 \tab 81 \tab 2817 \cr
-   Total \tab 2015 \tab 334 \tab 381 \tab 6 \tab 81 \tab 2817 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2015 \tab 334 \tab 381 \tab 6 \tab 81 \tab - \tab 2817 \cr
+   Total \tab 2015 \tab 334 \tab 381 \tab 6 \tab 81 \tab 0 \tab 2817 \cr
 }
 }
 

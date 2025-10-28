@@ -33,10 +33,10 @@ B. Immediate Family.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2060/vshow}{GSS Data Explorer page for \code{relmhsp2}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab imm. fam \tab not imm. fam \tab no answer \tab Total \cr
-   1996 \tab 2531 \tab 92 \tab 272 \tab 9 \tab 2904 \cr
-   Total \tab 2531 \tab 92 \tab 272 \tab 9 \tab 2904 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab imm. fam \tab not imm. fam \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2531 \tab 92 \tab 272 \tab 9 \tab - \tab 2904 \cr
+   Total \tab 2531 \tab 92 \tab 272 \tab 9 \tab 0 \tab 2904 \cr
 }
 }
 

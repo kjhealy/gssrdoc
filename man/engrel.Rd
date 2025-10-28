@@ -34,10 +34,10 @@ Question H. Engineers are not likely to be very religious people. Do you strongl
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3533/vshow}{GSS Data Explorer page for \code{engrel}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1489 \tab 3 \tab 77 \tab 271 \tab 31 \tab 97 \tab 6 \tab 1974 \cr
-   Total \tab 1489 \tab 3 \tab 77 \tab 271 \tab 31 \tab 97 \tab 6 \tab 1974 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1489 \tab 3 \tab 77 \tab 271 \tab 31 \tab 97 \tab 6 \tab - \tab 1974 \cr
+   Total \tab 1489 \tab 3 \tab 77 \tab 271 \tab 31 \tab 97 \tab 6 \tab 0 \tab 1974 \cr
 }
 }
 

@@ -36,10 +36,10 @@ C. American schools should make much more effort to teach foreign languages prop
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4852/vshow}{GSS Data Explorer page for \code{forlang}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 236 \tab 600 \tab 347 \tab 119 \tab 15 \tab 29 \tab 21 \tab 2904 \cr
-   Total \tab 1537 \tab 236 \tab 600 \tab 347 \tab 119 \tab 15 \tab 29 \tab 21 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab disagree strongly \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1537 \tab 236 \tab 600 \tab 347 \tab 119 \tab 15 \tab 29 \tab 21 \tab - \tab 2904 \cr
+   Total \tab 1537 \tab 236 \tab 600 \tab 347 \tab 119 \tab 15 \tab 29 \tab 21 \tab 0 \tab 2904 \cr
 }
 }
 

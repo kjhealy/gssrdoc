@@ -39,11 +39,11 @@ ASK FOR EACH NAME REPEATING CATEGORIES AS NECESSARY.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/951/vshow}{GSS Data Explorer page for \code{relig2}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab don't know \tab no answer \tab Total \cr
-   1985 \tab 364 \tab 657 \tab 299 \tab 32 \tab 68 \tab 25 \tab 83 \tab 6 \tab 1534 \cr
-   2004 \tab 1977 \tab 361 \tab 190 \tab 25 \tab 76 \tab 67 \tab 67 \tab 49 \tab 2812 \cr
-   Total \tab 2341 \tab 1018 \tab 489 \tab 57 \tab 144 \tab 92 \tab 150 \tab 55 \tab 4346 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 364 \tab 657 \tab 299 \tab 32 \tab 68 \tab 25 \tab 83 \tab 6 \tab - \tab 1534 \cr
+   2004 \tab 1977 \tab 361 \tab 190 \tab 25 \tab 76 \tab 67 \tab 67 \tab 49 \tab - \tab 2812 \cr
+   Total \tab 2341 \tab 1018 \tab 489 \tab 57 \tab 144 \tab 92 \tab 150 \tab 55 \tab 0 \tab 4346 \cr
 }
 }
 

@@ -39,11 +39,11 @@ D. A sports, leisure or cultural group
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4931/vshow}{GSS Data Explorer page for \code{grpsprts}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab belong and actively participate \tab belong but dont participate \tab used to belong \tab never belonged \tab no answer \tab can't choose \tab Total \cr
-   2004 \tab 1340 \tab 338 \tab 114 \tab 379 \tab 637 \tab 4 \tab - \tab 2812 \cr
-   2014 \tab 1274 \tab 267 \tab 99 \tab 361 \tab 518 \tab 5 \tab 14 \tab 2538 \cr
-   Total \tab 2614 \tab 605 \tab 213 \tab 740 \tab 1155 \tab 9 \tab 14 \tab 5350 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab belong and actively participate \tab belong but dont participate \tab used to belong \tab never belonged \tab no answer \tab can't choose \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 338 \tab 114 \tab 379 \tab 637 \tab 4 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 267 \tab 99 \tab 361 \tab 518 \tab 5 \tab 14 \tab - \tab 2538 \cr
+   Total \tab 2614 \tab 605 \tab 213 \tab 740 \tab 1155 \tab 9 \tab 14 \tab 0 \tab 5350 \cr
 }
 }
 

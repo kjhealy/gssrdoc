@@ -35,11 +35,11 @@ Question H. In general, do you think that a rise in the world's temperature caus
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4810/vshow}{GSS Data Explorer page for \code{tempgen1}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2010 \tab 614 \tab 286 \tab 364 \tab 416 \tab 181 \tab 78 \tab 100 \tab 5 \tab - \tab 2044 \cr
-   2021 \tab 2003 \tab 528 \tab 501 \tab 493 \tab 166 \tab 46 \tab 98 \tab 187 \tab 10 \tab 4032 \cr
-   Total \tab 2617 \tab 814 \tab 865 \tab 909 \tab 347 \tab 124 \tab 198 \tab 192 \tab 10 \tab 6076 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab extremely dangerous \tab very dangerous \tab somewhat dangerous \tab not very dangerous \tab not dangerous at all \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2010 \tab 614 \tab 286 \tab 364 \tab 416 \tab 181 \tab 78 \tab 100 \tab 5 \tab - \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 528 \tab 501 \tab 493 \tab 166 \tab 46 \tab 98 \tab 187 \tab 10 \tab - \tab 4032 \cr
+   Total \tab 2617 \tab 814 \tab 865 \tab 909 \tab 347 \tab 124 \tab 198 \tab 192 \tab 10 \tab 0 \tab 6076 \cr
 }
 }
 

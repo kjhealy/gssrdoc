@@ -34,10 +34,10 @@ No..........(GO TO  TVRELIG)........2
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1073/vshow}{GSS Data Explorer page for \code{churhmem}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   1988 \tab - \tab 904 \tab 577 \tab 1481 \cr
-   Total \tab 0 \tab 904 \tab 577 \tab 1481 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 904 \tab 577 \tab - \tab 1481 \cr
+   Total \tab 0 \tab 904 \tab 577 \tab 0 \tab 1481 \cr
 }
 }
 

@@ -32,10 +32,10 @@ D. Felt happy?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1709/vshow}{GSS Data Explorer page for \code{hapfeel}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 43 \tab 58 \tab 94 \tab 100 \tab 155 \tab 179 \tab 172 \tab 650 \tab 5 \tab 4 \tab 2904 \cr
-   Total \tab 1444 \tab 43 \tab 58 \tab 94 \tab 100 \tab 155 \tab 179 \tab 172 \tab 650 \tab 5 \tab 4 \tab 2904 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 43 \tab 58 \tab 94 \tab 100 \tab 155 \tab 179 \tab 172 \tab 650 \tab 5 \tab 4 \tab - \tab 2904 \cr
+   Total \tab 1444 \tab 43 \tab 58 \tab 94 \tab 100 \tab 155 \tab 179 \tab 172 \tab 650 \tab 5 \tab 4 \tab 0 \tab 2904 \cr
 }
 }
 

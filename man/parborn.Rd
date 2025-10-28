@@ -41,7 +41,7 @@ Question Were both your parents born in this country? (IF THE RESPONDENT IS UNCE
 For further details see the \href{https://gssdataexplorer.norc.org/variables/95/vshow}{GSS Data Explorer page for \code{parborn}}.
 
 Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab both born in the u.s. \tab mother yes, father no \tab mother no, father yes \tab mother yes, father don't know \tab mother don't know, father don't know \tab neither born in the u.s. \tab no answer \tab mother no, father don't know \tab mother don't know, father no \tab mother don't know, father yes \tab not available in this year \tab Total \cr
+   year \tab iap \tab both born in the u.s. \tab mother yes, father no \tab mother no, father yes \tab mother yes, father don't know \tab mother don't know, father don't know \tab neither born in the u.s. \tab no answer \tab mother no, father don't know \tab mother don't know, father no \tab mother don't know, father yes \tab skipped on web \tab Total \cr
    1977 \tab - \tab 1196 \tab 65 \tab 35 \tab 1 \tab 4 \tab 228 \tab 1 \tab - \tab - \tab - \tab - \tab 1530 \cr
    1978 \tab - \tab 1252 \tab 58 \tab 36 \tab 6 \tab 2 \tab 174 \tab 3 \tab 1 \tab - \tab - \tab - \tab 1532 \cr
    1980 \tab - \tab 1178 \tab 58 \tab 30 \tab 3 \tab 3 \tab 193 \tab 2 \tab - \tab 1 \tab - \tab - \tab 1468 \cr
@@ -69,9 +69,10 @@ Counts by year:\tabular{llllllllllllll}{
    2014 \tab - \tab 1950 \tab 69 \tab 66 \tab 6 \tab - \tab 435 \tab 4 \tab 2 \tab 3 \tab 3 \tab - \tab 2538 \cr
    2016 \tab - \tab 2238 \tab 92 \tab 84 \tab 5 \tab 2 \tab 429 \tab 13 \tab 2 \tab 1 \tab 1 \tab - \tab 2867 \cr
    2018 \tab - \tab 1823 \tab 72 \tab 62 \tab 7 \tab 4 \tab 371 \tab 6 \tab 3 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 5062 \tab 45148 \tab 1745 \tab 1259 \tab 110 \tab 53 \tab 7116 \tab 210 \tab 36 \tab 16 \tab 13 \tab 4032 \tab 64800 \cr
+   2021 \tab - \tab 3157 \tab 121 \tab 99 \tab 34 \tab 26 \tab 522 \tab 18 \tab 6 \tab 6 \tab 13 \tab 30 \tab 4032 \cr
+   2022 \tab - \tab 2688 \tab 120 \tab 89 \tab 33 \tab 16 \tab 575 \tab 7 \tab 5 \tab 1 \tab 10 \tab - \tab 3544 \cr
+   2024 \tab - \tab 2521 \tab 93 \tab 96 \tab 29 \tab 20 \tab 521 \tab 3 \tab 3 \tab 3 \tab 11 \tab 9 \tab 3309 \cr
+   Total \tab 1518 \tab 53514 \tab 2079 \tab 1543 \tab 206 \tab 115 \tab 8734 \tab 238 \tab 50 \tab 26 \tab 47 \tab 39 \tab 68109 \cr
 }
 }
 

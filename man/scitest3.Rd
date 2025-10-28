@@ -35,11 +35,11 @@ C. Astrology - the study of star signs - has some scientific truth.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4743/vshow}{GSS Data Explorer page for \code{scitest3}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 138 \tab 572 \tab 320 \tab 317 \tab 128 \tab 82 \tab 1606 \cr
-   1994 \tab 1606 \tab 119 \tab 532 \tab 326 \tab 268 \tab 102 \tab 39 \tab 2992 \cr
-   Total \tab 1655 \tab 257 \tab 1104 \tab 646 \tab 585 \tab 230 \tab 121 \tab 4598 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 138 \tab 572 \tab 320 \tab 317 \tab 128 \tab 82 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 119 \tab 532 \tab 326 \tab 268 \tab 102 \tab 39 \tab - \tab 2992 \cr
+   Total \tab 1655 \tab 257 \tab 1104 \tab 646 \tab 585 \tab 230 \tab 121 \tab 0 \tab 4598 \cr
 }
 }
 

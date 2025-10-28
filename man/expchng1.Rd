@@ -34,10 +34,10 @@ A. First mention
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3068/vshow}{GSS Data Explorer page for \code{expchng1}}.
 
-Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllll}{
-   year \tab iap \tab 1 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 3 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 4 \tab 40 \tab 41 \tab 44 \tab 48 \tab 49 \tab 5 \tab 52 \tab 54 \tab 55 \tab 56 \tab no mention \tab nothing special happened \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2163 \tab 5 \tab 3 \tab 6 \tab 1 \tab 2 \tab 2 \tab 6 \tab 12 \tab 4 \tab 1 \tab 2 \tab 3 \tab 25 \tab 3 \tab 8 \tab 2 \tab 2 \tab 3 \tab 1 \tab 2 \tab 5 \tab 2 \tab 2 \tab 2 \tab 6 \tab 8 \tab 2 \tab 1 \tab 1 \tab 1 \tab 6 \tab 2 \tab 1 \tab 1 \tab 3 \tab 469 \tab 5 \tab 3 \tab 36 \tab 2812 \cr
-   Total \tab 2163 \tab 5 \tab 3 \tab 6 \tab 1 \tab 2 \tab 2 \tab 6 \tab 12 \tab 4 \tab 1 \tab 2 \tab 3 \tab 25 \tab 3 \tab 8 \tab 2 \tab 2 \tab 3 \tab 1 \tab 2 \tab 5 \tab 2 \tab 2 \tab 2 \tab 6 \tab 8 \tab 2 \tab 1 \tab 1 \tab 1 \tab 6 \tab 2 \tab 1 \tab 1 \tab 3 \tab 469 \tab 5 \tab 3 \tab 36 \tab 2812 \cr
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 1 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 2 \tab 20 \tab 21 \tab 22 \tab 23 \tab 24 \tab 25 \tab 26 \tab 27 \tab 28 \tab 29 \tab 3 \tab 30 \tab 31 \tab 32 \tab 33 \tab 34 \tab 35 \tab 4 \tab 40 \tab 41 \tab 44 \tab 48 \tab 49 \tab 5 \tab 52 \tab 54 \tab 55 \tab 56 \tab no mention \tab nothing special happened \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2163 \tab 5 \tab 3 \tab 6 \tab 1 \tab 2 \tab 2 \tab 6 \tab 12 \tab 4 \tab 1 \tab 2 \tab 3 \tab 25 \tab 3 \tab 8 \tab 2 \tab 2 \tab 3 \tab 1 \tab 2 \tab 5 \tab 2 \tab 2 \tab 2 \tab 6 \tab 8 \tab 2 \tab 1 \tab 1 \tab 1 \tab 6 \tab 2 \tab 1 \tab 1 \tab 3 \tab 469 \tab 5 \tab 3 \tab 36 \tab - \tab 2812 \cr
+   Total \tab 2163 \tab 5 \tab 3 \tab 6 \tab 1 \tab 2 \tab 2 \tab 6 \tab 12 \tab 4 \tab 1 \tab 2 \tab 3 \tab 25 \tab 3 \tab 8 \tab 2 \tab 2 \tab 3 \tab 1 \tab 2 \tab 5 \tab 2 \tab 2 \tab 2 \tab 6 \tab 8 \tab 2 \tab 1 \tab 1 \tab 1 \tab 6 \tab 2 \tab 1 \tab 1 \tab 3 \tab 469 \tab 5 \tab 3 \tab 36 \tab 0 \tab 2812 \cr
 }
 }
 

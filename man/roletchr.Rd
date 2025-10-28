@@ -35,10 +35,10 @@ Question Many adults play roles in the lives of children. Please rate the follow
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5106/vshow}{GSS Data Explorer page for \code{roletchr}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very good \tab good \tab fairly good \tab fairly bad \tab very bad \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 218 \tab 623 \tab 435 \tab 46 \tab 4 \tab 35 \tab 11 \tab 1372 \cr
-   Total \tab 0 \tab 218 \tab 623 \tab 435 \tab 46 \tab 4 \tab 35 \tab 11 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very good \tab good \tab fairly good \tab fairly bad \tab very bad \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 218 \tab 623 \tab 435 \tab 46 \tab 4 \tab 35 \tab 11 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 218 \tab 623 \tab 435 \tab 46 \tab 4 \tab 35 \tab 11 \tab 0 \tab 1372 \cr
 }
 }
 

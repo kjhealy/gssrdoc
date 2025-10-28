@@ -1,43 +1,3 @@
-#'  Abortion if woman wants for any reason (grid on web)
-#' 
-#'  abanyg
-#' 
-#' Question (Pleae indicate whether or not you think it should be possible for a pregnant woman to obtain a legal abortion . . .) If the woman wants it for any reason?
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` yes
-#'   * `[2]` no
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years            |
-#'  |:-------|:----------------|
-#'  |A/C     |2021, 2022, 2024 |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `abanyg`](https://gssdataexplorer.norc.org/variables/7624/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |yes  |no  |don't know |no answer |skipped on web |Total |
-#'  |:-----|:----|:----|:---|:----------|:---------|:--------------|:-----|
-#'  |2021  |2714 |779  |521 |4          |1         |13             |4032  |
-#'  |2022  |2380 |704  |423 |29         |5         |3              |3544  |
-#'  |Total |5094 |1483 |944 |33         |6         |16             |7576  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name abanyg
-NULL
-
-
 #'  Fileversion
 #' 
 #'  fileversion
@@ -56,9 +16,9 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |7222.21 |Total |
-#'  |:-----|:-------|:-----|
-#'  |Total |0       |0     |
+#'  |year  |7224.2 |Total |
+#'  |:-----|:------|:-----|
+#'  |Total |0      |0     |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -195,140 +155,18 @@ NULL
 NULL
 
 
-#'  How would you classify the place where father (or oldest same-sex parent) worked? Was this mainly...?
+#'  Spouse self-employed, with employees, or work for someone else
 #' 
-#'  whatpa2
+#'  spwrkslf2
 #' 
-#' Question How would you classify the place where your father worked? Was this mainly….?
+#' Question (Did/Does) your (spouse/partner) work in their own family business or farm?
 #' 
 #' 
 #' @section Values: 
 #'
-#'   * `[1]` manufacturing
-#'   * `[2]` wholesale trade
-#'   * `[3]` retail trade
-#'   * `[4]` other (agriculture, construction, service, government, etc.)
+#'   * `[1]` yes, employees
+#'   * `[2]` no, no employees
 #'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years      |
-#'  |:-------|:----------|
-#'  |A/B/C   |2022, 2024 |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `whatpa2`](https://gssdataexplorer.norc.org/variables/7744/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |NA  |1   |2   |3   |4    |5   |Total |
-#'  |:-----|:---|:---|:---|:---|:----|:---|:-----|
-#'  |2022  |597 |559 |103 |251 |1796 |238 |3544  |
-#'  |Total |597 |559 |103 |251 |1796 |238 |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name whatpa2
-NULL
-
-
-#'  How would you classify the place where mother (or youngest same-sex parent) worked? Was this mainly...?
-#' 
-#'  whatma2
-#' 
-#' Question How would you classify the place where your mother worked? Was this mainly….?
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` manufacturing
-#'   * `[2]` wholesale trade
-#'   * `[3]` retail trade
-#'   * `[4]` other (agriculture, construction, service, government, etc.)
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years      |
-#'  |:-------|:----------|
-#'  |A/B/C   |2022, 2024 |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `whatma2`](https://gssdataexplorer.norc.org/variables/7745/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap |manufacturing |wholesale trade |retail trade |other (agriculture, construction, service, government, etc.) |5   |no answer |skipped on web |Total |
-#'  |:-----|:---|:-------------|:---------------|:------------|:------------------------------------------------------------|:---|:---------|:--------------|:-----|
-#'  |2022  |934 |276           |44              |402          |1718                                                         |162 |2         |6              |3544  |
-#'  |Total |934 |276           |44              |402          |1718                                                         |162 |2         |6              |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name whatma2
-NULL
-
-
-#'  How would you classify the place where you (#whatslf2fill)? Was this mainly...?
-#' 
-#'  whatslf2
-#' 
-#' Question How would you classify the place where you (work/worked)? Was this mainly...?
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` manufacturing
-#'   * `[2]` wholesale trade
-#'   * `[3]` retail trade
-#'   * `[4]` other (agriculture, construction, service, government, etc.)
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years      |
-#'  |:-------|:----------|
-#'  |A/B/C   |2022, 2024 |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `whatslf2`](https://gssdataexplorer.norc.org/variables/7746/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |manufacturing |wholesale trade |retail trade |other (agriculture, construction, service, government, etc.) |don't know |no answer |skipped on web |Total |
-#'  |:-----|:----|:-------------|:---------------|:------------|:------------------------------------------------------------|:----------|:---------|:--------------|:-----|
-#'  |2022  |1326 |228           |62              |283          |1612                                                         |16         |12        |5              |3544  |
-#'  |Total |1326 |228           |62              |283          |1612                                                         |16         |12        |5              |3544  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name whatslf2
-NULL
-
-
-#'  (#Selfemsfill)
-#' 
-#'  selfems
-#' 
-#' Question  
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[Empty]` No applicable value labels
-#'   * `[NA(d)]`NA
 #'
 #' @section Question Years and Ballots: 
 #'
@@ -337,14 +175,14 @@ NULL
 #'  |A/B/C   |2022  |
 #' 
 #' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `selfems`](https://gssdataexplorer.norc.org/variables/7747/vshow).
+#' For further details see the [GSS Data Explorer page for `spwrkslf2`](https://gssdataexplorer.norc.org/variables/7749/vshow).
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |Total |
-#'  |:-----|:----|:---|:---|:-----|
-#'  |2022  |3150 |116 |278 |3544  |
-#'  |Total |3150 |116 |278 |3544  |
+#'  |year  |not available in this year |yes, employees |no, no employees |don't know |iap  |Total |
+#'  |:-----|:--------------------------|:--------------|:----------------|:----------|:----|:-----|
+#'  |2022  |-                          |71             |112              |1          |3360 |3544  |
+#'  |Total |0                          |71             |112              |1          |3360 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -352,7 +190,137 @@ NULL
 #' 
 #' @keywords variable
 #' @md
-#' @name selfems
+#' @name spwrkslf2
+NULL
+
+
+#'  Spouse work at family business or on family farm
+#' 
+#'  spwrkslffam
+#' 
+#' Question Does/did your (husband/wife/spouse/partner) work in their own family business or farm?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |2018, 2021, 2022, 2024 |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `spwrkslffam`](https://gssdataexplorer.norc.org/variables/8033/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |yes |no  |iap   |don't know |skipped on web |Total |
+#'  |:-----|:--------------------------|:---|:---|:-----|:----------|:--------------|:-----|
+#'  |2018  |-                          |79  |36  |2233  |-          |-              |2348  |
+#'  |2021  |-                          |123 |98  |3802  |7          |2              |4032  |
+#'  |2022  |-                          |104 |79  |3360  |-          |1              |3544  |
+#'  |2024  |-                          |98  |75  |3134  |2          |-              |3309  |
+#'  |Total |0                          |404 |288 |12529 |9          |3              |13233 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name spwrkslffam
+NULL
+
+
+#'  Total children in hh (household composition version)
+#' 
+#'  childsinhh
+#' 
+#' Question Calculated variable: Total count of children under 18 in household 
+#'  As of 2024, CHILDSINHH has been calculated to only account for 0 to 6+ children in the household. This has been retroactively applied to all previous years of CHILDSINHH. The original CHILDSINHH containing data from 2021 to 2022 has been renamed CHILDSINHH_2122.
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[0]` 0
+#'   * `[1]` 1
+#'   * `[2]` 2
+#'   * `[3]` 3
+#'   * `[4]` 4
+#'   * `[5]` 5
+#'   * `[6]` 6 or more
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2021, 2022, 2024 |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `childsinhh`](https://gssdataexplorer.norc.org/variables/8006/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |0    |1   |2   |3   |4  |5  |6 or more |iap  |skipped on web |no answer |Total |
+#'  |:-----|:--------------------------|:----|:---|:---|:---|:--|:--|:---------|:----|:--------------|:---------|:-----|
+#'  |2021  |-                          |2845 |444 |347 |120 |47 |13 |10        |203  |3              |-         |4032  |
+#'  |2022  |-                          |1342 |158 |167 |75  |15 |6  |5         |1764 |4              |8         |3544  |
+#'  |2024  |-                          |1244 |169 |146 |71  |31 |10 |5         |1630 |2              |1         |3309  |
+#'  |Total |0                          |5431 |771 |660 |266 |93 |29 |20        |3597 |9              |9         |10885 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Household
+#' 
+#' @keywords variable
+#' @md
+#' @name childsinhh
+NULL
+
+
+#'  Total adults in hh (household composition version)
+#' 
+#'  adultsinhh
+#' 
+#' Question Calculated variable: Total adults in household according to roster
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` 1 adult in household
+#'   * `[8]` 8 or more
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years            |
+#'  |:-------|:----------------|
+#'  |A/B/C   |2021, 2022, 2024 |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `adultsinhh`](https://gssdataexplorer.norc.org/variables/7982/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |1 adult in household |2    |3   |4   |5  |6  |7  |8 or more |iap  |skipped on web |no answer |Total |
+#'  |:-----|:--------------------------|:--------------------|:----|:---|:---|:--|:--|:--|:---------|:----|:--------------|:---------|:-----|
+#'  |2021  |-                          |1188                 |2004 |441 |133 |47 |4  |2  |2         |203  |8              |-         |4032  |
+#'  |2022  |-                          |673                  |818  |167 |78  |15 |4  |-  |-         |1764 |4              |21        |3544  |
+#'  |2024  |-                          |670                  |772  |164 |59  |10 |-  |1  |-         |1630 |2              |1         |3309  |
+#'  |Total |0                          |2531                 |3594 |772 |270 |72 |8  |3  |2         |3597 |14             |22        |10885 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name adultsinhh
 NULL
 
 
@@ -382,11 +350,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |manufacturing |wholesale trade |retail trade |other (agriculture, construction, service, government, etc.) |don't know |no answer |skipped on web |Total |
-#'  |:-----|:----|:-------------|:---------------|:------------|:------------------------------------------------------------|:----------|:---------|:--------------|:-----|
-#'  |2021  |4032 |-             |-               |-            |-                                                            |-          |-         |-              |4032  |
-#'  |2022  |2132 |163           |36              |148          |1019                                                         |31         |11        |4              |3544  |
-#'  |Total |6164 |163           |36              |148          |1019                                                         |31         |11        |4              |7576  |
+#'  |year  |not available in this year |manufacturing |wholesale trade |retail trade |other (agriculture, construction, service, government, etc.) |don't know |iap  |skipped on web |no answer |Total |
+#'  |:-----|:--------------------------|:-------------|:---------------|:------------|:------------------------------------------------------------|:----------|:----|:--------------|:---------|:-----|
+#'  |2021  |-                          |247           |56              |244          |1347                                                         |2          |2117 |19             |-         |4032  |
+#'  |2022  |-                          |164           |36              |149          |1022                                                         |31         |2126 |4              |12        |3544  |
+#'  |2024  |-                          |157           |31              |158          |910                                                          |31         |2011 |6              |5         |3309  |
+#'  |Total |0                          |568           |123             |551          |3279                                                         |64         |6254 |29             |17        |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -395,6 +364,48 @@ NULL
 #' @keywords variable
 #' @md
 #' @name whatsp2
+NULL
+
+
+#'  Partner self-employed, with employees, or work for someone else
+#' 
+#'  cowrkslf2
+#' 
+#' Question Does/did your (husband/wife/spouse/partner) work without employees or does/did they have employees?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` yes, employees
+#'   * `[2]` no, no employees
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |2018, 2021, 2022, 2024 |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `cowrkslf2`](https://gssdataexplorer.norc.org/variables/8010/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |yes, employees |no, no employees |don't know |iap   |Total |
+#'  |:-----|:--------------------------|:--------------|:----------------|:----------|:-----|:-----|
+#'  |2018  |-                          |7              |13               |1          |2327  |2348  |
+#'  |2021  |-                          |12             |28               |1          |3991  |4032  |
+#'  |2022  |-                          |9              |15               |-          |3520  |3544  |
+#'  |2024  |-                          |4              |18               |-          |3287  |3309  |
+#'  |Total |0                          |32             |74               |2          |13125 |13233 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name cowrkslf2
 NULL
 
 

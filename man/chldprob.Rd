@@ -35,10 +35,11 @@ Question How serious would you consider (John/Mary)'s problem, if any, to be: ve
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2919/vshow}{GSS Data Explorer page for \code{chldprob}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very serious \tab somewhat serious \tab not very serious \tab not at all serious \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 625 \tab 389 \tab 168 \tab 171 \tab 28 \tab 12 \tab 2765 \cr
-   Total \tab 1372 \tab 625 \tab 389 \tab 168 \tab 171 \tab 28 \tab 12 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very serious \tab somewhat serious \tab not very serious \tab not at all serious \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2002 \tab 1372 \tab 625 \tab 389 \tab 168 \tab 171 \tab 28 \tab 12 \tab - \tab - \tab 2765 \cr
+   2024 \tab 1659 \tab 652 \tab 616 \tab 258 \tab 92 \tab 10 \tab 4 \tab - \tab 18 \tab 3309 \cr
+   Total \tab 3031 \tab 1277 \tab 1005 \tab 426 \tab 263 \tab 38 \tab 16 \tab 0 \tab 18 \tab 6074 \cr
 }
 }
 

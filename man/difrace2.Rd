@@ -43,10 +43,10 @@ Question A. WHY DO YOU THINK YOUR RACIAL CLASSIFICATION OF THE RESPONDENT IN "A"
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5281/vshow}{GSS Data Explorer page for \code{difrace2}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab physically doesn't match race \tab racially mixed \tab feelings, not biology matters \tab Total \cr
-   1996 \tab 2897 \tab 3 \tab 3 \tab 1 \tab 2904 \cr
-   Total \tab 2897 \tab 3 \tab 3 \tab 1 \tab 2904 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab physically doesn't match race \tab racially mixed \tab feelings, not biology matters \tab not available in this year \tab Total \cr
+   1996 \tab 2897 \tab 3 \tab 3 \tab 1 \tab - \tab 2904 \cr
+   Total \tab 2897 \tab 3 \tab 3 \tab 1 \tab 0 \tab 2904 \cr
 }
 }
 

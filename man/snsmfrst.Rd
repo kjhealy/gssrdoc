@@ -63,10 +63,10 @@ SOCIAL NETWORKING/SOCIAL MEDIA SITE:
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6286/vshow}{GSS Data Explorer page for \code{snsmfrst}}.
 
-Counts by year:\tabular{lllllllllllllllllllllll}{
-   year \tab iap \tab twitter \tab facebook \tab instagram \tab linkedin \tab snapchat \tab tumblr \tab whatsapp \tab google+ \tab pinterest \tab flickr \tab classmates \tab youtube \tab plenty of fish \tab kik \tab online dating sites \tab online gaming \tab yahoo \tab other social networks \tab not a social network \tab no answer \tab Total \cr
-   2016 \tab 1871 \tab 29 \tab 688 \tab 21 \tab 58 \tab 15 \tab 4 \tab 6 \tab 90 \tab 31 \tab 4 \tab 16 \tab 7 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 6 \tab 10 \tab 2867 \cr
-   Total \tab 1871 \tab 29 \tab 688 \tab 21 \tab 58 \tab 15 \tab 4 \tab 6 \tab 90 \tab 31 \tab 4 \tab 16 \tab 7 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 6 \tab 10 \tab 2867 \cr
+Counts by year:\tabular{llllllllllllllllllllllll}{
+   year \tab iap \tab twitter \tab facebook \tab instagram \tab linkedin \tab snapchat \tab tumblr \tab whatsapp \tab google+ \tab pinterest \tab flickr \tab classmates \tab youtube \tab plenty of fish \tab kik \tab online dating sites \tab online gaming \tab yahoo \tab other social networks \tab not a social network \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1871 \tab 29 \tab 688 \tab 21 \tab 58 \tab 15 \tab 4 \tab 6 \tab 90 \tab 31 \tab 4 \tab 16 \tab 7 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 6 \tab 10 \tab - \tab 2867 \cr
+   Total \tab 1871 \tab 29 \tab 688 \tab 21 \tab 58 \tab 15 \tab 4 \tab 6 \tab 90 \tab 31 \tab 4 \tab 16 \tab 7 \tab 2 \tab 1 \tab 1 \tab 1 \tab 2 \tab 4 \tab 6 \tab 10 \tab 0 \tab 2867 \cr
 }
 }
 

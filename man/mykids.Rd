@@ -34,10 +34,10 @@ B. Children for whom I am a biological or adoptive parent
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3933/vshow}{GSS Data Explorer page for \code{mykids}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab not applicable \tab no answer \tab Total \cr
-   2008 \tab 1888 \tab 18 \tab 20 \tab 54 \tab 43 \tab 2023 \cr
-   Total \tab 1888 \tab 18 \tab 20 \tab 54 \tab 43 \tab 2023 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab not applicable \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1888 \tab 18 \tab 20 \tab 54 \tab 43 \tab - \tab 2023 \cr
+   Total \tab 1888 \tab 18 \tab 20 \tab 54 \tab 43 \tab 0 \tab 2023 \cr
 }
 }
 

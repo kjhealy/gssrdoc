@@ -35,10 +35,10 @@ Question For how many employers have you ever worked full time?  READ CATEGORIES
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2159/vshow}{GSS Data Explorer page for \code{numemp}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab one \tab two \tab three to five \tab six to ten \tab more than ten \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1455 \tab 182 \tab 211 \tab 606 \tab 223 \tab 104 \tab 2 \tab 49 \tab 2832 \cr
-   Total \tab 1455 \tab 182 \tab 211 \tab 606 \tab 223 \tab 104 \tab 2 \tab 49 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab one \tab two \tab three to five \tab six to ten \tab more than ten \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1455 \tab 182 \tab 211 \tab 606 \tab 223 \tab 104 \tab 2 \tab 49 \tab - \tab 2832 \cr
+   Total \tab 1455 \tab 182 \tab 211 \tab 606 \tab 223 \tab 104 \tab 2 \tab 49 \tab 0 \tab 2832 \cr
 }
 }
 

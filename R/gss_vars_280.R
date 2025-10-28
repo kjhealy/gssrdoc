@@ -23,11 +23,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes  |no  |no answer |Total |
-#'  |:-----|:----|:----|:---|:---------|:-----|
-#'  |2000  |2294 |391  |109 |23        |2817  |
-#'  |2002  |855  |1584 |307 |19        |2765  |
-#'  |Total |3149 |1975 |416 |42        |5582  |
+#'  |year  |iap  |yes  |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:---|:---------|:--------------------------|:-----|
+#'  |2000  |2294 |391  |109 |23        |-                          |2817  |
+#'  |2002  |855  |1584 |307 |19        |-                          |2765  |
+#'  |Total |3149 |1975 |416 |42        |0                          |5582  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -63,10 +63,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |2000  |2403 |376 |15 |23        |2817  |
-#'  |Total |2403 |376 |15 |23        |2817  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |2000  |2403 |376 |15 |23        |-                          |2817  |
+#'  |Total |2403 |376 |15 |23        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -100,10 +100,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |1   |2  |3  |4  |5  |6  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:--|:--|:--|:--|:----------|:---------|:-----|
-#'  |2000  |2418 |261 |76 |27 |7  |2  |1  |1          |24        |2817  |
-#'  |Total |2418 |261 |76 |27 |7  |2  |1  |1          |24        |2817  |
+#'  |year  |iap  |1   |2  |3  |4  |5  |6  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2418 |261 |76 |27 |7  |2  |1  |1          |24        |-                          |2817  |
+#'  |Total |2418 |261 |76 |27 |7  |2  |1  |1          |24        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -140,11 +140,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2000  |2418 |323 |53  |23        |2817  |
-#'  |2002  |2016 |665 |82  |2         |2765  |
-#'  |Total |4434 |988 |135 |25        |5582  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2000  |2418 |323 |53  |23        |-                          |2817  |
+#'  |2002  |2016 |665 |82  |2         |-                          |2765  |
+#'  |Total |4434 |988 |135 |25        |0                          |5582  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -181,10 +181,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |employer provides internet connection at no charge |covers some but not all of cost |does not contribute to cost of using internet |no answer |Total |
-#'  |:-----|:----|:--------------------------------------------------|:-------------------------------|:---------------------------------------------|:---------|:-----|
-#'  |2000  |2471 |42                                                 |8                               |243                                           |53        |2817  |
-#'  |Total |2471 |42                                                 |8                               |243                                           |53        |2817  |
+#'  |year  |iap  |employer provides internet connection at no charge |covers some but not all of cost |does not contribute to cost of using internet |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------------------------------------------|:-------------------------------|:---------------------------------------------|:---------|:--------------------------|:-----|
+#'  |2000  |2471 |42                                                 |8                               |243                                           |53        |-                          |2817  |
+#'  |Total |2471 |42                                                 |8                               |243                                           |53        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -221,11 +221,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |regular telephone line |other means |don't know |no answer |Total |
-#'  |:-----|:----|:----------------------|:-----------|:----------|:---------|:-----|
-#'  |2000  |2471 |302                    |20          |1          |23        |2817  |
-#'  |2002  |2098 |536                    |119         |1          |11        |2765  |
-#'  |Total |4569 |838                    |139         |2          |34        |5582  |
+#'  |year  |iap  |regular telephone line |other means |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------------------|:-----------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2471 |302                    |20          |1          |23        |-                          |2817  |
+#'  |2002  |2098 |536                    |119         |1          |11        |-                          |2765  |
+#'  |Total |4569 |838                    |139         |2          |34        |0                          |5582  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -266,11 +266,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |special high-speed tele line (isdn) cncted to cmptr |cable service line cnctd to computer |web tv line, cnctd to tv set |more than one type of cnction |other, not named above |don't know |no answer |wireless connection (e.g. from a satellite) |Total |
-#'  |:-----|:----|:---------------------------------------------------|:------------------------------------|:----------------------------|:-----------------------------|:----------------------|:----------|:---------|:-------------------------------------------|:-----|
-#'  |2000  |2773 |6                                                   |10                                   |1                            |1                             |2                      |1          |23        |-                                           |2817  |
-#'  |2002  |2635 |38                                                  |72                                   |3                            |1                             |1                      |-          |11        |4                                           |2765  |
-#'  |Total |5408 |44                                                  |82                                   |4                            |2                             |3                      |1          |34        |4                                           |5582  |
+#'  |year  |iap  |special high-speed tele line (isdn) cncted to cmptr |cable service line cnctd to computer |web tv line, cnctd to tv set |more than one type of cnction |other, not named above |don't know |no answer |wireless connection (e.g. from a satellite) |not available in this year |Total |
+#'  |:-----|:----|:---------------------------------------------------|:------------------------------------|:----------------------------|:-----------------------------|:----------------------|:----------|:---------|:-------------------------------------------|:--------------------------|:-----|
+#'  |2000  |2773 |6                                                   |10                                   |1                            |1                             |2                      |1          |23        |-                                           |-                          |2817  |
+#'  |2002  |2635 |38                                                  |72                                   |3                            |1                             |1                      |-          |11        |4                                           |-                          |2765  |
+#'  |Total |5408 |44                                                  |82                                   |4                            |2                             |3                      |1          |34        |4                                           |0                          |5582  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -306,10 +306,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0   |10 |15 |20 |30 |45 |5  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
-#'  |2000  |2418 |314 |8  |11 |5  |20 |1  |3  |3          |34        |2817  |
-#'  |Total |2418 |314 |8  |11 |5  |20 |1  |3  |3          |34        |2817  |
+#'  |year  |iap  |0   |10 |15 |20 |30 |45 |5  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2418 |314 |8  |11 |5  |20 |1  |3  |3          |34        |-                          |2817  |
+#'  |Total |2418 |314 |8  |11 |5  |20 |1  |3  |3          |34        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -345,10 +345,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0   |1  |10 |2  |3  |4  |5  |6  |7  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
-#'  |2000  |2418 |216 |58 |2  |18 |8  |1  |4  |2  |1  |3          |86        |2817  |
-#'  |Total |2418 |216 |58 |2  |18 |8  |1  |4  |2  |1  |3          |86        |2817  |
+#'  |year  |iap  |0   |1  |10 |2  |3  |4  |5  |6  |7  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2418 |216 |58 |2  |18 |8  |1  |4  |2  |1  |3          |86        |-                          |2817  |
+#'  |Total |2418 |216 |58 |2  |18 |8  |1  |4  |2  |1  |3          |86        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -384,10 +384,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0   |1  |10 |15 |2  |20 |30 |5  |50 |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:-----|
-#'  |2000  |2418 |320 |1  |4  |4  |2  |4  |29 |3  |1  |2          |29        |2817  |
-#'  |Total |2418 |320 |1  |4  |4  |2  |4  |29 |3  |1  |2          |29        |2817  |
+#'  |year  |iap  |0   |1  |10 |15 |2  |20 |30 |5  |50 |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2418 |320 |1  |4  |4  |2  |4  |29 |3  |1  |2          |29        |-                          |2817  |
+#'  |Total |2418 |320 |1  |4  |4  |2  |4  |29 |3  |1  |2          |29        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society

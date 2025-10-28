@@ -33,10 +33,10 @@ Question Earlier we talked about problems in this country, and whether we are sp
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2123/vshow}{GSS Data Explorer page for \code{natarts}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 303 \tab 631 \tab 269 \tab 229 \tab 13 \tab 2832 \cr
-   Total \tab 1387 \tab 303 \tab 631 \tab 269 \tab 229 \tab 13 \tab 2832 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too little \tab about right \tab too much \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 303 \tab 631 \tab 269 \tab 229 \tab 13 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 303 \tab 631 \tab 269 \tab 229 \tab 13 \tab 0 \tab 2832 \cr
 }
 }
 

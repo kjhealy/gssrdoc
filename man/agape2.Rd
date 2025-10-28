@@ -36,10 +36,10 @@ B. I cannot be happy unless I place the one I love''s happiness before my own.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3054/vshow}{GSS Data Explorer page for \code{agape2}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab agree strongly \tab agree somewhat \tab neither agree nor disagree \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 1472 \tab 445 \tab 497 \tab 203 \tab 133 \tab 53 \tab 4 \tab 5 \tab 2812 \cr
-   Total \tab 1472 \tab 445 \tab 497 \tab 203 \tab 133 \tab 53 \tab 4 \tab 5 \tab 2812 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab agree strongly \tab agree somewhat \tab neither agree nor disagree \tab disagree somewhat \tab disagree strongly \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1472 \tab 445 \tab 497 \tab 203 \tab 133 \tab 53 \tab 4 \tab 5 \tab - \tab 2812 \cr
+   Total \tab 1472 \tab 445 \tab 497 \tab 203 \tab 133 \tab 53 \tab 4 \tab 5 \tab 0 \tab 2812 \cr
 }
 }
 

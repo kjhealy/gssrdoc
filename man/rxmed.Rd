@@ -35,12 +35,13 @@ I. Take prescription medication.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2019/vshow}{GSS Data Explorer page for \code{rxmed}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 788 \tab 513 \tab 109 \tab 34 \tab 2904 \cr
-   2006 \tab 3073 \tab 1005 \tab 354 \tab 62 \tab 16 \tab 4510 \cr
-   2018 \tab 1175 \tab 696 \tab 408 \tab 40 \tab 29 \tab 2348 \cr
-   Total \tab 5708 \tab 2489 \tab 1275 \tab 211 \tab 79 \tab 9762 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 788 \tab 513 \tab 109 \tab 34 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 1005 \tab 354 \tab 62 \tab 16 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 696 \tab 408 \tab 40 \tab 29 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1693 \tab 1006 \tab 497 \tab 65 \tab 13 \tab - \tab 35 \tab 3309 \cr
+   Total \tab 7401 \tab 3495 \tab 1772 \tab 276 \tab 92 \tab 0 \tab 35 \tab 13071 \cr
 }
 }
 

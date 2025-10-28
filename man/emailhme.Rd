@@ -36,10 +36,10 @@ D. Auditing of email and Internet use at home
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5252/vshow}{GSS Data Explorer page for \code{emailhme}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 140 \tab 277 \tab 253 \tab 469 \tab 213 \tab 46 \tab 21 \tab 2817 \cr
-   Total \tab 1398 \tab 140 \tab 277 \tab 253 \tab 469 \tab 213 \tab 46 \tab 21 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 140 \tab 277 \tab 253 \tab 469 \tab 213 \tab 46 \tab 21 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 140 \tab 277 \tab 253 \tab 469 \tab 213 \tab 46 \tab 21 \tab 0 \tab 2817 \cr
 }
 }
 

@@ -35,13 +35,13 @@ D. What (is/was) that person''s race? (Is/Was) it black, white, hispanic or othe
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5017/vshow}{GSS Data Explorer page for \code{aidsrac2}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab black \tab white \tab hispanic \tab other \tab no answer \tab Total \cr
-   1989 \tab 1486 \tab 13 \tab 32 \tab 2 \tab 1 \tab 3 \tab 1537 \cr
-   1990 \tab 1324 \tab 6 \tab 37 \tab 3 \tab - \tab 2 \tab 1372 \cr
-   1991 \tab 1422 \tab 13 \tab 70 \tab 6 \tab 1 \tab 5 \tab 1517 \cr
-   1993 \tab 1407 \tab 43 \tab 131 \tab 14 \tab 3 \tab 8 \tab 1606 \cr
-   Total \tab 5639 \tab 75 \tab 270 \tab 25 \tab 5 \tab 18 \tab 6032 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab black \tab white \tab hispanic \tab other \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 1486 \tab 13 \tab 32 \tab 2 \tab 1 \tab 3 \tab - \tab 1537 \cr
+   1990 \tab 1324 \tab 6 \tab 37 \tab 3 \tab - \tab 2 \tab - \tab 1372 \cr
+   1991 \tab 1422 \tab 13 \tab 70 \tab 6 \tab 1 \tab 5 \tab - \tab 1517 \cr
+   1993 \tab 1407 \tab 43 \tab 131 \tab 14 \tab 3 \tab 8 \tab - \tab 1606 \cr
+   Total \tab 5639 \tab 75 \tab 270 \tab 25 \tab 5 \tab 18 \tab 0 \tab 6032 \cr
 }
 }
 

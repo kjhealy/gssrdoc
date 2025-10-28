@@ -36,12 +36,13 @@ B. Its political influence in the world
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4841/vshow}{GSS Data Explorer page for \code{proudpol}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 280 \tab 737 \tab 215 \tab 41 \tab 68 \tab 26 \tab 2904 \cr
-   2004 \tab 1596 \tab 263 \tab 632 \tab 220 \tab 36 \tab 64 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 163 \tab 611 \tab 318 \tab 80 \tab 98 \tab 4 \tab 2538 \cr
-   Total \tab 4397 \tab 706 \tab 1980 \tab 753 \tab 157 \tab 230 \tab 31 \tab 8254 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 280 \tab 737 \tab 215 \tab 41 \tab 68 \tab 26 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 263 \tab 632 \tab 220 \tab 36 \tab 64 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 163 \tab 611 \tab 318 \tab 80 \tab 98 \tab 4 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1661 \tab 181 \tab 676 \tab 434 \tab 170 \tab 162 \tab 6 \tab - \tab 19 \tab 3309 \cr
+   Total \tab 6058 \tab 887 \tab 2656 \tab 1187 \tab 327 \tab 392 \tab 37 \tab 0 \tab 19 \tab 11563 \cr
 }
 }
 

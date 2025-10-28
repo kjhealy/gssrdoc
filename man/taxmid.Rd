@@ -40,13 +40,13 @@ B. Next, for those with middle incomes, are taxes . . .
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4303/vshow}{GSS Data Explorer page for \code{taxmid}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab much too high \tab too high \tab about right \tab too low \tab much too low \tab can't choose \tab no answer \tab Total \cr
-   1987 \tab 255 \tab 251 \tab 777 \tab 408 \tab 35 \tab 4 \tab 66 \tab 23 \tab 1819 \cr
-   1996 \tab 1572 \tab 208 \tab 615 \tab 394 \tab 27 \tab 2 \tab 54 \tab 32 \tab 2904 \cr
-   2006 \tab 2992 \tab 206 \tab 635 \tab 574 \tab 46 \tab 11 \tab 46 \tab - \tab 4510 \cr
-   2016 \tab 1477 \tab 150 \tab 580 \tab 557 \tab 60 \tab 6 \tab 22 \tab 15 \tab 2867 \cr
-   Total \tab 6296 \tab 815 \tab 2607 \tab 1933 \tab 168 \tab 23 \tab 188 \tab 70 \tab 12100 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much too high \tab too high \tab about right \tab too low \tab much too low \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 251 \tab 777 \tab 408 \tab 35 \tab 4 \tab 66 \tab 23 \tab - \tab 1819 \cr
+   1996 \tab 1572 \tab 208 \tab 615 \tab 394 \tab 27 \tab 2 \tab 54 \tab 32 \tab - \tab 2904 \cr
+   2006 \tab 2992 \tab 206 \tab 635 \tab 574 \tab 46 \tab 11 \tab 46 \tab - \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 150 \tab 580 \tab 557 \tab 60 \tab 6 \tab 22 \tab 15 \tab - \tab 2867 \cr
+   Total \tab 6296 \tab 815 \tab 2607 \tab 1933 \tab 168 \tab 23 \tab 188 \tab 70 \tab 0 \tab 12100 \cr
 }
 }
 

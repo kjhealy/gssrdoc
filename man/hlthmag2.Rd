@@ -37,12 +37,12 @@ C. Special health or medical magazine or newsletter?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2519/vshow}{GSS Data Explorer page for \code{hlthmag2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab don't know \tab Total \cr
-   2000 \tab 2412 \tab 222 \tab 102 \tab 59 \tab 22 \tab - \tab - \tab 2817 \cr
-   2002 \tab 2104 \tab 363 \tab 168 \tab 71 \tab 6 \tab 53 \tab - \tab 2765 \cr
-   2004 \tab 2209 \tab 322 \tab 144 \tab 66 \tab 6 \tab 64 \tab 1 \tab 2812 \cr
-   Total \tab 6725 \tab 907 \tab 414 \tab 196 \tab 34 \tab 117 \tab 1 \tab 8394 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not at all \tab 1 or 2 times \tab 3-5 times \tab no answer \tab 6 or more times \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2412 \tab 222 \tab 102 \tab 59 \tab 22 \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 2104 \tab 363 \tab 168 \tab 71 \tab 6 \tab 53 \tab - \tab - \tab 2765 \cr
+   2004 \tab 2209 \tab 322 \tab 144 \tab 66 \tab 6 \tab 64 \tab 1 \tab - \tab 2812 \cr
+   Total \tab 6725 \tab 907 \tab 414 \tab 196 \tab 34 \tab 117 \tab 1 \tab 0 \tab 8394 \cr
 }
 }
 

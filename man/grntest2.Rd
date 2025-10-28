@@ -35,11 +35,11 @@ B. Some radioactive waste from nuclear power stations will stay dangerous for th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4747/vshow}{GSS Data Explorer page for \code{grntest2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 490 \tab 781 \tab 102 \tab 20 \tab 83 \tab 81 \tab 1606 \cr
-   1994 \tab 1606 \tab 431 \tab 730 \tab 103 \tab 10 \tab 72 \tab 40 \tab 2992 \cr
-   Total \tab 1655 \tab 921 \tab 1511 \tab 205 \tab 30 \tab 155 \tab 121 \tab 4598 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely true \tab probably true \tab probably not true \tab definitely not true \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 490 \tab 781 \tab 102 \tab 20 \tab 83 \tab 81 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 431 \tab 730 \tab 103 \tab 10 \tab 72 \tab 40 \tab - \tab 2992 \cr
+   Total \tab 1655 \tab 921 \tab 1511 \tab 205 \tab 30 \tab 155 \tab 121 \tab 0 \tab 4598 \cr
 }
 }
 

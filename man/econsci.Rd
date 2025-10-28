@@ -36,11 +36,11 @@ F. Economics. Is economics very scientific, pretty scientific, not too scientifi
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3411/vshow}{GSS Data Explorer page for \code{econsci}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab haven't heard of it (volunteered) \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 299 \tab 648 \tab 579 \tab 243 \tab 23 \tab 68 \tab 4 \tab 4510 \cr
-   2012 \tab 1477 \tab 76 \tab 179 \tab 142 \tab 67 \tab 5 \tab 24 \tab 4 \tab 1974 \cr
-   Total \tab 4123 \tab 375 \tab 827 \tab 721 \tab 310 \tab 28 \tab 92 \tab 8 \tab 6484 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab haven't heard of it (volunteered) \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 299 \tab 648 \tab 579 \tab 243 \tab 23 \tab 68 \tab 4 \tab - \tab 4510 \cr
+   2012 \tab 1477 \tab 76 \tab 179 \tab 142 \tab 67 \tab 5 \tab 24 \tab 4 \tab - \tab 1974 \cr
+   Total \tab 4123 \tab 375 \tab 827 \tab 721 \tab 310 \tab 28 \tab 92 \tab 8 \tab 0 \tab 6484 \cr
 }
 }
 

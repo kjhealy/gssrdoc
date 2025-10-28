@@ -43,10 +43,10 @@ Question In what religion is (CHILD'S NAME) being raised? Is it Protestant, Cath
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3833/vshow}{GSS Data Explorer page for \code{kd4relig}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab buddhism \tab muslim/islam \tab christian \tab no answer \tab Total \cr
-   2008 \tab 1960 \tab 33 \tab 13 \tab 3 \tab 9 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2023 \cr
-   Total \tab 1960 \tab 33 \tab 13 \tab 3 \tab 9 \tab 1 \tab 1 \tab 2 \tab 1 \tab 2023 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab protestant \tab catholic \tab jewish \tab none \tab buddhism \tab muslim/islam \tab christian \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1960 \tab 33 \tab 13 \tab 3 \tab 9 \tab 1 \tab 1 \tab 2 \tab 1 \tab - \tab 2023 \cr
+   Total \tab 1960 \tab 33 \tab 13 \tab 3 \tab 9 \tab 1 \tab 1 \tab 2 \tab 1 \tab 0 \tab 2023 \cr
 }
 }
 

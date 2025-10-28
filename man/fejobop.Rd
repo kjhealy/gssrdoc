@@ -35,10 +35,10 @@ Question How about job opportunities for women -- do you think they are, in gene
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4010/vshow}{GSS Data Explorer page for \code{fejobop}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab much bettr for women \tab better for women \tab no difference \tab worse for women \tab much wrse for women \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 18 \tab 55 \tab 212 \tab 321 \tab 31 \tab 30 \tab 10 \tab 1534 \cr
-   Total \tab 857 \tab 18 \tab 55 \tab 212 \tab 321 \tab 31 \tab 30 \tab 10 \tab 1534 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much bettr for women \tab better for women \tab no difference \tab worse for women \tab much wrse for women \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 18 \tab 55 \tab 212 \tab 321 \tab 31 \tab 30 \tab 10 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 18 \tab 55 \tab 212 \tab 321 \tab 31 \tab 30 \tab 10 \tab 0 \tab 1534 \cr
 }
 }
 

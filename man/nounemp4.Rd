@@ -37,11 +37,11 @@ D. To travel longer to get to work
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4623/vshow}{GSS Data Explorer page for \code{nounemp4}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3492 \tab 158 \tab 438 \tab 101 \tab 231 \tab 86 \tab 2 \tab 2 \tab 4510 \cr
-   2016 \tab 1927 \tab 131 \tab 422 \tab 127 \tab 185 \tab 63 \tab 4 \tab 8 \tab 2867 \cr
-   Total \tab 5419 \tab 289 \tab 860 \tab 228 \tab 416 \tab 149 \tab 6 \tab 10 \tab 7377 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3492 \tab 158 \tab 438 \tab 101 \tab 231 \tab 86 \tab 2 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 131 \tab 422 \tab 127 \tab 185 \tab 63 \tab 4 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 5419 \tab 289 \tab 860 \tab 228 \tab 416 \tab 149 \tab 6 \tab 10 \tab 0 \tab 7377 \cr
 }
 }
 

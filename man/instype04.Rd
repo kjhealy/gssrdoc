@@ -35,10 +35,10 @@ Question What kind of health insurance do you have?  Please check all that apply
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7975/vshow}{GSS Data Explorer page for \code{instype04}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab other \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 3525 \tab 1 \tab 1 \tab 8 \tab 9 \tab 3544 \cr
-   Total \tab 3525 \tab 1 \tab 1 \tab 8 \tab 9 \tab 3544 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab not available in this year \tab other \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 1 \tab 1 \tab 3525 \tab 8 \tab 9 \tab 3544 \cr
+   Total \tab 0 \tab 1 \tab 1 \tab 3525 \tab 8 \tab 9 \tab 3544 \cr
 }
 }
 

@@ -36,11 +36,11 @@ C. Open his mail.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3996/vshow}{GSS Data Explorer page for \code{crimread}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 77 \tab 68 \tab 155 \tab 327 \tab 33 \tab 17 \tab 1534 \cr
-   1990 \tab 155 \tab 93 \tab 126 \tab 340 \tab 532 \tab 59 \tab 67 \tab 1372 \cr
-   Total \tab 1012 \tab 170 \tab 194 \tab 495 \tab 859 \tab 92 \tab 84 \tab 2906 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely allowed \tab probably allowed \tab probably not allowed \tab definitely not allowed \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 77 \tab 68 \tab 155 \tab 327 \tab 33 \tab 17 \tab - \tab 1534 \cr
+   1990 \tab 155 \tab 93 \tab 126 \tab 340 \tab 532 \tab 59 \tab 67 \tab - \tab 1372 \cr
+   Total \tab 1012 \tab 170 \tab 194 \tab 495 \tab 859 \tab 92 \tab 84 \tab 0 \tab 2906 \cr
 }
 }
 

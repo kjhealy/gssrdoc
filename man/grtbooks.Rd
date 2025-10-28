@@ -35,10 +35,10 @@ D. The greatest books are universal in their appeal:there is no "white literatur
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1425/vshow}{GSS Data Explorer page for \code{grtbooks}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 189 \tab 938 \tab 295 \tab 34 \tab 133 \tab 17 \tab 1606 \cr
-   Total \tab 0 \tab 189 \tab 938 \tab 295 \tab 34 \tab 133 \tab 17 \tab 1606 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 189 \tab 938 \tab 295 \tab 34 \tab 133 \tab 17 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 189 \tab 938 \tab 295 \tab 34 \tab 133 \tab 17 \tab 0 \tab 1606 \cr
 }
 }
 

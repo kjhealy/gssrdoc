@@ -32,10 +32,10 @@ Question I'm going to read two statements about what works of art should Do. Ple
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2128/vshow}{GSS Data Explorer page for \code{aimofart}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab art human spirit \tab art xprss artist \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 538 \tab 851 \tab 23 \tab 33 \tab 2832 \cr
-   Total \tab 1387 \tab 538 \tab 851 \tab 23 \tab 33 \tab 2832 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab art human spirit \tab art xprss artist \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 538 \tab 851 \tab 23 \tab 33 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 538 \tab 851 \tab 23 \tab 33 \tab 0 \tab 2832 \cr
 }
 }
 

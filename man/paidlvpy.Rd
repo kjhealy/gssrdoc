@@ -35,10 +35,10 @@ B. And who should pay for this leave? The government, the employer, both the gov
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4465/vshow}{GSS Data Explorer page for \code{paidlvpy}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab the government \tab the employer \tab both government and the employer \tab other sources \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 950 \tab 69 \tab 359 \tab 489 \tab 53 \tab 41 \tab 13 \tab 1974 \cr
-   Total \tab 950 \tab 69 \tab 359 \tab 489 \tab 53 \tab 41 \tab 13 \tab 1974 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab the government \tab the employer \tab both government and the employer \tab other sources \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 950 \tab 69 \tab 359 \tab 489 \tab 53 \tab 41 \tab 13 \tab - \tab 1974 \cr
+   Total \tab 950 \tab 69 \tab 359 \tab 489 \tab 53 \tab 41 \tab 13 \tab 0 \tab 1974 \cr
 }
 }
 

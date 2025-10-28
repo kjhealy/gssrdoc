@@ -19,11 +19,11 @@ C. Which comes fourth?
 \section{Values}{
 
 \itemize{
-\item \verb{[1]} first
-\item \verb{[2]} second
-\item \verb{[3]} third
-\item \verb{[4]} fourth
-\item \verb{[5]} fifth
+\item \verb{[1]} most important
+\item \verb{[2]} 2nd important
+\item \verb{[3]} 3rd important
+\item \verb{[4]} 4th important
+\item \verb{[5]} least important
 \item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
@@ -41,7 +41,7 @@ C. Which comes fourth?
 For further details see the \href{https://gssdataexplorer.norc.org/variables/514/vshow}{GSS Data Explorer page for \code{popular}}.
 
 Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab first \tab second \tab third \tab fourth \tab fifth \tab no answer \tab Total \cr
+   year \tab iap \tab most important \tab 2nd important \tab 3rd important \tab 4th important \tab least important \tab no answer \tab Total \cr
    1986 \tab 730 \tab 4 \tab 28 \tab 33 \tab 142 \tab 525 \tab 8 \tab 1470 \cr
    1987 \tab - \tab 15 \tab 77 \tab 99 \tab 392 \tab 1217 \tab 19 \tab 1819 \cr
    1988 \tab 484 \tab 7 \tab 45 \tab 54 \tab 188 \tab 683 \tab 20 \tab 1481 \cr
@@ -64,7 +64,8 @@ Counts by year:\tabular{lllllllll}{
    2018 \tab 785 \tab 5 \tab 17 \tab 42 \tab 306 \tab 1172 \tab 21 \tab 2348 \cr
    2021 \tab 1360 \tab 21 \tab 20 \tab 48 \tab 663 \tab 1821 \tab 99 \tab 4032 \cr
    2022 \tab 1173 \tab 18 \tab 24 \tab 67 \tab 593 \tab 1592 \tab 77 \tab 3544 \cr
-   Total \tab 21378 \tab 211 \tab 598 \tab 1140 \tab 6313 \tab 23545 \tab 619 \tab 53804 \cr
+   2024 \tab 1116 \tab 19 \tab 24 \tab 57 \tab 544 \tab 1470 \tab 79 \tab 3309 \cr
+   Total \tab 22494 \tab 230 \tab 622 \tab 1197 \tab 6857 \tab 25015 \tab 698 \tab 57113 \cr
 }
 }
 

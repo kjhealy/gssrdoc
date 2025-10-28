@@ -38,10 +38,10 @@ C. Provide special college scholarships for black children who maintain good gra
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1235/vshow}{GSS Data Explorer page for \code{blkcol}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
-   1990 \tab 674 \tab 149 \tab 348 \tab 88 \tab 67 \tab 27 \tab 8 \tab 11 \tab 1372 \cr
-   Total \tab 674 \tab 149 \tab 348 \tab 88 \tab 67 \tab 27 \tab 8 \tab 11 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 674 \tab 149 \tab 348 \tab 88 \tab 67 \tab 27 \tab 8 \tab 11 \tab - \tab 1372 \cr
+   Total \tab 674 \tab 149 \tab 348 \tab 88 \tab 67 \tab 27 \tab 8 \tab 11 \tab 0 \tab 1372 \cr
 }
 }
 

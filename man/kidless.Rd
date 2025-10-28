@@ -36,10 +36,10 @@ D. A marriage without children is not fully complete.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4383/vshow}{GSS Data Explorer page for \code{kidless}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 196 \tab 427 \tab 324 \tab 305 \tab 102 \tab 44 \tab 16 \tab 1481 \cr
-   Total \tab 67 \tab 196 \tab 427 \tab 324 \tab 305 \tab 102 \tab 44 \tab 16 \tab 1481 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 196 \tab 427 \tab 324 \tab 305 \tab 102 \tab 44 \tab 16 \tab - \tab 1481 \cr
+   Total \tab 67 \tab 196 \tab 427 \tab 324 \tab 305 \tab 102 \tab 44 \tab 16 \tab 0 \tab 1481 \cr
 }
 }
 

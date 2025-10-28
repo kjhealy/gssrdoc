@@ -35,11 +35,11 @@ D. Now I am going to ask about specific hardships. Did any of the following occu
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5167/vshow}{GSS Data Explorer page for \code{hrdshp3}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1991 \tab 500 \tab 29 \tab 984 \tab 4 \tab 1517 \cr
-   2004 \tab 1472 \tab 56 \tab 1276 \tab 8 \tab 2812 \cr
-   Total \tab 1972 \tab 85 \tab 2260 \tab 12 \tab 4329 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 500 \tab 29 \tab 984 \tab 4 \tab - \tab 1517 \cr
+   2004 \tab 1472 \tab 56 \tab 1276 \tab 8 \tab - \tab 2812 \cr
+   Total \tab 1972 \tab 85 \tab 2260 \tab 12 \tab 0 \tab 4329 \cr
 }
 }
 

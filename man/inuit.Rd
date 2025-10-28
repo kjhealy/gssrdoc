@@ -34,11 +34,11 @@ C. Inuit (often called Eskimos) live north of the Arctic Circle. (Is that true o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3434/vshow}{GSS Data Explorer page for \code{inuit}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 839 \tab 325 \tab 698 \tab 2 \tab 4510 \cr
-   2010 \tab 1338 \tab 361 \tab 117 \tab 216 \tab 12 \tab 2044 \cr
-   Total \tab 3984 \tab 1200 \tab 442 \tab 914 \tab 14 \tab 6554 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 839 \tab 325 \tab 698 \tab 2 \tab - \tab 4510 \cr
+   2010 \tab 1338 \tab 361 \tab 117 \tab 216 \tab 12 \tab - \tab 2044 \cr
+   Total \tab 3984 \tab 1200 \tab 442 \tab 914 \tab 14 \tab 0 \tab 6554 \cr
 }
 }
 

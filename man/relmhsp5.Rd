@@ -33,10 +33,10 @@ E. Acquaintances.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2063/vshow}{GSS Data Explorer page for \code{relmhsp5}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab acquaintance \tab not acquaintance \tab no answer \tab Total \cr
-   1996 \tab 2531 \tab 88 \tab 276 \tab 9 \tab 2904 \cr
-   Total \tab 2531 \tab 88 \tab 276 \tab 9 \tab 2904 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab acquaintance \tab not acquaintance \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2531 \tab 88 \tab 276 \tab 9 \tab - \tab 2904 \cr
+   Total \tab 2531 \tab 88 \tab 276 \tab 9 \tab 0 \tab 2904 \cr
 }
 }
 

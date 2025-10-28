@@ -33,12 +33,12 @@ A. INTERVIEWER CHECK: HOW MANY NAMES WERE MENTIONED?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/848/vshow}{GSS Data Explorer page for \code{numgiven}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab no answer \tab Total \cr
-   1985 \tab - \tab 136 \tab 228 \tab 235 \tab 321 \tab 233 \tab 294 \tab 84 \tab 3 \tab 1534 \cr
-   1987 \tab - \tab 98 \tab 287 \tab 350 \tab 849 \tab 112 \tab 53 \tab 51 \tab 19 \tab 1819 \cr
-   2004 \tab 1340 \tab 356 \tab 281 \tab 263 \tab 232 \tab 128 \tab 96 \tab 70 \tab 46 \tab 2812 \cr
-   Total \tab 1340 \tab 590 \tab 796 \tab 848 \tab 1402 \tab 473 \tab 443 \tab 205 \tab 68 \tab 6165 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab - \tab 136 \tab 228 \tab 235 \tab 321 \tab 233 \tab 294 \tab 84 \tab 3 \tab - \tab 1534 \cr
+   1987 \tab - \tab 98 \tab 287 \tab 350 \tab 849 \tab 112 \tab 53 \tab 51 \tab 19 \tab - \tab 1819 \cr
+   2004 \tab 1340 \tab 356 \tab 281 \tab 263 \tab 232 \tab 128 \tab 96 \tab 70 \tab 46 \tab - \tab 2812 \cr
+   Total \tab 1340 \tab 590 \tab 796 \tab 848 \tab 1402 \tab 473 \tab 443 \tab 205 \tab 68 \tab 0 \tab 6165 \cr
 }
 }
 

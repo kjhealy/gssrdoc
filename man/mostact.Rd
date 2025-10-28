@@ -46,10 +46,10 @@ Question Which one of these groups or organizations (READ GROUP FROM MEMFRAT THA
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1013/vshow}{GSS Data Explorer page for \code{mostact}}.
 
-Counts by year:\tabular{llllllllllllllllllll}{
-   year \tab iap \tab fraternal groups \tab service clubs \tab veterans groups \tab political clubs \tab labor unions \tab sports groups \tab youth groups \tab school service groups \tab hobby or garden clubs \tab school fraternities or sororities \tab nationality groups \tab farm organizations \tab literary art discussion or study grps \tab professional or academic societies \tab church-affiliated groups \tab other groups \tab no answer \tab Total \cr
-   1987 \tab 1083 \tab 40 \tab 32 \tab 21 \tab 9 \tab 25 \tab 107 \tab 30 \tab 48 \tab 31 \tab 9 \tab 7 \tab 12 \tab 18 \tab 46 \tab 224 \tab 38 \tab 39 \tab 1819 \cr
-   Total \tab 1083 \tab 40 \tab 32 \tab 21 \tab 9 \tab 25 \tab 107 \tab 30 \tab 48 \tab 31 \tab 9 \tab 7 \tab 12 \tab 18 \tab 46 \tab 224 \tab 38 \tab 39 \tab 1819 \cr
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab fraternal groups \tab service clubs \tab veterans groups \tab political clubs \tab labor unions \tab sports groups \tab youth groups \tab school service groups \tab hobby or garden clubs \tab school fraternities or sororities \tab nationality groups \tab farm organizations \tab literary art discussion or study grps \tab professional or academic societies \tab church-affiliated groups \tab other groups \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 1083 \tab 40 \tab 32 \tab 21 \tab 9 \tab 25 \tab 107 \tab 30 \tab 48 \tab 31 \tab 9 \tab 7 \tab 12 \tab 18 \tab 46 \tab 224 \tab 38 \tab 39 \tab - \tab 1819 \cr
+   Total \tab 1083 \tab 40 \tab 32 \tab 21 \tab 9 \tab 25 \tab 107 \tab 30 \tab 48 \tab 31 \tab 9 \tab 7 \tab 12 \tab 18 \tab 46 \tab 224 \tab 38 \tab 39 \tab 0 \tab 1819 \cr
 }
 }
 

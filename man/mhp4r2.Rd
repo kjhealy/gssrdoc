@@ -46,10 +46,10 @@ Question (If present) Second relationship with fourth person.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7107/vshow}{GSS Data Explorer page for \code{mhp4r2}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab friend \tab member of religious community \tab no answer \tab Total \cr
-   2018 \tab 2190 \tab 1 \tab 1 \tab 156 \tab 2348 \cr
-   Total \tab 2190 \tab 1 \tab 1 \tab 156 \tab 2348 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab friend \tab member of religious community \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 2190 \tab 1 \tab 1 \tab 156 \tab - \tab 2348 \cr
+   Total \tab 2190 \tab 1 \tab 1 \tab 156 \tab 0 \tab 2348 \cr
 }
 }
 

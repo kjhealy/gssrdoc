@@ -33,10 +33,10 @@ Question If you were laid off, how easy do you think it would be for you to find
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3883/vshow}{GSS Data Explorer page for \code{findnwjb}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very easy \tab somewhat easy \tab not at all easy \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1165 \tab 181 \tab 280 \tab 370 \tab 14 \tab 13 \tab 2023 \cr
-   Total \tab 1165 \tab 181 \tab 280 \tab 370 \tab 14 \tab 13 \tab 2023 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very easy \tab somewhat easy \tab not at all easy \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1165 \tab 181 \tab 280 \tab 370 \tab 14 \tab 13 \tab - \tab 2023 \cr
+   Total \tab 1165 \tab 181 \tab 280 \tab 370 \tab 14 \tab 13 \tab 0 \tab 2023 \cr
 }
 }
 

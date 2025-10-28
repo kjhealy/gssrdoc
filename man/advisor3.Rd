@@ -36,12 +36,12 @@ J3. Third Person is Advisor
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/922/vshow}{GSS Data Explorer page for \code{advisor3}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab don't know \tab Total \cr
-   1985 \tab 599 \tab 143 \tab 788 \tab 4 \tab - \tab 1534 \cr
-   1987 \tab 735 \tab 315 \tab 745 \tab 24 \tab - \tab 1819 \cr
-   2004 \tab 2240 \tab 95 \tab 429 \tab 47 \tab 1 \tab 2812 \cr
-   Total \tab 3574 \tab 553 \tab 1962 \tab 75 \tab 1 \tab 6165 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1985 \tab 599 \tab 143 \tab 788 \tab 4 \tab - \tab - \tab 1534 \cr
+   1987 \tab 735 \tab 315 \tab 745 \tab 24 \tab - \tab - \tab 1819 \cr
+   2004 \tab 2240 \tab 95 \tab 429 \tab 47 \tab 1 \tab - \tab 2812 \cr
+   Total \tab 3574 \tab 553 \tab 1962 \tab 75 \tab 1 \tab 0 \tab 6165 \cr
 }
 }
 

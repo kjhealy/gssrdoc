@@ -32,10 +32,10 @@ Question Do you have any condition that substantially limits one or more basic p
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3714/vshow}{GSS Data Explorer page for \code{disabld3}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 1714 \tab 482 \tab 2300 \tab 1 \tab 13 \tab 4510 \cr
-   Total \tab 1714 \tab 482 \tab 2300 \tab 1 \tab 13 \tab 4510 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 1714 \tab 482 \tab 2300 \tab 1 \tab 13 \tab - \tab 4510 \cr
+   Total \tab 1714 \tab 482 \tab 2300 \tab 1 \tab 13 \tab 0 \tab 4510 \cr
 }
 }
 

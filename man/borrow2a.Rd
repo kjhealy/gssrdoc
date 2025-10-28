@@ -50,10 +50,10 @@ B. And who would you turn to second if you needed to borrow a large sum of money
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4217/vshow}{GSS Data Explorer page for \code{borrow2a}}.
 
-Counts by year:\tabular{lllllllllllllllllllllll}{
-   year \tab iap \tab husband, wife, partner \tab mother \tab father \tab daughter \tab son \tab sister \tab brother \tab other blood relative \tab other in-law relative \tab close friend \tab neighbor \tab someone you work with \tab employer \tab government or social services agency \tab bank or credit union \tab private money lender \tab someone else \tab no one \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1616 \tab 42 \tab 123 \tab 124 \tab 30 \tab 32 \tab 78 \tab 79 \tab 63 \tab 70 \tab 96 \tab 3 \tab 7 \tab 7 \tab 5 \tab 33 \tab 17 \tab 86 \tab 235 \tab 9 \tab 10 \tab 2765 \cr
-   Total \tab 1616 \tab 42 \tab 123 \tab 124 \tab 30 \tab 32 \tab 78 \tab 79 \tab 63 \tab 70 \tab 96 \tab 3 \tab 7 \tab 7 \tab 5 \tab 33 \tab 17 \tab 86 \tab 235 \tab 9 \tab 10 \tab 2765 \cr
+Counts by year:\tabular{llllllllllllllllllllllll}{
+   year \tab iap \tab husband, wife, partner \tab mother \tab father \tab daughter \tab son \tab sister \tab brother \tab other blood relative \tab other in-law relative \tab close friend \tab neighbor \tab someone you work with \tab employer \tab government or social services agency \tab bank or credit union \tab private money lender \tab someone else \tab no one \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1616 \tab 42 \tab 123 \tab 124 \tab 30 \tab 32 \tab 78 \tab 79 \tab 63 \tab 70 \tab 96 \tab 3 \tab 7 \tab 7 \tab 5 \tab 33 \tab 17 \tab 86 \tab 235 \tab 9 \tab 10 \tab - \tab 2765 \cr
+   Total \tab 1616 \tab 42 \tab 123 \tab 124 \tab 30 \tab 32 \tab 78 \tab 79 \tab 63 \tab 70 \tab 96 \tab 3 \tab 7 \tab 7 \tab 5 \tab 33 \tab 17 \tab 86 \tab 235 \tab 9 \tab 10 \tab 0 \tab 2765 \cr
 }
 }
 

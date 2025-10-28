@@ -32,11 +32,11 @@ Question Have you heard or read about the Equal Rights Amendment?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/707/vshow}{GSS Data Explorer page for \code{eraread}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1977 \tab - \tab 1321 \tab 188 \tab 18 \tab 3 \tab 1530 \cr
-   1982 \tab - \tab 1676 \tab 138 \tab 45 \tab 1 \tab 1860 \cr
-   Total \tab 0 \tab 2997 \tab 326 \tab 63 \tab 4 \tab 3390 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1977 \tab - \tab 1321 \tab 188 \tab 18 \tab 3 \tab - \tab 1530 \cr
+   1982 \tab - \tab 1676 \tab 138 \tab 45 \tab 1 \tab - \tab 1860 \cr
+   Total \tab 0 \tab 2997 \tab 326 \tab 63 \tab 4 \tab 0 \tab 3390 \cr
 }
 }
 

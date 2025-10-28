@@ -22,11 +22,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2000  |2657 |4   |65  |91        |2817  |
-#'  |2002  |2647 |4   |67  |47        |2765  |
-#'  |Total |5304 |8   |132 |138       |5582  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2000  |2657 |4   |65  |91        |-                          |2817  |
+#'  |2002  |2647 |4   |67  |47        |-                          |2765  |
+#'  |Total |5304 |8   |132 |138       |0                          |5582  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -62,11 +62,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |2000  |2657 |57  |11 |92        |2817  |
-#'  |2002  |2647 |61  |10 |47        |2765  |
-#'  |Total |5304 |118 |21 |139       |5582  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |2000  |2657 |57  |11 |92        |-                          |2817  |
+#'  |2002  |2647 |61  |10 |47        |-                          |2765  |
+#'  |Total |5304 |118 |21 |139       |0                          |5582  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -102,11 +102,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2000  |2657 |7   |62  |91        |2817  |
-#'  |2002  |2647 |6   |65  |47        |2765  |
-#'  |Total |5304 |13  |127 |138       |5582  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2000  |2657 |7   |62  |91        |-                          |2817  |
+#'  |2002  |2647 |6   |65  |47        |-                          |2765  |
+#'  |Total |5304 |13  |127 |138       |0                          |5582  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -143,10 +143,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2000  |2075 |457 |197 |88        |2817  |
-#'  |Total |2075 |457 |197 |88        |2817  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2000  |2075 |457 |197 |88        |-                          |2817  |
+#'  |Total |2075 |457 |197 |88        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -183,10 +183,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2000  |2075 |486 |168 |88        |2817  |
-#'  |Total |2075 |486 |168 |88        |2817  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2000  |2075 |486 |168 |88        |-                          |2817  |
+#'  |Total |2075 |486 |168 |88        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -223,10 +223,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2000  |2075 |303 |351 |88        |2817  |
-#'  |Total |2075 |303 |351 |88        |2817  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2000  |2075 |303 |351 |88        |-                          |2817  |
+#'  |Total |2075 |303 |351 |88        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -263,10 +263,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2000  |2075 |416 |242 |84        |2817  |
-#'  |Total |2075 |416 |242 |84        |2817  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2000  |2075 |416 |242 |84        |-                          |2817  |
+#'  |Total |2075 |416 |242 |84        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -303,10 +303,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2000  |2075 |544 |119 |79        |2817  |
-#'  |Total |2075 |544 |119 |79        |2817  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2000  |2075 |544 |119 |79        |-                          |2817  |
+#'  |Total |2075 |544 |119 |79        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -343,10 +343,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2000  |2075 |79  |576 |87        |2817  |
-#'  |Total |2075 |79  |576 |87        |2817  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2000  |2075 |79  |576 |87        |-                          |2817  |
+#'  |Total |2075 |79  |576 |87        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society
@@ -383,10 +383,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |2000  |2075 |570 |85 |87        |2817  |
-#'  |Total |2075 |570 |85 |87        |2817  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |2000  |2075 |570 |85 |87        |-                          |2817  |
+#'  |Total |2075 |570 |85 |87        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Information Society

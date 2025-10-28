@@ -35,10 +35,10 @@ B. Formal on-the-job training where you work now.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1369/vshow}{GSS Data Explorer page for \code{training}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 605 \tab 418 \tab 244 \tab 113 \tab 124 \tab 4 \tab 9 \tab 1517 \cr
-   Total \tab 605 \tab 418 \tab 244 \tab 113 \tab 124 \tab 4 \tab 9 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 605 \tab 418 \tab 244 \tab 113 \tab 124 \tab 4 \tab 9 \tab - \tab 1517 \cr
+   Total \tab 605 \tab 418 \tab 244 \tab 113 \tab 124 \tab 4 \tab 9 \tab 0 \tab 1517 \cr
 }
 }
 

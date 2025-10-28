@@ -1,3 +1,7 @@
+# gssrdoc 0.8.2
+
+- Update to harmonize with the 1972-2024 Release 2 version of the data (October 2025). 
+
 # gssrdoc 0.8.1
 
 - Replace `gss_dict` with improved `gss_doc`.

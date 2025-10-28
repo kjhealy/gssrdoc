@@ -34,15 +34,15 @@ Question How often are you allowed to change your starting and quitting times on
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2766/vshow}{GSS Data Explorer page for \code{chngtme}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 969 \tab 583 \tab 380 \tab 246 \tab 559 \tab 12 \tab 16 \tab 2765 \cr
-   2006 \tab 2776 \tab 598 \tab 319 \tab 260 \tab 536 \tab 8 \tab 13 \tab 4510 \cr
-   2010 \tab 857 \tab 372 \tab 225 \tab 192 \tab 364 \tab 7 \tab 27 \tab 2044 \cr
-   2014 \tab 1288 \tab 412 \tab 271 \tab 201 \tab 358 \tab 3 \tab 5 \tab 2538 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   2022 \tab 3544 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 11782 \tab 1965 \tab 1195 \tab 899 \tab 1817 \tab 30 \tab 61 \tab 17749 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab - \tab 583 \tab 380 \tab 246 \tab 559 \tab 12 \tab 969 \tab 16 \tab - \tab 2765 \cr
+   2006 \tab - \tab 598 \tab 319 \tab 260 \tab 536 \tab 8 \tab 2776 \tab 13 \tab - \tab 4510 \cr
+   2010 \tab - \tab 372 \tab 225 \tab 192 \tab 364 \tab 7 \tab 857 \tab 27 \tab - \tab 2044 \cr
+   2014 \tab - \tab 412 \tab 271 \tab 201 \tab 358 \tab 3 \tab 1288 \tab 5 \tab - \tab 2538 \cr
+   2018 \tab - \tab 439 \tab 311 \tab 234 \tab 426 \tab 7 \tab 921 \tab 10 \tab - \tab 2348 \cr
+   2022 \tab - \tab 675 \tab 413 \tab 323 \tab 549 \tab 12 \tab 1540 \tab 15 \tab 17 \tab 3544 \cr
+   Total \tab 0 \tab 3079 \tab 1919 \tab 1456 \tab 2792 \tab 49 \tab 8351 \tab 86 \tab 17 \tab 17749 \cr
 }
 }
 

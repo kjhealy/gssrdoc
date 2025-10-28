@@ -32,10 +32,10 @@ Question Was there ever a time when you drank any alcoholic beverages?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3097/vshow}{GSS Data Explorer page for \code{evdrink}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2004 \tab 1996 \tab 669 \tab 139 \tab 8 \tab 2812 \cr
-   Total \tab 1996 \tab 669 \tab 139 \tab 8 \tab 2812 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1996 \tab 669 \tab 139 \tab 8 \tab - \tab 2812 \cr
+   Total \tab 1996 \tab 669 \tab 139 \tab 8 \tab 0 \tab 2812 \cr
 }
 }
 

@@ -34,11 +34,11 @@ Question I. People at work shout or yell at me in a hostile manner.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3006/vshow}{GSS Data Explorer page for \code{shout}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 945 \tab 31 \tab 122 \tab 241 \tab 1413 \tab 18 \tab 42 \tab 2812 \cr
-   2012 \tab 795 \tab 30 \tab 77 \tab 189 \tab 837 \tab 14 \tab 32 \tab 1974 \cr
-   Total \tab 1740 \tab 61 \tab 199 \tab 430 \tab 2250 \tab 32 \tab 74 \tab 4786 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 945 \tab 31 \tab 122 \tab 241 \tab 1413 \tab 18 \tab 42 \tab - \tab 2812 \cr
+   2012 \tab 795 \tab 30 \tab 77 \tab 189 \tab 837 \tab 14 \tab 32 \tab - \tab 1974 \cr
+   Total \tab 1740 \tab 61 \tab 199 \tab 430 \tab 2250 \tab 32 \tab 74 \tab 0 \tab 4786 \cr
 }
 }
 

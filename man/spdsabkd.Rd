@@ -37,10 +37,10 @@ G. Services for disabled and chronically ill children…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5128/vshow}{GSS Data Explorer page for \code{spdsabkd}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab Total \cr
-   1990 \tab 155 \tab 293 \tab 573 \tab 274 \tab 18 \tab 7 \tab 32 \tab 20 \tab 1372 \cr
-   Total \tab 155 \tab 293 \tab 573 \tab 274 \tab 18 \tab 7 \tab 32 \tab 20 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab spend much more \tab spend more \tab spend same \tab spend less \tab spend much less \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 155 \tab 293 \tab 573 \tab 274 \tab 18 \tab 7 \tab 32 \tab 20 \tab - \tab 1372 \cr
+   Total \tab 155 \tab 293 \tab 573 \tab 274 \tab 18 \tab 7 \tab 32 \tab 20 \tab 0 \tab 1372 \cr
 }
 }
 

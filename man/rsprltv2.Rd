@@ -32,10 +32,10 @@ Question Consider another couple living with their two children who has enough s
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7779/vshow}{GSS Data Explorer page for \code{rsprltv2}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab yes, they definitely should \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab no, they definitely should not \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2386 \tab 233 \tab 104 \tab 145 \tab 227 \tab 98 \tab 69 \tab 118 \tab 145 \tab 8 \tab 11 \tab 3544 \cr
-   Total \tab 2386 \tab 233 \tab 104 \tab 145 \tab 227 \tab 98 \tab 69 \tab 118 \tab 145 \tab 8 \tab 11 \tab 3544 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab not available in this year \tab yes, they definitely should \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab no, they definitely should not \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 233 \tab 104 \tab 145 \tab 227 \tab 98 \tab 69 \tab 118 \tab 145 \tab 2386 \tab 8 \tab 11 \tab 3544 \cr
+   Total \tab 0 \tab 233 \tab 104 \tab 145 \tab 227 \tab 98 \tab 69 \tab 118 \tab 145 \tab 2386 \tab 8 \tab 11 \tab 3544 \cr
 }
 }
 

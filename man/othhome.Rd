@@ -32,10 +32,10 @@ Question A. Do you speak (LANGUAGE MENTIONED IN OTHLANG1) at home?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2301/vshow}{GSS Data Explorer page for \code{othhome}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2006 \tab 3837 \tab 258 \tab 413 \tab 2 \tab 4510 \cr
-   Total \tab 3837 \tab 258 \tab 413 \tab 2 \tab 4510 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3837 \tab 258 \tab 413 \tab 2 \tab - \tab 4510 \cr
+   Total \tab 3837 \tab 258 \tab 413 \tab 2 \tab 0 \tab 4510 \cr
 }
 }
 

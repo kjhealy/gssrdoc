@@ -39,10 +39,10 @@ B. About how long would it take you to get to where your sister lives? Think of 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4137/vshow}{GSS Data Explorer page for \code{sistime}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab lt 15 min \tab 15-30 min \tab 30 min-1 hr \tab 1-2 hr \tab 2-3 hr \tab 3-5 hr \tab 5-12 hr \tab 12+ hr \tab don't know \tab no answer \tab Total \cr
-   1986 \tab 439 \tab 207 \tab 182 \tab 135 \tab 84 \tab 60 \tab 76 \tab 117 \tab 155 \tab 3 \tab 12 \tab 1470 \cr
-   Total \tab 439 \tab 207 \tab 182 \tab 135 \tab 84 \tab 60 \tab 76 \tab 117 \tab 155 \tab 3 \tab 12 \tab 1470 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab lt 15 min \tab 15-30 min \tab 30 min-1 hr \tab 1-2 hr \tab 2-3 hr \tab 3-5 hr \tab 5-12 hr \tab 12+ hr \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 439 \tab 207 \tab 182 \tab 135 \tab 84 \tab 60 \tab 76 \tab 117 \tab 155 \tab 3 \tab 12 \tab - \tab 1470 \cr
+   Total \tab 439 \tab 207 \tab 182 \tab 135 \tab 84 \tab 60 \tab 76 \tab 117 \tab 155 \tab 3 \tab 12 \tab 0 \tab 1470 \cr
 }
 }
 

@@ -35,13 +35,13 @@ A. Financial and credit history
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5208/vshow}{GSS Data Explorer page for \code{askfinan}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 801 \tab 388 \tab 159 \tab 89 \tab 26 \tab 11 \tab 2992 \cr
-   1996 \tab 1444 \tab 743 \tab 413 \tab 152 \tab 113 \tab 35 \tab 4 \tab 2904 \cr
-   1998 \tab 1445 \tab 612 \tab 416 \tab 185 \tab 121 \tab 45 \tab 8 \tab 2832 \cr
-   2000 \tab 1398 \tab 693 \tab 393 \tab 159 \tab 134 \tab 33 \tab 7 \tab 2817 \cr
-   Total \tab 5805 \tab 2849 \tab 1610 \tab 655 \tab 457 \tab 139 \tab 30 \tab 11545 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 801 \tab 388 \tab 159 \tab 89 \tab 26 \tab 11 \tab - \tab 2992 \cr
+   1996 \tab 1444 \tab 743 \tab 413 \tab 152 \tab 113 \tab 35 \tab 4 \tab - \tab 2904 \cr
+   1998 \tab 1445 \tab 612 \tab 416 \tab 185 \tab 121 \tab 45 \tab 8 \tab - \tab 2832 \cr
+   2000 \tab 1398 \tab 693 \tab 393 \tab 159 \tab 134 \tab 33 \tab 7 \tab - \tab 2817 \cr
+   Total \tab 5805 \tab 2849 \tab 1610 \tab 655 \tab 457 \tab 139 \tab 30 \tab 0 \tab 11545 \cr
 }
 }
 

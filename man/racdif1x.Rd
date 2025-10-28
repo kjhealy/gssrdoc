@@ -32,10 +32,11 @@ Question
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7963/vshow}{GSS Data Explorer page for \code{racdif1x}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2339 \tab 672 \tab 484 \tab 42 \tab 5 \tab 2 \tab 3544 \cr
-   Total \tab 2339 \tab 672 \tab 484 \tab 42 \tab 5 \tab 2 \tab 3544 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab not available in this year \tab yes \tab no \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 672 \tab 484 \tab 42 \tab 2339 \tab 5 \tab 2 \tab 3544 \cr
+   2024 \tab - \tab 564 \tab 505 \tab 29 \tab 2200 \tab 1 \tab 10 \tab 3309 \cr
+   Total \tab 0 \tab 1236 \tab 989 \tab 71 \tab 4539 \tab 6 \tab 12 \tab 6853 \cr
 }
 }
 

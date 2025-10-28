@@ -34,37 +34,37 @@ Question Case recovered
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5980/vshow}{GSS Data Explorer page for \code{found}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab not found \tab found \tab iap \tab Total \cr
-   1972 \tab 911 \tab 702 \tab - \tab 1613 \cr
-   1973 \tab 270 \tab 1234 \tab - \tab 1504 \cr
-   1974 \tab 267 \tab 1217 \tab - \tab 1484 \cr
-   1975 \tab 514 \tab 976 \tab - \tab 1490 \cr
-   1976 \tab 269 \tab 1230 \tab - \tab 1499 \cr
-   1977 \tab 713 \tab 817 \tab - \tab 1530 \cr
-   1978 \tab 14 \tab 1518 \tab - \tab 1532 \cr
-   1980 \tab 175 \tab 1293 \tab - \tab 1468 \cr
-   1982 \tab 164 \tab 1696 \tab - \tab 1860 \cr
-   1983 \tab 124 \tab 1475 \tab - \tab 1599 \cr
-   1984 \tab 15 \tab 1458 \tab - \tab 1473 \cr
-   1985 \tab 238 \tab 1296 \tab - \tab 1534 \cr
-   1986 \tab 45 \tab 1425 \tab - \tab 1470 \cr
-   1987 \tab 308 \tab 1511 \tab - \tab 1819 \cr
-   1988 \tab 21 \tab 1460 \tab - \tab 1481 \cr
-   1989 \tab 117 \tab 1420 \tab - \tab 1537 \cr
-   1990 \tab 14 \tab 1358 \tab - \tab 1372 \cr
-   1991 \tab 18 \tab 1499 \tab - \tab 1517 \cr
-   1993 \tab 61 \tab 1545 \tab - \tab 1606 \cr
-   1994 \tab 54 \tab 2938 \tab - \tab 2992 \cr
-   1996 \tab 21 \tab 2883 \tab - \tab 2904 \cr
-   1998 \tab 31 \tab 2801 \tab - \tab 2832 \cr
-   2000 \tab - \tab 2817 \tab - \tab 2817 \cr
-   2002 \tab - \tab 2765 \tab - \tab 2765 \cr
-   2004 \tab - \tab 2812 \tab - \tab 2812 \cr
-   2006 \tab - \tab 4510 \tab - \tab 4510 \cr
-   2008 \tab - \tab 2023 \tab - \tab 2023 \cr
-   2010 \tab - \tab 2044 \tab - \tab 2044 \cr
-   Total \tab 4364 \tab 50723 \tab 0 \tab 55087 \cr
+Counts by year:\tabular{llllll}{
+   year \tab not found \tab found \tab iap \tab not available in this year \tab Total \cr
+   1972 \tab 911 \tab 702 \tab - \tab - \tab 1613 \cr
+   1973 \tab 270 \tab 1234 \tab - \tab - \tab 1504 \cr
+   1974 \tab 267 \tab 1217 \tab - \tab - \tab 1484 \cr
+   1975 \tab 514 \tab 976 \tab - \tab - \tab 1490 \cr
+   1976 \tab 269 \tab 1230 \tab - \tab - \tab 1499 \cr
+   1977 \tab 713 \tab 817 \tab - \tab - \tab 1530 \cr
+   1978 \tab 14 \tab 1518 \tab - \tab - \tab 1532 \cr
+   1980 \tab 175 \tab 1293 \tab - \tab - \tab 1468 \cr
+   1982 \tab 164 \tab 1696 \tab - \tab - \tab 1860 \cr
+   1983 \tab 124 \tab 1475 \tab - \tab - \tab 1599 \cr
+   1984 \tab 15 \tab 1458 \tab - \tab - \tab 1473 \cr
+   1985 \tab 238 \tab 1296 \tab - \tab - \tab 1534 \cr
+   1986 \tab 45 \tab 1425 \tab - \tab - \tab 1470 \cr
+   1987 \tab 308 \tab 1511 \tab - \tab - \tab 1819 \cr
+   1988 \tab 21 \tab 1460 \tab - \tab - \tab 1481 \cr
+   1989 \tab 117 \tab 1420 \tab - \tab - \tab 1537 \cr
+   1990 \tab 14 \tab 1358 \tab - \tab - \tab 1372 \cr
+   1991 \tab 18 \tab 1499 \tab - \tab - \tab 1517 \cr
+   1993 \tab 61 \tab 1545 \tab - \tab - \tab 1606 \cr
+   1994 \tab 54 \tab 2938 \tab - \tab - \tab 2992 \cr
+   1996 \tab 21 \tab 2883 \tab - \tab - \tab 2904 \cr
+   1998 \tab 31 \tab 2801 \tab - \tab - \tab 2832 \cr
+   2000 \tab - \tab 2817 \tab - \tab - \tab 2817 \cr
+   2002 \tab - \tab 2765 \tab - \tab - \tab 2765 \cr
+   2004 \tab - \tab 2812 \tab - \tab - \tab 2812 \cr
+   2006 \tab - \tab 4510 \tab - \tab - \tab 4510 \cr
+   2008 \tab - \tab 2023 \tab - \tab - \tab 2023 \cr
+   2010 \tab - \tab 2044 \tab - \tab - \tab 2044 \cr
+   Total \tab 4364 \tab 50723 \tab 0 \tab 0 \tab 55087 \cr
 }
 }
 

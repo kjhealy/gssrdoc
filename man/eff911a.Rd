@@ -36,10 +36,10 @@ Would you say 1, not at all effective, 5, extremely effective, or you may use an
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3844/vshow}{GSS Data Explorer page for \code{eff911a}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 1 not at all effective \tab 2 \tab 3 \tab 4 \tab 5 extremely effective \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 671 \tab 167 \tab 135 \tab 430 \tab 197 \tab 351 \tab 67 \tab 5 \tab 2023 \cr
-   Total \tab 671 \tab 167 \tab 135 \tab 430 \tab 197 \tab 351 \tab 67 \tab 5 \tab 2023 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 1 not at all effective \tab 2 \tab 3 \tab 4 \tab 5 extremely effective \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 671 \tab 167 \tab 135 \tab 430 \tab 197 \tab 351 \tab 67 \tab 5 \tab - \tab 2023 \cr
+   Total \tab 671 \tab 167 \tab 135 \tab 430 \tab 197 \tab 351 \tab 67 \tab 5 \tab 0 \tab 2023 \cr
 }
 }
 

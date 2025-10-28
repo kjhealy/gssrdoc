@@ -36,10 +36,10 @@ B. ...because s/he is talking about killing him or herself.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2241/vshow}{GSS Data Explorer page for \code{prozkid3}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1635 \tab 237 \tab 243 \tab 180 \tab 78 \tab 310 \tab 136 \tab 13 \tab 2832 \cr
-   Total \tab 1635 \tab 237 \tab 243 \tab 180 \tab 78 \tab 310 \tab 136 \tab 13 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1635 \tab 237 \tab 243 \tab 180 \tab 78 \tab 310 \tab 136 \tab 13 \tab - \tab 2832 \cr
+   Total \tab 1635 \tab 237 \tab 243 \tab 180 \tab 78 \tab 310 \tab 136 \tab 13 \tab 0 \tab 2832 \cr
 }
 }
 

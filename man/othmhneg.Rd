@@ -35,10 +35,11 @@ Question Thinking about other people you know personally outside of your family,
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7146/vshow}{GSS Data Explorer page for \code{othmhneg}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very much \tab somewhat \tab not very much \tab not at all \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 73 \tab 351 \tab 399 \tab 250 \tab 51 \tab 49 \tab 2348 \cr
-   Total \tab 1175 \tab 73 \tab 351 \tab 399 \tab 250 \tab 51 \tab 49 \tab 2348 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very much \tab somewhat \tab not very much \tab not at all \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2018 \tab 1175 \tab 73 \tab 351 \tab 399 \tab 250 \tab 51 \tab 49 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1693 \tab 132 \tab 522 \tab 497 \tab 363 \tab 64 \tab 10 \tab - \tab 28 \tab 3309 \cr
+   Total \tab 2868 \tab 205 \tab 873 \tab 896 \tab 613 \tab 115 \tab 59 \tab 0 \tab 28 \tab 5657 \cr
 }
 }
 

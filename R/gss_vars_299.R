@@ -25,10 +25,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |2362 |93                |170             |79                  |45                    |40         |28        |2817  |
-#'  |Total |2362 |93                |170             |79                  |45                    |40         |28        |2817  |
+#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2362 |93                |170             |79                  |45                    |40         |28        |-                          |2817  |
+#'  |Total |2362 |93                |170             |79                  |45                    |40         |28        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -67,10 +67,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |2362 |151               |190             |43                  |20                    |26         |25        |2817  |
-#'  |Total |2362 |151               |190             |43                  |20                    |26         |25        |2817  |
+#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2362 |151               |190             |43                  |20                    |26         |25        |-                          |2817  |
+#'  |Total |2362 |151               |190             |43                  |20                    |26         |25        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -109,10 +109,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |2339 |200               |212             |32                  |11                    |8          |15        |2817  |
-#'  |Total |2339 |200               |212             |32                  |11                    |8          |15        |2817  |
+#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2339 |200               |212             |32                  |11                    |8          |15        |-                          |2817  |
+#'  |Total |2339 |200               |212             |32                  |11                    |8          |15        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -151,10 +151,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |2339 |135               |183             |65                  |29                    |29         |37        |2817  |
-#'  |Total |2339 |135               |183             |65                  |29                    |29         |37        |2817  |
+#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2339 |135               |183             |65                  |29                    |29         |37        |-                          |2817  |
+#'  |Total |2339 |135               |183             |65                  |29                    |29         |37        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -193,10 +193,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |2339 |122               |246             |58                  |16                    |19         |17        |2817  |
-#'  |Total |2339 |122               |246             |58                  |16                    |19         |17        |2817  |
+#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2339 |122               |246             |58                  |16                    |19         |17        |-                          |2817  |
+#'  |Total |2339 |122               |246             |58                  |16                    |19         |17        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -235,10 +235,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |2339 |129               |182             |81                  |34                    |31         |21        |2817  |
-#'  |Total |2339 |129               |182             |81                  |34                    |31         |21        |2817  |
+#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2339 |129               |182             |81                  |34                    |31         |21        |-                          |2817  |
+#'  |Total |2339 |129               |182             |81                  |34                    |31         |21        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -277,10 +277,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |2339 |148               |186             |54                  |31                    |32         |27        |2817  |
-#'  |Total |2339 |148               |186             |54                  |31                    |32         |27        |2817  |
+#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2339 |148               |186             |54                  |31                    |32         |27        |-                          |2817  |
+#'  |Total |2339 |148               |186             |54                  |31                    |32         |27        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -319,10 +319,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |2331 |137               |219             |53                  |26                    |24         |27        |2817  |
-#'  |Total |2331 |137               |219             |53                  |26                    |24         |27        |2817  |
+#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2331 |137               |219             |53                  |26                    |24         |27        |-                          |2817  |
+#'  |Total |2331 |137               |219             |53                  |26                    |24         |27        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -361,10 +361,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |2331 |134               |207             |64                  |19                    |33         |29        |2817  |
-#'  |Total |2331 |134               |207             |64                  |19                    |33         |29        |2817  |
+#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2331 |134               |207             |64                  |19                    |33         |29        |-                          |2817  |
+#'  |Total |2331 |134               |207             |64                  |19                    |33         |29        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status
@@ -403,10 +403,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:-----|
-#'  |2000  |2331 |114               |186             |108                 |20                    |30         |28        |2817  |
-#'  |Total |2331 |114               |186             |108                 |20                    |30         |28        |2817  |
+#'  |year  |iap  |definitely expect |probably expect |probably not expect |definitely not expect |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------|:---------------|:-------------------|:---------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2331 |114               |186             |108                 |20                    |30         |28        |-                          |2817  |
+#'  |Total |2331 |114               |186             |108                 |20                    |30         |28        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Health Status

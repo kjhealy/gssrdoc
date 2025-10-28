@@ -32,10 +32,10 @@ Question Have you heard or read of the recent Supreme Court decision concerning 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/608/vshow}{GSS Data Explorer page for \code{aborct}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1973 \tab - \tab 1288 \tab 204 \tab 11 \tab 1 \tab 1504 \cr
-   Total \tab 0 \tab 1288 \tab 204 \tab 11 \tab 1 \tab 1504 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1973 \tab - \tab 1288 \tab 204 \tab 11 \tab 1 \tab - \tab 1504 \cr
+   Total \tab 0 \tab 1288 \tab 204 \tab 11 \tab 1 \tab 0 \tab 1504 \cr
 }
 }
 

@@ -34,11 +34,11 @@ very well, fairly well, or not well?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/788/vshow}{GSS Data Explorer page for \code{milvolok}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very well \tab fairly well \tab not well \tab don't know \tab no answer \tab Total \cr
-   1982 \tab - \tab 226 \tab 893 \tab 593 \tab 131 \tab 17 \tab 1860 \cr
-   1984 \tab - \tab 273 \tab 883 \tab 224 \tab 69 \tab 24 \tab 1473 \cr
-   Total \tab 0 \tab 499 \tab 1776 \tab 817 \tab 200 \tab 41 \tab 3333 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very well \tab fairly well \tab not well \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab - \tab 226 \tab 893 \tab 593 \tab 131 \tab 17 \tab - \tab 1860 \cr
+   1984 \tab - \tab 273 \tab 883 \tab 224 \tab 69 \tab 24 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 499 \tab 1776 \tab 817 \tab 200 \tab 41 \tab 0 \tab 3333 \cr
 }
 }
 

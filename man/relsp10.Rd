@@ -55,7 +55,7 @@ J. Relationship of tenth person to spouse?
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5462/vshow}{GSS Data Explorer page for \code{relsp10}}.
 
 Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab child, not specified \tab grandchild, great-grandchild \tab natural/biological child \tab no answer \tab stepchild \tab adopted child \tab not available in this release \tab Total \cr
+   year \tab iap \tab child, not specified \tab grandchild, great-grandchild \tab natural/biological child \tab no answer \tab stepchild \tab adopted child \tab not available in this year \tab Total \cr
    2000 \tab 2812 \tab 1 \tab 2 \tab 1 \tab 1 \tab - \tab - \tab - \tab 2817 \cr
    2002 \tab 2764 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 2765 \cr
    2004 \tab 2811 \tab - \tab - \tab 1 \tab - \tab - \tab - \tab - \tab 2812 \cr
@@ -66,8 +66,8 @@ Counts by year:\tabular{llllllllll}{
    2014 \tab 2536 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 2538 \cr
    2016 \tab 2864 \tab 2 \tab - \tab - \tab - \tab - \tab 1 \tab - \tab 2867 \cr
    2018 \tab 2345 \tab 1 \tab 1 \tab - \tab 1 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   Total \tab 26673 \tab 7 \tab 8 \tab 4 \tab 4 \tab 1 \tab 1 \tab 4032 \tab 30730 \cr
+   2021 \tab 4030 \tab - \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 4032 \cr
+   Total \tab 30703 \tab 7 \tab 9 \tab 5 \tab 4 \tab 1 \tab 1 \tab 0 \tab 30730 \cr
 }
 }
 

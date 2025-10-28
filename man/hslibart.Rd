@@ -36,10 +36,10 @@ D. History, literature, and the arts.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4018/vshow}{GSS Data Explorer page for \code{hslibart}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 250 \tab 220 \tab 156 \tab 30 \tab 3 \tab 7 \tab 11 \tab 1534 \cr
-   Total \tab 857 \tab 250 \tab 220 \tab 156 \tab 30 \tab 3 \tab 7 \tab 11 \tab 1534 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 250 \tab 220 \tab 156 \tab 30 \tab 3 \tab 7 \tab 11 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 250 \tab 220 \tab 156 \tab 30 \tab 3 \tab 7 \tab 11 \tab 0 \tab 1534 \cr
 }
 }
 

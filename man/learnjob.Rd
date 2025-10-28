@@ -41,10 +41,10 @@ Question There are many ways people hear about jobs - from other people, from ad
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4224/vshow}{GSS Data Explorer page for \code{learnjob}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab i have never worked for pay \tab from parents, brothers or sisters \tab from other relatives \tab from a close friend \tab from an acquaintance \tab from a public employment agency or service \tab from a private employment agency \tab from a school or university placement office \tab from an advertisement or a sign \tab the employer contacted me about a job \tab i just called them or went there to ask for work \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1616 \tab 18 \tab 58 \tab 56 \tab 218 \tab 145 \tab 62 \tab 24 \tab 55 \tab 177 \tab 103 \tab 179 \tab 29 \tab 25 \tab 2765 \cr
-   Total \tab 1616 \tab 18 \tab 58 \tab 56 \tab 218 \tab 145 \tab 62 \tab 24 \tab 55 \tab 177 \tab 103 \tab 179 \tab 29 \tab 25 \tab 2765 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab i have never worked for pay \tab from parents, brothers or sisters \tab from other relatives \tab from a close friend \tab from an acquaintance \tab from a public employment agency or service \tab from a private employment agency \tab from a school or university placement office \tab from an advertisement or a sign \tab the employer contacted me about a job \tab i just called them or went there to ask for work \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1616 \tab 18 \tab 58 \tab 56 \tab 218 \tab 145 \tab 62 \tab 24 \tab 55 \tab 177 \tab 103 \tab 179 \tab 29 \tab 25 \tab - \tab 2765 \cr
+   Total \tab 1616 \tab 18 \tab 58 \tab 56 \tab 218 \tab 145 \tab 62 \tab 24 \tab 55 \tab 177 \tab 103 \tab 179 \tab 29 \tab 25 \tab 0 \tab 2765 \cr
 }
 }
 

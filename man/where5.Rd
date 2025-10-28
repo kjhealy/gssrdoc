@@ -47,7 +47,7 @@ Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at col
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5361/vshow}{GSS Data Explorer page for \code{where5}}.
 
 Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab another household \tab no answer \tab other, don't know \tab traveling \tab institution \tab not available in this release \tab Total \cr
+   year \tab iap \tab another household \tab no answer \tab other, don't know \tab traveling \tab institution \tab not available in this year \tab Total \cr
    1975 \tab 1482 \tab 7 \tab 1 \tab - \tab - \tab - \tab - \tab 1490 \cr
    1976 \tab 1498 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
    1977 \tab 1526 \tab 4 \tab - \tab - \tab - \tab - \tab - \tab 1530 \cr
@@ -78,8 +78,8 @@ Counts by year:\tabular{lllllllll}{
    2016 \tab 2860 \tab 3 \tab - \tab 1 \tab - \tab 3 \tab - \tab 2867 \cr
    2018 \tab 2343 \tab 1 \tab 2 \tab - \tab 1 \tab 1 \tab - \tab 2348 \cr
    2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
-   Total \tab 60094 \tab 62 \tab 12 \tab 5 \tab 12 \tab 28 \tab 7576 \tab 67789 \cr
+   2022 \tab 3541 \tab 1 \tab - \tab - \tab 1 \tab 1 \tab - \tab 3544 \cr
+   Total \tab 63635 \tab 63 \tab 12 \tab 5 \tab 13 \tab 29 \tab 4032 \tab 67789 \cr
 }
 }
 

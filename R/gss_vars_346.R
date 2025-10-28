@@ -29,10 +29,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |never in the last 12 months |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:----------|:---------|:-----|
-#'  |2004  |2742 |4                           |5                          |12                          |11                                       |7                                           |10                         |11                   |1                          |2          |7         |2812  |
-#'  |Total |2742 |4                           |5                          |12                          |11                                       |7                                           |10                         |11                   |1                          |2          |7         |2812  |
+#'  |year  |iap  |never in the last 12 months |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2742 |4                           |5                          |12                          |11                                       |7                                           |10                         |11                   |1                          |2          |7         |-                          |2812  |
+#'  |Total |2742 |4                           |5                          |12                          |11                                       |7                                           |10                         |11                   |1                          |2          |7         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol
@@ -75,10 +75,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |never in the last 12 months |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |every day or nearly every day |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:-----------------------------|:----------|:---------|:-----|
-#'  |2004  |2673 |6                           |11                         |20                          |30                                       |13                                          |28                         |18                   |3                          |1                             |2          |7         |2812  |
-#'  |Total |2673 |6                           |11                         |20                          |30                                       |13                                          |28                         |18                   |3                          |1                             |2          |7         |2812  |
+#'  |year  |iap  |never in the last 12 months |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |every day or nearly every day |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:-----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2673 |6                           |11                         |20                          |30                                       |13                                          |28                         |18                   |3                          |1                             |2          |7         |-                          |2812  |
+#'  |Total |2673 |6                           |11                         |20                          |30                                       |13                                          |28                         |18                   |3                          |1                             |2          |7         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol
@@ -121,10 +121,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |never in the last 12 months |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |every day or nearly every day |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:-----------------------------|:----------|:---------|:-----|
-#'  |2004  |2543 |7                           |27                         |32                          |57                                       |26                                          |56                         |33                   |12                         |9                             |3          |7         |2812  |
-#'  |Total |2543 |7                           |27                         |32                          |57                                       |26                                          |56                         |33                   |12                         |9                             |3          |7         |2812  |
+#'  |year  |iap  |never in the last 12 months |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |every day or nearly every day |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:-----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2543 |7                           |27                         |32                          |57                                       |26                                          |56                         |33                   |12                         |9                             |3          |7         |-                          |2812  |
+#'  |Total |2543 |7                           |27                         |32                          |57                                       |26                                          |56                         |33                   |12                         |9                             |3          |7         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol
@@ -167,10 +167,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |never in the last 12 months |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |every day or nearly every day |don't know |no answer |Total |
-#'  |:-----|:----|:---------------------------|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:-----------------------------|:----------|:---------|:-----|
-#'  |2004  |2448 |133                         |37                         |32                          |43                                       |15                                          |37                         |31                   |16                         |7                             |6          |7         |2812  |
-#'  |Total |2448 |133                         |37                         |32                          |43                                       |15                                          |37                         |31                   |16                         |7                             |6          |7         |2812  |
+#'  |year  |iap  |never in the last 12 months |once in the last 12 months |twice in the last 12 months |three to six times in the last 12 months |seven to eleven times in the last 12 months |one to three times a month |once or twice a week |three or four times a week |every day or nearly every day |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------------------|:--------------------------|:---------------------------|:----------------------------------------|:-------------------------------------------|:--------------------------|:--------------------|:--------------------------|:-----------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2448 |133                         |37                         |32                          |43                                       |15                                          |37                         |31                   |16                         |7                             |6          |7         |-                          |2812  |
+#'  |Total |2448 |133                         |37                         |32                          |43                                       |15                                          |37                         |31                   |16                         |7                             |6          |7         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Women & Alcohol
@@ -206,10 +206,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2004  |2352 |239 |215 |1          |5         |2812  |
-#'  |Total |2352 |239 |215 |1          |5         |2812  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2352 |239 |215 |1          |5         |-                          |2812  |
+#'  |Total |2352 |239 |215 |1          |5         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -246,10 +246,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2004  |1340 |394 |1071 |1          |6         |2812  |
-#'  |Total |1340 |394 |1071 |1          |6         |2812  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |1340 |394 |1071 |1          |6         |-                          |2812  |
+#'  |Total |1340 |394 |1071 |1          |6         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -285,10 +285,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |2004  |2707 |19  |80 |6         |2812  |
-#'  |Total |2707 |19  |80 |6         |2812  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |2004  |2707 |19  |80 |6         |-                          |2812  |
+#'  |Total |2707 |19  |80 |6         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -324,10 +324,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |2004  |2666 |32  |108 |6         |2812  |
-#'  |Total |2666 |32  |108 |6         |2812  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |2004  |2666 |32  |108 |6         |-                          |2812  |
+#'  |Total |2666 |32  |108 |6         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -363,10 +363,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |no answer |Total |
-#'  |:-----|:----|:---|:--|:---------|:-----|
-#'  |2004  |2729 |10  |67 |6         |2812  |
-#'  |Total |2729 |10  |67 |6         |2812  |
+#'  |year  |iap  |yes |no |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:---------|:--------------------------|:-----|
+#'  |2004  |2729 |10  |67 |6         |-                          |2812  |
+#'  |Total |2729 |10  |67 |6         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks
@@ -402,10 +402,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
-#'  |2004  |2744 |8   |53 |1          |6         |2812  |
-#'  |Total |2744 |8   |53 |1          |6         |2812  |
+#'  |year  |iap  |yes |no |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2004  |2744 |8   |53 |1          |6         |-                          |2812  |
+#'  |Total |2744 |8   |53 |1          |6         |0                          |2812  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Voluntary Assocations/Social Networks

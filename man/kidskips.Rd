@@ -34,10 +34,10 @@ B. The child frequently skips school and the parents don't do anything about it.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4029/vshow}{GSS Data Explorer page for \code{kidskips}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab take no action \tab give warning \tab take child \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 26 \tab 586 \tab 41 \tab 11 \tab 13 \tab 1534 \cr
-   Total \tab 857 \tab 26 \tab 586 \tab 41 \tab 11 \tab 13 \tab 1534 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab take no action \tab give warning \tab take child \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 26 \tab 586 \tab 41 \tab 11 \tab 13 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 26 \tab 586 \tab 41 \tab 11 \tab 13 \tab 0 \tab 1534 \cr
 }
 }
 

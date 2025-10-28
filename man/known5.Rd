@@ -34,10 +34,10 @@ Question Have you known (NAME) for less than 3 years, 3 to 6 years, or more than
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/939/vshow}{GSS Data Explorer page for \code{known5}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab lt 3 years \tab 3-6 years \tab 6 years + \tab don't know \tab no answer \tab Total \cr
-   1985 \tab 1153 \tab 52 \tab 55 \tab 269 \tab 1 \tab 4 \tab 1534 \cr
-   Total \tab 1153 \tab 52 \tab 55 \tab 269 \tab 1 \tab 4 \tab 1534 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab lt 3 years \tab 3-6 years \tab 6 years + \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 1153 \tab 52 \tab 55 \tab 269 \tab 1 \tab 4 \tab - \tab 1534 \cr
+   Total \tab 1153 \tab 52 \tab 55 \tab 269 \tab 1 \tab 4 \tab 0 \tab 1534 \cr
 }
 }
 

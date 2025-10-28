@@ -36,10 +36,10 @@ G. Do you work in physically unpleasant conditions?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4556/vshow}{GSS Data Explorer page for \code{unpleznt}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab always \tab often \tab sometimes \tab hardly ever \tab never \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 14 \tab 50 \tab 179 \tab 220 \tab 405 \tab 6 \tab 24 \tab 1537 \cr
-   Total \tab 639 \tab 14 \tab 50 \tab 179 \tab 220 \tab 405 \tab 6 \tab 24 \tab 1537 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab hardly ever \tab never \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 14 \tab 50 \tab 179 \tab 220 \tab 405 \tab 6 \tab 24 \tab - \tab 1537 \cr
+   Total \tab 639 \tab 14 \tab 50 \tab 179 \tab 220 \tab 405 \tab 6 \tab 24 \tab 0 \tab 1537 \cr
 }
 }
 

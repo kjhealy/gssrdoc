@@ -35,10 +35,10 @@ C. All employees should be required to retire at an age set by law.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4038/vshow}{GSS Data Explorer page for \code{mustret}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab 5 \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 35 \tab 85 \tab 112 \tab 289 \tab 146 \tab 10 \tab 1534 \cr
-   Total \tab 857 \tab 35 \tab 85 \tab 112 \tab 289 \tab 146 \tab 10 \tab 1534 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab agree strongly \tab agree \tab neither agree nor disagree \tab disagree \tab 5 \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 35 \tab 85 \tab 112 \tab 289 \tab 146 \tab 10 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 35 \tab 85 \tab 112 \tab 289 \tab 146 \tab 10 \tab 0 \tab 1534 \cr
 }
 }
 

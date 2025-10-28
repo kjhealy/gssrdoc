@@ -33,10 +33,10 @@ E. A school related demonstration?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/657/vshow}{GSS Data Explorer page for \code{school}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab Total \cr
-   1973 \tab - \tab 79 \tab 1424 \tab 1 \tab 1504 \cr
-   Total \tab 0 \tab 79 \tab 1424 \tab 1 \tab 1504 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab not available in this year \tab Total \cr
+   1973 \tab - \tab 79 \tab 1424 \tab 1 \tab - \tab 1504 \cr
+   Total \tab 0 \tab 79 \tab 1424 \tab 1 \tab 0 \tab 1504 \cr
 }
 }
 

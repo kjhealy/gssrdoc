@@ -38,13 +38,13 @@ D. Felt as though you were really in touch with someone who had died.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/319/vshow}{GSS Data Explorer page for \code{spirits}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab never in my life \tab once or twice \tab several times \tab often \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 834 \tab 337 \tab 200 \tab 74 \tab 9 \tab 19 \tab 1473 \cr
-   1988 \tab - \tab 877 \tab 353 \tab 148 \tab 81 \tab 18 \tab 4 \tab 1481 \cr
-   1989 \tab 531 \tab 638 \tab 228 \tab 82 \tab 43 \tab 10 \tab 5 \tab 1537 \cr
-   1991 \tab 158 \tab 708 \tab 283 \tab 135 \tab 47 \tab 165 \tab 21 \tab 1517 \cr
-   Total \tab 689 \tab 3057 \tab 1201 \tab 565 \tab 245 \tab 202 \tab 49 \tab 6008 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never in my life \tab once or twice \tab several times \tab often \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 834 \tab 337 \tab 200 \tab 74 \tab 9 \tab 19 \tab - \tab 1473 \cr
+   1988 \tab - \tab 877 \tab 353 \tab 148 \tab 81 \tab 18 \tab 4 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 638 \tab 228 \tab 82 \tab 43 \tab 10 \tab 5 \tab - \tab 1537 \cr
+   1991 \tab 158 \tab 708 \tab 283 \tab 135 \tab 47 \tab 165 \tab 21 \tab - \tab 1517 \cr
+   Total \tab 689 \tab 3057 \tab 1201 \tab 565 \tab 245 \tab 202 \tab 49 \tab 0 \tab 6008 \cr
 }
 }
 

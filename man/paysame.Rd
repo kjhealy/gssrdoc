@@ -36,10 +36,10 @@ D. The standard rate, giving both employees the same pay
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4499/vshow}{GSS Data Explorer page for \code{paysame}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab not available in this year \tab most impt \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab no answer \tab iap \tab Total \cr
-   1989 \tab - \tab 44 \tab 50 \tab 76 \tab 921 \tab 53 \tab 393 \tab - \tab 1537 \cr
-   Total \tab 0 \tab 44 \tab 50 \tab 76 \tab 921 \tab 53 \tab 393 \tab 0 \tab 1537 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab not available in this year \tab most impt \tab 2nd most impt \tab 3rd most impt \tab not chosen \tab don't know \tab no answer \tab Total \cr
+   1989 \tab - \tab 44 \tab 50 \tab 76 \tab 921 \tab 53 \tab 393 \tab 1537 \cr
+   Total \tab 0 \tab 44 \tab 50 \tab 76 \tab 921 \tab 53 \tab 393 \tab 1537 \cr
 }
 }
 

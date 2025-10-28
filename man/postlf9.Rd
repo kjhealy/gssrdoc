@@ -36,11 +36,11 @@ A. Of course, no one knows exactly what life after death would be like, but here
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/309/vshow}{GSS Data Explorer page for \code{postlf9}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
-   1983 \tab 389 \tab 944 \tab 196 \tab 22 \tab 8 \tab 30 \tab 10 \tab 1599 \cr
-   1984 \tab 278 \tab 939 \tab 177 \tab 22 \tab 12 \tab 28 \tab 17 \tab 1473 \cr
-   Total \tab 667 \tab 1883 \tab 373 \tab 44 \tab 20 \tab 58 \tab 27 \tab 3072 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab 389 \tab 944 \tab 196 \tab 22 \tab 8 \tab 30 \tab 10 \tab - \tab 1599 \cr
+   1984 \tab 278 \tab 939 \tab 177 \tab 22 \tab 12 \tab 28 \tab 17 \tab - \tab 1473 \cr
+   Total \tab 667 \tab 1883 \tab 373 \tab 44 \tab 20 \tab 58 \tab 27 \tab 0 \tab 3072 \cr
 }
 }
 

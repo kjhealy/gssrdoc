@@ -33,10 +33,10 @@ Question Do you feel that a black person who has the same education and qualific
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/411/vshow}{GSS Data Explorer page for \code{racocc}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab almost always \tab sometimes \tab almost never \tab don't know \tab no answer \tab Total \cr
-   1982 \tab 1350 \tab 66 \tab 271 \tab 165 \tab 3 \tab 5 \tab 1860 \cr
-   Total \tab 1350 \tab 66 \tab 271 \tab 165 \tab 3 \tab 5 \tab 1860 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab almost always \tab sometimes \tab almost never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab 1350 \tab 66 \tab 271 \tab 165 \tab 3 \tab 5 \tab - \tab 1860 \cr
+   Total \tab 1350 \tab 66 \tab 271 \tab 165 \tab 3 \tab 5 \tab 0 \tab 1860 \cr
 }
 }
 

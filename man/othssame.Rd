@@ -37,12 +37,12 @@ B. There is no point in doing what I can for the environment unless others do th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4780/vshow}{GSS Data Explorer page for \code{othssame}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2000 \tab 1541 \tab 51 \tab 271 \tab 201 \tab 544 \tab 122 \tab 17 \tab 70 \tab - \tab 2817 \cr
-   2010 \tab 614 \tab 66 \tab 335 \tab 121 \tab 688 \tab 189 \tab 23 \tab 8 \tab - \tab 2044 \cr
-   2021 \tab 2003 \tab 67 \tab 257 \tab 376 \tab 826 \tab 265 \tab 49 \tab 180 \tab 9 \tab 4032 \cr
-   Total \tab 4158 \tab 184 \tab 863 \tab 698 \tab 2058 \tab 576 \tab 89 \tab 258 \tab 9 \tab 8893 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2000 \tab 1541 \tab 51 \tab 271 \tab 201 \tab 544 \tab 122 \tab 17 \tab 70 \tab - \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 66 \tab 335 \tab 121 \tab 688 \tab 189 \tab 23 \tab 8 \tab - \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 67 \tab 257 \tab 376 \tab 826 \tab 265 \tab 49 \tab 180 \tab 9 \tab - \tab 4032 \cr
+   Total \tab 4158 \tab 184 \tab 863 \tab 698 \tab 2058 \tab 576 \tab 89 \tab 258 \tab 9 \tab 0 \tab 8893 \cr
 }
 }
 

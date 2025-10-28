@@ -36,12 +36,12 @@ S. Science?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2412/vshow}{GSS Data Explorer page for \code{sci30}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2075 \tab 376 \tab 147 \tab 79 \tab 65 \tab 75 \tab - \tab 2817 \cr
-   2002 \tab 1681 \tab 618 \tab 200 \tab 84 \tab 86 \tab 94 \tab 2 \tab 2765 \cr
-   2004 \tab 2122 \tab 440 \tab 115 \tab 68 \tab 54 \tab 12 \tab 1 \tab 2812 \cr
-   Total \tab 5878 \tab 1434 \tab 462 \tab 231 \tab 205 \tab 181 \tab 3 \tab 8394 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 376 \tab 147 \tab 79 \tab 65 \tab 75 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 618 \tab 200 \tab 84 \tab 86 \tab 94 \tab 2 \tab - \tab 2765 \cr
+   2004 \tab 2122 \tab 440 \tab 115 \tab 68 \tab 54 \tab 12 \tab 1 \tab - \tab 2812 \cr
+   Total \tab 5878 \tab 1434 \tab 462 \tab 231 \tab 205 \tab 181 \tab 3 \tab 0 \tab 8394 \cr
 }
 }
 

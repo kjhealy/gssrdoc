@@ -36,10 +36,10 @@ L. I worry that my doctor is being prevented from telling me the full range of o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2211/vshow}{GSS Data Explorer page for \code{doc12}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab uncertain \tab disagree \tab strong disagree \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 45 \tab 254 \tab 237 \tab 690 \tab 114 \tab 41 \tab 6 \tab 2832 \cr
-   Total \tab 1445 \tab 45 \tab 254 \tab 237 \tab 690 \tab 114 \tab 41 \tab 6 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab uncertain \tab disagree \tab strong disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 45 \tab 254 \tab 237 \tab 690 \tab 114 \tab 41 \tab 6 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 45 \tab 254 \tab 237 \tab 690 \tab 114 \tab 41 \tab 6 \tab 0 \tab 2832 \cr
 }
 }
 

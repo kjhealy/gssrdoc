@@ -35,10 +35,10 @@ Question And what about couples with young children? How easy or difficult shoul
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4388/vshow}{GSS Data Explorer page for \code{divifkid}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very easy \tab fairly easy \tab neither easy nor difficult \tab fairly difficult \tab very difficult \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 59 \tab 134 \tab 425 \tab 368 \tab 325 \tab 76 \tab 27 \tab 1481 \cr
-   Total \tab 67 \tab 59 \tab 134 \tab 425 \tab 368 \tab 325 \tab 76 \tab 27 \tab 1481 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very easy \tab fairly easy \tab neither easy nor difficult \tab fairly difficult \tab very difficult \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 59 \tab 134 \tab 425 \tab 368 \tab 325 \tab 76 \tab 27 \tab - \tab 1481 \cr
+   Total \tab 67 \tab 59 \tab 134 \tab 425 \tab 368 \tab 325 \tab 76 \tab 27 \tab 0 \tab 1481 \cr
 }
 }
 

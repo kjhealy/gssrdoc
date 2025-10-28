@@ -36,10 +36,10 @@ A. There will always be conflict between management and workers because they are
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4505/vshow}{GSS Data Explorer page for \code{bosswrks}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 84 \tab 119 \tab 426 \tab 330 \tab 426 \tab 83 \tab 46 \tab 23 \tab 1537 \cr
-   Total \tab 84 \tab 119 \tab 426 \tab 330 \tab 426 \tab 83 \tab 46 \tab 23 \tab 1537 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 84 \tab 119 \tab 426 \tab 330 \tab 426 \tab 83 \tab 46 \tab 23 \tab - \tab 1537 \cr
+   Total \tab 84 \tab 119 \tab 426 \tab 330 \tab 426 \tab 83 \tab 46 \tab 23 \tab 0 \tab 1537 \cr
 }
 }
 

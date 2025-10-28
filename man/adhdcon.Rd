@@ -32,10 +32,10 @@ Question Should children be given counseling for ADHD?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2971/vshow}{GSS Data Explorer page for \code{adhdcon}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab Total \cr
-   2002 \tab 1859 \tab 758 \tab 122 \tab 26 \tab 2765 \cr
-   Total \tab 1859 \tab 758 \tab 122 \tab 26 \tab 2765 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab not available in this year \tab Total \cr
+   2002 \tab 1859 \tab 758 \tab 122 \tab 26 \tab - \tab 2765 \cr
+   Total \tab 1859 \tab 758 \tab 122 \tab 26 \tab 0 \tab 2765 \cr
 }
 }
 

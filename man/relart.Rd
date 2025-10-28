@@ -32,10 +32,10 @@ Question Within the past twelve months, have you had any experiences with the ar
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2132/vshow}{GSS Data Explorer page for \code{relart}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1998 \tab 1797 \tab 313 \tab 643 \tab 79 \tab 2832 \cr
-   Total \tab 1797 \tab 313 \tab 643 \tab 79 \tab 2832 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1797 \tab 313 \tab 643 \tab 79 \tab - \tab 2832 \cr
+   Total \tab 1797 \tab 313 \tab 643 \tab 79 \tab 0 \tab 2832 \cr
 }
 }
 

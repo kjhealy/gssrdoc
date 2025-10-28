@@ -36,10 +36,10 @@ A. Politicians who do not believe in God are unfit for public office.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4645/vshow}{GSS Data Explorer page for \code{polsgod}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 188 \tab 197 \tab 354 \tab 400 \tab 138 \tab 57 \tab 25 \tab 1517 \cr
-   Total \tab 158 \tab 188 \tab 197 \tab 354 \tab 400 \tab 138 \tab 57 \tab 25 \tab 1517 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 188 \tab 197 \tab 354 \tab 400 \tab 138 \tab 57 \tab 25 \tab - \tab 1517 \cr
+   Total \tab 158 \tab 188 \tab 197 \tab 354 \tab 400 \tab 138 \tab 57 \tab 25 \tab 0 \tab 1517 \cr
 }
 }
 

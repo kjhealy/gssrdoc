@@ -33,10 +33,10 @@ Question How big a reason was wanting to experience a performance at this locati
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6227/vshow}{GSS Data Explorer page for \code{prfmwhy7}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab major reason \tab minor reason \tab not a reason \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2433 \tab 124 \tab 129 \tab 172 \tab 1 \tab 8 \tab 2867 \cr
-   Total \tab 2433 \tab 124 \tab 129 \tab 172 \tab 1 \tab 8 \tab 2867 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab major reason \tab minor reason \tab not a reason \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2433 \tab 124 \tab 129 \tab 172 \tab 1 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 2433 \tab 124 \tab 129 \tab 172 \tab 1 \tab 8 \tab 0 \tab 2867 \cr
 }
 }
 

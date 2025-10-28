@@ -34,10 +34,10 @@ Question The next few questions are about the regions near the poles. Please loo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3422/vshow}{GSS Data Explorer page for \code{tvmeltng}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 596 \tab 696 \tab 295 \tab 253 \tab 22 \tab 2 \tab 4510 \cr
-   Total \tab 2646 \tab 596 \tab 696 \tab 295 \tab 253 \tab 22 \tab 2 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 596 \tab 696 \tab 295 \tab 253 \tab 22 \tab 2 \tab - \tab 4510 \cr
+   Total \tab 2646 \tab 596 \tab 696 \tab 295 \tab 253 \tab 22 \tab 2 \tab 0 \tab 4510 \cr
 }
 }
 

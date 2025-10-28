@@ -43,7 +43,8 @@ Counts by year:\tabular{lllllllllll}{
    2004 \tab 1596 \tab 83 \tab 235 \tab 345 \tab 437 \tab 84 \tab 31 \tab 1 \tab - \tab 2812 \cr
    2014 \tab 1264 \tab 50 \tab 202 \tab 311 \tab 519 \tab 142 \tab 47 \tab 3 \tab - \tab 2538 \cr
    2022 \tab 1203 \tab 107 \tab 323 \tab 734 \tab 777 \tab 372 \tab 20 \tab 4 \tab 4 \tab 3544 \cr
-   Total \tab 5600 \tab 335 \tab 1088 \tab 1758 \tab 2121 \tab 684 \tab 143 \tab 65 \tab 4 \tab 11798 \cr
+   2024 \tab 1067 \tab 242 \tab 409 \tab 696 \tab 557 \tab 286 \tab 32 \tab 9 \tab 11 \tab 3309 \cr
+   Total \tab 6667 \tab 577 \tab 1497 \tab 2454 \tab 2678 \tab 970 \tab 175 \tab 74 \tab 15 \tab 15107 \cr
 }
 }
 

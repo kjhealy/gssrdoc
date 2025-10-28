@@ -31,10 +31,10 @@ Question What specific denomination is that, if any?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1121/vshow}{GSS Data Explorer page for \code{frndoth4}}.
 
-Counts by year:\tabular{llllllllllllllllllll}{
-   year \tab iap \tab 138 \tab 150 \tab 3 \tab 31 \tab 33 \tab 35 \tab 36 \tab 40 \tab 56 \tab 58 \tab 64 \tab 68 \tab 69 \tab 70 \tab 77 \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 2710 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 4 \tab 96 \tab 2832 \cr
-   Total \tab 2710 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 4 \tab 96 \tab 2832 \cr
+Counts by year:\tabular{lllllllllllllllllllll}{
+   year \tab iap \tab 138 \tab 150 \tab 3 \tab 31 \tab 33 \tab 35 \tab 36 \tab 40 \tab 56 \tab 58 \tab 64 \tab 68 \tab 69 \tab 70 \tab 77 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 2710 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 4 \tab 96 \tab - \tab 2832 \cr
+   Total \tab 2710 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 4 \tab 1 \tab 3 \tab 1 \tab 1 \tab 2 \tab 4 \tab 96 \tab 0 \tab 2832 \cr
 }
 }
 

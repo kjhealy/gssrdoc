@@ -32,10 +32,10 @@ Question Using the following scale ranging from 0 to 10, where 0 means ï¿½No 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7258/vshow}{GSS Data Explorer page for \code{trbigbus}}.
 
-Counts by year:\tabular{llllllllllllllll}{
-   year \tab iap \tab 0 - no trust \tab 1 \tab 10 - complete trust \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 88 \tab 32 \tab 12 \tab 73 \tab 152 \tab 143 \tab 280 \tab 150 \tab 144 \tab 62 \tab 15 \tab 20 \tab 2 \tab 2348 \cr
-   Total \tab 1175 \tab 88 \tab 32 \tab 12 \tab 73 \tab 152 \tab 143 \tab 280 \tab 150 \tab 144 \tab 62 \tab 15 \tab 20 \tab 2 \tab 2348 \cr
+Counts by year:\tabular{lllllllllllllllll}{
+   year \tab iap \tab 0 - no trust \tab 1 \tab 10 - complete trust \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 88 \tab 32 \tab 12 \tab 73 \tab 152 \tab 143 \tab 280 \tab 150 \tab 144 \tab 62 \tab 15 \tab 20 \tab 2 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 88 \tab 32 \tab 12 \tab 73 \tab 152 \tab 143 \tab 280 \tab 150 \tab 144 \tab 62 \tab 15 \tab 20 \tab 2 \tab 0 \tab 2348 \cr
 }
 }
 

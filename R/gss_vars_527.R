@@ -29,11 +29,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |health care |education |crime |the environment |immigration |the economy |terrorism |poverty |none of these |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:-----------|:---------|:-----|:---------------|:-----------|:-----------|:---------|:-------|:-------------|:------------|:---------|:--------------|:-----|
-#'  |2010  |614  |309         |258       |19    |58              |53          |492         |107       |37      |13            |78           |6         |-              |2044  |
-#'  |2021  |2003 |551         |216       |53    |224             |68          |363         |50        |99      |66            |197          |140       |2              |4032  |
-#'  |Total |2617 |860         |474       |72    |282             |121         |855         |157       |136     |79            |275          |146       |2              |6076  |
+#'  |year  |iap  |health care |education |crime |the environment |immigration |the economy |terrorism |poverty |none of these |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------|:-----|:---------------|:-----------|:-----------|:---------|:-------|:-------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2010  |614  |309         |258       |19    |58              |53          |492         |107       |37      |13            |78           |6         |-              |-                          |2044  |
+#'  |2021  |2003 |551         |216       |53    |224             |68          |363         |50        |99      |66            |197          |140       |2              |-                          |4032  |
+#'  |Total |2617 |860         |474       |72    |282             |121         |855         |157       |136     |79            |275          |146       |2              |0                          |6076  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -82,11 +82,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |health care |education |crime |the environment |immigration |the economy |terrorism |poverty |none of these |don't know |no answer |skipped on web |Total |
-#'  |:-----|:----|:-----------|:---------|:-----|:---------------|:-----------|:-----------|:---------|:-------|:-------------|:----------|:---------|:--------------|:-----|
-#'  |2010  |614  |327         |325       |73    |120             |76          |203         |152       |71      |6             |69         |8         |-              |2044  |
-#'  |2021  |2009 |463         |332       |139   |201             |88          |312         |52        |159     |61            |42         |143       |31             |4032  |
-#'  |Total |2623 |790         |657       |212   |321             |164         |515         |204       |230     |67            |111        |151       |31             |6076  |
+#'  |year  |iap  |health care |education |crime |the environment |immigration |the economy |terrorism |poverty |none of these |don't know |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------|:-----|:---------------|:-----------|:-----------|:---------|:-------|:-------------|:----------|:---------|:--------------|:--------------------------|:-----|
+#'  |2010  |614  |327         |325       |73    |120             |76          |203         |152       |71      |6             |69         |8         |-              |-                          |2044  |
+#'  |2021  |2009 |463         |332       |139   |201             |88          |312         |52        |159     |61            |42         |143       |31             |-                          |4032  |
+#'  |Total |2623 |790         |657       |212   |321             |164         |515         |204       |230     |67            |111        |151       |31             |0                          |6076  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -128,11 +128,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |you can't be too careful |2   |3    |4   |most people can be trusted |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:------------------------|:---|:----|:---|:--------------------------|:------------|:---------|:--------------|:-----|
-#'  |2010  |614  |388                      |187 |380  |286 |162                        |23           |4         |-              |2044  |
-#'  |2021  |2003 |355                      |286 |644  |373 |170                        |41           |154       |6              |4032  |
-#'  |Total |2617 |743                      |473 |1024 |659 |332                        |64           |158       |6              |6076  |
+#'  |year  |iap  |you can't be too careful |2   |3    |4   |most people can be trusted |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:------------------------|:---|:----|:---|:--------------------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2010  |614  |388                      |187 |380  |286 |162                        |23           |4         |-              |-                          |2044  |
+#'  |2021  |2003 |355                      |286 |644  |373 |170                        |41           |154       |6              |-                          |4032  |
+#'  |Total |2617 |743                      |473 |1024 |659 |332                        |64           |158       |6              |0                          |6076  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -170,10 +170,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |most people would try to take advantage |2   |3   |4   |most people would try to be fair |6 can't choose |don't know |no answer |Total |
-#'  |:-----|:---|:---------------------------------------|:---|:---|:---|:--------------------------------|:--------------|:----------|:---------|:-----|
-#'  |2010  |614 |250                                     |175 |412 |340 |223                              |23             |2          |5         |2044  |
-#'  |Total |614 |250                                     |175 |412 |340 |223                              |23             |2          |5         |2044  |
+#'  |year  |iap |most people would try to take advantage |2   |3   |4   |most people would try to be fair |6 can't choose |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------------------------------------|:---|:---|:---|:--------------------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2010  |614 |250                                     |175 |412 |340 |223                              |23             |2          |5         |-                          |2044  |
+#'  |Total |614 |250                                     |175 |412 |340 |223                              |23             |2          |5         |0                          |2044  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -209,11 +209,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |1 - not at all concerned |2   |3   |4   |5 - very concerned |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:------------------------|:---|:---|:---|:------------------|:------------|:---------|:--------------|:-----|
-#'  |2010  |614  |60                       |86  |349 |403 |506                |20           |6         |-              |2044  |
-#'  |2021  |2003 |81                       |142 |419 |438 |743                |42           |157       |7              |4032  |
-#'  |Total |2617 |141                      |228 |768 |841 |1249               |62           |163       |7              |6076  |
+#'  |year  |iap  |1 - not at all concerned |2   |3   |4   |5 - very concerned |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:------------------------|:---|:---|:---|:------------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2010  |614  |60                       |86  |349 |403 |506                |20           |6         |-              |-                          |2044  |
+#'  |2021  |2003 |81                       |142 |419 |438 |743                |42           |157       |7              |-                          |4032  |
+#'  |Total |2617 |141                      |228 |768 |841 |1249               |62           |163       |7              |0                          |6076  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -257,11 +257,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |air pollution |chemicals and pesticides |water shortage |water pollution |nuclear waste |domestic waste disposal |climate change |genetically modified foods |using up our natural resources |none of these |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:-------------|:------------------------|:--------------|:---------------|:-------------|:-----------------------|:--------------|:--------------------------|:------------------------------|:-------------|:------------|:---------|:--------------|:-----|
-#'  |2010  |614  |199           |112                      |95             |134             |88            |60                      |127            |61                         |344                            |22            |181          |7         |-              |2044  |
-#'  |2021  |2003 |141           |140                      |76             |131             |40            |87                      |642            |115                        |177                            |93            |217          |160       |10             |4032  |
-#'  |Total |2617 |340           |252                      |171            |265             |128           |147                     |769            |176                        |521                            |115           |398          |167       |10             |6076  |
+#'  |year  |iap  |air pollution |chemicals and pesticides |water shortage |water pollution |nuclear waste |domestic waste disposal |climate change |genetically modified foods |using up our natural resources |none of these |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:-------------|:------------------------|:--------------|:---------------|:-------------|:-----------------------|:--------------|:--------------------------|:------------------------------|:-------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2010  |614  |199           |112                      |95             |134             |88            |60                      |127            |61                         |344                            |22            |181          |7         |-              |-                          |2044  |
+#'  |2021  |2003 |141           |140                      |76             |131             |40            |87                      |642            |115                        |177                            |93            |217          |160       |10             |-                          |4032  |
+#'  |Total |2617 |340           |252                      |171            |265             |128           |147                     |769            |176                        |521                            |115           |398          |167       |10             |0                          |6076  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -305,10 +305,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |air pollution |chemicals and pesticides |water shortage |water pollution |nuclear waste |domestic waste disposal |climate change |genetically modified foods |using up our natural resources |none of these |don't know |no answer |Total |
-#'  |:-----|:---|:-------------|:------------------------|:--------------|:---------------|:-------------|:-----------------------|:--------------|:--------------------------|:------------------------------|:-------------|:----------|:---------|:-----|
-#'  |2010  |614 |300           |159                      |71             |124             |15            |65                      |85             |132                        |150                            |123           |199        |7         |2044  |
-#'  |Total |614 |300           |159                      |71             |124             |15            |65                      |85             |132                        |150                            |123           |199        |7         |2044  |
+#'  |year  |iap |air pollution |chemicals and pesticides |water shortage |water pollution |nuclear waste |domestic waste disposal |climate change |genetically modified foods |using up our natural resources |none of these |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------|:------------------------|:--------------|:---------------|:-------------|:-----------------------|:--------------|:--------------------------|:------------------------------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2010  |614 |300           |159                      |71             |124             |15            |65                      |85             |132                        |150                            |123           |199        |7         |-                          |2044  |
+#'  |Total |614 |300           |159                      |71             |124             |15            |65                      |85             |132                        |150                            |123           |199        |7         |0                          |2044  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -344,10 +344,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |know nothing at all |2   |3   |4   |know a great deal |don't know |no answer |Total |
-#'  |:-----|:---|:-------------------|:---|:---|:---|:-----------------|:----------|:---------|:-----|
-#'  |2010  |614 |168                 |229 |599 |284 |100               |43         |7         |2044  |
-#'  |Total |614 |168                 |229 |599 |284 |100               |43         |7         |2044  |
+#'  |year  |iap |know nothing at all |2   |3   |4   |know a great deal |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------------|:---|:---|:---|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2010  |614 |168                 |229 |599 |284 |100               |43         |7         |-                          |2044  |
+#'  |Total |614 |168                 |229 |599 |284 |100               |43         |7         |0                          |2044  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -383,10 +383,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |know nothing at all |2   |3   |4   |know a great deal |don't know |no answer |Total |
-#'  |:-----|:---|:-------------------|:---|:---|:---|:-----------------|:----------|:---------|:-----|
-#'  |2010  |614 |262                 |380 |538 |157 |41                |44         |8         |2044  |
-#'  |Total |614 |262                 |380 |538 |157 |41                |44         |8         |2044  |
+#'  |year  |iap |know nothing at all |2   |3   |4   |know a great deal |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------------|:---|:---|:---|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2010  |614 |262                 |380 |538 |157 |41                |44         |8         |-                          |2044  |
+#'  |Total |614 |262                 |380 |538 |157 |41                |44         |8         |0                          |2044  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment
@@ -427,10 +427,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |coal, oil and natural gas |nuclear power |solar, wind or water power |fuels made from crops |fuels made from waste |none of them |can't choose |don't know |no answer |Total |
-#'  |:-----|:---|:-------------------------|:-------------|:--------------------------|:---------------------|:---------------------|:------------|:------------|:----------|:---------|:-----|
-#'  |2010  |614 |170                       |144           |650                        |57                    |162                   |25           |204          |12         |6         |2044  |
-#'  |Total |614 |170                       |144           |650                        |57                    |162                   |25           |204          |12         |6         |2044  |
+#'  |year  |iap |coal, oil and natural gas |nuclear power |solar, wind or water power |fuels made from crops |fuels made from waste |none of them |can't choose |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------------------|:-------------|:--------------------------|:---------------------|:---------------------|:------------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |2010  |614 |170                       |144           |650                        |57                    |162                   |25           |204          |12         |6         |-                          |2044  |
+#'  |Total |614 |170                       |144           |650                        |57                    |162                   |25           |204          |12         |6         |0                          |2044  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment

@@ -33,10 +33,10 @@ D. You''re left out of things going on around you.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/431/vshow}{GSS Data Explorer page for \code{alienat4}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab feel \tab not feel \tab don't know \tab no answer \tab Total \cr
-   1978 \tab - \tab 429 \tab 1047 \tab 42 \tab 14 \tab 1532 \cr
-   Total \tab 0 \tab 429 \tab 1047 \tab 42 \tab 14 \tab 1532 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab feel \tab not feel \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1978 \tab - \tab 429 \tab 1047 \tab 42 \tab 14 \tab - \tab 1532 \cr
+   Total \tab 0 \tab 429 \tab 1047 \tab 42 \tab 14 \tab 0 \tab 1532 \cr
 }
 }
 

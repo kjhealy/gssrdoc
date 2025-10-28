@@ -36,11 +36,11 @@ A. Would you accept a person from a different religion or with a very different 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4701/vshow}{GSS Data Explorer page for \code{relmarry}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely accept \tab probably accept \tab probably not accept \tab definitely not accept \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 658 \tab 539 \tab 641 \tab 109 \tab 46 \tab 26 \tab 4 \tab 2023 \cr
-   2018 \tab 1173 \tab 517 \tab 513 \tab 72 \tab 39 \tab 23 \tab 11 \tab 2348 \cr
-   Total \tab 1831 \tab 1056 \tab 1154 \tab 181 \tab 85 \tab 49 \tab 15 \tab 4371 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely accept \tab probably accept \tab probably not accept \tab definitely not accept \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 658 \tab 539 \tab 641 \tab 109 \tab 46 \tab 26 \tab 4 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 517 \tab 513 \tab 72 \tab 39 \tab 23 \tab 11 \tab - \tab 2348 \cr
+   Total \tab 1831 \tab 1056 \tab 1154 \tab 181 \tab 85 \tab 49 \tab 15 \tab 0 \tab 4371 \cr
 }
 }
 

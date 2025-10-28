@@ -27,10 +27,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |Total |
-#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:-----|
-#'  |2002  |1824 |433         |370             |98              |34                |6          |2765  |
-#'  |Total |1824 |433         |370             |98              |34                |6          |2765  |
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |not available in this year |no answer |skipped on web |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:--------------------------|:---------|:--------------|:-----|
+#'  |2002  |1824 |433         |370             |98              |34                |6          |-                          |-         |-              |2765  |
+#'  |2024  |1661 |447         |705             |316             |131               |21         |-                          |6         |22             |3309  |
+#'  |Total |3485 |880         |1075            |414             |165               |27         |0                          |6         |22             |6074  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -68,10 +69,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2002  |1372 |741 |605 |36         |11        |2765  |
-#'  |Total |1372 |741 |605 |36         |11        |2765  |
+#'  |year  |iap  |yes  |no   |don't know |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:----|:----|:----------|:---------|:--------------------------|:--------------|:-----|
+#'  |2002  |1372 |741  |605  |36         |11        |-                          |-              |2765  |
+#'  |2024  |1661 |1189 |406  |27         |5         |-                          |21             |3309  |
+#'  |Total |3033 |1930 |1011 |63         |16        |0                          |21             |6074  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -111,10 +113,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |Total |
-#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:-----|
-#'  |2002  |2024 |389         |277             |60              |14                |1          |2765  |
-#'  |Total |2024 |389         |277             |60              |14                |1          |2765  |
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:--------------------------|:-----|
+#'  |2002  |2024 |389         |277             |60              |14                |1          |-                          |2765  |
+#'  |Total |2024 |389         |277             |60              |14                |1          |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -151,10 +153,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |2002  |1372 |383 |953 |45         |12        |2765  |
-#'  |Total |1372 |383 |953 |45         |12        |2765  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1372 |383 |953 |45         |12        |-                          |2765  |
+#'  |Total |1372 |383 |953 |45         |12        |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -194,10 +196,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |Total |
-#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:-----|
-#'  |2002  |2382 |252         |102             |20              |7                 |2          |2765  |
-#'  |Total |2382 |252         |102             |20              |7                 |2          |2765  |
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not at all likely |don't know |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:--------------------------|:-----|
+#'  |2002  |2382 |252         |102             |20              |7                 |2          |-                          |2765  |
+#'  |Total |2382 |252         |102             |20              |7                 |2          |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -234,10 +236,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2002  |1372 |338 |1001 |42         |12        |2765  |
-#'  |Total |1372 |338 |1001 |42         |12        |2765  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1372 |338 |1001 |42         |12        |-                          |2765  |
+#'  |Total |1372 |338 |1001 |42         |12        |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -273,10 +275,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2002  |1372 |204 |1138 |39         |12        |2765  |
-#'  |Total |1372 |204 |1138 |39         |12        |2765  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1372 |204 |1138 |39         |12        |-                          |2765  |
+#'  |Total |1372 |204 |1138 |39         |12        |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -312,10 +314,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2002  |1372 |231 |1110 |40         |12        |2765  |
-#'  |Total |1372 |231 |1110 |40         |12        |2765  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2002  |1372 |231 |1110 |40         |12        |-                          |2765  |
+#'  |Total |1372 |231 |1110 |40         |12        |0                          |2765  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -354,10 +356,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |not very likely |not likely at all |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:-----|
-#'  |2002  |1372 |504         |536             |234             |81                |25         |13        |2765  |
-#'  |Total |1372 |504         |536             |234             |81                |25         |13        |2765  |
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not likely at all |don't know |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:--------------------------|:--------------|:-----|
+#'  |2002  |1372 |504         |536             |234             |81                |25         |13        |-                          |-              |2765  |
+#'  |2024  |1662 |554         |785             |221             |42                |17         |6         |-                          |22             |3309  |
+#'  |Total |3034 |1058        |1321            |455             |123               |42         |19        |0                          |22             |6074  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II
@@ -397,10 +400,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very likely |somewhat likely |not very likely |not likely at all |don't know |no answer |Total |
-#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:-----|
-#'  |2002  |1372 |109         |411             |473             |346               |42         |12        |2765  |
-#'  |Total |1372 |109         |411             |473             |346               |42         |12        |2765  |
+#'  |year  |iap  |very likely |somewhat likely |not very likely |not likely at all |don't know |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:-----------|:---------------|:---------------|:-----------------|:----------|:---------|:--------------------------|:--------------|:-----|
+#'  |2002  |1372 |109         |411             |473             |346               |42         |12        |-                          |-              |2765  |
+#'  |2024  |1662 |228         |717             |470             |167               |32         |6         |-                          |27             |3309  |
+#'  |Total |3034 |337         |1128            |943             |513               |74         |18        |0                          |27             |6074  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Mental Health II

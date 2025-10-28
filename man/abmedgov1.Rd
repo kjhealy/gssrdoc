@@ -32,10 +32,10 @@ Question Which of these statements comes closer to your view about what informat
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7181/vshow}{GSS Data Explorer page for \code{abmedgov1}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab a woman and her medical professional should decide \tab the government should decide \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1160 \tab 1043 \tab 88 \tab 29 \tab 28 \tab 2348 \cr
-   Total \tab 1160 \tab 1043 \tab 88 \tab 29 \tab 28 \tab 2348 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab a woman and her medical professional should decide \tab the government should decide \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1160 \tab 1043 \tab 88 \tab 29 \tab 28 \tab - \tab 2348 \cr
+   Total \tab 1160 \tab 1043 \tab 88 \tab 29 \tab 28 \tab 0 \tab 2348 \cr
 }
 }
 

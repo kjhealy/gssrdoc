@@ -35,12 +35,12 @@ Question H. In 1996, you remember that Clinton ran for President on the Democrat
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/165/vshow}{GSS Data Explorer page for \code{if96who}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab clinton \tab dole \tab perot \tab other \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1842 \tab 469 \tab 126 \tab 131 \tab 50 \tab 152 \tab 62 \tab 2832 \cr
-   2000 \tab 1814 \tab 465 \tab 107 \tab 110 \tab 49 \tab 205 \tab 67 \tab 2817 \cr
-   2002 \tab 1758 \tab 541 \tab 149 \tab 103 \tab 127 \tab 73 \tab 14 \tab 2765 \cr
-   Total \tab 5414 \tab 1475 \tab 382 \tab 344 \tab 226 \tab 430 \tab 143 \tab 8414 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab clinton \tab dole \tab perot \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1842 \tab 469 \tab 126 \tab 131 \tab 50 \tab 152 \tab 62 \tab - \tab 2832 \cr
+   2000 \tab 1814 \tab 465 \tab 107 \tab 110 \tab 49 \tab 205 \tab 67 \tab - \tab 2817 \cr
+   2002 \tab 1758 \tab 541 \tab 149 \tab 103 \tab 127 \tab 73 \tab 14 \tab - \tab 2765 \cr
+   Total \tab 5414 \tab 1475 \tab 382 \tab 344 \tab 226 \tab 430 \tab 143 \tab 0 \tab 8414 \cr
 }
 }
 

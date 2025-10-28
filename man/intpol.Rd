@@ -34,10 +34,10 @@ Question How interested are you in politics and national affairs?  Are you very 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1027/vshow}{GSS Data Explorer page for \code{intpol}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very interested \tab somewhat int \tab slightly int \tab not interested \tab don't know \tab no answer \tab Total \cr
-   1987 \tab - \tab 402 \tab 742 \tab 481 \tab 180 \tab 5 \tab 9 \tab 1819 \cr
-   Total \tab 0 \tab 402 \tab 742 \tab 481 \tab 180 \tab 5 \tab 9 \tab 1819 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very interested \tab somewhat int \tab slightly int \tab not interested \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab - \tab 402 \tab 742 \tab 481 \tab 180 \tab 5 \tab 9 \tab - \tab 1819 \cr
+   Total \tab 0 \tab 402 \tab 742 \tab 481 \tab 180 \tab 5 \tab 9 \tab 0 \tab 1819 \cr
 }
 }
 

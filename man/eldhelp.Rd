@@ -37,11 +37,11 @@ Who do you think should primarily provide this help?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4471/vshow}{GSS Data Explorer page for \code{eldhelp}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab family members \tab government agencies \tab non-profit organizations (e.g., charitable organizations, churches/religious organizations) \tab private providers of this kind of help \tab don't know \tab no answer \tab 5 \tab skipped on web \tab Total \cr
-   2012 \tab 672 \tab 763 \tab 191 \tab 95 \tab 107 \tab 140 \tab 6 \tab - \tab - \tab 1974 \cr
-   2022 \tab 2384 \tab 523 \tab 290 \tab 79 \tab 57 \tab 193 \tab 6 \tab 7 \tab 5 \tab 3544 \cr
-   Total \tab 3056 \tab 1286 \tab 481 \tab 174 \tab 164 \tab 333 \tab 12 \tab 7 \tab 5 \tab 5518 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab family members \tab government agencies \tab non-profit organizations (e.g., charitable organizations, churches/religious organizations) \tab private providers of this kind of help \tab don't know \tab no answer \tab employers \tab skipped on web \tab not available in this year \tab Total \cr
+   2012 \tab 672 \tab 763 \tab 191 \tab 95 \tab 107 \tab 140 \tab 6 \tab - \tab - \tab - \tab 1974 \cr
+   2022 \tab 2384 \tab 523 \tab 290 \tab 79 \tab 57 \tab 193 \tab 6 \tab 7 \tab 5 \tab - \tab 3544 \cr
+   Total \tab 3056 \tab 1286 \tab 481 \tab 174 \tab 164 \tab 333 \tab 12 \tab 7 \tab 5 \tab 0 \tab 5518 \cr
 }
 }
 

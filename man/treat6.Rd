@@ -35,10 +35,10 @@ F. Not working or doing other activities as carefully as usual as a result of an
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2693/vshow}{GSS Data Explorer page for \code{treat6}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely go \tab probably go \tab probably not go \tab definitely not go \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 271 \tab 311 \tab 334 \tab 240 \tab 9 \tab 254 \tab 2817 \cr
-   Total \tab 1398 \tab 271 \tab 311 \tab 334 \tab 240 \tab 9 \tab 254 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely go \tab probably go \tab probably not go \tab definitely not go \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 271 \tab 311 \tab 334 \tab 240 \tab 9 \tab 254 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 271 \tab 311 \tab 334 \tab 240 \tab 9 \tab 254 \tab 0 \tab 2817 \cr
 }
 }
 

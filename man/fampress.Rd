@@ -35,10 +35,10 @@ Question In general, do your family members put pressure on you about the way yo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7259/vshow}{GSS Data Explorer page for \code{fampress}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab no, never \tab yes, but rarely \tab yes, sometimes \tab yes, often \tab yes, very often \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 626 \tab 239 \tab 211 \tab 54 \tab 38 \tab 4 \tab 1 \tab 2348 \cr
-   Total \tab 1175 \tab 626 \tab 239 \tab 211 \tab 54 \tab 38 \tab 4 \tab 1 \tab 2348 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab no, never \tab yes, but rarely \tab yes, sometimes \tab yes, often \tab yes, very often \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 626 \tab 239 \tab 211 \tab 54 \tab 38 \tab 4 \tab 1 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 626 \tab 239 \tab 211 \tab 54 \tab 38 \tab 4 \tab 1 \tab 0 \tab 2348 \cr
 }
 }
 

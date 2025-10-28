@@ -24,10 +24,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |promote equal oppotunity |promote equal outcomes |other |don't know |no answer |Total |
-#'  |:-----|:---|:------------------------|:----------------------|:-----|:----------|:---------|:-----|
-#'  |1993  |-   |1347                     |194                    |17    |41         |7         |1606  |
-#'  |Total |0   |1347                     |194                    |17    |41         |7         |1606  |
+#'  |year  |iap |promote equal oppotunity |promote equal outcomes |other |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:------------------------|:----------------------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |1993  |-   |1347                     |194                    |17    |41         |7         |-                          |1606  |
+#'  |Total |0   |1347                     |194                    |17    |41         |7         |0                          |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -63,11 +63,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |american are united |american are divided |don't know |no answer |Total |
-#'  |:-----|:----|:-------------------|:--------------------|:----------|:---------|:-----|
-#'  |1993  |-    |518                 |1009                 |73         |6         |1606  |
-#'  |1994  |1518 |581                 |810                  |73         |10        |2992  |
-#'  |Total |1518 |1099                |1819                 |146        |16        |4598  |
+#'  |year  |iap  |american are united |american are divided |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------------|:--------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1993  |-    |518                 |1009                 |73         |6         |-                          |1606  |
+#'  |1994  |1518 |581                 |810                  |73         |10        |-                          |2992  |
+#'  |Total |1518 |1099                |1819                 |146        |16        |0                          |4598  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -105,10 +105,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |it is oblgation |only if they want to |other |don't know |no answer |Total |
-#'  |:-----|:---|:---------------|:--------------------|:-----|:----------|:---------|:-----|
-#'  |1993  |-   |890             |626                  |57    |24         |9         |1606  |
-#'  |Total |0   |890             |626                  |57    |24         |9         |1606  |
+#'  |year  |iap |it is oblgation |only if they want to |other |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------------|:--------------------|:-----|:----------|:---------|:--------------------------|:-----|
+#'  |1993  |-   |890             |626                  |57    |24         |9         |-                          |1606  |
+#'  |Total |0   |890             |626                  |57    |24         |9         |0                          |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -147,10 +147,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:-----|
-#'  |1993  |-   |372            |450       |361                |364                  |47         |12        |1606  |
-#'  |Total |0   |372            |450       |361                |364                  |47         |12        |1606  |
+#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1993  |-   |372            |450       |361                |364                  |47         |12        |-                          |1606  |
+#'  |Total |0   |372            |450       |361                |364                  |47         |12        |0                          |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -189,10 +189,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:-----|
-#'  |1993  |-   |150            |446       |472                |484                  |43         |11        |1606  |
-#'  |Total |0   |150            |446       |472                |484                  |43         |11        |1606  |
+#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1993  |-   |150            |446       |472                |484                  |43         |11        |-                          |1606  |
+#'  |Total |0   |150            |446       |472                |484                  |43         |11        |0                          |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -231,10 +231,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:-----|
-#'  |1993  |-   |213            |598       |524                |215                  |44         |12        |1606  |
-#'  |Total |0   |213            |598       |524                |215                  |44         |12        |1606  |
+#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1993  |-   |213            |598       |524                |215                  |44         |12        |-                          |1606  |
+#'  |Total |0   |213            |598       |524                |215                  |44         |12        |0                          |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -273,10 +273,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:-----|
-#'  |1993  |-   |911            |580       |70                 |20                   |15         |10        |1606  |
-#'  |Total |0   |911            |580       |70                 |20                   |15         |10        |1606  |
+#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1993  |-   |911            |580       |70                 |20                   |15         |10        |-                          |1606  |
+#'  |Total |0   |911            |580       |70                 |20                   |15         |10        |0                          |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -314,10 +314,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:-----|
-#'  |1993  |-   |55             |250       |591                |668                  |32         |10        |1606  |
-#'  |Total |0   |55             |250       |591                |668                  |32         |10        |1606  |
+#'  |year  |iap |very important |important |somewhat important |not at all important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:---------|:------------------|:--------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1993  |-   |55             |250       |591                |668                  |32         |10        |-                          |1606  |
+#'  |Total |0   |55             |250       |591                |668                  |32         |10        |0                          |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -357,10 +357,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:-----|
-#'  |1993  |-   |269            |588     |290            |230        |53                |164        |12        |1606  |
-#'  |Total |0   |269            |588     |290            |230        |53                |164        |12        |1606  |
+#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1993  |-   |269            |588     |290            |230        |53                |164        |12        |-                          |1606  |
+#'  |Total |0   |269            |588     |290            |230        |53                |164        |12        |0                          |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture
@@ -400,10 +400,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |Total |
-#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:-----|
-#'  |1993  |-   |145            |562     |411            |255        |59                |163        |11        |1606  |
-#'  |Total |0   |145            |562     |411            |255        |59                |163        |11        |1606  |
+#'  |year  |iap |like very much |like it |mixed feelings |dislike it |dislike very much |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-------|:--------------|:----------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |1993  |-   |145            |562     |411            |255        |59                |163        |11        |-                          |1606  |
+#'  |Total |0   |145            |562     |411            |255        |59                |163        |11        |0                          |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture

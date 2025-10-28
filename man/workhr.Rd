@@ -35,10 +35,10 @@ Question What hours do you usually work--days, evenings, or nights?  CIRCLE ONE 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5288/vshow}{GSS Data Explorer page for \code{workhr}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab reg day \tab eve \tab nights \tab varies \tab other \tab iap \tab no answer \tab Total \cr
-   1972 \tab 557 \tab 24 \tab 23 \tab 87 \tab 54 \tab 863 \tab 5 \tab 1613 \cr
-   Total \tab 557 \tab 24 \tab 23 \tab 87 \tab 54 \tab 863 \tab 5 \tab 1613 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab reg day \tab eve \tab nights \tab varies \tab other \tab iap \tab no answer \tab not available in this year \tab Total \cr
+   1972 \tab 557 \tab 24 \tab 23 \tab 87 \tab 54 \tab 863 \tab 5 \tab - \tab 1613 \cr
+   Total \tab 557 \tab 24 \tab 23 \tab 87 \tab 54 \tab 863 \tab 5 \tab 0 \tab 1613 \cr
 }
 }
 

@@ -36,10 +36,10 @@ F. How many are named Rachel?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3577/vshow}{GSS Data Explorer page for \code{acqrachl}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3139 \tab 635 \tab 408 \tab 267 \tab 27 \tab 6 \tab 6 \tab 22 \tab 4510 \cr
-   Total \tab 3139 \tab 635 \tab 408 \tab 267 \tab 27 \tab 6 \tab 6 \tab 22 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3139 \tab 635 \tab 408 \tab 267 \tab 27 \tab 6 \tab 6 \tab 22 \tab - \tab 4510 \cr
+   Total \tab 3139 \tab 635 \tab 408 \tab 267 \tab 27 \tab 6 \tab 6 \tab 22 \tab 0 \tab 4510 \cr
 }
 }
 

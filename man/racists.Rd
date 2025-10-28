@@ -36,10 +36,10 @@ C. People who believe whites are racially superior to all other races.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4087/vshow}{GSS Data Explorer page for \code{racists}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab extremely favorable \tab favorable \tab neither favorable or unfavorable \tab unfavorable \tab extremely unfavorable \tab can't choose \tab no answer \tab Total \cr
-   1990 \tab 155 \tab 17 \tab 45 \tab 269 \tab 365 \tab 437 \tab 50 \tab 34 \tab 1372 \cr
-   Total \tab 155 \tab 17 \tab 45 \tab 269 \tab 365 \tab 437 \tab 50 \tab 34 \tab 1372 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab extremely favorable \tab favorable \tab neither favorable or unfavorable \tab unfavorable \tab extremely unfavorable \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab 155 \tab 17 \tab 45 \tab 269 \tab 365 \tab 437 \tab 50 \tab 34 \tab - \tab 1372 \cr
+   Total \tab 155 \tab 17 \tab 45 \tab 269 \tab 365 \tab 437 \tab 50 \tab 34 \tab 0 \tab 1372 \cr
 }
 }
 

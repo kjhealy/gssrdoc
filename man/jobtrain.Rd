@@ -32,10 +32,10 @@ Question Most people in the Armed Forces are taught skills they can use in civil
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/821/vshow}{GSS Data Explorer page for \code{jobtrain}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes, obligation \tab not obligation \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 690 \tab 722 \tab 36 \tab 25 \tab 1473 \cr
-   Total \tab 0 \tab 690 \tab 722 \tab 36 \tab 25 \tab 1473 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, obligation \tab not obligation \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 690 \tab 722 \tab 36 \tab 25 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 690 \tab 722 \tab 36 \tab 25 \tab 0 \tab 1473 \cr
 }
 }
 

@@ -39,15 +39,15 @@ D. And which one of these three is least important of all?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/481/vshow}{GSS Data Explorer page for \code{amicable}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 1 most desirable \tab 3 most desirable \tab not mentioned \tab 3 least desirable \tab 1 least desirable \tab no answer \tab don't know \tab Total \cr
-   1973 \tab - \tab 30 \tab 214 \tab 1021 \tab 180 \tab 55 \tab 4 \tab - \tab 1504 \cr
-   1975 \tab - \tab 34 \tab 171 \tab 1051 \tab 182 \tab 42 \tab 10 \tab - \tab 1490 \cr
-   1976 \tab - \tab 21 \tab 180 \tab 1076 \tab 171 \tab 41 \tab 10 \tab - \tab 1499 \cr
-   1978 \tab - \tab 28 \tab 141 \tab 1128 \tab 165 \tab 58 \tab 10 \tab 2 \tab 1532 \cr
-   1980 \tab 975 \tab 11 \tab 59 \tab 338 \tab 69 \tab 12 \tab 3 \tab 1 \tab 1468 \cr
-   1983 \tab - \tab 26 \tab 139 \tab 1195 \tab 175 \tab 44 \tab 20 \tab - \tab 1599 \cr
-   Total \tab 975 \tab 150 \tab 904 \tab 5809 \tab 942 \tab 252 \tab 57 \tab 3 \tab 9092 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 1 most desirable \tab 3 most desirable \tab not mentioned \tab 3 least desirable \tab 1 least desirable \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1973 \tab - \tab 30 \tab 214 \tab 1021 \tab 180 \tab 55 \tab 4 \tab - \tab - \tab 1504 \cr
+   1975 \tab - \tab 34 \tab 171 \tab 1051 \tab 182 \tab 42 \tab 10 \tab - \tab - \tab 1490 \cr
+   1976 \tab - \tab 21 \tab 180 \tab 1076 \tab 171 \tab 41 \tab 10 \tab - \tab - \tab 1499 \cr
+   1978 \tab - \tab 28 \tab 141 \tab 1128 \tab 165 \tab 58 \tab 10 \tab 2 \tab - \tab 1532 \cr
+   1980 \tab 975 \tab 11 \tab 59 \tab 338 \tab 69 \tab 12 \tab 3 \tab 1 \tab - \tab 1468 \cr
+   1983 \tab - \tab 26 \tab 139 \tab 1195 \tab 175 \tab 44 \tab 20 \tab - \tab - \tab 1599 \cr
+   Total \tab 975 \tab 150 \tab 904 \tab 5809 \tab 942 \tab 252 \tab 57 \tab 3 \tab 0 \tab 9092 \cr
 }
 }
 

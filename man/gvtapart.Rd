@@ -33,10 +33,10 @@ A. Should it be up to the government to help racial and ethnic groups maintain t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1600/vshow}{GSS Data Explorer page for \code{gvtapart}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab govt to help \tab left up to groups \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2527 \tab 47 \tab 400 \tab 11 \tab 7 \tab 2992 \cr
-   Total \tab 2527 \tab 47 \tab 400 \tab 11 \tab 7 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab govt to help \tab left up to groups \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2527 \tab 47 \tab 400 \tab 11 \tab 7 \tab - \tab 2992 \cr
+   Total \tab 2527 \tab 47 \tab 400 \tab 11 \tab 7 \tab 0 \tab 2992 \cr
 }
 }
 

@@ -36,10 +36,10 @@ D. How many are you pretty certain own a second home?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3650/vshow}{GSS Data Explorer page for \code{acqvahme}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3987 \tab 270 \tab 41 \tab 68 \tab 17 \tab 21 \tab 98 \tab 8 \tab 4510 \cr
-   Total \tab 3987 \tab 270 \tab 41 \tab 68 \tab 17 \tab 21 \tab 98 \tab 8 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 2 - 5 \tab 6 - 10 \tab more than 10 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3987 \tab 270 \tab 41 \tab 68 \tab 17 \tab 21 \tab 98 \tab 8 \tab - \tab 4510 \cr
+   Total \tab 3987 \tab 270 \tab 41 \tab 68 \tab 17 \tab 21 \tab 98 \tab 8 \tab 0 \tab 4510 \cr
 }
 }
 

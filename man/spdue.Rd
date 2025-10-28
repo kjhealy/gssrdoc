@@ -32,10 +32,10 @@ Question Are you currently or have you ever been entitled to alimony or child su
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/629/vshow}{GSS Data Explorer page for \code{spdue}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1986 \tab 1072 \tab 124 \tab 244 \tab 30 \tab 1470 \cr
-   Total \tab 1072 \tab 124 \tab 244 \tab 30 \tab 1470 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 1072 \tab 124 \tab 244 \tab 30 \tab - \tab 1470 \cr
+   Total \tab 1072 \tab 124 \tab 244 \tab 30 \tab 0 \tab 1470 \cr
 }
 }
 

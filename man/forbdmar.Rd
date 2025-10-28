@@ -32,10 +32,10 @@ Question C. Do you think the law should forbid marriage between blacks and white
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4986/vshow}{GSS Data Explorer page for \code{forbdmar}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab forbid marriage \tab not forbid mar \tab don't know \tab no answer \tab Total \cr
-   1989 \tab 1039 \tab 88 \tab 385 \tab 18 \tab 7 \tab 1537 \cr
-   Total \tab 1039 \tab 88 \tab 385 \tab 18 \tab 7 \tab 1537 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab forbid marriage \tab not forbid mar \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 1039 \tab 88 \tab 385 \tab 18 \tab 7 \tab - \tab 1537 \cr
+   Total \tab 1039 \tab 88 \tab 385 \tab 18 \tab 7 \tab 0 \tab 1537 \cr
 }
 }
 

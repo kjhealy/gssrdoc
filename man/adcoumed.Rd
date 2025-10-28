@@ -37,10 +37,11 @@ A. If the therapist or counselor said your child should be on medication, how li
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2944/vshow}{GSS Data Explorer page for \code{adcoumed}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab Total \cr
-   2002 \tab 1824 \tab 433 \tab 370 \tab 98 \tab 34 \tab 6 \tab 2765 \cr
-   Total \tab 1824 \tab 433 \tab 370 \tab 98 \tab 34 \tab 6 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab not available in this year \tab no answer \tab skipped on web \tab Total \cr
+   2002 \tab 1824 \tab 433 \tab 370 \tab 98 \tab 34 \tab 6 \tab - \tab - \tab - \tab 2765 \cr
+   2024 \tab 1661 \tab 447 \tab 705 \tab 316 \tab 131 \tab 21 \tab - \tab 6 \tab 22 \tab 3309 \cr
+   Total \tab 3485 \tab 880 \tab 1075 \tab 414 \tab 165 \tab 27 \tab 0 \tab 6 \tab 22 \tab 6074 \cr
 }
 }
 

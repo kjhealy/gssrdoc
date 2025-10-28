@@ -35,10 +35,10 @@ A. On the whole, I am satisfied with myself
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3036/vshow}{GSS Data Explorer page for \code{satself}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 432 \tab 824 \tab 1338 \tab 183 \tab 30 \tab 2 \tab 3 \tab 2812 \cr
-   Total \tab 432 \tab 824 \tab 1338 \tab 183 \tab 30 \tab 2 \tab 3 \tab 2812 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 432 \tab 824 \tab 1338 \tab 183 \tab 30 \tab 2 \tab 3 \tab - \tab 2812 \cr
+   Total \tab 432 \tab 824 \tab 1338 \tab 183 \tab 30 \tab 2 \tab 3 \tab 0 \tab 2812 \cr
 }
 }
 

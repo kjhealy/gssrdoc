@@ -37,12 +37,13 @@ D. Generally speaking, America is a better country than most other countries
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4837/vshow}{GSS Data Explorer page for \code{ambetter}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 525 \tab 554 \tab 168 \tab 61 \tab 21 \tab 22 \tab 16 \tab 2904 \cr
-   2004 \tab 1596 \tab 487 \tab 456 \tab 187 \tab 58 \tab 9 \tab 18 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 323 \tab 567 \tab 222 \tab 99 \tab 21 \tab 38 \tab 4 \tab 2538 \cr
-   Total \tab 4397 \tab 1335 \tab 1577 \tab 577 \tab 218 \tab 51 \tab 78 \tab 21 \tab 8254 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1537 \tab 525 \tab 554 \tab 168 \tab 61 \tab 21 \tab 22 \tab 16 \tab - \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 487 \tab 456 \tab 187 \tab 58 \tab 9 \tab 18 \tab 1 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 323 \tab 567 \tab 222 \tab 99 \tab 21 \tab 38 \tab 4 \tab - \tab - \tab 2538 \cr
+   2024 \tab 1661 \tab 334 \tab 604 \tab 401 \tab 187 \tab 50 \tab 51 \tab 5 \tab - \tab 16 \tab 3309 \cr
+   Total \tab 6058 \tab 1669 \tab 2181 \tab 978 \tab 405 \tab 101 \tab 129 \tab 26 \tab 0 \tab 16 \tab 11563 \cr
 }
 }
 

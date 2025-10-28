@@ -32,11 +32,11 @@ Question Have you ever in your life been prevented from buying or moving into a 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3926/vshow}{GSS Data Explorer page for \code{evdwell}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1879 \tab 2 \tab 113 \tab 3 \tab 26 \tab 2023 \cr
-   2012 \tab 1807 \tab 3 \tab 118 \tab - \tab 46 \tab 1974 \cr
-   Total \tab 3686 \tab 5 \tab 231 \tab 3 \tab 72 \tab 3997 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1879 \tab 2 \tab 113 \tab 3 \tab 26 \tab - \tab 2023 \cr
+   2012 \tab 1807 \tab 3 \tab 118 \tab - \tab 46 \tab - \tab 1974 \cr
+   Total \tab 3686 \tab 5 \tab 231 \tab 3 \tab 72 \tab 0 \tab 3997 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question During the past four weeks, how often have you felt difficulties were p
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7273/vshow}{GSS Data Explorer page for \code{pilingup}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab never \tab rarely \tab sometimes \tab often \tab very often \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 545 \tab 335 \tab 195 \tab 62 \tab 27 \tab 7 \tab 2 \tab 2348 \cr
-   Total \tab 1175 \tab 545 \tab 335 \tab 195 \tab 62 \tab 27 \tab 7 \tab 2 \tab 2348 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab rarely \tab sometimes \tab often \tab very often \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 545 \tab 335 \tab 195 \tab 62 \tab 27 \tab 7 \tab 2 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 545 \tab 335 \tab 195 \tab 62 \tab 27 \tab 7 \tab 2 \tab 0 \tab 2348 \cr
 }
 }
 

@@ -33,10 +33,10 @@ B. Can you choose any doctor you like in your community or elsewhere, perhaps pa
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2187/vshow}{GSS Data Explorer page for \code{anydoc}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1639 \tab 834 \tab 278 \tab 58 \tab 23 \tab 2832 \cr
-   Total \tab 1639 \tab 834 \tab 278 \tab 58 \tab 23 \tab 2832 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1639 \tab 834 \tab 278 \tab 58 \tab 23 \tab - \tab 2832 \cr
+   Total \tab 1639 \tab 834 \tab 278 \tab 58 \tab 23 \tab 0 \tab 2832 \cr
 }
 }
 

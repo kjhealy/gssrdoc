@@ -36,10 +36,10 @@ D. …gets nervous easily
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4982/vshow}{GSS Data Explorer page for \code{big5d2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab no answer \tab Total \cr
-   2006 \tab 2992 \tab 73 \tab 325 \tab 192 \tab 694 \tab 232 \tab 2 \tab 4510 \cr
-   Total \tab 2992 \tab 73 \tab 325 \tab 192 \tab 694 \tab 232 \tab 2 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2992 \tab 73 \tab 325 \tab 192 \tab 694 \tab 232 \tab 2 \tab - \tab 4510 \cr
+   Total \tab 2992 \tab 73 \tab 325 \tab 192 \tab 694 \tab 232 \tab 2 \tab 0 \tab 4510 \cr
 }
 }
 

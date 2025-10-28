@@ -41,10 +41,10 @@ Question Why was the job abolished? Why were you permanently laid off?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3878/vshow}{GSS Data Explorer page for \code{whyjbct2}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab company's sales were declining \tab job requirements changed and i was not able to do the job \tab job moved to another country \tab Total \cr
-   2008 \tab 2016 \tab 5 \tab 1 \tab 1 \tab 2023 \cr
-   Total \tab 2016 \tab 5 \tab 1 \tab 1 \tab 2023 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab company's sales were declining \tab job requirements changed and i was not able to do the job \tab job moved to another country \tab not available in this year \tab Total \cr
+   2008 \tab 2016 \tab 5 \tab 1 \tab 1 \tab - \tab 2023 \cr
+   Total \tab 2016 \tab 5 \tab 1 \tab 1 \tab 0 \tab 2023 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question Under certain conditions, the pope is infallible when he speaks on matt
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5571/vshow}{GSS Data Explorer page for \code{popespky}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab certainly false \tab probably false \tab i am uncertain whether this is false or true \tab probably true \tab certainly true \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1779 \tab 11 \tab 20 \tab 93 \tab 65 \tab 43 \tab 7 \tab 5 \tab 2023 \cr
-   Total \tab 1779 \tab 11 \tab 20 \tab 93 \tab 65 \tab 43 \tab 7 \tab 5 \tab 2023 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab certainly false \tab probably false \tab i am uncertain whether this is false or true \tab probably true \tab certainly true \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1779 \tab 11 \tab 20 \tab 93 \tab 65 \tab 43 \tab 7 \tab 5 \tab - \tab 2023 \cr
+   Total \tab 1779 \tab 11 \tab 20 \tab 93 \tab 65 \tab 43 \tab 7 \tab 5 \tab 0 \tab 2023 \cr
 }
 }
 

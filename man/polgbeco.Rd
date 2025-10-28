@@ -33,10 +33,10 @@ Here are two options about what affects policies in America. Which of them comes
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6310/vshow}{GSS Data Explorer page for \code{polgbeco}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab policies in america depend on what is happening in the world economy, rather than who is in government \tab policies in america depend more on who is in government, rather than what is happening in the world economy \tab can't choose \tab no answer \tab Total \cr
-   2016 \tab 1477 \tab 438 \tab 902 \tab 34 \tab 16 \tab 2867 \cr
-   Total \tab 1477 \tab 438 \tab 902 \tab 34 \tab 16 \tab 2867 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab policies in america depend on what is happening in the world economy, rather than who is in government \tab policies in america depend more on who is in government, rather than what is happening in the world economy \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1477 \tab 438 \tab 902 \tab 34 \tab 16 \tab - \tab 2867 \cr
+   Total \tab 1477 \tab 438 \tab 902 \tab 34 \tab 16 \tab 0 \tab 2867 \cr
 }
 }
 

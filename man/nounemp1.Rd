@@ -37,11 +37,11 @@ A. To accept a job that requires new skills
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4620/vshow}{GSS Data Explorer page for \code{nounemp1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3492 \tab 459 \tab 416 \tab 66 \tab 53 \tab 17 \tab 5 \tab 2 \tab 4510 \cr
-   2016 \tab 1927 \tab 381 \tab 429 \tab 59 \tab 45 \tab 14 \tab 5 \tab 7 \tab 2867 \cr
-   Total \tab 5419 \tab 840 \tab 845 \tab 125 \tab 98 \tab 31 \tab 10 \tab 9 \tab 7377 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3492 \tab 459 \tab 416 \tab 66 \tab 53 \tab 17 \tab 5 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 381 \tab 429 \tab 59 \tab 45 \tab 14 \tab 5 \tab 7 \tab - \tab 2867 \cr
+   Total \tab 5419 \tab 840 \tab 845 \tab 125 \tab 98 \tab 31 \tab 10 \tab 9 \tab 0 \tab 7377 \cr
 }
 }
 

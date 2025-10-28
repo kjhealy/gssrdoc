@@ -35,10 +35,10 @@ C. The unemployed and people with jobs?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4308/vshow}{GSS Data Explorer page for \code{conjobs}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very strong conflict \tab strong conflict \tab not strong conflict \tab no conflict \tab can't choose \tab no answer \tab Total \cr
-   1987 \tab 255 \tab 164 \tab 579 \tab 588 \tab 111 \tab 65 \tab 57 \tab 1819 \cr
-   Total \tab 255 \tab 164 \tab 579 \tab 588 \tab 111 \tab 65 \tab 57 \tab 1819 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very strong conflict \tab strong conflict \tab not strong conflict \tab no conflict \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 164 \tab 579 \tab 588 \tab 111 \tab 65 \tab 57 \tab - \tab 1819 \cr
+   Total \tab 255 \tab 164 \tab 579 \tab 588 \tab 111 \tab 65 \tab 57 \tab 0 \tab 1819 \cr
 }
 }
 

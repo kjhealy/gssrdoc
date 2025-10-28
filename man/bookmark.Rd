@@ -36,11 +36,11 @@ D. Use a bookmark or "favorites listing"?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2391/vshow}{GSS Data Explorer page for \code{bookmark}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab never \tab less than half of the time \tab about half of the time \tab more than half of the time \tab almost always \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2075 \tab 276 \tab 140 \tab 92 \tab 80 \tab 68 \tab 86 \tab - \tab 2817 \cr
-   2002 \tab 2403 \tab 62 \tab 89 \tab 40 \tab 56 \tab 65 \tab 49 \tab 1 \tab 2765 \cr
-   Total \tab 4478 \tab 338 \tab 229 \tab 132 \tab 136 \tab 133 \tab 135 \tab 1 \tab 5582 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab less than half of the time \tab about half of the time \tab more than half of the time \tab almost always \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 276 \tab 140 \tab 92 \tab 80 \tab 68 \tab 86 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2403 \tab 62 \tab 89 \tab 40 \tab 56 \tab 65 \tab 49 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 4478 \tab 338 \tab 229 \tab 132 \tab 136 \tab 133 \tab 135 \tab 1 \tab 0 \tab 5582 \cr
 }
 }
 

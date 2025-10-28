@@ -34,10 +34,10 @@ A. Was your father self-employed, or did he work for someone else?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4315/vshow}{GSS Data Explorer page for \code{paslf}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab self-employed \tab someone else \tab no dad-never had job \tab no answer \tab Total \cr
-   1987 \tab 255 \tab 372 \tab 920 \tab 84 \tab 188 \tab 1819 \cr
-   Total \tab 255 \tab 372 \tab 920 \tab 84 \tab 188 \tab 1819 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab self-employed \tab someone else \tab no dad-never had job \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 372 \tab 920 \tab 84 \tab 188 \tab - \tab 1819 \cr
+   Total \tab 255 \tab 372 \tab 920 \tab 84 \tab 188 \tab 0 \tab 1819 \cr
 }
 }
 

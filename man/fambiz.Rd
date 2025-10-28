@@ -39,10 +39,10 @@ Question What kind of business is this?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1878/vshow}{GSS Data Explorer page for \code{fambiz}}.
 
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab manufacturing \tab retail sales \tab wholesale sales \tab services \tab transportation \tab construction \tab finance, insrnce or real est \tab farming \tab other specify \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2841 \tab 4 \tab 6 \tab 1 \tab 11 \tab 5 \tab 9 \tab 1 \tab 6 \tab 8 \tab 1 \tab 11 \tab 2904 \cr
-   Total \tab 2841 \tab 4 \tab 6 \tab 1 \tab 11 \tab 5 \tab 9 \tab 1 \tab 6 \tab 8 \tab 1 \tab 11 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab manufacturing \tab retail sales \tab wholesale sales \tab services \tab transportation \tab construction \tab finance, insrnce or real est \tab farming \tab other specify \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2841 \tab 4 \tab 6 \tab 1 \tab 11 \tab 5 \tab 9 \tab 1 \tab 6 \tab 8 \tab 1 \tab 11 \tab - \tab 2904 \cr
+   Total \tab 2841 \tab 4 \tab 6 \tab 1 \tab 11 \tab 5 \tab 9 \tab 1 \tab 6 \tab 8 \tab 1 \tab 11 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -35,10 +35,10 @@ A. Would definitely expect, probably expect, probably not expect, or definitely 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2715/vshow}{GSS Data Explorer page for \code{painqol}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely expect \tab probably expect \tab probably not expect \tab definitely not expect \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2339 \tab 200 \tab 212 \tab 32 \tab 11 \tab 8 \tab 15 \tab 2817 \cr
-   Total \tab 2339 \tab 200 \tab 212 \tab 32 \tab 11 \tab 8 \tab 15 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely expect \tab probably expect \tab probably not expect \tab definitely not expect \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2339 \tab 200 \tab 212 \tab 32 \tab 11 \tab 8 \tab 15 \tab - \tab 2817 \cr
+   Total \tab 2339 \tab 200 \tab 212 \tab 32 \tab 11 \tab 8 \tab 15 \tab 0 \tab 2817 \cr
 }
 }
 

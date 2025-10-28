@@ -34,10 +34,10 @@ B. Jews
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1238/vshow}{GSS Data Explorer page for \code{influjew}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab too much influence \tab right amount \tab too little influence \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 286 \tab 735 \tab 170 \tab 158 \tab 23 \tab 1372 \cr
-   Total \tab 0 \tab 286 \tab 735 \tab 170 \tab 158 \tab 23 \tab 1372 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab too much influence \tab right amount \tab too little influence \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 286 \tab 735 \tab 170 \tab 158 \tab 23 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 286 \tab 735 \tab 170 \tab 158 \tab 23 \tab 0 \tab 1372 \cr
 }
 }
 

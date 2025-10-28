@@ -34,24 +34,24 @@ B. Was drunk and bumped into the man and his wife on the street?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/666/vshow}{GSS Data Explorer page for \code{hitdrunk}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1973 \tab 489 \tab 100 \tab 886 \tab 20 \tab 9 \tab 1504 \cr
-   1975 \tab 407 \tab 77 \tab 977 \tab 27 \tab 2 \tab 1490 \cr
-   1976 \tab - \tab 131 \tab 1323 \tab 39 \tab 6 \tab 1499 \cr
-   1978 \tab - \tab 134 \tab 1353 \tab 41 \tab 4 \tab 1532 \cr
-   1980 \tab - \tab 140 \tab 1274 \tab 47 \tab 7 \tab 1468 \cr
-   1983 \tab - \tab 149 \tab 1398 \tab 46 \tab 6 \tab 1599 \cr
-   1984 \tab - \tab 105 \tab 1322 \tab 31 \tab 15 \tab 1473 \cr
-   1986 \tab - \tab 116 \tab 1317 \tab 31 \tab 6 \tab 1470 \cr
-   1987 \tab - \tab 141 \tab 1624 \tab 42 \tab 12 \tab 1819 \cr
-   1988 \tab 484 \tab 92 \tab 878 \tab 19 \tab 8 \tab 1481 \cr
-   1989 \tab 502 \tab 79 \tab 927 \tab 24 \tab 5 \tab 1537 \cr
-   1990 \tab 473 \tab 84 \tab 781 \tab 33 \tab 1 \tab 1372 \cr
-   1991 \tab 500 \tab 80 \tab 900 \tab 30 \tab 7 \tab 1517 \cr
-   1993 \tab 549 \tab 83 \tab 942 \tab 28 \tab 4 \tab 1606 \cr
-   1994 \tab 2481 \tab 32 \tab 462 \tab 15 \tab 2 \tab 2992 \cr
-   Total \tab 5885 \tab 1543 \tab 16364 \tab 473 \tab 94 \tab 24359 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1973 \tab 489 \tab 100 \tab 886 \tab 20 \tab 9 \tab - \tab 1504 \cr
+   1975 \tab 407 \tab 77 \tab 977 \tab 27 \tab 2 \tab - \tab 1490 \cr
+   1976 \tab - \tab 131 \tab 1323 \tab 39 \tab 6 \tab - \tab 1499 \cr
+   1978 \tab - \tab 134 \tab 1353 \tab 41 \tab 4 \tab - \tab 1532 \cr
+   1980 \tab - \tab 140 \tab 1274 \tab 47 \tab 7 \tab - \tab 1468 \cr
+   1983 \tab - \tab 149 \tab 1398 \tab 46 \tab 6 \tab - \tab 1599 \cr
+   1984 \tab - \tab 105 \tab 1322 \tab 31 \tab 15 \tab - \tab 1473 \cr
+   1986 \tab - \tab 116 \tab 1317 \tab 31 \tab 6 \tab - \tab 1470 \cr
+   1987 \tab - \tab 141 \tab 1624 \tab 42 \tab 12 \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 92 \tab 878 \tab 19 \tab 8 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 79 \tab 927 \tab 24 \tab 5 \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 84 \tab 781 \tab 33 \tab 1 \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 80 \tab 900 \tab 30 \tab 7 \tab - \tab 1517 \cr
+   1993 \tab 549 \tab 83 \tab 942 \tab 28 \tab 4 \tab - \tab 1606 \cr
+   1994 \tab 2481 \tab 32 \tab 462 \tab 15 \tab 2 \tab - \tab 2992 \cr
+   Total \tab 5885 \tab 1543 \tab 16364 \tab 473 \tab 94 \tab 0 \tab 24359 \cr
 }
 }
 

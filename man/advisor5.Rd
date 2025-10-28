@@ -36,12 +36,12 @@ J5. Fifth Person is Advisor
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/924/vshow}{GSS Data Explorer page for \code{advisor5}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab Total \cr
-   1985 \tab 1153 \tab 60 \tab 318 \tab 3 \tab 1534 \cr
-   1987 \tab 1819 \tab - \tab - \tab - \tab 1819 \cr
-   2004 \tab 2600 \tab 30 \tab 136 \tab 46 \tab 2812 \cr
-   Total \tab 5572 \tab 90 \tab 454 \tab 49 \tab 6165 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab mentioned \tab not mentioned \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 1153 \tab 60 \tab 318 \tab 3 \tab - \tab 1534 \cr
+   1987 \tab 1819 \tab - \tab - \tab - \tab - \tab 1819 \cr
+   2004 \tab 2600 \tab 30 \tab 136 \tab 46 \tab - \tab 2812 \cr
+   Total \tab 5572 \tab 90 \tab 454 \tab 49 \tab 0 \tab 6165 \cr
 }
 }
 

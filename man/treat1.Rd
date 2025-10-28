@@ -35,10 +35,10 @@ A. The first description is: not being able to do moderate activities, such as m
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2688/vshow}{GSS Data Explorer page for \code{treat1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely go \tab probably go \tab probably not go \tab definitely not go \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 526 \tab 371 \tab 197 \tab 109 \tab 6 \tab 210 \tab 2817 \cr
-   Total \tab 1398 \tab 526 \tab 371 \tab 197 \tab 109 \tab 6 \tab 210 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely go \tab probably go \tab probably not go \tab definitely not go \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 526 \tab 371 \tab 197 \tab 109 \tab 6 \tab 210 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 526 \tab 371 \tab 197 \tab 109 \tab 6 \tab 210 \tab 0 \tab 2817 \cr
 }
 }
 

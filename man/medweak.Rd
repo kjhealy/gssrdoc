@@ -35,10 +35,10 @@ C. Taking medications is a sign of weakness.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2976/vshow}{GSS Data Explorer page for \code{medweak}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 59 \tab 145 \tab 437 \tab 710 \tab 31 \tab 11 \tab 2765 \cr
-   Total \tab 1372 \tab 59 \tab 145 \tab 437 \tab 710 \tab 31 \tab 11 \tab 2765 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree somewhat \tab disagree somewhat \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1372 \tab 59 \tab 145 \tab 437 \tab 710 \tab 31 \tab 11 \tab - \tab 2765 \cr
+   Total \tab 1372 \tab 59 \tab 145 \tab 437 \tab 710 \tab 31 \tab 11 \tab 0 \tab 2765 \cr
 }
 }
 

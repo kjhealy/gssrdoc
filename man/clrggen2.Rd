@@ -32,10 +32,10 @@ Question B. Was this leader male or female?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3952/vshow}{GSS Data Explorer page for \code{clrggen2}}.
 
-Counts by year:\tabular{llll}{
-   year \tab iap \tab male \tab Total \cr
-   2008 \tab 2017 \tab 6 \tab 2023 \cr
-   Total \tab 2017 \tab 6 \tab 2023 \cr
+Counts by year:\tabular{lllll}{
+   year \tab iap \tab male \tab not available in this year \tab Total \cr
+   2008 \tab 2017 \tab 6 \tab - \tab 2023 \cr
+   Total \tab 2017 \tab 6 \tab 0 \tab 2023 \cr
 }
 }
 

@@ -26,10 +26,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |much better |better |about the same |worse |much worse |don't know |no answer |Total |
-#'  |:-----|:---|:-----------|:------|:--------------|:-----|:----------|:----------|:---------|:-----|
-#'  |1990  |-   |57          |454    |597            |197   |21         |30         |16        |1372  |
-#'  |Total |0   |57          |454    |597            |197   |21         |30         |16        |1372  |
+#'  |year  |iap |much better |better |about the same |worse |much worse |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----------|:------|:--------------|:-----|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |57          |454    |597            |197   |21         |30         |16        |-                          |1372  |
+#'  |Total |0   |57          |454    |597            |197   |21         |30         |16        |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -69,10 +69,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |much better |better |about the same |worse |much worse |don't know |no answer |Total |
-#'  |:-----|:---|:-----------|:------|:--------------|:-----|:----------|:----------|:---------|:-----|
-#'  |1990  |-   |101         |510    |415            |278   |25         |28         |15        |1372  |
-#'  |Total |0   |101         |510    |415            |278   |25         |28         |15        |1372  |
+#'  |year  |iap |much better |better |about the same |worse |much worse |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----------|:------|:--------------|:-----|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |101         |510    |415            |278   |25         |28         |15        |-                          |1372  |
+#'  |Total |0   |101         |510    |415            |278   |25         |28         |15        |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -112,10 +112,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |much better |better |about the same |worse |much worse |don't know |no answer |Total |
-#'  |:-----|:---|:-----------|:------|:--------------|:-----|:----------|:----------|:---------|:-----|
-#'  |1990  |-   |99          |547    |396            |248   |35         |33         |14        |1372  |
-#'  |Total |0   |99          |547    |396            |248   |35         |33         |14        |1372  |
+#'  |year  |iap |much better |better |about the same |worse |much worse |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----------|:------|:--------------|:-----|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |99          |547    |396            |248   |35         |33         |14        |-                          |1372  |
+#'  |Total |0   |99          |547    |396            |248   |35         |33         |14        |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -155,10 +155,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |much better |better |about the same |worse |much worse |don't know |no answer |Total |
-#'  |:-----|:---|:-----------|:------|:--------------|:-----|:----------|:----------|:---------|:-----|
-#'  |1990  |-   |18          |117    |401            |718   |71         |33         |14        |1372  |
-#'  |Total |0   |18          |117    |401            |718   |71         |33         |14        |1372  |
+#'  |year  |iap |much better |better |about the same |worse |much worse |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-----------|:------|:--------------|:-----|:----------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |18          |117    |401            |718   |71         |33         |14        |-                          |1372  |
+#'  |Total |0   |18          |117    |401            |718   |71         |33         |14        |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -198,10 +198,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |Total |
-#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:-----|
-#'  |1990  |-   |93            |317      |354     |416      |142           |42         |8         |1372  |
-#'  |Total |0   |93            |317      |354     |416      |142           |42         |8         |1372  |
+#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |93            |317      |354     |416      |142           |42         |8         |-                          |1372  |
+#'  |Total |0   |93            |317      |354     |416      |142           |42         |8         |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -242,10 +242,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |Total |
-#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:-----|
-#'  |1990  |-   |299           |811      |146     |54       |17            |38         |7         |1372  |
-#'  |Total |0   |299           |811      |146     |54       |17            |38         |7         |1372  |
+#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |299           |811      |146     |54       |17            |38         |7         |-                          |1372  |
+#'  |Total |0   |299           |811      |146     |54       |17            |38         |7         |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -285,10 +285,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |Total |
-#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:-----|
-#'  |1990  |-   |34            |296      |474     |414      |104           |43         |7         |1372  |
-#'  |Total |0   |34            |296      |474     |414      |104           |43         |7         |1372  |
+#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |34            |296      |474     |414      |104           |43         |7         |-                          |1372  |
+#'  |Total |0   |34            |296      |474     |414      |104           |43         |7         |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -328,10 +328,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |Total |
-#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:-----|
-#'  |1990  |-   |61            |187      |398     |504      |177           |38         |7         |1372  |
-#'  |Total |0   |61            |187      |398     |504      |177           |38         |7         |1372  |
+#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |61            |187      |398     |504      |177           |38         |7         |-                          |1372  |
+#'  |Total |0   |61            |187      |398     |504      |177           |38         |7         |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -371,10 +371,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |Total |
-#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:-----|
-#'  |1990  |-   |81            |135      |385     |412      |297           |54         |8         |1372  |
-#'  |Total |0   |81            |135      |385     |412      |297           |54         |8         |1372  |
+#'  |year  |iap |very positive |positive |neutral |negative |very negative |don't know |no answer |not available in this year |Total |
+#'  |:-----|:---|:-------------|:--------|:-------|:--------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |1990  |-   |81            |135      |385     |412      |297           |54         |8         |-                          |1372  |
+#'  |Total |0   |81            |135      |385     |412      |297           |54         |8         |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children
@@ -415,10 +415,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |spend much more |spend more |spend same |spend less |spend much less |can't choose |no answer |Total |
-#'  |:-----|:---|:---------------|:----------|:----------|:----------|:---------------|:------------|:---------|:-----|
-#'  |1990  |155 |126             |400        |510        |84         |25              |53           |19        |1372  |
-#'  |Total |155 |126             |400        |510        |84         |25              |53           |19        |1372  |
+#'  |year  |iap |spend much more |spend more |spend same |spend less |spend much less |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------------|:----------|:----------|:----------|:---------------|:------------|:---------|:--------------------------|:-----|
+#'  |1990  |155 |126             |400        |510        |84         |25              |53           |19        |-                          |1372  |
+#'  |Total |155 |126             |400        |510        |84         |25              |53           |19        |0                          |1372  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Children

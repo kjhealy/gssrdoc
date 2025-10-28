@@ -38,7 +38,8 @@ Counts by year:\tabular{lllllllll}{
    year \tab iap \tab first law \tab second law \tab neither (phone mode only: volunteered) \tab don't know \tab skipped on web \tab no answer \tab Total \cr
    2021 \tab 2045 \tab 353 \tab 1600 \tab 9 \tab 2 \tab 23 \tab - \tab 4032 \cr
    2022 \tab 2981 \tab 100 \tab 454 \tab - \tab - \tab 8 \tab 1 \tab 3544 \cr
-   Total \tab 5026 \tab 453 \tab 2054 \tab 9 \tab 2 \tab 31 \tab 1 \tab 7576 \cr
+   2024 \tab 2649 \tab 128 \tab 525 \tab - \tab - \tab 7 \tab - \tab 3309 \cr
+   Total \tab 7675 \tab 581 \tab 2579 \tab 9 \tab 2 \tab 38 \tab 1 \tab 10885 \cr
 }
 }
 

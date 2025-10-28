@@ -37,11 +37,11 @@ E. I am proud of the type of work I do.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4589/vshow}{GSS Data Explorer page for \code{proudwrk}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1998 \tab 1967 \tab 253 \tab 385 \tab 143 \tab 26 \tab 14 \tab 4 \tab 40 \tab 2832 \cr
-   2016 \tab 1927 \tab 373 \tab 427 \tab 99 \tab 27 \tab 9 \tab - \tab 5 \tab 2867 \cr
-   Total \tab 3894 \tab 626 \tab 812 \tab 242 \tab 53 \tab 23 \tab 4 \tab 45 \tab 5699 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1967 \tab 253 \tab 385 \tab 143 \tab 26 \tab 14 \tab 4 \tab 40 \tab - \tab 2832 \cr
+   2016 \tab 1927 \tab 373 \tab 427 \tab 99 \tab 27 \tab 9 \tab - \tab 5 \tab - \tab 2867 \cr
+   Total \tab 3894 \tab 626 \tab 812 \tab 242 \tab 53 \tab 23 \tab 4 \tab 45 \tab 0 \tab 5699 \cr
 }
 }
 

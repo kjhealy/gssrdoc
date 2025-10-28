@@ -35,10 +35,10 @@ Question D. Next, I'd like to ask how you rate your knowledge of what scientists
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3510/vshow}{GSS Data Explorer page for \code{scientdo}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab excellent \tab good \tab fair \tab poor \tab very poor \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1457 \tab 54 \tab 126 \tab 168 \tab 113 \tab 40 \tab 13 \tab 3 \tab 1974 \cr
-   Total \tab 1457 \tab 54 \tab 126 \tab 168 \tab 113 \tab 40 \tab 13 \tab 3 \tab 1974 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab excellent \tab good \tab fair \tab poor \tab very poor \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1457 \tab 54 \tab 126 \tab 168 \tab 113 \tab 40 \tab 13 \tab 3 \tab - \tab 1974 \cr
+   Total \tab 1457 \tab 54 \tab 126 \tab 168 \tab 113 \tab 40 \tab 13 \tab 3 \tab 0 \tab 1974 \cr
 }
 }
 

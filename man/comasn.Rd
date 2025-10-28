@@ -31,10 +31,10 @@ E. Asian Americans?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2327/vshow}{GSS Data Explorer page for \code{comasn}}.
 
-Counts by year:\tabular{llllllllllllllllllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 12 \tab 15 \tab 18 \tab 2 \tab 20 \tab 25 \tab 3 \tab 30 \tab 35 \tab 39 \tab 4 \tab 40 \tab 5 \tab 50 \tab 55 \tab 6 \tab 60 \tab 65 \tab 7 \tab 70 \tab 8 \tab 80 \tab 85 \tab 90 \tab 95 \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1419 \tab 346 \tab 144 \tab 168 \tab 1 \tab 2 \tab 35 \tab 2 \tab 101 \tab 61 \tab 23 \tab 41 \tab 30 \tab 4 \tab 1 \tab 19 \tab 16 \tab 225 \tab 10 \tab 1 \tab 3 \tab 3 \tab 1 \tab 4 \tab 2 \tab 8 \tab 2 \tab 1 \tab 1 \tab 1 \tab 82 \tab 60 \tab 2817 \cr
-   Total \tab 1419 \tab 346 \tab 144 \tab 168 \tab 1 \tab 2 \tab 35 \tab 2 \tab 101 \tab 61 \tab 23 \tab 41 \tab 30 \tab 4 \tab 1 \tab 19 \tab 16 \tab 225 \tab 10 \tab 1 \tab 3 \tab 3 \tab 1 \tab 4 \tab 2 \tab 8 \tab 2 \tab 1 \tab 1 \tab 1 \tab 82 \tab 60 \tab 2817 \cr
+Counts by year:\tabular{lllllllllllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 100 \tab 12 \tab 15 \tab 18 \tab 2 \tab 20 \tab 25 \tab 3 \tab 30 \tab 35 \tab 39 \tab 4 \tab 40 \tab 5 \tab 50 \tab 55 \tab 6 \tab 60 \tab 65 \tab 7 \tab 70 \tab 8 \tab 80 \tab 85 \tab 90 \tab 95 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1419 \tab 346 \tab 144 \tab 168 \tab 1 \tab 2 \tab 35 \tab 2 \tab 101 \tab 61 \tab 23 \tab 41 \tab 30 \tab 4 \tab 1 \tab 19 \tab 16 \tab 225 \tab 10 \tab 1 \tab 3 \tab 3 \tab 1 \tab 4 \tab 2 \tab 8 \tab 2 \tab 1 \tab 1 \tab 1 \tab 82 \tab 60 \tab - \tab 2817 \cr
+   Total \tab 1419 \tab 346 \tab 144 \tab 168 \tab 1 \tab 2 \tab 35 \tab 2 \tab 101 \tab 61 \tab 23 \tab 41 \tab 30 \tab 4 \tab 1 \tab 19 \tab 16 \tab 225 \tab 10 \tab 1 \tab 3 \tab 3 \tab 1 \tab 4 \tab 2 \tab 8 \tab 2 \tab 1 \tab 1 \tab 1 \tab 82 \tab 60 \tab 0 \tab 2817 \cr
 }
 }
 

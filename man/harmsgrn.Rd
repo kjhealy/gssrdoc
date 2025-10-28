@@ -37,14 +37,14 @@ B. Almost everything we do in modern life harms the environment.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4726/vshow}{GSS Data Explorer page for \code{harmsgrn}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   1993 \tab 49 \tab 95 \tab 669 \tab 244 \tab 431 \tab 45 \tab 19 \tab 54 \tab - \tab 1606 \cr
-   1994 \tab 1606 \tab 72 \tab 553 \tab 240 \tab 403 \tab 46 \tab 29 \tab 43 \tab - \tab 2992 \cr
-   2000 \tab 1541 \tab 78 \tab 457 \tab 249 \tab 339 \tab 48 \tab 26 \tab 79 \tab - \tab 2817 \cr
-   2010 \tab 614 \tab 96 \tab 601 \tab 258 \tab 385 \tab 41 \tab 44 \tab 5 \tab - \tab 2044 \cr
-   2021 \tab 2003 \tab 135 \tab 639 \tab 520 \tab 451 \tab 53 \tab 50 \tab 168 \tab 13 \tab 4032 \cr
-   Total \tab 5813 \tab 476 \tab 2919 \tab 1511 \tab 2009 \tab 233 \tab 168 \tab 349 \tab 13 \tab 13491 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 95 \tab 669 \tab 244 \tab 431 \tab 45 \tab 19 \tab 54 \tab - \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 72 \tab 553 \tab 240 \tab 403 \tab 46 \tab 29 \tab 43 \tab - \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 78 \tab 457 \tab 249 \tab 339 \tab 48 \tab 26 \tab 79 \tab - \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 96 \tab 601 \tab 258 \tab 385 \tab 41 \tab 44 \tab 5 \tab - \tab - \tab 2044 \cr
+   2021 \tab 2003 \tab 135 \tab 639 \tab 520 \tab 451 \tab 53 \tab 50 \tab 168 \tab 13 \tab - \tab 4032 \cr
+   Total \tab 5813 \tab 476 \tab 2919 \tab 1511 \tab 2009 \tab 233 \tab 168 \tab 349 \tab 13 \tab 0 \tab 13491 \cr
 }
 }
 

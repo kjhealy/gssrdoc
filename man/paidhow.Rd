@@ -45,10 +45,10 @@ Are you salaried, paid by the hour, or paid some other way? If you have more tha
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6291/vshow}{GSS Data Explorer page for \code{paidhow}}.
 
-Counts by year:\tabular{llllllllllllllllll}{
-   year \tab iap \tab salary \tab by the hour \tab earnings from business \tab piecework \tab by the job/project \tab wage + commission \tab by hour + tips \tab mileage \tab salary & hours combination \tab by day/week \tab by route \tab by client \tab by contract \tab other \tab no answer \tab Total \cr
-   2016 \tab 2273 \tab 191 \tab 332 \tab 5 \tab 2 \tab 11 \tab 9 \tab 2 \tab 5 \tab 9 \tab 3 \tab 3 \tab 2 \tab 5 \tab 7 \tab 8 \tab 2867 \cr
-   Total \tab 2273 \tab 191 \tab 332 \tab 5 \tab 2 \tab 11 \tab 9 \tab 2 \tab 5 \tab 9 \tab 3 \tab 3 \tab 2 \tab 5 \tab 7 \tab 8 \tab 2867 \cr
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab iap \tab salary \tab by the hour \tab earnings from business \tab piecework \tab by the job/project \tab wage + commission \tab by hour + tips \tab mileage \tab salary & hours combination \tab by day/week \tab by route \tab by client \tab by contract \tab other \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2273 \tab 191 \tab 332 \tab 5 \tab 2 \tab 11 \tab 9 \tab 2 \tab 5 \tab 9 \tab 3 \tab 3 \tab 2 \tab 5 \tab 7 \tab 8 \tab - \tab 2867 \cr
+   Total \tab 2273 \tab 191 \tab 332 \tab 5 \tab 2 \tab 11 \tab 9 \tab 2 \tab 5 \tab 9 \tab 3 \tab 3 \tab 2 \tab 5 \tab 7 \tab 8 \tab 0 \tab 2867 \cr
 }
 }
 

@@ -30,10 +30,10 @@ Question NUMBER OF CHILD SELECTED FOR FOLLOW-UP QUESTIONS:
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1537/vshow}{GSS Data Explorer page for \code{kdpicked}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab Total \cr
-   1994 \tab 2334 \tab 322 \tab 189 \tab 73 \tab 38 \tab 18 \tab 12 \tab 2 \tab 1 \tab 3 \tab 2992 \cr
-   Total \tab 2334 \tab 322 \tab 189 \tab 73 \tab 38 \tab 18 \tab 12 \tab 2 \tab 1 \tab 3 \tab 2992 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab not available in this year \tab Total \cr
+   1994 \tab 2334 \tab 322 \tab 189 \tab 73 \tab 38 \tab 18 \tab 12 \tab 2 \tab 1 \tab 3 \tab - \tab 2992 \cr
+   Total \tab 2334 \tab 322 \tab 189 \tab 73 \tab 38 \tab 18 \tab 12 \tab 2 \tab 1 \tab 3 \tab 0 \tab 2992 \cr
 }
 }
 

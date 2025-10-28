@@ -34,10 +34,10 @@ B. Spying by foreign agents
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5258/vshow}{GSS Data Explorer page for \code{forspy}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab greater \tab about the same \tab less \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 496 \tab 584 \tab 167 \tab 156 \tab 16 \tab 2817 \cr
-   Total \tab 1398 \tab 496 \tab 584 \tab 167 \tab 156 \tab 16 \tab 2817 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab greater \tab about the same \tab less \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 496 \tab 584 \tab 167 \tab 156 \tab 16 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 496 \tab 584 \tab 167 \tab 156 \tab 16 \tab 0 \tab 2817 \cr
 }
 }
 

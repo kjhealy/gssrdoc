@@ -35,10 +35,10 @@ Question How well does being a member of your religion describe you?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7527/vshow}{GSS Data Explorer page for \code{relidesc}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab extremely well \tab very well \tab somewhat well \tab not very well \tab not at all \tab don't know \tab no answer \tab skipped on web \tab see codebook \tab Total \cr
-   2021 \tab 442 \tab 689 \tab 1085 \tab 1130 \tab 363 \tab 183 \tab 6 \tab 2 \tab 34 \tab 98 \tab 4032 \cr
-   Total \tab 442 \tab 689 \tab 1085 \tab 1130 \tab 363 \tab 183 \tab 6 \tab 2 \tab 34 \tab 98 \tab 4032 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab extremely well \tab very well \tab somewhat well \tab not very well \tab not at all \tab don't know \tab no answer \tab skipped on web \tab see codebook \tab not available in this year \tab Total \cr
+   2021 \tab 442 \tab 689 \tab 1085 \tab 1130 \tab 363 \tab 183 \tab 6 \tab 2 \tab 34 \tab 98 \tab - \tab 4032 \cr
+   Total \tab 442 \tab 689 \tab 1085 \tab 1130 \tab 363 \tab 183 \tab 6 \tab 2 \tab 34 \tab 98 \tab 0 \tab 4032 \cr
 }
 }
 

@@ -37,10 +37,10 @@ A. Individuals who belong to the same ethnic group tend to be fairly similar to 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2734/vshow}{GSS Data Explorer page for \code{ethsame}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2002 \tab - \tab 272 \tab 1201 \tab 453 \tab 645 \tab 150 \tab 32 \tab 12 \tab 2765 \cr
-   Total \tab 0 \tab 272 \tab 1201 \tab 453 \tab 645 \tab 150 \tab 32 \tab 12 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab - \tab 272 \tab 1201 \tab 453 \tab 645 \tab 150 \tab 32 \tab 12 \tab - \tab 2765 \cr
+   Total \tab 0 \tab 272 \tab 1201 \tab 453 \tab 645 \tab 150 \tab 32 \tab 12 \tab 0 \tab 2765 \cr
 }
 }
 

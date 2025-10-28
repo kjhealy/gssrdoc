@@ -35,11 +35,11 @@ I. Friend
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/330/vshow}{GSS Data Explorer page for \code{friend}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab extremely likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
-   1983 \tab - \tab 962 \tab 406 \tab 91 \tab 98 \tab 24 \tab 18 \tab 1599 \cr
-   1984 \tab 989 \tab 295 \tab 129 \tab 29 \tab 17 \tab 3 \tab 11 \tab 1473 \cr
-   Total \tab 989 \tab 1257 \tab 535 \tab 120 \tab 115 \tab 27 \tab 29 \tab 3072 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely likely \tab somewhat likely \tab not too likely \tab not likely at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab - \tab 962 \tab 406 \tab 91 \tab 98 \tab 24 \tab 18 \tab - \tab 1599 \cr
+   1984 \tab 989 \tab 295 \tab 129 \tab 29 \tab 17 \tab 3 \tab 11 \tab - \tab 1473 \cr
+   Total \tab 989 \tab 1257 \tab 535 \tab 120 \tab 115 \tab 27 \tab 29 \tab 0 \tab 3072 \cr
 }
 }
 

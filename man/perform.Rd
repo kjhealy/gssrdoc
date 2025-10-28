@@ -33,12 +33,12 @@ J. Take part in a music, dance, or theatrical performance.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1414/vshow}{GSS Data Explorer page for \code{perform}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 154 \tab 1436 \tab 1 \tab 15 \tab 1606 \cr
-   1998 \tab 1387 \tab 152 \tab 1280 \tab - \tab 13 \tab 2832 \cr
-   2002 \tab 1393 \tab 141 \tab 1217 \tab 8 \tab 6 \tab 2765 \cr
-   Total \tab 2780 \tab 447 \tab 3933 \tab 9 \tab 34 \tab 7203 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 154 \tab 1436 \tab 1 \tab 15 \tab - \tab 1606 \cr
+   1998 \tab 1387 \tab 152 \tab 1280 \tab - \tab 13 \tab - \tab 2832 \cr
+   2002 \tab 1393 \tab 141 \tab 1217 \tab 8 \tab 6 \tab - \tab 2765 \cr
+   Total \tab 2780 \tab 447 \tab 3933 \tab 9 \tab 34 \tab 0 \tab 7203 \cr
 }
 }
 

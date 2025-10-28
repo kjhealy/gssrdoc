@@ -27,10 +27,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
-#'  |2000  |1398 |203       |562                                                 |217                |219                 |100                   |39             |67         |12        |2817  |
-#'  |Total |1398 |203       |562                                                 |217                |219                 |100                   |39             |67         |12        |2817  |
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |203       |562                                                 |217                |219                 |100                   |39             |67         |12        |-                          |2817  |
+#'  |Total |1398 |203       |562                                                 |217                |219                 |100                   |39             |67         |12        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -71,10 +71,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
-#'  |2000  |1398 |7         |107                                                 |41                 |186                 |413                   |601            |48         |16        |2817  |
-#'  |Total |1398 |7         |107                                                 |41                 |186                 |413                   |601            |48         |16        |2817  |
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |7         |107                                                 |41                 |186                 |413                   |601            |48         |16        |-                          |2817  |
+#'  |Total |1398 |7         |107                                                 |41                 |186                 |413                   |601            |48         |16        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -115,10 +115,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
-#'  |2000  |1398 |20        |161                                                 |92                 |286                 |391                   |409            |49         |11        |2817  |
-#'  |Total |1398 |20        |161                                                 |92                 |286                 |391                   |409            |49         |11        |2817  |
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |20        |161                                                 |92                 |286                 |391                   |409            |49         |11        |-                          |2817  |
+#'  |Total |1398 |20        |161                                                 |92                 |286                 |391                   |409            |49         |11        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -159,10 +159,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
-#'  |2000  |1398 |87        |402                                                 |376                |340                 |117                   |36             |49         |12        |2817  |
-#'  |Total |1398 |87        |402                                                 |376                |340                 |117                   |36             |49         |12        |2817  |
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |87        |402                                                 |376                |340                 |117                   |36             |49         |12        |-                          |2817  |
+#'  |Total |1398 |87        |402                                                 |376                |340                 |117                   |36             |49         |12        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -203,10 +203,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
-#'  |2000  |1398 |21        |182                                                 |126                |332                 |429                   |255            |59         |15        |2817  |
-#'  |Total |1398 |21        |182                                                 |126                |332                 |429                   |255            |59         |15        |2817  |
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |21        |182                                                 |126                |332                 |429                   |255            |59         |15        |-                          |2817  |
+#'  |Total |1398 |21        |182                                                 |126                |332                 |429                   |255            |59         |15        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -247,10 +247,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
-#'  |2000  |1398 |12        |195                                                 |130                |313                 |451                   |248            |56         |14        |2817  |
-#'  |Total |1398 |12        |195                                                 |130                |313                 |451                   |248            |56         |14        |2817  |
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |12        |195                                                 |130                |313                 |451                   |248            |56         |14        |-                          |2817  |
+#'  |Total |1398 |12        |195                                                 |130                |313                 |451                   |248            |56         |14        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -291,10 +291,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
-#'  |2000  |1398 |23        |287                                                 |174                |377                 |332                   |152            |57         |17        |2817  |
-#'  |Total |1398 |23        |287                                                 |174                |377                 |332                   |152            |57         |17        |2817  |
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |23        |287                                                 |174                |377                 |332                   |152            |57         |17        |-                          |2817  |
+#'  |Total |1398 |23        |287                                                 |174                |377                 |332                   |152            |57         |17        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -335,10 +335,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
-#'  |2000  |1398 |169       |437                                                 |285                |250                 |156                   |48             |59         |15        |2817  |
-#'  |Total |1398 |169       |437                                                 |285                |250                 |156                   |48             |59         |15        |2817  |
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |169       |437                                                 |285                |250                 |156                   |48             |59         |15        |-                          |2817  |
+#'  |Total |1398 |169       |437                                                 |285                |250                 |156                   |48             |59         |15        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -379,10 +379,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
-#'  |2000  |1398 |35        |247                                                 |174                |330                 |334                   |215            |69         |15        |2817  |
-#'  |Total |1398 |35        |247                                                 |174                |330                 |334                   |215            |69         |15        |2817  |
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |35        |247                                                 |174                |330                 |334                   |215            |69         |15        |-                          |2817  |
+#'  |Total |1398 |35        |247                                                 |174                |330                 |334                   |215            |69         |15        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security
@@ -423,10 +423,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |Total |
-#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:-----|
-#'  |2000  |1398 |386       |545                                                 |138                |134                 |76                    |61             |64         |15        |2817  |
-#'  |Total |1398 |386       |545                                                 |138                |134                 |76                    |61             |64         |15        |2817  |
+#'  |year  |iap  |reprimand |dismissal from the military/fired by the government |one year in prison |5-9 years in prison |10-20 years in prison |life in prison |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:---------------------------------------------------|:------------------|:-------------------|:---------------------|:--------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1398 |386       |545                                                 |138                |134                 |76                    |61             |64         |15        |-                          |2817  |
+#'  |Total |1398 |386       |545                                                 |138                |134                 |76                    |61             |64         |15        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family National Security

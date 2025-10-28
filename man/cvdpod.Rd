@@ -36,17 +36,21 @@ NOTE: This variable originates on the NEA follow-on, and should not be analyzed 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7890/vshow}{GSS Data Explorer page for \code{cvdpod}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab Total \cr
-   2022 \tab 2703 \tab 75 \tab 245 \tab 55 \tab 466 \tab 3544 \cr
-   Total \tab 2703 \tab 75 \tab 245 \tab 55 \tab 466 \tab 3544 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab not available in this year \tab more often \tab at the same rate \tab less often \tab r not attending these activities \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 75 \tab 245 \tab 55 \tab 466 \tab 2701 \tab 2 \tab 3544 \cr
+   Total \tab 0 \tab 75 \tab 245 \tab 55 \tab 466 \tab 2701 \tab 2 \tab 3544 \cr
 }
 }
 
 \seealso{
 Other NEA: 
+\code{\link{cvdarmus}},
 \code{\link{cvdarpo}},
-\code{\link{cvdclass}}
+\code{\link{cvdclass}},
+\code{\link{cvdstmus}},
+\code{\link{cvdstpo}},
+\code{\link{cvdtour}}
 }
 \concept{NEA}
 \keyword{variable}

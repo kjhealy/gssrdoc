@@ -34,10 +34,10 @@ Question C. How firm are you about your opinion on women''s rights--would you sa
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/595/vshow}{GSS Data Explorer page for \code{fefirm}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab change very likely \tab somewhat likely \tab somewhat unlikely \tab change very unlikely \tab don't know \tab no answer \tab Total \cr
-   1983 \tab 795 \tab 36 \tab 243 \tab 223 \tab 273 \tab 25 \tab 4 \tab 1599 \cr
-   Total \tab 795 \tab 36 \tab 243 \tab 223 \tab 273 \tab 25 \tab 4 \tab 1599 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab change very likely \tab somewhat likely \tab somewhat unlikely \tab change very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1983 \tab 795 \tab 36 \tab 243 \tab 223 \tab 273 \tab 25 \tab 4 \tab - \tab 1599 \cr
+   Total \tab 795 \tab 36 \tab 243 \tab 223 \tab 273 \tab 25 \tab 4 \tab 0 \tab 1599 \cr
 }
 }
 

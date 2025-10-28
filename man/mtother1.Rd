@@ -35,10 +35,10 @@ Question P. Do any of the other groups meet in this area?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3288/vshow}{GSS Data Explorer page for \code{mtother1}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2706 \tab 45 \tab 38 \tab 8 \tab 15 \tab 2812 \cr
-   Total \tab 2706 \tab 45 \tab 38 \tab 8 \tab 15 \tab 2812 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2706 \tab 45 \tab 38 \tab 8 \tab 15 \tab - \tab 2812 \cr
+   Total \tab 2706 \tab 45 \tab 38 \tab 8 \tab 15 \tab 0 \tab 2812 \cr
 }
 }
 

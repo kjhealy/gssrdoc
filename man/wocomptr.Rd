@@ -34,10 +34,10 @@ Question Could you do your job without a computer or computerized equipment? Wou
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3888/vshow}{GSS Data Explorer page for \code{wocomptr}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab couldn't do my job without a computer or computerized equipment \tab could do my job without a computer or computerized equipment but it would be much harder \tab doing my job without a computer or computerized equipment would be about the same as now \tab already do most of my job without a computer or computerized equipment \tab Total \cr
-   2008 \tab 1381 \tab 289 \tab 248 \tab 52 \tab 53 \tab 2023 \cr
-   Total \tab 1381 \tab 289 \tab 248 \tab 52 \tab 53 \tab 2023 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab couldn't do my job without a computer or computerized equipment \tab could do my job without a computer or computerized equipment but it would be much harder \tab doing my job without a computer or computerized equipment would be about the same as now \tab already do most of my job without a computer or computerized equipment \tab not available in this year \tab Total \cr
+   2008 \tab 1381 \tab 289 \tab 248 \tab 52 \tab 53 \tab - \tab 2023 \cr
+   Total \tab 1381 \tab 289 \tab 248 \tab 52 \tab 53 \tab 0 \tab 2023 \cr
 }
 }
 

@@ -37,12 +37,13 @@ B. A nervous breakdown
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1995/vshow}{GSS Data Explorer page for \code{breakdwn}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 249 \tab 501 \tab 411 \tab 207 \tab 52 \tab 24 \tab 2904 \cr
-   2006 \tab 3073 \tab 269 \tab 530 \tab 387 \tab 185 \tab 51 \tab 15 \tab 4510 \cr
-   2018 \tab 1175 \tab 206 \tab 420 \tab 328 \tab 162 \tab 28 \tab 29 \tab 2348 \cr
-   Total \tab 5708 \tab 724 \tab 1451 \tab 1126 \tab 554 \tab 131 \tab 68 \tab 9762 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 249 \tab 501 \tab 411 \tab 207 \tab 52 \tab 24 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 269 \tab 530 \tab 387 \tab 185 \tab 51 \tab 15 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 206 \tab 420 \tab 328 \tab 162 \tab 28 \tab 29 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1691 \tab 225 \tab 655 \tab 481 \tab 193 \tab 31 \tab 12 \tab - \tab 21 \tab 3309 \cr
+   Total \tab 7399 \tab 949 \tab 2106 \tab 1607 \tab 747 \tab 162 \tab 80 \tab 0 \tab 21 \tab 13071 \cr
 }
 }
 

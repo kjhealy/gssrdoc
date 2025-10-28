@@ -34,10 +34,10 @@ D. Terrorism by foreigners
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5260/vshow}{GSS Data Explorer page for \code{frterror}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab greater \tab about the same \tab less \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1398 \tab 899 \tab 336 \tab 79 \tab 83 \tab 22 \tab 2817 \cr
-   Total \tab 1398 \tab 899 \tab 336 \tab 79 \tab 83 \tab 22 \tab 2817 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab greater \tab about the same \tab less \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1398 \tab 899 \tab 336 \tab 79 \tab 83 \tab 22 \tab - \tab 2817 \cr
+   Total \tab 1398 \tab 899 \tab 336 \tab 79 \tab 83 \tab 22 \tab 0 \tab 2817 \cr
 }
 }
 

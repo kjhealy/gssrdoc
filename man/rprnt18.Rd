@@ -32,10 +32,10 @@ Question Are you the parent of another individual 18 or older in your house?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8028/vshow}{GSS Data Explorer page for \code{rprnt18}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 3213 \tab 134 \tab 190 \tab 1 \tab 6 \tab 3544 \cr
-   Total \tab 3213 \tab 134 \tab 190 \tab 1 \tab 6 \tab 3544 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab not available in this year \tab yes \tab no \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 134 \tab 190 \tab 3213 \tab 1 \tab 6 \tab 3544 \cr
+   Total \tab 0 \tab 134 \tab 190 \tab 3213 \tab 1 \tab 6 \tab 3544 \cr
 }
 }
 

@@ -39,10 +39,10 @@ Question B. During the last 12 months, how often did you have at least 8, but le
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3103/vshow}{GSS Data Explorer page for \code{drink8}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab never in the last 12 months \tab once in the last 12 months \tab twice in the last 12 months \tab three to six times in the last 12 months \tab seven to eleven times in the last 12 months \tab one to three times a month \tab once or twice a week \tab three or four times a week \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2776 \tab 1 \tab 3 \tab 6 \tab 5 \tab 4 \tab 4 \tab 4 \tab 1 \tab 1 \tab 7 \tab 2812 \cr
-   Total \tab 2776 \tab 1 \tab 3 \tab 6 \tab 5 \tab 4 \tab 4 \tab 4 \tab 1 \tab 1 \tab 7 \tab 2812 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab never in the last 12 months \tab once in the last 12 months \tab twice in the last 12 months \tab three to six times in the last 12 months \tab seven to eleven times in the last 12 months \tab one to three times a month \tab once or twice a week \tab three or four times a week \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2776 \tab 1 \tab 3 \tab 6 \tab 5 \tab 4 \tab 4 \tab 4 \tab 1 \tab 1 \tab 7 \tab - \tab 2812 \cr
+   Total \tab 2776 \tab 1 \tab 3 \tab 6 \tab 5 \tab 4 \tab 4 \tab 4 \tab 1 \tab 1 \tab 7 \tab 0 \tab 2812 \cr
 }
 }
 

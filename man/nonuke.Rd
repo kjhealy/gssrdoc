@@ -35,10 +35,10 @@ E. Elimination of atomic weapons by both U.S. and Russia?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/826/vshow}{GSS Data Explorer page for \code{nonuke}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab wont happen \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab certain to happen \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 832 \tab 224 \tab 110 \tab 117 \tab 52 \tab 29 \tab 43 \tab 44 \tab 22 \tab 1473 \cr
-   Total \tab 0 \tab 832 \tab 224 \tab 110 \tab 117 \tab 52 \tab 29 \tab 43 \tab 44 \tab 22 \tab 1473 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab wont happen \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab certain to happen \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 832 \tab 224 \tab 110 \tab 117 \tab 52 \tab 29 \tab 43 \tab 44 \tab 22 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 832 \tab 224 \tab 110 \tab 117 \tab 52 \tab 29 \tab 43 \tab 44 \tab 22 \tab 0 \tab 1473 \cr
 }
 }
 

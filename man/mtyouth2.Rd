@@ -33,10 +33,10 @@ Question G. Does the youth group meet in this area?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3252/vshow}{GSS Data Explorer page for \code{mtyouth2}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 2793 \tab 10 \tab 1 \tab 1 \tab 7 \tab 2812 \cr
-   Total \tab 2793 \tab 10 \tab 1 \tab 1 \tab 7 \tab 2812 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2793 \tab 10 \tab 1 \tab 1 \tab 7 \tab - \tab 2812 \cr
+   Total \tab 2793 \tab 10 \tab 1 \tab 1 \tab 7 \tab 0 \tab 2812 \cr
 }
 }
 

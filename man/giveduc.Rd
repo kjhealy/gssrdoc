@@ -33,10 +33,10 @@ B. Education
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1931/vshow}{GSS Data Explorer page for \code{giveduc}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 219 \tab 1076 \tab 149 \tab 2904 \cr
-   Total \tab 1460 \tab 219 \tab 1076 \tab 149 \tab 2904 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1460 \tab 219 \tab 1076 \tab 149 \tab - \tab 2904 \cr
+   Total \tab 1460 \tab 219 \tab 1076 \tab 149 \tab 0 \tab 2904 \cr
 }
 }
 

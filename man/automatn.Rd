@@ -35,10 +35,10 @@ D. How I do my job is controlled by the machines I work with.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1311/vshow}{GSS Data Explorer page for \code{automatn}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very true \tab true \tab somewhat true \tab not true at all \tab can't choose \tab no answer \tab Total \cr
-   1991 \tab 605 \tab 73 \tab 116 \tab 125 \tab 576 \tab 9 \tab 13 \tab 1517 \cr
-   Total \tab 605 \tab 73 \tab 116 \tab 125 \tab 576 \tab 9 \tab 13 \tab 1517 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very true \tab true \tab somewhat true \tab not true at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 605 \tab 73 \tab 116 \tab 125 \tab 576 \tab 9 \tab 13 \tab - \tab 1517 \cr
+   Total \tab 605 \tab 73 \tab 116 \tab 125 \tab 576 \tab 9 \tab 13 \tab 0 \tab 1517 \cr
 }
 }
 

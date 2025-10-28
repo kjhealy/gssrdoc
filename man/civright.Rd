@@ -33,10 +33,10 @@ B. A civil rights demonstration?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/654/vshow}{GSS Data Explorer page for \code{civright}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab Total \cr
-   1973 \tab - \tab 65 \tab 1437 \tab 2 \tab 1504 \cr
-   Total \tab 0 \tab 65 \tab 1437 \tab 2 \tab 1504 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab not available in this year \tab Total \cr
+   1973 \tab - \tab 65 \tab 1437 \tab 2 \tab - \tab 1504 \cr
+   Total \tab 0 \tab 65 \tab 1437 \tab 2 \tab 0 \tab 1504 \cr
 }
 }
 

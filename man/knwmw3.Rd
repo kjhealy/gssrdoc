@@ -35,10 +35,10 @@ Question Is (NAME 3), the third person, a man or a woman?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7097/vshow}{GSS Data Explorer page for \code{knwmw3}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab male \tab female \tab transgender ftm \tab other \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 2095 \tab 131 \tab 114 \tab 1 \tab 1 \tab 1 \tab 5 \tab 2348 \cr
-   Total \tab 2095 \tab 131 \tab 114 \tab 1 \tab 1 \tab 1 \tab 5 \tab 2348 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab male \tab female \tab transgender ftm \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 2095 \tab 131 \tab 114 \tab 1 \tab 1 \tab 1 \tab 5 \tab - \tab 2348 \cr
+   Total \tab 2095 \tab 131 \tab 114 \tab 1 \tab 1 \tab 1 \tab 5 \tab 0 \tab 2348 \cr
 }
 }
 

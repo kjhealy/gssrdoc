@@ -33,10 +33,10 @@ Question C. Fundamentalism/Liberalism of Mother's Religion
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1062/vshow}{GSS Data Explorer page for \code{mafund}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab fundamentalist \tab moderate \tab liberal \tab no answer \tab Total \cr
-   1988 \tab 48 \tab 475 \tab 566 \tab 343 \tab 49 \tab 1481 \cr
-   Total \tab 48 \tab 475 \tab 566 \tab 343 \tab 49 \tab 1481 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab fundamentalist \tab moderate \tab liberal \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 48 \tab 475 \tab 566 \tab 343 \tab 49 \tab - \tab 1481 \cr
+   Total \tab 48 \tab 475 \tab 566 \tab 343 \tab 49 \tab 0 \tab 1481 \cr
 }
 }
 

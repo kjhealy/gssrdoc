@@ -34,10 +34,10 @@ Question How important is religion in your life -- very important, somewhat impo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7525/vshow}{GSS Data Explorer page for \code{religimp}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 390 \tab 1124 \tab 923 \tab 668 \tab 894 \tab 2 \tab 1 \tab 30 \tab 4032 \cr
-   Total \tab 390 \tab 1124 \tab 923 \tab 668 \tab 894 \tab 2 \tab 1 \tab 30 \tab 4032 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 390 \tab 1124 \tab 923 \tab 668 \tab 894 \tab 2 \tab 1 \tab 30 \tab - \tab 4032 \cr
+   Total \tab 390 \tab 1124 \tab 923 \tab 668 \tab 894 \tab 2 \tab 1 \tab 30 \tab 0 \tab 4032 \cr
 }
 }
 

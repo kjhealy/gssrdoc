@@ -36,10 +36,10 @@ C. I have arrived at work too tired to function well because of the household wo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4449/vshow}{GSS Data Explorer page for \code{tiredwrk}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab several times a week \tab several times a month \tab once or twice \tab never \tab doesnt apply or no job \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1594 \tab 27 \tab 48 \tab 244 \tab 524 \tab 318 \tab 4 \tab 6 \tab 2765 \cr
-   Total \tab 1594 \tab 27 \tab 48 \tab 244 \tab 524 \tab 318 \tab 4 \tab 6 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab several times a week \tab several times a month \tab once or twice \tab never \tab doesnt apply or no job \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1594 \tab 27 \tab 48 \tab 244 \tab 524 \tab 318 \tab 4 \tab 6 \tab - \tab 2765 \cr
+   Total \tab 1594 \tab 27 \tab 48 \tab 244 \tab 524 \tab 318 \tab 4 \tab 6 \tab 0 \tab 2765 \cr
 }
 }
 

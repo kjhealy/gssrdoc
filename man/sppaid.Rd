@@ -34,10 +34,10 @@ A. During the time you were entitled to alimony or child support, did you receiv
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/630/vshow}{GSS Data Explorer page for \code{sppaid}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab regular basis \tab occasionally \tab not at all \tab no answer \tab Total \cr
-   1986 \tab 1316 \tab 57 \tab 29 \tab 36 \tab 32 \tab 1470 \cr
-   Total \tab 1316 \tab 57 \tab 29 \tab 36 \tab 32 \tab 1470 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab regular basis \tab occasionally \tab not at all \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 1316 \tab 57 \tab 29 \tab 36 \tab 32 \tab - \tab 1470 \cr
+   Total \tab 1316 \tab 57 \tab 29 \tab 36 \tab 32 \tab 0 \tab 1470 \cr
 }
 }
 

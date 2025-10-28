@@ -35,11 +35,11 @@ Question How difficult would it be for you to take an hour or two off during wor
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4613/vshow}{GSS Data Explorer page for \code{timeoff}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab not difficult at all \tab not too difficult \tab somewhat difficult \tab very difficult \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3492 \tab 448 \tab 274 \tab 161 \tab 132 \tab 1 \tab 2 \tab 4510 \cr
-   2016 \tab 1927 \tab 397 \tab 289 \tab 144 \tab 103 \tab 2 \tab 5 \tab 2867 \cr
-   Total \tab 5419 \tab 845 \tab 563 \tab 305 \tab 235 \tab 3 \tab 7 \tab 7377 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab not difficult at all \tab not too difficult \tab somewhat difficult \tab very difficult \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3492 \tab 448 \tab 274 \tab 161 \tab 132 \tab 1 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 397 \tab 289 \tab 144 \tab 103 \tab 2 \tab 5 \tab - \tab 2867 \cr
+   Total \tab 5419 \tab 845 \tab 563 \tab 305 \tab 235 \tab 3 \tab 7 \tab 0 \tab 7377 \cr
 }
 }
 

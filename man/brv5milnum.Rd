@@ -32,23 +32,23 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7908/vshow}{GSS Data Explorer page for \code{brv5milnum}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 \tab skipped on web \tab Total \cr
-   2022 \tab 3239 \tab 121 \tab 46 \tab 2 \tab 136 \tab 3544 \cr
-   Total \tab 3239 \tab 121 \tab 46 \tab 2 \tab 136 \tab 3544 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab not available in this year \tab 0 \tab 1 \tab 2 \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 121 \tab 45 \tab 2 \tab 3243 \tab 133 \tab 3544 \cr
+   Total \tab 0 \tab 121 \tab 45 \tab 2 \tab 3243 \tab 133 \tab 3544 \cr
 }
 }
 
 \seealso{
 Other GSS Next: 
-\code{\link{brv5bronum}},
 \code{\link{brv5chinum}},
-\code{\link{brv5cuznum}},
+\code{\link{brv5dadnum}},
 \code{\link{brv5daunum}},
+\code{\link{brv5filnum}},
 \code{\link{brv5gmanum}},
 \code{\link{brv5gpanum}},
-\code{\link{brv5silnum}},
-\code{\link{brv5sisnum}},
+\code{\link{brv5momnum}},
+\code{\link{brv5partnum}},
 \code{\link{brv5sonnum}}
 }
 \concept{GSS Next}

@@ -35,10 +35,10 @@ I. I would feel uncomfortable entertaining people I don't know well in my home.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1430/vshow}{GSS Data Explorer page for \code{hosthome}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 116 \tab 727 \tab 619 \tab 98 \tab 32 \tab 14 \tab 1606 \cr
-   Total \tab 0 \tab 116 \tab 727 \tab 619 \tab 98 \tab 32 \tab 14 \tab 1606 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 116 \tab 727 \tab 619 \tab 98 \tab 32 \tab 14 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 116 \tab 727 \tab 619 \tab 98 \tab 32 \tab 14 \tab 0 \tab 1606 \cr
 }
 }
 

@@ -39,7 +39,8 @@ Counts by year:\tabular{lllllllll}{
    year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab very unlikely \tab don't know \tab skipped on web \tab Total \cr
    2021 \tab 2658 \tab 340 \tab 587 \tab 256 \tab 127 \tab 62 \tab 2 \tab 4032 \cr
    2022 \tab 2990 \tab 121 \tab 250 \tab 97 \tab 52 \tab 33 \tab 1 \tab 3544 \cr
-   Total \tab 5648 \tab 461 \tab 837 \tab 353 \tab 179 \tab 95 \tab 3 \tab 7576 \cr
+   2024 \tab 2734 \tab 129 \tab 246 \tab 98 \tab 70 \tab 32 \tab - \tab 3309 \cr
+   Total \tab 8382 \tab 590 \tab 1083 \tab 451 \tab 249 \tab 127 \tab 3 \tab 10885 \cr
 }
 }
 

@@ -34,10 +34,10 @@ B. Other income-producing activities?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2569/vshow}{GSS Data Explorer page for \code{incminw}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab 0 \tab 15 \tab 2 \tab 20 \tab 30 \tab 7 \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2486 \tab 267 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 58 \tab 2817 \cr
-   Total \tab 2486 \tab 267 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 58 \tab 2817 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab 0 \tab 15 \tab 2 \tab 20 \tab 30 \tab 7 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2486 \tab 267 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 58 \tab - \tab 2817 \cr
+   Total \tab 2486 \tab 267 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 58 \tab 0 \tab 2817 \cr
 }
 }
 

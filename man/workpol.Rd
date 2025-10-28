@@ -34,10 +34,10 @@ Question Have you done (other) work for one of the parties or candidates in most
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1029/vshow}{GSS Data Explorer page for \code{workpol}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab most elections \tab some elections \tab only a few \tab never \tab no answer \tab Total \cr
-   1987 \tab - \tab 48 \tab 166 \tab 251 \tab 1344 \tab 10 \tab 1819 \cr
-   Total \tab 0 \tab 48 \tab 166 \tab 251 \tab 1344 \tab 10 \tab 1819 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab most elections \tab some elections \tab only a few \tab never \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab - \tab 48 \tab 166 \tab 251 \tab 1344 \tab 10 \tab - \tab 1819 \cr
+   Total \tab 0 \tab 48 \tab 166 \tab 251 \tab 1344 \tab 10 \tab 0 \tab 1819 \cr
 }
 }
 

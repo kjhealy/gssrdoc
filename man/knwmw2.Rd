@@ -35,10 +35,10 @@ Question Is (NAME 2), the second person, a man or a woman?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7096/vshow}{GSS Data Explorer page for \code{knwmw2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab male \tab female \tab transgender ftm \tab other \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1982 \tab 159 \tab 197 \tab 1 \tab 4 \tab 1 \tab 4 \tab 2348 \cr
-   Total \tab 1982 \tab 159 \tab 197 \tab 1 \tab 4 \tab 1 \tab 4 \tab 2348 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab male \tab female \tab transgender ftm \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1982 \tab 159 \tab 197 \tab 1 \tab 4 \tab 1 \tab 4 \tab - \tab 2348 \cr
+   Total \tab 1982 \tab 159 \tab 197 \tab 1 \tab 4 \tab 1 \tab 4 \tab 0 \tab 2348 \cr
 }
 }
 

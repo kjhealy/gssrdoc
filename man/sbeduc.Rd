@@ -30,10 +30,10 @@ Question SIBLING'S EDUCATION
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1582/vshow}{GSS Data Explorer page for \code{sbeduc}}.
 
-Counts by year:\tabular{lllllllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab Total \cr
-   1994 \tab 378 \tab 8 \tab 118 \tab 130 \tab 993 \tab 134 \tab 253 \tab 74 \tab 409 \tab 39 \tab 88 \tab 20 \tab 56 \tab 4 \tab 9 \tab 6 \tab 20 \tab 22 \tab 75 \tab 45 \tab 111 \tab 2992 \cr
-   Total \tab 378 \tab 8 \tab 118 \tab 130 \tab 993 \tab 134 \tab 253 \tab 74 \tab 409 \tab 39 \tab 88 \tab 20 \tab 56 \tab 4 \tab 9 \tab 6 \tab 20 \tab 22 \tab 75 \tab 45 \tab 111 \tab 2992 \cr
+Counts by year:\tabular{llllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab not available in this year \tab Total \cr
+   1994 \tab 378 \tab 8 \tab 118 \tab 130 \tab 993 \tab 134 \tab 253 \tab 74 \tab 409 \tab 39 \tab 88 \tab 20 \tab 56 \tab 4 \tab 9 \tab 6 \tab 20 \tab 22 \tab 75 \tab 45 \tab 111 \tab - \tab 2992 \cr
+   Total \tab 378 \tab 8 \tab 118 \tab 130 \tab 993 \tab 134 \tab 253 \tab 74 \tab 409 \tab 39 \tab 88 \tab 20 \tab 56 \tab 4 \tab 9 \tab 6 \tab 20 \tab 22 \tab 75 \tab 45 \tab 111 \tab 0 \tab 2992 \cr
 }
 }
 

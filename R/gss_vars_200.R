@@ -27,10 +27,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |husband alone |husband after consulting with wife |husband and wife together |wife after consulting husband |wife alone |other |no answer |see codebook |Total |
-#'  |:-----|:----|:-------------|:----------------------------------|:-------------------------|:-----------------------------|:----------|:-----|:---------|:------------|:-----|
-#'  |1996  |2196 |6             |22                                 |471                       |94                            |61         |5     |5         |44           |2904  |
-#'  |Total |2196 |6             |22                                 |471                       |94                            |61         |5     |5         |44           |2904  |
+#'  |year  |iap  |husband alone |husband after consulting with wife |husband and wife together |wife after consulting husband |wife alone |other |no answer |see codebook |not available in this year |Total |
+#'  |:-----|:----|:-------------|:----------------------------------|:-------------------------|:-----------------------------|:----------|:-----|:---------|:------------|:--------------------------|:-----|
+#'  |1996  |2196 |6             |22                                 |471                       |94                            |61         |5     |5         |44           |-                          |2904  |
+#'  |Total |2196 |6             |22                                 |471                       |94                            |61         |5     |5         |44           |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -72,10 +72,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |husband alone |husband after consulting with wife |husband and wife together |wife after consulting husband |wife alone |other |no answer |see codebook |Total |
-#'  |:-----|:----|:-------------|:----------------------------------|:-------------------------|:-----------------------------|:----------|:-----|:---------|:------------|:-----|
-#'  |1996  |2196 |29            |29                                 |475                       |45                            |53         |15    |6         |56           |2904  |
-#'  |Total |2196 |29            |29                                 |475                       |45                            |53         |15    |6         |56           |2904  |
+#'  |year  |iap  |husband alone |husband after consulting with wife |husband and wife together |wife after consulting husband |wife alone |other |no answer |see codebook |not available in this year |Total |
+#'  |:-----|:----|:-------------|:----------------------------------|:-------------------------|:-----------------------------|:----------|:-----|:---------|:------------|:--------------------------|:-----|
+#'  |1996  |2196 |29            |29                                 |475                       |45                            |53         |15    |6         |56           |-                          |2904  |
+#'  |Total |2196 |29            |29                                 |475                       |45                            |53         |15    |6         |56           |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -127,10 +127,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |those who have worked longest |those who have the greatest needs |those who are the best workers |difficulty in finding a new job |union members |older employees |younger employees |men |minorities-non-whites |other -please specify |owners,bosses |essential employees |newest employees |most loyal employees |production. hands-on employees |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------------------|:---------------------------------|:------------------------------|:-------------------------------|:-------------|:---------------|:-----------------|:---|:---------------------|:---------------------|:-------------|:-------------------|:----------------|:--------------------|:------------------------------|:----------|:---------|:-----|
-#'  |1996  |1460 |685                           |98                                |529                            |3                               |4             |11              |3                 |5   |7                     |22                    |9             |4                   |2                |3                    |4                              |48         |7         |2904  |
-#'  |Total |1460 |685                           |98                                |529                            |3                               |4             |11              |3                 |5   |7                     |22                    |9             |4                   |2                |3                    |4                              |48         |7         |2904  |
+#'  |year  |iap  |those who have worked longest |those who have the greatest needs |those who are the best workers |difficulty in finding a new job |union members |older employees |younger employees |men |minorities-non-whites |other -please specify |owners,bosses |essential employees |newest employees |most loyal employees |production. hands-on employees |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------------------|:---------------------------------|:------------------------------|:-------------------------------|:-------------|:---------------|:-----------------|:---|:---------------------|:---------------------|:-------------|:-------------------|:----------------|:--------------------|:------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |1996  |1460 |685                           |98                                |529                            |3                               |4             |11              |3                 |5   |7                     |22                    |9             |4                   |2                |3                    |4                              |48         |7         |-                          |2904  |
+#'  |Total |1460 |685                           |98                                |529                            |3                               |4             |11              |3                 |5   |7                     |22                    |9             |4                   |2                |3                    |4                              |48         |7         |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -170,10 +170,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1996  |1460 |147 |1209 |88        |2904  |
-#'  |Total |1460 |147 |1209 |88        |2904  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1996  |1460 |147 |1209 |88        |-                          |2904  |
+#'  |Total |1460 |147 |1209 |88        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -210,10 +210,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1996  |1460 |243 |1123 |78        |2904  |
-#'  |Total |1460 |243 |1123 |78        |2904  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1996  |1460 |243 |1123 |78        |-                          |2904  |
+#'  |Total |1460 |243 |1123 |78        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -250,10 +250,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1996  |1460 |347 |1028 |69        |2904  |
-#'  |Total |1460 |347 |1028 |69        |2904  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1996  |1460 |347 |1028 |69        |-                          |2904  |
+#'  |Total |1460 |347 |1028 |69        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -290,10 +290,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1996  |1460 |137 |1218 |89        |2904  |
-#'  |Total |1460 |137 |1218 |89        |2904  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1996  |1460 |137 |1218 |89        |-                          |2904  |
+#'  |Total |1460 |137 |1218 |89        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -330,10 +330,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1996  |1460 |100 |1245 |99        |2904  |
-#'  |Total |1460 |100 |1245 |99        |2904  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1996  |1460 |100 |1245 |99        |-                          |2904  |
+#'  |Total |1460 |100 |1245 |99        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -370,10 +370,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1996  |1460 |110 |1247 |87        |2904  |
-#'  |Total |1460 |110 |1247 |87        |2904  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1996  |1460 |110 |1247 |87        |-                          |2904  |
+#'  |Total |1460 |110 |1247 |87        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering
@@ -410,10 +410,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |no answer |Total |
-#'  |:-----|:----|:---|:----|:---------|:-----|
-#'  |1996  |1460 |91  |1254 |99        |2904  |
-#'  |Total |1460 |91  |1254 |99        |2904  |
+#'  |year  |iap  |yes |no   |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:---------|:--------------------------|:-----|
+#'  |1996  |1460 |91  |1254 |99        |-                          |2904  |
+#'  |Total |1460 |91  |1254 |99        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets & Exchange - Giving & Volunteering

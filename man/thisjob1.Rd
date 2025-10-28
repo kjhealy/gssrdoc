@@ -33,10 +33,10 @@ A. A notice was posted or circulated at my work place.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1292/vshow}{GSS Data Explorer page for \code{thisjob1}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1991 \tab 1243 \tab 42 \tab 200 \tab 32 \tab 1517 \cr
-   Total \tab 1243 \tab 42 \tab 200 \tab 32 \tab 1517 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 1243 \tab 42 \tab 200 \tab 32 \tab - \tab 1517 \cr
+   Total \tab 1243 \tab 42 \tab 200 \tab 32 \tab 0 \tab 1517 \cr
 }
 }
 

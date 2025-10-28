@@ -42,10 +42,10 @@ Question What was the approximate total dollar value of these various payments i
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7851/vshow}{GSS Data Explorer page for \code{extraval1}}.
 
-Counts by year:\tabular{lllllllllllllll}{
-   year \tab NA \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab 10 \tab 11 \tab 12 \tab Total \cr
-   2022 \tab 3354 \tab 7 \tab 15 \tab 15 \tab 16 \tab 22 \tab 14 \tab 14 \tab 18 \tab 30 \tab 24 \tab 7 \tab 8 \tab 3544 \cr
-   Total \tab 3354 \tab 7 \tab 15 \tab 15 \tab 16 \tab 22 \tab 14 \tab 14 \tab 18 \tab 30 \tab 24 \tab 7 \tab 8 \tab 3544 \cr
+Counts by year:\tabular{lllllllllllllllllll}{
+   year \tab not available in this year \tab less than $100 \tab $100 to $299 \tab $300 to $499 \tab $500 to $999 \tab $1,000 to $1,499 \tab $1,500 to $2,499 \tab $2,500 to $3,999 \tab $4,000 to $6,999 \tab $7,000 to $14,999 \tab $15,000 to $49,999 \tab $50,000 to $99,999 \tab over $100,000 \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 7 \tab 15 \tab 15 \tab 16 \tab 22 \tab 14 \tab 14 \tab 18 \tab 30 \tab 24 \tab 7 \tab 8 \tab 9 \tab 3337 \tab 4 \tab 4 \tab 3544 \cr
+   Total \tab 0 \tab 7 \tab 15 \tab 15 \tab 16 \tab 22 \tab 14 \tab 14 \tab 18 \tab 30 \tab 24 \tab 7 \tab 8 \tab 9 \tab 3337 \tab 4 \tab 4 \tab 3544 \cr
 }
 }
 

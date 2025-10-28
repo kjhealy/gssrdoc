@@ -33,10 +33,10 @@ C. Involved Government, Government officials
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1737/vshow}{GSS Data Explorer page for \code{angrygvt}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab Total \cr
-   1996 \tab 1779 \tab 100 \tab 1001 \tab 24 \tab 2904 \cr
-   Total \tab 1779 \tab 100 \tab 1001 \tab 24 \tab 2904 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab not available in this year \tab Total \cr
+   1996 \tab 1779 \tab 100 \tab 1001 \tab 24 \tab - \tab 2904 \cr
+   Total \tab 1779 \tab 100 \tab 1001 \tab 24 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -38,7 +38,8 @@ Counts by year:\tabular{llllllll}{
    year \tab iap \tab hard work most important \tab hard work, luck equally important (phone mode only: volunteered \tab luck most important \tab don't know \tab skipped on web \tab Total \cr
    2021 \tab 2714 \tab 979 \tab 33 \tab 300 \tab 3 \tab 3 \tab 4032 \cr
    2022 \tab 2981 \tab 422 \tab 4 \tab 134 \tab - \tab 3 \tab 3544 \cr
-   Total \tab 5695 \tab 1401 \tab 37 \tab 434 \tab 3 \tab 6 \tab 7576 \cr
+   2024 \tab 2653 \tab 501 \tab - \tab 148 \tab - \tab 7 \tab 3309 \cr
+   Total \tab 8348 \tab 1902 \tab 37 \tab 582 \tab 3 \tab 13 \tab 10885 \cr
 }
 }
 

@@ -38,10 +38,10 @@ In uncertain times, I usually expect the best.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6197/vshow}{GSS Data Explorer page for \code{lotr1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly disagree \tab disagree \tab neutral \tab agree \tab strongly agree \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1409 \tab 70 \tab 196 \tab 271 \tab 683 \tab 227 \tab 2 \tab 9 \tab 2867 \cr
-   Total \tab 1409 \tab 70 \tab 196 \tab 271 \tab 683 \tab 227 \tab 2 \tab 9 \tab 2867 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly disagree \tab disagree \tab neutral \tab agree \tab strongly agree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1409 \tab 70 \tab 196 \tab 271 \tab 683 \tab 227 \tab 2 \tab 9 \tab - \tab 2867 \cr
+   Total \tab 1409 \tab 70 \tab 196 \tab 271 \tab 683 \tab 227 \tab 2 \tab 9 \tab 0 \tab 2867 \cr
 }
 }
 

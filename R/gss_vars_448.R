@@ -23,10 +23,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |spend on social programs like health |spend less than now on social programs |can't choose |no answer |Total |
-#'  |:-----|:----|:------------------------------------|:--------------------------------------|:------------|:---------|:-----|
-#'  |1996  |1572 |685                                  |400                                    |209          |38        |2904  |
-#'  |Total |1572 |685                                  |400                                    |209          |38        |2904  |
+#'  |year  |iap  |spend on social programs like health |spend less than now on social programs |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------------------------------|:--------------------------------------|:------------|:---------|:--------------------------|:-----|
+#'  |1996  |1572 |685                                  |400                                    |209          |38        |-                          |2904  |
+#'  |Total |1572 |685                                  |400                                    |209          |38        |0                          |2904  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -66,10 +66,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |no answer |Total |
-#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:---------|:-----|
-#'  |2006  |2992 |70              |300              |416                                 |491                |211               |29           |1         |4510  |
-#'  |Total |2992 |70              |300              |416                                 |491                |211               |29           |1         |4510  |
+#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |70              |300              |416                                 |491                |211               |29           |1         |-                          |4510  |
+#'  |Total |2992 |70              |300              |416                                 |491                |211               |29           |1         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -109,10 +109,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |no answer |Total |
-#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:---------|:-----|
-#'  |2006  |2992 |61              |286              |462                                 |499                |180               |29           |1         |4510  |
-#'  |Total |2992 |61              |286              |462                                 |499                |180               |29           |1         |4510  |
+#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |61              |286              |462                                 |499                |180               |29           |1         |-                          |4510  |
+#'  |Total |2992 |61              |286              |462                                 |499                |180               |29           |1         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -152,10 +152,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |Total |
-#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:-----|
-#'  |2006  |2992 |177             |523              |335                                 |282                |178               |23           |4510  |
-#'  |Total |2992 |177             |523              |335                                 |282                |178               |23           |4510  |
+#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |not available in this year |Total |
+#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:--------------------------|:-----|
+#'  |2006  |2992 |177             |523              |335                                 |282                |178               |23           |-                          |4510  |
+#'  |Total |2992 |177             |523              |335                                 |282                |178               |23           |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -195,10 +195,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |Total |
-#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:-----|
-#'  |2006  |2992 |71              |461              |404                                 |389                |178               |15           |4510  |
-#'  |Total |2992 |71              |461              |404                                 |389                |178               |15           |4510  |
+#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |not available in this year |Total |
+#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:--------------------------|:-----|
+#'  |2006  |2992 |71              |461              |404                                 |389                |178               |15           |-                          |4510  |
+#'  |Total |2992 |71              |461              |404                                 |389                |178               |15           |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -238,10 +238,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |no answer |Total |
-#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:---------|:-----|
-#'  |2006  |2992 |79              |358              |491                                 |410                |139               |40           |1         |4510  |
-#'  |Total |2992 |79              |358              |491                                 |410                |139               |40           |1         |4510  |
+#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |79              |358              |491                                 |410                |139               |40           |1         |-                          |4510  |
+#'  |Total |2992 |79              |358              |491                                 |410                |139               |40           |1         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -281,10 +281,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |no answer |Total |
-#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:---------|:-----|
-#'  |2006  |2992 |75              |430              |422                                 |371                |195               |23           |2         |4510  |
-#'  |Total |2992 |75              |430              |422                                 |371                |195               |23           |2         |4510  |
+#'  |year  |iap  |very successful |quite successful |neither successful nor unsuccessful |quite unsuccessful |very unsuccessful |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------------|:----------------|:-----------------------------------|:------------------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |75              |430              |422                                 |371                |195               |23           |2         |-                          |4510  |
+#'  |Total |2992 |75              |430              |422                                 |371                |195               |23           |2         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -324,10 +324,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely should have the right |probably should have the right |probably should not have the right |definitely should not have the right |don't know |no answer |Total |
-#'  |:-----|:----|:--------------------------------|:------------------------------|:----------------------------------|:------------------------------------|:----------|:---------|:-----|
-#'  |2016  |1477 |345                              |534                            |264                                |215                                  |19         |13        |2867  |
-#'  |Total |1477 |345                              |534                            |264                                |215                                  |19         |13        |2867  |
+#'  |year  |iap  |definitely should have the right |probably should have the right |probably should not have the right |definitely should not have the right |don't know |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:--------------------------------|:------------------------------|:----------------------------------|:------------------------------------|:----------|:---------|:--------------------------|:--------------|:-----|
+#'  |2016  |1477 |345                              |534                            |264                                |215                                  |19         |13        |-                          |-              |2867  |
+#'  |2024  |1673 |378                              |566                            |288                                |261                                  |125        |5         |-                          |13             |3309  |
+#'  |Total |3150 |723                              |1100                           |552                                |476                                  |144        |18        |0                          |13             |6176  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -366,10 +367,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |definitely should have the right |probably should have the right |probably should not have the right |definitely should not have the right |don't know |no answer |Total |
-#'  |:-----|:----|:--------------------------------|:------------------------------|:----------------------------------|:------------------------------------|:----------|:---------|:-----|
-#'  |2016  |1477 |125                              |315                            |410                                |511                                  |16         |13        |2867  |
-#'  |Total |1477 |125                              |315                            |410                                |511                                  |16         |13        |2867  |
+#'  |year  |iap  |definitely should have the right |probably should have the right |probably should not have the right |definitely should not have the right |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------------------------|:------------------------------|:----------------------------------|:------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1477 |125                              |315                            |410                                |511                                  |16         |13        |-                          |2867  |
+#'  |Total |1477 |125                              |315                            |410                                |511                                  |16         |13        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't
@@ -408,10 +409,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0 - all government information should be publically available, even if this meant a risk to public security |1  |10 - public security should be given priority, even if this means limiting access to government information |2  |3   |4  |5   |6   |7   |8   |9  |don't know |no answer |Total |
-#'  |:-----|:----|:-----------------------------------------------------------------------------------------------------------|:--|:-----------------------------------------------------------------------------------------------------------|:--|:---|:--|:---|:---|:---|:---|:--|:----------|:---------|:-----|
-#'  |2016  |1477 |39                                                                                                          |31 |200                                                                                                         |51 |102 |66 |311 |139 |175 |186 |58 |19         |13        |2867  |
-#'  |Total |1477 |39                                                                                                          |31 |200                                                                                                         |51 |102 |66 |311 |139 |175 |186 |58 |19         |13        |2867  |
+#'  |year  |iap  |0 - all government information should be publically available, even if this meant a risk to public security |1  |10 - public security should be given priority, even if this means limiting access to government information |2  |3   |4  |5   |6   |7   |8   |9  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----------------------------------------------------------------------------------------------------------|:--|:-----------------------------------------------------------------------------------------------------------|:--|:---|:--|:---|:---|:---|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |2016  |1477 |39                                                                                                          |31 |200                                                                                                         |51 |102 |66 |311 |139 |175 |186 |58 |19         |13        |-                          |2867  |
+#'  |Total |1477 |39                                                                                                          |31 |200                                                                                                         |51 |102 |66 |311 |139 |175 |186 |58 |19         |13        |0                          |2867  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Role of Gov't

@@ -35,11 +35,11 @@ D. The US intelligence budget
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5222/vshow}{GSS Data Explorer page for \code{secbudgt}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 382 \tab 397 \tab 351 \tab 241 \tab 87 \tab 2 \tab 2904 \cr
-   1998 \tab 1445 \tab 320 \tab 453 \tab 318 \tab 197 \tab 87 \tab 12 \tab 2832 \cr
-   Total \tab 2889 \tab 702 \tab 850 \tab 669 \tab 438 \tab 174 \tab 14 \tab 5736 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should \tab probably should \tab probably should not \tab definitely should not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 382 \tab 397 \tab 351 \tab 241 \tab 87 \tab 2 \tab - \tab 2904 \cr
+   1998 \tab 1445 \tab 320 \tab 453 \tab 318 \tab 197 \tab 87 \tab 12 \tab - \tab 2832 \cr
+   Total \tab 2889 \tab 702 \tab 850 \tab 669 \tab 438 \tab 174 \tab 14 \tab 0 \tab 5736 \cr
 }
 }
 

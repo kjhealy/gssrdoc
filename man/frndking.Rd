@@ -35,22 +35,22 @@ Question There are many different ways of picturing God. We'd like to know the k
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/337/vshow}{GSS Data Explorer page for \code{frndking}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab friend \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab king \tab no answer \tab don't know \tab Total \cr
-   1984 \tab 484 \tab 293 \tab 77 \tab 41 \tab 258 \tab 53 \tab 29 \tab 180 \tab 58 \tab - \tab 1473 \cr
-   1985 \tab - \tab 433 \tab 114 \tab 82 \tab 406 \tab 82 \tab 70 \tab 280 \tab 50 \tab 17 \tab 1534 \cr
-   1986 \tab - \tab 469 \tab 105 \tab 77 \tab 383 \tab 53 \tab 69 \tab 257 \tab 47 \tab 10 \tab 1470 \cr
-   1987 \tab - \tab 552 \tab 86 \tab 71 \tab 497 \tab 72 \tab 67 \tab 385 \tab 73 \tab 16 \tab 1819 \cr
-   1988 \tab - \tab 419 \tab 95 \tab 64 \tab 420 \tab 69 \tab 42 \tab 290 \tab 54 \tab 28 \tab 1481 \cr
-   1989 \tab 531 \tab 268 \tab 72 \tab 40 \tab 286 \tab 54 \tab 37 \tab 207 \tab 39 \tab 3 \tab 1537 \cr
-   1990 \tab 444 \tab 263 \tab 67 \tab 41 \tab 258 \tab 38 \tab 29 \tab 180 \tab 47 \tab 5 \tab 1372 \cr
-   1991 \tab 158 \tab 277 \tab 112 \tab 77 \tab 341 \tab 81 \tab 71 \tab 193 \tab 207 \tab - \tab 1517 \cr
-   1993 \tab 526 \tab 278 \tab 79 \tab 59 \tab 309 \tab 44 \tab 45 \tab 212 \tab 51 \tab 3 \tab 1606 \cr
-   1994 \tab 1015 \tab 525 \tab 110 \tab 81 \tab 585 \tab 94 \tab 76 \tab 415 \tab 69 \tab 22 \tab 2992 \cr
-   1996 \tab 1913 \tab 269 \tab 50 \tab 48 \tab 304 \tab 66 \tab 41 \tab 171 \tab 36 \tab 6 \tab 2904 \cr
-   1998 \tab 1387 \tab 322 \tab 75 \tab 70 \tab 430 \tab 87 \tab 79 \tab 317 \tab 50 \tab 15 \tab 2832 \cr
-   2008 \tab 658 \tab 253 \tab 69 \tab 78 \tab 382 \tab 86 \tab 71 \tab 311 \tab 31 \tab 84 \tab 2023 \cr
-   Total \tab 7116 \tab 4621 \tab 1111 \tab 829 \tab 4859 \tab 879 \tab 726 \tab 3398 \tab 812 \tab 209 \tab 24560 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab friend \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab king \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1984 \tab 484 \tab 293 \tab 77 \tab 41 \tab 258 \tab 53 \tab 29 \tab 180 \tab 58 \tab - \tab - \tab 1473 \cr
+   1985 \tab - \tab 433 \tab 114 \tab 82 \tab 406 \tab 82 \tab 70 \tab 280 \tab 50 \tab 17 \tab - \tab 1534 \cr
+   1986 \tab - \tab 469 \tab 105 \tab 77 \tab 383 \tab 53 \tab 69 \tab 257 \tab 47 \tab 10 \tab - \tab 1470 \cr
+   1987 \tab - \tab 552 \tab 86 \tab 71 \tab 497 \tab 72 \tab 67 \tab 385 \tab 73 \tab 16 \tab - \tab 1819 \cr
+   1988 \tab - \tab 419 \tab 95 \tab 64 \tab 420 \tab 69 \tab 42 \tab 290 \tab 54 \tab 28 \tab - \tab 1481 \cr
+   1989 \tab 531 \tab 268 \tab 72 \tab 40 \tab 286 \tab 54 \tab 37 \tab 207 \tab 39 \tab 3 \tab - \tab 1537 \cr
+   1990 \tab 444 \tab 263 \tab 67 \tab 41 \tab 258 \tab 38 \tab 29 \tab 180 \tab 47 \tab 5 \tab - \tab 1372 \cr
+   1991 \tab 158 \tab 277 \tab 112 \tab 77 \tab 341 \tab 81 \tab 71 \tab 193 \tab 207 \tab - \tab - \tab 1517 \cr
+   1993 \tab 526 \tab 278 \tab 79 \tab 59 \tab 309 \tab 44 \tab 45 \tab 212 \tab 51 \tab 3 \tab - \tab 1606 \cr
+   1994 \tab 1015 \tab 525 \tab 110 \tab 81 \tab 585 \tab 94 \tab 76 \tab 415 \tab 69 \tab 22 \tab - \tab 2992 \cr
+   1996 \tab 1913 \tab 269 \tab 50 \tab 48 \tab 304 \tab 66 \tab 41 \tab 171 \tab 36 \tab 6 \tab - \tab 2904 \cr
+   1998 \tab 1387 \tab 322 \tab 75 \tab 70 \tab 430 \tab 87 \tab 79 \tab 317 \tab 50 \tab 15 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 253 \tab 69 \tab 78 \tab 382 \tab 86 \tab 71 \tab 311 \tab 31 \tab 84 \tab - \tab 2023 \cr
+   Total \tab 7116 \tab 4621 \tab 1111 \tab 829 \tab 4859 \tab 879 \tab 726 \tab 3398 \tab 812 \tab 209 \tab 0 \tab 24560 \cr
 }
 }
 

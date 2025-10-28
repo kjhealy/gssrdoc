@@ -35,11 +35,11 @@ E. What about family and personal relationships?  During the last year, did you
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5176/vshow}{GSS Data Explorer page for \code{famper5}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1991 \tab 500 \tab 49 \tab 963 \tab 5 \tab 1517 \cr
-   2004 \tab 1472 \tab 84 \tab 1248 \tab 8 \tab 2812 \cr
-   Total \tab 1972 \tab 133 \tab 2211 \tab 13 \tab 4329 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 500 \tab 49 \tab 963 \tab 5 \tab - \tab 1517 \cr
+   2004 \tab 1472 \tab 84 \tab 1248 \tab 8 \tab - \tab 2812 \cr
+   Total \tab 1972 \tab 133 \tab 2211 \tab 13 \tab 0 \tab 4329 \cr
 }
 }
 

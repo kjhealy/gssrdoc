@@ -35,10 +35,10 @@ Question When you think of social and political issues, do you think of yourself
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1591/vshow}{GSS Data Explorer page for \code{ethid}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab just an american \tab some part. ethnic grp \tab 2 or more ethnic grps \tab amer and ethnic grps \tab it depends \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 1315 \tab 109 \tab 3 \tab 20 \tab 12 \tab 8 \tab 7 \tab 2992 \cr
-   Total \tab 1518 \tab 1315 \tab 109 \tab 3 \tab 20 \tab 12 \tab 8 \tab 7 \tab 2992 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab just an american \tab some part. ethnic grp \tab 2 or more ethnic grps \tab amer and ethnic grps \tab it depends \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 1315 \tab 109 \tab 3 \tab 20 \tab 12 \tab 8 \tab 7 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 1315 \tab 109 \tab 3 \tab 20 \tab 12 \tab 8 \tab 7 \tab 0 \tab 2992 \cr
 }
 }
 

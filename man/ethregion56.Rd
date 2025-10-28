@@ -32,11 +32,11 @@ Question From what country or countries did your ancestors come?  Yemen
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7695/vshow}{GSS Data Explorer page for \code{ethregion56}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab no \tab yes \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 15 \tab 3301 \tab 1 \tab 681 \tab 1 \tab 33 \tab 4032 \cr
-   2022 \tab 216 \tab 3115 \tab 2 \tab 163 \tab 48 \tab - \tab 3544 \cr
-   Total \tab 231 \tab 6416 \tab 3 \tab 844 \tab 49 \tab 33 \tab 7576 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab no \tab yes \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 15 \tab 3301 \tab 1 \tab 681 \tab 1 \tab 33 \tab - \tab 4032 \cr
+   2022 \tab 216 \tab 3115 \tab 2 \tab 163 \tab 48 \tab - \tab - \tab 3544 \cr
+   Total \tab 231 \tab 6416 \tab 3 \tab 844 \tab 49 \tab 33 \tab 0 \tab 7576 \cr
 }
 }
 

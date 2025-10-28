@@ -36,11 +36,11 @@ A. Watch a television program about the polar regions?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3424/vshow}{GSS Data Explorer page for \code{polaryr1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 642 \tab 727 \tab 287 \tab 187 \tab 19 \tab 2 \tab 4510 \cr
-   2010 \tab 1338 \tab 244 \tab 290 \tab 88 \tab 70 \tab 5 \tab 9 \tab 2044 \cr
-   Total \tab 3984 \tab 886 \tab 1017 \tab 375 \tab 257 \tab 24 \tab 11 \tab 6554 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 642 \tab 727 \tab 287 \tab 187 \tab 19 \tab 2 \tab - \tab 4510 \cr
+   2010 \tab 1338 \tab 244 \tab 290 \tab 88 \tab 70 \tab 5 \tab 9 \tab - \tab 2044 \cr
+   Total \tab 3984 \tab 886 \tab 1017 \tab 375 \tab 257 \tab 24 \tab 11 \tab 0 \tab 6554 \cr
 }
 }
 

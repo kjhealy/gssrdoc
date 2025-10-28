@@ -54,20 +54,20 @@ B. Relationship of second person to spouse?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5454/vshow}{GSS Data Explorer page for \code{relsp2}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab hh spouse, partner \tab no answer \tab not available in this release \tab Total \cr
-   2000 \tab 1298 \tab 1519 \tab - \tab - \tab 2817 \cr
-   2002 \tab 1387 \tab 1378 \tab - \tab - \tab 2765 \cr
-   2004 \tab 1126 \tab 1686 \tab - \tab - \tab 2812 \cr
-   2006 \tab 1924 \tab 2586 \tab - \tab - \tab 4510 \cr
-   2008 \tab 870 \tab 1152 \tab 1 \tab - \tab 2023 \cr
-   2010 \tab 948 \tab 1094 \tab 2 \tab - \tab 2044 \cr
-   2012 \tab 864 \tab 1110 \tab - \tab - \tab 1974 \cr
-   2014 \tab 1121 \tab 1417 \tab - \tab - \tab 2538 \cr
-   2016 \tab 1344 \tab 1523 \tab - \tab - \tab 2867 \cr
-   2018 \tab 1069 \tab 1278 \tab 1 \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
-   Total \tab 11951 \tab 14743 \tab 4 \tab 4032 \tab 30730 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab hh spouse, partner \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2000 \tab 1298 \tab 1519 \tab - \tab - \tab - \tab 2817 \cr
+   2002 \tab 1387 \tab 1378 \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 1126 \tab 1686 \tab - \tab - \tab - \tab 2812 \cr
+   2006 \tab 1924 \tab 2586 \tab - \tab - \tab - \tab 4510 \cr
+   2008 \tab 870 \tab 1152 \tab 1 \tab - \tab - \tab 2023 \cr
+   2010 \tab 948 \tab 1094 \tab 2 \tab - \tab - \tab 2044 \cr
+   2012 \tab 864 \tab 1110 \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 1121 \tab 1417 \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 1344 \tab 1523 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 1069 \tab 1278 \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab 1894 \tab 2138 \tab - \tab - \tab - \tab 4032 \cr
+   Total \tab 13845 \tab 16881 \tab 4 \tab 0 \tab 0 \tab 30730 \cr
 }
 }
 

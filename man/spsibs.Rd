@@ -30,10 +30,10 @@ Question How many brothers and sisters does your (husband/wife) have? (Count tho
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1491/vshow}{GSS Data Explorer page for \code{spsibs}}.
 
-Counts by year:\tabular{lllllllllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 19 \tab 2 \tab 21 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2213 \tab 38 \tab 127 \tab 13 \tab 6 \tab 4 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 145 \tab 1 \tab 135 \tab 93 \tab 61 \tab 43 \tab 41 \tab 21 \tab 21 \tab 5 \tab 17 \tab 2992 \cr
-   Total \tab 2213 \tab 38 \tab 127 \tab 13 \tab 6 \tab 4 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 145 \tab 1 \tab 135 \tab 93 \tab 61 \tab 43 \tab 41 \tab 21 \tab 21 \tab 5 \tab 17 \tab 2992 \cr
+Counts by year:\tabular{llllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 19 \tab 2 \tab 21 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2213 \tab 38 \tab 127 \tab 13 \tab 6 \tab 4 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 145 \tab 1 \tab 135 \tab 93 \tab 61 \tab 43 \tab 41 \tab 21 \tab 21 \tab 5 \tab 17 \tab - \tab 2992 \cr
+   Total \tab 2213 \tab 38 \tab 127 \tab 13 \tab 6 \tab 4 \tab 3 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 145 \tab 1 \tab 135 \tab 93 \tab 61 \tab 43 \tab 41 \tab 21 \tab 21 \tab 5 \tab 17 \tab 0 \tab 2992 \cr
 }
 }
 

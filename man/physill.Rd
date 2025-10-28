@@ -37,12 +37,13 @@ D. A physical illness
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1997/vshow}{GSS Data Explorer page for \code{physill}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 203 \tab 512 \tab 422 \tab 223 \tab 54 \tab 30 \tab 2904 \cr
-   2006 \tab 3073 \tab 148 \tab 590 \tab 446 \tab 188 \tab 50 \tab 15 \tab 4510 \cr
-   2018 \tab 1175 \tab 174 \tab 445 \tab 346 \tab 148 \tab 31 \tab 29 \tab 2348 \cr
-   Total \tab 5708 \tab 525 \tab 1547 \tab 1214 \tab 559 \tab 135 \tab 74 \tab 9762 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 203 \tab 512 \tab 422 \tab 223 \tab 54 \tab 30 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 148 \tab 590 \tab 446 \tab 188 \tab 50 \tab 15 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 174 \tab 445 \tab 346 \tab 148 \tab 31 \tab 29 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1691 \tab 164 \tab 646 \tab 542 \tab 198 \tab 33 \tab 10 \tab - \tab 25 \tab 3309 \cr
+   Total \tab 7399 \tab 689 \tab 2193 \tab 1756 \tab 757 \tab 168 \tab 84 \tab 0 \tab 25 \tab 13071 \cr
 }
 }
 

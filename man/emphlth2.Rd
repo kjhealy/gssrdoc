@@ -33,10 +33,10 @@ Question Which of the following statements best describes your employer's covera
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3929/vshow}{GSS Data Explorer page for \code{emphlth2}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab only individual employees are covered \tab employees and their spouses are covered but domestic partners are not covered \tab employees and their spouses are covered and domestic partners are covered \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 1945 \tab 14 \tab 27 \tab 8 \tab 3 \tab 26 \tab 2023 \cr
-   Total \tab 1945 \tab 14 \tab 27 \tab 8 \tab 3 \tab 26 \tab 2023 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab only individual employees are covered \tab employees and their spouses are covered but domestic partners are not covered \tab employees and their spouses are covered and domestic partners are covered \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 1945 \tab 14 \tab 27 \tab 8 \tab 3 \tab 26 \tab - \tab 2023 \cr
+   Total \tab 1945 \tab 14 \tab 27 \tab 8 \tab 3 \tab 26 \tab 0 \tab 2023 \cr
 }
 }
 

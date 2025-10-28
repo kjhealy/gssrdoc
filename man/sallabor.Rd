@@ -34,10 +34,10 @@ B. The people running organized labor
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/733/vshow}{GSS Data Explorer page for \code{sallabor}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very often \tab sometimes \tab almost never \tab don't know \tab no answer \tab Total \cr
-   1978 \tab - \tab 270 \tab 659 \tab 587 \tab 10 \tab 6 \tab 1532 \cr
-   Total \tab 0 \tab 270 \tab 659 \tab 587 \tab 10 \tab 6 \tab 1532 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very often \tab sometimes \tab almost never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1978 \tab - \tab 270 \tab 659 \tab 587 \tab 10 \tab 6 \tab - \tab 1532 \cr
+   Total \tab 0 \tab 270 \tab 659 \tab 587 \tab 10 \tab 6 \tab 0 \tab 1532 \cr
 }
 }
 

@@ -35,12 +35,12 @@ Question How close do you feel to…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4820/vshow}{GSS Data Explorer page for \code{clsenoam}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very close \tab close \tab not very close \tab not close at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 226 \tab 502 \tab 367 \tab 144 \tab 86 \tab 42 \tab 2904 \cr
-   2004 \tab 1596 \tab 317 \tab 461 \tab 292 \tab 89 \tab 56 \tab 1 \tab 2812 \cr
-   2014 \tab 1264 \tab 273 \tab 507 \tab 288 \tab 139 \tab 64 \tab 3 \tab 2538 \cr
-   Total \tab 4397 \tab 816 \tab 1470 \tab 947 \tab 372 \tab 206 \tab 46 \tab 8254 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very close \tab close \tab not very close \tab not close at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1537 \tab 226 \tab 502 \tab 367 \tab 144 \tab 86 \tab 42 \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 317 \tab 461 \tab 292 \tab 89 \tab 56 \tab 1 \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 273 \tab 507 \tab 288 \tab 139 \tab 64 \tab 3 \tab - \tab 2538 \cr
+   Total \tab 4397 \tab 816 \tab 1470 \tab 947 \tab 372 \tab 206 \tab 46 \tab 0 \tab 8254 \cr
 }
 }
 

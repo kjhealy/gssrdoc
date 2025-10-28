@@ -34,10 +34,10 @@ Question Would you like to have a paid job now?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4529/vshow}{GSS Data Explorer page for \code{wantjob}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab want full \tab want part \tab want lt 10 hrs \tab dont want \tab no answer \tab Total \cr
-   1989 \tab 908 \tab 68 \tab 65 \tab 42 \tab 345 \tab 109 \tab 1537 \cr
-   Total \tab 908 \tab 68 \tab 65 \tab 42 \tab 345 \tab 109 \tab 1537 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab want full \tab want part \tab want lt 10 hrs \tab dont want \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 908 \tab 68 \tab 65 \tab 42 \tab 345 \tab 109 \tab - \tab 1537 \cr
+   Total \tab 908 \tab 68 \tab 65 \tab 42 \tab 345 \tab 109 \tab 0 \tab 1537 \cr
 }
 }
 

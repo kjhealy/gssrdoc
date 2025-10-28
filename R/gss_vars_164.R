@@ -22,10 +22,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no |don't know |no answer |Total |
-#'  |:-----|:----|:---|:--|:----------|:---------|:-----|
-#'  |1994  |2845 |81  |52 |7          |7         |2992  |
-#'  |Total |2845 |81  |52 |7          |7         |2992  |
+#'  |year  |iap  |yes |no |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1994  |2845 |81  |52 |7          |7         |-                          |2992  |
+#'  |Total |2845 |81  |52 |7          |7         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -601,15 +601,7 @@ NULL
 #'  |:-------|:-----|
 #'  |A/B/C   |1994  |
 #' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `kdpres80`](https://gssdataexplorer.norc.org/variables/1542/vshow).
 #'
-#' Counts by year: 
-#'
-#'  |year  |not available in this year |17 |19 |20 |21 |22 |23 |24 |25 |27 |28 |29 |30 |31 |32 |33 |34 |35 |36 |37 |38 |39 |40 |41 |42 |43 |44 |45 |46 |47 |48 |49 |50 |51 |52 |53 |54 |55 |57 |58 |59 |60 |61 |62 |63 |64 |65 |66 |68 |69 |70 |71 |73 |74 |75 |86 |dk, na, iap |iap |Total |
-#'  |:-----|:--------------------------|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:-----------|:---|:-----|
-#'  |1994  |-                          |5  |3  |4  |1  |11 |17 |17 |2  |7  |23 |23 |13 |19 |17 |11 |11 |17 |21 |4  |2  |12 |15 |8  |20 |8  |15 |8  |25 |24 |5  |20 |8  |35 |13 |3  |4  |4  |6  |2  |2  |7  |14 |1  |2  |14 |12 |19 |4  |5  |1  |1  |2  |10 |4  |1  |2430        |-   |2992  |
-#'  |Total |0                          |5  |3  |4  |1  |11 |17 |17 |2  |7  |23 |23 |13 |19 |17 |11 |11 |17 |21 |4  |2  |12 |15 |8  |20 |8  |15 |8  |25 |24 |5  |20 |8  |35 |13 |3  |4  |4  |6  |2  |2  |7  |14 |1  |2  |14 |12 |19 |4  |5  |1  |1  |2  |10 |4  |1  |2430        |0   |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -652,10 +644,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |self employed |someone else |don't know |no answer |Total |
-#'  |:-----|:----|:-------------|:------------|:----------|:---------|:-----|
-#'  |1994  |2394 |61            |520          |5          |12        |2992  |
-#'  |Total |2394 |61            |520          |5          |12        |2992  |
+#'  |year  |iap  |self employed |someone else |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------------|:------------|:----------|:---------|:--------------------------|:-----|
+#'  |1994  |2394 |61            |520          |5          |12        |-                          |2992  |
+#'  |Total |2394 |61            |520          |5          |12        |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -1533,10 +1525,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |no verbatims for kd |verbatims for kd |Total |
-#'  |:-----|:---|:-------------------|:----------------|:-----|
-#'  |1994  |54  |2343                |595              |2992  |
-#'  |Total |54  |2343                |595              |2992  |
+#'  |year  |iap |no verbatims for kd |verbatims for kd |not available in this year |Total |
+#'  |:-----|:---|:-------------------|:----------------|:--------------------------|:-----|
+#'  |1994  |54  |2343                |595              |-                          |2992  |
+#'  |Total |54  |2343                |595              |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -1578,10 +1570,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |found, iap |found, no answer |found, coded |not found, iap |not found, coded |not found, no code assigned |Total |
-#'  |:-----|:---|:----------|:----------------|:------------|:--------------|:----------------|:---------------------------|:-----|
-#'  |1994  |-   |2338       |39               |561          |48             |3                |3                           |2992  |
-#'  |Total |0   |2338       |39               |561          |48             |3                |3                           |2992  |
+#'  |year  |iap |found, iap |found, no answer |found, coded |not found, iap |not found, coded |not found, no code assigned |not available in this year |Total |
+#'  |:-----|:---|:----------|:----------------|:------------|:--------------|:----------------|:---------------------------|:--------------------------|:-----|
+#'  |1994  |-   |2338       |39               |561          |48             |3                |3                           |-                          |2992  |
+#'  |Total |0   |2338       |39               |561          |48             |3                |3                           |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -1618,10 +1610,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |found |not found, assigned |not found, not assigned |Total |
-#'  |:-----|:---|:-----|:-------------------|:-----------------------|:-----|
-#'  |1994  |-   |2938  |51                  |3                       |2992  |
-#'  |Total |0   |2938  |51                  |3                       |2992  |
+#'  |year  |iap |found |not found, assigned |not found, not assigned |not available in this year |Total |
+#'  |:-----|:---|:-----|:-------------------|:-----------------------|:--------------------------|:-----|
+#'  |1994  |-   |2938  |51                  |3                       |-                          |2992  |
+#'  |Total |0   |2938  |51                  |3                       |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility

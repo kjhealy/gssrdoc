@@ -35,12 +35,12 @@ Question Please tell me which one of the statements on the card best describes w
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5226/vshow}{GSS Data Explorer page for \code{knomentl}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab nothing about mental health \tab whether currently consulting \tab ever consulted a mental \tab ever consulted & diagnosis \tab diagnosis & confident. info \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 95 \tab 174 \tab 122 \tab 367 \tab 582 \tab 86 \tab 34 \tab 2904 \cr
-   1998 \tab 1445 \tab 66 \tab 160 \tab 136 \tab 381 \tab 522 \tab 105 \tab 17 \tab 2832 \cr
-   2000 \tab 1398 \tab 84 \tab 135 \tab 143 \tab 336 \tab 596 \tab 98 \tab 27 \tab 2817 \cr
-   Total \tab 4287 \tab 245 \tab 469 \tab 401 \tab 1084 \tab 1700 \tab 289 \tab 78 \tab 8553 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab nothing about mental health \tab whether currently consulting \tab ever consulted a mental \tab ever consulted & diagnosis \tab diagnosis & confident. info \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 95 \tab 174 \tab 122 \tab 367 \tab 582 \tab 86 \tab 34 \tab - \tab 2904 \cr
+   1998 \tab 1445 \tab 66 \tab 160 \tab 136 \tab 381 \tab 522 \tab 105 \tab 17 \tab - \tab 2832 \cr
+   2000 \tab 1398 \tab 84 \tab 135 \tab 143 \tab 336 \tab 596 \tab 98 \tab 27 \tab - \tab 2817 \cr
+   Total \tab 4287 \tab 245 \tab 469 \tab 401 \tab 1084 \tab 1700 \tab 289 \tab 78 \tab 0 \tab 8553 \cr
 }
 }
 

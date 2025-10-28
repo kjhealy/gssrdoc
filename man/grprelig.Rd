@@ -39,11 +39,11 @@ C. A church or other religious organization
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4930/vshow}{GSS Data Explorer page for \code{grprelig}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab belong and actively participate \tab belong but dont participate \tab used to belong \tab never belonged \tab no answer \tab can't choose \tab Total \cr
-   2004 \tab 1340 \tab 588 \tab 315 \tab 316 \tab 246 \tab 7 \tab - \tab 2812 \cr
-   2014 \tab 1274 \tab 424 \tab 256 \tab 316 \tab 244 \tab 6 \tab 18 \tab 2538 \cr
-   Total \tab 2614 \tab 1012 \tab 571 \tab 632 \tab 490 \tab 13 \tab 18 \tab 5350 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab belong and actively participate \tab belong but dont participate \tab used to belong \tab never belonged \tab no answer \tab can't choose \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 588 \tab 315 \tab 316 \tab 246 \tab 7 \tab - \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 424 \tab 256 \tab 316 \tab 244 \tab 6 \tab 18 \tab - \tab 2538 \cr
+   Total \tab 2614 \tab 1012 \tab 571 \tab 632 \tab 490 \tab 13 \tab 18 \tab 0 \tab 5350 \cr
 }
 }
 

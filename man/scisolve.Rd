@@ -33,10 +33,10 @@ A. Science will solve our social problems like crime and mental illness.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1045/vshow}{GSS Data Explorer page for \code{scisolve}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab Total \cr
-   1988 \tab - \tab 334 \tab 1111 \tab 21 \tab 15 \tab 1481 \cr
-   Total \tab 0 \tab 334 \tab 1111 \tab 21 \tab 15 \tab 1481 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab agree \tab disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab - \tab 334 \tab 1111 \tab 21 \tab 15 \tab - \tab 1481 \cr
+   Total \tab 0 \tab 334 \tab 1111 \tab 21 \tab 15 \tab 0 \tab 1481 \cr
 }
 }
 

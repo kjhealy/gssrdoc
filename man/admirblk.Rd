@@ -35,10 +35,10 @@ B. How often have you felt admiration for blacks?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1606/vshow}{GSS Data Explorer page for \code{admirblk}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very often \tab fairly often \tab not too often \tab never \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 247 \tab 583 \tab 498 \tab 98 \tab 38 \tab 10 \tab 2992 \cr
-   Total \tab 1518 \tab 247 \tab 583 \tab 498 \tab 98 \tab 38 \tab 10 \tab 2992 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very often \tab fairly often \tab not too often \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 247 \tab 583 \tab 498 \tab 98 \tab 38 \tab 10 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 247 \tab 583 \tab 498 \tab 98 \tab 38 \tab 10 \tab 0 \tab 2992 \cr
 }
 }
 

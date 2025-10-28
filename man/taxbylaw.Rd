@@ -35,10 +35,10 @@ Treat everyone in accordance with the law, regardless of their contacts or posit
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6312/vshow}{GSS Data Explorer page for \code{taxbylaw}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab almost always \tab often \tab sometimes \tab almost never \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1477 \tab 385 \tab 268 \tab 464 \tab 212 \tab 47 \tab 14 \tab 2867 \cr
-   Total \tab 1477 \tab 385 \tab 268 \tab 464 \tab 212 \tab 47 \tab 14 \tab 2867 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab almost always \tab often \tab sometimes \tab almost never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1477 \tab 385 \tab 268 \tab 464 \tab 212 \tab 47 \tab 14 \tab - \tab 2867 \cr
+   Total \tab 1477 \tab 385 \tab 268 \tab 464 \tab 212 \tab 47 \tab 14 \tab 0 \tab 2867 \cr
 }
 }
 

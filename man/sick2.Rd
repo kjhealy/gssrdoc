@@ -48,10 +48,10 @@ B. Second Choice
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4172/vshow}{GSS Data Explorer page for \code{sick2}}.
 
-Counts by year:\tabular{lllllllllllllllllllll}{
-   year \tab iap \tab spouse \tab mother \tab father \tab daughter \tab son \tab sister \tab brother \tab other relative \tab closest friend \tab other friend \tab neighbor \tab coworker \tab nurse \tab clergy \tab paid help \tab other \tab no one \tab no answer \tab Total \cr
-   1986 \tab 42 \tab 51 \tab 146 \tab 50 \tab 181 \tab 141 \tab 111 \tab 59 \tab 126 \tab 217 \tab 95 \tab 123 \tab 26 \tab 14 \tab 1 \tab 14 \tab 4 \tab 37 \tab 32 \tab 1470 \cr
-   Total \tab 42 \tab 51 \tab 146 \tab 50 \tab 181 \tab 141 \tab 111 \tab 59 \tab 126 \tab 217 \tab 95 \tab 123 \tab 26 \tab 14 \tab 1 \tab 14 \tab 4 \tab 37 \tab 32 \tab 1470 \cr
+Counts by year:\tabular{llllllllllllllllllllll}{
+   year \tab iap \tab spouse \tab mother \tab father \tab daughter \tab son \tab sister \tab brother \tab other relative \tab closest friend \tab other friend \tab neighbor \tab coworker \tab nurse \tab clergy \tab paid help \tab other \tab no one \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab 42 \tab 51 \tab 146 \tab 50 \tab 181 \tab 141 \tab 111 \tab 59 \tab 126 \tab 217 \tab 95 \tab 123 \tab 26 \tab 14 \tab 1 \tab 14 \tab 4 \tab 37 \tab 32 \tab - \tab 1470 \cr
+   Total \tab 42 \tab 51 \tab 146 \tab 50 \tab 181 \tab 141 \tab 111 \tab 59 \tab 126 \tab 217 \tab 95 \tab 123 \tab 26 \tab 14 \tab 1 \tab 14 \tab 4 \tab 37 \tab 32 \tab 0 \tab 1470 \cr
 }
 }
 

@@ -35,10 +35,10 @@ D. Would you definitely expect, probably expect, probably not expect, or definit
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2713/vshow}{GSS Data Explorer page for \code{downrely}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely expect \tab probably expect \tab probably not expect \tab definitely not expect \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2362 \tab 93 \tab 170 \tab 79 \tab 45 \tab 40 \tab 28 \tab 2817 \cr
-   Total \tab 2362 \tab 93 \tab 170 \tab 79 \tab 45 \tab 40 \tab 28 \tab 2817 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely expect \tab probably expect \tab probably not expect \tab definitely not expect \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2362 \tab 93 \tab 170 \tab 79 \tab 45 \tab 40 \tab 28 \tab - \tab 2817 \cr
+   Total \tab 2362 \tab 93 \tab 170 \tab 79 \tab 45 \tab 40 \tab 28 \tab 0 \tab 2817 \cr
 }
 }
 

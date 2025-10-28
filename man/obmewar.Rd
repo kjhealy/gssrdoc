@@ -35,10 +35,10 @@ H. For young men, serving in the military when the country is at war?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/841/vshow}{GSS Data Explorer page for \code{obmewar}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very important \tab somewhat important \tab not obligation \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 1208 \tab 198 \tab 34 \tab 12 \tab 21 \tab 1473 \cr
-   Total \tab 0 \tab 1208 \tab 198 \tab 34 \tab 12 \tab 21 \tab 1473 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very important \tab somewhat important \tab not obligation \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 1208 \tab 198 \tab 34 \tab 12 \tab 21 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 1208 \tab 198 \tab 34 \tab 12 \tab 21 \tab 0 \tab 1473 \cr
 }
 }
 

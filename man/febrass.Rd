@@ -32,10 +32,10 @@ Question C. As far as you know, are women in the armed forces now assigned to jo
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/800/vshow}{GSS Data Explorer page for \code{febrass}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes, they are \tab no they arent \tab don't know \tab no answer \tab Total \cr
-   1982 \tab - \tab 840 \tab 476 \tab 522 \tab 22 \tab 1860 \cr
-   Total \tab 0 \tab 840 \tab 476 \tab 522 \tab 22 \tab 1860 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes, they are \tab no they arent \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab - \tab 840 \tab 476 \tab 522 \tab 22 \tab - \tab 1860 \cr
+   Total \tab 0 \tab 840 \tab 476 \tab 522 \tab 22 \tab 0 \tab 1860 \cr
 }
 }
 

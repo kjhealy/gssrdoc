@@ -36,10 +36,10 @@ A. I would prefer to go directly to a mental health care specialist, rather than
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2182/vshow}{GSS Data Explorer page for \code{psycdrct}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 242 \tab 369 \tab 176 \tab 404 \tab 119 \tab 70 \tab 7 \tab 2832 \cr
-   Total \tab 1445 \tab 242 \tab 369 \tab 176 \tab 404 \tab 119 \tab 70 \tab 7 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 242 \tab 369 \tab 176 \tab 404 \tab 119 \tab 70 \tab 7 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 242 \tab 369 \tab 176 \tab 404 \tab 119 \tab 70 \tab 7 \tab 0 \tab 2832 \cr
 }
 }
 

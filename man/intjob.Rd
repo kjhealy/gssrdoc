@@ -38,13 +38,13 @@ E. An interesting job?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4511/vshow}{GSS Data Explorer page for \code{intjob}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very important \tab important \tab neither important nor unimportant \tab not important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 84 \tab 617 \tab 711 \tab 65 \tab 18 \tab 5 \tab 11 \tab 26 \tab 1537 \cr
-   1998 \tab 1609 \tab 596 \tab 515 \tab 37 \tab 16 \tab 3 \tab 15 \tab 41 \tab 2832 \cr
-   2006 \tab 2992 \tab 863 \tab 565 \tab 61 \tab 17 \tab 5 \tab 5 \tab 2 \tab 4510 \cr
-   2016 \tab 1390 \tab 758 \tab 603 \tab 80 \tab 27 \tab 1 \tab 3 \tab 5 \tab 2867 \cr
-   Total \tab 6075 \tab 2834 \tab 2394 \tab 243 \tab 78 \tab 14 \tab 34 \tab 74 \tab 11746 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very important \tab important \tab neither important nor unimportant \tab not important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 84 \tab 617 \tab 711 \tab 65 \tab 18 \tab 5 \tab 11 \tab 26 \tab - \tab 1537 \cr
+   1998 \tab 1609 \tab 596 \tab 515 \tab 37 \tab 16 \tab 3 \tab 15 \tab 41 \tab - \tab 2832 \cr
+   2006 \tab 2992 \tab 863 \tab 565 \tab 61 \tab 17 \tab 5 \tab 5 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1390 \tab 758 \tab 603 \tab 80 \tab 27 \tab 1 \tab 3 \tab 5 \tab - \tab 2867 \cr
+   Total \tab 6075 \tab 2834 \tab 2394 \tab 243 \tab 78 \tab 14 \tab 34 \tab 74 \tab 0 \tab 11746 \cr
 }
 }
 

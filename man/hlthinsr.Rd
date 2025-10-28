@@ -32,10 +32,10 @@ Question First, are you, yourself, covered by health insurance, a government pla
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2185/vshow}{GSS Data Explorer page for \code{hlthinsr}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes covered \tab no not covered \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 1189 \tab 193 \tab 1 \tab 4 \tab 2832 \cr
-   Total \tab 1445 \tab 1189 \tab 193 \tab 1 \tab 4 \tab 2832 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes covered \tab no not covered \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 1189 \tab 193 \tab 1 \tab 4 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 1189 \tab 193 \tab 1 \tab 4 \tab 0 \tab 2832 \cr
 }
 }
 

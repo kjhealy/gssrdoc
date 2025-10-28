@@ -34,10 +34,10 @@ Question When you feel bad, how often do you seek your pet for comfort?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7208/vshow}{GSS Data Explorer page for \code{petcmfrt}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab almost always \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1649 \tab 228 \tab 166 \tab 156 \tab 120 \tab 2 \tab 27 \tab 2348 \cr
-   Total \tab 1649 \tab 228 \tab 166 \tab 156 \tab 120 \tab 2 \tab 27 \tab 2348 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab almost always \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1649 \tab 228 \tab 166 \tab 156 \tab 120 \tab 2 \tab 27 \tab - \tab 2348 \cr
+   Total \tab 1649 \tab 228 \tab 166 \tab 156 \tab 120 \tab 2 \tab 27 \tab 0 \tab 2348 \cr
 }
 }
 

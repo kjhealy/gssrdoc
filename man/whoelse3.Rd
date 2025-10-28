@@ -34,23 +34,23 @@ C. Spouse Partner
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5552/vshow}{GSS Data Explorer page for \code{whoelse3}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
-   1994 \tab 1518 \tab 261 \tab 1170 \tab 8 \tab 35 \tab - \tab 2992 \cr
-   1996 \tab - \tab 492 \tab 2334 \tab 7 \tab 71 \tab - \tab 2904 \cr
-   1998 \tab - \tab 422 \tab 2289 \tab 4 \tab 117 \tab - \tab 2832 \cr
-   2000 \tab - \tab 381 \tab 2288 \tab 2 \tab 146 \tab - \tab 2817 \cr
-   2002 \tab - \tab 321 \tab 2429 \tab 15 \tab - \tab - \tab 2765 \cr
-   2004 \tab - \tab 343 \tab 2436 \tab 21 \tab 12 \tab - \tab 2812 \cr
-   2006 \tab - \tab 543 \tab 3943 \tab 13 \tab 11 \tab - \tab 4510 \cr
-   2008 \tab - \tab 286 \tab 1734 \tab - \tab 3 \tab - \tab 2023 \cr
-   2010 \tab - \tab 326 \tab 1710 \tab - \tab 8 \tab - \tab 2044 \cr
-   2012 \tab - \tab 322 \tab 1649 \tab - \tab 3 \tab - \tab 1974 \cr
-   2014 \tab - \tab 435 \tab 2097 \tab - \tab 6 \tab - \tab 2538 \cr
-   2016 \tab - \tab 471 \tab 2389 \tab - \tab 7 \tab - \tab 2867 \cr
-   2018 \tab 9 \tab 339 \tab 2000 \tab - \tab - \tab - \tab 2348 \cr
-   2022 \tab 1642 \tab 255 \tab 1553 \tab 94 \tab - \tab - \tab 3544 \cr
-   Total \tab 3169 \tab 5197 \tab 30021 \tab 164 \tab 419 \tab 0 \tab 38970 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab not available in this release \tab Total \cr
+   1994 \tab 1518 \tab 261 \tab 1170 \tab 8 \tab 35 \tab - \tab - \tab 2992 \cr
+   1996 \tab - \tab 492 \tab 2334 \tab 7 \tab 71 \tab - \tab - \tab 2904 \cr
+   1998 \tab - \tab 422 \tab 2289 \tab 4 \tab 117 \tab - \tab - \tab 2832 \cr
+   2000 \tab - \tab 381 \tab 2288 \tab 2 \tab 146 \tab - \tab - \tab 2817 \cr
+   2002 \tab - \tab 321 \tab 2429 \tab 15 \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab - \tab 343 \tab 2436 \tab 21 \tab 12 \tab - \tab - \tab 2812 \cr
+   2006 \tab - \tab 543 \tab 3943 \tab 13 \tab 11 \tab - \tab - \tab 4510 \cr
+   2008 \tab - \tab 286 \tab 1734 \tab - \tab 3 \tab - \tab - \tab 2023 \cr
+   2010 \tab - \tab 326 \tab 1710 \tab - \tab 8 \tab - \tab - \tab 2044 \cr
+   2012 \tab - \tab 322 \tab 1649 \tab - \tab 3 \tab - \tab - \tab 1974 \cr
+   2014 \tab - \tab 435 \tab 2097 \tab - \tab 6 \tab - \tab - \tab 2538 \cr
+   2016 \tab - \tab 471 \tab 2389 \tab - \tab 7 \tab - \tab - \tab 2867 \cr
+   2018 \tab 9 \tab 339 \tab 2000 \tab - \tab - \tab - \tab - \tab 2348 \cr
+   2022 \tab 1642 \tab 255 \tab 1553 \tab 94 \tab - \tab - \tab - \tab 3544 \cr
+   Total \tab 3169 \tab 5197 \tab 30021 \tab 164 \tab 419 \tab 0 \tab 0 \tab 38970 \cr
 }
 }
 

@@ -36,10 +36,10 @@ B. How many of do you think are Democrats? Would you say…
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3663/vshow}{GSS Data Explorer page for \code{acqdems}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab almost all \tab most \tab about half \tab a few \tab none \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3139 \tab 106 \tab 165 \tab 555 \tab 292 \tab 29 \tab 204 \tab 20 \tab 4510 \cr
-   Total \tab 3139 \tab 106 \tab 165 \tab 555 \tab 292 \tab 29 \tab 204 \tab 20 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab almost all \tab most \tab about half \tab a few \tab none \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3139 \tab 106 \tab 165 \tab 555 \tab 292 \tab 29 \tab 204 \tab 20 \tab - \tab 4510 \cr
+   Total \tab 3139 \tab 106 \tab 165 \tab 555 \tab 292 \tab 29 \tab 204 \tab 20 \tab 0 \tab 4510 \cr
 }
 }
 

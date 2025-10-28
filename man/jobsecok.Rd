@@ -35,16 +35,16 @@ K. The job security is good
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2806/vshow}{GSS Data Explorer page for \code{jobsecok}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2002 \tab 969 \tab 951 \tab 546 \tab 162 \tab 108 \tab 15 \tab 14 \tab - \tab 2765 \cr
-   2006 \tab 2776 \tab 909 \tab 540 \tab 151 \tab 90 \tab 26 \tab 18 \tab - \tab 4510 \cr
-   2010 \tab 857 \tab 560 \tab 400 \tab 98 \tab 91 \tab 12 \tab 26 \tab - \tab 2044 \cr
-   2012 \tab 795 \tab 615 \tab 410 \tab 68 \tab 47 \tab 10 \tab 29 \tab - \tab 1974 \cr
-   2014 \tab 1288 \tab 679 \tab 411 \tab 90 \tab 58 \tab 4 \tab 8 \tab - \tab 2538 \cr
-   2018 \tab 900 \tab 859 \tab 412 \tab 89 \tab 45 \tab 8 \tab 35 \tab - \tab 2348 \cr
-   2022 \tab 1555 \tab 1100 \tab 667 \tab 98 \tab 80 \tab 7 \tab 15 \tab 22 \tab 3544 \cr
-   Total \tab 9140 \tab 5673 \tab 3386 \tab 756 \tab 519 \tab 82 \tab 145 \tab 22 \tab 19723 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very true \tab somewhat true \tab not too true \tab not at all true \tab don't know \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2002 \tab 969 \tab 951 \tab 546 \tab 162 \tab 108 \tab 15 \tab 14 \tab - \tab - \tab 2765 \cr
+   2006 \tab 2776 \tab 909 \tab 540 \tab 151 \tab 90 \tab 26 \tab 18 \tab - \tab - \tab 4510 \cr
+   2010 \tab 857 \tab 560 \tab 400 \tab 98 \tab 91 \tab 12 \tab 26 \tab - \tab - \tab 2044 \cr
+   2012 \tab 795 \tab 615 \tab 410 \tab 68 \tab 47 \tab 10 \tab 29 \tab - \tab - \tab 1974 \cr
+   2014 \tab 1288 \tab 679 \tab 411 \tab 90 \tab 58 \tab 4 \tab 8 \tab - \tab - \tab 2538 \cr
+   2018 \tab 900 \tab 859 \tab 412 \tab 89 \tab 45 \tab 8 \tab 35 \tab - \tab - \tab 2348 \cr
+   2022 \tab 1555 \tab 1100 \tab 667 \tab 98 \tab 80 \tab 7 \tab 15 \tab 22 \tab - \tab 3544 \cr
+   Total \tab 9140 \tab 5673 \tab 3386 \tab 756 \tab 519 \tab 82 \tab 145 \tab 22 \tab 0 \tab 19723 \cr
 }
 }
 

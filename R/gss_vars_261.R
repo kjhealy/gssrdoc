@@ -27,10 +27,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |whites |blacks/african-americans |jews |hispanics |asians |equal in common to all |nothing in common with any |don't know |no answer |Total |
-#'  |:-----|:----|:------|:------------------------|:----|:---------|:------|:----------------------|:--------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |35     |210                      |174  |173       |426    |164                    |71                         |107        |38        |2817  |
-#'  |Total |1419 |35     |210                      |174  |173       |426    |164                    |71                         |107        |38        |2817  |
+#'  |year  |iap  |whites |blacks/african-americans |jews |hispanics |asians |equal in common to all |nothing in common with any |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------|:------------------------|:----|:---------|:------|:----------------------|:--------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |35     |210                      |174  |173       |426    |164                    |71                         |107        |38        |-                          |2817  |
+#'  |Total |1419 |35     |210                      |174  |173       |426    |164                    |71                         |107        |38        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -71,10 +71,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |266   |231   |151      |510   |47                                         |5                        |5                                   |2          |181       |2817  |
-#'  |Total |1419 |266   |231   |151      |510   |47                                         |5                        |5                                   |2          |181       |2817  |
+#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |266   |231   |151      |510   |47                                         |5                        |5                                   |2          |181       |-                          |2817  |
+#'  |Total |1419 |266   |231   |151      |510   |47                                         |5                        |5                                   |2          |181       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -115,10 +115,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |128   |266   |150      |629   |47                                         |5                        |5                                   |2          |166       |2817  |
-#'  |Total |1419 |128   |266   |150      |629   |47                                         |5                        |5                                   |2          |166       |2817  |
+#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |128   |266   |150      |629   |47                                         |5                        |5                                   |2          |166       |-                          |2817  |
+#'  |Total |1419 |128   |266   |150      |629   |47                                         |5                        |5                                   |2          |166       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -159,10 +159,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |115   |191   |171      |699   |47                                         |5                        |7                                   |2          |161       |2817  |
-#'  |Total |1419 |115   |191   |171      |699   |47                                         |5                        |7                                   |2          |161       |2817  |
+#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |115   |191   |171      |699   |47                                         |5                        |7                                   |2          |161       |-                          |2817  |
+#'  |Total |1419 |115   |191   |171      |699   |47                                         |5                        |7                                   |2          |161       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -203,10 +203,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |109   |222   |173      |667   |47                                         |5                        |7                                   |2          |166       |2817  |
-#'  |Total |1419 |109   |222   |173      |667   |47                                         |5                        |7                                   |2          |166       |2817  |
+#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |109   |222   |173      |667   |47                                         |5                        |7                                   |2          |166       |-                          |2817  |
+#'  |Total |1419 |109   |222   |173      |667   |47                                         |5                        |7                                   |2          |166       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -247,10 +247,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |196   |224   |165      |574   |47                                         |5                        |5                                   |2          |180       |2817  |
-#'  |Total |1419 |196   |224   |165      |574   |47                                         |5                        |5                                   |2          |180       |2817  |
+#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |196   |224   |165      |574   |47                                         |5                        |5                                   |2          |180       |-                          |2817  |
+#'  |Total |1419 |196   |224   |165      |574   |47                                         |5                        |5                                   |2          |180       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -291,10 +291,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |180   |298   |161      |514   |47                                         |5                        |7                                   |3          |183       |2817  |
-#'  |Total |1419 |180   |298   |161      |514   |47                                         |5                        |7                                   |3          |183       |2817  |
+#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |180   |298   |161      |514   |47                                         |5                        |7                                   |3          |183       |-                          |2817  |
+#'  |Total |1419 |180   |298   |161      |514   |47                                         |5                        |7                                   |3          |183       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -335,10 +335,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |149   |226   |174      |628   |47                                         |5                        |6                                   |2          |161       |2817  |
-#'  |Total |1419 |149   |226   |174      |628   |47                                         |5                        |6                                   |2          |161       |2817  |
+#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |149   |226   |174      |628   |47                                         |5                        |6                                   |2          |161       |-                          |2817  |
+#'  |Total |1419 |149   |226   |174      |628   |47                                         |5                        |6                                   |2          |161       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -379,10 +379,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |102   |214   |163      |698   |47                                         |5                        |6                                   |2          |161       |2817  |
-#'  |Total |1419 |102   |214   |163      |698   |47                                         |5                        |6                                   |2          |161       |2817  |
+#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |102   |214   |163      |698   |47                                         |5                        |6                                   |2          |161       |-                          |2817  |
+#'  |Total |1419 |102   |214   |163      |698   |47                                         |5                        |6                                   |2          |161       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States
@@ -423,10 +423,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |Total |
-#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:-----|
-#'  |2000  |1419 |162   |260   |184      |549   |47                                         |5                        |6                                   |2          |183       |2817  |
-#'  |Total |1419 |162   |260   |184      |549   |47                                         |5                        |6                                   |2          |183       |2817  |
+#'  |year  |iap  |asian |black |hispanic |white |doesnt matter-dont care-race not important |rural-wants no neighbors |mixed race, 2 or more races in 1 hh |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-----|:-----|:--------|:-----|:------------------------------------------|:------------------------|:-----------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |1419 |162   |260   |184      |549   |47                                         |5                        |6                                   |2          |183       |-                          |2817  |
+#'  |Total |1419 |162   |260   |184      |549   |47                                         |5                        |6                                   |2          |183       |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Multi-Ethnic United States

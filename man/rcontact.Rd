@@ -38,10 +38,10 @@ In my job, I have personal contact with other people.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6329/vshow}{GSS Data Explorer page for \code{rcontact}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2016 \tab 1927 \tab 529 \tab 347 \tab 28 \tab 20 \tab 8 \tab 2 \tab 6 \tab 2867 \cr
-   Total \tab 1927 \tab 529 \tab 347 \tab 28 \tab 20 \tab 8 \tab 2 \tab 6 \tab 2867 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1927 \tab 529 \tab 347 \tab 28 \tab 20 \tab 8 \tab 2 \tab 6 \tab - \tab 2867 \cr
+   Total \tab 1927 \tab 529 \tab 347 \tab 28 \tab 20 \tab 8 \tab 2 \tab 6 \tab 0 \tab 2867 \cr
 }
 }
 

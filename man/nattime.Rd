@@ -34,10 +34,10 @@ Question Usually, I spend time in natural environments, such as public parks, ga
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7187/vshow}{GSS Data Explorer page for \code{nattime}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1175 \tab 408 \tab 347 \tab 251 \tab 141 \tab 2 \tab 24 \tab 2348 \cr
-   Total \tab 1175 \tab 408 \tab 347 \tab 251 \tab 141 \tab 2 \tab 24 \tab 2348 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab somewhat agree \tab somewhat disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1175 \tab 408 \tab 347 \tab 251 \tab 141 \tab 2 \tab 24 \tab - \tab 2348 \cr
+   Total \tab 1175 \tab 408 \tab 347 \tab 251 \tab 141 \tab 2 \tab 24 \tab 0 \tab 2348 \cr
 }
 }
 

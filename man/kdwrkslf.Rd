@@ -37,10 +37,10 @@ E. IF ALREADY ANSWERED, CODE WITHOUT ASKING:  (Is/was) (s/he) self-employed or (
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1543/vshow}{GSS Data Explorer page for \code{kdwrkslf}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab self employed \tab someone else \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 2394 \tab 61 \tab 520 \tab 5 \tab 12 \tab 2992 \cr
-   Total \tab 2394 \tab 61 \tab 520 \tab 5 \tab 12 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab self employed \tab someone else \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2394 \tab 61 \tab 520 \tab 5 \tab 12 \tab - \tab 2992 \cr
+   Total \tab 2394 \tab 61 \tab 520 \tab 5 \tab 12 \tab 0 \tab 2992 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question What about the Congressman from this district? Do you happen to know (h
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1036/vshow}{GSS Data Explorer page for \code{usrep}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab correct \tab incorrect \tab don't know \tab no answer \tab Total \cr
-   1987 \tab - \tab 621 \tab 158 \tab 1002 \tab 38 \tab 1819 \cr
-   Total \tab 0 \tab 621 \tab 158 \tab 1002 \tab 38 \tab 1819 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab correct \tab incorrect \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab - \tab 621 \tab 158 \tab 1002 \tab 38 \tab - \tab 1819 \cr
+   Total \tab 0 \tab 621 \tab 158 \tab 1002 \tab 38 \tab 0 \tab 1819 \cr
 }
 }
 

@@ -33,10 +33,10 @@ A. Would you say much better or somewhat better?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1642/vshow}{GSS Data Explorer page for \code{pastup}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab much better \tab somewhat better \tab no answer \tab Total \cr
-   1994 \tab 2602 \tab 34 \tab 345 \tab 11 \tab 2992 \cr
-   Total \tab 2602 \tab 34 \tab 345 \tab 11 \tab 2992 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab much better \tab somewhat better \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2602 \tab 34 \tab 345 \tab 11 \tab - \tab 2992 \cr
+   Total \tab 2602 \tab 34 \tab 345 \tab 11 \tab 0 \tab 2992 \cr
 }
 }
 

@@ -34,11 +34,11 @@ C. Elected Officials
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3379/vshow}{GSS Data Explorer page for \code{txpol}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very well \tab 2 \tab 3 \tab 4 \tab not at all \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3574 \tab 106 \tab 143 \tab 320 \tab 177 \tab 143 \tab 45 \tab 2 \tab 4510 \cr
-   2010 \tab 1578 \tab 52 \tab 67 \tab 155 \tab 93 \tab 73 \tab 23 \tab 3 \tab 2044 \cr
-   Total \tab 5152 \tab 158 \tab 210 \tab 475 \tab 270 \tab 216 \tab 68 \tab 5 \tab 6554 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very well \tab 2 \tab 3 \tab 4 \tab not at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3574 \tab 106 \tab 143 \tab 320 \tab 177 \tab 143 \tab 45 \tab 2 \tab - \tab 4510 \cr
+   2010 \tab 1578 \tab 52 \tab 67 \tab 155 \tab 93 \tab 73 \tab 23 \tab 3 \tab - \tab 2044 \cr
+   Total \tab 5152 \tab 158 \tab 210 \tab 475 \tab 270 \tab 216 \tab 68 \tab 5 \tab 0 \tab 6554 \cr
 }
 }
 

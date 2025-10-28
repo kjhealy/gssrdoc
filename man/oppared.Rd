@@ -37,11 +37,11 @@ B. Having well educated parents?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4242/vshow}{GSS Data Explorer page for \code{oppared}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   1987 \tab 255 \tab 103 \tab 541 \tab 592 \tab 219 \tab 78 \tab 16 \tab 15 \tab - \tab 1819 \cr
-   2021 \tab 2029 \tab 159 \tab 642 \tab 738 \tab 233 \tab 73 \tab 33 \tab 116 \tab 9 \tab 4032 \cr
-   Total \tab 2284 \tab 262 \tab 1183 \tab 1330 \tab 452 \tab 151 \tab 49 \tab 131 \tab 9 \tab 5851 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 103 \tab 541 \tab 592 \tab 219 \tab 78 \tab 16 \tab 15 \tab - \tab - \tab 1819 \cr
+   2021 \tab 2029 \tab 159 \tab 642 \tab 738 \tab 233 \tab 73 \tab 33 \tab 116 \tab 9 \tab - \tab 4032 \cr
+   Total \tab 2284 \tab 262 \tab 1183 \tab 1330 \tab 452 \tab 151 \tab 49 \tab 131 \tab 9 \tab 0 \tab 5851 \cr
 }
 }
 

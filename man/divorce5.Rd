@@ -35,21 +35,21 @@ Question Divorces during the last five years.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/737/vshow}{GSS Data Explorer page for \code{divorce5}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab none \tab prior 4 years \tab last year \tab both \tab no answer \tab Total \cr
-   1978 \tab - \tab 1353 \tab 116 \tab 40 \tab 9 \tab 14 \tab 1532 \cr
-   1980 \tab - \tab 1318 \tab 88 \tab 27 \tab 9 \tab 26 \tab 1468 \cr
-   1983 \tab - \tab 1431 \tab 112 \tab 32 \tab 17 \tab 7 \tab 1599 \cr
-   1984 \tab - \tab 1319 \tab 86 \tab 35 \tab 8 \tab 25 \tab 1473 \cr
-   1986 \tab - \tab 1310 \tab 88 \tab 28 \tab 8 \tab 36 \tab 1470 \cr
-   1987 \tab - \tab 1592 \tab 98 \tab 33 \tab 8 \tab 88 \tab 1819 \cr
-   1988 \tab 484 \tab 882 \tab 55 \tab 19 \tab 13 \tab 28 \tab 1481 \cr
-   1989 \tab 502 \tab 912 \tab 53 \tab 18 \tab 10 \tab 42 \tab 1537 \cr
-   1990 \tab 473 \tab 790 \tab 56 \tab 19 \tab 3 \tab 31 \tab 1372 \cr
-   1991 \tab 500 \tab 897 \tab 44 \tab 24 \tab 7 \tab 45 \tab 1517 \cr
-   1993 \tab 549 \tab 930 \tab 67 \tab 25 \tab 11 \tab 24 \tab 1606 \cr
-   1994 \tab 2481 \tab 454 \tab 25 \tab 12 \tab 8 \tab 12 \tab 2992 \cr
-   Total \tab 4989 \tab 13188 \tab 888 \tab 312 \tab 111 \tab 378 \tab 19866 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab none \tab prior 4 years \tab last year \tab both \tab no answer \tab not available in this year \tab Total \cr
+   1978 \tab - \tab 1353 \tab 116 \tab 40 \tab 9 \tab 14 \tab - \tab 1532 \cr
+   1980 \tab - \tab 1318 \tab 88 \tab 27 \tab 9 \tab 26 \tab - \tab 1468 \cr
+   1983 \tab - \tab 1431 \tab 112 \tab 32 \tab 17 \tab 7 \tab - \tab 1599 \cr
+   1984 \tab - \tab 1319 \tab 86 \tab 35 \tab 8 \tab 25 \tab - \tab 1473 \cr
+   1986 \tab - \tab 1310 \tab 88 \tab 28 \tab 8 \tab 36 \tab - \tab 1470 \cr
+   1987 \tab - \tab 1592 \tab 98 \tab 33 \tab 8 \tab 88 \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 882 \tab 55 \tab 19 \tab 13 \tab 28 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 912 \tab 53 \tab 18 \tab 10 \tab 42 \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 790 \tab 56 \tab 19 \tab 3 \tab 31 \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 897 \tab 44 \tab 24 \tab 7 \tab 45 \tab - \tab 1517 \cr
+   1993 \tab 549 \tab 930 \tab 67 \tab 25 \tab 11 \tab 24 \tab - \tab 1606 \cr
+   1994 \tab 2481 \tab 454 \tab 25 \tab 12 \tab 8 \tab 12 \tab - \tab 2992 \cr
+   Total \tab 4989 \tab 13188 \tab 888 \tab 312 \tab 111 \tab 378 \tab 0 \tab 19866 \cr
 }
 }
 

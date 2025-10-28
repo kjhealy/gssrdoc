@@ -36,11 +36,11 @@ C. Use a Search Engine?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2390/vshow}{GSS Data Explorer page for \code{srcheng}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab never \tab less than half of the time \tab about half of the time \tab more than half of the time \tab almost always \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 2075 \tab 83 \tab 231 \tab 160 \tab 94 \tab 96 \tab 1 \tab 77 \tab 2817 \cr
-   2002 \tab 2403 \tab 27 \tab 125 \tab 70 \tab 42 \tab 48 \tab 1 \tab 49 \tab 2765 \cr
-   Total \tab 4478 \tab 110 \tab 356 \tab 230 \tab 136 \tab 144 \tab 2 \tab 126 \tab 5582 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab less than half of the time \tab about half of the time \tab more than half of the time \tab almost always \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 83 \tab 231 \tab 160 \tab 94 \tab 96 \tab 1 \tab 77 \tab - \tab 2817 \cr
+   2002 \tab 2403 \tab 27 \tab 125 \tab 70 \tab 42 \tab 48 \tab 1 \tab 49 \tab - \tab 2765 \cr
+   Total \tab 4478 \tab 110 \tab 356 \tab 230 \tab 136 \tab 144 \tab 2 \tab 126 \tab 0 \tab 5582 \cr
 }
 }
 

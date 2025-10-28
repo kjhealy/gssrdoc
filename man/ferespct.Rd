@@ -36,10 +36,10 @@ B. Respecting the Rights of Women
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1162/vshow}{GSS Data Explorer page for \code{ferespct}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1831 \tab 289 \tab 278 \tab 208 \tab 57 \tab 13 \tab 67 \tab 74 \tab 2817 \cr
-   Total \tab 1831 \tab 289 \tab 278 \tab 208 \tab 57 \tab 13 \tab 67 \tab 74 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab excellent \tab very good \tab good \tab fair \tab poor \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1831 \tab 289 \tab 278 \tab 208 \tab 57 \tab 13 \tab 67 \tab 74 \tab - \tab 2817 \cr
+   Total \tab 1831 \tab 289 \tab 278 \tab 208 \tab 57 \tab 13 \tab 67 \tab 74 \tab 0 \tab 2817 \cr
 }
 }
 

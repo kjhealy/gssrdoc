@@ -24,10 +24,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |biological |adopted |step |no answer |Total |
-#'  |:-----|:----|:----------|:-------|:----|:---------|:-----|
-#'  |1994  |1860 |1043       |21      |59   |9         |2992  |
-#'  |Total |1860 |1043       |21      |59   |9         |2992  |
+#'  |year  |iap  |biological |adopted |step |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:-------|:----|:---------|:--------------------------|:-----|
+#'  |1994  |1860 |1043       |21      |59   |9         |-                          |2992  |
+#'  |Total |1860 |1043       |21      |59   |9         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -67,10 +67,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |biological |adopted |step |no answer |Total |
-#'  |:-----|:----|:----------|:-------|:----|:---------|:-----|
-#'  |1994  |2105 |831        |13      |36   |7         |2992  |
-#'  |Total |2105 |831        |13      |36   |7         |2992  |
+#'  |year  |iap  |biological |adopted |step |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:-------|:----|:---------|:--------------------------|:-----|
+#'  |1994  |2105 |831        |13      |36   |7         |-                          |2992  |
+#'  |Total |2105 |831        |13      |36   |7         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -110,10 +110,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |biological |adopted |step |no answer |Total |
-#'  |:-----|:----|:----------|:-------|:----|:---------|:-----|
-#'  |1994  |2500 |445        |6       |31   |10        |2992  |
-#'  |Total |2500 |445        |6       |31   |10        |2992  |
+#'  |year  |iap  |biological |adopted |step |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:-------|:----|:---------|:--------------------------|:-----|
+#'  |1994  |2500 |445        |6       |31   |10        |-                          |2992  |
+#'  |Total |2500 |445        |6       |31   |10        |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -153,10 +153,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |biological |adopted |step |no answer |Total |
-#'  |:-----|:----|:----------|:-------|:----|:---------|:-----|
-#'  |1994  |2740 |224        |4       |17   |7         |2992  |
-#'  |Total |2740 |224        |4       |17   |7         |2992  |
+#'  |year  |iap  |biological |adopted |step |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:-------|:----|:---------|:--------------------------|:-----|
+#'  |1994  |2740 |224        |4       |17   |7         |-                          |2992  |
+#'  |Total |2740 |224        |4       |17   |7         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -196,10 +196,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |biological |adopted |step |no answer |Total |
-#'  |:-----|:----|:----------|:-------|:----|:---------|:-----|
-#'  |1994  |2871 |107        |1       |10   |3         |2992  |
-#'  |Total |2871 |107        |1       |10   |3         |2992  |
+#'  |year  |iap  |biological |adopted |step |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:-------|:----|:---------|:--------------------------|:-----|
+#'  |1994  |2871 |107        |1       |10   |3         |-                          |2992  |
+#'  |Total |2871 |107        |1       |10   |3         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -239,10 +239,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |biological |adopted |step |no answer |Total |
-#'  |:-----|:----|:----------|:-------|:----|:---------|:-----|
-#'  |1994  |2932 |48         |1       |9    |2         |2992  |
-#'  |Total |2932 |48         |1       |9    |2         |2992  |
+#'  |year  |iap  |biological |adopted |step |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:-------|:----|:---------|:--------------------------|:-----|
+#'  |1994  |2932 |48         |1       |9    |2         |-                          |2992  |
+#'  |Total |2932 |48         |1       |9    |2         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -282,10 +282,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |biological |step |no answer |Total |
-#'  |:-----|:----|:----------|:----|:---------|:-----|
-#'  |1994  |2955 |30         |5    |2         |2992  |
-#'  |Total |2955 |30         |5    |2         |2992  |
+#'  |year  |iap  |biological |step |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:----|:---------|:--------------------------|:-----|
+#'  |1994  |2955 |30         |5    |2         |-                          |2992  |
+#'  |Total |2955 |30         |5    |2         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -325,10 +325,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |biological |adopted |step |no answer |Total |
-#'  |:-----|:----|:----------|:-------|:----|:---------|:-----|
-#'  |1994  |2975 |14         |1       |1    |1         |2992  |
-#'  |Total |2975 |14         |1       |1    |1         |2992  |
+#'  |year  |iap  |biological |adopted |step |no answer |not available in this year |Total |
+#'  |:-----|:----|:----------|:-------|:----|:---------|:--------------------------|:-----|
+#'  |1994  |2975 |14         |1       |1    |1         |-                          |2992  |
+#'  |Total |2975 |14         |1       |1    |1         |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -368,10 +368,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |biological |adopted |Total |
-#'  |:-----|:----|:----------|:-------|:-----|
-#'  |1994  |2983 |8          |1       |2992  |
-#'  |Total |2983 |8          |1       |2992  |
+#'  |year  |iap  |biological |adopted |not available in this year |Total |
+#'  |:-----|:----|:----------|:-------|:--------------------------|:-----|
+#'  |1994  |2983 |8          |1       |-                          |2992  |
+#'  |Total |2983 |8          |1       |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility
@@ -410,10 +410,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes  |no |don't know |no answer |Total |
-#'  |:-----|:----|:----|:--|:----------|:---------|:-----|
-#'  |1994  |1860 |1075 |42 |2          |13        |2992  |
-#'  |Total |1860 |1075 |42 |2          |13        |2992  |
+#'  |year  |iap  |yes  |no |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:----|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1994  |1860 |1075 |42 |2          |13        |-                          |2992  |
+#'  |Total |1860 |1075 |42 |2          |13        |0                          |2992  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Family Mobility

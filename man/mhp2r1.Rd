@@ -46,10 +46,10 @@ Question First relationship with second person.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7102/vshow}{GSS Data Explorer page for \code{mhp2r1}}.
 
-Counts by year:\tabular{lllllllllllllllllllll}{
-   year \tab iap \tab spouse/partner (current/ex) \tab parent \tab sibling \tab child \tab grandparent \tab grandchild \tab other family \tab coworker \tab neighbor \tab friend \tab member of religious community \tab acquaintance \tab student/classmate \tab relative of a friend \tab friend of a relative \tab other \tab don't know \tab no answer \tab Total \cr
-   2018 \tab 1982 \tab 17 \tab 27 \tab 45 \tab 21 \tab 11 \tab 3 \tab 81 \tab 8 \tab 9 \tab 117 \tab 2 \tab 5 \tab 1 \tab 3 \tab 2 \tab 4 \tab 2 \tab 8 \tab 2348 \cr
-   Total \tab 1982 \tab 17 \tab 27 \tab 45 \tab 21 \tab 11 \tab 3 \tab 81 \tab 8 \tab 9 \tab 117 \tab 2 \tab 5 \tab 1 \tab 3 \tab 2 \tab 4 \tab 2 \tab 8 \tab 2348 \cr
+Counts by year:\tabular{llllllllllllllllllllll}{
+   year \tab iap \tab spouse/partner (current/ex) \tab parent \tab sibling \tab child \tab grandparent \tab grandchild \tab other family \tab coworker \tab neighbor \tab friend \tab member of religious community \tab acquaintance \tab student/classmate \tab relative of a friend \tab friend of a relative \tab other \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1982 \tab 17 \tab 27 \tab 45 \tab 21 \tab 11 \tab 3 \tab 81 \tab 8 \tab 9 \tab 117 \tab 2 \tab 5 \tab 1 \tab 3 \tab 2 \tab 4 \tab 2 \tab 8 \tab - \tab 2348 \cr
+   Total \tab 1982 \tab 17 \tab 27 \tab 45 \tab 21 \tab 11 \tab 3 \tab 81 \tab 8 \tab 9 \tab 117 \tab 2 \tab 5 \tab 1 \tab 3 \tab 2 \tab 4 \tab 2 \tab 8 \tab 0 \tab 2348 \cr
 }
 }
 

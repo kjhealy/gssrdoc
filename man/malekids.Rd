@@ -32,10 +32,10 @@ NOTE: This variable originates on the GSS Next follow-on, and should not be anal
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7957/vshow}{GSS Data Explorer page for \code{malekids}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab skipped on web \tab Total \cr
-   2022 \tab 2309 \tab 606 \tab 352 \tab 173 \tab 46 \tab 20 \tab 3 \tab 2 \tab 33 \tab 3544 \cr
-   Total \tab 2309 \tab 606 \tab 352 \tab 173 \tab 46 \tab 20 \tab 3 \tab 2 \tab 33 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab 0 \tab 1 \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab iap \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 606 \tab 352 \tab 173 \tab 46 \tab 20 \tab 3 \tab 2 \tab 2309 \tab 33 \tab 3544 \cr
+   Total \tab 0 \tab 606 \tab 352 \tab 173 \tab 46 \tab 20 \tab 3 \tab 2 \tab 2309 \tab 33 \tab 3544 \cr
 }
 }
 

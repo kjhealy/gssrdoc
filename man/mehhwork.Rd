@@ -36,10 +36,10 @@ A. Men ought to do a larger share of household work than they do now.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4427/vshow}{GSS Data Explorer page for \code{mehhwork}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2002 \tab 1594 \tab 250 \tab 482 \tab 311 \tab 105 \tab 22 \tab 1 \tab 2765 \cr
-   Total \tab 1594 \tab 250 \tab 482 \tab 311 \tab 105 \tab 22 \tab 1 \tab 2765 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1594 \tab 250 \tab 482 \tab 311 \tab 105 \tab 22 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 1594 \tab 250 \tab 482 \tab 311 \tab 105 \tab 22 \tab 1 \tab 0 \tab 2765 \cr
 }
 }
 

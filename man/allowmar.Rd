@@ -32,10 +32,10 @@ Question F. Do you think the law should allow marriages between blacks and white
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4989/vshow}{GSS Data Explorer page for \code{allowmar}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab allow marriage \tab not allow marriage \tab don't know \tab no answer \tab Total \cr
-   1989 \tab 1029 \tab 311 \tab 145 \tab 22 \tab 30 \tab 1537 \cr
-   Total \tab 1029 \tab 311 \tab 145 \tab 22 \tab 30 \tab 1537 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab allow marriage \tab not allow marriage \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 1029 \tab 311 \tab 145 \tab 22 \tab 30 \tab - \tab 1537 \cr
+   Total \tab 1029 \tab 311 \tab 145 \tab 22 \tab 30 \tab 0 \tab 1537 \cr
 }
 }
 

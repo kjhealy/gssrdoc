@@ -36,7 +36,7 @@ Question A. Generally speaking, would you say that most people can be trusted or
 For further details see the \href{https://gssdataexplorer.norc.org/variables/441/vshow}{GSS Data Explorer page for \code{trust}}.
 
 Counts by year:\tabular{lllllllll}{
-   year \tab can trust \tab can't be too careful \tab depends \tab don't know \tab no answer \tab iap \tab not available in this year \tab Total \cr
+   year \tab most people can be trusted \tab can't be too careful \tab depends \tab don't know \tab no answer \tab iap \tab not available in this year \tab Total \cr
    1972 \tab 738 \tab 803 \tab 56 \tab 15 \tab 1 \tab - \tab - \tab 1613 \cr
    1973 \tab 690 \tab 765 \tab 44 \tab 3 \tab 2 \tab - \tab - \tab 1504 \cr
    1975 \tab 584 \tab 830 \tab 64 \tab 7 \tab 5 \tab - \tab - \tab 1490 \cr

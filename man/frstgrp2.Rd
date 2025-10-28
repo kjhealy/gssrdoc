@@ -46,10 +46,10 @@ Question What are the groups you both belong to? Circle all that apply.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5546/vshow}{GSS Data Explorer page for \code{frstgrp2}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab veterans groups \tab political clubs \tab school service groups \tab literary art discussion or study grps \tab professional or academic societies \tab church-affiliated groups \tab other groups \tab no answer \tab Total \cr
-   2004 \tab 2738 \tab 1 \tab 1 \tab 1 \tab 3 \tab 2 \tab 17 \tab 1 \tab 48 \tab 2812 \cr
-   Total \tab 2738 \tab 1 \tab 1 \tab 1 \tab 3 \tab 2 \tab 17 \tab 1 \tab 48 \tab 2812 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab veterans groups \tab political clubs \tab school service groups \tab literary art discussion or study grps \tab professional or academic societies \tab church-affiliated groups \tab other groups \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2738 \tab 1 \tab 1 \tab 1 \tab 3 \tab 2 \tab 17 \tab 1 \tab 48 \tab - \tab 2812 \cr
+   Total \tab 2738 \tab 1 \tab 1 \tab 1 \tab 3 \tab 2 \tab 17 \tab 1 \tab 48 \tab 0 \tab 2812 \cr
 }
 }
 

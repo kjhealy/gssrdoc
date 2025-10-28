@@ -38,13 +38,13 @@ A. There is a God who concerns Himself with every human being personally.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4657/vshow}{GSS Data Explorer page for \code{theism}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 585 \tab 333 \tab 199 \tab 72 \tab 55 \tab 65 \tab 50 \tab 1517 \cr
-   1998 \tab 1548 \tab 493 \tab 370 \tab 142 \tab 107 \tab 67 \tab 50 \tab 55 \tab 2832 \cr
-   2008 \tab 658 \tab 578 \tab 368 \tab 185 \tab 136 \tab 76 \tab 16 \tab 6 \tab 2023 \cr
-   2018 \tab 1173 \tab 481 \tab 298 \tab 175 \tab 99 \tab 100 \tab 13 \tab 9 \tab 2348 \cr
-   Total \tab 3537 \tab 2137 \tab 1369 \tab 701 \tab 414 \tab 298 \tab 144 \tab 120 \tab 8720 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 585 \tab 333 \tab 199 \tab 72 \tab 55 \tab 65 \tab 50 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 493 \tab 370 \tab 142 \tab 107 \tab 67 \tab 50 \tab 55 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 578 \tab 368 \tab 185 \tab 136 \tab 76 \tab 16 \tab 6 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 481 \tab 298 \tab 175 \tab 99 \tab 100 \tab 13 \tab 9 \tab - \tab 2348 \cr
+   Total \tab 3537 \tab 2137 \tab 1369 \tab 701 \tab 414 \tab 298 \tab 144 \tab 120 \tab 0 \tab 8720 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question J. Computer programming. (Is computer programming...?)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3546/vshow}{GSS Data Explorer page for \code{cmprgmng}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1469 \tab 259 \tab 156 \tab 53 \tab 16 \tab 18 \tab 3 \tab 1974 \cr
-   Total \tab 1469 \tab 259 \tab 156 \tab 53 \tab 16 \tab 18 \tab 3 \tab 1974 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very scientific \tab pretty scientific \tab not too scientific \tab not scientific at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1469 \tab 259 \tab 156 \tab 53 \tab 16 \tab 18 \tab 3 \tab - \tab 1974 \cr
+   Total \tab 1469 \tab 259 \tab 156 \tab 53 \tab 16 \tab 18 \tab 3 \tab 0 \tab 1974 \cr
 }
 }
 

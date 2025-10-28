@@ -34,10 +34,10 @@ D. In what way are an egg and a seed alike?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1470/vshow}{GSS Data Explorer page for \code{alike4}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab completely wrong \tab partially right \tab completely right \tab don't know \tab no answer \tab Total \cr
-   1994 \tab - \tab 828 \tab 1107 \tab 820 \tab 208 \tab 29 \tab 2992 \cr
-   Total \tab 0 \tab 828 \tab 1107 \tab 820 \tab 208 \tab 29 \tab 2992 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab completely wrong \tab partially right \tab completely right \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab - \tab 828 \tab 1107 \tab 820 \tab 208 \tab 29 \tab - \tab 2992 \cr
+   Total \tab 0 \tab 828 \tab 1107 \tab 820 \tab 208 \tab 29 \tab 0 \tab 2992 \cr
 }
 }
 

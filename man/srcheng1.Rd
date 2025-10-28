@@ -33,10 +33,10 @@ A. Do you know the name of any search engine?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2511/vshow}{GSS Data Explorer page for \code{srcheng1}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2075 \tab 526 \tab 140 \tab 76 \tab 2817 \cr
-   Total \tab 2075 \tab 526 \tab 140 \tab 76 \tab 2817 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 526 \tab 140 \tab 76 \tab - \tab 2817 \cr
+   Total \tab 2075 \tab 526 \tab 140 \tab 76 \tab 0 \tab 2817 \cr
 }
 }
 

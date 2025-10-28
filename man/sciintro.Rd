@@ -32,10 +32,10 @@ Question Which version of science introduction was used?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3462/vshow}{GSS Data Explorer page for \code{sciintro}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab intro version 1 \tab intro version 2 \tab Total \cr
-   2008 \tab 518 \tab 747 \tab 758 \tab 2023 \cr
-   Total \tab 518 \tab 747 \tab 758 \tab 2023 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab intro version 1 \tab intro version 2 \tab not available in this year \tab Total \cr
+   2008 \tab 518 \tab 747 \tab 758 \tab - \tab 2023 \cr
+   Total \tab 518 \tab 747 \tab 758 \tab 0 \tab 2023 \cr
 }
 }
 

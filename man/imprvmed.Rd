@@ -34,10 +34,10 @@ Question L. In your opinion, how likely is it that this youth's/child's situatio
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2932/vshow}{GSS Data Explorer page for \code{imprvmed}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 516 \tab 460 \tab 226 \tab 137 \tab 42 \tab 12 \tab 2765 \cr
-   Total \tab 1372 \tab 516 \tab 460 \tab 226 \tab 137 \tab 42 \tab 12 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2002 \tab 1372 \tab 516 \tab 460 \tab 226 \tab 137 \tab 42 \tab 12 \tab - \tab - \tab 2765 \cr
+   Total \tab 1372 \tab 516 \tab 460 \tab 226 \tab 137 \tab 42 \tab 12 \tab 0 \tab 0 \tab 2765 \cr
 }
 }
 

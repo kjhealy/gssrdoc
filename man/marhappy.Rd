@@ -37,13 +37,13 @@ A. Married people are generally happier than unmarried people.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4364/vshow}{GSS Data Explorer page for \code{marhappy}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 233 \tab 485 \tab 411 \tab 184 \tab 30 \tab 53 \tab 18 \tab 1481 \cr
-   1994 \tab 1545 \tab 149 \tab 496 \tab 439 \tab 246 \tab 57 \tab 39 \tab 21 \tab 2992 \cr
-   2002 \tab 1594 \tab 191 \tab 272 \tab 367 \tab 196 \tab 103 \tab 41 \tab 1 \tab 2765 \cr
-   2012 \tab 672 \tab 100 \tab 348 \tab 383 \tab 327 \tab 59 \tab 76 \tab 9 \tab 1974 \cr
-   Total \tab 3878 \tab 673 \tab 1601 \tab 1600 \tab 953 \tab 249 \tab 209 \tab 49 \tab 9212 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 233 \tab 485 \tab 411 \tab 184 \tab 30 \tab 53 \tab 18 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 149 \tab 496 \tab 439 \tab 246 \tab 57 \tab 39 \tab 21 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 191 \tab 272 \tab 367 \tab 196 \tab 103 \tab 41 \tab 1 \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 100 \tab 348 \tab 383 \tab 327 \tab 59 \tab 76 \tab 9 \tab - \tab 1974 \cr
+   Total \tab 3878 \tab 673 \tab 1601 \tab 1600 \tab 953 \tab 249 \tab 209 \tab 49 \tab 0 \tab 9212 \cr
 }
 }
 

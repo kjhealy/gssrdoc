@@ -34,10 +34,10 @@ B. Personal interests, games, or enjoyment?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2587/vshow}{GSS Data Explorer page for \code{permino}}.
 
-Counts by year:\tabular{lllllllllllll}{
-   year \tab iap \tab 0 \tab 10 \tab 15 \tab 2 \tab 20 \tab 30 \tab 4 \tab 5 \tab 7 \tab no answer \tab Total \cr
-   2000 \tab 2665 \tab 99 \tab 1 \tab 1 \tab 1 \tab 3 \tab 11 \tab 1 \tab 2 \tab 1 \tab 32 \tab 2817 \cr
-   Total \tab 2665 \tab 99 \tab 1 \tab 1 \tab 1 \tab 3 \tab 11 \tab 1 \tab 2 \tab 1 \tab 32 \tab 2817 \cr
+Counts by year:\tabular{llllllllllllll}{
+   year \tab iap \tab 0 \tab 10 \tab 15 \tab 2 \tab 20 \tab 30 \tab 4 \tab 5 \tab 7 \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2665 \tab 99 \tab 1 \tab 1 \tab 1 \tab 3 \tab 11 \tab 1 \tab 2 \tab 1 \tab 32 \tab - \tab 2817 \cr
+   Total \tab 2665 \tab 99 \tab 1 \tab 1 \tab 1 \tab 3 \tab 11 \tab 1 \tab 2 \tab 1 \tab 32 \tab 0 \tab 2817 \cr
 }
 }
 

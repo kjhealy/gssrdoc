@@ -35,10 +35,10 @@ F. To have (NAME) marry someone related to you?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3757/vshow}{GSS Data Explorer page for \code{mhwedrel}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3085 \tab 166 \tab 445 \tab 409 \tab 330 \tab 65 \tab 10 \tab 4510 \cr
-   Total \tab 3085 \tab 166 \tab 445 \tab 409 \tab 330 \tab 65 \tab 10 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3085 \tab 166 \tab 445 \tab 409 \tab 330 \tab 65 \tab 10 \tab - \tab 4510 \cr
+   Total \tab 3085 \tab 166 \tab 445 \tab 409 \tab 330 \tab 65 \tab 10 \tab 0 \tab 4510 \cr
 }
 }
 

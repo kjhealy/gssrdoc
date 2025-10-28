@@ -52,14 +52,15 @@ Question RESPONDENT'S PARTNER'S EDUCATION
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6160/vshow}{GSS Data Explorer page for \code{coeduc}}.
 
 Counts by year:\tabular{llllllllllllllllllllllll}{
-   year \tab iap \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 20 \tab 4 \tab 6 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab 3 \tab no formal schooling \tab 5 \tab Total \cr
-   2012 \tab 1806 \tab 11 \tab 13 \tab 55 \tab 8 \tab 16 \tab 4 \tab 22 \tab 3 \tab 4 \tab 2 \tab 2 \tab 1 \tab 4 \tab 2 \tab 3 \tab 4 \tab 14 \tab - \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 2325 \tab 6 \tab 13 \tab 88 \tab 15 \tab 18 \tab 10 \tab 21 \tab 4 \tab 6 \tab 1 \tab - \tab 1 \tab 1 \tab 2 \tab 3 \tab 6 \tab 14 \tab 4 \tab - \tab - \tab - \tab 2538 \cr
-   2016 \tab 2603 \tab 9 \tab 16 \tab 100 \tab 24 \tab 22 \tab 8 \tab 30 \tab 10 \tab 4 \tab 4 \tab 8 \tab 1 \tab 4 \tab 1 \tab 4 \tab 8 \tab 7 \tab 3 \tab 1 \tab - \tab - \tab 2867 \cr
-   2018 \tab 2117 \tab 10 \tab 14 \tab 80 \tab 16 \tab 32 \tab 9 \tab 38 \tab 6 \tab 7 \tab 1 \tab 3 \tab - \tab 3 \tab 2 \tab 1 \tab 1 \tab 5 \tab 2 \tab - \tab 1 \tab - \tab 2348 \cr
-   2021 \tab 3660 \tab 7 \tab 11 \tab 119 \tab 22 \tab 46 \tab 15 \tab 69 \tab 7 \tab 15 \tab 4 \tab 10 \tab 3 \tab 2 \tab 2 \tab 3 \tab 6 \tab 11 \tab 18 \tab 1 \tab 1 \tab - \tab 4032 \cr
-   2022 \tab 3228 \tab 10 \tab 10 \tab 104 \tab 21 \tab 38 \tab 17 \tab 58 \tab 11 \tab 12 \tab 4 \tab 2 \tab - \tab 1 \tab 1 \tab 3 \tab 8 \tab - \tab 11 \tab 1 \tab 2 \tab 2 \tab 3544 \cr
-   Total \tab 15739 \tab 53 \tab 77 \tab 546 \tab 106 \tab 172 \tab 63 \tab 238 \tab 41 \tab 48 \tab 16 \tab 25 \tab 6 \tab 15 \tab 10 \tab 17 \tab 33 \tab 51 \tab 38 \tab 3 \tab 4 \tab 2 \tab 17303 \cr
+   year \tab iap \tab 4th grade \tab 6th grade \tab 7th grade \tab 8th grade \tab 9th grade \tab 10th grade \tab 11th grade \tab 12th grade \tab 1 year of college \tab 2 years of college \tab 3 years of college \tab 4 years of college \tab 5 years of college \tab 6 years of college \tab 7 years of college \tab 8 or more years of college \tab don't know \tab no answer \tab 3rd grade \tab no formal schooling \tab 5th grade \tab Total \cr
+   2012 \tab 1806 \tab 1 \tab 4 \tab 2 \tab 3 \tab 4 \tab 11 \tab 13 \tab 55 \tab 8 \tab 16 \tab 4 \tab 22 \tab 3 \tab 4 \tab 2 \tab 2 \tab 14 \tab - \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2325 \tab 1 \tab 1 \tab 2 \tab 3 \tab 6 \tab 6 \tab 13 \tab 88 \tab 15 \tab 18 \tab 10 \tab 21 \tab 4 \tab 6 \tab 1 \tab - \tab 14 \tab 4 \tab - \tab - \tab - \tab 2538 \cr
+   2016 \tab 2603 \tab 1 \tab 4 \tab 1 \tab 4 \tab 8 \tab 9 \tab 16 \tab 100 \tab 24 \tab 22 \tab 8 \tab 30 \tab 10 \tab 4 \tab 4 \tab 8 \tab 7 \tab 3 \tab 1 \tab - \tab - \tab 2867 \cr
+   2018 \tab 2117 \tab - \tab 3 \tab 2 \tab 1 \tab 1 \tab 10 \tab 14 \tab 80 \tab 16 \tab 32 \tab 9 \tab 38 \tab 6 \tab 7 \tab 1 \tab 3 \tab 5 \tab 2 \tab - \tab 1 \tab - \tab 2348 \cr
+   2021 \tab 3660 \tab 3 \tab 2 \tab 2 \tab 3 \tab 6 \tab 7 \tab 11 \tab 119 \tab 22 \tab 46 \tab 15 \tab 69 \tab 7 \tab 15 \tab 4 \tab 10 \tab 11 \tab 18 \tab 1 \tab 1 \tab - \tab 4032 \cr
+   2022 \tab 3234 \tab - \tab 1 \tab 1 \tab 3 \tab 8 \tab 10 \tab 10 \tab 103 \tab 20 \tab 37 \tab 17 \tab 56 \tab 11 \tab 12 \tab 4 \tab 2 \tab 5 \tab 5 \tab 1 \tab 2 \tab 2 \tab 3544 \cr
+   2024 \tab 3049 \tab - \tab 3 \tab 1 \tab 2 \tab 4 \tab 12 \tab 7 \tab 89 \tab 21 \tab 27 \tab 8 \tab 51 \tab 7 \tab 12 \tab - \tab 6 \tab 9 \tab - \tab - \tab 1 \tab - \tab 3309 \cr
+   Total \tab 18794 \tab 6 \tab 18 \tab 11 \tab 19 \tab 37 \tab 65 \tab 84 \tab 634 \tab 126 \tab 198 \tab 71 \tab 287 \tab 48 \tab 60 \tab 16 \tab 31 \tab 65 \tab 32 \tab 3 \tab 5 \tab 2 \tab 20612 \cr
 }
 }
 

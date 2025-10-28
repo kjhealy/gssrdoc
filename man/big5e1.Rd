@@ -36,10 +36,10 @@ E. …has an active imagination
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4978/vshow}{GSS Data Explorer page for \code{big5e1}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 2992 \tab 463 \tab 688 \tab 204 \tab 140 \tab 15 \tab 6 \tab 2 \tab 4510 \cr
-   Total \tab 2992 \tab 463 \tab 688 \tab 204 \tab 140 \tab 15 \tab 6 \tab 2 \tab 4510 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2992 \tab 463 \tab 688 \tab 204 \tab 140 \tab 15 \tab 6 \tab 2 \tab - \tab 4510 \cr
+   Total \tab 2992 \tab 463 \tab 688 \tab 204 \tab 140 \tab 15 \tab 6 \tab 2 \tab 0 \tab 4510 \cr
 }
 }
 

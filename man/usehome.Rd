@@ -32,10 +32,10 @@ Question B. Do you, yourself, ever use a computer at home?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2550/vshow}{GSS Data Explorer page for \code{usehome}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   2000 \tab 2403 \tab 376 \tab 15 \tab 23 \tab 2817 \cr
-   Total \tab 2403 \tab 376 \tab 15 \tab 23 \tab 2817 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 2403 \tab 376 \tab 15 \tab 23 \tab - \tab 2817 \cr
+   Total \tab 2403 \tab 376 \tab 15 \tab 23 \tab 0 \tab 2817 \cr
 }
 }
 

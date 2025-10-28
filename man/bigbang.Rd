@@ -36,16 +36,16 @@ G. The universe began with a huge explosion. (Is that true or false?)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3340/vshow}{GSS Data Explorer page for \code{bigbang}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 590 \tab 633 \tab 639 \tab 2 \tab 4510 \cr
-   2008 \tab 518 \tab 482 \tab 606 \tab 402 \tab 15 \tab 2023 \cr
-   2010 \tab 1103 \tab 345 \tab 316 \tab 277 \tab 3 \tab 2044 \cr
-   2012 \tab 1457 \tab 195 \tab 163 \tab 156 \tab 3 \tab 1974 \cr
-   2014 \tab 1299 \tab 510 \tab 437 \tab 288 \tab 4 \tab 2538 \cr
-   2016 \tab 2410 \tab 179 \tab 161 \tab 111 \tab 6 \tab 2867 \cr
-   2018 \tab 1944 \tab 153 \tab 146 \tab 103 \tab 2 \tab 2348 \cr
-   Total \tab 11377 \tab 2454 \tab 2462 \tab 1976 \tab 35 \tab 18304 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 590 \tab 633 \tab 639 \tab 2 \tab - \tab 4510 \cr
+   2008 \tab 518 \tab 482 \tab 606 \tab 402 \tab 15 \tab - \tab 2023 \cr
+   2010 \tab 1103 \tab 345 \tab 316 \tab 277 \tab 3 \tab - \tab 2044 \cr
+   2012 \tab 1457 \tab 195 \tab 163 \tab 156 \tab 3 \tab - \tab 1974 \cr
+   2014 \tab 1299 \tab 510 \tab 437 \tab 288 \tab 4 \tab - \tab 2538 \cr
+   2016 \tab 2410 \tab 179 \tab 161 \tab 111 \tab 6 \tab - \tab 2867 \cr
+   2018 \tab 1944 \tab 153 \tab 146 \tab 103 \tab 2 \tab - \tab 2348 \cr
+   Total \tab 11377 \tab 2454 \tab 2462 \tab 1976 \tab 35 \tab 0 \tab 18304 \cr
 }
 }
 

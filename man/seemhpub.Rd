@@ -34,10 +34,10 @@ Question How frequently are you in a public place where you see someone who seem
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3568/vshow}{GSS Data Explorer page for \code{seemhpub}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab often \tab sometimes \tab almost never \tab never \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3073 \tab 329 \tab 468 \tab 460 \tab 148 \tab 20 \tab 12 \tab 4510 \cr
-   Total \tab 3073 \tab 329 \tab 468 \tab 460 \tab 148 \tab 20 \tab 12 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab often \tab sometimes \tab almost never \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3073 \tab 329 \tab 468 \tab 460 \tab 148 \tab 20 \tab 12 \tab - \tab 4510 \cr
+   Total \tab 3073 \tab 329 \tab 468 \tab 460 \tab 148 \tab 20 \tab 12 \tab 0 \tab 4510 \cr
 }
 }
 

@@ -33,10 +33,10 @@ Question In the past 12 months, the person who has engaged in these types of beh
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3022/vshow}{GSS Data Explorer page for \code{wkbhvrs}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab a co-worker \tab your supervisor or boss \tab a customer/client/patient \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 1219 \tab 324 \tab 175 \tab 180 \tab 52 \tab 24 \tab 1974 \cr
-   Total \tab 1219 \tab 324 \tab 175 \tab 180 \tab 52 \tab 24 \tab 1974 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab a co-worker \tab your supervisor or boss \tab a customer/client/patient \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 1219 \tab 324 \tab 175 \tab 180 \tab 52 \tab 24 \tab - \tab 1974 \cr
+   Total \tab 1219 \tab 324 \tab 175 \tab 180 \tab 52 \tab 24 \tab 0 \tab 1974 \cr
 }
 }
 

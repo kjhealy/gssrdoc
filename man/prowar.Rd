@@ -33,10 +33,10 @@ D. A pro-war demonstration?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/656/vshow}{GSS Data Explorer page for \code{prowar}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   1973 \tab - \tab 6 \tab 1498 \tab 1504 \cr
-   Total \tab 0 \tab 6 \tab 1498 \tab 1504 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab not available in this year \tab Total \cr
+   1973 \tab - \tab 6 \tab 1498 \tab - \tab 1504 \cr
+   Total \tab 0 \tab 6 \tab 1498 \tab 0 \tab 1504 \cr
 }
 }
 

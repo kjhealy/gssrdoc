@@ -35,10 +35,10 @@ Question I consider myself pro-life.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7543/vshow}{GSS Data Explorer page for \code{prolife}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 424 \tab 660 \tab 791 \tab 941 \tab 574 \tab 571 \tab 7 \tab 6 \tab 58 \tab 4032 \cr
-   Total \tab 424 \tab 660 \tab 791 \tab 941 \tab 574 \tab 571 \tab 7 \tab 6 \tab 58 \tab 4032 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   2021 \tab 424 \tab 660 \tab 791 \tab 941 \tab 574 \tab 571 \tab 7 \tab 6 \tab 58 \tab - \tab 4032 \cr
+   Total \tab 424 \tab 660 \tab 791 \tab 941 \tab 574 \tab 571 \tab 7 \tab 6 \tab 58 \tab 0 \tab 4032 \cr
 }
 }
 

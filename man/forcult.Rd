@@ -36,10 +36,10 @@ F. Increased exposure to foreign films, music, and books is damaging our nationa
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4888/vshow}{GSS Data Explorer page for \code{forcult}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1596 \tab 43 \tab 127 \tab 257 \tab 533 \tab 217 \tab 38 \tab 1 \tab 2812 \cr
-   Total \tab 1596 \tab 43 \tab 127 \tab 257 \tab 533 \tab 217 \tab 38 \tab 1 \tab 2812 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1596 \tab 43 \tab 127 \tab 257 \tab 533 \tab 217 \tab 38 \tab 1 \tab - \tab 2812 \cr
+   Total \tab 1596 \tab 43 \tab 127 \tab 257 \tab 533 \tab 217 \tab 38 \tab 1 \tab 0 \tab 2812 \cr
 }
 }
 

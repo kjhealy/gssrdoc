@@ -37,11 +37,11 @@ G. A single mother can bring up her child as well as a married couple.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4370/vshow}{GSS Data Explorer page for \code{marmakid}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   1988 \tab 67 \tab 111 \tab 408 \tab 223 \tab 477 \tab 156 \tab 16 \tab 23 \tab - \tab 1481 \cr
-   2022 \tab 2381 \tab 260 \tab 466 \tab 158 \tab 195 \tab 46 \tab 29 \tab 4 \tab 5 \tab 3544 \cr
-   Total \tab 2448 \tab 371 \tab 874 \tab 381 \tab 672 \tab 202 \tab 45 \tab 27 \tab 5 \tab 5025 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 111 \tab 408 \tab 223 \tab 477 \tab 156 \tab 16 \tab 23 \tab - \tab - \tab 1481 \cr
+   2022 \tab 2381 \tab 260 \tab 466 \tab 158 \tab 195 \tab 46 \tab 29 \tab 4 \tab 5 \tab - \tab 3544 \cr
+   Total \tab 2448 \tab 371 \tab 874 \tab 381 \tab 672 \tab 202 \tab 45 \tab 27 \tab 5 \tab 0 \tab 5025 \cr
 }
 }
 

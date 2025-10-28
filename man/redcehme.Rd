@@ -34,10 +34,10 @@ Question K1. How often do you reduce the energy or fuel you use at home for envi
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4813/vshow}{GSS Data Explorer page for \code{redcehme}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab always \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
-   2010 \tab 614 \tab 165 \tab 440 \tab 450 \tab 362 \tab 6 \tab 7 \tab 2044 \cr
-   Total \tab 614 \tab 165 \tab 440 \tab 450 \tab 362 \tab 6 \tab 7 \tab 2044 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab always \tab often \tab sometimes \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 614 \tab 165 \tab 440 \tab 450 \tab 362 \tab 6 \tab 7 \tab - \tab 2044 \cr
+   Total \tab 614 \tab 165 \tab 440 \tab 450 \tab 362 \tab 6 \tab 7 \tab 0 \tab 2044 \cr
 }
 }
 

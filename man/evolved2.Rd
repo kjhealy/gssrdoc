@@ -33,11 +33,11 @@ I3. Elephants, as we know them today, descended from earlier species of animals.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6303/vshow}{GSS Data Explorer page for \code{evolved2}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 2181 \tab 498 \tab 84 \tab 100 \tab 4 \tab 2867 \cr
-   2018 \tab 1763 \tab 408 \tab 84 \tab 90 \tab 3 \tab 2348 \cr
-   Total \tab 3944 \tab 906 \tab 168 \tab 190 \tab 7 \tab 5215 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab true \tab false \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 2181 \tab 498 \tab 84 \tab 100 \tab 4 \tab - \tab 2867 \cr
+   2018 \tab 1763 \tab 408 \tab 84 \tab 90 \tab 3 \tab - \tab 2348 \cr
+   Total \tab 3944 \tab 906 \tab 168 \tab 190 \tab 7 \tab 0 \tab 5215 \cr
 }
 }
 

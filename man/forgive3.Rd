@@ -35,10 +35,10 @@ C. I know thatd forgives me.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2107/vshow}{GSS Data Explorer page for \code{forgive3}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab alwys/almst alwy \tab often \tab seldom \tab never \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 1044 \tab 245 \tab 46 \tab 68 \tab 5 \tab 37 \tab 2832 \cr
-   Total \tab 1387 \tab 1044 \tab 245 \tab 46 \tab 68 \tab 5 \tab 37 \tab 2832 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab alwys/almst alwy \tab often \tab seldom \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 1044 \tab 245 \tab 46 \tab 68 \tab 5 \tab 37 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 1044 \tab 245 \tab 46 \tab 68 \tab 5 \tab 37 \tab 0 \tab 2832 \cr
 }
 }
 

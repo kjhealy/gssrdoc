@@ -38,13 +38,13 @@ E. My job is interesting
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4545/vshow}{GSS Data Explorer page for \code{rintjob}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 224 \tab 442 \tab 112 \tab 69 \tab 24 \tab 2 \tab 25 \tab 1537 \cr
-   1998 \tab 1967 \tab 188 \tab 423 \tab 128 \tab 60 \tab 27 \tab 3 \tab 36 \tab 2832 \cr
-   2006 \tab 3492 \tab 342 \tab 524 \tab 65 \tab 59 \tab 25 \tab 1 \tab 2 \tab 4510 \cr
-   2016 \tab 1927 \tab 325 \tab 410 \tab 110 \tab 64 \tab 24 \tab 1 \tab 6 \tab 2867 \cr
-   Total \tab 8025 \tab 1079 \tab 1799 \tab 415 \tab 252 \tab 100 \tab 7 \tab 69 \tab 11746 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 224 \tab 442 \tab 112 \tab 69 \tab 24 \tab 2 \tab 25 \tab - \tab 1537 \cr
+   1998 \tab 1967 \tab 188 \tab 423 \tab 128 \tab 60 \tab 27 \tab 3 \tab 36 \tab - \tab 2832 \cr
+   2006 \tab 3492 \tab 342 \tab 524 \tab 65 \tab 59 \tab 25 \tab 1 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1927 \tab 325 \tab 410 \tab 110 \tab 64 \tab 24 \tab 1 \tab 6 \tab - \tab 2867 \cr
+   Total \tab 8025 \tab 1079 \tab 1799 \tab 415 \tab 252 \tab 100 \tab 7 \tab 69 \tab 0 \tab 11746 \cr
 }
 }
 

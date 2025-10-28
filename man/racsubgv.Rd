@@ -33,10 +33,10 @@ Question What about the city government in white suburbs? Do you think they shou
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/720/vshow}{GSS Data Explorer page for \code{racsubgv}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab encourage \tab discourage \tab leave alone \tab don't know \tab no answer \tab Total \cr
-   1977 \tab - \tab 193 \tab 146 \tab 1130 \tab 55 \tab 6 \tab 1530 \cr
-   Total \tab 0 \tab 193 \tab 146 \tab 1130 \tab 55 \tab 6 \tab 1530 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab encourage \tab discourage \tab leave alone \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1977 \tab - \tab 193 \tab 146 \tab 1130 \tab 55 \tab 6 \tab - \tab 1530 \cr
+   Total \tab 0 \tab 193 \tab 146 \tab 1130 \tab 55 \tab 6 \tab 0 \tab 1530 \cr
 }
 }
 

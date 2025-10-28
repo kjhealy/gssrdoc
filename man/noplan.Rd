@@ -36,10 +36,10 @@ A. There's no sense planning a lot -- if something good is going to happen, it w
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1725/vshow}{GSS Data Explorer page for \code{noplan}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree or disagree-it depends \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1444 \tab 156 \tab 467 \tab 113 \tab 549 \tab 165 \tab 7 \tab 3 \tab 2904 \cr
-   Total \tab 1444 \tab 156 \tab 467 \tab 113 \tab 549 \tab 165 \tab 7 \tab 3 \tab 2904 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree or disagree-it depends \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1444 \tab 156 \tab 467 \tab 113 \tab 549 \tab 165 \tab 7 \tab 3 \tab - \tab 2904 \cr
+   Total \tab 1444 \tab 156 \tab 467 \tab 113 \tab 549 \tab 165 \tab 7 \tab 3 \tab 0 \tab 2904 \cr
 }
 }
 

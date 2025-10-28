@@ -32,10 +32,10 @@ Question Here are some views regarding America's political system. Which of thes
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4963/vshow}{GSS Data Explorer page for \code{demrghts}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab shouldnt be restricted by govt \tab should be restricted if govt think necessary \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 991 \tab 373 \tab 85 \tab 23 \tab 2812 \cr
-   Total \tab 1340 \tab 991 \tab 373 \tab 85 \tab 23 \tab 2812 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab shouldnt be restricted by govt \tab should be restricted if govt think necessary \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 991 \tab 373 \tab 85 \tab 23 \tab - \tab 2812 \cr
+   Total \tab 1340 \tab 991 \tab 373 \tab 85 \tab 23 \tab 0 \tab 2812 \cr
 }
 }
 

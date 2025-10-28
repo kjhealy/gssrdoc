@@ -33,24 +33,24 @@ Question Have you ever been threatened with a gun, or shot at?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/661/vshow}{GSS Data Explorer page for \code{gun}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
-   1973 \tab - \tab 246 \tab 1256 \tab 2 \tab - \tab 1504 \cr
-   1975 \tab - \tab 257 \tab 1229 \tab 3 \tab 1 \tab 1490 \cr
-   1976 \tab - \tab 256 \tab 1241 \tab 1 \tab 1 \tab 1499 \cr
-   1978 \tab - \tab 311 \tab 1220 \tab - \tab 1 \tab 1532 \cr
-   1980 \tab - \tab 308 \tab 1156 \tab 3 \tab 1 \tab 1468 \cr
-   1983 \tab - \tab 326 \tab 1270 \tab 1 \tab 2 \tab 1599 \cr
-   1984 \tab - \tab 290 \tab 1180 \tab 2 \tab 1 \tab 1473 \cr
-   1986 \tab - \tab 296 \tab 1171 \tab - \tab 3 \tab 1470 \cr
-   1987 \tab - \tab 384 \tab 1430 \tab 5 \tab - \tab 1819 \cr
-   1988 \tab 484 \tab 217 \tab 779 \tab - \tab 1 \tab 1481 \cr
-   1989 \tab 502 \tab 200 \tab 832 \tab 3 \tab - \tab 1537 \cr
-   1990 \tab 473 \tab 178 \tab 719 \tab 2 \tab - \tab 1372 \cr
-   1991 \tab 500 \tab 201 \tab 810 \tab 6 \tab - \tab 1517 \cr
-   1993 \tab 549 \tab 201 \tab 855 \tab 1 \tab - \tab 1606 \cr
-   1994 \tab 2481 \tab 104 \tab 405 \tab 1 \tab 1 \tab 2992 \cr
-   Total \tab 4989 \tab 3775 \tab 15553 \tab 30 \tab 12 \tab 24359 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   1973 \tab - \tab 246 \tab 1256 \tab 2 \tab - \tab - \tab 1504 \cr
+   1975 \tab - \tab 257 \tab 1229 \tab 3 \tab 1 \tab - \tab 1490 \cr
+   1976 \tab - \tab 256 \tab 1241 \tab 1 \tab 1 \tab - \tab 1499 \cr
+   1978 \tab - \tab 311 \tab 1220 \tab - \tab 1 \tab - \tab 1532 \cr
+   1980 \tab - \tab 308 \tab 1156 \tab 3 \tab 1 \tab - \tab 1468 \cr
+   1983 \tab - \tab 326 \tab 1270 \tab 1 \tab 2 \tab - \tab 1599 \cr
+   1984 \tab - \tab 290 \tab 1180 \tab 2 \tab 1 \tab - \tab 1473 \cr
+   1986 \tab - \tab 296 \tab 1171 \tab - \tab 3 \tab - \tab 1470 \cr
+   1987 \tab - \tab 384 \tab 1430 \tab 5 \tab - \tab - \tab 1819 \cr
+   1988 \tab 484 \tab 217 \tab 779 \tab - \tab 1 \tab - \tab 1481 \cr
+   1989 \tab 502 \tab 200 \tab 832 \tab 3 \tab - \tab - \tab 1537 \cr
+   1990 \tab 473 \tab 178 \tab 719 \tab 2 \tab - \tab - \tab 1372 \cr
+   1991 \tab 500 \tab 201 \tab 810 \tab 6 \tab - \tab - \tab 1517 \cr
+   1993 \tab 549 \tab 201 \tab 855 \tab 1 \tab - \tab - \tab 1606 \cr
+   1994 \tab 2481 \tab 104 \tab 405 \tab 1 \tab 1 \tab - \tab 2992 \cr
+   Total \tab 4989 \tab 3775 \tab 15553 \tab 30 \tab 12 \tab 0 \tab 24359 \cr
 }
 }
 

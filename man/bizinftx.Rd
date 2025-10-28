@@ -36,11 +36,11 @@ B. Business leaders. (Would you say a great deal of influence, a fair amount, a 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3382/vshow}{GSS Data Explorer page for \code{bizinftx}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a great deal of influence \tab a fair amount \tab a little influence \tab none at all \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 3574 \tab 94 \tab 364 \tab 319 \tab 111 \tab 48 \tab - \tab 4510 \cr
-   2010 \tab 1578 \tab 53 \tab 189 \tab 152 \tab 49 \tab 19 \tab 4 \tab 2044 \cr
-   Total \tab 5152 \tab 147 \tab 553 \tab 471 \tab 160 \tab 67 \tab 4 \tab 6554 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal of influence \tab a fair amount \tab a little influence \tab none at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 3574 \tab 94 \tab 364 \tab 319 \tab 111 \tab 48 \tab - \tab - \tab 4510 \cr
+   2010 \tab 1578 \tab 53 \tab 189 \tab 152 \tab 49 \tab 19 \tab 4 \tab - \tab 2044 \cr
+   Total \tab 5152 \tab 147 \tab 553 \tab 471 \tab 160 \tab 67 \tab 4 \tab 0 \tab 6554 \cr
 }
 }
 

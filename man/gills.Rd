@@ -34,10 +34,10 @@ Question How do most fish get the oxygen they need to survive?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3480/vshow}{GSS Data Explorer page for \code{gills}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab they take in water and break it down into hydrogen and oxygen \tab using their gills, they take in oxygen that is dissolved in water \tab they get their oxygen from the food they eat \tab they come to the surface every few minutes to breathe air into their lungs \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 518 \tab 137 \tab 1124 \tab 29 \tab 87 \tab 107 \tab 21 \tab 2023 \cr
-   Total \tab 518 \tab 137 \tab 1124 \tab 29 \tab 87 \tab 107 \tab 21 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab they take in water and break it down into hydrogen and oxygen \tab using their gills, they take in oxygen that is dissolved in water \tab they get their oxygen from the food they eat \tab they come to the surface every few minutes to breathe air into their lungs \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 518 \tab 137 \tab 1124 \tab 29 \tab 87 \tab 107 \tab 21 \tab - \tab 2023 \cr
+   Total \tab 518 \tab 137 \tab 1124 \tab 29 \tab 87 \tab 107 \tab 21 \tab 0 \tab 2023 \cr
 }
 }
 

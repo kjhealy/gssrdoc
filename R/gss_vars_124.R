@@ -24,11 +24,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |1998  |2634 |36  |119 |43        |2832  |
-#'  |2000  |2540 |50  |199 |28        |2817  |
-#'  |Total |5174 |86  |318 |71        |5649  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |1998  |2634 |36  |119 |43        |-                          |2832  |
+#'  |2000  |2540 |50  |199 |28        |-                          |2817  |
+#'  |Total |5174 |86  |318 |71        |0                          |5649  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -78,10 +78,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |baptist |christian reform |christian science |episcopal |lutheran |missouri synod lutheran |non-denominational |southern baptist |seventh day adventist |valley christian |don't know |no answer |Total |
-#'  |:-----|:----|:-------|:----------------|:-----------------|:---------|:--------|:-----------------------|:------------------|:----------------|:---------------------|:----------------|:----------|:---------|:-----|
-#'  |2000  |2739 |13      |1                |1                 |2         |6        |1                       |3                  |1                |1                     |1                |4          |44        |2817  |
-#'  |Total |2739 |13      |1                |1                 |2         |6        |1                       |3                  |1                |1                     |1                |4          |44        |2817  |
+#'  |year  |iap  |baptist |christian reform |christian science |episcopal |lutheran |missouri synod lutheran |non-denominational |southern baptist |seventh day adventist |valley christian |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:-------|:----------------|:-----------------|:---------|:--------|:-----------------------|:------------------|:----------------|:---------------------|:----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2739 |13      |1                |1                 |2         |6        |1                       |3                  |1                |1                     |1                |4          |44        |-                          |2817  |
+#'  |Total |2739 |13      |1                |1                 |2         |6        |1                       |3                  |1                |1                     |1                |4          |44        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -119,11 +119,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |1998  |2634 |4   |151 |43        |2832  |
-#'  |2000  |2540 |8   |241 |28        |2817  |
-#'  |Total |5174 |12  |392 |71        |5649  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |1998  |2634 |4   |151 |43        |-                          |2832  |
+#'  |2000  |2540 |8   |241 |28        |-                          |2817  |
+#'  |Total |5174 |12  |392 |71        |0                          |5649  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -162,11 +162,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |1998  |2634 |26  |129 |43        |2832  |
-#'  |2000  |2540 |47  |202 |28        |2817  |
-#'  |Total |5174 |73  |331 |71        |5649  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |1998  |2634 |26  |129 |43        |-                          |2832  |
+#'  |2000  |2540 |47  |202 |28        |-                          |2817  |
+#'  |Total |5174 |73  |331 |71        |0                          |5649  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -205,11 +205,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |1998  |2634 |16  |139 |43        |2832  |
-#'  |2000  |2540 |20  |229 |28        |2817  |
-#'  |Total |5174 |36  |368 |71        |5649  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |1998  |2634 |16  |139 |43        |-                          |2832  |
+#'  |2000  |2540 |20  |229 |28        |-                          |2817  |
+#'  |Total |5174 |36  |368 |71        |0                          |5649  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -246,10 +246,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |don't know |no answer |Total |
-#'  |:-----|:----|:---|:---|:----------|:---------|:-----|
-#'  |1998  |1387 |561 |870 |1          |13        |2832  |
-#'  |Total |1387 |561 |870 |1          |13        |2832  |
+#'  |year  |iap  |yes |no  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |1387 |561 |870 |1          |13        |-                          |2832  |
+#'  |Total |1387 |561 |870 |1          |13        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -285,10 +285,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no  |no answer |Total |
-#'  |:-----|:----|:---|:---|:---------|:-----|
-#'  |1998  |2258 |265 |293 |16        |2832  |
-#'  |Total |2258 |265 |293 |16        |2832  |
+#'  |year  |iap  |yes |no  |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---------|:--------------------------|:-----|
+#'  |1998  |2258 |265 |293 |16        |-                          |2832  |
+#'  |Total |2258 |265 |293 |16        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -322,10 +322,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0  |1  |10 |15 |2   |20 |22 |3   |4  |5  |6  |9  |don't know |no answer |Total |
-#'  |:-----|:----|:--|:--|:--|:--|:---|:--|:--|:---|:--|:--|:--|:--|:----------|:---------|:-----|
-#'  |1998  |2258 |2  |66 |6  |2  |171 |2  |1  |152 |69 |48 |18 |1  |5          |31        |2832  |
-#'  |Total |2258 |2  |66 |6  |2  |171 |2  |1  |152 |69 |48 |18 |1  |5          |31        |2832  |
+#'  |year  |iap  |0  |1  |10 |15 |2   |20 |22 |3   |4  |5  |6  |9  |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--|:--|:--|:--|:---|:--|:--|:---|:--|:--|:--|:--|:----------|:---------|:--------------------------|:-----|
+#'  |1998  |2258 |2  |66 |6  |2  |171 |2  |1  |152 |69 |48 |18 |1  |5          |31        |-                          |2832  |
+#'  |Total |2258 |2  |66 |6  |2  |171 |2  |1  |152 |69 |48 |18 |1  |5          |31        |0                          |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -364,10 +364,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |2135 |58             |236   |195      |116               |54         |23        |2817  |
-#'  |Total |2135 |58             |236   |195      |116               |54         |23        |2817  |
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2135 |58             |236   |195      |116               |54         |23        |-                          |2817  |
+#'  |Total |2135 |58             |236   |195      |116               |54         |23        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion
@@ -406,10 +406,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:-----|
-#'  |2000  |2135 |238            |326   |62       |10                |22         |24        |2817  |
-#'  |Total |2135 |238            |326   |62       |10                |22         |24        |2817  |
+#'  |year  |iap  |strongly agree |agree |disagree |strongly disagree |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------|:-----------------|:----------|:---------|:--------------------------|:-----|
+#'  |2000  |2135 |238            |326   |62       |10                |22         |24        |-                          |2817  |
+#'  |Total |2135 |238            |326   |62       |10                |22         |24        |0                          |2817  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion

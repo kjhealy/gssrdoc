@@ -37,12 +37,12 @@ B. The working class and the middle class?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4307/vshow}{GSS Data Explorer page for \code{conclass}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very strong conflicts \tab strong conflicts \tab not very strong conflicts \tab there are no conflicts \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   1987 \tab 255 \tab 67 \tab 303 \tab 901 \tab 176 \tab 67 \tab 50 \tab - \tab 1819 \cr
-   2000 \tab 1545 \tab 60 \tab 245 \tab 681 \tab 105 \tab 66 \tab 115 \tab - \tab 2817 \cr
-   2021 \tab 2029 \tab 69 \tab 416 \tab 1057 \tab 159 \tab 120 \tab 158 \tab 24 \tab 4032 \cr
-   Total \tab 3829 \tab 196 \tab 964 \tab 2639 \tab 440 \tab 253 \tab 323 \tab 24 \tab 8668 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very strong conflicts \tab strong conflicts \tab not very strong conflicts \tab there are no conflicts \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 67 \tab 303 \tab 901 \tab 176 \tab 67 \tab 50 \tab - \tab - \tab 1819 \cr
+   2000 \tab 1545 \tab 60 \tab 245 \tab 681 \tab 105 \tab 66 \tab 115 \tab - \tab - \tab 2817 \cr
+   2021 \tab 2029 \tab 69 \tab 416 \tab 1057 \tab 159 \tab 120 \tab 158 \tab 24 \tab - \tab 4032 \cr
+   Total \tab 3829 \tab 196 \tab 964 \tab 2639 \tab 440 \tab 253 \tab 323 \tab 24 \tab 0 \tab 8668 \cr
 }
 }
 

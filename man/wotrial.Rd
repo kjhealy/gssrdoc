@@ -36,11 +36,11 @@ A. Detain people for as long as they want without putting them on trial?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4114/vshow}{GSS Data Explorer page for \code{wotrial}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should have right \tab probably should have right \tab probably should not have right \tab definitely should not have right \tab can't choose \tab no answer \tab Total \cr
-   2006 \tab 2992 \tab 351 \tab 449 \tab 347 \tab 348 \tab 21 \tab 2 \tab 4510 \cr
-   2016 \tab 1477 \tab 205 \tab 290 \tab 391 \tab 468 \tab 23 \tab 13 \tab 2867 \cr
-   Total \tab 4469 \tab 556 \tab 739 \tab 738 \tab 816 \tab 44 \tab 15 \tab 7377 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should have right \tab probably should have right \tab probably should not have right \tab definitely should not have right \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2992 \tab 351 \tab 449 \tab 347 \tab 348 \tab 21 \tab 2 \tab - \tab 4510 \cr
+   2016 \tab 1477 \tab 205 \tab 290 \tab 391 \tab 468 \tab 23 \tab 13 \tab - \tab 2867 \cr
+   Total \tab 4469 \tab 556 \tab 739 \tab 738 \tab 816 \tab 44 \tab 15 \tab 0 \tab 7377 \cr
 }
 }
 

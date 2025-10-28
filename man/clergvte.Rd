@@ -38,13 +38,13 @@ B. Religious leaders should not try to influence how people vote in elections.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4646/vshow}{GSS Data Explorer page for \code{clergvte}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1991 \tab 158 \tab 395 \tab 448 \tab 223 \tab 201 \tab 31 \tab 39 \tab 22 \tab 1517 \cr
-   1998 \tab 1548 \tab 447 \tab 367 \tab 210 \tab 150 \tab 55 \tab 21 \tab 34 \tab 2832 \cr
-   2008 \tab 658 \tab 607 \tab 379 \tab 186 \tab 146 \tab 37 \tab 8 \tab 2 \tab 2023 \cr
-   2018 \tab 1173 \tab 463 \tab 372 \tab 174 \tab 110 \tab 42 \tab 6 \tab 8 \tab 2348 \cr
-   Total \tab 3537 \tab 1912 \tab 1566 \tab 793 \tab 607 \tab 165 \tab 74 \tab 66 \tab 8720 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 158 \tab 395 \tab 448 \tab 223 \tab 201 \tab 31 \tab 39 \tab 22 \tab - \tab 1517 \cr
+   1998 \tab 1548 \tab 447 \tab 367 \tab 210 \tab 150 \tab 55 \tab 21 \tab 34 \tab - \tab 2832 \cr
+   2008 \tab 658 \tab 607 \tab 379 \tab 186 \tab 146 \tab 37 \tab 8 \tab 2 \tab - \tab 2023 \cr
+   2018 \tab 1173 \tab 463 \tab 372 \tab 174 \tab 110 \tab 42 \tab 6 \tab 8 \tab - \tab 2348 \cr
+   Total \tab 3537 \tab 1912 \tab 1566 \tab 793 \tab 607 \tab 165 \tab 74 \tab 66 \tab 0 \tab 8720 \cr
 }
 }
 

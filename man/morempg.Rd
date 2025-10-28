@@ -35,10 +35,10 @@ Question How much do you favor or oppose requiring car makers to make cars and t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3487/vshow}{GSS Data Explorer page for \code{morempg}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab Total \cr
-   2010 \tab 1569 \tab 260 \tab 138 \tab 48 \tab 13 \tab 10 \tab 2 \tab 4 \tab 2044 \cr
-   Total \tab 1569 \tab 260 \tab 138 \tab 48 \tab 13 \tab 10 \tab 2 \tab 4 \tab 2044 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly favor \tab favor \tab neither favor nor oppose \tab oppose \tab strongly oppose \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 1569 \tab 260 \tab 138 \tab 48 \tab 13 \tab 10 \tab 2 \tab 4 \tab - \tab 2044 \cr
+   Total \tab 1569 \tab 260 \tab 138 \tab 48 \tab 13 \tab 10 \tab 2 \tab 4 \tab 0 \tab 2044 \cr
 }
 }
 

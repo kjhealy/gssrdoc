@@ -35,10 +35,11 @@ Question A. How likely in your opinion is it (John/Mary) would do something viol
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2955/vshow}{GSS Data Explorer page for \code{violpeop}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not likely at all \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 64 \tab 266 \tab 613 \tab 389 \tab 48 \tab 13 \tab 2765 \cr
-   Total \tab 1372 \tab 64 \tab 266 \tab 613 \tab 389 \tab 48 \tab 13 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not likely at all \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2002 \tab 1372 \tab 64 \tab 266 \tab 613 \tab 389 \tab 48 \tab 13 \tab - \tab - \tab 2765 \cr
+   2024 \tab 1663 \tab 83 \tab 424 \tab 780 \tab 286 \tab 43 \tab 6 \tab - \tab 24 \tab 3309 \cr
+   Total \tab 3035 \tab 147 \tab 690 \tab 1393 \tab 675 \tab 91 \tab 19 \tab 0 \tab 24 \tab 6074 \cr
 }
 }
 

@@ -36,12 +36,12 @@ L. Television or movies?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2405/vshow}{GSS Data Explorer page for \code{tvmov30}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2075 \tab 426 \tab 163 \tab 45 \tab 34 \tab 74 \tab - \tab 2817 \cr
-   2002 \tab 1681 \tab 574 \tab 229 \tab 98 \tab 88 \tab 94 \tab 1 \tab 2765 \cr
-   2004 \tab 2122 \tab 404 \tab 149 \tab 67 \tab 58 \tab 12 \tab - \tab 2812 \cr
-   Total \tab 5878 \tab 1404 \tab 541 \tab 210 \tab 180 \tab 180 \tab 1 \tab 8394 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab never \tab 1-2 times \tab 3-5 times \tab more than 5 times \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 426 \tab 163 \tab 45 \tab 34 \tab 74 \tab - \tab - \tab 2817 \cr
+   2002 \tab 1681 \tab 574 \tab 229 \tab 98 \tab 88 \tab 94 \tab 1 \tab - \tab 2765 \cr
+   2004 \tab 2122 \tab 404 \tab 149 \tab 67 \tab 58 \tab 12 \tab - \tab - \tab 2812 \cr
+   Total \tab 5878 \tab 1404 \tab 541 \tab 210 \tab 180 \tab 180 \tab 1 \tab 0 \tab 8394 \cr
 }
 }
 

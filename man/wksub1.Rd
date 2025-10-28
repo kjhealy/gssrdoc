@@ -32,13 +32,14 @@ Question Do you (does your (SPOUSE or PARTNER) have a supervisor on (your/his/he
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6176/vshow}{GSS Data Explorer page for \code{wksub1}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab 6 \tab Total \cr
-   2016 \tab 914 \tab 1588 \tab 359 \tab 5 \tab 1 \tab - \tab - \tab 2867 \cr
-   2018 \tab 693 \tab 1356 \tab 293 \tab 5 \tab 1 \tab - \tab - \tab 2348 \cr
-   2021 \tab 1419 \tab 2132 \tab 434 \tab 40 \tab 1 \tab 6 \tab - \tab 4032 \cr
-   2022 \tab 1203 \tab 1910 \tab 398 \tab - \tab 6 \tab 5 \tab 22 \tab 3544 \cr
-   Total \tab 4229 \tab 6986 \tab 1484 \tab 50 \tab 9 \tab 11 \tab 22 \tab 12791 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
+   2016 \tab 914 \tab 1588 \tab 359 \tab 5 \tab 1 \tab - \tab 2867 \cr
+   2018 \tab 693 \tab 1356 \tab 293 \tab 5 \tab 1 \tab - \tab 2348 \cr
+   2021 \tab 1419 \tab 2132 \tab 434 \tab 40 \tab 1 \tab 6 \tab 4032 \cr
+   2022 \tab 1203 \tab 1910 \tab 398 \tab 22 \tab 6 \tab 5 \tab 3544 \cr
+   2024 \tab 1263 \tab 1639 \tab 372 \tab 30 \tab 2 \tab 3 \tab 3309 \cr
+   Total \tab 5492 \tab 8625 \tab 1856 \tab 102 \tab 11 \tab 14 \tab 16100 \cr
 }
 }
 

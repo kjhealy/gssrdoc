@@ -35,10 +35,10 @@ A. Polar bears?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3419/vshow}{GSS Data Explorer page for \code{tvbears}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   2006 \tab 2646 \tab 535 \tab 768 \tab 308 \tab 225 \tab 26 \tab 2 \tab 4510 \cr
-   Total \tab 2646 \tab 535 \tab 768 \tab 308 \tab 225 \tab 26 \tab 2 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab somewhat unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2006 \tab 2646 \tab 535 \tab 768 \tab 308 \tab 225 \tab 26 \tab 2 \tab - \tab 4510 \cr
+   Total \tab 2646 \tab 535 \tab 768 \tab 308 \tab 225 \tab 26 \tab 2 \tab 0 \tab 4510 \cr
 }
 }
 

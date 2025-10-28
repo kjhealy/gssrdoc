@@ -1,45 +1,3 @@
-#'  Can people be trusted (with volunteered response on web)
-#' 
-#'  trustv
-#' 
-#' Question Generally speaking, would you say that most people can be trusted or that you can't
-#' be too careful in dealing with people?
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[1]` most people can be trusted
-#'   * `[2]` can't be too careful
-#'   * `[3]` depends (phone mode only: volunteered)
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years            |
-#'  |:-------|:----------------|
-#'  |B/C     |2021, 2022, 2024 |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `trustv`](https://gssdataexplorer.norc.org/variables/7593/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |iap  |can trust |can't be too careful |depends (phone mode only: volunteered) |skipped on web |Total |
-#'  |:-----|:----|:---------|:--------------------|:--------------------------------------|:--------------|:-----|
-#'  |2021  |2673 |295       |557                  |505                                    |2              |4032  |
-#'  |2022  |2974 |98        |257                  |214                                    |1              |3544  |
-#'  |Total |5647 |393       |814                  |719                                    |3              |7576  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' 
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name trustv
-NULL
-
-
 #'  Should aged live with their children (with volunteered response on web)
 #' 
 #'  agedv
@@ -65,11 +23,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a good idea |a bad idea |depends (phone mode only: volunteered) |don't know |skipped on web |Total |
-#'  |:-----|:----|:-----------|:----------|:--------------------------------------|:----------|:--------------|:-----|
-#'  |2021  |2673 |359         |167        |831                                    |2          |-              |4032  |
-#'  |2022  |2961 |144         |58         |379                                    |1          |1              |3544  |
-#'  |Total |5634 |503         |225        |1210                                   |3          |1              |7576  |
+#'  |year  |iap  |a good idea |a bad idea |depends (phone mode only: volunteered) |don't know |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:-----------|:----------|:--------------------------------------|:----------|:--------------|:--------------------------|:-----|
+#'  |2021  |2673 |359         |167        |831                                    |2          |-              |-                          |4032  |
+#'  |2022  |2961 |144         |58         |379                                    |1          |1              |-                          |3544  |
+#'  |Total |5634 |503         |225        |1210                                   |3          |1              |0                          |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -110,7 +68,8 @@ NULL
 #'  |:-----|:----|:---------------|:-------------------|:----------|:---------|:--------------|:-----|
 #'  |2021  |2673 |833             |272                 |251        |1         |2              |4032  |
 #'  |2022  |2970 |355             |116                 |103        |-         |-              |3544  |
-#'  |Total |5643 |1188            |388                 |354        |1         |2              |7576  |
+#'  |2024  |2714 |336             |125                 |134        |-         |-              |3309  |
+#'  |Total |8357 |1524            |513                 |488        |1         |2              |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -148,11 +107,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strong |not very strong |somewhat strong (phone mode only: volunteered) |no religion |don't know |no answer |skipped on web |Total |
-#'  |:-----|:---|:------|:---------------|:----------------------------------------------|:-----------|:----------|:---------|:--------------|:-----|
-#'  |2021  |5   |483    |601             |338                                            |1121        |3          |1430      |51             |4032  |
-#'  |2022  |239 |77     |90              |65                                             |439         |-          |2626      |8              |3544  |
-#'  |Total |244 |560    |691             |403                                            |1560        |3          |4056      |59             |7576  |
+#'  |year  |iap  |strong |not very strong |somewhat strong (phone mode only: volunteered) |no religion |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:------|:---------------|:----------------------------------------------|:-----------|:----------|:---------|:--------------|:-----|
+#'  |2021  |1991 |483    |601             |338                                            |562         |3          |23        |31             |4032  |
+#'  |2022  |2696 |194    |227             |151                                            |267         |-          |-         |9              |3544  |
+#'  |Total |4687 |677    |828             |489                                            |829         |3          |23        |40             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -198,7 +157,8 @@ NULL
 #'  |:-----|:----|:-----------|:-------------|:------------|:------------------------------------|:----------|:---------|:--------------|:-----|
 #'  |2021  |2007 |424         |816           |574          |186                                  |3          |3         |19             |4032  |
 #'  |2022  |2698 |163         |349           |223          |105                                  |-          |-         |6              |3544  |
-#'  |Total |4705 |587         |1165          |797          |291                                  |3          |3         |25             |7576  |
+#'  |2024  |2445 |190         |320           |241          |100                                  |1          |-         |12             |3309  |
+#'  |Total |7150 |777         |1485          |1038         |391                                  |4          |3         |37             |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -239,7 +199,8 @@ NULL
 #'  |:-----|:----|:----|:---|:----------|:---------|:--------------|:-----|
 #'  |2021  |2007 |1180 |350 |485        |1         |9              |4032  |
 #'  |2022  |2698 |490  |120 |233        |-         |3              |3544  |
-#'  |Total |4705 |1670 |470 |718        |1         |12             |7576  |
+#'  |2024  |2447 |495  |137 |223        |-         |7              |3309  |
+#'  |Total |7152 |2165 |607 |941        |1         |19             |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -283,7 +244,8 @@ NULL
 #'  |:-----|:----|:-----------|:---------------|:--------------|:--------------|:----------|:------------------------------------------|:----------|:---------|:--------------|:-----|
 #'  |2021  |2673 |262         |359             |278            |185            |77         |189                                        |3          |2         |4              |4032  |
 #'  |2022  |2970 |110         |134             |108            |94             |46         |81                                         |-          |-         |1              |3544  |
-#'  |Total |5643 |372         |493             |386            |279            |123        |270                                        |3          |2         |5              |7576  |
+#'  |2024  |2714 |74          |141             |108            |116            |72         |80                                         |-          |-         |4              |3309  |
+#'  |Total |8357 |446         |634             |494            |395            |195        |350                                        |3          |2         |9              |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -321,11 +283,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |a u.s. citizen |not a u.s. citizen |a u.s. citizen born in puerto rico, the u.s. virgin islands, or the northern marianas islands (phone mode only: v |born outside of the u.s. to parents who were u.s. citizens at that time (phone mode only: volunteered) |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:------------------|:-----------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------|:---------|:--------------|:-----|
-#'  |2021  |3777 |161            |85                 |2                                                                                                                 |3                                                                                                      |1         |3              |4032  |
-#'  |2022  |3448 |54             |35                 |2                                                                                                                 |3                                                                                                      |-         |2              |3544  |
-#'  |Total |7225 |215            |120                |4                                                                                                                 |6                                                                                                      |1         |5              |7576  |
+#'  |year  |not available in this year |a u.s. citizen |not a u.s. citizen |a u.s. citizen born in puerto rico, the u.s. virgin islands, or the northern marianas islands (phone mode only: v |born outside of the u.s. to parents who were u.s. citizens at that time (phone mode only: volunteered) |iap  |no answer |skipped on web |not available in this release |Total |
+#'  |:-----|:--------------------------|:--------------|:------------------|:-----------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------|:----|:---------|:--------------|:-----------------------------|:-----|
+#'  |2021  |-                          |161            |85                 |2                                                                                                                 |3                                                                                                      |3777 |1         |3              |-                             |4032  |
+#'  |2022  |-                          |54             |35                 |2                                                                                                                 |3                                                                                                      |3448 |-         |2              |-                             |3544  |
+#'  |Total |0                          |215            |120                |4                                                                                                                 |6                                                                                                      |7225 |1         |5              |0                             |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -363,11 +325,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |currently applying for u.s. citizenship |planning to apply for u.s. citizenship |not planning to apply to u.s. citizenship |not eligible to become a u.s. citizen (phone mode only: volunteered) |skipped on web |Total |
-#'  |:-----|:----|:---------------------------------------|:--------------------------------------|:-----------------------------------------|:--------------------------------------------------------------------|:--------------|:-----|
-#'  |2021  |3939 |8                                       |50                                     |21                                        |10                                                                   |4              |4032  |
-#'  |2022  |3507 |4                                       |18                                     |6                                         |7                                                                    |2              |3544  |
-#'  |Total |7446 |12                                      |68                                     |27                                        |17                                                                   |6              |7576  |
+#'  |year  |iap  |currently applying for u.s. citizenship |planning to apply for u.s. citizenship |not planning to apply to u.s. citizenship |not eligible to become a u.s. citizen (phone mode only: volunteered) |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:---------------------------------------|:--------------------------------------|:-----------------------------------------|:--------------------------------------------------------------------|:--------------|:--------------------------|:-----|
+#'  |2021  |3939 |8                                       |50                                     |21                                        |10                                                                   |4              |-                          |4032  |
+#'  |2022  |3507 |4                                       |18                                     |6                                         |7                                                                    |2              |-                          |3544  |
+#'  |Total |7446 |12                                      |68                                     |27                                        |17                                                                   |6              |0                          |7576  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -408,7 +370,8 @@ NULL
 #'  |:-----|:----|:-----|:--------|:----------|:--------------|:-----|
 #'  |2021  |2658 |126   |1104     |140        |4              |4032  |
 #'  |2022  |2988 |51    |437      |68         |-              |3544  |
-#'  |Total |5646 |177   |1541     |208        |4              |7576  |
+#'  |2024  |2734 |81    |422      |72         |-              |3309  |
+#'  |Total |8380 |258   |1963     |280        |4              |10885 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 
@@ -417,6 +380,47 @@ NULL
 #' @keywords variable
 #' @md
 #' @name fepolv
+NULL
+
+
+#'  Expect u.s. in war within 10 years (no volunteered response on web)
+#' 
+#'  uswarynv
+#' 
+#' Question Do you expect the United States to fight in another world war within the next ten years?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` yes
+#'   * `[2]` no
+#'   * `[3]` undecided (phone mode only: volunteered)
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years      |
+#'  |:-------|:----------|
+#'  |A       |2021, 2022 |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `uswarynv`](https://gssdataexplorer.norc.org/variables/7604/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |iap  |yes |no  |don't know |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:----------|:--------------|:--------------------------|:-----|
+#'  |2021  |3358 |268 |395 |7          |4              |-                          |4032  |
+#'  |2022  |3259 |151 |134 |-          |-              |-                          |3544  |
+#'  |Total |6617 |419 |529 |7          |4              |0                          |7576  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' 
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name uswarynv
 NULL
 
 

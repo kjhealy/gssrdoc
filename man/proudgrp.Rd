@@ -35,12 +35,12 @@ J. Its fair and equal treatment of all groups in society
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4849/vshow}{GSS Data Explorer page for \code{proudgrp}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1537 \tab 233 \tab 500 \tab 398 \tab 146 \tab 64 \tab 26 \tab 2904 \cr
-   2004 \tab 1596 \tab 293 \tab 574 \tab 233 \tab 62 \tab 52 \tab 2 \tab 2812 \cr
-   2014 \tab 1264 \tab 216 \tab 488 \tab 347 \tab 128 \tab 92 \tab 3 \tab 2538 \cr
-   Total \tab 4397 \tab 742 \tab 1562 \tab 978 \tab 336 \tab 208 \tab 31 \tab 8254 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very proud \tab somewhat proud \tab not very proud \tab not proud at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1537 \tab 233 \tab 500 \tab 398 \tab 146 \tab 64 \tab 26 \tab - \tab 2904 \cr
+   2004 \tab 1596 \tab 293 \tab 574 \tab 233 \tab 62 \tab 52 \tab 2 \tab - \tab 2812 \cr
+   2014 \tab 1264 \tab 216 \tab 488 \tab 347 \tab 128 \tab 92 \tab 3 \tab - \tab 2538 \cr
+   Total \tab 4397 \tab 742 \tab 1562 \tab 978 \tab 336 \tab 208 \tab 31 \tab 0 \tab 8254 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question D. Asian-Americans?  Would you answer much more attention from governme
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1635/vshow}{GSS Data Explorer page for \code{asngovt}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab much more \tab more \tab about right \tab less \tab much less \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1518 \tab 105 \tab 238 \tab 595 \tab 310 \tab 73 \tab 144 \tab 9 \tab 2992 \cr
-   Total \tab 1518 \tab 105 \tab 238 \tab 595 \tab 310 \tab 73 \tab 144 \tab 9 \tab 2992 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much more \tab more \tab about right \tab less \tab much less \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1518 \tab 105 \tab 238 \tab 595 \tab 310 \tab 73 \tab 144 \tab 9 \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 105 \tab 238 \tab 595 \tab 310 \tab 73 \tab 144 \tab 9 \tab 0 \tab 2992 \cr
 }
 }
 

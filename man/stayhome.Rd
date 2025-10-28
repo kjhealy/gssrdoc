@@ -34,10 +34,10 @@ Question (Do you think the United States government should or should not have th
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7841/vshow}{GSS Data Explorer page for \code{stayhome}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab definitely should have the right \tab probably should have the right \tab probably should not have the right \tab definitely should not have the right \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2382 \tab 356 \tab 335 \tab 152 \tab 220 \tab 85 \tab 3 \tab 11 \tab 3544 \cr
-   Total \tab 2382 \tab 356 \tab 335 \tab 152 \tab 220 \tab 85 \tab 3 \tab 11 \tab 3544 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab definitely should have the right \tab probably should have the right \tab probably should not have the right \tab definitely should not have the right \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 356 \tab 335 \tab 152 \tab 220 \tab 85 \tab 2382 \tab 3 \tab 11 \tab 3544 \cr
+   Total \tab 0 \tab 356 \tab 335 \tab 152 \tab 220 \tab 85 \tab 2382 \tab 3 \tab 11 \tab 3544 \cr
 }
 }
 

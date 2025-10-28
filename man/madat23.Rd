@@ -39,10 +39,10 @@ W. Other (SPECIFY)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1763/vshow}{GSS Data Explorer page for \code{madat23}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab ex-spouse \tab other ex-family \tab health care personnel \tab teacher \tab landlord \tab company \tab criminal \tab other \tab no answer \tab Total \cr
-   1996 \tab 2766 \tab 16 \tab 2 \tab 10 \tab 9 \tab 5 \tab 6 \tab 4 \tab 79 \tab 7 \tab 2904 \cr
-   Total \tab 2766 \tab 16 \tab 2 \tab 10 \tab 9 \tab 5 \tab 6 \tab 4 \tab 79 \tab 7 \tab 2904 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab ex-spouse \tab other ex-family \tab health care personnel \tab teacher \tab landlord \tab company \tab criminal \tab other \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2766 \tab 16 \tab 2 \tab 10 \tab 9 \tab 5 \tab 6 \tab 4 \tab 79 \tab 7 \tab - \tab 2904 \cr
+   Total \tab 2766 \tab 16 \tab 2 \tab 10 \tab 9 \tab 5 \tab 6 \tab 4 \tab 79 \tab 7 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -36,14 +36,14 @@ C. After the youngest child starts school.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4355/vshow}{GSS Data Explorer page for \code{wrksch}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab work full-time \tab work part-time \tab stay home \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   1988 \tab 67 \tab 433 \tab 633 \tab 157 \tab 159 \tab 32 \tab - \tab 1481 \cr
-   1994 \tab 1545 \tab 482 \tab 686 \tab 107 \tab 141 \tab 31 \tab - \tab 2992 \cr
-   2002 \tab 1594 \tab 414 \tab 534 \tab 66 \tab 155 \tab 2 \tab - \tab 2765 \cr
-   2012 \tab 672 \tab 567 \tab 419 \tab 47 \tab 259 \tab 10 \tab - \tab 1974 \cr
-   2022 \tab 2380 \tab 496 \tab 255 \tab 30 \tab 361 \tab 11 \tab 11 \tab 3544 \cr
-   Total \tab 6258 \tab 2392 \tab 2527 \tab 407 \tab 1075 \tab 86 \tab 11 \tab 12756 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab work full-time \tab work part-time \tab stay home \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 433 \tab 633 \tab 157 \tab 159 \tab 32 \tab - \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 482 \tab 686 \tab 107 \tab 141 \tab 31 \tab - \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 414 \tab 534 \tab 66 \tab 155 \tab 2 \tab - \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 567 \tab 419 \tab 47 \tab 259 \tab 10 \tab - \tab - \tab 1974 \cr
+   2022 \tab 2380 \tab 496 \tab 255 \tab 30 \tab 361 \tab 11 \tab 11 \tab - \tab 3544 \cr
+   Total \tab 6258 \tab 2392 \tab 2527 \tab 407 \tab 1075 \tab 86 \tab 11 \tab 0 \tab 12756 \cr
 }
 }
 

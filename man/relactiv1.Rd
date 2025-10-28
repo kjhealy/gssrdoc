@@ -41,10 +41,10 @@ Question How often do you take part in the activities and organizations of a chu
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4678/vshow}{GSS Data Explorer page for \code{relactiv1}}.
 
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab never \tab less than once a year \tab about once or twice a year \tab several times a year \tab about once a month \tab 2-3 times a month \tab nearly every week \tab every week \tab several times a week \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 658 \tab 549 \tab 112 \tab 202 \tab 165 \tab 72 \tab 87 \tab 27 \tab 74 \tab 68 \tab 4 \tab 5 \tab 2023 \cr
-   Total \tab 658 \tab 549 \tab 112 \tab 202 \tab 165 \tab 72 \tab 87 \tab 27 \tab 74 \tab 68 \tab 4 \tab 5 \tab 2023 \cr
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab iap \tab never \tab less than once a year \tab about once or twice a year \tab several times a year \tab about once a month \tab 2-3 times a month \tab nearly every week \tab every week \tab several times a week \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 658 \tab 549 \tab 112 \tab 202 \tab 165 \tab 72 \tab 87 \tab 27 \tab 74 \tab 68 \tab 4 \tab 5 \tab - \tab 2023 \cr
+   Total \tab 658 \tab 549 \tab 112 \tab 202 \tab 165 \tab 72 \tab 87 \tab 27 \tab 74 \tab 68 \tab 4 \tab 5 \tab 0 \tab 2023 \cr
 }
 }
 

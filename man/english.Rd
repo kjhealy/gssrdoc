@@ -35,10 +35,10 @@ F. It is better for everyone if English is the only language used in the public 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1427/vshow}{GSS Data Explorer page for \code{english}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 174 \tab 567 \tab 655 \tab 141 \tab 56 \tab 13 \tab 1606 \cr
-   Total \tab 0 \tab 174 \tab 567 \tab 655 \tab 141 \tab 56 \tab 13 \tab 1606 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 174 \tab 567 \tab 655 \tab 141 \tab 56 \tab 13 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 174 \tab 567 \tab 655 \tab 141 \tab 56 \tab 13 \tab 0 \tab 1606 \cr
 }
 }
 

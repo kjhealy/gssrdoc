@@ -33,10 +33,10 @@ Question Do you think abortions should be legal under any circumstances, legal o
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/702/vshow}{GSS Data Explorer page for \code{ablegal}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab always \tab sometimes \tab never \tab don't know \tab no answer \tab Total \cr
-   1977 \tab - \tab 331 \tab 1031 \tab 135 \tab 22 \tab 11 \tab 1530 \cr
-   Total \tab 0 \tab 331 \tab 1031 \tab 135 \tab 22 \tab 11 \tab 1530 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab always \tab sometimes \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1977 \tab - \tab 331 \tab 1031 \tab 135 \tab 22 \tab 11 \tab - \tab 1530 \cr
+   Total \tab 0 \tab 331 \tab 1031 \tab 135 \tab 22 \tab 11 \tab 0 \tab 1530 \cr
 }
 }
 

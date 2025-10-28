@@ -34,11 +34,11 @@ Question Fundamentalism/Liberalism of Friend''s Religion
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1125/vshow}{GSS Data Explorer page for \code{frndfnd3}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab fund \tab moderate \tab liberal \tab no answer \tab Total \cr
-   1988 \tab 336 \tab 259 \tab 349 \tab 230 \tab 307 \tab 1481 \cr
-   1998 \tab 1853 \tab 105 \tab 224 \tab 142 \tab 508 \tab 2832 \cr
-   Total \tab 2189 \tab 364 \tab 573 \tab 372 \tab 815 \tab 4313 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab fund \tab moderate \tab liberal \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 336 \tab 259 \tab 349 \tab 230 \tab 307 \tab - \tab 1481 \cr
+   1998 \tab 1853 \tab 105 \tab 224 \tab 142 \tab 508 \tab - \tab 2832 \cr
+   Total \tab 2189 \tab 364 \tab 573 \tab 372 \tab 815 \tab 0 \tab 4313 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Question Now I'd like to ask you about how you navigate around the Web. How freq
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2609/vshow}{GSS Data Explorer page for \code{emaillnk}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab never \tab less than half of the time \tab about half of the time \tab more than half of the time \tab almost always \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 2403 \tab 65 \tab 152 \tab 43 \tab 29 \tab 23 \tab 1 \tab 49 \tab 2765 \cr
-   Total \tab 2403 \tab 65 \tab 152 \tab 43 \tab 29 \tab 23 \tab 1 \tab 49 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab less than half of the time \tab about half of the time \tab more than half of the time \tab almost always \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 2403 \tab 65 \tab 152 \tab 43 \tab 29 \tab 23 \tab 1 \tab 49 \tab - \tab 2765 \cr
+   Total \tab 2403 \tab 65 \tab 152 \tab 43 \tab 29 \tab 23 \tab 1 \tab 49 \tab 0 \tab 2765 \cr
 }
 }
 

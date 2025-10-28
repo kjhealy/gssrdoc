@@ -34,10 +34,10 @@ Question I want you to think about the person with a mental health problem with 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2973/vshow}{GSS Data Explorer page for \code{mntlrel}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab became stronger \tab was unchanged \tab became worse \tab ended as a result of the problem \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1859 \tab 218 \tab 491 \tab 71 \tab 58 \tab 51 \tab 17 \tab 2765 \cr
-   Total \tab 1859 \tab 218 \tab 491 \tab 71 \tab 58 \tab 51 \tab 17 \tab 2765 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab became stronger \tab was unchanged \tab became worse \tab ended as a result of the problem \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1859 \tab 218 \tab 491 \tab 71 \tab 58 \tab 51 \tab 17 \tab - \tab 2765 \cr
+   Total \tab 1859 \tab 218 \tab 491 \tab 71 \tab 58 \tab 51 \tab 17 \tab 0 \tab 2765 \cr
 }
 }
 

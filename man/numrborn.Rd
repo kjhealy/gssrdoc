@@ -31,10 +31,10 @@ Question How many "born-again" experiences have you had?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3064/vshow}{GSS Data Explorer page for \code{numrborn}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab 1 \tab 2 \tab 3 \tab 9 \tab Total \cr
-   2004 \tab 2756 \tab 44 \tab 2 \tab 1 \tab 9 \tab 2812 \cr
-   Total \tab 2756 \tab 44 \tab 2 \tab 1 \tab 9 \tab 2812 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 9 \tab not available in this year \tab Total \cr
+   2004 \tab 2756 \tab 44 \tab 2 \tab 1 \tab 9 \tab - \tab 2812 \cr
+   Total \tab 2756 \tab 44 \tab 2 \tab 1 \tab 9 \tab 0 \tab 2812 \cr
 }
 }
 

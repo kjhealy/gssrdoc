@@ -34,11 +34,11 @@ Question N. In my workplace, people "look the other way" when others are threate
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3011/vshow}{GSS Data Explorer page for \code{lookaway}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 945 \tab 57 \tab 243 \tab 801 \tab 683 \tab 39 \tab 44 \tab 2812 \cr
-   2012 \tab 795 \tab 51 \tab 180 \tab 465 \tab 407 \tab 40 \tab 36 \tab 1974 \cr
-   Total \tab 1740 \tab 108 \tab 423 \tab 1266 \tab 1090 \tab 79 \tab 80 \tab 4786 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 945 \tab 57 \tab 243 \tab 801 \tab 683 \tab 39 \tab 44 \tab - \tab 2812 \cr
+   2012 \tab 795 \tab 51 \tab 180 \tab 465 \tab 407 \tab 40 \tab 36 \tab - \tab 1974 \cr
+   Total \tab 1740 \tab 108 \tab 423 \tab 1266 \tab 1090 \tab 79 \tab 80 \tab 0 \tab 4786 \cr
 }
 }
 

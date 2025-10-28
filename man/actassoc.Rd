@@ -33,11 +33,11 @@ E. To be active in social or political associations
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4911/vshow}{GSS Data Explorer page for \code{actassoc}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 93 \tab 71 \tab 146 \tab 340 \tab 373 \tab 196 \tab 234 \tab 16 \tab 3 \tab 2812 \cr
-   2014 \tab 1274 \tab 84 \tab 48 \tab 118 \tab 272 \tab 317 \tab 179 \tab 195 \tab 48 \tab 3 \tab 2538 \cr
-   Total \tab 2614 \tab 177 \tab 119 \tab 264 \tab 612 \tab 690 \tab 375 \tab 429 \tab 64 \tab 6 \tab 5350 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 93 \tab 71 \tab 146 \tab 340 \tab 373 \tab 196 \tab 234 \tab 16 \tab 3 \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 84 \tab 48 \tab 118 \tab 272 \tab 317 \tab 179 \tab 195 \tab 48 \tab 3 \tab - \tab 2538 \cr
+   Total \tab 2614 \tab 177 \tab 119 \tab 264 \tab 612 \tab 690 \tab 375 \tab 429 \tab 64 \tab 6 \tab 0 \tab 5350 \cr
 }
 }
 

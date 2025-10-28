@@ -33,11 +33,11 @@ Question Do you feel equally close to all these people?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/849/vshow}{GSS Data Explorer page for \code{eqclose}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1985 \tab 364 \tab 639 \tab 525 \tab 6 \tab 1534 \cr
-   1987 \tab 385 \tab 824 \tab 540 \tab 70 \tab 1819 \cr
-   Total \tab 749 \tab 1463 \tab 1065 \tab 76 \tab 3353 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 364 \tab 639 \tab 525 \tab 6 \tab - \tab 1534 \cr
+   1987 \tab 385 \tab 824 \tab 540 \tab 70 \tab - \tab 1819 \cr
+   Total \tab 749 \tab 1463 \tab 1065 \tab 76 \tab 0 \tab 3353 \cr
 }
 }
 

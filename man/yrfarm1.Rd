@@ -33,10 +33,10 @@ Question L. How many years have you been a member of
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3192/vshow}{GSS Data Explorer page for \code{yrfarm1}}.
 
-Counts by year:\tabular{llllllllllllllllllllllllll}{
-   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 18 \tab 19 \tab 2 \tab 20 \tab 3 \tab 30 \tab 35 \tab 40 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab Total \cr
-   2004 \tab 2763 \tab 1 \tab 5 \tab 5 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 5 \tab 5 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 6 \tab 2812 \cr
-   Total \tab 2763 \tab 1 \tab 5 \tab 5 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 5 \tab 5 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 6 \tab 2812 \cr
+Counts by year:\tabular{lllllllllllllllllllllllllll}{
+   year \tab iap \tab 0 \tab 1 \tab 10 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 18 \tab 19 \tab 2 \tab 20 \tab 3 \tab 30 \tab 35 \tab 40 \tab 5 \tab 50 \tab 6 \tab 7 \tab 8 \tab 9 \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2763 \tab 1 \tab 5 \tab 5 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 5 \tab 5 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 6 \tab - \tab 2812 \cr
+   Total \tab 2763 \tab 1 \tab 5 \tab 5 \tab 1 \tab 1 \tab 2 \tab 1 \tab 1 \tab 2 \tab 1 \tab 5 \tab 5 \tab 1 \tab 2 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 1 \tab 2 \tab 2 \tab 6 \tab 0 \tab 2812 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Have you ever stopped buying certain products because of the way the co
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/408/vshow}{GSS Data Explorer page for \code{racnobuy}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1982 \tab 1350 \tab 135 \tab 369 \tab 6 \tab 1860 \cr
-   Total \tab 1350 \tab 135 \tab 369 \tab 6 \tab 1860 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab 1350 \tab 135 \tab 369 \tab 6 \tab - \tab 1860 \cr
+   Total \tab 1350 \tab 135 \tab 369 \tab 6 \tab 0 \tab 1860 \cr
 }
 }
 

@@ -35,10 +35,10 @@ Nuclear engineers. (Would you say they should have a great deal of influence, a 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3492/vshow}{GSS Data Explorer page for \code{enhinfnk}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a great deal of influence \tab a fair amount \tab a little influence \tab none at all \tab don't know \tab no answer \tab Total \cr
-   2010 \tab 1578 \tab 177 \tab 196 \tab 47 \tab 19 \tab 20 \tab 7 \tab 2044 \cr
-   Total \tab 1578 \tab 177 \tab 196 \tab 47 \tab 19 \tab 20 \tab 7 \tab 2044 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a great deal of influence \tab a fair amount \tab a little influence \tab none at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2010 \tab 1578 \tab 177 \tab 196 \tab 47 \tab 19 \tab 20 \tab 7 \tab - \tab 2044 \cr
+   Total \tab 1578 \tab 177 \tab 196 \tab 47 \tab 19 \tab 20 \tab 7 \tab 0 \tab 2044 \cr
 }
 }
 

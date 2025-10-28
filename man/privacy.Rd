@@ -34,10 +34,10 @@ Question How concerned are you about threats to your personal privacy in America
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/772/vshow}{GSS Data Explorer page for \code{privacy}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very concerned \tab somewhat \tab only a little \tab not concerned \tab don't know \tab no answer \tab Total \cr
-   1982 \tab - \tab 909 \tab 500 \tab 244 \tab 177 \tab 26 \tab 4 \tab 1860 \cr
-   Total \tab 0 \tab 909 \tab 500 \tab 244 \tab 177 \tab 26 \tab 4 \tab 1860 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very concerned \tab somewhat \tab only a little \tab not concerned \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1982 \tab - \tab 909 \tab 500 \tab 244 \tab 177 \tab 26 \tab 4 \tab - \tab 1860 \cr
+   Total \tab 0 \tab 909 \tab 500 \tab 244 \tab 177 \tab 26 \tab 4 \tab 0 \tab 1860 \cr
 }
 }
 

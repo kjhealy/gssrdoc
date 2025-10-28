@@ -32,10 +32,10 @@ Question Since you joined this plan, have you sought medical care for problems w
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2189/vshow}{GSS Data Explorer page for \code{usedmntl}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1998 \tab 1639 \tab 148 \tab 1039 \tab 6 \tab 2832 \cr
-   Total \tab 1639 \tab 148 \tab 1039 \tab 6 \tab 2832 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1639 \tab 148 \tab 1039 \tab 6 \tab - \tab 2832 \cr
+   Total \tab 1639 \tab 148 \tab 1039 \tab 6 \tab 0 \tab 2832 \cr
 }
 }
 

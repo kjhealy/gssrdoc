@@ -35,10 +35,10 @@ A. Such things are decided by God.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1382/vshow}{GSS Data Explorer page for \code{lfegod}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 372 \tab 450 \tab 361 \tab 364 \tab 47 \tab 12 \tab 1606 \cr
-   Total \tab 0 \tab 372 \tab 450 \tab 361 \tab 364 \tab 47 \tab 12 \tab 1606 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very important \tab important \tab somewhat important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 372 \tab 450 \tab 361 \tab 364 \tab 47 \tab 12 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 372 \tab 450 \tab 361 \tab 364 \tab 47 \tab 12 \tab 0 \tab 1606 \cr
 }
 }
 

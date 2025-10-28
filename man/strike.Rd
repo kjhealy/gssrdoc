@@ -33,10 +33,10 @@ A. Picketing for a labor strike?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/653/vshow}{GSS Data Explorer page for \code{strike}}.
 
-Counts by year:\tabular{lllll}{
-   year \tab iap \tab yes \tab no \tab Total \cr
-   1973 \tab - \tab 143 \tab 1361 \tab 1504 \cr
-   Total \tab 0 \tab 143 \tab 1361 \tab 1504 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab yes \tab no \tab not available in this year \tab Total \cr
+   1973 \tab - \tab 143 \tab 1361 \tab - \tab 1504 \cr
+   Total \tab 0 \tab 143 \tab 1361 \tab 0 \tab 1504 \cr
 }
 }
 

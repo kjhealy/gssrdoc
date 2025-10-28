@@ -35,10 +35,10 @@ Question Do you consider the amount of tax that business and industry have to pa
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4066/vshow}{GSS Data Explorer page for \code{bustax}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab much too high \tab too high \tab about right \tab too low \tab much too low \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 32 \tab 82 \tab 199 \tab 217 \tab 67 \tab 71 \tab 9 \tab 1534 \cr
-   Total \tab 857 \tab 32 \tab 82 \tab 199 \tab 217 \tab 67 \tab 71 \tab 9 \tab 1534 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab much too high \tab too high \tab about right \tab too low \tab much too low \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 32 \tab 82 \tab 199 \tab 217 \tab 67 \tab 71 \tab 9 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 32 \tab 82 \tab 199 \tab 217 \tab 67 \tab 71 \tab 9 \tab 0 \tab 1534 \cr
 }
 }
 

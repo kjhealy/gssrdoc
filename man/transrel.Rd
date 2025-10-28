@@ -34,10 +34,10 @@ Question Now imagine that one of your relatives sees the car and wants to buy it
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1862/vshow}{GSS Data Explorer page for \code{transrel}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely would not mention it \tab probably would not \tab probably would \tab definitely would mention it \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 2196 \tab 71 \tab 27 \tab 109 \tab 492 \tab 6 \tab 3 \tab 2904 \cr
-   Total \tab 2196 \tab 71 \tab 27 \tab 109 \tab 492 \tab 6 \tab 3 \tab 2904 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely would not mention it \tab probably would not \tab probably would \tab definitely would mention it \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 2196 \tab 71 \tab 27 \tab 109 \tab 492 \tab 6 \tab 3 \tab - \tab 2904 \cr
+   Total \tab 2196 \tab 71 \tab 27 \tab 109 \tab 492 \tab 6 \tab 3 \tab 0 \tab 2904 \cr
 }
 }
 

@@ -34,10 +34,10 @@ C. For students who have average grades and middle income parents.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4027/vshow}{GSS Data Explorer page for \code{aidavg}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab govt give grants \tab govt make loans \tab no govt asst \tab can't choose \tab no answer \tab Total \cr
-   1985 \tab 857 \tab 99 \tab 431 \tab 111 \tab 20 \tab 16 \tab 1534 \cr
-   Total \tab 857 \tab 99 \tab 431 \tab 111 \tab 20 \tab 16 \tab 1534 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab govt give grants \tab govt make loans \tab no govt asst \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 857 \tab 99 \tab 431 \tab 111 \tab 20 \tab 16 \tab - \tab 1534 \cr
+   Total \tab 857 \tab 99 \tab 431 \tab 111 \tab 20 \tab 16 \tab 0 \tab 1534 \cr
 }
 }
 

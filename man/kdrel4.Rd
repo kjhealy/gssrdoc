@@ -34,10 +34,10 @@ D4. Relation to R. of fourth child
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1513/vshow}{GSS Data Explorer page for \code{kdrel4}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab biological \tab adopted \tab step \tab no answer \tab Total \cr
-   1994 \tab 2740 \tab 224 \tab 4 \tab 17 \tab 7 \tab 2992 \cr
-   Total \tab 2740 \tab 224 \tab 4 \tab 17 \tab 7 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab biological \tab adopted \tab step \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 2740 \tab 224 \tab 4 \tab 17 \tab 7 \tab - \tab 2992 \cr
+   Total \tab 2740 \tab 224 \tab 4 \tab 17 \tab 7 \tab 0 \tab 2992 \cr
 }
 }
 

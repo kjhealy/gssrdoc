@@ -32,10 +32,10 @@ Question Do you take part in any of the activities or organizations of your chur
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1074/vshow}{GSS Data Explorer page for \code{churhact}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab Total \cr
-   1988 \tab 577 \tab 408 \tab 480 \tab 16 \tab 1481 \cr
-   Total \tab 577 \tab 408 \tab 480 \tab 16 \tab 1481 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 577 \tab 408 \tab 480 \tab 16 \tab - \tab 1481 \cr
+   Total \tab 577 \tab 408 \tab 480 \tab 16 \tab 0 \tab 1481 \cr
 }
 }
 

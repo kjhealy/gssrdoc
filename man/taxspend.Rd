@@ -32,10 +32,10 @@ Question If the government had a choice between reducing taxes or spending more 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4103/vshow}{GSS Data Explorer page for \code{taxspend}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab reduce taxes \tab spend more on social programs \tab can't choose \tab no answer \tab Total \cr
-   1996 \tab 1572 \tab 408 \tab 610 \tab 292 \tab 22 \tab 2904 \cr
-   Total \tab 1572 \tab 408 \tab 610 \tab 292 \tab 22 \tab 2904 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab reduce taxes \tab spend more on social programs \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1996 \tab 1572 \tab 408 \tab 610 \tab 292 \tab 22 \tab - \tab 2904 \cr
+   Total \tab 1572 \tab 408 \tab 610 \tab 292 \tab 22 \tab 0 \tab 2904 \cr
 }
 }
 

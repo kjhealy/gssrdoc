@@ -41,7 +41,7 @@ Question Were you living with both your own mother and father around the time yo
 For further details see the \href{https://gssdataexplorer.norc.org/variables/86/vshow}{GSS Data Explorer page for \code{family16}}.
 
 Counts by year:\tabular{lllllllllllllll}{
-   year \tab both own mother and father \tab father and stepmother \tab mother and stepfather \tab father only \tab mother only \tab some other male relative (no female head) \tab some other female relative (no male head) \tab other arrangement with relatives (e.g., aunt and uncle, grandparents) \tab other \tab no answer \tab iap \tab don't know \tab skipped on web \tab Total \cr
+   year \tab both own parents \tab father and stepparent \tab mother and stepparent \tab father only \tab mother only \tab some other male relative (no female head) \tab some other female relative (no male head) \tab other arrangement with relatives (e.g., aunt and uncle, grandparents) \tab other \tab no answer \tab iap \tab don't know \tab skipped on web \tab Total \cr
    1972 \tab 1198 \tab 27 \tab 52 \tab 35 \tab 173 \tab 10 \tab 25 \tab 93 \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1174 \tab 31 \tab 43 \tab 46 \tab 123 \tab 6 \tab 14 \tab 41 \tab 24 \tab 2 \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1126 \tab 25 \tab 47 \tab 36 \tab 152 \tab 9 \tab 20 \tab 30 \tab 39 \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -76,7 +76,8 @@ Counts by year:\tabular{lllllllllllllll}{
    2018 \tab 1499 \tab 37 \tab 150 \tab 74 \tab 411 \tab 9 \tab 46 \tab 56 \tab 65 \tab 1 \tab - \tab - \tab - \tab 2348 \cr
    2021 \tab 2910 \tab 83 \tab 230 \tab 97 \tab 522 \tab 9 \tab 40 \tab 60 \tab 76 \tab 3 \tab - \tab 1 \tab 1 \tab 4032 \cr
    2022 \tab 2360 \tab 78 \tab 228 \tab 67 \tab 539 \tab 11 \tab 58 \tab 100 \tab 100 \tab 2 \tab - \tab - \tab 1 \tab 3544 \cr
-   Total \tab 50108 \tab 1360 \tab 3660 \tab 1697 \tab 9325 \tab 231 \tab 1078 \tab 1594 \tab 1782 \tab 34 \tab 1518 \tab 1 \tab 2 \tab 72390 \cr
+   2024 \tab 2265 \tab 56 \tab 163 \tab 81 \tab 506 \tab 19 \tab 52 \tab 77 \tab 83 \tab 5 \tab - \tab 1 \tab 1 \tab 3309 \cr
+   Total \tab 52373 \tab 1416 \tab 3823 \tab 1778 \tab 9831 \tab 250 \tab 1130 \tab 1671 \tab 1865 \tab 39 \tab 1518 \tab 2 \tab 3 \tab 75699 \cr
 }
 }
 

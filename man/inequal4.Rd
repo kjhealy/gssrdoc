@@ -37,11 +37,11 @@ D. No one would study for years to become a lawyer or doctor unless they expecte
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4259/vshow}{GSS Data Explorer page for \code{inequal4}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1987 \tab 255 \tab 419 \tab 643 \tab 165 \tab 260 \tab 32 \tab 12 \tab 33 \tab 1819 \cr
-   2000 \tab 1545 \tab 264 \tab 472 \tab 171 \tab 235 \tab 45 \tab 12 \tab 73 \tab 2817 \cr
-   Total \tab 1800 \tab 683 \tab 1115 \tab 336 \tab 495 \tab 77 \tab 24 \tab 106 \tab 4636 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 419 \tab 643 \tab 165 \tab 260 \tab 32 \tab 12 \tab 33 \tab - \tab 1819 \cr
+   2000 \tab 1545 \tab 264 \tab 472 \tab 171 \tab 235 \tab 45 \tab 12 \tab 73 \tab - \tab 2817 \cr
+   Total \tab 1800 \tab 683 \tab 1115 \tab 336 \tab 495 \tab 77 \tab 24 \tab 106 \tab 0 \tab 4636 \cr
 }
 }
 

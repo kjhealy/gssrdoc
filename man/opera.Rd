@@ -36,10 +36,10 @@ M. Opera
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1399/vshow}{GSS Data Explorer page for \code{opera}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab like very much \tab like it \tab mixed feelings \tab dislike it \tab dislike very much \tab don't know \tab no answer \tab Total \cr
-   1993 \tab - \tab 73 \tab 257 \tab 359 \tab 515 \tab 306 \tab 83 \tab 13 \tab 1606 \cr
-   Total \tab 0 \tab 73 \tab 257 \tab 359 \tab 515 \tab 306 \tab 83 \tab 13 \tab 1606 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab like very much \tab like it \tab mixed feelings \tab dislike it \tab dislike very much \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab - \tab 73 \tab 257 \tab 359 \tab 515 \tab 306 \tab 83 \tab 13 \tab - \tab 1606 \cr
+   Total \tab 0 \tab 73 \tab 257 \tab 359 \tab 515 \tab 306 \tab 83 \tab 13 \tab 0 \tab 1606 \cr
 }
 }
 

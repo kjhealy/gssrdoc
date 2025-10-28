@@ -35,10 +35,10 @@ B. Do you think such people should be allowed to publish books expressing their 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4704/vshow}{GSS Data Explorer page for \code{relext2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely \tab probably \tab probably not \tab definitely not \tab don't know \tab no answer \tab Total \cr
-   2008 \tab 658 \tab 538 \tab 538 \tab 143 \tab 117 \tab 21 \tab 8 \tab 2023 \cr
-   Total \tab 658 \tab 538 \tab 538 \tab 143 \tab 117 \tab 21 \tab 8 \tab 2023 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely \tab probably \tab probably not \tab definitely not \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2008 \tab 658 \tab 538 \tab 538 \tab 143 \tab 117 \tab 21 \tab 8 \tab - \tab 2023 \cr
+   Total \tab 658 \tab 538 \tab 538 \tab 143 \tab 117 \tab 21 \tab 8 \tab 0 \tab 2023 \cr
 }
 }
 

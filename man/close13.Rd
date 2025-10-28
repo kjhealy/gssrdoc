@@ -45,11 +45,11 @@ IF NO........(ASK NAME1, NAME2, NAME3, NAME4, NAME5 FOR NEXT PAIR DOWN)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/856/vshow}{GSS Data Explorer page for \code{close13}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab especially close \tab know each other \tab total strangers \tab no answer \tab Total \cr
-   1985 \tab 599 \tab 361 \tab 397 \tab 148 \tab 29 \tab 1534 \cr
-   2004 \tab 2240 \tab 226 \tab 232 \tab 67 \tab 47 \tab 2812 \cr
-   Total \tab 2839 \tab 587 \tab 629 \tab 215 \tab 76 \tab 4346 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab especially close \tab know each other \tab total strangers \tab no answer \tab not available in this year \tab Total \cr
+   1985 \tab 599 \tab 361 \tab 397 \tab 148 \tab 29 \tab - \tab 1534 \cr
+   2004 \tab 2240 \tab 226 \tab 232 \tab 67 \tab 47 \tab - \tab 2812 \cr
+   Total \tab 2839 \tab 587 \tab 629 \tab 215 \tab 76 \tab 0 \tab 4346 \cr
 }
 }
 

@@ -46,10 +46,10 @@ Question (If present) Second relationship with first person.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7101/vshow}{GSS Data Explorer page for \code{mhp1r2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab friend \tab acquaintance \tab student/classmate \tab relative of a friend \tab other \tab no answer \tab Total \cr
-   2018 \tab 1751 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 589 \tab 2348 \cr
-   Total \tab 1751 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 589 \tab 2348 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab friend \tab acquaintance \tab student/classmate \tab relative of a friend \tab other \tab no answer \tab not available in this year \tab Total \cr
+   2018 \tab 1751 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 589 \tab - \tab 2348 \cr
+   Total \tab 1751 \tab 3 \tab 2 \tab 1 \tab 1 \tab 1 \tab 589 \tab 0 \tab 2348 \cr
 }
 }
 

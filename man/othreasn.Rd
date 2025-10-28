@@ -33,11 +33,11 @@ F. To try to understand the reasoning of people with other opinions
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4912/vshow}{GSS Data Explorer page for \code{othreasn}}.
 
-Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab Total \cr
-   2004 \tab 1340 \tab 43 \tab 19 \tab 39 \tab 124 \tab 263 \tab 324 \tab 654 \tab 4 \tab 2 \tab 2812 \cr
-   2014 \tab 1274 \tab 45 \tab 22 \tab 23 \tab 109 \tab 205 \tab 280 \tab 564 \tab 15 \tab 1 \tab 2538 \cr
-   Total \tab 2614 \tab 88 \tab 41 \tab 62 \tab 233 \tab 468 \tab 604 \tab 1218 \tab 19 \tab 3 \tab 5350 \cr
+Counts by year:\tabular{lllllllllllll}{
+   year \tab iap \tab not at all important \tab 2 \tab 3 \tab 4 \tab 5 \tab 6 \tab very important \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 1340 \tab 43 \tab 19 \tab 39 \tab 124 \tab 263 \tab 324 \tab 654 \tab 4 \tab 2 \tab - \tab 2812 \cr
+   2014 \tab 1274 \tab 45 \tab 22 \tab 23 \tab 109 \tab 205 \tab 280 \tab 564 \tab 15 \tab 1 \tab - \tab 2538 \cr
+   Total \tab 2614 \tab 88 \tab 41 \tab 62 \tab 233 \tab 468 \tab 604 \tab 1218 \tab 19 \tab 3 \tab 0 \tab 5350 \cr
 }
 }
 

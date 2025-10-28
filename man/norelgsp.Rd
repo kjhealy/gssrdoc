@@ -34,10 +34,11 @@ Question Do you consider yourself to be atheist, agnostic, something else, or no
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7522/vshow}{GSS Data Explorer page for \code{norelgsp}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab atheist \tab agnostic \tab something else \tab nothing in particular \tab no answer \tab skipped on web \tab Total \cr
-   2021 \tab 2911 \tab 186 \tab 225 \tab 125 \tab 482 \tab 96 \tab 7 \tab 4032 \cr
-   Total \tab 2911 \tab 186 \tab 225 \tab 125 \tab 482 \tab 96 \tab 7 \tab 4032 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab atheist \tab agnostic \tab something else \tab nothing in particular \tab no answer \tab skipped on web \tab not available in this year \tab don't know \tab Total \cr
+   2021 \tab 2911 \tab 186 \tab 225 \tab 125 \tab 482 \tab 96 \tab 7 \tab - \tab - \tab 4032 \cr
+   2024 \tab 2433 \tab 122 \tab 140 \tab 107 \tab 498 \tab 3 \tab 1 \tab - \tab 5 \tab 3309 \cr
+   Total \tab 5344 \tab 308 \tab 365 \tab 232 \tab 980 \tab 99 \tab 8 \tab 0 \tab 5 \tab 7341 \cr
 }
 }
 

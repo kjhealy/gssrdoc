@@ -35,10 +35,10 @@ I. Expressed political views on the internet
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4965/vshow}{GSS Data Explorer page for \code{polinter}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab have done it in the past year \tab have done it in the more distant past \tab have not done it but might do it \tab have not done it and would never do  it \tab can't choose \tab no answer \tab Total \cr
-   2014 \tab 1274 \tab 179 \tab 96 \tab 280 \tab 686 \tab 21 \tab 2 \tab 2538 \cr
-   Total \tab 1274 \tab 179 \tab 96 \tab 280 \tab 686 \tab 21 \tab 2 \tab 2538 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab have done it in the past year \tab have done it in the more distant past \tab have not done it but might do it \tab have not done it and would never do it \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2014 \tab 1274 \tab 179 \tab 96 \tab 280 \tab 686 \tab 21 \tab 2 \tab - \tab 2538 \cr
+   Total \tab 1274 \tab 179 \tab 96 \tab 280 \tab 686 \tab 21 \tab 2 \tab 0 \tab 2538 \cr
 }
 }
 

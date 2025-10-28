@@ -36,10 +36,10 @@ A. If the psychiatrist said your child should be on medication, how likely would
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2946/vshow}{GSS Data Explorer page for \code{adpsymed}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab Total \cr
-   2002 \tab 2024 \tab 389 \tab 277 \tab 60 \tab 14 \tab 1 \tab 2765 \cr
-   Total \tab 2024 \tab 389 \tab 277 \tab 60 \tab 14 \tab 1 \tab 2765 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab not available in this year \tab Total \cr
+   2002 \tab 2024 \tab 389 \tab 277 \tab 60 \tab 14 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 2024 \tab 389 \tab 277 \tab 60 \tab 14 \tab 1 \tab 0 \tab 2765 \cr
 }
 }
 

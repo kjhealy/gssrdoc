@@ -36,10 +36,10 @@ F. Worthless.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2119/vshow}{GSS Data Explorer page for \code{wrthless}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab all of the time \tab most of the time \tab some of the time \tab little of time \tab none of the time \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1387 \tab 19 \tab 37 \tab 103 \tab 162 \tab 1103 \tab 6 \tab 15 \tab 2832 \cr
-   Total \tab 1387 \tab 19 \tab 37 \tab 103 \tab 162 \tab 1103 \tab 6 \tab 15 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab all of the time \tab most of the time \tab some of the time \tab little of time \tab none of the time \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1387 \tab 19 \tab 37 \tab 103 \tab 162 \tab 1103 \tab 6 \tab 15 \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 19 \tab 37 \tab 103 \tab 162 \tab 1103 \tab 6 \tab 15 \tab 0 \tab 2832 \cr
 }
 }
 

@@ -32,10 +32,10 @@ Question Are there any individuals under the age of 18 in this household who are
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8026/vshow}{GSS Data Explorer page for \code{rnrltu18}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 3216 \tab 13 \tab 307 \tab 1 \tab 1 \tab 6 \tab 3544 \cr
-   Total \tab 3216 \tab 13 \tab 307 \tab 1 \tab 1 \tab 6 \tab 3544 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab not available in this year \tab yes \tab no \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 13 \tab 307 \tab 1 \tab 3216 \tab 1 \tab 6 \tab 3544 \cr
+   Total \tab 0 \tab 13 \tab 307 \tab 1 \tab 3216 \tab 1 \tab 6 \tab 3544 \cr
 }
 }
 

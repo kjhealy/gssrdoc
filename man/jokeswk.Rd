@@ -34,10 +34,10 @@ Question I have been the target of derogatory comments or jokes at work.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3017/vshow}{GSS Data Explorer page for \code{jokeswk}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab Total \cr
-   2012 \tab 795 \tab 30 \tab 95 \tab 180 \tab 821 \tab 22 \tab 31 \tab 1974 \cr
-   Total \tab 795 \tab 30 \tab 95 \tab 180 \tab 821 \tab 22 \tab 31 \tab 1974 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab often \tab sometimes \tab rarely \tab never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2012 \tab 795 \tab 30 \tab 95 \tab 180 \tab 821 \tab 22 \tab 31 \tab - \tab 1974 \cr
+   Total \tab 795 \tab 30 \tab 95 \tab 180 \tab 821 \tab 22 \tab 31 \tab 0 \tab 1974 \cr
 }
 }
 

@@ -34,10 +34,11 @@ Question Who would you have voted for, for President, if you had voted?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7760/vshow}{GSS Data Explorer page for \code{if20who}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab biden \tab trump \tab other \tab don't know/can't remember \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2466 \tab 260 \tab 315 \tab 135 \tab 102 \tab 24 \tab 238 \tab 4 \tab 3544 \cr
-   Total \tab 2466 \tab 260 \tab 315 \tab 135 \tab 102 \tab 24 \tab 238 \tab 4 \tab 3544 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab biden \tab trump \tab other \tab don't know/can't remember \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 260 \tab 315 \tab 135 \tab 102 \tab 24 \tab 2466 \tab 238 \tab 4 \tab 3544 \cr
+   2024 \tab - \tab 231 \tab 316 \tab 125 \tab 120 \tab 23 \tab 2203 \tab 82 \tab 209 \tab 3309 \cr
+   Total \tab 0 \tab 491 \tab 631 \tab 260 \tab 222 \tab 47 \tab 4669 \tab 320 \tab 213 \tab 6853 \cr
 }
 }
 

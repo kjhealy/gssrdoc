@@ -37,13 +37,13 @@ A. We believe too often in science, and not enough in feelings and faith.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4721/vshow}{GSS Data Explorer page for \code{scifaith}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1993 \tab 49 \tab 201 \tab 667 \tab 329 \tab 218 \tab 57 \tab 33 \tab 52 \tab 1606 \cr
-   1994 \tab 1606 \tab 161 \tab 558 \tab 313 \tab 233 \tab 41 \tab 41 \tab 39 \tab 2992 \cr
-   2000 \tab 1541 \tab 163 \tab 478 \tab 294 \tab 188 \tab 61 \tab 24 \tab 68 \tab 2817 \cr
-   2010 \tab 614 \tab 128 \tab 468 \tab 359 \tab 314 \tab 106 \tab 50 \tab 5 \tab 2044 \cr
-   Total \tab 3810 \tab 653 \tab 2171 \tab 1295 \tab 953 \tab 265 \tab 148 \tab 164 \tab 9459 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1993 \tab 49 \tab 201 \tab 667 \tab 329 \tab 218 \tab 57 \tab 33 \tab 52 \tab - \tab 1606 \cr
+   1994 \tab 1606 \tab 161 \tab 558 \tab 313 \tab 233 \tab 41 \tab 41 \tab 39 \tab - \tab 2992 \cr
+   2000 \tab 1541 \tab 163 \tab 478 \tab 294 \tab 188 \tab 61 \tab 24 \tab 68 \tab - \tab 2817 \cr
+   2010 \tab 614 \tab 128 \tab 468 \tab 359 \tab 314 \tab 106 \tab 50 \tab 5 \tab - \tab 2044 \cr
+   Total \tab 3810 \tab 653 \tab 2171 \tab 1295 \tab 953 \tab 265 \tab 148 \tab 164 \tab 0 \tab 9459 \cr
 }
 }
 

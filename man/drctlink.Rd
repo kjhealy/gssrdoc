@@ -36,11 +36,11 @@ A. Use a direct link from your starting page (the page that you see when you go 
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2388/vshow}{GSS Data Explorer page for \code{drctlink}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab never \tab less than half of the time \tab about half of the time \tab more than half of the time \tab almost always \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2075 \tab 106 \tab 156 \tab 97 \tab 82 \tab 224 \tab 77 \tab - \tab 2817 \cr
-   2002 \tab 2403 \tab 64 \tab 68 \tab 48 \tab 38 \tab 93 \tab 49 \tab 2 \tab 2765 \cr
-   Total \tab 4478 \tab 170 \tab 224 \tab 145 \tab 120 \tab 317 \tab 126 \tab 2 \tab 5582 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab never \tab less than half of the time \tab about half of the time \tab more than half of the time \tab almost always \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 106 \tab 156 \tab 97 \tab 82 \tab 224 \tab 77 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2403 \tab 64 \tab 68 \tab 48 \tab 38 \tab 93 \tab 49 \tab 2 \tab - \tab 2765 \cr
+   Total \tab 4478 \tab 170 \tab 224 \tab 145 \tab 120 \tab 317 \tab 126 \tab 2 \tab 0 \tab 5582 \cr
 }
 }
 

@@ -34,10 +34,10 @@ Question How much of the time do you think you can trust the local government he
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1022/vshow}{GSS Data Explorer page for \code{loctrust}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab almost always \tab most of time \tab some of time \tab almost never \tab don't know \tab no answer \tab Total \cr
-   1987 \tab - \tab 196 \tab 750 \tab 653 \tab 130 \tab 78 \tab 12 \tab 1819 \cr
-   Total \tab 0 \tab 196 \tab 750 \tab 653 \tab 130 \tab 78 \tab 12 \tab 1819 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab almost always \tab most of time \tab some of time \tab almost never \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1987 \tab - \tab 196 \tab 750 \tab 653 \tab 130 \tab 78 \tab 12 \tab - \tab 1819 \cr
+   Total \tab 0 \tab 196 \tab 750 \tab 653 \tab 130 \tab 78 \tab 12 \tab 0 \tab 1819 \cr
 }
 }
 

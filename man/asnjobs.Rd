@@ -35,10 +35,10 @@ C. Asian Americans?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1245/vshow}{GSS Data Explorer page for \code{asnjobs}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab a lot \tab some \tab only a little \tab none at all \tab don't know \tab no answer \tab Total \cr
-   1990 \tab - \tab 144 \tab 585 \tab 302 \tab 188 \tab 141 \tab 12 \tab 1372 \cr
-   Total \tab 0 \tab 144 \tab 585 \tab 302 \tab 188 \tab 141 \tab 12 \tab 1372 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab a lot \tab some \tab only a little \tab none at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1990 \tab - \tab 144 \tab 585 \tab 302 \tab 188 \tab 141 \tab 12 \tab - \tab 1372 \cr
+   Total \tab 0 \tab 144 \tab 585 \tab 302 \tab 188 \tab 141 \tab 12 \tab 0 \tab 1372 \cr
 }
 }
 

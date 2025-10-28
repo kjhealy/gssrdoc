@@ -37,12 +37,13 @@ A. His/her own bad character
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1988/vshow}{GSS Data Explorer page for \code{charactr}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 239 \tab 391 \tab 443 \tab 304 \tab 50 \tab 17 \tab 2904 \cr
-   2006 \tab 3073 \tab 208 \tab 391 \tab 455 \tab 330 \tab 39 \tab 14 \tab 4510 \cr
-   2018 \tab 1175 \tab 148 \tab 328 \tab 360 \tab 292 \tab 16 \tab 29 \tab 2348 \cr
-   Total \tab 5708 \tab 595 \tab 1110 \tab 1258 \tab 926 \tab 105 \tab 60 \tab 9762 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab not very likely \tab not at all likely \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 239 \tab 391 \tab 443 \tab 304 \tab 50 \tab 17 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 208 \tab 391 \tab 455 \tab 330 \tab 39 \tab 14 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 148 \tab 328 \tab 360 \tab 292 \tab 16 \tab 29 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1691 \tab 155 \tab 453 \tab 582 \tab 382 \tab 20 \tab 9 \tab - \tab 17 \tab 3309 \cr
+   Total \tab 7399 \tab 750 \tab 1563 \tab 1840 \tab 1308 \tab 125 \tab 69 \tab 0 \tab 17 \tab 13071 \cr
 }
 }
 

@@ -33,11 +33,11 @@ A. Was that person male or female?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4997/vshow}{GSS Data Explorer page for \code{cidesex2}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab male \tab female \tab no answer \tab Total \cr
-   1989 \tab 1478 \tab 45 \tab 10 \tab 4 \tab 1537 \cr
-   1990 \tab 1325 \tab 33 \tab 12 \tab 2 \tab 1372 \cr
-   Total \tab 2803 \tab 78 \tab 22 \tab 6 \tab 2909 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab male \tab female \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 1478 \tab 45 \tab 10 \tab 4 \tab - \tab 1537 \cr
+   1990 \tab 1325 \tab 33 \tab 12 \tab 2 \tab - \tab 1372 \cr
+   Total \tab 2803 \tab 78 \tab 22 \tab 6 \tab 0 \tab 2909 \cr
 }
 }
 

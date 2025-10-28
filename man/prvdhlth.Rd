@@ -37,11 +37,11 @@ Healthcare for the sick?  Should it be...
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6305/vshow}{GSS Data Explorer page for \code{prvdhlth}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab government \tab private companies/for-profit organizations \tab non-profit organizations/charities/cooperatives \tab religious organizations \tab family, relatives or friends \tab can't choose \tab no answer \tab Total \cr
-   2016 \tab 1477 \tab 759 \tab 294 \tab 162 \tab 14 \tab 96 \tab 47 \tab 18 \tab 2867 \cr
-   2018 \tab 1175 \tab 670 \tab 221 \tab 121 \tab 8 \tab 86 \tab 61 \tab 6 \tab 2348 \cr
-   Total \tab 2652 \tab 1429 \tab 515 \tab 283 \tab 22 \tab 182 \tab 108 \tab 24 \tab 5215 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab government \tab private companies/for-profit organizations \tab non-profit organizations/charities/cooperatives \tab religious organizations \tab family, relatives or friends \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1477 \tab 759 \tab 294 \tab 162 \tab 14 \tab 96 \tab 47 \tab 18 \tab - \tab 2867 \cr
+   2018 \tab 1175 \tab 670 \tab 221 \tab 121 \tab 8 \tab 86 \tab 61 \tab 6 \tab - \tab 2348 \cr
+   Total \tab 2652 \tab 1429 \tab 515 \tab 283 \tab 22 \tab 182 \tab 108 \tab 24 \tab 0 \tab 5215 \cr
 }
 }
 

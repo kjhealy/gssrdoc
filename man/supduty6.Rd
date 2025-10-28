@@ -33,10 +33,10 @@ F. Evaluate job performance.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1323/vshow}{GSS Data Explorer page for \code{supduty6}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1991 \tab 1176 \tab 242 \tab 86 \tab 1 \tab 12 \tab 1517 \cr
-   Total \tab 1176 \tab 242 \tab 86 \tab 1 \tab 12 \tab 1517 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1991 \tab 1176 \tab 242 \tab 86 \tab 1 \tab 12 \tab - \tab 1517 \cr
+   Total \tab 1176 \tab 242 \tab 86 \tab 1 \tab 12 \tab 0 \tab 1517 \cr
 }
 }
 

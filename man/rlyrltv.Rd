@@ -15,10 +15,10 @@ Question People have different opinions about who you can rely on and who should
 \section{Values}{
 
 \itemize{
+\item \verb{[0]} you cannot rely on either of them
 \item \verb{[1]} you can definitely rely more on close relatives
 \item \verb{[4]} you can rely equally on both
 \item \verb{[7]} you can definitely rely more on close friends
-\item \verb{[8]} you cannot rely on either of them
 \item \verb{[NA(d)]} can't choose \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
@@ -34,10 +34,10 @@ Question People have different opinions about who you can rely on and who should
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7781/vshow}{GSS Data Explorer page for \code{rlyrltv}}.
 
-Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab you can definitely rely more on close relatives \tab 2 \tab 3 \tab you can rely equally on both \tab 5 \tab 6 \tab you can definitely rely more on close friends \tab 9 \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2386 \tab 215 \tab 111 \tab 101 \tab 408 \tab 43 \tab 30 \tab 87 \tab 91 \tab 56 \tab 11 \tab 5 \tab 3544 \cr
-   Total \tab 2386 \tab 215 \tab 111 \tab 101 \tab 408 \tab 43 \tab 30 \tab 87 \tab 91 \tab 56 \tab 11 \tab 5 \tab 3544 \cr
+Counts by year:\tabular{lllllllllllllll}{
+   year \tab not available in this year \tab you cannot rely on either of them \tab you can definitely rely more on close relatives \tab 2 \tab 3 \tab you can rely equally on both \tab 5 \tab 6 \tab you can definitely rely more on close friends \tab can't choose \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 56 \tab 215 \tab 111 \tab 101 \tab 408 \tab 43 \tab 30 \tab 87 \tab 91 \tab 2386 \tab 11 \tab 5 \tab 3544 \cr
+   Total \tab 0 \tab 56 \tab 215 \tab 111 \tab 101 \tab 408 \tab 43 \tab 30 \tab 87 \tab 91 \tab 2386 \tab 11 \tab 5 \tab 3544 \cr
 }
 }
 

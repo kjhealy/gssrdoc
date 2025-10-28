@@ -35,10 +35,10 @@ Question What kind of health insurance do you have?  Please check all that apply
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7972/vshow}{GSS Data Explorer page for \code{instype01}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab public health insurance \tab private insurance \tab employer/union based insurance \tab other \tab have no health insurance \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2545 \tab 363 \tab 153 \tab 358 \tab 36 \tab 71 \tab 1 \tab 8 \tab 9 \tab 3544 \cr
-   Total \tab 2545 \tab 363 \tab 153 \tab 358 \tab 36 \tab 71 \tab 1 \tab 8 \tab 9 \tab 3544 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab not available in this year \tab public health insurance \tab private insurance \tab employer/union based insurance \tab other \tab have no health insurance \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 363 \tab 153 \tab 358 \tab 36 \tab 71 \tab 1 \tab 2545 \tab 8 \tab 9 \tab 3544 \cr
+   Total \tab 0 \tab 363 \tab 153 \tab 358 \tab 36 \tab 71 \tab 1 \tab 2545 \tab 8 \tab 9 \tab 3544 \cr
 }
 }
 

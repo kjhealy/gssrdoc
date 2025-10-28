@@ -36,10 +36,10 @@ C. I would only trust a psychiatrist to prescribe psychiatric medication.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2184/vshow}{GSS Data Explorer page for \code{psycpsyc}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1445 \tab 199 \tab 494 \tab 241 \tab 305 \tab 69 \tab 72 \tab 7 \tab 2832 \cr
-   Total \tab 1445 \tab 199 \tab 494 \tab 241 \tab 305 \tab 69 \tab 72 \tab 7 \tab 2832 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1445 \tab 199 \tab 494 \tab 241 \tab 305 \tab 69 \tab 72 \tab 7 \tab - \tab 2832 \cr
+   Total \tab 1445 \tab 199 \tab 494 \tab 241 \tab 305 \tab 69 \tab 72 \tab 7 \tab 0 \tab 2832 \cr
 }
 }
 

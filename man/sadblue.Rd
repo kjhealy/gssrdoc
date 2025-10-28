@@ -37,10 +37,10 @@ B. A person who often feels sad and blue. Is this ……
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3048/vshow}{GSS Data Explorer page for \code{sadblue}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab a very good description \tab a good description \tab a fair description \tab not a very good description \tab not a good description at all \tab don't know \tab no answer \tab Total \cr
-   2004 \tab 432 \tab 46 \tab 86 \tab 292 \tab 1169 \tab 781 \tab 1 \tab 5 \tab 2812 \cr
-   Total \tab 432 \tab 46 \tab 86 \tab 292 \tab 1169 \tab 781 \tab 1 \tab 5 \tab 2812 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab a very good description \tab a good description \tab a fair description \tab not a very good description \tab not a good description at all \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 432 \tab 46 \tab 86 \tab 292 \tab 1169 \tab 781 \tab 1 \tab 5 \tab - \tab 2812 \cr
+   Total \tab 432 \tab 46 \tab 86 \tab 292 \tab 1169 \tab 781 \tab 1 \tab 5 \tab 0 \tab 2812 \cr
 }
 }
 

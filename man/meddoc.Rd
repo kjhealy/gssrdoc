@@ -35,12 +35,13 @@ C. Go to a general medical doctor for help
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2013/vshow}{GSS Data Explorer page for \code{meddoc}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1996 \tab 1460 \tab 1019 \tab 355 \tab 43 \tab 27 \tab 2904 \cr
-   2006 \tab 3073 \tab 1203 \tab 187 \tab 33 \tab 14 \tab 4510 \cr
-   2018 \tab 1175 \tab 985 \tab 149 \tab 11 \tab 28 \tab 2348 \cr
-   Total \tab 5708 \tab 3207 \tab 691 \tab 87 \tab 69 \tab 9762 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1996 \tab 1460 \tab 1019 \tab 355 \tab 43 \tab 27 \tab - \tab - \tab 2904 \cr
+   2006 \tab 3073 \tab 1203 \tab 187 \tab 33 \tab 14 \tab - \tab - \tab 4510 \cr
+   2018 \tab 1175 \tab 985 \tab 149 \tab 11 \tab 28 \tab - \tab - \tab 2348 \cr
+   2024 \tab 1693 \tab 1368 \tab 192 \tab 22 \tab 13 \tab - \tab 21 \tab 3309 \cr
+   Total \tab 7401 \tab 4575 \tab 883 \tab 109 \tab 82 \tab 0 \tab 21 \tab 13071 \cr
 }
 }
 

@@ -36,10 +36,10 @@ A. Business and industry
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4791/vshow}{GSS Data Explorer page for \code{infobiz}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab a great deal of trust \tab quite a lot of trust \tab some trust \tab not much trust \tab hardly any trust \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1541 \tab 34 \tab 82 \tab 417 \tab 415 \tab 184 \tab 39 \tab 105 \tab 2817 \cr
-   Total \tab 1541 \tab 34 \tab 82 \tab 417 \tab 415 \tab 184 \tab 39 \tab 105 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab a great deal of trust \tab quite a lot of trust \tab some trust \tab not much trust \tab hardly any trust \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1541 \tab 34 \tab 82 \tab 417 \tab 415 \tab 184 \tab 39 \tab 105 \tab - \tab 2817 \cr
+   Total \tab 1541 \tab 34 \tab 82 \tab 417 \tab 415 \tab 184 \tab 39 \tab 105 \tab 0 \tab 2817 \cr
 }
 }
 

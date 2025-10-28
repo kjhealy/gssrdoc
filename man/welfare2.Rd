@@ -36,10 +36,10 @@ B. Helps people get on their feet when facing difficult situations such as unemp
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5499/vshow}{GSS Data Explorer page for \code{welfare2}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab Total \cr
-   1986 \tab - \tab 183 \tab 1040 \tab 193 \tab 42 \tab 10 \tab 2 \tab 1470 \cr
-   Total \tab 0 \tab 183 \tab 1040 \tab 193 \tab 42 \tab 10 \tab 2 \tab 1470 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab disagree \tab strongly disagree \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1986 \tab - \tab 183 \tab 1040 \tab 193 \tab 42 \tab 10 \tab 2 \tab - \tab 1470 \cr
+   Total \tab 0 \tab 183 \tab 1040 \tab 193 \tab 42 \tab 10 \tab 2 \tab 0 \tab 1470 \cr
 }
 }
 

@@ -32,11 +32,11 @@ Question A. Have you ever first come into contact with someone on the Internet"t
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2484/vshow}{GSS Data Explorer page for \code{wwwpersn}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab Total \cr
-   2000 \tab 2075 \tab 70 \tab 582 \tab 90 \tab - \tab 2817 \cr
-   2002 \tab 2043 \tab 71 \tab 603 \tab 47 \tab 1 \tab 2765 \cr
-   Total \tab 4118 \tab 141 \tab 1185 \tab 137 \tab 1 \tab 5582 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab no answer \tab don't know \tab not available in this year \tab Total \cr
+   2000 \tab 2075 \tab 70 \tab 582 \tab 90 \tab - \tab - \tab 2817 \cr
+   2002 \tab 2043 \tab 71 \tab 603 \tab 47 \tab 1 \tab - \tab 2765 \cr
+   Total \tab 4118 \tab 141 \tab 1185 \tab 137 \tab 1 \tab 0 \tab 5582 \cr
 }
 }
 

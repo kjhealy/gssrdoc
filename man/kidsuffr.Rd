@@ -37,13 +37,13 @@ B. A pre-school child is likely to suffer if his or her mother works.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4344/vshow}{GSS Data Explorer page for \code{kidsuffr}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 142 \tab 452 \tab 175 \tab 400 \tab 208 \tab 15 \tab 22 \tab 1481 \cr
-   1994 \tab 1545 \tab 130 \tab 458 \tab 175 \tab 459 \tab 195 \tab 14 \tab 16 \tab 2992 \cr
-   2002 \tab 1594 \tab 137 \tab 305 \tab 285 \tab - \tab 423 \tab 20 \tab 1 \tab 2765 \cr
-   2012 \tab 672 \tab 68 \tab 299 \tab 109 \tab 511 \tab 294 \tab 14 \tab 7 \tab 1974 \cr
-   Total \tab 3878 \tab 477 \tab 1514 \tab 744 \tab 1370 \tab 1120 \tab 63 \tab 46 \tab 9212 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 142 \tab 452 \tab 175 \tab 400 \tab 208 \tab 15 \tab 22 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 130 \tab 458 \tab 175 \tab 459 \tab 195 \tab 14 \tab 16 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 137 \tab 305 \tab 285 \tab - \tab 423 \tab 20 \tab 1 \tab - \tab 2765 \cr
+   2012 \tab 672 \tab 68 \tab 299 \tab 109 \tab 511 \tab 294 \tab 14 \tab 7 \tab - \tab 1974 \cr
+   Total \tab 3878 \tab 477 \tab 1514 \tab 744 \tab 1370 \tab 1120 \tab 63 \tab 46 \tab 0 \tab 9212 \cr
 }
 }
 

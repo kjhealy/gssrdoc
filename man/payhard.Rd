@@ -36,10 +36,10 @@ G. How hard he or she works at the job?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4334/vshow}{GSS Data Explorer page for \code{payhard}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab Total \cr
-   2000 \tab 1545 \tab 441 \tab 620 \tab 117 \tab 15 \tab 5 \tab 20 \tab 54 \tab 2817 \cr
-   Total \tab 1545 \tab 441 \tab 620 \tab 117 \tab 15 \tab 5 \tab 20 \tab 54 \tab 2817 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab essential \tab very important \tab fairly important \tab not very important \tab not important at all \tab can't choose \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1545 \tab 441 \tab 620 \tab 117 \tab 15 \tab 5 \tab 20 \tab 54 \tab - \tab 2817 \cr
+   Total \tab 1545 \tab 441 \tab 620 \tab 117 \tab 15 \tab 5 \tab 20 \tab 54 \tab 0 \tab 2817 \cr
 }
 }
 

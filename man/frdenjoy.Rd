@@ -36,10 +36,10 @@ D. Someone who is enjoyable company
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4228/vshow}{GSS Data Explorer page for \code{frdenjoy}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab extremely important \tab very important \tab fairly important \tab not too important \tab not at all important \tab no answer \tab Total \cr
-   2002 \tab 1616 \tab 548 \tab 467 \tab 109 \tab 12 \tab 5 \tab 8 \tab 2765 \cr
-   Total \tab 1616 \tab 548 \tab 467 \tab 109 \tab 12 \tab 5 \tab 8 \tab 2765 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab extremely important \tab very important \tab fairly important \tab not too important \tab not at all important \tab no answer \tab not available in this year \tab Total \cr
+   2002 \tab 1616 \tab 548 \tab 467 \tab 109 \tab 12 \tab 5 \tab 8 \tab - \tab 2765 \cr
+   Total \tab 1616 \tab 548 \tab 467 \tab 109 \tab 12 \tab 5 \tab 8 \tab 0 \tab 2765 \cr
 }
 }
 

@@ -34,10 +34,10 @@ Question C. How firm are you about (your opinion on/the way you feel about) porn
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/645/vshow}{GSS Data Explorer page for \code{pornfirm}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab change very likely \tab somewhat likely \tab somewhat unlikely \tab change very unlikely \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 37 \tab 205 \tab 417 \tab 765 \tab 26 \tab 23 \tab 1473 \cr
-   Total \tab 0 \tab 37 \tab 205 \tab 417 \tab 765 \tab 26 \tab 23 \tab 1473 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab change very likely \tab somewhat likely \tab somewhat unlikely \tab change very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 37 \tab 205 \tab 417 \tab 765 \tab 26 \tab 23 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 37 \tab 205 \tab 417 \tab 765 \tab 26 \tab 23 \tab 0 \tab 1473 \cr
 }
 }
 

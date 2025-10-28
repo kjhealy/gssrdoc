@@ -27,11 +27,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------|:-----|
-#'  |1987  |255  |50        |200            |342              |485                |417                  |42           |28        |-              |1819  |
-#'  |2021  |2029 |69        |198            |403              |422                |701                  |76           |120       |14             |4032  |
-#'  |Total |2284 |119       |398            |745              |907                |1118                 |118          |148       |14             |5851  |
+#'  |year  |iap  |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |1987  |255  |50        |200            |342              |485                |417                  |42           |28        |-              |-                          |1819  |
+#'  |2021  |2029 |69        |198            |403              |422                |701                  |76           |120       |14             |-                          |4032  |
+#'  |Total |2284 |119       |398            |745              |907                |1118                 |118          |148       |14             |0                          |5851  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -72,10 +72,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |Total |
-#'  |:-----|:---|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:-----|
-#'  |1987  |255 |31        |135            |388              |550                |382                  |49           |29        |1819  |
-#'  |Total |255 |31        |135            |388              |550                |382                  |49           |29        |1819  |
+#'  |year  |iap |essential |very important |fairly important |not very important |not important at all |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------|:--------------|:----------------|:------------------|:--------------------|:------------|:---------|:--------------------------|:-----|
+#'  |1987  |255 |31        |135            |388              |550                |382                  |49           |29        |-                          |1819  |
+#'  |Total |255 |31        |135            |388              |550                |382                  |49           |29        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -133,7 +133,8 @@ NULL
 #'  |2018  |785   |271            |716   |291                        |230      |45                |8            |2         |-              |2348  |
 #'  |2021  |1360  |290            |944   |750                        |526      |154               |2            |1         |5              |4032  |
 #'  |2022  |1173  |285            |823   |557                        |497      |191               |11           |2         |5              |3544  |
-#'  |Total |17920 |4221           |12155 |4439                       |4748     |1084              |190          |54        |10             |44821 |
+#'  |2024  |1116  |222            |727   |535                        |495      |196               |11           |-         |7              |3309  |
+#'  |Total |19036 |4443           |12882 |4974                       |5243     |1280              |201          |54        |17             |48130 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -171,10 +172,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |absolutely neccessary |probably neccessary |probably not necc |definitely not necc |can't choose |no answer |Total |
-#'  |:-----|:---|:---------------------|:-------------------|:-----------------|:-------------------|:------------|:---------|:-----|
-#'  |1987  |255 |302                   |759                 |301               |97                  |80           |25        |1819  |
-#'  |Total |255 |302                   |759                 |301               |97                  |80           |25        |1819  |
+#'  |year  |iap |absolutely neccessary |probably neccessary |probably not necc |definitely not necc |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:---------------------|:-------------------|:-----------------|:-------------------|:------------|:---------|:--------------------------|:-----|
+#'  |1987  |255 |302                   |759                 |301               |97                  |80           |25        |-                          |1819  |
+#'  |Total |255 |302                   |759                 |301               |97                  |80           |25        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -216,11 +217,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |1987  |255  |297            |788   |170                        |234      |30                |17           |28        |1819  |
-#'  |1996  |1460 |526            |592   |74                         |174      |56                |14           |8         |2904  |
-#'  |Total |1715 |823            |1380  |244                        |408      |86                |31           |36        |4723  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |1987  |255  |297            |788   |170                        |234      |30                |17           |28        |-                          |1819  |
+#'  |1996  |1460 |526            |592   |74                         |174      |56                |14           |8         |-                          |2904  |
+#'  |Total |1715 |823            |1380  |244                        |408      |86                |31           |36        |0                          |4723  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -261,10 +262,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |1987  |255 |220            |658   |221                        |352      |55                |29           |29        |1819  |
-#'  |Total |255 |220            |658   |221                        |352      |55                |29           |29        |1819  |
+#'  |year  |iap |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:---|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |1987  |255 |220            |658   |221                        |352      |55                |29           |29        |-                          |1819  |
+#'  |Total |255 |220            |658   |221                        |352      |55                |29           |29        |0                          |1819  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -306,13 +307,13 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |1987  |255  |218            |511   |379                        |258      |59                |103          |36        |1819  |
-#'  |1996  |1460 |384            |471   |184                        |193      |116               |90           |6         |2904  |
-#'  |2000  |1545 |157            |413   |309                        |203      |56                |56           |78        |2817  |
-#'  |2008  |982  |179            |375   |204                        |185      |55                |35           |8         |2023  |
-#'  |Total |4242 |938            |1770  |1076                       |839      |286               |284          |128       |9563  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |1987  |255  |218            |511   |379                        |258      |59                |103          |36        |-                          |1819  |
+#'  |1996  |1460 |384            |471   |184                        |193      |116               |90           |6         |-                          |2904  |
+#'  |2000  |1545 |157            |413   |309                        |203      |56                |56           |78        |-                          |2817  |
+#'  |2008  |982  |179            |375   |204                        |185      |55                |35           |8         |-                          |2023  |
+#'  |Total |4242 |938            |1770  |1076                       |839      |286               |284          |128       |0                          |9563  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -354,11 +355,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:-----|
-#'  |1987  |255  |419            |643   |165                        |260      |32                |12           |33        |1819  |
-#'  |2000  |1545 |264            |472   |171                        |235      |45                |12           |73        |2817  |
-#'  |Total |1800 |683            |1115  |336                        |495      |77                |24           |106       |4636  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------------------|:-----|
+#'  |1987  |255  |419            |643   |165                        |260      |32                |12           |33        |-                          |1819  |
+#'  |2000  |1545 |264            |472   |171                        |235      |45                |12           |73        |-                          |2817  |
+#'  |Total |1800 |683            |1115  |336                        |495      |77                |24           |106       |0                          |4636  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Social Inequality
@@ -400,14 +401,14 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
-#'  |1987  |255  |102            |394   |419                        |458      |85                |66           |40        |-              |1819  |
-#'  |1996  |1460 |114            |287   |177                        |434      |361               |64           |7         |-              |2904  |
-#'  |2000  |1545 |57             |260   |347                        |394      |101               |38           |75        |-              |2817  |
-#'  |2008  |982  |28             |216   |177                        |450      |134               |29           |7         |-              |2023  |
-#'  |2021  |2252 |35             |161   |451                        |664      |373               |75           |3         |18             |4032  |
-#'  |Total |6494 |336            |1318  |1571                       |2400     |1054              |272          |132       |18             |13595 |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |1987  |255  |102            |394   |419                        |458      |85                |66           |40        |-              |-                          |1819  |
+#'  |1996  |1460 |114            |287   |177                        |434      |361               |64           |7         |-              |-                          |2904  |
+#'  |2000  |1545 |57             |260   |347                        |394      |101               |38           |75        |-              |-                          |2817  |
+#'  |2008  |982  |28             |216   |177                        |450      |134               |29           |7         |-              |-                          |2023  |
+#'  |2021  |2252 |35             |161   |451                        |664      |373               |75           |3         |18             |-                          |4032  |
+#'  |Total |6494 |336            |1318  |1571                       |2400     |1054              |272          |132       |18             |0                          |13595 |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Markets
@@ -450,12 +451,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |Total |
-#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:-----|
-#'  |1987  |255  |156            |554   |345                        |359      |63                |57           |30        |-              |1819  |
-#'  |1996  |1460 |263            |508   |165                        |300      |147               |54           |7         |-              |2904  |
-#'  |2021  |2245 |184            |627   |555                        |246      |78                |69           |3         |25             |4032  |
-#'  |Total |3960 |603            |1689  |1065                       |905      |288               |180          |40        |25             |8755  |
+#'  |year  |iap  |strongly agree |agree |neither agree nor disagree |disagree |strongly disagree |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:--------------|:-----|:--------------------------|:--------|:-----------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |1987  |255  |156            |554   |345                        |359      |63                |57           |30        |-              |-                          |1819  |
+#'  |1996  |1460 |263            |508   |165                        |300      |147               |54           |7         |-              |-                          |2904  |
+#'  |2021  |2245 |184            |627   |555                        |246      |78                |69           |3         |25             |-                          |4032  |
+#'  |Total |3960 |603            |1689  |1065                       |905      |288               |180          |40        |25             |0                          |8755  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

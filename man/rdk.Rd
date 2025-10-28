@@ -35,10 +35,10 @@ H. Respondent can''t choose
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4540/vshow}{GSS Data Explorer page for \code{rdk}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab iap \tab dk chosen \tab not chosen \tab no answer \tab Total \cr
-   1989 \tab 639 \tab 25 \tab 740 \tab 133 \tab 1537 \cr
-   Total \tab 639 \tab 25 \tab 740 \tab 133 \tab 1537 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab dk chosen \tab not chosen \tab no answer \tab not available in this year \tab Total \cr
+   1989 \tab 639 \tab 25 \tab 740 \tab 133 \tab - \tab 1537 \cr
+   Total \tab 639 \tab 25 \tab 740 \tab 133 \tab 0 \tab 1537 \cr
 }
 }
 

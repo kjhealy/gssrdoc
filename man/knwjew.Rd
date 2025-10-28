@@ -33,10 +33,10 @@ C. Jews?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2332/vshow}{GSS Data Explorer page for \code{knwjew}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   2000 \tab 1455 \tab 752 \tab 559 \tab 1 \tab 50 \tab 2817 \cr
-   Total \tab 1455 \tab 752 \tab 559 \tab 1 \tab 50 \tab 2817 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2000 \tab 1455 \tab 752 \tab 559 \tab 1 \tab 50 \tab - \tab 2817 \cr
+   Total \tab 1455 \tab 752 \tab 559 \tab 1 \tab 50 \tab 0 \tab 2817 \cr
 }
 }
 

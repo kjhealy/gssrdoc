@@ -37,11 +37,11 @@ F. The government should provide a decent standard of living for the unemployed.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4300/vshow}{GSS Data Explorer page for \code{govunemp}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab Total \cr
-   1987 \tab 255 \tab 136 \tab 500 \tab 383 \tab 400 \tab 76 \tab 41 \tab 28 \tab - \tab 1819 \cr
-   2021 \tab 2029 \tab 288 \tab 508 \tab 455 \tab 363 \tab 170 \tab 65 \tab 136 \tab 18 \tab 4032 \cr
-   Total \tab 2284 \tab 424 \tab 1008 \tab 838 \tab 763 \tab 246 \tab 106 \tab 164 \tab 18 \tab 5851 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab strongly agree \tab agree \tab neither agree nor disagree \tab disagree \tab strongly disagree \tab can't choose \tab no answer \tab skipped on web \tab not available in this year \tab Total \cr
+   1987 \tab 255 \tab 136 \tab 500 \tab 383 \tab 400 \tab 76 \tab 41 \tab 28 \tab - \tab - \tab 1819 \cr
+   2021 \tab 2029 \tab 288 \tab 508 \tab 455 \tab 363 \tab 170 \tab 65 \tab 136 \tab 18 \tab - \tab 4032 \cr
+   Total \tab 2284 \tab 424 \tab 1008 \tab 838 \tab 763 \tab 246 \tab 106 \tab 164 \tab 18 \tab 0 \tab 5851 \cr
 }
 }
 

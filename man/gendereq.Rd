@@ -35,10 +35,10 @@ Promote equality between men and women?  (Would you say...)
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/6304/vshow}{GSS Data Explorer page for \code{gendereq}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab don't know \tab no answer \tab Total \cr
-   2016 \tab 1477 \tab 697 \tab 445 \tab 138 \tab 67 \tab 27 \tab 16 \tab 2867 \cr
-   Total \tab 1477 \tab 697 \tab 445 \tab 138 \tab 67 \tab 27 \tab 16 \tab 2867 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab definitely should be \tab probably should be \tab probably should not be \tab definitely should not be \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   2016 \tab 1477 \tab 697 \tab 445 \tab 138 \tab 67 \tab 27 \tab 16 \tab - \tab 2867 \cr
+   Total \tab 1477 \tab 697 \tab 445 \tab 138 \tab 67 \tab 27 \tab 16 \tab 0 \tab 2867 \cr
 }
 }
 

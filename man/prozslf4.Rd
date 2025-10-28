@@ -36,11 +36,11 @@ D. ...for no apparent reason, you were having periods of intense fear in which y
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2238/vshow}{GSS Data Explorer page for \code{prozslf4}}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab Total \cr
-   1998 \tab 1635 \tab 186 \tab 292 \tab 152 \tab 126 \tab 319 \tab 109 \tab 13 \tab 2832 \cr
-   2006 \tab 3238 \tab 244 \tab 312 \tab 166 \tab 144 \tab 322 \tab 66 \tab 18 \tab 4510 \cr
-   Total \tab 4873 \tab 430 \tab 604 \tab 318 \tab 270 \tab 641 \tab 175 \tab 31 \tab 7342 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab very likely \tab somewhat likely \tab mixed \tab somewht unlikely \tab very unlikely \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1998 \tab 1635 \tab 186 \tab 292 \tab 152 \tab 126 \tab 319 \tab 109 \tab 13 \tab - \tab 2832 \cr
+   2006 \tab 3238 \tab 244 \tab 312 \tab 166 \tab 144 \tab 322 \tab 66 \tab 18 \tab - \tab 4510 \cr
+   Total \tab 4873 \tab 430 \tab 604 \tab 318 \tab 270 \tab 641 \tab 175 \tab 31 \tab 0 \tab 7342 \cr
 }
 }
 

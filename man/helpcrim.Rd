@@ -36,10 +36,10 @@ D. Controlling crime?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4111/vshow}{GSS Data Explorer page for \code{helpcrim}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab very successful \tab quite successful \tab neither successful nor unsuccessful \tab quite unsuccessful \tab very unsuccessful \tab can't choose \tab Total \cr
-   2006 \tab 2992 \tab 71 \tab 461 \tab 404 \tab 389 \tab 178 \tab 15 \tab 4510 \cr
-   Total \tab 2992 \tab 71 \tab 461 \tab 404 \tab 389 \tab 178 \tab 15 \tab 4510 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab very successful \tab quite successful \tab neither successful nor unsuccessful \tab quite unsuccessful \tab very unsuccessful \tab can't choose \tab not available in this year \tab Total \cr
+   2006 \tab 2992 \tab 71 \tab 461 \tab 404 \tab 389 \tab 178 \tab 15 \tab - \tab 4510 \cr
+   Total \tab 2992 \tab 71 \tab 461 \tab 404 \tab 389 \tab 178 \tab 15 \tab 0 \tab 4510 \cr
 }
 }
 

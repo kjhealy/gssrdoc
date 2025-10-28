@@ -32,10 +32,10 @@ Question Are you or any members of your present household currently receiving an
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/828/vshow}{GSS Data Explorer page for \code{vetaid}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab Total \cr
-   1984 \tab - \tab 145 \tab 1298 \tab 2 \tab 28 \tab 1473 \cr
-   Total \tab 0 \tab 145 \tab 1298 \tab 2 \tab 28 \tab 1473 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1984 \tab - \tab 145 \tab 1298 \tab 2 \tab 28 \tab - \tab 1473 \cr
+   Total \tab 0 \tab 145 \tab 1298 \tab 2 \tab 28 \tab 0 \tab 1473 \cr
 }
 }
 

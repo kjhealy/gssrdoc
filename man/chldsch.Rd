@@ -35,10 +35,11 @@ Question D. How willing would you be to have (John/Mary) in your child's class a
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2936/vshow}{GSS Data Explorer page for \code{chldsch}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab Total \cr
-   2002 \tab 1372 \tab 602 \tab 620 \tab 98 \tab 32 \tab 28 \tab 13 \tab 2765 \cr
-   Total \tab 1372 \tab 602 \tab 620 \tab 98 \tab 32 \tab 28 \tab 13 \tab 2765 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab iap \tab definitely willing \tab probably willing \tab probably unwilling \tab definitely unwilling \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   2002 \tab 1372 \tab 602 \tab 620 \tab 98 \tab 32 \tab 28 \tab 13 \tab - \tab - \tab 2765 \cr
+   2024 \tab 1661 \tab 562 \tab 808 \tab 146 \tab 63 \tab 35 \tab 8 \tab - \tab 26 \tab 3309 \cr
+   Total \tab 3033 \tab 1164 \tab 1428 \tab 244 \tab 95 \tab 63 \tab 21 \tab 0 \tab 26 \tab 6074 \cr
 }
 }
 

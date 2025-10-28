@@ -31,10 +31,10 @@ Question F. How many sports groups do you belong to?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/3132/vshow}{GSS Data Explorer page for \code{numsport}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 6 \tab no answer \tab Total \cr
-   2004 \tab 2561 \tab 179 \tab 44 \tab 17 \tab 3 \tab 1 \tab 7 \tab 2812 \cr
-   Total \tab 2561 \tab 179 \tab 44 \tab 17 \tab 3 \tab 1 \tab 7 \tab 2812 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab 1 \tab 2 \tab 3 \tab 4 \tab 6 \tab no answer \tab not available in this year \tab Total \cr
+   2004 \tab 2561 \tab 179 \tab 44 \tab 17 \tab 3 \tab 1 \tab 7 \tab - \tab 2812 \cr
+   Total \tab 2561 \tab 179 \tab 44 \tab 17 \tab 3 \tab 1 \tab 7 \tab 0 \tab 2812 \cr
 }
 }
 

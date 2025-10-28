@@ -40,13 +40,13 @@ I. Sector of Institution?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/77/vshow}{GSS Data Explorer page for \code{spsector}}.
 
-Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab public, 4-year or above \tab private not-for-profit, 4-year or above \tab private for-profit, 4-year or above \tab public, 2-year \tab administrative unit \tab private for-profit, 2-year \tab Total \cr
-   2012 \tab 1706 \tab 156 \tab 79 \tab 4 \tab 29 \tab - \tab - \tab 1974 \cr
-   2014 \tab 2119 \tab 243 \tab 129 \tab 10 \tab 33 \tab 2 \tab 2 \tab 2538 \cr
-   2016 \tab 2459 \tab 241 \tab 124 \tab 6 \tab 37 \tab - \tab - \tab 2867 \cr
-   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
-   Total \tab 8632 \tab 640 \tab 332 \tab 20 \tab 99 \tab 2 \tab 2 \tab 9727 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab iap \tab public, 4-year or above \tab private not-for-profit, 4-year or above \tab private for-profit, 4-year or above \tab public, 2-year \tab administrative unit \tab private for-profit, 2-year \tab not available in this year \tab Total \cr
+   2012 \tab 1706 \tab 156 \tab 79 \tab 4 \tab 29 \tab - \tab - \tab - \tab 1974 \cr
+   2014 \tab 2119 \tab 243 \tab 129 \tab 10 \tab 33 \tab 2 \tab 2 \tab - \tab 2538 \cr
+   2016 \tab 2459 \tab 241 \tab 124 \tab 6 \tab 37 \tab - \tab - \tab - \tab 2867 \cr
+   2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
+   Total \tab 8632 \tab 640 \tab 332 \tab 20 \tab 99 \tab 2 \tab 2 \tab 0 \tab 9727 \cr
 }
 }
 

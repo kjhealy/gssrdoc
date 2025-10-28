@@ -36,7 +36,8 @@ Counts by year:\tabular{llllllll}{
    year \tab iap \tab yes, fired \tab not fired \tab don't know \tab skipped on web \tab no answer \tab Total \cr
    2021 \tab 2675 \tab 444 \tab 885 \tab 4 \tab 24 \tab - \tab 4032 \cr
    2022 \tab 2367 \tab 407 \tab 706 \tab 54 \tab 3 \tab 7 \tab 3544 \cr
-   Total \tab 5042 \tab 851 \tab 1591 \tab 58 \tab 27 \tab 7 \tab 7576 \cr
+   2024 \tab 2213 \tab 389 \tab 636 \tab 56 \tab 13 \tab 2 \tab 3309 \cr
+   Total \tab 7255 \tab 1240 \tab 2227 \tab 114 \tab 40 \tab 9 \tab 10885 \cr
 }
 }
 

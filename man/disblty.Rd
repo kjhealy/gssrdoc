@@ -32,10 +32,10 @@ Question Do you have a long-standing illness, a chronic condition, or a disabili
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7838/vshow}{GSS Data Explorer page for \code{disblty}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab yes \tab no \tab don't know \tab no answer \tab skipped on web \tab Total \cr
-   2022 \tab 2382 \tab 433 \tab 716 \tab 6 \tab 2 \tab 5 \tab 3544 \cr
-   Total \tab 2382 \tab 433 \tab 716 \tab 6 \tab 2 \tab 5 \tab 3544 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab not available in this year \tab yes \tab no \tab don't know \tab iap \tab no answer \tab skipped on web \tab Total \cr
+   2022 \tab - \tab 433 \tab 716 \tab 6 \tab 2382 \tab 2 \tab 5 \tab 3544 \cr
+   Total \tab 0 \tab 433 \tab 716 \tab 6 \tab 2382 \tab 2 \tab 5 \tab 3544 \cr
 }
 }
 

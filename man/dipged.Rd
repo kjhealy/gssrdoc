@@ -19,7 +19,6 @@ As of 2024, DIPGED has been recoded to only account for three categories. This h
 \item \verb{[1]} high school diploma
 \item \verb{[2]} ged
 \item \verb{[3]} other
-\item \verb{[5]} high school diploma after post high school class
 \item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
@@ -35,15 +34,16 @@ As of 2024, DIPGED has been recoded to only account for three categories. This h
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/65/vshow}{GSS Data Explorer page for \code{dipged}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab high school diploma \tab ged \tab other \tab high school diploma after post high school class \tab no answer \tab don't know \tab skipped on web \tab 7 \tab Total \cr
-   2012 \tab 288 \tab 1543 \tab 133 \tab 2 \tab 6 \tab 2 \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab 330 \tab 1990 \tab 196 \tab 15 \tab - \tab 6 \tab 1 \tab - \tab - \tab 2538 \cr
-   2016 \tab 328 \tab 2237 \tab 245 \tab 41 \tab - \tab 15 \tab 1 \tab - \tab - \tab 2867 \cr
-   2018 \tab 262 \tab 1891 \tab 183 \tab 3 \tab 3 \tab 6 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab 269 \tab 3396 \tab 306 \tab 13 \tab 9 \tab 24 \tab 8 \tab 7 \tab - \tab 4032 \cr
-   2022 \tab 359 \tab 2858 \tab 276 \tab 29 \tab 3 \tab 13 \tab 1 \tab 3 \tab 2 \tab 3544 \cr
-   Total \tab 1836 \tab 13915 \tab 1339 \tab 103 \tab 21 \tab 66 \tab 11 \tab 10 \tab 2 \tab 17303 \cr
+Counts by year:\tabular{llllllllll}{
+   year \tab not available in this year \tab high school diploma \tab ged \tab other \tab iap \tab no answer \tab don't know \tab skipped on web \tab Total \cr
+   2012 \tab - \tab 1543 \tab 133 \tab 8 \tab 288 \tab 2 \tab - \tab - \tab 1974 \cr
+   2014 \tab - \tab 1990 \tab 196 \tab 15 \tab 330 \tab 6 \tab 1 \tab - \tab 2538 \cr
+   2016 \tab - \tab 2237 \tab 245 \tab 41 \tab 328 \tab 15 \tab 1 \tab - \tab 2867 \cr
+   2018 \tab - \tab 1891 \tab 183 \tab 6 \tab 262 \tab 6 \tab - \tab - \tab 2348 \cr
+   2021 \tab - \tab 3396 \tab 306 \tab 22 \tab 269 \tab 24 \tab 8 \tab 7 \tab 4032 \cr
+   2022 \tab - \tab 2858 \tab 276 \tab 32 \tab 359 \tab 13 \tab 3 \tab 3 \tab 3544 \cr
+   2024 \tab - \tab 2721 \tab 231 \tab 24 \tab 309 \tab 20 \tab 3 \tab 1 \tab 3309 \cr
+   Total \tab 0 \tab 16636 \tab 1570 \tab 148 \tab 2145 \tab 86 \tab 16 \tab 11 \tab 20612 \cr
 }
 }
 

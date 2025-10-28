@@ -34,10 +34,10 @@ D1. Relation to R. of first child
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1510/vshow}{GSS Data Explorer page for \code{kdrel1}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab biological \tab adopted \tab step \tab no answer \tab Total \cr
-   1994 \tab 1860 \tab 1043 \tab 21 \tab 59 \tab 9 \tab 2992 \cr
-   Total \tab 1860 \tab 1043 \tab 21 \tab 59 \tab 9 \tab 2992 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab biological \tab adopted \tab step \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1860 \tab 1043 \tab 21 \tab 59 \tab 9 \tab - \tab 2992 \cr
+   Total \tab 1860 \tab 1043 \tab 21 \tab 59 \tab 9 \tab 0 \tab 2992 \cr
 }
 }
 

@@ -37,12 +37,12 @@ Question How do you and your spouse/partner organize the income that one or both
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4417/vshow}{GSS Data Explorer page for \code{fambudgt}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab i manage, give prtnr share \tab prntnr manages, gives me share \tab pool all money, take out what we need \tab pool some money, keep some separate \tab keep money separate \tab not married \tab don't know \tab no answer \tab Total \cr
-   1994 \tab 1545 \tab 95 \tab 62 \tab 483 \tab 80 \tab 76 \tab 612 \tab 1 \tab 38 \tab 2992 \cr
-   2002 \tab 1594 \tab 82 \tab 83 \tab 366 \tab 69 \tab 86 \tab 456 \tab 8 \tab 21 \tab 2765 \cr
-   2012 \tab 1274 \tab 111 \tab 90 \tab 338 \tab 67 \tab 81 \tab - \tab 4 \tab 9 \tab 1974 \cr
-   Total \tab 4413 \tab 288 \tab 235 \tab 1187 \tab 216 \tab 243 \tab 1068 \tab 13 \tab 68 \tab 7731 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab i manage, give prtnr share \tab prntnr manages, gives me share \tab pool all money, take out what we need \tab pool some money, keep some separate \tab keep money separate \tab not married \tab don't know \tab no answer \tab not available in this year \tab Total \cr
+   1994 \tab 1545 \tab 95 \tab 62 \tab 483 \tab 80 \tab 76 \tab 612 \tab 1 \tab 38 \tab - \tab 2992 \cr
+   2002 \tab 1594 \tab 82 \tab 83 \tab 366 \tab 69 \tab 86 \tab 456 \tab 8 \tab 21 \tab - \tab 2765 \cr
+   2012 \tab 1274 \tab 111 \tab 90 \tab 338 \tab 67 \tab 81 \tab - \tab 4 \tab 9 \tab - \tab 1974 \cr
+   Total \tab 4413 \tab 288 \tab 235 \tab 1187 \tab 216 \tab 243 \tab 1068 \tab 13 \tab 68 \tab 0 \tab 7731 \cr
 }
 }
 

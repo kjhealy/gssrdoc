@@ -22,10 +22,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |should |should not be |don't know |no answer |Total |
-#'  |:-----|:----|:------|:-------------|:----------|:---------|:-----|
-#'  |2006  |2992 |1333   |160           |24         |1         |4510  |
-#'  |Total |2992 |1333   |160           |24         |1         |4510  |
+#'  |year  |iap  |should |should not be |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------|:-------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |2992 |1333   |160           |24         |1         |-                          |4510  |
+#'  |Total |2992 |1333   |160           |24         |1         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I
@@ -64,10 +64,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |every day |a few times a week |once a week |less than once a week |never |no answer |Total |
-#'  |:-----|:----|:---------|:------------------|:-----------|:---------------------|:-----|:---------|:-----|
-#'  |2006  |3728 |264       |185                |120         |122                   |90    |1         |4510  |
-#'  |Total |3728 |264       |185                |120         |122                   |90    |1         |4510  |
+#'  |year  |iap  |every day |a few times a week |once a week |less than once a week |never |no answer |not available in this year |Total |
+#'  |:-----|:----|:---------|:------------------|:-----------|:---------------------|:-----|:---------|:--------------------------|:-----|
+#'  |2006  |3728 |264       |185                |120         |122                   |90    |1         |-                          |4510  |
+#'  |Total |3728 |264       |185                |120         |122                   |90    |1         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I
@@ -104,10 +104,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |hard work most important |hard work, luck equally important |luck or help from other people most important |don't know |no answer |Total |
-#'  |:-----|:----|:------------------------|:---------------------------------|:---------------------------------------------|:----------|:---------|:-----|
-#'  |2006  |3728 |465                      |158                               |152                                           |6          |1         |4510  |
-#'  |Total |3728 |465                      |158                               |152                                           |6          |1         |4510  |
+#'  |year  |iap  |hard work most important |hard work, luck equally important |luck or help from other people most important |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:------------------------|:---------------------------------|:---------------------------------------------|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |3728 |465                      |158                               |152                                           |6          |1         |-                          |4510  |
+#'  |Total |3728 |465                      |158                               |152                                           |6          |1         |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Misc I
@@ -144,10 +144,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |1714 |171 |2613 |2          |10        |4510  |
-#'  |Total |1714 |171 |2613 |2          |10        |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |1714 |171 |2613 |2          |10        |-                          |4510  |
+#'  |Total |1714 |171 |2613 |2          |10        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
@@ -183,10 +183,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |1714 |174 |2609 |2          |11        |4510  |
-#'  |Total |1714 |174 |2609 |2          |11        |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |1714 |174 |2609 |2          |11        |-                          |4510  |
+#'  |Total |1714 |174 |2609 |2          |11        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
@@ -222,10 +222,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |1714 |482 |2300 |1          |13        |4510  |
-#'  |Total |1714 |482 |2300 |1          |13        |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |1714 |482 |2300 |1          |13        |-                          |4510  |
+#'  |Total |1714 |482 |2300 |1          |13        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
@@ -261,10 +261,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |1714 |296 |2483 |2          |15        |4510  |
-#'  |Total |1714 |296 |2483 |2          |15        |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |1714 |296 |2483 |2          |15        |-                          |4510  |
+#'  |Total |1714 |296 |2483 |2          |15        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
@@ -300,10 +300,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |1714 |156 |2621 |4          |15        |4510  |
-#'  |Total |1714 |156 |2621 |4          |15        |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |1714 |156 |2621 |4          |15        |-                          |4510  |
+#'  |Total |1714 |156 |2621 |4          |15        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
@@ -339,10 +339,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |1714 |289 |2489 |3          |15        |4510  |
-#'  |Total |1714 |289 |2489 |3          |15        |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |1714 |289 |2489 |3          |15        |-                          |4510  |
+#'  |Total |1714 |289 |2489 |3          |15        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability
@@ -378,10 +378,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes |no   |don't know |no answer |Total |
-#'  |:-----|:----|:---|:----|:----------|:---------|:-----|
-#'  |2006  |1714 |288 |2487 |6          |15        |4510  |
-#'  |Total |1714 |288 |2487 |6          |15        |4510  |
+#'  |year  |iap  |yes |no   |don't know |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:----|:----------|:---------|:--------------------------|:-----|
+#'  |2006  |1714 |288 |2487 |6          |15        |-                          |4510  |
+#'  |Total |1714 |288 |2487 |6          |15        |0                          |4510  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Disability

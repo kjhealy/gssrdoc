@@ -33,11 +33,11 @@ Question Were you ever divorced?
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/4393/vshow}{GSS Data Explorer page for \code{evdiv}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab yes \tab no \tab never married \tab no answer \tab Total \cr
-   1988 \tab 67 \tab 361 \tab 749 \tab 280 \tab 24 \tab 1481 \cr
-   1994 \tab 1545 \tab 410 \tab 844 \tab 172 \tab 21 \tab 2992 \cr
-   Total \tab 1612 \tab 771 \tab 1593 \tab 452 \tab 45 \tab 4473 \cr
+Counts by year:\tabular{llllllll}{
+   year \tab iap \tab yes \tab no \tab never married \tab no answer \tab not available in this year \tab Total \cr
+   1988 \tab 67 \tab 361 \tab 749 \tab 280 \tab 24 \tab - \tab 1481 \cr
+   1994 \tab 1545 \tab 410 \tab 844 \tab 172 \tab 21 \tab - \tab 2992 \cr
+   Total \tab 1612 \tab 771 \tab 1593 \tab 452 \tab 45 \tab 0 \tab 4473 \cr
 }
 }
 
