@@ -24,7 +24,7 @@
 
     <a class="navbar-brand me-2" href="index.html">gssrdoc</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.8.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.8.2</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +51,7 @@
 </h1></div>
 <!-- badges: start -->
 
-<p>Documentation for the General Social Survey Cumulative Data (1972-2024) packaged for easy use in R. This package is a companion to the <a href="https://kjhealy.github.io/gssr" class="external-link"><code>gssr</code></a> package. I recommend you install both of them.</p>
+<p>Documentation for the General Social Survey Cumulative Data (1972-2024, R2) packaged for easy use in R. This package is a companion to the <a href="https://kjhealy.github.io/gssr" class="external-link"><code>gssr</code></a> package. I recommend you install both of them.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
@@ -89,25 +89,29 @@
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/kjhealy/gssrdoc" class="external-link">gssrdoc</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">gss_doc</span></span>
-<span><span class="co">#&gt; # A tibble: 6,694 × 10</span></span>
-<span><span class="co">#&gt;    variable description                           question         value_labels var_yrtab yrballot_df module_df subject_df norc_id norc_url</span></span>
-<span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;                                 &lt;chr&gt;            &lt;chr&gt;        &lt;list&gt;    &lt;list&gt;      &lt;list&gt;    &lt;list&gt;       &lt;int&gt; &lt;chr&gt;   </span></span>
-<span><span class="co">#&gt;  1 year     GSS year for this respondent          "GSS year"       "[NA(d)] do… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         1 https:/…</span></span>
-<span><span class="co">#&gt;  2 id       Respondent id number                  "Respondent id … ""           &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         2 https:/…</span></span>
-<span><span class="co">#&gt;  3 wrkstat  labor force status                    "Last week were… "[1] workin… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         3 https:/…</span></span>
-<span><span class="co">#&gt;  4 hrs1     number of hours worked last week      "Last week were… "[89] 89+ h… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         4 https:/…</span></span>
-<span><span class="co">#&gt;  5 hrs2     number of hours usually work a week   "Last week were… "[89] 89+ h… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         5 https:/…</span></span>
-<span><span class="co">#&gt;  6 evwork   ever work as long as one year         "Last week were… "[1] yes / … &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         6 https:/…</span></span>
-<span><span class="co">#&gt;  7 occ      R's census occupation code (1970)     "A. What kind o… "[NA(d)] do… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         7 https:/…</span></span>
-<span><span class="co">#&gt;  8 prestige r's occupational prestige score(1970) "A. What kind o… "[NA(d)] do… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         8 https:/…</span></span>
-<span><span class="co">#&gt;  9 wrkslf   r self-emp or works for somebody      "A. What kind o… "[1] self-e… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         9 https:/…</span></span>
-<span><span class="co">#&gt; 10 wrkgovt  govt or private employee              "A. What kind o… "[1] govern… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;        10 https:/…</span></span>
-<span><span class="co">#&gt; # ℹ 6,684 more rows</span></span></code></pre></div>
+<span><span class="co">#&gt; # A tibble: 6,904 × 10</span></span>
+<span><span class="co">#&gt;    variable description                           question                                                                                      value_labels var_yrtab yrballot_df module_df subject_df norc_id norc_url</span></span>
+<span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;                                 &lt;chr&gt;                                                                                         &lt;chr&gt;        &lt;list&gt;    &lt;list&gt;      &lt;list&gt;    &lt;list&gt;       &lt;int&gt; &lt;chr&gt;   </span></span>
+<span><span class="co">#&gt;  1 year     GSS year for this respondent          "GSS year"                                                                                    "[NA(d)] do… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         1 https:/…</span></span>
+<span><span class="co">#&gt;  2 id       Respondent id number                  "Respondent id number"                                                                        ""           &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         2 https:/…</span></span>
+<span><span class="co">#&gt;  3 wrkstat  labor force status                    "Last week were you working full time, part time, going to school, keeping house, or what?"   "[1] workin… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         3 https:/…</span></span>
+<span><span class="co">#&gt;  4 hrs1     number of hours worked last week      "Last week were you working full time, part time, going to school, keeping house, or what?\n… "[89] 89+ h… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         4 https:/…</span></span>
+<span><span class="co">#&gt;  5 hrs2     number of hours usually work a week   "Last week were you working full time, part time, going to school, keeping house, or what?\n… "[89] 89+ h… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         5 https:/…</span></span>
+<span><span class="co">#&gt;  6 evwork   ever work as long as one year         "Last week were you working full time, part time, going to school, keeping house, or what?\n… "[1] yes / … &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         6 https:/…</span></span>
+<span><span class="co">#&gt;  7 occ      R's census occupation code (1970)     "A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?… "[NA(d)] do… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         7 https:/…</span></span>
+<span><span class="co">#&gt;  8 prestige r's occupational prestige score(1970) "A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?… "[NA(d)] do… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         8 https:/…</span></span>
+<span><span class="co">#&gt;  9 wrkslf   r self-emp or works for somebody      "A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?… "[1] self-e… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         9 https:/…</span></span>
+<span><span class="co">#&gt; 10 wrkgovt  govt or private employee              "A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?… "[1] govern… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;        10 https:/…</span></span>
+<span><span class="co">#&gt; # ℹ 6,894 more rows</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="official-gss-documentation">Official GSS Documentation<a class="anchor" aria-label="anchor" href="#official-gss-documentation"></a>
 </h2>
-<p>The <a href="https://gss.norc.org/us/en/gss/get-documentation.html" class="external-link">GSS Documentation Page</a> contains links to extensive technical documentation for the survey, including <a href="https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/Release%20Notes%207224.pdf" class="external-link">Release Notes for the 1972-2024 Cumulative File</a> and <a href="https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/GSS%202024%20-%20Whats%20New.pdf" class="external-link">What’s New in 2024</a>.</p>
+</div>
+<div class="section level2">
+<h2 id="official-gss-documentation-1">Official GSS Documentation<a class="anchor" aria-label="anchor" href="#official-gss-documentation-1"></a>
+</h2>
+<p>The <a href="https://gss.norc.org/us/en/gss/get-documentation.html" class="external-link">GSS Documentation Page</a> contains links to extensive technical documentation for the survey, including <a href="https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/Release%20Notes%207224%20R2.pdf" class="external-link">Release Notes for the 1972-2024 R2 Cumulative File</a> and <a href="https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/GSS%202024%20-%20Whats%20New%20R2.pdf" class="external-link">What’s New in 2024 R2</a>.</p>
 </div>
 <div class="section level2">
 <h2 id="further-details">Further details<a class="anchor" aria-label="anchor" href="#further-details"></a>
