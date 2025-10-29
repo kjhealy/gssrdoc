@@ -389,6 +389,9 @@ docstring <- gss_doc_rd |>
   pull(rd6) |>
   fix_chrs() # clean-up encoding; second pass catches the crosstabs
 
+## Save the docstring object for use in making the Topics vignette, make_topics_rds.R
+saveRDS(docstring, here("data-raw", "objects", "docstring.rda"))
+
 ## Chunk it into a list we can walk
 ## We pick a small ceiling number here (so, more files)
 ## the better to let future_ do its work, esp with the Rd rendering
