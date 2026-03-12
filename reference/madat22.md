@@ -1,0 +1,72 @@
+# Angry at an object, circumstances, etc
+
+madat22
+
+## Source
+
+General Social Survey https://gss.norc.org
+
+## Details
+
+Question Who were you angry, irritated or annoyed at? (IF RESPONDENT
+GIVES A NAME, PROBE WITH "and who is name... what relationship is he/she
+to you?" IF UNSURE ABOUT RELATIONSHIP AFTER RESPONDENT'S DESCRIPTION,
+READ THE FIELD CODE THAT YOU THINK IS CLOSEST – e.g., "so that's a
+co-worker?") CIRCLE ALL THAT APPLY. V. Not angry at anyone (not angry at
+a person, but an object, circumstances, etc.)
+
+## Values
+
+- `[1]` yes
+
+- `[2]` no
+
+- `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job
+  `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable
+  `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable
+  `[NA(x)]` not available in this release `[NA(y)]` not available in
+  this year `[NA(z)]` see codebook
+
+## Question Years and Ballots
+
+|         |       |
+|---------|-------|
+| ballots | years |
+| A/B/C   | 1996  |
+
+## Overview
+
+For further details see the [GSS Data Explorer page for
+`madat22`](https://gssdataexplorer.norc.org/variables/1762/vshow).
+
+Counts by year:
+
+|       |      |     |      |           |                            |       |
+|-------|------|-----|------|-----------|----------------------------|-------|
+| year  | iap  | yes | no   | no answer | not available in this year | Total |
+| 1996  | 1779 | 93  | 1025 | 7         | \-                         | 2904  |
+| Total | 1779 | 93  | 1025 | 7         | 0                          | 2904  |
+
+## See also
+
+Other Emotions:
+[`angrlast`](https://kjhealy.github.io/gssrdoc/reference/angrlast.md),
+[`chnang1`](https://kjhealy.github.io/gssrdoc/reference/chnang1.md),
+[`chnang2`](https://kjhealy.github.io/gssrdoc/reference/chnang2.md),
+[`chnang3`](https://kjhealy.github.io/gssrdoc/reference/chnang3.md),
+[`chnang4`](https://kjhealy.github.io/gssrdoc/reference/chnang4.md),
+[`chnang5`](https://kjhealy.github.io/gssrdoc/reference/chnang5.md),
+[`howangry`](https://kjhealy.github.io/gssrdoc/reference/howangry.md),
+[`madat23`](https://kjhealy.github.io/gssrdoc/reference/madat23.md),
+[`thnkangr`](https://kjhealy.github.io/gssrdoc/reference/thnkangr.md)
+
+Other Feelings:
+[`angrlast`](https://kjhealy.github.io/gssrdoc/reference/angrlast.md),
+[`chnang1`](https://kjhealy.github.io/gssrdoc/reference/chnang1.md),
+[`chnang2`](https://kjhealy.github.io/gssrdoc/reference/chnang2.md),
+[`chnang3`](https://kjhealy.github.io/gssrdoc/reference/chnang3.md),
+[`chnang4`](https://kjhealy.github.io/gssrdoc/reference/chnang4.md),
+[`chnang5`](https://kjhealy.github.io/gssrdoc/reference/chnang5.md),
+[`howangry`](https://kjhealy.github.io/gssrdoc/reference/howangry.md),
+[`madat23`](https://kjhealy.github.io/gssrdoc/reference/madat23.md),
+[`thnkangr`](https://kjhealy.github.io/gssrdoc/reference/thnkangr.md)

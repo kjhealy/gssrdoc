@@ -1,0 +1,73 @@
+# Done volunteer work in informal-alone
+
+volinfrm
+
+## Source
+
+General Social Survey https://gss.norc.org
+
+## Details
+
+Question Listed on this card are examples of the many different areas in
+which people do volunteer activity. By volunteer activity I mean not
+just belonging to a service organization, but actually working in some
+way to help others for no monetary pay. In which, if any, of the areas
+listed on this card have you done some volunteer work in the past twelve
+months? (DON'T READ. RECORD BELOW UNDER VOLHLTH-VOLOTH. CIRCLE "YES" OR
+"NO" FOR EACH AREA) N. Informal-alone-not-for-pay
+
+## Values
+
+- `[1]` yes
+
+- `[2]` no
+
+- `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job
+  `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable
+  `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable
+  `[NA(x)]` not available in this release `[NA(y)]` not available in
+  this year `[NA(z)]` see codebook
+
+## Question Years and Ballots
+
+|         |       |
+|---------|-------|
+| ballots | years |
+| A/B/C   | 1996  |
+
+## Overview
+
+For further details see the [GSS Data Explorer page for
+`volinfrm`](https://gssdataexplorer.norc.org/variables/1898/vshow).
+
+Counts by year:
+
+|       |      |     |      |           |                            |       |
+|-------|------|-----|------|-----------|----------------------------|-------|
+| year  | iap  | yes | no   | no answer | not available in this year | Total |
+| 1996  | 1460 | 102 | 1240 | 102       | \-                         | 2904  |
+| Total | 1460 | 102 | 1240 | 102       | 0                          | 2904  |
+
+## See also
+
+Other Markets & Exchange - Giving & Volunteering:
+[`moneduc`](https://kjhealy.github.io/gssrdoc/reference/moneduc.md),
+[`monhlth`](https://kjhealy.github.io/gssrdoc/reference/monhlth.md),
+[`volart`](https://kjhealy.github.io/gssrdoc/reference/volart.md),
+[`volfound`](https://kjhealy.github.io/gssrdoc/reference/volfound.md),
+[`volintl`](https://kjhealy.github.io/gssrdoc/reference/volintl.md),
+[`voloth`](https://kjhealy.github.io/gssrdoc/reference/voloth.md),
+[`volpol`](https://kjhealy.github.io/gssrdoc/reference/volpol.md),
+[`volwork`](https://kjhealy.github.io/gssrdoc/reference/volwork.md),
+[`volyouth`](https://kjhealy.github.io/gssrdoc/reference/volyouth.md)
+
+Other Voluntary Associations:
+[`moneduc`](https://kjhealy.github.io/gssrdoc/reference/moneduc.md),
+[`monhlth`](https://kjhealy.github.io/gssrdoc/reference/monhlth.md),
+[`volart`](https://kjhealy.github.io/gssrdoc/reference/volart.md),
+[`volfound`](https://kjhealy.github.io/gssrdoc/reference/volfound.md),
+[`volintl`](https://kjhealy.github.io/gssrdoc/reference/volintl.md),
+[`voloth`](https://kjhealy.github.io/gssrdoc/reference/voloth.md),
+[`volpol`](https://kjhealy.github.io/gssrdoc/reference/volpol.md),
+[`volwork`](https://kjhealy.github.io/gssrdoc/reference/volwork.md),
+[`volyouth`](https://kjhealy.github.io/gssrdoc/reference/volyouth.md)

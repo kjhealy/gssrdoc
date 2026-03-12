@@ -1,0 +1,101 @@
+# Respondents income
+
+rincom82
+
+## Source
+
+General Social Survey https://gss.norc.org
+
+## Details
+
+Question Respondent's income on 1982-85 surveys. For question wording,
+see RINCOME.
+
+## Values
+
+- `[1]` lt \$1000
+
+- `[2]` \$1000-2999
+
+- `[3]` \$3000-3999
+
+- `[4]` \$4000-4999
+
+- `[5]` \$5000-5999
+
+- `[6]` \$6000-6999
+
+- `[7]` \$7000-7999
+
+- `[8]` \$8000-9999
+
+- `[9]` \$10000-12499
+
+- `[10]` \$12500-14999
+
+- `[11]` \$15000-17499
+
+- `[12]` \$17500-19999
+
+- `[13]` \$20000-22499
+
+- `[14]` \$22500-24999
+
+- `[15]` \$25000-34999
+
+- `[16]` \$35000-49999
+
+- `[17]` \$50000+
+
+- `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job
+  `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable
+  `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable
+  `[NA(x)]` not available in this release `[NA(y)]` not available in
+  this year `[NA(z)]` see codebook
+
+## Question Years and Ballots
+
+|         |                        |
+|---------|------------------------|
+| ballots | years                  |
+| \-      | 1982, 1983, 1984, 1985 |
+
+## Overview
+
+For further details see the [GSS Data Explorer page for
+`rincom82`](https://gssdataexplorer.norc.org/variables/110/vshow).
+
+Counts by year:
+
+|       |      |           |             |             |             |             |             |             |             |               |               |               |               |               |               |               |               |          |            |           |         |                            |       |
+|-------|------|-----------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|----------|------------|-----------|---------|----------------------------|-------|
+| year  | iap  | lt \$1000 | \$1000-2999 | \$3000-3999 | \$4000-4999 | \$5000-5999 | \$6000-6999 | \$7000-7999 | \$8000-9999 | \$10000-12499 | \$12500-14999 | \$15000-17499 | \$17500-19999 | \$20000-22499 | \$22500-24999 | \$25000-34999 | \$35000-49999 | \$50000+ | don't know | no answer | refused | not available in this year | Total |
+| 1982  | 651  | 60        | 78          | 61          | 49          | 46          | 49          | 42          | 78          | 118           | 117           | 81            | 71            | 79            | 53            | 90            | 31            | 22       | 8          | 22        | 54      | \-                         | 1860  |
+| 1983  | 532  | 49        | 68          | 39          | 31          | 38          | 36          | 39          | 75          | 117           | 74            | 64            | 68            | 54            | 61            | 96            | 59            | 26       | 12         | 15        | 46      | \-                         | 1599  |
+| 1984  | 493  | 44        | 67          | 33          | 39          | 39          | 29          | 41          | 52          | 93            | 83            | 55            | 60            | 67            | 55            | 89            | 54            | 33       | 15         | 9         | 23      | \-                         | 1473  |
+| 1985  | 530  | 42        | 56          | 47          | 24          | 32          | 46          | 34          | 42          | 77            | 87            | 74            | 49            | 63            | 50            | 118           | 64            | 53       | 8          | \-        | 38      | \-                         | 1534  |
+| Total | 2206 | 195       | 269         | 180         | 143         | 155         | 160         | 156         | 247         | 405           | 361           | 274           | 248           | 263           | 219           | 393           | 208           | 134      | 43         | 46        | 161     | 0                          | 6466  |
+
+## See also
+
+Other Core:
+[`income72`](https://kjhealy.github.io/gssrdoc/reference/income72.md),
+[`income77`](https://kjhealy.github.io/gssrdoc/reference/income77.md),
+[`income82`](https://kjhealy.github.io/gssrdoc/reference/income82.md),
+[`income86`](https://kjhealy.github.io/gssrdoc/reference/income86.md),
+[`income91`](https://kjhealy.github.io/gssrdoc/reference/income91.md),
+[`income98`](https://kjhealy.github.io/gssrdoc/reference/income98.md),
+[`rincom77`](https://kjhealy.github.io/gssrdoc/reference/rincom77.md),
+[`rincom86`](https://kjhealy.github.io/gssrdoc/reference/rincom86.md),
+[`rincom91`](https://kjhealy.github.io/gssrdoc/reference/rincom91.md)
+
+Other Income:
+[`income72`](https://kjhealy.github.io/gssrdoc/reference/income72.md),
+[`income77`](https://kjhealy.github.io/gssrdoc/reference/income77.md),
+[`income82`](https://kjhealy.github.io/gssrdoc/reference/income82.md),
+[`income86`](https://kjhealy.github.io/gssrdoc/reference/income86.md),
+[`income91`](https://kjhealy.github.io/gssrdoc/reference/income91.md),
+[`income98`](https://kjhealy.github.io/gssrdoc/reference/income98.md),
+[`rincom77`](https://kjhealy.github.io/gssrdoc/reference/rincom77.md),
+[`rincom86`](https://kjhealy.github.io/gssrdoc/reference/rincom86.md),
+[`rincom91`](https://kjhealy.github.io/gssrdoc/reference/rincom91.md)

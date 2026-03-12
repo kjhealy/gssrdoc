@@ -364,6 +364,9 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/amsports.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/amtv.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/ancestrs.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/aneseligible.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/anespost_status.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/anespre_status.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/angrlast.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/angry.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/angryev.html</loc></url>
@@ -862,11 +865,13 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/chldhome.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/chldhrt.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/chldidel.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/chldidel_next.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/chldlove.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/chldmore.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/chldmorl.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/chldnum.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/chldprb.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/chldpref_next.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/chldprob.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/chldsafe.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/chldsch.html</loc></url>
@@ -1215,6 +1220,12 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/crack30.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/creation.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/creator.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/credam.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/credcar.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/credchoice.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/credemp.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/credland.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/credrep.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/crelesse.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/crimdown.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/crimfirm.html</loc></url>
@@ -1272,6 +1283,7 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/dataprot.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/datefrst.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/dateintv.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/dateintv_next.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/datesch.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/daucall.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/daunum.html</loc></url>
@@ -1506,6 +1518,7 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/dwelcity.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/dwell5.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/dwelling.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/dwelling_8222.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/dwellpre.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/dwelngh.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/dwelown.html</loc></url>
@@ -1904,6 +1917,7 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/famgen_7522.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/famgen_exp.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/famgen_exp_22.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/famgen_next.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/famhsps.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/family16.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/family16sex.html</loc></url>
@@ -2474,6 +2488,7 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/hapmar.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/happy.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/happy7.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/happy_next.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/haprom.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/hapunhap.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/harass5.html</loc></url>
@@ -2528,6 +2543,7 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/hhtype.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/hhtype1.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/hhtype1_exp.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/hhtype1_next.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/hhwkdis.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/hhwkfair.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/hiinc.html</loc></url>
@@ -2911,6 +2927,7 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/intaccprxy.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/intaccss.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/intage.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/intage_0418.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/intapps.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/intbhlf.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/intcnfrm.html</loc></url>
@@ -2982,6 +2999,7 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/intwkenh.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/intwkenm.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/intyrs.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/intyrs_0418.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/inuit.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/inuitway.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/invest12.html</loc></url>
@@ -3232,6 +3250,7 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/knwpatnt.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/knwpolar.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/knwsci.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/knwsexor.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/knwtcher.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/knwwht.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/laborpow.html</loc></url>
@@ -3738,6 +3757,8 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/mhvioslf.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/mhwedrel.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/mhwkwith.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/migage.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/mighist.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/migrpoor.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/milokfe.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/milokme.html</loc></url>
@@ -4551,6 +4572,8 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/perhrh.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/perhro.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/perhrw.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/perla.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/perla_self.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/perminh.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/permino.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/perminw.html</loc></url>
@@ -4568,6 +4591,7 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/petfam.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/petition.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/petplay.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/petsseq.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/phase.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/phone.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/phyeffrt.html</loc></url>
@@ -5246,6 +5270,7 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/relsprt2.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/reltime.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/reltrad.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/reltrad16.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/reltruth.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/relvisit.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/reorg.html</loc></url>
@@ -6128,7 +6153,17 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/toofast.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/toofewwk.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/topprob1.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/topprob1_next.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/topprob2.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/topprob2_crim.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/topprob2_econ.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/topprob2_educ.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/topprob2_envr.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/topprob2_hlth.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/topprob2_immg.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/topprob2_none.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/topprob2_povt.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/topprob2_terr.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/totalincentive.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/totalnum.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/totart.html</loc></url>
@@ -6671,6 +6706,9 @@
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/wordl.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/wordn.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/wordsum.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/wordsum7.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/wordsumnew.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssrdoc/reference/wordsumold.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/worecsup.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/work1.html</loc></url>
 <url><loc>https://kjhealy.github.io/gssrdoc/reference/work10.html</loc></url>

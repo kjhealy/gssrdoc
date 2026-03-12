@@ -1,0 +1,75 @@
+# X should be forced to go to mental hospital by law
+
+mhmnthsp
+
+## Source
+
+General Social Survey https://gss.norc.org
+
+## Details
+
+Question Some countries have laws that force people with situations like
+(NAME)'s into psychiatric treatment. Do you think that people like
+(NAME) definitely should be, probably should be, probably shouldn't be,
+or definitely shouldn't be forced by law to… D. Go to a mental hospital
+for treatment?
+
+## Values
+
+- `[1]` definitely should be
+
+- `[2]` probably should be
+
+- `[3]` probably should not be
+
+- `[4]` definitely should not be
+
+- `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job
+  `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable
+  `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable
+  `[NA(x)]` not available in this release `[NA(y)]` not available in
+  this year `[NA(z)]` see codebook
+
+## Question Years and Ballots
+
+|         |       |
+|---------|-------|
+| ballots | years |
+| D       | 2006  |
+
+## Overview
+
+For further details see the [GSS Data Explorer page for
+`mhmnthsp`](https://gssdataexplorer.norc.org/variables/3798/vshow).
+
+Counts by year:
+
+|       |      |                      |                    |                        |                          |              |           |                            |       |
+|-------|------|----------------------|--------------------|------------------------|--------------------------|--------------|-----------|----------------------------|-------|
+| year  | iap  | definitely should be | probably should be | probably should not be | definitely should not be | can't choose | no answer | not available in this year | Total |
+| 2006  | 3085 | 107                  | 326                | 456                    | 490                      | 37           | 9         | \-                         | 4510  |
+| Total | 3085 | 107                  | 326                | 456                    | 490                      | 37           | 9         | 0                          | 4510  |
+
+## See also
+
+Other Mental Health IV:
+[`mhfamshm`](https://kjhealy.github.io/gssrdoc/reference/mhfamshm.md),
+[`mhgvtdis`](https://kjhealy.github.io/gssrdoc/reference/mhgvtdis.md),
+[`mhgvtedc`](https://kjhealy.github.io/gssrdoc/reference/mhgvtedc.md),
+[`mhgvthlt`](https://kjhealy.github.io/gssrdoc/reference/mhgvthlt.md),
+[`mhgvthme`](https://kjhealy.github.io/gssrdoc/reference/mhgvthme.md),
+[`mhhsptrt`](https://kjhealy.github.io/gssrdoc/reference/mhhsptrt.md),
+[`mhmeds`](https://kjhealy.github.io/gssrdoc/reference/mhmeds.md),
+[`mhseedoc`](https://kjhealy.github.io/gssrdoc/reference/mhseedoc.md),
+[`mhslfshm`](https://kjhealy.github.io/gssrdoc/reference/mhslfshm.md)
+
+Other Mental Health:
+[`mhfamshm`](https://kjhealy.github.io/gssrdoc/reference/mhfamshm.md),
+[`mhgvtdis`](https://kjhealy.github.io/gssrdoc/reference/mhgvtdis.md),
+[`mhgvtedc`](https://kjhealy.github.io/gssrdoc/reference/mhgvtedc.md),
+[`mhgvthlt`](https://kjhealy.github.io/gssrdoc/reference/mhgvthlt.md),
+[`mhgvthme`](https://kjhealy.github.io/gssrdoc/reference/mhgvthme.md),
+[`mhhsptrt`](https://kjhealy.github.io/gssrdoc/reference/mhhsptrt.md),
+[`mhmeds`](https://kjhealy.github.io/gssrdoc/reference/mhmeds.md),
+[`mhseedoc`](https://kjhealy.github.io/gssrdoc/reference/mhseedoc.md),
+[`mhslfshm`](https://kjhealy.github.io/gssrdoc/reference/mhslfshm.md)

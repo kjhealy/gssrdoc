@@ -24,7 +24,7 @@
 
     <a class="navbar-brand me-2" href="index.html">gssrdoc</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.8.2</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.9</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +51,7 @@
 </h1></div>
 <!-- badges: start -->
 
-<p>Documentation for the General Social Survey Cumulative Data (1972-2024, R2) packaged for easy use in R. This package is a companion to the <a href="https://kjhealy.github.io/gssr" class="external-link"><code>gssr</code></a> package. I recommend you install both of them.</p>
+<p>Documentation for the General Social Survey Cumulative Data (1972-2024, R3) packaged for easy use in R. This package is a companion to the <a href="https://kjhealy.github.io/gssr" class="external-link"><code>gssr</code></a> package. I recommend you install both of them.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
@@ -84,25 +84,25 @@
 <p><a href="https://github.com/kjhealy/gssrdoc" class="external-link">gssrdoc</a> provides documentation for all GSS variables in the cumulative data file via R’s help system. You can browse variables by name in the package’s help file or type <code>?</code> followed by the name of the variable at the console to get a standard R help page containing information on the variable, the values it takes, and the years and ballots it is available for. This makes it much easier to check GSS documentation while using R in an IDE such as RStudio, VSCode, or Positron. The help page for each variable links to the <a href="https://gssdataexplorer.norc.org" class="external-link">GSS Data Explorer</a> page for that variable. The “See Also” section at the bottom of the help page incorporates the GSS’s own cross-referencing by module. The <a href="https://kjhealy.github.io/gssrdoc">documentation website for the packge</a> has a full listing of the variables and a topical index organized by survey module and the GSS’s own subject tags.</p>
 <p><img src="reference/figures/readme_sshot.png" alt="Example help page"></p>
 <p>Information about the variables is also contained in the <code>gss_doc</code> object:</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://tibble.tidyverse.org/" class="external-link">tibble</a></span><span class="op">)</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/kjhealy/gssrdoc" class="external-link">gssrdoc</a></span><span class="op">)</span></span>
-<span></span>
-<span><span class="va">gss_doc</span></span>
-<span><span class="co">#&gt; # A tibble: 6,904 × 10</span></span>
-<span><span class="co">#&gt;    variable description                           question                                                                                      value_labels var_yrtab yrballot_df module_df subject_df norc_id norc_url</span></span>
-<span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;                                 &lt;chr&gt;                                                                                         &lt;chr&gt;        &lt;list&gt;    &lt;list&gt;      &lt;list&gt;    &lt;list&gt;       &lt;int&gt; &lt;chr&gt;   </span></span>
-<span><span class="co">#&gt;  1 year     GSS year for this respondent          "GSS year"                                                                                    "[NA(d)] do… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         1 https:/…</span></span>
-<span><span class="co">#&gt;  2 id       Respondent id number                  "Respondent id number"                                                                        ""           &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         2 https:/…</span></span>
-<span><span class="co">#&gt;  3 wrkstat  labor force status                    "Last week were you working full time, part time, going to school, keeping house, or what?"   "[1] workin… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         3 https:/…</span></span>
-<span><span class="co">#&gt;  4 hrs1     number of hours worked last week      "Last week were you working full time, part time, going to school, keeping house, or what?\n… "[89] 89+ h… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         4 https:/…</span></span>
-<span><span class="co">#&gt;  5 hrs2     number of hours usually work a week   "Last week were you working full time, part time, going to school, keeping house, or what?\n… "[89] 89+ h… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         5 https:/…</span></span>
-<span><span class="co">#&gt;  6 evwork   ever work as long as one year         "Last week were you working full time, part time, going to school, keeping house, or what?\n… "[1] yes / … &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         6 https:/…</span></span>
-<span><span class="co">#&gt;  7 occ      R's census occupation code (1970)     "A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?… "[NA(d)] do… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         7 https:/…</span></span>
-<span><span class="co">#&gt;  8 prestige r's occupational prestige score(1970) "A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?… "[NA(d)] do… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         8 https:/…</span></span>
-<span><span class="co">#&gt;  9 wrkslf   r self-emp or works for somebody      "A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?… "[1] self-e… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         9 https:/…</span></span>
-<span><span class="co">#&gt; 10 wrkgovt  govt or private employee              "A. What kind of work do you (did you normally) do?  That is, what (is/was) your job called?… "[1] govern… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;        10 https:/…</span></span>
-<span><span class="co">#&gt; # ℹ 6,894 more rows</span></span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="fu">library</span>(tibble)</span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a><span class="fu">library</span>(gssrdoc)</span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a><span class="sc">&gt;</span> gss_doc</span>
+<span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a><span class="co"># A tibble: 6,942 × 10</span></span>
+<span id="cb3-6"><a href="#cb3-6" tabindex="-1"></a>   variable description                           question                                          value_labels var_yrtab yrballot_df module_df subject_df norc_id norc_url</span>
+<span id="cb3-7"><a href="#cb3-7" tabindex="-1"></a>   <span class="sc">&lt;</span>chr<span class="sc">&gt;</span>    <span class="er">&lt;</span>chr<span class="sc">&gt;</span>                                 <span class="er">&lt;</span>chr<span class="sc">&gt;</span>                                             <span class="er">&lt;</span>chr<span class="sc">&gt;</span>        <span class="er">&lt;</span>list<span class="sc">&gt;</span>    <span class="er">&lt;</span>list<span class="sc">&gt;</span>      <span class="er">&lt;</span>list<span class="sc">&gt;</span>    <span class="er">&lt;</span>list<span class="sc">&gt;</span>       <span class="er">&lt;</span>int<span class="sc">&gt;</span> <span class="er">&lt;</span>chr<span class="sc">&gt;</span>   </span>
+<span id="cb3-8"><a href="#cb3-8" tabindex="-1"></a> <span class="dv">1</span> year     GSS year <span class="cf">for</span> this respondent          <span class="st">"GSS year"</span>                                        <span class="st">"[NA(d)] do… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         1 https:/…</span></span>
+<span id="cb3-9"><a href="#cb3-9" tabindex="-1"></a><span class="st"> 2 id       Respondent id number                  "</span>Respondent id number<span class="st">"                            ""           &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         2 https:/…</span></span>
+<span id="cb3-10"><a href="#cb3-10" tabindex="-1"></a><span class="st"> 3 wrkstat  labor force status                    "</span>Last week were you working full time, part time… <span class="st">"[1] workin… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         3 https:/…</span></span>
+<span id="cb3-11"><a href="#cb3-11" tabindex="-1"></a><span class="st"> 4 hrs1     number of hours worked last week      "</span>Last week were you working full time, part time… <span class="st">"[89] 89+ h… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         4 https:/…</span></span>
+<span id="cb3-12"><a href="#cb3-12" tabindex="-1"></a><span class="st"> 5 hrs2     number of hours usually work a week   "</span>Last week were you working full time, part time… <span class="st">"[89] 89+ h… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         5 https:/…</span></span>
+<span id="cb3-13"><a href="#cb3-13" tabindex="-1"></a><span class="st"> 6 evwork   ever work as long as one year         "</span>Last week were you working full time, part time… <span class="st">"[1] yes / … &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         6 https:/…</span></span>
+<span id="cb3-14"><a href="#cb3-14" tabindex="-1"></a><span class="st"> 7 occ      R's census occupation code (1970)     "</span>A. What kind of work do <span class="fu">you</span> (did you normally) … <span class="st">"[NA(d)] do… &lt;chr [1]&gt; &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         7 https:/…</span></span>
+<span id="cb3-15"><a href="#cb3-15" tabindex="-1"></a><span class="st"> 8 prestige r's occupational prestige score(1970) "</span>A. What kind of work do <span class="fu">you</span> (did you normally) … <span class="st">"[NA(d)] do… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         8 https:/…</span></span>
+<span id="cb3-16"><a href="#cb3-16" tabindex="-1"></a><span class="st"> 9 wrkslf   r self-emp or works for somebody      "</span>A. What kind of work do <span class="fu">you</span> (did you normally) … <span class="st">"[1] self-e… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;         9 https:/…</span></span>
+<span id="cb3-17"><a href="#cb3-17" tabindex="-1"></a><span class="st">10 wrkgovt  govt or private employee              "</span>A. What kind of work do <span class="fu">you</span> (did you normally) … <span class="st">"[1] govern… &lt;tibble&gt;  &lt;tibble&gt;    &lt;tibble&gt;  &lt;tibble&gt;        10 https:/…</span></span>
+<span id="cb3-18"><a href="#cb3-18" tabindex="-1"></a><span class="st"># ℹ 6,932 more rows</span></span>
+<span id="cb3-19"><a href="#cb3-19" tabindex="-1"></a><span class="st"># ℹ Use `print(n = ...)` to see more rows</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="official-gss-documentation">Official GSS Documentation<a class="anchor" aria-label="anchor" href="#official-gss-documentation"></a>
@@ -111,7 +111,7 @@
 <div class="section level2">
 <h2 id="official-gss-documentation-1">Official GSS Documentation<a class="anchor" aria-label="anchor" href="#official-gss-documentation-1"></a>
 </h2>
-<p>The <a href="https://gss.norc.org/us/en/gss/get-documentation.html" class="external-link">GSS Documentation Page</a> contains links to extensive technical documentation for the survey, including <a href="https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/Release%20Notes%207224%20R2.pdf" class="external-link">Release Notes for the 1972-2024 R2 Cumulative File</a> and <a href="https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/GSS%202024%20-%20Whats%20New%20R2.pdf" class="external-link">What’s New in 2024 R2</a>.</p>
+<p>The <a href="https://gss.norc.org/us/en/gss/get-documentation.html" class="external-link">GSS Documentation Page</a> contains links to extensive technical documentation for the survey, including <a href="https://gss.norc.org/content/dam/gss/get-documentation/pdf/codebook/GSS%202024%20Codebook%20R3.pdf" class="external-link">Release Notes for the 1972-2024 R3 Cumulative File</a>.</p>
 </div>
 <div class="section level2">
 <h2 id="further-details">Further details<a class="anchor" aria-label="anchor" href="#further-details"></a>
@@ -168,7 +168,7 @@
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.3.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.2.0.</p>
 </div>
 
     </footer>

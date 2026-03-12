@@ -1,0 +1,59 @@
+# Health prevent doing desired activities past 4
+
+didlessp
+
+## Source
+
+General Social Survey https://gss.norc.org
+
+## Details
+
+Question Accomplished less than you would like?
+
+## Values
+
+- `[1]` yes
+
+- `[2]` no
+
+- `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job
+  `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable
+  `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable
+  `[NA(x)]` not available in this release `[NA(y)]` not available in
+  this year `[NA(z)]` see codebook
+
+## Question Years and Ballots
+
+|         |       |
+|---------|-------|
+| ballots | years |
+| A/B/C   | 2000  |
+
+## Overview
+
+For further details see the [GSS Data Explorer page for
+`didlessp`](https://gssdataexplorer.norc.org/variables/2679/vshow).
+
+Counts by year:
+
+|       |      |     |      |           |                            |       |
+|-------|------|-----|------|-----------|----------------------------|-------|
+| year  | iap  | yes | no   | no answer | not available in this year | Total |
+| 2000  | 1398 | 343 | 1067 | 9         | \-                         | 2817  |
+| Total | 1398 | 343 | 1067 | 9         | 0                          | 2817  |
+
+## See also
+
+Other Health Status:
+[`crelesse`](https://kjhealy.github.io/gssrdoc/reference/crelesse.md),
+[`didlesse`](https://kjhealy.github.io/gssrdoc/reference/didlesse.md),
+[`limitedp`](https://kjhealy.github.io/gssrdoc/reference/limitedp.md),
+[`modact`](https://kjhealy.github.io/gssrdoc/reference/modact.md),
+[`stairs`](https://kjhealy.github.io/gssrdoc/reference/stairs.md)
+
+Other Health:
+[`crelesse`](https://kjhealy.github.io/gssrdoc/reference/crelesse.md),
+[`didlesse`](https://kjhealy.github.io/gssrdoc/reference/didlesse.md),
+[`limitedp`](https://kjhealy.github.io/gssrdoc/reference/limitedp.md),
+[`modact`](https://kjhealy.github.io/gssrdoc/reference/modact.md),
+[`stairs`](https://kjhealy.github.io/gssrdoc/reference/stairs.md)

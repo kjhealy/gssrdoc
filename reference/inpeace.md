@@ -1,0 +1,80 @@
+# Feeling of inner peace important for freedom
+
+inpeace
+
+## Source
+
+General Social Survey https://gss.norc.org
+
+## Details
+
+Question I'm going to read you several statements about freedom. Each
+one may say something true and important about freedom, but I'd like to
+know how important each statement is to you. Is it one of the most
+important things about freedom, extremely important, very important,
+somewhat important, or not too important? C. True freedom is feeling an
+inner spiritual peace.
+
+## Values
+
+- `[1]` one of the most important
+
+- `[2]` extremely important
+
+- `[3]` very important
+
+- `[4]` moderately important
+
+- `[5]` somewhat important
+
+- `[6]` not too important
+
+- `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job
+  `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable
+  `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable
+  `[NA(x)]` not available in this release `[NA(y)]` not available in
+  this year `[NA(z)]` see codebook
+
+## Question Years and Ballots
+
+|         |       |
+|---------|-------|
+| ballots | years |
+| A/B/C   | 2000  |
+
+## Overview
+
+For further details see the [GSS Data Explorer page for
+`inpeace`](https://gssdataexplorer.norc.org/variables/2670/vshow).
+
+Counts by year:
+
+|       |      |                           |                     |                |                      |                    |                   |            |           |                            |       |
+|-------|------|---------------------------|---------------------|----------------|----------------------|--------------------|-------------------|------------|-----------|----------------------------|-------|
+| year  | iap  | one of the most important | extremely important | very important | moderately important | somewhat important | not too important | don't know | no answer | not available in this year | Total |
+| 2000  | 1398 | 507                       | 298                 | 370            | 120                  | 50                 | 28                | 22         | 24        | \-                         | 2817  |
+| Total | 1398 | 507                       | 298                 | 370            | 120                  | 50                 | 28                | 22         | 24        | 0                          | 2817  |
+
+## See also
+
+Other Freedom:
+[`choice`](https://kjhealy.github.io/gssrdoc/reference/choice.md),
+[`freenow`](https://kjhealy.github.io/gssrdoc/reference/freenow.md),
+[`howfree`](https://kjhealy.github.io/gssrdoc/reference/howfree.md),
+[`leftlone`](https://kjhealy.github.io/gssrdoc/reference/leftlone.md),
+[`nogovt`](https://kjhealy.github.io/gssrdoc/reference/nogovt.md),
+[`partpol`](https://kjhealy.github.io/gssrdoc/reference/partpol.md),
+[`rfreenow`](https://kjhealy.github.io/gssrdoc/reference/rfreenow.md),
+[`rhowfree`](https://kjhealy.github.io/gssrdoc/reference/rhowfree.md),
+[`satdemoc`](https://kjhealy.github.io/gssrdoc/reference/satdemoc.md)
+
+Other Freedom:
+[`choice`](https://kjhealy.github.io/gssrdoc/reference/choice.md),
+[`freenow`](https://kjhealy.github.io/gssrdoc/reference/freenow.md),
+[`howfree`](https://kjhealy.github.io/gssrdoc/reference/howfree.md),
+[`leftlone`](https://kjhealy.github.io/gssrdoc/reference/leftlone.md),
+[`nogovt`](https://kjhealy.github.io/gssrdoc/reference/nogovt.md),
+[`partpol`](https://kjhealy.github.io/gssrdoc/reference/partpol.md),
+[`rfreenow`](https://kjhealy.github.io/gssrdoc/reference/rfreenow.md),
+[`rhowfree`](https://kjhealy.github.io/gssrdoc/reference/rhowfree.md),
+[`satdemoc`](https://kjhealy.github.io/gssrdoc/reference/satdemoc.md)

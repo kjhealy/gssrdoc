@@ -1,0 +1,79 @@
+# Parents of small chldrn exempt frm draft
+
+draftpar
+
+## Source
+
+General Social Survey https://gss.norc.org
+
+## Details
+
+Question If the United States returned to a military draft, it would not
+be necessary to draft everyone of military age. That is, certain types
+of people could be exempted, even though they were otherwise qualified
+for service. C. Should parents of small children be exempted?
+
+## Values
+
+- `[1]` yes
+
+- `[2]` no, not exempt
+
+- `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job
+  `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable
+  `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable
+  `[NA(x)]` not available in this release `[NA(y)]` not available in
+  this year `[NA(z)]` see codebook
+
+## Question Years and Ballots
+
+|         |       |
+|---------|-------|
+| ballots | years |
+| \-      | 1982  |
+
+## Overview
+
+For further details see the [GSS Data Explorer page for
+`draftpar`](https://gssdataexplorer.norc.org/variables/808/vshow).
+
+Counts by year:
+
+|       |     |      |                |            |           |                            |       |
+|-------|-----|------|----------------|------------|-----------|----------------------------|-------|
+| year  | iap | yes  | no, not exempt | don't know | no answer | not available in this year | Total |
+| 1982  | \-  | 1312 | 501            | 43         | 4         | \-                         | 1860  |
+| Total | 0   | 1312 | 501            | 43         | 4         | 0                          | 1860  |
+
+## See also
+
+Other Core:
+[`draft`](https://kjhealy.github.io/gssrdoc/reference/draft.md),
+[`draftcol`](https://kjhealy.github.io/gssrdoc/reference/draftcol.md),
+[`draftem`](https://kjhealy.github.io/gssrdoc/reference/draftem.md),
+[`draftfe`](https://kjhealy.github.io/gssrdoc/reference/draftfe.md),
+[`draftfem`](https://kjhealy.github.io/gssrdoc/reference/draftfem.md),
+[`draftgay`](https://kjhealy.github.io/gssrdoc/reference/draftgay.md),
+[`draftmar`](https://kjhealy.github.io/gssrdoc/reference/draftmar.md),
+[`febrass`](https://kjhealy.github.io/gssrdoc/reference/febrass.md),
+[`fehlpmil`](https://kjhealy.github.io/gssrdoc/reference/fehlpmil.md)
+
+Other Military:
+[`draft`](https://kjhealy.github.io/gssrdoc/reference/draft.md),
+[`draftcol`](https://kjhealy.github.io/gssrdoc/reference/draftcol.md),
+[`draftem`](https://kjhealy.github.io/gssrdoc/reference/draftem.md),
+[`draftfe`](https://kjhealy.github.io/gssrdoc/reference/draftfe.md),
+[`draftfem`](https://kjhealy.github.io/gssrdoc/reference/draftfem.md),
+[`draftgay`](https://kjhealy.github.io/gssrdoc/reference/draftgay.md),
+[`draftmar`](https://kjhealy.github.io/gssrdoc/reference/draftmar.md),
+[`febrass`](https://kjhealy.github.io/gssrdoc/reference/febrass.md),
+[`fehlpmil`](https://kjhealy.github.io/gssrdoc/reference/fehlpmil.md)
+
+Other Split Ballots:
+[`draft`](https://kjhealy.github.io/gssrdoc/reference/draft.md),
+[`draftcol`](https://kjhealy.github.io/gssrdoc/reference/draftcol.md),
+[`draftem`](https://kjhealy.github.io/gssrdoc/reference/draftem.md),
+[`draftfe`](https://kjhealy.github.io/gssrdoc/reference/draftfe.md),
+[`draftfem`](https://kjhealy.github.io/gssrdoc/reference/draftfem.md),
+[`draftgay`](https://kjhealy.github.io/gssrdoc/reference/draftgay.md),
+[`draftmar`](https://kjhealy.github.io/gssrdoc/reference/draftmar.md)

@@ -1,0 +1,133 @@
+# Marital status of 7th person
+
+mar7
+
+## Source
+
+General Social Survey https://gss.norc.org
+
+## Details
+
+Question Please tell me the names of the people who usually live in this
+household. Let's start with the head of the household. (LIST ON LINES
+01-10 BELOW.) Have we forgotten anyone: such as babies or small
+children; roomers; people who usually live here, but are away
+temporarily–on business trips, vacations, at school, temporarily in a
+hospital, and so on? (LIST ADDITIONAL PERSONS ON LINES 01-10 BELOW.) Are
+there any people currently staying here–visitors, friends or
+relatives–do not usually live here? (LIST VISITORS ON LINES 11-14
+BELOW.) A. What is that (PERSON'S) relationship to the HEAD OF
+HOUSEHOLD? B. Code sex. (ASK IF NOT OBVIOUS). C. How old was
+(HEAD/PERSON) on (his/her) last birthday? D. IF 13 YRS OR OLDER ASK: Is
+(PERSON) now married, widowed, divorced, separated, or has (he/she)
+never been married? E. Are any of the people we have listed staying
+somewhere else right now? If yes, who is staying somewhere else right
+now? F. Where is (PERSON) staying right now? Is (PERSON) staying at
+another household; Is (he/she) traveling; Is (he/she) in some
+institution or dormitory–like at college or in a hospital or something;
+or what? 4. Marital status of seventh person
+
+## Values
+
+- `[1]` married
+
+- `[2]` widowed
+
+- `[3]` divorced
+
+- `[4]` separated
+
+- `[5]` never married
+
+- `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job
+  `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable
+  `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable
+  `[NA(x)]` not available in this release `[NA(y)]` not available in
+  this year `[NA(z)]` see codebook
+
+## Question Years and Ballots
+
+|         |                                                                                                                  |
+|---------|------------------------------------------------------------------------------------------------------------------|
+| ballots | years                                                                                                            |
+| A/B/C/- | 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022 |
+| A/B/C/D | 2006                                                                                                             |
+| Full    | 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987                                                 |
+
+## Overview
+
+For further details see the [GSS Data Explorer page for
+`mar7`](https://gssdataexplorer.norc.org/variables/5371/vshow).
+
+Counts by year:
+
+|       |       |         |               |           |         |          |           |            |                            |       |
+|-------|-------|---------|---------------|-----------|---------|----------|-----------|------------|----------------------------|-------|
+| year  | iap   | widowed | never married | no answer | married | divorced | separated | don't know | not available in this year | Total |
+| 1975  | 1478  | 2       | 10            | \-        | \-      | \-       | \-        | \-         | \-                         | 1490  |
+| 1976  | 1496  | 1       | 2             | \-        | \-      | \-       | \-        | \-         | \-                         | 1499  |
+| 1977  | 1520  | \-      | 9             | 1         | \-      | \-       | \-        | \-         | \-                         | 1530  |
+| 1978  | 1514  | \-      | 13            | 1         | 4       | \-       | \-        | \-         | \-                         | 1532  |
+| 1980  | 1459  | \-      | 6             | 3         | \-      | \-       | \-        | \-         | \-                         | 1468  |
+| 1982  | 1846  | 1       | 12            | 1         | \-      | \-       | \-        | \-         | \-                         | 1860  |
+| 1983  | 1590  | \-      | 8             | 1         | \-      | \-       | \-        | \-         | \-                         | 1599  |
+| 1984  | 1469  | \-      | 3             | \-        | 1       | \-       | \-        | \-         | \-                         | 1473  |
+| 1985  | 1528  | \-      | 4             | 1         | \-      | 1        | \-        | \-         | \-                         | 1534  |
+| 1986  | 1465  | 1       | 4             | \-        | \-      | \-       | \-        | \-         | \-                         | 1470  |
+| 1987  | 1807  | \-      | 7             | 5         | \-      | \-       | \-        | \-         | \-                         | 1819  |
+| 1988  | 1473  | \-      | 6             | 1         | 1       | \-       | \-        | \-         | \-                         | 1481  |
+| 1989  | 1529  | 1       | 5             | \-        | 1       | 1        | \-        | \-         | \-                         | 1537  |
+| 1990  | 1368  | \-      | 4             | \-        | \-      | \-       | \-        | \-         | \-                         | 1372  |
+| 1991  | 1515  | \-      | 2             | \-        | \-      | \-       | \-        | \-         | \-                         | 1517  |
+| 1993  | 1604  | \-      | 1             | \-        | 1       | \-       | \-        | \-         | \-                         | 1606  |
+| 1994  | 2987  | \-      | 3             | 1         | \-      | \-       | 1         | \-         | \-                         | 2992  |
+| 1996  | 2898  | 1       | 1             | 2         | 2       | \-       | \-        | \-         | \-                         | 2904  |
+| 1998  | 2822  | 1       | 8             | \-        | 1       | \-       | \-        | \-         | \-                         | 2832  |
+| 2000  | 2805  | \-      | 10            | \-        | 2       | \-       | \-        | \-         | \-                         | 2817  |
+| 2002  | 2763  | \-      | 2             | \-        | \-      | \-       | \-        | \-         | \-                         | 2765  |
+| 2004  | 2801  | \-      | 7             | \-        | 1       | 2        | 1         | \-         | \-                         | 2812  |
+| 2006  | 4497  | \-      | 11            | \-        | 1       | \-       | \-        | 1          | \-                         | 4510  |
+| 2008  | 2018  | \-      | 4             | \-        | 1       | \-       | \-        | \-         | \-                         | 2023  |
+| 2010  | 2033  | \-      | 9             | 2         | \-      | \-       | \-        | \-         | \-                         | 2044  |
+| 2012  | 1969  | \-      | 3             | \-        | 2       | \-       | \-        | \-         | \-                         | 1974  |
+| 2014  | 2533  | \-      | 4             | \-        | 1       | \-       | \-        | \-         | \-                         | 2538  |
+| 2016  | 2856  | \-      | 11            | \-        | \-      | \-       | \-        | \-         | \-                         | 2867  |
+| 2018  | 2343  | 1       | 2             | 1         | \-      | \-       | 1         | \-         | \-                         | 2348  |
+| 2021  | 4018  | 1       | 10            | \-        | 1       | 2        | \-        | \-         | \-                         | 4032  |
+| 2022  | 3536  | 1       | 3             | 1         | 2       | \-       | 1         | \-         | \-                         | 3544  |
+| Total | 67540 | 11      | 184           | 21        | 22      | 6        | 4         | 1          | 0                          | 67789 |
+
+## See also
+
+Other Household Members and Structure:
+[`away6`](https://kjhealy.github.io/gssrdoc/reference/away6.md),
+[`away7`](https://kjhealy.github.io/gssrdoc/reference/away7.md),
+[`gender6`](https://kjhealy.github.io/gssrdoc/reference/gender6.md),
+[`gender7`](https://kjhealy.github.io/gssrdoc/reference/gender7.md),
+[`mar6`](https://kjhealy.github.io/gssrdoc/reference/mar6.md),
+[`old6`](https://kjhealy.github.io/gssrdoc/reference/old6.md),
+[`old7`](https://kjhealy.github.io/gssrdoc/reference/old7.md),
+[`relate7`](https://kjhealy.github.io/gssrdoc/reference/relate7.md),
+[`where6`](https://kjhealy.github.io/gssrdoc/reference/where6.md)
+
+Other Family:
+[`away6`](https://kjhealy.github.io/gssrdoc/reference/away6.md),
+[`away7`](https://kjhealy.github.io/gssrdoc/reference/away7.md),
+[`gender6`](https://kjhealy.github.io/gssrdoc/reference/gender6.md),
+[`gender7`](https://kjhealy.github.io/gssrdoc/reference/gender7.md),
+[`mar6`](https://kjhealy.github.io/gssrdoc/reference/mar6.md),
+[`old6`](https://kjhealy.github.io/gssrdoc/reference/old6.md),
+[`old7`](https://kjhealy.github.io/gssrdoc/reference/old7.md),
+[`relate7`](https://kjhealy.github.io/gssrdoc/reference/relate7.md),
+[`where6`](https://kjhealy.github.io/gssrdoc/reference/where6.md)
+
+Other Household:
+[`away6`](https://kjhealy.github.io/gssrdoc/reference/away6.md),
+[`away7`](https://kjhealy.github.io/gssrdoc/reference/away7.md),
+[`gender6`](https://kjhealy.github.io/gssrdoc/reference/gender6.md),
+[`gender7`](https://kjhealy.github.io/gssrdoc/reference/gender7.md),
+[`mar6`](https://kjhealy.github.io/gssrdoc/reference/mar6.md),
+[`old6`](https://kjhealy.github.io/gssrdoc/reference/old6.md),
+[`old7`](https://kjhealy.github.io/gssrdoc/reference/old7.md),
+[`relate7`](https://kjhealy.github.io/gssrdoc/reference/relate7.md),
+[`where6`](https://kjhealy.github.io/gssrdoc/reference/where6.md)

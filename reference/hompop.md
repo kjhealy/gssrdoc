@@ -1,0 +1,103 @@
+# Number of persons in household
+
+hompop
+
+## Source
+
+General Social Survey https://gss.norc.org
+
+## Details
+
+Question Household Size and Composition (see Appendix D: Recodes, for
+information about these variables) As of 2024, HOMPOP has been
+calculated to only account for 0 to 14+ people in the household. This
+has been retroactively applied to all previous years of HOMPOP. The
+original HOMPOP containing data from 1972 to 2022 has been renamed
+HOMPOP_7222.
+
+## Values
+
+- `[14]` 14 or more
+
+- `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job
+  `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable
+  `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable
+  `[NA(x)]` not available in this release `[NA(y)]` not available in
+  this year `[NA(z)]` see codebook
+
+## Question Years and Ballots
+
+|         |                                                                                                                        |
+|---------|------------------------------------------------------------------------------------------------------------------------|
+| ballots | years                                                                                                                  |
+| A/B/C/- | 1988, 1989, 1990, 1991, 1993, 1994, 1996, 1998, 2000, 2002, 2004, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2022, 2024 |
+| A/B/C/D | 2006                                                                                                                   |
+| Full    | 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1982, 1983, 1984, 1985, 1986, 1987                                     |
+
+## Overview
+
+For further details see the [GSS Data Explorer page for
+`hompop`](https://gssdataexplorer.norc.org/variables/97/vshow).
+
+Counts by year:
+
+|       |       |     |     |     |            |       |       |       |      |      |     |     |     |     |           |      |       |
+|-------|-------|-----|-----|-----|------------|-------|-------|-------|------|------|-----|-----|-----|-----|-----------|------|-------|
+| year  | 1     | 10  | 11  | 12  | 14 or more | 2     | 3     | 4     | 5    | 6    | 7   | 8   | 9   | 13  | no answer | iap  | Total |
+| 1972  | 153   | 11  | 4   | 1   | 2          | 443   | 310   | 296   | 199  | 97   | 55  | 28  | 14  | \-  | \-        | \-   | 1613  |
+| 1973  | 154   | 4   | 1   | 1   | \-         | 445   | 277   | 297   | 168  | 88   | 39  | 19  | 9   | 1   | 1         | \-   | 1504  |
+| 1974  | 168   | 4   | 2   | 1   | \-         | 442   | 264   | 249   | 185  | 90   | 51  | 21  | 4   | 1   | 2         | \-   | 1484  |
+| 1975  | 200   | 3   | 1   | 1   | 1          | 440   | 301   | 254   | 159  | 77   | 33  | 14  | 6   | \-  | \-        | \-   | 1490  |
+| 1976  | 235   | 2   | 1   | 1   | \-         | 482   | 257   | 237   | 171  | 60   | 24  | 17  | 7   | 3   | 2         | \-   | 1499  |
+| 1977  | 261   | 2   | 2   | \-  | \-         | 472   | 286   | 257   | 138  | 72   | 19  | 12  | 9   | \-  | \-        | \-   | 1530  |
+| 1978  | 296   | 2   | \-  | \-  | 1          | 458   | 270   | 273   | 129  | 67   | 21  | 11  | 4   | \-  | \-        | \-   | 1532  |
+| 1980  | 288   | 6   | \-  | \-  | \-         | 493   | 259   | 248   | 107  | 38   | 22  | 6   | 1   | \-  | \-        | \-   | 1468  |
+| 1982  | 413   | 3   | 1   | 1   | \-         | 583   | 351   | 268   | 149  | 54   | 18  | 15  | 3   | 1   | \-        | \-   | 1860  |
+| 1983  | 309   | 2   | \-  | \-  | \-         | 500   | 302   | 270   | 133  | 47   | 24  | 8   | 4   | \-  | \-        | \-   | 1599  |
+| 1984  | 330   | 3   | \-  | \-  | \-         | 459   | 278   | 219   | 121  | 47   | 11  | 3   | 2   | \-  | \-        | \-   | 1473  |
+| 1985  | 343   | 4   | \-  | \-  | \-         | 510   | 269   | 230   | 120  | 35   | 13  | 7   | 3   | \-  | \-        | \-   | 1534  |
+| 1986  | 314   | 3   | \-  | \-  | \-         | 457   | 267   | 228   | 137  | 40   | 13  | 5   | 6   | \-  | \-        | \-   | 1470  |
+| 1987  | 420   | 5   | \-  | \-  | \-         | 532   | 340   | 293   | 144  | 59   | 16  | 6   | 4   | \-  | \-        | \-   | 1819  |
+| 1988  | 328   | \-  | \-  | \-  | \-         | 518   | 250   | 232   | 100  | 37   | 10  | 3   | 3   | \-  | \-        | \-   | 1481  |
+| 1989  | 327   | 3   | \-  | \-  | \-         | 504   | 269   | 259   | 106  | 35   | 21  | 8   | 5   | \-  | \-        | \-   | 1537  |
+| 1990  | 330   | \-  | \-  | \-  | \-         | 483   | 221   | 203   | 89   | 28   | 14  | 4   | \-  | \-  | \-        | \-   | 1372  |
+| 1991  | 377   | 2   | \-  | \-  | \-         | 476   | 275   | 241   | 98   | 29   | 14  | 2   | 2   | \-  | 1         | \-   | 1517  |
+| 1993  | 377   | \-  | \-  | \-  | \-         | 521   | 295   | 267   | 107  | 31   | 5   | 1   | 2   | \-  | \-        | \-   | 1606  |
+| 1994  | 760   | \-  | \-  | \-  | \-         | 1001  | 527   | 447   | 170  | 55   | 25  | 6   | 1   | \-  | \-        | \-   | 2992  |
+| 1996  | 744   | 1   | \-  | \-  | \-         | 988   | 454   | 453   | 152  | 71   | 29  | 8   | 4   | \-  | \-        | \-   | 2904  |
+| 1998  | 780   | 2   | \-  | \-  | \-         | 937   | 483   | 394   | 145  | 62   | 16  | 9   | 4   | \-  | \-        | \-   | 2832  |
+| 2000  | 742   | 5   | \-  | \-  | \-         | 929   | 459   | 433   | 160  | 64   | 15  | 2   | 8   | \-  | \-        | \-   | 2817  |
+| 2002  | 870   | 2   | \-  | \-  | \-         | 940   | 454   | 291   | 145  | 41   | 16  | 3   | 3   | \-  | \-        | \-   | 2765  |
+| 2004  | 706   | 1   | 1   | \-  | \-         | 1080  | 441   | 342   | 157  | 62   | 15  | 5   | 2   | \-  | \-        | \-   | 2812  |
+| 2006  | 1220  | 2   | 1   | \-  | \-         | 1563  | 716   | 590   | 267  | 100  | 37  | 11  | 3   | \-  | \-        | \-   | 4510  |
+| 2008  | 523   | \-  | 1   | \-  | \-         | 701   | 322   | 277   | 125  | 54   | 13  | 6   | 1   | \-  | \-        | \-   | 2023  |
+| 2010  | 612   | 3   | \-  | 2   | \-         | 718   | 318   | 224   | 85   | 46   | 24  | 6   | 6   | \-  | \-        | \-   | 2044  |
+| 2012  | 530   | 1   | \-  | \-  | \-         | 728   | 273   | 243   | 122  | 56   | 14  | 7   | \-  | \-  | \-        | \-   | 1974  |
+| 2014  | 695   | 1   | 1   | \-  | \-         | 997   | 385   | 261   | 132  | 47   | 15  | 1   | 3   | \-  | \-        | \-   | 2538  |
+| 2016  | 850   | 1   | 1   | \-  | \-         | 1069  | 436   | 278   | 139  | 58   | 19  | 9   | 7   | \-  | \-        | \-   | 2867  |
+| 2018  | 669   | 1   | 2   | \-  | \-         | 890   | 342   | 287   | 105  | 32   | 12  | 5   | 3   | \-  | \-        | \-   | 2348  |
+| 2021  | 1042  | \-  | 1   | \-  | 1          | 1456  | 586   | 449   | 184  | 70   | 23  | 15  | 2   | \-  | \-        | 203  | 4032  |
+| 2022  | 594   | \-  | \-  | 1   | \-         | 615   | 228   | 194   | 89   | 35   | 16  | 2   | 6   | \-  | \-        | 1764 | 3544  |
+| 2024  | 578   | 1   | 1   | \-  | \-         | 558   | 227   | 174   | 75   | 40   | 18  | 6   | 1   | \-  | \-        | 1630 | 3309  |
+| Total | 17538 | 80  | 21  | 9   | 5          | 24388 | 11992 | 10158 | 4812 | 1924 | 730 | 291 | 142 | 6   | 6         | 3597 | 75699 |
+
+## See also
+
+Other Core:
+[`adults`](https://kjhealy.github.io/gssrdoc/reference/adults.md),
+[`babies`](https://kjhealy.github.io/gssrdoc/reference/babies.md),
+[`earnrs`](https://kjhealy.github.io/gssrdoc/reference/earnrs.md),
+[`granborn`](https://kjhealy.github.io/gssrdoc/reference/granborn.md),
+[`income`](https://kjhealy.github.io/gssrdoc/reference/income.md),
+[`preteen`](https://kjhealy.github.io/gssrdoc/reference/preteen.md),
+[`rincome`](https://kjhealy.github.io/gssrdoc/reference/rincome.md),
+[`teens`](https://kjhealy.github.io/gssrdoc/reference/teens.md),
+[`unrelat`](https://kjhealy.github.io/gssrdoc/reference/unrelat.md)
+
+Other Household:
+[`adults`](https://kjhealy.github.io/gssrdoc/reference/adults.md),
+[`babies`](https://kjhealy.github.io/gssrdoc/reference/babies.md),
+[`earnrs`](https://kjhealy.github.io/gssrdoc/reference/earnrs.md),
+[`preteen`](https://kjhealy.github.io/gssrdoc/reference/preteen.md),
+[`teens`](https://kjhealy.github.io/gssrdoc/reference/teens.md),
+[`unrelat`](https://kjhealy.github.io/gssrdoc/reference/unrelat.md)
