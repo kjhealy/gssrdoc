@@ -10,13 +10,13 @@
 Source:
 [`inst/CITATION`](https://github.com/kjhealy/gssrdoc/blob/main/inst/CITATION)
 
-Healy K (2025). *gssrdoc: General Social Survey documentation for use in
-R*. R package version 0.8.0, <http://kjhealy.github.io/gssrdoc>.
+Healy K (2026). *gssrdoc: General Social Survey documentation for use in
+R*. R package version 0.9.0, <http://kjhealy.github.io/gssrdoc>.
 
     @Manual{gssr,
       title = {gssrdoc: General Social Survey documentation for use in R},
       author = {Kieran Healy},
-      year = {2025},
-      note = {R package version 0.8.0},
+      year = {2026},
+      note = {R package version 0.9.0},
       url = {http://kjhealy.github.io/gssrdoc},
     }
