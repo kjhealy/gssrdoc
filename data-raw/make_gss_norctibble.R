@@ -119,6 +119,12 @@ norc_var_details <- norc_var_details_raw |>
   rename(norc_id = var_id) |>
   mutate(var_name = tolower(var_name)) # Fucking 1970s-ass varnames
 
+## Save this out for later
+saveRDS(
+  norc_var_details,
+  here::here("data-raw", "objects", "norc_var_details.rda")
+)
+
 ## Now we have the NORC ids of the ones that didn't make it in the listing
 vars_to_append <- norc_var_details |>
   filter(var_name %in% missing_on_norc)
