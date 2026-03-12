@@ -44,27 +44,9 @@ Counts by year:\tabular{llllllllllll}{
 
 \seealso{
 Other ANES: 
-\code{\link{aneseligible}},
-\code{\link{anespost_status}},
-\code{\link{anespre_status}},
 \code{\link{lkelyvot}},
 \code{\link{polintrst}},
-\code{\link{ratechall124}},
-\code{\link{ratechall1ts}},
-\code{\link{ratechall224}},
-\code{\link{ratechall2ts}},
-\code{\link{ratechall324}},
-\code{\link{ratechall3ts}},
-\code{\link{ratedemp}},
-\code{\link{rateincumb24}},
-\code{\link{rateincumbts}},
-\code{\link{ratemaga}},
-\code{\link{raterepp}},
-\code{\link{satdemoc}},
-\code{\link{voteprob}},
-\code{\link{whovote24}},
-\code{\link{whovote24a}},
-\code{\link{whovotets}}
+\code{\link{whovote24a}}
 }
 \concept{ANES}
 \keyword{variable}

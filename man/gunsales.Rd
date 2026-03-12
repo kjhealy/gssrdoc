@@ -52,28 +52,12 @@ Other Gun Control:
 \code{\link{semiguns}}
 
 Other Guns: 
-\code{\link{crimdown}},
-\code{\link{crimup}},
-\code{\link{gun}},
-\code{\link{gunage}},
-\code{\link{gunfirm}},
-\code{\link{gunimp}},
-\code{\link{guninfo}},
-\code{\link{gunlaw}},
-\code{\link{gunnum}},
 \code{\link{guns911}},
 \code{\link{gunsdrnk}},
 \code{\link{gunsdrug}},
-\code{\link{hguncrim}},
-\code{\link{hgunlaw}},
 \code{\link{othguns}},
-\code{\link{owngun}},
-\code{\link{pistol}},
-\code{\link{rifle}},
 \code{\link{rifles50}},
-\code{\link{rowngun}},
-\code{\link{semiguns}},
-\code{\link{shotgun}}
+\code{\link{semiguns}}
 }
 \concept{Gun Control}
 \concept{Guns}

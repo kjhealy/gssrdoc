@@ -41,36 +41,20 @@ Counts by year:\tabular{lllllll}{
 
 \seealso{
 Other Women & Alcohol: 
-\code{\link{drink1}},
 \code{\link{drink12}},
-\code{\link{drink3}},
-\code{\link{drink5}},
 \code{\link{drink6up}},
 \code{\link{drink8}},
 \code{\link{drinkday}},
 \code{\link{drinkmax}},
-\code{\link{drinkmin}},
 \code{\link{drinkyr}}
 
 Other Drinking: 
-\code{\link{askdrink}},
-\code{\link{drink}},
-\code{\link{drink1}},
 \code{\link{drink12}},
-\code{\link{drink3}},
-\code{\link{drink5}},
 \code{\link{drink6up}},
 \code{\link{drink8}},
 \code{\link{drinkday}},
 \code{\link{drinkmax}},
-\code{\link{drinkmin}},
-\code{\link{drinkyr}},
-\code{\link{drugtest}},
-\code{\link{drunk}},
-\code{\link{hitdrunk}},
-\code{\link{hlth4}},
-\code{\link{hlth8}},
-\code{\link{socbar}}
+\code{\link{drinkyr}}
 }
 \concept{Drinking}
 \concept{Women & Alcohol}

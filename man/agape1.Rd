@@ -43,29 +43,6 @@ Counts by year:\tabular{lllllllllll}{
 }
 }
 
-\seealso{
-Other Altruistic Love: 
-\code{\link{agape2}},
-\code{\link{agape3}},
-\code{\link{agape4}}
-
-Other Values: 
-\code{\link{agape2}},
-\code{\link{agape3}},
-\code{\link{agape4}},
-\code{\link{impcultr}},
-\code{\link{impfinan}},
-\code{\link{impgod}},
-\code{\link{impjob}},
-\code{\link{impkids}},
-\code{\link{impmar}},
-\code{\link{impself}},
-\code{\link{impthngs}},
-\code{\link{openmind}},
-\code{\link{relcand}},
-\code{\link{relmarry}},
-\code{\link{united}}
-}
 \concept{Altruistic Love}
 \concept{Values}
 \keyword{variable}

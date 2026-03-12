@@ -44,13 +44,8 @@ Counts by year:\tabular{llllllll}{
 
 \seealso{
 Other Form Y: 
-\code{\link{pilloky}},
 \code{\link{polhitoy}},
 \code{\link{popespky}}
-
-Other Euthanasia: 
-\code{\link{letdie1}},
-\code{\link{letdie2}}
 }
 \concept{Euthanasia}
 \concept{Form Y}

@@ -53,60 +53,20 @@ Counts by year:\tabular{lllllllll}{
 
 \seealso{
 Other High Risk Behaviors: 
-\code{\link{acqntsex}},
-\code{\link{aidscndm}},
 \code{\link{aidslook}},
 \code{\link{condom}},
 \code{\link{crack30}},
 \code{\link{evcrack}},
-\code{\link{evpaidsx}},
-\code{\link{evstray}},
-\code{\link{frndsex}},
-\code{\link{hivkiss}},
 \code{\link{hivtest}},
 \code{\link{hivtest1}},
-\code{\link{hivtest1_0622}},
 \code{\link{hivtest2}},
-\code{\link{hivtest2_0622}},
-\code{\link{hivvac}},
 \code{\link{idu30}},
-\code{\link{matesex}},
-\code{\link{nocondom}},
-\code{\link{nodocidu}},
-\code{\link{nummen}},
-\code{\link{numwomen}},
-\code{\link{othersex}},
-\code{\link{paidsex}},
-\code{\link{partners}},
-\code{\link{partners_8822}},
-\code{\link{partnrs5}},
-\code{\link{partopen}},
-\code{\link{partopn5}},
-\code{\link{pikupsex}},
-\code{\link{ptnrsxnow1}},
-\code{\link{relatsex}},
-\code{\link{sexfreq}},
-\code{\link{sexfreq1}},
-\code{\link{sexfreq2}},
-\code{\link{sexornt}},
-\code{\link{sexornt1}},
-\code{\link{sexpaid}},
-\code{\link{sexsex}},
-\code{\link{sexsex5}}
+\code{\link{relatsex}}
 
 Other Drug Use And Addiction: 
-\code{\link{askdrugs}},
 \code{\link{crack30}},
-\code{\link{drugtest}},
 \code{\link{evcrack}},
-\code{\link{hlth5}},
-\code{\link{hlth8}},
-\code{\link{idu30}},
-\code{\link{kiddrugs}},
-\code{\link{natdrug}},
-\code{\link{natdrugy}},
-\code{\link{natdrugz}},
-\code{\link{spdrugs}}
+\code{\link{idu30}}
 }
 \concept{Drug Use And Addiction}
 \concept{High Risk Behaviors}

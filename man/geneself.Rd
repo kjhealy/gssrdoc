@@ -51,35 +51,15 @@ Other Genes:
 \code{\link{genedef2}},
 \code{\link{genedef3}},
 \code{\link{genegoo1}},
-\code{\link{genegoo2}},
-\code{\link{genegood}},
-\code{\link{genetest}},
-\code{\link{genetst1}}
+\code{\link{genegoo2}}
 
 Other Genetic Testing: 
-\code{\link{cloning}},
 \code{\link{geneabrt}},
-\code{\link{genecanx}},
-\code{\link{genecany}},
 \code{\link{genedef1}},
 \code{\link{genedef2}},
 \code{\link{genedef3}},
-\code{\link{geneexps}},
-\code{\link{genegets}},
 \code{\link{genegoo1}},
-\code{\link{genegoo2}},
-\code{\link{genegood}},
-\code{\link{genehire}},
-\code{\link{genejob}},
-\code{\link{genenvo1}},
-\code{\link{genenvo2}},
-\code{\link{genenvo3}},
-\code{\link{genenvo4}},
-\code{\link{genetest}},
-\code{\link{genetst1}},
-\code{\link{genevig1}},
-\code{\link{genevig2}},
-\code{\link{tomatoes}}
+\code{\link{genegoo2}}
 }
 \concept{Genes}
 \concept{Genetic Testing}

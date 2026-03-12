@@ -46,65 +46,12 @@ Counts by year:\tabular{llllllllll}{
 
 \seealso{
 Other Residence: 
-\code{\link{abroad}},
-\code{\link{agecmeus}},
-\code{\link{clsenei}},
-\code{\link{clsenoam}},
-\code{\link{clsestat}},
-\code{\link{clsetown}},
-\code{\link{clseusa}},
-\code{\link{comamind}},
-\code{\link{comtype}},
-\code{\link{comyear}},
-\code{\link{cshutyp06}},
-\code{\link{cshutyp08}},
-\code{\link{cshutyp10}},
-\code{\link{dwell5}},
 \code{\link{dwelling}},
-\code{\link{dwelling_8222}},
-\code{\link{dwelngh}},
-\code{\link{dwelown}},
-\code{\link{evdwell}},
-\code{\link{fear}},
-\code{\link{fearhome}},
-\code{\link{geomobil}},
-\code{\link{hspasn10}},
-\code{\link{liveasns}},
-\code{\link{livecom}},
-\code{\link{livecom1}},
-\code{\link{livehome}},
-\code{\link{livehsps}},
-\code{\link{loclived}},
-\code{\link{movenei}},
-\code{\link{movenoam}},
-\code{\link{movestat}},
-\code{\link{movetown}},
-\code{\link{moveusa}},
-\code{\link{region}},
-\code{\link{region_7222}},
-\code{\link{res16}},
-\code{\link{res161}},
-\code{\link{res2006}},
-\code{\link{size}},
-\code{\link{srcbelt}},
-\code{\link{xnorcsiz}}
+\code{\link{dwelngh}}
 
 Other Dwelling (R's): 
-\code{\link{bornhome}},
-\code{\link{cshutyp06}},
-\code{\link{cshutyp08}},
-\code{\link{cshutyp10}},
-\code{\link{dwell5}},
 \code{\link{dwelling}},
-\code{\link{dwelling_8222}},
-\code{\link{dwelngh}},
-\code{\link{dwelown}},
-\code{\link{evdwell}},
-\code{\link{geomobil}},
-\code{\link{huclean}},
-\code{\link{res2006}},
-\code{\link{res2008}},
-\code{\link{res2010}}
+\code{\link{dwelngh}}
 }
 \concept{Dwelling (R's)}
 \concept{Residence}

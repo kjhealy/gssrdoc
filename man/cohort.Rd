@@ -32,12 +32,6 @@ Question Birth cohort of respondent.
 Other Cohort and Birth: 
 \code{\link{marcohrt}},
 \code{\link{zodiac}}
-
-Other Age: 
-\code{\link{age}},
-\code{\link{agecmeus}},
-\code{\link{agekdbrn}},
-\code{\link{agekdbrn_9422}}
 }
 \concept{Age}
 \concept{Cohort and Birth}

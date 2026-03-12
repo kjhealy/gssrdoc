@@ -37,14 +37,6 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 }
 }
 
-\seealso{
-Other Date of Interview: 
-\code{\link{dateintv}}
-
-Other Date Of Interview: 
-\code{\link{dateintv}},
-\code{\link{year}()}
-}
 \concept{Date Of Interview}
 \concept{Date of Interview}
 \keyword{variable}

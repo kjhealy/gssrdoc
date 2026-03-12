@@ -28,14 +28,6 @@ Question Date of interview.
 }
 }
 
-\seealso{
-Other Date of Interview: 
-\code{\link{dateintv_next}}
-
-Other Date Of Interview: 
-\code{\link{dateintv_next}},
-\code{\link{year}()}
-}
 \concept{Date Of Interview}
 \concept{Date of Interview}
 \keyword{variable}

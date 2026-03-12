@@ -31,28 +31,6 @@ Question Marriage cohort of the respondent.
 Other Cohort and Birth: 
 \code{\link{cohort}},
 \code{\link{zodiac}}
-
-Other Marriage: 
-\code{\link{buythngs}},
-\code{\link{emoteoth}},
-\code{\link{femarry}},
-\code{\link{impmar}},
-\code{\link{mardiv}},
-\code{\link{marfin}},
-\code{\link{marfree}},
-\code{\link{marhappy}},
-\code{\link{markids}},
-\code{\link{marlegit}},
-\code{\link{marmakid}},
-\code{\link{marnomar}},
-\code{\link{marpakid}},
-\code{\link{memarry}},
-\code{\link{sharesep}},
-\code{\link{tradmod}},
-\code{\link{weekend}},
-\code{\link{willwed1}},
-\code{\link{willwed2}},
-\code{\link{wkndact}}
 }
 \concept{Cohort and Birth}
 \concept{Marriage}

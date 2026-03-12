@@ -50,65 +50,19 @@ Counts by year:\tabular{llllllll}{
 
 \seealso{
 Other Sampling and Weights: 
-\code{\link{ballot}},
-\code{\link{batch}},
 \code{\link{cshutyp06}},
-\code{\link{cshutyp08}},
-\code{\link{cshutyp10}},
-\code{\link{cshutyp12}},
-\code{\link{formwt}},
-\code{\link{issp}},
 \code{\link{oversamp}},
 \code{\link{phase}},
 \code{\link{res2006}},
 \code{\link{res2008}},
 \code{\link{res2010}},
 \code{\link{res2012}},
-\code{\link{sampcode}},
-\code{\link{sample}()},
 \code{\link{spaneng}},
-\code{\link{spanself}},
-\code{\link{subsamprate}},
-\code{\link{version}},
-\code{\link{vpsu}},
-\code{\link{vstrat}},
-\code{\link{wtss}},
-\code{\link{wtssall}},
-\code{\link{wtssnr}}
+\code{\link{spanself}}
 
 Other Interview: 
-\code{\link{comprend}},
-\code{\link{consent}},
-\code{\link{coop}},
-\code{\link{coop2}},
-\code{\link{easyget}},
-\code{\link{feelevel}},
-\code{\link{feeused}},
-\code{\link{id}},
-\code{\link{intage}},
-\code{\link{intage_0418}},
-\code{\link{intethn}},
-\code{\link{inthisp}},
-\code{\link{intid}},
-\code{\link{intrace1}},
-\code{\link{intrace2}},
-\code{\link{intrace3}},
-\code{\link{intrwght}},
-\code{\link{intsex}},
-\code{\link{intyrs}},
-\code{\link{intyrs_0418}},
-\code{\link{lngthinv}},
-\code{\link{mode}()},
-\code{\link{robject}},
-\code{\link{rundrstd}},
-\code{\link{saqgene}},
-\code{\link{saqissp}},
-\code{\link{saqsex}},
-\code{\link{sciintro}},
-\code{\link{scimode}},
 \code{\link{spaneng}},
-\code{\link{spanself}},
-\code{\link{year}()}
+\code{\link{spanself}}
 }
 \concept{Interview}
 \concept{Sampling and Weights}

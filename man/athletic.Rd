@@ -46,58 +46,22 @@ Counts by year:\tabular{lllllllllll}{
 
 \seealso{
 Other Genes and the Environment: 
-\code{\link{afailure}},
 \code{\link{depndabl}},
 \code{\link{geneexps}},
-\code{\link{genenvo1}},
-\code{\link{genenvo2}},
-\code{\link{genenvo3}},
-\code{\link{genenvo4}},
-\code{\link{genevig1}},
-\code{\link{genevig2}},
 \code{\link{intrwght}},
 \code{\link{kindpers}},
 \code{\link{moregood}},
-\code{\link{nogood}},
-\code{\link{notcount}},
-\code{\link{ofworth}},
-\code{\link{optimist}},
 \code{\link{owndoing}},
-\code{\link{pessimst}},
 \code{\link{sadblue}},
-\code{\link{satself}},
-\code{\link{selfish}},
-\code{\link{slfrspct}}
+\code{\link{selfish}}
 
 Other Satisfaction: 
-\code{\link{afailure}},
 \code{\link{depndabl}},
-\code{\link{jobsat}},
 \code{\link{kindpers}},
 \code{\link{moregood}},
-\code{\link{nogood}},
-\code{\link{notcount}},
-\code{\link{ofworth}},
-\code{\link{optimist}},
 \code{\link{owndoing}},
-\code{\link{pessimst}},
 \code{\link{sadblue}},
-\code{\link{satcar}},
-\code{\link{satcity}},
-\code{\link{satfam}},
-\code{\link{satfam7}},
-\code{\link{satfin}},
-\code{\link{satfixes}},
-\code{\link{satfrnd}},
-\code{\link{sathealt}},
-\code{\link{sathobby}},
-\code{\link{sathome}},
-\code{\link{satjob}},
-\code{\link{satjob7}},
-\code{\link{satself}},
-\code{\link{selfish}},
-\code{\link{slfrspct}},
-\code{\link{wktopsat}}
+\code{\link{selfish}}
 }
 \concept{Genes and the Environment}
 \concept{Satisfaction}
