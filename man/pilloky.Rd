@@ -41,6 +41,18 @@ Counts by year:\tabular{llllllllll}{
 }
 }
 
+\seealso{
+Other Form Y: 
+\code{\link{letdie1y}},
+\code{\link{polhitoy}},
+\code{\link{popespky}}
+
+Other Birth Control: 
+\code{\link{pill}},
+\code{\link{pillok}},
+\code{\link{sppill}},
+\code{\link{teenpill}}
+}
 \concept{Birth Control}
 \concept{Form Y}
 \keyword{variable}

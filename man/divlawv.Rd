@@ -36,9 +36,9 @@ For further details see the \href{https://gssdataexplorer.norc.org/variables/759
 Counts by year:\tabular{lllllllll}{
    year \tab iap \tab easier \tab more difficult \tab stay as is (phone mode only: volunteered) \tab don't know \tab no answer \tab skipped on web \tab Total \cr
    2021 \tab 2658 \tab 460 \tab 241 \tab 657 \tab 6 \tab 1 \tab 9 \tab 4032 \cr
-   2022 \tab 2998 \tab 205 \tab 66 \tab 269 \tab - \tab - \tab 6 \tab 3544 \cr
+   2022 \tab 2993 \tab 208 \tab 66 \tab 272 \tab - \tab - \tab 5 \tab 3544 \cr
    2024 \tab 2739 \tab 199 \tab 93 \tab 273 \tab - \tab - \tab 5 \tab 3309 \cr
-   Total \tab 8395 \tab 864 \tab 400 \tab 1199 \tab 6 \tab 1 \tab 20 \tab 10885 \cr
+   Total \tab 8390 \tab 867 \tab 400 \tab 1202 \tab 6 \tab 1 \tab 19 \tab 10885 \cr
 }
 }
 

@@ -40,17 +40,52 @@ Counts by year:\tabular{lllllllllllllllllllllllllll}{
 \seealso{
 Other Genes and the Environment: 
 \code{\link{afailure}},
+\code{\link{athletic}},
+\code{\link{depndabl}},
+\code{\link{geneexps}},
+\code{\link{genenvo1}},
+\code{\link{genenvo2}},
 \code{\link{genenvo4}},
+\code{\link{genevig1}},
+\code{\link{genevig2}},
+\code{\link{intrwght}},
+\code{\link{kindpers}},
+\code{\link{moregood}},
 \code{\link{nogood}},
 \code{\link{notcount}},
 \code{\link{ofworth}},
 \code{\link{optimist}},
+\code{\link{owndoing}},
 \code{\link{pessimst}},
+\code{\link{sadblue}},
 \code{\link{satself}},
+\code{\link{selfish}},
 \code{\link{slfrspct}}
 
 Other Genetic Testing: 
-\code{\link{genenvo4}}
+\code{\link{cloning}},
+\code{\link{geneabrt}},
+\code{\link{genecanx}},
+\code{\link{genecany}},
+\code{\link{genedef1}},
+\code{\link{genedef2}},
+\code{\link{genedef3}},
+\code{\link{geneexps}},
+\code{\link{genegets}},
+\code{\link{genegoo1}},
+\code{\link{genegoo2}},
+\code{\link{genegood}},
+\code{\link{genehire}},
+\code{\link{genejob}},
+\code{\link{genenvo1}},
+\code{\link{genenvo2}},
+\code{\link{genenvo4}},
+\code{\link{geneself}},
+\code{\link{genetest}},
+\code{\link{genetst1}},
+\code{\link{genevig1}},
+\code{\link{genevig2}},
+\code{\link{tomatoes}}
 }
 \concept{Genes and the Environment}
 \concept{Genetic Testing}

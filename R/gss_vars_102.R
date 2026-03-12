@@ -8,10 +8,10 @@
 #' 
 #' @section Values: 
 #'
-#'   * `[1]` almost daily
-#'   * `[2]` once a week
-#'   * `[3]` once a month
-#'   * `[4]` lt once a month
+#'   * `[1]` almost every day
+#'   * `[2]` at least once a week
+#'   * `[3]` at least once a month
+#'   * `[4]` less than once a month
 #'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
@@ -26,11 +26,11 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |almost daily |once a week |once a month |lt once a month |no answer |not available in this year |Total |
-#'  |:-----|:----|:------------|:-----------|:------------|:---------------|:---------|:--------------------------|:-----|
-#'  |1985  |136  |892          |335         |114          |49              |8         |-                          |1534  |
-#'  |2004  |1696 |753          |225         |66           |19              |53        |-                          |2812  |
-#'  |Total |1832 |1645         |560         |180          |68              |61        |0                          |4346  |
+#'  |year  |iap  |almost every day |at least once a week |at least once a month |less than once a month |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:----------------|:--------------------|:---------------------|:----------------------|:---------|:--------------------------|:--------------|:-----|
+#'  |1985  |136  |892              |335                  |114                   |49                     |8         |-                          |-              |1534  |
+#'  |2004  |1696 |753              |225                  |66                    |19                     |53        |-                          |-              |2812  |
+#'  |Total |1832 |1645             |560                  |180                   |68                     |61        |0                          |0              |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -52,10 +52,10 @@ NULL
 #' 
 #' @section Values: 
 #'
-#'   * `[1]` almost daily
-#'   * `[2]` once a week
-#'   * `[3]` once a month
-#'   * `[4]` lt once a month
+#'   * `[1]` almost every day
+#'   * `[2]` at least once a week
+#'   * `[3]` at least once a month
+#'   * `[4]` less than once a month
 #'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
@@ -70,11 +70,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |almost daily |once a week |once a month |lt once a month |no answer |not available in this year |Total |
-#'  |:-----|:----|:------------|:-----------|:------------|:---------------|:---------|:--------------------------|:-----|
-#'  |1985  |364  |583          |389         |144          |48              |6         |-                          |1534  |
-#'  |2004  |1977 |377          |304         |88           |19              |47        |-                          |2812  |
-#'  |Total |2341 |960          |693         |232          |67              |53        |0                          |4346  |
+#'  |year  |iap  |almost every day |at least once a week |at least once a month |less than once a month |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:----------------|:--------------------|:---------------------|:----------------------|:---------|:--------------------------|:--------------|:-----|
+#'  |1985  |364  |583              |389                  |144                   |48                     |6         |-                          |-              |1534  |
+#'  |2004  |1977 |377              |304                  |88                    |19                     |47        |-                          |-              |2812  |
+#'  |Total |2341 |960              |693                  |232                   |67                     |53        |0                          |0              |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -96,10 +96,10 @@ NULL
 #' 
 #' @section Values: 
 #'
-#'   * `[1]` almost daily
-#'   * `[2]` once a week
-#'   * `[3]` once a month
-#'   * `[4]` lt once a month
+#'   * `[1]` almost every day
+#'   * `[2]` at least once a week
+#'   * `[3]` at least once a month
+#'   * `[4]` less than once a month
 #'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
@@ -114,11 +114,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |almost daily |once a week |once a month |lt once a month |no answer |not available in this year |Total |
-#'  |:-----|:----|:------------|:-----------|:------------|:---------------|:---------|:--------------------------|:-----|
-#'  |1985  |599  |377          |354         |144          |53              |7         |-                          |1534  |
-#'  |2004  |2240 |220          |211         |75           |19              |47        |-                          |2812  |
-#'  |Total |2839 |597          |565         |219          |72              |54        |0                          |4346  |
+#'  |year  |iap  |almost every day |at least once a week |at least once a month |less than once a month |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:----------------|:--------------------|:---------------------|:----------------------|:---------|:--------------------------|:--------------|:-----|
+#'  |1985  |599  |377              |354                  |144                   |53                     |7         |-                          |-              |1534  |
+#'  |2004  |2240 |220              |211                  |75                    |19                     |47        |-                          |-              |2812  |
+#'  |Total |2839 |597              |565                  |219                   |72                     |54        |0                          |0              |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -140,10 +140,10 @@ NULL
 #' 
 #' @section Values: 
 #'
-#'   * `[1]` almost daily
-#'   * `[2]` once a week
-#'   * `[3]` once a month
-#'   * `[4]` lt once a month
+#'   * `[1]` almost every day
+#'   * `[2]` at least once a week
+#'   * `[3]` at least once a month
+#'   * `[4]` less than once a month
 #'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
@@ -158,11 +158,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |almost daily |once a week |once a month |lt once a month |no answer |not available in this year |Total |
-#'  |:-----|:----|:------------|:-----------|:------------|:---------------|:---------|:--------------------------|:-----|
-#'  |1985  |920  |220          |249         |117          |25              |3         |-                          |1534  |
-#'  |2004  |2472 |100          |126         |54           |14              |46        |-                          |2812  |
-#'  |Total |3392 |320          |375         |171          |39              |49        |0                          |4346  |
+#'  |year  |iap  |almost every day |at least once a week |at least once a month |less than once a month |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:----------------|:--------------------|:---------------------|:----------------------|:---------|:--------------------------|:--------------|:-----|
+#'  |1985  |920  |220              |249                  |117                   |25                     |3         |-                          |-              |1534  |
+#'  |2004  |2472 |100              |126                  |54                    |14                     |46        |-                          |-              |2812  |
+#'  |Total |3392 |320              |375                  |171                   |39                     |49        |0                          |0              |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks
@@ -184,10 +184,10 @@ NULL
 #' 
 #' @section Values: 
 #'
-#'   * `[1]` almost daily
-#'   * `[2]` once a week
-#'   * `[3]` once a month
-#'   * `[4]` lt once a month
+#'   * `[1]` almost every day
+#'   * `[2]` at least once a week
+#'   * `[3]` at least once a month
+#'   * `[4]` less than once a month
 #'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
@@ -202,11 +202,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |almost daily |once a week |once a month |lt once a month |no answer |not available in this year |Total |
-#'  |:-----|:----|:------------|:-----------|:------------|:---------------|:---------|:--------------------------|:-----|
-#'  |1985  |1153 |135          |137         |72           |34              |3         |-                          |1534  |
-#'  |2004  |2600 |54           |61          |39           |12              |46        |-                          |2812  |
-#'  |Total |3753 |189          |198         |111          |46              |49        |0                          |4346  |
+#'  |year  |iap  |almost every day |at least once a week |at least once a month |less than once a month |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:----------------|:--------------------|:---------------------|:----------------------|:---------|:--------------------------|:--------------|:-----|
+#'  |1985  |1153 |135              |137                  |72                    |34                     |3         |-                          |-              |1534  |
+#'  |2004  |2600 |54               |61                   |39                    |12                     |46        |-                          |-              |2812  |
+#'  |Total |3753 |189              |198                  |111                   |46                     |49        |0                          |0              |4346  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks

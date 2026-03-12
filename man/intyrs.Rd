@@ -15,6 +15,11 @@ Question D. Years of service as an interviewer at NORC
 \section{Values}{
 
 \itemize{
+\item \verb{[1]} less than 1 year
+\item \verb{[2]} 1-2 years
+\item \verb{[3]} 3-5 years
+\item \verb{[4]} 6-9 years
+\item \verb{[5]} 10+ years
 \item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
@@ -30,21 +35,62 @@ Question D. Years of service as an interviewer at NORC
 \seealso{
 Other Paradata: 
 \code{\link{consent}},
+\code{\link{devtype}},
 \code{\link{easyget}},
+\code{\link{feelevel}},
+\code{\link{feeused}},
+\code{\link{huclean}},
 \code{\link{intage}},
+\code{\link{intage_0418}},
 \code{\link{intethn}},
+\code{\link{intid}},
 \code{\link{intsex}},
+\code{\link{intyrs_0418}},
 \code{\link{lngthinv}},
-\code{\link{mode}()}
+\code{\link{mode}()},
+\code{\link{saqgene}},
+\code{\link{saqissp}},
+\code{\link{saqsex}},
+\code{\link{whoelse1}},
+\code{\link{whoelse2}},
+\code{\link{whoelse3}},
+\code{\link{whoelse4}},
+\code{\link{whoelse5}},
+\code{\link{whoelse6}}
 
 Other Interview: 
+\code{\link{comprend}},
 \code{\link{consent}},
+\code{\link{coop}},
+\code{\link{coop2}},
 \code{\link{easyget}},
+\code{\link{feelevel}},
+\code{\link{feeused}},
+\code{\link{id}},
 \code{\link{intage}},
+\code{\link{intage_0418}},
 \code{\link{intethn}},
+\code{\link{inthisp}},
+\code{\link{intid}},
+\code{\link{intrace1}},
+\code{\link{intrace2}},
+\code{\link{intrace3}},
+\code{\link{intrwght}},
 \code{\link{intsex}},
+\code{\link{intyrs_0418}},
 \code{\link{lngthinv}},
-\code{\link{mode}()}
+\code{\link{mode}()},
+\code{\link{robject}},
+\code{\link{rundrstd}},
+\code{\link{saqgene}},
+\code{\link{saqissp}},
+\code{\link{saqsex}},
+\code{\link{sciintro}},
+\code{\link{scimode}},
+\code{\link{spaneng}},
+\code{\link{spanint}},
+\code{\link{spanself}},
+\code{\link{year}()}
 }
 \concept{Interview}
 \concept{Paradata}

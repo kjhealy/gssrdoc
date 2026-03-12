@@ -31,10 +31,10 @@ Question FLAG INDICATING WHETHER OR NOT THE RESPONDENT PARTICIPATED IN THE GSS N
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7962/vshow}{GSS Data Explorer page for \code{nextstatus}}.
 
-Counts by year:\tabular{llllll}{
-   year \tab not available in this year \tab completed \tab iap \tab not available in this release \tab Total \cr
-   2022 \tab - \tab 1235 \tab 2309 \tab - \tab 3544 \cr
-   Total \tab 0 \tab 1235 \tab 2309 \tab 0 \tab 3544 \cr
+Counts by year:\tabular{lllll}{
+   year \tab not available in this year \tab completed \tab iap \tab Total \cr
+   2022 \tab - \tab 1235 \tab 2309 \tab 3544 \cr
+   Total \tab 0 \tab 1235 \tab 2309 \tab 3544 \cr
 }
 }
 

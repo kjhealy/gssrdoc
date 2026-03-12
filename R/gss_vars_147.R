@@ -48,8 +48,8 @@ NULL
 #' 
 #' @section Values: 
 #'
-#'   * `[1]` american are united
-#'   * `[2]` american are divided
+#'   * `[1]` americans are united
+#'   * `[2]` americans are divided
 #'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
@@ -63,11 +63,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |american are united |american are divided |don't know |no answer |not available in this year |Total |
-#'  |:-----|:----|:-------------------|:--------------------|:----------|:---------|:--------------------------|:-----|
-#'  |1993  |-    |518                 |1009                 |73         |6         |-                          |1606  |
-#'  |1994  |1518 |581                 |810                  |73         |10        |-                          |2992  |
-#'  |Total |1518 |1099                |1819                 |146        |16        |0                          |4598  |
+#'  |year  |iap  |americans are united |americans are divided |don't know |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:--------------------|:---------------------|:----------|:---------|:--------------------------|:--------------|:-----|
+#'  |1993  |-    |518                  |1009                  |73         |6         |-                          |-              |1606  |
+#'  |1994  |1518 |581                  |810                   |73         |10        |-                          |-              |2992  |
+#'  |Total |1518 |1099                 |1819                  |146        |16        |0                          |0              |4598  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture

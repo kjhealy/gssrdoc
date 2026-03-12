@@ -40,7 +40,7 @@ length(norc_vnames)
 length(unique(norc_vnames))
 
 ## Mismatches can exist for various reasons; mostly for yearly versions and
-## generated variables.
+## generated variables, and also because some variable names get changed/retired
 
 ## Fileversion
 setdiff(gss_vnames, norc_vnames)

@@ -24,7 +24,7 @@ Question fileversion
 For further details see the \href{https://gssdataexplorer.norc.org}{GSS Data Explorer page for \code{fileversion}}.
 
 Counts by year:\tabular{lll}{
-   year \tab 7224.2 \tab Total \cr
+   year \tab 7224.3 \tab Total \cr
    Total \tab 0 \tab 0 \cr
 }
 }

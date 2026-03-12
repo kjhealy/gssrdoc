@@ -32,12 +32,12 @@ Question Respondent consent to possible data linkage
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/7425/vshow}{GSS Data Explorer page for \code{adminconsent}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab r consents to possible data linkage \tab r does not consent to possible data linkage \tab no answer \tab skipped on web \tab not available in this release \tab Total \cr
-   2018 \tab - \tab 1250 \tab 1089 \tab 9 \tab - \tab - \tab 2348 \cr
-   2021 \tab 549 \tab 1532 \tab 1951 \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab 77 \tab 1660 \tab 1762 \tab - \tab 45 \tab - \tab 3544 \cr
-   Total \tab 626 \tab 4442 \tab 4802 \tab 9 \tab 45 \tab 0 \tab 9924 \cr
+Counts by year:\tabular{lllllll}{
+   year \tab iap \tab r consents to possible data linkage \tab r does not consent to possible data linkage \tab no answer \tab skipped on web \tab Total \cr
+   2018 \tab - \tab 1250 \tab 1089 \tab 9 \tab - \tab 2348 \cr
+   2021 \tab 549 \tab 1532 \tab 1951 \tab - \tab - \tab 4032 \cr
+   2022 \tab 77 \tab 1660 \tab 1762 \tab - \tab 45 \tab 3544 \cr
+   Total \tab 626 \tab 4442 \tab 4802 \tab 9 \tab 45 \tab 9924 \cr
 }
 }
 

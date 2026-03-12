@@ -341,10 +341,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |not available in this year |completed |iap  |not available in this release |Total |
-#'  |:-----|:--------------------------|:---------|:----|:-----------------------------|:-----|
-#'  |2022  |-                          |1235      |2309 |-                             |3544  |
-#'  |Total |0                          |1235      |2309 |0                             |3544  |
+#'  |year  |not available in this year |completed |iap  |Total |
+#'  |:-----|:--------------------------|:---------|:----|:-----|
+#'  |2022  |-                          |1235      |2309 |3544  |
+#'  |Total |0                          |1235      |2309 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' 

@@ -41,9 +41,9 @@ For further details see the \href{https://gssdataexplorer.norc.org/variables/761
 Counts by year:\tabular{llllllllll}{
    year \tab iap \tab word of god \tab inspired word \tab ancient book \tab other (phone mode only: volunteered) \tab don't know \tab no answer \tab skipped on web \tab Total \cr
    2021 \tab 2067 \tab 415 \tab 929 \tab 587 \tab 4 \tab 2 \tab 1 \tab 27 \tab 4032 \cr
-   2022 \tab 2688 \tab 177 \tab 370 \tab 302 \tab - \tab - \tab - \tab 7 \tab 3544 \cr
+   2022 \tab 2686 \tab 178 \tab 371 \tab 302 \tab - \tab - \tab - \tab 7 \tab 3544 \cr
    2024 \tab 2350 \tab 216 \tab 405 \tab 321 \tab - \tab 1 \tab - \tab 16 \tab 3309 \cr
-   Total \tab 7105 \tab 808 \tab 1704 \tab 1210 \tab 4 \tab 3 \tab 1 \tab 50 \tab 10885 \cr
+   Total \tab 7103 \tab 809 \tab 1705 \tab 1210 \tab 4 \tab 3 \tab 1 \tab 50 \tab 10885 \cr
 }
 }
 

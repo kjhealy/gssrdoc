@@ -41,5 +41,31 @@ Counts by year:\tabular{llllllll}{
 }
 }
 
+\seealso{
+Other Paradata: 
+\code{\link{consent}},
+\code{\link{easyget}},
+\code{\link{feelevel}},
+\code{\link{feeused}},
+\code{\link{huclean}},
+\code{\link{intage}},
+\code{\link{intage_0418}},
+\code{\link{intethn}},
+\code{\link{intid}},
+\code{\link{intsex}},
+\code{\link{intyrs}},
+\code{\link{intyrs_0418}},
+\code{\link{lngthinv}},
+\code{\link{mode}()},
+\code{\link{saqgene}},
+\code{\link{saqissp}},
+\code{\link{saqsex}},
+\code{\link{whoelse1}},
+\code{\link{whoelse2}},
+\code{\link{whoelse3}},
+\code{\link{whoelse4}},
+\code{\link{whoelse5}},
+\code{\link{whoelse6}}
+}
 \concept{Paradata}
 \keyword{variable}

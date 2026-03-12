@@ -36,32 +36,112 @@ F. Being cultured.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1443/vshow}{GSS Data Explorer page for \code{impcultr}}.
 
-Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab one of most important \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab Total \cr
-   1993 \tab - \tab 60 \tab 388 \tab 687 \tab 333 \tab 99 \tab 20 \tab 19 \tab - \tab 1606 \cr
-   Total \tab 0 \tab 60 \tab 388 \tab 687 \tab 333 \tab 99 \tab 20 \tab 19 \tab 0 \tab 1606 \cr
+Counts by year:\tabular{llllllllllll}{
+   year \tab iap \tab one of most important \tab very important \tab somewhat important \tab not too important \tab not at all important \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1993 \tab - \tab 60 \tab 388 \tab 687 \tab 333 \tab 99 \tab 20 \tab 19 \tab - \tab - \tab 1606 \cr
+   Total \tab 0 \tab 60 \tab 388 \tab 687 \tab 333 \tab 99 \tab 20 \tab 19 \tab 0 \tab 0 \tab 1606 \cr
 }
 }
 
 \seealso{
 Other Culture: 
+\code{\link{attsprts}},
+\code{\link{autorace}},
+\code{\link{bigband}},
+\code{\link{blues}},
+\code{\link{blugrass}},
+\code{\link{camping}},
+\code{\link{classicl}},
+\code{\link{classics}},
+\code{\link{colmajr1}},
+\code{\link{colmajr2}},
+\code{\link{conrock}},
+\code{\link{country}},
+\code{\link{dance}},
+\code{\link{dosports}},
+\code{\link{drama}},
+\code{\link{english}},
+\code{\link{excelart}},
+\code{\link{folk}},
+\code{\link{frdcreat}},
+\code{\link{frdcultr}},
+\code{\link{frddynam}},
+\code{\link{frdfun}},
+\code{\link{frdhonst}},
+\code{\link{frdintel}},
+\code{\link{frdresp}},
+\code{\link{garden}},
+\code{\link{gomusic}},
+\code{\link{gospel}},
+\code{\link{grtbooks}},
+\code{\link{hosthome}},
+\code{\link{hsclass1}},
+\code{\link{hsclass2}},
+\code{\link{huntfish}},
+\code{\link{hvymetal}},
+\code{\link{impfinan}},
 \code{\link{impgod}},
 \code{\link{impjob}},
 \code{\link{impkids}},
 \code{\link{impmar}},
 \code{\link{impself}},
 \code{\link{impthngs}},
+\code{\link{jazz}},
+\code{\link{judgeart}},
+\code{\link{latin}},
+\code{\link{lfechnce}},
+\code{\link{lfegenes}},
+\code{\link{lfegod}},
+\code{\link{lfehrdwk}},
+\code{\link{lfesocty}},
+\code{\link{makeart}},
+\code{\link{modpaint}},
+\code{\link{moodeasy}},
 \code{\link{mostimp1}},
 \code{\link{mostimp2}},
-\code{\link{mostimp3}}
+\code{\link{mostimp3}},
+\code{\link{mostimp4}},
+\code{\link{musicals}},
+\code{\link{newage}},
+\code{\link{obtohelp}},
+\code{\link{oldies}},
+\code{\link{opera}},
+\code{\link{opoutcme}},
+\code{\link{pclit}},
+\code{\link{perform}},
+\code{\link{plymusic}},
+\code{\link{popmusic}},
+\code{\link{rap}},
+\code{\link{readfict}},
+\code{\link{reggae}},
+\code{\link{richpoor}},
+\code{\link{seemovie}},
+\code{\link{selfirst}},
+\code{\link{standup}},
+\code{\link{trstprof}},
+\code{\link{tvnews}},
+\code{\link{tvpbs}},
+\code{\link{tvshows}},
+\code{\link{united}},
+\code{\link{usevcr}},
+\code{\link{visitart}}
 
 Other Values: 
+\code{\link{agape1}},
+\code{\link{agape2}},
+\code{\link{agape3}},
+\code{\link{agape4}},
+\code{\link{impfinan}},
 \code{\link{impgod}},
 \code{\link{impjob}},
 \code{\link{impkids}},
 \code{\link{impmar}},
 \code{\link{impself}},
-\code{\link{impthngs}}
+\code{\link{impthngs}},
+\code{\link{openmind}},
+\code{\link{relcand}},
+\code{\link{relmarry}},
+\code{\link{united}}
 }
 \concept{Culture}
 \concept{Values}

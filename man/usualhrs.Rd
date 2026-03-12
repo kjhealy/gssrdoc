@@ -40,8 +40,11 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllll}
 
 \seealso{
 Other Flexible Work: 
+\code{\link{advsched}},
+\code{\link{leasthrs}},
 \code{\link{mosthrs}},
-\code{\link{paidhow}}
+\code{\link{paidhow}},
+\code{\link{sethrs}}
 }
 \concept{Flexible Work}
 \keyword{variable}

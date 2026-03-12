@@ -63,6 +63,8 @@ Other Military Service & Work:
 \code{\link{workhr}}
 
 Other Veteran Status: 
+\code{\link{memvet}},
+\code{\link{vetfam}},
 \code{\link{vetyears}}
 }
 \concept{Military Service & Work}

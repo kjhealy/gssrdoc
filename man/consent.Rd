@@ -32,38 +32,79 @@ Question PARTICIPATION/RECORDING CONSENT
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5569/vshow}{GSS Data Explorer page for \code{consent}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab iap \tab r consents to recording interview \tab r consents to participate in the survey, but does not want to be recorded \tab no answer \tab not available in this release \tab Total \cr
-   2008 \tab - \tab 1697 \tab 324 \tab 2 \tab - \tab 2023 \cr
-   2010 \tab - \tab 1687 \tab 357 \tab - \tab - \tab 2044 \cr
-   2012 \tab - \tab 1730 \tab 244 \tab - \tab - \tab 1974 \cr
-   2014 \tab - \tab 2075 \tab 463 \tab - \tab - \tab 2538 \cr
-   2016 \tab - \tab 2600 \tab 267 \tab - \tab - \tab 2867 \cr
-   2018 \tab - \tab 2182 \tab 166 \tab - \tab - \tab 2348 \cr
-   2021 \tab 2322 \tab 1707 \tab 3 \tab - \tab - \tab 4032 \cr
-   2022 \tab 2695 \tab 849 \tab - \tab - \tab - \tab 3544 \cr
-   Total \tab 5017 \tab 14527 \tab 1824 \tab 2 \tab 0 \tab 21370 \cr
+Counts by year:\tabular{llllll}{
+   year \tab iap \tab r consents to recording interview \tab r consents to participate in the survey, but does not want to be recorded \tab no answer \tab Total \cr
+   2008 \tab - \tab 1697 \tab 324 \tab 2 \tab 2023 \cr
+   2010 \tab - \tab 1687 \tab 357 \tab - \tab 2044 \cr
+   2012 \tab - \tab 1730 \tab 244 \tab - \tab 1974 \cr
+   2014 \tab - \tab 2075 \tab 463 \tab - \tab 2538 \cr
+   2016 \tab - \tab 2600 \tab 267 \tab - \tab 2867 \cr
+   2018 \tab - \tab 2182 \tab 166 \tab - \tab 2348 \cr
+   2021 \tab 2322 \tab 1707 \tab 3 \tab - \tab 4032 \cr
+   2022 \tab 1636 \tab 1724 \tab 184 \tab - \tab 3544 \cr
+   Total \tab 3958 \tab 15402 \tab 2008 \tab 2 \tab 21370 \cr
 }
 }
 
 \seealso{
 Other Paradata: 
+\code{\link{devtype}},
 \code{\link{easyget}},
+\code{\link{feelevel}},
+\code{\link{feeused}},
+\code{\link{huclean}},
 \code{\link{intage}},
+\code{\link{intage_0418}},
 \code{\link{intethn}},
+\code{\link{intid}},
 \code{\link{intsex}},
 \code{\link{intyrs}},
+\code{\link{intyrs_0418}},
 \code{\link{lngthinv}},
-\code{\link{mode}()}
+\code{\link{mode}()},
+\code{\link{saqgene}},
+\code{\link{saqissp}},
+\code{\link{saqsex}},
+\code{\link{whoelse1}},
+\code{\link{whoelse2}},
+\code{\link{whoelse3}},
+\code{\link{whoelse4}},
+\code{\link{whoelse5}},
+\code{\link{whoelse6}}
 
 Other Interview: 
+\code{\link{comprend}},
+\code{\link{coop}},
+\code{\link{coop2}},
 \code{\link{easyget}},
+\code{\link{feelevel}},
+\code{\link{feeused}},
+\code{\link{id}},
 \code{\link{intage}},
+\code{\link{intage_0418}},
 \code{\link{intethn}},
+\code{\link{inthisp}},
+\code{\link{intid}},
+\code{\link{intrace1}},
+\code{\link{intrace2}},
+\code{\link{intrace3}},
+\code{\link{intrwght}},
 \code{\link{intsex}},
 \code{\link{intyrs}},
+\code{\link{intyrs_0418}},
 \code{\link{lngthinv}},
-\code{\link{mode}()}
+\code{\link{mode}()},
+\code{\link{robject}},
+\code{\link{rundrstd}},
+\code{\link{saqgene}},
+\code{\link{saqissp}},
+\code{\link{saqsex}},
+\code{\link{sciintro}},
+\code{\link{scimode}},
+\code{\link{spaneng}},
+\code{\link{spanint}},
+\code{\link{spanself}},
+\code{\link{year}()}
 }
 \concept{Interview}
 \concept{Paradata}

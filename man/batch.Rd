@@ -32,16 +32,40 @@ Question Sample batch
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/8038/vshow}{GSS Data Explorer page for \code{batch}}.
 
-Counts by year:\tabular{lllllll}{
-   year \tab not available in this year \tab batch 1 \tab batch 2 \tab iap \tab not available in this release \tab Total \cr
-   2022 \tab - \tab 1211 \tab 793 \tab 1540 \tab - \tab 3544 \cr
-   Total \tab 0 \tab 1211 \tab 793 \tab 1540 \tab 0 \tab 3544 \cr
+Counts by year:\tabular{llllll}{
+   year \tab not available in this year \tab batch 1 \tab batch 2 \tab iap \tab Total \cr
+   2022 \tab - \tab 1211 \tab 793 \tab 1540 \tab 3544 \cr
+   Total \tab 0 \tab 1211 \tab 793 \tab 1540 \tab 3544 \cr
 }
 }
 
 \seealso{
 Other Sampling and Weights: 
-\code{\link{subsamprate}}
+\code{\link{ballot}},
+\code{\link{cshutyp06}},
+\code{\link{cshutyp08}},
+\code{\link{cshutyp10}},
+\code{\link{cshutyp12}},
+\code{\link{formwt}},
+\code{\link{issp}},
+\code{\link{oversamp}},
+\code{\link{phase}},
+\code{\link{res2006}},
+\code{\link{res2008}},
+\code{\link{res2010}},
+\code{\link{res2012}},
+\code{\link{sampcode}},
+\code{\link{sample}()},
+\code{\link{spaneng}},
+\code{\link{spanint}},
+\code{\link{spanself}},
+\code{\link{subsamprate}},
+\code{\link{version}},
+\code{\link{vpsu}},
+\code{\link{vstrat}},
+\code{\link{wtss}},
+\code{\link{wtssall}},
+\code{\link{wtssnr}}
 }
 \concept{Sampling and Weights}
 \keyword{variable}

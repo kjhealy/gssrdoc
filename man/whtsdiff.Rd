@@ -45,12 +45,49 @@ Counts by year:\tabular{lllllllllll}{
 
 \seealso{
 Other Prejudice: 
+\code{\link{ethadapt}},
 \code{\link{ethdiff}},
+\code{\link{ethignor}},
+\code{\link{ethimp}},
+\code{\link{ethnofit}},
 \code{\link{ethsame}},
+\code{\link{ethtrads}},
+\code{\link{feelasns}},
+\code{\link{feelblks}},
+\code{\link{feelhsps}},
 \code{\link{feelwhts}}
 
 Other Whites: 
-\code{\link{feelwhts}}
+\code{\link{acqfmwht}},
+\code{\link{acqnhwht}},
+\code{\link{acqvawht}},
+\code{\link{acqwhite}},
+\code{\link{acqwkwht}},
+\code{\link{closewht}},
+\code{\link{comwht}},
+\code{\link{fairwhts}},
+\code{\link{famwhts}},
+\code{\link{farewhts}},
+\code{\link{feelwhts}},
+\code{\link{influwht}},
+\code{\link{intlwhts}},
+\code{\link{knwwht}},
+\code{\link{liveno}},
+\code{\link{livewhts}},
+\code{\link{marno}},
+\code{\link{marwht}},
+\code{\link{patrwhts}},
+\code{\link{trtwhite}},
+\code{\link{uswht}},
+\code{\link{violwhts}},
+\code{\link{whtchng}},
+\code{\link{whtcls}},
+\code{\link{whtcom}},
+\code{\link{whtrel}},
+\code{\link{whtschl}},
+\code{\link{whtwrk}},
+\code{\link{wlthwhts}},
+\code{\link{workwhts}}
 }
 \concept{Prejudice}
 \concept{Whites}

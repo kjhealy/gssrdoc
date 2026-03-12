@@ -42,7 +42,19 @@ Counts by year:\tabular{llllllll}{
 \seealso{
 Other Form Y: 
 \code{\link{letdie1y}},
+\code{\link{pilloky}},
 \code{\link{popespky}}
+
+Other Police: 
+\code{\link{arrest}},
+\code{\link{law5}},
+\code{\link{lockedup}},
+\code{\link{polabuse}},
+\code{\link{polattak}},
+\code{\link{polescap}},
+\code{\link{polhitok}},
+\code{\link{polmurdr}},
+\code{\link{ticket}}
 }
 \concept{Form Y}
 \concept{Police}

@@ -449,6 +449,13 @@ NULL
 #' 
 #' @section Values: 
 #'
+#'   * `[0]` 0
+#'   * `[1]` 1
+#'   * `[2]` 2
+#'   * `[3]` 3
+#'   * `[4]` 4
+#'   * `[5]` 5
+#'   * `[6]` 6 or more
 #'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
@@ -463,12 +470,12 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |0   |1   |2   |3    |4   |5   |6   |no answer |not available in this year |Total |
-#'  |:-----|:----|:---|:---|:---|:----|:---|:---|:---|:---------|:--------------------------|:-----|
-#'  |1985  |-    |136 |228 |235 |321  |233 |294 |84  |3         |-                          |1534  |
-#'  |1987  |-    |98  |287 |350 |849  |112 |53  |51  |19        |-                          |1819  |
-#'  |2004  |1340 |356 |281 |263 |232  |128 |96  |70  |46        |-                          |2812  |
-#'  |Total |1340 |590 |796 |848 |1402 |473 |443 |205 |68        |0                          |6165  |
+#'  |year  |iap  |0   |1   |2   |3    |4   |5   |6 or more |no answer |not available in this year |Total |
+#'  |:-----|:----|:---|:---|:---|:----|:---|:---|:---------|:---------|:--------------------------|:-----|
+#'  |1985  |-    |136 |228 |235 |321  |233 |294 |84        |3         |-                          |1534  |
+#'  |1987  |-    |98  |287 |350 |849  |112 |53  |51        |19        |-                          |1819  |
+#'  |2004  |1340 |356 |281 |263 |232  |128 |96  |70        |46        |-                          |2812  |
+#'  |Total |1340 |590 |796 |848 |1402 |473 |443 |205       |68        |0                          |6165  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Social Networks

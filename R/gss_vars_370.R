@@ -142,8 +142,8 @@ NULL
 #' 
 #'  evolved2
 #' 
-#' Question For each statement that I read, please tell me if it is true or false. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know.
-#' I3. Elephants, as we know them today, descended from earlier species of animals. (Is that true or false?)
+#' Question Elephants, as we know them today, descended from earlier species of animals. (Is that true or false?) 
+#' FI INSTRUCTION: DO NOT PROBE "DON'T KNOW"  
 #' 
 #' 
 #' @section Values: 

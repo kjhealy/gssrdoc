@@ -1,3 +1,131 @@
+#'  Age when r came to u.s.
+#' 
+#'  migage
+#' 
+#' Question Constructed from variables AGE, YEARSUSA, and MNTHSUSA 
+#'  NOTE: Please see the 2024 Codebook for more information on this variable. Please be aware that a programming error resulted in missing information for YEARSUSA and MNTHSUSA on Ballot 3 in GSS years 2018-2024.
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` migrated before age 5
+#'   * `[2]` migrated between ages 6-17
+#'   * `[3]` migrated between ages 18-29
+#'   * `[4]` migrated between ages 30-39
+#'   * `[5]` migrated age 40 or older
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years                  |
+#'  |:-------|:----------------------|
+#'  |A/B/C   |2018, 2021, 2022, 2024 |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `migage`](https://gssdataexplorer.norc.org/variables/8284/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |migrated before age 5 |migrated between ages 6-17 |migrated between ages 18-29 |migrated between ages 30-39 |migrated age 40 or older |iap   |no answer |don't know |skipped on web |Total |
+#'  |:-----|:--------------------------|:---------------------|:--------------------------|:---------------------------|:---------------------------|:------------------------|:-----|:---------|:----------|:--------------|:-----|
+#'  |2018  |-                          |46                    |57                         |117                         |46                          |33                       |2040  |9         |-          |-              |2348  |
+#'  |2021  |-                          |74                    |91                         |130                         |79                          |29                       |3288  |333       |1          |7              |4032  |
+#'  |2022  |-                          |46                    |73                         |130                         |57                          |30                       |2994  |211       |2          |1              |3544  |
+#'  |2024  |-                          |40                    |54                         |141                         |66                          |31                       |2870  |101       |1          |5              |3309  |
+#'  |Total |0                          |206                   |275                        |518                         |248                         |123                      |11192 |654       |4          |13             |13233 |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family Core
+#' @family Nativity
+#' 
+#' @keywords variable
+#' @md
+#' @name migage
+NULL
+
+
+#'  Voting intention in 2024 election (pre july 25 2024)
+#' 
+#'  whovote24
+#' 
+#' Question In the November election for President, do you think you will probably vote for Donald Trump, Joe Biden, someone else, or will you probably not vote?
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` donald trump
+#'   * `[2]` joe biden
+#'   * `[3]` someone else
+#'   * `[4]` probably not vote
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2024  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `whovote24`](https://gssdataexplorer.norc.org/variables/8193/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |donald trump |joe biden |someone else |probably not vote |don't know |iap  |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:------------|:---------|:------------|:-----------------|:----------|:----|:---------|:--------------|:-----|
+#'  |2024  |-                          |538          |559       |275          |270               |50         |1569 |17        |31             |3309  |
+#'  |Total |0                          |538          |559       |275          |270               |50         |1569 |17        |31             |3309  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ANES
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name whovote24
+NULL
+
+
+#'  Voting intention - time series
+#' 
+#'  whovotets
+#' 
+#' Question (Recode of WHOVOTE24/WHOVOTE24A)
+#' 
+#' 
+#' @section Values: 
+#'
+#'   * `[1]` republican candidate
+#'   * `[2]` democratic candidate
+#'   * `[3]` someone else
+#'   * `[4]` probably not vote
+#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'
+#' @section Question Years and Ballots: 
+#'
+#'  |ballots |years |
+#'  |:-------|:-----|
+#'  |A/B/C   |2024  |
+#' 
+#' @section Overview: 
+#' For further details see the [GSS Data Explorer page for `whovotets`](https://gssdataexplorer.norc.org/variables/8194/vshow).
+#'
+#' Counts by year: 
+#'
+#'  |year  |not available in this year |republican candidate |democratic candidate |someone else |probably not vote |don't know |iap |no answer |skipped on web |Total |
+#'  |:-----|:--------------------------|:--------------------|:--------------------|:------------|:-----------------|:----------|:---|:---------|:--------------|:-----|
+#'  |2024  |-                          |1079                 |1135                 |365          |517               |90         |16  |40        |67             |3309  |
+#'  |Total |0                          |1079                 |1135                 |365          |517               |90         |16  |40        |67             |3309  |
+#'
+#' @source General Social Survey https://gss.norc.org
+#' @family ANES
+#' 
+#' 
+#' @keywords variable
+#' @md
+#' @name whovotets
+NULL
+
+
 #'  Voting problem in us elections
 #' 
 #'  voteprob
@@ -189,188 +317,80 @@ NULL
 NULL
 
 
-#'  Percent of family during childhood who were asian
+#'  Anes follow-on eligible
 #' 
-#'  chldfam_asn
+#'  aneseligible
 #' 
-#' Question What percentage of your family belong to each of the following categories? - Asian
+#' Question FLAG INDICATING WHETHER OR NOT THE RESPONDENT WAS ELIGIBLE FOR THE ANES
 #' 
 #' 
 #' @section Values: 
 #'
+#'   * `[0]` not eligible for follow-on
+#'   * `[1]` eligible for follow-on
 #'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
 #'  |:-------|:-----|
-#'  |A/C     |2024  |
+#'  |A/B/C   |2024  |
 #' 
 #' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `chldfam_asn`](https://gssdataexplorer.norc.org/variables/8081/vshow).
+#' For further details see the [GSS Data Explorer page for `aneseligible`](https://gssdataexplorer.norc.org/variables/8272/vshow).
 #'
 #' Counts by year: 
 #'
-#'  |year  |not available in this year |0    |1  |10 |100 |11 |13 |17 |2  |20 |22 |25 |3  |30 |40 |5  |50 |80 |85 |90 |95 |99 |don't know |iap  |no answer |skipped on web |Total |
-#'  |:-----|:--------------------------|:----|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:----|:---------|:--------------|:-----|
-#'  |2024  |-                          |1373 |11 |11 |53  |2  |1  |1  |7  |8  |1  |6  |4  |3  |2  |16 |10 |3  |1  |3  |1  |1  |18         |1664 |16        |93             |3309  |
-#'  |Total |0                          |1373 |11 |11 |53  |2  |1  |1  |7  |8  |1  |6  |4  |3  |2  |16 |10 |3  |1  |3  |1  |1  |18         |1664 |16        |93             |3309  |
+#'  |year  |not available in this year |not eligible for follow-on |eligible for follow-on |Total |
+#'  |:-----|:--------------------------|:--------------------------|:----------------------|:-----|
+#'  |2024  |-                          |1777                       |1532                   |3309  |
+#'  |Total |0                          |1777                       |1532                   |3309  |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Mental Health
-#' 
+#' @family ANES
+#' @family ANES
 #' 
 #' @keywords variable
 #' @md
-#' @name chldfam_asn
+#' @name aneseligible
 NULL
 
 
-#'  Percent of family during childhood who were black
+#'  Anes pre-election survey status
 #' 
-#'  chldfam_blk
+#'  anespre_status
 #' 
-#' Question What percentage of your family belong to each of the following categories? - Black
+#' Question FLAG INDICATING WHETHER OR NOT THE RESPONDENT PARTICIPATED IN THE ANES PRE-ELECTION SURVEY
 #' 
 #' 
 #' @section Values: 
 #'
+#'   * `[1]` completed
 #'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
 #'
 #'  |ballots |years |
 #'  |:-------|:-----|
-#'  |A/C     |2024  |
+#'  |A/B/C   |2024  |
 #' 
 #' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `chldfam_blk`](https://gssdataexplorer.norc.org/variables/8082/vshow).
+#' For further details see the [GSS Data Explorer page for `anespre_status`](https://gssdataexplorer.norc.org/variables/8271/vshow).
 #'
 #' Counts by year: 
 #'
-#'  |year  |not available in this year |0    |1  |10 |100 |11 |13 |14 |15 |2  |20 |25 |30 |33 |4  |40 |42 |5  |50 |51 |6  |60 |65 |70 |71 |74 |75 |78 |8  |80 |83 |85 |89 |90 |94 |95 |96 |97 |98 |99 |don't know |iap  |no answer |skipped on web |Total |
-#'  |:-----|:--------------------------|:----|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:----|:---------|:--------------|:-----|
-#'  |2024  |-                          |1115 |17 |19 |145 |4  |1  |1  |2  |9  |22 |3  |8  |1  |2  |9  |1  |16 |34 |1  |3  |8  |1  |8  |3  |2  |6  |1  |1  |20 |1  |5  |3  |23 |1  |10 |2  |3  |5  |2  |18         |1664 |16        |93             |3309  |
-#'  |Total |0                          |1115 |17 |19 |145 |4  |1  |1  |2  |9  |22 |3  |8  |1  |2  |9  |1  |16 |34 |1  |3  |8  |1  |8  |3  |2  |6  |1  |1  |20 |1  |5  |3  |23 |1  |10 |2  |3  |5  |2  |18         |1664 |16        |93             |3309  |
+#'  |year  |not available in this year |completed |iap  |Total |
+#'  |:-----|:--------------------------|:---------|:----|:-----|
+#'  |2024  |-                          |987       |2322 |3309  |
+#'  |Total |0                          |987       |2322 |3309  |
 #'
 #' @source General Social Survey https://gss.norc.org
-#' @family Mental Health
-#' 
+#' @family ANES
+#' @family ANES
 #' 
 #' @keywords variable
 #' @md
-#' @name chldfam_blk
-NULL
-
-
-#'  Percent of family during childhood who were latino
-#' 
-#'  chldfam_hisp
-#' 
-#' Question What percentage of your family belong to each of the following categories? - Latino
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A/C     |2024  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `chldfam_hisp`](https://gssdataexplorer.norc.org/variables/8083/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |not available in this year |0    |1  |10 |100 |11 |15 |19 |2  |20 |22 |24 |25 |3  |30 |35 |38 |4  |40 |45 |5  |50 |53 |6  |60 |65 |70 |71 |75 |77 |80 |85 |90 |91 |94 |95 |96 |don't know |iap  |no answer |skipped on web |Total |
-#'  |:-----|:--------------------------|:----|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:----|:---------|:--------------|:-----|
-#'  |2024  |-                          |1221 |13 |21 |102 |2  |5  |1  |10 |21 |2  |1  |7  |2  |7  |3  |1  |1  |8  |2  |27 |31 |1  |1  |3  |1  |2  |1  |3  |1  |7  |1  |5  |1  |1  |1  |1  |18         |1664 |16        |93             |3309  |
-#'  |Total |0                          |1221 |13 |21 |102 |2  |5  |1  |10 |21 |2  |1  |7  |2  |7  |3  |1  |1  |8  |2  |27 |31 |1  |1  |3  |1  |2  |1  |3  |1  |7  |1  |5  |1  |1  |1  |1  |18         |1664 |16        |93             |3309  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Mental Health
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name chldfam_hisp
-NULL
-
-
-#'  Percent of family during childhood who were white
-#' 
-#'  chldfam_wht
-#' 
-#' Question What percentage of your family belong to each of the following categories? - White
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A/C     |2024  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `chldfam_wht`](https://gssdataexplorer.norc.org/variables/8085/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |not available in this year |0   |1  |10 |100 |11 |12 |14 |15 |17 |18 |2  |20 |21 |22 |25 |3  |30 |36 |38 |4  |40 |45 |5  |50 |6  |60 |62 |65 |67 |7  |70 |75 |76 |78 |80 |81 |82 |83 |85 |87 |89 |9  |90 |92 |93 |94 |95 |96 |97 |98 |99 |don't know |iap  |no answer |skipped on web |Total |
-#'  |:-----|:--------------------------|:---|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:----|:---------|:--------------|:-----|
-#'  |2024  |-                          |367 |12 |24 |782 |1  |3  |1  |6  |1  |1  |4  |25 |1  |1  |16 |1  |12 |1  |2  |2  |14 |1  |26 |52 |1  |5  |1  |2  |1  |2  |11 |13 |1  |2  |17 |2  |1  |1  |2  |2  |3  |1  |33 |1  |1  |2  |18 |1  |5  |12 |21 |18         |1664 |16        |93             |3309  |
-#'  |Total |0                          |367 |12 |24 |782 |1  |3  |1  |6  |1  |1  |4  |25 |1  |1  |16 |1  |12 |1  |2  |2  |14 |1  |26 |52 |1  |5  |1  |2  |1  |2  |11 |13 |1  |2  |17 |2  |1  |1  |2  |2  |3  |1  |33 |1  |1  |2  |18 |1  |5  |12 |21 |18         |1664 |16        |93             |3309  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Mental Health
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name chldfam_wht
-NULL
-
-
-#'  Percent of family during childhood who were some other race
-#' 
-#'  chldfam_oth
-#' 
-#' Question What percentage of your family belong to each of the following categories? - Some other race
-#' 
-#' 
-#' @section Values: 
-#'
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
-#'
-#' @section Question Years and Ballots: 
-#'
-#'  |ballots |years |
-#'  |:-------|:-----|
-#'  |A/C     |2024  |
-#' 
-#' @section Overview: 
-#' For further details see the [GSS Data Explorer page for `chldfam_oth`](https://gssdataexplorer.norc.org/variables/8084/vshow).
-#'
-#' Counts by year: 
-#'
-#'  |year  |not available in this year |0    |1  |10 |100 |12 |13 |14 |15 |18 |2  |20 |22 |25 |29 |3  |30 |31 |4  |40 |5  |50 |51 |53 |56 |6  |60 |7  |75 |8  |80 |96 |99 |don't know |iap  |no answer |skipped on web |Total |
-#'  |:-----|:--------------------------|:----|:--|:--|:---|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:----------|:----|:---------|:--------------|:-----|
-#'  |2024  |-                          |1323 |18 |40 |14  |1  |3  |2  |8  |1  |5  |16 |2  |13 |1  |4  |10 |1  |2  |2  |24 |14 |1  |1  |1  |1  |1  |1  |2  |2  |2  |1  |1  |18         |1664 |16        |93             |3309  |
-#'  |Total |0                          |1323 |18 |40 |14  |1  |3  |2  |8  |1  |5  |16 |2  |13 |1  |4  |10 |1  |2  |2  |24 |14 |1  |1  |1  |1  |1  |1  |2  |2  |2  |1  |1  |18         |1664 |16        |93             |3309  |
-#'
-#' @source General Social Survey https://gss.norc.org
-#' @family Mental Health
-#' 
-#' 
-#' @keywords variable
-#' @md
-#' @name chldfam_oth
+#' @name anespre_status
 NULL
 
 

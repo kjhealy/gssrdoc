@@ -36,7 +36,7 @@ Question Interview done in-person or over the phone
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5566/vshow}{GSS Data Explorer page for \code{mode}}.
 
 Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab in-person \tab by phone \tab don't know \tab no answer \tab web \tab multimode \tab Total \cr
+   year \tab iap \tab in-person \tab by phone \tab don't know \tab no answer \tab multimode \tab web \tab Total \cr
    2004 \tab - \tab 2219 \tab 593 \tab - \tab - \tab - \tab - \tab 2812 \cr
    2006 \tab - \tab 4209 \tab 301 \tab - \tab - \tab - \tab - \tab 4510 \cr
    2008 \tab - \tab 1778 \tab 245 \tab - \tab - \tab - \tab - \tab 2023 \cr
@@ -45,31 +45,72 @@ Counts by year:\tabular{lllllllll}{
    2014 \tab - \tab 2199 \tab 333 \tab - \tab 6 \tab - \tab - \tab 2538 \cr
    2016 \tab - \tab 2665 \tab 195 \tab - \tab 7 \tab - \tab - \tab 2867 \cr
    2018 \tab - \tab 2094 \tab 245 \tab - \tab 9 \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab 471 \tab - \tab - \tab 3561 \tab - \tab 4032 \cr
-   2022 \tab - \tab 1573 \tab 206 \tab - \tab - \tab 1636 \tab 129 \tab 3544 \cr
-   2024 \tab - \tab 1174 \tab 254 \tab - \tab - \tab 1762 \tab 119 \tab 3309 \cr
-   Total \tab 0 \tab 21447 \tab 3312 \tab 1 \tab 34 \tab 6959 \tab 248 \tab 32001 \cr
+   2021 \tab - \tab - \tab 293 \tab - \tab - \tab 218 \tab 3521 \tab 4032 \cr
+   2022 \tab - \tab 1562 \tab 201 \tab - \tab - \tab 148 \tab 1633 \tab 3544 \cr
+   2024 \tab - \tab 1174 \tab 254 \tab - \tab - \tab 119 \tab 1762 \tab 3309 \cr
+   Total \tab 0 \tab 21436 \tab 3129 \tab 1 \tab 34 \tab 485 \tab 6916 \tab 32001 \cr
 }
 }
 
 \seealso{
 Other Paradata: 
 \code{\link{consent}},
+\code{\link{devtype}},
 \code{\link{easyget}},
+\code{\link{feelevel}},
+\code{\link{feeused}},
+\code{\link{huclean}},
 \code{\link{intage}},
+\code{\link{intage_0418}},
 \code{\link{intethn}},
+\code{\link{intid}},
 \code{\link{intsex}},
 \code{\link{intyrs}},
-\code{\link{lngthinv}}
+\code{\link{intyrs_0418}},
+\code{\link{lngthinv}},
+\code{\link{saqgene}},
+\code{\link{saqissp}},
+\code{\link{saqsex}},
+\code{\link{whoelse1}},
+\code{\link{whoelse2}},
+\code{\link{whoelse3}},
+\code{\link{whoelse4}},
+\code{\link{whoelse5}},
+\code{\link{whoelse6}}
 
 Other Interview: 
+\code{\link{comprend}},
 \code{\link{consent}},
+\code{\link{coop}},
+\code{\link{coop2}},
 \code{\link{easyget}},
+\code{\link{feelevel}},
+\code{\link{feeused}},
+\code{\link{id}},
 \code{\link{intage}},
+\code{\link{intage_0418}},
 \code{\link{intethn}},
+\code{\link{inthisp}},
+\code{\link{intid}},
+\code{\link{intrace1}},
+\code{\link{intrace2}},
+\code{\link{intrace3}},
+\code{\link{intrwght}},
 \code{\link{intsex}},
 \code{\link{intyrs}},
-\code{\link{lngthinv}}
+\code{\link{intyrs_0418}},
+\code{\link{lngthinv}},
+\code{\link{robject}},
+\code{\link{rundrstd}},
+\code{\link{saqgene}},
+\code{\link{saqissp}},
+\code{\link{saqsex}},
+\code{\link{sciintro}},
+\code{\link{scimode}},
+\code{\link{spaneng}},
+\code{\link{spanint}},
+\code{\link{spanself}},
+\code{\link{year}()}
 }
 \concept{Interview}
 \concept{Paradata}

@@ -1,4 +1,4 @@
-## 1.
-## Dataset import
+## 1. Start with dataset import
 
-## Copy the files from the most recent build of gssr to data-raw/from_gssr
+## Previously we built the starting `gss_all` dataset here. Now we assume the most recent local build of the gssr package data has been placed
+## in this project's `data-raw/from_gssr` directory.

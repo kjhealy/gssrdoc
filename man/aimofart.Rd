@@ -15,8 +15,8 @@ Question I'm going to read two statements about what works of art should Do. Ple
 \section{Values}{
 
 \itemize{
-\item \verb{[1]} art human spirit
-\item \verb{[2]} art xprss artist
+\item \verb{[1]} art works should celebrate what is most beautiful about the world and the human spirit
+\item \verb{[2]} art works should freely express an artist’s deepest thoughts and emotions, good or bad
 \item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
@@ -32,27 +32,73 @@ Question I'm going to read two statements about what works of art should Do. Ple
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/2128/vshow}{GSS Data Explorer page for \code{aimofart}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab art human spirit \tab art xprss artist \tab don't know \tab no answer \tab not available in this year \tab Total \cr
-   1998 \tab 1387 \tab 538 \tab 851 \tab 23 \tab 33 \tab - \tab 2832 \cr
-   Total \tab 1387 \tab 538 \tab 851 \tab 23 \tab 33 \tab 0 \tab 2832 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab art works should celebrate what is most beautiful about the world and the human spirit \tab art works should freely express an artist's deepest thoughts and emotions, good or bad \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1998 \tab 1387 \tab 538 \tab 851 \tab 23 \tab 33 \tab - \tab - \tab 2832 \cr
+   Total \tab 1387 \tab 538 \tab 851 \tab 23 \tab 33 \tab 0 \tab 0 \tab 2832 \cr
 }
 }
 
 \seealso{
 Other Religion and Culture: 
+\code{\link{artgod}},
+\code{\link{artists}},
+\code{\link{beausprt}},
+\code{\link{conghlp1}},
+\code{\link{conghlp2}},
+\code{\link{conghrm1}},
+\code{\link{conghrm2}},
+\code{\link{cope1}},
+\code{\link{cope2}},
+\code{\link{cope3}},
+\code{\link{cope4}},
+\code{\link{cope5}},
+\code{\link{cope6}},
 \code{\link{drama}},
+\code{\link{effort}},
+\code{\link{feelgod}},
+\code{\link{fidgety}},
+\code{\link{forgive1}},
+\code{\link{forgive2}},
+\code{\link{forgive3}},
+\code{\link{godlove}},
+\code{\link{godwatch}},
+\code{\link{harmony}},
+\code{\link{hopeless}},
+\code{\link{irrelart}},
+\code{\link{irreloff}},
+\code{\link{lesspain}},
 \code{\link{localart}},
+\code{\link{meditate}},
+\code{\link{natarts}},
 \code{\link{natlart}},
+\code{\link{nervous}},
+\code{\link{nocheer}},
 \code{\link{popmusic}},
+\code{\link{privpray}},
 \code{\link{readfict}},
 \code{\link{relart}},
+\code{\link{relcmfrt}},
+\code{\link{relexp}},
+\code{\link{rellife}},
+\code{\link{relpersn}},
+\code{\link{sprtprsn}},
 \code{\link{stateart}},
-\code{\link{volarts}}
+\code{\link{uniongod}},
+\code{\link{volarts}},
+\code{\link{wrthless}}
 
 Other Art/The Arts (And Literature): 
+\code{\link{artists}},
+\code{\link{excelart}},
+\code{\link{grtbooks}},
+\code{\link{judgeart}},
 \code{\link{localart}},
+\code{\link{modpaint}},
+\code{\link{natarts}},
 \code{\link{natlart}},
+\code{\link{pclit}},
+\code{\link{sparts}},
 \code{\link{stateart}}
 }
 \concept{Art/The Arts (And Literature)}

@@ -3,9 +3,9 @@
 \docType{data}
 \name{gss_doc}
 \alias{gss_doc}
-\title{Data Dictionary for the GSS Cumulative Data File 1972-2024 Release 2}
+\title{Data Dictionary for the GSS Cumulative Data File 1972-2024 Release 3}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 6904 rows and 10 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 6942 rows and 10 columns.
 }
 \source{
 National Opinion Research Center, \url{http://gss.norc.org}.

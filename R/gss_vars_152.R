@@ -425,10 +425,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap |one of most important |very important |somewhat important |not too important |not at all important |don't know |no answer |not available in this year |Total |
-#'  |:-----|:---|:---------------------|:--------------|:------------------|:-----------------|:--------------------|:----------|:---------|:--------------------------|:-----|
-#'  |1993  |-   |427                   |817            |290                |49                |6                    |5          |12        |-                          |1606  |
-#'  |Total |0   |427                   |817            |290                |49                |6                    |5          |12        |0                          |1606  |
+#'  |year  |iap |one of most important |very important |somewhat important |not too important |not at all important |don't know |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:---|:---------------------|:--------------|:------------------|:-----------------|:--------------------|:----------|:---------|:--------------------------|:--------------|:-----|
+#'  |1993  |-   |427                   |817            |290                |49                |6                    |5          |12        |-                          |-              |1606  |
+#'  |Total |0   |427                   |817            |290                |49                |6                    |5          |12        |0                          |0              |1606  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Culture

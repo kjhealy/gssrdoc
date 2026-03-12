@@ -69,7 +69,7 @@ NULL
 #'   * `[7]` terrorism
 #'   * `[8]` poverty
 #'   * `[9]` none of these
-#'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
+#'   * `[NA(d)]` can't choose `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
 #'
@@ -82,11 +82,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |health care |education |crime |the environment |immigration |the economy |terrorism |poverty |none of these |don't know |no answer |skipped on web |not available in this year |Total |
-#'  |:-----|:----|:-----------|:---------|:-----|:---------------|:-----------|:-----------|:---------|:-------|:-------------|:----------|:---------|:--------------|:--------------------------|:-----|
-#'  |2010  |614  |327         |325       |73    |120             |76          |203         |152       |71      |6             |69         |8         |-              |-                          |2044  |
-#'  |2021  |2009 |463         |332       |139   |201             |88          |312         |52        |159     |61            |42         |143       |31             |-                          |4032  |
-#'  |Total |2623 |790         |657       |212   |321             |164         |515         |204       |230     |67            |111        |151       |31             |0                          |6076  |
+#'  |year  |iap  |health care |education |crime |the environment |immigration |the economy |terrorism |poverty |none of these |can't choose |no answer |skipped on web |not available in this year |Total |
+#'  |:-----|:----|:-----------|:---------|:-----|:---------------|:-----------|:-----------|:---------|:-------|:-------------|:------------|:---------|:--------------|:--------------------------|:-----|
+#'  |2010  |614  |327         |325       |73    |120             |76          |203         |152       |71      |6             |69           |8         |-              |-                          |2044  |
+#'  |2021  |2009 |463         |332       |139   |201             |88          |312         |52        |159     |61            |42           |143       |31             |-                          |4032  |
+#'  |Total |2623 |790         |657       |212   |321             |164         |515         |204       |230     |67            |111          |151       |31             |0                          |6076  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family ISSP Environment

@@ -45,7 +45,14 @@ Counts by year:\tabular{llllllllll}{
 \seealso{
 Other Misc I: 
 \code{\link{getaheay}},
-\code{\link{natdiscm}}
+\code{\link{natdiscm}},
+\code{\link{natdisin}},
+\code{\link{spnatdis}}
+
+Other Media: 
+\code{\link{freeprss}},
+\code{\link{pubdef}},
+\code{\link{pubecon}}
 }
 \concept{Media}
 \concept{Misc I}

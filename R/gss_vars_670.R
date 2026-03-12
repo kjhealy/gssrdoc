@@ -148,10 +148,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |not available in this year |not eligible for follow-on |eligible for follow-on |not available in this release |Total |
-#'  |:-----|:--------------------------|:--------------------------|:----------------------|:-----------------------------|:-----|
-#'  |2022  |-                          |297                        |3247                   |-                             |3544  |
-#'  |Total |0                          |297                        |3247                   |0                             |3544  |
+#'  |year  |not available in this year |not eligible for follow-on |eligible for follow-on |Total |
+#'  |:-----|:--------------------------|:--------------------------|:----------------------|:-----|
+#'  |2022  |-                          |297                        |3247                   |3544  |
+#'  |Total |0                          |297                        |3247                   |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next

@@ -44,18 +44,48 @@ Counts by year:\tabular{llllllll}{
 Other Adult Transitions: 
 \code{\link{boycott}},
 \code{\link{conoffcl}},
+\code{\link{eddone}},
+\code{\link{eddone1}},
+\code{\link{finind}},
+\code{\link{finind1}},
+\code{\link{ftwork}},
+\code{\link{ftwork1}},
 \code{\link{getmar}},
 \code{\link{getmar1}},
+\code{\link{givchng}},
 \code{\link{havchld}},
 \code{\link{havchld1}},
+\code{\link{hlpneedy}},
+\code{\link{ownhh}},
+\code{\link{ownhh1}},
+\code{\link{partthon}},
 \code{\link{signpet}},
 \code{\link{supfam}},
 \code{\link{supfam1}}
 
 Other Demonstrations: 
+\code{\link{antiwar}},
 \code{\link{boycott}},
+\code{\link{civright}},
 \code{\link{conoffcl}},
-\code{\link{signpet}}
+\code{\link{givchng}},
+\code{\link{hlpneedy}},
+\code{\link{partthon}},
+\code{\link{protest3}},
+\code{\link{prowar}},
+\code{\link{racists}},
+\code{\link{racpub}},
+\code{\link{racspeak}},
+\code{\link{ractch15}},
+\code{\link{revoltrs}},
+\code{\link{revpub}},
+\code{\link{revspeak}},
+\code{\link{revtch15}},
+\code{\link{rprtst3}},
+\code{\link{rprtst35}},
+\code{\link{school}},
+\code{\link{signpet}},
+\code{\link{strike}}
 }
 \concept{Adult Transitions}
 \concept{Demonstrations}

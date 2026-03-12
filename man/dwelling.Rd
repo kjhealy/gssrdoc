@@ -16,15 +16,10 @@ Question DWELLING TYPE.
 
 \itemize{
 \item \verb{[1]} trailer
-\item \verb{[2]} detached single family house
-\item \verb{[3]} 2-family house, 2 units side-by-side
-\item \verb{[4]} 2-family house, 2 units one above the other
-\item \verb{[5]} detached 3-4 family house
-\item \verb{[6]} row house (3 or more units in an attached row)
-\item \verb{[7]} apartment house (5 or more units, 3 stories or less)
-\item \verb{[8]} apartment house (5 or more units, 4 stories or more)
-\item \verb{[9]} apartment in a partly commercial structure
-\item \verb{[10]} other
+\item \verb{[2]} single family house
+\item \verb{[3]} multifamily house
+\item \verb{[4]} apartment
+\item \verb{[5]} other
 \item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
@@ -42,45 +37,98 @@ Question DWELLING TYPE.
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/5291/vshow}{GSS Data Explorer page for \code{dwelling}}.
 
-Counts by year:\tabular{lllllllllllllllll}{
-   year \tab iap \tab trailer \tab detached single family house \tab 2-family house, 2 units side-by-side \tab 2-family house, 2 units one above the other \tab detached 3-4 family house \tab row house (3 or more units in an attached row) \tab apartment house (5 or more units, 3 stories or less) \tab apartment house (5 or more units, 4 stories or more) \tab apartment in a partly commercial structure \tab other \tab no answer \tab don't know \tab not available in this year \tab not available in this release \tab Total \cr
-   1982 \tab - \tab 120 \tab 1155 \tab 88 \tab 73 \tab 36 \tab 96 \tab 197 \tab 59 \tab 8 \tab 11 \tab 17 \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab - \tab 82 \tab 1065 \tab 44 \tab 53 \tab 32 \tab 85 \tab 150 \tab 49 \tab 12 \tab 12 \tab 15 \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab - \tab 86 \tab 935 \tab 66 \tab 49 \tab 34 \tab 49 \tab 165 \tab 48 \tab 12 \tab 17 \tab 12 \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab - \tab 118 \tab 935 \tab 49 \tab 45 \tab 28 \tab 72 \tab 188 \tab 48 \tab 17 \tab 15 \tab 19 \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab - \tab 95 \tab 936 \tab 39 \tab 54 \tab 26 \tab 70 \tab 153 \tab 45 \tab 13 \tab 19 \tab 20 \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab - \tab 96 \tab 1140 \tab 73 \tab 50 \tab 31 \tab 83 \tab 207 \tab 84 \tab 14 \tab 27 \tab 14 \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab - \tab 113 \tab 848 \tab 52 \tab 52 \tab 39 \tab 99 \tab 177 \tab 56 \tab 8 \tab 10 \tab 27 \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab - \tab 117 \tab 1006 \tab 44 \tab 41 \tab 24 \tab 57 \tab 136 \tab 41 \tab 5 \tab 39 \tab 27 \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab - \tab 84 \tab 879 \tab 45 \tab 39 \tab 27 \tab 40 \tab 154 \tab 59 \tab 9 \tab 23 \tab 12 \tab 1 \tab - \tab - \tab 1372 \cr
-   1991 \tab - \tab 95 \tab 953 \tab 62 \tab 58 \tab 45 \tab 46 \tab 171 \tab 51 \tab 13 \tab 8 \tab 14 \tab 1 \tab - \tab - \tab 1517 \cr
-   1993 \tab - \tab 108 \tab 1043 \tab 45 \tab 37 \tab 31 \tab 78 \tab 189 \tab 57 \tab 4 \tab 13 \tab 1 \tab - \tab - \tab - \tab 1606 \cr
-   1994 \tab - \tab 195 \tab 1790 \tab 113 \tab 86 \tab 56 \tab 159 \tab 362 \tab 150 \tab 16 \tab 19 \tab 15 \tab 31 \tab - \tab - \tab 2992 \cr
-   1996 \tab - \tab 218 \tab 1700 \tab 100 \tab 77 \tab 54 \tab 153 \tab 361 \tab 155 \tab 14 \tab 30 \tab 30 \tab 12 \tab - \tab - \tab 2904 \cr
-   1998 \tab - \tab 173 \tab 1609 \tab 111 \tab 66 \tab 55 \tab 139 \tab 451 \tab 158 \tab 18 \tab 26 \tab 22 \tab 4 \tab - \tab - \tab 2832 \cr
-   2000 \tab - \tab 193 \tab 1574 \tab 98 \tab 72 \tab 71 \tab 167 \tab 384 \tab 169 \tab 8 \tab 20 \tab 57 \tab 4 \tab - \tab - \tab 2817 \cr
-   2002 \tab - \tab 197 \tab 1492 \tab 112 \tab 46 \tab 50 \tab 129 \tab 484 \tab 160 \tab 14 \tab 52 \tab - \tab 29 \tab - \tab - \tab 2765 \cr
-   2004 \tab - \tab 158 \tab 1841 \tab 106 \tab 52 \tab 54 \tab 117 \tab 334 \tab 59 \tab 12 \tab 23 \tab 9 \tab 47 \tab - \tab - \tab 2812 \cr
-   2006 \tab - \tab 299 \tab 2853 \tab 152 \tab 76 \tab 76 \tab 220 \tab 549 \tab 152 \tab 25 \tab 65 \tab 7 \tab 36 \tab - \tab - \tab 4510 \cr
-   2008 \tab - \tab 118 \tab 1336 \tab 62 \tab 25 \tab 34 \tab 89 \tab 224 \tab 73 \tab 8 \tab 23 \tab 3 \tab 28 \tab - \tab - \tab 2023 \cr
-   2010 \tab - \tab 107 \tab 1244 \tab 97 \tab 27 \tab 30 \tab 102 \tab 270 \tab 69 \tab 10 \tab 25 \tab 8 \tab 55 \tab - \tab - \tab 2044 \cr
-   2012 \tab - \tab 128 \tab 1269 \tab 61 \tab 53 \tab 48 \tab 74 \tab 246 \tab 78 \tab 7 \tab 4 \tab 6 \tab - \tab - \tab - \tab 1974 \cr
-   2014 \tab - \tab 116 \tab 1525 \tab 68 \tab 30 \tab 29 \tab 102 \tab 312 \tab 125 \tab 11 \tab 23 \tab 6 \tab 191 \tab - \tab - \tab 2538 \cr
-   2016 \tab - \tab 150 \tab 1840 \tab 104 \tab 62 \tab 38 \tab 129 \tab 400 \tab 119 \tab 9 \tab 14 \tab 2 \tab - \tab - \tab - \tab 2867 \cr
-   2018 \tab - \tab 138 \tab 1519 \tab 87 \tab 26 \tab 32 \tab 127 \tab 307 \tab 98 \tab 7 \tab 6 \tab 1 \tab - \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab 4032 \cr
-   Total \tab 0 \tab 3304 \tab 32487 \tab 1878 \tab 1249 \tab 980 \tab 2482 \tab 6571 \tab 2162 \tab 274 \tab 524 \tab 344 \tab 439 \tab 4032 \tab 0 \tab 56726 \cr
+Counts by year:\tabular{lllllllllll}{
+   year \tab not available in this year \tab trailer \tab single family house \tab multifamily house \tab apartment \tab other \tab no answer \tab don't know \tab iap \tab Total \cr
+   1982 \tab - \tab 120 \tab 1155 \tab 293 \tab 264 \tab 11 \tab 17 \tab - \tab - \tab 1860 \cr
+   1983 \tab - \tab 82 \tab 1065 \tab 214 \tab 211 \tab 12 \tab 15 \tab - \tab - \tab 1599 \cr
+   1984 \tab - \tab 86 \tab 935 \tab 198 \tab 225 \tab 17 \tab 12 \tab - \tab - \tab 1473 \cr
+   1985 \tab - \tab 118 \tab 935 \tab 194 \tab 253 \tab 15 \tab 19 \tab - \tab - \tab 1534 \cr
+   1986 \tab - \tab 95 \tab 936 \tab 189 \tab 211 \tab 19 \tab 20 \tab - \tab - \tab 1470 \cr
+   1987 \tab - \tab 96 \tab 1140 \tab 237 \tab 305 \tab 27 \tab 14 \tab - \tab - \tab 1819 \cr
+   1988 \tab - \tab 113 \tab 848 \tab 242 \tab 241 \tab 10 \tab 27 \tab - \tab - \tab 1481 \cr
+   1989 \tab - \tab 117 \tab 1006 \tab 166 \tab 182 \tab 39 \tab 27 \tab - \tab - \tab 1537 \cr
+   1990 \tab - \tab 84 \tab 879 \tab 151 \tab 222 \tab 23 \tab 12 \tab 1 \tab - \tab 1372 \cr
+   1991 \tab - \tab 95 \tab 953 \tab 211 \tab 235 \tab 8 \tab 14 \tab 1 \tab - \tab 1517 \cr
+   1993 \tab - \tab 108 \tab 1043 \tab 191 \tab 250 \tab 13 \tab 1 \tab - \tab - \tab 1606 \cr
+   1994 \tab - \tab 195 \tab 1790 \tab 414 \tab 528 \tab 19 \tab 15 \tab 31 \tab - \tab 2992 \cr
+   1996 \tab - \tab 218 \tab 1700 \tab 384 \tab 530 \tab 30 \tab 30 \tab 12 \tab - \tab 2904 \cr
+   1998 \tab - \tab 173 \tab 1609 \tab 371 \tab 627 \tab 26 \tab 22 \tab 4 \tab - \tab 2832 \cr
+   2000 \tab - \tab 193 \tab 1574 \tab 408 \tab 561 \tab 20 \tab 57 \tab 4 \tab - \tab 2817 \cr
+   2002 \tab - \tab 197 \tab 1492 \tab 337 \tab 658 \tab 52 \tab - \tab 29 \tab - \tab 2765 \cr
+   2004 \tab - \tab 158 \tab 1841 \tab 329 \tab 405 \tab 23 \tab 9 \tab 47 \tab - \tab 2812 \cr
+   2006 \tab - \tab 299 \tab 2853 \tab 524 \tab 726 \tab 65 \tab 7 \tab 36 \tab - \tab 4510 \cr
+   2008 \tab - \tab 118 \tab 1336 \tab 210 \tab 305 \tab 23 \tab 3 \tab 28 \tab - \tab 2023 \cr
+   2010 \tab - \tab 107 \tab 1244 \tab 256 \tab 349 \tab 25 \tab 8 \tab 55 \tab - \tab 2044 \cr
+   2012 \tab - \tab 128 \tab 1269 \tab 236 \tab 331 \tab 4 \tab 6 \tab - \tab - \tab 1974 \cr
+   2014 \tab - \tab 116 \tab 1525 \tab 229 \tab 448 \tab 23 \tab 6 \tab 191 \tab - \tab 2538 \cr
+   2016 \tab - \tab 150 \tab 1840 \tab 333 \tab 528 \tab 14 \tab 2 \tab - \tab - \tab 2867 \cr
+   2018 \tab - \tab 138 \tab 1519 \tab 272 \tab 412 \tab 6 \tab 1 \tab - \tab - \tab 2348 \cr
+   2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
+   Total \tab 4032 \tab 3304 \tab 32487 \tab 6589 \tab 9007 \tab 524 \tab 344 \tab 439 \tab 0 \tab 56726 \cr
 }
 }
 
 \seealso{
 Other Residence: 
+\code{\link{abroad}},
+\code{\link{agecmeus}},
+\code{\link{clsenei}},
+\code{\link{clsenoam}},
+\code{\link{clsestat}},
+\code{\link{clsetown}},
+\code{\link{clseusa}},
+\code{\link{comamind}},
+\code{\link{comtype}},
+\code{\link{comyear}},
+\code{\link{cshutyp06}},
+\code{\link{cshutyp08}},
+\code{\link{cshutyp10}},
 \code{\link{dwelcity}},
-\code{\link{dwelngh}}
+\code{\link{dwell5}},
+\code{\link{dwelling_8222}},
+\code{\link{dwelngh}},
+\code{\link{dwelown}},
+\code{\link{evdwell}},
+\code{\link{fear}},
+\code{\link{fearhome}},
+\code{\link{geomobil}},
+\code{\link{hspasn10}},
+\code{\link{liveasns}},
+\code{\link{livecom}},
+\code{\link{livecom1}},
+\code{\link{livehome}},
+\code{\link{livehsps}},
+\code{\link{loclived}},
+\code{\link{movenei}},
+\code{\link{movenoam}},
+\code{\link{movestat}},
+\code{\link{movetown}},
+\code{\link{moveusa}},
+\code{\link{region}},
+\code{\link{region_7222}},
+\code{\link{res16}},
+\code{\link{res161}},
+\code{\link{res2006}},
+\code{\link{size}},
+\code{\link{srcbelt}},
+\code{\link{xnorcsiz}}
 
 Other Dwelling (R's): 
+\code{\link{bornhome}},
+\code{\link{cshutyp06}},
+\code{\link{cshutyp08}},
+\code{\link{cshutyp10}},
 \code{\link{dwelcity}},
-\code{\link{dwelngh}}
+\code{\link{dwell5}},
+\code{\link{dwelling_8222}},
+\code{\link{dwelngh}},
+\code{\link{dwelown}},
+\code{\link{evdwell}},
+\code{\link{geomobil}},
+\code{\link{huclean}},
+\code{\link{res2006}},
+\code{\link{res2008}},
+\code{\link{res2010}}
 }
 \concept{Dwelling (R's)}
 \concept{Residence}

@@ -271,11 +271,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |morally opposed |not morally opposed |it depends |don't know |no answer |skipped on web |not available in this year |Total |
-#'  |:-----|:----|:---------------|:-------------------|:----------|:----------|:---------|:--------------|:--------------------------|:-----|
-#'  |2018  |-    |660             |632                 |995        |12         |49        |-              |-                          |2348  |
-#'  |2022  |2309 |255             |562                 |417        |-          |-         |1              |-                          |3544  |
-#'  |Total |2309 |915             |1194                |1412       |12         |49        |1              |0                          |5892  |
+#'  |year  |iap  |morally opposed |not morally opposed |it depends |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:---------------|:-------------------|:----------|:----------|:---------|:--------------|:-----|
+#'  |2018  |-    |660             |632                 |995        |12         |49        |-              |2348  |
+#'  |2022  |2309 |255             |562                 |417        |-          |-         |1              |3544  |
+#'  |Total |2309 |915             |1194                |1412       |12         |49        |1              |5892  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next
@@ -393,11 +393,11 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |yes  |no  |don't know |no answer |skipped on web |not available in this year |Total |
-#'  |:-----|:----|:----|:---|:----------|:---------|:--------------|:--------------------------|:-----|
-#'  |2018  |-    |1590 |633 |62         |63        |-              |-                          |2348  |
-#'  |2022  |2309 |965  |266 |-          |-         |4              |-                          |3544  |
-#'  |Total |2309 |2555 |899 |62         |63        |4              |0                          |5892  |
+#'  |year  |iap  |yes  |no  |don't know |no answer |skipped on web |Total |
+#'  |:-----|:----|:----|:---|:----------|:---------|:--------------|:-----|
+#'  |2018  |-    |1590 |633 |62         |63        |-              |2348  |
+#'  |2022  |2309 |965  |266 |-          |-         |4              |3544  |
+#'  |Total |2309 |2555 |899 |62         |63        |4              |5892  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family GSS Next

@@ -1,3 +1,7 @@
+# gssrdoc 0.9
+
+- - Update to harmonize with the 1972-2024 Release 3 version of the data (March 2026). 
+
 # gssrdoc 0.8.2
 
 - Update to harmonize with the 1972-2024 Release 2 version of the data (October 2025). 

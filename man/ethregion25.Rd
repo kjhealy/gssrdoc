@@ -11,8 +11,6 @@ ethregion25
 }
 \details{
 Question From what country or countries did your ancestors come?  Yugoslavia
-
-As of 2024, ETHREGION variables will only be available as restricted data, beginning with R2.
 }
 \section{Values}{
 

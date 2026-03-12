@@ -7,8 +7,8 @@
 #' 
 #' @section Values: 
 #'
-#'   * `[1]` art human spirit
-#'   * `[2]` art xprss artist
+#'   * `[1]` art works should celebrate what is most beautiful about the world and the human spirit
+#'   * `[2]` art works should freely express an artist’s deepest thoughts and emotions, good or bad
 #'   * `[NA(d)]` don't know `[NA(i)]` iap `[NA(j)]` I don't have a job `[NA(m)]` dk, na, iap `[NA(n)]` no answer `[NA(p)]` not imputable `[NA(r)]` refused `[NA(s)]` skipped on web `[NA(u)]` uncodeable `[NA(x)]` not available in this release `[NA(y)]` not available in this year `[NA(z)]` see codebook
 #'
 #' @section Question Years and Ballots: 
@@ -22,10 +22,10 @@
 #'
 #' Counts by year: 
 #'
-#'  |year  |iap  |art human spirit |art xprss artist |don't know |no answer |not available in this year |Total |
-#'  |:-----|:----|:----------------|:----------------|:----------|:---------|:--------------------------|:-----|
-#'  |1998  |1387 |538              |851              |23         |33        |-                          |2832  |
-#'  |Total |1387 |538              |851              |23         |33        |0                          |2832  |
+#'  |year  |iap  |art works should celebrate what is most beautiful about the world and the human spirit |art works should freely express an artist's deepest thoughts and emotions, good or bad |don't know |no answer |not available in this year |skipped on web |Total |
+#'  |:-----|:----|:--------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|:----------|:---------|:--------------------------|:--------------|:-----|
+#'  |1998  |1387 |538                                                                                    |851                                                                                    |23         |33        |-                          |-              |2832  |
+#'  |Total |1387 |538                                                                                    |851                                                                                    |23         |33        |0                          |0              |2832  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Religion and Culture

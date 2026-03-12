@@ -334,10 +334,10 @@ NULL
 #'
 #' Counts by year: 
 #'
-#'  |year  |not available in this year |batch 1 |batch 2 |iap  |not available in this release |Total |
-#'  |:-----|:--------------------------|:-------|:-------|:----|:-----------------------------|:-----|
-#'  |2022  |-                          |1211    |793     |1540 |-                             |3544  |
-#'  |Total |0                          |1211    |793     |1540 |0                             |3544  |
+#'  |year  |not available in this year |batch 1 |batch 2 |iap  |Total |
+#'  |:-----|:--------------------------|:-------|:-------|:----|:-----|
+#'  |2022  |-                          |1211    |793     |1540 |3544  |
+#'  |Total |0                          |1211    |793     |1540 |3544  |
 #'
 #' @source General Social Survey https://gss.norc.org
 #' @family Sampling and Weights

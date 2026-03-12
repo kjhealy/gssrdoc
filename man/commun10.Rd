@@ -43,7 +43,14 @@ Counts by year:\tabular{llllllllll}{
 
 \seealso{
 Other War and International: 
+\code{\link{brazil}},
+\code{\link{canada}},
+\code{\link{china}},
 \code{\link{commun}},
+\code{\link{egypt}},
+\code{\link{england}},
+\code{\link{israel}},
+\code{\link{japan}},
 \code{\link{russia}},
 \code{\link{usintl}},
 \code{\link{usun}},

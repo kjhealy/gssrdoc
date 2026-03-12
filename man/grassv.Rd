@@ -36,9 +36,9 @@ For further details see the \href{https://gssdataexplorer.norc.org/variables/759
 Counts by year:\tabular{llllllll}{
    year \tab iap \tab should be legal \tab should not be legal \tab don't know \tab no answer \tab skipped on web \tab Total \cr
    2021 \tab 2673 \tab 833 \tab 272 \tab 251 \tab 1 \tab 2 \tab 4032 \cr
-   2022 \tab 2970 \tab 355 \tab 116 \tab 103 \tab - \tab - \tab 3544 \cr
-   2024 \tab 2714 \tab 336 \tab 125 \tab 134 \tab - \tab - \tab 3309 \cr
-   Total \tab 8357 \tab 1524 \tab 513 \tab 488 \tab 1 \tab 2 \tab 10885 \cr
+   2022 \tab 2966 \tab 357 \tab 117 \tab 104 \tab - \tab - \tab 3544 \cr
+   2024 \tab 2712 \tab 337 \tab 126 \tab 134 \tab - \tab - \tab 3309 \cr
+   Total \tab 8351 \tab 1527 \tab 515 \tab 489 \tab 1 \tab 2 \tab 10885 \cr
 }
 }
 

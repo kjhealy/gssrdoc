@@ -45,17 +45,44 @@ Counts by year:\tabular{llllllll}{
 
 \seealso{
 Other Religious Attendance and Identity: 
+\code{\link{attreg}},
 \code{\link{attrelig}},
+\code{\link{attweek}},
+\code{\link{cathid}},
+\code{\link{charisma}},
+\code{\link{friday}},
 \code{\link{godoc}},
+\code{\link{mediarel}},
 \code{\link{monday}},
 \code{\link{numdays}},
+\code{\link{othrel}},
+\code{\link{othrel1}},
+\code{\link{othrel2}},
+\code{\link{othrel3}},
+\code{\link{relid1}},
+\code{\link{relid2}},
+\code{\link{relid3}},
+\code{\link{relidbst}},
+\code{\link{religid}},
+\code{\link{saturday}},
 \code{\link{seefilm}},
-\code{\link{sunday}}
+\code{\link{sunday}},
+\code{\link{thursday}},
+\code{\link{tuesday}},
+\code{\link{wednesdy}}
 
 Other Life Events: 
 \code{\link{attrelig}},
+\code{\link{extra1}},
+\code{\link{extra2}},
+\code{\link{famper6}},
 \code{\link{godoc}},
-\code{\link{seefilm}}
+\code{\link{prob1}},
+\code{\link{prob2}},
+\code{\link{prob3}},
+\code{\link{prob4}},
+\code{\link{seefilm}},
+\code{\link{solveown}}
 }
 \concept{Life Events}
 \concept{Religious Attendance and Identity}

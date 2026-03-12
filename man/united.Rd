@@ -15,8 +15,8 @@ Question A. There is a lot of discussion today about whether Americans are divid
 \section{Values}{
 
 \itemize{
-\item \verb{[1]} american are united
-\item \verb{[2]} american are divided
+\item \verb{[1]} americans are united
+\item \verb{[2]} americans are divided
 \item \verb{[NA(d)]} don't know \verb{[NA(i)]} iap \verb{[NA(j)]} I don't have a job \verb{[NA(m)]} dk, na, iap \verb{[NA(n)]} no answer \verb{[NA(p)]} not imputable \verb{[NA(r)]} refused \verb{[NA(s)]} skipped on web \verb{[NA(u)]} uncodeable \verb{[NA(x)]} not available in this release \verb{[NA(y)]} not available in this year \verb{[NA(z)]} see codebook
 }
 }
@@ -32,25 +32,180 @@ Question A. There is a lot of discussion today about whether Americans are divid
 
 For further details see the \href{https://gssdataexplorer.norc.org/variables/1380/vshow}{GSS Data Explorer page for \code{united}}.
 
-Counts by year:\tabular{llllllll}{
-   year \tab iap \tab american are united \tab american are divided \tab don't know \tab no answer \tab not available in this year \tab Total \cr
-   1993 \tab - \tab 518 \tab 1009 \tab 73 \tab 6 \tab - \tab 1606 \cr
-   1994 \tab 1518 \tab 581 \tab 810 \tab 73 \tab 10 \tab - \tab 2992 \cr
-   Total \tab 1518 \tab 1099 \tab 1819 \tab 146 \tab 16 \tab 0 \tab 4598 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab americans are united \tab americans are divided \tab don't know \tab no answer \tab not available in this year \tab skipped on web \tab Total \cr
+   1993 \tab - \tab 518 \tab 1009 \tab 73 \tab 6 \tab - \tab - \tab 1606 \cr
+   1994 \tab 1518 \tab 581 \tab 810 \tab 73 \tab 10 \tab - \tab - \tab 2992 \cr
+   Total \tab 1518 \tab 1099 \tab 1819 \tab 146 \tab 16 \tab 0 \tab 0 \tab 4598 \cr
 }
 }
 
 \seealso{
 Other Culture: 
+\code{\link{attsprts}},
+\code{\link{autorace}},
 \code{\link{bigband}},
+\code{\link{blues}},
 \code{\link{blugrass}},
+\code{\link{camping}},
+\code{\link{classicl}},
+\code{\link{classics}},
+\code{\link{colmajr1}},
+\code{\link{colmajr2}},
+\code{\link{conrock}},
+\code{\link{country}},
+\code{\link{dance}},
+\code{\link{dosports}},
+\code{\link{drama}},
+\code{\link{english}},
+\code{\link{excelart}},
+\code{\link{folk}},
+\code{\link{frdcreat}},
+\code{\link{frdcultr}},
+\code{\link{frddynam}},
+\code{\link{frdfun}},
+\code{\link{frdhonst}},
+\code{\link{frdintel}},
+\code{\link{frdresp}},
+\code{\link{garden}},
+\code{\link{gomusic}},
+\code{\link{gospel}},
+\code{\link{grtbooks}},
+\code{\link{hosthome}},
+\code{\link{hsclass1}},
+\code{\link{hsclass2}},
+\code{\link{huntfish}},
+\code{\link{hvymetal}},
+\code{\link{impcultr}},
+\code{\link{impfinan}},
+\code{\link{impgod}},
+\code{\link{impjob}},
+\code{\link{impkids}},
+\code{\link{impmar}},
+\code{\link{impself}},
+\code{\link{impthngs}},
+\code{\link{jazz}},
+\code{\link{judgeart}},
+\code{\link{latin}},
 \code{\link{lfechnce}},
 \code{\link{lfegenes}},
 \code{\link{lfegod}},
 \code{\link{lfehrdwk}},
 \code{\link{lfesocty}},
+\code{\link{makeart}},
+\code{\link{modpaint}},
+\code{\link{moodeasy}},
+\code{\link{mostimp1}},
+\code{\link{mostimp2}},
+\code{\link{mostimp3}},
+\code{\link{mostimp4}},
+\code{\link{musicals}},
+\code{\link{newage}},
 \code{\link{obtohelp}},
-\code{\link{opoutcme}}
+\code{\link{oldies}},
+\code{\link{opera}},
+\code{\link{opoutcme}},
+\code{\link{pclit}},
+\code{\link{perform}},
+\code{\link{plymusic}},
+\code{\link{popmusic}},
+\code{\link{rap}},
+\code{\link{readfict}},
+\code{\link{reggae}},
+\code{\link{richpoor}},
+\code{\link{seemovie}},
+\code{\link{selfirst}},
+\code{\link{standup}},
+\code{\link{trstprof}},
+\code{\link{tvnews}},
+\code{\link{tvpbs}},
+\code{\link{tvshows}},
+\code{\link{usevcr}},
+\code{\link{visitart}}
+
+Other Multiculturalism: 
+\code{\link{admirblk}},
+\code{\link{amissue}},
+\code{\link{amissue1}},
+\code{\link{amproud}},
+\code{\link{amrank}},
+\code{\link{asngovt}},
+\code{\link{bilinged}},
+\code{\link{blkgovt}},
+\code{\link{colaff}},
+\code{\link{colaffy}},
+\code{\link{congeth}},
+\code{\link{discaff}},
+\code{\link{discaffy}},
+\code{\link{discwhy1}},
+\code{\link{discwhy2}},
+\code{\link{discwhy3}},
+\code{\link{discwhy4}},
+\code{\link{discwhy5}},
+\code{\link{discwhy6}},
+\code{\link{econfutr}},
+\code{\link{econpast}},
+\code{\link{engballt}},
+\code{\link{engoffcl}},
+\code{\link{engteach}},
+\code{\link{ethhist}},
+\code{\link{ethid}},
+\code{\link{ethid1}},
+\code{\link{ethissu1}},
+\code{\link{ethissue}},
+\code{\link{ethorgs}},
+\code{\link{ethspkno}},
+\code{\link{ethspkok}},
+\code{\link{futrdown}},
+\code{\link{futrup}},
+\code{\link{gvtapart}},
+\code{\link{gvtmelt}},
+\code{\link{hspasn10}},
+\code{\link{hspgovt}},
+\code{\link{immecon}},
+\code{\link{immfare}},
+\code{\link{immpush}},
+\code{\link{immunemp}},
+\code{\link{immunite}},
+\code{\link{immwrkup}},
+\code{\link{jobaff}},
+\code{\link{letin}},
+\code{\link{meltpot}},
+\code{\link{obrespct}},
+\code{\link{owneth}},
+\code{\link{pastdown}},
+\code{\link{pastup}},
+\code{\link{rdiscaff}},
+\code{\link{rimmdisc}},
+\code{\link{schleth}},
+\code{\link{symptblk}},
+\code{\link{teacheth}},
+\code{\link{undoccol}},
+\code{\link{undockid}},
+\code{\link{undocwrk}},
+\code{\link{whoteach}},
+\code{\link{whtgovt}},
+\code{\link{wlthimm}},
+\code{\link{wlthundc}},
+\code{\link{workimm}},
+\code{\link{workundc}}
+
+Other Values: 
+\code{\link{agape1}},
+\code{\link{agape2}},
+\code{\link{agape3}},
+\code{\link{agape4}},
+\code{\link{impcultr}},
+\code{\link{impfinan}},
+\code{\link{impgod}},
+\code{\link{impjob}},
+\code{\link{impkids}},
+\code{\link{impmar}},
+\code{\link{impself}},
+\code{\link{impthngs}},
+\code{\link{openmind}},
+\code{\link{relcand}},
+\code{\link{relmarry}}
 }
 \concept{Culture}
 \concept{Multiculturalism}
